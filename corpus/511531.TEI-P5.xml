@@ -1,0 +1,1970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Ein Christliche Leichpredig</title>
+<title type="sub">Bey der Begräbnus/ weyllund der Edlen vnd Gestrengen Frawen/ Frawen Elisabeth Weltzerin von Eberstein</title>
+<author>
+<persName ref="http://d-nb.info/gnd/101021003">
+<surname>Stainer</surname>
+<forename>Bernhardin</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">55</measure>
+<measure type="tokens">12019</measure>
+<measure type="types">3578</measure>
+<measure type="characters">82720</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:10:20Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/511531</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/511531</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/511531</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/511531</idno>
+<idno type="DTADirName">511531</idno>
+<idno type="DTAID">200159</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-200159-0</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Stainer, Bernhardin: Ein Christliche Leichpredig. Tübingen, 1589.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Ein Christliche Leichpredig</title>
+<title level="m" type="sub">Bey der Begräbnus/ weyllund der Edlen vnd Gestrengen Frawen/ Frawen Elisabeth Weltzerin von Eberstein</title>
+<author>
+<persName ref="http://d-nb.info/gnd/101021003">
+<surname>Stainer</surname>
+<forename>Bernhardin</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">55</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Alexander Hock</name></publisher>
+<pubPlace>Tübingen</pubPlace>
+<date type="publication">1589</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 O 1035/15 / 511531</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#b">Ein Chriſtliche Leichpꝛedig/</hi></titlePart><lb/>
+<titlePart type="desc"><hi rendition="#b">Bey der Begraͤbnus/<lb/>
+weyllu<choice><sic>n</sic><corr>n</corr></choice>d der Edlen vnd Geſtrengen<lb/>
+Frawen/ Frawen Eliſabeth Weltzerin von Eber-</hi><lb/>
+ſtein/ zu Heyllegg/ Weltzenegg/ vnd Lemberg/ ꝛc. Gebornen<lb/>
+Reuenhuͤllerin vnd Freyin/ ꝛc. Den 11. Decem-<lb/>
+bris/ deß acht vnd achtzigiſten Jars/ zu<lb/>
+Clagenfurt gehalten.</titlePart></docTitle><lb/>
+<byline><hi rendition="#b">Durch</hi> <docAuthor><hi rendition="#b">M. Bernharden Steiner</hi></docAuthor><hi rendition="#b">.</hi></byline><lb/>
+<epigraph><cit><bibl><hi rendition="#aq">Eccleſiasti.</hi> 7.</bibl><lb/>
+<quote>Es iſt beſſer in das Klaghauß gehen/ den in das Trinck-<lb/>
+hauß/ in jenem iſt das Ende aller Menſchen/ vnd der<lb/>
+lebendige nimbts zu hertzen.</quote></cit></epigraph><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docImprint><hi rendition="#b">Getruckt zu</hi> <pubPlace><hi rendition="#b">Tuͤbingen</hi></pubPlace><hi rendition="#b">/ bey</hi> <publisher><hi rendition="#b">Alexander Hock</hi></publisher><hi rendition="#b">/</hi><lb/>
+<docDate><hi rendition="#aq">M. D. LXXXIX.</hi></docDate></docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="[2]"/>
+<pb facs="#f0003" n="[3]"/>
+<div type="preface" n="1"><salute><hi rendition="#c"><hi rendition="#fr">Dem Edlen vnd Ge-</hi><lb/>
+ſtrengen Herꝛn/ Herꝛn Victorio Wel-<lb/>
+tzer von Eberſtein/ zu Hallegg/ Weltzenegg/ vnd<lb/>
+Lemberg/ Fuͤrſt. D. Ertzhertzogens Carls zu Oſterreich/ ꝛc.<lb/>
+Raht/ vnd E. E. Landſchafft in Kaͤrnden Herꝛn/ Verordne-<lb/>
+ten vom Außſchuß/ ꝛc. Gottes gnade durch Chriſtum<lb/>
+Jheſum/ Frid/ troſt/ vnd freyde im Heyligen<lb/>
+Geiſte/ meinem gebietenden<lb/>
+Herren.</hi></salute><lb/>
+<p><hi rendition="#in">E</hi>Jn bekandte vnd vberauß lehꝛ vñ troſt-<lb/>
+reiche Hiſtoria/ wirdt vnder andern/<lb/>
+vom Heiligen Kuͤnigklichen Pꝛopheten<lb/>
+Dauid/ auch diſe geleſen/ als jhme ein<lb/>
+liebes kindt erkranckte/ wie das er anfangs/ in deſ-<lb/>
+ſelbigen gefahrlichen kranckheit vnd ſchwachheit/<lb/>
+zwar ſehꝛ trawrig geweſen/ Gott den Allmaͤchti-<lb/>
+tigen/ als den beſten Artzt/ vmb beſſerung erſucht/<lb/>
+mit Betten/ faſten/ trawrigem ligen auff der Er-<lb/>
+den/ darumben ſtarck angehalten/ vnd ſolches ge-<lb/>
+triben habe/ biß auff den ſibenden tag/ an woͤlch-<lb/>
+em das Kindle geſtorben: Bald es verſchieden/<lb/>
+ſich von ſtundan/ von der Erden auffgerichtet/ ge-<lb/>
+waſchen/ geſalbet/ vberkleidet/ in Tempel gegang-<lb/>
+en zu Betten/ geſſen vnd getruncken/ vnnd ſich nit<lb/>
+anderſt geſtelt (wie trawrig er zuvor geweſen) als<lb/>
+<fw place="bottom" type="sig">A 2</fw><fw place="bottom" type="catch">frewet</fw><lb/>
+<pb facs="#f0004" n="[4]"/>
+<fw place="top" type="header"><hi rendition="#b">Vorrede.</hi></fw><lb/>
+frewet er ſich des Todes/ ſeines Kindes. Da<lb/>
+ſich ſein hauß vnd Hoffgeſinde/ in diſe Geſchichte<lb/>
+<note place="left">„</note>nicht kunden verrichten/ habe er jhnen diſe ſchoͤne<lb/>
+<note place="left">„</note>antwort gegeben/ vmb das Kind faſtett ich/ vnnd<lb/>
+<note place="left">„</note>Wainet/ da es lebt/ den ich gedacht/ wer weiß/ ob<lb/>
+<note place="left">„</note>mir der Herꝛ gnaͤdig wird/ das daß Kind lebendig<lb/>
+<note place="left">„</note>bleibt. Nun es aber todt iſt/ waß ſoll ich faſten?<lb/>
+<note place="left">„</note>Kan ich auch jn widerumb holen? Jch werde wol<lb/>
+zu jme kom̃en/ Es kompt aber nit wider zu mir. 2.<lb/>
+Sam. 12. Wolte Gott/ wie bekand vñ gemein<lb/>
+diſe Hiſtoria vnd ſchoͤne exempel Dauids iſt/ das<lb/>
+man ſich auch derſelbigen/ in gleichem Haußereutz<lb/>
+anmaſte/ vnd nutzlich gebrauchete/ darumben ſie/<lb/>
+<note place="left">Rom. 25.</note>wie anders alles/ geſchriben wordẽ/ auff das wir<lb/>
+durch Geduldt/ vnnd troſt der Schꝛifft hoffnung<lb/>
+hetten.</p><lb/>
+<p>Den hie haben wir ein ſchoͤne kurtze/ vñ runde<lb/>
+<hi rendition="#aq"><hi rendition="#i">Inſtruction,</hi></hi> nach deren wir vns in ſolchen faͤllen/<lb/>
+wen vns liebe kinder/ Ehegenoſſen/ vñ andere lie-<lb/>
+be freunde erkrancken/ oder gar abſterben/ ſollen<lb/>
+vnnd muͤſſen <hi rendition="#aq"><hi rendition="#i">Regulieren,</hi></hi> damit wir vns hierinnen/<lb/>
+ſo wol/ als in anderm Chꝛiſtlich/ vnd vnanſtoͤßig<lb/>
+verhalten/ vnd wie im weinen/ klagen/ faſten/ als<lb/>
+auch mit Waͤſchen/ Salben/ eſſen/ trincken vnnd<lb/>
+der gleichen/ das ſelbige mittel treffen koͤnnen.</p><lb/>
+<fw place="bottom" type="catch">Wer</fw><lb/>
+<pb facs="#f0005" n="[5]"/>
+<fw place="top" type="header"><hi rendition="#b">Vorrede.</hi></fw><lb/>
+<p>Wer dieſes thun wil/ der muß in ſolchem ereutz/<lb/>
+vor allen dingen ſich erinnern/ wo alle Kranckhei-<lb/>
+ten/ ſampt dem zeitlichen tode/ deſſen vorbotten ſie<lb/>
+ſein/ herkom̃en/ Nemlichen/ auß der ſuͤnde/ Dann<lb/>
+gleich wie Dauid in ſeinem vnfal vom H. Pꝛophe<lb/>
+ten Nathan hoͤren muͤſte/ Der Son/ der dir ge-<note place="right">”</note><lb/>
+boꝛn iſt/ wird des todtes ſterben/ weil du die feinde<note place="right">”</note><lb/>
+des Herren/ haſt durch diſe geſchicht (dẽ Ehebruch<note place="right">”</note><lb/>
+vñ todſchlag) leſtern gemacht/ alſo muͤſſen wir al-<note place="right">”</note><lb/>
+le/ deß Falß vnſerer lieben erſten Eltern/ vnnd vn-<lb/>
+ſerer eigen Suͤnden entgeltẽ/ wie geſchꝛiben ſteht/<lb/>
+Das durch einen Menſchen/ die ſuͤnde in die welt<note place="right"><hi rendition="#aq">Rom.</hi> <gap reason="illegible" unit="chars" quantity="1"/>5.</note><lb/>
+kummen ſeye/ vnd der Todt durch die Suͤnde/ vnd<lb/>
+ſeye alſo der Tod zu allen Menſchen durch drun-<lb/>
+gen/ dieweil ſie alle haben geſuͤndiget/ Den Gott<lb/>
+(wie abermalen die Schꝛifft redet) hat den Men-<lb/>
+ſchen zum ewigen leben geſchaffen/ vnnd jhne ge-<note place="right"><hi rendition="#aq">Sap.</hi> 4.</note><lb/>
+macht zum Bilde/ das er gleich ſein ſoll/ wie er iſt/<lb/>
+Aber durch deß Teuffels Neid/ iſt der Tod in die<lb/>
+welt kum̃en/ vnd die ſeines teils ſind/ helffen auch<lb/>
+darzu/ ꝛc. Auß welchẽ worten wir lehꝛnen/ wen ein<lb/>
+Menſch erkranckt/ oder aber gar dahin Stirbt/<lb/>
+daß diſes nichts frembds oder newes ſeye/ dieweil<lb/>
+wir alleſamen die Suͤnde/ vñ vrſach deß Todes/<lb/>
+bey vns/ in vnſerm bueſem tragen/ wie der ſchatten<lb/>
+<fw place="bottom" type="sig">A 3</fw><fw place="bottom" type="catch">dem</fw><lb/>
+<pb facs="#f0006" n="[6]"/>
+<fw place="top" type="header"><hi rendition="#b">Vorrede.</hi></fw><lb/>
+dem Leib folget/ alſo ſchleichet vns der Todt ohne<lb/>
+vnderlaß auff der fueß ſolen nach/ Jſt eines/ deſ-<lb/>
+ſen vns gedachte Hiſtoria/ vñ Exempel Dauids/<lb/>
+erinnert.</p><lb/>
+<p>Gleich wie ferner Dauidt in ſeinem Hauß-<lb/>
+creutz/ zu dem lieben Gebett gegriffen/ vmb das<lb/>
+Kind geweinet/ gefaſtet/ vnd gebett/ der troͤſtlichen<lb/>
+zuuerſicht/ GOtt der Allmaͤchtige werde ſich er-<lb/>
+bitten/ vnd jhme ſein Kind lenger leben laſſen. Al-<lb/>
+ſo ſollen vñ muͤſſen wir jhme auch thun/ in ſolchen<lb/>
+faͤllen/ wider Gott nicht murren (wie die vngläu-<lb/>
+bigen thun/ welche/ wie die Hund/ wen ſie geworff<lb/>
+en werden/ dem Stein zu lauffen) ſonder jhne mit<lb/>
+glaͤubigem vnnd ernſtlichem Gebett erſuchen/ mit<lb/>
+<note place="left">Joa. 4.</note>dem Koͤnigiſchen ſpꝛechen: Herꝛ/ komm hinab/ ehe<lb/>
+den mein Kind ſtirbt/ ꝛc. Vnd glauben/ daß er bey<lb/>
+vns in vnſern noͤtten ſeye/ vns herauß reiſſen/ zu<lb/>
+ehren machen/ vnnd nicht mehꝛ auffladen werde/<lb/>
+denn was wir moͤgen ertragen. Wir moͤgen vñ<lb/>
+ſollen auch andere fuͤr vns/ vnd die vnſerigen bet-<lb/>
+ten laſſen. Vnd auff dem Bett der fuͤrbitt Chꝛiſt-<lb/>
+licher Gemeine/ vnſere kranckẽ/ Chꝛiſto Jeſu fuͤr-<lb/>
+bringen laſſen/ Den es kan/ wie der weiſe Mann<lb/>
+Syrach redet/ die ſtund kummẽ/ das dem kranck-<lb/>
+en allein durch jene (die fuͤrbitter) geholffen wer-<lb/>
+<fw place="bottom" type="catch">de/</fw><lb/>
+<pb facs="#f0007" n="[7]"/>
+<fw type="header" place="top"><hi rendition="#b">Vorrede.</hi></fw><lb/>
+de/ vnd geſund heit kriegen/ lenger zu leben. Syr.<lb/>
+38. Jſt dieſes das ander/ gedachter geyſtlichen <hi rendition="#aq"><hi rendition="#i">In-<lb/>
+ſtruction.</hi></hi></p><lb/>
+<p>Wie aber ferner (welches das dritte iſt) vnſer<lb/>
+vnd anderer Gebett muͤſſe geſchaffen ſein/ das es<note place="right">Joa. 9.</note><lb/>
+Gott gefalle (Sintemal kein ſuͤnder erhoͤrt wird)<lb/>
+lehret vns obgedachts Exempel des Koͤnigiſchẽ/<lb/>
+welcher dem woꝛt Jeſu geglaubet/ vnd allhie Da-<lb/>
+uidt in denen woꝛten/ da er ſagt/ Wer weiß ob mir<note place="right">”</note><lb/>
+der Herꝛ gnaͤdig wird/ das daß kind lebendig blei-<note place="right">”</note><lb/>
+be. Welches woꝛt ſeind/ nicht eines zweiffelhaff-<note place="right">”</note><lb/>
+tigen/ oder wie die waſſerwogen/ eines wanckel-<lb/>
+muͤttigen hertzens/ ſondern/ ein ſolch Gebett iſts/<lb/>
+in welchem der H. Mann/ nach GOttes willen<note place="right">2. Sam. 13</note><lb/>
+vnd wunſch <hi rendition="#aq"><hi rendition="#i">qualificieret,</hi></hi> Gott dem Allmaͤchtigen<lb/>
+die erhoͤrung (weil es vmb ein leibliche vñ zeitliche<lb/>
+Gabe zuthun geweſen) auß Glauben frey heim-<lb/>
+ſtellet/ der troͤſtlichen hoffnung vnnd zuuerſicht/ er<lb/>
+werde jhne ſeiner Bitt gewaͤren/ wie es Gott am<lb/>
+aller wolgefelligſten/ jme aber/ vnd ſeinem kranck-<lb/>
+en/ am nutzlichſten iſt/ wie auch jener Auſſetzige ge-<lb/>
+betten/ Herꝛ/ ſo du wilt/ kanſtu mich wol reinigẽ.</p><lb/>
+<p>Den S. Paulus ſaget/ wir wiſſen nit/ ſonder-<lb/>
+lichen aber in ſolchen faͤllen/ was wir betten ſollẽ/<lb/>
+wie ſichs gebuͤrt/ Gott aber weiß es/ wie/ wo/ vñ<lb/>
+<fw type="catch" place="bottom">wañ</fw><lb/>
+<pb facs="#f0008" n="[8]"/>
+<fw type="header" place="top"><hi rendition="#b">Vorrede.</hi></fw><lb/>
+wann es am beſten iſt/ vñ braucht an vns kein ar-<lb/>
+ge liſt/ das ſollen wir jhme vertrawen: denn Gott<lb/>
+hilffet/ wen er vns ſchon vnſers gefallens nicht je-<lb/>
+der zeit erhoͤret/ vnnd als ein getrewer vnnd lieber<lb/>
+Vatter/ gemeint es guͤt mit vns/ vñ gibt vns das/<lb/>
+das vns am beſten vnd nutzlichſtien iſt.</p><lb/>
+<p>Woͤlches abermalen Dauid zum beſten ver-<lb/>
+ſtanden/ in dem er (da das Kind verſchiden) ſich<lb/>
+als bald von der Erden auffrichtet/ vnd ehe/ weñ<lb/>
+er einig Speiſe oder Tranck zu ſich genom̃en/ zur<lb/>
+Kirchen/ oder dem Tempel zuͤ geeilet/ Gott fuͤr<lb/>
+ſeine vaͤtterliche wolthat hertzlich zudancken/ weil<lb/>
+es jhme wolgefallen/ ſein liebes Kind auß diſem<lb/>
+jam̃erthal zu ſich abzufordern/ das er demſelbigẽ<lb/>
+ſo bald auß ſeinem creutz vñ ſchmertzen geholffen/<lb/>
+vñ zu ſich genom̃en habe/ mit gantz troͤſtlichen an-<lb/>
+gehenckten woꝛten: Das da nun mehr kein wider-<lb/>
+kehren ſeye/ er zwar/ werde zum kinde kom̃en/ aber<lb/>
+das Kind nicht wider zu jhme. Vnd iſt diſes das<lb/>
+vierdte offtgedachter vnſer geiſtlichen <hi rendition="#aq"><hi rendition="#i">Inſtruction,</hi></hi><lb/>
+wenn wir gebettet/ vmb vnſer vnnd der vnſerigen<lb/>
+geſundheit/ auch friſtung deß lebens angehalten/<lb/>
+hierinnen auch (weil es zeitliche vnd leibliche Ga-<lb/>
+ben) vnſern in Gottes willen geſetzt haben/ ſehen<lb/>
+darneben vnſere liebe Kinder/ Ehegenoſſen vnd<lb/>
+Freund/ im friden dahin fahren/ das wir in ſolch-<lb/>
+<fw type="catch" place="bottom">en</fw><lb/>
+<pb facs="#f0009" n="[9]"/>
+<fw type="header" place="top"><hi rendition="#b">Vorrede.</hi></fw><lb/>
+en traurigen vnd biß weilen vnſerer vernunfft zu-<lb/>
+uerhofften faͤhlen/ nicht Murren/ noch vngedul-<lb/>
+dig werden/ Sonder Gott vmb ſein Gericht vñ<lb/>
+Werck danck ſagen/ vnd mit dem lieben Job/ mit<lb/>
+glaubigem hetzen Sprechen/ Jch bin nacket auß<lb/>
+meiner Muͤtter leybe kummen/ Nacket werde ich<lb/>
+wider dahin fahren/ Der Herꝛ hats gegeben/ der<lb/>
+Herꝛ hats genumẽ/ der Nam des Herꝛn ſey gelo-<lb/>
+bet/ damit wir in diſem allem nit ſuͤngẽ/ oder waß<lb/>
+thaͤtlichers thun wider GOtt/ oder (wie oben ge-<lb/>
+meldet worden) im Weinen/ ſo wol als im Lachẽ/<lb/>
+das ſelbige Mittel treffen.</p><lb/>
+<p>Diſes alles/ Edler vñ Geſtrenger Herꝛ/ ſchrei-<lb/>
+be ich nicht darumben/ als wiſſen es E. G. nicht<lb/>
+zuuor vnd beſſer/ den ich es darbringen kan/ ſon-<lb/>
+dern vmb vnſers Troſtes/ vnd der hoffnung wil-<lb/>
+len/ damit ſich die ſelbigen in gegenwaͤrtigem/ der<lb/>
+ſelbigen Haußcreutz/ leyd vnd traurigkeit zu troͤſtẽ<lb/>
+hetten/ vnd Chꝛiſtlich zuerinnern/ wie das der ſel-<lb/>
+bigen liebe Fꝛaw Gemahel/ ein Gottſelige/ nicht<lb/>
+vnegefahꝛ/ ſondern durch Gottes willen/ vnnd<lb/>
+ſchickunge/ weil ſie ſo wol/ als wir alle/ eine Suͤn<lb/>
+derin geweſen/ geſtorben ſeye.</p><lb/>
+<p>Daß auch weder E. G. ſtättiges ſeufftzen/ fle-<lb/>
+hen/ vnnd betten/ noch vnſer aller/ die vmb ſie ge-<lb/>
+weſen/ emſiges anhaltẽ/ noch der gantzen Gemei-<lb/>
+<fw type="sig" place="bottom">B</fw><fw type="catch" place="bottom">ne</fw><lb/>
+<pb facs="#f0010" n="[10]"/>
+<fw type="header" place="top"><hi rendition="#b">Vorrede.</hi></fw><lb/>
+ne firbitt/ nichts erſpꝛuͤſſen woͤllen/ ſeye darum̃en<lb/>
+geſchehen/ das der Allmaͤchtige Gott/ vnd vnſer<lb/>
+aller getrewer Vatter/ ein anders vor jhme ge-<lb/>
+habt/ Nemlichen/ ſie (wie Dauids Kind) auß<lb/>
+jrem creutz der langwirigen vñ ſchweren Kranck-<lb/>
+heiten/ ſonderlich aber des Hauptes/ zuerloͤſen/<lb/>
+vnd ſie zu der thuͤr/ der ewigen frewd vnd ſeligkeit<lb/>
+hat bringen vnnd fuͤrdern woͤllen. Gleich wie<lb/>
+Dauid zu ſeinem lieben Kind iſt kommen/ alſo iſt<lb/>
+E. G. liebe Fraw Gemahel kommen/ zu jhrem<lb/>
+naͤchſtuerſtorbnen liebſten Eliſabeht/ vnd andern<lb/>
+jhren lieben Kindern vnd Freunden/ woͤlche mit<lb/>
+hertzlichem verlangẽ auff ſie gewartet/ in maſſen<lb/>
+ſie ſelbſten auch bey denſelbigen zu ſein/ fuͤr jhre<lb/>
+Perſon/ hertzlichen gewinſchet/ wie ſie es mit jrem<lb/>
+Gottſeligem geſpꝛech/ vom ewigen ſeeligen leben/<lb/>
+mit mir gehalten/ dargethon/ vnnd zuuerſtehn ge-<lb/>
+ben/ vnd deßwegen/ biß in jr Ende/ vmb der hoff-<lb/>
+nung willen/ gedultig geweſen.</p><lb/>
+<p>Wann ſich neben diſem allem E. G. auch jres<lb/>
+Tugendreichen vnd Gottſeligen wandels/ vnnd<lb/>
+Chꝛiſtlichen zugebꝛachten lebens erinnern/ bedẽ-<lb/>
+cken auch/ wie Chꝛiſtlichen ſie ſich zu jhrem Ende<lb/>
+geſchicket/ auff die Himmelfart ſich gerichtet/ vnd<lb/>
+jhr leben/ mit dem frummen Dauid/ jres Endes<lb/>
+<fw type="catch" place="bottom">mehr/</fw><lb/>
+<pb facs="#f0011" n="[11]"/>
+<fw place="top" type="header"><hi rendition="#b">Vorrede.</hi></fw><lb/>
+mehr/ den des kuͤmmerlichen vñ krancken lebens/<lb/>
+haben zu troͤſten/ Ja/ Gott dem Allmaͤchtigen im<lb/>
+Tempel dancken/ vnd/ demnach allhie kein wider-<lb/>
+kern mehꝛ iſt/ mit offtgedachtem H. Mann Got-<lb/>
+tes/ dem H. Pꝛopheten Dauid ſpꝛechen/ was ſoll<lb/>
+ich klagen vñ trawren? Was ſol ich Faſten? Kan<lb/>
+ich ſie auch widerumben holen? Jch werde wol<lb/>
+zu jhr/ vnd meinen/ in Gott ruͤhenden Kinderlein<lb/>
+kummen/ Sie aber kumbt nicht wider zu mir. Jn<lb/>
+maſſen ſich E. G. hierinnen beſſer/ den ich es zu<lb/>
+ſchreiben kan vnd weiß/ wiſſen zuuerhalten.</p><lb/>
+<p>Das ich aber diſe Pꝛedige/ bey der Beſtaͤttigũg/<lb/>
+Weyllund der Edlen vnnd Geſtrengen Fꝛawen/<lb/>
+Fꝛawen Eliſabeth Weltzerin/ von Eberſtein/ ꝛc.<lb/>
+E. G. geliebten Fꝛawen Gemahel/ in Gottſeli-<lb/>
+gen gehalten/ auch geſchriben/ vñ mit diſer Papy-<lb/>
+rener nachguͤltigen verehrunge/ E. G. der zeit<lb/>
+fuͤrkom̃e/ geſchicht ſolches nicht darumben/ das jr<lb/>
+etlich/ jre nachfrag darnach gehabt/ vnd ſie zu le-<lb/>
+ſen begert (Sintemal dergleichen Pꝛedigen/ von<lb/>
+andern/ ſo wol als võ mir/ mehr werdẽ gehalten)<lb/>
+ſundern den Glauben vnd Gottſeeligen wandel/<lb/>
+einer ſo hochbegabten vnnd tugendreichen/ gegen<lb/>
+jedermaͤnigklichen/ auch/ ſonderlich aber vmb die<lb/>
+Armen woluerdienten Mutter vnd Ehren Ma-<lb/>
+<fw place="bottom" type="sig">B 2</fw><fw place="bottom" type="catch">tron/</fw><lb/>
+<pb facs="#f0012" n="[12]"/>
+<fw type="header" place="top"><hi rendition="#b">Vorrede.</hi></fw><lb/>
+tron/ in friſcher gedaͤchtnuͤß jeder zeit zuerhalten/<lb/>
+Andere jres gleichen Adelicher/ Gottsfoͤrchtige/<lb/>
+vnd gegen den Armen geneigte Tabeas/ in gleich-<lb/>
+en Tugenden/ vñ werben zu ſtreben/ Sonderlich-<lb/>
+en aber/ jre hinderlaſſne Erben/ Son vnd Toch-<lb/>
+ter/ dem Edlen vñ Geſtrengen Junckern/ Weltzer<lb/>
+von Eberſtein/ ꝛc? Dann auch die Wolgeborne<lb/>
+Fꝛawen/ Fꝛawen Mariam von Dietrichſtein/<lb/>
+Freyin auff Hollenburg/ vñ Finckenſtein/ ꝛc. mei-<lb/>
+nem gꝛoß guͤnſtigen Junckern/ vñ (in gebier) guͤn-<lb/>
+ſtige Fꝛawen/ zur folge gleicher Muͤtterlicher Tu-<lb/>
+genden zuerwecken/ Deßwegen ich auch einen/<lb/>
+meines erachtens/ hierzu dienſtlichen Text/ vnnd<lb/>
+Hiſtoria/ von der from̃en/ der Armen zu Joppen<lb/>
+Muͤtter/ Tabea/ zwar nicht noch notturfft/ ſon-<lb/>
+dern nach vermoͤgen/ woͤlches Gott der Allmaͤch<lb/>
+tige auß gnaden dargereicht/ zu erklaͤren/ an die<lb/>
+haͤnde genom̃en. Endlichen auch meine ſchuldi-<lb/>
+ge danckbarkeit/ gegen E. G. vnnd derſelben in<lb/>
+Gott rhuhenden Frawen Gemahel/ meinen inn<lb/>
+gebier/ vilgeliebten Frawen Gefatterin/ in Gott<lb/>
+ſeligen/ fuͤr die/ ſo mir vnd den meinigen/ in die 15.<lb/>
+Jarlang/ vilfaͤltige erzeigte wolthaten/ zuerzei-<lb/>
+gen.</p><lb/>
+<p>Wie trewhertzig nun/ ſchlecht vnd gerecht/ ich<lb/>
+<fw type="catch" place="bottom">diſe</fw><lb/>
+<pb facs="#f0013" n="[13]"/>
+<fw type="header" place="top"><hi rendition="#b">Vorrede.</hi></fw><lb/>
+diſe Pꝛedige gehalten vñ geſchriben. Alſo mit guͤn-<lb/>
+ſtigem willen/ bitte ich/ woͤllen ſie E. G. vnd der-<lb/>
+ſelbigen geliebten obgedachte Erben/ von mir/ der<lb/>
+ſelbigen vnmuͤndigen diener/ auff vñ anzunemen<lb/>
+wuͤrdigen/ Denen ich mich hiemit in aller gehor-<lb/>
+ſame/ ſam̃t meinem kleinen hauffen vnderthaͤnig-<lb/>
+lichen befelhe. GOtt den Allmaͤchtigen/ durch<lb/>
+Chꝛiſtum Jheſum von hertzen bittende/ Er woͤlle<lb/>
+E. G. im gegenwuͤrtigem Layd/ durch ſeinen H.<lb/>
+guͤten Geiſt/ Vaͤtterlichen troͤſten/ dañ auch der-<lb/>
+ſelben geliebten Erben/ vnnd gantzem gemeinem<lb/>
+vnſers lieben Vatterlandts/ Nutzen zu guttem/<lb/>
+langwuͤrige vnd beſtendige geſundtheit verleyhen/<lb/>
+Das zeitliche leben/ ſeinem Vaͤtterlichen willen<lb/>
+vñ wolgefallen/ noch lenger friſten/ ein vernuͤnff-<lb/>
+tiges Gottſeliges Ende beſcheren/ vñ nach diſem<lb/>
+verleyhen/ das Ewige/ in Chꝛiſto Jheſu vnſern<lb/>
+Herꝛn/ Amen. Datum Clagenfurt/ den 21.<lb/>
+Decembris/ im ein tauſend fuͤnff hundert/ acht vñ<lb/>
+achtziggiſten Jar.</p><lb/>
+<closer><salute><hi rendition="#et">E. G.<lb/>
+Vnderthaͤniger Caplan/<lb/>
+M. Bernhard Steiner/ E. E.<lb/>
+Land/ in Kaͤrnden/ am Euan-<lb/>
+gelio beſtelter Diener.</hi></salute></closer></div><lb/>
+<pb facs="#f0014" n="[14]"/>
+<div type="fsSermon" n="1"><head/>  <div type="fsBibleVerse" n="2"><head><hi rendition="#aq">ACTORVM. IX.</hi></head><lb/>
+<cit><quote><p><hi rendition="#in">Z</hi>V Joppe aber war eine Juͤngerin/ mit Na-<lb/>
+men Tabea/ woͤlches verdolmetſchet heiſſet/<lb/>
+ein Rehe/ die war vol guͤter Werck vñ Almoſen/<lb/>
+die ſie thet. Es begab ſich aber zu der ſelbigen zeit/<lb/>
+daß ſie kranck ward/ vñ ſtarb. Da wuſchẽ ſie die<lb/>
+ſelbige/ vnd legten ſie auff den Soͤller. Nun aber<lb/>
+Lidda nahe bey Joppen iſt/ da die Juͤnger hoͤrten/<lb/>
+daß Petrus daſelbſt war/ ſantden ſie zu jhm/ vnd<lb/>
+vermanten jhn/ das er ſichs nit lieſſe verdrieſſen/<lb/>
+zu jhnen zu kommen.</p><lb/>
+<p>Petrus aber ſtunde auff/ vnnd kam mit jhnen.<lb/>
+Vnd als er darkom̃en war/ fuͤhretẽ ſie jn hinauff<lb/>
+auff den Soͤller/ vñ traten vmb jn alle Witwen/<lb/>
+weyneten/ vnd zeigten jm die Roͤcke vnd kleyder/<lb/>
+welche die Rehe machte/ weil ſie bey jhnen war.<lb/>
+Vnnd da Petrus ſie alle hinauß getriben hatte/<lb/>
+kniet er nider/ bettet/ vnd wande ſich zu dem Leich-<lb/>
+nam/ vnd ſpꝛach: Tabea/ ſtehe auff. Vnd ſie that<lb/>
+jhre Augen auff/ vnd da ſie Petrum ſahe/ ſatzte ſie<lb/>
+ſich wider. Er aber gab jr die hand/ vnd richtet ſie<lb/>
+auff/ vnd rieff den Heyligen vnd den Witwen/ vñ<lb/>
+ſtellet ſie lebendig dar. Vnd es war kundt/ durch<lb/>
+gantz Joppen/ vnnd vil wurden glaͤubig an den<lb/>
+Herꝛn.</p></quote><bibl/></cit></div><lb/>
+<fw type="catch" place="bottom"><hi rendition="#b">Auß-</hi></fw><lb/>
+<pb facs="#f0015" n="[15]"/>
+<div type="fsExordium" n="2"><head><hi rendition="#b">Außlegung.</hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">W</hi>Jr ſeind/ geliebte in Chꝛiſto Jeſu/ auff</hi><lb/>
+diß mal/ in einem ſehr trawrigen vñ klaͤg-<lb/>
+lichen Namen beyſamen/ vnd wolten vil<lb/>
+lieber Lachen/ den Waynen/ vns Frewen/<lb/>
+den Klagen/ in dem wir abermahlen eine Gottſelige<lb/>
+mit Schweſter in Chꝛiſto Jheſu/ hieher belaytet ha-<lb/>
+ben/ dieſelbige/ Chꝛiſtlicher Ordnung nach/ zu der<lb/>
+Erden zubeſtettigen/ Weylund die Edele vnnd Ge-<lb/>
+ſtrenge Fraw/ Frawen Eliſabeth Weltzer in/ von E-<lb/>
+berſtein/ zu Hallegg/ Weltzenegg vnnd Lemberg/ ꝛc.<lb/>
+Geborne Keuenhillerin vnd Freyen/ ꝛc. Weil aber<lb/>
+alles ſeine zeit hat/ Waynen ſo wol/ als Lachen/ vnnd<note place="right">Eccle. 3.</note><lb/>
+beſſer iſt/ ſich jm Klag/ den im Trinckhauß findẽ zu-<lb/>
+laſſen/ vmb des Endes willen aller Menſchen/ deſſen<note place="right">Ib. 7.</note><lb/>
+ſich dielebendigen erinnern/ vnd (der Lehre Salomo-<lb/>
+nis nach) jeder zeit zu hertzen nemen ſollẽ. Wil es vns<note place="right">Rom. 14.</note><lb/>
+gebuͤren auff diß mal/ mit den Waynenden zu way-<lb/>
+nen/ dar mit vnſere mitleydige hertzen/ auß Chꝛiſtlich-<lb/>
+er vnd bruͤderlicher liebe/ gegen dem klagen den zuent-<lb/>
+decken/ vnd entlich mit diſem vnſe<supplied>r</supplied>m Geleyt/ gedach-<lb/>
+ter vnſer Mitſchweſter/ zu der ſelbẽ Ruhbetlein/ vn-<lb/>
+ſere letzte Ehre zuerzeigen. Damit nun wir/ die le-<lb/>
+bendigen/ neben diſem/ ohne lehre vnd troſt von ein an-<lb/>
+der nicht gehen/ wie auch der verſtorbnen Ehrlich ge-<lb/>
+dencken moͤgen/ hat mich fuͤr nutzlich vnnd gut ange-<lb/>
+ſehen/ verleſnen Tevt E. E. L. Zuerkleren/ als der<lb/>
+ſich/ meines verhoffens/ auff gegen wertigen klaͤglich-<lb/>
+en fahl/ nicht vbel ſchicken/ vñ voller Lehren vnd troſt<note place="right">Jnhalt/ verleſſ-<lb/>
+ner Hiſtorien.</note><lb/>
+ſein wird. Den das ich ſeines in halts kuͤtzlich geden-<lb/>
+<fw place="bottom" type="sig">B 4</fw><fw place="bottom" type="catch">cke/</fw><lb/>
+<pb facs="#f0016" n="[16]"/>
+<fw type="header" place="top"><hi rendition="#b">Ein Chriſtliche Leichpredigt/</hi></fw><lb/>
+cke/ wirdt vns darinnen ein ſchoͤne Hiſtoria beſchri-<lb/>
+ben/ von einer Gottſeligen Matron/ wie die ſelbige<lb/>
+glaubig worden/ Gottsfoͤrchtig gelebt/ vnnd gantz<lb/>
+loͤblich bey de/ gegen Gott/ vnnd jhrem Naͤchſten/ ſich<lb/>
+habe verhalten. Darunder aber/ vnuerſehens er-<lb/>
+kranckt/ vnnd Geſtorben/ mit groſſem hinderlaſſnen<lb/>
+Klagen vnnd Waynen/ viler/ ſonderlich der Armen/<lb/>
+Endlich durch den lieben H. Apoſtel Petrum/ wun-<lb/>
+derbarlich widerumen vom Tode auffer wecket/ vnd<lb/>
+lebendig worden.</p><lb/>
+<div n="3"><head/>  <p><note place="left">Abteylung der<lb/>
+Hiſtorien.</note>Vmb mehrers verſtands/ vnd beſſerer gedaͤchtnuß<lb/>
+willẽ/ woͤllen wir ſie/ fuͤr diſe einfaͤltige vermanunge/<lb/>
+in folgende drey ſtuͤcken ab teyllen. Vnd Erſtlich re-<lb/>
+den/ vom Glauben/ Leben/ wandel/ Tod vnnd ſchey-<lb/>
+dung Taber. Zum andern/ vom herꝛlichen Wunder-<lb/>
+werck S. Petti/ wie diſe Tabea von Tode widerumb<lb/>
+aufferwecket/ vnd durch S. Petrum lebendig darge-<lb/>
+ſtellet worden. Endlichen/ was diſes Wunderzeich-<lb/>
+en/ bey maͤnigklichen/ fuͤr deren Ohren es kum̃en/ auß<lb/>
+gerichtet habe/ neben bey jedwederem ſtuͤcklen in ſon-<lb/>
+derheit/ vnſere lehren vnd troſt auff das einfaͤltigeſte<lb/>
+vnnd kuͤrtzeſte anzeigen/ darzu der Allmaͤchtige die<lb/>
+gnade/ ſeines H. vnd gutten Geiſtes verleyhen woͤlle/<lb/>
+Amen.</p></div></div><lb/>
+<div type="fsMainPart" n="2"><head/>  <div n="3"><head><hi rendition="#b">Vom Erſten.</hi></head><lb/>
+<p><note place="left">Legend Tabea.</note><hi rendition="#in">W</hi>Eyl dem H. Geiſt an diſer Geſchicht/ ſehꝛ vil ge-<lb/>
+legen/ wirt ſie durch deſſelben eingeben/ vom H.<lb/>
+Euangeliſten Luca/ mit villen vm̃ſtenden/ auff<lb/>
+das trewlichſte vnnd fleiſigſte beſchriben. Erſtlich/<lb/>
+<fw type="catch" place="bottom">gedenck-</fw><lb/>
+<pb facs="#f0017" n="[17]"/>
+<fw place="top" type="header"><hi rendition="#b">Eliſabehta Weltzerin/ von Eberſtein/ ꝛc.</hi></fw><lb/>
+gedencket deß Namens vnd ſpꝛicht/ Diſe Ehꝛenma-<lb/>
+tron habe geheiſſen/ Tabea/ oder wie im Griechiſchen<lb/>
+Tevt ſtund/ Tabitha/ welchs auß Syriſcher Spꝛach<lb/>
+verdolmetſchet heiſſet/ ein Rech. Die ſo gedachter/<lb/>
+wie auch der Hebꝛaiſchen vnnd Griechiſchen/ ſpꝛach-<lb/>
+en kuͤndig ſein/ geben fuͤr/ die Rehen haben diſen Na-<lb/>
+men daher/ weil ſie fuͤr andre Thier ein guttes vnnd<lb/>
+ſcharpffes geſicht haben.<note place="right">Warumb Ta<supplied>-</supplied><lb/>
+bea/ ein Rech<lb/>
+genend <supplied>w</supplied>erde.<lb/>
+Vnd/ wie diſes<lb/>
+geiſtlich zuners<lb/>
+ſtehn ſeye.</note></p><lb/>
+<p>Ein ſolch ſcharpſichtiges Rech iſt geweſen auch<lb/>
+diſe vnſere Tabea. Den ob ſie wol anfangs bey de vm̃<lb/>
+jhrer ſuͤndlichen entpfengnus vnd geburt/ dann auch<lb/>
+vmb der finſternuß jhrer vnwiſſenheit/ vñ der Abgoͤt-<lb/>
+terey willen/ in deren ſie geſtecket/ vbelſehend/ Ja wol<lb/>
+gar ſtarblind geweſen/ vnd des volcks eine/ von welch-<note place="right">Eſa. 9.<lb/>
+Matt. 4.</note><lb/>
+em der H. Apoſtel vnd Euangeliſt Mattheus/ auß<lb/>
+Eſaia ſchreibet/ daß in Finſternus/ vnnd am ort/ vnd<lb/>
+ſchatten des Todts geſiſſen/ iſt ſie doch ſehend/ vnd ſo<lb/>
+ſcharpffſichtig woꝛden/ das ſie Abrahams Augen be-<lb/>
+kummen/ ſeine Tochter vnnd eine Juͤngerin Chꝛiſti<lb/>
+(wie Lucas hie redet) woꝛden/ den diſer iſt das groſſe<note place="right">Eſa. 49.</note><lb/>
+liecht vnd der Morgenſtern/ woͤlchen das Land Za-<lb/>
+bulon/ vñ das Land <hi rendition="#aq">Nepthalim,</hi> am wege des Meers/<note place="right">pſal. 4.</note><lb/>
+Jenſeid deß Jordans/ vnnd die Heydntſche Galilea/<lb/>
+hat geſehen/ ja die Soñ der Gerechtigkeit/ woͤlche alle<lb/>
+Wolcken/ Naͤbel vnd F<supplied>i</supplied>nſternuſſen/ deß vnglaubens<lb/>
+zurtrennet/ vertreiber vnd auff<supplied>ri</supplied>ſſet.</p><lb/>
+<p>Diſes Geſicht hat ſie bekummen/ durch die Pꝛe-<lb/>
+digt/ des H. Euangelions/ vnnd alſo auß einem wil-<lb/>
+den Rech/ eine Zame Tabea worden/ Jnn dem ſie die<lb/>
+wilde waydedes vnglaubens/ deß vnuerſtands vñ fal-<note place="right">pſalm. 23.</note><lb/>
+ſcher lehꝛe verlaſſen/ vnnd ſich auff die gruͤnen Awen/<lb/>
+<fw place="bottom" type="sig">C</fw><fw place="bottom" type="catch">vnd</fw><lb/>
+<pb facs="#f0018" n="[18]"/>
+<fw type="header" place="top"><hi rendition="#b">Ein Leichpredig/ Frawen</hi></fw><lb/>
+vnd geſunde Wayde begeben/ der Pꝛedige von Chꝛiſto<lb/>
+Jeſu dem Ertzhirten vnſerer aller Selen/ von woͤlch-<lb/>
+em die liebe H. Apoſtel/ in gantzem Judea/ Galilea/<lb/>
+vnd Samaria haben gepꝛediget/ wie Lucas in vorge-<lb/>
+hen den worten/ diſes Capitels Zeuget. Vnd eben vm̃<lb/>
+diſer vrſachen willen/ wirdt diſe geiſtliche Wayde vom<lb/>
+H. Pꝛopheten/ ein <hi rendition="#aq">præceptum DOMINI</hi> genennet/<lb/>
+<hi rendition="#aq">illuminans oculos,</hi> das iſt: ein ſolch Gebott/ dz die Au-<lb/>
+gen erleuchten. Wol denen Rehen/ die ſich hie Way-<lb/>
+den/ den es gibt neben der erleuchtung der Augẽ/ auch<lb/>
+fette Seelen in wolluſt/ die nimmer mehꝛ ſterben. E-<lb/>
+ſaie. 55. Souil vom Namen Tabe<hi rendition="#aq">æ</hi>.</p><lb/>
+<p>Es heiſſet ſie Lucas alhie ferner auch eine Juͤnge-<lb/>
+<note place="left">Wie/ vnd wo-<lb/>
+der/ Tabca ein<lb/>
+Juͤngerin Chri<lb/>
+ſti worden.</note>rin. Was iſt ein Juͤnger/ oder Juͤngerin<supplied>?</supplied> Juͤnger/<lb/>
+wie auß vor vñ nachgehendẽ Geſchichten diſes Buchs<lb/>
+zuſehen/ hat man in der Erſten Kirchen geheiſſen/ alle<lb/>
+<note place="left">Act. 2. 6.</note>Glaͤubigen/ welche das H. Euangelium haben ange-<lb/>
+nommen/ vnnd zu Chꝛiſto Jheſu/ den S. Petrus am<lb/>
+<note place="left">Act. 4.</note>ende verleßner Hiſtori/ einen Herꝛn nennet/ bekerdt<lb/>
+worden. Man hat ſie auch die Gemeine der Glaͤubi-<lb/>
+<note place="left">Act. 9.</note>gen/ deren ein hertz vnd Seel geweſſen/ geheiſſen/ vnnd<lb/>
+Heylige/ ꝛc. Vnd haben diſen Namen ein lange zeit<lb/>
+behalten/ biß die Gemeine/ oder Kirch Chꝛiſti zuge-<lb/>
+nomen/ vnd hernacher erſt zu Antiochia den namen<lb/>
+der Chꝛiſten/ von vnſerm Herꝛn vñ Meiſter Chꝛiſto<lb/>
+Jeſu bekommen/ das mann ſie/ wie noch/ Chꝛiſten ge-<lb/>
+heiſſen. Jn maſſen auß dem vj. Capitel diſes Buchs/<lb/>
+der Geſchichten der H. Apoſtel zuſehen.</p><lb/>
+<p>Auß woͤlchem allem wir vernem̃en/ diſe Tabea ſeye<lb/>
+einglaͤubige vnnd Gottſelige Chꝛiſtin geweſen/ vnnd<lb/>
+auß deren Gemeine Eine/ deren S. Lucas in vorge-<lb/>
+<fw type="catch" place="bottom">henden</fw><lb/>
+<pb facs="#f0019" n="[19]"/>
+<fw place="top" type="header"><hi rendition="#b">Eliſabtth Weltzerin von Eberſtein/ ꝛc.</hi></fw><lb/>
+henden worten diſes Capittels alſo gedencket. Die<lb/>
+Gemeine hette nun freyde/ durch gantz Judea vnnd<lb/>
+Galilea vnd Samaria/ vnnd bawte ſich/ vnnd wan-<note place="right">Zb. 31.</note><lb/>
+dele in der forcht des Herꝛn/ vnnd ward er fuͤllet mit<lb/>
+troſt deß H. Geiſtes/ ꝛc.</p><lb/>
+<p>So vil von beyden Namen/ diſer Ehꝛn Matron/<lb/>
+Warumb ſie Tabea/ vñ eine Juͤngerin geheiſſen. Fuͤrs<note place="right">Tabea/ vol gut<lb/>
+ter Werck.</note><lb/>
+dritte/ meldet Lucas/ diſe Tabea habe/ jhr Chriſten-<lb/>
+thumb/ Glauben vnd <hi rendition="#aq">Profefsion,</hi> nicht ſchlecht/ wie<lb/>
+gemeinlich geſchicht/ auff der zungẽ gefuͤhrt/ ſondern<note place="right">Vnd Almuſen.</note><lb/>
+ſeye auch vol guter Werck vnd Allmoſen geweſen/ die<lb/>
+ſie that. Das iſt/ damit mans erkennen moͤchte/ das<lb/>
+ſie keine Maulchriſtin/ ſondern ein rechte glaͤubige<lb/>
+Juͤngerin/ vnd Gottsfoͤrchtige Chriſtin ſeye/ habe ſie<lb/>
+jhren Glauben mit lebendigen fruͤchten/ guter Werck/<lb/>
+ſonderlich aber mit der frey gaͤbigkeit/ gegen den Ar-<lb/>
+men bezeuget vnd dargethan. Jn dem ſie/ wie in die-<lb/>
+ſer Hiſtoria folget/ das Allmoſen nicht allein reich-<lb/>
+lich/ ſondern auch gantz williglich vnder die Arme<supplied>n</supplied><lb/>
+außgetheilt hat/ Alſo/ das ſie die Roͤcke vnd Kleyder<lb/>
+die ſie jhnen gereicht/ ſelbſt gemacht. Allen vermoͤg-<lb/>
+lichen vnnd wolhaben den fleißig zumercken/ Denn<lb/>
+deren wol zu finden/ die lieber damit vmbgehen/ wie<lb/>
+ſie ſich mit den ſchoͤnen Kleidern ſelbß auff das uͤppi-<lb/>
+geſt ſchmuͤcken vnd zieren/ denn das ſie Chriſto Jhe-<lb/>
+ſu/ jhn ſeinen Armen/ einen Kittel anziehen/ ge-<lb/>
+ſchweig/ mit ſelbs eignen Henden machen/ oder dem<lb/>
+Evempel Tabea nach/ ſich vol gutes werck zu ſein be-<lb/>
+fleiſſen. Daruon hernacher. Weil dieſe Tabea gegen<note place="right">Tabea jedermã<lb/>
+lieb vnd ange-<lb/>
+nem.</note><lb/>
+dem Armen ſo wol thaͤtig/ vol vnnd reich an gutten<lb/>
+Wercken geweſen/ iſt ſie hingegen auch/ aller gebuͤr<lb/>
+<fw place="bottom" type="sig">C 2</fw><fw place="bottom" type="catch">nach</fw><lb/>
+<pb facs="#f0020" n="[20]"/>
+<fw type="header" place="top"><hi rendition="#b">Ein Leychpredig/ Frawen</hi></fw><lb/>
+nach/ von jeder man maͤnigklichen/ lieb vnnd werd ge-<lb/>
+halten worden/ Jnn maſſen auß dem gꝛoſſen leyd/ ſo<lb/>
+auff jhr kranckheit vñ Tod gefolget/ viler/ ſonderlich<lb/>
+aber der Armen/ zuſehen/ woͤlche lieber den Hayde-<lb/>
+niſchen Keyſer zu Rom/ den diſes einige Weybe hetten<lb/>
+verlorn/ Aber da halffe nichts fuͤr.</p><lb/>
+<p>Den Lucas fehret in jhreꝛ Legenda fort/ vnd<lb/>
+<note place="left">Tabea erkran<supplied>-</supplied><lb/>
+cket/ vnd ſtarb.</note>zeyget an/ wie dz ſie vnuerſehens erkranckt/ vnd dar-<lb/>
+auff geſtorben ſeye/ ſo wol/ als der vnglaubigen vnd<lb/>
+Gotloſen eines/ ob dern tod man biß weilẽ nit ſonders<lb/>
+erſchricket. Weil dar durch den Armen Wit wen vnd<lb/>
+Waͤyſen in der taͤglichen hilff vnnd Handtreichung/<lb/>
+ein mercklich abbruch geſchehen/ haben ſie nicht vn-<lb/>
+billich/ wie obgemeldet/ vnnd Lucas anzeiget/ auff<lb/>
+das klaͤglichſte beweynen/ vnd S. Petro jm zu Bruͤ-<lb/>
+derlichem mitleyden zubewegen/ jhr Roͤcke vnnd<lb/>
+Kley der/ welch die Raͤhe weil ſie bey jhnen geweſen/<lb/>
+machte/ gezeyget.</p><lb/>
+<p><note place="left">Tabea/ wirdt<lb/>
+zur begräbnus<lb/>
+gerichtet.</note>Wie Hertzlich ſie es gewuͤnſchet/ das ſie noch le-<lb/>
+ben ſolt/ muͤſten ſie ſich jhreꝛ verwegen/ nemen ſie aber<lb/>
+(die letzte ehr jhr zum zeichen) vnnd waſchen jhren<lb/>
+Leichnam/ Landes Sytt vnd gebrauch nach/ legen<lb/>
+jhne auff den Soͤller/ damit der zeit der begraͤbnuſſe<lb/>
+zuerwarten.</p><lb/>
+<p>Souil Schreibt S. Lucas vom Erſten ſtuͤck-<lb/>
+lin verleßner Hiſtorien. Was haben wir hierauß zu-<lb/>
+lernen vnd zubehalten<supplied>?</supplied></p><lb/>
+<p>Gleich wie Tabea glaͤubig/ vnd vol guter Thu-<lb/>
+genden vnd Werck geweſen/ Alſo haben wir auß jre<supplied>r</supplied><lb/>
+Legenda vil nutzliches vnd troͤſtliches zu lernen.</p><lb/>
+<p>Dann/ Erſtlich/ ſehen vnnd lernen wir/ weil<lb/>
+<fw type="catch" place="bottom">alle</fw><lb/>
+<pb facs="#f0021" n="[21]"/>
+<fw place="top" type="header"><hi rendition="#b">Eliſabetha Weltzerin/ von Eberſtein.</hi></fw><lb/>
+alle Menſchen/ ſo natuͤrlich empfangen vnd geboren<note place="right">Die erſte Lehr<lb/>
+vom G. Euar-<lb/>
+gelio/ vñ ſeiner<lb/>
+krafft vñ wirck<lb/>
+ung-</note><lb/>
+werden/ von Natur Geiſtlich blindt ſein/ vnnd ſich<lb/>
+nichts verſtehen auff das/ dz deß Geiſtes Gottes iſt/<lb/>
+wie/ vnd wardurch wir erleuchtet/ zur wahren er-<lb/>
+kentnuß GOttes kaͤmen/ Glaubig vnd ewig Selig<lb/>
+werden moͤgen/ Nemblich/ durch das eynige Mittel<lb/>
+der Predigt des Heiligen Euangelions/ durch das<lb/>
+Wort von Chriſto/ dem Liecht aller Hayden/ der<lb/>
+Warheit/ deß Lebens/ vnnd der Seligkeit. Denn<note place="right">Eſa. 44.<lb/>
+Joan. 14</note><lb/>
+gleich wie die Nacht der Sonne (wenn ſie Morgens<lb/>
+auffgeht) weicht/ die Nebel vnnd Wolcken zutri-<lb/>
+ben vnd verzehret werden/ Alſo iſt die finſternuß/ der<lb/>
+Blinden vnnd verſtockten Hertzen der Juden vnnd<lb/>
+Hayden/ in Judea/ Gallilea vnd Samaria gewe-<lb/>
+ſen/ bald ſie Chriſtum Jheſum die Sonn der Gerech-<lb/>
+tigkeit haben hoͤren Predigen/ vnd derſelbige Mor-<lb/>
+genſtern/ durch krafft vnd wirckung/ GOttes des<lb/>
+H. Geiſtes/ in jhren Hertzen iſt auffgangen.</p><lb/>
+<p>Deſſen Evempel/ haben wir droben gedacht/<lb/>
+auß Luca im dritten Capitel. Dergleichen wirdt<note place="right">Act. 2.</note><lb/>
+geleſen im andern Capitel dieſes ſtuͤcks/ da beſchri-<lb/>
+ben wirdt/ wie das auff den Heiligen Pfingſtage/<lb/>
+durch ein eynige Predigt S. Petri/ auß allerley<lb/>
+Voͤlckern in die 3000. Seelen erleuchtet/ bekehrt/<lb/>
+vnnd zu Juͤngern Chriſti worden/ deren aller her-<lb/>
+nacher ein Hertz/ vnd ein Seele worden.</p><lb/>
+<p>Eben dieſes iſt geſchehen/ vnd viel mehr/ als die<lb/>
+lieben H. Apoſtel hernacher in die gantze weyte Welt<lb/>
+außgangen/ vnd jhr vn zehlich viel/ nicht allein gan-<lb/>
+tze Haͤuſer/ ſonder auch gantze Laͤnder/ zu Chriſto<lb/>
+<fw place="bottom" type="sig">C 3</fw><fw place="bottom" type="catch">Jeſu</fw><lb/>
+<pb facs="#f0022" n="[22]"/>
+<fw type="header" place="top"><hi rendition="#b">Ein Leichpredig/ Frawen</hi></fw><lb/>
+Jheſu bekehrt haben/ vnder deren wir in dieſem Lan-<lb/>
+de (durch die Gnade GOttes) auch ſein/ welche<lb/>
+weyllund ſo wol als andere/ blinde Hayden geweſen/<lb/>
+<note place="left">Eſa. 59.</note>vmb den Mittag/ nach der warheit getappet haben/<lb/>
+vnd dem Stummen Goͤtzen/ nach dem wir gefuͤhret<lb/>
+<note place="left">2. Cor. 12.</note>worden/ nach ſein gangẽ wie S. Paulus ſeine Corin-<lb/>
+<note place="left">Carnthier weil<lb/>
+lund/ hayden.</note>thier jhrer finſternuß/ vnnd alſo in derſelben Perſon<lb/>
+auch vns Carinthier vnſer blindtheit erinnert/ den<lb/>
+wie die Hiſtorien auß weiſen/ vnſere liebe Voraͤltern/<lb/>
+vnd Einwohner diſes Landes/ Lange jar nach die-<lb/>
+ſen Apoſtoliſchen Geſchichten/ zum heiligen Chriſt-<lb/>
+lichen Glauben bekerdt worden/ durch S. <hi rendition="#aq">Virgilium</hi><lb/>
+<note place="left">Anno 790.</note>vnnd <hi rendition="#aq">Ammonem,</hi> vn derm Roͤmiſchen Kaͤyſer/ den<lb/>
+mann <hi rendition="#aq">Carolum</hi> hat genandt/ den Groſſen.</p><lb/>
+<p>Weil vns denn/ Gottlob vnd danck/ aber die-<lb/>
+ſes Helle liecht/ des heiligen Euangelions auch ſchei-<lb/>
+net/ wil ſichs gebuͤren/ das wir dem Evempel <hi rendition="#aq">Ta-<lb/>
+beæ</hi> nach/ wie auch anderer obgedachten Gemeinen/<lb/>
+vnſer Augen auffthun/ daſſelbige mit frewden an-<lb/>
+nemmen/ vnnd darfuͤr von Hertzen danckbar ſein/<lb/>
+<note place="left"><hi rendition="#aq">Exercitium<lb/>
+religionis</hi><lb/>
+der Chriſten.</note>vns in der Gemeine/ in einer mehren anzal/ aͤmbſiger<lb/>
+vnd einmütiger finden laſſen/ am Gebett anhalten/<lb/>
+neben dem gehoͤr des heyligen Goͤttlichen Worts/<lb/>
+das Brod brechen/ das iſt/ wuͤrdtiglich vnd andech-<lb/>
+tiglich vns gebrauchen/ des heiligen Hochwuͤrdigen<lb/>
+Abendtmals/ dann dieſes war das <hi rendition="#aq">exercitium religio-<lb/>
+nis</hi> der Erſten Kirchẽ/ wie noch deſſen Evempel ha-<lb/>
+ben wir auch an andern/ als am Simeõ/ Hanna der<lb/>
+<note place="left"><hi rendition="#aq">Luc.</hi> 2.</note>Prophetin/ welche nimmer vom Tempel gewichen/<lb/>
+am Dauid/ vnd dergleichen. Wie auß 27. Pſalmen<lb/>
+<fw type="catch" place="bottom">zuſe-</fw><lb/>
+<pb facs="#f0023" n="[23]"/>
+<fw place="top" type="header"><hi rendition="#b">Eliſabehta Weltzerin/ von Eberſtein/ ꝛc.</hi></fw><lb/>
+zuſehen/ da er ſich offentlich/ andern zu einem Ev-<lb/>
+empel/ vernemmen leſt/ ſein groͤſter wunſch/ vnnd<lb/>
+einiges begeren ſeye dieſes/ das er im Hauß des Herꝛn<note place="right"><hi rendition="#aq">Pſal.</hi> 27.</note><lb/>
+bleiben moͤchte/ ſein lebenlang (nicht ein oder zween<lb/>
+tag) zuſchauen die ſchoͤnen Gottesdienſt des HEr-<lb/>
+ren/ vnd ſeine Tempel zubeſuchen: das er auch Got-<lb/>
+tes Wort aller ſeiner Herꝛligkeit vnnd reichthum̃en<lb/>
+fuͤrziehe/ bezeugt Er an einem andern orth/ mit<lb/>
+dieſem worten/ da erſagt: das iſt mein Schatz/ das<note place="right"><hi rendition="#aq">Pſal.</hi> 119.</note><lb/>
+ich dein befelch halte.</p><lb/>
+<p>Dieſes wird denen geſagt/ vnd wol zu mercken<lb/>
+ſein/ welche GOttes Wort verachten/ oder aber mit<note place="right">Gottes Wort<lb/>
+der beſte vnnd<lb/>
+werdeſt ſchatz.</note><lb/>
+vnwillen/ als muͤſten ſie fewer freſſen/ anhoͤren/ vnd<lb/>
+für dieſe allerheylſambſte vñ notwendigſte wolthat<lb/>
+Gottes/ mit jrem ſelbſt eygnen vnwiderbringlichen<lb/>
+ſchaden/ vndanckbar ſein/ mit jaͤnen Juden/ welche<note place="right"><hi rendition="#aq">Act.</hi> 13.</note><lb/>
+Paulus vnnd Barnabas haben geprediget/ es mit<lb/>
+jhrem verdruß vnd vndanck von ſich ſtoſſen/ vñ ſich<lb/>
+ſelbſt nicht werd achten vnd machen/ des Ewigen le-<lb/>
+bens. Wo man aber der Prediger deß heiligẽ Euan-<lb/>
+gelions verdriſig wirt/ vñ vndanckbar iſt/ wandert<lb/>
+es gern weiter/ wie es die erfahrung gibt/ vnnd S.<note place="right">”</note><lb/>
+Paulus zu den Juden zu <hi rendition="#aq">Antiochia</hi> ſagt: Sihe/ ſo<note place="right">”</note><lb/>
+wenden wir vns zu den Hayden.</p><lb/>
+<p>Laſſet vns demnach/ fuͤr das Liecht der Predig<lb/>
+des heiligen Euangelions danckbar ſein/ vnd daſſel-<lb/>
+bige fuͤr vnſern hoͤchſten/ beſten vnd werdeſten ſchatz<lb/>
+halten/ vnd wol fuͤrſehen/ das wir denſelbigen nicht<lb/>
+verliehren.</p><lb/>
+<p>Gleich wie ferner S. Lucas den friden preiſet/<lb/>
+woͤlchen die Kirche nach der bekerung S. Pauli be-<lb/>
+<fw place="bottom" type="sig">C 4</fw><fw place="bottom" type="catch">kom̃en/</fw><lb/>
+<pb facs="#f0024" n="[24]"/>
+<fw type="header" place="top"><hi rendition="#b">Ein Leychpredig/ Frawen</hi></fw><lb/>
+kommen/ darumb die Kirche gewachſen/ vnnd das<lb/>
+Wort zugenomen/ des haben wir nicht weniger vr-<lb/>
+ſach/ GOtt dem Allmaͤchtigen/ ebener maſſen/ von<lb/>
+Hertzen zu dancken/ das er vns auß ſondern Gnaden<lb/>
+mit groſſer vnruhe vnd verfolgung anderer/ auch<lb/>
+vnſerer benachbarten/ ſo gnaͤdiglich vnd Vaͤtterlich<lb/>
+erhalten/ das wir in zimlicher rhue vnd frieden/ vn-<lb/>
+ſer <hi rendition="#aq">exercitium religionis</hi> biß anher gehabt/ vnd in<lb/>
+zimlichen anſtoͤſſen erhalten. Denn/ wo es an die-<lb/>
+ſem euſſerlichen frieden erwindet/ die ſich nicht wol-<lb/>
+len laſſen weiſen/ die Thoren nicht weit/ vnnd die<lb/>
+Thuͤrnen in der Welt nit hoch gemacht werden/ das<lb/>
+der Koͤnig der Ehren bey vns einziehe/ kom̃en wir<lb/>
+zum Geiſtlichen/ des gewiſſensfrieden/ welcher alle<lb/>
+vernunfft vbertrifft/ ſchwerlich.</p><lb/>
+<p>Laſſet vns demnach die zeit vnſer heimſuchung<lb/>
+danckbarlichen erkennen/ vnd waß zu diſem vnſerm<lb/>
+fug dienet/ wol bedencken/ iſt eines das wir auß der<lb/>
+Legenda Tabe<hi rendition="#aq">æ</hi> haben zu lehrnen.</p><lb/>
+<p>Das ferner Lucas meldet/ ſie ſeye eine auß der ge-<lb/>
+meine geweſen/ welche in der forcht des Herꝛn ge-<lb/>
+wandelt/ vnd vol guter werck/ die ſie thaͤte: lehrnen<lb/>
+wir fuͤrs ander hierauß/ einem Chriſtẽ/ wen er durch<lb/>
+das H. Euangelium glaͤubig/ vñ ein Juͤnger Chri-<lb/>
+ſti worden/ woͤlle nicht gebuͤrn/ das er den Glauben<lb/>
+auff der Zungẽ fuͤre/ ſonď den ſelbigẽ mit freywillig-<lb/>
+keit vnd Gott wolgefaͤlliger gerechtigkeit/ als guten<lb/>
+fruͤchten/ eines geſchlacht en vnnd guten Baumß/ be-<lb/>
+zeuge/ vnd an Tag gebe. Deñ ſo wenig als das fewer<lb/>
+jhre hitz/ vnd ein gut Baum jhre gute fruͤcht/ ſo we-<lb/>
+<pb facs="#f0025" n="[25]"/>
+<fw place="top" type="header"><hi rendition="#b">Eliſabehta Weltzer in/ von Eberſtein/ ꝛc.</hi></fw><lb/>
+nig iſt ein lebendiger rechtſchaffner Glaube ohne lie-<lb/>
+be/ vnd werck der barmhertzigkeit/ die er Gott vndſei-<lb/>
+nern Naͤchſten zuerzeigen/ ſchuldig.</p><lb/>
+<p>Schuldig/ ſage ich/ darmit wir dieſe Lehꝛe fuͤr kein<lb/>
+Mittelding anſehen vnd halten. Den niemands kan<note place="right">Wo Glaube/<lb/>
+da gutte<lb/>
+Werck.</note><lb/>
+zweyen Herꝛ en dienẽ/ wird er gewiß den einem zu die-<lb/>
+nen ſchuldig ſein. So ſagt S. Paulus/ das wir zu<note place="right">Ephe. 2.<lb/>
+Eſa. 5.<lb/>
+Math. 7.</note><lb/>
+gutten Wercken erſchaffen ſein. Eſaias vnd Miche-<lb/>
+as/ die H. Pꝛopheten vergleichẽ vns Reben im geiſt-<lb/>
+lichen Weinberg/ darzu verſencket vñ gepflantzet/ das<lb/>
+wir die beſten vnd ſuͤſſeſten fruͤchte tragen ſollen/ Vnd<lb/>
+wie es in eines gedingten Haußknechts freyen willẽ/<lb/>
+nicht ſtets im Hauſe zu arbeiten/ oder aber muͤßig zu<lb/>
+gehn/ Alſo ſtehe es in der Hauß genoſſen deß geyſtlich-<lb/>
+en Hauſes/ oder der Gemeinen Gottes wilkür nicht/<lb/>
+jrenſin gerecht wordẽ/ durch den glauben guttes oder<lb/>
+boͤſes zu thun/ ſondern ſein/ wiea bermalen/ S. Pau-<note place="right">Rom. 5.<lb/>
+<hi rendition="#aq">id. Ib</hi> 8.</note><lb/>
+lus redet/ Knecht woꝛden der gerechtigkeit/ vñſchul-<lb/>
+dener nit dem fletſch/ das wir nach dem fleiſch leben/<lb/>
+ſondern durch den Geiſt deß fleiſches geſchaͤfft toͤdten/<lb/>
+woͤllen wir anderſt Kinder GOttes ſein. Roma. 5.<lb/>
+vnd 8.</p><lb/>
+<p>Es wil aber S. Lucas bey dem Evempel Tabea/<note place="right">Chriſten ſollen<lb/>
+vol gutter<lb/>
+Werk ſein.</note><lb/>
+vns auch deſſen erinnern/ das wir nit allein vns auß<lb/>
+dem glaubẽ gutter Werck befleiſſen/ ſondern auch der<lb/>
+ſelbigen vol werden/ ſollen vol/ ſagt er/ das iſt/ Guttes<lb/>
+zu thun/ nicht muͤde werden/ Gott vnd vnſerm naͤch-<lb/>
+ſten/ gern vnnd willigklich/ nicht gezwunger/ dienen<lb/>
+vnd lieben ſollen.</p><lb/>
+<p>Den Heuchlern wol zu mercken/ welche/ wañ ſie in<lb/>
+der wochen eineſt in die Kirchen kum̃en/ Sie lehrnen<lb/>
+<fw place="bottom" type="sig">D</fw><fw place="bottom" type="catch">was</fw><lb/>
+<pb facs="#f0026" n="[26]"/>
+<fw type="header" place="top"><hi rendition="#b">Ein Leychpredig/ Frawen</hi></fw><lb/>
+was/ beſſern oder boͤſſern ſich nicht/ auß den Pꝛedi-<lb/>
+gen/ ſich foͤrchtẽ/ wen ſie offter kaͤmen/ ſie moͤchten der<lb/>
+ſachen zuuil thun. Jtem/ wen ſie ſich offter bey dem<lb/>
+Bꝛotbꝛechẽ in der Gemeine/ das iſt/ bey der handlung<lb/>
+vnd gebrauch deß H. Abendtmals vnnd alſo bey dem<lb/>
+gantzen oberzelten <hi rendition="#aq">exercitio religionis</hi> andaͤchtig fin-<lb/>
+den lieſſen/ es wuͤrde jhnen ſchaͤdlich vñ ſehꝛ hinderlich<lb/>
+ſein. Aber vol gutter Werck ſein/ heiſſet nit am an-<lb/>
+dern/ ſondern/ am erſten Gottes Reich ſuchen/ Gott<lb/>
+vber alle ding lieben vnd vertrawen/ vnd den Naͤch-<lb/>
+ſten lieben wie ſich ſelbs. Summa/ wiſſen/ das man<lb/>
+dem gutten nicht zunil thun moͤge. Ja/ wen wir der<lb/>
+gutten Werck vberfluͤßig vol werden/ vnnd alles das<lb/>
+<note place="left">Luc. 17.</note>vns zuthun gebuͤrt/ bekeunen vnd ſagen/ wir ſeind vn-<lb/>
+nuͤtze Knecht/ auff das ſich niemandt deß halben mit<lb/>
+ſeinen ſcheinlichen Wercken/ zu kuͤtzlen oder zu ruͤmen.<lb/>
+So wenig als ein gedingter Knecht im hauſe/ ſeiner<lb/>
+arbeit/ den er thut was erſchuldig iſt.</p><lb/>
+<p>Wen wir den lehren/ das man ſich auß dem Glau-<lb/>
+ben gutter Werck vberfluͤßig/ das iſt/ eines newen ge-<lb/>
+horſams befleiſſen ſol/ ſehen wir/ wie vnbillich (vnſere<lb/>
+Lehꝛe zu tadlen) wir von vnſern widerwaͤrtigen be-<lb/>
+ſchuldiget werden/ wie das wir ſchlecht auff den glau-<lb/>
+ben dringen/ vñ darneben der gutten Werck vergeſſen/<lb/>
+vnd ſie gar verbieten.</p><lb/>
+<p><note place="left">Die Ehre des<lb/>
+wercks der erloͤ<lb/>
+ſung/ gebuͤret<lb/>
+allein Chriſto.</note>Den/ ob ſie wol im werck von ſeiner Erloͤſung/ vnd<lb/>
+vmb der Ehren willen/ die Chꝛiſto Jheſu allein/ vnd<lb/>
+keinem andern gebuͤret/ als der die Keltern allein<lb/>
+getretten hat/ außgeſchloſſen werden/ ſo muͤſſen ſie<lb/>
+<fw type="catch" place="bottom">doch</fw><lb/>
+<pb facs="#f0027" n="[27]"/>
+<fw place="top" type="header"><hi rendition="#b">Eliſabetha Weltzerin/ von Eberſtein.</hi></fw><lb/>
+doch/ als fruͤchte des Glaubens/ not wendigklich fol-<note place="right"><supplied>H</supplied>eylige vñ ge-<lb/>
+rechtfertig<supplied>t</supplied>e/<lb/>
+thun Gott ein<lb/>
+wolgefaͤ<supplied>lli</supplied>ge<supplied>s</supplied><lb/>
+Werck.</note><lb/>
+gen/ Folgen ſag ich/ nit vor hergen/ oder mit vnd neben<lb/>
+Chꝛiſto herein brangen. Sol aber ein Baum gutte<lb/>
+Fruͤchte tragen/ muß er zuuor gut geweſen ſein/ Alſo<lb/>
+ſollen vnſere Werck gut vnnd Gott wolgefellig ſein/<lb/>
+muͤſſen wir zuuor Glaͤubig/ vnnd in Chꝛiſto gerecht<lb/>
+ſein. Den was nicht auß Glauben geſchicht/ iſt Suͤn-<lb/>
+de. Daher die Alten recht geſagt. <hi rendition="#aq">Bona opera ſe-<lb/>
+quuntur iuſtificatum, non præcedunt iuſtificandum.</hi> Jſt<lb/>
+eben ſo vil/ als das S. Paulus zu den Roͤmern am<lb/>
+5. Capitel ſchreibet/ wenn wir durch den Glauben ge-<lb/>
+recht werden/ ſein wir Knecht der gerechtigkeit. So-<lb/>
+vil von der andern Lehꝛe. Daß wir vns auß dem<lb/>
+Glauben guter vberflüßiger Werck befleißigen ſollen/<lb/>
+darunder aber keinen verdienſt ſuchen/ ſondern die<lb/>
+Ehꝛe Chꝛiſto Jheſu allein geben/ vnſerer heyligung/<lb/>
+rechtfertigung/ erloͤſunge vnd ſeligkeit. 1. Coꝛ. 1.</p><lb/>
+<p>Wen hie jemands gern wiſſen vnnd fragen wolte/<note place="right">Die <supplied>dritt</supplied> Leh-<lb/>
+re/ vom Ca<gap reason="lost" unit="chars" quantity="3"/><lb/>
+go/ guter werck</note><lb/>
+woͤlches die GOtt wolgefelligen/ vnnd angenemen<lb/>
+Werck ſeyen/ wirdt fuͤr die dritte Lehꝛe geantwoꝛt-<lb/>
+tet. Esſeyen die oben angedeute Werck/ deß <hi rendition="#aq">exercitij<lb/>
+religionis,</hi> der Erſten/ vñ vnſerer Kirchen/ Als: Got-<lb/>
+tes Wort in der Gemeine hoͤren/ Am Gebett anhal-<lb/>
+ten/ deß Heyligen Hochwuͤrdigen Abendtmals ſich<lb/>
+gebrauchen/ vnnd der gleichen/ vnnd alſo GOtt von<lb/>
+gantzem Hertzen Lieben/ vnnd jhme vber alle ding<lb/>
+vertrawen/ denn vnſern Naͤchſten wie vnsſelbs/ der<lb/>
+Jnſtruction nach in der Erſten vnnd Andern Ta-<lb/>
+felen/ der Heyligen Zehen Gebott Gottes/ begriffen.<lb/>
+<fw place="bottom" type="sig">D 2</fw><fw place="bottom" type="catch">Vnd</fw><lb/>
+<pb facs="#f0028" n="[28]"/>
+<fw type="header" place="top"><hi rendition="#b">Ein Leichpredig/ Frawen</hi></fw><lb/>
+Vnnd damit wir vns der kuͤrtze befleiſſen/ haben wir<lb/>
+auß viler treffenlichen vnd ſchoͤnen Tugenden vnnd<lb/>
+Wercken/ damit wir vnſeren ſchuldigen gehorſam ge-<lb/>
+gen Gott/ vnd liebe gegen vnſerm Naͤchſten/ eꝛ zeigen<lb/>
+vñ vben koͤnnen/ bey dem Evempel Tabea/ alhie ſon-<lb/>
+derlich zu leinen/ die freygaͤbigkeit/ gegen den Armẽ/<lb/>
+oder (wie hie Lucas redet) das Almuſen geben. Den<lb/>
+<note place="left">„</note>Tabea/ ſpꝛicht er/ ſeye vol gutter Werck geweſen vnd<lb/>
+<note place="left">„</note>Almoſen/ die ſie thaͤtte.</p><lb/>
+<p>Wer aber Almuſen geben/ vnnd ſeine wol anlegen<lb/>
+<note place="left">Almnſen gebẽ/<lb/>
+ein Gott wol-<lb/>
+gefaͤllig werck.</note>wil/ der trette in die fuſtapffen Taber/ vnd gebe gern/<lb/>
+vnd mit guttem willen. Darzu vermanet vns auch<lb/>
+Salomon/ wegere dich/ ſpꝛicht er/ nicht dem duͤrffti-<lb/>
+<note place="left">Pro: 3.</note>gen guttes zu thun/ ſo deine Hand von GOtt hat/<lb/>
+<note place="left">Almuſen ſoll<lb/>
+mit gutem wil<lb/>
+len gereicht<lb/>
+werden.</note>ſolches zu thun/ ſpꝛich nicht/ zu deinem Freunde/ ge-<lb/>
+he hin/ vnd komb wider/ morgen will ich dir geben/ ſo<lb/>
+du es doch wol haſt/ Soſagt S. Paulus/ einen froͤlich<lb/>
+en Geber/ liebe Gott/ vnd iſt die Gab dem Armen/ vil<lb/>
+<note place="left">1. Cor. 9.</note>lieber/ als wen es mit vnwillen vñ Murrẽ/ geſchicht/<lb/>
+Abermallẽ gemeinem Spꝛichwoꝛt nach/ <hi rendition="#aq">Bisdat, qui<lb/>
+dat cito,</hi> Wer gern vnd bald gibt/ der gibt doppelt. Wo<lb/>
+daß nit geſchicht/ vnd ein vnwillen bey dem Allmuſen<lb/>
+geben ſich findet/ kan diß werck Gott/ vmb des vnglau<lb/>
+bens oder vngeduld willen/ ſo mit lauffen/ nit gefallẽ/<lb/>
+vñ iſt alſo/ bey des die Gabe/ vñ aller danck verlohren/<lb/>
+wie Auguſtinus redet/ <hi rendition="#aq">Et rem, &amp; meritum perdidit, pau-<lb/>
+perem qui moleſta mora ſuſpendit.</hi> Das iſt/ wer den Ar-<lb/>
+men verdrießlich auffzeucht/ mit ſeinen gaben/ der le-<lb/>
+gets vbel an/ vnnd verleurts bey des/ die gabe vnd den<lb/>
+danck damit. Weyl Tabea gern vnd willig gegeben/<lb/>
+<fw type="catch" place="bottom">jhn</fw><lb/>
+<pb facs="#f0029" n="[29]"/>
+<fw type="header" place="top"><hi rendition="#b">Eliſabetha Weltzerin ron Eberſte in/ ꝛc.</hi></fw><lb/>
+ja auch neben anderer taͤglichẽ handreichũg die kleider<lb/>
+Armen Witwen vnnd weiſen ſelbs gemacht/ hat ſie di-<lb/>
+ſen danck dauon/ das man jhrer noch heutiges tags<note place="right">Eliſabet Land<lb/>
+graͤuin/ eine<lb/>
+Mutter der Ar-<lb/>
+men.</note><lb/>
+auffs beſte vnd ehrlichſte gedencket. Einſolche Ta-<lb/>
+bea/ vnnd der Armen Mutter iſt geweſen/ auch Eli-<lb/>
+ſabeht/ Ludwiges Landgraffen auß Tuͤringen Ehe-<lb/>
+gemahel/ eine geborne Koͤnigin auß Vngern/ welche<lb/>
+(wie man von jhr ſchreibet) Todten vnd lebendigẽ Ar-<lb/>
+men gedient/ die Krancken in eygner Perſon beſucht/<lb/>
+derſelbig fleißig gepflaͤget/ vnd warten laſſen/ damit ſie<lb/>
+auch mehr vrſach hette/ der Armen ſich anzunemen/<lb/>
+vnnd denſelbigen gutes zu thun/ hat ſie ſich auch von<lb/>
+geringſten Leuten/ zur Gfatterin erbitten laſſen/ inn<lb/>
+Tewren zeitten/ Getreid auß geteylet/ vñ damit ſie di-<lb/>
+ſes alles koͤndte reichlicher thun/ mit eignen haͤnden ge<lb/>
+naͤht/ gewuͤrcket/ vnd geſpunnen/ wo einer geſtorben/<lb/>
+hat ſie ſelbigen auff jhren eignen vnkoſten laſſen Ehr-<lb/>
+lich zur Erden beſtetigen.</p><lb/>
+<p>Das ich kuͤrtzehalber hie nichts von andern ſage/ als<note place="right">Matthias Koͤ<lb/>
+nig in Vngern<lb/>
+Alexander<lb/>
+Magnus.</note><lb/>
+von Mathia Koͤnig in Vngern/ welcher ſich Armer<lb/>
+geſchedigter Knecht ſelbs angenommen/ ſie gebun-<lb/>
+den/ vnd jhrer gepflogen/ dergleichen auch Alevander<lb/>
+der groſſe gethon. Von Galeno/ welcher den Armen<note place="right"><hi rendition="#aq">Galenus.<lb/>
+S. Martinus.</hi></note><lb/>
+zu dienen/ gemeine Artzney/ beſchreiben/ vnd damit vil<lb/>
+nutzes geſchaffen/ von S. Martino/ vnd dergleichen.</p><lb/>
+<p>Vnnd iſt diſes eine Aigenſchafft deß Almuſſen ge-<lb/>
+bens/ wer geben wil/ der gebe gern/ willig vnnd mit<lb/>
+frewden.</p><lb/>
+<p>Die ander iſt/ das man reichlich gebe/ wie Tabea/<note place="right">Almuſen ſolle<lb/>
+reichlich auß ge<lb/>
+theilt werden.</note><lb/>
+vol guter Werck vnnd Almußen gebens (geweſen)<lb/>
+<fw type="sig" place="bottom">D 3</fw><fw type="catch" place="bottom">vnd</fw><lb/>
+<pb facs="#f0030" n="[30]"/>
+<fw place="top" type="header"><hi rendition="#b">Ein Leychpredig/ Frawen</hi></fw><lb/>
+vnd die Armen mit veraͤchtlichen ſpoͤtlichen Gaben/<lb/>
+nicht abweiſe. Nicht Pfenning/ Heller/ Alte ha-<lb/>
+dern geben/ ſondern/ wenn wir es thun moͤgen/ gantze<lb/>
+<note place="left">Pro. 3.</note>Roͤcke mit theylen/ Sintemal vnſere Gaben vnuer-<lb/>
+lohren/ ſondern zum beſten angelegt ſein/ vnnd reich-<lb/>
+<note place="left">Pro. 19.</note>lich werden vergolten/ wie geſchꝛiben ſteht: Gebet ſo<lb/>
+wirdt euch gegeben/ vnd abermalen/ wer ſich deß Ar-<lb/>
+men erbarmet/ der ley het dem Herꝛn/ Als woltẽ Sa-<lb/>
+lomon vnd Chꝛiſtus ſagen/ wie wir ſunſten gemeinlich<lb/>
+geſinnet ſein/ auß wenigem/ vil zumachen/ mit außley<lb/>
+hen/ Wuchern vnd der gleichen:</p><lb/>
+<p>Alſo ſollen wir den Armen auch gern geben/ leyhen<lb/>
+vnnd fürſtrecken/ den darmit legen wir vnſere Guts<lb/>
+auff den Wucher bey Gott/ der es reichlich vergelten/<lb/>
+vnnd es alſo auff vnnd annemen wil/ als wen es jhme<lb/>
+ſelbs gegeben were/ wie Chꝛiſtus ſich vernemen laſſet/<lb/>
+was jhr dem geringſten gethan habt/ Das habt jhr<lb/>
+<note place="left">Matth. 25.</note>mir gethan. Mich habt jhr Hungerigen geſpeiſet/<lb/>
+nackenten bekley det/ krancker beſuchet/ ꝛc.</p><lb/>
+<p>Daher der Alte Lehrer Baſilius ſaget/ <hi rendition="#aq">Pauperum</hi><lb/>
+<note place="left"><hi rendition="#aq">Baſilius.</hi></note><hi rendition="#aq">ventres ſunthorrea, inquæ frumenta noſtra deponere poſ-<lb/>
+fumus ne vnquam pereant.</hi> Das iſt/ der Armen<lb/>
+Beuche/ ſein Scheuren/ in denen wir vnſer Getraͤyd<lb/>
+auff behalten/ daß es nicht verdirbt. Hieher gehoͤren<lb/>
+auch die woꝛt S. Pauli/ da er ſagt/ wer reichlich Se-<lb/>
+<note place="left">2. Cor. 9.</note>et/ der Erndet auch reichlich. Wenig Saͤen/ vnd vil<lb/>
+Garben ſchneiden/ wil er ſagen/ kenne beyſamen nicht<lb/>
+ſein. Dero wegen/ wer zeitlich wil geſegnet vnd Reich<lb/>
+werden/ der werde Reich vnd vol an gutten Wercken/<lb/>
+vnd Almuſſen/ gegen Armen/ Wittwen vñ Waͤyßen.<lb/>
+<fw place="bottom" type="catch">Ja</fw><lb/>
+<pb facs="#f0031" n="[31]"/>
+<fw type="header" place="top"><hi rendition="#b">Eliſabetha Weltzerin/ von Eberſtein/ ꝛc.</hi></fw><lb/>
+Ja auch/ wer kuͤnfftig ſein reichliche belohnung ein-<lb/>
+nemen wil/ der mache jhme hie freunde auß vngerech-<note place="right">Luc. 1<gap reason="illegible" unit="chars" quantity="1"/>.</note><lb/>
+tem Mam̃on/ vñ Lade zu ſich Arme/ Krum̃e/ lame/<lb/>
+blinde/ weil es diſe/ vns nit haben zuuergelten/ das ſie<lb/>
+vns kuͤnfftig in jre huͤtten nemen/ vñ alles vergoldten<note place="right">Johannis. 14.</note><lb/>
+werde in der Aufferſtehung der Gerechten. Denn<note place="right">Almuſen geben<lb/>
+Wird hie vnnd<lb/>
+dort vergolten.</note><lb/>
+ſo mancher Armer/ dem wir hie in ſeinen noͤtten ha-<lb/>
+ben geholffen/ geſpeiſet/ getrencket oder bekleidet/ ꝛc. ſo<lb/>
+manchen Zeugẽ werden wir in jenem leben haben/ vn-<lb/>
+ſers Glauben vñ der liebe gegen dem Naͤchſten. Vn-<lb/>
+ſer lieber HErꝛ vnnd Heyland Jeſus Chriſtus ſelbs<lb/>
+wird vns deſſen oͤffentliche Zeugnus geben/ zuſich mit<note place="right"><hi rendition="#aq">Matth.</hi> 25.</note><lb/>
+freundlichen worten ruͤffen/ Kompt her jhr gebene-<note place="right">&amp;q;</note><lb/>
+deyten meines Vatters/ ererbet das Reich/ das euch<note place="right">&amp;q;</note><lb/>
+bereitet iſt von anbegin der Welt. Dañ ich bin hunge-<note place="right">&amp;q;</note><lb/>
+rig geweſen/ vnd jhr habt mich Geſpeyſet/ ich bin dur-<note place="right">&amp;q;</note><lb/>
+ſtig geweſen/ vnd jhr habt mich Getrencket/ ꝛc. Wird<note place="right">&amp;q;</note><lb/>
+nun eines groſſen Herꝛn lob/ zeitliche Comendation<lb/>
+vnd Promotion/ vor wenig Leuten/ vnd von einer ge-<lb/>
+ringen ſtellen zu einer beſſerẽ/ hochgehalten/ wieuil hoͤ-<lb/>
+her wird diſes lob Chriſti zu achten ſein/ welches er<lb/>
+vns geben wird/ vor der gantzen Welt/ vnd ſeine Pro-<lb/>
+motion/ da mir nit auß Ver dienſt/ ſondern auß gna-<lb/>
+den als geſegnete oder Glaͤubige/ in den Gebenedey-<lb/>
+ten Samen befuͤrdert werden/ zur Erbſchafft des<lb/>
+ewigen lebens.</p><lb/>
+<p>Auß welchem allem zuſeben/ welch ein fuͤrtreffen-<lb/>
+lich/ den Armen Naͤchſten Menſchen nuͤtzlich/ vns<lb/>
+ſelbß heilwuͤrtig/ vnd Gotts wolgefaͤlliges Werck es<lb/>
+iſt/ Sich der Witwen vnd Wayſen Zur zeit der noht<lb/>
+<fw type="catch" place="bottom">annemen</fw><lb/>
+<pb facs="#f0032" n="[32]"/>
+<fw place="top" type="header"><hi rendition="#b">Ein Leychpredig/ Frawen</hi></fw><lb/>
+annemen/ vnd den ſelbigen bey de willig vnnd reichlich<lb/>
+geben. Den der gleichen Leuteſein/ Kinder vnd Er-<lb/>
+ben deß Reichs Gottes. Vnd wie man (ſagt der H.<lb/>
+<note place="left"><hi rendition="#aq">Chriſoſtomꝰ.</hi></note>Chriſtoſtomus) bey Guͤldenẽ Ketten der Edlen Her-<lb/>
+ren kinder/ oder Erben erkennet: Alſo erkennet man<lb/>
+bey der freygebigkeit vñ Almuſen/ gegen dem Armen/<lb/>
+die kinder Gottes des barmhertzigen Vatters/ welch-<lb/>
+er ſein Sonne ſcheinen laſſet/ vber boͤſe vnd from̃e.</p><lb/>
+<p>Diſes ſeye ſonderlich den Reichẽ geſagt/ das ſie dem<lb/>
+Exempel Tabea nach/ vol gutter Werck ſeyen/ ſonder-<lb/>
+lichen aber in Almuſen geben/ gegen den Armen/ willig<lb/>
+vnd freygaͤbig/ Roͤcke vnd kleider machen laſſen. Den<lb/>
+vmb diſer vrſachen/ naͤmlichen/ vmb der folge willen/<lb/>
+hat der H. Geiſt diſe Hiſtoriam vñ Legendam Tabea/<lb/>
+ſo fleißig beſchriben/ vnnd jhre Tugenden vnnd gutte<lb/>
+Werck/ ſo hoch erhabt/ das mann es noch heut zu tag/<lb/>
+den Reichen fuͤr halten/ vnd ernſtlichen ſcherpffen ſoll.<lb/>
+Dergleichen ſchaꝛpffe vermanunge ſchꝛeibet S. Pau-<lb/>
+<note place="left">1. <hi rendition="#aq">Tim.</hi> 6.</note>lus an ſeinen Timotheum/ dem er ernſtlichen auffer-<lb/>
+legt/ das er hierinnen die Reichen nicht vil bitten/ ſon-<lb/>
+dern/ den ſelbigen ernſtlichen gebietten ſol/ das ſie jhme<lb/>
+<note place="left">1. <hi rendition="#aq">Tim.</hi> 6.</note>hierinnen folgen vnd gehorchen. Seine deß H. Apo-<lb/>
+<note place="left">&amp;q;</note>ſtels woꝛt lauten alſo. Den Reichen von diſer welt/<lb/>
+<note place="left">&amp;q;</note>gebeut/ das ſie nicht ſtoltz ſeyen/ auch nit hoffen auff<lb/>
+<note place="left">&amp;q;</note>den vngewiſſen Reichthumb (ſondern) auff den le-<lb/>
+<note place="left">&amp;q;</note>bendigen Gott/ der vns dargibt reichlichen/ allerley zu<lb/>
+<note place="left">&amp;q;</note>genieſſen. Daß ſie guttes thun/ reich werden/ an gut-<lb/>
+<note place="left">&amp;q;</note>ten Wercken/ gern geben/ behuͤlfflich ſein/ Schaͤtz ſam-<lb/>
+<note place="left">&amp;q;</note>len/ jhnen ſelbs einen gutten Grundt auffs kuͤnfftige/<lb/>
+das ſie ergreiffen das Ewige leben. Vnnd an einem<lb/>
+<fw place="bottom" type="catch">andern</fw><lb/>
+<pb facs="#f0033" n="[33]"/>
+<fw type="header" place="top"><hi rendition="#b">Eliſabetha Weltzerin von Eberſtein/ ꝛc.</hi></fw><lb/>
+and<supplied>e</supplied>r ort. Laſſet vns guts thun/ vñ nit muͤde wer-<note place="right">Gal 6.</note><lb/>
+den/ den zu ſeiner zeit werdẽ wir auch Erndẽ on auff<note place="right">„</note><lb/>
+hoͤrn/ Als wir den nun zeit haben ſo laſſet vns gutes<note place="right">„</note><lb/>
+thun/ an jederman/ aller meiſt aber/ an deß Glaubens<note place="right">„</note><lb/>
+genoſſen.</p><lb/>
+<p>Wer nicht gantze Roͤcke vnd Kleyder zumachen/<note place="right">Der Armen Al-<lb/>
+muſen/ iſt Gott<lb/>
+auch angenem.</note><lb/>
+vnd hin zugeben hat/ vnd wolte doch auch vol guter<lb/>
+Werck vñ Almuſen gebens ſein/ der bꝛeche dem hung-<lb/>
+erigen ſein Bꝛodt/ der lege ſeine Stewer auff ein jaͤg-<note place="right">Eſa. 58.<lb/>
+1. Cor. 16.<lb/>
+Mar. 1<gap reason="illegible" unit="chars" quantity="1"/></note><lb/>
+lichẽ Sabbat ein/ bey ſich ſelbs/ ſamle vnd reiche nach<lb/>
+ſeinem vermoͤgẽ/ Gleich wie Chꝛiſto die zwey ſchoͤrpf-<lb/>
+lein (woͤlche beyde einen einigen heller machten) im<lb/>
+Caſten zu Jeruſalem/ der Armẽ Witwen wol gefal-<lb/>
+len/ das er ſaget/ Sie habe mehꝛ den alle andere einge-<lb/>
+leget/ den jaͤne hetten von jrem vbrigen/ diſe aber von<lb/>
+jhrer Armut/ vnd alles was ſie hatte/ jhre gantze na-<lb/>
+rung eingelegt/ Alſo wuͤrd er vnſere/ der Armen ga-<lb/>
+ben/ noch nicht verwerffen/ Sollen vnd koͤnnen dem-<lb/>
+nach beyde Reiche vnnd Arme/ Gott wolgefaͤlliges<lb/>
+Almuſen reichen/ vnd jedes nach ſeiner maß/ vol gut-<lb/>
+ter Werck werden/ vnd ſich der zeitlichen vnd kuͤnffti-<lb/>
+gen belohnung troͤſten.</p><lb/>
+<p>Damit mir aber den Armen jhre Lectiõ alhie auch<note place="right">Faullentzen <gap reason="illegible" unit="chars" quantity="3"/><lb/>
+wuͤrdige Arme.</note><lb/>
+geben/ ſollẽ ſie wiſſen/ das Gott der gleichen Tabeas/<lb/>
+Elizabethas/ Martinos der Armen Vaͤtter vnnd<lb/>
+pflaͤger/ nit jederman/ ſondern den Armen Witwen/<lb/>
+Wayſen/ vnd allein recht duͤrfftigẽ/ erwecke/ Nit den<lb/>
+faullentzern/ gayllen/ vnd mutwilligen Witwen/ die<lb/>
+arbeyten moͤchten/ vñ ſelbſt dem duͤrfftigen zu geben<lb/>
+betten/ wie S. Paulus vermanet. Derwegen/ wer<lb/>
+<fw type="sig" place="bottom">E</fw><fw type="catch" place="bottom">nicht</fw><lb/>
+<pb facs="#f0034" n="[34]"/>
+<fw place="top" type="header"><hi rendition="#b">Ein Leychpredig/ Frawen</hi></fw><lb/>
+nit Arbeit/ derſol auch nit eſſen/ geſchweig auß faul-<lb/>
+keit ſich auff den muͤßigang begeben. Souil von der<lb/>
+dritten lehre. Vnnd darmit vom Erſten Teil/ diſer<lb/>
+Pꝛedige.</p></div><lb/>
+<div n="3"><head><hi rendition="#b">Vom andern.</hi></head><lb/>
+<note place="left">Das Wunder-<lb/>
+werck Petri/<lb/>
+mit ſeinen vm̃-<lb/>
+ſtaͤnden/ beſchri<lb/>
+ben.</note><p><hi rendition="#in">B</hi>Etreffendt das Wunderwerck/ beſchreibet S.<lb/>
+Lucas/ dz ſelbige ebner maſſen/ mit ſeinen vm-<lb/>
+ſtenden fleißig/ zeiget an/ Als der Herꝛ der Ge-<lb/>
+meine thut gegeben/ das wort/ beguͤnnet zu wachſen/<lb/>
+vnd die Kirche Chꝛiſti zuzunemen/ habe ſich S. Pe-<lb/>
+trus auffgemacht/ ſeye durch zogen allenthalben die<lb/>
+<note place="left"><hi rendition="#aq">Lidda.</hi></note>Gemeine zubeſuchen. Vnder andern aber auch kum̃en<lb/>
+zu den Heyligen zu Lidda/ in einem Staͤttlein bey 6.<lb/>
+Meil wegs/ von Jeruſalem/ von Joppen aber/ bey 3.<lb/>
+Meillen wegs gelegen. Bald diſes die Joppenſar er-<lb/>
+farn/ haben ſie Botten zu jme abgefertiget/ vñ bitten<lb/>
+laſſen/ Er woͤlle auch zu jhnen kummen. Bald er er-<lb/>
+ſchinen/ vñ ſie ſein anſichtig worden/ haben jne die Ar-<lb/>
+men Witwen vñ Wayſen vm̃rungen/ Tabeam hertz-<lb/>
+lich bewaynd/ jme der ſelben glauben vnnd wandel er-<lb/>
+zelt/ ſonderlich aber/ jhre freygebigkeit/ gegen den Ar-<lb/>
+men geruͤm̃t/ daneben die Roͤcke vñ Kley der gewiſen/<lb/>
+die ſie weil ſie glebt jnen gemacht. Darmit zuuerſtehn<lb/>
+gebẽ/ ſie moͤchtẽ ley den/ wen es Gots will were/ Tabea<lb/>
+lebte noch. Richten darmit ſo vil auß/ das ſie dem<lb/>
+H. Apoſtel ſein hertz ein nemen/ das er ſie als bald auß<lb/>
+ſchaffet/ das liebe Gebett an die haͤnde nimbt/ Gott<lb/>
+ernſtlichen angeruͤffet/ er woͤlle diſer verſtorbnen/ nit<lb/>
+<fw place="bottom" type="catch">ſchlegt</fw><lb/>
+<pb facs="#f0035" n="[35]"/>
+<fw type="header" place="top"><hi rendition="#b">Frawen Eliſabetha Weltzerin/ von Eberſtein/</hi></fw><lb/>
+ſchlecht denn Armen zugefallen/ den ſelbigen lenger<lb/>
+zu dienen/ ſondern fuͤrnemlich/ vmb deren willen/ die<lb/>
+durch diß ſchwerlich wuder werck bekert moͤchtẽ wer-<lb/>
+den/ jhr leben widerumben ſchencken/ vñ ſie von Tod-<lb/>
+ten erwecken/ Ruͤffet darauff auß ſteiffem vnd vnbe-<lb/>
+weglichen glauben:</p><lb/>
+<p>Tabea/ ſteh auff. Was geſchicht<supplied>?</supplied> Antwoꝛtet Lu-<note place="right">„</note><lb/>
+cas/ Sie thaͤt jhre Augen auff/ vnnd da ſie Petrum<note place="right">„</note><lb/>
+geſehen/ ſatzte ſie ſich wider. Da er jhr aber ſeine hand<note place="right">„</note><lb/>
+retchte/ vnnd ſie auffrichtete/ warde ſie widerumb-<note place="right">„</note><lb/>
+en lebendig. Damit mann aber es fuͤr kein Gſpenſt<note place="right">„</note><lb/>
+hielte/ ſetzet er hinzu. Habe Petrus ſie als bald den<note place="right">„</note><lb/>
+Heyligen/ das iſt/ der gantzen daſelbſten auff dem<note place="right">„</note><lb/>
+Soller/ da die Leyche gelegen/ verſamleten Gemei-<note place="right">„</note><lb/>
+ne/ lebendig dar geſtellet/ Was Lehꝛnen wir dan hie-<lb/>
+rauß<supplied>?</supplied></p><lb/>
+<p>Erſtlich/ ſehen wir/ wie warhafftig Oſeas/ Mich-<note place="right">Die erſte Lehre<lb/>
+von <supplied>Auferſtehung</supplied><lb/>
+der Todten.</note><lb/>
+tas/ vnnd andere Heylige Pꝛopheten vom kuͤnffti-<lb/>
+gen Meßia geſchꝛiben/ das er werde ein Durchbrech-<note place="right"><hi rendition="#aq">Oſe: <gap reason="illegible" unit="chars" quantity="2"/><lb/>
+Mich.</hi> 2:</note><lb/>
+er ſein/ dem niemandts widerſtehn koͤnnen/ Denn<lb/>
+Todte wuͤrgen/ Die Hoͤlle zerſtoͤren/ vnnd dem<lb/>
+Teuffel alle ſeine macht nemen/ das/ wer an jne glau-<note place="right"><hi rendition="#aq">Ioan.</hi> 11.</note><lb/>
+bet/ der werde Leben/ ob er gleich Stuͤrbe/ vnnd wer<lb/>
+da lebet vnnd Glaubt an jhne/ der werde nimmer<lb/>
+mehꝛ Sterben/ den das der Todt hie gewichen/ vnnd<lb/>
+Tabeam verlaſſen/ vnnd dem leben platz gegeben/ wie<lb/>
+auch bey andern verſtorbnen/ welche die Heiligẽ Apo-<lb/>
+ſtel auffer wecket/ das hat man niemands anders/<lb/>
+dañ Vnſerem lieben Herꝛn vñ Heyland Chꝛiſto Je-<lb/>
+ſu/ dem Heꝛtzogen vñ Fuͤꝛſten des lebens/ zu dancken<lb/>
+<fw type="sig" place="bottom">E 2</fw><fw type="catch" place="bottom">gehabt/</fw><lb/>
+<pb facs="#f0036" n="[36]"/>
+<fw place="top" type="header"><hi rendition="#b">Ein Leichpredig/ Frawen</hi></fw><lb/>
+<note place="left">2. Cor. 15.</note>gehabt/ wie S. Paulus die wort ſein erklaͤrt/ vnnd<lb/>
+<note place="left">„</note>ſchreibet/ der Todſey in dem Syg verſchlungen/ Tod<lb/>
+<note place="left">„</note>wo iſt dein Stachel<supplied>?</supplied> Hoͤll/ wo iſt dein Syg<supplied>?</supplied> Aber<lb/>
+<note place="left">„</note>der Stachel des Todes iſt die Suͤnde/ die krafft aber<lb/>
+der ſuͤnde/ iſt das Geſatz. Gott aber ſeys gedanckt/ der<lb/>
+vns den Syg gibt/ durch vnſern Herꝛn Jeſum Chri-<lb/>
+ſtum.</p><lb/>
+<p>Gleich aber wie Chꝛiſtus vnnd ſeine lieben Apoſtel/<lb/>
+Lazarum/ das Toͤchterle Jairi/ Tabeam/ vnd ande-<lb/>
+re aufferweckt habẽ/ Alſo werden am Juͤngſten tag/<lb/>
+alle widerumb Aufferſtehn/ vnnd bey dem/ der vnſere<lb/>
+Suͤnde/ zur gerechtigkeit verwandlet/ den Todt zum<lb/>
+<note place="left">1. Cor. 1.<lb/>
+Zoan. 11.<lb/>
+Gal. 16.</note>ſanfften ſchlaff gemacht/ vnſere Graͤber zu Rhubet-<lb/>
+lein der ſchlaff heuſer bereyttet/ vnd mit ſeinem beyligẽ<lb/>
+thewren blut den Him̃el auff geſchloſſen hat/ dortten<lb/>
+ewiglich leben. Daß ſollen wir feſtigklichen glau-<lb/>
+ben/ vnd vns hiemit (wie S. Paulus vermanet) vn-<lb/>
+der einander troͤſten. 1. Theſſ. 4. Den wie abermalẽ<lb/>
+<note place="left"><gap reason="illegible" unit="chars" quantity="1"/>. Theſſ. 4.</note><hi rendition="#aq">Tertullianus</hi> redet/ <hi rendition="#aq">Reſurrectio mortuorum, conſolatio<lb/>
+Chriſtianorum.</hi> vnnd daß die Joppenſer diſes geglau-<lb/>
+bet/ vnd ſich deſſen getroͤſtet/ haben ſie es mit dem be-<lb/>
+zeuget/ das ſie den Leychnam jhrer verſtorbnen Ta-<lb/>
+beam nicht liederlich hin geworffen/ ſondern jhne<lb/>
+gewaſchen/ den ſelbigen ordenlich vnd ehrlich zur Er-<lb/>
+den zubeſtaͤttigẽ/ Als ein ſchoͤnes Waytzen koͤrnlein/<lb/>
+<note place="left">Joan. 12.<lb/>
+Math. 13.</note>welches zu ſeiner zeit widerum herfuͤt kum̃en/ gruͤnen<lb/>
+vñ lebendig werdẽ/ in der Ernde des Jüngſten tags/<lb/>
+durch die liebe H. Engel geſchnitten/ vñ in die Schew-<lb/>
+ren deß Ewigen ſeligen Lebens auff gehaben werden<lb/>
+ſolle.</p><lb/>
+<fw place="bottom" type="catch">Wolt</fw><lb/>
+<pb facs="#f0037" n="[37]"/>
+<fw type="header" place="top"><hi rendition="#b">Eliſabehta Weltzerin/ von Eberſtein/ ꝛc.</hi></fw><lb/>
+<p>Wolt aber einer hie kluͤglen vnd ſagen/ hat doch S.<lb/>
+Petrus alhie des Namens Jheſu Chꝛiſti nichts ge-<lb/>
+dacht/ villeicht wird die Ehre der auffer weckung der<lb/>
+Toden/ vnd diſes wun derwerck ſo wol jme/ als Chꝛi-<lb/>
+ſto/ zu zuſchrieben ſein Antwort<supplied>?</supplied> Gleich wie S.<lb/>
+Petrus kurtz vor diſem wunder werck zu Lidda/ einen<lb/>
+Armen krancken Gichtbruͤchigen Mañ/ woͤlcher 8.<lb/>
+Jar zu Bett gelegen/ geholffen: Alſo hat er auch diſe<lb/>
+Tabeam vom Tod widerumb aufferwecket. Er ſa-<lb/>
+get aber zu jaͤnem alſo. Enea. Jeſus Chꝛiſtus mache<note place="right">”</note><lb/>
+dich geſund/ Stehauff/ vnnd bethe dir ſelber/ ob wol<note place="right">”</note><lb/>
+der gleichen woꝛt bey diſem Wunder zeichẽ nit beſchri<note place="right">”</note><lb/>
+ben/ wirder ſich doch der ſelbigen/ oder aber gleichfoͤr-<lb/>
+miger gebꝛaucht haben. Alſo hat er jenem Lamen<note place="right"><hi rendition="#aq">Act.</hi> 3.</note><lb/>
+Betler zu Jeruſalem geholffen/ zu dem erſagte/ Gold<lb/>
+vnd Sylber hab ich nicht/ was ich aber habe/ das gebe<lb/>
+ich dir/ Jm Namen Jeſu Chꝛiſti von Nazareth/ ſteh<lb/>
+auff vnd wandele. Eben inn diſem Namen hat S.<note place="right"><hi rendition="#aq">Act. 13.<lb/>
+Ib. 16.<lb/>
+Ib.</hi> 14.</note><lb/>
+Paulus Elimam einen Zauberet geblindet/ Einen<lb/>
+warſager Geiſt/ auß einer Magt getriben/ einen von<lb/>
+Mutter leyb/ Lamẽ/ der niemallen gewandlet hatte/<lb/>
+geſund vnd gerad gemacht/ ꝛc. Diſem Chꝛiſto Je-<note place="right"><hi rendition="#aq">Luc.</hi> 10.</note><lb/>
+ſu/ geben die Sibentzig Juͤnger zeugnuß/ das jhnen<lb/>
+auch die Teuffel/ in ſeinem Namen vnderthan gewe-<lb/>
+ſen ſeyen.</p><lb/>
+<p>Alles dahin wol zumercken/ Das wir nicht allein<note place="right">Troſt in allerley<lb/>
+an ligen/ ſonder-<lb/>
+lich aber/ in tod-<lb/>
+te<supplied>s</supplied> noͤten.</note><lb/>
+den Herꝛn von den knechten/ die Wunderwerck Chꝛi-<lb/>
+ſti/ vnnd ſeiner H. Apoſtel wiſſen zu vnder ſcheiden/<lb/>
+Sondern auch wo hin/ vnnd zu wem wir in vnſern<lb/>
+noͤten vnnd obligen (ſie haben einen Namen wie ſie<lb/>
+<fw type="sig" place="bottom">E 3</fw><fw type="catch" place="bottom">woͤllen)</fw><lb/>
+<pb facs="#f0038" n="[38]"/>
+<fw type="header" place="top"><hi rendition="#b">Ein Leychpredig/ Frawen</hi></fw><lb/>
+woͤllen) flichen ſollen/ das vns geholffen werde/ Nem-<lb/>
+lichen nicht zu den Verſtorbnen Heyligen/ Petro<lb/>
+oder Paulo/ ſondern zu Chꝛiſto Jeſu ſelbs/ dem Rech<lb/>
+ten Meiſter zu helffen/ vnd vnſern mit einigen Ertz-<lb/>
+hirten vnſerer Seelen/ ſonderlichen aber/ inn Todtes<lb/>
+noͤtten. Den Abraham waiß von vns nicht/ vnnd<lb/>
+Jſrael keñet vns nit/ der Herꝛ aber iſt vnſer Vatter/<lb/>
+<note place="left">Eſa. 24.</note>vñ vnſer Erloͤſer/ von alters her/ iſt das ſein Name.<lb/>
+Jſt eines das wir alhie zu lehꝛnen haben. Namlichẽ/<lb/>
+wen wir kranck werden/ oder ſterben ſollen/ Daß wir<lb/>
+vns erinnern/ Chꝛiſtus ſeye der beſte vnd einige Artzt/<lb/>
+vnder woͤlchem alle kranckheiten/ der Todt vñ Teuf-<lb/>
+fel weichẽ muͤſſen/ vñ wie er alhie Tabeam vom Tod<lb/>
+Aufferweckt/ Alſo werde er vns alle widerumben le-<lb/>
+bendig machen/ vnd am Juͤngſten tag aufferwecken/<lb/>
+das ſie bey jhm ſeyen/ wo er iſt/ Sollen jhme der wegẽ<lb/>
+vnſere Seelen ſicherlichen vertrawen vnnd befaͤhlen/<lb/>
+vnd keinen Heyligen: auff jhne vnnd ſeine/ nicht auff<lb/>
+die beyligen vnd der ſelbigen Wunder werck ſehen.</p><lb/>
+<p><note place="left"><hi rendition="#aq">Syr. 35.<lb/>
+Ecc. 17.<lb/>
+Ioan. 10.<lb/>
+4: Reg.</hi> 18.</note>Zum andren/ lehꝛnen wir hierauß/ welch ein kraͤff-<lb/>
+tig ding es ſeye/ vmb das liebe Gebett/ wie es alle wol-<lb/>
+cken durch dringet/ die Feindt ſchlahe/ der Sonnen<lb/>
+lauff hindere vnnd auff halte/ den Himmel auff vnd<lb/>
+zu ſchlieſſe/ ꝛc. Ja auch den Todt verjagel/ das er<lb/>
+weichen muͤß. Sonderlich wen es im Namen Jeſu<lb/>
+Chꝛiſti/ vnſers einigen Mittlers vnnd fuͤrbitters ge-<lb/>
+ſchicht. Sollen derowegen in Kranckheyten auch<lb/>
+<note place="left">Vrſachen/ wa-<lb/>
+rum̃ nit allezeit<lb/>
+der kranken Ge<lb/>
+bet/ erhoͤrt wird</note>ſelbs Betten/ vnd andere fuͤr vns Betten laſſen.</p><lb/>
+<p>Warumben/ moͤchte eins hie fragen/ hat Gott das<lb/>
+Gebett/ Flehen vnnd Waynen der Armen/ wie auch<lb/>
+<fw type="catch" place="bottom">Tabea</fw><lb/>
+<pb facs="#f0039" n="[39]"/>
+<fw place="top" type="header"><hi rendition="#b">Eliſabetha Weltzerin/ von Eberſtein/ ꝛc.</hi></fw><lb/>
+Tabeaſelbs nicht erhoͤret/ vnnd ſie der Armen/ vnnd<lb/>
+villeicht jhrem ſelbs eignem wunſch vñ begern nach/<note place="right">Alle Geyli<gap reason="illegible" unit="chars" quantity="3"/>en<lb/>
+Suͤndlich/ vnd<lb/>
+deß wegẽ ſterb<lb/>
+lich.</note><lb/>
+nit laſſen lenger leben<supplied>?</supplied> Antwort. Erſtlichen/ Da-<lb/>
+rumben Tabeam/ wie heylig vnd vol gutter Werck ſie<lb/>
+geweſen/ jhrer Suͤnden vnnd ſterbligkeit zu erinnern/<lb/>
+ob ſie wol gerecht/ iſt ſie doch nur <hi rendition="#aq">immutatione,</hi> vnd nit<lb/>
+<hi rendition="#aq">omnimoda regeneratione</hi> heylig/ fꝛomb vnnd gerecht/<lb/>
+das iſt/ nicht aller dings ohne Suͤnde geweſen/ Bluͤt<lb/>
+vnd Fleiſch/ hernach ſo wol/ als daruor an jr gehabt/<lb/>
+Aber vmb CHꝛiſti Jheſu willen/ deſſen ſie Juͤngerin<lb/>
+geweſen/ iſt jhr diſes nicht zugerechnet/ ſondern zuge-<lb/>
+decket worden/ den ſie im H. Tauffe hatte angezogen/<lb/>
+weil aber Fleiſch vnd Bluͤt/ ins Reich Gottes nicht<lb/>
+kummet/ muͤſſen ſie es durch den zeitlichen Todt able-<note place="right">Verſtorbne hel-<lb/>
+ligen treffen<lb/>
+mit Gott einen<lb/>
+guten tauſch.</note><lb/>
+gen. So war jr der Todt nicht ſchaͤdlich/ thete mit<lb/>
+Gott einen guttẽ tauſch/ ſchlieffe vñ rhute in Chꝛiſto<lb/>
+ſaͤnfftigklich/ vnd ruͤret ſie keine qual mehꝛ an/ hatte<lb/>
+das jhre vberſtanden/ vñ muſte hernach zum andern<lb/>
+mal Sterben. Endlich wolte der Herꝛ die Augen<lb/>
+der Armen/ von Tabea abziehen/ vnd zuuerſtehn ge-<lb/>
+ben/ das ſie auff jhne ſehen ſollen/ deſſen Tabea/ die<note place="right">Gott allein/ der<lb/>
+rechte Wayſen<lb/>
+Vatter.</note><lb/>
+Naͤrin geweſen/ vnd ſeiner Guͤtter nur eine Schaͤffne-<lb/>
+rin oder haußhalterin. Er woͤlle ſelbs der Armen<lb/>
+Wytwen vnnd Wayſen rechter Vatter ſein/ vnnd ſie<lb/>
+verſorgen.</p><lb/>
+<p>Sollen dem nach in vnſern kranckheitẽ/ fleißig für<lb/>
+vns ſelbs/ vnd für andere Betten/ zil aber/ zeit vnd<lb/>
+maaß/ wen vnd wie Gott vns helffen/ auch wie lang<lb/>
+er vns leben laſſen ſoll/ nicht fuͤrſchreiben/ vil weniger<lb/>
+<fw place="bottom" type="catch">wenn</fw><lb/>
+<pb facs="#f0040" n="[40]"/>
+<fw type="header" place="top"><hi rendition="#b">Ein Leichpredig/ Frawen</hi></fw><lb/>
+wenn er vns vnſerm wunſch nach nicht erhoͤrt/ mur-<lb/>
+ren. Denn wir wiſſen nit was mir bitten ſollen/ wie<lb/>
+<note place="left">Rom 8.</note>ſichs gebuͤrt. Die erhoͤrung auch der hilff iſt Zwey-<lb/>
+erley/ <hi rendition="#aq">Voluntatis</hi> vnd <hi rendition="#aq">Vtilitatis,</hi> das iſt/ nach dem vns<lb/>
+<note place="left">Troſt in abſter-<lb/>
+den liebe freund.</note>nutzlich oder aber Gott wolgefellig iſt. Wenn nur<lb/>
+fromme vnd Gottſelige Tabe<hi rendition="#aq">æ</hi> vnd die Armen wol-<lb/>
+verdiente Eliſabetha/ Martini vnnd dergleichen<lb/>
+Heyligen er krancken vnnd ſterben/ bißweilen ein zeit-<lb/>
+lang im Creutz auffgehalten/ nicht gleich erhoͤrt wer-<lb/>
+<note place="left"><hi rendition="#aq">Eccle.</hi> 9.</note>den/ muͤſſen wir nicht euſſerlichemſchein/ vnd vnſerer<lb/>
+vernunfft nach/ von jhrem ende vrtheilen/ (denn der<lb/>
+gſtalt wuͤrde niemands wiſſen/ ob er bey Gott in gna-<lb/>
+den/ oder vngnaden ſeye) Sondern vns erinnern/ das<lb/>
+ſie ſterblichen Menſchẽ/ wie mir alle geweſen/ den Tod<lb/>
+vnnd vrſach des Tods jederzeit bey ſich in jhrem buſen<lb/>
+<note place="left"><hi rendition="#aq">Gen.</hi> 2.</note>haben getragen/ die ſchuld der Natur bezalen muͤſ-<lb/>
+ſen/ vnd den ſententz/ der vber Adam vnnd Eua/ im<lb/>
+Paradeiß/ nach dem Faal ergangen (welches tags<lb/>
+du von dem Baum des erkendtnuß Gutes vnd boͤſes<lb/>
+wirſt eſſen/ ſoltu ſterben) helffen volziehen.</p><lb/>
+<p>So haben ſie ein gutten lauff getroffen/ vñ koͤnnẽ<lb/>
+mit S. Paulo ſprechen<hi rendition="#i">:</hi> Chriſtus iſt mein lebẽ/ ſterben<lb/>
+aber iſt mein gewin. Vnd abermalen Lebenwir/ ſo le-<lb/>
+<note place="left"><hi rendition="#aq">Rom. 14. &amp;</hi> 8.</note>ben wir dem Herꝛẽ/ ſterben wir/ ſo ſterbẽ wir dem Her-<lb/>
+ren/ wir ſeind tod oder lebendig/ ſo ſeind mir des Herꝛn.<lb/>
+Vnd ſeind deſſen im Hertzen verſichert vnd gewiß/ dz<lb/>
+weder Tod noch leben/ weder engel noch fuͤrſtentumb/<lb/>
+noch gewalt/ weder gegenwertig/ noch zukuͤnfftig/<lb/>
+weder hohes noch tieffes/ noch kein andere Creatur/<lb/>
+ſie ſcheiden moͤge/ von der liebe Gottes/ die in Chriſto<lb/>
+<fw type="catch" place="bottom">Jeſu</fw><lb/>
+<pb facs="#f0041" n="[41]"/>
+<fw type="header" place="top"><hi rendition="#b">Eliſabehta Weltzerin/ von Eberſtein/ ꝛc</hi></fw><lb/>
+Jeſu/ iſt vnſerm Herꝛn. Weil auch der gleichen Hey-<lb/>
+lige vnd from̃e leut jhr von Gott empfangen Pfund/<lb/>
+wol angelegt/ vnnd jhrem ampt vnd beruff getrewe<lb/>
+geweſen/ vnſer Herꝛ vnnd GOtt mit jhrer/ als ge-<lb/>
+trewen Knechten auch zur ruh/ damit ſie dermalen<lb/>
+eins die froͤliche ſtimme hoͤren/ Ey du from̃er vnd ge-<note place="right">Matth. 25.</note><lb/>
+trewer Knecht/ du biſt vber wenig getrew geweſen/<lb/>
+ich will dich vber vil ſetzen/ gehe ein zu deines Herꝛn<lb/>
+frewde/ da ſie dann aller arbeyt ergoͤtzt werden/ vnd<lb/>
+ruhen ſollen. Wie geſchriben ſteht/ Seelig ſeind die<lb/>
+Todten/ die in dem Herꝛn ſterben von nun an. Ja<lb/>
+der Geyſt Spricht/ das ſie ruhen von jhrer Arbeyt.<note place="right"><hi rendition="#aq">Ap:</hi> 14:</note><lb/>
+Denn jhre werck folgen jhnen nach/ Begibt ſichs/<lb/>
+das der gleichen from̃e Leut im Creutz ein weile auff<lb/>
+gehalten/ vnd etwan gegen ende jhrer ſinnen vnd der<lb/>
+vernunfft beraubt werden/ muß man abermal hie/<lb/>
+nicht allein auff das Creutz geffen/ ſonder beyde/ auff<lb/>
+jhr wolher gebrachts leben/ vnd die zubereytung zum<lb/>
+ende ſehn/ ob ſie juͤnger Chriſti geweſen/ Gottsfoͤrch-<lb/>
+tig gelebt/ bey dem <hi rendition="#aq">Exercitio religionis</hi> haben laſſen<lb/>
+finden/ vnnd ſich auß glauben aller Tugen den vnnd<lb/>
+Gottſeligen werck haben befliſſen.</p><lb/>
+<p>Sich zu jhrem ſterbſtün dlein/ Chriſtlich geſchickt/<lb/>
+vnd den abſchid auß diſem jamerthal/ recht genum̃en/<lb/>
+das iſt/ <hi rendition="#g">ob</hi> ſie in der beicht mit Gott dem Almaͤchtig-<lb/>
+en abgeraittet/ den Reitbrieff der H. Abſolution/ im<lb/>
+buſen jhrer Glaͤubigen hertzen geleget: Jm H. Hoch-<lb/>
+wirdigen Abendmal/ den H. weſentlichen leib/ ſampt<lb/>
+dem Heyligen vnd weſentlichen Blut Chriſti Jheſu/<lb/>
+das rechte pfandt vnnd Sigil der Gerechtigkeit/ vnd<lb/>
+<fw type="sig" place="bottom">F</fw><fw type="catch" place="bottom">einige</fw><lb/>
+<pb facs="#f0042" n="[42]"/>
+<fw place="top" type="header"><hi rendition="#b">Ein Leychpredig/ Frawen</hi></fw><lb/>
+einige ἐφὸδιον oder zehrpf<supplied>e</supplied>nning/ auff die Raiß zum<lb/>
+Ewigen leben/ zu ſich vnnd mit ſich haben genem̃en/<lb/>
+Vnd alſo in Chꝛiſto Jheſu/ wie ſie hie in muͤhe gelebt/<lb/>
+entſchlaffen ſeyen. Wenn diſes alles geſchen/ da iſt kein<lb/>
+zweyffel dann das Gott mitten in der groͤſten noht/<lb/>
+ſeiner ver heiſſung nach/ bey jnen geweſen/ der H. Geiſt<lb/>
+ſie getroͤſter/ Chꝛiſtus Jheſus/ der Weg/ die Warheit<lb/>
+vnd das leben/ jhr getrewer geleits Mañ geweſen/ vnd<lb/>
+durch das finſter Thal des Tods ſie geleytet habe/ in<lb/>
+das ewige leben.</p><lb/>
+<p>Diſes ſey geſagt von der ander Lehꝛe/ weil das liebe<lb/>
+gebett ſo kraͤfftig/ das es im namen Jeſu Chꝛiſti/ La-<lb/>
+megerad/ Sehend/ blind/ todte lebendig machet. Das<lb/>
+wir in vnſern noͤtten/ kranckheiten vñ ſchwachhei-<lb/>
+ten (wie auch Syrach vermanet) zum gebett greiffen/<lb/>
+ernſtlichẽ Gott im namen Jeſu Chꝛiſti anruͤffen ſol-<lb/>
+len volgt eine froͤliche erweckung goͤtlicher hilff (wie<lb/>
+allhie Tabea) wol vñ guͤt/ folgt ſie nicht/ vnd wie da-<lb/>
+runder oder vnſere vol liebe freunde ſterben/ das wir<lb/>
+deß wegen an Gottes willen vnd vermoͤgen nit zweif-<lb/>
+feln/ ſondern jme ſtillhalten/ denn er weiſt wens ambe-<lb/>
+ſten iſt/ vnnd treibet mit vns hier in keinen argen lißt/<lb/>
+das ſollen vnnd muͤſſen wir jhme vertrawen/ wie die<lb/>
+Kirche ſingen. So muß wie Paulus ſaget/ den from-<lb/>
+men vnd Gottſeeligen alles zum beſten gedeutet. So<lb/>
+vil võ andern theil diſer Hiſtori/ nemlich/ vom Wun-<lb/>
+derwerck Petri/ vnd den fuͤrnemſten lehren/ vnd troͤ-<lb/>
+ſten/ die wir haben zubehalen.</p></div><lb/>
+<div n="3"><head><hi rendition="#b">Vom dritten.</hi></head><lb/>
+<p>Weil wir vns in vorgehenden ſtuͤcklen etwas ver-<lb/>
+<fw place="bottom" type="catch">weilet</fw><lb/>
+<pb facs="#f0043" n="[43]"/>
+<fw type="header" place="top"><hi rendition="#b">Eliſabetha Weltzerin/ von Eberſtein/ ꝛc.</hi></fw><lb/>
+weillet/ woͤllen wir diſes mit wenig woꝛten kuͤrtzlich<lb/>
+vberlauffen/ diſes Wunder werck zeiget Sanct. Lu-<lb/>
+cas zuend verleßner Hiſtorien an/ habe ſo vil außge-<lb/>
+richt/ vnnd bey den Joppenſern gewircket/ das jhrer<lb/>
+vil/ die biß daher inn der Finſternuß/ jhrer Abgoͤt-<lb/>
+terey vnd geiſtlichẽ blindheit geſiecket/ jren aber glau-<lb/>
+ben fallen laſſen/ dem H. Euangelio beyfall gethon/<lb/>
+Juͤnger Chꝛiſti/ glaͤubig vñ durch jhne ſeelig worden.<lb/>
+Vnd vm̃ mehrer vergwiſung willen/ gedenckt er auch<lb/>
+deß orts/ da diß wunder zeichen geſchehen/ Nemlich zu<lb/>
+Joppen/ der zeit Joppe genand/ ein Statt am Meer<lb/>
+gelegen/ darbey ein Meerhaffen/ alda die jenigen/ ſo<lb/>
+vom abendt nach Jeruſalemſchiffen/ anfahren/ vnd<lb/>
+von dannen zu Landt/ vngefahrlich/ fuͤnff welſcher<lb/>
+meilen/ gehn Jeruſalem zu rayſen haben.</p><lb/>
+<p>Lehꝛnen hier auß/ war fuͤr wir alle Wunderzeichen<note place="right">Wunderzeich-<lb/>
+en/ Credentz-<lb/>
+brieff <supplied>der</supplied> G. A-<lb/>
+poſtel.</note><lb/>
+in gemein/ der lieben H. Pꝛopheten/ Chꝛiſti vnnd ſei-<lb/>
+ner H. Apoſtel anſehen vnd halten ſollen/ Nemlich/<lb/>
+fuͤr Goͤttliche kenn vñ wort zeichen/ das jhre lehre/ die<lb/>
+ſie gefuͤret auß Gott/ gerecht vnnd Heylſam geweſen<lb/>
+ſey. Gleich wie gꝛoſſe Herꝛn jhre Boteſchafft vnnd<lb/>
+Legaten/ neben jhrer <hi rendition="#aq">inſtruction,</hi> vmb mehrers anſe-<lb/>
+hens vnd glaubens willen/ auch mit Credentz bꝛieffen<lb/>
+verſehen. Alſo hat Chꝛiſtus ſeine liebe H. Apoſtel mit<lb/>
+gabe wunderzeichẽ zuthũ geziert damit mã jn glaub-<lb/>
+te. Woͤllen diſes mit etlichen Evempel darthun vnd<lb/>
+erklaͤren. Bin ich ein Man Gottes (ſagt Elias zum<note place="right">2. Reg <gap reason="illegible" unit="chars" quantity="1"/>.<lb/>
+Joan. 18.</note><lb/>
+Hauptman des Koͤnigs von Jſrael) ſofalle Fewer<lb/>
+vom Him̃el/ vnd feſſe dich vnnd deine fuͤnfftzig. Da<lb/>
+fiele Fewer vom Himmel/ vnnd fraß jhn vnnd ſeine<lb/>
+<fw type="sig" place="bottom">F 2</fw><fw type="catch" place="bottom">fuͤnfftzig.</fw><lb/>
+<pb facs="#f0044" n="[44]"/>
+<fw place="top" type="header"><hi rendition="#b">Ein Leichpredig/ Frawen</hi></fw><lb/>
+<note place="left">Johannie. 18.</note>Fuͤnffzig. Wen ſuchet jhr (Fraget Chriſtus im<lb/>
+garten die Juden) Jeſum ſagten ſie von Nazareth:<lb/>
+Jch bins/ Antwort Chriſtus. Auß krafft diſer zwey-<lb/>
+er einigen wort/ ſpricht Johannes ſeind ſie all zu ruck<lb/>
+gewichen/ vnd zu boden gefallen/ als hette ſie der plütz<lb/>
+vnd doñer darnider geſchlagen. Damit man Petro<lb/>
+vnnd Johanni zu Jeruſalem Glauben gebe/ das jhr<lb/>
+Predige von Chriſto Jeſu gewiß/ vnnd gerecht were/<lb/>
+machtẽ ſie den Lamen geſund/ vor dem Tempel. Das<lb/>
+die zu Philippis vnd Lyſtꝛa vnd andern orten mehr/<lb/>
+S. Paulo/ vnd ſeinem mitgeferten/ dem Barnabas<lb/>
+ſicherlich trawen doͤrffen/ haben ſie neben der Predig<lb/>
+wunderzeichen gethon/ wie oben gemeldt worden/<lb/>
+Sehende geblendet/ Lame gerad gemacht/ Teuffel<lb/>
+außgetrieben/ alles nit auß eignen kraͤfften vnd ver-<lb/>
+moͤgen/ ſonder im namen Jheſu Chriſti/ jhres Herꝛn<lb/>
+vnd meiſters/ deſſen auſſerwoͤhlte Rüſtzeuge vnd Le-<lb/>
+<note place="left">Mar. 12.</note>gaten ſie geweſen. Dañ die zeichen/ ſagt Marcus/ die<lb/>
+da folgen ſollen/ denen die Glauben/ ſeind diſe/ in mei-<lb/>
+nem Namen werden ſie Teuffel außtreiben/ mit new-<lb/>
+en Zungen reden/ Schlangen vertreiben/ vnd ſo ſie et-<lb/>
+was Toͤdtlichs Trincken/ wirts jhnen nicht ſchaden/<lb/>
+Auff die Krancken werden ſie Hende aufflegen/ ſo<lb/>
+<note place="left">Durch wun-<lb/>
+derzeychen Jſt<lb/>
+das Euange-<lb/>
+lium B<supplied>e</supplied>kreff-<lb/>
+tigt.</note>wirts beſſer mit jhnen. Vnnd abermal/ Sie aber<lb/>
+giengen auß vnd Predigten an allen orten/ vnnd der<lb/>
+Herꝛ Wirckete in jhnen/ vnnd bekrefftiget das Wort<lb/>
+durch nach volgende Zeychen. Jſt eines das wir hie<lb/>
+zu behalten haben. Nemlich/ das durch die vilfelti-<lb/>
+gen vñ herꝛlich Wunderzeichen/ die Predigt des Hey-<lb/>
+ligen Euangelij/ ſeye beſtetiget worden.</p><lb/>
+<fw place="bottom" type="catch">Jtem</fw><lb/>
+<pb facs="#f0045" n="[45]"/>
+<fw type="header" place="top"><hi rendition="#b">Eliſabetha Weltzerin/ von Eberſtein.</hi></fw><lb/>
+<p>Jtem: Das gleich wie mann das Volck mit einer<note place="right">Wunder zeichẽ<lb/>
+locken die leur<lb/>
+zu Chriſto.</note><lb/>
+Puſonen zu ſamen rieffet vnd ladet: Alſo werden die<lb/>
+Leut durch wunderzeichen zu Chriſto gelocket/ das ſie<lb/>
+jre Abgoͤtterey fallẽ laſſen/ ſich zu jm bekeren/ Glaͤu-<lb/>
+big vnd ewig Seelig werden. Wie abermal/ Johan/<note place="right">Joan. 20.</note><lb/>
+nes hieuon ſchreibt. Nicht all wunderzeichen ſpricht<lb/>
+er ſeind beſchriben/ diſe aber ſeind beſchrieben/ das wir<lb/>
+Glauben ſolten/ Jeſusſey Chriſtus der Son Gottes/<lb/>
+vnnd das wir durch den Glauben das Leben haben/<lb/>
+in ſeinem Namen. Alſo ſchreibet (wie mir vernom-<note place="right">Wunderwerck<lb/>
+ſterekẽ die Chri-<lb/>
+ſten/ in jhrem<lb/>
+Glauben an<lb/>
+Chriſtum.</note><lb/>
+men haben) allhie S. Lucas von der krafft vnnd<lb/>
+wirckung des wunder wercks S. Petri/ wie das es<lb/>
+kund worden ſeye durchs gantz Joppen/ vnd jhr vil<lb/>
+Glaͤubig an den Herꝛen.</p><lb/>
+<p>Jſt nun die Predig des H. Euangelions/ mit<lb/>
+gnugſamlichen wunderzeichen beſtettiget/ Sein der<lb/>
+wunderwerck ſo vil beſchriben/ das wir neben ander<lb/>
+lehre/ des H. Euangelij/ moͤgen Glauben vnnd ver-<lb/>
+gwiſſet werden/ in vnſern hertzen/ das Jeſusſey Chri-<lb/>
+ſtus der Sohn Gottes/ ꝛc. Laſſen mir vns gantz vnd<lb/>
+gar nichts jrren/ der widerwertigen reden/ wenn ſie<lb/>
+fuͤrgeben/ Bey vnſerm Euangelio geſchehen keine<note place="right">Newe Lehren/<lb/>
+bedoͤrffen newe-<lb/>
+er Wunde<supplied>r-</supplied><lb/>
+werck.</note><lb/>
+Wunderzeichen/ koͤnne derwegen nicht gerecht ſein/ ꝛc.<lb/>
+Dann wie mir vns der vralten Lehre halten/ alſo<lb/>
+laſſen wir vns an den alten Wunderzeichen benuͤgen/<lb/>
+vnd laſſen newen lehrer vnnd lehren jhre newe Wun-<lb/>
+der zeychen. Weñ auch ein Engel vom Himmel/ ein<lb/>
+anders Euangelium Predigen wuͤrde/ der ſolte ver-<lb/>
+flucht ſein.</p></div><lb/>
+<div n="3"><head/>  <p>An dem aber/ zum beſchluß/ diſer gantzen ver ma-<lb/>
+<fw type="sig" place="bottom">F 3</fw><fw type="catch" place="bottom">nung/</fw><lb/>
+<pb facs="#f0046" n="[46]"/>
+<fw type="header" place="top"><hi rendition="#b">Ein Leychpredig/ Frawen</hi></fw><lb/>
+<note place="left">Beſchluͤß vnnd<lb/>
+erholung/ der<lb/>
+gantzẽ Predig.</note>manung/ wirt das meiſte gelegen ſein/ wenn wir heut<lb/>
+heut ſage ich/ die ſtim̃e des Herꝛen hoͤrn/ dz wir vnſere<lb/>
+ohren nicht zu ſtopffen/ vnd wenn vns diſes liecht des<lb/>
+Heils/ die Sonn der gerechtigkeit/ vnd der beylbarti-<lb/>
+ge Morgenſtern Chꝛiſtus Jeſus wie denen in Judea/<lb/>
+Galilea/ Samaria vnd andern/ deren S. Paulus ge-<lb/>
+denckt/ auff geht vñ erſcheinet (wie er vns dañ/ Gott<lb/>
+lob vnd danck/ gantz herꝛlich ſcheinet) das wir vnſere<lb/>
+Augen nicht zuhalten/ vñ wie die Eulen/ vmb Mit-<lb/>
+tag blind ſeyen: Sunder dem Evempel nach gedach-<lb/>
+ter glaubigen zu Lidda/ Joppe/ Tabea vñ andere/ di-<lb/>
+Augen vnnd Ohren auff thun/ die Pꝛedig des H. E<supplied>-</supplied><lb/>
+uangelij danckbarlich annemmen/ als den groͤſten vñ-<lb/>
+beſten Schatz/ darmit wir jhne auch nicht wider ver-<lb/>
+lieren/ vnd jederman/ auch die/ ſo drauſſen ſeind/ ver-<lb/>
+mercken koͤnne/ das wir in den orden Tabea vnnd an-<lb/>
+derer glaͤubigen getretten/ das iſt/ rechtſchaffne Juͤn-<lb/>
+ger Chꝛiſti ſeyen/ ſoſollen vnd muͤſſen wir vnſer Pꝛo-<lb/>
+feßion des Chꝛiſtenthum̃s/ auch mit Gottſeligẽ wer-<lb/>
+cken darthon vñ erweiſen/ ja vol gutter Wercken/ vns<lb/>
+<note place="left">Luc. <supplied>1</supplied><gap reason="lost" unit="chars" quantity="1"/></note>zuwerdẽ befleiſſen/ folgents in der forcht des Herꝛen<lb/>
+wandeln/ jme dienen in heyligkeit vñ gerechtigkeit/ die<lb/>
+jm gefellig iſt/ vnſer lebenlang/ biß wir endlich vnſers<lb/>
+glaubens ende/ die Ewige frewd vnnd Seeligkeit/ in<lb/>
+Chꝛiſto Jeſu/ den Weg/ die Warheit vnnd das Leben<lb/>
+erlangen moͤgen.</p><lb/>
+<p>Ewer Liebe haben inn Eingang diſer verma-<lb/>
+nunge/ vnder andern vernommen/ das nicht gnung<lb/>
+ſey/ ſich zu ſeiner zeit im Klaghauß finden laſſen/<lb/>
+Sonder wil auch/ von noͤtten ſein/ daß/ was daſelbſt<lb/>
+<fw type="catch" place="bottom">geſchehen</fw><lb/>
+<pb facs="#f0047" n="[47]"/>
+<fw place="top" type="header"><hi rendition="#b">Eliſabetha Weltzerin/ von Eberſtein/ ꝛc.</hi></fw><lb/>
+geſchehen/ gehoͤret oder geſehen worden/ ſolches die<lb/>
+Lebendigen zu Gemuͤt fuͤhren vnnd behalten. Eb-<lb/>
+ner maſſen wil Eſaias/ wenn gerechte Sterben/ vnd<lb/>
+heylige Leut auffgerafft werden/ das wir achtung<lb/>
+darauff geben/ vnnd wie Syrach vermanet/ vnſerer<lb/>
+verſtorbnen gedencken/ vnd nach dem ſie geweſen/ Be-<lb/>
+weinen ſollen/ halte es demnach darfuͤr/ wir werden<lb/>
+daran nicht vnrecht thon/ wañ wir zum end der an-<lb/>
+gehoͤrten Pꝛedige auch vnſere mitſchweſter/ die wir hie<lb/>
+her/ zu jrem Ruhbettlein beleytet/ Weylund der Ed-<lb/>
+len vnnd Geſtrengen Fꝛawen/ Fꝛawen Eliſabetha<lb/>
+Weltzerin von Lemberg/ Geboꝛne Kewenhüller in<lb/>
+vnd Freye/ ꝛc. nicht wenig werden gedencken.</p></div></div><lb/>
+<div type="fsPersonalia" n="2"><head/>  <p>Den weñ wir jhr ankunfft/ glaubẽ/ wandel/ leben/<lb/>
+vnnd Ende anſehen/ befinden wir das ſie eine rech-<lb/>
+te Schweſter Tabea der Juͤngerin Chriſti geweſen.<lb/>
+Ob ſie wol (wie mir alle) in Suͤnden empfangen vnd<lb/>
+geborn/ deß wegen natuͤrlich Chꝛiſtum nicht erkennẽ<lb/>
+moͤgen/ ſundern Geiſtlich vbelſchend/ ja ſtarblind ge-<lb/>
+weſen/ deßwegen einiger Heyligkeit ſich vor Gott<lb/>
+nicht zu ruͤmen gehabt/ Jſt ſie doch der getaufften<lb/>
+Juͤngerin eine geweſen/ denen jhre Suͤnden im H.<lb/>
+Tauffe verzigen worden/ vnd vmb Chriſti Jeſu wil-<lb/>
+len/ den ſie anziehen/ nicht mehr zugerechnet werden/<lb/>
+Damit ſie auch den Gott/ auff deſſen namen ſie Ge-<lb/>
+taufft worden erkennen/ vnd fuͤr das kleid deß heils<lb/>
+Rock der gerechtigkeit/ den ſie in der tauffe bekum̃en/<lb/>
+vnndſie dardurch ein Jünger inn CHꝛiſti worden/<lb/>
+moͤchte danckbarſein/ iſt ſie von jren lieben Adelichen<lb/>
+<fw place="bottom" type="sig">F 4</fw><fw place="bottom" type="catch">Eltern</fw><lb/>
+<pb facs="#f0048" n="[48]"/>
+<fw type="header" place="top"><hi rendition="#b">Ein Leichpredig/ Frawen</hi></fw><lb/>
+Eltern von jugendt auff zum gehoͤr des H. Goͤtt-<lb/>
+lichen worts geweſen vnd geleytet werden/ zu dem ge-<lb/>
+brauch des H. Hochwirdigen Abendmals/ zum Ge-<lb/>
+bett/ zur liebe Gottes/ vnd des naͤchſten. Dariñen ſie<lb/>
+ſich taͤglich vnd embſiglich genieget/ nach vñ nach zu<lb/>
+genummen/ vnd verharret/ biß ſie ſelbſt eine Mutter<lb/>
+werden/ liebe kinder/ geſinde bekom̃en. Jn welchem<lb/>
+Gott wolgefelligem beruff des haußſtands/ ſie jhren<lb/>
+Glauben/ vnd Chriſtenthumb abermaalen/ nit auff<lb/>
+der zungen gefuͤret/ Sonder/ mit allerley guten wer-<lb/>
+cken/ deren ſie wol/ ſo wol/ als Tabea geweſen/ genug-<lb/>
+ſamlich erwiſen. Jn dem ſie nicht allein fuͤr jre Per-<lb/>
+ſon Gottes wort fleißig angeherdt/ vñ mit liebe keine<lb/>
+Predige verſaumet/ deſſelbigen diener gehoͤret/ des H.<lb/>
+Nochwürdigen Abendmals offemalen wuͤrdiglichen<lb/>
+vnd andaͤchtiglich gebraucht/ am Gebett ſtaͤttiglich/<lb/>
+wie ſie von jugendt auff gewont geweſen/ angehalten/<lb/>
+deß wegen auch (wie mir von S. Petro gehoͤrt) da-<lb/>
+mit ſie abgeh/ ſonderlich vnd andaͤchtiger moͤchte ein<lb/>
+eigens Oratorium oder Capelle in jrem Schloß oder<lb/>
+wohnunge zierlich laſſen bereytten.</p><lb/>
+<p>Belanget ferner jhren wandel/ iſt derſelbige (wie<lb/>
+meniglich bewuſt) Gottsfuͤrchtig/ erbar zuͤchtig/ ein-<lb/>
+gezogẽ/ freundtlich/ vñ aller maſſen Dugendlich gewe-<lb/>
+ſen. Jn dem ſie dahaymen im Hauße/ gegen jhrem<lb/>
+lieben Herꝛn ehr erbietig/ liebreich vnd freundlich ſich<lb/>
+verhalten/ Ja gantzeinig vñ fridlich wie zwey Teub-<lb/>
+blen/ meines wiſſens/ in die 28. Jar beyſamen gelebt/<lb/>
+dahero mit jhrem vnuerſehnen abzug auß diſem ja-<lb/>
+merthal/ dem vberblibnen nochlebenden zimmlichen<lb/>
+<fw type="catch" place="bottom">ſchwachen</fw><lb/>
+<pb facs="#f0049" n="[49]"/>
+<fw place="top" type="header"><hi rendition="#b">Eliſabehta Weltzerin/ von Eberſtein/ ꝛc.</hi></fw><lb/>
+ſchwachen Ehegenoſſen nicht weniger leydes vnnd<lb/>
+ſchmertzens hinderlaſſen/ gleichſam/ als wenn auff<lb/>
+freyem felde ein par Turtel Tauben genennet wirdt/<lb/>
+darum̃ dz verlaſſene auß verlangen vnd ſehnen noch<lb/>
+ſeinen mitgeſellen vñ conſortem/ kein lautter Waſſer<lb/>
+mehr trincket/ ſonder macht es zu vor mit dem fuͤſſen<lb/>
+tꝛieb. Damit aber erhielt diß Liebreich vnd fridlie-<lb/>
+bende Taͤuble/ wie ein verſtendige Abigail/ zuͤchtige<lb/>
+vnd gehorſame Eſter/ nit allein frid/ lieb/ vnnd ey-<lb/>
+nigkeit/ das ſterckeſte band der liebe/ ſonder gab auch<lb/>
+Gott Evempel von ſich/ vnd leuchtere dem gantzen<lb/>
+Haußgeſind/ mit jren Tugendt vorher/ wie ein bren-<lb/>
+nende helle fackel.</p><lb/>
+<p>Wie Tugendtlich/ zuͤchtig/ vnd freundlich ſie ſich<lb/>
+ferner auſſer dem Hauſſe/ gegen andern auch buͤrger-<lb/>
+lichen/ vnnd geringes ſtandes leuten (als deren nie-<lb/>
+mandt zuſchlecht geweſen) erzeiget vnd verhalten/<lb/>
+iſt jedermaͤniglich/ der ſie gekent/ beſſer bekant/ dann<lb/>
+ich es alhie erzehlen kan. Alſo das man von jhr ſo<lb/>
+wol als von Tabea/ mit grund der warheit ſagen moͤ-<lb/>
+ge/ ſie ſey voller gutter werck vnd Tugenden geweſen/<lb/>
+ja ein Spiegel aller Gottsfürchtigen Ehrliebenden<lb/>
+Matronen. Vnd damit wir kuͤrtze halben auß vi-<lb/>
+len guten wercken/ allein dz Allmoſen geben/ mit we-<lb/>
+nig worten gedencken/ hat ſie wie maͤniglich weiſt/ dem<lb/>
+exempel Tabe<hi rendition="#aq">æ</hi> nach/ den Armen weyßlen vnd wey-<lb/>
+ſen/ nicht allein Roͤck vnnd Kleider gemacht/ oder<lb/>
+machen laſſen/ Sonder auch dieſelbigen geſpeyſet vñ<lb/>
+gerrencket/ in Thewren zeiten dz liebe getraͤydt/ dem<lb/>
+E<choice><sic>v</sic><corr>x</corr></choice>empel der Koͤniglichen vnnd Fuͤrſtlichen Eliza-<lb/>
+<fw place="bottom" type="sig">G</fw><fw place="bottom" type="catch">heth/</fw><lb/>
+<pb facs="#f0050" n="[50]"/>
+<fw type="header" place="top"><hi rendition="#b">Ein Leichpredig/ Frawen</hi></fw><lb/>
+beth nach/ mit fuͤrlehen geringern werdt/ als auff dem<lb/>
+Marckt gangen außgetheylet/ wo Krancke geweſen<lb/>
+in eygner Perſon beſuchet/ Schadhafftige an leiben/<lb/>
+als fern ſich jhr verſtandt erſtrecket/ ſelbs verbun-<lb/>
+den vnd geheilet/ ſelbſt Waſſer gebrendt/ vnd allerley<lb/>
+Artzney/ wie <hi rendition="#aq">Galenus</hi> gethan/ fuͤr die Armen bereitet/<lb/>
+vñ vernuͤnfftiglich vnder dieſelbigen außgetheilt/ wo<lb/>
+ſie hier innen nicht vertrawt/ erfarner Artzt rath ge-<lb/>
+pflegt/ vnd dieſelbige zuhilff genommen. Wo Kindt-<lb/>
+betterin geweſen/ ſonderlich aber in gefaͤhrlichen miß-<lb/>
+geburten/ mit rath vnd that/ ſich jederzeit in eygner<lb/>
+Perſon/ ſo wol bey Armen/ als reichen/ laſſen willig<lb/>
+vnd gern finden. Auch vmb jhrer Gottſeligkeit vnd<lb/>
+gebetts willen (als deren alle leicht fertigkeit zu wider<lb/>
+geweſen) glück vnd Segen in ſolchen noͤhten geſpuͤret<lb/>
+worden/ damit ſie auch jhr vilen gelegenheit vnnd<lb/>
+mehrer vrſach hatte zu dienen/ hat ſie ſich/ aberma-<lb/>
+len dem Evempel gedachter Fuͤrſtlichen Elizabeth<lb/>
+nach/ von den aͤrmſten vnnd geringſten leuhten Tag-<lb/>
+weheren vñ Taͤgloͤnern zu gefatterſchafften er bitten<lb/>
+laſſen/ vnd dieſen dienſt abermalen in eygner Perſon/<lb/>
+nicht durch andere verrichtet/ deſſen ich nicht allein/<lb/>
+ſonder vil Armer in/ vnd auſſer der Stadt mit wey-<lb/>
+nenden Augen vberfluͤſſige kundtſchafft geben/ Bot-<lb/>
+ten/ Pfadten/ Geldt vnnd anders das ſie jhnen ge-<lb/>
+reicht (ſo wol als die zu Joppen) zu weyſen haben<lb/>
+werden. Wil jetzt von dem nichts ſagen/ wer-<lb/>
+den es abermalen ſelbſt mit klagendem Mundt beken-<lb/>
+nen/ vil Arme Wittwen vnd Eltern/ das ſie vil Ar-<lb/>
+mer Waͤyſen zu ſich in jhr Hauß genommen/ in aller<lb/>
+<fw type="catch" place="bottom">Got-</fw><lb/>
+<pb facs="#f0051" n="[51]"/>
+<fw type="header" place="top"><hi rendition="#b">Frawen Eliſabetha Weltzerin/ von Eberſtein/</hi></fw><lb/>
+Gottes forcht auffer zogen/ mit ſpeyß vnd Kleydung<lb/>
+reichlich erhalten/ vndſo weit gebracht/ das ſie der-<lb/>
+ſelben nicht wenig/ als wenn ſie jhr leibaygene Kin-<lb/>
+der weren (jhrer maß vnd gebuͤr nach) verheyratet/<lb/>
+vnd außgeſteuret hat.</p><lb/>
+<p>Andere die ſie im hauſe/ vnder jhrer zucht/ vmb<lb/>
+der maͤnnige des Geſindes willen/ nicht halten moͤ-<lb/>
+gen/ hat ſie bey andern in die zucht vnd koſt verdinget/<lb/>
+ſie mit aller notturfft/ ſo wol/ als wenn ſie in jhrem<lb/>
+hauſe weren/ ohne allen abgang verſorget/ vñ allen<lb/>
+vnkoſten fuͤr ſie bezalet. Ob ſich wol bißweylen vn-<lb/>
+der dieſen allen vngeratne/ vnd vndanckbare gefun-<lb/>
+den/ hat ſie ſich doch dieſes nicht jrꝛen/ vil weniger jre<lb/>
+hende ſperꝛen laſſen/ ſondern ohne vnderſcheyd jeder-<lb/>
+maͤnniglich guttes gethon/ vnd jhr Almoſen willig<lb/>
+vnd reichlich gereichet. Summa/ ſie hat der Armen<lb/>
+alſo nicht vergeſſen koͤnnen/ das ſie jhreꝛ auch in jrem<lb/>
+Syechbette gedacht/ in dem ſie vor wenig Tagen/ in<lb/>
+meiner gegenwerdt/ befoh len/ weil Arbeyter vnnd<lb/>
+Schuſter im hauſe ſeyen/ mann ſol auch etliche par<lb/>
+Schuch fuͤr die Armen machen.</p><lb/>
+<p>Ob nun dieſe vnſere Mitſchweſter/ vol gutter<lb/>
+werck geweſen/ vnnd Tabe<hi rendition="#aq">æ</hi> zu Joppen/ Elyzabeth<lb/>
+der Landtgraͤfin zu Tuͤringen (die man eine Mut-<lb/>
+ter der Armen genennet) vnnd andern Gottſeligen<lb/>
+im Almoſen geben/ zuuergleichen/ oder ſie vbertrof-<lb/>
+fen/ laſſe ich andere vrtheylen/ Sonderlich aber die<lb/>
+maͤnnige der Aꝛmen/ Wittwen vnnd Waͤyſen/<lb/>
+die jhreꝛ ſchwaͤrlich werden entrahten/ vnnd wol<lb/>
+leyden moͤchten/ das ſie/ wie Tabea/ widerum̃ auffer-<lb/>
+<fw type="sig" place="bottom">G 2</fw><fw type="catch" place="bottom">weckt</fw><lb/>
+<pb facs="#f0052" n="[52]"/>
+<fw type="header" place="top"><hi rendition="#b">Ein Chriſtliche Leichpredigt/</hi></fw><lb/>
+weckt wurde/ oder aber nie geſtorben were. Jn ma-<lb/>
+ſen wir ſelbſten gehoffet/ vnſer Herꝛ vnd Gott werde<lb/>
+vnſer/ vnd viler ſeufftzen erhoͤren/ vnnd ſie noch lenger<lb/>
+(doch ſeinem gnedigen vñ Vaͤtterlichen willen nach)<lb/>
+bey vnd vmb vns ſein/ vnd bleiben laſſen. Weil es a-<lb/>
+ber jhne fuͤr guͤt angeſehen/ diſen Tauſch mit jhr zu<lb/>
+treffen/ vñ ſie auß diſem Jamerthal zu ſich/ in die ruhe<lb/>
+der ewigen frewd vnd Seligkeit abzuforden/ muͤſſens<lb/>
+wirs vns/ als glaͤubige vnnd gehorſame Kindern ge-<lb/>
+buͤrt/ auch laſſen gefallen/ vnnd nicht allein in ſeine<lb/>
+werckt nichts reden/ oder darwider Murren/ ſonder<lb/>
+mit dem gedultigen Job ſagen/ der Herꝛ hats geben/<lb/>
+der Herꝛ hats genommen/ der nam des Herꝛn ſey ge-<lb/>
+lobet: Darunder aber/ zum beſchluß diſer Pꝛedig/<lb/>
+vns neben andern/ auch troͤſten jhrer Seeligen vnnd<lb/>
+Chꝛiſtlichenſchiedung.</p><lb/>
+<p>Deñ da ſie Jüngſtlich/ Gott der Allmaͤchtige vber<lb/>
+die langwuͤrige Kranckheit vnd ſchwachheit/ die ſie<lb/>
+lange zeit/ fuͤrnemlich aber in jhrem Haupt/ hat auß<lb/>
+geſtanden/ auch mit einer gefaͤhrlichẽ Apoſtema vber-<lb/>
+fallen vñ angriffen/ hat ſie (hindan geſetzt alle gefar/<lb/>
+euſſerlich vnd leybliche mittel/ deren jr man vil ange-<lb/>
+botien vnd fuͤrgetragen) vhn verzogenlich nach dem<lb/>
+rechten vnd einigen Seelenartz Chꝛiſto Jeſu getrach-<lb/>
+tet/ vnnd nach mir Vnwuͤrdigen Diener Goͤttliches<lb/>
+worts/ deſſen dienſts ſie ſich inn die 15. Jar gebꝛaucht<lb/>
+geſchicht/ Neben jrer ſelbſten aygnen andaͤchtigen vñ<lb/>
+ruͤwiger bekan dnuſſe/ die ſie in ſonderheit gethã/ auch<lb/>
+die allgemeine offne beycht mir mit demuͤttigen vnnd<lb/>
+bußfertigen hertzen nach geſprochen/ die Abſolution<lb/>
+<fw type="catch" place="bottom">dar-</fw><lb/>
+<pb facs="#f0053" n="[53]"/>
+<fw place="top" type="header"><hi rendition="#b">Eliſabetha Weltzerin/ von Eberſtein.</hi></fw><lb/>
+darauff mit frieden vernom̃en/ vnd ſich des H. Leibs<lb/>
+vnd Bluts Jeſu Chriſti/ in ſeinen Hochwuͤrdigen A-<lb/>
+bendt mal theilhafftig gemacht/ damit ſich dem All-<lb/>
+maͤchtigen befohlen/ vnd jhren/ in ſeinen willen gehor-<lb/>
+ſamlichen ergeben/ ja auch/ mit S. Paulo mehrers<lb/>
+nicht begerdt/ denn als baldt auffgeloͤſt werden/ vnd<lb/>
+bey Chriſto Jeſu zu ſein. Deñ ſie ſeye dieſes zeitlichen<lb/>
+lebens Satt vnd vberdruͤßig/ Troͤſte ſich aber vnd<lb/>
+frewe ſich des kuͤnfftigen vñ ewigẽ hertzlich/ darauff<lb/>
+ſie ſicheiner Predig eriñert/ die in ď Kirchen gehoͤrt/<lb/>
+in deren das Ewige Selige leben/ von vnſer einem/ der<lb/>
+Kirchendiener einem ſehr groſſen hauffen außerleß-<lb/>
+ner liebſter freundt verglichen worden/ welche alle in<lb/>
+groſſer wohne vnd frewdigkeit beyſamen verſamlet/<lb/>
+vnnd vnſer zu ſich mit groſſem verlangen warten:<lb/>
+Wer aber zu denſelbigen kommen woͤlle/ der müſſe<lb/>
+einen groſſen Berg/ nicht ohn gefahr vnd beſchwer-<lb/>
+nuß vberſchreyten ꝛc. Damit dieſe Gottſelige Ehren<lb/>
+Matronene vol glaubens vnd der gedult zuverſtehen<lb/>
+geben woͤllen/ ob wol der zeitlich Todt/ vnd deſſelben<lb/>
+vorbotten die Kranckheiten etwas bitter/ vnnd ein<lb/>
+ſawer Kelch/ den ſie außtrincken/ ein ſehr hoher berg<lb/>
+den ſie vberſchreyten/ vnnd ein finſters gefaͤhrlichs<lb/>
+Thalſeye/ dadurch ſie raiſſen muͤſſe/ endtſetzte ſie ſich<lb/>
+darob alſo nichts/ das ſie ſich dieſer Seligen rayß hertz-<lb/>
+lichen frewe vmb der liebſten frewdt willen/ zu denen<lb/>
+ſie bald kommen werdt. So habeſie einen guten ge-<lb/>
+leydtsman/ vnd mirgefaͤrten/ Chriſtum Jheſum bey<lb/>
+ſich/ ſein ſtecken vnd Stab/ deren Troͤſte ſie ſich/ ꝛc.</p><lb/>
+<p>Welchen Artickel vnſers Allgemeinen Ckriſt-<lb/>
+<fw place="bottom" type="sig">G 5</fw><fw place="bottom" type="catch">lichen</fw><lb/>
+<pb facs="#f0054" n="[54]"/>
+<fw type="header" place="top"><hi rendition="#b">Ein Leichpredig/ Fraweñ</hi></fw><lb/>
+lichen Glaubens/ ewigen leben/ ſie jhr dermaſſen ein-<lb/>
+gebildet/ vnd ſeiner ſich alſo getroͤſtet/ das ſie/ vmb der<lb/>
+hoffaung der herbeynahen den jreꝛ erloͤſunge/ kuͤnff-<lb/>
+tiger ergoͤtzligkeit/ friede vnnd Seligkeit willen/ die<lb/>
+gantze zeit jhrer Kranckheit vberauß/ wie ein Lemb-<lb/>
+lein geduͤltig geweſen/ biß die jhr von Gott beſtimbte<lb/>
+Stunde vnd jhres lebens herbey kommen/ die Sechſte<lb/>
+vhr Morgends vorgeſtrigen Tages/ in deren ſanfftig-<lb/>
+lich/ ohne aͤynige empfindtligkeit des ſchmertzen des<lb/>
+Todtes/ in Chriſto Jheſu endſchlaffen/ in vnnd bey<lb/>
+welchem ſie/ in rechter rhue vnd friedeſchlaffet/ vnd<lb/>
+allererſt eine rechte Elyzabeth/ das iſt/ eine in<lb/>
+Gott rhwende/ mit dem namen vnd der that genent<lb/>
+wirdt.</p><lb/>
+<div n="3"><head/>  <p>Woͤlche rhwe/ Ehre vnd frewde/ wir jhr auß<lb/>
+grundt vnſers hetzen goͤnnen/ vnnd GOtt dem All-<lb/>
+maͤchtigen/ im Namen Jheſu Chriſti demuͤttiglich<lb/>
+bitten woͤllen/ daß/ wie er vns zu erkendtnuß ſeines<lb/>
+Heyligen Worts/ der Predig des H. Euangelij ge-<lb/>
+bracht/ er vns in beſtendiger vnd freydiger bekandt-<lb/>
+nuſſe er halten/ ſeine liebe Jünger vnd Jüngerin/ vol<lb/>
+gutter werck ſein laſſen/ vnd nach dieſem elenden zur-<lb/>
+gencklichen leben verley hen woͤlle das ewige/ das ende<lb/>
+vnſers Chriſtlichen Glaubens/ in Chriſto Jheſu vn-<lb/>
+ſerm eynigen HErꝛn/ welcher mit Gott dem Vat-<lb/>
+<hi rendition="#c">ter/ vnd dem Heiligen Geiſt/ lebet vnd Regie-<lb/>
+ret/ gleicher GOtt Hochgelobet/ in alle<lb/>
+Ewigkeit/ Amen.<lb/>
+Amen.</hi></p><lb/>
+<p><hi rendition="#c"><hi rendition="#g">ENDE.</hi></hi></p></div></div></div><lb/>
+<pb facs="#f0055" n="[55]"/>
+<div type="fsEpitaph" n="1"><head><hi rendition="#aq"><hi rendition="#g">EPITAPHIVM<lb/>
+M. BERN: STA: CVIVS DISTI-</hi><lb/>
+chon prius annum obitus, poſterius vero famili-<lb/>
+am defunctæ notat.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq">Hîc Iacet ELISabeth VIctorIs dIgna quIete</hi></l><lb/>
+<l><hi rendition="#aq">VXor VVelzeri, fIda MInIſtra Dei.</hi></l></lg><lb/>
+<lg type="poem"><l><hi rendition="#aq">Illuſtri nata hîc quondam de gente Baronum</hi></l><lb/>
+<l><hi rendition="#aq">Keuennhüllorum: nunc tenetaſtra poli.</hi></l></lg></div><lb/>
+</body></text>  </TEI>

@@ -1,0 +1,1833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Leichbegängnüß Deß weylandt Ehrenvesten/ Wolgeachten Herrn Thomae Cheswrights</title>
+<author>
+<persName ref="http://d-nb.info/gnd/120369877">
+<surname>Silber</surname>
+<forename>Wolfgang</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">55</measure>
+<measure type="tokens">12111</measure>
+<measure type="types">3452</measure>
+<measure type="characters">79020</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:10:33Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/523650</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/523650</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/523650</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/523650</idno>
+<idno type="DTADirName">523650</idno>
+<idno type="DTAID">200188</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-200188-2</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Silber, Wolfgang: Leichbegängnüß Deß weylandt Ehrenvesten/ Wolgeachten Herrn Thomae Cheswrights. Görlitz, 1616.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Leichbegängnüß Deß weylandt Ehrenvesten/ Wolgeachten Herrn Thomae Cheswrights</title>
+<author>
+<persName ref="http://d-nb.info/gnd/120369877">
+<surname>Silber</surname>
+<forename>Wolfgang</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">55</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Johann Rambaw</name></publisher>
+<pubPlace>Görlitz</pubPlace>
+<date type="publication">1616</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 S 125/21 / 523650</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"><docTitle><titlePart type="main">Leichbegaͤngnuͤß</titlePart><lb/>
+<titlePart type="desc">Deß weylandt<lb/>
+<hi rendition="#fr"><hi rendition="#b"><hi rendition="#in">E</hi>hrenveſten/ <hi rendition="#in">W</hi>olge-<lb/>
+achten Herrn</hi></hi><lb/>
+<hi rendition="#aq">THOMÆ CHESWRIGHTS,</hi><lb/>
+<hi rendition="#fr">Engellaͤndiſchen Kauffherrens<lb/>
+von Londen:</hi><lb/>
+Welcher nach Gottes ſchickung zu Greyffenberg<lb/>
+in Schleſien ſelig verſtorben/ auch Ehrlich vnd Chriſt-<lb/>
+lich daſelbſt zur Erden beſtattet worden.<lb/>
+Den 17. Tag <hi rendition="#aq">Auguſti, n. ſt.</hi> dieſes 1616. Jahres.<lb/>
+Auff bitt vnd begehren ſeiner (deß verſtor-<lb/>
+benen) Landeßleute<lb/>
+<hi rendition="#b">Allen Chriſtlichen Reyſe- Handels- Kauff- vnd</hi><lb/>
+Wanderßleuten zu heylſamer Lehre/ Troſt vnd Er-<lb/>
+mahnung in Druck gegeben/</titlePart></docTitle><lb/>
+<byline>Durch<lb/>
+<docAuthor><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Wolgangum Silber</hi></hi></hi></docAuthor> <hi rendition="#aq">Glaucâ-<lb/>
+Miſnicum,</hi> Pfarrern daſelbſt zu Greyffenberg<lb/>
+in Schleſien.</byline><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docImprint>Zu <pubPlace>Goͤrlitz im Marggraffthumb OberLauſitz</pubPlace>/<lb/>
+<hi rendition="#aq">D</hi>r<hi rendition="#aq">VC</hi>kts <publisher><hi rendition="#aq">I</hi>ohann Rha<hi rendition="#aq">M</hi>ba<hi rendition="#aq">VV</hi></publisher>.</docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="[2]"/>
+<cit><bibl><hi rendition="#c"><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Hiob. XIX. Cap.</hi></hi></hi></hi></bibl><lb/>
+<quote>Jch weiß das mein Erloͤſer lebet/ vnd Er<lb/>
+wird mich hernach aus der Erdẽ auff-<lb/>
+erwecken: Vnd werde darnach mit<lb/>
+dieſer meiner Hautt vmbgeben wer-<lb/>
+den/ vnd werde in meinem Fleiſch<lb/>
+Gott ſehen/ denſelben werd ich mir ſe-<lb/>
+hen/ vnd meine Augen werden jhn<lb/>
+ſchawen: Vnd kein frembder.</quote></cit><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<cit><quote><hi rendition="#aq">Mors certa eſt; incerta dies; hora agnita nulli:<lb/>
+Extremam ſanus quamlibet eſſe putat.</hi></quote><lb/>
+<quote><lg type="poem"><l>Der Todt iſt gwiß/ weiß jederman/</l><lb/>
+<l>Die Stunde niemand wiſſen kan:</l><lb/>
+<l>Druͤmb bſtell dein Hauß/ ſchick dich zur fahrt/</l><lb/>
+<l>Allzeit der letzten Stunden wart.</l></lg></quote><bibl/></cit><lb/>
+<pb facs="#f0003" n="[3]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="preface" n="1"><salute><hi rendition="#c"><hi rendition="#aq">Dedicatoria:</hi><lb/>
+<hi rendition="#fr"><hi rendition="#b"><hi rendition="#in">D</hi>enen <hi rendition="#in">E</hi>hrenveſten/<lb/>
+Wolgeachten Herren</hi><lb/>
+H.</hi> <hi rendition="#aq">Humfrido Tomkins.</hi><lb/>
+<hi rendition="#fr">H.</hi> <hi rendition="#aq">Thomæ Johnſon.</hi><lb/>
+<hi rendition="#fr">H.</hi> <hi rendition="#aq">Jacobo Hawley.</hi><lb/>
+<hi rendition="#fr">H.</hi> <hi rendition="#aq">Samuel Seymer.</hi><lb/>
+<hi rendition="#fr">H.</hi> <hi rendition="#aq">Nathanaël Jackſon.</hi><lb/>
+Allen ſampt Engellaͤndiſcher <hi rendition="#aq">Nation,</hi> der<lb/>
+loͤblichen Handlung/ vnd Kauffmanſchafft<lb/>
+zugethanen: Meinen goͤnſtigen<lb/>
+Herren:<lb/>
+Gottes Gnade vnd Segen durch<lb/>
+Jeſum Chriſtum zuvor.</hi></salute><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">E</hi>Hrenveſte/ Wolgeachte/ goͤnſtige</hi><lb/>
+Herren/ Demnach der Allgewalttige<lb/>
+Gott/ nach ſeinem alleine Weiſem/ vns<lb/>
+<fw type="sig" place="bottom">A ij</fw><fw type="catch" place="bottom">aber</fw><lb/>
+<pb facs="#f0004" n="[4]"/>
+<hi rendition="#fr">aber verborgenem Rath/ Vaͤterlichen Willen<lb/>
+vnd Wolgefallen/ vnlaͤngſt Ewren geliebten<lb/>
+Landeßman/ weyland den auch Ehrenveſten<lb/>
+vñ Wolgeachten Herꝛen</hi> <hi rendition="#aq">Thomam Cheſwright</hi><lb/>
+<hi rendition="#fr">(ſeligen) aus Engellandt/ hier in der frembde/<lb/>
+auff ſeiner Reyſe/ võ ſeinem Handel/ vñ Kauff-<lb/>
+manſchafft/ durch den zeitlichen Todt abgefo-<lb/>
+dert: Deſſen</hi> <hi rendition="#aq">Exequijs</hi> <hi rendition="#fr">die Herren ſaͤmptlich in<lb/>
+der Perſon allhier in Greyfenberg beygewoh-<lb/>
+net/ vnd die gehaltene Predigt/ ſampt dem ab-<lb/>
+geleſenem</hi> <hi rendition="#aq">Encomio</hi> <hi rendition="#fr">oͤffentlich in der Kirchen<lb/>
+angehoͤret: Nach verrichtetem Ampte aber/<lb/>
+meine wehnige Perſon zu ſich begehret/ allda<lb/>
+muͤndtlich gebeten/ ſo wol durch andere nach-<lb/>
+mals anzuhalten beſtellet/ ſolche Predigt/ wie<lb/>
+ſie damals durch Gottes verleyhung geſchehẽ/<lb/>
+von Wort zu Wort auffs Pappier zubringen/<lb/>
+vnd den Herren Jhren Ehrenveſten in ſchriff-<lb/>
+ten zu</hi> <hi rendition="#aq">dediciren/</hi> <hi rendition="#fr">vnd zuzuſenden/ die ſie auch<lb/>
+ſelbeſt in Druck verlegen/ vnd den Jhrigen zu-<lb/>
+ſenden wolten. Wiewol ich nu allerhandt be-<lb/>
+dencken (als zuerachten) billich hierob getra-<lb/>
+gen: Sonderlich weil es an frembde/ vorneh-<lb/>
+me orte/ darzu auſſerhalb Landes/ ſolle ver-</hi><lb/>
+<fw place="bottom" type="catch">teylet</fw><lb/>
+<pb facs="#f0005" n="[5]"/>
+<hi rendition="#fr">teylet werden/ da denn mancherley <hi rendition="#aq">judicia</hi> pfle-<lb/>
+gen zugefallen/ Derowegen ich lieber damit<lb/>
+zu Hauſe geblieben/ vnd ſolche</hi> <hi rendition="#aq">publication</hi> <hi rendition="#fr">ein-<lb/>
+geſtellet hette: Als der ich meine ſchwachheit/<lb/>
+vngeſchickligkeit/ geringfuͤgige Gaben/ vnd<lb/>
+wehnigen Verſtandt nur allzu ſehr befinde/<lb/>
+auch gerne bekenne/ vnd erkenne.</hi></p><lb/>
+<p><hi rendition="#fr">Wann aber die Herren inſtendig anhalten<lb/>
+laſſen/ Auch hierinne/ (ſo viel ich in meinem<lb/>
+Gewiſſen befinde) nichts wider die reine Chꝛiſt-<lb/>
+liche Evangeliſche Lehre/ noch wider die War-<lb/>
+heit/ Chriſtliche Liebe/ vnd billigkeit geredet/<lb/>
+oder geſchrieben/ deſſen ich etwa ſchew tragen<lb/>
+doͤrffte: Als habe ich mich endlich dahin be-<lb/>
+wegen laſſen/ den Herren auff jhre bitte dienſt-<lb/>
+lich zu</hi> <hi rendition="#aq">gratificiren/</hi> <hi rendition="#fr">Jn anſehung/ es den Ein-<lb/>
+feltigen zu Lehre/ vnd Troſt dienen koͤndte:<lb/>
+Troͤſtlicher zuverſicht/ Chriſtliche Gottſelige<lb/>
+Hertzen werden hierob keinen mißfallen tra-<lb/>
+gen/ mir meine Einfalt zu gute halten: Wie<lb/>
+auch die Herren ſelber ſolches vor lieb annemẽ/<lb/>
+alles zum beſten wenden/ fuͤr boͤſen Maͤulern</hi><lb/>
+<hi rendition="#aq">defendiren/</hi> <hi rendition="#fr">auch fuͤr ſich ſelbeſt wol/ vnd ſelig<lb/>
+gebrauchen wollen. Hiemit dieſelben Goͤttli-</hi><lb/>
+<fw type="sig" place="bottom">A iij</fw><fw type="catch" place="bottom">cher</fw><lb/>
+<pb facs="#f0006" n="[6]"/>
+<hi rendition="#fr">cher</hi> <hi rendition="#aq">protection</hi> <hi rendition="#fr">dienſtlich/ vñ trewlich empfeh-<lb/>
+lende.</hi> <hi rendition="#aq">Datum</hi> <hi rendition="#fr">Greyffenberg/ am Tage deß<lb/>
+H. alten KirchenLehrers</hi> <hi rendition="#aq">S. <hi rendition="#g"><hi rendition="#k">Augustini:</hi></hi></hi><lb/>
+<hi rendition="#fr">Deſſen Mutter</hi> <hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Monica</hi></hi></hi> <hi rendition="#fr">von Jhme geſaget:</hi><lb/>
+<hi rendition="#aq">Malo te Chriſtianum Auguſtinum, quàm<lb/>
+Imperatorem Auguſtum. <hi rendition="#i">Anno Salutis<lb/>
+humanæ M. DC. XVI.</hi></hi></p><lb/>
+<closer><salute><hi rendition="#fr">Der Herren<lb/>
+nach erheiſchung Chriſtlicher<lb/>
+Liebe vnd Glaubens<lb/>
+Dienſt- vnd Gebeths-<lb/>
+williger<lb/>
+<hi rendition="#aq">Wolgangus</hi> Silber/<lb/>
+<hi rendition="#aq">Paſtorin Greiffenbergk<lb/>
+Sileſiarum.</hi></hi></salute></closer></div><lb/>
+<pb facs="#f0007" n="[7]"/>
+<div type="fsSermon" n="1"><head/>  <div type="preface" n="2"><head><hi rendition="#c">Συν` ϑεῶ.<lb/>
+<hi rendition="#b">Eingang zur Predigt:</hi><note place="right">4444.<lb/>
+<hi rendition="#aq">Gr. XII.</hi></note></hi></head><lb/>
+<salute><hi rendition="#c"><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">In Nomine Patris, Filii,<lb/>
+&amp; Spiritus Sancti,<lb/>
+Amen.</hi></hi></hi></hi></salute><lb/>
+<p><hi rendition="#in">G</hi>Eliebte im HErren Chriſto: Wir ha-<lb/>
+ben vns jtzo in der Furcht deß HERren<lb/>
+allhier miteinander verſamlet/ bey dem<lb/>
+Chꝛiſtlichen Leichbegaͤngnuͤß deß weyland<lb/>
+Ehrenveſten/ Wolbenahmbten Herren <hi rendition="#aq">Thomæ<lb/>
+Cheſwrights/</hi> eines frembden außlendiſchen Kauff-<lb/>
+herrens/ der ſein Geburt/ Ankunfft/ vnd Vaterland<lb/>
+von Londen in Engellandt/ vber zwey Hundert<lb/>
+Meyl weges von hinnen: Seine Haͤndel/ Gewer-<lb/>
+be/ vnd Nahrung in frembden Landen geſuchet/ da<lb/>
+er denn manches ſchoͤnes Landt/ manche wol er-<lb/>
+bawete Volckreiche Stadt/ manchen luſtigen ortt<lb/>
+geſehen/ vnd durchzogen/ manchen ſchwehren ſaw-<lb/>
+ren Weg/ zu Waſſer/ vnd Lande gereiſet/ auch hier<lb/>
+in dieſer Lande Schleſien inn vielen vornehmen<lb/>
+Staͤdten handtieret/ vnd geworben: Letzlich ſein<lb/>
+Kreyſtbethlein nach Gottes ſchickung allhier bey<lb/>
+vns in Greyffenberg auffgeſchlagen/ da er nu auch<lb/>
+nach Gottes willen ſein ſeliges Ruheſtettlein/ vnd<lb/>
+<fw type="catch" place="bottom">ſanff-</fw><lb/>
+<pb facs="#f0008" n="[8]"/>
+ſanfftes Faulbethlein haben ſolle/ nicht weit von<lb/>
+dieſem vnſerm Gotteshauſe/ auff vnſerm Kirch-<lb/>
+hofe/ darinnen er von allen ſeinen Reyſen/ muͤhe<lb/>
+vnd arbeit außruhen wird biß an den lieben Juͤng-<lb/>
+ſten Tag/ da jhn der HErre Jeſus zum Ewigen<lb/>
+Vaterlande wieder erwecken/ vnd herfuͤr ruffen<lb/>
+wird.</p><lb/>
+<p>Ehe wir aber noch ſeinen Leichnam zu ſolch ſei-<lb/>
+nem Ruhebethlein bringen/ wollen wir zuvor aus<lb/>
+Gottes H. Worte einen Chriſtlichen Leichſermon<lb/>
+halten/ vnd anhoͤren (derowegen wir vns dann in<lb/>
+dieſem vnſerem Gotteshauſe miteinander verſam-<lb/>
+let:) Demnach zufoͤrderſt Gott vmb ſeine Gnade/<lb/>
+vnd beyſtand des H. Geiſtes anruffen/ vnd einmuͤ-<lb/>
+tig ſingen:</p><lb/>
+<lg type="poem"><l><hi rendition="#fr">Von allem uͤbel vns erloͤß/</hi></l><lb/>
+<l><hi rendition="#fr">Es ſeind die Zeiten vnd Tage boͤß:</hi></l><lb/>
+<l><hi rendition="#fr">Erloͤß vns von dem Ewigen Todt/</hi></l><lb/>
+<l><hi rendition="#fr">Vnd troͤſt vns in der letzten Nott:</hi></l><lb/>
+<l><hi rendition="#fr">Beſcher vns auch ein ſeliges End/</hi></l><lb/>
+<l><hi rendition="#fr">Nim vnſer Seel in deine Hend.</hi></l></lg><lb/>
+<cit><quote><hi rendition="#c"><hi rendition="#aq">Pater noſter, &amp;c.</hi></hi></quote><bibl/></cit><lb/>
+<p>Den Text/ ſo ich auff dißmal zur Leichenpredigt<lb/>
+vor mich genommen/ beſchreibet vns der Heylige<lb/>
+Apoſtel <hi rendition="#aq">Jacobus</hi> in ſeiner Epiſtel am 4. <hi rendition="#aq">Cap. v.</hi> 13.<lb/>
+<fw place="bottom" type="catch">Vnd</fw><lb/>
+<pb facs="#f0009" n="[9]"/>
+Vnd lauten die Wort deſſelbigen in vnſerer Deutz-<lb/>
+ſchen Sprach/ wie folget nacheinander alſo:</p></div><lb/>
+<div type="fsBibleVerse" n="2"><head><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Textus</hi></hi> Jacobi 4. v.</hi> 13.</head><lb/>
+<cit><quote><hi rendition="#fr">Wolan die jhr nu ſaget/ Heute/ oder Mor-<lb/>
+gen wollen wir gehen inn die oder die<lb/>
+Stadt/ vnd wollen ein Jahr da liegen/<lb/>
+vnd handtieren/ vnd gewinnen: Die<lb/>
+jhr nicht wiſſet/ was morgen ſein wird:<lb/>
+Denn/ was iſt ewer Leben? Ein dampff<lb/>
+iſt es/ der eine kleine zeit wehret/ darnach<lb/>
+aber verſchwindet er. Dafuͤr jhr ſagen<lb/>
+ſollet: So der HErr wil/ vnd wir leben/<lb/>
+wollen wir diß oder das thuen.</hi></quote><bibl/></cit><lb/>
+<p>So viel ſind der wort vnſeres Textes: Dazu<lb/>
+vns Gott ferner die Gnade ſeines H. Geiſtes ver-<lb/>
+leihen wolle/ vmb Chriſti willen/ Amen.</p></div><lb/>
+<div type="fsExordium" n="2"><head><hi rendition="#aq"><hi rendition="#g">CONCIO.</hi></hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">G</hi>Eliebte/ vnd Andaͤchtige in dem HErren/</hi><lb/>
+Wir leſen in den Hiſtorien von dem loͤblichen fromen<lb/>
+Keyſer <hi rendition="#aq">Trajano/</hi> als der auff ein zeit in anligenden<lb/>
+Reichsgeſchaͤfften zuverreyſen/ vnd jtzo ſein Heer/<lb/>
+vnd Kriegeßvolck ſchon auffm Platz hatte/ fort zu-<lb/>
+<fw place="bottom" type="sig">B</fw><fw place="bottom" type="catch">ruͤcken:</fw><lb/>
+<pb facs="#f0010" n="[10]"/>
+ruͤcken: Laͤuffet jhn ein Weib an/ eine arme Wittbe/ die bittet<lb/>
+jhn vmb huͤlffe wieder die/ ſo jhren Sohn in Friedes zeiten er-<lb/>
+ſchlagen/ vnd vmbgebracht. Derſelben gab er zur Ant-<lb/>
+wort: <hi rendition="#fr">Wenn ich wieder komme/ ſo wil ich dir recht ſchaf-<lb/>
+fen/ vnd helffen.</hi> Das Weib ſpricht mit groſſem geſchrey:<lb/>
+<hi rendition="#fr">Ach Herr Keyſer/ wenn jhr denn nicht wider kehmet/ wer<lb/>
+wolte mir denn helffen?</hi> Durch dieſe wort iſt <hi rendition="#aq">Trajanus</hi> be-<lb/>
+wogen ſtille zuhalten/ die Parthen fuͤr ſich zu fodern/ vnd nach<lb/>
+erkuͤndigung der ſachen/ der Wittben Recht zuverſchaffen/ ehe<lb/>
+er noch fort zoge. Dieſe loͤbliche that des Keyſers iſt denck-<lb/>
+wirdig behalten worden/ das mans hernach in einen Stein ge-<lb/>
+hawen/ vnd zu Ewigem gedechtnuͤß auffrichten laſſen/ auch<lb/>
+den ortt daher genennet: <hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Traianum Forum;</hi></hi> Trajani</hi><lb/>
+Richtplatz.</p><lb/>
+<p>Dieſes Weib/ Jhr meine Geliebten/ koͤmmet mir fuͤr/ wie<lb/>
+das kluge Weib von <hi rendition="#aq">TheKoa, <hi rendition="#i">2. Samuel. 14.</hi></hi> Die auch dem Koͤ-<lb/>
+nige <hi rendition="#aq">David</hi> zu gemuͤth fuͤhrete/ <hi rendition="#fr">Wie wir alle ſterblich/ vnd in<lb/>
+die Erden verſchleiffet werden/ wie das Waſſer/ das nie-<lb/>
+mandt auff helt:</hi> Alſo bedencket dieſe auch Menſchliches<lb/>
+Gluͤcks/ vnd Lebens vnbeſtendigkeit/ vnd begehret heute jhre<lb/>
+huͤlffe/ dieweil ſie nicht weiß/ was morgen ſein wird. Der loͤb-<lb/>
+liche Keyſer ſelbſt thut/ als ein hochvernuͤnfftiger/ erinnert ſich<lb/>
+(wie Koͤnig <hi rendition="#aq">Philippus</hi> in <hi rendition="#aq">Macedonien</hi>) das er ein Sterblicher<lb/>
+Menſch ſey/ vnd demnach allerley Menſchlichẽ vnfaͤllen vnter-<lb/>
+worffen. Wie Syrach der weiſe Mann ſaget: <hi rendition="#fr">Heute Koͤnig/<lb/>
+Morgen todt/</hi> <hi rendition="#aq"><hi rendition="#i">c. 10. v. 12.</hi> Mors ſceptra ligonibus æquat,</hi> Vnd<lb/>
+wenn der Menſch todt iſt/ als denn iſt kein wider kom̃en in die-<lb/>
+ſes Leben/ ſaget <hi rendition="#aq">David <hi rendition="#i">2. Sam. 12. v. 23.</hi></hi></p><lb/>
+<p>Darumb mag ein jeder ſeine ſachen in gute acht nehmen/<lb/>
+vnd vorſichtig wandeln/ nicht als die Vnweiſen/ ſondern als<lb/>
+die Weiſen/ das er die Zeit wol brauche/ weil er ſie hat/ vnd ſich<lb/>
+recht Chriſtlich wiſſe darein zuſchicken. Wie <hi rendition="#aq">S. Paulus</hi> ver-<lb/>
+mahnet <hi rendition="#i"><hi rendition="#aq">ad Epheſ. 5. v.</hi> 15.</hi></p><lb/>
+<fw type="catch" place="bottom">Reyſe-</fw><lb/>
+<pb facs="#f0011" n="[11]"/>
+<p>Reyſeleute/ die offte einen fernen Weg/ etliche Meyl we-<lb/>
+ges zuverruͤcken/ thun wol/ das ſie zuvohrn jhre ſachen zu Hau-<lb/>
+ſe wol beſtellen/ vnd alles fein richtig machen/ weil ſie nicht<lb/>
+wiſſen/ ob ſie moͤchten wieder zu ruͤcke gelangen. Der Menſch<lb/>
+weiß ſeine Außfarth wol/ Aber nicht ſeine Einfahrt/ pfleget<lb/>
+man zuſagen. Vnd niemandt vnter vns kan jtzo wiſſen/ wo/<lb/>
+vnd wie jhm ſein Ende von Gott kuͤnfftig moͤchte beſcheret<lb/>
+ſein/ zuvohr an/ wer hin vnd wieder ziehen/ vnd vielfaͤltig rey-<lb/>
+ſen muß. Demnach vnd viel mehr ſollen wir richtigkeit ma-<lb/>
+chen in dieſem Leben/ ehe wir die groſſe gefaͤhrliche Reyſe fuͤr<lb/>
+vns nemen/ zuwandern aus dieſem Jrrdiſchen vnſerm Vater-<lb/>
+landt in das Himmeliſche Engellandt: Das wir bey leibe da<lb/>
+nichts vnrichtiges im Gewiſſen hinter vns laſſen/ fuͤr allen din-<lb/>
+gen vnſere Seele verſorgen/ mit Gott alle Haͤndel richtig ma-<lb/>
+chen/ vnd durch wahre Buſſe vns mit demſelbigen/ (wie auch<lb/>
+mit vnſerm Neheſten) außſoͤhnen/ vnd vertragen: Denn da iſt<lb/>
+kein wieder kommen: Wie der Baum fellet/ ſo bleibet er lie-<lb/>
+gen: Wie der Menſch ſtirbet/ ſo wird er gerichtet werden:<lb/>
+<hi rendition="#aq">Qualem te invenio, talem te judico.</hi> Wer nu was vnrichtiges<lb/>
+in ſeinem Gewiſſen mit ſich genommen/ oder hinter ſich gelaſ-<lb/>
+ſen/ Wer wil jhm denn helffen? Da iſt kein widerkehren/ vnd<lb/>
+da gilt keine nachrew.</p><lb/>
+<p>Solche gedancken ſcheubet vns gleich ins Hertz/ vnd brin-<lb/>
+gets vns nahe zu Gemuͤth/ nicht allein das Weib beym Keyſer<lb/>
+<hi rendition="#aq">Trajano:</hi> Sondern auch der gegenwertige Todesfall dieſes<lb/>
+frembden Kauffherren aus Engellandt/ der mitten in ſeinem<lb/>
+Laufft/ vnd Reyſefahrt allhier geblieben/ vnd ſeinen Kauff-<lb/>
+handel <hi rendition="#aq">reſigniren</hi> muͤſſen/ in die Zwey hundert Meyl weges<lb/>
+von ſeinem Vaterlande: Ja/ der hocherleuchte H. Apoſtel<lb/>
+<hi rendition="#aq">S. Iacobus</hi> gehet auch damit vmb/ in dieſem vnſerm verleſenem<lb/>
+Text/ Das er allen Menſchen/ ſonderlich aber den Reyſenden/<lb/>
+Kauff- vnd Handelsleuten ſolches wol einbilde/ Das ſie jhr<lb/>
+Ende ſtets bedencken/ vnd die kuͤrtze jhres Lebens fuͤr augen<lb/>
+haben/ auff das ſie Gott fuͤrchten/ alle jhr thun vñ vornehmen<lb/>
+<fw place="bottom" type="sig">B ij</fw><fw place="bottom" type="catch">ſampt</fw><lb/>
+<pb facs="#f0012" n="[12]"/>
+ſampt jhren gantzen leben deſto Chriſtlicher fuͤhren/ vnd ſeliger<lb/>
+ſchlieſſen moͤgen.</p><lb/>
+<p>Damit wir aber des Heyligen Apoſtels meinung deſto beſ-<lb/>
+ſer faſſen/ vnd leichter verſtehen/ So wollen wir ſeinen worten<lb/>
+ferner zuhoͤren/ vnd bey abgeleſenem Text auff dieſe drey <hi rendition="#aq">Pun-<lb/>
+cta</hi> achtung geben:</p><lb/>
+<list><item><hi rendition="#aq">I. Quo cum:</hi> <hi rendition="#fr">Mit wem er vornemlich in<lb/>
+dieſen worten rede/ vnd zuhandeln habe.</hi></item><lb/>
+<item><hi rendition="#aq">II. Quid:</hi> <hi rendition="#fr">Was er rede/ vnd handele.</hi></item><lb/>
+<item><hi rendition="#aq">III. Quo fine:</hi> <hi rendition="#fr">Zu welchem ende er ſolches<lb/>
+thue/ vnd wie ein jeder ſolches zu ſeiner<lb/>
+Lehre/ Troſt vnd Vermahnung nuͤtzlich<lb/>
+gebrauchen ſolle.</hi></item></list><lb/>
+<p>Davon kuͤrtzlich auff dißmahl. Der Barmhertzige Gott/<lb/>
+vnd Vater verleyhe hierzu Krafft/ vnd beyſtandt ſeines Heyli-<lb/>
+gen Geiſtes/ das es ſeinem heyligen Nahmen zu Ehren/ vnd<lb/>
+vns allen zur Lehre/ Troſt vnd Seligkeit gelangen moͤge/<lb/>
+Amen.</p></div><lb/>
+<div type="fsMainPart" n="2"><head/>  <div n="3"><head><hi rendition="#aq">De I.</hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">E</hi>Rſtlich/ mit weme</hi> <hi rendition="#aq">S. Jacobus</hi> <hi rendition="#fr">in dieſer ſeiner</hi><lb/>
+gantzen Epiſtel zu thun/ vnd zu reden habe/ das gibet in<lb/>
+gemein die vberſchrifft/ oder gruß/ ſo er im anfang ſetzet:<lb/>
+<hi rendition="#fr">Den Zwoͤlff Geſchlechten/ die da ſind hin vnd her.</hi><lb/>
+Welches zwar vornemlich von den Juͤden koͤndte verſtanden<lb/>
+werden/ als denen zu erſt das Reich Gottes muſte verkuͤndiget<lb/>
+werden/ <hi rendition="#i"><hi rendition="#aq">Actor. 13. v.</hi> 46.</hi> Nu ſie es aber von ſich geſtoſſen/<lb/>
+<fw place="bottom" type="catch">vnd</fw><lb/>
+<pb facs="#f0013" n="[13]"/>
+vnd ſich ſelbſt nicht werth geachtet des Ewigen Lebens/ ſo ha-<lb/>
+ben ſich die H. Apoſtel ſtracks zu den Heyden gewendet. Koͤn-<lb/>
+nen derowegen die Jehnigen davon nicht außgeſchloſſen wer-<lb/>
+den/ ſo aus der Heydenſchafft durch das Euangelium zu Chri-<lb/>
+ſto bekehret worden/ ſie ſind auch wer/ vnd wo ſie wollen/ hin<lb/>
+vnd her/ an welchem orte der Welt. Sintemal die Heyligen<lb/>
+Apoſtel von den HErren Chriſto nicht nur zu den Juͤden geſen-<lb/>
+det/ ſondern allermeiſt auch zu den Heyden/ Ja zu allen Voͤl-<lb/>
+ckern im gantzen vmbkreyß der Welt. <hi rendition="#i"><hi rendition="#aq">Marci 16. v.</hi> 15.</hi></p><lb/>
+<p>So ſind auch nicht alle Jſraeliter/ die von Jſrael ſind nach<lb/>
+dem Fleiſch/ ſondern die Kinder der verheiſchung werden fuͤr<lb/>
+Saamen gerechnet/ <hi rendition="#i"><hi rendition="#aq">Rom. 9. v.</hi> 8.</hi> vnd die deß Glaubens ſind/<lb/>
+wie <hi rendition="#aq">Abraham/</hi> <hi rendition="#i"><hi rendition="#aq">Rom.</hi> 4.</hi> Sonderlich iſt die H. Schrifft Newes<lb/>
+Teſtamentes nicht vornemlich vmb der Juͤden/ ſondern auch<lb/>
+allermeiſt vmb der bekehreten Heyden/ vnd Chriſten willen/ zur<lb/>
+Lehre geſchrieben/ auff das auch wir durch gedult vñ troſt der<lb/>
+Schrifft hoffnung haben ſollen. <hi rendition="#i"><hi rendition="#aq">Rom. 15 v.</hi> 4.</hi></p><lb/>
+<p>Demnach redet nu <hi rendition="#aq">S. Iacobus</hi> in dieſer ſeiner Epiſtel in ge-<lb/>
+mein mit allen glaͤubigen Chriſten/ die da gedencken ſelig zu<lb/>
+werden/ vnd vnter die zahl der Zwoͤlff Geſchlechte deß geiſtli-<lb/>
+chen Jſrael (welches iſt die Schaar der Auſſerwehleten) gehoͤ-<lb/>
+ren. <hi rendition="#i"><hi rendition="#aq">Apocalyp. 7. v. 9. &amp; 21. v.</hi> 12.</hi> Vnd vermahnet ſie zum<lb/>
+rechtſchaffenen wahren Glauben/ wil/ das derſelbige bey jhnen<lb/>
+nicht nur ein Mundwerck ſein/ vnd bloß auff der Zungen ſchwe-<lb/>
+ben ſolle: Sondern ſol ſich auch beweiſen mit der that/ in wer-<lb/>
+cken Chriſtlicher liebe/ gleich als ein guter Banm mit ſeinen<lb/>
+guten Fruͤchten: Vnd wie ein lebendiger Coͤrper/ in dem<lb/>
+noch Geiſt vnd Othem: Auff das er nicht fuͤr einen todten<lb/>
+Glauben geſchetzet werde. <hi rendition="#i"><hi rendition="#aq">Cap. 2. v.</hi> 17. 26.</hi></p><lb/>
+<p>Vermahnet derhalben fromme Chriſten vornemlich:</p><lb/>
+<p>1. Zu fleiſſiger anhoͤrung/ vnd uͤbung Goͤttliches wortes:<lb/>
+Denn <hi rendition="#aq">fides exauditu, <hi rendition="#i">Rom. 10. v. 18.</hi></hi> Der Glaube koͤmmet aus<lb/>
+der Predigt/ das Predigen aber durch das wort Gottes. Dar-<lb/>
+<fw type="sig" place="bottom">B iij</fw><fw type="catch" place="bottom">vmb</fw><lb/>
+<pb facs="#f0014" n="[14]"/>
+vmb ſpricht <hi rendition="#aq">S. Iacobus <hi rendition="#i">cap. 1. v. 21</hi>:</hi> <hi rendition="#fr">Nemet das Wort an mit<lb/>
+ſanfftmuth/ das in euch gepflantzet iſt/ welch es kan ewre<lb/>
+Seelen ſelig machen. Seyd aber Taͤhter deß wortes/<lb/>
+vnd nicht Hoͤrer alleine/ damit jhr Euch ſelbſt betrieget.</hi></p><lb/>
+<p>2. Zu Chriſtlicher Gedult/ vnd Hoffnung/ als Fruͤchten<lb/>
+des Glaubens/ <hi rendition="#i"><hi rendition="#aq">Gal.</hi> 5. 22.</hi> Darumb ſpricht er <hi rendition="#i"><hi rendition="#aq">cap. 1. v.</hi> 3:</hi> <hi rendition="#fr">Ach-<lb/>
+tet es eytel frewde/ wenn jhr in mancherley anfechtunge<lb/>
+fallet/ vnd wiſſet das Ewer Glaube/ ſo er rechtſchaffen iſt/<lb/>
+Gedult wircket/ die Gedult aber ſol feſte bleiben bis ans<lb/>
+Ende. Vnd</hi> <hi rendition="#i"><hi rendition="#aq">v.</hi> 12</hi>: <hi rendition="#fr">Selig iſt der Mann/ der die anfechtung<lb/>
+erduldet/ denn/ nach dem er bewaͤhret iſt/ wird er die Kro-<lb/>
+ne des Lebens empfahen/ welche Gott verheiſchen hat de-<lb/>
+nen die jhn lieb haben.</hi> <hi rendition="#aq"><hi rendition="#i">Idem facit c. 5. v. 7. 10. &amp;c.</hi></hi></p><lb/>
+<p>3. Zufleiſſigem Gebet: <hi rendition="#fr">Denn alle gute Gabe/ vnd alle<lb/>
+vollkommene Gabe kõmmet von oben herab/ von dem<lb/>
+Vater des Liechts/</hi> <hi rendition="#i"><hi rendition="#aq">cap. 1. v.</hi> 17.</hi> Der wil darumb gebeten/ vnd<lb/>
+angeruffen ſein/ <hi rendition="#i"><hi rendition="#aq">Matth. 7. v. 7. Lucæ 11. v. 13. Ioh. 16. v.</hi> 24.</hi><lb/>
+<hi rendition="#fr">So nu jemand vnter euch Weißheit mangelt/ ſpricht</hi> <hi rendition="#aq">S. Ia-<lb/>
+cobus/</hi> <hi rendition="#fr">der bitte ſie von Gott</hi> (<hi rendition="#i"><hi rendition="#aq">cap. 1. v.</hi> 5.</hi>) <hi rendition="#fr">der da gibt einfel-<lb/>
+tiglich/ Jederman/ vnd ruͤckets niemand auff/ ſo wird ſie<lb/>
+jhme gegeben werden. Er bitte aber im Glauben/ vnd<lb/>
+zweiffele nicht. Denn ein Zweiffeler empfehet nichts/<lb/>
+vnd iſt vnbeſtendig in allen ſeinen Wegen.</hi> Alſo vermahnet<lb/>
+er auch drunten <hi rendition="#aq"><hi rendition="#i">cap. 5. v. 13, &amp;c</hi>:</hi> <hi rendition="#fr">Leydet jemand vnter euch/<lb/>
+der Bete: Jſt jemand gutes muthes/ der ſinge Pſalmen:<lb/>
+Jſt jemand kranck/ der ruffe zu ſich die Elteſten von der<lb/>
+Gemeine/ vnd laſſe ſie vber ſich beten/ ꝛc. Denn das Gebet<lb/>
+des Glaubens wird dem Krancken helffen/ vñ der HErr<lb/>
+wird jhn auffrichten/ vnd ſo er hat Suͤnde gethan/ werden<lb/>
+ſie jhm vergeben ſein. Bekenne einer dem andern ſeine<lb/>
+Suͤnde/ vnd betet fuͤr einander/ das jhr geſundt werdet/<lb/>
+Denn das Gebet des Gerechten vermag viel/ weñ es ernſt-<lb/>
+lich iſt/</hi> <hi rendition="#i"><hi rendition="#aq">cap. 5. v.</hi> 16.</hi></p><lb/>
+<pb facs="#f0015" n="[15]"/>
+<p>4. Zur Chriſtlichen Liebe/ Demuth vnd Sanfftmuth/ <hi rendition="#i"><hi rendition="#aq">cap.<lb/>
+1. v. 9. &amp; 19. cap. 2. v.</hi> 8.</hi> Daß jhr das Koͤnigliche Geſetz vollen-<lb/>
+det nach der Schrifft: <hi rendition="#fr">Liebe deinen Nechſten als dich ſel-<lb/>
+beſt/ ꝛc.</hi> Denn/ ſo jemand das gantze Geſetz helt/ vnd ſuͤndiget<lb/>
+an einem/ der iſts gantz ſchuldig/ <hi rendition="#i"><hi rendition="#aq">v.</hi> 10. 13.</hi> Es wird aber ein vn-<lb/>
+barmhertzig Gericht gehen vber den/ der nicht barmhertzigkeit<lb/>
+gethan hat. Wie er auch drunten droͤet/ vnd zuverſtehen gibt.<lb/>
+<hi rendition="#i"><hi rendition="#aq">cap. 5. v. 4. &amp;c.</hi></hi></p><lb/>
+<p>5. Zum rechten gebrauch der Zungen: Vnd das man nie-<lb/>
+mand ſolle affterreden/ noch andere vrteilen. Denn/ ſaget er/<lb/>
+<hi rendition="#i"><hi rendition="#aq">cap. 3. v.</hi> 5:</hi> <hi rendition="#fr">Die Zunge iſt ein klein Glied/ vnd richtet groſ-<lb/>
+ſe ding an. Sihe/ ein klein Fewer/ welch einen Walt zuͤn-<lb/>
+det es an?</hi> Vnd <hi rendition="#i"><hi rendition="#aq">cap.</hi> 4.</hi> kurtz fuͤr vnſerem vorgeleſenem Text/<lb/>
+<hi rendition="#i"><hi rendition="#aq">v.</hi> 12.</hi> ſprichter: <hi rendition="#fr">Wer biſtu/ der du einen andern vrteileſt?</hi><lb/>
+(wie der Phariſeer im nechſten Sontags Euangelio den armen<lb/>
+bußfertigen Zoͤllner/ <hi rendition="#i"><hi rendition="#aq">Lucæ</hi> 18.</hi>) Es iſt ein einiger Geſetzgeber/<lb/>
+der kan ſelig machen/ vnd verdammen.</p><lb/>
+<p>Sehet/ das redet der H. Apoſtel <hi rendition="#aq">Iacobus</hi> in gemein zu al-<lb/>
+len/ nicht allein zu den Juͤden/ ſondern auch zu den bekehreten<lb/>
+Heyden/ vornemlich zu vns Chriſten heutiges Tages. Er nim-<lb/>
+met jhm aber auch fuͤr in dieſer ſeiner Epiſtel/ mit etlichen Per-<lb/>
+ſonen/ vnd Staͤnden inſonderheit zureden: Als droben <hi rendition="#i"><hi rendition="#aq">cap.</hi> 2.</hi><lb/>
+vnd drunten <hi rendition="#i"><hi rendition="#aq">cap.</hi> 5.</hi> redet er an die Reichen/ das ſie ſich nicht er-<lb/>
+heben vber die Armen/ vnd keiner den andern verachte/ noch<lb/>
+ſich vorzucke im Reiche Gottes/ nach anſehen der Perſon/ auch<lb/>
+den Armen nicht vnterdruͤcke. <hi rendition="#fr">Lieben Bruͤder/</hi> ſaget er <hi rendition="#i"><hi rendition="#aq">cap. 2.<lb/>
+v.</hi> 1.</hi> <hi rendition="#fr">haltets nicht darfuͤr/ das der G<supplied>lau</supplied>be an Jeſum Chri-<lb/>
+ſtum vnſern HErren der Herrligkeit/ anſehung der Per-<lb/>
+ſon leide/ ꝛc.</hi></p><lb/>
+<p>Vnd hier in dieſem vierdten Capitel/ in den worten vnſers<lb/>
+abgeleſen Textes/ hat er vornemlich zu thun mit den Kauffleu-<lb/>
+ten/ Reyſeleuten/ Handelsleuten: Die redet er an/ die da bey<lb/>
+<fw type="catch" place="bottom">ſich</fw><lb/>
+<pb facs="#f0016" n="[16]"/>
+ſich ſagen/ vnd anſchlagen: <hi rendition="#fr">Heute oder morgen wollen wir<lb/>
+gehen in die oder die Stadt/ vñ wollen ein Jahr da liegen/<lb/>
+vnd handtieren/ vnd gewinnen: Die jhr nicht wiſſet/ was<lb/>
+morgen ſein wird.</hi></p><lb/>
+<p><hi rendition="#fr">Wolan/</hi> ſpricht er/ Jhr/ die jhr alſo redet/ vnd Ewere an-<lb/>
+ſchlaͤge machet/ bedencket doch/ was jhr redet/ anſchlaget/ vnd<lb/>
+fuͤrnehmet? Denn: Gedancken/ vnd geſpannetem Tuche ge-<lb/>
+het viel abe.</p><lb/>
+<p>Das aber diß eigentlich vom Kauff- Reyſe- vnd Handels-<lb/>
+Leuten zuverſtehen/ das gibet der <hi rendition="#aq">contextus</hi> klahr: Sintemal<lb/>
+da außdruͤcklich wird gedacht:</p><lb/>
+<p>Ein mal <hi rendition="#aq">I.</hi> Jhres <hi rendition="#aq">propoſiti:</hi> Das ſie reyſen wollen: Dazu<lb/>
+nehmen ſie jhnen nu fuͤr:</p><lb/>
+<p>1. <hi rendition="#fr">Gewiſſen tag/</hi> wenn ſie wollen auff ſein: <hi rendition="#fr">Heut/ oder<lb/>
+Morgen.</hi> Je ehe je beſſer. <hi rendition="#aq">Fronte capillara eſt, poſthæc oc-<lb/>
+caſio calva.</hi> Man muß die gute gelegenheit nicht verſchlaffen/<lb/>
+ſie koͤmpt ſelten wieder. Haͤndel leiden keinen verzug/ <hi rendition="#aq">pericu-<lb/>
+lum eſt in mora.</hi> Man muß zur ſachen thun/ vnd nicht ſaͤumen/<lb/>
+wil man was haben vnd erlangen. <hi rendition="#aq">Occupet extremum ſca-<lb/>
+bies.</hi> <hi rendition="#fr">Laͤſſige Hand machet arm/ aber der fleiſſigen Hand<lb/>
+machet reich/</hi> ſaget der weiſe Koͤnig <hi rendition="#aq">Salomo</hi> in ſeinen Spruͤ-<lb/>
+chen am 10. cap.</p><lb/>
+<p>2. <hi rendition="#fr">Gewiſſen ortt:</hi> Wo ſie hin wollen: <hi rendition="#fr">Jn die/ oder die<lb/>
+Stadt:</hi> Da die groͤſten <hi rendition="#aq">Emporia/</hi> vnd Niederlagen ſein/ da die<lb/>
+beſten Wahren ankommen/ die Haͤndel <hi rendition="#aq">in flore</hi> ſtehen/ vnd die<lb/>
+Wahren wol abgehen/ ꝛc.</p><lb/>
+<p>3. <hi rendition="#fr">Gewiſſe</hi> <hi rendition="#aq">media:</hi> Wie ſie wollen fortkommen: Koͤnnen<lb/>
+ſie nicht alle zu Wagen/ vnd Roſs/ ſo wollen ſie zu Fuß: <hi rendition="#fr">Wir<lb/>
+wollen gehen/</hi> ſagen ſie. Wir muͤſſen fort/ da iſt kein auff-<lb/>
+enthalten/ Gott gebe es regene/ oder ſchneye/ es ſey wegſam/<lb/>
+oder vnwegſam/ da muß nichts hindern.</p><lb/>
+<fw place="bottom" type="catch">4. Ge-</fw><lb/>
+<pb facs="#f0017" n="[17]"/>
+<p>4. <hi rendition="#fr">Gewiſſe Perſonen:</hi> Die es thun ſollen: Sie wollen es<lb/>
+ſelbeſt thun/ wollen ſelber fort: <hi rendition="#fr">Wir wollen gehen/</hi> ſagen ſie:<lb/>
+Wollen vns nicht auff Knechte/ Geſinde vnd Diener verlaſ-<lb/>
+ſen: Der Herr muß ſelber ſein der Knecht/ wil ers im Handel<lb/>
+finden recht: Geſinde nimmermehr bedenckt/ was ſchaden oder<lb/>
+frommen brengt. So iſts auch nichts/ wenn einer ſeine ſa-<lb/>
+chen mit Marckleuten beſtellen wil. <hi rendition="#fr">Selbeſt iſt der Mann:</hi><lb/>
+Pfleget der Deutzſche im Sprichwort zu ſagen. <hi rendition="#aq">Oculus Do-<lb/>
+mini ſaginat equum.</hi> Der iſt am beſten dran/ der ſich ſeiner ſa-<lb/>
+chen ſelbeſt nimmet an. Da ſihet er/ wo es jhm fehlet/ vnd wie<lb/>
+ers fortbringen mag.</p><lb/>
+<p>5. <hi rendition="#fr">Gewiſſe termin:</hi> Wie lange ſie dort/ oder da liegen<lb/>
+wollen: <hi rendition="#fr">Wir wollen ein Jahr da liegen/</hi> ſprechen ſie. <hi rendition="#aq">Tem-<lb/>
+pus certum pro incerto:</hi> Ein Jahr/ zwey/ dreye/ weniger oder<lb/>
+mehr/ auch wol nur ein halbes/ oder viertel Jahr/ nach dem es<lb/>
+die zeit/ vnd gelegenheit leiden wil/ nach dem wir befinden es<lb/>
+vnſer ſchaden/ oder frommen ſein werde. Darnach wollen wir<lb/>
+fortruͤcken/ vnd andere Staͤdte beſuchen. Das ſind jhre An-<lb/>
+ſchlaͤge/ vnd jhr Vorhaben.</p><lb/>
+<p>Darauff folget/ <hi rendition="#aq">II. Finis propoſiti:</hi> Zu welchem Ende ſie<lb/>
+ſolches anſchlagen/ vnd vornehmen/ nemlich: <hi rendition="#fr">Das ſie Hand-<lb/>
+tieren/ vnd gewinnen wollen.</hi> <hi rendition="#aq">Mercabimur, &amp; lucrum fa-<lb/>
+ciemus.</hi> Keiner reyſet/ oder handelt darumb/ das er wil ſcha-<lb/>
+den leiden/ oder verlieren: Sondern das er wil gewinnen/ ſeine<lb/>
+Nahrung beſſern/ nutz vnd frommen ſchaffen: Dahin ſtehet<lb/>
+alle jhr ſinn vnd gedancken/ daruͤber laſſen ſie es jhnen ſawer<lb/>
+werden/ vnd ſich keine muͤhe/ noch reyſe verdrieſſen/ nur das ſie<lb/>
+jhr thun foͤrdern/ vnd jhren Handel in groſſes auffnemen brin-<lb/>
+gen. Wie auch der Poet ſchon vor laͤngeſt davon geſchrie-<lb/>
+ben:</p><lb/>
+<cit><quote><hi rendition="#aq"><hi rendition="#i">Impigerextremos currit Mercator ad Indos,<lb/>
+Per mare, pauperiem fugiens, per ſaxa, perignes.</hi></hi></quote><bibl/></cit><lb/>
+<fw place="bottom" type="sig">C</fw><fw place="bottom" type="catch">Da</fw><lb/>
+<pb facs="#f0018" n="[18]"/>
+<p>Da gehets/ vber Stock vnd Stein: Zu Tage/ vnd zu Nacht:<lb/>
+Zu Waſſer/ vnd zu Lande: Zu Roſs/ vnd zu Fuß: Nur das man<lb/>
+reich werden/ vnd viel gewinnen moͤge.</p><lb/>
+<p>Hie moͤchte nu jemand fragen/ vnd ſagen: Wie? Jſt es<lb/>
+denn vnrecht/ Handeln/ vnd Kauffmanſchafft treiben? Auch<lb/>
+ſeines Handels/ vnd Gewerbes halben dort oder dahin reyſen/<lb/>
+ſeinen Nutz vnd Nahrung vber Landt ſuchen/ beſſern/ gewin-<lb/>
+nen/ vnd dergleichen? Wer wolte einen darumb verdencken/<lb/>
+wenn er was erwerben/ gewinnen/ vnd fuͤr ſich bringen koͤndte/<lb/>
+das ers nicht thaͤte? Da hoͤret/ vnd laſſet euch dienen/ lieben<lb/>
+Chriſten: Weil Gott der Heylige Geiſt in ſeinem Wort viel-<lb/>
+faltig denStandt der Kauff- vnd Handelsleute beſtetiget/ das<lb/>
+er gut/ nuͤtzlich/ vnd nothwendig/ dazu Ehrlich/ vnd Chriſtlich<lb/>
+ſey/ der wol zugelaſſen vnd vergoͤnnet/ wenn er nur in ſeinen <hi rendition="#aq">ter-<lb/>
+minis</hi> bleibet/ vñ recht gefuͤhret wird: So muß je freylich jnen<lb/>
+auch das reyſen/ vnd andere ordentliche mittel jhre Nahrung/<lb/>
+vnd Haͤndel gebuͤhrender maſſen fortzuſtellen/ nicht verboten<lb/>
+ſein. Leſſet derhalben der Heylige Apoſtel den Standt an jhm<lb/>
+ſelber bleiben/ vnd gut ſein/ als einen ſolchen Orden/ den man<lb/>
+zu dieſem leben nicht kan entpehren. Daß iſt aber ſeine mey-<lb/>
+nung/ Das er gerne wolte/ das von jedermenniglich/ die ſich<lb/>
+deſſelbigen neeren/ vnd gebrauchen/ ſolcher nur rechtſchaffen/<lb/>
+vnd Chriſtlich gefuͤhret wuͤrde/ alſo:</p><lb/>
+<list><item>1. <hi rendition="#fr">Das Gott damit nicht erzuͤrnet:</hi></item><lb/>
+<item>2. <hi rendition="#fr">Die Liebe des Nechſten nicht gejrret:</hi></item><lb/>
+<item>3. <hi rendition="#fr">Die Gewiſſen nicht beſch wehret:</hi></item><lb/>
+<item>4. <hi rendition="#fr">Die Gerechtigkeit nicht verſehret:<space dim="horizontal"/>Vnd</hi></item><lb/>
+<item>5. <hi rendition="#fr">Der Seelẽ ſeligkeit nicht verhindert werde.</hi></item></list><lb/>
+<p>Denn es gehet ſchwer zu in ſolchem Handel/ das nicht allerley<lb/>
+Vngerechtigkeit/ Betrug vnd Vorthel ſolte mit vnterlauffen:<lb/>
+Einer reitzet den andern/ vnd gibet jhm Vrſach zu ſuͤndigen.<lb/>
+<hi rendition="#fr">Denn/ die da Reich werden wollen/ fallen in Verſuchung</hi><lb/>
+<fw type="catch" place="bottom"><hi rendition="#fr">vnd</hi></fw><lb/>
+<pb facs="#f0019" n="[19]"/>
+<hi rendition="#fr">vnd Stricke/</hi> (<hi rendition="#i">1. <hi rendition="#aq">Tim.</hi> 6.</hi>) <hi rendition="#fr">vnd viel tõrichter/ vnd ſchedlicher<lb/>
+Luͤſte/ welche verſencken die Menſchen ins Verderben/ vnd<lb/>
+Verdamnuͤß.</hi> So hat auch der weiſe Mann Syrach (ſon-<lb/>
+ders zweiffel aus erfahrung) davon geſchrieben <hi rendition="#i"><hi rendition="#aq">cap.</hi> 27:</hi> <hi rendition="#fr">Ein<lb/>
+Kauffman kan ſich ſchwehrlich huͤten fuͤr Vnrecht/ vnd<lb/>
+ein Krahmer fuͤr Suͤnden. Denn vmb Guttes willen<lb/>
+thun viel vnrecht/ vnd die Reich werden wollen/ wenden<lb/>
+die Augen ab. Wie ein Nagel in der Mawren zwiſchen<lb/>
+zweyen Steinen ſteckt/ Alſo ſteckt auch Suͤnde zwiſchen<lb/>
+Kaͤuffer vnd Verkaͤuffer. Helt er ſich nicht mit fleiß in<lb/>
+der Furcht des HErrn/ ſo wird ſein Hauß bald zerſtoͤret<lb/>
+werden.</hi></p><lb/>
+<p>Weil es nu ſo gefehrlich darumb iſt/ ſo hat man ſich deſto<lb/>
+beſſer in acht zu nehmen. Vnd ſol die gemeine Regel/ die vns<lb/>
+vnſer HErre Chriſtus fuͤr ſchreibet/ billich von allen Chriſten<lb/>
+in alle jhrem Handel vnd Wandel fleiſſig vnd wol gemercket<lb/>
+werden: <hi rendition="#fr">Alles das jhr wollet/ das Euch die Leute thun<lb/>
+ſollen/ das thut jhnen gleich auch jhr.</hi> <hi rendition="#i"><hi rendition="#aq">Matth. 7. v. 12. Luc. 6.<lb/>
+v.</hi> 31.</hi> Vnd was S. Paulus ſchreibet <hi rendition="#i">1. <hi rendition="#aq">Theſſal. 4. v.</hi> 6:</hi> <hi rendition="#fr">Das<lb/>
+niemand zu weit greiffe/ noch vervortheile ſeinen Bruder<lb/>
+im Handel. Denn der HErr iſt Recher vber das alles.</hi></p><lb/>
+<p>Die nu alſo auffrichtig im Handel ſein/ das ſie niemandt<lb/>
+vorſetzlich betriegen/ noch vervorteilen/ ſondern vmb ein zimli-<lb/>
+chen/ vnd redlichen Gewin handeln/ die ſind billich zu lieben/<lb/>
+koͤnnen auch in ſolch jhrem Stande vnd Beruff/ wenn ſie da-<lb/>
+rinne Glauben vnd gutes Gewiſſen bewahren/ Gott gefallen/<lb/>
+vnd ſelig werden: Wie die Gottesfuͤrchtige Purpurkraͤmerin<lb/>
+<hi rendition="#aq">Lydia/</hi> in der Apoſtel Geſchicht am 16. cap.</p><lb/>
+<p>Vnd ſo viel ſey kuͤrtzlich geſaget vom Erſten Stuͤck: Mit<lb/>
+wem vornemlich <hi rendition="#aq">S. Iacobus</hi> in dieſen worten vnſers verleſenen<lb/>
+Texts zu reden/ vnd zu handeln/ nemlich/ mit dem Kauff-Han-<lb/>
+dels- vnd Reyſeleuten/ die dort/ vnd dahin ziehen/ handtieren/<lb/>
+vnd gewinnen wollen.</p></div><lb/>
+<fw place="bottom" type="sig">C ij</fw><fw place="bottom" type="catch"><hi rendition="#aq">De II.</hi></fw><lb/>
+<pb facs="#f0020" n="[20]"/>
+<div n="3"><head><hi rendition="#aq">De II.</hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">Z</hi>Vm Andern/ ſo hoͤret nu:</hi> <hi rendition="#aq">Quid:</hi> <hi rendition="#fr">Was er mit</hi><lb/>
+Jhnen rede/ oder/ was er von Jhnen aus anregung deß H.<lb/>
+Geiſtes wolle gethan/ vnd gelaſſen haben.</p><lb/>
+<p>Er heiſſet ſie nicht gantz vnd gar jhren Beruff verlaſſen/<lb/>
+vnd davon abſtehen/ wie etwa die <hi rendition="#aq">Anabaptiſtæ</hi> oder Wieder-<lb/>
+taͤuffer gethan haben: Er ſaget auch nicht/ Das ſie den Rey-<lb/>
+ſemantel ablegen/ vnd daheyme bleiben ſollen. Sondern/ Er<lb/>
+<hi rendition="#aq">informiret</hi> ſie aus erleuchtung/ vnd eingebung des Heyligen<lb/>
+Geiſtes als ein Knecht Gottes/ vnd des HErren Jeſu Chriſti/<lb/>
+Wie ſie jhre Reyſen/ Handel vnd Wandel recht anſtellen/ vnd<lb/>
+fuͤhren ſollen.</p><lb/>
+<p><hi rendition="#aq">I.</hi> Straffet derhalben Erſtlich die <hi rendition="#aq">præſumptionem/</hi> vnd<lb/>
+Vermeſſenheit/ da mans nur auff ſein eigen gutduͤncken ſtellet/<lb/>
+als wenn mans alles in eigener krafft/ gewalt vnd macht het-<lb/>
+te: Da man nicht ein mal dencket/ Ob Gott wil: Vnd was Er<lb/>
+dazu ſagen/ oder dabey thun moͤchte. Meinen ſtracks: Wir<lb/>
+wollens thun: Wir wollen dort/ oder dahin: Gott gebe vnſer<lb/>
+HErr Gott ſage darzu was er wolle. So vnd ſo lange wollen<lb/>
+wir da liegen: Daß vnd das wollen wir in der zeit außrichten:<lb/>
+Wollen handtiren/ vnd gewinnen: Doͤrffen jhnen auff ein<lb/>
+gantzes Jahr Rechnunge machen/ Da ſie doch nicht wiſſen/<lb/>
+<hi rendition="#fr">Was morgen ſein wird.</hi> Ob ſie den Tag werden erleben?<lb/>
+Vnd ob ſie das Jehnige werden erlangen/ das ſie hoffen? Oder<lb/>
+den ortt erreichen/ dahin ſie gedencken/ vnd darnach ſie ſtre-<lb/>
+ben?</p><lb/>
+<p>Salomon ſaget in ſeinen Spruͤchen am 27. <hi rendition="#i"><hi rendition="#aq">cap. v.</hi> 1:</hi> <hi rendition="#fr">Ruͤh-<lb/>
+me dich nicht des morgenden Tages/ deñ du weiſſeſt nicht/<lb/>
+was heute ſich begeben mag. Denn es kan fuͤr Abends<lb/>
+noch wol anders werden/ weder es am Morgen war</hi> (<hi rendition="#aq">Syr.</hi><lb/>
+18.) <hi rendition="#fr">vnd ſolches alles geſchicht bald fuͤr Gott.</hi> Es koͤndte<lb/>
+ſich wol zutragen/ Das jhnen alle jhre Anſchlaͤge vñ Hoffnung<lb/>
+<fw place="bottom" type="catch">auff</fw><lb/>
+<pb facs="#f0021" n="[21]"/>
+auff ein mal in Brunnen fielen/ vnd zu nichte wuͤrden: <hi rendition="#fr">Denn<lb/>
+deß Menſchen Geiſt muß davon/ vnd Er muß wieder zu<lb/>
+Erden werden/ als denn ſind verlohren alle ſeine Anſchlaͤ-<lb/>
+ge.</hi> (<hi rendition="#i"><hi rendition="#aq">Pſal. 146. v.</hi> 4</hi>) <hi rendition="#fr">Vnd wenn er gleich auch im leben blei-<lb/>
+bet/ So ſtehet doch deß Menſchen thun nicht in ſeiner ge-<lb/>
+walt/ vnd ſtehet in niemands macht/ wie er wandele/ oder<lb/>
+ſeinen Gang richte.</hi> <hi rendition="#aq"><hi rendition="#i">Hierem. 10. v. 23.</hi> Homo quidem propo-<lb/>
+nit, ſed Deus diſponit:</hi> Pfleget man zu ſagen. <hi rendition="#i"><hi rendition="#aq">Proverb.</hi> 16</hi>:<lb/>
+<hi rendition="#fr">Der Menſch ſetzet jhm wol fuͤr im Hertzen/ Aber vom<lb/>
+HErren koͤmmet/ was die Zunge reden ſol.</hi></p><lb/>
+<p>Sind wir nu vnſerer wort nicht maͤchtig/ die wir im Hertz-<lb/>
+en gedencken/ Gott kan ſie endern/ ehe ſie noch von der Zungen<lb/>
+außgeſprochen werden: Wie viel mehr vnſere Anſchlaͤge/ ehe<lb/>
+ſie zu werck gerichtet/ vnd nur angefangen/ geſchweige denn<lb/>
+vollnbracht werden. <hi rendition="#aq">O; Multa cadunt intra calicem, ſupre-<lb/>
+maq́; labra.</hi> Kan ſich doch viel zutragen ehe man den Biſſen<lb/>
+aus der Schuͤſſel zum Munde bringet: Geſchweige denn ehe<lb/>
+man aus einer Stadt/ vnd von einem abgelegenem orte zum<lb/>
+andern koͤmmet.</p><lb/>
+<p><hi rendition="#aq">II.</hi> Darumb helt er jhnen vors andere fuͤr: <hi rendition="#aq">Brevitatem,<lb/>
+&amp; fugacitatem hujus calamitoſæ vitæ:</hi> Die kuͤrtze/ vnd vergeng-<lb/>
+ligkeit/ nichtigkeit/ vnd fluͤchtigkeit dieſes muͤheſeligen lebens<lb/>
+auff Erden:</p><lb/>
+<p><hi rendition="#fr">Was iſt Ewer Leben?</hi> ſaget er. <hi rendition="#fr">Ein Dampff iſt es/<lb/>
+der eine kleine Zeit weret/ darnach aber verſchwindet er.</hi><lb/>
+<hi rendition="#aq">q. d.</hi> Was wil man denn darauff bawen/ oder trawen?</p><lb/>
+<p>Droben <hi rendition="#i"><hi rendition="#aq">cap. 1. v.</hi> 11.</hi> vergleichet er das Menſchliche leben<lb/>
+dem Graſe: <hi rendition="#fr">Wie eine Blume des Graſes werden ſie verge-<lb/>
+hen/ Die Sonne gehet auff mit der Hitze/ vnd das Graß<lb/>
+verwelcket/ vnd die Blume fellet abe/ vnd ſeine ſchoͤne ge-<lb/>
+ſtalt verdirbet/ Alſo wird der Reiche in ſeiner Habe ver-<lb/>
+welcken.</hi></p><lb/>
+<fw place="bottom" type="sig">C iij</fw><fw place="bottom" type="catch">Hier</fw><lb/>
+<pb facs="#f0022" n="[22]"/>
+<p>Hier aber vergleichet ers einen Rauch/ oder Dampff/ ſo<lb/>
+aus dem Ofen gehet/ oder von des Poͤttners Faſſe aufffehret:<lb/>
+Der breitet ſich aus/ machet ſich dicke/ vnd groß/ als wolte er<lb/>
+alles mit einander erfuͤllen/ vnd einnemen: Aber/ es mag leicht<lb/>
+ein Windlein darhinder kommen/ ſo zerfehret er in einem Au-<lb/>
+genblick/ vnd iſt nimmer da: Oder/ ſo das ſchon nicht geſchie-<lb/>
+het/ vnd er gleich ohne hindernuͤß vber ſich ſteiget/ vnd hoch<lb/>
+auffehret/ ſo verleuret er ſich doch allgemach: Je hoͤher er koͤm̃t/<lb/>
+Je weniger ſein wird/ das man zu letzt weder ſtrumpff noch ſtiel<lb/>
+von jhme ſihet.</p><lb/>
+<p>Eben alſo helt ſichs mit vnſerm Leben auch: Wenn wir ein<lb/>
+wenig aus dem Ofen daher fahren/ vñ noch newgebacken ſind/<lb/>
+laſſen vns duͤncken/ wir haben auch etwas geſehen/ gehoͤret/ er-<lb/>
+fahren/ da iſt es koͤſtlich/ vnd groß ding mit vns: Bruͤſten vnd<lb/>
+breitten vns auß/ als wehren wir es alleine/ Woͤllen alles wiſ-<lb/>
+ſen/ koͤnnen/ beſitzen/ vnd einnehmen/ vnd meinen anders nicht/<lb/>
+denn vnſer Leben ſolle ſehr lange wehren auff Erden. (<hi rendition="#i"><hi rendition="#aq">Pſal</hi> 49.<lb/>
+12.</hi>) Aber/ es mag leicht ein Windlein kommen/ ſo wird der<lb/>
+Dampff geleget/ zertrieben/ vnd verjaget: Denn kein Fieber/<lb/>
+oder ander Kranckheit iſt ſo geringe/ ſie kan vns nicht alleine<lb/>
+Geſundheit/ Stercke vnd Farbe/ ſondern auch das Leben gar<lb/>
+nehmen: Wil geſchweigen/ das jhrer viel ſterben/ ehe ſie kranck<lb/>
+werden/ oder lange zu Betthe liegen/ ſondern ploͤtzlich dahin<lb/>
+gehen/ vnd nehmen ein ende mit ſchrecken. (<hi rendition="#i"><hi rendition="#aq">Pſal. 73. v.</hi> 19.</hi>)<lb/>
+Vnd da gleich derer keines geſchicht/ ſo iſt doch das an jhm ſel-<lb/>
+ber gewiß: Gleich wie der Dampff/ Je hoͤher er ſteiget/ je mehr<lb/>
+er ſich verleuret: Alſo auch der Menſch: Je aͤlter er wird/ je ne-<lb/>
+her er dem Tode koͤmpt: Je mehr jhm ſinne/ witz/ vernunfft/<lb/>
+ſtercke vnd kraͤfften ablegen. Denn wir ſind Fleiſch/ <hi rendition="#aq">Spiritus<lb/>
+abiens, &amp; non revertens,</hi> ſaget David im <hi rendition="#i">78. <hi rendition="#aq">Pſal. v.</hi> 39.</hi> Ein<lb/>
+Wind/ der dahin fehret/ vnd nicht wider koͤmmet. Welches<lb/>
+aber nicht <hi rendition="#aq">de evaneſcentia animæ</hi> zuverſtehen/ als ob die Seele<lb/>
+alſo in die Lufft zerfladdere/ verſchwinde/ vnd zu nichte werde/<lb/>
+gleich wie der Rauch vergehet. Jn maſſen dorte die Sad ducei-<lb/>
+<fw type="catch" place="bottom">ſchen</fw><lb/>
+<pb facs="#f0023" n="[23]"/>
+ſchen Epicurer reden/ vnd vermeinen/ Jm Buch der Weißheit<lb/>
+am 2. <hi rendition="#i"><hi rendition="#aq">cap. v</hi> 2. 3. 4.</hi> Sondern/ das kein wiederkommen in diß<lb/>
+Leben/ vnd der Menſch mit der Zeit vergehet. Wie abermal<lb/>
+Koͤnig David daruͤber klaget in ſeinem Bußpſalmen am <hi rendition="#i">102.<lb/>
+<hi rendition="#aq">v.</hi> 4:</hi> <hi rendition="#fr">Meine Tage ſind vergangen wie ein Rauch/ vnd mei-<lb/>
+ne Gebeine ſind verbrandt wie ein Brandt. Mein Hertz<lb/>
+iſt geſchlagen/ vnd verdorret wie Graß/ das ich auch ver-<lb/>
+geſſe mein Brodt zu eſſen. Mein Gebein klebet an mei-<lb/>
+nem Fleiſch/ fuͤr heulen/ vnd ſeufftzen.</hi></p><lb/>
+<p>Ja/ recht wird diß Leben einem Rauch vnd Dampff ver-<lb/>
+glichen: Denn ein kleines Raͤuchlein/ auch nur von einem vn-<lb/>
+ſchlet Liecht/ kan einem ſchaden an ſeiner Geſundheit/ vnd an<lb/>
+ſeinem Leben: Wie auch mancher Dampff aus der Erden:<lb/>
+Stanck vnd Nebel aus der Lufft: Es darff ſein nicht viel ſein/<lb/>
+ſo kan er den Menſchen dempffen/ vnd darnider werffen. <hi rendition="#fr">Weñ<lb/>
+du einen zuͤchtigeſt vmb der Suͤnde willen/ ſo wird ſeine<lb/>
+Schoͤne verzehret wie von Motten.</hi> <hi rendition="#i"><hi rendition="#aq">Pſal. 39. v.</hi> 13.</hi> <hi rendition="#fr">Alle vn-<lb/>
+ſere Tage fahren ſchnell dahin/ als floͤgen wir davon/</hi> <hi rendition="#i"><hi rendition="#aq">Pſal.<lb/>
+90. v.</hi> 11.</hi> Das glaͤubeten viel Leute nicht/ wenn es nicht vn-<lb/>
+ſer HErr Gott durch Augenſcheinliche Exempla taͤglich er-<lb/>
+wieſe/ vnd ſehen lieſſe.</p><lb/>
+<p>Wie nu vnſer Leben iſt/ ſo ſind auch alle vnſere Werck/ auſ-<lb/>
+ſer Gottes Wort vnd Glauben. <hi rendition="#aq">Vanitas vanitatum, &amp; omnia<lb/>
+vanitas.</hi> Wie <hi rendition="#aq">Salomo</hi> in ſeinem Prediger Buͤchlein durchaus<lb/>
+beweiſet. Jehner <hi rendition="#aq">Philoſophus</hi> nimmet ein brennendes Wachs-<lb/>
+Liechtlein/ vnd ſpricht dabey: Wollet jhr wiſſen/ was vnſer<lb/>
+Thun vnd Leben ſey? So ſehet diß Liechtlein an: Wie ſolches<lb/>
+jmmer abnimmet/ biß das Wachs gar verzehret wird: Alſo iſt<lb/>
+es auch mit vnſerm Thun vud Leben/ es gehet jmmer zum ab-<lb/>
+nemen. Ja wie ein Wind das Liechtlein außbleſet/ ehe es zum<lb/>
+ende brennet: Alſo kan auch ein boͤſe Luͤfftlein durch Gottes<lb/>
+verhengnuͤß den Menſchen vnverſehens toͤdten/ vnd auff den<lb/>
+Ruͤckenlegen. <hi rendition="#aq">Sic tranſit gloria mundi.</hi> Vnd ein ander ſa-<lb/>
+get: Vnſer Leben ſey eine ſtaͤtte Reyſe nach dem Grabe/ vnd<lb/>
+<fw place="bottom" type="catch">Todes-</fw><lb/>
+<pb facs="#f0024" n="[24]"/>
+Todeshaͤußlein. Vnd wie das Liecht/ ſo es wird verleſchet/<lb/>
+einen abſchewlichen ſtanck vnd geruch von ſich gibet: Alſo ha-<lb/>
+be es auch eine gelegenheit vnd zuſtand mit dem todten Coͤrper<lb/>
+eines Menſchen/ Darumb eylet man mit jhm aus dem Hauſe<lb/>
+nach dem Gottes acker.</p><lb/>
+<p>Jm Buche der Weißheit am 5. cap. werden viel ſolcher<lb/>
+Gleichnuͤß nacheinander erzehlet: <hi rendition="#fr">Das alles zeitliche dahin<lb/>
+fahre wie ein Schatte/ vnd wie ein Geſchrey/ das fuͤruͤber<lb/>
+fehret? Wie ein Schiff auff dem Waſſer: Ein Vogel in<lb/>
+der Lufft: Ein Pfeyl vom Bogen abgeſchoſſen/ deſſen<lb/>
+Spuhre man nicht finden kan/ ꝛc.</hi> Jn betrachtung deſſen/<lb/>
+ſollen wir nu nicht zuviel auff vnſer Leben trawen/ noch allzu<lb/>
+ſicher ſein: Es hat einen kurtzen Fuß/ es kan ſich bald wenden/<lb/>
+vnd enden.</p><lb/>
+<p><hi rendition="#aq">III.</hi> Demnach lehret S. Jacob vors dritte/ Wie ſie es<lb/>
+machen/ vnd anfahen ſollen/ wenn anders jhr thun vnd vorha-<lb/>
+ben/ handel vnd wandel gluͤckſelig ſein/ vnd wol gerathen ſolle.<lb/>
+Nemlich: Jn Gottes Nahmen: Vnd/ nach Gottes Willen.<lb/>
+Das ſie ſagen ſollen:<lb/>
+<hi rendition="#et"><hi rendition="#fr">So der HErr wil/ vnd wir leben/ wollen wir<lb/>
+diß oder das thun.</hi></hi><lb/>
+Dieſe wort/ wie kurtz ſie ſeyn/ begreiffen ſie doch ſehr viel in ſich:</p><lb/>
+<p>1. <hi rendition="#aq">Fidem<hi rendition="#i">:</hi> ſeu firmam in Deum fiduciam:</hi> Einen recht-<lb/>
+ſchaffenen Glauben/ vnd Kindliches ſtarckes Vertrawen zu<lb/>
+Gott/ Er werde durch ſeine Goͤttliche Guͤte vnd Allmacht ei-<lb/>
+nes jeden Ehrlichen Beruff ſegenen/ vnd Gluͤck zu ſeinem thun<lb/>
+vnd vorhaben geben. Wie der 37. Pſalm ermahnet: <hi rendition="#fr">Befihl<lb/>
+dem HErren deine Wege/ vnd hoffe auff jhn/ Er wirds<lb/>
+wol machen. Vnd</hi> <hi rendition="#i"><hi rendition="#aq">Proverb.</hi> 16:</hi> <hi rendition="#fr">Befihl dem HErren deine<lb/>
+Werck/ ſo werden deine Anſchlaͤge fortgehen. Vnd</hi> Syrach<lb/>
+am 11. ſaget: <hi rendition="#fr">Laß dich nicht jrren/ wie die Gottloſen nach<lb/>
+Gutt trachten/ Vertrawe du Gott/ vnd bleibe in deinem</hi><lb/>
+<fw type="catch" place="bottom"><hi rendition="#fr">Beruff/</hi></fw><lb/>
+<pb facs="#f0025" n="[25]"/>
+<hi rendition="#fr">Beruff/ Denn es iſt dem HErren gar leicht einen armen<lb/>
+reich zu machen. Gott ſegenet den Frommen jhre Guͤtter/<lb/>
+vnd wenn die Zeit koͤmmet/ ſo gedeyen ſie balde.</hi> Daher ſa-<lb/>
+get man recht/ <hi rendition="#fr">Wer Gott vertrawt/ hat wol gebawt/ im<lb/>
+Himmel vnd auff Erden.</hi></p><lb/>
+<p>2. <hi rendition="#aq">Veram divini Numinis implorationem:</hi> Ein ernſte<lb/>
+wahre Anruffung Gottes. Denn/ wie droben geſaget/ Gott<lb/>
+wil vmb ſeine Gaben gebeten ſein. Vnd Syrach auch dazu<lb/>
+vermahnet <hi rendition="#i"><hi rendition="#aq">cap. 37. v.</hi> 19:</hi> <hi rendition="#fr">Jn allen dingen ruffe den Aller-<lb/>
+hoͤchſten an/ das er dein Thun gelingen/ vnd nicht fehlen<lb/>
+laſſe.</hi> <hi rendition="#aq">Petite, quærite, pulſate,</hi> ſagt vnſer HErre Jeſus Chri-<lb/>
+ſtus/ <hi rendition="#i"><hi rendition="#aq">Matth.</hi> 7:</hi> <hi rendition="#fr">Bittet/ ſo werdet jhr nehmen: Suchet/ ſo<lb/>
+werdet jhr finden: Klopffet an/ ſo wird euch auffgethan.</hi><lb/>
+<hi rendition="#aq">Cum prece principium, cum prece finis erit,</hi> ſagten die Gott-<lb/>
+ſeligen Alten zu jhren Kinderlein: Mit dem lieben Gebete ſol<lb/>
+man ein ding anfahen/ mitteln vñ enden/ ſo wird es wol gerah-<lb/>
+ten. Darumb iſts gut/ fein vnd loͤblich/ wenn Chriſtliche<lb/>
+Kauff- vnd Reyſeleute auch jhre Betebuͤchlein bey ſich tragen/<lb/>
+vnd ſich derſelben auff jhren Reyſen fruͤe vnd ſpeet gebrauchen/<lb/>
+als jhr beſtes Kleynott vnd trewen Gefehrten/ oder Wegkuͤr-<lb/>
+tzer.</p><lb/>
+<p>3. <hi rendition="#aq">Piam omnium actionum noſtrarum moderationem<hi rendition="#i">:</hi></hi><lb/>
+Das wir vns ſelber maͤſſigen/ vnd guter Chriſtlicher beſcheiden-<lb/>
+heit gebrauchen/ in alle vnſerm Thun/ Handel vnd Wandel.<lb/>
+Vns nicht zu viel vermeſſen/ noch was vnterſtehen wieder Got-<lb/>
+tes willen fuͤr zunehmen/ das wir nicht koͤndten verantworten/<lb/>
+oder das wir nicht verſtehen/ das es vns ſelber an Leib vñ See-<lb/>
+leſchaͤdlich ſein moͤchte. Davon gibet der weiſe Mann Syrach<lb/>
+eine feine Lehre in ſeinem Geiſtreichen Buͤchlein am 11. Cap.<lb/>
+<hi rendition="#fr">Mancher leſts jhm ſawer werden/ vnd eylet zum Reich-<lb/>
+thumb/ vnd hindert ſich nur ſelber damit. Dagegen thut<lb/>
+mancher gemach/ der wol huͤlffe beduͤrfft/ iſt dazu ſchwach</hi><lb/>
+<fw place="bottom" type="sig">D</fw><fw place="bottom" type="catch"><hi rendition="#fr">vnd</hi></fw><lb/>
+<pb facs="#f0026" n="[26]"/>
+<hi rendition="#fr">vnd arm/ den ſihet Gott an mit Gnaden/ vnd hilfft jhm<lb/>
+aus dem Elendt/ vnd bringet jhn zu Ehren/ das ſich ſein<lb/>
+viel verwundern.</hi></p><lb/>
+<p>4. <hi rendition="#aq">Verum Dei timorem</hi><hi rendition="#i">:</hi> Die wahre Furcht Gottes:<lb/>
+<hi rendition="#fr">Die lehret kluͤglich handeln in allen Sachen/ vnd wehret<lb/>
+der Suͤnden/</hi> <hi rendition="#i"><hi rendition="#aq">Syr.</hi> 1. 27.</hi> Wenn man jhm Gott fuͤr die Augen<lb/>
+bildet als einen ſolchen HErren/ der ein Hertzenkuͤndiger iſt/<lb/>
+der alles ſihet/ hoͤret vnd mercket/ vnd verſtehet vnſere Gedan-<lb/>
+cken auch von ferne/ der mit vnd bey vns iſt/ wo wir vns auch<lb/>
+hin wenden oder kehren/ <hi rendition="#i"><hi rendition="#aq">Pſal. 139. v.</hi> 3.</hi> Welches der fromme<lb/>
+Tobias ſeinem Sohne/ als er jhn in frembde Lande verſchicken<lb/>
+wolte/ wol einbunde/ da er zu jhm ſagete/ <hi rendition="#aq">Tob</hi> 4: <hi rendition="#fr">Dein Leben-<lb/>
+lang habe Gott fuͤr Augen vnd im Hertzen/ vnd huͤte dich<lb/>
+das du in keine Suͤnde willigeſt/ noch thuſt wider Gottes<lb/>
+Gebot. Denn/ Gott fuͤrchten/ iſt die Weißheit die reich<lb/>
+machet/ vnd bringet alles Gutte mit ſich.</hi> <hi rendition="#i"><hi rendition="#aq">Syr. 1. v.</hi> 20.</hi></p><lb/>
+<p>5. <hi rendition="#aq">Iudicij futuri terrorem</hi><hi rendition="#i">:</hi> Das man ſich ſchewet fuͤr dem<lb/>
+zukuͤnfftigen Gerichte/ dafuͤr wir alle werden erſcheinen muͤſ-<lb/>
+ſen. <hi rendition="#i">2. <hi rendition="#aq">Corinth. 5. v.</hi> 10.</hi> <hi rendition="#fr">Weil jhr nu den zum Vater an-<lb/>
+ruffet/ der ohne anſehen der Perſon richtet/ nach eines jeg-<lb/>
+lichen Mercke/ ſo fuͤhret ewren Wandel/ ſo lange jhr hie<lb/>
+wallet/ mit furchten/</hi> ſaget S. Petrus <hi rendition="#i">1. <hi rendition="#aq">Pet. 1. v.</hi> 17.</hi> Denn<lb/>
+wir haben hie kein Ewiges Leben: Drumb muͤſſen wirs allewe-<lb/>
+ge zu Gott ſtellen/ vnd ſagen: So wir leben: Wo nicht/ ſo muß<lb/>
+vnſer vornehmen bleiben/ vnd muͤſſen wir fort. <hi rendition="#fr">Denn es iſt<lb/>
+dem Menſchen geſetzt ein mal zuſterben/ darnach aber das<lb/>
+Gerichte/</hi> <hi rendition="#i"><hi rendition="#aq">Ebr. 9. v.</hi> 27.</hi> Da heiſt es nu: <hi rendition="#aq">In omnibus operibus<lb/>
+tuis memorare noviſſima tua, &amp; in æternum non peccabis</hi><hi rendition="#i">:</hi><lb/>
+<hi rendition="#fr">Menſch was du thuſt/ ſo bedencke das Ende/ ſo wirſt du<lb/>
+nimmermehr Vbels thun.</hi> Wolte Gott/ alle Menſchen be-<lb/>
+dechten das/ ſo wuͤrde es beſſer in der Welt ſtehen/ auch wol<lb/>
+vmb manches Seele. (<hi rendition="#aq"><hi rendition="#i">Syr. 7. v. ult.</hi></hi>)</p><lb/>
+<p>Darumb hoͤret nu zum Dritten/ vnd letzten Stuͤck.</p></div><lb/>
+<pb facs="#f0027" n="[27]"/>
+<div n="3"><head><hi rendition="#aq">De III.</hi></head><lb/>
+<p><hi rendition="#aq"><hi rendition="#in">Q</hi>Uo fine:</hi> <hi rendition="#fr">Zu welchem Ende</hi> <hi rendition="#aq">S. Jacobus</hi> <hi rendition="#fr">ſolches</hi><lb/>
+geſchrieben/ vnd wie wir es troͤſtlich vnd nuͤtzlich gebrau-<lb/>
+chen ſollen. Niemand dencke/ O weil es den Kauff leu-<lb/>
+ten geſaget iſt/ ſo gehet michs nicht an/ ſo habe ich mich vmb die<lb/>
+Predigt nichts zubekuͤmmern/ noch anzunehmen: Ach nein/<lb/>
+lieben Zuhoͤrer/ <hi rendition="#aq">S. Iacobus</hi> thut wie ein guter Schuelmeiſter/<lb/>
+wenn der ſeine <hi rendition="#aq">diſcipulos</hi> wil auffmuntern/ ſo ſaget er jhnen et-<lb/>
+wa von einem Kauffman/ Reyſeman/ Ackermann/ (<hi rendition="#i"><hi rendition="#aq">Iac. 5. v.</hi> 7.</hi>)<lb/>
+oder Bothen/ wie dieſelben Tag vnd Nacht lauffen/ reyſen/ ar-<lb/>
+beiten/ vnd laſſen es jhnen ſawer werden/ wenn ſie zu etwas<lb/>
+kommen wollen/ ꝛc. Er meinet aber nicht den Kauffmann/<lb/>
+Ackermann/ <hi rendition="#aq">tabellarium</hi> oder Bothen: Sondern ſeine Schuͤl-<lb/>
+ler/ die wil er damit anreitzen/ das ſie auch ſo fleiſſig/ munter/<lb/>
+vnd wacker jhr <hi rendition="#aq">cutriculum ſtudiorum continuiren,</hi> vnd <hi rendition="#aq">ad me-<lb/>
+tam</hi> ſo vnverdroſſen <hi rendition="#aq">properiren/</hi> eylen/ vnd fortſchreiten ſollen/<lb/>
+wie ſie ſehen vnd hoͤren das dieſe thun/ oder gethan haben.<lb/>
+Eben wie auch vnſer Himeliſcher <hi rendition="#aq">Doctor</hi> vnd Lehrer der HEr-<lb/>
+re Jeſus Chriſtus den brauch hat in ſeinen Predigten/ das er et-<lb/>
+wa ſaget von einem Kauffmann/ der gute Perlen ſuchet/ <hi rendition="#i"><hi rendition="#aq">Matth.</hi><lb/>
+13.</hi> Oder von einem Edlen/ der ferne vber Landt zog/ vnd<lb/>
+thet ſein Geldt den Knechten auß/ damit zu handeln/ <hi rendition="#i"><hi rendition="#aq">Matth. 25.<lb/>
+Lucæ</hi> 19.</hi> <hi rendition="#aq">Item</hi><hi rendition="#i">:</hi> Von denen/ die auff einer Muͤhle mahlen:<lb/>
+Vnd von Dieben/ die des Nachtes einbrechen/ ꝛc. Vnd mei-<lb/>
+net doch nicht den Kauffmann/ Haußvater/ Knecht/ oder an-<lb/>
+dere: Sondern ſeine Juͤnger/ ja vns alle mit einander/ das wir<lb/>
+durch anderer Exempla klug werden: Jn maſſen er ſich ſelber<lb/>
+erkleret <hi rendition="#aq"><hi rendition="#i">Marci 13. v. ult:</hi></hi> <hi rendition="#fr">Was ich Euch ſage/ das ſage ich<lb/>
+allen: Wachet.</hi></p><lb/>
+<p>Alſo ſollen wir es hie auch auffnehmen/ was <hi rendition="#aq">S. Iacobus</hi> den<lb/>
+Kauff leuten geſaget/ das gehet vns alle auch an.</p><lb/>
+<p>Denn/ 1. Er lehret vns hiemit/ das wir alle ſterblich ſein/<lb/>
+vnd vns der Todt auff der Ferßſen nachſchleichet/ wo wir hin<lb/>
+<fw type="sig" place="bottom">D ij</fw><fw type="catch" place="bottom">reyſen/</fw><lb/>
+<pb facs="#f0028" n="[28]"/>
+reyſen/ gehen oder ſtehen: Wie auch die Kirche ſinget: <hi rendition="#aq">Media<lb/>
+vita in morte ſumus:</hi> Mitten wir im Leben ſind mit dem Tode<lb/>
+vmbfangen. <hi rendition="#aq">Mors ubiq; obviam, ſenibus in januis, juvenibus<lb/>
+in inſidijs:</hi> Wir gehen oder ſtehen/ wo wir wollen/ ſo koͤmpt vns<lb/>
+der Todt allenthalben entgegen: Den Alten begegnet er in der<lb/>
+Thuͤr: Den Jungen ſchleichet er heymlich nach/ biß er ſie vn-<lb/>
+verſehens erwiſche/ vnd zeucht ſie herfuͤr. Daher <hi rendition="#aq">S. Auguſti-<lb/>
+nus</hi> ſeine vermahnung nimet: <hi rendition="#aq">Si igitur mors te ubiq; expectet,<lb/>
+&amp; tu eam ubiq; expectes:</hi> Weil denn der Todt deiner vberall<lb/>
+gewartet/ ſo ſolt du auch wiederumb ſeiner allenthalben ge-<lb/>
+wertig ſein. Vnd ſollen bedencken/ wie bald es vmb einen Men-<lb/>
+ſchen geſchehen.</p><lb/>
+<p>Daher die ſchoͤnen Reymlein gehoͤren/ die wir ſtets ſolten<lb/>
+fuͤr vnſere Augen mahlen:</p><lb/>
+<lg type="poem"><l><hi rendition="#fr">Bedenck die kuͤrtz deß Lebens dein/</hi></l><lb/>
+<l><hi rendition="#fr">Vielleicht moͤcht heut die Stund geſein/</hi></l><lb/>
+<l><hi rendition="#fr">Das du fuͤr Gottes Gerichtſtuel muſt/</hi></l><lb/>
+<l><hi rendition="#fr">Was hilfft dich denn dein kleine luſt?</hi></l><lb/>
+<l><hi rendition="#fr">Wenn du dafuͤr ſolſt Ewig queelen?</hi></l><lb/>
+<l><hi rendition="#fr">Schon deines Leibs: Schon deiner Seelen:</hi></l><lb/>
+<l><hi rendition="#fr">Schon ander Leutt: Schon Gottes Ehr/</hi></l><lb/>
+<l><hi rendition="#fr">Jag nicht von dir deß Himmels Heer:</hi></l><lb/>
+<l><hi rendition="#fr">Wo Suͤnde regiert/ der Engel weicht/</hi></l><lb/>
+<l><hi rendition="#fr">Gar bald herein der Teuffel ſchleicht.</hi></l><lb/>
+<l><hi rendition="#fr">Drumb wach/ vnd bett: Befihl dich Gott/</hi></l><lb/>
+<l><hi rendition="#fr">Der kan dir helffn auß Noth vnd Todt.</hi></l></lg><lb/>
+<p>Das haben Moſes vnd David betrachtet/ darumb haben<lb/>
+ſie fleiſſig gebetet <hi rendition="#i"><hi rendition="#aq">Pſal.</hi> 90:</hi> <hi rendition="#fr">HErr lehre vns bedencken/ das<lb/>
+wir ſterben muͤſſen/ auff das wir klug werden. Vñ</hi> <hi rendition="#i"><hi rendition="#aq">Pſal.</hi> 39</hi>:<lb/>
+<hi rendition="#fr">HErr lehre doch mich/ das ein Ende mit mir haben muß/</hi><lb/>
+<fw place="bottom" type="catch"><hi rendition="#fr">vnd</hi></fw><lb/>
+<pb facs="#f0029" n="[29]"/>
+<hi rendition="#fr">vnd mein Leben ein Ziel hat/ vnd ich davon muß. Sihe<lb/>
+meine Tage ſind einer Handt breit bey dir/ vnd mein Le-<lb/>
+ben iſt wie nichts fuͤr dir: Wie gar nichts ſind alle Men-<lb/>
+ſchen/ die doch ſo ſicher dahin leben/ Sela. Sie gehen da-<lb/>
+her wie ein Scheemen/ vnd machen jhnen viel vergebliche<lb/>
+Vnruhe. Sie ſamlen/ vnd wiſſen nicht wer es kriegen<lb/>
+wird. Nu HErr/ weß ſol ich mich troͤſten? Jch hoffe<lb/>
+auff dich: Das du ſo gnaͤdig biſt.</hi> (<hi rendition="#i"><hi rendition="#aq">Pſal.</hi> 13.</hi>) <hi rendition="#fr">Mein Hertz<lb/>
+frewet ſich/ das du ſo gerne hilffeſt. Jch wil dem HEr-<lb/>
+ren ſingen/ das er ſo wol an mir thut. Denn ich biu bey-<lb/>
+de dein Pilgram/ vnd dein Buͤrger/ wie alle meine Vaͤter.</hi><lb/>
+<hi rendition="#i"><hi rendition="#aq">Pſal.</hi> 39. 14.</hi></p><lb/>
+<p>Weil wir auch ſehen/ das wir nichts auß dieſem Leben mit<lb/>
+nehmen: Gutt vnd Geldt/ bleibt in der Welt/ dahinden muͤſ-<lb/>
+ſen wirs laſſen: Ein Tuch ins Grab/ damit ſchabab/ ſo fahren<lb/>
+wir vnſer Straſſen. Wie der gewaltige Koͤnig <hi rendition="#aq">Saladinus</hi> ein<lb/>
+Leylach an einem Renneſpieß in gantzem Laͤger ließ vmbher<lb/>
+tragen/ vnd dabey außruffen: Von allen ſeinen Guͤtern/ vnd<lb/>
+groſſen Reichthumb/ welche der Groß maͤchtige Koͤnig <hi rendition="#aq">Sala-<lb/>
+dinus</hi> mit groſſer muͤhe vnd vnkoſten zuſammen gebracht/ nim-<lb/>
+met er endlich nicht mehr mit/ als dieſen Sterbekittel/ damit<lb/>
+man jhn ins Grab leget.</p><lb/>
+<p>So ſollen wir demnach nicht ſo hart auffs Zeitliche erpi-<lb/>
+chet ſein/ <hi rendition="#fr">ſondern fuͤr allen dingen trachten nach dem Rei-<lb/>
+che Gottes/ vnd ſeiner Gerechtigkeit/</hi> <hi rendition="#i"><hi rendition="#aq">Matth.</hi> 6.</hi> <hi rendition="#fr">Ja/ nach<lb/>
+dem das droben iſt/ nicht nach dem/ das auff Erden iſt/</hi><lb/>
+<hi rendition="#i"><hi rendition="#aq">Coloſ.</hi> 3.</hi> <hi rendition="#fr">Denn/ wir haben nichts in die Welt bracht/ da-<lb/>
+rumb offenbar iſt/ wir werden auch nichts hienauß brin-<lb/>
+gen. Das iſt aber ein groſſer gewinn/ Wer Gottſelig iſt/<lb/>
+vnd leſſet jhm genuͤgen in Chriſto Jeſu vnſerm HErren/</hi><lb/>
+<hi rendition="#aq"><hi rendition="#i">1. Tim. 6. v. 7.</hi> Chriſtus mihi vita, Mors lucrum,</hi> ſaget S.<lb/>
+Paulus <hi rendition="#i"><hi rendition="#aq">ad Phil.</hi> 1. 21.</hi> Wer dieſen gewinſt erlanget/ vnd da-<lb/>
+von bringet/ der iſt wol hie geweſen/ vnd hat einen ſeligen Han-<lb/>
+del gefuͤhret/ denn er iſt reich in Gott. Wer aber da nichts<lb/>
+<fw place="bottom" type="sig">D iij</fw><fw place="bottom" type="catch">gewin-</fw><lb/>
+<pb facs="#f0030" n="[30]"/>
+gewinnet/ ſondern verlewret/ vnd nimmet Schiffbruch am<lb/>
+Glauben/ <hi rendition="#i">1. <hi rendition="#aq">Tim. 1. v.</hi> 19.</hi> Dem wird ſein Zeitlicher gewinſt<lb/>
+nichts helffen: <hi rendition="#fr">Jhr Silber vnd Goldt wird ſie nicht erret-<lb/>
+ten am Tage deß Zorns Gottes/</hi> <hi rendition="#i"><hi rendition="#aq">Zephaniæ 1. v.</hi> 18.</hi> Welches<lb/>
+auch <hi rendition="#aq">S. Iacobus</hi> in dieſer ſeiner Epiſtel klar zuverſtehen gibet/<lb/>
+<hi rendition="#i"><hi rendition="#aq">cap. 5. v.</hi> 2.</hi> Vnd vnſer Erloͤſer der HErre Jeſus Chriſtus <hi rendition="#i"><hi rendition="#aq">Matth.<lb/>
+16. v.</hi> 26.</hi> ſaget: <hi rendition="#fr">Was huͤlffe es den Menſchen/ ſo er die gan-<lb/>
+tze Welt gewoͤnne/ vñ nehme doch ſchaden an ſeiner See-<lb/>
+le? Denn was kan der Menſch geben/ damit er feine Seele<lb/>
+wider loͤſe?</hi> Dannen hero ſinget die Kirche Gottes gar recht<lb/>
+vnd wol: Mach mich an meiner Seelen reich/ ſo hab ich gnug<lb/>
+hie vnd Ewiglich.</p><lb/>
+<p>2. Darnach troͤſtet vns auch der H. Apoſtel <hi rendition="#aq">Iacobus</hi> al-<lb/>
+leſampt/ Jn dem er deutlich anzeiget/ das beydes vnſer Leben<lb/>
+vnd Sterben in Gottes Allmaͤchtigen Haͤnden ſtehe/ vnd ſei-<lb/>
+nen Glaͤubigen nichts ohne ſeinen Willen wiederfahren kan.<lb/>
+Denn/ So der HErr wil/ ſo leben wir/ ſo verrichten wir diß vnd<lb/>
+das. Vnd wiederumb/ So der HErr wil/ ſo ſterben wir/ vnd<lb/>
+muͤſſen alles ſtehen vnd liegen laſſen. Wie auch Koͤnig David<lb/>
+ſaget/ <hi rendition="#aq"><hi rendition="#i">Pſal. 31. v. 16</hi>: Sortes meæ in manu Domini:</hi> <hi rendition="#fr">Meine<lb/>
+Zeit ſtehet in deinen Haͤnden.</hi> <hi rendition="#i"><hi rendition="#aq">Pſal. 90. v.</hi> 2:</hi> <hi rendition="#fr">Der du die<lb/>
+Menſchen leſſeſt ſterben/ vnd ſprichſt/ kompt wider Men-<lb/>
+ſchen Kinder.</hi> <hi rendition="#i"><hi rendition="#aq">Hiob 14. v.</hi> 5:</hi> <hi rendition="#fr">Der Menſch hat ſeine beſtim-<lb/>
+mete Zeit/ die Zahl ſeiner Monden ſtehet bey dir/ Du haſt<lb/>
+jhm ein Ziel geſetzt/ das wird er nicht vbergehen.</hi> Daher<lb/>
+S. Paulus ſchreibet <hi rendition="#i"><hi rendition="#aq">Rom. 14. v.</hi> 8:</hi> <hi rendition="#fr">Vnſer keiner lebet jhm ſel-<lb/>
+ber/ vnd vnſer keiner ſtirbet jhm ſelber/ Leben wir/ ſo leben<lb/>
+wir dem HErren: Sterben wir/ ſo ſterben wir dem HEr-<lb/>
+ren. Darumb wir leben oder ſterben/ So ſind wir deß<lb/>
+HErren.</hi></p><lb/>
+<p>Dieſes alles dienet wieder die ſchwehrmuͤtigen faͤhrlichen<lb/>
+Gedancken/ da mancher meinet: Ey were er da/ oder dort hin<lb/>
+nicht kommen: Oder/ hette er das/ oder jehnes gebraucht/ ꝛc.<lb/>
+<fw type="catch" place="bottom">viel-</fw><lb/>
+<pb facs="#f0031" n="[31]"/>
+vielleicht hette ſichs anders mit jhme geſchicket. Aber wol<lb/>
+dem/ der <hi rendition="#aq">in voluntate divinâ, ſalvâ conſcientiâ, acquieſciret,</hi><lb/>
+vnd gentzlich dafuͤr erkennet/ das alles aus Gottes Vaͤterli-<lb/>
+cher ſchickung vnd willen mit Jhme vnd den Seinigen geſche-<lb/>
+he/ der hat einen kraͤfftigen Troſt/ kan ſeine Seele mit gedult<lb/>
+faſſen (<hi rendition="#i"><hi rendition="#aq">Luc. 21. v.</hi> 19</hi>) vnd ſich in allem Creutz vnd Wiederwer-<lb/>
+tigkeit (mit dem geduͤltigen Hiob) wol zu frieden geben. <hi rendition="#i"><hi rendition="#aq">Hiob<lb/>
+1. Iacobi 5. v.</hi> 10. 11.</hi></p><lb/>
+<p>Denn/ Sehet doch nur: Wie mancher fellet in groſſe faͤhr-<lb/>
+liche Kranckheit/ Oder wird etwa toͤdlich verwundet/ das jhm<lb/>
+die Ertzte/ vnd alle Menſchen verlohren geben: Der koͤmmet<lb/>
+doch wieder auff/ vnd wird geſundt. Ein ander hat etwa ein<lb/>
+klein Blaͤtterlein: Jſt ein wenig kranck/ klaget ſich nicht ſon-<lb/>
+derlich: Stirbet dahin/ da er/ vnd andere es nicht vermeinet.<lb/>
+Wie koͤmpt das? Es iſt Gottes ſchickung/ Gottes wille alſo.<lb/>
+<hi rendition="#aq">Item:</hi> Manche wolhabende Leute wolten gerne lenger leben/<lb/>
+ſuchen raht/ brauchen allerley: Hilffet doch nichts. Dagegen:<lb/>
+Viel arme betruͤbte Leute wuͤnſchen den Todt/ bitten darumb/<lb/>
+wolten gerne ſterben: Koͤnnen aber doch nicht: Was machts?<lb/>
+Es iſt Gottes wille nicht/ ſie muͤſſen der zeit erwartẽ. Jſt dero-<lb/>
+wegen nichs beſſer/ denn nur ſich Gottes willen ergeben/ vnd<lb/>
+mit <hi rendition="#aq">S. Iacobo</hi> ſagen: <hi rendition="#fr">Wenn/ vnd wie der HErr wil.</hi> Was<lb/>
+mein Gott wil/ das geſchehe allzeit/ Sein wil der allerbeſte.</p><lb/>
+<p>Darein kondte ſich Koͤnig David fein ſchicken/ <hi rendition="#i">2. <hi rendition="#aq">Sam.</hi> 15.</hi><lb/>
+als er in ſeinem <hi rendition="#aq">Exilio</hi> war/ vñ die Lade des HErren von Jhme<lb/>
+wieder zu ruͤck in die Stadt getragen wurde/ ſagte er gantz we-<lb/>
+hemuͤtig vnd demuͤtig/ <hi rendition="#i"><hi rendition="#aq">v.</hi> 25:</hi> <hi rendition="#fr">Werde ich Gnade finden fuͤr<lb/>
+dem HErren/ ſo wird Er mich wiederholen/ vñ wird mich<lb/>
+ſie ſehen laſſen/ vnd ſein Hauß. Spricht er aber alſo:<lb/>
+Jch habe nicht luſt zu dir/ Sihe/ hie bin ich/ Er mache es<lb/>
+mit mir/ wie es jhm wolgefellet.</hi> Der Auſſetzige <hi rendition="#i"><hi rendition="#aq">Matth. 8. v.</hi> 2.</hi><lb/>
+ſtellet es auch dahin/ ſagende: <hi rendition="#fr">HErr/ ſo du wilt/ kanſtu mich<lb/>
+wol reinigen.</hi> Gab damit zuverſtehen/ ſo es ſein Goͤttlicher<lb/>
+wille nicht were/ oder auch Jhme etwa nicht gut vnd ſelig ſein<lb/>
+<fw place="bottom" type="catch">ſolte/</fw><lb/>
+<pb facs="#f0032" n="[32]"/>
+ſolte/ ſo wolte er ſich lieber mit ſeiner Kranckheit ſchleppen biß<lb/>
+in die Grube/ als wieder Gottes willen geſundt ſein.</p><lb/>
+<p>Ja/ was ſage ich von dieſen: Der Ewige Sohn Gottes<lb/>
+ſelber hat vns ein Exempel gelaſſen/ das wir ſollen nachfolgen<lb/>
+ſeinen Fußſtapffen (<hi rendition="#i">1. <hi rendition="#aq">Pet. 2. v.</hi> 21.</hi>) da er in ſeiner Todeßangſt<lb/>
+betet am Oelberge: <hi rendition="#fr">Mein Vater/ iſts moͤglich/ ſo gehe dieſer<lb/>
+Kelch von mir: Doch nicht wie ich wil/ ſondern wie du<lb/>
+wilt.</hi> Vnd zum andern mal ſprach er: <hi rendition="#fr">Vater/ iſts nicht moͤg-<lb/>
+lich/ das dieſer Kelch von mir gehe/ ich trincke jhn denn/ ſo<lb/>
+geſchehe dein Wille/</hi> <hi rendition="#i"><hi rendition="#aq">Matth. 26. v.</hi> 39. 42.</hi> Das heiſſet/ wie<lb/>
+er vns auch <hi rendition="#aq">in oratione Dominica</hi> gelehret: <hi rendition="#aq">Fiat voluntas tua<lb/>
+Domine:</hi> Dein Will geſchehe HErr Gott zu gleich auff Erden<lb/>
+wie im Himmelreich: Gib vns gedult in leidens zeit/ gehorſam<lb/>
+ſein in lieb vnd leid: Wehr vnd ſtewr allem Fleiſch vnd Blut/<lb/>
+das wieder deinen Willen thut. Laſſet vns mit <hi rendition="#aq">Hiob</hi> ſagen/<lb/>
+<hi rendition="#i"><hi rendition="#aq">cap.</hi> 1. 21:</hi> <hi rendition="#aq">Dominus dedit, Dominus abſtulit<hi rendition="#i">:</hi> Sicut Domino<lb/>
+placuit, ita factum eſt, ſit nomen Domini benedictum.</hi> Das<lb/>
+iſt: <hi rendition="#fr">Der HErre hats gegeben: Der HErre hats genom-<lb/>
+men: Wie es dem HErren gefallen/ alſo iſt es geſchehen/<lb/>
+Der Nahme des HErren ſey gelobet.</hi> Das iſt die rechte<lb/>
+Chriſtenkunſt/ wer die recht <hi rendition="#aq">practiciren/</hi> vnd mit der That be-<lb/>
+weiſen kan/ der iſt am beſten dran.</p><lb/>
+<p>3. Letzlich ſo werden wir von <hi rendition="#aq">S. Iacobo</hi> alleſampt gewar-<lb/>
+net fuͤr Sicherheit: Vnd dagegen trewlich ermahnet zu Gott-<lb/>
+ſeliger bereitſchafft auff vnſere letzte Hinfahrt. Denn/ wir ſind<lb/>
+hie Pilgram/ Frembdlinge vnd Gaͤſte/ die jmmer fort geden-<lb/>
+cken muͤſſen/ drumb ſollen wir nicht bawen feſte. Wir ſind nur<lb/>
+Reyſe- vnd Wanderßleute/ die hie keine bleibende ſtette haben/<lb/>
+ſondern die zukuͤnfftige ſuchen ſollen/ nemlich/ das Himeliſche<lb/>
+Vaterlandt. Wie auch die Heyligen Vaͤter/ derer die Epiſtel<lb/>
+an die Hebreer gedencket/ <hi rendition="#aq"><hi rendition="#i">cap. 11. v. 13. 14. &amp;c.</hi></hi> Vnd der groſſe<lb/>
+Prophet Elias: <hi rendition="#aq">Non ſum melior patribus meis/ <hi rendition="#i">1. Reg. 19. v. 5.</hi></hi><lb/>
+<hi rendition="#fr">Jch bin nicht beſſer denn meine Vaͤter.</hi></p><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq"><hi rendition="#i">Tran-</hi></hi></fw><lb/>
+<pb facs="#f0033" n="[33]"/>
+<cit><quote><hi rendition="#aq"><hi rendition="#i">Tranſivere patres; ſimul hinc tranſibimus omnes:<lb/>
+In cœlo patriam, qui benè tranſit, habet.</hi></hi><lb/>
+<lg type="poem"><l><hi rendition="#fr">All vnſer Vaͤter ſind auff/ vnd davon:</hi></l><lb/>
+<l><hi rendition="#fr">Wir muͤſſen auch von dieſem Plan:</hi></l><lb/>
+<l><hi rendition="#fr">Wer aber wol durchdringen thut/</hi></l><lb/>
+<l><hi rendition="#fr">Der hab ein friſchen freyen muth:</hi></l><lb/>
+<l><hi rendition="#fr">Jm Himmel find ers Vaterlandt/</hi></l><lb/>
+<l><hi rendition="#fr">Da iſt ein Frewdenreicher Standt/</hi></l><lb/>
+<l><hi rendition="#fr">Das rechte wahre Engellandt/</hi></l><lb/>
+<l><hi rendition="#fr">Dran Chriſtus ſein Blut hat gewandt/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Vns daſſelbige zuerwerben.</hi></hi></l></lg></quote><bibl/></cit><lb/>
+<p>Da wird erfuͤllet werden/ was Chriſtus von ſeinen Glaͤu-<lb/>
+bigen ſaget/ <hi rendition="#aq"><hi rendition="#i">Matth. 22. v. 30.</hi> Erunt</hi> ὡς ἄγγελοι: <hi rendition="#fr">Sie wer-<lb/>
+den ſein wie die Engel Gottes im Himel.</hi> Da ſind die viel<lb/>
+Wohnungen/ darauff er vns vertroͤſtet/ <hi rendition="#i"><hi rendition="#aq">Ioh. 14. v.</hi> 2.</hi> Da wir<lb/>
+Ewige <hi rendition="#aq">manſiones/</hi> vnd bleibende ſtette haben werden/ das wir<lb/>
+nicht mehr Pilgram/ vnd Frembdlinge/ ſondern Buͤrger vnd<lb/>
+Gottes Haußgenoſſen ſein werden/ <hi rendition="#i"><hi rendition="#aq">Eph.</hi> 2. 19.</hi> Da vns keine<lb/>
+Kranckheit/ Noth noch Todt mehr außtreiben ſolle: Sondern<lb/>
+werdẽ bey dem HErren ſein allezeit/ <hi rendition="#i">1. <hi rendition="#aq">Theſſ. 4. v</hi> 17.</hi> Das wir ſei-<lb/>
+ne Herrligkeit ſehen/ <hi rendition="#i"><hi rendition="#aq">Ioh. 17. v.</hi> 24.</hi> Vnd vns derſelbigen frew-<lb/>
+en in alle Ewigkeit/ <hi rendition="#i"><hi rendition="#aq">Ioh. 16. v.</hi> 22.</hi> Da wird es heiſſen: <hi rendition="#aq">&amp; gaV-<lb/>
+DebIt Cor VeſtrVM:</hi> Ewer Hertz ſol ſich frewen/ vnd Ewre<lb/>
+Frewde ſol niemandt von Euch nehmen.</p><lb/>
+<p>Wie nu ein Chriſtlicher Reyſemann allezeit ſein Gebethe<lb/>
+thut/ Gott wolle jhn allenthalben auff Wege vnd Stege behuͤ-<lb/>
+ten/ auch endlich geſund vnd friſch an den orth verhelffen/ da-<lb/>
+hin er begehret: Alſo laſſet vns auch alleſampt hertzlich vnd<lb/>
+<fw place="bottom" type="sig">E</fw><fw place="bottom" type="catch">ernſt-</fw><lb/>
+<pb facs="#f0034" n="[34]"/>
+ernſtlich ſeufftzen/ Der Barmhertzige Gott wolle vns im gan-<lb/>
+tzen Laufft vnſers Lebens gnaͤdiglich bewahren/ durch ſeinen<lb/>
+Heyligen Geiſt regieren/ leyten vnd fuͤhren auff rechtem We-<lb/>
+ge/ biß wir endlich heymreyſen ſollen ins Himmeliſche Vater-<lb/>
+Landt/ da wolle er vns ein ſeliges Ende beſcheren/ das wir<lb/>
+froͤlich Ahnlaͤnden an den ſicheren Port des Ewigen Lebens/<lb/>
+vnd wolle vns alßdenn zu ſich nehmen aus dieſem Jammerthal<lb/>
+<hi rendition="#c">in den Himel in Ewigen Frewden Saal. Wer das be-<lb/>
+gehret/ der ſpreche von Hertzen/<lb/>
+<hi rendition="#g">AMEN.</hi><lb/>
+Hilffs HErr Jeſu Chriſte/<lb/>
+<hi rendition="#g">AMEN.</hi><lb/>
+So viel were auff dißmal durch Gottes verleyhung<lb/>
+in kurtzer Einfalt geſaget/ von dieſem vorge-<lb/>
+nommenen dreyen Puͤnctlein.</hi></p></div><lb/>
+<div n="3"><head/>  <p><hi rendition="#c"><hi rendition="#fr">Wir dancken dem Barmhertzigen Gott fuͤr ſeine Gna-<lb/>
+de/ der wolle ſolches alles in den Hertzen Chriſtlicher<lb/>
+Zuhoͤrer verſiegelen/ das es viel Frucht ſchaffe/<lb/>
+zu ſeines Nahmens Ehre/ vnd jhrer<lb/>
+aller Seligkeit/ Amen.</hi><lb/>
+ϑόξα τῷ ϑεῷ.</hi></p></div></div><lb/>
+<pb facs="#f0035" n="[35]"/>
+<div type="fsPersonalia" n="2"><head><hi rendition="#aq">Encomion defuncti.</hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">N</hi>V iſt noch hinderſtellig/ das wir auch</hi><lb/>
+deß verſtorbenẽ fremb den Kauffherrens/<lb/>
+deſſen Leichnam wir jetzo auff der Pohr<lb/>
+vor vns haben/ noch zu guter letzte geden-<lb/>
+cken/ ſo viel vns von ſeinem zuſtande wiſſend/ vnd<lb/>
+ſich mit Jhme in ſeiner werenden Leibes ſchwach-<lb/>
+heit allhier bey vns verlauffen vnd zugetragen.</p><lb/>
+<p>Belangende demnach vorerwehneten weyland<lb/>
+Ehrenveſten/ Wolgeachten Herren <hi rendition="#aq"><hi rendition="#g">THOMAM<lb/>
+CHESWRIGHT</hi></hi> genandt/ So iſt derſelbe ſeiner<lb/>
+Ahnkunfft buͤrdig geweſen von <hi rendition="#fr">Londen/</hi> der Koͤ-<lb/>
+niglichen beruͤhmbten Haͤuptſtadt in <hi rendition="#fr">Engellandt/</hi><lb/>
+vber die 200. Meylen von hinnen gelegen: Da er<lb/>
+denn Vornehme/ Ehrliche Eltern gehabt/ (wie ſei-<lb/>
+ne Herren Landeßleute außſagen) welche jhn Ehr-<lb/>
+lich erzogen/ vnd/ nach der Schuelen/ zum Handel<lb/>
+gehalten/ Jhn in frembde Lande verſchicket/ viel<lb/>
+Geldt vnd Gutt vertrawet. Jn maſſen er denn in<lb/>
+die Zehen Jahr vngefehr/ nur hie in Schleſien/ mit<lb/>
+den vornehmeſten Staͤdten/ vnd derſelben Kauff-<lb/>
+leuten zuthuen/ vnd ſeine Handlung gehabt: Da-<lb/>
+rinnen Er ſich denn ſo auffrichtig/ vnd wol vorhal-<lb/>
+ten/ Das alle/ die jhn gekennet/ vñ mit jhme zuſchaf-<lb/>
+fen gehabet/ jhme gut Zeugnuͤß geben/ vnd wie ich<lb/>
+<fw type="sig" place="bottom">E ij</fw><fw type="catch" place="bottom">von</fw><lb/>
+<pb facs="#f0036" n="[36]"/>
+von etlichen ſelber gehoͤret/ Jhn wegen ſeiner froͤm-<lb/>
+migkeit/ vnd auffrichtigkeit geliebet/ vnd gelobet.<lb/>
+Wie er denn auch in wehrender ſeiner Kranckheit<lb/>
+von vielen Ehrlichen/ Vornehmen Leuten/ die ſei-<lb/>
+ner kundſchafft gehabt/ ſchrifftlich vnd muͤndlich/<lb/>
+in der Perſon/ erſuchet worden. Hat ſich auch vor<lb/>
+deſſen bißweilen hier auffgehalten/ vnd mit den Vn-<lb/>
+ſerigen in dieſer Stadt zuhandeln gehabt.</p><lb/>
+<p>Neulicher zeit aber/ an juͤngſt verſchienen Pfing-<lb/>
+ſten/ iſt Er etwas ſchwach vnd vnbaß anhero kom-<lb/>
+men/ da er ſich auch beyn jtzo Regierenden Herren<lb/>
+Buͤrgermeiſter Georg Bartzſchen/ im Gaſthofe ein-<lb/>
+geleget/ vñ anfenglichs ſeiner Leibes <hi rendition="#aq">cura</hi> gepfleget.<lb/>
+Weil er ſich aber faſt ſchwach vñ matt befundẽ/ alſo/<lb/>
+das er gar lagerhafftig worden/ vñ beſorget/ Gott<lb/>
+wuͤrde jhn eher aus dieſer Welt abfodern: Hat er<lb/>
+ſich zuvor aus Gottes Wort wollen troͤſten laſſen.<lb/>
+Demnach Er den 28. <hi rendition="#aq">Maij/</hi> war Sonnabends vor<lb/>
+<hi rendition="#aq">Trinitatis/</hi> nach gehaltener <hi rendition="#aq">Veſper/</hi> zu mir vnwuͤrdig<lb/>
+in Pfarrhoff geſchicket/ mit freundlicher bitte/ Jch<lb/>
+wolte vnbeſch wehrt zu jme kom̃en/ weil er ſchwach<lb/>
+vnd kranck/ jhn mit Spruͤchen Goͤttliches Worts<lb/>
+zutroͤſten. Ließ aber beynebenſt bitten: Man wol-<lb/>
+te jhn nicht etwa mit <hi rendition="#aq">Controverſiis/</hi> oder ſtreittigen<lb/>
+<hi rendition="#aq">Religions</hi>puncten <hi rendition="#aq">moleſtiren:</hi> Er were ein <hi rendition="#aq">privat-</hi><lb/>
+Perſon/ dazu ſehr matt vnd ſchwach. Begehrte<lb/>
+<fw place="bottom" type="catch">auch</fw><lb/>
+<pb facs="#f0037" n="[37]"/>
+auch nicht/ das man jhn <hi rendition="#aq">Communiciren</hi> ſolte/ denn<lb/>
+es were in ſeinem <hi rendition="#aq">patria</hi> nicht brauch/ vñ ſeiner <hi rendition="#aq">Con-<lb/>
+feſſion</hi> nicht gemeß/ das ſolches zu Hauſe geſchehe:<lb/>
+Sondern bey geſundem Leibe braucheten ſie das<lb/>
+Heylige Abendmahl oͤffentlich in der Kirchen/ da-<lb/>
+bey wolte ers auch bleiben laſſen. Begehrete dero-<lb/>
+wegen nur/ das ich Jhme aus Gottes Wort wolte<lb/>
+vorſprechen.</p><lb/>
+<p>Ob ich nu wol die Perſon (wiſſentlich) nicht<lb/>
+gekandt/ noch vmb jhr thun vnd weſen gewuſt:<lb/>
+Mir auch aus gemeldeter <hi rendition="#aq">præoccupation</hi> allerley<lb/>
+zu Gemuͤthe gezogen: Habe ich Jhme doch als ei-<lb/>
+nem frembden/ vnd dazu krancken/ der meiner be-<lb/>
+gehrete/ meinen Amptesdienſt (vnwirdig) nicht<lb/>
+verſagen wollen.</p><lb/>
+<p>Als ich demnach zu Jhme kommen/ Jhn ſehr<lb/>
+matt auff dem Betthe liegend funden/ vnd warumb<lb/>
+er nach mir geſchickt/ jhn befraget? Hat er zur Ant-<lb/>
+wort geben: Weil ich (vnwirdig) Prediger deß<lb/>
+Orttes ſey/ ſo begehre er von mir troſt aus Gottes<lb/>
+Wort/ denn er lege da in Gottes gewalt/ wuͤſte nicht<lb/>
+wie es der liebe Gott/ auch wol dieſe Nacht vber/<lb/>
+mit jhm ſchicken moͤchte. Darauff ich angefangen:<lb/>
+Troſt gehoͤret fuͤr betruͤbte leidtragende Hertzen/<lb/>
+vnd Bußfertige Suͤnder: Wenn Er nu auch ſeine<lb/>
+Suͤnden erkennete/ vnd jhme dieſelben hertzlich vñ<lb/>
+<fw place="bottom" type="sig">E iij</fw><fw place="bottom" type="catch">ernſt-</fw><lb/>
+<pb facs="#f0038" n="[38]"/>
+ernſtlich leidt weren/ ſo koͤnte ich Jhme den Troſt<lb/>
+aus Gottes Worte nicht verſagen. Vnd thaͤtte er<lb/>
+wol daran/ das er ſolchen ſuchete/ vnd begehrete/<lb/>
+Gott wolte ſein Hertz erleuchten/ das er bey jhm<lb/>
+hafften vnd ſafften moͤchte.</p><lb/>
+<p>Ach Ja/ ſaget er/ Jch bin ein armer groſſer Suͤn-<lb/>
+der/ troͤſte mich aber der Barmhertzigkeit Gottes/<lb/>
+Er werde mir armen Suͤnder vmb Chriſti willen<lb/>
+gnaͤdig ſein. Nu/ ſagte ich/ das iſt der beſte troſt:<lb/>
+Denn Jeſus Chriſtus der Sohn Gottes iſt in die-<lb/>
+ſe Welt kommen/ nicht vmb der Gerechten/ ſondern<lb/>
+vmb der Suͤnder willen/ dieſelbigen Selig zuma-<lb/>
+chen/ <hi rendition="#aq">Matth.</hi> 9. Drumb ſol kein armer Suͤnder in ſei-<lb/>
+nen Suͤnden verzagẽ/ er ſey auch ſo ein groſſer Suͤn-<lb/>
+der als er wolle. Betewrets doch Gott mit ſeinem<lb/>
+wahren Eyde/ <hi rendition="#aq">Ezech.</hi> 33: So wahr als ich lebe/ ich<lb/>
+wil nicht den Todt des Suͤnders/ ſondern das Er<lb/>
+ſich bekehre/ vnd lebe.</p><lb/>
+<p>Ach/ ſagte er: Das iſt ein groſſes Wort/ daran<lb/>
+halte ich mich auch: Gott wil nicht den Todt des<lb/>
+Suͤnders/ ꝛc.</p><lb/>
+<p>So iſt der Herr vnſers Glaubens (ſagte ich)<lb/>
+in dem Artickel der Rechtfertigung des armẽ Suͤn-<lb/>
+ders fuͤr Gott? Ja/ ſagete er/ Jch weiß keinen an-<lb/>
+dern Erloͤſer/ denn den HErren Jeſum Chriſt/ der<lb/>
+mich erloͤſet hat.</p><lb/>
+<fw type="catch" place="bottom">Da-</fw><lb/>
+<pb facs="#f0039" n="[39]"/>
+<p>Darauff nam ich mir gelegenheit <hi rendition="#aq">à circumſtantia<lb/>
+temporis/</hi> mit jhme ferner zureden: Fragte jhn/ Ob<lb/>
+er auch wuͤſte was wir in dieſen Landen/ vnd in vn-<lb/>
+ſern Kirchen jtzo fuͤr eine zeit hetten/ vnd hielten?<lb/>
+Vor acht tagen hetten wir gehabt das H. Pfingſt-<lb/>
+Feſt/ daran wir von der Perſon vñ Wolthaten des<lb/>
+Heyligen Geiſtes gehandelt: Morgen (geliebte es<lb/>
+Gott) wuͤrden wir begehen das Feſt der Heyligen<lb/>
+Dreyfaltigkeit/ da wir vnſere Zuhoͤrer erinnerten<lb/>
+der gnadenreichen Wolthaten Gottes/ ſo vns eine<lb/>
+jedere Perſon in ſonderheit erzeiget hette. Vnd<lb/>
+fuͤhrete ſonderlich ein/ den Spruch <hi rendition="#aq">Johan.</hi> 3: Alſo<lb/>
+hat Gott die Welt geliebet/ das er ſeinen Eingebor-<lb/>
+nen Sohn gab/ auff das alle/ die an jhn glaͤuben/<lb/>
+nicht ſollen verlohren werden/ ſondern das Ewige<lb/>
+Leben haben. <hi rendition="#aq">Item:</hi> Gleich wie Moſes in der Wuͤ-<lb/>
+ſten eine Schlange erhoͤhet hat/ ꝛc.</p><lb/>
+<p>Ja/ ſagte er/ Jch weiß es gar wol: Jch bin in an-<lb/>
+dern Staͤdten hier zu Lande in den Kirchen gewe-<lb/>
+ſen/ da ich die Predigten gehoͤret/ vnd gefellet mir<lb/>
+gar wol. Darauff ich ferner gefraget: Ob er a<choice><sic>n</sic><corr>u</corr></choice>ch<lb/>
+die Spruͤche vñ Reden Deutzſcher Sprache in vn-<lb/>
+ſern Predigten verſtuͤnde/ vnd ob ſie jhm auch alſo/<lb/>
+wie wir ſie hetten/ bekandt weren? Sagte er: Jn<lb/>
+Deutzſchen were es jhm nicht alſo bekandt: Er het-<lb/>
+te aber ſeine Buͤchlein/ Pſalter vnd New Teſtament<lb/>
+<fw place="bottom" type="catch">in En-</fw><lb/>
+<pb facs="#f0040" n="[40]"/>
+in Engellaͤndiſcher Sprache (die er mir auch in<lb/>
+<hi rendition="#aq">puncto</hi> zeigete) bey ſich/ darinne pflegte er zu leſen/<lb/>
+vnd nachzuſuchen. Sonſt verſtuͤnde er die Deutz-<lb/>
+ſche Sprache gar wol.</p><lb/>
+<p>Darauff gab ich jhme zur Antwort: Nu wenn<lb/>
+er fleiſſig zur Kirchen gegangen/ vnd Gottes Wort<lb/>
+andaͤchtig gehoͤret/ ſo zweiffelte ich nicht/ der Hey-<lb/>
+lige Geiſt wuͤrde dadurch in ſeinem Hertzen kraͤff-<lb/>
+tig ſein: Vnd ſolte gedencken an den Spruch im ne-<lb/>
+heſten Heyligen Pfingſt Euangelio <hi rendition="#aq">Johan.</hi> 14: Der<lb/>
+Troͤſter der Heylige Geiſt/ ſpricht Chriſtus/ welchẽ<lb/>
+mein Vater ſenden wird in meinen Nahmen/ der<lb/>
+wirds Euch alles lehren/ vnd Euch erinnern alles<lb/>
+deß/ das ich Euch geſaget habe. Das Wort Chriſti<lb/>
+muß zuvor gehoͤret werden/ darnach wil es der H.<lb/>
+Geiſt erinnern in vnſerm Hertzen/ vñ dardurch wir-<lb/>
+cken zur Seligkeit. Denn das Euangelium von<lb/>
+Chriſto iſt eine Krafft Gottes zur Seligkeit/ allen<lb/>
+die daran glaͤuben. <hi rendition="#aq">Rom.</hi> 1. Jch fuͤhrete jhm auch<lb/>
+zu Gemuͤthe das Geſprech Chriſti mit <hi rendition="#aq">Nicodemo:</hi><lb/>
+Da der HErr ſaget im Euangelio: Es ſey deñ/ das<lb/>
+Jemand võ Newen gebohren werde/ durchs Waſ-<lb/>
+ſer vnd Geiſt/ ſo kan er nicht in das Reich Gottes<lb/>
+kommen. Erinnerte jhn darbey ſeiner H. Tauffe/<lb/>
+dardurch er auch Newgebohren/ vnd dem Reiche<lb/>
+Chriſti einvorleibet/ deß ſolte er ſich troͤſten/ vnd in<lb/>
+<fw type="catch" place="bottom">ſol-</fw><lb/>
+<pb facs="#f0041" n="[41]"/>
+in ſolchem Tauffbunde beſtendig verharren biß an<lb/>
+das Ende im wahrẽ Glauben an Chriſtum/ ſo wuͤr-<lb/>
+de er ſelig werden. <hi rendition="#aq">Marci</hi> 16. Vnd weil Er zum oͤff-<lb/>
+tern ſich als einen armen Suͤnder nennete/ vnd be-<lb/>
+kennete/ ſich aber der Gnaden Gottes troͤſtete: Gab<lb/>
+ich jhm zu guter letzt den Spruch 1. <hi rendition="#aq">Tim.</hi> 1: Daß iſt<lb/>
+je gewißlich wahr/ vnd ein tewres wehrtes Wort/<lb/>
+das Jeſus Chriſtus kom̃en iſt in die Welt/ die Suͤn-<lb/>
+der ſelig zu machen/ vnter welchen ich der vorneme-<lb/>
+ſten einer bin: Aber mir iſt Barmhertzigkeit wie-<lb/>
+derfahren/ ꝛc. Mit angehengetem Troſt vnd <hi rendition="#aq">ap-<lb/>
+plication:</hi> Gott wuͤrde gewißlich ſeine Barmher-<lb/>
+tzigkeit auch an Jhme beweiſen/ weñ er ſich in wah-<lb/>
+rem Glauben mit Bußfertigen Hertzen daran wird<lb/>
+halten.</p><lb/>
+<p>Lieſſe es alſo auff dieſen Abendt dabey verblei-<lb/>
+ben/ vnd nam meinen abſchied/ weil ich folgendes<lb/>
+Tages in meinem Ampte mehr zuverrichten: Wol-<lb/>
+te Jhn auch/ weil er ſchwach/ mit mehrern reden<lb/>
+nicht <hi rendition="#aq">moleſtiren.</hi> Morgendes tages/ (geliebte es<lb/>
+Gott) nach vorrichtetem Ampte wolte ich Jhme<lb/>
+weiter zuſprechen/ dafern es Jhme gefellig? Vnter<lb/>
+deſſen Jhn in mein <hi rendition="#aq">privat/</hi> vnd der Chriſtlichen Kir-<lb/>
+chen gemeines Gebet mit einſchlieſſen. Welches er<lb/>
+ſelber begehrete. Jſt alſo von <hi rendition="#aq">Trinitatis</hi> an alle ta-<lb/>
+ge in der Kirchen oͤffentlich vor jhn gebeten wor-<lb/>
+<fw place="bottom" type="sig">F</fw><fw place="bottom" type="catch">den/</fw><lb/>
+<pb facs="#f0042" n="[42]"/>
+den/ weil er da gelegen/ gantzer Eylff Wochen lang.<lb/>
+(welches man im anfang nicht vermeinet/ das ſichs<lb/>
+ſo lange verziehen ſolte.)</p><lb/>
+<p>Folgendes Sontages <hi rendition="#aq">Trinitatis</hi> bin ich wieder<lb/>
+zu Jhme kommen/ Jhn noch ſchwach im Betthe lie-<lb/>
+gend gefunden/ da er ſein Pſalterbuͤchlein vor ſich<lb/>
+gehabt: Vñ als ich vermercket/ wie er in ſeiner An-<lb/>
+dacht <hi rendition="#aq">religioſus/</hi> habe ich Jhn der Bußpſalmen Da-<lb/>
+vids erinnert: Sonderlich deß 6. 51. vnd 134. die<lb/>
+ich Jhme auff vnſer Sprache fuͤrgeſaget/ Er aber<lb/>
+in ſeinem Buͤchlein ſie auffgeſuchet/ vnd drauff ge-<lb/>
+mercket. Habe jhn auch zum Gebet ermahnet/ aus<lb/>
+dem 50. Pſalm: Ruffe mich an in zeit der noth/ etc.<lb/>
+<hi rendition="#aq">Item ex Pſal.</hi> 91: Er begehret mein/ ſo wil ich jhm<lb/>
+außhelffen/ ꝛc. Vnd aus dem Spruch Chriſti <hi rendition="#aq">Joh.<lb/>
+16. Matth.</hi> 7. Auch zur Gedult/ aus Davids Troſt-<lb/>
+ſpruͤchlein/ <hi rendition="#aq">Pſal.</hi> 42. 43: Was betruͤbeſtu dich meine<lb/>
+Seele/ ꝛc. Welcher Spruch jhm ſo ahnmutig/ das<lb/>
+er mit fleiß darnach fragete/ wo er ſtuͤnde? Jhn auch<lb/>
+alßbaldt auffgeſuchet/ vnd gezeichnet. <hi rendition="#aq">Item</hi> den<lb/>
+Spruch <hi rendition="#aq">Jacobi</hi> 1: Selig iſt der Mann/ der die An-<lb/>
+fechtung erduldet/ ꝛc. Welchen er auch mit fleiß in<lb/>
+ſeinem <hi rendition="#aq">Enchiridio</hi> zeichnete. Aus welchen denn ſei-<lb/>
+ne Gottſeligkeit zuvermerckẽ. Bedanckte ſich dem-<lb/>
+nach hoͤchlich des Troſtes/ vnd beſuchens. (Wahr<lb/>
+ſonſten nicht von viel reden/ hoͤrete mir aber fleiſſig<lb/>
+<fw type="catch" place="bottom">zu/</fw><lb/>
+<pb facs="#f0043" n="[43]"/>
+zu/ was ich jhm fuͤrſprach/ oder fuͤrlaß.) So habe<lb/>
+ich auff dißmal meinen abtritt von jhm genommen.</p><lb/>
+<p>Den 9. <hi rendition="#aq">Junij/</hi> Donnerſtages nach <hi rendition="#aq">Medardi<gap reason="illegible" unit="chars" quantity="1"/> ſt.</hi><lb/>
+gegen Abend/ bin ich wieder zu jhme erfodert wor-<lb/>
+den/ der meinung/ das er gerne noch was mit mir re-<lb/>
+den wolte/ weil er noch reden koͤnte/ auch bey gutem<lb/>
+verſtandt vnd bedacht were/ denn er ſich beſorgte/<lb/>
+die Sprache moͤchte jhm entfallen/ weil er begonte<lb/>
+gar in ſich zureden. Fieng derhalben an/ vnd ſagte:<lb/>
+Er vermerckete bey ſich/ Gott wuͤrde es anders mit<lb/>
+jhm ſchicken/ begehrete derhalben ein Chriſtliches<lb/>
+Begraͤbnuͤß/ wenn Gott vber jhn gebieten wuͤrde.<lb/>
+Auch hette er ſeinen Landeßman/ der auff jhn war-<lb/>
+tete/ laſſen zu Pappier bringen/ was er der Kirchen/<lb/>
+Schulen vnd Hoſpital allhier <hi rendition="#aq">legiret</hi> hette. Das<lb/>
+wolte er mir ſagẽ/ damit ich ein wiſſen daran hette.<lb/>
+Wie wol es mit dem Herren Buͤrgermeiſter auch<lb/>
+ſchon alles beredet were.</p><lb/>
+<p>Darauff ich mich wegen ſeiner Chriſtlichen <hi rendition="#aq">af-<lb/>
+fection</hi> gegen vnſer Kirchen/ vnd Hoſpital bedan-<lb/>
+cket. Vnd jhn ferner ermahnet: Er ſolte nu auch<lb/>
+ſeine Seele bedencken/ vnd ſehen/ das die wol ver-<lb/>
+ſorget wuͤrde. Deñ der Leib hette zwar in der Er-<lb/>
+den ſeine ruhe/ aber der Geiſt muͤſte wider zu Gott/<lb/>
+der jhn gegeben hette. <hi rendition="#aq">Eccleſ.</hi> 12. Da fing er ſelbeſt<lb/>
+an den Spruch: <hi rendition="#aq">In domo patris mei mãſiones multæ.</hi><lb/>
+<fw place="bottom" type="sig">F ij</fw><fw place="bottom" type="catch">Jch</fw><lb/>
+<pb facs="#f0044" n="[44]"/>
+Jch wuͤrde es wol wiſſen/ wo das geſchrieben ſtuͤn-<lb/>
+de: Jn meines Vaters Hauſe ſind viel Wohnungẽ:<lb/>
+Da wuͤrde/ ob Gott wol/ ſeine Seele auch platz ha-<lb/>
+ben. Darauff erzehlete ich den Spruch gantz/ <hi rendition="#aq">ex<lb/>
+Joh.</hi> 14. Das wahr jhm ſehr ahnmutig/ er ſeufftzete<lb/>
+druͤber/ warff ſeine Augen auff/ vnd faltede ſeine<lb/>
+Haͤnde. Vnd als ich die wort Chriſti erzehlete/<lb/>
+<hi rendition="#aq">Matth.</hi> 11: Kompt her zu mir/ alle/ die jhr muͤheſelig<lb/>
+vnd beladen ſeyd/ Jch wil euch erquicken: Da ſollet<lb/>
+jhr ruhe finden fuͤr ewre Seele/ ꝛc. Sagte er: Das<lb/>
+iſt der beſte Artzt/ ich habe allerley Artzney gebrau-<lb/>
+chet/ aber es wil mich nichtes helffen. Jch wil es nu<lb/>
+gar bleiben laſſen/ vñ mich an den rechten Artzt hal-<lb/>
+ten/ der wird mir ob Gott wol helffen. Ja/ ſagte<lb/>
+ich/ der wirds thun/ Er kan/ vnd wils auch thun/<lb/>
+beydes an Leib vnd Seele. Er kan erretten/ alle/ die<lb/>
+zu jhm tretten: Seine Hand iſt nicht verkuͤrtzt/ das<lb/>
+Er nicht helffen koͤndte. Die Rechte Handt des<lb/>
+HErren kan alles endern. Er hat das rechte <hi rendition="#aq">Anti-<lb/>
+dotum</hi> vnd <hi rendition="#aq">Alexipharmacon</hi> wieder den Todt/ <hi rendition="#aq">Joh.</hi><lb/>
+8: Warlich/ warlich/ Jch ſage euch/ wer mein Wort<lb/>
+wird haltẽ/ der wird den Todt nicht ſehen ewiglich.</p><lb/>
+<p>Vermahnete jhn alſo mit mehrerm zu Chriſtli-<lb/>
+cher beſtendigkeit im Glauben/ Geduld vnd Hoff-<lb/>
+nung. Befahl jhn in Gottes ſchutz vnd ſegen/ ne-<lb/>
+benſt erbietung/ Jhme mit meinem Amptes dienſte<lb/>
+<fw type="catch" place="bottom">auff-</fw><lb/>
+<pb facs="#f0045" n="[45]"/>
+auffzuwarten/ wenn ers begehrete. Bin aber von<lb/>
+dem an weiter nicht erfordert worden. Auch weil<lb/>
+ſichs mit Jhme in die lenge verzog/ hoffete ich der<lb/>
+beſſerung.</p><lb/>
+<p>Vom Herren Buͤrgermeiſter/ als ſeinem Herrn<lb/>
+Wirth/ vñ andern/ die im Hauſe vmb jhn geweſen/<lb/>
+habe ich den bericht/ das er Jhme taͤglich aus der<lb/>
+Bibel/ vnd andern Chriſtlichen Troſtbuͤchlein ha-<lb/>
+be fuͤrleſen laſſen/ ſich auch gar geduͤltig/ vñ wol ver-<lb/>
+nuͤnfftig in ſeinem Creutze verhalten. Vnd wie wol<lb/>
+er ſtetes zu Betthe gelegen/ vnd nie auffſtehen koͤn-<lb/>
+nen/ iſt er doch ſo beſonnen vnd vorſichtig geweſen/<lb/>
+das er mit ſeinem Landeßman/ Herren <hi rendition="#aq">Nathanaël<lb/>
+Jackſon/</hi> ſein Teſtament/ vnd letzten Willen/ ſeiner<lb/>
+Verlaſſenſchafft halben/ wie es zu Hauſe damit ſol-<lb/>
+te gehalten werden/ wolbedaͤchtig verfertiget/ vnd<lb/>
+mit dreyen Siegeln bekraͤfftiget/ nach ſich hinter-<lb/>
+laſſen.</p><lb/>
+<p>Die gantze zeit vber ſeiner wehrenden Kranck-<lb/>
+heit/ hat man kein vnbeſcheiden wort von Jhm ge-<lb/>
+hoͤret. Jn ſeiner Engellaͤndiſchen Sprache hat er<lb/>
+fleiſſig gebetet/ vnd ſeine andacht mit aͤuſſerlichen<lb/>
+geberden wol zuverſtehen geben.</p><lb/>
+<p>Den 6. <hi rendition="#aq">Auguſti,</hi> Sonnabends/ koͤmpt jhm ein<lb/>
+ſchreiben an/ eine ſtarcke Poſt Geldt zum Handel an-<lb/>
+reichende: Hat er den Herrn Buͤrgermeiſter/ wider<lb/>
+<fw place="bottom" type="sig">F iij</fw><fw place="bottom" type="catch">zu ſchrei-</fw><lb/>
+<pb facs="#f0046" n="[46]"/>
+zu ſchreiben/ gebeten mit dieſen wortẽ: Er habe mit<lb/>
+keinem Gelde mehr zuſchaffen/ er habe ſeine Hand-<lb/>
+lung in der Welt <hi rendition="#aq">reſigniret,</hi> vñ beſchloſſen: Er warte<lb/>
+nun alle Stunden ſeines Erloͤſers/ weñ der kom̃en/<lb/>
+vnd jhn auffloͤſen werde. Hat ſich alſo aller Jrr-<lb/>
+diſchen ſachen gantz vnd gar verziehen/ vñ begeben.<lb/>
+Wie er denn auch das Schreiben vberleſen/ vñ ſich<lb/>
+<hi rendition="#aq">propria manu</hi> (wiewol ſchwaͤchlich) vnterſchriebẽ.</p><lb/>
+<p>Dienſtages vor <hi rendition="#aq">Laurentij,</hi> wahr der 9. <hi rendition="#aq">Auguſti/</hi><lb/>
+ward in der Kirchen fuͤr Jhn gebeten/ das ſichs ließ<lb/>
+anſehen/ als ob es Gott anders mit Jhm ſchicken<lb/>
+wolte. Da bin ich nach dem Gebet/ <hi rendition="#aq">proprio motu/</hi><lb/>
+zu Jhm gangen/ noch zu guter letzt einmal mit Jhm<lb/>
+zureden. Wie wol Er nu ſehr matt/ wandte er ſich<lb/>
+doch an ſeiner Handzwell herumb/ das er mir konte<lb/>
+zuhoͤren/ da ich das <hi rendition="#aq">Manuale Molleri</hi> bey mir geha-<lb/>
+bet/ Jhme darauß die Troſtſpruͤche/ ſampt etlichen<lb/>
+Gebetlein/ die fuͤr die Sterbenden da verzeichnet<lb/>
+ſind/ fuͤrgeleſen: Die er mit fleiß angehoͤret. Jhn<lb/>
+ermahnet/ das er Jhme ſolches alles in ſeinem Her-<lb/>
+tzen durch den Glauben <hi rendition="#aq">appliciren/</hi> vnd bey ſeinem<lb/>
+HErren Chriſto beſtendig bleiben ſolte biß in den<lb/>
+todt/ ſo wuͤrde er die Krone deß Lebens empfahen.<lb/>
+<hi rendition="#aq">Apocal. 2. 2. Tim.</hi> 4. Sagte er dieſe wort darauff:<lb/>
+Es iſt gar ein ſchoͤner Troſt/ vnd ſind ſchoͤne Spruͤ-<lb/>
+che/ die mich wol getroͤſtet.</p><lb/>
+<fw type="catch" place="bottom">Fer-</fw><lb/>
+<pb facs="#f0047" n="[47]"/>
+<p>Ferner iſt er von mir befraget worden: Ob er<lb/>
+auch ſo lange zeit vber in ſeiner werenden ſchwach-<lb/>
+heit etwa jnnerliche anfechtung gehabt/ oder einige<lb/>
+beſchwehrung ſeines Hertzens oder Gewiſſens?<lb/>
+Hat er getroſt geantwortet: Nein/ gar keine. Ob<lb/>
+er ſich denn der Gnadenreichen vergebung der ſuͤn-<lb/>
+den in Chriſto auch gentzlich getroͤſte? <hi rendition="#aq">Reſpond.</hi><lb/>
+Ja gantz wol. Ob er denn auch jederman in ſeinem<lb/>
+Hertzen verziehen vnd vergeben/ das er alſo beydes<lb/>
+mit Gott vnd Menſchen verſoͤnet? Hat er gleich<lb/>
+wie frewdig geantwortet: Ach ja/ er wuͤſte auff nie-<lb/>
+mand nichtes/ Er were in ſeinem Hertzen vnd Ge-<lb/>
+muͤthe gar wol zufrieden. Darbey habe ichs end-<lb/>
+lich auch alſo bleiben laſſen. Vnd ſind das meine<lb/>
+letzten reden gegen Jhme geweſen: Er wolte geden-<lb/>
+cken an die letzten Wort deß HErren Jeſu/ die er am<lb/>
+Creutze geſprochen: Vnd mit dem lieben <hi rendition="#aq">Dionyſio</hi><lb/>
+hertzlich beten/ vnd ſeufftzen: O hilff HErre Jeſu<lb/>
+Chriſte/ das dein letztes Wort/ ſo du am Creutz ge-<lb/>
+ſprochen/ auch mein letztes wort ſey: Vater in deine<lb/>
+Haͤnde befehle ich meinen Geiſt/ du haſt mich erloͤ-<lb/>
+ſet/ HErr du getrewer Gott. (<hi rendition="#aq">Pſal.</hi> 31. 6.) Vñ wenn<lb/>
+ich nimmer reden kan/ ſo nim mein letztes Seuffzen<lb/>
+an. Vnd jhn hiemit <hi rendition="#aq">valediciret.</hi></p><lb/>
+<p>Am nechſten Sonnabend/ war der 13. <hi rendition="#aq">Auguſti/<lb/>
+n. ſt.</hi> ſind ſeine Herren Landeßleute/ ſo hier im Lan-<lb/>
+<fw place="bottom" type="catch">de</fw><lb/>
+<pb facs="#f0048" n="[48]"/>
+de handeln/ zu jhme kommen/ jhn zu beſuchen/ vnd<lb/>
+ſeinen zuſtandt zuerkunden. Vnd weil ſie vermer-<lb/>
+cket/ Das jhme die <hi rendition="#aq">expectoration</hi> etwas ſchwehr<lb/>
+wuͤrde: Haben ſie gerathen/ Er ſolte doch verſu-<lb/>
+chen/ ob es nicht durch <hi rendition="#aq">Medicamenta</hi> zufoͤdern. Da-<lb/>
+rauff Er den H. <hi rendition="#aq">Doct. Med.</hi> wieder zu ſich fordern<lb/>
+laſſen/ ſeines rahtes gepfleget/ vnd gebrauchet/ was<lb/>
+jhm derſelbe geordenet: Auch etwas linderung be-<lb/>
+funden/ wie Er Sontages fruͤe/ vor der Predigt/<lb/>
+ſelbſt vernuͤnfftiglich gegen dem H. <hi rendition="#aq">Doct.</hi> zuverſte-<lb/>
+hen gegeben. Bald darauff/ vnter der Amptspre-<lb/>
+digt (<hi rendition="#aq">Dom. XI. poſt Trinit.</hi>) da auch fuͤr jhn gebeten<lb/>
+worden/ wird er Sterbenßkranck/ wirffet ſeine Au-<lb/>
+gen auff/ faltend ſeine Haͤnde/ reget ſeine Lippen/<lb/>
+als betet er/ (wie die Waͤrterin/ ſampt den Vmbſte-<lb/>
+henden/ ſo im Hauſe geweſen/ berichten.) Vnd als<lb/>
+ſein Landeßmann/ mehr erwehnter H. <hi rendition="#aq">Nathanaël/</hi><lb/>
+gleich aus der Kirchen koͤmpt/ redet er noch auff ſei-<lb/>
+ne Sprache die wort zu jhm: O <hi rendition="#aq">Nathanaël</hi> jtzo ſter-<lb/>
+be ich. Vnd ſcheidet darauff ſeuberlich vnd ſanffte<lb/>
+von hinnen/ als ob er entſchlieffe.</p><lb/>
+<p>So viel habe ich berichts von ſeinem Abſchie-<lb/>
+de/ ohne was ich zuvor ſelber mit jhme geredet/ vnd<lb/>
+von Amptes wegen/ der Warheit zuſtewer zeugen<lb/>
+kan.</p><lb/>
+<p>Sein leiblicher <hi rendition="#aq">morbus</hi> iſt geweſen (wie der E.<lb/>
+<fw place="bottom" type="catch">Hoch-</fw><lb/>
+<pb facs="#f0049" n="[49]"/>
+Hochgelahrte Herr <hi rendition="#aq">Michaël Cruſius Philoſ. &amp; Med.<lb/>
+Doctor, Ordinarius Phyſicus</hi> allhier berichtet:) <hi rendition="#aq">pal-<lb/>
+pitatio cordis, cum phthiſi, &amp; exulceratione pulmorũ,</hi><lb/>
+das Hertz zittern/ ſampt der rechten natuͤrlichẽ Lun-<lb/>
+gen- vnd Schwindſucht/ ſo jhm etliche Jahr zuge-<lb/>
+hangen: Wie er denn auch gar abkommen/ vnd ver-<lb/>
+zehret/ das er als ein σϰελετὸν da gelegen/ nur Haut<lb/>
+vnd Bein an jhm geweſen/ das er wol nicht viel<lb/>
+Fleiſch mit ſich in die Erde genommen.</p><lb/>
+<p>Wir befehlen nu ſeine Seele Goͤttlicher Barm-<lb/>
+hertzigkeit/ vnd ſeinen Leichnam der Erden/ die vn-<lb/>
+ſer aller Mutter iſt: Jn troͤſtlicher hoffnung/ daß er<lb/>
+ſampt allen Glaͤubigen in Chriſto Jeſu/ an jhnem<lb/>
+tage zum Ewigen Leben/ wiederumb werde erwe-<lb/>
+cket werden.</p><lb/>
+<p>Seines alters iſt er geweſen/ vngefehr im 36 Jahr/<lb/>
+<hi rendition="#aq">cœlebs/</hi> alſo/ das er nicht gefreyet oder geheyratet.<lb/>
+Der Kirchen in Greyffenberg hat er aus Chriſtli-<lb/>
+cher liebe vnd gutwilligkeit <hi rendition="#aq">legiret</hi> 20 guͤlden. Dem<lb/>
+Hoſpital 20 guͤlden/ mehr vierdhalbe guͤlden vor<lb/>
+die ſtelle vnd außleuten. Jſt alles pahr außgezahlet/<lb/>
+vnd gut gemachet.</p><lb/>
+<p>Gegen das E. <hi rendition="#aq">Miniſterium/</hi> Kirchen vñ Schul-<lb/>
+diener/ hat er ſich auch danckbar/ vnd ehrlich ver-<lb/>
+halten.</p><lb/>
+<fw type="sig" place="bottom">G</fw><fw type="catch" place="bottom">Hauß-</fw><lb/>
+<pb facs="#f0050" n="[50]"/>
+<p>Haußarmen Leuten/ ſeind von ſeinet wegen/ von<lb/>
+zweyen Scheffeln Korn/ Brod außgetheylet wor-<lb/>
+den.</p><lb/>
+<p>Seiner wird dabey jederman zum beſten zuge-<lb/>
+dencken haben/ wie vns denn auch dieſer orte von<lb/>
+Jhm nichts anders/ denn alles gute/ wiſſendt.</p><lb/>
+<p>Dem Herrn Buͤrgermeiſter Georg Bartſchen/<lb/>
+als dem Wirth/ ſo wol ſeiner geliebten Haußfraw-<lb/>
+en vnd Kindern/ wird zum fleiſſigſten gedancket/<lb/>
+das ſie jhn gehauſet vnd geherberget/ Jn werender<lb/>
+ſchwachheit gedult mit jhme getragen/ was noth-<lb/>
+wendig verſchaffet/ Endlich/ ſeinem begehren nach/<lb/>
+ſeinen Leichnam gebuͤrlicher weiſe verhuͤllet/ vnd<lb/>
+Chriſtlich zur Erden beſtatten helffen. Wie auch<lb/>
+dem Geſinde/ ſampt der Waͤrterin fuͤr erzeigte muͤ-<lb/>
+he vnd trew: Auch allen die jhn etwa beſuchet/ vnd<lb/>
+beygewohnet/ gebuͤhrender danck geſaget worden.</p><lb/>
+<p>Nach verrichtetem Ampte iſt auch im nahmen/<lb/>
+vnd von wegen deß Herrn Buͤrgermeiſters <hi rendition="#aq">Georgij</hi><lb/>
+Bartſchens/ als ſeines geweſenen Wirthes: Vnd<lb/>
+Herrn <hi rendition="#aq">Nathanaëlis Jackſons/</hi> ſeines getrewen lieben<lb/>
+Landeßmannes/ oͤffentlich abgedancket worden:</p><lb/>
+<p>Erſtlich E. E. W. Rath der Stadt Greyffen-<lb/>
+berg/ weil derſelbe in anſehenlichen <hi rendition="#aq">proceſs</hi> der Lei-<lb/>
+chen gefolget.</p><lb/>
+<p>Nachmals den frembden ahnweſenden Kauff-<lb/>
+<fw place="bottom" type="catch">her-</fw><lb/>
+<pb facs="#f0051" n="[51]"/>
+herren Engellaͤndiſcher <hi rendition="#aq">Nation/</hi> vnd anderen/ ſo<lb/>
+ſich nicht beſchwehret den <hi rendition="#aq">Exequijs</hi> beyzuwohnen.</p><lb/>
+<p>Folgends denen Herren von Elteſten vnd Ge-<lb/>
+ſchwornen/ ſo die Leiche zu jhrem Ruhebetlein ge-<lb/>
+tragen.</p><lb/>
+<p>Auch den Erbaren Tugendſamen Frawen vnd<lb/>
+Weibesperſonen/ ſo auff vorhergehendes erſuchen<lb/>
+die Leiche begleitet vnd betrawret.</p><lb/>
+<p>So wol allen Zunfften/ Zechen/ vnd gantzer<lb/>
+Chriſtlichen Gemein/ ſo ſich vnbeſch wehret herzu<lb/>
+gefunden/ vnd dieſem frembden Kauffherren das<lb/>
+Geleit zu ſeinem Ruhebettlein gegeben/ damit den<lb/>
+letzten Willen vnd Ehrendienſt aus Chriſtlicher<lb/>
+Liebe zuerzeigen. Damit alſo der <hi rendition="#aq">Actus</hi> nebenſt<lb/>
+dem Gebeth/ vnd Chriſtlichen Geſaͤngen beſchloſ-<lb/>
+ſen.</p><lb/>
+<div n="3"><head/>  <p><hi rendition="#c"><hi rendition="#fr">Gott habe den Verſtorbenen Selig: Vnd</hi><lb/>
+gebe vns allen auch eine gute Stunde Chriſtlich<lb/>
+zu leben/ Selig zu ſterben/ vnd an jehnem Tage<lb/>
+Jhme/ vnd vns allen eine froͤliche Auffer-<lb/>
+ſtehung in Chriſto zum<lb/>
+Ewigen Leben/<lb/>
+Amen.<lb/>
+δ. τ. ϑ.<lb/>
+ε. υ.<lb/>
+α.</hi></p></div></div></div><lb/>
+<pb facs="#f0052" n="[52]"/>
+<div type="fsOtherPublication" n="1"><head/>  <div n="2"><head><hi rendition="#b">Schoͤnes Gebete zu Chriſto vmb<lb/>
+ein ſeliges Ende:</hi><lb/>
+Welches zuvor dem Krancken fuͤrgeſprochen/ nachmals auch<lb/>
+von der Cantzel nach gehaltener Predigt<lb/>
+abgeleſen worden:</head><lb/>
+<lg type="poem"><l><hi rendition="#fr"><hi rendition="#g"><hi rendition="#k"><hi rendition="#in">H</hi>err</hi></hi> Jeſu Chriſt wahr Menſch vnd Gott/</hi></l><lb/>
+<l><hi rendition="#fr">Der du lidſt Marter/ Angſt vnd Spott:</hi></l><lb/>
+<l><hi rendition="#fr">Fuͤr mich am Creutz auch endlich ſtarbſt/</hi></l><lb/>
+<l><hi rendition="#fr">Vnd mir deins Vatern Huld erwarbſt.</hi></l><lb/>
+<l><hi rendition="#fr">Jch bitt durchs bitter Leiden dein/</hi></l><lb/>
+<l><hi rendition="#fr">Du wolſt mir Suͤnder gnaͤdig ſein:</hi></l><lb/>
+<l><hi rendition="#fr">Wenn ich nu kom in Sterbens noth/</hi></l><lb/>
+<l><hi rendition="#fr">Vnd ringen werde mit dem Todt.</hi></l><lb/>
+<l><hi rendition="#fr">Wenn mir vergeht all mein Geſicht/</hi></l><lb/>
+<l><hi rendition="#fr">Vnd meine Ohren hoͤren nicht:</hi></l><lb/>
+<l><hi rendition="#fr">Wenn meine Zunge nichts mehr ſpricht/</hi></l><lb/>
+<l><hi rendition="#fr">Vnd mir fuͤr Angſt mein Hertz zerbricht.</hi></l><lb/>
+<l><hi rendition="#fr">Wenn mein Verſtandt ſich nicht verſinnt/</hi></l><lb/>
+<l><hi rendition="#fr">Vnd mir all Menſchlich huͤlff zerrinnt:</hi></l><lb/>
+<l><hi rendition="#fr">So kom O HErr Chriſt mir behendt</hi></l><lb/>
+<l><hi rendition="#fr">Zuhuͤlff/ an meinem letzten End:</hi></l><lb/>
+<l><hi rendition="#fr">Vnd fuͤhr mich aus dem Jammerthal/</hi></l><lb/>
+<l><hi rendition="#fr">Verkuͤrtz mir auch deß Todesquahl:</hi></l><lb/>
+<l><hi rendition="#fr">Die boͤſen Geiſter von mir treib/</hi></l><lb/>
+<l><hi rendition="#fr">Mit deinem Geiſt ſtets bey mir bleib.</hi></l><lb/>
+<l><hi rendition="#fr">Biß ſich die Seel vom Leib abwendt/</hi></l><lb/>
+<l><hi rendition="#fr">So nim ſie HErr in deine Hendt:</hi></l><lb/>
+<l><hi rendition="#fr">Der Leib hab in der Erdt ſein ruh/</hi></l><lb/>
+<l><hi rendition="#fr">Biß ſich der Juͤngſt Tag naht herzu.</hi></l><lb/>
+<l><hi rendition="#fr">Ein froͤlich Vhrſtendt mir verley/</hi></l><lb/>
+<l><hi rendition="#fr">Am Juͤngſten Gericht mein Vorſprechr ſey:</hi></l><lb/>
+<l><hi rendition="#fr">Vnd meiner Suͤnd nicht mehr gedenck/</hi></l><lb/>
+<l><hi rendition="#fr">Auß Gnaden mir das Leben ſchenck.</hi></l><lb/>
+<fw place="bottom" type="catch"><hi rendition="#fr">Wie</hi></fw><lb/>
+<pb facs="#f0053" n="[53]"/>
+<l><hi rendition="#fr">Wie du haſt zugeſaget mir</hi></l><lb/>
+<l><hi rendition="#fr">Jn deinem Wort/ das traw ich dir:</hi></l><lb/>
+<l><hi rendition="#fr">Fuͤr wahr/ fuͤrwahr/ euch ſage ich/</hi></l><lb/>
+<l><hi rendition="#fr">Wer mein Wort helt/ vnd glaͤubt an mich/</hi></l><lb/>
+<l><hi rendition="#fr">Der wird nicht kommen ins Gericht/</hi></l><lb/>
+<l><hi rendition="#fr">Vnd den Todt ewig ſchmecken nicht:</hi></l><lb/>
+<l><hi rendition="#fr">Vnd ob er gleich hie zeitlich ſtirbt/</hi></l><lb/>
+<l><hi rendition="#fr">Mit nichten er druͤmb gar verdirbt.</hi></l><lb/>
+<l><hi rendition="#fr">Sondern ich wil mit ſtarcker Handt/</hi></l><lb/>
+<l><hi rendition="#fr">Jhn reiſſen aus deß Todes band:</hi></l><lb/>
+<l><hi rendition="#fr">Vnd zu mir nehmen in mein Reich/</hi></l><lb/>
+<l><hi rendition="#fr">Da ſol er denn mit mir zugleich/</hi></l><lb/>
+<l><hi rendition="#fr">Jn Frewden leben Ewiglich/</hi></l><lb/>
+<l><hi rendition="#fr">Dazu hilff vns ja gnaͤdiglich.</hi></l><lb/>
+<l><hi rendition="#fr">Ach HErr vergib all vnſer ſchuldt/</hi></l><lb/>
+<l><hi rendition="#fr">Hilff das wir warten mit gedult:</hi></l><lb/>
+<l><hi rendition="#fr">Biß vnſer Stuͤndlein koͤmpt herhey/</hi></l><lb/>
+<l><hi rendition="#fr">Auch vnſer Glaub ſtets wacker ſey/</hi></l><lb/>
+<l><hi rendition="#fr">Deim Wort zu trawen feſtiglich/</hi></l><lb/>
+<l><hi rendition="#fr">Biß wir entſchlaffen ſeliglich/ Amen.</hi></l></lg></div><lb/>
+<div n="2"><head><hi rendition="#b">Ein ſchoͤn Geiſtlich Lied/ fuͤr Chriſtliche Reyß-</hi><lb/>
+vnd Wanderßleute: Welches auch bey dieſem Chriſt-<lb/>
+lichen Begraͤbnuͤß geſungen worden:</head><lb/>
+<lg type="poem"><lg n="1"><head>1.</head><lb/>
+<l><hi rendition="#fr"><hi rendition="#g"><hi rendition="#k"><hi rendition="#in">H</hi>err</hi></hi> Jeſu Chriſt/ Jch weiß gar wol/</hi></l><lb/>
+<l><hi rendition="#fr">Das ich ein mal muß ſterben:</hi></l><lb/>
+<l><hi rendition="#fr">Wenn aber diß geſchehen ſoll/</hi></l><lb/>
+<l><hi rendition="#fr">Vnd wie ich moͤg verderben</hi></l><lb/>
+<l><hi rendition="#fr">Dem Leibe nach/ das weiß ich nicht/</hi></l><lb/>
+<l><hi rendition="#fr">Es ſteht allein in deim Gericht/</hi></l><lb/>
+<l><hi rendition="#fr">Du ſihſt mein letztes Ende.</hi></l></lg><lb/>
+<fw type="sig" place="bottom">G iij</fw><fw type="catch" place="bottom">Vnd</fw><lb/>
+<pb facs="#f0054" n="[54]"/>
+<lg n="2"><head>2.</head><lb/>
+<l><hi rendition="#fr">Vnd weil ich denn/ als dir bewuſt/</hi></l><lb/>
+<l><hi rendition="#fr">(Zwar durch deins Geiſtes gabe)</hi></l><lb/>
+<l><hi rendition="#fr">An dir allein die beſte luſt</hi></l><lb/>
+<l><hi rendition="#fr">Jn meinem Hertzen habe:</hi></l><lb/>
+<l><hi rendition="#fr">Vnd gwißlich glaͤub das du allein</hi></l><lb/>
+<l><hi rendition="#fr">Mich haſt gewaſchn von Suͤnden rein/</hi></l><lb/>
+<l><hi rendition="#fr">Vnd mir dein Reich erworben.</hi></l></lg><lb/>
+<lg n="3"><head>3.</head><lb/>
+<l><hi rendition="#fr">So bitt ich dich HERR Jeſu Chriſt/</hi></l><lb/>
+<l><hi rendition="#fr">Halt mich bey den Gedancken/</hi></l><lb/>
+<l><hi rendition="#fr">Vnd laß mich ja zu keiner friſt/</hi></l><lb/>
+<l><hi rendition="#fr">Von dieſer meinung wancken:</hi></l><lb/>
+<l><hi rendition="#fr">Sondern dabey verharren feſt/</hi></l><lb/>
+<l><hi rendition="#fr">Biß das die Seel aus jhrem Neſt/</hi></l><lb/>
+<l><hi rendition="#fr">Wird in den Himmel fahren.</hi></l></lg><lb/>
+<lg n="4"><head>4.</head><lb/>
+<l><hi rendition="#fr">Kans ſein/ ſo gib durch deine Handt/</hi></l><lb/>
+<l><hi rendition="#fr">Mir ein vernuͤnfftig Ende/</hi></l><lb/>
+<l><hi rendition="#fr">Das ich mein Seel fein mit Verſtand/</hi></l><lb/>
+<l><hi rendition="#fr">Befehl in deine Haͤnde:</hi></l><lb/>
+<l><hi rendition="#fr">Vnd ſo im Glauben ſanfft vnd froh/</hi></l><lb/>
+<l><hi rendition="#fr">Auff meinem Bethlein oder Stroh/</hi></l><lb/>
+<l><hi rendition="#fr">Aus dieſem Elendt fahre.</hi></l></lg><lb/>
+<lg n="5"><head>5.</head><lb/>
+<l><hi rendition="#fr">Wo aber du mich in dem Feldt/</hi></l><lb/>
+<l><hi rendition="#fr">Durch Raub auff frembder Grentze:</hi></l><lb/>
+<l><hi rendition="#fr">Jn Waſſers noth/ hitz oder kaͤlt/</hi></l><lb/>
+<l><hi rendition="#fr">Oder durch Peſtilentze/</hi></l><lb/>
+<l><hi rendition="#fr">Nach deinem Rath wilſt nemen hin/</hi></l><lb/>
+<l><hi rendition="#fr">So richt mich HErr nach meinem Sinn/</hi></l><lb/>
+<l><hi rendition="#fr">Den ich im Leben fuͤhre.</hi></l></lg><lb/>
+<fw place="bottom" type="catch"><hi rendition="#fr">So</hi></fw><lb/>
+<pb facs="#f0055" n="[55]"/>
+<lg n="6"><head>6</head><lb/>
+<l><hi rendition="#fr">So wol/ wo ich aus Schwacheit groß/</hi></l><lb/>
+<l><hi rendition="#fr">Mich nicht rechtſchaffen hette:</hi></l><lb/>
+<l><hi rendition="#fr">Gieng etwa/ oder lege bloß/</hi></l><lb/>
+<l><hi rendition="#fr">Oder vnbeſcheiden redte:</hi></l><lb/>
+<l><hi rendition="#fr">So laß michs HErr entgelten nicht/</hi></l><lb/>
+<l><hi rendition="#fr">Weils wieder mein bewuſt geſchicht/</hi></l><lb/>
+<l><hi rendition="#fr">Vnd mich nicht kan beſinnen.</hi></l></lg><lb/>
+<lg n="7"><head>7.</head><lb/>
+<l><hi rendition="#fr">O HErr gib mir in Todes pein/</hi></l><lb/>
+<l><hi rendition="#fr">Ein ſeuberlich Gebehrde:</hi></l><lb/>
+<l><hi rendition="#fr">Vnd hilff daß mir das Hertze mein/</hi></l><lb/>
+<l><hi rendition="#fr">Fein ſanfft gebrochen werde:</hi></l><lb/>
+<l><hi rendition="#fr">Vnd wie ein Liecht/ ohn uͤbrig wehe/</hi></l><lb/>
+<l><hi rendition="#fr">Auff dein vnſchuͤldig Blut vergehe/</hi></l><lb/>
+<l><hi rendition="#fr">Das du fuͤr mich vergoſſen.</hi></l></lg><lb/>
+<lg n="8"><head>8.</head><lb/>
+<l><hi rendition="#fr">Jedoch ich dich nicht lehren wil/</hi></l><lb/>
+<l><hi rendition="#fr">Noch dir mein Endt beſchreiben:</hi></l><lb/>
+<l><hi rendition="#fr">Sondern dir allweg halten ſtill/</hi></l><lb/>
+<l><hi rendition="#fr">Bey deinem Wort verbleiben:</hi></l><lb/>
+<l><hi rendition="#fr">Vnd glaͤuben das du alls ein Fuͤrſt</hi></l><lb/>
+<l><hi rendition="#fr">Diß lebens mich erhalten wirſt/</hi></l><lb/>
+<l><hi rendition="#fr">Jch ſterb gleich wo ich wolle.</hi></l></lg><lb/>
+<lg n="9"><head>9.</head><lb/>
+<l><hi rendition="#fr">Derhalben ich in meinen ſinn</hi></l><lb/>
+<l><hi rendition="#fr">Mich dir thue gantz ergeben:</hi></l><lb/>
+<l><hi rendition="#fr">Denn ſihe der Todt iſt mein gewinn/</hi></l><lb/>
+<l><hi rendition="#fr">Du aber biſt mein Leben:</hi></l><lb/>
+<l><hi rendition="#fr">Vnd wirſt mein Leib ohn alle klag/</hi></l><lb/>
+<l><hi rendition="#fr">Das weiß ich gwiß/ am Juͤngſten tag</hi></l><lb/>
+<l><hi rendition="#fr">Zum Leben aufferwecken.</hi></l></lg></lg><lb/>
+<p><hi rendition="#c"><hi rendition="#g"><hi rendition="#fr">AMEN.</hi></hi></hi></p></div></div><lb/>
+</body></text>  </TEI>

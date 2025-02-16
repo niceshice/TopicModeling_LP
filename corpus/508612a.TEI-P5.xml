@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">J. N. J. Reichthum Göttlicher Güte/[...] Lebenslauf</title>
+<author>
+<persName ref="http://d-nb.info/gnd/115844953 ">
+<surname>Kühn</surname>
+<forename>Johann Heinrich</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">15</measure>
+<measure type="tokens">2114</measure>
+<measure type="types">948</measure>
+<measure type="characters">15595</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:10:11Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/508612a</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/508612a</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/508612a</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/508612a</idno>
+<idno type="DTADirName">508612a</idno>
+<idno type="DTAID">202972</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-202972-4</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Kühn, Johann Heinrich: J. N. J. Reichthum Göttlicher Güte. Lebenslauff. Dresden, 1675.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">J. N. J. Reichthum Göttlicher Güte/[...] Lebenslauf</title>
+<author>
+<persName ref="http://d-nb.info/gnd/115844953 ">
+<surname>Kühn</surname>
+<forename>Johann Heinrich</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">15</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Christoph Baumann</name></publisher>
+<pubPlace>Dresden</pubPlace>
+<date type="publication">1675</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 O 143/5 / 508612a</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><body>
+<pb facs="#f0001" n="1"/>
+<fw place="top" type="header"><hi rendition="#b">Lebenslauff.</hi></fw><lb/>
+<div type="fsCurriculumVitae" n="1"><head><hi rendition="#fr">Folget der Lebens-Lauff/</hi><lb/>
+wie derſelbige zu S. Annenberg abge-<lb/>
+leſen worden.</head><lb/>
+<p><hi rendition="#in">E</hi>Urer Chriſtl. Liebe iſt auch zuver-<lb/>
+melden/ wie daß den 8. Junij<lb/>
+inſtehenden Jahres/ in der Chur-<lb/>
+fürſtl. Sächſ. Reſidentz-Stadt<lb/>
+Dreßden/ in ſeinem Erlöſer Chri-<lb/>
+ſto <hi rendition="#g">JESU</hi> ſanfft und ſelig entſchlaffen <hi rendition="#fr">Herr<lb/>
+Johann Fleiſcher/</hi> von deſſen ehrlicher An-<lb/>
+kunfft/ Geburt/ Chriſtlichen Leben und Wan-<lb/>
+del/ auch ſel. Ableiben aus dieſer Welt/ iſt hier-<lb/>
+von ſo viel nöthig/ kürtzlich zuwiſſen: So iſt<lb/>
+der ſelig Verſtorbene/ von gar ehrlichen und<lb/>
+Chriſtlichen Eltern auf dieſe Welt geboren<lb/>
+worden im Jahr 1651. den 15. Aprilis. Sein<lb/>
+lieber Vater iſt/ (<hi rendition="#aq"><hi rendition="#i">Titul</hi></hi>) <hi rendition="#fr">Herr Albrecht Fleiſcher/</hi><lb/>
+vornehmer Handelsmann allhier; Seine liebe<lb/>
+Mutter iſt die Wohl-Erbare/ Viel-Ehr- und<lb/>
+Tugendreiche Frau/ <hi rendition="#fr">Catharina/</hi> des weiland<lb/>
+Wohl-Ehrenveſten/ Vorachtbarn/ und Wohl-<lb/>
+weiſen Herrn Thom<hi rendition="#aq"><hi rendition="#i">æ</hi></hi> Genſels/ Churfürſtl.<lb/>
+Durchl. zu Sachſen wohlbeſtellten Land- und<lb/>
+Tranckſteuer-Einnehmers/ auch Bürgermei-<lb/>
+ſters allhier/ ſel. nachgelaſſene Frau Tochter.<lb/>
+<fw place="bottom" type="sig">a</fw><fw place="bottom" type="catch">Von</fw><lb/>
+<pb facs="#f0002" n="2"/>
+<fw place="top" type="header"><hi rendition="#b">Lebenslauff.</hi></fw><lb/>
+Von dieſen ſeinen lieben Eltern iſt Er alſobald<lb/>
+nach ſeiner leiblichen Geburt zur Heil. Tauffe<lb/>
+und Widergeburt befördert/ und unter die<lb/>
+Zahl der Kinder Gottes geſchrieben worden/<lb/>
+worbey ſeine Zeugen und Tauff-Pathen gewe-<lb/>
+ſen/ der weiland Edle/ Wohl-Ehrenveſte/<lb/>
+Großachtbare/ und Hochgelahrte <hi rendition="#fr">Herr Johañ<lb/>
+Schreiter/</hi> beyder Rechten <hi rendition="#aq"><hi rendition="#i">Licent.</hi></hi> wohlbeſtell-<lb/>
+ter Stifft-<hi rendition="#aq"><hi rendition="#i">Syndicus</hi></hi> des Hohen Stiffts Meiſ-<lb/>
+ſen und Wurtzen: Und der Ehrenveſte/ Wohl-<lb/>
+geachte <hi rendition="#fr">Herr Tobias Dietz/</hi> vornehmer Bür-<lb/>
+ger und Handelsmann: und denn die Wohl-<lb/>
+Erbare/ Viel-Ehr- und Tugendreiche <hi rendition="#fr">Fr. Maria/</hi><lb/>
+geborne Seifertin/ des Hoch-Wohl-Ehrwür-<lb/>
+digen/ Großachtbarn und Hochgelahrten<lb/>
+<hi rendition="#fr">Herrn Georg Seideln/</hi> der H. Schrifft <hi rendition="#aq"><hi rendition="#i">Licent.</hi></hi><lb/>
+und wohl <hi rendition="#aq"><hi rendition="#i">meritirten Paſtoren</hi></hi> und <hi rendition="#aq"><hi rendition="#i">Superinten-<lb/>
+denten</hi></hi> ſel. nachgelaſſene Frau Wittib. Weiln<lb/>
+aber auch/ nach Reinigung von Sünden/ durch<lb/>
+die H. Tauffe/ dennoch das Menſchliche Hertz<lb/>
+zum böſen geneigt/ als haben ſeine lieben Eltern<lb/>
+Jhn von Kindesbeinen an zum lieben Gebet<lb/>
+und wahrer Gottesfurcht gehalten/ und fleißig<lb/>
+in die lateiniſche Stadt-Schule geſchicket/ auch<lb/>
+zu Hauß durch <hi rendition="#aq"><hi rendition="#i">privat-Præceptores</hi></hi> treulich <hi rendition="#aq"><hi rendition="#i">in-<lb/>
+formi</hi></hi>ren laſſen/ da Er denn nicht allein Leſen/<lb/>
+<fw place="bottom" type="catch">Rech-</fw><lb/>
+<pb facs="#f0003" n="3"/>
+<fw place="top" type="header"><hi rendition="#b">Lebenslauff.</hi></fw><lb/>
+Rechnen und Schreiben/ ſondern auch ſeinen<lb/>
+Cathechiſmum/ ſchöne Pſalm und Sprüche<lb/>
+Altes und Neues Teſtaments wohl erlernet/<lb/>
+auch <hi rendition="#aq"><hi rendition="#i">in literis</hi></hi> und <hi rendition="#aq"><hi rendition="#i">moribus</hi></hi> alſo zugenommen/<lb/>
+daß Er deßwegen bey ſeinen Herren <hi rendition="#aq"><hi rendition="#i">Præceptori-<lb/>
+bus</hi></hi> gar beliebet geweſen. Nachdem Er aber<lb/>
+das 15te Jahr ſeines Alters erreichet/ und ſeine<lb/>
+lieben Eltern vermercket/ daß Er Luſt und Be-<lb/>
+liebung zur Handlung getragen/ hat Jhn ſein<lb/>
+lieber Vater vor ſich ſelbſten mit auf die Reiſe<lb/>
+genommen/ und anfänglichen in Handlungs-<lb/>
+Sachen wohl unterrichtet/ auch wie und wel-<lb/>
+cher geſtalt ſich ein Jung zuverhalten/ wann Er<lb/>
+anders in der Frembde fortkommen wolte/<lb/>
+treulich unterſaget: Welches alles der ſel. Ver-<lb/>
+ſtorbene/ als ein Jüngling/ wohl zu Gemüth<lb/>
+und Hertzen genommen. Darauf es denn ge-<lb/>
+ſchehen/ daß Er zu Troppau in Ober-Schleſien<lb/>
+zu (<hi rendition="#aq"><hi rendition="#i">Tit.</hi></hi>) Herrn Daniel Kircke/ vornehmen<lb/>
+Handelsmann/ und wohlverordneten Stadt-<lb/>
+Richter daſelbſten/ in Dienſte kommen/ des<lb/>
+guten Vorſatzes ſeine Jungen-Jahre allda aus-<lb/>
+zuſtehen. Und als Er ſich eine wenige Zeit da-<lb/>
+ſelbſt aufgehalten/ ſeine Dienſte/ ſeinem Ver-<lb/>
+ſtand und Vermögen nach/ treulich verrichtet/<lb/>
+hat Ihn ſein Herr zugemuthet/ die reine Evan-<lb/>
+<fw place="bottom" type="sig">a 2</fw><fw place="bottom" type="catch">geli-</fw><lb/>
+<pb facs="#f0004" n="4"/>
+<fw place="top" type="header"><hi rendition="#b">Lebenslauff.</hi></fw><lb/>
+geliſche Lutheriſche Religion abzutreten/ und<lb/>
+die Papiſtiſche anzunehmen. Allein weil Er<lb/>
+einmahl mit GOtt durch die heilige Tauff im<lb/>
+Bund getreten/ hat Er auch dabey biß an ſein<lb/>
+End verbleiben/ und lieber ſeines Herrn Dien-<lb/>
+ſte und zeitliches Glück hintanſetzen/ als ſeinen<lb/>
+JESUM verlaſſen wollen. Solche harte<lb/>
+Verſuchungen hat Er ſeinen lieben Eltern be-<lb/>
+richtet/ daß ſolcher geſtalt Jhm dieſe <hi rendition="#aq"><hi rendition="#i">Condition</hi></hi><lb/>
+nicht anſtändig wäre. Worauf Er den 13. Fe-<lb/>
+bruar. 1667. ſeinen ehrlichenAbſchied begehret/<lb/>
+welchen Er auch von oberwehnten ſeinem Herꝛn<lb/>
+erhalten/ und von ſeinem lieben Vater wieder-<lb/>
+umb abgeholet worden. Dieſem nach und<lb/>
+bald darauf iſt Er nacher Dreßden kommen/ da<lb/>
+Er dann zu (<hi rendition="#aq"><hi rendition="#i">Tit.</hi></hi>) denen Herren Ehewaltiſchen<lb/>
+Erben/ vornehmenHandels-Leuten daſelbſt/ zu<lb/>
+einen Handels-Jungen auf und angenommen<lb/>
+worden/ auch daſelbſt ſeine Dienſte über ein<lb/>
+halbes Jahr/ dem Vermögen nach/ williglich<lb/>
+verrichtet. Weiln aber der liebe GOTT Jhme<lb/>
+dazumahl mit einer groſſen Kranckheit heimge-<lb/>
+ſuchet/ haben Jhn ſeine lieben Eltern/ umb gu-<lb/>
+ter Pfleg- und Wartung willen/ wieder von<lb/>
+Dreßden abholen laſſen müſſen; Da Er dann<lb/>
+gar ſehr ſchwach ankommen/ und in die zwölff<lb/>
+<fw place="bottom" type="catch">Wo-</fw><lb/>
+<pb facs="#f0005" n="5"/>
+<fw place="top" type="header"><hi rendition="#b">Lebenslauff.</hi></fw><lb/>
+Wochen an einen kalten Fieber darnieder gele-<lb/>
+gen/ aber durch Gottes Gnade und Gebrauch<lb/>
+koſtbarer <hi rendition="#aq"><hi rendition="#i">Medicamentorum</hi></hi> wiederumb zu ſei-<lb/>
+ner vorigen Geſundheit gelanget. Nach er-<lb/>
+langter Geſundheit hat Er ſeinem lieben Gott<lb/>
+hertzlich davor Lob und Danck geſagt/ und hier-<lb/>
+auf ſich <hi rendition="#aq"><hi rendition="#i">reſolvi</hi></hi>ret/ mit Verleihung Göttlicher<lb/>
+Hülffe/ was Ehr- und redliches zulernen. Dan-<lb/>
+nenhero umb Förderung und guterAnführung<lb/>
+ſeinen groſſen GOTT erſuchet und gebeten:<lb/>
+Da Er dann auch gnädig erhöret und unver-<lb/>
+mutend Jhm eine gute <hi rendition="#aq"><hi rendition="#i">Condition</hi></hi> gezeiget und<lb/>
+gewieſen. Jn dem Er auf zurathen vornehmer<lb/>
+Leute <hi rendition="#aq"><hi rendition="#i">Anno</hi></hi> 1668. nacher Freyberg/ zu dem Ed-<lb/>
+len/ Großachtbarn/ Wohlgelahrten und Hoch-<lb/>
+weiſen Herrn Jacob Lindnern/ vornehmen<lb/>
+Handelsmann/ des Raths und Ober-Kämme-<lb/>
+rern daſelbſten/ in Dienſte ſich zubegeben/ <hi rendition="#aq"><hi rendition="#i">re-<lb/>
+commendi</hi></hi>ret worden. Da Er dann nicht al-<lb/>
+leine ſeine Jungen-Jahre willig angetreten/<lb/>
+ſondern auch Sechs Jahr/ ohn verändert/ rich-<lb/>
+tig aneinander ausgeſtanden. Jn währender<lb/>
+ſolcher Zeit/ hat Er ſich fromm/ treu/ und ver-<lb/>
+ſchwiegen gehalten/ und ſeinem Herrn in Han-<lb/>
+dels- und andern Sachen/ nützlich gedienet.<lb/>
+<fw place="bottom" type="sig">a 3</fw><fw place="bottom" type="catch">Deß-</fw><lb/>
+<pb facs="#f0006" n="6"/>
+<fw place="top" type="header"><hi rendition="#b">Lebenslauff.</hi></fw><lb/>
+Deßwegen dann wohlerwehnter Herr Lindner<lb/>
+ſeiner <hi rendition="#aq"><hi rendition="#i">Quali</hi></hi>täten halber/ eine ſonderliche <hi rendition="#aq"><hi rendition="#i">Affe-<lb/>
+ction</hi></hi> und Liebe auf Jhn geworffen; indem Er<lb/>
+Jhn nicht als einen Jungen/ ſondern als ſein<lb/>
+eigen Kind gehalten/ auch zu aller Gottes-<lb/>
+furcht/ und Chriſtlichen Tugenden/ gewöh-<lb/>
+net/ und ſonſten der Nothdurfft nach/ mit Koſt<lb/>
+und reinlicher Kleidung in allen wohl verſor-<lb/>
+get; Auch nach Endigung ſeiner Jungen Jah-<lb/>
+re nicht allein mit einen rühmlichen <hi rendition="#aq"><hi rendition="#i">Teſtimonio</hi>,</hi><lb/>
+ſondern auch mit einer feinen <hi rendition="#aq"><hi rendition="#i">Diſcretion</hi></hi> und<lb/>
+Verehrung verſehen und abgefertiget. Hier-<lb/>
+auf hat Er ſich/ auf Gutachten und Zuſchrei-<lb/>
+bung ſeines lieben ältern Brudern/ Herrn Da-<lb/>
+vid Fleiſchers/ vornehmen Handels-Bedien-<lb/>
+ten/ der Schurbainiſchen berühmten Hand-<lb/>
+lung zu Augſpurg/ nacher Leipzig begeben/ und<lb/>
+daſelbſt eine wenige Zeit/ bey (<hi rendition="#aq"><hi rendition="#i">Titul</hi></hi>) Herrn<lb/>
+Hanß inGeorge und David Cramer/ vornehmen<lb/>
+Handels-Leuthen in Leipzig aufgehalten.<lb/>
+Nachdeme Er aber in währenden ſeinen Jun-<lb/>
+gen Jahren/ ſeine lieben Eltern und nahen An-<lb/>
+verwandten/ niemahls beſuchet/ ſondern lie-<lb/>
+ber ſeiner Dienſte ehrlichen abgewartet/ hat<lb/>
+Er nach Außgang des Leipzigiſchen Neuen-<lb/>
+<fw place="bottom" type="catch">Jahrs-</fw><lb/>
+<pb facs="#f0007" n="7"/>
+<fw place="top" type="header"><hi rendition="#b">Lebenslauff.</hi></fw><lb/>
+Jahrs Marckts ietzt lauffenden 1675ſten Jah-<lb/>
+res/ in ſein <hi rendition="#aq"><hi rendition="#i">Patriam</hi></hi> ſeine lieben Eltern zubeſu-<lb/>
+chen/ ſich gewendet/ welche Ankunfft denn ſei-<lb/>
+ne lieben Eltern hertzlich erfreuet: Jn dem Er<lb/>
+Sie hertzlich geliebet/ Kindlich gefürchtet/ und<lb/>
+allen ſchuldigen <hi rendition="#aq"><hi rendition="#i">reſpect</hi></hi> gegeben/ und ſich als ein<lb/>
+gehorſamer und wohlgezogener Sohn darge-<lb/>
+ſtellet; Worüber ſich denn die lieben Eltern und<lb/>
+andere nahe Anverwandte/ hertzlichen ge-<lb/>
+freuet. Weiln Er aber fernerweit was zuſe-<lb/>
+hen/ zulernen und zuerfahren Jhm vorgeſetzet/<lb/>
+hat Er ſich länger nicht biß verwichene Leipziger<lb/>
+Oſter-Meſſe aufgehalten; Da Er denn wie-<lb/>
+derumb nacher Leipzig ſich begeben/ umb ferne-<lb/>
+re Dienſt/ als ein junger Handels-Diener zu-<lb/>
+bewerben; Da ſich denn auch balden eine gute<lb/>
+<hi rendition="#aq"><hi rendition="#i">Condition</hi></hi> vor Jhm ereignet/ und Er zu dem<lb/>
+Wohl-Ehrenveſten/ Hochachtbarn und Wohl-<lb/>
+fürnehmen Herrn Daniel Heimbt/ Chur-<lb/>
+Printzl. Durchl. zu Sachſen/ Hof-Handels-<lb/>
+mann in Dreßden/ in Dienſte auf und ange-<lb/>
+nommen worden. Welchen Dienſt/ der ſelig<lb/>
+Verſtorbene nicht allein willig <hi rendition="#aq"><hi rendition="#i">accepti</hi></hi>ret/ ſon-<lb/>
+dern auch die wenige Zeit ſich fleißig und emſig<lb/>
+erwieſen/ und zwar ſolcher geſtalt/ daß ſein<lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#i">Pa-</hi></hi></fw><lb/>
+<pb facs="#f0008" n="8"/>
+<fw place="top" type="header"><hi rendition="#b">Lebenslauff.</hi></fw><lb/>
+<hi rendition="#aq"><hi rendition="#i">Patron</hi></hi> ein ſonderliches Vergnügen dran ge-<lb/>
+habt/ deßwegen denn gewünſchet dieſen <hi rendition="#aq"><hi rendition="#i">Curie-</hi></hi><lb/>
+ſen Handels-Diener lange zuhaben und zube-<lb/>
+halten. Wie Er denn ſein <hi rendition="#aq"><hi rendition="#i">affectionir</hi></hi>tes Ge-<lb/>
+müth gegen den ſel. Verſtorbenen im Tode er-<lb/>
+wieſen/ in dem Er zur Zierde ſeiner Beerdigung<lb/>
+vor ſich ein Anſehnliches aufgewendet/ und al-<lb/>
+lenthalben es an nichts ermangeln laſſen. Wel-<lb/>
+ches der Groſſe GOTT Jhm wieder reichlich<lb/>
+ſegnen und vergelten wolle/ das was Er an die-<lb/>
+ſen Frembden/ ſo wohl in der Kranckheit/ als<lb/>
+in hierauf erfolgenden ſeligen Tod/ rühmlichen<lb/>
+gethan. Sein Chriſtenthumb/ wie auch ge-<lb/>
+führtes Leben und Wandel betreffend/ kan ihm<lb/>
+mit Grund der Warheit nachgeſaget werden/<lb/>
+daß Er ein rechter Liebhaber Gottes und ſeines<lb/>
+Worts geweſen/ ſich fleißig zu demſelben gefun-<lb/>
+den/ die Predigten mit Andacht gehöret/ und<lb/>
+ſo viel möglichen ſein Leben darnach gerichtet/<lb/>
+auch ſonſten ſich eines feinen/ ſtillen/ züchtigen<lb/>
+Lebens und Wandels befliſſen/ der Demuth er-<lb/>
+geben/ und der Hoffarth Spinnenfeind gewe-<lb/>
+ſen. Und ob Er zwar ohne Sünde und Menſch-<lb/>
+licher Schwachheit nicht gelebet/ wie Er denn<lb/>
+ſeine Sünden und Gebrechen wohl gewuſt/<lb/>
+<fw place="bottom" type="catch">die-</fw><lb/>
+<pb facs="#f0009" n="9"/>
+<fw place="top" type="header"><hi rendition="#b">Lebenslauff.</hi></fw><lb/>
+dieſelbe aber baldens bereuet/ und dem lieben<lb/>
+GOTT umb gnädige Vergebung der Sünden<lb/>
+zu rechter Zeit gebeten/ maſſen Er ſich des Jah-<lb/>
+res zum offtern mit bußfertigen Hertzen im hei-<lb/>
+ligen Beichtſtuhl eingefunden/ ſeine Sünde<lb/>
+erkennet und bereuet/ und die gnädige Verge-<lb/>
+bung derſelben in CHRISTO JESU ge-<lb/>
+ſuchet/ und auch erlanget/ den wahren Leib und<lb/>
+Blut JESU CHRISTI unter dem geſeg-<lb/>
+neten Brod und Wein zur Verſicherung der<lb/>
+gnädigen Vergebung der Sünden/ würdig<lb/>
+empfangen/ und davor ſeinem lieben GOTT<lb/>
+von gantzen Hertzen gedancket. Darauf Er<lb/>
+dann in ſolchem Stand der Gnaden/ auch ſei-<lb/>
+nen Glauben durch gute Werck bewieſen/ und<lb/>
+nach der Vermahnung des Heilgen Geiſtes<lb/>
+das ungöttliche Weſen/ und die Weltlichen Lü-<lb/>
+ſte verläugnet/ und züchtig/ gerecht/ und Gott-<lb/>
+ſelig durch Gottes Krafft gelebet/ dem Groſſen<lb/>
+GOTT in aller Noth feſt vertrauet und ange-<lb/>
+ruffen; Abſonderlich aber als Er in ſeinen Jun-<lb/>
+gen-Jahren zu Troppau die wahre ſeligmachen-<lb/>
+de Religion verlaſſen/ und die Papiſtiſche an-<lb/>
+nehmen ſolte/ hat Er andächtig umb Regier-<lb/>
+ung des Heiligen Geiſtes gebeten/ da Jhme<lb/>
+<fw place="bottom" type="sig">b</fw><fw place="bottom" type="catch">denn</fw><lb/>
+<pb facs="#f0010" n="10"/>
+<fw place="top" type="header"><hi rendition="#b">Lebenslauff.</hi></fw><lb/>
+denn GOTT in Gnaden erhöret und bey dem<lb/>
+rechten Chriſtlichen Glauben erhalten/ vor<lb/>
+welche Geiſtliche und andere leibliche Wohl-<lb/>
+thaten/ Er ſeinem lieben GOTT zum öfftern<lb/>
+hertzlich gedancket. Seine lieben Eltern hat<lb/>
+Er hertzlich geliebet/ treulich gefolget/ und Sie<lb/>
+mit Vorſatz nie betrübet/ ſondern Sie nach ſei-<lb/>
+ner <hi rendition="#aq"><hi rendition="#i">Humani</hi></hi>tät und Freundlichkeit iederzeit er-<lb/>
+freuet; Dannenhero Jhnen auch dieſer früh-<lb/>
+zeitige Todesfall ihres lieben/ wohlgezogenen<lb/>
+jüngſten Sohns deſto betrübter und ſchmertz-<lb/>
+licher vorfällt. Sein liebes Geſchwiſter hat<lb/>
+Er von Hertzen und mit aller Treu gemeinet/ ja<lb/>
+Sie mehr als Brüderlich geliebet und geehret/<lb/>
+auch alles gutes anerwünſchet und ſehr freund-<lb/>
+lich mit Ihnen umbgegangen. Mit ſeinen<lb/>
+Herren Vettern/ Schwägern/ Freunden und<lb/>
+andern ſeinen neben-Chriſten und Handelsbe-<lb/>
+dienten/ hat Er friedlich und einträchtig gele-<lb/>
+bet/ und wie man im Sprichwort redet/ mit<lb/>
+Willen kein Kind erzürnet. Dem lieben Ar-<lb/>
+muth hat Er nach ſeinem Vermögen gerne und<lb/>
+reichlich mitgetheilet; Jn Summa/ Er hat<lb/>
+mit Wahrheit in ſeinem Leben und Wandel ſich<lb/>
+alſo verhalten/ daß Er das Lob eines rechtſchaf-<lb/>
+<fw place="bottom" type="catch">fenen</fw><lb/>
+<pb facs="#f0011" n="11"/>
+<fw place="top" type="header"><hi rendition="#b">Lebenslauff.</hi></fw><lb/>
+fenen Chriſten erlanget. Seine Kranckheit<lb/>
+betreffend/ iſt Er am vergangenen Sontag<lb/>
+Trinitatis/ war der 30. Maij/ von dem lieben<lb/>
+GOTT mit Unpäßlichkeit angegriffen und<lb/>
+heimgeſuchet worden/ da Er ſich denn balden ſo<lb/>
+gefühlet/ daß Er ſich zu Bette legen müſſen/<lb/>
+und über groſſe Hitz und Mattigkeit geklaget.<lb/>
+Worauf denn ſein <hi rendition="#aq"><hi rendition="#i">Patron</hi>,</hi> auf heilſame Mittel<lb/>
+bedacht und derer Herren <hi rendition="#aq"><hi rendition="#i">Medicorum</hi></hi> Rath ge-<lb/>
+pflogen/ welche auch ihren Fleiß nicht geſparet/<lb/>
+ſondern allerhand heilſame Mittel und wider<lb/>
+dieſe Kranckheit dienliche <hi rendition="#aq"><hi rendition="#i">Medicamenta</hi></hi> Jhm<lb/>
+verordnet/ und ſelbſten fleißig beſuchet/ und<lb/>
+wegen der Kranckheit/ genaue Erkundigung<lb/>
+eingezogen/ allein die <hi rendition="#aq"><hi rendition="#i">Medicamenta</hi></hi> haben<lb/>
+nichts <hi rendition="#aq"><hi rendition="#i">effectui</hi></hi>ren wollen; Sondern iſt von Tag<lb/>
+zu Tag/ ſchwächer und kräncker worden. Und<lb/>
+als ſein <hi rendition="#aq"><hi rendition="#i">Patron</hi></hi> vermercket/ daß es einen ſchlech-<lb/>
+ten Außgang nehmen mögte/ hat Er ſolche<lb/>
+traurige Poſt ſeinen lieben Eltern berichtet/<lb/>
+immittelſt aber es an guter Pfleg- und Wartung<lb/>
+nicht ermangeln laſſen. Als aber der ſelig Ver-<lb/>
+ſtorbene wohl bey ſich befunden/ daß die Zeit<lb/>
+ſeines Abſchieds vorhanden/ hat Er ſich als ein<lb/>
+Geiſtlicher Wandersmann zur letzten Reiſe ge-<lb/>
+<fw place="bottom" type="sig">b 2</fw><fw place="bottom" type="catch">ſchickt</fw><lb/>
+<pb facs="#f0012" n="12"/>
+<fw place="top" type="header"><hi rendition="#b">Lebenslauff.</hi></fw><lb/>
+ſchickt gemacht/ und nach ſeinem Herrn Beicht-<lb/>
+Vater ein hertzliches Verlangen getragen/ da<lb/>
+<hi rendition="#k">e</hi>r denn ſeine <hi rendition="#aq"><hi rendition="#i">Confesſion</hi></hi> und Beicht mit Buß-<lb/>
+fertigen Hertzen abgeleget/ die heilige <hi rendition="#aq"><hi rendition="#i">Abſolu-<lb/>
+tion</hi></hi> empfangen/ und mit dem wahren Leib und<lb/>
+Blut ſeines Erlöſers JESU CHRISTI<lb/>
+am 5. Junij ſich ſpeiſen und träncken laſſen/<lb/>
+welches Heilige Abendmahl <hi rendition="#k">e</hi>r auch mit Her-<lb/>
+tzens-Begierde genoſſen/ und ſeinem lieben<lb/>
+GOTT vor die erzeigte Gnad und Wohlthat/<lb/>
+hertzlich und inbrünſtig gedancket. Und dar-<lb/>
+auf/ zu einem ſeligen Ende wohl geſchickt ge-<lb/>
+macht/ in dem <hi rendition="#k">e</hi>r die allerſchönſten Seuffzer<lb/>
+und Gebet von ſich hören laſſen/ und der kräff-<lb/>
+tigen Troſt-Sprüche ſich erinnert/ daß wie ſein<lb/>
+Herr Beicht-Vater (<hi rendition="#aq"><hi rendition="#i">Tit.</hi></hi>) Herr <hi rendition="#aq"><hi rendition="#i">M. Chriſtianus<lb/>
+Lucius</hi>,</hi> wohlverdienter Stadt-Prediger zu<lb/>
+Dreßden/ ſelbſt bekennet/ daß <hi rendition="#k">e</hi>r ſo balden von<lb/>
+einem jungen Menſchen dergleichen nicht gehö-<lb/>
+ret. Jn ſolchen Seuffzen und guten Gedan-<lb/>
+cken iſt <hi rendition="#k">e</hi>r auch biß an ſein End verblieben/ und<lb/>
+ſeine Seele in die gnädige Vater-Hand Gottes<lb/>
+treulichſt empfohlen. Und weil Er dann auch<lb/>
+ein hertzliches Verlangen getragen/ ſeine lieben<lb/>
+Eltern noch einſtes auf der Welt zuſehen/ aber<lb/>
+<fw place="bottom" type="catch">es</fw><lb/>
+<pb facs="#f0013" n="13"/>
+<fw place="top" type="header"><hi rendition="#b">Lebenslauff.</hi></fw><lb/>
+es gleich/ wegen herzunahenden Todes für un-<lb/>
+möglich geſchätzet/ hat Er ſich zu ſeinem Princi-<lb/>
+palen und andern Umbſtehenden gewendet/<lb/>
+dieſelben hertzlich abgeſegnet/ und vor alle Gut-<lb/>
+und Wohlthaten gedancket/ und freundlichſt<lb/>
+gebeten/ ſeine lieben Eltern/ Brüder und<lb/>
+Schweſter und die gantze Freundſchafft zugrüſ-<lb/>
+ſen und viel tauſend guter Nacht zu wünſchen;<lb/>
+welches ſeine letzten Wort auf dieſer Welt ge-<lb/>
+weſen: Worauf ſich denn die Todesſtunde her-<lb/>
+zu genahet und Er gantz ſanfft und ſtill am ver-<lb/>
+wichenen Dienſtag vierzehen Tag/ war der<lb/>
+8. Junij drey viertel auf 1. Uhr Nachmittag/<lb/>
+unter dem Gebet der Umbſtehenden in ſeinen<lb/>
+Erlöſer ſanfft und ſelig eingeſchlaffen; Da Er<lb/>
+denn auf dieſer Welt länger nicht gelebet/ denn<lb/>
+24. Jahr 7. Wochen und 4. Tage. Deſſen ver-<lb/>
+blichener Cörper aber iſt darauf den 9. Junij<lb/>
+früh Morgens zu Dreßden auf den Johannis-<lb/>
+Kirchhoff beygeſetzt/ und darauf den 15. Junij<lb/>
+am Tage <hi rendition="#aq"><hi rendition="#i">Viti</hi></hi> das Leichen-Begängnüs in <hi rendition="#aq"><hi rendition="#i">præ-<lb/>
+ſentia</hi></hi> vieler vornehmen anweſenden Herren<lb/>
+und Frauen aus ſeines <hi rendition="#aq"><hi rendition="#i">Patrons</hi></hi> Wohnung ge-<lb/>
+halten/ und in der Frauen Kirchen von (<hi rendition="#aq"><hi rendition="#i">Titul</hi></hi>)<lb/>
+Herrn <hi rendition="#aq"><hi rendition="#i">M.</hi></hi> Johann Heinrich Kühnen/ eine<lb/>
+<fw place="bottom" type="sig">b 3</fw><fw place="bottom" type="catch">Chriſt-</fw><lb/>
+<pb facs="#f0014" n="14"/>
+<fw place="top" type="header"><hi rendition="#b">Lebenslauff.</hi></fw><lb/>
+Chriſtliche Leichen-Predigt verrichtet worden.<lb/>
+GOTT der Allerhöchſte habe die Seele in ſei-<lb/>
+ner Hand/ und verleihe dem verblichenen Cör-<lb/>
+per in der Erden eine ſanffte Ruhe/ und am<lb/>
+Jüngſten Tage eine fröhliche Aufferſtehung<lb/>
+zum Ewigen Leben; Tröſte alle die Leidtragen-<lb/>
+den hochbetrübten Eltern/ Brüder/ Schwe-<lb/>
+ſter und andere Freunde/ ſo ob dieſen Todt<lb/>
+ſchmertzlich betrübet/ und beſchehre uns allen/<lb/>
+<hi rendition="#c">wenn Zeit und Stunde kömmt/ eine ſeli-<lb/>
+ge Nachfahrt/ umb CHriſti wil-<lb/>
+len/ Amen.</hi></p><lb/>
+<figure/></div>
+<pb facs="#f0015" n="[15]"/>
+</body></text> </TEI>

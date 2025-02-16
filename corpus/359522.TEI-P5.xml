@@ -1,0 +1,1738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Den Todt im Leben Und das Leben im Tode</title>
+<author>
+<persName ref="http://d-nb.info/gnd/172687705">
+<surname>Klepperbein</surname>
+<forename>Vertraugott</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">49</measure>
+<measure type="tokens">10879</measure>
+<measure type="types">3669</measure>
+<measure type="characters">73762</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:09:50Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/359522</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/359522</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/359522</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/359522</idno>
+<idno type="DTADirName">359522</idno>
+<idno type="DTAID">202976</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-202976-3</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Klepperbein, Vertraugott: Den Todt im Leben Und das Leben im Tode. Schlichtingsheim (Oder), 1693.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Den Todt im Leben Und das Leben im Tode</title>
+<author>
+<persName ref="http://d-nb.info/gnd/172687705">
+<surname>Klepperbein</surname>
+<forename>Vertraugott</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">48 S.</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Johann Christoph Wild</name></publisher>
+<pubPlace>Schlichtingsheim (Oder)</pubPlace>
+<date type="publication">1693</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 F 652/1-4 / 359522</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#b"><hi rendition="#fr"><hi rendition="#in">D</hi>en <hi rendition="#in">T</hi>odt im <hi rendition="#in">L</hi>eben</hi></hi><lb/>
+Und<lb/>
+<hi rendition="#b"><hi rendition="#fr"><hi rendition="#in">D</hi>as <hi rendition="#in">L</hi>eben im <hi rendition="#in">T</hi>ode/</hi></hi></titlePart><lb/>
+<titlePart type="desc">Betrachtete<lb/>
+Bey den Hoch-Adlichen <hi rendition="#aq">Exeqvien</hi><lb/>
+Der<lb/>
+Weyland/ Hoch- und Wohl-Edelgebohrnen/ Hoch-<lb/>
+Sitt- und Tugend-belobten Frauen/<lb/>
+<hi rendition="#b"><hi rendition="#fr"><hi rendition="#in">F</hi>r.</hi> <hi rendition="#aq">MARIANA,</hi><lb/>
+von Glaubitzin gebohr. von Stoſchin/</hi><lb/>
+Des<lb/>
+Hoch- und Wohl-Edelgebohrnen/ Ritter und Herꝛen/<lb/>
+<hi rendition="#b"><hi rendition="#fr"><hi rendition="#in">H</hi>erꝛn <hi rendition="#in">H</hi>anß <hi rendition="#in">G</hi>eorge/</hi></hi><lb/>
+von Glaubitz/<lb/>
+Erb-Herꝛens auf Dalckau/ Baune/ und Großwirbitz/<lb/>
+Seeligſt erblaſten Gemahlin<lb/>
+Jn einer<lb/>
+<hi rendition="#b"><hi rendition="#in">A</hi>bdanckungs-<hi rendition="#in">R</hi>ede/</hi></titlePart></docTitle><lb/>
+<byline><docAuthor><hi rendition="#b"><hi rendition="#aq">M.</hi> Vertrau-GOtt Klepperbein</hi></docAuthor><hi rendition="#b">.</hi></byline><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docImprint><pubPlace><hi rendition="#fr">Schlichtingsheim/</hi> an der Oder</pubPlace>/ druckts <publisher>Johann Chriſtoph Wild</publisher>/ <docDate>1693</docDate>.</docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="[2]"/>
+<pb facs="#f0003" n="[3]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="dedication"><p><hi rendition="#c">Denen<lb/>
+Hoch-Edel-Gebohrnen Rittern/<lb/>
+<hi rendition="#b"><hi rendition="#fr"><hi rendition="#in">H</hi>erꝛen <hi rendition="#in">H</hi>anß <hi rendition="#in">G</hi>eorge</hi></hi><lb/>
+von Glaubitz/ Erb-Herꝛn auf Dalckau/ Baune/<lb/>
+und Großwirbitz/<lb/>
+<hi rendition="#b">Als Hoͤchſtbetruͤbten Wittiber.</hi></hi><lb/>
+<list><item><hi rendition="#b"><hi rendition="#in">H</hi>erꝛn</hi></item><item><list rendition="#rightBraced"><item><hi rendition="#b"><hi rendition="#in">S</hi>igmund/</hi></item><lb/>
+<item><hi rendition="#b">Und</hi></item><lb/>
+<item><hi rendition="#b"><hi rendition="#in">J</hi>ohanſen/</hi></item></list></item><item><hi rendition="#b">Gebruͤdern von Glaubitz/</hi></item></list><lb/>
+<hi rendition="#c">Der Seeligſt verblaſſeten hinterlaſſenen Soͤhnen/<lb/>
+<hi rendition="#fr">Wie auch denen</hi><lb/>
+Hoch-Edelgebohrnen Rittern/<lb/>
+<hi rendition="#b"><hi rendition="#fr"><hi rendition="#in">H</hi>erꝛen <hi rendition="#in">B</hi>althaſar von <hi rendition="#in">S</hi>toſch/</hi></hi><lb/>
+Herꝛn auf klein Tſchirnau/ Schkeyden/ und Baltzig/<lb/>
+<hi rendition="#b"><hi rendition="#fr"><hi rendition="#in">H</hi>erꝛn <hi rendition="#in">G</hi>eorge <hi rendition="#in">L</hi>adisla von <hi rendition="#in">S</hi>toſch/</hi></hi><lb/>
+des Loͤblichen Czauden-Rechts im Guhrauiſchen<lb/>
+Kreyſſe Hochbeſtelten <hi rendition="#aq">Asſeſſori,</hi> Herꝛn auf Ga-<lb/>
+bel und Peterwitz/<lb/>
+Als Betruͤbteſten Herꝛen Bruͤdern.</hi><lb/>
+<fw place="bottom" type="catch"><hi rendition="#fr">Als</hi></fw><lb/>
+<pb facs="#f0004" n="[4]"/>
+<hi rendition="#c"><hi rendition="#fr">Als auch</hi><lb/>
+Der Hoch-Edel-Gebohrnen Frauen/<lb/>
+<hi rendition="#b">Frauen <hi rendition="#aq">HELENA</hi> Kottwitzin/</hi> geb. <hi rendition="#b">von Stoſchin/</hi><lb/>
+Frauen auf Contop/ Bejadel und Streitelsdorff/<lb/>
+<hi rendition="#fr">Als der Seligſt Verſtorbenen</hi><lb/>
+Hoch-Leidtragenden Frauen Schweſter/<lb/>
+<hi rendition="#fr">So wohl</hi><lb/>
+Dem Hoch-Edel-Gebohrnen Ritter/<lb/>
+<hi rendition="#b">Herꝛn Adam Wentzel/</hi> von <hi rendition="#b">Kottwitz/ Herꝛn auf</hi><lb/>
+Contop/ Bejadel/ und Streitelsdorff/<lb/>
+Als der Seeligen Herꝛn Schwager;<lb/>
+<hi rendition="#fr">Jngleichen auch</hi><lb/>
+Denen Hoch-Edel-Gebohrnen Frauen/<lb/>
+<hi rendition="#b">Frauen <hi rendition="#aq">CATHARINA BEATA</hi></hi> von <hi rendition="#b">Stoſchin/</hi><lb/>
+gebohrnen von Landskron/<lb/>
+Frauen auf klein Tſchirnau/ Schkeyden/ und Baltzig/<lb/>
+<hi rendition="#b">Frauen <hi rendition="#aq">URSULA ELISABETH</hi></hi> von <hi rendition="#b">Stoſchin/</hi><lb/>
+gebohr. von Seefeld/<lb/>
+Frauen auf Gabel/ und Peterwitz/<lb/>
+Als der ſeel. Frauen/ Frauen Schwaͤgerin.</hi></p><lb/>
+<closer><salute><hi rendition="#et">Denen allerſeits Leidtragenden<lb/>
+uͤbergiebet gegenwaͤrtige<lb/>
+Abdanckungs-Rede.<lb/>
+<hi rendition="#aq">M. V. K.</hi></hi></salute></closer></div><lb/>
+<pb facs="#f0005" n="5"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsThanks" n="1">  <p><hi rendition="#c"><hi rendition="#g"><hi rendition="#in">JESUS!</hi></hi></hi></p><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">E</hi>S iſt nichts ungemeines in der</hi><lb/>
+Geſellſchafft derer Menſchen/ daß<lb/>
+ſie dehnen in dem Tode ſich entzie-<lb/>
+hen/ die ſie im Leben geliebet/ und vor<lb/>
+dehnen nach dem Tode ſich ſchenen/<lb/>
+mit welchen Sie zuvor lieblich umb-<lb/>
+gegangen.</p><lb/>
+<p>Wie koͤnnen dieſen menſchlichem Zufalle mit Recht den<lb/>
+Nahmen eines <hi rendition="#fr">Grauens</hi> und Eckels vor dem Tode beyle-<lb/>
+gen/ welchen die jenigen empfinden in Anſchauunge derer<lb/>
+Sterbenden/ da Sie doch auch werden ſterben muͤſſen;<lb/>
+Und in Erblickung todter Leichen/ da ſie eben diß/ was die-<lb/>
+ſen wiederfahren/ zugewarten haben. Es muß ja etwa bey<lb/>
+etlichen eine ſolche Furcht herꝛſchen/ daß ſie ſich einbilden/<lb/>
+wenn Sterbende/ mit halb-gebrochenen Augen einen an-<lb/>
+ſehen/ ſo wincketen Sie gleichſam denen Umſtehenden/ nach-<lb/>
+zufolgen: Oder/ daß ſie ihnen die Kranckheit und Sterbe-<lb/>
+Bette/ zum Vermaͤchtnuͤſſe hinterlaſſen; Wie auch/ wann<lb/>
+ſie dem Sarge beym Begraͤbnuͤß nachfolgeten/ Sie auch<lb/>
+Jhnen bald im Tode nachfolgen muͤſten. Daß dieſer E-<lb/>
+ckel/ nicht von der Einbildung allein/ ſondern auch ander-<lb/>
+werts her/ ſeinen Urſprung habe/ iſt leichtlich zuerweiſen.<lb/>
+GOtt ſelbſt als ein Liebhaber des Lebens/ hat gleichſam ein<lb/>
+Gehaͤge umb die todten Leichnam̃e gemachet in ſeinem hei-<lb/>
+ligen Buche/ daß niemand zu den Todten ſich nahe/ vielwe-<note place="right"><hi rendition="#aq">Num. IX.<lb/>
+&amp; XIX.</hi></note><lb/>
+<fw place="bottom" type="sig">a 3</fw><fw place="bottom" type="catch">niger</fw><lb/>
+<pb facs="#f0006" n="6"/>
+<fw type="header" place="top"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+niger ſie anruͤhre/ bey Gefahr der Verunreinigung; Ein<lb/>
+Todter verunreinigte die Zimmer/ worinnen er lag/ ja<lb/>
+auch die offene Gefaͤſſe und Geraͤthe/ die im Zimmer ſich<lb/>
+befunden/ der hinein kam wurde beflecket; Wer ein Tod-<lb/>
+ten-Gebein oder Grab anruͤhrete/ muſte ſich durch ein<lb/>
+Spreng-waſſer reinigen laſſen/ ja die Erde/ worauf ein<lb/>
+Todter lag/ war unheilig. Dieſer Verunreinigungs-Ur-<lb/>
+ſachen/ und ihr Abſehen/ ſind zwar ſonſt von andern/ zur<lb/>
+Genuͤge außgefuͤhret/ dehnen aber man gar wohl dieſes zu-<lb/>
+ſetzen kan/ daß die Jſraeliten durch ſolches Verboth/ ſich<lb/>
+vor den Todten gehuͤttet/ und alſo einen Abſcheu darfuͤr<lb/>
+bekommen. Das Kunſt-Buch deꝛ Natur/ wird gleichfals<lb/>
+hieriñ unſer geheimer Lehrmeiſter ſeyn/ welches bezeuget/<lb/>
+daß den Menſchen es eingepflantzet ſey/ viel lieber ange-<lb/>
+nehme als eckelhaffte Dinge/ anzuſchauen. Man ſiehet<lb/>
+mit Thraͤnen an die erblaſten Gebeine derer Verſtorbe-<lb/>
+nen/ man erblicket nicht ohne Mitleiden die eingeaͤſcherten<lb/>
+Staͤdte/ zerfallene Schloͤſſer/ verwuͤſtete ungeheure Pal-<lb/>
+laͤſte/ zerſtoͤhrete Haͤuſer/ verꝛenckete Glieder/ gelaͤhmete<lb/>
+und ſchadhaffte Thiere/ ja der Untergang aller Dinge iſt<lb/>
+betruͤbet; Wo nun der Tod/ als ein Koͤnig des Schreckens<lb/>
+hinkommet/ da machet er vollends alles erſchrecklich. Es<lb/>
+mercketen auch die weiſen Heyden/ daß einiger Eckel und<lb/>
+Grauen/ bey den Sterbenden und Todten ſey; Die Erde<lb/>
+wurde bey ihnen fuͤr unrein erklaͤret/ darauff ein Todter<lb/>
+lag; Wie denn keine unbillige Meynung zu bejahen/ daß<lb/>
+ſie auch deswegen ihre Todten einbalſamiret/ damit ſie ih-<lb/>
+rer Freunde Coͤrper ohn Eckel deſto laͤnger erhalten moͤch-<lb/>
+ten/ und der weiche und ſuͤßliche Todten-Geruch/ ſo ein<lb/>
+<fw type="catch" place="bottom">Grauen</fw><lb/>
+<pb facs="#f0007" n="7"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+Grauen verurſachen koͤnte/ ihnen vergienge; Dahero die<lb/>
+Egyptier und ihre Nachfolger/ ſo wohl Wohlriechende/ als<lb/>
+der Faͤuinuͤß ſteurende Gewuͤrtze und Salben gebrauchet/<lb/>
+Aloe/ Myrꝛhen/ Caſia/ Saltz/ Wachs/ Honig/ Salpeter/<lb/>
+Gummi/ Aſpalten/ Socrotiner-Safft.</p><lb/>
+<p>Welches bey der Balſamirung <hi rendition="#aq">Jacobs, Joh. Conrad<lb/>
+Dieterici in Antiqvitatibus Biblicis p. m.</hi> 150. und von ande-<lb/>
+ren Voͤlckern/ <hi rendition="#aq">Joh. Roſinus,</hi> und <hi rendition="#aq">Thomas Dempſterus in An-<lb/>
+tiqvitalibus Rom. Lib. VI. p. m.</hi> 634. auch andere mehr an-<lb/>
+gezeuget haben.</p><lb/>
+<p>Woher es denn auch kommen/ daß bey allen Voͤl-<lb/>
+ckern/ die Leichen aus den Augen der Menſchen geſchaffet<lb/>
+werden; Entweder durch Be<hi rendition="#k">e</hi>rdigung der gantzen Coͤr-<lb/>
+per/ oder durch Verbrennung des Leibes/ und Verſen-<lb/>
+ckung der noch uͤberbliebenen etlichen Gebeine. Die Be-<lb/>
+raubung eines Begraͤbnuͤſſes/ und die Wieder ausgrabung<lb/>
+der Todten/ iſt allezeit ein Abſcheu und groſſe Straffe ge-<lb/>
+weſen/ wie hiervon <hi rendition="#aq">Joh. Andreas Qvenſtedius in Tract. de<lb/>
+Sepultura Vet. c. I. II. &amp; IV.</hi> wie auch <hi rendition="#aq">Roſinus in Antiqvit.<lb/>
+Rom.</hi> erwieſen.</p><lb/>
+<p>Es muß doch der Erden/ was der Erden: Und dem<lb/>
+Himmel/ was dem Himmel gehoͤret/ abgefuͤhret und zuge-<lb/>
+ſtellet werden. Und bleibt wohl bey dieſem Eckel derer<lb/>
+Sterblichen/ bey dem/ was ein gelehrter Mann davon <hi rendition="#aq">ju-<lb/>
+dici</hi>ret: Gleichwie man bißweilen die nach dem Tode be-<lb/>
+weine/ die man im Leben gehaſſet: Alſo entziehe man ſich<lb/>
+durch einen eckelnden Haß von den jenigen im Tode/ da<lb/>
+man ſie doch im Leben geliebet. Oder wie uns <hi rendition="#aq">Seneca</hi> ein<lb/>
+Gleichnuͤß geben koͤnte: <hi rendition="#aq">Vides accidere Pueris, illi qvos a-</hi><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">mant</hi></fw><lb/>
+<pb facs="#f0008" n="8"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+<hi rendition="#aq">mant, qvibus asſveverunt, cum qvibus ludunt, ſi perſonatos<lb/>
+vident, expaveſcunt.</hi> So ziehen Sterbende gleichſam ein<lb/>
+anderes Kleid an/ das uns furchtſam machet. Es iſt aber<lb/>
+hoͤchlich zu verwundern/ daß etliche/ wo nicht alle/ eine<lb/>
+ſolche <hi rendition="#aq">Alteration</hi> uͤber den Todten empfinden/ und nicht<lb/>
+einen Eckel an der Suͤnde haben/ als der Mutter des To-<lb/>
+des/ oder in genauer Unterſuchung ihrer ſelbſt/ von ſich<lb/>
+einen Abſcheu tragen/ da ſie diß/ was Sie in Todten oder<lb/>
+Sterbenden fuͤr abſcheulich halten/ Sie ſelber an ihrem<lb/>
+ſterblichen Coͤrper alle Tage haben/ und bey ſich tragen/<lb/>
+in dem Sie des Tages bey gehendem Leibe den Tod zum<lb/>
+Gefaͤhrten/ und des Nachts zu einem Beyſchlaͤffer haben:<lb/>
+Und da alſo der Tod im Leben des Menſchen iſt/ koͤnte ein<lb/>
+Lebendiger/ vor ſich ſelbſt/ oder vor andern noch Lebendi-<lb/>
+gen ſich entſetzen. Die verſchwundenen Lebens-Tage/ und<lb/>
+die von Jugend auff zerbrechliche Huͤtte des ſchwachen<lb/>
+Leibes/ der numehro zur Ruhe kommen/ der <hi rendition="#fr">Weyland<lb/>
+Hoch- und Wohl-Edel-Gebohrnen/ Hoch-<lb/>
+Sitt- und Tugend-belobten Frauen/ <hi rendition="#in">F</hi>r.</hi><lb/>
+<hi rendition="#aq">MARIANA</hi> <hi rendition="#fr">von <hi rendition="#in">B</hi>laubitzin/ gebohrnen<lb/>
+von Stoſchin.</hi> Des <hi rendition="#fr">Hoch- und Wohl-Edel-<lb/>
+Gebohrnen Ritters/ und Herꝛen/ <hi rendition="#in">H</hi>erꝛen<lb/>
+<hi rendition="#in">H</hi>anß <hi rendition="#in">G</hi>eorge von Glaubitz/ Erb-Herꝛens<lb/>
+auf Dalckau/ Baunau/ und Großwirbitz/</hi><lb/>
+als itzo Hoch-betruͤbten Herꝛen Wittwers im Leben Ge-<lb/>
+<fw place="bottom" type="catch">liebete/</fw><lb/>
+<pb facs="#f0009" n="9"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+liebete/ und nach dem Tode Betraͤhneten Seeligſt erbla-<lb/>
+ſten Gemahlin/ geben mir Gelegenbeit/ mit Zufriedenheit<lb/>
+der Hoch-Anſehlichen <hi rendition="#fr">Trauer-Verſam̃lung/</hi> einige<lb/>
+Worte/ von dem Elend menſchlichen Lebens vorzubrin-<lb/>
+gen/ und in denſelben zuerweiſen/</p><lb/>
+<cit><quote><hi rendition="#fr"><hi rendition="#in">D</hi>aß der <hi rendition="#in">T</hi>od im <hi rendition="#in">L</hi>eben des<lb/>
+<hi rendition="#in">M</hi>enſchen/ und daß <hi rendition="#in">L</hi>eben<lb/>
+im <hi rendition="#in">T</hi>ode zu finden/ darumb<lb/>
+man ſich weder vorm <hi rendition="#in">T</hi>o-<lb/>
+de/ noch <hi rendition="#in">T</hi>oden ſcheuen ſolle.</hi></quote><bibl/></cit><lb/>
+<p><hi rendition="#aq"><hi rendition="#in">N</hi>Ullus ſit Caſus, qvem non meditatio tua præ-<lb/>
+veniat: Nullus ſit caſus, qvi te imparatum in-<lb/>
+veniat. Propone nihil eſſe, qvod tibi accide-<lb/>
+re non poſſit. Vita foveam, in qvam vides<lb/>
+alium coram te cecidiſſe. Aliorum perditio tua ſit cau-<lb/>
+tio. Dum neſcimus, repentè Mors venit. Neſcimus<lb/>
+enim qvid hodiè nobis contingat: &amp; ignoramus ſi hac<lb/>
+nocte animam noſtram conditio mortis depoſcat. <hi rendition="#k">q</hi>vo-<lb/>
+tidiè ad finem vitæ tendimus, &amp; ad mortem propera-</hi><lb/>
+<fw place="bottom" type="sig">b</fw><fw place="bottom" type="catch"><hi rendition="#aq">mus.</hi></fw><lb/>
+<pb facs="#f0010" n="10"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+<hi rendition="#aq">mus. Idcircò ſingulis horis cogitare debemus, qvò ſin-<lb/>
+gulis momentis properamus.</hi> So ſchoͤne ſtimmet mit<lb/>
+meinem Vorhaben uͤberein der fromme Kirchen-Lehrer<lb/>
+<hi rendition="#aq">Bernhardus Abbas Clora vallenſis Tom. V. Oper. Tr. de inte-<lb/>
+riori Domo c. XXVI. Edit. Lugdun. p. m.</hi> 158. Welcher Worte<lb/>
+Iñhalt eben alldar zu finden/ und dieſer iſt: <hi rendition="#aq">Mors ſemper<lb/>
+&amp; ubiq́; ex ſpectanda, qvia illa nos ubiq́; exſpectat.</hi> Den Tod<lb/>
+erwarte allenthalben/ deñ er wartet auch auf dich allenthal-<lb/>
+ben. Wir moͤgen alle Winckel deꝛ Erden anſchauen und wo<lb/>
+auch kein Wurm zu finden/ da werden wir doch des Todes<lb/>
+gewahr werden. Kaum hat ein Kind/ die Augen im Leben<lb/>
+aufgemacht/ ſo muß es dieſelben wieder in dem Tode zuma-<lb/>
+chen/ und unter der Erde ins finſtere geleget werden/ da es<lb/>
+erſt in das Tage-Licht gebracht/ ja da es ſolte anfangen zu<lb/>
+leben/ ſo hoͤret es auf zu leben. Manches wird entweder ei-<lb/>
+ne Leiche in muͤtterlichem Leibes-Sarge; Oder/ da es ein le-<lb/>
+bendiges Fleiſch haͤtte bekom̃en ſollen/ wird es in einen toden<lb/>
+Stein verwandelt/ wie davon <hi rendition="#aq">Simon Goulard</hi> eine wunder-<lb/>
+<note place="left">Beſchrei-<lb/>
+bung<lb/>
+Franck-<lb/>
+reichs.<lb/>
+<hi rendition="#aq">p.</hi> 716.</note>liche Geſchichte/ ſo in <hi rendition="#aq">Sens</hi> an einer Frau <hi rendition="#aq">Colombe Chabry</hi><lb/>
+ſich begeben/ erzehlet/ wie ſie gantzer 28. Jahr in ihrer Ehe/<lb/>
+eines ſolchen ſteinernen Kindes Laſt getragen/ und nicht<lb/>
+eher davon erloͤſet werden koͤnnen/ biß ſie GOtt ſelber auf-<lb/>
+geloͤſet/ und hernach eroͤffnet worden.</p><lb/>
+<p>Die nachfolgenden Jahre der lieblich bluͤhenden Ju-<lb/>
+gend/ haben ja ſo viel Bedienungen vom Tode/ der ihnen<lb/>
+aus der Wiege biß in den Sarg nachſchleichet/ daß ſie mit<lb/>
+guttem Recht dem Gevoͤgel und Wilde; Und der Tod dem<lb/>
+Vogelſteller und Schuͤtzen zuvergleichen. Man ſtehet ja/<lb/>
+wie ſo wohl einem Kinde/ als altem Greiſſe/ ein Sarck und<lb/>
+<fw place="bottom" type="catch">Grab</fw><lb/>
+<pb facs="#f0011" n="11"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+Grab gemachet werde. Derowegen die jenigen nicht un-<lb/>
+recht/ die da meinen/ daß vor dem ſiebenden Jahre/ die<lb/>
+Kinder nicht der Eltern/ ſondern dem Tode waͤren/ der ſie<lb/>
+vor deꝛ Zeit/ ehe ſie meiſtens die Proben deꝛ Kinder-Kranck-<lb/>
+heiten außgeſtanden/ nicht frey ſpraͤche/ weil die Kinder/<lb/>
+nach Außrechnung des <hi rendition="#aq">Avicennæ,</hi> 34. abſonderlichen<lb/>
+Kranckheiten unterworffen/ und wie hefftig ſie die Kinder<lb/>
+uͤberfallen/ und wie davon zu helffen/ von <hi rendition="#aq">Marc. Leonello<lb/>
+Faventino de Victorijs,</hi> in einem abſonderlichem Buche er-<lb/>
+wieſen worden. <hi rendition="#aq">Hieton. Mercurialis Forolivienſ. Lib. 1. p. 3.<lb/>
+de Morbis Puerorum,</hi> erzehlet von dem groſſen <hi rendition="#aq">Ariſtotele,</hi><lb/>
+daß er in dem Anfange ſeiner Sitten-Lehre an den <hi rendition="#aq">Eude-<lb/>
+mum</hi> ſchriebe: <hi rendition="#aq">Puerorum ætatem usq́; adeò &amp; doloribus<lb/>
+&amp; morbis eſſe circumſemptam, ut nemo cupiat ad pueri-<lb/>
+tiam reverti.</hi> Daß der Kinder Alter mit ſo vielen Schmer-<lb/>
+tzen und Kranckheiten umbzaͤunet ſey/ ſo/ daß niemand<lb/>
+wuͤntſche/ wieder ein Kind zu werden. Und ſetzt hinzu:<lb/>
+Daß/ da doch in Egypten vor jede Kranckheit ein abſon-<lb/>
+derlicher <hi rendition="#aq">Medicus</hi> geweſen/ dennoch keiner vor derer Kin-<lb/>
+der Kranckheit ſey gefunden worden/ entweder/ weil man<lb/>
+die Kinder muͤſſe außkrancken laſſen/ oder/ weil ſie ihren<lb/>
+Kindern gar keine Artzneyen ſo fruͤhzeitig geben wollen.<lb/>
+Kommet es ferner dazu/ daß ſie ein wenig gehaͤrtet/ und<lb/>
+mehr Menſchliche Zufaͤlle als ein Kind ertragen koͤnnen/<lb/>
+was fuͤr wunderliche Wege muͤſſen ſie gehen/ und haben<lb/>
+doch in ihrer Jugend-Leben/ den Tod zum Wegweiſer.<lb/>
+Wie offt geſchiehets/ daß der jenige/ der etwas ruͤhmli-<lb/>
+ches lernen wil/ kuͤnfftig davon zeitlich wohl zu leben muß<lb/>
+lernen wohl zu ſterben/ daß er ewiglich wohl lebe. Einer<lb/>
+<fw place="bottom" type="sig">b 2</fw><fw place="bottom" type="catch">ſchlaͤgt</fw><lb/>
+<pb facs="#f0012" n="12"/>
+<fw type="header" place="top"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+ſchlaͤgt viel Buͤcher auf/ und der Tod machet ſie ihm zu.<lb/>
+Der Andere wil als ein hurtig Pferd in die Frembde ge-<lb/>
+hen/ und der Tod ſpannet ihn ſelbſt auß/ und nimbt ihn<lb/>
+mit in ein Land/ da er noch nicht hin wolte. Der will in<lb/>
+der Kirchen GOtt dienen/ und muß auf den Kirchhoff.<lb/>
+Der andere will dehnen Menſchen/ die Richtſchnur der Ge-<lb/>
+ſetze weiſen/ und der Tod ſchneidet ihm den Lebens-Faden<lb/>
+ab. Der will durch kraͤfftige Artzneyen den Tod verja-<lb/>
+gen/ und lauffet ihm ſelber ins Garn. Jenes regierſuͤchti-<lb/>
+gem Geiſte und Heldenmuthe/ wil die gantze Welt zu enge<lb/>
+werden/ und ehe er ſichs verſieht/ ſo iſt ein enger Raum<lb/>
+der Erden groß genug vor ihn.</p><lb/>
+<p>Nicht allein aber trifft ſolches nur das Maͤnnliche<lb/>
+Geſchlecht/ ſondern auch das Weibliche; Wenn ſie in ihrer<lb/>
+ſchoͤnen Jugend/ an ſtatt des Braut-Bettes in den Sarg<lb/>
+ſich legen/ ſtatt des Hochzeit Kleides einen Sterbekittel<lb/>
+anziehen/ ſtatt eines ſchoͤnen Hauſes ihre Heimfuͤhrung<lb/>
+ins Grab und Himmel halten.</p><lb/>
+<p>Jn Erwegung dieſer Dinge moͤgen wir wohl ſagen:<lb/>
+Unſere Tage ſind einer Hand breit; Ach wie gar nichts<lb/>
+ſind alle <hi rendition="#fr">Menſchen!</hi> <hi rendition="#aq">E thalamo in tumulum!</hi> Da man<lb/>
+Roſen ſtreuen wolte/ muß man traurige Cypreſſen holen.</p><lb/>
+<p>Laſſet uns doch auch die jenigen aufffuͤhren/ welche<lb/>
+in den allerbeſten Jahren ihres vergaͤnglichen Lebens wan-<lb/>
+deln/ von ihnen zu vernehmen/ ob bey ihnen ein Vorzug<lb/>
+fuͤr allen andern zu finden/ daß ſie ſtets leben in ihrem Le-<lb/>
+ben/ keines wegs aber nicht den Tod im Leben verſpuͤhre-<lb/>
+ten. Jſt mir aber recht/ ſo hoͤre ich ein gantzes Chor ſol-<lb/>
+cher Leute/ die da einſtimmig nachfolgendes Klage-Lied an-<lb/>
+ſtimmen:</p><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">Media</hi></fw><lb/>
+<pb facs="#f0013" n="13"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+<cit><quote><hi rendition="#aq">Media vitâ in morte ſumus.</hi><lb/>
+<hi rendition="#fr">Mitten wir im Leben ſind/<lb/>
+Mit dem Tod umfangen.</hi></quote><bibl/></cit><lb/>
+<p>Und alſo muͤſſen wir nur alle mit dem <hi rendition="#aq">Senecâ</hi> aus ſei-<lb/>
+ner 24. Epiſtel klagen: <hi rendition="#aq">Qvotidiè morimur, qvotidiè enim<lb/>
+demitur aliqva pars vitæ: &amp; tunc qvoq́; cùm creſcimus, vita<lb/>
+decreſcit. Infantiam amiſimus, deindè pueritiam, deinde<lb/>
+Adoleſcentiam usq́; ad heſternum qvicqvid transijt tempo-<lb/>
+ris, perijt. Hunc ipſum qvem agimus diem, cum morte di-<lb/>
+vidimus. Qvemadmodum elepſydram non extremum ſtil-<lb/>
+licidium exhaurit, ſed qvicqvid ante defluxit; Sic ultima ho-<lb/>
+ra qva eſſe deſinimus, non ſola mortem facit, ſed ſola con-<lb/>
+ſummat. Tunc ad illam pervenimus, ſed diu venimus.</hi> Wir<lb/>
+ſterben taͤglich/ und je laͤnger wir leben/ je naͤher kommen<lb/>
+wir zum Tode.</p><lb/>
+<p>Jſt es demnach alſo <hi rendition="#fr">Hoch-Anſehliche Trauer-<lb/>
+Verſam̃lung/</hi> daß auch dieſe/ zeugen meiner Rede ſein<lb/>
+wollen/ ſo doͤrffen wir nicht erſt bey den Haͤuſern dehrer<lb/>
+Lebensſatt- und muͤden-grauen Haͤuptern anklopffen/ um̃<lb/>
+ihre Meynung ſie anzuhalten/ was ſie deñ von dem menſch-<lb/>
+lichen Leben/ aus ihrer ſelbſt eigenen Erfahrung urtheilen.<lb/>
+Jhr faſt erkalter Leib/ wird ein vollkom̃ner Redner ſeyn/<lb/>
+wie er ſich mit aller Gewalt/ von Kindes Beinen an/ bis<lb/>
+an die Zeiten/ da ſie itzo zum andern mahl Kinder gewor-<lb/>
+den/ ſich des Todes kaum erwaͤhren koͤnnen/ und ihme<lb/>
+manchen Sturm durch Artzney abſchlagen muͤſſen/ weil<lb/>
+er eine ſtete Belaͤgerung mit kraͤncklichen Anlauffen umb<lb/>
+<fw place="bottom" type="sig">b 3</fw><fw place="bottom" type="catch">ihren</fw><lb/>
+<pb facs="#f0014" n="14"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+<note place="left"><hi rendition="#aq">Bismar-<lb/>
+cus in vi-<lb/>
+tis vario-<lb/>
+rum vita<lb/>
+Joh. Stu-<lb/>
+tionis.</hi></note>ihren Leib gehabet. Sie bekennen mit dem <hi rendition="#aq">Poëten Ale-<lb/>
+xis,</hi> der/ weil er bey ſehr hohem Alter gar langſam gieng/<lb/>
+und gefraget worden/ was er mache? Zur Antwort ge-<lb/>
+geben: <hi rendition="#aq">Pededentim morior,</hi> ich ſterbe allmaͤhlich. Gab<lb/>
+hiermit zu verſtehen/ daß die Alten faſt nicht mehr lebeten/<lb/>
+ſondern langſam ſtuͤrben/ dahero auch <hi rendition="#aq">Senex</hi> ſo viel als<lb/>
+<hi rendition="#aq">Seminex,</hi> oder <hi rendition="#aq">Semi mortuus,</hi> ein halb Todter heiſſen ſoll.</p><lb/>
+<p>Vielen ſteiget der Tod im Leben zu dem Fenſter ein/<lb/>
+daß ihre Augen tunckel werden/ und das Tagelicht gleich-<lb/>
+ſam mit einem Flor uͤberzogen wird. Vielen leget er Feſ-<lb/>
+ſel an die Beine/ daß ſie nicht gehen koͤnnen. Anderen ver-<lb/>
+ſtopffet er die Lufftroͤhre: Ohne was er ſonſten mehr fuͤr<lb/>
+Erfindungen hat.</p><lb/>
+<p>Gleichwie aber nichts in der Welt anzutreffen/ daß<lb/>
+ſeine Urſachen nicht haben ſolte: Alſo wuͤrde auch nicht<lb/>
+der Tod im Leben ſeyn/ wenn er nicht allenthalben Anlaß<lb/>
+genug findete. Eben daß jenige/ daß uns das Leben erhal-<lb/>
+ten ſoll/ hat in ſich ſolche heimliche Wuͤrckungen/ daß wir<lb/>
+dadurch das Leben verliehren/ wiewohl dieſes meiſtens<lb/>
+durch den Mißbrauch zulaͤßiger/ und heylſamer Sachen<lb/>
+befoͤdert wird. Etliche Tropffen einer kuͤnſtlich zubereite-<lb/>
+ten Artzney jagen den Tod auß des Krancken Leibe; Und<lb/>
+zuviel von denſelben eingenommen/ nehmen den Tod ein.<lb/>
+Heimliche Nachſtellungen beruͤcken den jenigen/ der durch<lb/>
+einen Feind offentlich nicht haͤtte koͤnnen gefangen werden.</p><lb/>
+<p>Die Geſellen des Todes/ verkleiden ſich vielmahl in<lb/>
+treue Gehuͤlffen des Lebens. Alles/ was uns ſonſten nach<lb/>
+dem ordentlichen Lauff der Natur/ und guͤttigen Boeſor-<lb/>
+ge des Himmels/ unſere Leiber erhaͤlt/ ſchadet zu anderen<lb/>
+<fw place="bottom" type="catch">Zeiten/</fw><lb/>
+<pb facs="#f0015" n="15"/>
+<fw type="header" place="top"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+Zeiten/ und zerſtoͤret/ was es haͤtte bauen ſollen. Es iſt<lb/>
+alles unſer Vernunfft aͤhnlich/ und der Erfahrung bekañt.<lb/>
+Schauet an die ſonſt ſo geneñten Elementen/ ſehet an die<lb/>
+Speiſen und Traͤncke/ erweget die Kleider/ betrachtet das<lb/>
+gantze menſchliche Leben/ ſo werdet ihr es zu geſtehen.</p><lb/>
+<p>Die Lufft wird zur Zeit der Peſt in manchen Orthen<lb/>
+zu klarem Gifft/ das alle ſterben; Wenn ſie meinen/ friſche<lb/>
+Lufft zu ſchoͤpffen/ ſo haben ſie einen Trunck des Todes ge-<lb/>
+ſchoͤpffet. Der kan die Lufft nicht vertragen/ und der an-<lb/>
+der hat keine Lufft mehr/ und muß erſticken.</p><lb/>
+<p>Ein Schiff auf dem Waſſer iſt eine Bruͤcke der See-<lb/>
+fahrenden; Es verſchlinget aber vielmahl die Bruͤcke ſam̃t<lb/>
+denen/ die ſich ihm vertrauet/ und die jenigen/ welche den<lb/>
+fluͤchtigen Schiffen zuſehen/ muͤſſen bekennen/ daß nicht et-<lb/>
+wan nur ein Schritt zwiſchen ihnen und dem Tode/ ſon-<lb/>
+dern wohl gar nur ſo dicke/ als die Bohle des Schiffes; ſo<lb/>
+weit ſey auch der Tod von ihme; Jm Schiffe ſey das Le-<lb/>
+ben/ auſſer dem aber der Tod. Und ob ſie gleich nicht alle<lb/>
+auf dem todten Meere ſchiffen/ ſo hat doch alles Waſſer<lb/>
+gleiche Gewalt/ ſo/ daß in einen jeden Fluß/ Brunn/ und<lb/>
+Teich/ worinnen nur ein Menſch umbkommen kan/ eine<lb/>
+Ader aus dem todten Meere zugehen ſcheine; Wie denn<lb/>
+nicht unbekañt/ das aus vergiffteten Brunnen bey etlichen<lb/>
+ſtatt des Waſſers/ der Tod geholet worden/ auf den Rei-<lb/>
+ſen Waſſer gefunden wuͤrde/ daraus ſo daß Vieh trincket/<lb/>
+ſterbe/ die Menſchen aber/ ohne Schaden den Durſt leſchen<lb/>
+koͤnnen: Andere Waͤſſer ſind dieſem hinwieder eine Artz-<lb/>
+ney/ dem andern eine Gifft/ ja gar die Geſund-Brunnen<lb/>
+und Baͤder geben einem die Geſundheit/ dem andern neh-<lb/>
+<fw type="catch" place="bottom">men</fw><lb/>
+<pb facs="#f0016" n="16"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+men ſie dieſelbe. Was ſteigen nicht vor ſchaͤdliche Duͤnſte<lb/>
+aus der Erden. Manch ſtinckender Nebel iſt der Geruch<lb/>
+des Todes. Gifftige Erden und Steine findet man ofters<lb/>
+in den Bergwercken. Jn einem Orte iſts auch viel geſuͤn-<lb/>
+der zu wohnen als im anderen.</p><lb/>
+<p>Das Feuer verzehret viel Menſchen in Naͤchtlichen<lb/>
+und unverſehenen Feuers-Bruͤnſten. Man ſtellet viel tau-<lb/>
+ſend Perſonen durchs Feuer in den Minen nach ſie auf<lb/>
+einmahl zubegraben. Durchs Feuer und Buͤchſen-pulver<lb/>
+und darzu gehoͤrigen <hi rendition="#aq">Inſtrumen</hi>ten/ welches unter zwey<lb/>
+Scheffel Weitzen-Mehlgethan/ wolte ein Muͤller dem Her-<lb/>
+tzog von <hi rendition="#aq">Eſpernon,</hi> als er zu <hi rendition="#aq">Brignolle</hi> auf einem Saale<lb/>
+Taffel hielt/ das Leben nehmen/ es geſchahe aber/ daß/ ob<lb/>
+gleich das Zimmer-Dach und viel vornehme Leute bey gaͤh-<lb/>
+linger Entzuͤndung in die Lufft flogen/ der Hertzog den-<lb/>
+noch wunderlich bey Leben erhalten/ und auf einer Gaſ-<lb/>
+ſen/ ſeinen Stuhl/ darauf er geſeſſen/ haltende gefunden<lb/>
+worden. Die Speiſen werden offt mit Gifft gewuͤrtzet.<lb/>
+Etliche ſind hoͤchſt ſchaͤdlich/ und werden doch mit groſſer<lb/>
+Begierde genommen/ und die Geſundeſten/ achtet man<lb/>
+fuͤr gar zu ſchlecht/ und wie jene von den <hi rendition="#aq">Coloqvin</hi>ten ſag-<lb/>
+ten: <hi rendition="#fr">Der Tod in Toͤpffen/</hi> ſo kan man von vielen an-<lb/>
+deren Speiſen und Getraͤncken ſagen: <hi rendition="#fr">Der Tod in<lb/>
+Toͤpffen/</hi> Schuͤſſeln/ Glaͤſern/ Schalen. Die frembde<lb/>
+und außlaͤndige Speiſen/ haben frembde Kranckheiten<lb/>
+mitgebracht/ und die Maͤnge dehrer Einheimiſchen ver-<lb/>
+urſachen Ungeſundheit/ womit man den Tod in ſeinem<lb/>
+Leibe ernaͤhret/ zu geſchweigen/ wie man mit Gifft in den<lb/>
+<fw place="bottom" type="catch">Spei-</fw><lb/>
+<pb facs="#f0017" n="17"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+Speiſen/ groſſen Haͤuptern nachgeſtellet/ ſie aus dem We-<lb/>
+ge zu raͤumen. <hi rendition="#aq">Nero,</hi> eine Mißgeburth unter den Heyd-<lb/>
+niſchen Kayſern/ lies Gifft unter die Piltze ſtreuen/ damit<lb/>
+viel Vornehme den Tod gefreſſen. Er nennete es aber ei-<lb/>
+ne Goͤtter-Speiſe/ weil ſie darzu behuͤlfflich waren/ daß<lb/>
+die/ ſo davon etwas genoſſen/ unter die Goͤtter gezehlet<lb/>
+werden konten. Wie <hi rendition="#aq">Cocton</hi> und noch eine Frau/ durch<lb/>
+zauberiſche Vergifftung/ nicht allein uͤber 4000. Men-<lb/>
+ſchen/ durch Gifft umbgebracht/ ſondern auch durch Sup-<lb/>
+pen oder vergifftetes Fleiſch den Menſchen nachgeſtellet/<lb/>
+wie auch in die Waſſer-Eymer/ und Brunnen ſelber/ Gifft<lb/>
+geworffen/ alſo/ daß/ wenn die Leute daraus getruncken/<lb/>
+ſelbige ſtracks bey dem Brunnen todt dahin gefallen/ und<lb/>
+die/ ſo etwas aus ſelbigen Brunnen-Waſſer gekocht/ eines<lb/>
+jaͤhen Todes ſterben muͤſſen. Wie <hi rendition="#aq">Madame de Brinvillers,</hi><lb/>
+die ihrem Vater/ den Herꝛen <hi rendition="#aq">de Aubray,</hi> und ihre Bruͤ-<lb/>
+der/ auch etliche Vornehmere durch Gifft in Speiſen hin-<lb/>
+gerichtet/ eine Flaſche wohlriechendes Gifft-Waſſer ge-<lb/>
+habt/ davon ein Theil in drey/ oder 8. Tagen/ ein Theil im<lb/>
+Monath/ ein Jahr/ ja auch zwey Jahr ſterben muͤſſen/ iſt<lb/>
+in den Geſchichten Franckreichs/ bey den Jahren 1676.<lb/>
+und 80. zu finden.</p><lb/>
+<p>Was die Kleidung anbelanget/ ſo iſt genugſam be-<lb/>
+wuſt/ daß der Todt auch darein ſich verkleide/ wenn aus<lb/>
+<hi rendition="#aq">inficir</hi>ten Orten durch die Kleider die Peſt in andere ge-<lb/>
+ſunde Haͤuſer geſchleppet worden. <hi rendition="#aq">Otto III.</hi> bekam von<lb/>
+<hi rendition="#aq">Creſcentij</hi> Wittib/ welche regierſichtig war/ ſtatt eines lieb-<lb/>
+reitzendes Geſchenckes/ ein paar vergifftete Handſchuch/<note place="right"><hi rendition="#aq">Buno in<lb/>
+Ideâ Hiſt.<lb/>
+p.</hi> 163.</note><lb/>
+durch derer Gifft er in der ſchoͤnſten Bluͤte ſeiner Jugend/<lb/>
+erblaſſen muſte.</p><lb/>
+<fw place="bottom" type="sig">c</fw><fw place="bottom" type="catch">Ein</fw><lb/>
+<pb facs="#f0018" n="18"/>
+<fw type="header" place="top"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+<p>Ein Gelehrter/ wenn er zwiſchen ſeinen Buͤchern/<lb/>
+als in einem Gefaͤngnuͤſſe ſitzet/ ſo hat er ſtumme und todte<lb/>
+Lehrmeiſter/ und ſitzet unter den Todten. Mancher lie-<lb/>
+ſet in einem Buche/ und ſauget ſich den Seelen-Tod dar-<lb/>
+aus/ der ander/ das Leben.</p><lb/>
+<p>Bibliothecken ſind Zeughaͤuſer/ darinn viel Schilde<lb/>
+und allerhand Gewaͤhre/ damit zu fechten; Der Tod aber<lb/>
+laͤſt ſich doch nichts anfechten/ er ſetzet Buͤcher und zugleich<lb/>
+Leſer derſelben in ſeine Toden-Rolle. Ja/ es ſind auch ver-<lb/>
+<note place="left"><hi rendition="#aq">Bogisl.<lb/>
+Philipp. à<lb/>
+Chem-<lb/>
+nitz. Vo-<lb/>
+lum. 1.<lb/>
+Hiſt. L. 2.<lb/>
+cit.</hi> in<lb/>
+Gott-<lb/>
+holds<lb/>
+And.<lb/>
+<hi rendition="#aq">Cent. IV.<lb/>
+p.</hi> 231.</note>gifftete Buͤcher gefunden worden/ wie dem <hi rendition="#aq">Guſtavo Adol-<lb/>
+pho Sveciæ Regi,</hi> ein ſo ſtarck vergifftetes Buch dargebo-<lb/>
+then/ daß bey deſſen Eroͤffnung/ es ihme mit ſeinem Dampff<lb/>
+und Geruch den Tod beybringen ſolte.</p><lb/>
+<p>Jch koͤnte noch viel andere Dinge mehr/ ſo zu mei-<lb/>
+nem Vorhaben dienen wuͤrden hier anfuͤhren/ ich wil a-<lb/>
+ber mit denen was ſchon gegenwaͤrtig mich vergnuͤgen/<lb/>
+ich will auch nicht anfuͤhren/ wie bey der Unfruchtbarkeit<lb/>
+in der Ehe die Leiber vor erſtorben geachtet worden/ deſſen<lb/>
+<hi rendition="#aq">Abraham</hi> und <hi rendition="#aq">Sara</hi> zeugen. <hi rendition="#aq">Rom. IV, 19. Ebr. XI. v.</hi> 12. Jch<lb/>
+will mit Stillſchweigen uͤbergehen nicht allein/ wie des <hi rendition="#aq">Na-<lb/>
+bals</hi> Hertz in ſeinem Leibe vor Erſchrecknuͤs geſtorben/ und<lb/>
+er dennoch noch gelebet. 1. <hi rendition="#aq">Sam. XXV,</hi> 37. Sondern auch/<lb/>
+daß etliche ihrer Unehre nach/ ihrer Beſchuͤmpffung/ und<lb/>
+ungoͤttlichen Wandels halber vor Buͤrgerlich todt gehal-<lb/>
+ten werden/ denen man wol zuruffen moͤchte/ du haſt den<lb/>
+Nahmen/ daß du lebeſt/ und biſt todt. <hi rendition="#aq">Apoc. III,</hi> 1. Es iſt<lb/>
+auch zur Genuͤge bekañt/ wie die Glaͤubigen der Welt und<lb/>
+ihnen ſelber abſterben/ und alſo wandeln/ als wenn ſie<lb/>
+ſchon im Himmel waͤren/ da ſie doch noch ihre irꝛdiſche<lb/>
+<fw type="catch" place="bottom">Haͤuſer</fw><lb/>
+<pb facs="#f0019" n="19"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+Haͤuſer beſitzen. Es wird aber ohne dem die Erfahrung<lb/>
+ſelber vor mich reden/ und die jenigen werden mir Glau-<lb/>
+ben geben/ die auf ſich und das menſchliche Leben achtung<lb/>
+geben/ nemlich: Daß das menſchliche Leben mit dem Tode<lb/>
+umbgeben/ und dahero in ihrem Leben der Tod ſey/ damit<lb/>
+aber niemand in dem ohne des bekuͤmmerten Leben mit<lb/>
+mehrem Kummer beleget werde/ will ich mit wenigen zu<lb/>
+einer Erqvickung annoch anfuͤhren/ daß die in ihrem Leben<lb/>
+den Tod bey ſich tragen/ in ihrem Tode zu ihrer groͤſten<lb/>
+Vergnuͤgung das Leben haben/ und ſich daher vor dem<lb/>
+Tode/ noch Todten ſcheuen doͤrffen. Hier koͤnte wohl ein<lb/>
+in Goͤttlichen Dingen unbewandertes ſich angeben/ daß<lb/>
+es zwar jenes zu glauben uͤberwunden ſey/ aber in dieſem<lb/>
+ſich nicht wuͤrde uͤberꝛeden laſſen/ weil es wo nicht gar un-<lb/>
+glaublich/ doch zum wenigſten ſehr ſchwer zu behaupten:<lb/>
+Wie ein Sterbender erſt anfahe recht zu leben/ und ein<lb/>
+Todter allbereit noch lebe. Allein es iſt die unlaugbahre<lb/>
+Warheit/ daß Leben ſey im Tode. Wir ſondern uns aber<lb/>
+hier ab von allen Meinungen/ derer die theils kein Leben<lb/>
+nach dem Tode/ keine lebendige Seele im Menſchen/ theils<lb/>
+eine ſterbliche Seele/ und folgends keine Aufferſtehung/<lb/>
+noch Ewigkeit <hi rendition="#aq">ſtatuire</hi>ten. Seltzame Traͤume haben ihreꝛ<lb/>
+viel hiervon gehabet. Man meinet gar/ als weñ ſchon<lb/>
+<hi rendition="#aq">Adam</hi> als ein Vater aller Lebendigen in ſeiner Hauß-Kir-<lb/>
+chen einen ſo wunderlichen Sohn gehabet/ der weder Ge-<lb/>
+richte/ noch einen Richter/ weder Straffen vor die Gott-<note place="right"><hi rendition="#aq">Targum.<lb/>
+Hieroſol:<lb/>
+in Para-<lb/>
+phr. c. IV.</hi></note><lb/>
+loſen/ noch Lohn vor die From̃en/ und alſo kein Leben nach<lb/>
+dem Tode ſich einbilden koͤnnen.</p><lb/>
+<fw place="bottom" type="sig">c 2</fw><fw place="bottom" type="catch"><hi rendition="#aq">Ariſto-</hi></fw><lb/>
+<pb facs="#f0020" n="20"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+<p><hi rendition="#aq">Ariſtoxenus Philoſophus,</hi> und <hi rendition="#aq">Dicæarchus Peripateti-<lb/>
+cus,</hi> verlaͤngneten die Seele gar in dem menſchlichen Leibe/<lb/>
+vorgebende/ daß ein Glied das andere triebe/ und die Wuͤr-<lb/>
+ckungen aus einer Gleichfoͤrm̃igen Ubereinſtimmung her-<lb/>
+kaͤmen. Ob nun gleich andere eine Seele ſelbſten verſpuͤh-<lb/>
+ret/ ſo haben ſie doch nicht ſolche Schluß-Reden gema-<lb/>
+chet/ die von einer vernuͤnfftigen Seelen herſtammeten.<lb/>
+<hi rendition="#aq">Aratus, Zeno, Tatianus, Apollinaris, Alexandrinus, Ari-<lb/>
+ſtoteles, Plinius, Galenus, Lucretius, Epicurus,</hi> und an-<lb/>
+dere haben die Seelen der Menſchen vor ſterblich gehal-<lb/>
+ten/ wie denn auch/ was etliche Roͤmer nebſt andern ge-<lb/>
+glaubet/ aus ihren Grab-Schrifften genugſamb be-<lb/>
+kandt/ als <hi rendition="#aq">Ede, bibe, lude, reliqva ne digitorum qvi-<lb/>
+dem ſtrepitu digna ſunt. Qvo vadam neſcio, invitus mo-<lb/>
+rior. Vixi qvemadmodum volui, qvare mortuus ſim neſ-<lb/>
+cio. Vixi, &amp; ultra vitam nihil credidi.</hi> Sie gedachten es<lb/>
+wuͤchſe und nehme ab die Seele mit wachſenden/ und ab-<lb/>
+nehmenden Kraͤfften/ und verginge gleich wie eine Lampe<lb/>
+der-Oel mangele/ und wie ein Nebel der ſich verzeucht.<lb/>
+Klugere Reden wolten andere hervor bringen/ und irꝛeten<lb/>
+doch ſehr/ wenn ſie gleich die Seele unſterblich macheten/<lb/>
+<hi rendition="#aq">Averrhoes</hi> und <hi rendition="#aq">Themiſtius</hi> ſagten: Es waͤre nur eine See-<lb/>
+le/ welche alle Menſchen bewegete. Die Egyptier glaube-<lb/>
+ten mit dem <hi rendition="#aq">Pythagora,</hi> etliche Juden mit dem <hi rendition="#aq">Carpocrate,</hi><lb/>
+und <hi rendition="#aq">Baſilide,</hi> daß die Seelen nach dem Tode in andere Coͤr-<lb/>
+per wanderten/ ſo daß wenn einer ſtuͤrbe/ empfinge gleich<lb/>
+ein angehendes Kind/ deſſen Seele. Die <hi rendition="#aq">Manichæer</hi> leh-<lb/>
+reten die Seele des Menſchen kehre zur Herberge ein bey<lb/>
+den Thieren/ die ſie in der Welt entweder geliebet/ oder auch<lb/>
+<fw place="bottom" type="catch">wohl</fw><lb/>
+<pb facs="#f0021" n="21"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+wohl gar geſchlachtet. <hi rendition="#aq">Plato</hi> in ſeinem Buche von der<lb/>
+Seelen geſtehet wohl/ daß ſie unſterblich/ doch alſo/ daß<lb/>
+eine Seele nach und nach in vielen Coͤrpern Dienſte thun<lb/>
+koͤnte/ und einerley Tugend außrichtete/ welches er mit ei-<lb/>
+nem faͤhigen <hi rendition="#aq">Ingenio</hi> zu erweiſen vermeinet/ welches eine<lb/>
+Sache ſo geſchwinde faſſen koͤnte/ als wenn es nicht erſt<lb/>
+ſolches lernete/ ſondern es vor ſchon gewuſt/ itzo aber nur<lb/>
+gleichſam wiederhohle/ und ſich ſo leicht deſſen erꝛinnerte/<lb/>
+vermoͤge der ihme geſchenckten Seele eines ſolchen gelehr-<lb/>
+ten Mannes/ der ſolche Wiſſenſchafft kundig geweſen/ wel-<lb/>
+ches alles <hi rendition="#aq">Plato</hi> aus der <hi rendition="#aq">Poëten</hi> luͤgenhafften <hi rendition="#aq">Fabeln</hi> her<lb/>
+hatte/ wie deñ <hi rendition="#aq">Ovidius lib. XV. Metamorph.</hi> Als auch die<lb/>
+ſein Leben beſchrieben/ den <hi rendition="#aq">Pythagoram</hi> redend einfuͤhret:<lb/>
+Er der <hi rendition="#aq">Pythagoras</hi> waͤre ſeiner Seelen nach ſchon vor etli-<note place="right"><hi rendition="#aq">Confer.<lb/>
+Roſini &amp;<lb/>
+Dempſte-<lb/>
+ri Anti-<lb/>
+qvit.<lb/>
+Rom. p.<lb/>
+m. 943.<lb/>
+libr. IX.</hi></note><lb/>
+chen hundert Jahren im <hi rendition="#aq">Trojani</hi>ſchen Kriege geweſen/ die-<lb/>
+ſelben Waffen und Soldaten waͤren ihm gar wohl bekañt/<lb/>
+er waͤre dazumahl <hi rendition="#aq">Euphorbus</hi> geweſen/ nach deſſen Todte<lb/>
+ſey ſeine Seele in <hi rendition="#aq">Callidem</hi> gefahren/ darnach in <hi rendition="#aq">Hermoti-<lb/>
+mum,</hi> endlich in <hi rendition="#aq">Pyrrhum,</hi> und letzlich ſey er erſt <hi rendition="#aq">Pythago-<lb/>
+ras</hi> worden/ verneinete aber nicht/ daß auch menſchliche<lb/>
+Seelen in die Thiere fuͤhren/ von welchen die Menſchen<lb/>
+ſolche wieder ererbeten/ und alſobald den Menſchen/ bald<lb/>
+wilden Vieh an Laſtern und Tugenden aͤhnlich und gleich<lb/>
+waͤren/ und wuͤrden alſo ſolche Seelen durch immerwaͤ-<lb/>
+rende Fortpflantzung verewiget. Die <hi rendition="#aq">Pſychopannichy</hi>ten<lb/>
+bildeten ihnen ein die Seelen ſtuͤrben zwar nicht/ ſie ſchlief-<lb/>
+fen aber in einem gewiſſen Orthe/ bis an den Juͤngſten<lb/>
+Tag/ es verirꝛeten ſich auch etliche Aberglaͤubiſche bis un-<lb/>
+ter die Sternen/ ſich damit troͤſtende/ die Seelen wuͤrden<lb/>
+<fw place="bottom" type="sig">c 3</fw><fw place="bottom" type="catch">zu</fw><lb/>
+<pb facs="#f0022" n="22"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+zu Sternen. Es mangelte auch nicht an ſolchen Leuten/<lb/>
+die vor gegeben/ aus den Seelen wuͤrden junge Teufel/ und<lb/>
+herumb irꝛende Geſpenſter/ ſie gienge wieder zuruͤck zu der<lb/>
+allgemeinen Seele der Welt/ die ſo genañten <hi rendition="#aq">Arabici</hi> lehre-<lb/>
+ten/ die Seele ſtuͤrbe zwar mit dem Leibe/ wuͤrde aber auch<lb/>
+mit derſelben aufferwecket werden. O was ſind demnach<lb/>
+nicht vor Mißgeburthen in ſolchen Einbildungen/ derer<lb/>
+viel mit ihrem Schaden werden gezwungen worden ſeyn/<lb/>
+ein anderes zu lernen/ und zu glauben. Zu wuͤntſchen waͤ-<lb/>
+re es/ das keiner zu unſeren Zeiten die Seele vor ſterblich/<lb/>
+und die Aufferſtehung vor eine <hi rendition="#aq">Fabel</hi> hielte. Gewißlich<lb/>
+vor die Gottloſen und Verdam̃ten waͤre es ein koͤſtliches<lb/>
+Thun/ wenn alles mit dem Leben aus/ und keine Rechen-<lb/>
+ſchafft vor ein wolluͤſterndes Leben gefodert wuͤrde. Sehr<lb/>
+<note place="left"><hi rendition="#aq">Lib. IV.<lb/>
+Stroma-<lb/>
+tum p.</hi> 359</note>wohl redet hiervon <hi rendition="#aq">Clemens Alexandrinus. Eſſet enim re-<lb/>
+vera mala vita epulum, qvi poſtqvam omnia commiſerunt<lb/>
+ſcelera, deinde moriuntur, &amp; ſi non eſſet anima immorta-<lb/>
+lis, mors eſſet lucrum.</hi> Es wuͤrde gut ſeyn vor die heuti-<lb/>
+gen <hi rendition="#aq">Athei</hi>ſten/ welche auch dieſen Glauben haben die Seele<lb/>
+waͤre ſterblich derer Gruͤnde und irꝛige Meinung erzehlet/<lb/>
+und wiederleget hat/ in einem abſonderlichen Buch <hi rendition="#aq">Johan-</hi><lb/>
+<note place="left">Jn der be-<lb/>
+fiegten<lb/>
+Atheiſterey<lb/>
+<hi rendition="#aq">p.</hi> 483.<lb/>
+und 507.</note><hi rendition="#aq">nes Laſſenius.</hi> Bey dieſen vielfaͤltigen Meinungen von der<lb/>
+Seelen Sterbligkeit/ oder Unſterbligkeit iſt dieſes gewiß<lb/>
+nicht zu uͤbergehen/ daß die Betrachtung der Seelen viel<lb/>
+zu groſſer Weißheit gefuͤhret/ und ihnen eine Leiter gewe-<lb/>
+ſen in Goͤttlichen Dingen hoͤher zu ſteigen/ auch etwas<lb/>
+Herꝛliches und Goͤttliches in der Seelen verſpuͤhret.</p><lb/>
+<p><hi rendition="#aq">Seneca</hi> hat in der <hi rendition="#aq">Epla 13. ad Lucilium</hi> wohl geredet/<lb/>
+wenn er ſpricht: <hi rendition="#aq">Animam qvid aliud voces qvam Deum in</hi><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">corpore</hi></fw><lb/>
+<pb facs="#f0023" n="23"/>
+<fw type="header" place="top"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+<hi rendition="#aq">corpore humano hoſpitem. Ariſtoteles</hi> theilete ihr die Wuͤr-<lb/>
+ckungen zu/ daß eine geſunde/ geſchickte/ und feine Seele/<lb/>
+einen geſunden/ geſchickten/ und feinen Leib mache. Was<lb/>
+hat nicht vor Fleiß angewendet <hi rendition="#aq">Julius Cæſar, Scaliger,</hi> in<lb/>
+den Buͤchern <hi rendition="#aq">de Subtilitate ad Cardanum,</hi> allwo er an un-<lb/>
+terſchiedenen Orthen viel Dinge/ ſo die Wuͤrckungen der<lb/>
+Seelen betreffen/ angefuͤhret/ der viel ſeines gleichen hat/<lb/>
+welche alle Kraͤffte ihrer Seelen angewendet/ von der See-<lb/>
+len recht zu reden. Was aber das Leben nach und in dem<lb/>
+Tode anlanget/ ſo iſt zwiſchen einem eiteln Welt/ und zwi-<lb/>
+ſchen einem Him̃liſch-gefiñten eine groſſe Klufft befeſtiget/<lb/>
+ſie gehen zur Lincken durch den Wegweiſer des Jrꝛlichtes<lb/>
+ihrer Vernunfft/ wir aber zur Rechten durch den Leit-<lb/>
+Stern der Heiligen Schrifft.</p><lb/>
+<p>Die heilige Schrifft zeiget faſt auff allen Blaͤttern<lb/>
+von dem Leben nach dem Tode/ in dem ſie weiſet/ daß die<lb/>
+Seele unſterblich ſey/ dannenhero die Seele vor/ in- und<lb/>
+nach dem Tode immer lebet/ und ſie nicht ſtirbet/ ob gleich<lb/>
+der Leib ſtirbet/ und ſie/ die Seele/ aus ihrer Wohnung<lb/>
+weichet. Daß aber die Seele gewiß unſterblich/ koͤnnen<lb/>
+wir allein aus dem geoffenbarten Worte GOttes lernen;<lb/>
+Die Vernunfft nebſt der Welt-Weißheit/ lallen nur von<lb/>
+der Seelen Unſterbligkeit etwas ungewiſſes. Wann un-<lb/>
+ſere Seele ſterben koͤnte/ wie der Leib/ ſo wuͤrde unſer Hey-<lb/>
+land nicht/ beym <hi rendition="#aq">Mattheo X,</hi> 28. geſaget haben: Fuͤrchtet<lb/>
+euch nicht fuͤr dehnen/ die den Leib toͤdten/ und die Seele<lb/>
+nicht moͤgen toͤdten. Fuͤrchtet euch aber vielmehr vor<lb/>
+dem/ der Leib und Seele verderben mag in die Hoͤlle. Es<lb/>
+iſt gewiß/ daß die Seele alſo lebe/ daß ſie nicht koͤnne ſter-<lb/>
+<fw type="catch" place="bottom">ben/</fw><lb/>
+<pb facs="#f0024" n="24"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+ben/ noch getoͤdtet werden. Der Leib/ weil er dem Tode<lb/>
+unterworffen/ muß und kan ſterben; Die Seele aber/ weil<lb/>
+ſie aus nichts erſchaffen; So kan auch nichts in der Welt<lb/>
+ſeyn/ daß ſie umbringe. Der Leib gehet in die Erde/ die<lb/>
+Seele zu GOtt/ davon <hi rendition="#aq">Auguſtinus</hi> auf ſolche Weiſe redet:<lb/>
+<note place="left"><hi rendition="#aq">Lib. X. de<lb/>
+Geneſi ad<lb/>
+Liter. c. 9.<lb/>
+T. III. p.</hi><lb/>
+242.</note><hi rendition="#aq">Anima qvum redit, non habet, qvò redeat, niſi ad Autorem,<lb/>
+qvi eam dedit.</hi> Die Seele des Schaͤchers am Creutze/<lb/>
+ſolte mit dem Erloͤſer im Paradieß noch denſelben Tag ſey/<lb/>
+ob gleich der Leib/ entweder noch am Creutze/ oder in der<lb/>
+Erden liegen wuͤrde. <hi rendition="#aq">Luc. XXIII,</hi> 43. Der Heilige Heyden-<lb/>
+Lehrer wuͤntſchet ſeinen Leib/ als ein Gefaͤngnuͤs zuverlaſ-<lb/>
+ſen/ und der Seelen nach/ im Himmel mit CHriſto zu le-<lb/>
+ben. Alle im Glauben Sterbende/ laſſen ihren Leib zwar<lb/>
+der Erden: Die Seele aber uͤbergeben ſie ihren JEſu mit<lb/>
+<hi rendition="#aq">Stephano,</hi> da er ſagt: <hi rendition="#aq">Act. VII. v.</hi> 57. HErꝛ JEſu/ nimm<lb/>
+meinen Geiſt auf. Wenn der Leib mit dem Tode kaͤmpf-<lb/>
+fet/ vertrauen ſie ihre Seelen/ als ein theures Kleinod de-<lb/>
+ro Sieges-Fuͤrſten/ CHriſto. Der Leib hat ſolche Kraͤff-<lb/>
+te in ſich/ die wieder einander ſtreiten und wuͤrcken/ biß ei-<lb/>
+nes uͤberwindet/ und der Leib unterliegen muß: Sie/ die<lb/>
+Seele aber hat weder innerliche noch euſſerliche Feinde/<lb/>
+dadurch ſie koͤnte aufgehoben werden. Hierzu kom̃t/ daß<lb/>
+man ohn allen Anſtoß ſagen kan: <hi rendition="#fr">Die Todten leben.</hi><lb/>
+Jn der <hi rendition="#aq">Diſputation</hi> unſers Erloͤſers mit den <hi rendition="#aq">Sadduce</hi>ern/<lb/>
+die keine Aufferſtehung glauben wollen/ hat Er/ der da<lb/>
+iſt die Aufferſtehung und das Leben/ ein ſo ſtarckes <hi rendition="#aq">Argu-<lb/>
+ment,</hi> von dem Leben der Todten genommen/ daß auch<lb/>
+<note place="left"><hi rendition="#aq">Matth.<lb/>
+XXII,</hi> 32.</note>keiner darwieder etwas <hi rendition="#aq">opponi</hi>ren kunte/ wenn Er ſagte:<lb/>
+Jch bin der GOtt <hi rendition="#aq">Abraham,</hi> und der GOtt <hi rendition="#aq">Iſaac,</hi> und der<lb/>
+<fw place="bottom" type="catch">GOtt</fw><lb/>
+<pb facs="#f0025" n="25"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+GOtt <hi rendition="#aq">Jacob.</hi> GOTT aber iſt nicht ein GOTT der Tod-<lb/>
+ten/ ſondern der Lebendigen: So muſten <hi rendition="#aq">Abraham, Iſaae</hi><lb/>
+und <hi rendition="#aq">Jacob,</hi> gewiß der Seelen nach leben: Denn ſie waren<lb/>
+dazumahl dem Leibe nach/ ſchon lange todt. Kan alſo die<lb/>
+Seele wohl unſterblich ſeyn/ ob gleich der Leib verſtorben.<lb/>
+Zu dem ſo hat GOtt bald in der erſten Schoͤpffung/ die<lb/>
+Seele des Menſchen/ nicht eben aus der <hi rendition="#aq">materie</hi> erſchaf-<note place="right"><hi rendition="#aq">Gen. II,</hi> 7.</note><lb/>
+fen/ dar aus die Thiere ihre Seelen haben: Sondern Gott<lb/>
+hat dem aus Erde erbaueten menſchlichen Leibe/ einen le-<lb/>
+bendigen Athem eingeblaſen. Hierzu gehoͤret die in heili-<lb/>
+ger Schrifft gewoͤhnliche Redens-Art: Daß die Menſchen<lb/>
+zu ihren Vaͤtern verſam̃let werden ſollen. Welches nicht<lb/>
+eben die Beyſetzung in einer allgemeinen Grufft/ Gewoͤlbe<lb/>
+und Erb-Begraͤbnis bedeutet: Sondern vielmehr/ daß<lb/>
+die Seelen verſam̃let werden in Buͤndlein der Lebendigen:<lb/>
+Daß ſie in die Ewigkeit eingehen zu ihren Vaͤtern. Denn/<lb/>
+vom Abraham ſtehet; Daß er zu ſeinen Vaͤtern mit Frie-<note place="right"><hi rendition="#aq">Gen. XV.<lb/>
+v. 15.<lb/>
+Devtr. 32.<lb/>
+v.</hi> 50.</note><lb/>
+den fahren ſolle. Und von <hi rendition="#aq">Moyſe</hi> ſtehet; Daß er ſolle ver-<lb/>
+ſam̃let werden zu ſeinen Vaͤtern. Welche Verſam̃lung die<lb/>
+Seele angehen muß/ weil des Abrahams Vaͤter in <hi rendition="#aq">Chal-<lb/>
+dæa</hi> er aber im Lande <hi rendition="#aq">Canaan:</hi> Und Moyſes in einem ſol-<lb/>
+chem Orthe/ den man nicht außkundſchafften kan/ begra-<lb/>
+ben. Da man ſonſt/ wenn die Verſam̃lung den Leib an-<lb/>
+gienge/ den <hi rendition="#aq">Moyſen</hi> bey ſeiner Vaͤter Erb-Begraͤbnis haͤtte<lb/>
+ſinden koͤnnen.</p><lb/>
+<p>So haben wir auch helle Exempel dehrer nach dem<lb/>
+Tode lebenden Seelen an dem auf Erden ſehr reich geweſe-<lb/>
+nen/ und in der Hoͤlle ſehr armen Reichen: Und an dem in<lb/>
+der Welt ſehr Armen/ und in Himmel ſehr reichen <hi rendition="#aq">Lazaro.</hi><lb/>
+<fw place="bottom" type="sig">d</fw><fw place="bottom" type="catch">Bey-</fw><lb/>
+<pb facs="#f0026" n="26"/>
+<fw type="header" place="top"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+Beyde waren tod/ dem Leibe nach/ aber der Seelen-Pein<lb/>
+nach ſchreyet der Reiche auch biß auf den heutigen Tag:<lb/>
+Jch leide Pein in dieſer Flammen. Und der arme <hi rendition="#aq">Lazarus,</hi><lb/>
+kan dieſe Worte brauchen: Meine Seele iſt in GOttes<lb/>
+Hand/ und keine Qvaal ruͤhret ſie an. Wir hoͤren auch<lb/>
+noch derer Todten Maͤrtyrer/ ſo unter dem Altar liegen/<lb/>
+<note place="left"><hi rendition="#aq">Apoc. VI,</hi><lb/>
+9. 10.</note>ihre lebendige Stimme: HErꝛ/ du Heiliger und Wahr-<lb/>
+hafftiger/ wie lange richteſt du und raͤcheſt nicht unſer<lb/>
+Blut/ an denen/ die auf Erden wohnen. Auf ſolche Art<lb/>
+kan man von den Glaͤubigen ſagen: Dieſer Juͤnger ſtir-<lb/>
+bet nicht. Und: Sie iſt nicht tod/ ſondern ſie ſchlaͤfft. Al-<lb/>
+le Sterbende koͤnnen froͤlich ruͤhmen: Als die Sterben-<lb/>
+den/ und ſiehe/ wir leben. Sie werden nicht ſterben/ ſon-<lb/>
+dern leben. Sie haben in- und bey ſich den HERREN/<lb/>
+<note place="left"><hi rendition="#aq">Joh. XI.<lb/>
+v.</hi> 25.</note>der da iſt die Aufferſtehung und das Leben; Wer an Jhn<lb/>
+glaubet der wird leben/ ob er gleich ſtuͤrbe. Und wer da<lb/>
+lebet und glaͤubet an Jhn/ der wird nimmermehr ſterben.<lb/>
+Kommen ſie gleich in Tod/ ſo dringen ſie nur vom Tode<lb/>
+zum Leben hindurch/ als durch die Wuͤſten ins gelobte<lb/>
+Land. Sie ſollen den Tod nicht ſchmecken. Derogleichen<lb/>
+Menſchen halten ſich die gantze Zeit ihres Lebens mit wah-<lb/>
+rem Glauben zu den Worten ihres Heylandes/ als wel-<lb/>
+<note place="left"><hi rendition="#aq">Joh. V.<lb/>
+v.</hi> 24.</note>cher ſaget: Warlich/ warlich ich ſage Euch; Wer mein<lb/>
+Wort haͤlt/ und glaͤubet dem/ der mich geſand hat/ der hat<lb/>
+das ewige Leben/ und kom̃t nicht ins Gerichte/ ſondern er<lb/>
+iſt vom Tode zum Leben hindurch gedrungen. Wovon<lb/>
+<note place="left"><hi rendition="#aq">Cap. 48.<lb/>
+Gen.</hi></note>der ſeel. <hi rendition="#aq">Lutherus</hi> alſo redet: <hi rendition="#aq">Tanta eſt vis fidei, qvæ vos vi-<lb/>
+vos facit ex mortuis. Ac ſanè eâ ipſâ horâ, qva incipimus<lb/>
+credere &amp; apprehendere verbum, etiam vivere incipimus</hi><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">vitâ</hi></fw><lb/>
+<pb facs="#f0027" n="27"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+<hi rendition="#aq">vitâ æterna, qvia Verbum Domini manet in æternum; &amp;<lb/>
+Deus, qvi loqvitur nobiscum, æternus eſt, &amp; nobiſcum erit<lb/>
+perpetuò.</hi> Das heiſt wohl recht: Ich lebe/ aber doch nun<note place="right"><hi rendition="#aq">Gal. II,</hi> 20.</note><lb/>
+nicht ich/ ſondern CHriſtus lebet in mir. Jſts demnach<lb/>
+alſo/ daß die Seele des Menſchen unſterblich/ und ewig le-<lb/>
+bet/ ſo folget daraus/ daß auch dermahleins/ eine Verei-<lb/>
+nigung Leibes und der Seelen/ welche im Tode eine Zer-<lb/>
+trennung außgeſtanden/ zu hoffen ſein werde. Denn das<note place="right">1. <hi rendition="#aq">Cor.<lb/>
+XV.</hi> 53.</note><lb/>
+Sterbliche wird anziehen das Unſterbliche. Zwar es ſchei-<lb/>
+den Leib und Seele/ als die beſten Freunde/ und alte Be-<lb/>
+kandte/ ſehr ungerne von einander; Jn dem auch ein Herꝛ/<lb/>
+aus einem beqvemen Hauſe dariñ er lange gewohnet/ un-<lb/>
+gerne ziehet/ und woran man ſich gewoͤhnet/ uͤbel verlaͤſſet.<lb/>
+Dahero auch die Seele einer einſahmen und keuſchen Tur-<lb/>
+tel-Taube verglichen wird; Welche/ weil ſie ihre Geſellin<lb/>
+hertzlich geliebt/ und durch den Tod verlohren/ ſich auf ei-<lb/>
+nen duͤrꝛen Aſt ſetzet/ und die Beraubung bejammert. Die<lb/>
+Seele iſt eine ſolche Turteltaube/ welche den Leib als ihren<lb/>
+alten naͤchſten Freund/ den ſie geliebet/ als ſich ſelbſt/ ver-<lb/>
+leuret/ ſich auch noch auff der Welt mit keinem anderen<lb/>
+Leibe vermaͤhlet/ ſondern den Verluſt betrauret/ und er-<lb/>
+wartet die froͤliche Wiederkunfft. Wormit der H. <hi rendition="#aq">Augu-<lb/>
+ſtinus</hi> uͤberein ſtimmet: <hi rendition="#aq">Anima beata, qvàm diu eſt ſepa-<lb/>
+rata, ſemper habet qvendam Gemitum.</hi> Dieſe Sehnſucht<lb/>
+aber wird geſtillet werden an dem Tage/ da die <hi rendition="#aq">Reſtitutio<lb/>
+in integrum</hi> wird vorgenommen werden/ als ein Tag der<lb/>
+Wiedererſtattung und froͤlichen Aufferſtehung. Waͤh-<lb/>
+render Zeit/ wenn die Seelen abgeſchieden/ leben die See-<lb/>
+len nicht alſo/ wie ein Schlaffender lebet/ oder/ daß ſie wie<lb/>
+<fw place="bottom" type="sig">d 2</fw><fw place="bottom" type="catch">ein</fw><lb/>
+<pb facs="#f0028" n="28"/>
+<fw type="header" place="top"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+ein Abgematteter/ ruheten biß auf den Juͤngſten Tag/ da<lb/>
+ſie auffgefodert und auffgewecket wuͤrde: Sondern/ ſo<lb/>
+bald ſie aus dieſem zeitlichen Leben/ in das Ewige verſetzet<lb/>
+werden/ ſo iſt ihnen wohl; Sie ſchauen GOtt von Ange-<lb/>
+ſicht zu Angeſicht/ ſie ſingen und loben GOtt/ und wuͤnt-<lb/>
+ſchen/ daß nur bald die vollkommene Vereinigung Leibes<lb/>
+<note place="left"><hi rendition="#aq">Apoc. VII<lb/>
+v.</hi> 9.</note>und der Seelen angehen moͤge. <hi rendition="#aq">Johannes</hi> in ſeiner Of-<lb/>
+fenbahrung ſaget: Jch ſahe eine groſſe Schaar/ welche<lb/>
+niemand zehlen konte aus allen Heyden und Voͤlckern/ und<lb/>
+Sprachen/ fuͤr dem Stuhl ſtehend/ und fuͤr dem Lamb<lb/>
+angethan mit weiſſen Kleidern/ und Palmen in ihren<lb/>
+Haͤnden/ und ſchrien mit groſſer Stimme/ und ſprachen:<lb/>
+Heyl ſey dem/ der auf dem Stuhl ſitzt/ unſerm <hi rendition="#g">GOTT/</hi><lb/>
+und dem Lamb. Ja ſie ſind fuͤr/ dem Stuhl GOttes/<lb/>
+und dienen Jhm Tag und Nacht in ſeinem Tempel. Sie<lb/>
+ſind auf dem Berge Zion/ in der Stadt des lebendigen<lb/>
+<note place="left"><hi rendition="#aq">Ebr. XII.<lb/>
+v. 22.<lb/>
+Brich-<lb/>
+manni<lb/>
+Syſt. T. 11.<lb/>
+p. 594.<lb/>
+Scherzeri<lb/>
+Breviar.<lb/>
+Theol.<lb/>
+p. 1156.<lb/>
+Apoc. VI.<lb/>
+v.</hi> 10.</note>GOttes/ in dem him̃liſchen Jeruſalem/ bey der Menge vie-<lb/>
+ler tauſend Engel. Gleich wie ſie in dieſem Leben viel Din-<lb/>
+ge in ihrem Gedaͤchtnuͤs behalten: Alſo erꝛinnern ſie ſich<lb/>
+derer in der Welt vorgegangenen Dinge. Es iſt auch kein<lb/>
+Zweiffel/ daß gleich wie ſie hier in dieſer Welt vor die Kirche<lb/>
+GOttes/ bey GOtt umb Schutz angehalten/ ſie auch im<lb/>
+ewigem Leben umb dieſer Erhaltung/ und Heimfuͤhrung<lb/>
+der Frommen/ im Himmel bitten in dem auch die Seelen/<lb/>
+die unter dem Altar ruffen/ an die allgemeine Verfolgung<lb/>
+der Gottſeeligen gedencken. Wenn demnach die Leiber<lb/>
+ſich in ihrem Kaͤmmerlein/ eine zeitlang verborgen/ und deꝛ<lb/>
+Zorn GOttes ihres Schoͤpffers vorbey/ ſo wirds deñ heiſ-<lb/>
+ſen: Stehet auf/ und laſſet uns von hinnen gehen. Die<lb/>
+<fw type="catch" place="bottom">Erde/</fw><lb/>
+<pb facs="#f0029" n="29"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+Erde/ die unſer aller Mutter/ wird alle ihre Kinder frey<lb/>
+außgehen laſſen. Denn der HErꝛ wird dar ſeyn/ der ſie<lb/>
+als Kinder zu ihrem Vater heimfuͤhret. Der <hi rendition="#g">HERR</hi><lb/>
+ſelbſt 1. <hi rendition="#aq">Theſſ. IV,</hi> 16. wird mit einem Feld-Geſchrey/ und<lb/>
+Stimme des Ertz-Engels/ und mit der Poſaune GOttes<lb/>
+hernieder kommen vom Himmel. Der Poſaunen Schall<lb/>
+und das Feld-Geſchrey/ wird von allen gehoͤret werden/<lb/>
+als von Soldaten/ wenn zum <hi rendition="#aq">March</hi> geblaſen wird/ da ſie<lb/>
+ſich ruͤſten: Es kom̃t die Stunde <hi rendition="#aq">Joh. V,</hi> 26. in welcher al-<lb/>
+le/ die in der Erden ſind/ werden die Stimme des Sohnes<lb/>
+GOttes hoͤren/ und werden herfuͤr gehen aus ihren Graͤ-<lb/>
+bern. Sie werden aufferſtehen in eben dem jenigen Lei-<lb/>
+be/ in welchem ſie auf Erden gelebet: Der hier gekaͤmpffet/<lb/>
+wird dort gecroͤnet werden; Der hier verachtet geweſen/<lb/>
+wird dort herꝛlich ſeyn/ was hier unanſehlich/ wird dort<lb/>
+in lauter Klarheit leuchten.</p><lb/>
+<p>Dieſe Wiſſenſchafft der Unſterbligkeit der Seelen/ hat<lb/>
+ſo wohl die vernuͤnfftigen Heyden/ als auch inſonderheit<lb/>
+die Glaͤubigen jederzeit erfreuet/ und ob zwar viel von de-<lb/>
+nen Unglaͤubigen es entweder verleugnet/ oder nicht glaͤu-<lb/>
+ben wollen/ ſo hat doch <hi rendition="#aq">Mornæus,</hi> in ſeinem Buche <hi rendition="#aq">de Ve-</hi><note place="right"><hi rendition="#aq">cap. XIV.<lb/>
+&amp; XV.</hi></note><lb/>
+<hi rendition="#aq">ritate Religionis Chriſtianæ</hi> genugſam erwieſen/ daß die ur-<lb/>
+elteſten Weiſen/ und alle Voͤlcker ſolches geglaͤubet. Von<lb/>
+dem <hi rendition="#aq">Epicuro</hi> meldet er/ daß/ ob er gleich die gantze Lebens-<lb/>
+Zeit/ der Seelen Unſterbligkeit angefochten/ er dennoch<lb/>
+faſt in ſeiner Todes-Stunde/ ein gewiſſes Geld <hi rendition="#aq">legiret,</hi> da-<lb/>
+von alle Jahr/ denen Goͤttern/ die ihn haͤtten laſſen geboh-<lb/>
+ren werden/ ein Opffer und Gaſt-Mahl außgerichtet wer-<lb/>
+den moͤge; Worzu er denn dieſe nachdenckliche Worte ſe-<lb/>
+<fw place="bottom" type="sig">d 3</fw><fw place="bottom" type="catch">tzet:</fw><lb/>
+<pb facs="#f0030" n="30"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+ſetzet: <hi rendition="#aq">Natura (in morte) expergefit, &amp; tanqvam ex profun-<lb/>
+do emergit: Ut qvi Religionem omnem toto vitæ tempore<lb/>
+contempſerint, eo ferè puncto, qvò ſe vertant, neſciant, &amp; cor-<lb/>
+pore menteq́; vehementer jactentur, adeò, qvam futuram<lb/>
+negarunt vitam, eo momento præſentem ſentiunt.</hi> So muͤſ-<lb/>
+ſen ſie in ihrer Todes-Stunde/ die beſten Prediger ſein von<lb/>
+der Seelen Unſterbligkeit/ weil es von ſolchem Tod-Bette<lb/>
+heiſſet: <hi rendition="#aq">Tu ſi hic eſſes, aliter ſentires.</hi> Jn der Welt haben<lb/>
+ſie/ als Trunckene von den Wolluͤſten geredet/ man moͤge<lb/>
+nur luſtig ſeyn; nach dem Tode hoͤre alles auff: Aber in<lb/>
+dem Tode/ wenn ſie fein nuͤchtern worden/ haben/ ſie vor<lb/>
+Erſchrecknuͤs außgeruffen: O Ewigkeit/ O Ewigkeit! <hi rendition="#aq">Non<lb/>
+putaram.</hi> Dem <hi rendition="#aq">Cain,</hi> als einem Bruder-Moͤrder ahnte<lb/>
+es alſobald/ nach dem er ſeinen Bruder nicht mehr bey ſich<lb/>
+merckte/ das boͤſe Gewiſſen aber/ und gleichſam der Schat-<lb/>
+ten des erſchlagenen Bruders ihme auf dem Fuſſe allzeit<lb/>
+nachfolgete; Es ahnte ihm/ daß ein ander Leben ſey/ und<lb/>
+ſeine Seele weiſſagete ihm von lauter Straffe/ und Elend.<lb/>
+<note place="left"><hi rendition="#aq">v. Mag-<lb/>
+nalia Dei<lb/>
+P. I. p.</hi> 106.</note>Hier muß ich noch anfuͤhren <hi rendition="#aq">Valerii Herbergeri</hi> Worte/ ſo<lb/>
+er bey Henochs Heim- und Himmelfarth gebraucht:</p><lb/>
+<p>Die ſchoͤne <hi rendition="#aq">Hiſtoria</hi> bezeugt/ ſpricht er/ das warhaff-<lb/>
+tig ein anderes Leben/ nach dieſen zugewarten ſey: Dar-<lb/>
+umb ſagen die alten Kirchen-Lehrer; <hi rendition="#aq">Abel</hi> bekennet ein<lb/>
+anderes Leben nach dem Tode; Denn ſein Blut ſchreyet/<lb/>
+und wird erhoͤret. <hi rendition="#aq">Cain</hi> bekennet ein anderes Leben fuͤr<lb/>
+dem Tode: Denn er fuͤrchtet ſich zu ſterben: Es ahnet<lb/>
+ihm/ es werde bey dem zeitlichem Ungluͤcke nicht bleiben.<lb/>
+<hi rendition="#aq">Henoch</hi> bekennet ein anderes Leben ohne den Tod; Deñ<lb/>
+er gehet ſtracks aus dem zeitlichen Ungluͤcke/ ohn alle To-<lb/>
+des Schmertzen zum ewigen Leben.</p><lb/>
+<fw place="bottom" type="catch">So</fw><lb/>
+<pb facs="#f0031" n="31"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+<p>So waren dieſe alle Zeugen und Beſitzer der Unſterb-<lb/>
+ligkeit der Seelen/ und der Ewigkeit. Der vortreffliche<lb/>
+Redner/ und weiſe Heyde <hi rendition="#aq">Cicero,</hi> weiß faſt nicht Worte<lb/>
+genug zu finden/ die Liebe zur Unſterbligkeit der Seelen/<lb/>
+und die Freude zur Verſam̃lung derer Ewig-Gluͤckſeeli-<lb/>
+gen zu gelangen/ außzuſprechen/ wenn er alſo redet: <hi rendition="#aq">Qvod</hi><note place="right"><hi rendition="#aq">In Cato-<lb/>
+ne ſ. de<lb/>
+Seneſtu-<lb/>
+te, Parte<lb/>
+ult.</hi></note><lb/>
+<hi rendition="#aq">ſi in hoc erro, qvod animos hominum immortales eſſe cre-<lb/>
+dam, libenter erro, nec mihi hunc errorem, qvo deleſtor,<lb/>
+dum vivo, extorqveri volo. O præclarum diem, cùm in illud<lb/>
+animorum Concilium, cœtumq́; proficiſcar, &amp; cùm ex hâc<lb/>
+turba &amp; colluvione diſcedam, proficiſcar enim ad Catonem<lb/>
+meum qvo nemo vir melior natus eſt, nemo pietate præſtan-<lb/>
+tior, qvi in ea loca diſceſſit, qvò mihi ipſi cernebat eſſe veni-<lb/>
+endum, qvo me ipſe conſolabar, exiſtimans, non longinqvum<lb/>
+inter nos digreſſum &amp; diſceſſum fore.</hi> Bey dieſen herꝛli-<lb/>
+chen Worten/ fehlet nicht viel/ <hi rendition="#aq">Cicero</hi> rede als ein Chriſt:<lb/>
+Und wie wohl waͤre es/ wenn die/ ſo ſich Chriſten nennen/<lb/>
+vielmahl ſolche Gedancken fuͤhreten/ und nachdaͤchten/ wie<lb/>
+weit gluͤckſeeliger ſie waͤren bey mehrer Wiſſenſchafft/ und<lb/>
+Freude des ewigen Lebens/ als die Heyden/ die keine ohn-<lb/>
+fehlbare Hoffnung hatten/ ſie wuͤrden der Elenden/ und<lb/>
+betrieglichen Welt-Freude gar bald uͤberdruͤßig werden/<lb/>
+und eine Sehnſucht bekom̃en/ durch des Leibes Erloͤſung<lb/>
+zur ewigen Freude einzugehen: Sie wuͤrden den Tod/<lb/>
+nicht ſo fuͤrchten/ ſondern froͤlich ihn willkommen heiſſen;<lb/>
+Sie wuͤrden/ wie <hi rendition="#aq">Babylas</hi> unter ſeiner Marter ſagen: Sey<lb/>
+nun wieder zu frieden/ meine Seele/ denn der HErꝛ thut<lb/>
+dir Guttes. Zwar kan ich nicht in Abrede ſeyn/ daß auch<lb/>
+viel Urſachen bey allen Menſchen ſich ſpuͤren laſſen/ war-<lb/>
+<fw place="bottom" type="catch">umb</fw><lb/>
+<pb facs="#f0032" n="32"/>
+<fw type="header" place="top"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+umb ſie ſich fuͤr dem Tode entſetzen. Der dem Augenſchein<lb/>
+nach dem Tode nahe als ein Krancker/ oder/ ſo er von ihm<lb/>
+fern als ein Geſunder wuͤntſchen laͤnger zu leben. Theils<lb/>
+locket ſie manche froͤliche vergnuͤgte Stunde/ die ſie in der<lb/>
+Welt gehabt/ zuruͤcke; Sie wolten gerne auf den Fruͤh-<lb/>
+ling ihrer/ Jahre/ auch den Sommer und Herbſt ihres<lb/>
+Lebens erleben; Der Tod kom̃t ihnen allezeit gar zu zei-<lb/>
+tig; Weñ die boͤſen Tage kommen wuͤrden/ wolten ſie wil-<lb/>
+lig folgen zu dem beſſeren des Himmels. Sie wolten ihre<lb/>
+Feinde noch uͤberwinden/ und der gutten Freunde/ nebſt<lb/>
+den guten Tagen/ noch laͤnger genieſſen: Jhre liebe Soͤh-<lb/>
+ne befoͤdert/ ihre Toͤchter verheyrathet/ und ſie alle in er-<lb/>
+wuͤntſchtem Wohlſtande zu ſehen/ haͤlt ſie auch auf/ noch<lb/>
+ein wenig zu leben. Sie haben noch etwas im Sinn/ ehe<lb/>
+ſie ſterben/ außzurichten; Bald haben ſie eine Luſt zu<lb/>
+bauen/ zn reiſen/ zu handeln/ und muͤſſen doch erfahren/<lb/>
+daß an ihrer Hoffnung und Wuntſch/ viel zuruͤcke geblie-<lb/>
+ben/ und der Tod das Vornehmen unterbreche. Jch<lb/>
+muß auch geſtehen/ daß manchmahl/ auch bey denen Gott-<lb/>
+ſeeligen/ ſolche natuͤrliche Abwechſelungen gefunden wer-<lb/>
+den: Da ſie bald von der him̃liſchen Liebe entzuͤndet/ auß-<lb/>
+ruffen: HERR hohl mich heim/ nihm mich zu dir. Ach<lb/>
+<hi rendition="#g">HERR/</hi> wie lange! Ach waͤren wir da! Und mit des<lb/>
+<hi rendition="#aq">Auguſtini</hi> Mutter: <hi rendition="#aq">Evolemus!</hi> Bald aber zeucht ſie ein<lb/>
+natuͤrlicher Liebes-Trieb zum Leben zuruͤcke/ daß ſie an-<lb/>
+ders anſtimmen: Soll ich allhier noch laͤnger leben/ nicht<lb/>
+wieder ſtreben. Wenn mir GOtt das Leben noch ein we-<lb/>
+nig friſten wolte. Ach moͤcht ich biß Morgen leben! Die<lb/>
+Urſache aller ſolcher Wuͤntſche/ iſt die Liebe zum Leben/ das<lb/>
+<fw type="catch" place="bottom">Leben</fw><lb/>
+<pb facs="#f0033" n="33"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+Leben zubehalten weil wir darzu erſchaffen. Es iſt ja na-<lb/>
+tuͤrlich/ daß man das Leben liebet. Ein Wuͤrmlein kruͤm-<lb/>
+met ſich; Ein Vogel flattert im Netze: Ein Wild entlaͤufft<lb/>
+und entreiſt dem Jaͤger/ ſo viel als moͤglich. <hi rendition="#aq">Elias</hi> wuͤntſchet/<lb/>
+das ſeine Seele von ihm genommen werde/ und ſcheuet doch<lb/>
+den Tod/ weñ er in die Wuͤſten fliehet. <hi rendition="#aq">Hiskias</hi> weinet ſehr/<note place="right">1. <hi rendition="#aq">Reg. 19.<lb/>
+v. 4.<lb/>
+2. Reg.</hi> 20.</note><lb/>
+wenn der Prophet <hi rendition="#aq">Eſaias</hi> ihme ſaget: Beſchicke dein Hauß/<lb/>
+denn du wirſt ſterben/ und nicht leben bleiben: Und iſt her-<lb/>
+gegen wiederumb froͤlich/ wenn eine andere/ und zwar beſ-<lb/>
+ſere Zeitung erfolget/ nemlich: Er ſolte dißmahl leben/ und<lb/>
+am dritten Tage geſund in das Hauß des HErꝛen gehen.<lb/>
+Wer ſolte meinen/ daß deꝛ jenige Menſch/ der ſchon 38. Jahr/<lb/>
+beym Teiche <hi rendition="#aq">Bethesda,</hi> kranck gelegen hatte/ und auf die vom<note place="right"><hi rendition="#aq">Joh. V,</hi> 5.</note><lb/>
+Engel gewoͤhnliche Bewegung des Geſund-Brunnens/ o-<lb/>
+der Teiches gewartet/ haͤtte laͤnger zu leben wuͤntſchen ſol-<lb/>
+len; und gleichwohl geſchahe es. Deñ die Natur liebt das<lb/>
+zeitliche Leben/ und ſcheuet den Tod; Der Glaube aber<lb/>
+fuͤrchtet den Tod nicht/ und liebt das ewige Leben. So iſt<lb/>
+denn die Natur und deꝛ Glaube gar geſchaͤfftig bey Erinne-<lb/>
+rung der Sterbligkeit/ auch bey denen Frommen. Sie be-<lb/>
+reiten ſich zwar auff ihn mit Freuden/ aber doch nicht ohn<lb/>
+Wehr und Waffen ihme als dem letzten Feinde/ entgegen zu<lb/>
+gehen. Sie wiſſen was Suͤnde/ was das juͤngſte Gerichte<lb/>
+ſey. Es iſt ihnen leid/ daß ſie nicht ein Engelreines Leben<lb/>
+gefuͤhret. Sie erkeñen den Tod als eine Straffe der Suͤn-<lb/>
+den/ es iſt ihnen leid/ daß ſie den Todt nicht als einen gutten<lb/>
+Freund empfahen koͤnnen/ der ihnen einen Brieff von der<lb/>
+lieben Hand ihres GOttes bringet/ daß ſie nemlich ſollen<lb/>
+frey werden und heim kommen. <hi rendition="#aq">Lutherus</hi> meinet/ weil un-<lb/>
+<fw place="bottom" type="sig">e</fw><fw place="bottom" type="catch">ſer</fw><lb/>
+<pb facs="#f0034" n="34"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+ſer Heyland dem Tode ſeine Macht benommen/ ſo ſey er nur<lb/>
+ein gemahlter Tod/ und derowegen nicht zu fuͤrchten. Und<lb/>
+wie gutte Freunde/ wenn ſie des Abends von einander ſchei-<lb/>
+den/ daß ein jeder in ſein Schlaffkaͤmmerlein ſich verfuͤgen<lb/>
+wil/ nicht weinen/ noch vor dem Schlafe ſich ſcheuen: Alſo<lb/>
+ſolle es auch ſeyn/ daß man den Todes-Schlaff nicht fuͤrch-<lb/>
+te. Allein die Erfahrung gibts/ daß man auch bißweilen<lb/>
+vor einen Bilde erſchrickt/ und mancher/ der noch laͤnger<lb/>
+gerne des Abends ſitzen wolte/ ungerne ſchlaffen gehet/ und<lb/>
+die Kinder vor dem Schafe weinen. Alſo wolten ihrer viel<lb/>
+noch gerne laͤnger/ biß in die ſinckende Nacht/ oder wohlgar<lb/>
+biß an den hellen Morgen der Aufferſtehung/ in ihrem Ne-<lb/>
+ſte dieſer Welt/ und in deꝛ Herberge ihres Leibes verbleiben/<lb/>
+wenn es moͤglich ſein koͤnte. Allein die allgemeine <hi rendition="#aq">Statuta</hi><lb/>
+der gantzen Welt/ laſſen es nicht zu/ ſo lange das Geſetze gilt:<lb/>
+<hi rendition="#aq">Statutum eſt homini ſemel mori.</hi> Und was iſt doch wohl<lb/>
+dieſe Welt in welcher ſie gerne bleiben wolten? <hi rendition="#aq">Juſti Lipſij<lb/>
+Epitaphium,</hi> welches zu Loͤwen/ in des H. <hi rendition="#aq">Franciſci</hi> Kirche<lb/>
+<note place="left"><hi rendition="#aq">VideEry-<lb/>
+ci Putea-<lb/>
+ni Lipſi-<lb/>
+omnema<lb/>
+p.</hi> 24.</note>auffgerichtet/ und er ſich ſelbſt gemacht/ mag die Antwort<lb/>
+geben: <hi rendition="#aq">Ipſe abivi, abibit hoc qvoq́;: &amp; nihil hic orbis, qvod<lb/>
+perennet, poſſidet. Vis altiore voce me tecum loqvi? Hu-<lb/>
+mana cuncta fumus, umbra, vanitas, &amp; Scenæ imago, &amp; ver-<lb/>
+bo ut abſolvam, nihil.</hi> Es iſt alles vergaͤnglich und eitel/ und<lb/>
+<note place="left"><hi rendition="#aq">Epiſtolâ</hi><lb/>
+26<supplied>8</supplied>.</note>nichts beſtaͤndiges. Was iſt doch wohl der Welt ihre Herꝛ-<lb/>
+ligkeit und Ehre? <hi rendition="#aq">Æneas Sylvius</hi> beſchreibet ſie/ wenn er fol-<lb/>
+gendes in einer Epiſtel an ſeinen gutten Freund ſchreibt/<lb/>
+der ſich uͤber ſeines Sohnes Tod/ nicht wolte troͤſten laſſen:<lb/>
+<hi rendition="#aq">Cogita qvid eſt hujus mundi gloria? Caduca ſunt omnia, qvæ<lb/>
+in terris acqvirimus, nihil ſtabile, nihil certum: Nemo ſibi</hi><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">horam</hi></fw><lb/>
+<pb facs="#f0035" n="35"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+<hi rendition="#aq">horam vitæ promittere poteſt, nemo de craſtino habet noti-<lb/>
+tiam: Fugit ætas, fugit omnis terrena voluptas: Nihil habe-<lb/>
+mus niſi præſens, &amp; id momentaneum eſt.</hi> Die gegenwaͤrti-<lb/>
+ge Herꝛligkeit iſt unſer. Die Zukuͤnfftige ſtehet nicht in un-<lb/>
+ſer Gewalt/ und alles beydes iſt vergaͤnglich/ weil ſie in der<lb/>
+Welt.</p><lb/>
+<p>Ein Hirte hat mit ſeiner Huͤtte/ keine gewiſſe Staͤtte<lb/>
+im Felde: Sondern er fuͤhret ſie von einem Ort zum ande-<lb/>
+ren/ biß ſie endlich gar in Stuͤcken faͤllet/ und er davon muß.<lb/>
+So ſind wir Sterbliche auch; Wir haben hier keine bleiben-<lb/>
+de Staͤdte/ ſondern die zukuͤnfftige ſuchen wir. Der Leib<lb/>
+ſchleppet die Seele/ die Seele den Leib/ wie eine Schnecke ihr<lb/>
+Hauß herumb/ ſo lange/ biß das Hauß und Huͤtte zubricht<lb/>
+und vergehet. Ach was iſt doch die Welt-Freude? Fluͤchtig<lb/>
+und nichtig. Sie kommet lieblich hergegangen/ und laͤſſet<lb/>
+uns betruͤbt von ſich/ ja die allzu groſſe Freude toͤdtet. <hi rendition="#aq">Chi-<lb/>
+lon</hi> von <hi rendition="#aq">Sparta</hi> iſt vor Freuden geſtorben/ in dem er ſeinen<lb/>
+Sohn/ als einen Uberwinder umbfahen und kuͤſſen wollen.<lb/>
+<hi rendition="#aq">Clidemus</hi> von <hi rendition="#aq">Athen</hi> ſtarb/ als er mit einer goldnen Krone<lb/>
+unverhofft gekroͤnet wurde. <hi rendition="#aq">Plato</hi> iſt durch einen freudigen<lb/>
+Traum; Und <hi rendition="#aq">P. Craſſus</hi> durchs Lachen geſtorben. So toͤd-<lb/>
+tet auch die Freude/ da ſonſten nur die Traurigkeit viel Leute<lb/>
+umbringen ſolte. Und was ſoll man wohl vor Freuden ſich<lb/>
+traͤumen laſſen/ und fuͤr Gluͤcke ſich einbilden da die Welt<lb/>
+vergaͤnglich mit all ihrer Luſt/ und wir ſelber verſchwinden<lb/>
+muͤſſen.</p><lb/>
+<p>Hingegen laſſet uns doch wohl erwegen/ was der ewige<lb/>
+Freuden-Himmel ſey/ dahin die Glaͤubigen gelangen/ und<lb/>
+alldar ihr rechtes Leben anfahen. Es iſt ja ein Hauß der<lb/>
+<fw place="bottom" type="sig">E 2</fw><fw place="bottom" type="catch">Freu-</fw><lb/>
+<pb facs="#f0036" n="36"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+Freuden/ da die Augen nicht mehr Thraͤnen-Qvelle ſeyn;<lb/>
+Eine ſolche Ruhe/ da keine Furcht uns ſchrecket; Ein Hauß<lb/>
+des Friedens/ da kein Feld-Geſchrey mehr gehoͤret wird:<lb/>
+Eine ſichere Wohnung/ da kein Feind einige Belaͤgerung<lb/>
+verſuchet: Ein Paradieß/ worin kein Baum mehr Fruͤch-<lb/>
+te des Todes bringet: Ein Vaterland/ nach dem wir uns<lb/>
+ſehnen: Ein Ziel/ da die Kleinoder außgetheilet werden:<lb/>
+Eine guͤldene Zeit/ da ewige Freude wird auff unſerem<lb/>
+<note place="left"><hi rendition="#aq">Eſa. 51, 11.<lb/>
+Matth. 25<lb/>
+v.</hi> 13.</note>Haupte ſeyn/ Freude und Wonne werden uns ergreiffen;<lb/>
+Aber Trauren und Seuffzen wird von uns ziehen. Da iſt<lb/>
+eine rechte Herꝛen-Freude/ zu welcher der fromme und ge-<lb/>
+treue Knecht ſoll eingehen: Eine Hochzeit des Lam̃s/ eine<lb/>
+liebliche Wohnung/ da wir werden ſagen: HErꝛ hier iſt<lb/>
+gut ſeyn. Wie lieblich ſind doch dieſe Wohnungen/ <hi rendition="#k">He</hi>rꝛ<lb/>
+Zebaoth. Jſt der Himmel ſchon ſo ſchoͤne von auſſen/ daß<lb/>
+man bey ſtillen und klaren Naͤchten/ von dem geſtirntem<lb/>
+Firmament bezeugen moͤchte/ er waͤre mit Diamanten/<lb/>
+Smaragden und Rubinen verſetzet. Ach wie viel tauſent-<lb/>
+mahl ſchoͤner wird er nicht von innen ſeyn; Weil dieſes Jrꝛ-<lb/>
+diſche nicht werth iſt der zukuͤnfftigen Herꝛligkeit welche wir<lb/>
+mit unſern Augen dermahleinſt werden zu ſchauen bekom-<lb/>
+<note place="left">1. <hi rendition="#aq">Cor.</hi> 2, 9</note>men; Welches itzo noch kein Auge geſehen/ kein Ohr gehoͤ-<lb/>
+ret/ auch in keines Menſchen Hertz kom̃en iſt/ was GOtt be-<lb/>
+reitet hat denen/ die ihn lieben. Ja wer wolte nun nicht wuͤn-<lb/>
+ſchen auffgeloͤſet zu werden/ und bey CHriſto zu ſeyn. Da-<lb/>
+hin aber zu gelangen iſt unmoͤglich/ es gehe denn zuvor her<lb/>
+eine gute Vorbereitung zu einem ſeeligen Außgange aus deꝛ<lb/>
+Welt/ und folge darauf durch einen ſeeligen Tod/ ein freu-<lb/>
+diger Eingang zur ewigen Freude. Weñ man werde aus<lb/>
+<fw place="bottom" type="catch">der</fw><lb/>
+<pb facs="#f0037" n="37"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+der Welt gehen/ wie man werde von dannen ſcheiden/ wo<lb/>
+man ſein Grab finden werde/ iſt nicht gewiß. Aber daß<lb/>
+man werde ſterben muͤſſen/ iſt allzu gewiß. Darum̃: <hi rendition="#aq">Unum<lb/>
+eſt neceſſarium.</hi> Beſtelle dein Hauß/ beſchicke deine Seele/<lb/>
+ſetze die Erde zur Erben des Leibes ein/ GOtt aber zum Er-<lb/>
+be der Seelen. Bedencke dich wohl! Himmel und Hoͤlle<lb/>
+ſtehet offen. Es bereitet ſich die Welt/ wenn ſie unter gut-<lb/>
+ter Freunde <hi rendition="#aq">Converſation</hi> erſcheinen ſoll. Es uͤberleget ein<lb/>
+Abgeſandter alles wohl/ was er bey der <hi rendition="#aq">Audien</hi>tz vorbrin-<lb/>
+gen wil. Was fuͤr Zeit wenden die eitelen Hertzen nicht an/<lb/>
+ſich recht zu zieren/ zu kleiden/ nach der Welt-Art ſich zu <hi rendition="#aq">re-<lb/>
+guli</hi>ren. Und man wolte ſich nicht einige Zeit zuvor <hi rendition="#aq">pra pa-<lb/>
+ri</hi>ren/ ehe man zum Verhoͤr/ und Erſcheinung im Him̃li-<lb/>
+ſchen Pallaſt vor den Allerhoͤchſten GOtt gelaſſen wird?<lb/>
+<hi rendition="#aq">Famianus Strada</hi> erzehlet etwas denckwuͤrdiges in der Le-<note place="right"><hi rendition="#aq">Belli Bel-<lb/>
+gici, De-<lb/>
+cad. I. p.<lb/>
+m.</hi> 18.</note><lb/>
+bens-Beſchreibung <hi rendition="#aq">Caroli V.</hi> Es ſey zu dieſem großmuͤthi-<lb/>
+gem Helden/ ſein Alter und wohlverſuchter Hauptmann<lb/>
+kommen/ und habe umb Loßlaſſung aus denen Kriegs-<lb/>
+Dienſten ihn angeflehet. <hi rendition="#aq">Carolus V.</hi> habe ſich uͤber ſeiner<lb/>
+Bitte hoͤchlich verwundert/ und ihn umb die Urſache gefra-<lb/>
+get/ warumb er dem Kriege abdancken wolte? Worauff<lb/>
+dieſer Hauptmann geantwortet: <hi rendition="#aq">Inter vitæ negotia, &amp;<lb/>
+mortis diem oportere ſpatium intercedere.</hi> Zwiſchen des<lb/>
+Lebens Verꝛichtungen/ und dem Tage des Todes/ muͤſſe<lb/>
+man ein wenig raum haben oder Ruhe/ daß iſt/ man muͤſ-<lb/>
+ſe ſich vor dem Tode entziehen allen Welt-Geſchaͤfften/ die<lb/>
+vergangene Zeit/ wie man ſie angewendet/ behertzigen/ und<lb/>
+auf die zukuͤnfftige Zeit ſich wohl geſchickt machen.</p><lb/>
+<p>Dieſe ſehr weißliche Rede/ hat der from̃e Kayſer/ nie-<lb/>
+<fw place="bottom" type="sig">e 3</fw><fw place="bottom" type="catch">mahls</fw><lb/>
+<pb facs="#f0038" n="38"/>
+<fw type="header" place="top"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+mahls auß der Acht gelaſſen/ ſondern ſie vielmahl/ wieder-<lb/>
+holet/ und auf ſich <hi rendition="#aq">applici</hi>ret. Wie er denn auch die ſchwe-<lb/>
+re Regierungs-Laſt/ ſeinem Bruder <hi rendition="#aq">Ferdinando,</hi> und ſei-<lb/>
+nem Sohne <hi rendition="#aq">Philippo</hi> uͤberlaſſen; Sich aber nur dieſe ein-<lb/>
+tzige Sorge/ zwey Jahr durch biß an ſein ſeeliges Ende vor-<lb/>
+behalten: Seelig zu ſterben/ welches auch erfolget. Sin-<lb/>
+<note place="left"><hi rendition="#aq">Matthiæ<lb/>
+Theatr.<lb/>
+Hiſtor. in<lb/>
+vita Ca-<lb/>
+roli. V. p.<lb/>
+m.</hi> 1073.</note>temahl er gantzer 5. Jahr zuvor ſeinen Sarck allenthalben<lb/>
+hin mitte genommen/ und endlich unter dieſen Worten: <hi rendition="#aq">Jn<lb/>
+me mane dulciſſime <hi rendition="#k">Jesu</hi>, ut ego in Te maneam;</hi> ſeelig ein-<lb/>
+geſchlaffen. Wer ſich alſo zum Tode bereitet/ thut ſehꝛ wohl/<lb/>
+wer ſo ſtirbt/ der ſtirbt wohl. Es wuͤrden warlich ihrer viel<lb/>
+zum Tode ſich beſſer bereiten/ wenn ſie ſich nicht die Rech-<lb/>
+nung macheten/ ſie wuͤrden noch lange nicht ſterben: Es<lb/>
+gehet aber ihnen/ wie denen ſo ein Bildnuͤß anſehen/ welches<lb/>
+nach dem <hi rendition="#aq">Perſpectiv</hi> gemahlt iſt/ da hinter vielen Pfeilern<lb/>
+und Straͤuchern/ nach der Mahler Kunſt/ deꝛ Tod gar weit<lb/>
+hinauß geſtellet/ als waͤre er etliche Meilen weit davon; Da<lb/>
+es doch ein gleiches Bild/ und ihren Augen nach/ nur eine<lb/>
+Sache nahe/ die andere ferne. Alſo bilden ſie ſich offt ein/<lb/>
+als weñ der Tod noch weit von ihnen da er doch hinter dem<lb/>
+erſten Pfeiler/ oder Baum ſtehet/ und ſeinen Bogen auf ſie<lb/>
+gerichtet/ und zielet/ ſie zu erlangen. Dannenhero hier recht<lb/>
+und wohl der H. <hi rendition="#aq">Auguſtinus</hi> ſaget: <hi rendition="#aq">Neſcis, qvâ horâ veniet<lb/>
+Mors: Semper vigila, ut qvod neſcis qvando veniet, paratum<lb/>
+te inveniat, qvum venerit: Et ad hoc fortè neſcis, qvando<lb/>
+veniet, ut ſemper paratus ſis.</hi> Derer weiſen Heyden <hi rendition="#aq">Philo-<lb/>
+ſophie,</hi> war eine Schule der Sterbligkeit; Woriñ <hi rendition="#aq">Seneca</hi><lb/>
+eine ſolche <hi rendition="#aq">Lection</hi> in ſeinen Epiſteln beſchreibt: <hi rendition="#aq">Ante Se-<lb/>
+nectutem curavi, ut benè viverem, in Senectute, ut benè mo-</hi><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">riar:</hi></fw><lb/>
+<pb facs="#f0039" n="39"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+<hi rendition="#aq">riar: Benè autem mori, eſt libentèr mori.</hi> Jn den jungen<lb/>
+Jahren habe er gelernet/ wohl zu leben/ und in ſeinem Al-<lb/>
+ter wohl zu ſterben. Und <hi rendition="#aq">Cicero</hi> hatte gelernet freudig zu<note place="right"><hi rendition="#aq">Libr. de<lb/>
+Senect.</hi></note><lb/>
+ſterben/ wenn er ſchreibt: <hi rendition="#aq">Mors mihi tàm jucunda eſt, ut<lb/>
+qvò propiùs ad mortem accedam, qvaſi terram videar videre,<lb/>
+aliqvandoq́; in Portum eſt longa navigatione eſſe venturum.</hi><lb/>
+Er ſey/ ſpricht er/ wie ein See-fahrender/ der das feſte Land<lb/>
+erblicke/ und Hoffnung habe/ ſeine muͤhſelige Schifffarth zu<lb/>
+enden/ ſo erfreue ihn der Tod. Konten Heydniſche Leute<lb/>
+ſo froͤlich ſterben/ und ſich ſo wohl zum Tode bereiten; Ach<lb/>
+wie viel mehr ſollen es die Rechtglaͤubigen thun/ die ihren<lb/>
+Heyland zum Uberwinder des Todes haben/ deme ſie/ als<lb/>
+Siegende nur nachfolgen moͤgen/ unterdeſſen aber taͤglich<lb/>
+dieſe Worte/ in ihren Ohren ſollen erſchallen laſſen: <hi rendition="#aq">Non</hi><note place="right"><hi rendition="#aq">Auguſt.<lb/>
+de Diſci-<lb/>
+plina<lb/>
+Chriſtia-<lb/>
+na. Tom.<lb/>
+IX c. XII.<lb/>
+p.</hi> 267.</note><lb/>
+<hi rendition="#aq">poteſt malè mori, qvi benè vixerit &amp; vix benè moritur, qvi<lb/>
+malè vixit.</hi> Wer wohl gelebet/ ſterbe wohl: Wer uͤbel ge-<lb/>
+lebet/ koͤnne ſchwerlich wohl ſterben. <hi rendition="#aq">Simeon</hi> fuhr im Frie-<lb/>
+de zum ewigen und beſtaͤndigen Friede/ ſein Gewiſſen mach-<lb/>
+te ihme keine Unruhe/ ſein Hertz kuͤndigte ihm keinen Krieg<lb/>
+an; Ja die Maͤrtyrer ſelbſt/ derer Todt und ſchreckliche<lb/>
+Marter auch den Zuſchauern erbaͤrmlich/ empfunden/ je<lb/>
+naͤher ſie dem Tode/ je groͤſſere Freude/ und je groͤſſere<lb/>
+Freude/ und je groͤſſere Marter/ je naͤhere Erqvickung/ daß<lb/>
+ſie auch meineten/ ihr Freuden und Ehren-Tag waͤre/ die-<lb/>
+ſer Todes Tag. So maͤchtig iſt die freudige Gewißheit des<lb/>
+ewigen Lebens/ und die feſte Hoffnung/ dahin zu gelangen.<lb/>
+Diß aber kan nicht anders geſchehen/ als durch den Tod/<lb/>
+den ihrer viel fuͤr ihren Feind halten/ da er doch in der<lb/>
+Noth/ als ein treuer Freund erfunden wird/ welchen man<lb/>
+<fw place="bottom" type="catch">nicht</fw><lb/>
+<pb facs="#f0040" n="40"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+nicht ſcheuen ſondern lieben ſolte. Denn er ja die Glaͤubi-<lb/>
+gen nicht uͤberfaͤllt wie ein Gewapneter/ ſondern wie ein an-<lb/>
+genehmer und ſanffter Schlaff der Abgematteten. Er iſt<lb/>
+ein rechter Braut- und Himmels-Wagen/ welcher eine gute<lb/>
+Gelegenheit macht/ darauf zu GOtt zu reiſen; Ein Ge-<lb/>
+faͤrte der keinem kein Leid anthut: Eine Thuͤre/ dadurch<lb/>
+man auß der boͤſen Welt zur ſchoͤnen Himmels-Thuͤre ge-<lb/>
+langet. Er iſt ein Wechsler/ der uns groſſen Gewinn<lb/>
+und <hi rendition="#aq">profit</hi> machet: Ein Bothe/ der uns den Benadi-<lb/>
+gungs-Brieff bringet zu einem Ehren-Ambt im Himmel<lb/>
+zuerlangen: Ein Schiffer/ der uns uͤberfuͤhren will: Ein<lb/>
+Schnitter/ der uns auß der Sonnen Hitze/ in die kuͤhle<lb/>
+Scheuren traͤget: Eine Waͤrterin/ welche die Kinder zur<lb/>
+ſtillen Ruhe bringet. Siehet denn nun der Todt alſo aus/<lb/>
+ey ſo darff man ihn nicht mehr ſcheuen/ noch einen Grauen<lb/>
+fuͤr den Verſtorbenen empfinden. Meinet es der Hoͤchſte<lb/>
+durch dieſen treuen Bothen ſo gut/ mit uns/ ſo werden ja<lb/>
+alle Menſchen ihrem Schoͤpffer und Erloͤſer/ willig und<lb/>
+gerne folgen/ er komme auch/ wenn und wie Er wolle: Es<lb/>
+<note place="left"><hi rendition="#aq">Vide Op:<lb/>
+Aug. T. I.<lb/>
+c. XXVII.<lb/>
+p. m.</hi> 8.</note>wird nicht ſolcher Worte beduͤrffen/ wie <hi rendition="#aq">Posſidius</hi> in der Le-<lb/>
+bens-Beſchreibung des H. <hi rendition="#aq">Auguſtini</hi> meldet/ da GOtt ei-<lb/>
+nen langen Lebens-Begierigen Biſchoff/ der nicht gerne ſter-<lb/>
+ben wolte/ ob er ihn gleich vor ſeinem Tode gar mit lieblicheꝛ<lb/>
+Geſtalt und ſuͤſſen Worten erſchien/ alſo angeredet: <hi rendition="#aq">Pati<lb/>
+timetis, exire non vultis, qvid faciam vobis?</hi> Leiden wollet<lb/>
+ihr nichts/ ſterben wollt ihr auch nicht/ was ſoll ich endlich<lb/>
+mit euch machen? So ſoll es nicht heiſſen! Sondern ſo ſol-<lb/>
+len wir uns zum Tode erklaͤren wie der H. <hi rendition="#aq">Ambroſius</hi> Bi-<lb/>
+ſchoff zu Meyland/ welcher von gutten Freunden erſuchet<lb/>
+<fw place="bottom" type="catch">wor-</fw><lb/>
+<pb facs="#f0041" n="41"/>
+<fw type="header" place="top"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+worden/ der Kirche GOttes zu Liebe/ bey GOtt umb Ver-<lb/>
+laͤngerung des Lebens anzuhalten/ denen er alſo geantwor-<note place="right"><hi rendition="#aq">Vide vi-<lb/>
+tam D.<lb/>
+Ambroſij<lb/>
+per Pauli-<lb/>
+nũ Pres-<lb/>
+byter: Di-<lb/>
+ſcipulum<lb/>
+ejus con-<lb/>
+ſer. &amp;<lb/>
+Theophi-<lb/>
+lũ Spize-<lb/>
+lium in<lb/>
+Vet. Aca-<lb/>
+dem: J. C.<lb/>
+vita Am-<lb/>
+broſii p.<lb/>
+m. 138.<lb/>
+Rom. 14.<lb/>
+v.</hi> 7. 8.</note><lb/>
+tet: <hi rendition="#aq">Non ſic inter vos vixi, ut pudeat me vivere; Nec mori<lb/>
+timeo, qvoniam bonum Dominum habemus.</hi> Jch habe nicht<lb/>
+unter euch ſo gelebet/ daß ich mich ſchaͤmen muͤſte weiter zu<lb/>
+leben/ ich ſcheue mich auch nicht zu ſterben/ weil wir einen<lb/>
+gutten HErꝛen haben. Dañ das iſt gewiß unſer keiner lebt<lb/>
+ihm ſelber/ und keiner ſtirbt ihm ſelber. Leben wir/ ſo leben<lb/>
+wir dem HErꝛen/ ſterben wir ſo ſterben wir dem HErꝛn/<lb/>
+darumb wir leben oder ſterben ſo ſind wir des HERRN.<lb/>
+Wenn demnach die Frommen alles Ungemach dieſer Welt<lb/>
+wohl uͤberleget/ und vor wahr befunden/ daß im Menſchli-<lb/>
+chem Leben der Tod/ <hi rendition="#fr">und im Tode das rechte Leben/</hi><lb/>
+erſt angehe/ ſo werden ſie ſich weder fuͤrm Tode/ noch Tod-<lb/>
+ten/ noch Kirchhoͤfen fuͤrchten und entſetzen; Sondern in<lb/>
+Beſuchung derer Kirchhoͤfe vor Freuden weinen/ mit ei-<lb/>
+nem ſehnlichen Verlangen zu den ſeeligen Vorfahren/ die<lb/>
+alldar verſcharꝛet liegen/ eheſtes zu kommen. Sie werden<lb/>
+ſagen: Ach wiewohl wird mir hier ſeyn/ wenn ich hier auß-<lb/>
+ruhen werde! Sie werden zu den Sterbenden gehen/ ſich<lb/>
+mit ihnen zu geſegnen gewiß/ hoffende/ in einem anderen und<lb/>
+beſſeren Lande/ mit groͤſſern Freuden auf ewig verbunden/<lb/>
+ungeſchieden zuverbleiben. Sie werden bey den Todten<lb/>
+Leichen/ und derer Be<hi rendition="#k">e</hi>rdigung wuͤntſchen/ daß doch bald<lb/>
+die Zeit ihres Abſchiedes auch verhanden ſein moͤge. Sie<lb/>
+werden/ deꝛ Seelen nach/ mit den Gedancken mehr im Him-<lb/>
+mel bey den Seeligen ſeyn/ als bey den Hinterbliebenen hier<lb/>
+in der Welt; Ja voll Verlangens zu dem Freuden-Himmel<lb/>
+werden ſie anſtimmen:</p><lb/>
+<fw type="sig" place="bottom">f</fw><fw type="catch" place="bottom">Es</fw><lb/>
+<pb facs="#f0042" n="42"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+<lg type="poem"><l><hi rendition="#fr">Es iſt genug/ des Lebens/ Creutz und Jammers/</hi></l><lb/>
+<l><hi rendition="#fr">Der Thraͤnen ſind genung in dieſem Thraͤnen Thal.</hi></l><lb/>
+<l><hi rendition="#fr">Es iſt genung. Darumb</hi></l><lb/>
+<l><hi rendition="#fr">Kom̃/ O Tod/ du Schlafes Bruder/</hi></l><lb/>
+<l><hi rendition="#fr">Kom̃/ und fuͤhre mich nur fort/</hi></l><lb/>
+<l><hi rendition="#fr">Loͤſe meines Schiffleins Ruder/</hi></l><lb/>
+<l><hi rendition="#fr">Bringe mich in ſichren Port.</hi></l><lb/>
+<l><hi rendition="#fr">Es mag/ wer da will/ ſich ſcheuen</hi></l><lb/>
+<l><hi rendition="#fr">Du kanſt mich vielmehr erfreuen/</hi></l><lb/>
+<l><hi rendition="#fr">Denn durch dich kom̃ ich hinein</hi></l><lb/>
+<l><hi rendition="#fr">Zu dem ſchoͤnſten <hi rendition="#k">Je</hi>ſulein.</hi></l></lg><lb/>
+<p>Und alſo wuͤntſchete auch/ <hi rendition="#fr">Hoch-Anſehliche Traur-<lb/>
+Verſam̃lung/ die Seeligſte Frau von Glaubitzin/</hi><lb/>
+Jhres ſchwachen Leibes Zerlegung und der Seelen freye<lb/>
+Auffloͤſung. Von Jugend auf/ hatte Sie mit dem Tode/<lb/>
+und vielen Kranckheiten ſtreiten muͤſſen/ welche Sie zwar<lb/>
+allezeit Chriſtlich uͤberwunden/ doch leichtlich erachten koͤn-<lb/>
+nen/ daß ſie auf die Letzte alle auf einmahl einen ſtarcken An-<lb/>
+lauff thun wuͤrden/ allwo Sie ſich/ allem Anſehen nach/<lb/>
+wuͤrde ergeben muͤſſen/ dadurch Sie denn Lebens-ſatt und<lb/>
+muͤde geworden/ dero Geſtalt/ daß von Jhr ich die ſchoͤne<lb/>
+<note place="left"><hi rendition="#aq">Videvi-<lb/>
+tam Au-<lb/>
+guſtum à<lb/>
+Corn.<lb/>
+Lancilla-<lb/>
+to, Belga<lb/>
+Eremita<lb/>
+Auguſti-</hi></note>Worte des H. <hi rendition="#aq">Auguſtini,</hi> die Er auf ſeinem Tod-Bette kurtz<lb/>
+vor ſeinem Ende geredet/ hier wohl anwehren kan: <hi rendition="#aq">Tædet<lb/>
+me, Domine, valdè vitæ hujus, &amp; iſtius ærumnoſæ Peregrina-<lb/>
+tionis. Vita hæc, vita miſera, vita caduca, incerta, laborioſa,<lb/>
+immunda, domina malorum, regina ſuperborum, plena mi-<lb/>
+ſerijs, ſingulis morimur per varios mutabilitatis defectûs di-<lb/>
+niano conſcr. Tom. I. Op. Aug. L. III. c. LXII. p.</hi> 166.</p><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">verſis</hi></fw><lb/>
+<pb facs="#f0043" n="43"/>
+<fw type="header" place="top"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+<p><hi rendition="#aq">verſis generibus mortium.</hi> Es verdrieſſe ihn ſeines elenden<lb/>
+Lebens/ welches vielmehr ein ſteter Tod/ als Leben zu nen-<lb/>
+nen/ weil man darinnen alle Augenblicke/ durch viellerley<lb/>
+Veraͤnderungen/ und Todtes Arthen ſtuͤrbe.</p><lb/>
+<p>Dieſe Zeit aber ihres Lebens/ hat Sie ſehr wohl zuge-<lb/>
+bracht/ in dem Sie ſich eingebildet/ man muͤſſe auch die kur-<lb/>
+tze Zeit des Lebens/ ſo beylegen/ als wenn man lange genug<lb/>
+gelebet; Dannenhero Sie Jhre Freude in GOtt gehabt/<lb/>
+Jhre Liebe an dem <hi rendition="#fr">Hoͤchſtbetruͤbten Herꝛen Wittwer/</hi><lb/>
+Jhre Sorge die liebſten Kinder wohl Adelich zu erziehen;<lb/>
+Und Jhre Verꝛichtungen waren/ dem Hoch-Adel. Hauſe<lb/>
+Chriſt-Loͤblich vorzuſtehen. Nach dem Sie aber ſolchen<lb/>
+Ruhm gewuͤnſcht erreichet/ ſo konte Sie auch mit Freuden<lb/>
+auß der Welt gehen. Sie nahm endlich den Tod/ als einen<lb/>
+Artzt eines krancken Leibes an; Dann nach des <hi rendition="#aq">Ambroſii</hi><note place="right"><hi rendition="#aq">Ambroſ.<lb/>
+Sermone<lb/>
+de Qva-<lb/>
+drageſi-<lb/>
+ma.</hi></note><lb/>
+Meynung/ iſt der Tod keine Straffe/ ſondern eine gnaͤdige<lb/>
+Huͤlffe/ wenn er alſo redet: <hi rendition="#aq">Tantis malis hæc vita repleta<lb/>
+eſt, ut comparatione ejus, Mors remedium putetur eſſe, non<lb/>
+pœna. Nam ideò brevem illam <hi rendition="#k">Deus</hi> facit, ut moleſtiæ ejus,<lb/>
+qvæ proſperitate vinci vel tolli non poterant, temporis exigui-<lb/>
+tate finirentur.</hi> Und wie Sie in anderen Leibes-Zufaͤllen<lb/>
+Jhre Gedult <hi rendition="#aq">probi</hi>ret: So hat Sie auch in der letzten Nie-<lb/>
+derlage/ auß Freuden auffgeloͤſet zu werden/ in recht Chriſt-<lb/>
+licher Gedult auf die letzte him̃liſche Huͤlffe in dieſer Welt ge-<lb/>
+wartet/ die Sie auch endlich erlanget/ und numehro dahin<lb/>
+kommen iſt/ allwo immerwaͤrende geſunde Tage/ eine ewi-<lb/>
+ge bleibe Stadt/ ein Orth da man Kronen außtheilet/ ein<lb/>
+Orth da alle Krancke geſund werden/ den itzo niemand von<lb/>
+uns beſchreiben kan/ dahin aber alle/ welche hier wohl le-<lb/>
+<fw type="sig" place="bottom">f 2</fw><fw type="catch" place="bottom">ben/</fw><lb/>
+<pb facs="#f0044" n="44"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+ben/ kommen ſollen/ und es ſelber ſehen/ da indeſſen die jeni-<lb/>
+gen/ ſo an ihrem Leibe annoch geſund ſind/ immer muͤſſen<lb/>
+Fleiß anlegen/ und die da kranck am Leibe/ hier als Frembd-<lb/>
+linge ſich bemuͤhen/ dort als Einheimiſche geſund an der<lb/>
+Seelen zu ſeyn. Sie aber die <hi rendition="#fr">Seel. Fr. von Glaubitzin/</hi><lb/>
+klaget uͤber nichts mehr; Sie verlanget und erwartet auch<lb/>
+ſonſten nichts mehr/ alſo Jhrer liebſten Angehoͤrigen See-<lb/>
+lige Nachfolge/ und ihres Leibes froͤliche Aufferſtehung<lb/>
+zum ewigen Leben/ welcher wir auf Jhren Leichen-Stein<lb/>
+<note place="left"><hi rendition="#aq">vide Vi-<lb/>
+tas Sele-<lb/>
+ctas Illu-<lb/>
+ſtrium<lb/>
+Virorũ, in<lb/>
+vitâ Ejus<lb/>
+p. m.</hi> 491.</note>die Worte ſetzen koͤnnen/ die der beruͤhmte <hi rendition="#aq">Fabianus,</hi> Burg-<lb/>
+graff von Dohna zu Morungen/ in der Kirchen auff ſei-<lb/>
+nem Begraͤbniſſe hat:<lb/>
+<hi rendition="#c"><hi rendition="#fr">Jch leb in GOtt/ und mir iſt wohl.</hi></hi></p><lb/>
+<p>Sie ruffet uns aber aus Jhrem Sarge und Grufft noch<lb/>
+dieſe Worte zu: Gedencket an den Tod/ auf daß Jhr ſei-<lb/>
+nes Bildes gewohnet/ und nicht fuͤr ihm euch ſcheuet/ und<lb/>
+erſchrecket/ wenn er erſcheinen wird.</p><lb/>
+<p>Daß Sie aber/ <hi rendition="#fr">Hoch-Anſehliche Trauer-Ver-<lb/>
+ſam̃lung/</hi> die erblaſten Gebeine der fuͤr uns ſeeligſt abge-<lb/>
+ſchiedenen Frauen <hi rendition="#fr">Frauen von Glaubitzin/</hi> durch dero<lb/>
+Hoch-Anſehliche Begleitung/ und Hohes Mittleiden ha-<lb/>
+ben verehren wollen/ und zuerkennen geben/ wie ſehr Sie<lb/>
+dieſe im Leben geliebet/ die Sie auch nach dero Tode/ bey<lb/>
+Jhrem <hi rendition="#fr">Chriſt-Adelichem Leich-Begaͤngnuͤſſe</hi> ehren;<lb/>
+Erkennet der <hi rendition="#fr">Hoch-Leidtragende Herꝛ Wittber/</hi> nebſt<lb/>
+dehnen <hi rendition="#fr">Hoch Adel. betruͤbten Kindern/</hi> und dem <hi rendition="#fr">Ange-<lb/>
+hoͤrigem Hoch-Adelichem Glaubitz- und Stoſchi-</hi><lb/>
+<fw place="bottom" type="catch">ſchem</fw><lb/>
+<pb facs="#f0045" n="45"/>
+<fw type="header" place="top"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+<hi rendition="#fr">ſchem Hauſe/</hi> fuͤr ein unſchaͤtzbares Kenn-Zeichen treue-<lb/>
+ſter Liebe und Freundſchafft: Empfinden auch durch dero<lb/>
+geneigte und Volckreiche Gegenwart/ in Jhrem zugeſtoſſe-<lb/>
+nen Leid-Weſen/ kraͤfftigen Troſt/ werden unermuͤdet<lb/>
+ſich befleißigen/ vor ſolche hohe Liebes/ Bezeugung Jhr<lb/>
+danckbares Gemuͤthe/ durch angenehme Willfaͤhrigkeit<lb/>
+zu erkennen zu geben. Welche vor itzo durch meinen Mund<lb/>
+ſchuldigen Danck abſtatten/ dieſes wuͤntſchende/ daß Sie<lb/>
+alle/ ſo lange Sie noch in dieſem Leben wallen werden/ in<lb/>
+Jhrem Leibe lauter Leben haben/ und wenn Sie Lebens<lb/>
+<hi rendition="#c">ſatt und muͤde/ in das Land kommen moͤgen/ allwo<note place="right"><hi rendition="#aq"><hi rendition="#i">A</hi>poc. 21.<lb/>
+v.</hi> 4.</note><lb/>
+<hi rendition="#fr">kein Todt mehr ſein wird.</hi></hi></p><lb/>
+</div><milestone rendition="#hr" unit="section"/><lb/>
+<fw type="sig" place="bottom"><hi rendition="#b">f 3</hi></fw><fw type="catch" place="bottom"><hi rendition="#b">Hoch-</hi></fw><lb/>
+<pb facs="#f0046" n="[46]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsEpicedia" n="1">  <div n="2"><head><hi rendition="#b">Hochwertheſter <hi rendition="#in">H</hi>erꝛ <hi rendition="#in">V</hi>etter/ ꝛc.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">W</hi>As Erde/ Meer/ und Lufft in ihrem Circul heget/</l><lb/>
+<l>Und was ein ſchnoͤdes Kind der Eytelkeiten iſt/</l><lb/>
+<l>Dem wird bey der Geburth der Todes-Grund geleget/</l><lb/>
+<l>Als der die gantze Zahl der Creaturen friſt.</l><lb/>
+<l>Vornehmlich muß ein Menſch der Nichtigkeit der Zeiten/</l><lb/>
+<l>Der mehr als ſchweren Laſt/ ein ſteter <hi rendition="#aq">Sclave</hi> ſeyn/</l><lb/>
+<l>Er muß mit Angſt/ und Weh gehaͤuffter Sorgen ſtreiten/</l><lb/>
+<l>Wenn er kaum dieſes Thal der Thraͤnen gehet ein.</l><lb/>
+<l>Der Anfang unſrer Zeit ſchlieſt offters unſer Leben/</l><lb/>
+<l>Bald zieht vors Hembde man den Sterbe-Kittel an/</l><lb/>
+<l>Ein zartes Kind wird offt der ſchwartzen Grufft gegeben/</l><lb/>
+<l>Eh’ es die Sterbligkeit noch recht erblicken kan.</l><lb/>
+<l>Kein Stand/ kein Alter kan vorm Tode ſicher bleiben/</l><lb/>
+<l>Ein weiſer <hi rendition="#aq">Plato</hi> muß auff Todes Diſteln gehn;</l><lb/>
+<l>Ein reicher <hi rendition="#aq">Crœſus</hi> muß dem Tode ſich verſchreiben/</l><lb/>
+<l>Und <hi rendition="#aq">Hectors</hi> Tapfferkeit kan ihm nicht wiederſtehn/</l><lb/>
+<l>Des <hi rendition="#aq">Cæſars</hi> Gluͤcke muß ihm Sieges-Palmen reichen;</l><lb/>
+<l>Bald wird ein <hi rendition="#aq">Mogol;</hi> bald ein Gaͤrtner um̃gefaͤllt.</l><lb/>
+<l>Auch <hi rendition="#aq">Moſes</hi> ſelbſten muß vor ſeiner Macht erbleichen;</l><lb/>
+<l>Wo iſt ein <hi rendition="#aq">Hercules,</hi> der vor ihm Platz behaͤlt?</l><lb/>
+<l>Doch wer in Gottesfurcht mit Glaubens-Lampen brennet/</l><lb/>
+<l>Wer ſeiner Seelen Sitz zu GOttes Tempel macht/</l><lb/>
+<l>Der wird/ wenn Seel und Leib ſich von einander trennet/</l><lb/>
+<l>Jns goͤldne Freuden-Hauß/ zur wahren Luſt/ gebracht.</l><lb/>
+<l>Und als denn iſt er frey von Wehmuths-vollen Zeiten/</l><lb/>
+<l>Sein froher Geiſt beſitzt des Himmels Freuden-Zelt:</l><lb/>
+<fw place="bottom" type="catch">Wo</fw><lb/>
+<pb facs="#f0047" n="[47]"/>
+<l>Wo keine Seele darff mit Ungluͤcks Nattern ſtreiten/</l><lb/>
+<l>Und er beſitzt vergnuͤgt das frohe Himmels-Feld.</l><lb/>
+<l>Hier zeigt ſich auch ein Bild erlangter Lebens-Krohne/</l><lb/>
+<l>So dieſe Sterbligkeit durch Sterben hat beſiegt.</l><lb/>
+<l>Die <hi rendition="#fr">wehrtſte Vetterin/</hi> geht nun zum Freuden-Throne/</l><lb/>
+<l>Als der Noth/ Tod/ Gefahr/ und Angſt zu Fuͤſſen liegt.</l><lb/>
+<l>Er zwar <hi rendition="#fr">Herꝛ Vetter/</hi> wird den Hintritt ſehr betrauren/</l><lb/>
+<l>Jch glaube/ ſeine Luſt wird Jhm verſaltzen ſeyn:</l><lb/>
+<l>Die Freuden laͤſſet Er mit Jhr ins Grab vermauren;</l><lb/>
+<l>Jhn ſchlieſt ein Trauer-Bach gehaͤuffter Thraͤnen ein.</l><lb/>
+<l>Sein matter Sinn erqvickt ſich nicht mit <hi rendition="#aq">Amber-</hi>Kuchen;</l><lb/>
+<l>Es traͤncket Jhn itzu<choice><sic>u</sic><corr>n</corr></choice>d nur <hi rendition="#aq">Coloqvinten-</hi>Safft;</l><lb/>
+<l>Er wil vom <hi rendition="#aq">Nectar</hi> nicht mehr/ wie zuvor/ verſuchen/</l><lb/>
+<l>Und was nach Freuden reucht/ verliehret alle Krafft.</l><lb/>
+<l>Doch obgleich ſeinen Schatz die ſchwartze Bahre traͤget/</l><lb/>
+<l>Ob das Demantne Band der Ehe trennt der Tod;</l><lb/>
+<l>Wird Jhm der Kummer doch durch dieſes Wort geleget:</l><lb/>
+<l>Die <hi rendition="#fr">Wehrtſte</hi> lebt vergnuͤgt/ und leidet keine Noth!</l><lb/>
+<l>Die Zweige/ welche GOtt Jhm durch Sie hat gegeben/</l><lb/>
+<l>Jn denen gruͤnet noch derſelben Ebenbild;</l><lb/>
+<l>Sie kan durch deren Glantz auch nach dem Tode leben/</l><lb/>
+<l>Und <hi rendition="#fr">Sie/</hi> die <hi rendition="#fr">Seeligſte/</hi> ſchuͤtzt nun des Himmels Schild.</l><lb/>
+<l>Sie haͤlt die Sterbligkeit nicht mehr wie vor gebunden/</l><lb/>
+<l>Der Tod/ den Sie beſiegt/ ritzt nicht mehr Jhre Bruſt/</l><lb/>
+<l>Sie hat vor Angſt und Noth die Ewigkeit gefunden/</l><lb/>
+<l>Jhr Geiſt genieſſet nun die ſuͤſſe Goͤtter-Koſt.</l><lb/>
+<l>Sie mag nicht mehr im Schlamm beſtuͤrtzter Truͤbſaal leben/</l><lb/>
+<l>Weil Jhre Seele nichts/ als Freuden-Roſen ſchaut/</l><lb/>
+<l>Den Ungluͤcks-Klippen wil Sie gaͤntzlich Abſchied geben:</l><lb/>
+<l>Dieweil die Ewigkeit Jhr Himmels-Schloſſer baut.</l><lb/>
+<l>Drumb ob Er Boy/ und Flor umb Seine Glieder traͤget;</l><lb/>
+<l>So ziehe Sein Gemuͤth doch Scharlach-Kleider an.</l><lb/>
+<l>Die <hi rendition="#fr">werthſte Vetterin</hi> iſt/ wo kein Donner ſchlaͤget;</l><lb/>
+<l>Sie iſt wo man den Tod begluͤckt verlachen kan.</l><lb/>
+<fw type="catch" place="bottom">Jch</fw><lb/>
+<pb facs="#f0048" n="[48]"/>
+<l>Jch ſolt Jhr Lob zwar wohl in Alabaſter hauen/</l><lb/>
+<l>Jhr Coͤrper ſolte ſeyn in <hi rendition="#aq">Porphyr</hi> eingelegt:</l><lb/>
+<l>Weil aber mir verſagt dergleichen Grufft zu bauen/</l><lb/>
+<l>So ſey auff <hi rendition="#fr">Dero</hi> Grab nur dieſe Schrifft gepraͤgt:</l><lb/>
+<l><hi rendition="#fr"><hi rendition="#in">S</hi>Teh Wanderer/ und ließ/ wer hie be-</hi></l><lb/>
+<l><hi rendition="#fr">graben lieget!</hi></l><lb/>
+<l><hi rendition="#fr">Es ſchleuſt die ſchwartze Grufft derſel-</hi></l><lb/>
+<l><hi rendition="#fr">ben Coͤrper ein/</hi></l><lb/>
+<l><hi rendition="#fr">Die glaͤubigſt hat die Macht der Sterblig-</hi></l><lb/>
+<l><hi rendition="#fr">keit beſieget;</hi></l><lb/>
+<l><hi rendition="#fr">Drumb kan in Ewigkeit <hi rendition="#in">S</hi>ie nicht mehr</hi></l><lb/>
+<l><hi rendition="#fr">ſterblich ſeyn.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et">Setzte dieſes wehmuͤthig hinzu<lb/>
+<hi rendition="#fr"><hi rendition="#in">R</hi>udolph von <hi rendition="#in">G</hi>erßdorff.</hi></hi></salute></closer><lb/>
+<figure/></div></div>
+<pb facs="#f0049" n="[49]"/>
+</body></text>  </TEI>

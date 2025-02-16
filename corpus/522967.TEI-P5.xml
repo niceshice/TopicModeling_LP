@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Leichpredigt Bey der Christlichen Begrebniß Der Edlen ehr vnd Tugendreichen Fraw Maria Schorerin von Augspurg</title>
+<author>
+<persName ref="http://d-nb.info/gnd/12451779X">
+<surname>Baudis</surname>
+<forename>Andreas</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">28</measure>
+<measure type="tokens">6025</measure>
+<measure type="types">1903</measure>
+<measure type="characters">40259</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:10:24Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/522967</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/522967</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/522967</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/522967</idno>
+<idno type="DTADirName">522967</idno>
+<idno type="DTAID">200120</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-200120-6</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Baudis, Andreas: Leichpredigt Bey der Christlichen Begrebniß. Liegnitz, 1598.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Leichpredigt Bey der Christlichen Begrebniß Der Edlen ehr vnd Tugendreichen Fraw Maria Schorerin von Augspurg</title>
+<author>
+<persName ref="http://d-nb.info/gnd/12451779X">
+<surname>Baudis</surname>
+<forename>Andreas</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">28</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Nicolaus Schneider</name></publisher>
+<pubPlace>Liegnitz</pubPlace>
+<date type="publication">1598</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 S 53/16 / 522967</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"><docTitle><titlePart type="main">Leichpredigt</titlePart><lb/>
+<titlePart type="desc">Bey der Chriſtlichen Begrebniß<lb/>
+<hi rendition="#b"><hi rendition="#in">D</hi>er <hi rendition="#in">E</hi>dlen ehr vnd</hi><lb/>
+Tugendreichen Fraw Maria<lb/>
+Schorerin von Augſpurg/<lb/>
+<hi rendition="#b">Des Ehrnfeſten vnd Kunſtreichen</hi><lb/>
+Herrn Hans Heinrich Koben Haupts von Straß-<lb/>
+burg/ Goltſchmiedes vnd EdelgeſteinSchnei-<lb/>
+ders Ehelichen Hausſrauen.<lb/>
+<hi rendition="#b">Gethan zu Krommaw in Boͤhmen</hi></titlePart></docTitle><lb/>
+<byline>durch<lb/>
+<docAuthor><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Andream Bavdisivm</hi></hi></hi></docAuthor><lb/>
+<hi rendition="#aq">Vratiſlavienſem,</hi><lb/>
+Der Augſpurgiſchen Confeſſion verwandten daſelbſt<lb/>
+verordneten erſten Prediger:<lb/>
+Den <hi rendition="#aq">XIII.</hi> Sontag nach Trinitatis/ war der 16.<lb/>
+Auguſti/ im 1598. Jahr.</byline><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docImprint><hi rendition="#b">Gedruckt zur </hi><pubPlace><hi rendition="#b">Liegnitz</hi></pubPlace><hi rendition="#b"> durch </hi><publisher><hi rendition="#b">Nicolaum</hi><lb/>
+Schneider</publisher>.</docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="[2]"/>
+<div type="preface" n="1"><head/>  <salute><hi rendition="#c"><hi rendition="#b">Dem Ehrnfeſten vnd Kunſtreichen Herren<lb/>
+Hans Heinrich Koben Haupt/ Fůrſtlichen Roſen-</hi><lb/>
+bergiſchen Hoffgoldſchmid vnd EdelgeſteinSchnei-<lb/>
+der zu Krommaw in Boͤhmen/ Meinem freund-<lb/>
+lichen lieben Herrn Gevatter.<lb/>
+<hi rendition="#b">Gnad/ Fried/ troſt vnd ſegen von Gott durch vn-</hi><lb/>
+ſern HErrn JEſum Chriſtum bevor.</hi></salute><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">G</hi>Eliebter Herr Gevatter/ auff Euer viel-</hi><lb/>
+faltiges vnd fleiſſiges muͤndliches vnd ſchrifftliches<lb/>
+bitten vnd anſuchen/ habe ich endlich die Chriſt-<lb/>
+liche LeichPredigt/ welche ich Eurer hertzlieben Ehege-<lb/>
+noſſin Meiner guͤnſtigen Fraw Gevatterin/ in Gott ruhen-<lb/>
+den/ gethan/ zum druck verfertiget/ damit jhr fur euer Per-<lb/>
+ſon hieraus gewiſſen troſt/ neben anderm bericht Goͤttliches<lb/>
+worts/ ſchoͤpffen moͤget/ dieſen ſchmertzlichen vnfall dem All-<lb/>
+mechtigen Gott/ der euch euer liebe Haußfraw ſelbſt von euer<lb/>
+ſeiten hinweg/ durch den zeitlichen Tod geriſſen hat/ Nichts<lb/>
+anders als wie eim Weber ein fadem im Werfft abreiſſet/ zu<lb/>
+befehlen/ Darnach auch/ damit euer liebſten HaußEhr trew-<lb/>
+hertziges Geſchwiſter vnd Blutsfreunde zu Augſpurg/ ein ge-<lb/>
+wiſſes zeugnis hetten/ welches jhrer lieben Schweſter vnd<lb/>
+Blutsfreundin/ jhres Chriſtlichen Glaubens vnd lebens/ fol-<lb/>
+gends auch jhres ſeligen abſcheidens halben/ vor einer Chriſt-<lb/>
+lichen verſamlung offentlich vñ glaubwirdig gegeben worden/<lb/>
+Endlichen auch auf das dieſelbten hieraus ſpuͤren vñ mercken<lb/>
+koͤndten/ es habe jrer liebe Schweſter vñ freundin auch in der<lb/>
+frembde/ vnd von jhrem hochberuͤmbten Vaterlande weit ab-<lb/>
+gelegenem ort/ nicht an wartung/ in der kranckheit/ nicht am<lb/>
+troſt im ſterben/ nicht an ehrlicher beſtattung zur Erden/ nach<lb/>
+jhrem Tode gemangelt/ Bitte derhalben wollet dieſe gering-<lb/>
+ſchetzige arbeit zu freundlichem gutten willen von mir ange-<lb/>
+nomen haben. Jch thue euch hiemit Goͤttlichem ſchutz vnd<lb/>
+verwarung/ ſambt euren hertzlieben Kinderlin entfehlen.</p><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">Andr. Baudiſias.</hi></hi></salute></closer></div><lb/>
+<pb facs="#f0003" n="[3]"/>
+<div type="fsSermon" n="1"><head/>  <div type="fsBibleVerse" n="2"><head/>  <cit><quote><hi rendition="#c"><hi rendition="#aq">Lucæ</hi> am <hi rendition="#aq">X.</hi></hi><lb/>
+<hi rendition="#in"><hi rendition="#aq">V</hi></hi><hi rendition="#fr">Nd der HErr JEſus wand-<lb/>
+te ſich zu ſeinen Juͤngern vnd<lb/>
+ſprach inſonderheit: Selig ſind die<lb/>
+augen/ die da ſehen/ das jhr ſehet/<lb/>
+Deñ ich ſage euch/ viel Propheten<lb/>
+vnd Koͤnige wolten ſehen/ das jhr<lb/>
+ſehet/ vnd habens nicht geſehen/ vñ<lb/>
+hoͤren das jhr hoͤret/ vnd habens<lb/>
+nicht gehoͤret.</hi></quote><bibl/></cit></div><lb/>
+<div type="fsExordium" n="2"><head/>  <p><hi rendition="#fr"><hi rendition="#in">G</hi>Eliebten im <hi rendition="#g">HERRN</hi> Chriſto/ nach</hi><lb/>
+dem wir abermals in dieſer betruͤbten vnd hoch-<lb/>
+gefehrlichen zeit eine furnehme Chriſtliche Per-<lb/>
+ſon vnd Gottſelige Haußmutter/ als nemlich/ die Edle/<lb/>
+Ehr vnd tugendreiche Fraw Maria Schorerin/ eine<lb/>
+Geſchlechterin von Augſpurg/ Des Ehrnfeſten vnd<lb/>
+Kunſtreichen Herrn Hans Heinrich Koben Haupts von<lb/>
+Straßburg/ Goldſchmiedes vñ Edelgeſteinſchneiders/<lb/>
+Eheliche/ hertzliebe Haußfraw zur Erden beſtatten ſol-<lb/>
+len/ Vnd aber ich inſonderheit von jetzo gedachter vnd<lb/>
+mit Tode verblichener Frauen geliebtem vnd betruͤbtem<lb/>
+Haußwirt/ meinem freundlichen lieben Herrn Gevat-<lb/>
+ter/ vnd auch von derer in Gott eingeſchlaffenen Ma-<lb/>
+<fw place="bottom" type="sig">A ij</fw><fw place="bottom" type="catch">tron/</fw><lb/>
+<pb facs="#f0004" n="[4]"/>
+tron/ meiner guͤnſtigen Fraw Gevatterin ſelbſt/ als ich<lb/>
+ſie in jhrer vorgefallenen leibes ſchwachheit beſucht/ vnd<lb/>
+mit Gottes wort getroͤſtet/ zum allerhoͤchſten vnd fleiſ-<lb/>
+ſigſten vmb eine Chriſtliche Leichhredigt/ bey jhrer <hi rendition="#aq">Se-<lb/>
+pultur</hi> vnd begrebniß zu thun/ bin angelanget vnd gebe-<lb/>
+ten worden/ deſſen ich mich/ weil es je nach Gottes vn-<lb/>
+wandelbahrem willen dieſe wege erreichet/ vngeachtet/<lb/>
+das es mir der zeit kuͤrtze vnd vnbequemikeit/ auch ande-<lb/>
+rer Amptsgeſcheffte verrichtungs wegen/ wes beſchwer-<lb/>
+lich auf den heutigen Sontag vorgefallen/ in keinerley<lb/>
+weiſe habe verwiedern ſollen noch wollen/ Habe derhal-<lb/>
+ben das abgeleſent kurtze Spruͤchlin zu handeln durch<lb/>
+verleihung Goͤttlicher gnaden fur mich genommen/<lb/>
+vnd ſolches darumb/ das vns daſſelbte im heutigen Ev-<lb/>
+angelio/ vom Sohne Gottes ſelber vorgetragen/ vnd<lb/>
+zubetrachten vorgeſtellet wird/ Solches auch der nun<lb/>
+mehr in Got ruhenden Fraw Maria Schorerin/ ſo lieb<lb/>
+vnd anmuttig geweſen/ das ſie es auch in jhr handbuͤch-<lb/>
+lin vnd tegliche verzeichnung furnehmer lehr vnd troſt-<lb/>
+ſpruͤche/ Altes vnd Neuen Teſtaments einverleibet/ vnd<lb/>
+mit eigener hand aufgeſchrieben/ ſich auch mit dieſem vñ<lb/>
+andern/ beides im leben vnd im ſterben hoͤchlichen getroͤ-<lb/>
+ſtet hat/ Endlich/ weil ſichs auch zu vnſerm gegenwerti-<lb/>
+gen furhaben ſehr fein vnd wol ſchicket/ Denn es lehret<lb/>
+kurtz vnd rund/ welches die rechte/ ware ſeligkeit ſey/ dar-<lb/>
+nach ein Chriſtglaubiger menſch in dieſem leben embſig<lb/>
+ſtreben/ vnd darauff einer auch mit fried vnd freud ab-<lb/>
+drucken/ vnd im <hi rendition="#g">HERRN</hi> ſanfft vnd ſelig von dieſer<lb/>
+welt abſcheiden vnd einſchlaffen moͤge. Wil derhalben<lb/>
+<fw place="bottom" type="catch">bey</fw><lb/>
+<pb facs="#f0005" n="[5]"/>
+bey verhandlung dieſes Spruͤchlins von dieſem einigen<lb/>
+Puͤnctlin Eure Chriſtliche liebe lehren vnd berichten:<lb/>
+<hi rendition="#et"><hi rendition="#fr">Welches die ware Seligkeit der Kinder<lb/>
+Gottes ſey/ vnd worinnen ſie beſtehe.</hi></hi><lb/>
+Der Himliſche Vater verleihe vns ſeines heiligen Gei-<lb/>
+ſtes gnade darzu/ vmb Chriſti willen/ Amen.</p></div><lb/>
+<div type="fsMainPart" n="2"><head/>  <p><hi rendition="#c">Es meldet der heilige Evangeliſt Lucas/</hi></p><lb/>
+<cit><quote><hi rendition="#fr"><hi rendition="#in">J</hi>Eſus wandte ſich zu ſeinen Juͤngern vnd<lb/>
+ſprach inſonderheit/ Selig ſind die au-<lb/>
+gen/ dieda ſehen/ das jhr ſehet/ Denn ich<lb/>
+ſage euch/ viel Propheten vnd Koͤnige wolten<lb/>
+ſehen/ das jhr ſehet/ vnd habens nicht geſehen/<lb/>
+vnd hoͤren das jhr hoͤret/ vnd habens nicht ge-<lb/>
+hoͤret.</hi></quote><bibl/></cit><lb/>
+<p><hi rendition="#c">Vnd Matth. am 13.</hi></p><lb/>
+<cit><quote><hi rendition="#fr">Aber ſelig ſind eure augen/ das ſie ſehen/<lb/>
+vnd eure ohren/ das ſie hoͤren/ Warlich ich ſa-<lb/>
+ge euch/ viel Propheten vnd gerechten haben<lb/>
+begehret zu ſehen/ das jhr ſehet/ vnd habens<lb/>
+nicht geſehen/ vnd zu hoͤren/ das jhr hoͤret/ vnd<lb/>
+habens nicht gehoͤret.</hi></quote><bibl/></cit><lb/>
+<p>Mit welchen worten der <hi rendition="#g">HERR</hi> Chriſtus ſeine<lb/>
+Juͤnger vnd zuhoͤrer/ vnd vns alle lehret/ welches die al-<lb/>
+ler gluͤckſeligſten Menſchen ſein/ Welches auch die recht-<lb/>
+<fw place="bottom" type="sig">A iij</fw><fw place="bottom" type="catch">ware</fw><lb/>
+<pb facs="#f0006" n="[6]"/>
+ware Seligkeit ſey/ vnd worinnen dieſelbigt beſtehe/ das<lb/>
+nemlich dieſes ſelige Menſchen ſein/ welche ſolche augen<lb/>
+haben/ die da Chriſtum ſehen/ vnd welche ſolche ohren<lb/>
+haben/ die da Chriſtum hoͤren/ Das demnach die ware<lb/>
+ſeligkeit nicht beſtehe in geld vnd gutt/ groſſer Ehr vnd<lb/>
+pracht/ reichthumb vñ herrligkeit/ vielweniger in euſſer-<lb/>
+lichem Leiblichen ſehen vnd hoͤren/ ſondern viel mehr in<lb/>
+ſolchem ſehen vnd hoͤren/ welches die Apoſtel vñ Juͤnger<lb/>
+des HErrn Chriſti gehabt haben.</p><lb/>
+<p>Was haben denn die heiligen Apoſtel vnd Juͤnger<lb/>
+des HERRN Chriſti geſehen? Was haben ſie gehoͤ-<lb/>
+ret? Hierauff nembt dieſen beſcheid vnd antwort.</p><lb/>
+<p>Erſtlich haben ſie erlebt vnd geſehen die zeit des<lb/>
+Neuen Teſtaments angehen/ in welcher Gott ſeinen<lb/>
+Sohn geſand hat/ geboren von einem Weibe/ vnd vnter<lb/>
+das Geſetze gethan/ auff das Er die ſo vnter dem Geſetz<lb/>
+waren/ erloͤſete/ wie S. Paulus zun Gal. 4. von der-<lb/>
+ſelbigen zeit redet/ Jn welcher auch das Evangelium võ<lb/>
+Chriſto/ in der gantzen weiten welt/ beide denen von der<lb/>
+Beſchneidung vñ denen von der Vorhaut/ iſt geprediget<lb/>
+worden/ Von welcher 1. Tim. 3. geſchrieben ſtehet/<lb/>
+Kuͤndlich gros iſt das Gottſelige geheimniß/ Gott iſt<lb/>
+offenbaret im Fleiſch/ gerechtfertiget im Geiſt/ erſchie-<lb/>
+nen den Engeln/ Geprediget den Heiden/ gegleubet von<lb/>
+der Welt/ auffgenommen in die herrligkeit.</p><lb/>
+<p>Zum andern haben ſie geſehen vnd gehoͤret S.<lb/>
+Johannem den Teuffer/ von welchem die Propheten/<lb/>
+Malachias am 3. vnd 4. Cap. vnd der Prophet Eſa-<lb/>
+<fw place="bottom" type="catch">ias am</fw><lb/>
+<pb facs="#f0007" n="[7]"/>
+ias am 40. cap. geweiſſaget haben: Siehe ich ſende<lb/>
+meinen Engel fur dir her/ der da bereite deinen weg fur<lb/>
+dir. Es iſt eine ſtimme eines Predigers in der wuͤſten/<lb/>
+bereitet den weg des HErren/ macht ſeine ſtege richtig/<lb/>
+Matt. 3. Mar. 1. Sie ſind S. Johannis Schuͤler vñ<lb/>
+Juͤnger auch geweſen/ nachmals aber ſind ſie Jeſu nach-<lb/>
+gefolget/ wie Joh. 1. bezeuget wird/ Sie haben gehoͤret/<lb/>
+was Er im gemein alles volck gelehret/ vnd wie Er in-<lb/>
+ſonderheit die Phariſeer vnd Saduceer/ die Zoͤllner vnd<lb/>
+Kriegesleute/ mit ſcharfſen worten ernſtlich geſtraffet<lb/>
+vnd vermanet hat/ Sehet zu/ thut rechtſchaffene fruͤcht<lb/>
+der buſſe/ Sie haben gehoͤret/ wie er von Chriſto gepre-<lb/>
+diget hat/ Es koͤmmet einer nach mir/ der iſt ſter-<lb/>
+cker denn ich/ dem ich nicht gnugſam bin/ das ich mich<lb/>
+fur jhm buͤcke/ vnd die Riemen ſeiner Schuch aufloͤſe/<lb/>
+Jch teuffe euch mit waſſer/ aber Er wird euch mit dem<lb/>
+heiligen Geiſt teuffen/ von welchem er auch zeuget/ vnd<lb/>
+ſpricht: Siehe das iſt Gottes Lamb/ welches der welt<lb/>
+ſuͤnde tregt. Sie habens auch geſehen/ wie S. Johan-<lb/>
+nes mit waſſer zu teuffen am Jordan angefangen hat.</p><lb/>
+<p>Zum dritten/ haben ſie geſehen vnd gehoͤret/ den<lb/>
+verheiſſenen Heiland der Welt/ den HErrn Chriſtum<lb/>
+im fleiſch vnd angenomener Menſchlichen Natur auff<lb/>
+erden herumb wandeln/ haben jhn fur den rechten Meſ-<lb/>
+ſiam erkant/ gegleubet vnd angenommen/ Wie S. An-<lb/>
+dreas zu ſeinem Bruder ſagt/ Joh. 1. Wir haben den<lb/>
+Meſſias funden/ vnd fuͤhret jhn zu JEſu/ Vnd wie<lb/>
+Philippus zu Nathanael/ dem rechten Jſraeliten/ in<lb/>
+welchem kein falſch war/ mit groſſen freuden vnd fro-<lb/>
+<fw place="bottom" type="catch">locken</fw><lb/>
+<pb facs="#f0008" n="[8]"/>
+locken ſaget: Wir haben den funden/ von welchem<lb/>
+Moſes im Geſetz/ vnd die Propheten geſchrieben haben/<lb/>
+JEſum Joſephs Sohn von Nazareth. Sie haben ſei-<lb/>
+ne wunderſchoͤne Predigten gehoͤret/ die Er zu Land<lb/>
+vnd Waſſer gethan/ in welchen Er das Geſetz erkleret<lb/>
+vnd das Evangelium von dem Reich geprediget hat/<lb/>
+Sie haben auch ſeinen heiligẽ wandel geſchẽ/ Sie haben<lb/>
+vber dieſes ſeine Miracul vnd wunder geſehen/ dardurch<lb/>
+Er ſeine herrligkeit geoffenbaret hat/ dadurch ſie auch<lb/>
+zum waren glauben an Jhn ſind gebracht worden. Sie<lb/>
+haben geſehen/ wie man zu Jhm allerley Krancken/ mit<lb/>
+mancherley ſeuchen vnd qual behafftet/ gebracht hat/ die<lb/>
+beſeſſenen/ die Monſuͤchtigen/ vnd die gichtbruͤchigen/<lb/>
+wie Er ſie auch alle geſund gemacht/ vnd allerley ſeu-<lb/>
+chen vnd kranckheiten im volck geheilet hat. Sie haben<lb/>
+vnter andern geſehen/ das erſte groſſe wunderwerck/<lb/>
+welches er zu Cana in Galilea gethan/ da Er ſchlechtes<lb/>
+natuͤrliches vnd gemeines Waſſer/ (welches ſie auch<lb/>
+ſelber geſchoͤpffet/ vnd in die verordneten Waſſerkruͤge<lb/>
+gegoſſen hatten) zu einem koͤſtlichen/ wolſchmeckenden<lb/>
+reinem vnd geſundem Wein gemacht hat. Sie ha-<lb/>
+ben geſehen/ wie Er der Blinden augen auffgethan/ als<lb/>
+des armen Bartim<hi rendition="#aq">æ</hi>i/ der am wege bey Jericho ſaß/<lb/>
+Luc. 18. Matth. 20. Marc. 10. vnd des blindgebor-<lb/>
+nen Joh. 9. Sle haben geſehen/ wie Er den verſtorbe-<lb/>
+nen juͤngling zu Nain/ vnter dem Stadthor/ Luc. 7.<lb/>
+Item/ des Schulmeiſters zu Capernaum Toͤchterlin/<lb/>
+Matth. 9. Marc. 5. Luc. 8. Jtem/ Lazarum/ Ma-<lb/>
+ria vnd Martha Bruder zu Bethanien/ da er ſchon biß<lb/>
+<fw place="bottom" type="catch">in vierden</fw><lb/>
+<pb facs="#f0009" n="[9]"/>
+in vierden tag im grabe gelegen/ durch ſein allmechtiges<lb/>
+wort vnd Goͤttliche krafft von todten aufferwecket hat/<lb/>
+Joh. 11. Sie haben ſeine Himliſche verklerung auff<lb/>
+dem berge Thabor geſehen/ vnd die ſtimme des Himli-<lb/>
+ſchen Vaters von Jhm gehoͤret: Diß iſt mein lieber<lb/>
+Sohn/ an dem ich wolgefallen hab/ den ſolt jhr hoͤren/<lb/>
+Matth. 17. Marc. 9. Luc. 9. Darumb auch S.<lb/>
+Joh. 1. cap. bekennet: Wir ſahen ſeine herrligkeit/ die<lb/>
+herrligkeit als des eingebornen Sohns vom Vater/ das<lb/>
+iſt/ wir haben geſehen/ wie Er Todten aufferwecket/ vnd<lb/>
+ſelbſt von Todten aus eigener krafft vnd macht auffer-<lb/>
+ſtanden/ vnd der Erſtling worden vnter denen die da<lb/>
+ſchlaffen/ 1. Cor. 15. Wir haben Jhn geſehen 40.<lb/>
+tage lang nach ſeiner aufferſtchung/ (Act. 1.) auff<lb/>
+das wir gewis weren/ vnd gleubten/ das Er der ſey/ wel-<lb/>
+cher der gantzen welt ſuͤnde tregt/ vnd den tod im Steg<lb/>
+verſchlungen hat ewiglich/ Schenckt vnd giebt den hei-<lb/>
+ligen Geiſt/ gerechtigkeit vnd leben denen/ die an ſeinen<lb/>
+Namen gleuben. Wie denn auch dergleichen/ 1. Joh.<lb/>
+1. zubefinden/ Das da von anfang war/ das wir gehoͤ-<lb/>
+ret haben/ das wir geſehen haben mit vnſern augen/ das<lb/>
+wir beſchauet haben/ vnd vnſere hende betaſtet haben<lb/>
+vom wort des Lebens/ was wir geſehen vnd gehoͤret ha-<lb/>
+ben/ das verkuͤndigen wir euch/ denn wir haben nicht den<lb/>
+klugen Fabeln gefolget/ da wir euch kundt gethan haben<lb/>
+die krafft vnd zukunfft vnſers HErrn JEſu Chriſti/<lb/>
+ſondern wir haben ſeine herrligkeit ſelber geſehen/ da Er<lb/>
+empfieng von Gott dem Vater ehre vñ preis durch eine<lb/>
+ſtimme/ die zu jhm geſchach/ von der groſſen herrligkeit/<lb/>
+<fw place="bottom" type="sig">B</fw><fw place="bottom" type="catch">2. Petri 1.</fw><lb/>
+<pb facs="#f0010" n="[10]"/>
+2. Petri 1. Sie haben Jhn geſehen in ſeinem herrlichen<lb/>
+Triumph gen Himmel fahren/ Act. 1. Mar. 16.<lb/>
+Sie haben ſeine Goͤttliche mildikeit in ſichtbahrer auß-<lb/>
+giſſung des heiligen Geiſts empfunden/ Act. 2.</p><lb/>
+<p>Zum vierden/ ſo ſind ſie auch durch ſolches ſehen<lb/>
+vnd hoͤren zum waren glauben an Chriſtum kommen/<lb/>
+vnd alſo haben ſie rechtſchaffener vnd Geiſtlicher weiſe/<lb/>
+CHriſtum geſehen/ Chriſtum gehoͤret/ in welchem wir<lb/>
+haben heil/ leben vñ ſeligkeit/ Wie dann jhre eigene <hi rendition="#aq">Con-<lb/>
+feſsiones</hi> vnd bekantniſſen lauten/ Matth. 16. Du biſt<lb/>
+Chriſtus/ des ſebendigen Gottes Sohn/ Vnd Joh. 6.<lb/>
+antwortet Simon Petrus: <hi rendition="#g">HERR/</hi> wo hin ſollen<lb/>
+wir gehen? Du haſt wort des ewigen lebens/ vnd wir<lb/>
+habens gegleubet vnd erkant/ das Du biſt Chriſtus der<lb/>
+Sohn des lebendigen Gottes.</p><lb/>
+<p>So iſt nu diß die ware Seligkeit Chriſtgleubiger<lb/>
+Menſchen/ <hi rendition="#fr">Den Sohn Gottes ſehen/ den<lb/>
+Sohn Gottes hoͤren/</hi> Denn die jenigen/ welche<lb/>
+den Sohn Gottes ſehen vnd hoͤren/ die ſind nach dem<lb/>
+ſententz vnd vrtheil des HERRN Chriſti fur rechte ſe-<lb/>
+lige Leute zu halten/ Daraus folget nun/ das die/ welche<lb/>
+Chriſtum nicht ſehen noch hoͤren/ vnſelige vnd verworf-<lb/>
+fene Leute ſein.</p><lb/>
+<p>Es folget auch hieraus/ das kein fleiſch durchs ge-<lb/>
+ſetzes werck fur Gott gerecht werde/ wil geſchweigen/ das<lb/>
+jrgend ein Menſch/ durch eigene froͤmigkeit/ heiligkeit<lb/>
+vnd verdienſt/ die gerechtigkeit vnd das ewige leben er-<lb/>
+langen vnd ererben ſolte.</p><lb/>
+<fw place="bottom" type="catch">Endlich</fw><lb/>
+<pb facs="#f0011" n="[11]"/>
+<p>Endlich auch/ das der <hi rendition="#g">HERR</hi> Chriſtus auff<lb/>
+zweierley weiſe geſehen werde/ entweder in dieſem/ oder im<lb/>
+andern leben/ Jn dieſem leben wird Er wiederumb auff<lb/>
+zweierley weiſe geſehen/ Entweder Leiblich vnd Geiſtlich<lb/>
+zugleich/ oder aber Leiblich allein/ oder Geiſtlich allein.<lb/>
+Leiblich vnd Geiſtlich zugleich haben den <hi rendition="#g">HERRN</hi><lb/>
+Chriſtum geſehen die Hirtten/ in der Bethlehemitiſchen<lb/>
+gegend/ welche auch vmb diß alles/ was ſie geſehen vnd<lb/>
+gehoͤret/ Gott gelobet vnd gepreiſet haben/ Luc. 2.</p><lb/>
+<p>Alſo haben die Weiſen aus Morgen Land den neu-<lb/>
+gebornen Koͤnig der Juden zu Bethlehem im Stalle<lb/>
+geſehen/ vnd angebetet/ Matth. 2.</p><lb/>
+<p>Alſo hat Jhn der Altvater Simeon geſehen/ denn<lb/>
+er hat nicht allein das Kindlein JEſum auff ſeine ar-<lb/>
+men genommen zu Jeruſalem im Tempel/ ſondern er<lb/>
+hat diß Kind zugleich fur den Heiland der Welt/ er-<lb/>
+kant vnd bekant/ denn ſo lauten ſeine wort/ Luc. 2.<lb/>
+<hi rendition="#g">HERR</hi> nu leſſeſtu deinen Diener im friede fahren/<lb/>
+wie du geſagt haſt/ denn meine augen haben deinen Hei-<lb/>
+land geſehen.</p><lb/>
+<p>So hat Jhn Zach<hi rendition="#aq">æ</hi>us der Zoͤllner/ der ſonſt von<lb/>
+perſon klein war/ bey Jericho auf eim Maulbeerbaum/<lb/>
+vnd darnach in ſeinem Hauſe geſehen/ alſo das der<lb/>
+<hi rendition="#g">HERR</hi> Chriſtns ſein ſehen ruͤhmt vnd preiſet/ da Er<lb/>
+ſagt: Heute iſt dieſem Hauſe heil wiederfahren/ ſin-<lb/>
+temahl er auch Abrahams Sohn iſt/ denn des Men-<lb/>
+ſchen Sohn iſt kommen zu ſuchen vnd ſelig zu machen/<lb/>
+das verlohren iſt/ Luc. 19.</p><lb/>
+<fw place="bottom" type="sig">B ij</fw><fw place="bottom" type="catch">Vnd</fw><lb/>
+<pb facs="#f0012" n="[12]"/>
+<p>Vnd dieſes anſchauen vnd ſehen des HERREN<lb/>
+Chriſti/ iſt obernandten Perſonen ſehr heilſam geweſen/<lb/>
+denn ſie haben Chriſtum nicht mit euſſerlichen vnd leib-<lb/>
+lichen augen geſehen/ ſondern zugleich mit den augen des<lb/>
+hertzens/ Welches denn auch an der armen ſuͤnderin<lb/>
+wol warzunehmen/ Luc. 7. die des HERren Chriſti<lb/>
+fuͤſſe mit threnen netzete/ vnd mit den Haaren jhres<lb/>
+Haupts abtrucknet/ Welcher bald hierauff der Sohn<lb/>
+Gottes/ das wort der troͤſtlichen Abſolution verkuͤndi-<lb/>
+get/ da Er ſpricht: Dir ſind deine ſuͤnden vergeben/<lb/>
+Jtem/ dein glaub hat dir geholffen/ gehe hin mit frieden.<lb/>
+Wie denn auch der Sohn Gottes/ Joh. 5. Hoͤren vnd<lb/>
+Glauben zu ſammen ſetzet/ da Er ſpricht: Wer mein<lb/>
+Wort hoͤret/ vnd gleubet dem der mich geſand hat/ der<lb/>
+hat das ewige leben.</p><lb/>
+<p>Leiblich allein hat Chriſtum der meiſte theil deß<lb/>
+Juͤdiſchen volcks geſehen/ welchen es aber nichts genutzet<lb/>
+hat/ denn das Leibliche anſehen Chriſti hilfft vnd nuͤtzet<lb/>
+nichts/ wo nicht der glaube an Chriſtum dazu koͤmbt/<lb/>
+wie an dem Koͤnige Herode/ an Hannas/ vñ Caiphas/<lb/>
+an dem Roͤmiſchen Landpfleger Pontio Pilato/ an den<lb/>
+Phariſeern vnd Schrifftgelehrten/ an Juda dem Ver-<lb/>
+raͤhter/ an den Kriegesleuten/ welche Chriſti Kleider<lb/>
+vnter ſich getheilet/ vnd an den zuſehern ſeiner Creutzi-<lb/>
+gung/ die ſeiner noch dazu ſpotteten/ zu ſehen iſt. Dieſer<lb/>
+vnd vieler ander Exempel beweiſen/ das Chriſtum ohne<lb/>
+glauben allein leiblich ſehen/ nichts diene zur ſeligkeit.</p><lb/>
+<p>Geiſtlicher weiſe aber ſicht Chriſtum ein jeder/ ſo an<lb/>
+Jhn gleubet/ denn alſo legts der HERR Chriſtus ſel-<lb/>
+<fw type="catch" place="bottom">ber aus/</fw><lb/>
+<pb facs="#f0013" n="[13]"/>
+ber aus/ Joh. 3. Wie Moiſes in der wuͤſten eine<lb/>
+Schlange erhoͤhet hat/ alſo muß des Menſchen Sohn<lb/>
+erhoͤhet werden/ auff das alle die an jhn gleuben nicht<lb/>
+verloren werden/ ſondern haben das ewige leben. Alſo<lb/>
+hat Jhn Abraham geſehen/ wie Joh. 8. geſchrieben ſte-<lb/>
+het: Abraham euer Vater ward fro/ das er meinen<lb/>
+tag ſehen ſolte/ vnd ſahe jhn/ vnd freuet ſich. Vnd der<lb/>
+heilige Ertzvater Jacob ſaget/ Gen. 32. <hi rendition="#aq">Vidi Domi-<lb/>
+num &amp; ſalva facta eſt anima mea.</hi> Jch habe Gott<lb/>
+von angeſicht geſehen/ vnd meine Seele iſt geneſen.</p><lb/>
+<p>Alſo ſehen wir Chriſtum heutiges tages/ ſo viel<lb/>
+vnſer an jhn von hertzen glauben/ denn in Chriſto beſte-<lb/>
+het der grund vnſer ſeligkeit/ wie S. Paulus zeuget 1.<lb/>
+Cor. 3. Einen andern grund kan zwar niemand le-<lb/>
+gen/ auſſer dem/ der geleget iſt/ welcher iſt JEſus Chri-<lb/>
+ſtus/ Denn es iſt in keinem andern heil/ es iſt auch kein<lb/>
+ander Name den Menſchen gegeben/ darinnen wir ſol-<lb/>
+len ſelig werden/ Act. 4. Darumb zeugen von dieſem<lb/>
+alle Propheten/ das durch ſeinen Namen buſſe vnd ver-<lb/>
+gebung der ſuͤnden empfahen ſollen/ alle/ die an Ihn<lb/>
+gleuben/ Act. 10. Denn allein der Glaube thut<lb/>
+es/ der Chriſtum heilſam ſiehet vnd hoͤret/ Joh. 3.<lb/>
+Wer an den Sohn gleubet/ der hat das Ewige leben/<lb/>
+Wer dem Sohn nicht gleubet/ der wird das leben nicht<lb/>
+ſehen/ ſondern der zorn Gottes bleibet vber jhm. Ha-<lb/>
+bacue am 2. Der gerechte wird ſeines Glaubens le-<lb/>
+ben. So foͤrdert nun das Leibliche ſehen Chriſti allein<lb/>
+nicht zur ſeligkeit/ ſonſt muͤſten alle Gottloſe vnd ver-<lb/>
+dampte Menſchen/ die ſolcher geſtalt Chriſtum geſehen/<lb/>
+<fw type="sig" place="bottom">B iij</fw><fw type="catch" place="bottom">fur</fw><lb/>
+<pb facs="#f0014" n="[14]"/>
+fur Erben der ſeligkeit/ welches ausdruͤcklich mit der<lb/>
+Schrifft ſtreitet/ gehalten werden/ vnd muͤſte hieraus<lb/>
+folgen/ das alle durch den heiligen Geiſt geheiligte<lb/>
+Menſchen/ ſo entweder vor/ oder nach der Geburt vnſers<lb/>
+HErrn Chriſti gelebet/ vnd Jhnen doch niemals mit<lb/>
+den Leiblichen augen geſehen haben/ in alle ewigkeit ver-<lb/>
+lohren vnd verdambt ſein/ ſo doch die Schrifft dieſelbi-<lb/>
+gen vmb des glaubens willen an den verheiſſenen vnd<lb/>
+geleiſteten Heiland der welt fur ſelig ruͤhmet/ <hi rendition="#aq">Credi-<lb/>
+mus nosſalvari, ſicut &amp; patres ſalvati ſunt.</hi> Wir<lb/>
+glauben durch die gnade vnſers HErren JEſu Chriſti<lb/>
+ſelig zu werden/ gleicher weiſe wie auch ſie/ Act. 15.<lb/>
+Denn dieweil die welt durch jhre weißheit/ Gott in ſei-<lb/>
+ner weißheit nicht erkante/ gefiehl es Gott wol durch toͤ-<lb/>
+richte Predigt ſelig zu machen/ die/ ſo daran gleuben.</p><lb/>
+<p>Zu ſolchem ſeligen ſehen/ koͤmbt man durch das<lb/>
+licht des heiligen Evangelii. Welche nun den HErrn<lb/>
+Chriſtum im Evangelio erkant vnd mit warem glau-<lb/>
+ben ergriffen haben/ die haben ſolche ſelige augen vnd<lb/>
+ohren/ vnd das ſind rechte ſelige Leute. Hergegen ſind<lb/>
+das die aller vngluͤckſeligſten/ welche mit ſehenden augen<lb/>
+nicht ſehen/ vnd mit hoͤrenden ohren nicht hoͤren/ die<lb/>
+dieſen ſchatz nicht haben/ noch ſich daruͤmb/ wann er jh-<lb/>
+nen ſchon im wort angetragen wird/ annehmen wollen.<lb/>
+Daruͤmb ſo gebuͤret alleine Chriſto vnſerm Heilande/<lb/>
+vnd ſeinem Evangelio dieſe Ehre/ ruhm vnd preis/ das<lb/>
+man hiedurch zur waren ſeligkeit gelangen moͤge.</p><lb/>
+<p>Vnd in deme iſt die zeit des Neuen Teſtaments<lb/>
+bey weitem eine gewuͤnſchter vnd gluͤckſeliger zeit/ als die<lb/>
+<fw type="catch" place="bottom">zeit</fw><lb/>
+<pb facs="#f0015" n="[15]"/>
+zeit des Alten Teſtaments/ vmb der leiſtung vnd er-<lb/>
+ſcheinung des verſprochenen Meſſi<hi rendition="#aq">æ/</hi> vnſers <hi rendition="#g">HER-<lb/>
+REN</hi> Chriſti willen/ auff welchen die heiligen Patri-<lb/>
+archen/ Koͤnige vnd Propheten mit gleubigem verlan-<lb/>
+gen gewartet haben/ wie aus jhrem wunſche vnd ſeuff-<lb/>
+tzen offenbar/ Als da Eva jhren erſtgebornen Sohn<lb/>
+Cain geboren hat/ ſprach ſie mit freuden: <hi rendition="#aq">Acqui-<lb/>
+ſivi virum Domini.</hi> Jch habe den Man des HErrn/<lb/>
+da ſie hoffet ſie hette den Meſſiam geboren/ Aber Cain<lb/>
+war nicht allein aus Weiblichem/ ſondern auch aus<lb/>
+Maͤnlichem ſamen gezeuget vnd geboren/ Der Meſſias<lb/>
+aber ſolte allein eines Weibes Samen ſein/ nach der er-<lb/>
+ſten verheiſſung/ Gen. 3.</p><lb/>
+<p>Da Noah geboren war/ ſprach ſein Vater La-<lb/>
+mech/ <hi rendition="#aq">Ille conſolabitur nos.</hi> Der wird vns troͤſten in<lb/>
+vnſer muͤhe vnd arbeit auff Erden/ die der <hi rendition="#g">HERR</hi><lb/>
+verflucht hat. Der Meſſias aber ſagt im Propheten<lb/>
+Eſai<hi rendition="#aq">æ</hi> 43. Mir haſtu arbeit gemacht in deinen ſuͤn-<lb/>
+den/ Mir haſtu muͤhe gemacht in deiner miſſethat/ Vnd<lb/>
+Matth. 11. Kombt her zu mir alle die jhr muͤheſelig<lb/>
+vnd beladen ſeld/ Jch wil euch erquicken. Der heilige<lb/>
+Ertzvaler Jacob fuͤhret in ſeiner <hi rendition="#aq">valediction, prædi-<lb/>
+ction</hi> vnd <hi rendition="#aq">benediction,</hi> vnter andern/ Gen. 49. dieſe<lb/>
+ſchoͤne wort: <hi rendition="#aq">Expecto ſalutare tuum DOmine.</hi><lb/>
+<hi rendition="#g">HERR</hi> ich warte auff dein heil. Das leget der Chal-<lb/>
+deiſche Dolmetſcher alſo aus: Vnſer Vater Jacob<lb/>
+hat geſagt/ <hi rendition="#g">HERR</hi> ich warte auff deine erloͤſung/<lb/>
+Jch warte nicht auff die erloͤſung <hi rendition="#aq">Gedeonis</hi> des Soh-<lb/>
+nes Joas/ welche zeitlich iſt/ Jch warte auch nicht auff<lb/>
+<fw type="catch" place="bottom">das</fw><lb/>
+<pb facs="#f0016" n="[16]"/>
+das heil <hi rendition="#aq">Simſonis</hi> des Sohns <hi rendition="#aq">Manoæ,</hi> welches nur<lb/>
+vergengliche erloͤſung iſt/ Sondern ich warte auff die<lb/>
+erloͤſung des Meſſi<hi rendition="#aq">æ/</hi> des Sohnes David/ der da kom-<lb/>
+men wird/ die Kinder Jſrael zu ſamlen/ Nach dieſer<lb/>
+erloͤſung des Meſſi<hi rendition="#aq">æ</hi> ſehne ich mich/ vnd darnach ver-<lb/>
+langet mich von grund meines hertzens.</p><lb/>
+<p>Der Koͤnig David bittet im 102. Pſalm gar<lb/>
+hertzlich vnd ſehnlich vmb die Zukunfft des Meſſi<hi rendition="#aq">æ</hi> ins<lb/>
+fleiſch/ <hi rendition="#g">HERR</hi> du wolteſt dich auffmachen vnd vber<lb/>
+Zion erbarmen/ denn es iſt zeit das du jnen gnedig ſeieſt/<lb/>
+vnd dieſtund iſt kommen/ denn deine Knechte wolten ger-<lb/>
+ne das ſie gebauet wuͤrdẽ/ vñ ſehen gerne das jhre Stei-<lb/>
+ne vnd Kalck zugerichtet wuͤrden. Vnd im eiſten buch<lb/>
+der Chronica am 18. cap. dancket er Gott mit hoͤchſter<lb/>
+verwunderung fur die vnausſprechliche groſſe gnad vnd<lb/>
+wolthat/ das der ware Meſſias vnd Heiland der Welt<lb/>
+von Gott verſprochen/ aus ſeinen nachkommen ſol ge-<lb/>
+boren werden/ vnd bittet gar hertzlich vmb ſolcher Goͤtt-<lb/>
+licher gnade volziehung/ da denn furnemlichen zu mer-<lb/>
+cken iſt/ das David vnter andern ſagt: <hi rendition="#fr">Vnd Du<lb/>
+haſt angeſehen mich/ als in der geſtalt eines<lb/>
+Menſchen/ der in der hoͤhe Gott der HErr iſt.</hi><lb/>
+Darumb ſchleuſt S. Petrus/ 1. cap. 1. herrlich<lb/>
+vnd wol/ das vns dem volck des Neuen Teſtaments/<lb/>
+das jenige geprediget vnd verkuͤndiget werde/ nach wel-<lb/>
+chem gefraget vnd geforſchet haben die Propheten/ die<lb/>
+von der zukuͤnfftigen gnade auff vns geweiſſaget haben/<lb/>
+welches auch die Engel geluͤſtet zu ſehen. Mit welchem<lb/>
+<fw type="catch" place="bottom">auch</fw><lb/>
+<pb facs="#f0017" n="[17]"/>
+auch S. Paulus gar fein vbereinſtimmet/ zun Roͤm.<lb/>
+13. Die ſtund iſt da auffzuſtehen vom ſchlaff/ ſintemahl<lb/>
+vnſer heil jetzt naͤher iſt/ denn da wirs glaubten/ vnd 2.<lb/>
+Cor. 6. Sehet jtzt iſt die angenehme zeit/ jetzt iſt der tag<lb/>
+des heils.</p><lb/>
+<p>Vnd biß anhero iſt geſagt worden/ von der erſten<lb/>
+art des ſehens des HErrn Chriſti/ vnd auff waſerley<lb/>
+weiſe Er in dieſem leben geſehen werde.</p><lb/>
+<p>Jſt derhalben noch vbrig das wir auch hoͤren vnd<lb/>
+vns berichten laſſen/ võ der andern art des Sehens/ wel-<lb/>
+che angehen vnd geſchehen wird in der zukuͤnfſtigen herr-<lb/>
+ligkeit der Kinder Gottes im ewigen leben. Denn da<lb/>
+werden wir vnſern Heiland Chriſtum/ ſambt ſeinem<lb/>
+Himliſchen Vater vnd dem heiligen Geiſte/ mit Clari-<lb/>
+ficirten augen gantz volkoͤmlich ſehen/ vnd werden Jhn<lb/>
+nicht mehr/ wie alhier im tunckelen wort ſehen/ ſondern<lb/>
+von angeſicht zu angeſicht/ wie Er ſelber iſt/ vnd ſolches<lb/>
+ſeligen auſchauens in alle ewigkeit nicht entſetzet noch be-<lb/>
+raubet werden/ ſondern deſſelbigen ohne alle muͤhdigkeit<lb/>
+vnd auffhoͤren geniſſen vnd theilhafftig werden/ immer<lb/>
+vnd ewiglich.</p><lb/>
+<p>Von ſolchem anſchauen Gottes im ewigen leben/<lb/>
+ſchreibet S. Johannes in ſeiner 1. Epiſtel am 3. cap.<lb/>
+Meine lieben/ wir ſind nu Gottes Kinder/ vnd iſt noch<lb/>
+nicht erſchienen was wir ſein werden/ wir wiſſen aber/<lb/>
+wenn es erſcheinen wird/ das wir Jhm gleich ſein wer-<lb/>
+den/ denn wir werden Jhn ſehen/ wie Er iſt. Vnd in<lb/>
+der Offenbarung S. Johan. 21. Seine Knechte<lb/>
+werden Jhm dienen/ vnd ſehen ſein angeſicht.</p><lb/>
+<fw type="sig" place="bottom">C</fw><fw type="catch" place="bottom">Als</fw><lb/>
+<pb facs="#f0018" n="[18]"/>
+<p>Als denn wirds recht angehen vnd erfuͤllet werden/<lb/>
+wie Job 22. geſchrieben ſtehet/ Die Gerechten werden<lb/>
+ſehen vnd ſich freuen/ Denn ſie werden den HERRN<lb/>
+ſehen ſitzen auff einem hohen erhabenen Stuel/ Eſa. 6.<lb/>
+Sie werden den Koͤnig den HErrn Zebaoth mit jhren<lb/>
+augen ſehen/ <hi rendition="#aq">Ibid.</hi> Sie werden ſehen die herrligkeit des<lb/>
+HErrn/ den ſchmuck vnſers Gottes/ Eſa. 35. Jn ſei-<lb/>
+nem licht werden ſie das rechte Licht ſehen/ Pſalm 36.<lb/>
+Sie werden ſehen/ vnd jhr hertz wird ſich freuen/ denn da<lb/>
+wird man erkennen die Hand des HERRen an ſeinen<lb/>
+Knechten/ den zorn aber an ſeinen feinden/ da wirdts<lb/>
+heiſſen: <hi rendition="#aq">Sicut audivimus, ſic videmus.</hi> Wie wir<lb/>
+gehoͤrt haben/ ſo ſehen wirs/ Pſalm 48. Denn die ge-<lb/>
+rechten werden ewiglich leben/ vnd empfahen ein herr-<lb/>
+liches Reich/ vnd eine ſchoͤne Krone von der hand des<lb/>
+<hi rendition="#g">HERRN.</hi></p><lb/>
+<p>Auff ſolches anſchauen Gottes/ freuet ſich der Koͤ-<lb/>
+nigliche Prophet David in ſeinem 17. Pſalm/ Jch wil<lb/>
+ſchauen dein antlitz in gerechtigkeit/ Vnd im 27. Pſalm<lb/>
+Jch gleube aber das ich ſehen werde das gutt des HEr-<lb/>
+ren/ im Lande der lebendigen/ Darnach wunſchte er jm/<lb/>
+darnach verlanget jhn/ Jm 42. Pſalm/ Wenn werde<lb/>
+ich dahin kommen/ das ich Gottes angeſicht ſchaue.</p><lb/>
+<p>Deſſelbigen troͤſtet ſich der wolgeplagte vnd gedul-<lb/>
+dige Job/ in ſeinem hoͤchſten leiden/ da er ſagt/ cap. 19.<lb/>
+Jch weis das mein Erloͤſer leber/ vnd Er wird mich<lb/>
+hernach aus der erden aufferwecken/ vnd werde darnach<lb/>
+mit dieſer meiner haut vmbgeben werden/ <hi rendition="#fr">Vnd wer-</hi><lb/>
+<fw type="catch" place="bottom"><hi rendition="#fr">de in</hi></fw><lb/>
+<pb facs="#f0019" n="[19]"/>
+<hi rendition="#fr">de in meinem fleiſch Gott ſehen/ Denſelben<lb/>
+werde ich mir ſehen/ vnd meine augen werden<lb/>
+Jhn ſchauen/ vnd kein frembder.</hi></p><lb/>
+<p>Hiemit ſtimmet der alte Kirchenlehrer Auguſtinus/<lb/>
+im 22. buch von der Stat Gottes/ cap. 30. Als denn<lb/>
+ſpricht er/ wird Gott alles in allem ſein/ denn Er wird<lb/>
+vnſers hertzen wunſch vnd verlangen enden vnd erfuͤllen/<lb/>
+in dem/ das Er von den außerwelten ohn ende wird ge-<lb/>
+ſehen/ ohn vberdrus geliebet/ vnd ohn alle muͤdigkeit<lb/>
+gelobet vnd gepreiſet werden. Wie nun die gerechten/<lb/>
+vnd die reines hertzens ſind Gott ſehen/ vnd in ſeinem<lb/>
+licht wandeln werden/ Alſo werden hergegen die Gott-<lb/>
+loſen vnd verdambten das nachſehen haben/ vnd des froͤ-<lb/>
+lichen anſchauens Gottes in der ewigen pein vnd mar-<lb/>
+ter ewiglich entrahten muſſen/ Denn in das Himliſche<lb/>
+Jeruſalem wird kein Gottloſer/ vnd kein vnreiner ein-<lb/>
+gelaſſen/ Es wird auch keinem vbertreter darinnen zu<lb/>
+wohnen verſtatet/ derhalben werden dieſelben Gott von<lb/>
+ferne vñ nicht nahe ſehen. Wie Bileam ſagt/ Num. 24.<lb/>
+Jch werde Jhn ſehen/ aber jtzt nicht/ Jch werde Jhn<lb/>
+ſchauen/ aber nicht von nahe/ Wie der Reiche Man/ als<lb/>
+er in der Helle vnd in der qual war/ hub er ſeine augen<lb/>
+auff/ vnd ſahe Abraham von ferne/ vnd Lazarum in<lb/>
+ſeinem ſchos/ Luc. 16.</p><lb/>
+<p>Als denn wird der gerechte ſtehen mit groſſer freu-<lb/>
+digkeit wieder die/ ſo jhn geengſtet haben/ vnd ſo ſeine ar-<lb/>
+beit verworffen haben/ wenn dieſelbigen denn ſolches ſe-<lb/>
+hen/ werden ſie grauſam erſchrecken fur ſolcher ſeligkeit/<lb/>
+<fw type="sig" place="bottom">C ij</fw><fw type="catch" place="bottom">derer</fw><lb/>
+<pb facs="#f0020" n="[20]"/>
+derer ſie ſich nicht verſehen hetten/ vnd werden vnter-<lb/>
+einander reden mit rew/ vnd fůr angſt des Geiſtes ſeuff-<lb/>
+tzen/ Das iſt der/ welchen wir etwa fur einen ſpot hatten/<lb/>
+vnd fur ein hoͤniſch beyſpiel/ Wir narren hielten ſein<lb/>
+leben fur vnſinnig/ vnd ſeine rede fur eine ſchande/ wie iſt<lb/>
+er nu gezehlet vnter die Kinder Gottes/ vnd ſein Erbe iſt<lb/>
+vnter den heiligen.</p><lb/>
+<p>Sollen derhalben gethanen bericht dazu mercken/<lb/>
+auff das wir lernen/ welches die rechte ware ſeligkeit ſey/<lb/>
+vnd worinnen ſie beſtehe/ nemlich/ im Geiſtlichen ſehen<lb/>
+vnd Hoͤren des HErren Chriſti/ das iſt/ in rechtſchaffe-<lb/>
+nem erkentnis vnd glauben an Chriſtum/ darzu vns die-<lb/>
+net vnd befoͤrdert die lehr des heiligen Evangelij/ welche<lb/>
+wir als den allerhoͤchſten vñ groͤſſeſten ſchatz ſollen hoch/<lb/>
+lieb vnd werth halten/ fleiſſig hoͤren/ ins hertze eigentlich<lb/>
+einſchliſſen/ vnd dabey feſt vnd beſtendig verharren/ Her-<lb/>
+gegen aber aller nachleſſigkeit/ geringſchaͤtzung vnd ver-<lb/>
+achtung deſſelben vns entſchlahen/ dafuͤr huͤtten vnd wol<lb/>
+furſehen ſollen.</p><lb/>
+<p>Darnach ſollen wir es auch dazu mercken/ das wir<lb/>
+der gegenwertigen gewuͤnſchten zeit eigentlich warneh-<lb/>
+men/ Gott fur ſeine gnade vnd angezuͤndetes licht des<lb/>
+heiligen Evangelij von hertzen dancken/ das er vns erret-<lb/>
+tet hat von der Obrigkeit der finſternis/ vnd hat vns<lb/>
+verſetzt in das Reich ſeines lieben Sohnes/ an welchem<lb/>
+wir haben die Erloͤſung durch ſein Blut/ nemlich/ die<lb/>
+vergebung der ſuͤnden/ zun Col. 1. Gelobet ſey der-<lb/>
+halben Gott/ vnd der Vater vnſers HERRN JEſu<lb/>
+Chriſti/ der vns geſegnet hat mit allerley Geiſtlichem<lb/>
+<fw place="bottom" type="catch">ſegen</fw><lb/>
+<pb facs="#f0021" n="[21]"/>
+ſegen in Himliſchen guͤttern/ durch Chriſtum. Laſt vns<lb/>
+auch Gott den HErrn fleiſſig anruffen vnd bitten/ Er<lb/>
+wolle ſolche zeit der gnaden vnd des heils vaͤterlich noch<lb/>
+lange vnter vns erhalten/ vnd auff vnſer liebe Kinder<lb/>
+vnd nachkommen volſtrecken.</p><lb/>
+<p>Endlich laſt vns auch vorgetragenen bericht zum<lb/>
+troſt wieder gegenwertiger zeit beſchwerung/ noth vnd<lb/>
+gefahr/ wol mercken/ Denn ob zwar die noth vnd gefahr<lb/>
+gros/ das jetzo gemeine ſcheiden Chriſtlicher Ehegenoß-<lb/>
+en/ Eltern vnd Kinder/ Geſchwiſter vnd Blutsfreunde/<lb/>
+welches der zehnbleckende Tod anrichtet/ ſehr ſchmertzli-<lb/>
+chen iſt/ jedoch iſt derer ſo im <hi rendition="#g">HERRN</hi> entſchlaffen/<lb/>
+abſcheid/ nicht fur eine pein zu achten/ noch jhre hinfart<lb/>
+fur ein verterben/ aber ſie ſind im friede/ Denn die trew<lb/>
+ſind in der liebe/ leſt jhm Gott nicht nehmen/ denn ſeine<lb/>
+heiligen ſind in gnaden vnd barmhertzigkeit/ vnd Er hat<lb/>
+ein auffſehen auff ſeine außerwelten/ wie im buch der<lb/>
+Weißheit am 3. cap. geſchrieben ſtehet.</p></div><lb/>
+<div type="fsPersonalia" n="2"><head/>  <p><hi rendition="#fr">Vnd hiemit hat ſich nun auch dieſer Gott-</hi><lb/>
+ſeligen/ Chriſtlichen Matron betruͤbter Hauswirt/<lb/>
+ſambt ſeinen verwaiſeten Kinderlin/ vnd beyderſeits zu-<lb/>
+gethanen Blutsfreundſchafft/ dieſer vnd ander ort zu<lb/>
+troͤſten/ in jhrer klag vnd leid/ darein ſie durch den toͤdli-<lb/>
+chen abgang jhres hertzlieben Ehegenoſſen/ Mutter/<lb/>
+Schweſter vnd Blutsfreundin/ nach Gottes vnwan<supplied>-</supplied><lb/>
+delbarem willen gerahten ſein.</p><lb/>
+<p>Denn es iſt vmb die Fraw Maria alſo gethan ge-<lb/>
+weſen/ das ſie auch vnter die zahl derer gehoͤret/ von wel-<lb/>
+<fw place="bottom" type="sig">C iij</fw><fw place="bottom" type="catch">chen der</fw><lb/>
+<pb facs="#f0022" n="[22]"/>
+chen der HERR hie redet/ Selig ſind die augen die da<lb/>
+ſehen/ das jhr ſehet/ Denn ſie hat in der zeit gelebet/ in<lb/>
+welcher ſie Chriſtum geſehen vnd gehoͤret hat/ Vnd ob<lb/>
+ſie Jhn zwar in dieſem leben mit leiblichen augen nicht<lb/>
+geſehen hat/ ſo hat ſie Jhn doch Geiſtlich geſehen/ das<lb/>
+iſt/ ſie hat Jhn fur jhren vnd der gantzen welt Heiland<lb/>
+erkennet vnd angenommen/ vnd von hertzen an Jhn ge-<lb/>
+gleubet. Sie hat in jhrem hochberuͤmbten Vaterlan-<lb/>
+de gutte gelegenheit gehabt/ vnd ſich derſelbigen alhier<lb/>
+auch hoͤchlichen gefreuet/ Chriſtum zu ſehen/ Chriſtum<lb/>
+zu hoͤren/ Durch die heilige Tauffe hat ſie Chriſtum<lb/>
+angezogen/ zun Gal. 3.</p><lb/>
+<p>Jhre liebe Eltern ſind furnehme anſehliche Leute<lb/>
+vnd Geſchlechter zu Augſpurg geweſen/ Herr Georg<lb/>
+Schorer jhr Vater iſt jhr albereit vor achtzehen jahren/<lb/>
+als ſie ſeiner am beſten bedurfft/ mit Tode entfallen/<lb/>
+Fraw Suſanna Heygin jhre liebe Mutter/ iſt vor vier<lb/>
+jahren mit Tode verbliechen/ welches Fraw Marien<lb/>
+darumb ſchmertzlichen war/ das ſie ſich nicht/ wie ſie offt<lb/>
+gewuͤnſchet/ mit jhr hat letzen koͤnnen.</p><lb/>
+<p>Von dieſen jhren lieben Eltern/ iſt ſie in der Zucht<lb/>
+vnd vermanung zum HERRN Chriſtlichen aufferzo-<lb/>
+gen/ vnd demnach durch das wort Goͤttlicher Predigt<lb/>
+zum rechten erkentnis Gottes/ vnd warem glauben an<lb/>
+Chriſtum kommen/ in welchem ſie auch durch des heili-<lb/>
+gen Geiſtes huͤlffe vnd gnade alſo gewachſen vnd zuge-<lb/>
+nommen/ das ſie Chriſtum vnd ſein wort fur jhren hoͤch-<lb/>
+ſten ſchatz/ vnd das heilige Abendmahl des HERRN<lb/>
+<fw type="catch" place="bottom">fur</fw><lb/>
+<pb facs="#f0023" n="[23]"/>
+fur jhre aller beſte labung/ hertzerquickung/ vnd fur die<lb/>
+allerheilſamſte Seelen Artzney/ gehalten hat/ Vñ iſt eine<lb/>
+liebhaberin Gotes worts geweſen/ das hat ſie nicht allei-<lb/>
+ne wann es geprediget worden/ fleiſſig gehoͤret/ ſondern<lb/>
+ſie hat es auch daheime ſelber mit groſſer freude vnd luſt<lb/>
+geleſen/ ein ſonders Handbuͤchlein zugerichtet/ vnd dar-<lb/>
+ein die allerſchoͤneſten Lehr vnd Troſtſpruͤche/ Altes<lb/>
+vnd Neuen Teſtaments/ mit eigener hand verzeichnet.</p><lb/>
+<p>Vnter denſelbten iſt der aller erſte dieſer geweſen/ da<lb/>
+Gott im Propheten Eſa. am 46. ſpricht: <hi rendition="#fr">Hoͤret</hi><lb/>
+mir zu/ jhr vom hauſe Jacob/ vnd alle vbrigen vom<lb/>
+hauſe Jſrael/ die jhr von mir im Leibe getragen werdet/<lb/>
+vnd mir in der Mutter lieget/ Ja ich wil euch tragen<lb/>
+biß ins alte<supplied>r</supplied> vnd biß jhr graw werdet/ Jch wil es thun/<lb/>
+Jch wil heben vnd tragen vnd erretten.</p><lb/>
+<p>Der ander aber war dieſer/ Joh. am 10. Meine<lb/>
+Schaffe Hoͤren meine ſtimme/ vnd ich kenne ſie/ vnd ſie<lb/>
+folgen mir/ vnd ich gebe jhnen das ewige leben/ vnd ſie<lb/>
+werden nimmermehr vmbkommen/ vnd niemand wird<lb/>
+ſie mir aus meiner hand reiſſen.</p><lb/>
+<p>Der dritte/ ſo da ſtehet/ Jerem. am 9. war dieſer/<lb/>
+So ſpricht der <hi rendition="#g">HERR/</hi> Wer ſich ruͤhmen wil/ der<lb/>
+ruͤhme ſich des/ das er mich wiſſe vnd kenne/ das ich der<lb/>
+HERR bin/ der barmhertzigkeit/ recht vnd gerechtikeit<lb/>
+vbet auff erden/ denn ſolches gefellet wir wol/ ſpricht<lb/>
+der <hi rendition="#g">HERR.</hi></p><lb/>
+<p>Auff dieſe ſind andere viel mehr in zimlicher an-<lb/>
+zahl erfolget.</p><lb/>
+<fw type="catch" place="bottom">In</fw><lb/>
+<pb facs="#f0024" n="[24]"/>
+<p>Jn dem bekuͤmmerten vnfall/ welcher vor etlichen<lb/>
+Monaten vnſerer Chriſtlichen verſamlunge begegnete/<lb/>
+gehet ſie hin/ nimbt jhren lieben Pſalter zur hand/ vnd<lb/>
+zeichnet aus dem 77. Pſalm in jhr Handbuͤchlin nach-<lb/>
+folgende troͤſtliche wort: Wird denn der <hi rendition="#g">HERR</hi><lb/>
+ewiglich verſtoſſen/ vnd keine gnade mehr erzeigen?<lb/>
+Jſts denn gantz vnd gar aus mit ſeiner guͤtte/ vnd hat die<lb/>
+verheiſſung ein ende? Hat denn Gott vergeſſen gne-<lb/>
+dig zu ſein/ vnd ſeine barmhertzigkeit fur zorn verſchloſ-<lb/>
+ſen? Sela. Aber doch ſprach ich/ ich mus diß leiden<lb/>
+die rechte hand des <hi rendition="#g">HERRN</hi> kan alles endern.</p><lb/>
+<p>Der letzte ſpruch in jhrem Buͤchlin war zun Heb.<lb/>
+am 13. Wir haben hie keine bleibende ſtat/ ſondern<lb/>
+die zukuͤnfftige ſuchen wir.</p><lb/>
+<p>Mit dieſen vnd vielen andern geiſtreichen Spruͤ-<lb/>
+chen hat ſie ſich beides im leben vnd im ſterben getroͤſtet<lb/>
+vnd erlůſtiget.</p><lb/>
+<p>Als ſie Jhrer gnaden/ vnſerer gnedigen Frauen<lb/>
+Cammerdienerin geweſen/ hat ſie denſelbten jhren dienſt<lb/>
+biß ins neunde jahr treulich vnd embſig verrichtet.</p><lb/>
+<p>Jhre Eltern vnd Geſchwiſter/ ſo wol jhren lieben<lb/>
+Hauswirt/ vnd hertzliebſte Kinderlin/ hat ſie von hertzen<lb/>
+geliebet/ vnd ſich vmb dieſelbigen treulich bekuͤmmert.</p><lb/>
+<p>Zucht/ Ehr/ Tugend/ Warheit vnd Ehrbarkeit/<lb/>
+in worten vnd geberden/ hat jhr biß in die grube hienein<lb/>
+beliebet vnd wolgefallen/ hergegen was dem zu wieder/<lb/>
+iſt jhr ein dorn in jhren augen/ vnd ein greuel in jhrem<lb/>
+hertzen geweſen. Jhr ſchmuck war das ſie reinlich vnd<lb/>
+fleiſſeg war in der Kinderzucht vnd Haushaltung.</p><lb/>
+<fw type="catch" place="bottom">Als</fw><lb/>
+<pb facs="#f0025" n="[25]"/>
+<p>Als ſie zu dieſem letzten mahl mit kranckheit vber-<lb/>
+fallen/ hat ſie jhr bald die rechnung gemacht/ die zeit jh-<lb/>
+res abſchiedes wuͤrde ſich herzunahen/ hat derhalben des<lb/>
+weiſen Mannes Sirach am 38. cap. raht gefolget/ ſich<lb/>
+zu dem HErren jhrem Gott gewendet/ vnd fleiſſig ge-<lb/>
+betet/ dem willen Gottes in gehorſam ergeben/ ſich auch<lb/>
+fur Jhm als eine arme ſuͤnderin gedemuͤttiget vnd ge-<lb/>
+flehet/ HERR handel nicht mit mir nach meinen ſuͤn-<lb/>
+den/ vnd vergilt mir nicht nach meiner miſſethat/ Dar-<lb/>
+auff iſt ſie durch das troͤſtliche wort der Abſolution von<lb/>
+jhren ſuͤnden loßgeſprochen/ vnd zur gewiſſen verſiche-<lb/>
+rung der gnedigen vergebung jhrer ſuͤnden/ mit dem wa-<lb/>
+ren Leib vnd Blut des HERREN Chriſti im heiligen<lb/>
+Abendmahl geſpeiſet vnd getrencket worden/ hat auch<lb/>
+von menniglich verzeihung gebeten/ wie ſie denn auch<lb/>
+treulichen gethan hat.</p><lb/>
+<p>Hierauff hat ſie ſich mit gleubigem vertrauen vnd<lb/>
+hertzlicher zuverſicht geſtoͤnet vnd verlaſſen auff das teu-<lb/>
+re verdienſt Jeſu Chriſti/ vnd ſich damit wieder die ſuͤn-<lb/>
+de/ Tod/ Teuffel vnd Helle getroͤſtet/ Mit dem lieben<lb/>
+David im 73. Pſalm geſagt: <hi rendition="#g">HERR</hi> wenn ich<lb/>
+nur dich habe/ ſo frage ich nichts nach Himmel vnd Er-<lb/>
+den/ vñ wenn mir gleich mein leib vnd ſeele verſchmach-<lb/>
+tet/ ſo biſtu doch allezeit meines hertzens troſt vnd mein<lb/>
+theil. Mit dem geduldigen Job am 19. Jch weis<lb/>
+das mein Erloͤſer lebet/ ꝛc. Vnd mit S. Paulo/ zun<lb/>
+Philip. 1. Chriſtus iſt mein leben/ ſterben iſt mein ge-<lb/>
+win. Mit dem lieben Stephano/ HERR Jeſu wem<lb/>
+meinen Geiſt auf/ Jn den geſchichten der H. Apoſtel am<lb/>
+7. cap.</p><lb/>
+<fw type="sig" place="bottom">D</fw><fw type="catch" place="bottom">Hat</fw><lb/>
+<pb facs="#f0026" n="[26]"/>
+<p>Hat alſo einen gutten Kampff gekempffet/ vnd jh-<lb/>
+ren lauff im drey vnd viertzigſten jahr jhres alters vol-<lb/>
+endet/ Sie hat glauben gehalten/ vnd iſt alſo in demſel-<lb/>
+bigen ſanfft vnd ſeliglich im HERRN eingeſchlaffen/<lb/>
+vnd durch den Tod zum leben hindurch gedrungen/ wird<lb/>
+nun nach dem Leibe in jhr Grab/ als in ein ſanfftes bette<lb/>
+vnd Schlaffkaͤmmerlin geleget werden/ vnd darinnen<lb/>
+biß auff die allgemeine aufferſtehung der Todten im<lb/>
+friede ruhen/ Jhre ſeele aber iſt in der hand Gottes/ vnd<lb/>
+keine qual ruͤret ſie nicht an/ jhre ſeele gefellet Gott wol/<lb/>
+darumb eilet Er mit jhr aus dem boͤſen leben/ wie im<lb/>
+buch der weißheit am 3. vnd 4. cap. geſchrieben ſtehet.<lb/>
+Sie iſt wie S. Auguſtinus ſchreibet/ eines ſeligen todes<lb/>
+geſtorben/ welcher jhr nicht ſchedlich/ ſondern viel<lb/>
+mehr ſehr nuͤtzlich iſt/ denn ſie iſt durch den Tod aus der<lb/>
+gefahr zu ſuͤndigen/ in die ſicherheit vnd freyheit von ſuͤn-<lb/>
+den/ verſetzt worden/ da ſie Gott von angeſicht zu ange-<lb/>
+ſicht ſchauet/ wie Er ſelber iſt/ vñ wandelt im Lande der<lb/>
+lebendigen/ in welchem ein licht iſt ohn alles trauren/<lb/>
+Friede ohne leid/ verlangen ohne ſtraffe/ liebe ohne trau-<lb/>
+rigkeit/ volle genuͤge ohne vberdrus/ geſundheit ohne<lb/>
+angſt/ leben ohne tod/ heil ohne kranckheit/ vnd jhr iſt bey-<lb/>
+geleget die Kron der gerechtikeit/ welche jhr der HERR/<lb/>
+der gerechte Richter an jenem tage/ wann Leib vnd ſeel<lb/>
+wird wieder mit einander vereiniget werden/ geben wird/<lb/>
+nicht aber alleine jhr/ ſondern auch allen/ die ſeine er-<lb/>
+ſcheinung lieb haben/ 2. Tim. 4.</p><lb/>
+<p>Deſſen ſollen ſich wolgedachter Frauen ſeligen/<lb/>
+Haußwirt/ vnd Kinderlin/ Geſchwiſter vnd Freunde<lb/>
+<fw type="catch" place="bottom">troͤſten/</fw><lb/>
+<pb facs="#f0027" n="[27]"/>
+troͤſten/ vnd damit jhr mattes hertz/ das traurens voll<lb/>
+iſt/ ſtillen/ Vñ das ſollen wir allzumahl zu vnſerm troſt<lb/>
+in der vnſerigen ſeligem abſterben/ auch wol mercken/<lb/>
+vnd fleiſſig beten:</p><lb/>
+<div n="3"><head/>  <p><hi rendition="#in">E</hi>y Du fromer <hi rendition="#g">HERR</hi> JEſu Chriſte/ Der du biſt<lb/>
+das ewige Wort des Vatern/ vnd der glantz ſeiner<lb/>
+herrligkeit/ in welche auch die heiligen Engel geluͤſtet zu<lb/>
+ſchauen/ Lehre mich thun nach deinem wolgefallen/ denn<lb/>
+du biſt mein Gott/ Dein gutter Geiſt fuͤhre mich auff<lb/>
+ebener bahn/ damit ich auch in die heilige Stad kom̃en<lb/>
+moͤge/ in welcher es immer tag vnd licht/ vnd welcher<lb/>
+tag vnd licht ewiglich wehret/ vnd ein Hertz vnd ſinn al-<lb/>
+ler die darinnen wohnen/ In welcher Stad iſt gewiſſe<lb/>
+ſicherheit/ vnd ſichere ewigkeit/ vnd ein ewige ruhe/ vnd<lb/>
+ein ewige ſeligkeit/ vnd eine ſelige liebligkeit/ vnd ein lieb-<lb/>
+liche holoſeligkeit/ In welcher du ein wahrer Gott mit<lb/>
+dem Vater vnd dem heiligen Geiſt lebeſt vnd herrſcheſt<lb/>
+immer vnd ewiglich/ <hi rendition="#g">AMEN.</hi></p></div></div></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsEpicedia" n="1"><head/>  <div n="2"><head><hi rendition="#aq"><hi rendition="#g">CONCIONIS FVNEBRIS</hi><lb/>
+De beatitudine conſpectus Domini<lb/>
+<hi rendition="#i">peſte Cromlovii graſſante habitæ</hi><lb/>
+<hi rendition="#g">PERIOCHE.</hi></hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">E</hi>Sto aliquid, <hi rendition="#g"><hi rendition="#k">Christvm</hi></hi> potuiſſe in carne taeri,</hi></l><lb/>
+<l><hi rendition="#aq">Et dios vultus, oráque dia ſequi.</hi></l><lb/>
+<l><hi rendition="#aq">At nihilo-minus eſt etiamnum audire loquentem</hi></l><lb/>
+<l><hi rendition="#aq">In verbo, &amp; promtam hujc ipſi adhibere fidem.</hi></l><lb/>
+<l><hi rendition="#aq">Eſto ita; ſint, <hi rendition="#g"><hi rendition="#k">Christvm</hi></hi> qvi conſpexére, beati:</hi></l><lb/>
+<l><hi rendition="#aq">Qui non vidiſti, crede; beatus eris.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">M. <hi rendition="#g"><hi rendition="#k">Sim. Grvnaevs.</hi></hi></hi></hi></salute></closer></div></div><lb/>
+<pb facs="#f0028" n="[28]"/>
+</body><back>  <div type="corrigenda"><head><hi rendition="#aq"><hi rendition="#i">Correctur.</hi></hi></head> <p><hi rendition="#aq">B. 2. <hi rendition="#i">fac. 1. lin.</hi></hi> 3. fur Himliſche ließ/<lb/>
+herrliche. <hi rendition="#aq">B. 2. <hi rendition="#i">f. 2. lin.</hi></hi> 3. ließ/ nicht allein mit.<lb/>
+<hi rendition="#aq">B. 4. <hi rendition="#i">f. 2. l.</hi></hi> 2. fur nur ließ/ eine.</p></div></back><lb/>
+</text>  </TEI>

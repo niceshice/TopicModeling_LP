@@ -1,0 +1,2758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Christliche Artzt vnd Leichpredigt/ welche bey Begräbnuß/ Weylund deß Ehrnvesten/ Hochgelehrten/ vnnd weitberühmten Herrn Johann Bauhins</title>
+<author>
+<persName ref="http://d-nb.info/gnd/121562018">
+<surname>Brebach</surname>
+<forename>Peter</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">55</measure>
+<measure type="tokens">18016</measure>
+<measure type="types">4219</measure>
+<measure type="characters">121899</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:10:42Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/524394</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/524394</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/524394</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/524394</idno>
+<idno type="DTADirName">524394</idno>
+<idno type="DTAID">200257</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-200257-8</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Brebach, Peter: Christliche Artzt vnd Leichpredigt. Montbéliard, 1614.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Christliche Artzt vnd Leichpredigt/ welche bey Begräbnuß/ Weylund deß Ehrnvesten/ Hochgelehrten/ vnnd weitberühmten Herrn Johann Bauhins</title>
+<author>
+<persName ref="http://d-nb.info/gnd/121562018">
+<surname>Brebach</surname>
+<forename>Peter</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">55</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Jacob Foillet</name></publisher>
+<pubPlace>Montbéliard</pubPlace>
+<date type="publication">1614</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 S 176/30 / 524394</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#b">Chriſtliche<lb/>
+Artzt vnd Leichpredigt/</hi></titlePart><lb/>
+<titlePart type="desc">welche bey<lb/>
+Begraͤbnuß/ Weylund deß<lb/>
+<hi rendition="#fr"><hi rendition="#in">E</hi>hrnveſten/ <hi rendition="#in">H</hi>och-</hi><lb/>
+<hi rendition="#b">gelehrten/ vnnd weitberuͤhmten<lb/>
+Herꝛn Johañ Bauhins/ der Artznej Do-</hi><lb/>
+ctorn/ vnd gnedig beſtettigten Fuͤrſtlich<lb/>
+Wuͤrtembergiſchen Leib Artztes zu<lb/>
+Muͤmpelgart/<lb/>
+<hi rendition="#b">Auß<lb/>
+Dem Vierdten Capitel des Euangelij Sanct</hi><lb/>
+Luc<hi rendition="#aq">æ/</hi> Mittwoch den 28. Octobris/ im Jahr<lb/>
+Chriſti/ vnſers einigen Erloͤſers/ 1612. gehalten/ vnd<lb/>
+in folgendem 1613 auff bittlich erholetes be-<lb/>
+geren/ ſampt einer Vorrede/ in Truck ge-<lb/>
+geben hat/</titlePart></docTitle><lb/>
+<byline><docAuthor><hi rendition="#aq">M. Petrus Brebachius</hi></docAuthor><hi rendition="#aq">,</hi> der Teutſchen Kirchen<lb/>
+Pfarꝛer daſelbſten/ vnd Superintendens.</byline><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docImprint><hi rendition="#b">Getruckt zu</hi> <pubPlace><hi rendition="#b"> Muͤmpelgart</hi></pubPlace><hi rendition="#b">/</hi><lb/>
+Durch <publisher>Jacob Foiller</publisher>/ Jm Jahr/<lb/>
+<docDate><hi rendition="#aq">M. DC. <hi rendition="#g">XIIII.</hi></hi></docDate></docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="[2]"/>
+<p><hi rendition="#c"><hi rendition="#b"><hi rendition="#in">B</hi>ildnuß/ <hi rendition="#in">W</hi>eylund<lb/>
+Herꝛn <hi rendition="#in">J</hi>ohannis Bauhini/ der<lb/>
+Artznej Doctorn/ vnnd Fuͤrſtlich</hi><lb/>
+Wuͤrtembergiſchen Leib Artztes<lb/>
+zu Muͤmpelgart/ ꝛc.</hi></p><lb/>
+<figure/> <lb/>
+<p><hi rendition="#et"><hi rendition="#aq">Simonis Iudæq́; die, <hi rendition="#g"><hi rendition="#k">Montisbeligardi<lb/>
+Bavhinvm Medicvm</hi></hi> fictilis vrna tegit.</hi><lb/>
+1612.</hi></p><lb/>
+<pb facs="#f0003" n="[3]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="preface" n="1"><head/>      <salute><hi rendition="#c"><hi rendition="#b"><hi rendition="#in">D</hi>er <hi rendition="#in">D</hi>urchleuchtigẽ/<lb/>
+Hochgebornen Fuͤrſtin vnnd Frawen/<lb/>
+Frawen Sibyllen/ Hertzogin zu Wuͤrtemberg vnd</hi><lb/>
+Teckh/ Graͤvin zu Muͤmpelgart/ Frawen zu Heydenheim/ ꝛc.<lb/>
+gebornen Fuͤrſtin zu Anhalt/ Graͤvin zu Aſcanien/ Frawen<lb/>
+zu Zerbſt/ vnd Berenburg/ ꝛc Wittiben: meiner<lb/>
+gnedigen Fuͤrſtin vnd Frawen:</hi></salute><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">G</hi>Nade/ Barmhertzigkeit vnd Friede von Gott<lb/>
+dem Vatter/ vnd dem <hi rendition="#g">HERRN</hi> Jeſu Chri-<lb/>
+ſto/ dem Sohn des Vatters/ ſampt meinem<lb/>
+armen Gebett/ vnnd in vnderthentgkeit ſchuldigen<lb/>
+Dienſten/ bevor:</hi></p><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">D</hi>Vrchleuchtige/ Hochgeborne Fuͤr-</hi><lb/>
+ſtin/ gnedige Fraw/ getrewe Landes Mut-<lb/>
+ter: Der <hi rendition="#g">HERR</hi> zuͤchtiget mich wohl/ aber er<lb/>
+gibt mich dem Todt nicht/ erkennet vnd bekennet<lb/>
+der Koͤnigliche Prophet Dauid/ im hundert<lb/>
+vñ achtzehendẽ Pſalm/ vnder der Perſon Chri-<lb/>
+ſti vnſers einigen Emanuels vnd liebſten Br<choice><sic>n</sic><corr>u</corr></choice>-<lb/>
+ders nach dem Fleiſch/ danckbarlich/ vnd zu dem<lb/>
+ende/ das jederman/ vñ inſonderheit die jenigen ſich deſſen gebrauchen/<lb/>
+vnnd von Hertzen getroͤſten kuͤnden/ welche die Zuͤchtigung des HErꝛn<lb/>
+erduldet/ vnd nicht nur wiſſen/ wen der HErꝛ lieb hat/ den zuͤchtige Er/<lb/>
+ſondern auch das Zeugnuß des H. Geiſtes in jhnen/ wie befunden/ alſo<lb/>
+behalten haben/ das ſie Gottes Kinder/ Soͤhne vnd Toͤchter ſeyen. Es<lb/>
+betet aber auch vnnd ſpricht vnder anderm/ die Gottſelige/ im HErꝛn/<lb/>
+<fw type="sig" place="bottom">A ij</fw><lb/>
+<pb facs="#f0004" n="[4]"/>
+nach außgeſtandenem groſſen Kummer vnd vberwundener Hertzens<lb/>
+ſchwerer Trawrigkeit/ froͤliche Hanna/ die Mutter des thewren Pro-<lb/>
+pheten Samuels/ wie wir in ſeinem erſten Buch im erſten vnd andern<lb/>
+Capitel leſen: Der HErꝛ toͤdtet vnd machet lebendig fuͤhret in die Hoͤl-<lb/>
+le vnd wider herauß. Welches ebenmeſſig andere/ durch den Geiſt Got-<lb/>
+tes getriebene Perſonen/ jhr gleichſam vor vnnd nach geſprochen/ die-<lb/>
+weil der HErꝛ ſelber jhnen in Mund gelegt/ vnnd andictirt hat was<lb/>
+im fuͤnfften Buch Moſe im zwey vnnd dreiſſigſten geſchrieben ſtehet:<lb/>
+Sehet jhr nun das ichs allein bin/ vnd iſt kein Gott neben mir? Jch<lb/>
+kan toͤdten vnd lebendig machen/ ich kan ſchlagen vnd kan heylen/ vnnd<lb/>
+iſt niemand/ der auß meiner Hand erꝛette. Zuͤchtigen will ich dich mit<lb/>
+maſſe/ das du dich nicht vnſchuldig halteſt/ ſagt der HErꝛ an einem an-<lb/>
+dern Ort zu ſeiner Kirchen/ vnd derſelbigen Gliedern.</p><lb/>
+<p>Jn demuͤtiger betrachtung dieſes/ vnnd auß glaubigem vertrawen zu<lb/>
+Gott vnſerm Hertzlieben himmliſchen Vatter/ der vns geliebet/ ja er-<lb/>
+wehlet hat/ in dem Geliebten/ ſeinem eingebornen Sohn/ ehe vnd denn<lb/>
+der Welt Grund gelegt war/ weiß ich mit andern weder die gnedige<lb/>
+heimſuchung/ vnnd vaͤtterliche Zuͤchtigung meines frommen Gottes/<lb/>
+noch viel weniger ſeine lebendig vñ heylmachende Krafft zuuerſchwei-<lb/>
+gen/ die er in abgeloffenem ein tauſent ſechßhunderſten vnnd zwoͤlfften/<lb/>
+allermeiſt auch dem dreyzehenden Jahr/ an mir ſeinem Knecht vnnd<lb/>
+Diener/ vber/ wo nicht wider vieler Hertzen gedancken zum Augenſchein<lb/>
+erwieſen vnd reichlich bewieſen hat: Jn dem er mich weder dem zeitli-<lb/>
+chen Todt gegeben/ noch in euſſerſter todtes Not vnnd Gefahr ſterben/<lb/>
+oder verderben laſſen. Dann je nicht in dieſer Statt allein vnd dem<lb/>
+gantzen Land bald erſchollen: Dazu nicht nur fuͤr vnſere Gnaͤdige Fuͤr-<lb/>
+ſtin vnnd Fraw LandesMutter reifflich/ vnnd verhoffenlich auß recht<lb/>
+Chriſtlichem mitleiden/ in vnderthaͤnigkeit gebracht: Sondern weit<lb/>
+vnnd breit bekant/ wo nicht in vmbligenden Laͤndern ruchbar worden/<lb/>
+wie ſchnell vnd ploͤtzlich/ nach ſiben jaͤrigen/ bey dieſer der Muͤmpelgar-<lb/>
+tiſchen Kirchen außgeſtandenen Dienſten/ der gerechte vnd barm her-<lb/>
+tzige Gott/ mit ſtarcken Hauptfluͤſſen mich eins theils nach abgehoͤrter<lb/>
+Frantzoͤſiſcher Predigt/ gethanem Gebett/ vnd vnder dem letzten Ge-<lb/>
+ſang: Andern theils/ da ich widerumb auß vnd meinen Amptsgeſcheff-<lb/>
+ten nachgegangen war/ auff der Cantzel/ vnd bald nach ſelbs gehaltener/<lb/>
+ordenlich beſchloſſener Teutſchen Predigt/ wie nicht weniger her-<lb/>
+nach zu Hauß vnd zu vnderſchiedlichen mahlen angegriffen<hi rendition="#i">:</hi> Darauff<lb/>
+ſolche Hertzens Ohnmachten vnd groſſe Schwachheiten/ dergleichen-<lb/>
+<fw type="catch" place="bottom">ich</fw><lb/>
+<pb facs="#f0005" n="[5]"/>
+ich weder bey ſiben oder achtzehen jaͤrigem meinem Predigampt/<lb/>
+noch in meinem gantzen Leben außgeſtanden/ erfolget: Daß ingegen-<lb/>
+wart vieler Trew vnd Guthertziger/ erfahrner vnd verſtendiger Leuthe/<lb/>
+keine oder doch kleine Hoffnung des Lebens vbergeblieben/ ja das mañ<lb/>
+endtlich anders nicht ſchlieſſen kuͤnden/ denn der HErꝛ/ der Gnedige<lb/>
+vnd Allmaͤchtige Gott habe mich/ ſeinen armen vnnd elenden Knecht<lb/>
+widerumb lebendig gemacht/ vnnd wie geſchlagen/ alſo geheylet: Ob er<lb/>
+wohl mit ſeiner Vaͤtterlichen Zuͤchtigung ettliche Monat vnnd ſo lang<lb/>
+angehalten/ biß ich vber verordnete Mittel der Artznej/ den Saurbrun-<lb/>
+nen in Sanct Peters thal bey Oberkirch/ zu Außgang des Fruͤ<supplied>li</supplied>ngs<lb/>
+nicht ohne merckliche Beſſerung gebrauchet. Dafuͤr ich dem HErꝛn<lb/>
+meinem Gott lob vnnd danck ſage hie zeitlich vnnd in ſeiner Heyligen<lb/>
+Gemeine/ biß ich jhn loben vnnd preiſen werde/ mit allen Außerwehl-<lb/>
+ten in Ewigkeit.</p><lb/>
+<p>Vnder deß vnnd dieweil/ Durchleuchtige/ Hochgeborne Fuͤrſtin/<lb/>
+gnedige Fraw/ getrewe LandesMutter/ E. Fuͤrſtliche Gnaden Sich<lb/>
+meiner/ eines geringern Dieners am Wort des HErꝛn/ ſo gnedig an-<lb/>
+genommen vnnd erbarmet/ das Sie mit kraͤfftiger Hertzſterckung/ mit<lb/>
+koͤſtlich gebrandten Waſſern/ vnnd einem ſolchen Edlen Puͤluerlein<lb/>
+mich Miltiglich verſehen vnnd verwahret/ welches/ nechſt Gottes Se-<lb/>
+gen vnd kraͤfftigem Gedeyen/ vor allen andern Artzneien den innerli-<lb/>
+chen Zuſtandt mercklich angegriffen/ die Kranckheit zertheilet/ vnnd<lb/>
+gleichſam alle aͤderlein am gantzen Leib erſuchet hat. Nachdem auch<lb/>
+Ewere Fuͤrſtliche Gnaden nicht nur vor drey Jahren/ vnnd da ich<lb/>
+naher Stuttgarten gnedig erfordert/ vnnd vnderthenig daſelbſten er-<lb/>
+ſchienen/ mich vnwuͤrdigen Diener in groſſen gnaden/ vnnd mit der<lb/>
+troſtreichen Zuſage/ bey nicht geringer Gefahr vnnd Widerwertigkeit/<lb/>
+auffgerichtet/ geſtercket vñ getroͤſtet: Jch bleibe ewere Freundin biß in<lb/>
+den Todt hinein: welches ſich dañ im werck vñ der that ſelber hernach/<lb/>
+vñ zur zeit der not befunden: Sondern dieſelbige eben damalen/ beneben<lb/>
+andern trewen Dienern/ nunmehr in Gott ruhenden vnnd im HErꝛn<lb/>
+entſchlaffenen Doctorn Bauhins/ ſo gnedig gedacht haben/ das er in<lb/>
+ſeinem obligenden hohen Alter nicht wohl hoͤher zuerfrewen/ dann eben<lb/>
+mit dem/ was in vnderthenigkeitſchuldigem gehorſam nach/ jhme er-<lb/>
+oͤffnet worden: So habe ich die eheſte/ vnd eben die gelegenheit nicht<lb/>
+auß der acht laſſen ſollen/ noch woͤllen/ die mir bey ſeligem ſeinem Ab-<lb/>
+ſchied vnnd nach dem vermoͤgen/ das Gott dargereichet/ gethaner<lb/>
+Leichpredigt zur Hand kommen. Dieſelbigie laſſe ich auff mehrmah-<lb/>
+<fw type="sig" place="bottom">A iij</fw><lb/>
+<pb facs="#f0006" n="[6]"/>
+len/ geſchehenes vnnd bittlich erholetes begeren/ weiter vnnd in Truck<lb/>
+kommen/ zuuorderſt vnnd allein dem groſſen ſtarcken Gott/ der vmb vn-<lb/>
+ſer Suͤnde willen vns zuͤchtiget/ vnnd durch ſeine Guͤte vns wider<lb/>
+hilffet/ ja vnſerm einigen Seelen Artzet Chriſto/ der vom Todt erloͤſet<lb/>
+hat/ vnnd noch taͤglich erloͤſet/ auch hinfort erloͤſen wird/ die doch des<lb/>
+Lebens ſich erwogen hatten/ vnd bey ſich beſchloſſen/ ſie mußten ſterben/<lb/>
+wie der Heylig Apoſtel redet/ zu ſchuldigem Lob vnd Ehren. Dem-<lb/>
+nach E. Fuͤrſtlichen Gnaden zu hertzlicher Danckſagung fuͤr mehr<lb/>
+als Muͤtterliche/ darzu Fuͤrſtliche Trew vnd Fuͤrſorg/ hohe wohl vnnd<lb/>
+gutthaten: welche warlich vnuergolten nicht werden bleiben denen die<lb/>
+nur mit einem kuͤlen Trunck Waſſers in ſeinem Namen dencken/ auch<lb/>
+den geringſten vnder denen/ die Chriſtum angehoͤren. Nicht weniger/<lb/>
+vnnd wie auß billicher Erkantnus/ im Glauben hufflicher Fuͤrbitt bey<lb/>
+Gott dem Vatter aller Barmhertzigkeit/ welche allhieſige vund abwe-<lb/>
+ſende Chriſtliche Gemeinen vnnd derſelbigen Glieder/ die nur von<lb/>
+meiner Schwachheit vnd gefehrlichſten Zuſtaͤnden gehoͤret/ abgehen<lb/>
+laſſen: Alſo andern/ wer die auch ſein moͤgen/ zu gleichem Troſt/ in<lb/>
+gleicher vn<choice><sic>u</sic><corr>n</corr></choice>d wohl groͤſſerer Truͤbſal/ darin ſie Gott/ vnſerm getrewen<lb/>
+Hohenprieſter vnnd einigen Nothelffer ſich in gewiſſer zuuerſicht er-<lb/>
+geben/ vnnd hiemit jhr vertrawen nicht auff ſich ſelbſt/ ſondern auff<lb/>
+Gott ſtellen ſollen vnnd werden/ der die Todten aufferwecket. Endt-<lb/>
+lich vnd nicht Weylund Herꝛn Doctorn Bauhin allein/ der fuͤr ſei-<lb/>
+nen Seelen Artzt/ wie er zureden pflegte/ mich zeitlich erkennet/ vnnd<lb/>
+hinwider/ wie einen getrewen vnnd erfahrnen LeibArtzt/ ſich finden laſ-<lb/>
+ſen<hi rendition="#i">:</hi> Auch nicht nur denen zu gebuͤrendem ruhm/ die in vnſers guedi-<lb/>
+gen Landsfuͤrſten vnd Herꝛn Statt allhie zu Muͤmpelgart/ desgleichen<lb/>
+in der loͤblichen ſreyen Reichs Statt Straßburg/ da ich hie beuor ſtu-<lb/>
+dierens halben/ in die zwoͤlff Jahr auß vnnd eingegangen ware/ an<lb/>
+newem Rath/ an heylſamer That/ vnnd verſtendigem Vrtheil/ wider<lb/>
+erlittene Zuſtende/ vnnd vnzeitigen Mißverſtand derſelbigen/ nichts<lb/>
+ermanglen laſſen/ beuorab nachdem jhre Excell: zum guten theil/ vnd<lb/>
+ſchon vor ettlichen Jahren meine Natur vnnd Complexion/ erken-<lb/>
+net/ vnnd zu zim̃licher Geſundtheit mich durch Gottes kraͤfftiges ge-<lb/>
+deyen gebracht haben/ wann ſie vernommen vnnd berichtet/ das ich<lb/>
+etwas bloͤd ſeye/ oder auch gefehrlich kranck liege<hi rendition="#i">:</hi> Dafuͤr ich vber ſi-<lb/>
+ben Jahr lang vor außgeſtandenem letzten/ wiewohl hochgefehrlichen<lb/>
+Zuſtand verwahret geblieben/ wie ſchwer vnnd ſorglich es ſich bey dem<lb/>
+Schifflin des HErꝛn anlieſſe: Sondern auch mir ſelber zu immer-<lb/>
+<fw place="bottom" type="catch">wehrendem</fw><lb/>
+<pb facs="#f0007" n="[7]"/>
+wehrẽdem Memorial oder denckmal/ dabey ich weder der Zuͤchtigung<lb/>
+des HErꝛn/ deſſen <hi rendition="#aq"><hi rendition="#g">IVDICIVM</hi></hi> oder Gericht an ſeinem eige-<lb/>
+nen Hauſe anfanget: Daher es weiter heiſſen ſolle/ <hi rendition="#aq"><hi rendition="#g">IVDICIVM</hi><lb/>
+non Intres/</hi> <hi rendition="#g">HERR/</hi> MJt Vns DV Jns gerJCht nJt gehe/<lb/>
+mich zubeſchweren habe: Noch meine Seele vergeſſe/ was mir der<lb/>
+HErꝛ guts gethan/ beydes innerlich/ vnnd dann auch euſſerlich: So<lb/>
+wohl durch Menſchen/ als allein durch ſeine gnedige Allmacht/ vnnd<lb/>
+allmechtige Gnade/ die alle Morgen new iſt/ vnnd vber vns waltet in<lb/>
+Ewigkeit.</p><lb/>
+<p>Ob aber wohl weder fuͤrgenommener Text vnnd die Materi an jhr<lb/>
+ſelber/ noch viel weniger nach erꝛeichter beſſerer Geſundtheit widerumb<lb/>
+angegriffene/ vnnd auff das Papeir gebrachte Arbeit/ der wichtigkeit<lb/>
+iſt/ das ſie vnder E. Fuͤrſtl. Gnaden Namen außgehen vnd das Liecht<lb/>
+anſchawen ſolte: Jedoch bin ich in vnderthenigkeit gewiß/ als fern<lb/>
+auß der Geiſtlichen Apotecken des Worts Gottes abgeholet/ was in<lb/>
+glaubiger einfalt geprediget/ vund Gottliebenden Zuhoͤrern zur Lehr/<lb/>
+wie der Heylige Apoſtel redit/ zur/ Straff/ zur Beſſerung/ zur Zuͤchti-<lb/>
+gung in der Gerechtigkeit/ allermeiſt auch zum Troſt in Leibs vnnd der<lb/>
+Seelen beſchwerden vnd anligen/ Kranck vnnd Schwachheiten/ ver-<lb/>
+kuͤndigt worden/ das ſeye E. Fuͤrſtlichen Gnaden lieber vnnd ange-<lb/>
+nemmer/ denn die koͤſtlichſten Perlen/ denen doch der Sohn Gottes<lb/>
+ſelber das Himmelreich vergleichet.</p><lb/>
+<p>Bitte derowegen Goͤttliche Maieſtet demuͤtigſt/ vnnd im Namen<lb/>
+Jeſu Chriſti vnſers einigen Aduo<choice><sic>e</sic><corr>c</corr></choice>aten vnnd getrewen Fuͤrſprechen<lb/>
+bey dem Vatter/ Er woͤlle E. Fuͤrſtl. Gnaden bey Seligmachender<lb/>
+Erkandtnus ſeines thewrheylſamen Worts/ vund Hochwuͤrdiger<lb/>
+Sacramenten/ wider ſchaͤdliche jrthumb vnd allen Mißuerſtand: Bey<lb/>
+lebendigem Troſt vnnd erwuͤnſchter Frewde im HErꝛn/ wider gefehr-<lb/>
+liche trawrigkeit im Gemuͤth vnnd Hertzen: wider beſchwerliche Zu-<lb/>
+faͤlle vnnd Schwachheiten deren Tage/ dauon mann ſagen moͤchte/ ſie<lb/>
+gefallen mir nicht/ bey beſtendig guter Geſundheit vnd Leibes Kraͤfften:<lb/>
+Endtlich vnnd wie bey allern das zu Seele vnnd zu Leib bedoͤrffen/ die<lb/>
+den HErn im Geiſt vnd in der Warheit anruffen: Alſo inſonderheit<lb/>
+dem Segen gnedigſt vnd gantz Vaͤtterlich erhalten vnnd bewaren/ deſ-<lb/>
+fen nicht die Gottſelige Fuͤrſtin Sara allein/ wie der Name heiſſet/<lb/>
+vor andern/ wiewol hocherleuchteten Matronen/ theil haſſtig worden/<lb/>
+in dem Goͤttlicher verheiſſung nach/ auß jhr Voͤlcker/ vnnd Koͤnige<lb/>
+vber viel Voͤlcker/ werdẽ ſollen: Sondern deſſen gleich es falls die Gott-<lb/>
+<fw type="catch" place="bottom">ſoͤrch-</fw><lb/>
+<pb facs="#f0008" n="[8]"/>
+ſoͤrchtige/ im gantzen Land Jſrael hochgeehrte Matron vnnd Wittwe<lb/>
+Judith/ biß in das hundert vnnd fuͤnffte Jahr jhres Alters/ ja auch<lb/>
+das gantze Land/ vor vnd nach jhrem ſeligen Abſchled/ eine lange Zeit<lb/>
+genoſſen/ vnd in der Forcht vnnd Anruffung des HErꝛn jhres Gottes/<lb/>
+der alle hilffe gethan hat/ die vor zeiten vnnd hernach geſchehen iſt/ ſich<lb/>
+Hertzlich getroͤſtet/ darzu beſtendig gefrewet. Gegeben in Muͤm-<lb/>
+pelgart/ den 15. Tag Chriſtmonats/ im Jahr nach der ſeligen Geburt<lb/>
+vnnd Menſchwerdung vnſers einigen Erloͤſers/ vnnd Seligma-<lb/>
+chers/ <hi rendition="#g">1613.</hi></p><lb/>
+<closer><salute><hi rendition="#et">E. F. G.<lb/>
+Jn vnderthenigkeit<lb/>
+gehorſamer/ am<lb/>
+Wort Gottes<lb/>
+Diener/<lb/>
+<hi rendition="#aq">Mag. Petrus Brebachius.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<fw place="bottom" type="catch"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+<pb facs="#f0009" n="1"/>
+<div type="fsSermon" n="1"><head><hi rendition="#b">Chriſtliche<lb/>
+<hi rendition="#in">A</hi>rtzt/ vnnd <hi rendition="#in">L</hi>eichpre-<lb/>
+digt/ auß denen Worten/ die im Euan-</hi><lb/>
+gelio S. Luc<hi rendition="#aq">æ</hi> am vierdten Capitel/ geſchrie-<lb/>
+ben ſtehen/ vnd alſo lau-<lb/>
+ten:</head><lb/>
+<div type="fsBibleVerse" n="2"><head/> <cit><quote><hi rendition="#fr"><hi rendition="#in">V</hi>Nd Er ſprach zu jhnen: Jhr werdet freylich zu<lb/>
+mir ſagen diß Sprichwort: Artzt hilff dir<lb/>
+ſelber.</hi></quote><bibl/></cit></div><lb/>
+<div type="fsExordium" n="2"><head/> <p><hi rendition="#fr"><hi rendition="#in">G</hi>Eliebte im HErꝛn<hi rendition="#i">:</hi> Vnſer Leben we-</hi><note place="right">Wie hoch des<lb/>
+Menſchen Le-<lb/>
+ben kom̃e/ vñ<lb/>
+wie bald es da<lb/>
+rumb geſche-<lb/>
+hen ſeye.<lb/>
+Pſaim: 90.<lb/>
+Jeſaj: 40.<lb/>
+1. Petr. 1.</note><lb/>
+ret Sibentzig Jahr/ wenns hoch kompt ſo<lb/>
+ſinds Achtzig Jahr/ vnnd weñs koͤſtlich ge-<lb/>
+weſen iſt/ ſo iſts Muͤhe vnd Arbeit geweſen:<lb/>
+dann es fehret ſchnell dahin/ als floͤgen wir<lb/>
+dauon: bekennet/ vnnd bethet der Koͤnigli-<lb/>
+che Prophet Dauid/ oder vielmehr lang<lb/>
+vor jhm/ der Mann Gottes Moſe/ im neuͤntzigſten Pſalm.<lb/>
+Es iſt aber auch alles Fleiſch wie Graß/ vnd alle Herꝛligkeit<lb/>
+des Menſchen wie des Graſes Blume: Das Graß iſt verdor-<lb/>
+ret/ vnd die Blume iſt abgefallen: Wie S. Petrus auß dem<lb/>
+viertzigſten Capitel des Propheten Jeſai<hi rendition="#aq">æ</hi> in ſeiner erſten E-<note place="right">Von Artzney<lb/>
+der Altin re-<lb/>
+de.</note><lb/>
+piſtel am erſten erinnert vnd lehret: Artzney hilfft wenn Gott<lb/>
+will/ vñ nicht/ da iſt des Todes Ziel: pflegten die Alten zuſagẽ.</p><lb/>
+<p><hi rendition="#fr">Deſſen haben</hi> wir noch zu dieſer vnſerer Zeit/ vnnd auff<lb/>
+den heutigen Tag/ ein denckwuͤrdiges vnd augenſcheinliches<lb/>
+Exempel an Weylund dem Ehrnueſten vnnd Hochgelehrten<note place="right">Fuͤrgenam-<lb/>
+menen Textes<lb/>
+vñ abgehoͤrter<lb/>
+Wort/ gele-<lb/>
+genheit.</note><lb/>
+Herꝛn Johañ Bauhin/ der Artzney Doctorn/ vnnd Fuͤrſtlich<lb/>
+Wuͤrtembergiſchen beſteltem LeibArtzet allhie zu Muͤmpel-<lb/>
+gart etc. Deſſen Leichnam wir/ loͤblicher Ordnung nach/ vñ<lb/>
+in guter Anzahl/ zu ſeinem Rhubettlin begleytet/ vnd zur Er-<lb/>
+<fw type="sig" place="bottom">B</fw><lb/>
+<pb facs="#f0010" n="2"/>
+den beſtattet/ nach dem der allein Weiſe/ vnd Gerechte Gott/<lb/>
+in deſſen Henden vnſere Zeit ſtehet/ jn vor geſtern/ vmb fuͤnff<lb/>
+Vhr gegen der Nacht in einem ſanfften Schlaff/ zu ſeinen<lb/>
+Goͤttlichen Gnaden abgefordert/ vnd der Seelen nach in den<lb/>
+Fuͤrſtlichen Luſtgarten des Him̃liſchen Paradiſes transferirt<lb/>
+vnnd verſetzet hat/ biß das Leib vnnd Seel an dem froͤlichen<lb/>
+Fruͤling deß Juͤngſten Tages/ widerumb vereiniget/ vnd bey<lb/>
+Chriſto/ dem einigen Bewehrten Artzt Leibs vnnd der See-<lb/>
+len/ ewig wird leben.</p><lb/>
+<p><note place="left">Vrſachl: vnd</note>Damit nun weder der Artzney Erfahrne/ noch jemand an-<lb/>
+ders/ ſo der Artzney ſich gebrauchet/ oder nicht gebrauchet/<lb/>
+Menſchlichen Lebens Muͤhſeligkeit/ vnnd Hinfelligkeit nicht<lb/>
+vergeſſe: damit auch nicht allein der Oberſte vnd einige See-<lb/>
+len Art/ der allen Schaden heylen kan/ vns nimmer erleydet/<lb/>
+noch auß dem Hertzen genommen werde: ſondern daß wir e-<lb/>
+benmaͤſſig von ehrngedachten Herꝛn ſeeligenfacultet/ vnd der<lb/>
+Gleichnus/ oder dem Sprichwort nicht abweichen/ welches<lb/>
+die ewige Weisheit deß Vatters in abgehoͤrten/ wiewol wenig<lb/>
+<note place="left">Abtheylung.</note>Worten/ gleich als auß gemeinem Munde/ ja den Hertzen ſei-<lb/>
+ner Zuhoͤrer/ vñ der Jnwohner der Stat Nazareth nemmen/<lb/>
+<note place="left"><hi rendition="#aq">I</hi></note>vnd herfuͤr bringen woͤllen: So haben wir <hi rendition="#fr">fuͤr eins</hi> zuerwe-<lb/>
+gen/ mit was Worten der <hi rendition="#g">HERR</hi> vnſer Heyland vnd ge-<lb/>
+trewe Hoheprieſter ſeine Zuhoͤrer angeredt/ ehe vnd deñ er bey<lb/>
+jhnen gefaſſetes Sprichwort entdecket/ vnd abgehen laſſen.</p><lb/>
+<p><note place="left"><hi rendition="#aq">II.</hi></note><hi rendition="#fr">Darnach vnnd fuͤr das andere/</hi> das Sprichwort an<lb/>
+jhm ſelber zubedencken/ darinn er ſich einen Artzt nennen laſ-<lb/>
+ſet/ oder ſelbſt hin vñ wider in Heyliger Schrifft nennet: wel-<lb/>
+ches ſeine beſte/ vnd die einige Kunſt ſeye/ darauff wir vns zu-<lb/>
+uerlaſſen: Warumb er auch dieſelbige an jhm ſo gar nicht ge-<lb/>
+uͤbet/ das er viel mehr endtlich am Creutz warhafftig geſtorbẽ/<lb/>
+vnnd ſeinen Geiſt auffgegeben/ biß er am dritten Tag wide-<lb/>
+rumb aufferſtanden/ vñ ein vnuergengliches weſen ans Liecht<lb/>
+gebracht hat.</p><lb/>
+<fw place="bottom" type="catch"><hi rendition="#fr">Wolan</hi></fw><lb/>
+<pb facs="#f0011" n="3"/>
+<p><hi rendition="#fr">Wolan Gott</hi> hat den Artzt geſchaffen/ vñ leſſet die Artz-<lb/>
+ney auß der Erden wachſen: der eingeborne Sohn des Vat-<lb/>
+ters vergleichet ſich in angenommener ſeiner H. Menſchheit<lb/>
+einem Artzet: Der Heylige Geiſt hat ſo wol dieſe Wort/ als<lb/>
+die troͤſtliche Gleichnus vom Artzt im Alten vnnd im Newen<lb/>
+Teſtament erholet/ vñ ſehr lieblich beſchrieben/ der woͤlle auch<lb/>
+vns dauon zuhoͤren/ vñ zureden krefftiges gedeyen verleihen/<lb/>
+vnd in Gnaden ertheylen/ Amen.</p></div><lb/>
+<div type="fsMainPart" n="2"><head/>  <div n="3"><head><hi rendition="#b">Der erſte Theyl.</hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">A</hi>Nfaͤnglich aber vñ fuͤr eins/</hi> in dem der H. Euange-<lb/>
+liſt Lucas (ď ſelber hiebeuor ein beruͤhmter vñ wolerfahr-<note place="right">Lucas der H.<lb/>
+Euangeliſt-<lb/>
+ein Artzt.<lb/>
+Coloſſ. 4.<lb/>
+<hi rendition="#aq">Hieton <gap reason="illegible" unit="chars"/><lb/>
+Catalog leti-<lb/>
+riptotum <supplied>Rc</supplied><lb/>
+cleſ.<lb/>
+Derothei E-<lb/>
+piſc: Tyti <gap reason="illegible" unit="chars"/><lb/>
+ſynopſis.</hi></note><lb/>
+ner <hi rendition="#aq">Medicus</hi> oder Artzt in der Statt Antiochia/ vnnd e-<lb/>
+ben der ſoll geweſen ſein/ von welchem der außerwehlte Ruͤſt-<lb/>
+zeug des <hi rendition="#g">HERRN/</hi> S. Paulus/ an die Heyligen zu Co-<lb/>
+loſſen im vierdtẽ Capitel geſchrieben/ es gruͤſſet euch Lucas/<lb/>
+der Artzt/ der geliebte) in abgehoͤrten Worten/ vnnd in ſeinem<lb/>
+Euangelio von Jeſu Chriſto/ im vierdten Capitel bezeuget<hi rendition="#i">:</hi><lb/>
+<hi rendition="#fr">Er ſprach zu jhnen/ jhr werdet freylich zu mir ſagen<lb/>
+diß Sprichwort<hi rendition="#i">:</hi></hi> iſt zu mehrerm verſtandt ſehr nutzlich vñ<note place="right">Der einige/<lb/>
+vom HErrn<lb/>
+geſante Artzt<lb/>
+Chriſtus weiß<lb/>
+ſagt z<choice><sic>n</sic><corr>u</corr></choice>uorſer-<lb/>
+nen Zuhoͤrern<lb/>
+daß ſie ein<lb/>
+Sprichwort<lb/>
+zu jhm ſagen:<lb/>
+werden.</note><lb/>
+dienſtlich daß wir mit fleiß bedencken/ wer allhie/ vnnd zu<lb/>
+wem er rede. Dann wie der/ der da redet vnd daß Wort fuͤh-<lb/>
+ret/ ja der gewiß weißt/ vnnd zuuor ſagt/ was fuͤr ein Sprich-<lb/>
+wort mann zu jhm ſagen/ vnnd von jhm machen werde<lb/>
+vnder den Leuthen/ der Jeſus von Nazareth iſt/ welcher vom<lb/>
+heyligen Geiſt empfangen/ vnd von Maria der Jungfrawen<note place="right">Luc. 1.<lb/>
+Luc: 2.<lb/>
+Matth. 2.<lb/>
+Luc: 4. <hi rendition="#aq">v.</hi> 14.<lb/>
+Luc: 2.</note><lb/>
+in der fuͤlle der Zeit ein warer Menſch/ ja Gott vnnd Menſch<lb/>
+in einer Perſon/ zu Bethlehem in der Statt Dauid geboren:<lb/>
+zu Nazareth erzogen/ da er auch ſeinen Eltern vnderthan ge-<lb/>
+weſen: vñ zu Capernaum/ die da ligt am Meer/ an der Grentze<lb/>
+Zabulon/ vñ Nephthalim/ wie S. Matth<hi rendition="#aq">æ</hi>us auß dem Pro-<lb/>
+pheten Jeſaia redet/ gewohnet/ nachdem er zuuor im dreyſſig-<lb/>
+ſtẽ Jar ſeines Alters auß Galilea von Nazareth/ an den Jor-<note place="right">Matth: 4.<lb/>
+Jeſaj. 9.</note><lb/>
+dan zu Johanne/ Zacharias Sohn/ kom̃en/ võ dem ſich Jeſus<lb/>
+<fw place="bottom" type="sig">B ij</fw><lb/>
+<pb facs="#f0012" n="4"/>
+<note place="left">Luc. 3.<lb/>
+Matth. 3.<lb/>
+Mar. 1.</note>tauffen laſſen: Darauff alsbald vom Heyligen Geiſt in die<lb/>
+Wuͤſten gefuͤhret/ vnnd in des Geiſtes Krafft wider in Gali-<lb/>
+leam kom̃en: auch dermaſſen gelehret in jhren Synagogen vñ<lb/>
+<note place="left">Matth. 4.<lb/>
+Mar: 1.<lb/>
+Luc: 4. <hi rendition="#aq">v.</hi> 14.<lb/>
+15.</note>Schulen/ daß ſein geruͤcht von jhm durch alle vmbligende ort<lb/>
+erſchollen/ ja das er von jederman geprieſen: von welchem<lb/>
+<note place="left">Joh. 1 2. 3. 4.</note>ſampt anderm die Euangeliſche Hiſtori weitleuffiger zeuget:<lb/>
+<note place="left">Zuhoͤrer/ mit<lb/>
+denen Chri-<lb/>
+ſtus der HErr<lb/>
+redet/ waren<lb/>
+verſambiete<lb/>
+Jnnwohner<lb/>
+der Stat Na-<lb/>
+zareth.<lb/>
+Luc: 4. <hi rendition="#aq">v.</hi> 16<lb/>
+Mar: 6.<lb/>
+Matth. 13.</note>Alſo ſindt die/ zu welchen er/ der <hi rendition="#g">HERR</hi> Jeſus Chriſtus/<lb/>
+ſpricht/ jhr werdet freylich zu mir ſagen diß Sprichwort/ Jn-<lb/>
+wohner vnnd Burger der Statt Nazareth/ die in Galilea ge-<lb/>
+legen/ vnd ſo viel/ dem Namen nach/ alß Schoͤn oder Gruͤn<lb/>
+Zweig heiſſet: die in jhrer Synagog vñ Schulen oder offent-<lb/>
+licher Verſamblung/ darinnen daß Geſetz vnb die Propheten<lb/>
+auff die Sabbather geleſen/ vnd erkleret wurden/ den HErꝛn<lb/>
+<note place="left">Was in den<lb/>
+Synagogen/<lb/>
+oder Schulen<lb/>
+am Sabbath<lb/>
+geleſen/ vnnd<lb/>
+abzuleſen/<lb/>
+Chriſto zu Na<lb/>
+zareth fuͤr-<lb/>
+kommen.<lb/>
+Act. 13.<lb/>
+Luc. 13.<lb/>
+Luc. 4. <hi rendition="#aq">v.</hi> 17.<lb/>
+etc.<lb/>
+Jeſai: 61.</note>Jeſum gehoͤret/ die Wort des Propheten Jeſai<hi rendition="#aq">æ</hi> im ein vnnd<lb/>
+ſechtzigſten Capitel ableſen vñ außlegen/ die von dem einigen<lb/>
+kuͤnfftigen Artzt Leibs vnnd der Seelen/ dem verſprochnen<lb/>
+Meſſia vnnd Heyland der Welt zuuerſtehen/ vnnd ſchon vor<lb/>
+mehr deñ achthundert Jahren/ durch trieb des H. Geiſtes ge-<lb/>
+ſtellet/ vnnd in die Feder gleichſam dictirt/ durch den Prophe-<lb/>
+ten fuͤrgetragen/ vnnd der Kirchen Gottes hinderlaſſen: dem<lb/>
+HErꝛn aber eben zur hand kom̃en warẽ/ als er in die Schul/<lb/>
+nach ſeiner gewonheit gangen am Sabath tag/ darzu auffge-<lb/>
+ſtanden/ vnnd leſen wollen: Daher jhm auch das Buch des<lb/>
+Propheten Jeſai<hi rendition="#aq">æ</hi> gereicht worden.</p><lb/>
+<p><note place="left">Zengnus de-<lb/>
+ren zu Naza-<lb/>
+reth von Chri<lb/>
+ſto dem HEr-<lb/>
+rn.</note>Solche des HErꝛn Zuhoͤrer vnd verſamblete Jnnwohner<lb/>
+der Statt geben zwar anfangs alle Zeugnus von jhm/ vnnd<lb/>
+verwundern ſich der holdſeligen Wort/ die auß ſeinem Mun-<lb/>
+de gangen waren: ſie hielten aber nicht farb/ ſondern ſchlugen<lb/>
+<note place="left">Genom̃enes<lb/>
+Ergernus:<lb/>
+Matth. 13.<lb/>
+Luc. 3. <hi rendition="#aq">v.</hi> 23.<lb/>
+Luc: 4. <hi rendition="#aq">v.</hi> 22.</note>bald wider vmb/ ſtoſſen vnd ergern ſich an ſeinem vermeinten<lb/>
+geringern herkommen/ vnnd der Knechtes Geſtalt/ welche er<lb/>
+an ſich genom̃en: ſeitemahl Jeſus fuͤr einen Sohn Joſephs<lb/>
+gehalten worden/ der ein Sohn war Eli/ wie S. Lucas in vor-<lb/>
+her gehendem 3. Capi<choice><sic>e</sic><corr>t</corr></choice>el berichtet/ vnd der Jnwohner zu Na-<lb/>
+zareth eigene Wort mit ſich bringen/ da ſie ſagen: Jſt das<lb/>
+<fw place="bottom" type="catch">nicht</fw><lb/>
+<pb facs="#f0013" n="5"/>
+nicht Joſephs Sohn? vnd abermahl/ Jſt er nicht der Zim-<note place="right">Marci 6.</note><lb/>
+merman/ Mari<hi rendition="#aq">æ</hi> Sohn vnd der Bruder Jacobj/ vnd Joſes/<lb/>
+vnd Jud<hi rendition="#aq">æ</hi> vnd Simonis. Vñ ſie ergerten ſich an jhm/ ſchrei-<lb/>
+bet der H. Euangeliſt Marcus am ſechſten Capitel. Endt-<note place="right">Die Zuhoͤrer<lb/>
+Chriſti wer-<lb/>
+den voll zorn-<lb/>
+vnd woͤllen d<supplied>ẽ</supplied><lb/>
+Geiſtlichen<lb/>
+Artzt toͤdten.<lb/>
+Luc.: <hi rendition="#aq">v.</hi> 4 28<lb/>
+29 30.</note><lb/>
+lich werdẽ ſie alle voll Zorns die in der Synagog oder Schu-<lb/>
+len waren/ ſtunden auff/ vnnd ſtieſſen jhn zur Statt hinauß/<lb/>
+vnnd fuͤhren jhn auff einen Huͤgel des Bergs/ darauff jhre<lb/>
+Statt gebawet/ das ſie jhn hinab ſtuͤrtzẽ/ Aber er gieng mitten<lb/>
+durch ſie hinweg: ſchreibet vnſer Euangeliſt Lucas bald nach<lb/>
+denen Worten/ die wir gehoͤret/ vnd abgeleſen.</p><lb/>
+<p><hi rendition="#fr">Das nun meine im HErꝛn geliebte/ Chriſtus</hi> Je-<note place="right">Der võ HEr-<lb/>
+ren gelandte<lb/>
+Artzt Jeſus-<lb/>
+Chriſtus thut<lb/>
+es allen ande-<lb/>
+ren Heyligen<lb/>
+Menſchẽ vnd<lb/>
+Ertzten weit<lb/>
+vor an willen<lb/>
+ſchafft/ vnd dẽ<lb/>
+erkentniß.</note><lb/>
+ſus/ Gottes eingeborner/ vnnd der H: Jungfrawen Mari<hi rendition="#aq">æ</hi><lb/>
+erſtgeborner Sohn/ in angenommer ſeiner Knechtes geſtalt/<lb/>
+in dem Standt ſeiner ernidrigung/ vnnd da er zu Nazareth<lb/>
+offentlich gelehret/ vnd zwar mit verwunderung/ vnd ſonderm<lb/>
+Ruhm gelehret/ zuuor ſelber weißt vnd ſeinen Zuhoͤrern fuͤr-<lb/>
+helt/ was ſie zu jhm ſagen werden/ ehe vnd denn es fuͤr jhren<lb/>
+Mundt/ vnd vnder andere Leuthe kom̃en/ ja da es noch in jhrẽ<lb/>
+Hertzen verdeckt vnd verborgen lage: damit bawet er gleich-<lb/>
+ſam vor/ vnnd beweiſet in der That/ das er ein ſolcher Seelen<lb/>
+Artzt/ vnnd Leibs <hi rendition="#aq">Medicus</hi> ſeye/ der es wie allen andern Pro-<lb/>
+pheten/ vnnd Maͤnnern Gottes/ alſo allen Ertzten/ an Wiſ-<lb/>
+ſenſchafft vnd Erkantnus weit weit vorthue. Dann ob wohl<lb/>
+auch die Propheten vnd Heylige Leuthe im Alten Teſtament<note place="right">Woher/ vnd<lb/>
+wie fern hey-<lb/>
+lige/ hocher<lb/>
+leuchtete Leu-<lb/>
+the kuͤnfftige<lb/>
+ding gewußt/<lb/>
+vnd geweiſſa-<lb/>
+get: als<lb/>
+Eieſa<lb/>
+2. Reg. 6. vnd<lb/>
+5.</note><lb/>
+von kuͤnfftigen Dingen geweiſſaget/ vñ etwan geſchen haben<lb/>
+was andere geredt/ fuͤrgehabt vnnd fuͤrgenommen: Wie von<lb/>
+dem theuren Propheten Eliſa im andern Buch der Koͤnige<lb/>
+am ſechſten/ des Koͤnigs in Syrien Knecht oder Diener einer<lb/>
+ſagt: Eliſa der Prophet in Jſrael ſaget alles dem Koͤnige Jſ-<lb/>
+rael/ was du in der Kammer redeſt/ da dein Laͤger iſt: wandelt<lb/>
+nicht mein Hertz/ ſpricht der Prophet ſelber zu ſeinem Knecht<lb/>
+Gehaſi/ da der Mann vmbkeret von ſeinem Wagen dir ent-<lb/>
+gegen? Dan er angenommene geſchenck bey ſeits gelegt/ vnnd<lb/>
+mit vnwarheit ſeinen Herꝛn/ Eliſam/ beantwortet/ im er-<lb/>
+<fw place="bottom" type="sig">B iij</fw><lb/>
+<pb facs="#f0014" n="6"/>
+<note place="left">2. Petr. <supplied>1.</supplied></note>ſten Buch der Koͤnige im 6. vnnd 5. Capitel: jedoch ſo iſt noch<lb/>
+nie keine Weiſſagung auß Menſchlichem willẽ herfuͤr bracht/<lb/>
+ſonder die Heyligen Menſchen haben geredt/ getrieben vom<lb/>
+<note place="left">Der Artzt<lb/>
+Chriſtus iſt<lb/>
+ein Hertzen-<lb/>
+kuͤndiger vnd<lb/>
+weiß alle/ al-<lb/>
+le ding/ auch<lb/>
+als fern er<lb/>
+ein Menſch<lb/>
+der mit Gott<lb/>
+Perſoͤnlich<lb/>
+vereiniet iſt<lb/>
+1. Reg: 8.<lb/>
+Jerem: 17.<lb/>
+Act. 1.<lb/>
+Apocal 2.<lb/>
+Joh 2.</note>Heyligen Geiſt/ bekennet S. Petrus im erſten Capitel ſeiner<lb/>
+andern Epiſtel: der iſt jhnen gegeben worden nach dem maß/<lb/>
+vnnd keiner vnder allen dahin kommen/ daß er alle Ding ge-<lb/>
+wußt/ viel weniger dz er ein Hertzenkuͤndiger geweſen: Wel-<lb/>
+ches allein Gott zuſtehet/ vnd dem Menſchen in der Zeit/ vnd<lb/>
+auß gnaden gegeben iſt/ der mit Gott eine Perſon worden.<lb/>
+Daher ſtehet von dieſem Jeſu/ Johañis im Andern geſchrie-<lb/>
+ben/ Er habe ſich jhnen nicht vertrawet/ denn er kennete ſie al-<lb/>
+le: er habe nicht bedoͤrfft/ das jemand Zeugnus gebe von ei-<lb/>
+nem Menſchen/ dann er wußte wohl/ was im Menſchen war.<lb/>
+Kom̃et/ ſehet einen Menſchen/ ſagt nicht nur das Samari-<lb/>
+<note place="left">Johann: 4.</note>taniſche Weiblin zu den Leuthen in der Statt/ Johannis im<lb/>
+vierdten Capitel/ der mir geſagt hat/ alles was ich gethan ha-<lb/>
+be: vmb deſſen rede willen dann viel der Samariter geglaubet:<lb/>
+<note place="left">Joh: 16.</note>Viel mehr aber vmb des Worts willen/ das ſie ſelber gehoͤret<lb/>
+vñ erkennet/ dieſer ſeye warlich Chriſtus/ der Welt Heyland.<lb/>
+Nun wiſſen wir/ ſprechen nicht die Juͤnger vñ Apoſtel allein<lb/>
+vor ſeinem Leiden vnd Sterben/ im 16. Capitel mehr gedach-<lb/>
+ten Euangeliſten/ zu jhrem Meiſter vnnd Herꝛn/ daß du alle<lb/>
+<note place="left">Joh. 21.</note>ding weiſſeſt/ vnd bedarffſt nicht/ das dich jemandt frage: ſon-<lb/>
+dern nach der Aufferſtehung Chreſti des HErꝛn gibt jhm der<lb/>
+Apoſtel Petrus in beyſein anderer Juͤnger diß Zeugnus/ das<lb/>
+<note place="left">Jeſaͤt 61<lb/>
+Pſalm 45,<lb/>
+Joh.: 3</note>er alle/ alle ding wiſſe/ <hi rendition="#g">HERR</hi> du weiſſeſt alle ding/ wie im<lb/>
+ein vñ zwantzigſten zuſehen. So war je der Geiſt des HERꝛn<lb/>
+HERꝛn vber jhm/ darumb hatte jhn der <hi rendition="#g">HERR</hi> geſalbet:<lb/>
+geſalbet iſt er mehr/ deñ ſeine Geſellen: den Geiſt hat er nicht<lb/>
+empfangen nach dem Maß/ wie von CHriſto im 45. Pſalm<lb/>
+geweiſſaget/ vnd Johannis im 3. bezeuget worden. Wie ſolte<lb/>
+er dann nicht mehr/ denn alle andere Menſchen/ ja alle/ alle<lb/>
+<note place="left">Matth. 11.<lb/>
+Matth. 28.</note>ding wiſſen? Vnnd das nach der Natur/ nach deren er vom<lb/>
+H. Geiſt geſalbet/ vnd jhm gegeben/ was jhm gegeben iſt/ da-<lb/>
+<fw place="bottom" type="catch">uon</fw><lb/>
+<pb facs="#f0015" n="7"/>
+uõ er ſelber Matthej im Eilfften ſagt/ alle ding ſindt mir von<lb/>
+meinem Vatter vbergeben: Vnd im 28. ruffet er auß: Mir<note place="right">Ein Leibis-<lb/>
+cher artzt muß<lb/>
+ein guter the<lb/>
+oretic<gap reason="illegible" unit="chars"/> ſein<lb/>
+hat darum<lb/>
+nicht alles<lb/>
+Menſchlichẽ<lb/>
+Leibes anlie-<lb/>
+geus erkant-<lb/>
+nuß.</note><lb/>
+iſt gegeben aller gewalt im Himmel vnnd auff Erden.</p><lb/>
+<p><hi rendition="#fr">Wann dann ſchon</hi> ein Rechtſchaffener Wohlerfahr-<lb/>
+ner Artzt vnd Leibs <hi rendition="#aq">Medicus,</hi> eine ſolche <hi rendition="#aq">theorian,</hi> eine ſol-<lb/>
+che Erkantnus vnd Wiſſenſchafft haben muß vnnd ſolle/ daß<lb/>
+er des Menſchen Leib gleichſam außwendig vnd jnnwendig<lb/>
+kenne/ als welcher ſein <hi rendition="#aq">objectum,</hi> vnd daß jenige iſt/ damit er<lb/>
+fuͤrnemblich zuthun hat/ vnnd den er entweder bey guter ge-<note place="right"><hi rendition="#aq">Iohann, F<gap reason="illegible" unit="chars"/><lb/>
+nelius Am-<lb/>
+bianus, Me-<lb/>
+dienſ</hi></note><lb/>
+ſundtheit erhalten/ oder zur Geſundtheit durch ſeine Kunſt/<lb/>
+vnd ordentliche mittel wider bringen ſolle: welcher den Eh-<lb/>
+rentitul vnd Namen eines Hochgelaͤhrten vnnd Erfahrnen<lb/>
+Artztes haben/ vnd mit Warheit tragen will/ der muß ſo wol<lb/>
+<hi rendition="#aq">artes humaniores</hi> vnd die gute Kuͤnſte erlernen/ die vor an-<lb/>
+dern etwas geringer ſcheinen/ als das er hoͤhere Ding/ vnnd<lb/>
+gleich als verborgene Sachen erforſchet/ die zu ſeiner facultet<lb/>
+vnd fuͤrhabender Cur gehoͤrig/ nutzlich vñ nothwendig ſind:<lb/>
+Jedoch/ wie es ſonſten recht heiſſet/ vnd wahr bleybet:</p><lb/>
+<cit><quote><hi rendition="#aq">Non eſt in Medico, ſemper releuetur vt æger:<lb/>
+lnterdum doctâ plus valet arte malum:</hi><lb/>
+<lg type="poem"><l>So hoch wohlerfahrn iſt kein Mann/</l><lb/>
+<l>Der allen Schaden wenden kan:</l></lg></quote><bibl/></cit><lb/>
+<p>Alſo wuͤrdt ob Gott will/ keiner ſich rhuͤmen/ noch dafuͤr<note place="right">In Chriſto<lb/>
+vnſerẽ Haupt<lb/>
+<hi rendition="#aq">medico</hi> li-<lb/>
+gen alle ſchã-<lb/>
+tze der weis-<lb/>
+heit vnd des<lb/>
+Erkantnuß<lb/>
+verborgen<lb/>
+Coloſſ. 1.</note><lb/>
+halten/ entweder daß in jhm/ wie in Chriſto/ alle Schaͤtze der<lb/>
+Weisheit vnd des Erkentniß verborgen ligen: Oder daß die<lb/>
+fuͤlle der Gottheit in jhm wohne Leibhafftig/ wie von vnſerm<lb/>
+HauptArtzt dẽ HErꝛn Jeſu Chriſto/ der hocherleuchtete A-<lb/>
+poſtel/ der ſeine Weisheit im dritten Himmel gelehrnet vnd<lb/>
+vnaußſprechliche ding gehoͤrt hat/ an die Coloſſer im erſten<lb/>
+vnd andern Capitel redet. Vielmehr wuͤrde er mit verſtaͤn-<lb/>
+digen vñ der Artzney/ hocherfahrnen/ ſeine facultet lieber mit<lb/>
+dem gemeinen Namen der Kunſt beſchreiben/ deñ einer ſolchẽ<lb/>
+Sciẽtz vñ volkom̃enerWiſſenſchafft ſich rhuͤmen/ dabey man<note place="right">Jeſaj 11</note><lb/>
+<fw type="catch" place="bottom">nim-</fw><lb/>
+<pb facs="#f0016" n="8"/>
+nimmer fehlen/ noch jrꝛen kundte. Jch geſchweige jetzunder/<lb/>
+daß auch kein einiger Chriſtlicher Artzt fuͤr den ſich kan vnnd<lb/>
+wuͤrdt dargeben/ von welchem der Prophet Jeſaias im eilff-<lb/>
+ten Capitel geſchrieben hat/ daß auff jhm rhuen werde der<lb/>
+Geiſt des <hi rendition="#g">HER</hi>rn/ der Geiſt der Weisheit/ vnnd des Ver-<lb/>
+ſtandts/ der Geiſt des Rahts vnd der Stercke/ der Geiſt des<lb/>
+<note place="left"><supplied>Goͤttliche</supplied> wiſ<lb/>
+ſenſchafft, ia<lb/>
+Goͤttlicher<lb/>
+weiſheit vnd<lb/>
+Erkaninus<lb/>
+vnſers Artzts<lb/>
+Chriſte Zeug<lb/>
+nus in ſeiner<lb/>
+Kindtheit.<lb/>
+Luc: 2.</note>Erkentnus vnd der Forcht des HErꝛn. Dann das wůrd zu-<lb/>
+geſchrieben der Rute/ die von dem Stammen Jſaj auffgehen/<lb/>
+vñ dem Zweig das auß ſeiner Wurtzel Frucht bringen wůrde.</p><lb/>
+<p><hi rendition="#fr">Vnnd Zwar/</hi> es hat dieſer Jeſus/ der allhie ſo eigentlich<lb/>
+weiß vnd zuuor ſihet/ was man von jhm zu Nazareth außſa-<lb/>
+gen werde/ ſchon in ſeiner zarten Kindtheit daß Zeugnuß bey<lb/>
+dem heyligen Euangeliſten Luca im Andern/ daß er voller/<lb/>
+<note place="left"><hi rendition="#aq">Documen-<lb/>
+tum</hi> vnd ge-<lb/>
+thane Prob<lb/>
+im 12. Jahr<lb/>
+ſeines Alters<lb/>
+Luc: 2.</note>voller Weisheit geweſen: nicht in ſeiner bluenden Jugend<lb/>
+allein/ vnnd im zwoͤlfften Jahr ſeins Alters/ laſſet er einen<lb/>
+Glantz voͤlliger wiſſenſchafft/ Goͤttlicher weisheit vnnd Er-<lb/>
+kandtnus mitten vnder den Lehrern im Tempel ſitzend/ auß-<lb/>
+brechen vnd herfuͤr leuchten/ mit verwunderung aller die jhm<lb/>
+<note place="left">Nach em-<lb/>
+pfangnẽ H.<lb/>
+Tauff/ vnnd<lb/>
+im Standt<lb/>
+ſeiner erni-<lb/>
+drigung/ au-<lb/>
+genſchemli-<lb/>
+cher/ vnd vn<lb/>
+widerſprech-<lb/>
+licher beweiß</note>zuhoͤrten: ſondern er hat auch bald im Eingang offentlich<lb/>
+angetrettenẽ ſeines Lehr Ampts/ vñ auff geſchehne Maieſte-<lb/>
+tiſche <hi rendition="#aq">Inauguration</hi> bey dem Jordan (da die Stim̃ des Vat-<lb/>
+ters von Himmel herab gehoͤret/ diß iſt mein Lieber Sohn/<lb/>
+an welchẽ ich wolgefallẽ hab: da auch der Geiſt Gottes gleich<lb/>
+als eine Taube herab gefahren war/ vnnd vber jhn kommen)<lb/>
+zu Cana in Galilea ſeine herꝛligkeit geoffenbaret/ vnd ſeine<lb/>
+<note place="left">Joh. 2.<lb/>
+Luc: 4. <hi rendition="#aq">v</hi> 23.</note>Juͤnger glaubten an jn. Wie er dan nicht weniger groſſe ding<lb/>
+gethan/ zu Capernaum/ dauon die zu Nazareth gehoͤret: nicht<lb/>
+<note place="left">Johann. 1.</note>den from̃en Nathanael allein kennete er außwendig vñ inwẽ-<lb/>
+dig/ als von dem er ſpricht/ ſihe ein rechter Jſraelit in dem<lb/>
+kein falſch iſt/ den er auch wiewohl abweſend/ vnder dem Fei-<lb/>
+genbaum geſchen/ ehe vñ deñ jhm Philippus rieffe: daher er<lb/>
+Chriſto antwortet/ Rabbi/ du biſt Gottes Sohn/ du biſt der<lb/>
+<note place="left">Matth. 9.</note>Koͤnig von Jſrael: wie wir Johannis am erſten leſen: ſon-<lb/>
+dern ſeiner Feinde gedancken/ die bey ſich ſelbſten ſprachen/<lb/>
+<fw place="bottom" type="catch">dieſer</fw><lb/>
+<pb facs="#f0017" n="9"/>
+dieſer leſtert Gott/ ſahe Jeſus/ vnd ſpricht zu jhnen/ warumb<note place="right">Job. 6.</note><lb/>
+dencket jhr ſo arges in ewern Hertzen? Matthej am 9. Es<lb/>
+ſind etliche vnder euch die glauben nicht. Dann Jeſus wußte<lb/>
+von Anfang wohl/ welche nicht glaubend waren/ vnd welcher<lb/>
+jhn verꝛhaten wurde/ ſtehet Johannis am ſechſten geſchrie-<lb/>
+ben. Dagegen ſahe er den glauben deren/ die in ſeiner Statt<note place="right">Math. 9.</note><lb/>
+Capernaum einen Gichtbruͤchtigen zu jhm gebracht/ ſo wohl<lb/>
+als des Gichtbruͤchtigen ſelber/ den er ſeinen Sohn nennet/<lb/>
+vñ jhm als des Menſchen Sohn/ die Suͤnde vergibet: Seye<lb/>
+getroſt mein Sohn/ ſpricht der HErꝛ zum Gichtbruͤchtigen:<lb/>
+dir ſind deine Suͤnde vergeben. Vnnd das alles/ ſampt an-<lb/>
+derm/ noch in dem Standt ſeiner Ernidrigung: darin er doch<lb/>
+den Tag vnd die Stunde des letzſten Gerichts/ alß des Men-<note place="right">Ettliche ding<lb/>
+inſonderheit<lb/>
+den Tag/ vnd<lb/>
+die Stundt<lb/>
+des Juͤngſtẽ<lb/>
+Gerichts wie<lb/>
+vnd warumb<lb/>
+des Menſchẽ<lb/>
+Sohn nicht<lb/>
+wiſſen woͤllt<lb/>
+der doch ein<lb/>
+Richter der<lb/>
+Lebendigen<lb/>
+vnd der Tod-<lb/>
+ten von Gott<lb/>
+verordnet.<lb/>
+Mar: 13.<lb/>
+Joh. 5<lb/>
+Act. 17.<lb/>
+Roͤm: 2.<lb/>
+1. Cor: 4.</note><lb/>
+ſchen Sohn/ vñ nach ſeineẽ Menſchlichen Geiſt/ oder heyli-<lb/>
+gen Gemuͤth nicht wiſſen/ noch habender ſeiner allwiſſenheit/<lb/>
+Goͤttlicher Weißheit/ vnnd Erkantnus ſich allwegen/ vnnd<lb/>
+voͤllig gebrauchen woͤllẽ: vnangeſehen der Vatter dem Sohn<lb/>
+Macht gegeben/ auch daß Gericht zuhalten/ darumb daß er<lb/>
+des Menſchẽ Sohn iſt: darzu freilich kein halbwiſſender/ ſon-<lb/>
+dern ein Allwiſſender Mann/ vnd ein Hertzenkůndiger/ ja ein<lb/>
+ſolcher Richter der Lebendigen vñ der Todten gehoͤrig/ durch<lb/>
+welchen Gott daß verborgene der Menſchen richten wuͤrdt/<lb/>
+nemlich durch Jeſum Chriſtum: welcher wird ans Liecht<lb/>
+bringen/ was im Finſtern verborgen iſt/ vnnd den Rath der<lb/>
+Hertzen offenbaren: dauon wir an die Roͤmer im Andern/ vñ<lb/>
+in der Erſten an die Corinther im 4. leſen: Ja der alle/ alle<lb/>
+ding wiſſe/ wie Simon Petrus nach der Aufferſtehung des<lb/>
+HErꝛn geglaubet/ vñ ſchon albereit offentlich außgeſagt hat.</p><lb/>
+<p>Wer wolte dan etwas außnemmen/ das der geſalbete deß<note xml:id="note1a" place="right" next="#note1b">Chriſtus iſt<lb/>
+vber alle Him<lb/>
+mel gefahren<lb/>
+vnd ſitzet zur<lb/>
+Rechten der<lb/>
+Krafft vnnd<lb/>
+Maieſt: Got<lb/>
+tes/ wie ſolte<lb/>
+er denn nicht<lb/>
+<supplied>alles wiſſen</supplied></note><lb/>
+HErꝛn/ vnd vnſer Bruder nach dem Fleiſch/ vnſer Him̃li-<lb/>
+ſche Artzt Chriſtus/ der vom heyligen Geiſt geſalbet ohn alle<lb/>
+maß/ nicht zuuor wiſſen/ erkennen vnd ſehen ſolte/ nachdem<lb/>
+er gehn Himmel/ ja vber alle Himmel gefahren iſt/ vnnd ſich<lb/>
+geſetzet hat zu der Rechten der Maieſtet/ in der Hoͤhe/ vnnd<lb/>
+<fw place="bottom" type="sig">C</fw><lb/>
+<pb facs="#f0018" n="10"/>
+<note xml:id="note1b" prev="#note1a" place="left">vnnd gegen-<lb/>
+wertig ſehẽ?<lb/>
+Epheſ: 4.<lb/>
+Luc: 22.<lb/>
+Hebr. 1.</note>zu der Rechten Hand der Krafft Gottes/ wie in der E-<lb/>
+piſtel an die Hebreer im erſten geſchrieben ſtehet/ vnnd er<lb/>
+ſelber von des Menſchen Sohn Luc<hi rendition="#aq">æ</hi> im 22. Capitel fuͤr dem<lb/>
+gantzen Concilio/ den verſambleten Elteſten im Volck/ den<lb/>
+<note place="left">Alle ding<lb/>
+ſind dẽ Men-<lb/>
+ſchen Chriſto<lb/>
+vnber ſeine<lb/>
+Fuͤſſe gethan<lb/>
+Epheſ. 1.</note>Hohenprieſtern/ vñ Schrifftgelehrten zur zeit ſeines Leidens<lb/>
+frewdig bekennet. Darumb ſchreibet der Lehrer der Heyden/<lb/>
+S. Paulus an die Epheſer im erſten/ Gott habe ſeine maͤch-<lb/>
+tige Krafft an Chriſto bewieſen/ da er jhn von den Todten<lb/>
+aufferwecket hat/ vnnd geſetzt zu ſeiner Rechten im Himmel/<lb/>
+vber alle Fůrſtenthumb/ Macht/ Gewalt/ vnd Herꝛſchafft/ vñ<lb/>
+alles was geneunet mag werden/ nit allein in dieſer Welt/<lb/>
+ſondern auch in der zukuͤnfftigen: Vnd habe alle ding vnder<lb/>
+ſeine Fuͤſſe gethan/ vnd habe jhn geſetzt zum Haupt der Ge-<lb/>
+<note place="left">Hebr. 2.<lb/>
+Pſalm: 8.<lb/>
+Pſalm. 110.</note>meine vber alles/ welches da iſt ſein Leib/ nemlich die fuͤlle deß/<lb/>
+der alles in allẽ erfuͤllet. Hat aber dieſem Jeſu Gott alles vn-<lb/>
+derthan/ ſo hat er je nichts gelaſſen/ daß jhm nicht vnderthan<lb/>
+ſeye/ ob wir wohl jetzt noch nicht ſehen/ daß jhm alles vnder-<lb/>
+than ſeye/ wie die Epiſtel an die Hebreer im andern Capitel<lb/>
+von jhm einẽ Menſchen/ der mit dem Sohn Gottes perſoͤn-<lb/>
+lich vereiniget iſt/ auß dem 8. Pſalm des H. Koͤnigs vñ Pro-<lb/>
+pheten Dauids redet/ vnd zugleich auß dem 110. Pſalm erwei-<lb/>
+ſet/ daß keinem Engel jemahls geſagt ſeye/ Setze dich zu mei-<lb/>
+ner Rechten/ biß ich lege deine Feinde zum Schemel deiner<lb/>
+<note place="left"> 1, Cor: 15.</note>Fuͤſſe. Vñ wie abermal der H. Apoſtel in der erſtẽ an die Co-<lb/>
+rinther am 15. nichts außnemmen kan/ noch will/ daß Chriſto<lb/>
+nicht vnderthan/ ohn allein/ der jhm alles vnderthã hat/ nem-<lb/>
+lich der Vatter: alſo kan jhm ſo gar nichts vnbekandt noch<lb/>
+vnwiſſend oder verborgẽ ſein/ daß er viel mehr zur Rechtẽ der<lb/>
+<note place="left">Epheſ. 4.</note>Maieſtetiſchen Krafft/ vnnd der kraͤfftigen Maieſtet Gottes<lb/>
+des Allmaͤchtigen Vatters fitzend/ allenthalben gegenwer-<lb/>
+tig herꝛſchet vnd regieret/ oder wie der Apoſtel geſchrieben/ al-<lb/>
+les in allem erfůllet.</p><lb/>
+<p>Welchem allem nach/ meine im HErꝛn geliebte/ vnd die-<lb/>
+weil es mit Chriſto Jeſu/ vnſerm getrewen Hohenprieſter<lb/>
+<fw type="catch" place="bottom">vnd</fw><lb/>
+<pb facs="#f0019" n="11"/>
+vnd einigen Artzet Leibs vnnd der Seelen/ der ſich zu Naza-<lb/>
+reth offentlich hoͤren laſſen/ vñ zuerkennen gegeben/ daß er ei-<lb/>
+gentlich wiſſe/ wa ſie Kranck ligen/ vnnd was ſie zu jhm ſagen<lb/>
+werden/ ob ſie es wol noch zur zeit in jhren Hertzen verborgtn<lb/>
+hielten/ vnd fuͤr jhren Mundt nicht kommen laſſen/ alſo vnd<lb/>
+nicht anders ſtehet: Er weißt alle ding<hi rendition="#i">:</hi> alle Schaͤtze der weis-<lb/>
+heit/ vnd des Erkantniß ligen in jhm verborgen: vnnd kan e-<lb/>
+ben nichts weder im Menſchen/ noch ſonſten dem vnbewußt<lb/>
+vnd vnbekant ſein/ der mit Gott eine Perſon iſt/ vñ ſitzet auff<lb/>
+einem ſo hohen/ ſo herꝛlichen/ vnd Maieſtetiſchen Thron/ der<lb/>
+keinẽ Artzt/ keinem andern Menſchen/ keinem Engel/ noch<lb/>
+Ertzengel/ weder Cherubim/ noch Seraphim eingeraumer<lb/>
+wird in alle ewigkeit: ſo ſolle vnnd wird ſich freylich kein<note place="right">Hebr. 1.<lb/>
+Kein ſterbti-<lb/>
+cher Menſch<lb/>
+wird ſich be-<lb/>
+reden laſſen/<lb/>
+das er etwas<lb/>
+beſſer wiſſen<lb/>
+kuudte denn<lb/>
+der allwiſſen<lb/>
+de Artzt Chri<lb/>
+ſtus: dẽ kan<lb/>
+mann nichts<lb/>
+verbergen vñ<lb/>
+weißt er vn-<lb/>
+ſers Hertzẽs<lb/>
+an liegẽ/ vnd<lb/>
+innerliche<lb/>
+ſeufftzen.</note><lb/>
+ſterblicher Menſch/ wie weiß vnd verſtaͤndig/ wie Kunſtreich<lb/>
+oder geſchickt/ wie gelehrt vnd erfahren er auch ſein mag/ in-<lb/>
+ſonderheit die jenigen/ die ſein theur heylſam Wort hoͤren/ vñ<lb/>
+Chriſtum lieb haben/ nicht ſelbſt bereden/ noch bereden laſſen/<lb/>
+entweder daß ſie etwas beſſer wuͤßten vnd verſtuͤnden/ deñ der<lb/>
+alles weißt: oder als ob etwas were/ daß der Menſch fuͤr dem<lb/>
+verbergen/ vnd verſchlagen/ oder heimlich halten kundte/ zum<lb/>
+wenigſten im hertzen/ der fuͤr einer gantzen Verſamblung/ vñ<lb/>
+ſolchen Zuhoͤrern/ deren aller Augen auff jhn geſehen/ offent-<lb/>
+lich vnd zuuor kan/ vnd darff außſagen: jhr werdet freylich/<lb/>
+freylich werdet jhr zu mir ſagen diß Sprichwort: Viel weni-<lb/>
+ger doͤrffen wir daran zweiffeln/ ſondern ſollen vnfehlbar<lb/>
+ſchlieſſen/ vnnd wahrhafftig glauben/ daß dieſem him̃liſchen<lb/>
+Raphael/ oder Gottes Artzt/ Chriſto/ all vnſer anligen/ alle<lb/>
+vnſere gebrechen/ fehl vnd maͤngel/ innerliche vnd euſſerliche<lb/>
+Schaͤden/ bekant/ vnd mehr denn wol bekant ſeyen/ auch ehe<lb/>
+vnd deñ wir ſie jm klagen vnd fuͤrtragen/ es geſchehe gleich im<lb/>
+Gebett/ vñ mit Worten/ oder nur mit innerlichen ſeufftzen/<note place="right">Pſalm. 7.<lb/>
+Jerem. 20.</note><lb/>
+vñ im Hertzẽ: dz er auch ein allſehender HErꝛ/ darzu ein Mei-<lb/>
+ſter zuhelffen ſeye. Dauon an ſeinẽ Ort weiter. Jſt er doch ein<lb/>
+Hergenkuͤndiger/ Hertzen vnd Nieren pruͤfeſt/ vnd ſieheſtu ge-<lb/>
+<fw place="bottom" type="sig">C ij</fw><lb/>
+<pb facs="#f0020" n="12"/>
+<note place="left">Pſal: 94.<lb/>
+Syr: 23.</note>rechter Gott/ HErꝛ Zebaoth/ wie ſolte er denn des Hertzes an-<lb/>
+liegen heimlichkeiten vñ fuͤr oder anſchlaͤge nicht wiſſen noch<lb/>
+erkennen? Das Aug hat er gemacht/ ja alle ding ſind durch<lb/>
+jhn gemacht: vnd ſind ſeine ſelbſt eigene Augen viel haͤller/ deñ<lb/>
+die Sonne/ ſie ſchen alles was die Menſchen thun/ vnd ſcha-<lb/>
+<note place="left">Syr: 23.<lb/>
+vnd 42.</note>weñ auch in die heimliche Winckel: alle ding ſind dẽ HErꝛn<lb/>
+bekant/ ehe ſie geſchaffen werden alſo wohl/ als wenn ſie ge-<lb/>
+ſchaffen ſind: ſchreibet Syrach im 23. Capitel/ vnnd im 42.<lb/>
+Er allein erforſchet den Abgrund/ vñ der Menſchen Hertzen/<lb/>
+<note place="left"><gap reason="illegible" unit="chars"/> 17.</note>vnd weiß was ſie gedencken: denn der HErꝛ weyß alle ding/<lb/>
+vnd ſihet zu welcher zeit es geſchehen wird/ was ſolte er dann<lb/>
+<note place="left">1. Cor: 4.</note>nicht ſehen/ weñ es gleich fuͤr den Menſchen verborgen? Den<lb/>
+<note place="left">Den ſol man<lb/>
+hoͤren:<lb/>
+Deut: 18.<lb/>
+Matth. 17.<lb/>
+chren.<lb/>
+Joh. 5.<lb/>
+Lieben<lb/>
+Joh: 14.<lb/>
+1. Pet 1. etc.</note>gantzen Kreyß der Erden wird Jeſus Chriſtus richtẽ in Ge-<lb/>
+rechtigkeit/ vnd den Rath des Hertzens offenbaren/ was ſolten<lb/>
+wir jhm denn verbergen kuͤnden/ das er nicht zuuor geſehen/<lb/>
+vnd voͤllig erkennet? Vnder deß ſollen wir jhn hoͤrẽ/ ehren vñ<lb/>
+lieben/ ſo wohl als den HErꝛn/ der jhn geſandt hat.</p><lb/>
+<p>Dabeneben vnd inſonderheit werden der Natur erfahrne/<lb/>
+<note place="left">Chriſtliche<lb/>
+Ertzte vnnd<lb/>
+hochverſten-<lb/>
+dige Leuthe/<lb/>
+wie ſie ſich ge-<lb/>
+gẽ dem Him-<lb/>
+ilſchen Artzt<lb/>
+Chriſto ver-<lb/>
+hatten/ wenn<lb/>
+es an ſeine al<lb/>
+wiſſenheit/<lb/>
+vnnd mit ge-<lb/>
+theiletẽ Goͤt-<lb/>
+lichen Ge-<lb/>
+watt/ Maie-<lb/>
+ſtet vnd Herr<lb/>
+ligkeit gehet.</note>vnd die ſich in guten Kuͤnſten vnd den Faculteten vor andern<lb/>
+geuͤbet/ oder eine hoͤhere Wiſſenſchafft vnd Erkantnus erꝛei-<lb/>
+chet haben/ dieſem in theoria vnuͤberwindtlichem Doctorn/<lb/>
+jhrem Haupt <hi rendition="#aq">Medico</hi> dem HErꝛn Chriſto/ Warem Gott/<lb/>
+vnd warem Menſchen in einer vnzertrennlichen Perſon/ die<lb/>
+Ehre geben vnnd laſſen/ das er allein vnder allen Menſchen/<lb/>
+alles der Menſchen innwendiges vnd außwendiges kenne vñ<lb/>
+wiſſe/ ja das er alle ding wiſſe: Sie werden jhre vernunfft mit<lb/>
+den Widergebornen gefangen nemmen vnder den Gehor-<lb/>
+ſam Chriſtj des HErꝛn/ vnd jhnen je nicht ſein laſſen/ als ob<lb/>
+<note place="left">2. Corinth. 10</note>ſie nur eines pur lautern Menſchen/ vnnd nicht einen<lb/>
+ſolchen Menſchlichen Leib/ der mit Gott Perſoͤnlich vereini-<lb/>
+<note place="left">Woher der<lb/>
+Menſch Chri<lb/>
+ſtus alles wiſ<lb/>
+ſe/ vnnd ver-<lb/>
+moͤge.</note>get/ vnd des Sohns Gottes eigner Leib worden iſt/ vnd blei-<lb/>
+bet in alle Ewigkeit/ fuͤr ſich hetten/ wenn es zu der Frag kom-<lb/>
+met/ ob Chriſtus der geſandte Artzt des HErꝛn/ nach ſeiner<lb/>
+H. Menſchheit (doch in Krafft der Perſoͤnlichen Vereini-<lb/>
+<fw place="bottom" type="catch">gung</fw><lb/>
+<pb facs="#f0021" n="13"/>
+gung mit dem Sohn Gottes) alles/ vnnd hiemit auch die in-<note place="right">Epheſ: 1.<lb/>
+Philip <gap reason="illegible" unit="chars"/></note><lb/>
+nerliche gedancken des Hertzens wiſſe/ alles gegenwertig ſehe/<lb/>
+vnd nirgend abweſend ſeye/ wo die Perſon des Sohns Got-<lb/>
+tes zugegen/ die niergend außgeſchloſſen: Ja ob Chriſtus Je-<lb/>
+ſus vberſchwencklich thun kunde vber alles/ das wir bitten o-<note place="right">Johann: 1.</note><lb/>
+der verſtehen: vnd das nach der wuͤrckung/ damit er kan auch<lb/>
+alle ding jhm vnderthaͤnig machẽ? Dañ der es dahin bringen<note place="right">Joh. 1.<lb/>
+1. Tim: <gap reason="illegible" unit="chars"/>.</note><lb/>
+kuͤnden/ vnd gebracht hat/ daß das Wort Fleiſch worden/ vnd<lb/>
+der ewige Sohn Gottes ware Menſchliche Natur an ſich<lb/>
+genommen hat/ oder wie der Apoſtel redet dz Gott im Fleiſch<lb/>
+geoffenbaret: da doch ſonſten keine Vergleichung iſt zwiſchẽ<lb/>
+dem das vnendlich/ vnd das endtlich: der vermag auch wohl<lb/>
+dem Menſchen Chriſto/ der vmbſchrieben oder endtlich iſt/ v-<lb/>
+ber ſeine natuͤrliche eigenſchafften/ vñ gemeſſene/ oder endtli-<lb/>
+che gaben/ vnendliche/ vnd ſolche gaben mittheilen/ vnd aus<note place="right">Johan: <gap reason="illegible" unit="chars"/><lb/>
+1. Joh. 1.</note><lb/>
+gnaden in der fuͤlle der zeit ſchencken/ die vnendlich vnnd vn-<lb/>
+umbſchrieben/ ja die Gottes eigen ſind vnd bleiben in Ewig-<lb/>
+keit. Vnd das vmb ſo viel deſto mehr/ dieweil er ſich in ſeinem<lb/>
+geoffenbarten Wort dahin erkleret/ das er es thun woͤllen/ vñ<lb/>
+gethan habe. Daher ſtehet vber das/ ſo wir im Eingang ſeiner<lb/>
+erſten Epiſtel leſen/ Johannis im erſten Capitel beides beyſa-<lb/>
+men/ dz Wort ward Fleiſch/ vñ wohnet vnder vnß/ vñ wir ſa-<note place="right">Coloſſ. 2.<lb/>
+Coloſſ. 1. vnd<lb/>
+2.</note><lb/>
+hẽ wir ſahẽ ſeine herꝛligkeit/ eine herꝛligkeit/ als des eingebor-<lb/>
+nen vom Vatter/ voller Gnad vnd Warheit. Alſo wohnet je/<lb/>
+vermoͤg Apoſtoliſchen Zeugnus/ nicht allein die fuͤlle der<lb/>
+Gottheit in Chriſto Leib hafftig/ vnnd als in ſeinem eignen<lb/>
+Tempel: der doch endtlich vnd vmbſchrieben iſt: ſondern es<lb/>
+ligen ebenmeſſig alle Schaͤtze der Weisheit vnd des Erkant-<lb/>
+niß in Chriſto verborgen/ deren er ſich in dem Standt der er-<lb/>
+nidrigung gebrauchen kunden/ vnnd gebrauchet hat/ nicht<lb/>
+zwar allwegen doch als offt vnd fern er es thun wollen. Nun<note place="right">Coloſſ: 2.</note><lb/>
+aber nach ſeiner Erhoͤhung voͤllig gebrauchet/ vnd gebrauchẽ<lb/>
+wird zur ehre Gottes des Vatters. Deſſen ſollẽ wir vns durch<lb/>
+keine Philoſophj/ beuorab die jenige nit beraubẽ laſſen/ dafuͤr<lb/>
+<fw place="bottom" type="sig">C iij</fw><lb/>
+<pb facs="#f0022" n="14"/>
+<note place="left">Zur zeit ſei-<lb/>
+ner tieffeſten<lb/>
+ernidrigung<lb/>
+weiß vn ſagt<lb/>
+vnſer Seelẽ<lb/>
+Artzt Chri-<lb/>
+ſtus/ dz alles<lb/>
+der Vatter<lb/>
+jhm in ſeine<lb/>
+Hende gege-<lb/>
+ben.<lb/>
+Johann: 13.<lb/>
+Philip. 2.</note>der hocherleuchtete Apoſtel die Heyligen zu Coloſſen/ vñ die<lb/>
+glaubige Bruͤder in Chriſto trewlich vnnd bey zeiten gewar-<lb/>
+net. Vnd ſeye vns diß einige allhie gnugſam/ das Jeſus ſel-<lb/>
+ber vor ſeiner Erhoͤhung/ vnd da jetzt die Zeit vnd Stunde ſei-<lb/>
+ner tieffeſten ernidrigung da war/ dieweil er fuͤr die Suͤnde<lb/>
+der Welt leiden vnnd ſterben/ vnnd zwar des ſchmehelichſten<lb/>
+Todtes am Creutz ſterben ſolte/ vnnd wolte/ gewußt/ das im<lb/>
+der Vatter alles hatte in ſeine Hende gegeben/ vnnd das<lb/>
+er von Gott kommen war/ vnnd zu Gott gienge/ Zeug des iſt<lb/>
+der Juͤnger/ der im letſten Abentmahl an der Bruſt Jeſu ge-<lb/>
+legen/ vnd den der HErꝛ vor andern lieb hatte/ in ſeinem Eu-<lb/>
+angelio im dreyzeheuden Capitel.</p><lb/>
+<p><note place="left">Chriliche Leh<lb/>
+rer gebrau-<lb/>
+chen ſich nit<lb/>
+holdſeeliger<lb/>
+Wort allein<lb/>
+vnd des Eu-<lb/>
+angeliſ:<lb/>
+ſondern auch<lb/>
+notwendi-<lb/>
+ger ſcherffe/<lb/>
+vnd des ge-<lb/>
+ſetzes: nach<lb/>
+dem exempel<lb/>
+vnſers Geiſt<lb/>
+ſichẽ Artztes<lb/>
+Chriſti/ vnd<lb/>
+anderer.</note><hi rendition="#fr">Das aber/</hi> meine im HErꝛn geliebte/ der ſanfftmuͤtige<lb/>
+vnd holdſeelige Prediger Chriſtus/ der Lehrer der Gerechtig-<lb/>
+keit/ ſeinen Zuhoͤrern in der Statt Nazareth/ da er doch erzo-<lb/>
+gen/ ſeinen Eltern vnderthan geweſen/ vnnd biß in das dreiſ-<lb/>
+ſigſte Jahr ſeines Alters auß vnd eingegangen/ zugleich etwz<lb/>
+neher/ vñ ſcherffer zum Hertzen greiffet: Das er es bey dẽ hold-<lb/>
+ſeeligen vnd hochtroͤſtlichen Worten/ die auß ſeinem Munde<lb/>
+giengen/ nicht bewenden/ noch verbleiben laſſet/ dauon er doch<lb/>
+Ehr vnd Preiß haben vnnd behalten moͤgen: ſondern das er<lb/>
+jhnẽ weiter jhre vnbeſtẽdigkeit vñ vnachtſamkeit/ jhrẽ vnglau-<lb/>
+bẽ/ daruͤber er ſich hoch verwundert/ vñ ſchaͤdliche vndãckbar-<lb/>
+<note place="left">M<supplied>arci</supplied> 6.</note>keit entdecket vñ vnder augen ſtellet/ die ſie noch zur zeit heim-<lb/>
+lich gehalten/ vñ fuͤr jhm zuuerbergen vermeinten: daran thut<lb/>
+er wie ein trewer Seelen/ oder auch ein rechtſchaffener Leib-<lb/>
+Artzt thun ſolle/ vñ zuthun pfleget. Dann gleich wie der Leib<lb/>
+Artzet nicht ſanffte/ vnnd gelindere mittel allein zur Hand<lb/>
+nimmet/ vnnd gebrauchet: ſondern er muß auch zu herbern<lb/>
+vnd ſcherffern/ oder ſolchen remedijs greiffen/ darab ſich der<lb/>
+Patient vnnd Krancke gleichſam erſchuͤttet/ die der Natur<lb/>
+etlicher maſſen entgegen/ vnd zuwider lauffen/ ſolle vnd will<lb/>
+er anders dem vrſprung der Kranckheit begegnen/ die boͤſe<lb/>
+Materj außfuͤhren/ vnnd abtreihen/ dem Menſchen ordenli-<lb/>
+<fw place="bottom" type="catch">cher</fw><lb/>
+<pb facs="#f0023" n="15"/>
+cher weiſſe zu recht helffẽ/ oder doch ſeines theils nichts verab-<lb/>
+ſaumen/ was es auch endtlich fuͤr einen außgang gewinnet:<lb/>
+alſo muͤſſen die jenige/ die fuͤr zeitlichem vnnd ewigem Scha-<note place="right">Mart: 16.</note><lb/>
+den die Menſchen zu warnen ſchuldig/ verpflichtet vnnd ver-<lb/>
+bunden ſind/ die auch anders nichts/ dann jhr Heyl vnd ewi-<lb/>
+ge Wolfahrt meinen/ vñ trewlich ſuchen/ nicht das Euange-<lb/>
+lium allein predigen/ wie der HErꝛ befohlen/ vñ die troͤſtliche<lb/>
+verheiſſungẽ Gottes von gnadenreicher vergebung der Suͤn-<note place="right">Roͤm: <gap reason="illegible" unit="chars"/></note><lb/>
+den in Chriſto verkuͤndigen/ vñ auß heyliger Schrifft erwei-<lb/>
+ſen: ſondern ſie muͤſſen ebenmeſſig die ſcherffe des Geſetzes/<note place="right">Luc: <gap reason="illegible" unit="chars"/></note><lb/>
+darauß Erkantnus der Suͤnden kommet/ herfuͤr ſuchen/ buſſe<lb/>
+vnd vergebung der Suͤnden im Namen Chriſtj predigen/ vñ<lb/>
+wohl zuſehen/ das die ſo ein mahl gewonnen/ vnd an der See-<lb/>
+len geſund ſind/ fuͤr zu vnd anfelliger Kranckheit verwahret:<lb/>
+denen die noch kranck liegen/ oder vmbſchlagen/ vnnd wetter-<lb/>
+wendiſch woͤllen werden/ widerumb geholffen: darzu fuͤr ewi-<lb/>
+gem Schaden gewarnet werden/ fuͤrnemlich die jenige/ die an<lb/>
+ſolchen Reden vnd Sprichwoͤrttern jhren Luſt vnd Kurtzweil<lb/>
+haben vnnd ſuchen/ die wider die Ehre Gottes vnnd vnſers<lb/>
+Heylands/ des einigen Seelen Artztes/ wider den ſeeligma-<lb/>
+thenden Glauben/ wider die Liebe gegen dem nechſten/ vnnd<lb/>
+gleich als mit einem Wort zu melden/ wider die Geiſtliche<lb/>
+Apotecken des Worts des HErꝛn ablauffen/ vñ ſtreitten/ da-<lb/>
+rauß wir das rechte Antidoton vnd die krefftigſte Labſall oder<lb/>
+Hertzſterckungen wider die Suͤnde vnnd die ſchwereſte An-<lb/>
+fechtungen/ wider zeitlichen vnd ewigen Schaden abholen/<lb/>
+vnnd gebrauchen muͤſſen/ woͤllen wir vnß anders nicht mut-<note place="right">Wider bõ-<lb/>
+ſes Sprich-<lb/>
+wort redet/<lb/>
+vnd laſſet der<lb/>
+HErr reden<lb/>
+vnder dẽ Iſ-<lb/>
+raeliten bei-<lb/>
+des ernſtlich<lb/>
+vnnd dann<lb/>
+auch troͤſtlich<lb/>
+Ezech: 18.<lb/>
+Ezech: 38.</note><lb/>
+willig vnd wiſſentlich verwarloſen/ oder das letſte erger ma-<lb/>
+chen/ denn das erſte jemahlen geweſen.</p><lb/>
+<p>Vnd zwar es hat auch der gerechte vnd barmhertzige Gott<lb/>
+das Sprichwort vnder denKindern Iſrael nicht dulden woͤl-<lb/>
+len/ da ſie ſagten: die Vaͤtter haben Heerlinge geſſen/ aberdẽ<lb/>
+Kindern ſind die Zeene dauon ſtumpff worden: damit ſie den<lb/>
+frommen Gott heimlich vnd offentlich der Vngerechtigkeit<lb/>
+<fw place="bottom" type="catch">be-</fw><lb/>
+<pb facs="#f0024" n="16"/>
+beſchuldigt vnnd angeklaget haben/ als ob die Kinder jhrer<lb/>
+Vaͤtter miſſethat tragen můßten/ zeitlich vnnd ewig darauff<lb/>
+gehen/ wenn ſie nicht geſuͤndiget/ noch in gleiche Fußſtapffen<lb/>
+der Boßheit vnd Abgoͤtterey jhrer Voreltern getretten. Das-<lb/>
+wider der HErꝛ HErꝛ gleichſam repliciert vnd nicht nur be-<lb/>
+theuret/ er woͤlle jhnen diß Sprichwort vertreiben/ vnnd der-<lb/>
+maſſen erleyden/ das es in Jſrael nicht mehr gehen ſolle: ſon-<lb/>
+dern ſich auch rund vnd außtruckenlich erkleret/ welche Seel<lb/>
+ſůndiget/ die ſolle ſterben: der Sohn ſolle nicht tragen die<lb/>
+miſſethat des Vatters/ vnd der Vatter ſolle nicht tragen die<lb/>
+miſſethat des Sohns: ſondern des gerechten Gerechtigkeit<lb/>
+ſoll vber jhn ſein/ vñ des vngerechten vngerechtigkeit ſolle v-<lb/>
+ber jhm ſein. Damit auch der Suͤnder in Suͤnden nicht ver-<lb/>
+zagen/ noch jemand gedencken oder beſorgen doͤrffte/ als ob er<lb/>
+bloß dahin/ vnd durch ein heimliches verborgenes decret vom<lb/>
+HErꝛn verworffen/ vnd ewig verdammet/ noch einiger gna-<lb/>
+den Gottes ſich zuuerſehen/ vnd zugetroͤſten hette: ſo wird im<lb/>
+achtzehenden Capitel des Propheten Ezechiels erholet: Mei-<lb/>
+neſtu das ich gefallen habe/ am Tod des Gottloſen/ ſpricht<lb/>
+der HErꝛ HErꝛ/ vnnd nicht viel mehr/ das er ſich bekere von<lb/>
+ſeim Weſen/ vnd lebe: Vnnd abermahl/ warumb wiltu alſo<lb/>
+ſterben/ du Hauß Jſrael? Deñ ich hab kein gefallen am Todt<lb/>
+des ſterbenden ſpricht der HErꝛ HErꝛ/ darumb bekeret euch<lb/>
+<note place="left">Sems re-<lb/>
+den wider dẽ<lb/>
+Propheten/<lb/>
+der des HEr<lb/>
+ren wort ge-<lb/>
+prediget.<lb/>
+Ezech: 33</note>ſo werdet jhr leben. Zugeſchweigen/ was im 33. Capitel gleich<lb/>
+troͤſtliches/ vnnd vber alle maß lehrꝛeichen inhalts auß dem<lb/>
+Munde des HErꝛn HErꝛn abgehet: darauff gleichwol dem<lb/>
+Propheten ſelber dieſe gemeine Rede nicht verhalten wird/ dz<lb/>
+ſie jhm zum ſpott/ vnnd verachtung/ einer zum andern ſagen<lb/>
+werden an den Wenden/ vnd vnder den Haußthuͤren: Lieber<lb/>
+kompt/ vnnd laßt vns hoͤren/ was der HErꝛ ſage: ja er werde<lb/>
+muͤſſen jhr Liedlin ſein/ das ſie gerne ſingen vnnd ſpilen wer-<lb/>
+den. So gar werde es ohne boͤſe Sprichwoͤrtter/ vnnd ge-<lb/>
+meine hochſchaͤdliche Schertzreden/ wider Gott vnd ſein hey-<lb/>
+liges Wort/ wider ſeinen gnedigen willen vnd reichlich geof-<lb/>
+<fw type="catch" place="bottom">Volck</fw><lb/>
+<pb facs="#f0025" n="17"/>
+fenbarten Fuͤrſatz/ wider ſeine Barmhertzigkeit/ die vber alle<lb/>
+gehet/ vnd ſo groß als der HErꝛ ſelber/ vnder Gottes eigenem<lb/>
+Volck nicht abgehen/ der ſich doch aller erbarmet/ die ſich zie-<lb/>
+hen laſſen/ vnd fleiſſig Gottes Wort hoͤren/ wie Syrach im<lb/>
+18. Capitel erinnert.</p><lb/>
+<p>Nicht viel ein beſſer Sprichwort/ noch eine beſſere Rede<note place="right">Vbel beſag-<lb/>
+tes Sprich-<lb/>
+wort wider<lb/>
+Nazareth.<lb/>
+Joh. 1.</note><lb/>
+war es/ welche der gute from̃e Nathanael/ der doch ein rechter<lb/>
+Jſraelit/ in dem kein falſch war/ Johannis im erſten Capitel<lb/>
+fuͤhret/ vñ andern nachſagte/ da jhm die gegenwart des groſ-<lb/>
+ſen Propheten/ des HErꝛn Meſſi<hi rendition="#aq">æ</hi>/ verkuͤndigt/ vnnd durch<lb/>
+Philippum geſagt wird/ wir haben den funden/ von welchem<lb/>
+Moſes im Geſetz/ vnd die Propheten geſchrieben haben/ Je-<lb/>
+ſum/ Joſephs Sohn von Nazareth. dann darauff antwortet<note place="right">Jaſal. 9.<lb/>
+Matth. 4.</note><lb/>
+Nathanael: Was kan von Nazareth gutes kommen? Gleich<lb/>
+als ob nicht auch das Volck/ welches im finſtern ſaß/ ein groſ-<lb/>
+ſes Liecht ſehen ſollen: oder als ob einiges Ort/ einige Statt<lb/>
+einiges Landt were/ dem der HErꝛ alle huld vnnd gnad/ allen<lb/>
+ſegen vñ nutzliche ſeine Gaben abgeſprochen/ das nichts guts<lb/>
+darauß kommen kundte. Auch die Phariſeer vnd Schrifft-<note place="right">Vertehrte<lb/>
+rede vnd vr-<lb/>
+theil wider<lb/>
+Galileam.<lb/>
+Joh: 7:</note><lb/>
+gelehrten/ die andere ein beſſers lehren ſollen/ vnd wußten/ ſa-<lb/>
+gen Johannis im 7. Capitel zu dem frommen Rahsherꝛn/<lb/>
+dem Oberſten vnder den Phariſeern/ Nicodemo: Biſtu auch<lb/>
+ein Galileer? Forſche vñ frage/ auß Galilea ſtehet kein Pro-<lb/>
+phet auff.</p><lb/>
+<p>Vnd wolte Gott/ dz es heutigs tags nur bey einem/ zweyẽ/<note place="right">WiderGot-<lb/>
+tes vnendli-<lb/>
+che barmher-<lb/>
+tzigkeit vnnd<lb/>
+allgemeine<lb/>
+liebe der Mẽ-<lb/>
+ſchen:<lb/>
+Joh:  <gap reason="illegible" unit="chars"/></note><lb/>
+oder dreyen Sprichwoͤrtern bliebe/ die mann zu Chriſto/ vnd<lb/>
+ſeinen glaubigen Gliedern/ die von jhm den Namen tragen/<lb/>
+das ſie Chriſten genennet/ ſagte/ vnd nicht bey der boßhaffti-<lb/>
+gen/ vnd vnglaubigen Welt viel/ viel ſolcher gemeiner vnnuͤ-<lb/>
+tzer vñ leichtfertiger reden/ heimlicher vnd offentlicher Stich<lb/>
+vnd Sprichwoͤrter gebe/ dadurch Gottes vnendliche Barm-<lb/>
+hertzigkeit/ vnnd vnaußſprechliche Liebe/ damit er die gantze<lb/>
+weite Welt vmbfangen/ beides die Perſon/ vnd dann auch dz<note xml:id="note2a" place="right" next="#note2b">Wider Chri-<lb/>
+ſti vollkom-</note><lb/>
+aller heyligſte vnd vollkom̃ene verdienſt Chriſtj/ der die Ver-<lb/>
+<fw type="sig" place="bottom">D</fw><lb/>
+<pb facs="#f0026" n="18"/>
+<note xml:id="note2b" prev="#note2a" place="left">menes ver-<lb/>
+dienſt fuͤr der<lb/>
+gantzẽ Welt<lb/>
+ſuͤnde.<lb/>
+1. Joh. 2.</note>ſoͤnung iſt fuͤr vnſere vnd fuͤr der gantzen Welt Suͤnde: wie<lb/>
+nicht weniger das Ampt Gottes des heyligen Geiſtes/ dz Er<lb/>
+durch Menſchen in ſeiner Kirchen/ vnnd vnder der Gemein/<lb/>
+<note place="left">Wider das<lb/>
+Ampt Got-<lb/>
+tes des H.<lb/>
+Geiſtes in<lb/>
+ſeiner Kir-<lb/>
+chẽ vnd Ge-<lb/>
+meine/ boͤſe<lb/>
+Sprichwoͤr-<lb/>
+ter.<lb/>
+Joh: 16.<lb/>
+Act: 20.</note>die Gott mit ſeinem eignen Blut erloͤſet hat/ offentlich vnnd<lb/>
+ſonderlich fuͤhret/ vielfaltig/ vñ mit vnwiderbringlichem ewi-<lb/>
+gem Schaden in aller Welt verkleinert vnd geleſteret/ oder da-<lb/>
+durch der NebenMenſch wie an ſeinem guten Namen ſchmaͤ-<lb/>
+lich angetaſtet/ verſchimpffet vnd vervnglimpffet/ alſo an ſei-<lb/>
+ner wolfart gehindert vnd geſchwechet wird.</p><lb/>
+<p>Dawider muß mañ mit Chriſto vnſerm getrewen Seelen<lb/>
+<note place="left">Dawider<lb/>
+muß mann<lb/>
+etwan/ vnnd<lb/>
+bey zeiten re-<lb/>
+dẽ/ vnd war-<lb/>
+nen offent-<lb/>
+lich/ vnd ſon-<lb/>
+derlich.</note>Artzt/ vnd dem der Gerechtigkeit lehren ſollen/ auch offentlich<lb/>
+vnd in gegenwart deren/ die es allermeiſt betrifft vnd angehet/<lb/>
+reden: Mann muß es etwann den Leuthen zuuor ſagen/ vnnd<lb/>
+gnugſam zuuerſtehen geben/ damit ſie lehrnen inhalten/ vnnd<lb/>
+ſich fuͤr ſolchen ſchmach vnnd nachreden huͤten/ die weder bey<lb/>
+andern erbawlich/ noch dem Nebenmenſchen/ wider den ſie<lb/>
+gerichtet/ wie auch denen nicht/ die ſie fuͤhrẽ/ erſprießlich. Da-<lb/>
+rumb ſie vielmehr dagegen gedencken/ vnd ſich ſtets erinnern<lb/>
+ſollen/ vnd werden/ nicht allein/ das die Menſchen der malen<lb/>
+eins/ vnnd am Juͤngſten Gericht rechenſchafft geben muͤſſen<lb/>
+<note place="left">Matth. 12.</note>von einem jeglichen vnnuͤtzen Wort/ das ſie geredt haben: auß<lb/>
+deinen Wortten wirſtu gerechtfertiget werden/ vnnd auß dei-<lb/>
+nen Worten wirſtu verdampt werden: ſagt der Mund der<lb/>
+<note place="left">1. Corinth: 15</note>Warheit Matthej am 12. Laſſet euch nicht verfuͤhren/ ſchrei-<lb/>
+<note place="left">Eines beſ-<lb/>
+ſern/ auch ge-<lb/>
+fuͤhrter gleich<lb/>
+nuſſen/ reden<lb/>
+vnd Sprich-<lb/>
+woͤrter des<lb/>
+HErrn da-<lb/>
+gegen erin-<lb/>
+nern.<lb/>
+Matth: 13.<lb/>
+Pſalm: 78.</note>bet S Paulus/ boͤſe Geſchwetz verderben gute Sitten: Son-<lb/>
+dern dz der HErꝛ vnſer Heylãd/ die ewige weißheit des Vat-<lb/>
+ters/ vñ geſandte Meſſias ſelber ſeinen Mund habe auffthun<lb/>
+woͤllen in Gleichnuſſen/ vnnd außſprechen die heimlichkeiten<lb/>
+von Anfang der Welt/ wie der H. Euangeliſt vnnd Apoſtel<lb/>
+Matth<hi rendition="#aq">æ</hi>us im dreyzehenden Capitel auß dem 78. Pſalm leh-<lb/>
+ret/ nachdem er nechſt zuuor bezeuget vnnd geſagt/ ſolches al-<lb/>
+les redet Jeſus durch Gleichnus zu dem Volck/ vnnd ohn<lb/>
+<note place="left"><gap reason="illegible" unit="chars"/> Joh: 14. 15.<lb/>
+16.</note>Gleichnuſſen redet er nicht zu jhnen. Wie er dañ auch ſonſten<lb/>
+vielfaltig bey verꝛichtung ſeines offentlichen Lehrampts/ vnd<lb/>
+<fw type="catch" place="bottom">noch</fw><lb/>
+<pb facs="#f0027" n="19"/>
+noch in ſeiner <hi rendition="#aq">Valet</hi> oder letze Predigt/ die er an ſeine liebe<lb/>
+Juͤnger vnnd Apoſtel abgehen laſſen/ ſolcher Sprichwoͤrter<lb/>
+vnnd verbluͤmbter reden ſich gebrauchet/ daher beſtendigen<lb/>
+Troſt/ vnnd notwendige Erinnerung/ heilſame Lehr/ vnnd<lb/>
+denckwuͤrdige Warnung faſſen vnd behalten kuͤnden/ die ſein<lb/>
+Wort hoͤren/ wie alber vñ einfaͤltig/ oder auch wie Klug/ vnd<lb/>
+ſcharpffſinnig/ wie weis vnd verſtendig ſie ſein moͤgen/ wenn<lb/>
+ſie nur den Geiſt Gottes ſich regieren laſſen/ vnd dem Wort<lb/>
+des HErꝛn/ nicht jhrem vnd anderer boͤſem Sprichwort an-<lb/>
+hangen/ vnd beharꝛlich ſich ergeben.<note place="right">Außerleſene<lb/>
+in allen ſten-<lb/>
+den ſehr nutz-<lb/>
+liche Sprich-<lb/>
+woͤrter Sa-<lb/>
+lomonis.</note></p><lb/>
+<p>Vñ gewißlich weñ wir je Luſt vnd Liebe zu ſchoͤnen/ Gott<lb/>
+dem H. Geiſt gefelligen/ vnd in viel wege bey ſeiner Kirchen/<lb/>
+bey der Policey vnd weltlichen Regierung/ wie nicht weniger<lb/>
+in der Hauß haltung/ in gemeinen vnd ſondern Stenden/ er-<lb/>
+bawlichen Sprichwoͤrtern haben: ſo werden vns allein die<lb/>
+Spruͤche Salomonis/ der Prediger vnd dz Hohe Lied einen<lb/>
+ſolchen außerleßnen Schatz eroͤffnen vnd zur Hand geben/<lb/>
+deſſen wir vns die gantze Zeit vnſers Lebens/ nicht ohne ſon-<lb/>
+dern Ruhm/ nutz vnd frommen zugebrauchen. Vñ muß frey-<lb/>
+lich der Weiſe/ ja weiſeſte Koͤnig Salomon ſeines Hertzens<lb/>
+luſt/ frewde vnd ergoͤtzlichkeit bey dergleichen Spruͤchen ge-<note place="right">1 Reg: 4.</note><lb/>
+ſucht/ vnnd gefunden haben/ dieweil er das Zeugnus hat im<lb/>
+1. Buch der Koͤnige im 4. Cap: dz er drey tauſent Spruͤche<note place="right">Zu nutzlichẽ<lb/>
+reden wider<lb/>
+vnnutzes ge-<lb/>
+ſchwetz/ vnnd<lb/>
+ſchaͤdliche<lb/>
+ſprich woͤrter<lb/>
+trewhertzige-<lb/>
+Ermahnun<lb/>
+gen.<lb/>
+Epheſ. 4.<lb/>
+Philip. 4.</note><lb/>
+geredt/ vnnd ſeiner Lieder geweſen ſeyen/ tauſent vnnd fuͤnffe.<lb/>
+Hergegen wird der H. Geiſt ſelber durch vnnuͤtzes Geſchwetz<lb/>
+vñ boͤſe Sprichwoͤrter betruͤbet/ wa nicht endlich gar auß ge-<lb/>
+trieben. Dannenhero der Apoſtel vermahnet: Laſſet kein faul<lb/>
+Geſchwetz auß ewerm Munde gehen/ ſondern was nutzlich<lb/>
+zur Beſſerung iſt/ da es not thut/ das es holdſeelig ſeye zuhoͤ-<lb/>
+ren: vnd betruͤbet nicht den H. Geiſt Gottes/ damit jhr verſi<lb/>
+gelt ſeid auff den Tag der Erloͤſung. Was warhafftig iſt/<lb/>
+ſchreibet er an ſeine liebe Philipper im vierdten/ was erbar/<lb/>
+was gerecht/ was keuſch/ was lieblich/ was wol lautet/ iſt et-<lb/>
+wa eine Tugend/ iſt etwa ein Lob/ dem dencket nach/ welches<lb/>
+<fw type="sig" place="bottom">D ij</fw><lb/>
+<pb facs="#f0028" n="20"/>
+jhr auch gelernet/ vnd empfangen/ vnd gehoͤret/ vnnd geſehen<lb/>
+habt an mir/ das thut ſo wird der HErꝛ des Friedẽs mit euch<lb/>
+ſein. Das hieſſe Gott dem HErꝛn gefellige reden fuͤhren/ vñ<lb/>
+nicht Chriſto dem allwiſſenden hertzenkuͤndiger vrſach vnnd<lb/>
+anleitung geben/ das er ſeiner ſelbſt eignen Zuhoͤrer vnnd der<lb/>
+<note place="left">Jeſal 61. vnd<lb/>
+35.</note>Jnwohner zu Nazareth Sprichwort herfuͤr brechte/ vnd an-<lb/>
+zoͤge/ ehe vnnd denn es außgebrochen/ damit ſie nicht ſo ſehr<lb/>
+jhn den einigen/ vom HErꝛn geſandten/ lang zuuor durch<lb/>
+den Propheten beſchriebnen/ vñ gleichſam abgebildeten Leibs<lb/>
+vnd der Seelen Artzt verſchimpffet vnd verkleineret/ als jhre<lb/>
+ſelbſt eigent boͤſe vnd verkehrte Art/ jhren falſch vnd vnglau-<lb/>
+ben/ jhre hochverweißliche vndanckbarkeit vnnd anders aller<lb/>
+Welt zuerkennen gegeben/ ſich auch weder zuuerwundern/<lb/>
+noch zubeſchweren vrſach gehabt/ das er nicht ſo groſſe bing<lb/>
+zu Nazareth/ vnnd in ſeinem Vatterland gethan/ wie ſie ge-<lb/>
+hoͤret zu Capernaum geſchehen. Jnmaſſen gleich auff abge-<lb/>
+hoͤrte Wort folget.</p><lb/>
+<p><hi rendition="#fr">Wiewol aber</hi> beneben beiden/ bißhero eriñerlich im er-<lb/>
+ſtẽ theil eingefuͤhrtẽ lehrẽ/ <hi rendition="#fr">ferner</hi> notwendiger Troſt bey zu-<lb/>
+legen were/ deſſen wol hohe vñ anſehenliche Leuthe bedoͤrffen<lb/>
+moͤchten/ wenn die vndanckbare Welt eins vnnd das andere<lb/>
+Sprichwort zu jhnen ſagt/ damit ſie gleichſam anzuſtechen/<lb/>
+ſchimpfflich zuuerhoͤnen/ vnd zu nicht zumachen/ ja wann ſie<lb/>
+zum Sprichwort vnnd zur Fabel/ wo nicht gar zum Liedlin<lb/>
+werden: jedoch ſo wird hernach/ vnd nun im <hi rendition="#fr">andern Theil</hi><lb/>
+hieuon zureden gelegenheit fuͤrfallen.</p></div><lb/>
+<div n="3"><head><hi rendition="#b">Der ander Theil der Predigt.</hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">D</hi>Añ nachdem</hi> wir bißhero vñ bey dẽ erſten Theyl ab<lb/>
+geleſener Wort gehoͤret/ das der HErꝛ vnſer Hey-<lb/>
+land zuuor gewußt/ vnnd denen zu Nazareth geſagt<lb/>
+habe/ Das ſie ein gemeines Sprichwort von jhm machen/<lb/>
+vnd eine ſolche redefuͤhren werden/ die nicht jhm/ der ein Goͤt-<lb/>
+liches Zeugnus hatte/ ſondern jhnen zum mercklichẽ ſchimpff<lb/>
+vñ vnglimpff/ zu hoͤchſtẽ ſchadẽ vñ nachtheil gelangt wuͤrde-<lb/>
+<fw place="bottom" type="catch">So</fw><lb/>
+<pb facs="#f0029" n="21"/>
+So habẽ wir nun vñ fuͤrs <hi rendition="#fr">Andere</hi> das Sprichwort an jhm<lb/>
+ſelber zubeſehen/ vnd zuerwegen/ was zu vnſerer Lehre/ zu vn-<lb/>
+ſerm beſtendigen Troſt/ vnd zu nutzlicher erinnerung mag ge-<note place="right">Sprichwort<lb/>
+deren zu Na-<lb/>
+zareth wider<lb/>
+den Geiſtli-<lb/>
+chen Artzt<lb/>
+Chriſtum ein<lb/>
+altes Sprich<lb/>
+wort.<lb/>
+Luc: 4.<lb/>
+Syr: 18.</note><lb/>
+reichen vnd dienen. Dann ob wohl diß Sprichwort/ <hi rendition="#aq">Medice<lb/>
+cura te ipſum,</hi> Artzt hilff dir ſelber/ oder wie der weiſe Lehrer<lb/>
+Syrach in ſeinem Buͤchlin am 18. Capitel (vnzeitiges rich-<lb/>
+ten vnd verdammen den Menſchen zuwehren) redet: Hilff<lb/>
+dir vor ſelber ehe du andere artzneieſt: die Jnwohner der<lb/>
+Statt Nazareth/ Chriſto vnſerm einigen Seelen Artzt nicht<lb/>
+zu ſonderm Ruhm/ noch zu ſchuldigen Ehren geſtellet/ vnd in<lb/>
+jhren Hertzen gefaſſet: jedoch ſo iſt es nicht allein ein ſehr al-<lb/>
+tes Sprichwort: Es hat es auch nicht nur der HErꝛ/ die e-<lb/>
+wige Weißheit des Vatters auß derẽ zu Nazareth vñ ſeiner<lb/>
+Zuhoͤrer Hertzen herauß nemmen woͤllen/ ehe vnnd deñ es wi-<lb/>
+der jhn abgangen/ vnd außgeſprochen worden/ damit ſie jhrer<lb/>
+ſelber etwas beſſer wahr nemmen/ vnd mit jhrem vnglauben<lb/>
+den jenigen/ ſampt ſeinen gnaden ſchaͤtzen nicht außtrieben/<lb/>
+noch verwuͤrffen/ der jhnen zu Seel vnd zu Leib zuhelffen ſo<lb/>
+mechtig vnd geſchickt/ als bereit vnd willig/ nachdem er eben<lb/>
+darumb von dem HErꝛn geſalbet/ vnnd geſendet ſeye/ das er<lb/>
+das Ampt vnd die Werck eines recht trewen/ vnd des einigen<lb/>
+Seelen Artztes/ der kommen ſollen/ trewlich an allen vnnd<lb/>
+jeden thue vnd verꝛichte/ die zeitlichen vnd ewigen Schaden<lb/>
+fuͤhlen/ vñ von jhm allein hůlffliche Artzney erwarten: Son-<note place="right">Gott/ vnnd<lb/>
+vnſer Hey-<lb/>
+land einem<lb/>
+Artzt in H.<lb/>
+Schrifft ver-<lb/>
+gliechen/ vnd<lb/>
+ein Artzt ge-<lb/>
+nennet.</note><lb/>
+dern es hat beides der allein weiſe Gott ſich einem Artzt hin<lb/>
+vnd wider in der Schrifft vergliechen/ vnd dañ vnſer allwiſ-<lb/>
+ſende Heyland vnnd geliebte Bruder nach dem Fleich/ Chri-<lb/>
+ſtus einen Artzt ſich genennet. Die Starcken bedoͤrffen des<lb/>
+Artztes nicht/ ſondern die Krancken: Jch bin kommen die<lb/>
+Suͤnder zur Buß zuberuffen/ vnd nicht die frommen/ ſagt Er<note place="right">Matth. 9.</note><lb/>
+Matthej am 9. vnnd laſſet ſeine Feinde/ die Phariſeer vnnd<lb/>
+Schrifftgelehrten zuhoͤren/ die Er zugleich mit der Schrifft<lb/>
+geſchweiget. Jch bin der HErꝛ/ dein Artzt/ ſtehet im andern<lb/>
+Buch Moſe am ende des fůnffzehenden Capitels geſchrieben/<note place="right"><supplied>Exod. 15.</supplied></note><lb/>
+<fw type="sig" place="bottom">D iij</fw><lb/>
+<pb facs="#f0030" n="22"/>
+<note place="left">Numer: 12.</note>Ach Gott heyle ſie (Miriam) ſchreiet zum HERRN vnnd<lb/>
+ſpricht Moſe im 12. Capitel ſeines vierdten Buchs. Vnnd<lb/>
+<note place="left">Deuteron: 32<lb/>
+Jerem: 30.</note>wie im 5. Buch/ im 32. Der HErꝛ ſelber ſagt/ ich kan ſchlagen<lb/>
+vnd kan heylen: dich will ich wider geſundt machen/ vnd deine<lb/>
+Wundẽ heylẽ: alſo hat der heylige Koͤnig vñ Prophet Dauid<lb/>
+<note place="left">Pſalm: 147.<lb/>
+Hoſ: 6.</note>im 147. Pſalm dieſen Artzt den HErꝛn/ mit dieſen Worten<lb/>
+beſchrieben er heilet die zubrochenes Hertzens ſeind/ vnd ver-<lb/>
+bindet jhre Schmertzen. Er hat vns zuriſſen/ er wird vns<lb/>
+auch heylen/ er hat vns geſchlagen/ er wird vns auch verbin-<lb/>
+den: er macht vns lebendig nach zwen Tagen/ Er wird vns<lb/>
+am dritten Tag auffrichten/ das wir fůr jhm leben wer-<lb/>
+den: ſprechen ſie/ vnd ſtehet geſchrieben im Propheten Hoſea<lb/>
+am 6. Vnd damit wir vns bey mehren Zeugnuſſen der hey-<lb/>
+ligen Schrifft nicht auffhalten/ darinnen Gott der HErꝛ<lb/>
+ſich wo nicht einen Artzet außtruckenlich nennet/ doch ei-<lb/>
+<note place="left"><gap reason="illegible" unit="chars"/>: 4. <hi rendition="#aq">v.</hi> 18/<lb/>
+19/20.<lb/>
+Jeſ. 61.</note>nem Artzt vergleichet vñ vergleichen laſſet/ was bringen von<lb/>
+Chriſto vnſerm getrewen Erloͤſer/ nach zugethanem vndwi-<lb/>
+der hingegebenem Buch/ auß dem 61. Capitel deß Propheten<lb/>
+Jeſai<hi rendition="#aq">æ</hi> erklerete/ holdſeelige hochtroͤſtliche wort/ anders mit<lb/>
+ſich/ deñ dz er ſich als den einigen bewerten Artzet leibs vnd der<lb/>
+Seelen zuerkeñen gibt/ der darumb da/ vnd in dieſe Welt kom-<lb/>
+men ſeye/ daß er beides die zubrochene Hertzen heyle/ vnd dañ<lb/>
+auch den Blinden dz Geſicht/ vñ den zuſchlagnen/ dz ſie frey<lb/>
+vñ ledig ſein ſollen/ ja dz angenem̃e Jar des HErꝛn predige?</p><lb/>
+<p><note place="left">Die EdLe<lb/>
+Kunſt der<lb/>
+Artzney vnd<lb/>
+erfahrne tre-<lb/>
+we Ertzte<lb/>
+hoch vnnd<lb/>
+werth zuhal-<lb/>
+ten<lb/>
+Syrach: 38.</note>Jſt demnach kein zweiffel/ denn das vnſer Gott vnd Hey-<lb/>
+land/ vns hiemit <hi rendition="#fr">zuuorderſt commendieren</hi> vnnd wohl<lb/>
+beuehlen woͤllen/ wie die Edle vnnd fuͤrtreffliche/ vnder den<lb/>
+Menſchen nicht gnugſam geruͤhmete/ vñ doch hoch not wen-<lb/>
+dige Kunſt der Artzney/ dauon ſonſten der weiſe Mann Sy-<lb/>
+rach im 38. Capitel geſchrieben: die Kunſt des Artzts erhoͤhet<lb/>
+<note place="left">Warumb<lb/>
+vnd auß was<lb/>
+vrſachen.</note>jhn/ vnd macht jhn groß bey Fuͤrſten vnd Herꝛen: vnd aber-<lb/>
+mahl/ Er/ der HErꝛ/ hat ſolche Kunſt den Menſchen gege-<lb/>
+hen/ das er gepreiſet wuͤrde in ſeinen Wunderthaten/ damit/<lb/>
+<fw type="catch" place="bottom">heylet</fw><lb/>
+<pb facs="#f0031" n="23"/>
+heylet er vnd vertreibet die Schmertzen: vnnd der Apotecker<lb/>
+machet Artzney darauß: Alſo nicht weniger die Perſonen/<lb/>
+welche der Artzney vor andern erfahren/ vnd eine ſolche Er-<lb/>
+kantnus haben/ das ſie den Kranckheiten vnnd Schmertzen<lb/>
+eines theils vnnd bey zeiten vorkommen: Andern theils<lb/>
+widerumb abhelffen: wo nicht alle Schmertzen vertreiben/<lb/>
+doch etlicher maſſen lindern kuͤnden. Daher abermahl<note place="right">Den Ertzten<lb/>
+gereichet es<lb/>
+zu ſondern<lb/>
+hohen ehren<lb/>
+ſo wol als an<lb/>
+dern Ampte<lb/>
+perſonen an-<lb/>
+dere Namen<lb/>
+das Chriſtus<lb/>
+einem Artze<lb/>
+vergliechen.</note><lb/>
+Syrach vernůnfftig vnnd wohl erinnert/ Ehre den Artzt<lb/>
+mit gebuͤrlicher verehrung/ das du jhn habeſt zur Noth/ dann<lb/>
+der HErꝛ hat jhn geſchaffen/ vnnd die Artzney kompt von<lb/>
+dem Hoͤheſten/ vñ Koͤnige ehren jhn. Laß den Artzt zu dir/ deñ<lb/>
+der HErꝛ hat jhn geſchaffen/ erholet er/ vnnd laß jhn nit von<lb/>
+dir/ weil du ſein bedarffeſt. Vnnd gewißlich wie es groſſen<lb/>
+Herꝛen vnd Potentaten dieſer Welt/ hoͤherer vnd niderer O-<note place="right">Der Obrig-<lb/>
+keit.<lb/>
+Exo: 22.<lb/>
+Pſalm: 82.<lb/>
+1. Timoth. 6.<lb/>
+Jeſaj. 9.<lb/>
+Rhaͤten<lb/>
+Jeſaj. 9.<lb/>
+Matach: 3.</note><lb/>
+brigkeit/ eine ſondere vnd groſſe ehre iſt/ das ſie der HErꝛ aller<lb/>
+Herꝛen/ von ſeinem Namen/ Goͤtter genennet/ dieweil ſie an<lb/>
+Gottes ſtatt ſitzen/ vnnd ein Goͤttlich Ampt hie auff Erden<lb/>
+fuͤhren: Wie es nicht einem Koͤnig oder Fuͤrſten allein hoch-<lb/>
+ruͤhmlich/ das Chriſtus ſelber ein Koͤnig/ ja ein Koͤnig aller<lb/>
+Koͤnige/ vnd der FrideFuͤrſt: ſondern auch derſelbigen Raͤthẽ<lb/>
+ein anſehen machet/ das Er <hi rendition="#aq">Conſiliarius,</hi> ja der Engel des<note place="right">Haußvaͤt-<lb/>
+tern/ vnnd<lb/>
+Haußmuͤt-<lb/>
+tern:<lb/>
+Pſalm 103.<lb/>
+Jeſaj. 49</note><lb/>
+groſſen Raths/ vñ des Bunds durch den Propheten Jeſaiam<lb/>
+vnd Malachiam genennet: wie es beides einem Haußvatter/<lb/>
+oder auch einer ehrlichen Haußmutter denckwuͤrdig vnd lieb-<lb/>
+lich: Wie nicht weniger einem Lehrer vnnd Prediger troͤſtlich<lb/>
+iſt/ dz Gott vnſer Heyland einstheils einem liebreichen Vat-<note place="right">Lehrern vnd<lb/>
+Predigern:<lb/>
+Lue: 15.<lb/>
+Joh: 10.<lb/>
+Luc: 4. <hi rendition="#aq">v.</hi> 16/<lb/>
+20.<lb/>
+Luc: 5.<lb/>
+Den Ertzten</note><lb/>
+ter vnd ehrlichen Mutter Hertzen/ Andern theils einem Hir-<lb/>
+ten/ einem Lehrer vnd Prediger ſich vielfaltig vergliechen/ vñ<lb/>
+den Predig Stul ſelber betretten: Alſo gereichet es freylich<lb/>
+denen/ die mit der Artzney vor andern vmbgehen/ vnd mit ſol-<lb/>
+cher heilſamen Kunſt gezieret vnnd begabet ſind/ zu ſonderm<lb/>
+Ruhm vnnd billichen Ehren/ das der HErꝛ/ der Hoͤheſte/ ja<lb/>
+Chriſtus der eingeborne Sohn des Vatters in angenomme-<note xml:id="note3a" place="right" next="#note3b">Der Artzt<lb/>
+Chriſtus <supplied>hei</supplied></note><lb/>
+ner ſeiner heyligen Menſchheit/ einem Artzt ſich vergleichen/<lb/>
+<fw place="bottom" type="catch">auch</fw><lb/>
+<pb facs="#f0032" n="24"/>
+<note xml:id="note3b" prev="#note3a" place="left">lete allerley<lb/>
+Krancken <lb/>
+doch wenig in<lb/>
+ſeinem Vat-<lb/>
+terland/ vnd<lb/>
+warumb.<lb/>
+Sapieut: 16.<lb/>
+Luc: 4. <hi rendition="#aq">v.</hi> 40<lb/>
+Matth. 8.<lb/>
+Marc: 1.</note>auch ſolches Namens ſo gar nit beſchaͤmet hat/ das er von<lb/>
+jhm ſagen laſſen/ Artzt hilff dir ſelber: gleich als ob an Kunſt<lb/>
+vnd vollkomner Erkantnus dem HErꝛn vnſerm Him̃liſchen<lb/>
+Artzt gemanglet: da doch das Wort des HErꝛn alles heylet:<lb/>
+der auch auff einen jeglichen ſeine Hand gelegt vnnd geſundt<lb/>
+gemacht hat/ die zu jhm gebracht worden/ ja allerley Kranckẽ:<lb/>
+<note place="left">Matth. 13.<lb/>
+Marc: 6.</note>Ob er wolin ſeinem Vatterland vnd in der Statt Nazareth<lb/>
+nicht viel Zeichen gethan/ von wegen jhres vnglaubens/ dar-<lb/>
+<note place="left">Welchẽ Ertz<lb/>
+ten das wort<lb/>
+gethan wor-<lb/>
+dẽ/ wider vn-<lb/>
+gleiches vr-<lb/>
+theil.</note>uͤber der HErꝛ ſelber ſich hoͤchlich verwundert/ wie wir Mat-<lb/>
+thej am 13. vnd Marci am 6. leſen. Mag demnach beides vom<lb/>
+Artzt/ vnd dann von der Artzney ſelber ein jeder vrtheilen vnd<lb/>
+halten/ was er helt vnd vrtheilet: Vnſer einiger Artzt Chri-<lb/>
+ſtus/ der Gott vnd Menſch in einer Perſon iſt/ thut hiemit dz<lb/>
+Wort/ vnd nicht geringe Ehre an allermeiſt Gottfoͤrchtigen<lb/>
+Ertzten/ die mit der Artzney ordenlich vmbgehen: jhm ſich ſel-<lb/>
+ber vndergeben/ vnd im Glauben vertrawen: darzu dem ne-<lb/>
+ben Menſchen nach jhrem Beruff vnd euſſerſten vermoͤgen/<lb/>
+zudienen ſich befleiſſen: Vngeachtet alles deſſen/ ſo wider die-<lb/>
+ſer Edlẽ Kunſt nit gnugſam erfarne/ oder der Artzney vielfal-<lb/>
+<note place="left"><hi rendition="#aq">Baſilius Ma-<lb/>
+gnus in aſee<lb/>
+nic: quæſt.</hi> 55</note>tigen mißbrauch/ auch von Liebhabern guter Kuͤnſten ge-<lb/>
+ſchrieben/ wa nicht von andern dawider ohne gnugſamen ver-<lb/>
+ſtandt/ wird getrieben vnd außgeſchrieben. <hi rendition="#aq">Non ideò debe-<lb/>
+mus omnem medicæ artis vtilitatem fugere, quòd qui-</hi><lb/>
+<note place="left">Allgemeiner<lb/>
+Spital wird<lb/>
+vns auffge-<lb/>
+than vnnd<lb/>
+Mẽſchliches<lb/>
+elend fuͤrge-<lb/>
+bildet bey dẽ<lb/>
+Sprichwort<lb/>
+oder Gleich-<lb/>
+nus võ Artzt.</note><hi rendition="#aq">dam illa non bene vtuntur:</hi> Vnnd abermahl ſagte deralten<lb/>
+Lehrer einer: <hi rendition="#aq">In re medica non conuenit vſu peruerſo da-<lb/>
+tam à <hi rendition="#g">DEO</hi> gratiam traducere.</hi></p><lb/>
+<p><hi rendition="#fr">Es will</hi> aber der HErꝛ vnſer Gott vnd Him̃liſche Artzet<lb/>
+Chriſtus bey ſolchem Namen vñ der Gleichnus ſo vom Artzt<lb/>
+genommen/ viel <hi rendition="#fr">weiter</hi> ſehen/ vñ vns ferner gleich als einen<lb/>
+allgemeinen Spital zeigẽ/ oder die gemeine Patienten Stub<lb/>
+auffthun/ darin das gantze Menſchliche Geſchlecht/ alle vnd<lb/>
+<note place="left">Leibliches e-<lb/>
+lend der Mẽ-<lb/>
+ſchen.<lb/>
+Geneſ. 3.</note>jede Adams Kinder kranck vñ verwundt ligen: vnd das nicht<lb/>
+euſſerlich allein vnd am Leib/ ſondern auch innerlich vnnd an<lb/>
+der Seelen. Dann es heiſſet je/ vnnd bleibet nach dem ſchroͤck-<lb/>
+<fw type="catch" place="bottom">lichen</fw><lb/>
+<pb facs="#f0033" n="25"/>
+lichen Suͤnden fall bey dem gerechten Sententz vnd Vrtheil<lb/>
+des gerechten Gottes/ du biſt Erden/ vnnd ſolt zu Erden wer-<lb/>
+den: Nicht nur Aſchen bin ich/ ſagt der Held vnnd Vatter<note place="right">Geneſ. 18.</note><lb/>
+vieler Voͤlcker/ ja aller glaubigen/ Abraham fuͤr dem HErꝛn<lb/>
+im 1. Buch Moſe im 18. Sondern es iſt auch der Menſch ein<lb/>
+eitel ſchandtlicher Kot/ vnnd gehet doch endlich/ wann ſchon<note place="right">Syrach 10.</note><lb/>
+auch der Artzt lang daran flickt/ alſo/ heut Koͤnig/ mor-<lb/>
+gen Todt/ vnnd wann der Menſch todt iſt/ ſo freſſen jhn die<lb/>
+Schlangen vnd die Wuͤrme/ wie die Wort Syrachs im 10.<note place="right">Job. 21</note><lb/>
+lauten. Sie ligen gleich mit einander in der Erden/ vñ Wuͤr-<lb/>
+me decken ſie zu/ ſpricht der Mann Job am 21. von den Got-<lb/>
+loſen/ wann ſie gleich hohe Leuth ſind: ſihe ſie werden all-<lb/>
+zumahl veralten wie ein Kleidt/ Motten werden ſie freſſen/<note place="right">Jeſ. 50. vnnd<lb/>
+51.</note><lb/>
+wie Wullen Tuch/ erinnert der HErꝛ/ vnnd troͤſtet bey dem<lb/>
+Propheten Jeſaia im 50. vnd 51. Capitel die jenige/ ſo die ge-<note place="right">Job 17</note><lb/>
+rechtigkeit kennen. Ja auch der fromme vnnd geduldige Job/<lb/>
+heiſſet die Verweſung ſeinen Vatter/ vnd die Wuͤrme ſeine<note place="right">Joh: 11.</note><lb/>
+Mutter vnd ſeine Schweſter: Der verſtorbene Freuͤnd des<lb/>
+HErꝛn/ Lazarus von Bethanien/ iſt erſt vier Tag im Grab/<lb/>
+nicht deſto weniger klagt/ vñ bekennet ſeine Schweſter Mar-<lb/>
+tha/ Er ſtincket ſchon/ dann er iſt vier Tag gelegen. Vnd ſol-<note place="right">Des Patri-<lb/>
+archen Ja-<lb/>
+cobs Leich-<lb/>
+nam balſa-<lb/>
+miert/ vnnd<lb/>
+warumb.<lb/>
+Geneſ: 50.</note><lb/>
+te der verſtorbene Coͤrper des Patriarchen oder Ertzvatters<lb/>
+Jacob/ nach ſeinem Abſchied auß Aegypten/ in das Land Ca-<lb/>
+naan gefuͤret/ vñ in ſein Grab/ das er jhm gegraben/ begraben<lb/>
+werden/ wie er an ſeinen lieben Sohn Joſeph/ vermittelſt Ei<lb/>
+des/ begehret<hi rendition="#i">:</hi> So mußte erſt gedachter Joſeph ſeinen Knech-<lb/>
+ten/ den Ertzten beuchlen/ das ſie ſeinen Vatter ſalbeten/ Jn-<lb/>
+maſſen ſie dann auch gethan haben/ vnd hieuon zuſehen iſt im<lb/>
+47. vnd 50. Eapitel des erſten Buchs Moſe: Vnd das nicht<lb/>
+auß gewonheit des Landes allein/ ſondern auß Notturfft/ vnd<lb/>
+dieweil deß Menſchen Leib alſo bald anfahet ſtinckend zu wer-<lb/>
+den vnd zufaulen/ wann der Geiſt außgefahren/ vnnd der le-<lb/>
+bendige Athem dem Menſchen entgangen. Daher weder <hi rendition="#aq">A-</hi><note xml:id="note4a" place="right" next="#note4b">Alexandri<lb/>
+des Groſſen/</note><lb/>
+<hi rendition="#aq">lexandri</hi> deß Groſſen Monarchẽ in Griechenland/ auff wel-<lb/>
+<fw type="sig" place="bottom">E</fw><lb/>
+<pb facs="#f0034" n="26"/>
+<note xml:id="note4b" prev="#note4a" place="left">vnnd Ptoiſ-<lb/>
+mei Lagi ab-<lb/>
+ſterben/ vnd<lb/>
+Balſamierte<lb/>
+Coͤrper<lb/>
+1. Maccab. 1.</note>then der Prophet Daniel im 7. vnnd 8. Capitel geſehen/ von<lb/>
+deſſen Kranckheit vnnd zeitlichem abſterben auch das erſte<lb/>
+Buch der Maccabeer andeutung thut: Noch viel weniger<lb/>
+<hi rendition="#aq">Ptolomæj Lagi</hi> des Koͤnigs in Egyptẽ verſtorbener Leichnam<lb/>
+erſt mehr dañ vber drithalb hundert Jar dẽ Roͤmiſchẽ Keyſer<lb/>
+Auguſto kuͤnden gewieſen vnd gezeigt werden/ wann ſie nicht<lb/>
+balſamiert/ noch durch der Ertzte Kuͤnſt vnnd durch jhnen be-<lb/>
+kandte Specereien/ eine zeit lang fůr der Feuͤle vnnd dem ge-<lb/>
+ſtanck verwahret worden. Vnderdeß vnd nicht deſto weniger<lb/>
+ſo bleibet es Menſchlichen Leibs halber dabey/ das derſelbig<lb/>
+nicht nur vnzahlbar viel ſchwach vnnd kranckheiten vnder-<lb/>
+worffen/ das er auch nicht allein dem zeitlichen Todt heim-<lb/>
+<note place="left">1. Corinth. 15.</note>fellet/ ſondern das er verweßlich: das er in Vnehre: das er in<lb/>
+Schwachheit: das er als ein natuͤrlicher Leib in die Erdẽ ge-<lb/>
+ſeet: vnnd der verſtorbene Menſch nicht nur ſtinckend/ ſon-<lb/>
+dern auch zu Staub wird vnd vergehet/ ſo wol als andere vn-<lb/>
+uernuͤnfftige Creaturen/ ſo einẽ lebendigẽ Leib haben/ wie der<lb/>
+104. Pſalm andeutet. So kranck/ ſo elend/ ſo hinfellig iſt die<lb/>
+Edle vernuͤnfftige Creatur/ der Menſch dem Leib nach/ durch<lb/>
+<note place="left">Roͤm. 7.<lb/>
+Roͤm: 5.</note>dit Suͤnd worden/ die in vns wohnet/ vnd dauon der H. Apo-<lb/>
+ſtel an die Roͤmer im 5. Capitel bezeuget/ durch einen Men-<lb/>
+ſchen ſeye die Suͤnd in die Welt kommen/ vnd der Tod durch<lb/>
+die Suͤnd/ vnd ſeye alſo der Todt zu allen Menſchen durch-<lb/>
+getrungen/ d<choice><sic>l</sic><corr>i</corr></choice>eweil ſie alle Suͤnder.</p><lb/>
+<p><note place="left">Innerliche<lb/>
+Kranckheitẽ<lb/>
+vnnd geiſtli-<lb/>
+cher ſchaden<lb/>
+des Menſchẽ</note>Wer wolte dann die innerliche Kranckheit vnnd den See-<lb/>
+len ſchaden des Menſchẽ außſprechen/ daran vns vnſer See-<lb/>
+len Artzet mahnet/ wenn er ſich einen Artzt in ſeinem Wort<lb/>
+nennet/ oder auch zum ſpot vnd ſchimpff nennen laſſen? Der<lb/>
+<note place="left">1. Corinth: 2.</note>natuͤrliche Menſch vernimmet nichts vom Geiſt Gottes/ es<lb/>
+iſt jhm eine Thorheit/ vnd kan es nicht erkennen/ dann er wird<lb/>
+von Geiſtlichen Sachen gefraget/ ſpricht der auſſerwehlte<lb/>
+Ruͤſtzeug des HErꝛn in der erſten an die Corinth. im 2. Cap.<lb/>
+Der Will des Menſchen iſt von Gott dem HErꝛn dermaſ-<lb/>
+<note place="left">Roͤm: <supplied>8</supplied>.</note>ſen abgewendet/ das er auch eine Feindſchafft wider Gott<lb/>
+<fw place="bottom" type="catch">wor-</fw><lb/>
+<pb facs="#f0035" n="27"/>
+worden/ daher geſchrieben ſtehet/ fleiſchlich geſinnet ſein/ iſt<lb/>
+eine Feindſchafft wider Gott/ an die Roͤm: 8. Das Hertz des<lb/>
+Menſchen aber iſt zu einer ſchaͤdlichen vergifften Brunquell<lb/>
+worden/ dauon der HErꝛ/ der Hertzenkuͤndiger Matthej am<note place="right">Matth. 15.</note><lb/>
+15. ſpricht/ auß des Menſchen Hertz kommen arge gedancken/<lb/>
+Mord/ Ehebruch/ Hurerey/ Dieberey/ falſche Zeugnus/ Loͤ-<lb/>
+ſterung: das ſind die Stuͤck die den Menſchen verunreini-<lb/>
+gen. Zugeſch weigen/ das Gott der HErꝛ bald im erſten Buch<lb/>
+Moſis im 6. vnd 8. Capitel geſehen vnnd klaget/ alles dichten<note place="right">Geneſ: 6<lb/>
+vnd 8.</note><lb/>
+vnd trachten Menſchlichen Hertzens ſey nur boͤß immerdar/<lb/>
+vnd von jugend auff. Ebenmeſſig vnd wie der weiſeſte Koͤnig<note place="right">Pronerb: 20</note><lb/>
+Salomon in Spruͤchen am 20. Capitel nicht ohne vrſach<lb/>
+fragt/ wer kan ſagen/ ich bin rein in meinem Hertzen vñ lau-<lb/>
+ter von meiner Suͤnde. Alſo ſpricht vnnd bezeuget der Gott-<note place="right">Job. 15.</note><lb/>
+foͤrchtige Mañ Job in ſeinem Buͤchlin im 15. Capitel: Si-<lb/>
+he vnder allen Heyligen iſt keiner ohne tadel: Vnd die Him-<lb/>
+mel ſind nicht rein fuͤr jhm/ wie viel weniger ein Menſch der<lb/>
+ein grewel/ vnnd ſchnoͤde iſt: der vnrecht ſeufft wie Waſſer.<note place="right">Vn<choice><sic>n</sic><corr>u</corr></choice>ollkom-<lb/>
+menheit vnd<lb/>
+Schwachhett<lb/>
+der widerge-<lb/>
+bornen/ die<lb/>
+doch wohnun-<lb/>
+gen des H.<lb/>
+Geiſtes.<lb/>
+1. Cor: 6.<lb/>
+2. Cor: 6.<lb/>
+2. Cor: 10.<lb/>
+Roͤm: 7.</note><lb/>
+Wann wir dann ſchon von newem geboren/ vnnd vnſere Lei-<lb/>
+ber zu Tempeln vnnd Wohnungen des H. Geiſtes worden<lb/>
+ſind/ ſo muͤſſen wir doch vnſereVernunfft gefangen nemmen<lb/>
+vnder den Gehorſam Chriſti: klagen vnnd ſeufftzen muͤſſen<lb/>
+wir/ woͤllen haben wir wohl/ aber vollbringen das gute finden<lb/>
+wir nit. Denn das gute/ das ich will/ das thue ich nicht/ ſonder<lb/>
+das boͤſe das ich nicht will/ das thue ich: vnnd bald hernach<lb/>
+ſagt vnd klagt ernſtlich der widergeborne hocherleuchte Apo-<lb/>
+ſtel/ Jch elender Menſch/ wer wird mich erloͤſen/ von dem<lb/>
+Todt dieſes Leibs? Wir muͤſſen auch nicht allein bekeñen/ das<lb/>
+all vnſere gerechtigkeit ſeye wie ein beflecktes Tuch oder Ge-<note place="right">Jeſaj. 64.</note><lb/>
+wand/ ſondern das auch das Fleiſch geluſtet wider den Geiſt/<lb/>
+vnd den Geiſt geluſtet wider das Fleiſch/ dieſelbige ſind wider<lb/>
+einander/ daß jhr nicht thut was jhr woͤllet/ ſchreibet abermal<note place="right">Galat: 5.</note><lb/>
+der Apoſtel an die Galater im 5. Capitel: vñ iſt je kein Menſch<lb/>
+auff Erden der guts thue vñ nicht ſůndige: ſagt der Prediger.</p><lb/>
+<fw place="bottom" type="sig">E ij</fw><lb/>
+<pb facs="#f0036" n="28"/>
+<p><note place="left">Eigentliche<lb/>
+vergleichung<lb/>
+beuorab geiſt<lb/>
+lichen elends<lb/>
+des Menſchẽ<lb/>
+Jeſaj: 1.</note>Jn ſumma das gantze Haupt iſt kranck/ das gantze Hertz<lb/>
+iſt matt/ von der Fußſolen an biß auffs Haupt/ iſt nichts<lb/>
+geſundes am Menſchen: ſondern Wunden vnd Striemen/<lb/>
+vnd Eyterbeulen/ die nicht gehefftet/ noch verbunden/ noch<lb/>
+mit oͤle gelindert ſind/ wie der <hi rendition="#g">HERR</hi> ſelber von vnſerm<lb/>
+Geiſtlichen elend vnd vnaußſprechlichen Schaden im Pro-<lb/>
+pheten Jeſaia am Erſten redet. Wir ſind die geiſtlich Ar-<lb/>
+me/ die zuſtoßne Hertzen/ die Gefangne/ die Blinden vnnd<lb/>
+die Zuſchlagene/ deren vnſer einige Leib vnnd Seelen Artzet<lb/>
+<note place="left">Luc: 4.<lb/>
+Jeſai 61.<lb/>
+Matth: 11.</note>nechſt vor abgehoͤrten Worten vnd ſonſten gedencket: Dem<lb/>
+elenden Menſchen ſind wir gleich/ von dem der HErꝛ Lucæ<lb/>
+am 10. berichtet/ das er zwiſchen Jeruſalem vnd Jericho vn-<lb/>
+<note place="left">Luc: 10.</note>der die Moͤrder gefallen/ die jhn außgezogen vnd geſchlagen/<lb/>
+die dauon gangen/ vnd jhn halb todt ligen laſſen/ daher er ſein<lb/>
+ſelbs halber/ wie zwar auch fuͤr vbergehenden Prieſters vnnd<lb/>
+des Leuiten halben/ hilffloß vnd in ſeinem eignen Blut ſter-<lb/>
+ben vnd verderben muͤſſen. Vnd hat je der H. Apoſtel vns nit<lb/>
+verhalten/ das wir nach dem Fall vnd von Natur in Suͤnden<lb/>
+<note place="left">Vnſer Leib-<lb/>
+lichen vnnd<lb/>
+Geiſtliches<lb/>
+elend ſolle in<lb/>
+vns ware de-<lb/>
+mut verurſa-<lb/>
+chẽ wider al-<lb/>
+lẽ hochmuth/<lb/>
+vnd Suͤnde.</note>todt vnd geſtorben ſeyen. Wer wolte dañ daran zweifflen vnd<lb/>
+nicht vielmehr demuͤtig erkennen/ das der HErꝛ vnſer Hey-<lb/>
+land vns vnſere toͤdtliche Kranckheit vnd vnaußſprechlichen<lb/>
+Schaden an Leib vnd an Seel/ euſſerlichen vnd innerlichen/<lb/>
+fuͤr Augen ſtellen vnnd erinnern woͤllen/ das wir deß rechten<lb/>
+einigen Artzts mehr denn wol bedoͤrffen<hi rendition="#i">?</hi> Ja wer ſolte vnd<lb/>
+wolte nicht daher vrſach nemmen/ das er hindan geſetzt/ allen<lb/>
+ſtoltz vnd hochmut des Hertzens/ allen Pracht/ Hoffart vnnd<lb/>
+Vbermut/ allen ſpott vnnd verachtung ſampt andern Suͤn-<lb/>
+den/ darzu der armſeelige Menſch mehr den geneigt iſt/ ſich ſo<lb/>
+fuͤr Gott dem HErꝛn aller Herꝛen/ ſo fuͤr dem Menſchen de-<lb/>
+ſto hertzlicher demuͤtigte/ Er ſeye gleich ſo weis vnd verſtendig<lb/>
+ſo ſtarck vnnd maͤchtig/ ſo reich vnnd hocherhaben/ als er ſein<lb/>
+vnnd in dieſer Welt werden mag/ die er doch endlich/ ſampt<lb/>
+allem was darinnen iſt/ muß laſſen/ vnd vor dem erſcheinen/<lb/>
+der gewalt vbet/ mit ſeinem Arm/ vnnd zerſtoͤret die hoffertig<lb/>
+<fw type="catch" place="bottom">ſind</fw><lb/>
+<pb facs="#f0037" n="29"/>
+ſind in jhres Hertzen ſinn/ der auch Leib vnd Seel verderben<note place="right">Luc: 1.<lb/>
+Matth. 10.</note><lb/>
+mag in die Holle: Wie Luc<hi rendition="#aq">æ</hi> am erſten/ die heylige Jung-<lb/>
+fraw Maria in jhrem Magnificat ruͤhmet/ vnnd der Sohn<lb/>
+Gottes Matthej am 10. ſeinen Juͤngern bezeuget.</p><lb/>
+<p>Vber das/ vnd <hi rendition="#fr">zum dritten/</hi> damit wir Elende/ biß auff<note place="right">Hilff finden<lb/>
+wir bey Chri-<lb/>
+ſto vnſerm<lb/>
+Him̃liſchen<lb/>
+Artzt in Leib-<lb/>
+licher vnnd<lb/>
+Geiſtlicher<lb/>
+Kranckheit<lb/>
+Er iſt einrech<lb/>
+ter Practicus<lb/>
+vnd ein Mei-<lb/>
+ſter zuheiffen<lb/>
+euſſerlich o-<lb/>
+der leiblich.</note><lb/>
+den ewigen Todt verwundete Menſchen wuͤßten/ bey wem<lb/>
+wit vns in ſolcher Noth huͤlff vnd troſtes zuerholen/ oder wes<lb/>
+wir vns zu dem zuuerſehen/ der ſich einen Artzt nennen laſſet<lb/>
+vnd ſelber nennet/ ſo hat er ſolches bey herfuͤr gebrachtem kur-<lb/>
+tzen Sprichwort vnd gleich als mit einem einigen Woͤrtlin<lb/>
+an Tag geben/ darzu ſeine beſte Kunſt nicht verbergen woͤllẽ/<lb/>
+Welche da iſt/ Artzt hilff/ hilff oder curiere. Dañ wir haben<lb/>
+an Chriſto Jeſu/ der in der Statt Nazareth profitiert/ zu leh-<lb/>
+ren vñ zuleſen auffgetretten/ vñ als den verheiſſenen Artzt ſich<lb/>
+pr<hi rendition="#aq">æ</hi>ſentirt oder dargeſtellet/ nicht einen ſolchen Doctorn/ der<lb/>
+nur iñ theoria verſiert/ vñ gewuͤßt hette/ was dem Menſchen<lb/>
+angelegen vnd in jhm were: Viel weniger werden wir an jhm<lb/>
+ein ſolchen Mann finden/ der weder jhm ſelber noch andern/<lb/>
+vnd ſonderlich ſeinen angehoͤrigen nicht helffen koͤndte: Jn-<lb/>
+maſſen gleich wol glaubloſe/ vnachtſame vñ vndanckbare Zu-<lb/>
+hoͤrer vnnd Jnwohner zu Nazareth/ wie nicht weniger her-<lb/>
+nach die Hoheprieſter vnnd Schrifftgelehrten/ ſampt dem<lb/>
+Volck/ jhm ſpoͤtliſch vñ ſchmaͤhelich in ſeiner hoͤchſten Not/<lb/>
+vnd am Creutz fuͤrwerffen: Sondern dieſer Artzt iſt zu gleich<lb/>
+ein ſolcher Practicus vnd erfahrner Meiſter/ der curiert/ oder<note place="right">Matth: 9.<lb/>
+Matth: 4.<lb/>
+Matth: 17.</note><lb/>
+geheylet hat allerley Seuche vnnd Kranckheiten im Volck/<lb/>
+der geſundt gemachet/ alle die zu jhm gebracht worden/ vnnd<lb/>
+vnder denſelben auch die/ welchen ſeine Juͤnger nicht helffen<lb/>
+kundten: Wie Matthej am 4. vnd 17. Capitel zuſehen: Er<lb/>
+heylet ſie alle ſpricht der Euangeliſt im 12. Capitel vñ weiſet<note place="right">Matth: 12.<lb/>
+Jeſaj: 42.</note><lb/>
+zugleich auff die weiſſagung des Propheten Jeſai<hi rendition="#aq">æ</hi> am 42.<lb/>
+da vnder anderm geſchrieben/ das zuſtoſſene Rohr wird er<lb/>
+nicht zubrechen vnd das gluͤm̃ende dacht wird er nicht außloͤ-<lb/>
+ſchen/ biß das er außfuͤhre das Gericht zum Sieg/ vnnd die<lb/>
+<fw place="bottom" type="sig">E iij</fw><lb/>
+<pb facs="#f0038" n="30"/>
+Heiden werden auff ſeinen Namen hoffen: anzuzeigen das<lb/>
+er alle heylen woͤlle/ vnnd geheylet habe nicht am Leib allein/<lb/>
+<note place="left">Act: 10.</note>ſondern allermeiſt an der Seelen. Vnd zwar es bezeuget glei-<lb/>
+ches falls der Apoſtel Petrus in Geſchichten am 10. Capitel/<lb/>
+Gott habe dieſen Jeſum von Nazareth geſalbet mit dem H.<lb/>
+Geiſt vnd Krafft: Der ſeye vmbher gezogen vnd habe wol ge-<lb/>
+than/ vnd geſundt gemacht/ alle die vom Teuͤffel vberwaͤlti-<lb/>
+get waren. Dann Gott ſeye mit jhn geweſen. Deßgleichen be-<lb/>
+ſtetiget nach ſeiner Himmelfahrt/ vnnd dieweil er ſitzet zur<lb/>
+<note place="left">Mar: 16.</note>Rechten Gottes/ der H. Euangeliſt Marcus von jhm/ der<lb/>
+HErꝛ habe mit ſeinen Juͤngern vnd den Apoſteln gewuͤrcket/<lb/>
+vnnd das Wort bekrefftiget durch mitvollgende Zeichen/<lb/>
+Nach dem ſie außgangen vnnd geprediget an allen Orten/<lb/>
+<note place="left">Pſalm: 68.</note>dauon doch das Buch der Apoſtel Geſchicht reichlich vnnd<lb/>
+weitleuffiger berichtet. Wann dann Gott vns ſchon eine Laſt<lb/>
+auffleget/ ſo hilfft er vns auch: wir haben einen Gott der taͤg-<lb/>
+lich hilfft/ vnd einen HErꝛn HErꝛn der vom Todt erꝛettet:<lb/>
+<note place="left">Pſalm: 34.</note>ſtehet von vnſerm einigen Nothelffer Chriſto im 68. Pſalm<lb/>
+geſchriebẽ: der Gerechte muß zwar viel leiden/ aber der HErꝛ<lb/>
+hilfft jhm auß dem allem/ wie ein anderer Pſalm bezeuget/ vñ<lb/>
+<note place="left">Gott vnſer<lb/>
+Heylãd hilfft<lb/>
+auß toͤdlicher<lb/>
+Kranckheit<lb/>
+wider auff/<lb/>
+auch dẽ Tho-<lb/>
+ren vñ Gott-<lb/>
+loſen die buß<lb/>
+thun-<lb/>
+Pſaim: 107.</note>ſtehet je im 107. auch von den Thoren/ vñ Suͤndern geſchrie-<lb/>
+ben/ ob ſie wohl geplaget vmb jhrer Vbertrettung willen/ das<lb/>
+jhnen eckelt fuͤr aller Speiß/ vnnd ſie todt kranck worden/ je-<lb/>
+doch da ſie zum HErꝛn ruͤffen in jhrer Noth/ halff er jhnen<lb/>
+auß jhren aͤngſten. Er ſandte ſein Wort/ vnnd machte ſie ge-<lb/>
+ſundt vnd erꝛettet ſie das ſie nicht ſturben. Darumb hat frei-<lb/>
+lich vnſer Artzt Chriſtus nicht ettlich wenig Siechen allein<lb/>
+<note place="left">Mar: 6.<lb/>
+Luc: 4. <hi rendition="#aq">v.</hi> 20.</note>in ſeinem Vatterland: ſondern vielmehr auch einen jeglichẽ<lb/>
+der zu jhm gebracht/ geſundt gemacht vnd geheylet: Wie wir<lb/>
+Marci am ſechſten/ vnd Luc<hi rendition="#aq">æ</hi> am vierdten Cap: leſen.</p><lb/>
+<p><note place="left">Luc: 17.<lb/>
+Matth: 8.<lb/>
+Mar: 2.<lb/>
+Luc: 5.<lb/>
+Luc: 7.<lb/>
+Matth: 9.</note>Nicht außſetzige allein hat er/ ſo abweſend/ vnnd da ſie auff<lb/>
+ſein Wort hingangen/ ſo gegenwertig gereiniget: ſondern<lb/>
+Todten aufferwecket/ wauͤ er ſein hand außgeſtrecket vnd auff<lb/>
+gelegt: entweder verſtorbene Mann vnd Weibs Perſonen/<lb/>
+<fw place="bottom" type="catch">oder</fw><lb/>
+<pb facs="#f0039" n="31"/>
+oder nur dẽ Sarck angeruͤret/ darzu ſeine Allmaͤchtigt Stim̃<note place="right">Joh: <gap reason="illegible" unit="chars"/></note><lb/>
+abgehen laſſen zur gewiſſen anzeig vñ beſtettigung/ das keine<lb/>
+kranck vnd ſchwachheit ſo ſchwer vnd groß/ kein Leibsſchaden<lb/>
+ſo boͤß vnd abſchewlich/ keine Plag ſo heimlich oder langwuͤ-<lb/>
+rig: der Todt ſelber ſo ſtarck vnd maͤchtig nicht/ noch viel we-<lb/>
+niger der Menſch ſo elend/ ſo hinfaͤllig vnd verweßlich ſeye/ dz<lb/>
+er nicht ſeine beſte Kunſt/ die da iſt/ helffen/ erzeigen vnd erꝛet-<note place="right">CHriſtus<lb/>
+wird ſeine<lb/>
+Kunſt zuhel-<lb/>
+fen euſſerlich<lb/>
+erſt recht auch<lb/>
+im ewigẽ Le-<lb/>
+ben beweiſen<lb/>
+Jeſai: 56.<lb/>
+1. Cor: 15.<lb/>
+Philip: 3.</note><lb/>
+ten koͤndte vnnd wolte/ wa nicht allwegen hie vnnd in die-<lb/>
+ſer Welt/ doch dort vnd in der kuͤnfftigen/ da nicht mehr ſolle<lb/>
+gehoͤret werden die Stim̃ des klagens/ noch des weynens/ wie<lb/>
+Jeſaias im 56. Capitel redet: da das verweßliche wird anzie-<lb/>
+hen das vnuerweßliche/ vnd das ſterbliche anziehen wird die<lb/>
+vnſterbligkeit: Da auch Jeſus Chriſtus vnſern nichtigen<lb/>
+Leib verklerẽ wird/ das er aͤhnlich ſeye ſeinem verklaͤrten Leib/<lb/>
+nach der Krafft damit er jhm kan alle ding vnderthan ma-<lb/>
+chen/ deſſen verſichert vns der heylige Apoſtel an die Philip-<lb/>
+per am 3. vnnd hat ſolche gnadenreiche huͤlff des HErꝛn vn-<lb/>
+ſers Allmaͤchtigen Helffers vñ Heylands/ die er an vnſerm<lb/>
+ſterblichẽ Leib erweiſen wird/ im 15. Capitel der erſten Epiſtel<lb/>
+an die Corinther herꝛlich jlluminirt vñ ſtattlich außgefuͤhret.</p><lb/>
+<p>Vnder des vnnd als lang wir des einigen Seelen Artztes<note place="right">Innerlich<lb/>
+vnnd an der<lb/>
+Seelen hilfft<lb/>
+vnſer Seelẽ<lb/>
+Artzt Chri-<lb/>
+ſtus Jeſun:<lb/>
+wider der<lb/>
+Suͤnden noc<lb/>
+vnd Kranck-<lb/>
+heit.<lb/>
+Jeſaj: 63.</note><lb/>
+wider der Seelen ſchaden in dieſem elenden Jammerthal vñ<lb/>
+allgemeinen Spital bedoͤrffen: wer hilfft vns auß der Suͤn-<lb/>
+den noth/ vñ toͤdtlicher Kranckheit? Jch bins (antwortet/ vn-<lb/>
+ſer einiger SuͤndenTraͤger/ der verſprochene Meſſias vñ ge-<lb/>
+ſalbete des HErꝛn/ ſeiner Kirchen gantz troͤſtlich/ vnd in einẽ<lb/>
+verbluͤmten holdſeligen Geſpraͤch/ bey dem Propheten Je-<lb/>
+ſaia am 63.) der Gerechtigkeit lehret vnd ein Meiſter bin zu-<lb/>
+helffen. Jch trette die Kelter allein vnd iſt niemand vnder den<lb/>
+Voͤlckern mit mir: das Jahr die meinen zuerloͤſen/ iſt kom-<lb/>
+men. Fůrwar er trug vnſere Kranckheit/ vnnd lud auff ſich<note place="right">Jeſaj: 53.<lb/>
+Matth: 8.<lb/>
+1. Pet: 2.</note><lb/>
+vnſere Schmertzen/ vmb vnſer miſſethat willen iſt er verwun-<lb/>
+det/ vnnd vmb vnſerer Sůnden willen zerſchlagen/ auff jhm<lb/>
+ligt die Straff/ auff das wir frieden hetten/ vnnd durch ſeine<lb/>
+<fw place="bottom" type="catch">Wun-</fw><lb/>
+<pb facs="#f0040" n="32"/>
+Wunden/ ſeind wir heyl worden/ wir giengen alle in der jrꝛe<lb/>
+wie Schafe/ aber der HErꝛ warff vnſer aller Sůnd auff jhn<lb/>
+ſtehet im 53. Capitel erſtgedachten Propheten geſchrieben/<lb/>
+vnd hat der heylige Euangeliſt vnd Apoſtel Matth<hi rendition="#aq">æ</hi>us im 8.<lb/>
+beneben S. Petro im andern Capitel ſeiner erſten Epiſtel<lb/>
+vns auff dieſen Laſt vñ SuͤndẽTraͤger/ den gerechten Knecht<lb/>
+des HErꝛn/ den Meiſter zuhelffen/ gewieſen. Der ſolte/ ver-<lb/>
+<note place="left">Pſalm: 130.<lb/>
+Jeſai 61.</note>moͤg des 130. Pſalmens/ Jſrael erloͤſen auß allen ſeinen Suͤn-<lb/>
+den: Vnd war vom HErꝛn geſandt zu predigen den elenden<lb/>
+vnd geiſtlich Armen das Euangelion oder die froͤliche Bot-<lb/>
+ſchafft von der gnadenreichen Vergebung der Suͤnden in<lb/>
+Chriſto: an jhm haben wir auch die erloͤſung durch ſein Blut/<lb/>
+nemlich die Vergebung der Suͤnden/ ſchreibt S. Paulus an<lb/>
+<note place="left">Coloſ: 1.<lb/>
+Johan: 1.<lb/>
+1. Joh: 1.</note>die Coloſſer am erſten Capitel. Vnnd wie er das vnſchuldige<lb/>
+Lamb Gottes iſt/ das der Welt Suͤnde tregt: Alſo reiniget<lb/>
+vns je das Blut Jeſu Chriſti des Sohns Gottes vonn aller<lb/>
+Sůnde vnd aller Vntugend: dieſer iſt nicht kommen/ das er<lb/>
+<note place="left">Matth: 20.<lb/>
+1. Timoth. 2.</note>jhm dienen laſſe/ ſondern das er diene vnnd gebe ſein Leben zu<lb/>
+einer Erloͤſung fuͤr viele/ ja fuͤr alle. So gar kan vnd will er<lb/>
+vns nicht huͤlffloß wider der Suͤnden Not vnnd Kranckheit<lb/>
+laſſen/ <hi rendition="#fr">noch die Kunſt ſparen/</hi> ohn welche wir in Suͤnden<lb/>
+ſterben vnd verderben muͤſſen ewiglich.</p><lb/>
+<p><note place="left">Wider die<lb/>
+Geiſtliche<lb/>
+Blindheit<lb/>
+vnnd vnſere<lb/>
+Schwachheit<lb/>
+hilfft Chri-<lb/>
+ſtus.</note>Sind wir dann von Natur vnnd vnſerer erſten Geburt<lb/>
+nach/ blind in Geiſtlichen Sachen: es mangelt vns an der<lb/>
+Erkantnus/ darin das ewige Leben ſtehet/ oder wir ſind<lb/>
+ſchwach/ vnd mehr denn ſchwach im Glauben vnd in vnſerm<lb/>
+Chriſtenthumb: wer erleuchtet vns? wer ſtercket vns? wer<lb/>
+hilfft vns? Thut es nicht der Him̃liſche Raphael vnd Got-<lb/>
+<note place="left">Luc: 4. <hi rendition="#aq">v.</hi> 19.<lb/>
+Joh: 1.</note>tes Artzt/ Chriſtus/ mit dem der HErꝛ/ vnd der darumb ge-<lb/>
+ſandt iſt/ das er predige den Blinden das Geſicht? der iſt ja<lb/>
+das warhafftige Liecht/ das in die Welt kommen vnnd er-<lb/>
+leuchtet alle Menſchen die in dieſe Welt kommen/ haben wir<lb/>
+<note place="left">Jeſaj. 9.</note>im Euangelio Johannis am erſten zuſehen: vnnd wie zuuor<lb/>
+von Chriſto dem HErꝛn war geweiſſaget/ daß das Volck/<lb/>
+<fw type="catch" place="bottom">wel-</fw><lb/>
+<pb facs="#f0041" n="33"/>
+welches im finſtern wandlet/ ein groſſes Liecht ſehen vnnd v-<lb/>
+ber die hell ſcheinen ſolte/ die im finſtern Land wohneten/ al-<lb/>
+ſo ruͤhmet der from̃e Prieſter Zacharias Luc<hi rendition="#aq">æ</hi> im erſten/ Er<note place="right">Luc: 1.</note><lb/>
+ſeye erſchienen denen die da ſitzen im Finſternus vñ Schatten<lb/>
+des Todtes/ vnnd richte vnſere Fuͤſſe auff den Weg des Frie-<lb/>
+dens: Allerdings wie bald hernach vnd in offentlichem Tem-<note place="right">Luc: 2.</note><lb/>
+pel zu Jeruſalem/ der Altvatter Simeon von dem Kindlein<lb/>
+Jeſu/ den er auff ſeine Arm genommen bekennet vnd ſpricht/<lb/>
+HErꝛ nun laͤſſeſt du deinen Diener im frieden fahren/ wie du<lb/>
+geſagt haſt/ dann meine Augen haben deinen Heyland geſe-<lb/>
+hen/ welchẽ du bereitet haſt fuͤr allen Voͤlckern/ ein Liecht zu-<lb/>
+erleuchten die Heyden/ vñ zum Preiß deines Volcks Jſrael.<lb/>
+Sagt dann nicht der HErꝛ HErꝛ ſelber bey dem Propheten<note place="right">Ezech: 34.</note><lb/>
+Ezechiel im 34. Capitel/ gantz troͤſtlich? Jch will das verlohr-<lb/>
+ne wider ſuchen/ vnd das jrꝛende wider bringen/ vnd das ver-<lb/>
+wundete verbinden/ vnnd des Schwachen warten/ vnnd was<note place="right">Mar: 9.</note><lb/>
+fett vnd ſtarck iſt/ will ich behuͤten vnd jhr pfiegen wie recht iſt.<lb/>
+Darumb bittet vnd bekennet jener Vatter Marci im 9. demuͤ-<note place="right">Matth: 8.<lb/>
+Luc: <gap reason="illegible" unit="chars"/>.</note><lb/>
+tig vnnd mit Threnen/ Jch glaube HErꝛ/ aber kom̃ zuhilff<lb/>
+meinem vnglauben/ vnnd die Juͤnger des HErꝛn ſprechen<lb/>
+nicht nur Matthej im 8. HErꝛ hilff vns/ wir verderben/ ſon-<lb/>
+dern ſie betten auch vnd ſprechen an einem andern Ort zu dẽ<lb/>
+HErꝛn/ ſtercke vns den Glauben/ daher jhnen zu allen Thei-<lb/>
+len geholffen worden.</p><lb/>
+<p>Engſtiget vñ ſchrecket vns aber der breñende Zorn deß ge-<note place="right">Vnſer geiſt-<lb/>
+licher Artzt<lb/>
+hilfft vns wi-<lb/>
+der Gottes<lb/>
+Zorn/ den<lb/>
+Fluch des ge-<lb/>
+ſetzes/ vnnd<lb/>
+die Handt,<lb/>
+ſchrifft/ ſo<lb/>
+wider vns.</note><lb/>
+rechten Gottes wider die Suͤnde/ der Fluch deß Geſetzes don-<lb/>
+nert wider vns/ vñ ſchlegt vnſere ohne das Zaghaffte Hertzen<lb/>
+zu boden/ vnſer eigen Gewiſſen als die Handtſchrifft zeuͤget<lb/>
+wider vns/ wer kan vnnd will vns da helffen/ wer richtet vns<lb/>
+auff/ wer labet vnd erquicket vns? Sihe ich komme/ im Buch<lb/>
+iſt von mir geſchrieben/ deinen Willen mein Gott thue ich<lb/>
+gern/ vnd dein Geſetz habe ich in meinem Hertzen/ ich will pre-<note place="right">Pſalm: 40.</note><lb/>
+digen die Gerechtigkeit in der groſſen Gemeine/ ſihe ich will<lb/>
+mir meinen Mund nicht ſtopffen laſſen/ ſagte Chriſtus/ der<lb/>
+<fw type="sig" place="bottom">F</fw><lb/>
+<pb facs="#f0042" n="34"/>
+deß Geſetzes Erfuͤllung/ ſchon im 40. Pſalm deß heyligen<lb/>
+<note place="left">Philip: 2.</note>Koͤnigs vnnd Propheten Dauids/ dannenhero gibt jhm S.<lb/>
+Paulus das Zeugnus/ das er ſeinem Vatter ſey gehorſam<lb/>
+worden/ biß zum Todt/ ja biß zum Todt des Creutzes: Zum<lb/>
+Fluͤch ſeye Er worden/ auff das wir den Segen ererbeten/<lb/>
+<note place="left">Galat: 3.</note>vnd hat je Gott/ da die Zeit erfuͤllet war/ geſandt ſeinen Sohn<lb/>
+geboren von einem Weib (der heyligen hoch gelobten Jung-<lb/>
+<note place="left">Galat: 4.</note>frawen Maria) vnd vnder das Geſetz gethan: auff das er die<lb/>
+ſo vnder dem Geſetz waren erloͤſete/ vnnd das wir die Kindt-<lb/>
+<note place="left">Pſalm: 34.</note>ſchafft empfiengen. Nahe bey denen iſt der HErꝛ die zubro-<lb/>
+chens Hertzens ſind/ Er hilfft denen die zerſchlagen Gemuͤth<lb/>
+<note place="left">Jeſaj: 61.</note>haben: vnnd war je der geiſtliche Artzt Chriſtus geſandt/ die<lb/>
+<note place="left">Luc: 4. <hi rendition="#aq">v.</hi> 18.<lb/>
+19.</note>zerbrochene Hertzen zuuerbinden/ vnnd zuheylen die zerſtoſſe-<lb/>
+ne Hertzen: zupredigen den Gefangnen das ſie Loß ſein/ vnd<lb/>
+den Zuſchlagnen/ das ſie frey vnd loß ſein ſollen/ wie S. Lu-<lb/>
+cas nach dem Propheten Jeſaia ſchreibet.</p><lb/>
+<p><note place="left">Wider den<lb/>
+Teuffei/ ja<lb/>
+der Hoͤllen<lb/>
+Angſt hilffe<lb/>
+vns der All-<lb/>
+mechtige<lb/>
+Artzt Jeſus<lb/>
+Chriſtus.</note>Schieſſet endlich die Hoͤlliſche Schlang der leydige Sa-<lb/>
+tan wider vns eitel Seelen Gifft/ vnnd drucket mehr denn<lb/>
+Mordpfeil ab/ Er will vns nach dem zeitlichen dem ewigen<lb/>
+Todt vberantworten/ vnd mit vnaußloͤſchlicher Hellenglut<lb/>
+gleichſam abzwagen/ vnd quelen: wer hifft vns/ wer will vns<lb/>
+auß ſolcher not frey vnd ledig machen? Freylich hilfft vns al-<lb/>
+<note place="left">Geneſ: 3.<lb/>
+Geueſ: 12. 22</note>lein der HErꝛ der barmhertzige Heyland/ der gebentdeyete<lb/>
+Weibesſamen/ der Samen Abrah<hi rendition="#aq">æ/</hi> der der Schlangen dem<lb/>
+<note place="left">Hebr. 2.</note>Teuffel den Kopff zertretten vnnd in dem alle Geſchlecht der<lb/>
+Erden geſegnet werden ſollen: der hat durch den Todt die<lb/>
+macht genommen dem/ der des Todtes gewalt hatte/ das iſt<lb/>
+dem Teuffel: vnd erloͤſet die/ ſo durch Forcht des Todtes im<lb/>
+gantzen Leben Knechte ſein muͤßten/ wie die Epiſtel an die He-<lb/>
+<note place="left">2. Johan: 4.</note>breer am 2. redet. Der iſt in vns/ vñ groͤſſer deñ der in der Welt<lb/>
+iſt/ wie der heylige Euangeliſt vnnd Apoſtel Johannes in ſei-<lb/>
+ner 1. Epiſtel im 4. Capitel bezeuget: von jhm wiſſen vñ glau-<lb/>
+<note place="left"><supplied>1</supplied>. Joh: 3.</note>ben wir nicht nur/ dz er darzu erſchienen/ das er die Werck des<lb/>
+Teuffels zerſtoͤrete/ wie Johañes lehret/ ſondern er verſpricht<lb/>
+<fw type="catch" place="bottom">auch</fw><lb/>
+<pb facs="#f0043" n="35"/>
+auch Hoſe<hi rendition="#aq">æ</hi> im 13. ich will ſie auß der Hoͤllen erloͤſen vnnd<note place="right">Hoſ: 13.</note><lb/>
+vom Todt erꝛetten/ Todt ich will dir ein Gifft ſein/ Hoͤll ich<note place="right">Pſal: 116.</note><lb/>
+will dir ein Peſtilentz ſein/ vnnd wie er im 116. Pſalm mit der<lb/>
+Kirchẽ Gottes vñ derſelbigen Gliedern nicht verbergen will/<note place="right">Pſalm: 18.</note><lb/>
+Stricke deß Todes hatten mich vmbfangẽ/ angſt der Hoͤllen<lb/>
+hatten mich troffen/ jch kam in Jammer vnd Not: Es vmb-<lb/>
+fiengen mich des Todtes Bande/ vnd die Baͤche Belial er-<lb/>
+ſchreckten mich: Der Hoͤlle Bandt vmbfiengen mich vñ deß<lb/>
+Todtes ſtricke vberwaͤltiget mich/ klagt/ ja erkennet Er mit<lb/>
+dẽ lieben Dauid im 18. Pſalm: Alſo iſt der Him̃liſche Dauid/<lb/>
+Jeſus Chriſtus Gottes vñ Maria Sohn/ hinunder gefahren<note place="right">Epheſ: 4.</note><lb/>
+in die vnderſten oͤrter der Erden/ wie der Apoſtel/ oder wie vn-<lb/>
+ſer Chriſtliche Glaub redet/ abgeſtigen zur Hoͤllen/ damit er<note place="right">Roͤm: 8.</note><lb/>
+auß der Hoͤllen Angſt vns erloͤſete/ vnnd das nichts verdam-<lb/>
+lichs ſeye an allen die da ſind in Chriſto Jeſu: Ja das erfuͤllet<note place="right">Jeſaj. 25.<lb/>
+Hoſ: 13.<lb/>
+1. Cor: 15.</note><lb/>
+wuͤrde/ dz Wort das geſchrieben ſtehet/ der Tod iſt verſchlun-<lb/>
+gen in den Sieg/ Todt wo iſt dein Stachel/ Hoͤlle wo iſt dein<lb/>
+Sieg? aber der Stachel des Todes iſt die Suͤnde/ die Krafft<lb/>
+aber der Suͤnde iſt das Geſetz. Gott ſey danck/ der vns den<lb/>
+Sieg gibt durch vnſern HErꝛn Jeſum Chriſtum. Darumb<note place="right">Jeſaj: 25.</note><lb/>
+ſihe doch/ das iſt vnſer Gott auff den wir harꝛen/ der wird<lb/>
+vns helffen.</p><lb/>
+<p>Vnd gewißlich lieber Chriſt/ der dir alle deine Suͤnde ver-<note place="right">Das vnſer<lb/>
+Artzt/ vnſer<lb/>
+Gott vnnd<lb/>
+Heylãd geiſt<lb/>
+lich vnd leib-<lb/>
+lich helffe/<lb/>
+mehr Zeug-<lb/>
+nus.</note><lb/>
+gibt vnd heylet alle deine Gebrechen/ der dein Leben vom ver-<lb/>
+derbẽ erloͤſet/ der dich kroͤnet mit Gnad vnd Barmhertzigkeit.<lb/>
+Der deinen Mund froͤlich machet/ vnd du wider jung wirſt/<lb/>
+wie ein Adler: der Gerechtigkeit ſchaffet vnnd Gericht allen<lb/>
+die vnrecht leiden: der HErꝛ der bewahren vnnd beim Leben<note place="right">Pſalm: 41.</note><lb/>
+erhalten/ auff ſeinem Siechbeth erquicken will/ vnnd hilffet<lb/>
+von aller ſeiner Kranckheit/ dem/ der ſich des duͤrfftigen an-<lb/>
+nim̃et: der nahe iſt allen denen/ die jhn anruͤffen/ Er thut was<note place="right">Pſalm: 145.</note><lb/>
+die Gottfoͤrchtigen begehren vnd hoͤret jhr ſchreien/ vñ hilfft<lb/>
+jhnen: Der ſo troͤſtlich ſeiner Kirchen bey dem Propheten<note place="right">Jeſaj. 41.</note><lb/>
+Jeſaia im 41. Capitel zuſpricht/ foͤrchte dich nicht/ ich bin mit<lb/>
+<fw place="bottom" type="sig">F ij</fw><lb/>
+<pb facs="#f0044" n="36"/>
+dir/ weiche nicht/ denn ich bin dein Gott/ ich ſtercke dich/ ich<lb/>
+<note place="left">1 Sam: 10.<lb/>
+Matth: 11.</note>hilff dir auch/ ich erhalte dich durch die rechte Hand meiner<lb/>
+Gerechtigkeit: der nicht nur auß allem Vngluͤck vnd Truͤbſal<lb/>
+<note place="left">Epheſ: 3.</note>ſeinem Volck geholffen: ſondern auch Matthej am eilfften<lb/>
+zu ſich beruffet alle die muͤhſelig vnnd beladen ſind/ das er ſie<lb/>
+<note place="left">Pſalm: 74.</note>erquicke/ vnd jhnen ruhe ſchaffe fuͤr jhre Seelen: der beides v-<lb/>
+berſchwencklich thun kan vber alles dz wir bitten oď verſtehẽ/<lb/>
+<note place="left">Luc: 1. vnd 18<lb/>
+Matth. 19.<lb/>
+Mar: 10.</note>nach der Krafft die da in vns wuͤrcket: vnd dan auch alle hilffe<lb/>
+thut/ die auff Erden geſchicht: Ja dem kein ding vnmůglich<lb/>
+iſt/ dem moͤgen vnnd ſollen wir billich auff ſein warhafftiges<lb/>
+Wort/ vnd vielfaltig betheurete verheiſſung glauben vñ tra-<lb/>
+wen/ das er der einige rechte Artzet zu Seel vnnd zu Leib ſeye/<lb/>
+der helffen kůnde vñ woͤlle/ allẽ die in glaubigem vertrawen zu<lb/>
+jhm tretten: vngeachtet das die vndanckbare Welt auß Ver-<lb/>
+achtung vnd dem Vnglauben zu vnnd von jhm ſagen wolte/<lb/>
+Artzt hilff/ hilff Artzt/ aber dir ſelber/ gleich als ob er weder jhm<lb/>
+noch den ſeinigen/ will anderer geſchweigen/ an Leib vnnd an<lb/>
+Seel warhafftig helffen koͤndte.</p><lb/>
+<p><note place="left">Von Leibes<lb/>
+Kranckheit/<lb/>
+vnd gebrechẽ<lb/>
+warum̃ nicht<lb/>
+allen noch je-<lb/>
+den Patien-<lb/>
+ten in dieſem<lb/>
+Lebẽ geholf-<lb/>
+fen werde.</note>Ob nun wol daher vñ vber das alles/ ſo wir bißhero zu vn-<lb/>
+ſerer Lehre vnd hertzlichem Troſt in Leibs vnd der Seelen not<lb/>
+vnnd anligen betrachtet/ zugleich etwas zureden were von de-<lb/>
+nen <hi rendition="#fr">vrſachen/</hi> vmb dero willen nicht allen vñ jeden Menſchẽ/<lb/>
+von Leibes gebrechlichkeiten vnd Kranckheiten in dieſem Le-<lb/>
+ben geholffen wird/ vnnd das ſo gar nicht/ das auch fromme<lb/>
+vnd glaubreiche Leuth jhr euſſerliches vnd leibliches anligen<lb/>
+mit ſich vnder den Grund vnnd ins Grab nemmen muͤſſen:<lb/>
+oder das mann wol von einem ſonſten bewehrten vnd erfahr-<lb/>
+nen Artzt mit warheit ſagen moͤchte/ <hi rendition="#aq">Medice cura te ipſum,</hi><lb/>
+Artzt hilff dir ſelber: jedoch ſo iſt eins theils bey der Burger<lb/>
+vnnd Inwohner zu Nazareth Hiſtori vnnd Exempel offen-<lb/>
+bar worden/ das jhr vnglaub/ jhre Vnachtſamkeit vnd Vn-<lb/>
+<note place="left">Matth: 13.<lb/>
+Mar: 6.</note>danckbarkeit auch Chriſtum den allwiſſenden vund Allmaͤch-<lb/>
+tigen Artzet Leibs vnd der Seelen gehindert vnd bewegt/ das<lb/>
+er nicht ein einige that bey jhnen thun kůnden/ ohn allein das<lb/>
+<fw place="bottom" type="catch">er</fw><lb/>
+<pb facs="#f0045" n="37"/>
+er ettlich wenig Siechen die Hende auffgelegt vnd ſie gehey-<lb/>
+let: Andern theils hat der HErꝛ vnſer Gott ſonſten ſeine ſo<lb/>
+gnedige/ ſo gerechte vrſachen/ vmb dero willen er ſeine euſſer-<lb/>
+liche/ vnd Leibes hilff bißweilen hinderſich vnd auff helt auch<lb/>
+wol bey ſeinen glaubigen vnd liebſten Kindern/ deren Vatter<note place="right">2. Cor: 6.</note><lb/>
+er ſeyn/ vnd ſie ſeine Soͤhne vnd Toͤchter ſeyn ſollen/ ſpricht<lb/>
+der Allmaͤchtige HErꝛ: deren hertzliche Demut/ glaubiges<lb/>
+vertrawen vnd kindtliche zuuerſicht/ beſtendige hoffnung/ ei-<lb/>
+feriges vnd ernſtliches Gebett/ Chriſtliche gedult vnd ande-<lb/>
+re Tugenden der Gottſeligkeit er hiemit vben vnnd pruͤffen/<lb/>
+beides andern bekandt machen/ vnnd dann ſie ſelbs mit dem<lb/>
+auſſerwehlten Ruͤſtzeug des HErꝛn/ Vaͤtterlich vnd gnedig<note place="right">2. Cor: 12.</note><lb/>
+erinnern will/ ſie ſollen jhnen an ſeiner gnaden genuͤgen laſ-<lb/>
+ſen/ dann ſeine Krafft ſeye in den ſchwachen maͤchtig: So<lb/>
+ſeye er ein ſolcher getrewer Gott/ der euch nicht laſſet verſu-<note place="right">1. Cor: 10.</note><lb/>
+chen/ vber ewer vermoͤgen/ ſondern machet das die verſuchung<lb/>
+ſo ein end gewinne/ das jhrs koͤndt ertragen: der nemlich Je-<lb/>
+ſus Chriſtus woͤlle vnnd werde ſie nicht deſto weniger veſt be-<lb/>
+halten biß ans end. Vnd wie denen die Gottlieben/ alle ding<note place="right">1. Cor: 1.</note><lb/>
+muͤſſen zum beſten dienẽ/ alſo ſeye dieſer zeit leiden nicht werth<note place="right">Roͤm: 3.</note><lb/>
+der herꝛligkeit/ die an glaubigen Kindern Gottes ſolle geof-<lb/>
+fenbaret werden. Bißweilen iſt die ſchuld nicht ſo ſehr des Ar-<note place="right">Die Schuld<lb/>
+iſt nicht all-<lb/>
+wegen des<lb/>
+Artzts/ noch<lb/>
+der Artzney<lb/>
+zu zuiegẽ/ dz<lb/>
+es nicht hilfft</note><lb/>
+tes/ der der Kunſt der Artzney erfahrn/ als der Patienten oder<lb/>
+Krancken ſelber/ die entweder mit der Artzney den Artzt vnnd<lb/>
+ſeinen trewen Rath verachten vnd verwerffen/ oder einem je-<lb/>
+den <hi rendition="#aq">Pſeudomedico</hi> vnd vnerfahrnen Schreier ſich vertra-<lb/>
+wen/ der jhnen <hi rendition="#aq">quid pro quo</hi> giebet/ vnd einſchiebet: oder die<lb/>
+mit Aſſa dẽ ſonſten frommenKoͤnig in Juda/ in jhrer Kranck-<note place="right">2. Chronic: 16.</note><lb/>
+heit nicht den HErꝛn ſuchen/ ſondern die Ertzte/ dauon im 2.<note place="right">2. Reg: 1.</note><lb/>
+Buch der Chronic im 16. zuleſen: wa nit gar mit Ahaſia dem<lb/>
+Koͤnig in Jſrael/ gen Ekron ſchicken/ vnnd bey (weiß ſchier<lb/>
+nicht was fuͤr einem Abgott) fragen laſſen/ ob ſie widerumb<lb/>
+auffkom̃en vnd geſund werden/ von jhrer Kranckheit/ gleich<lb/>
+als ob kein Gott in Jſrael were/ darumb er auch von ſeinem<lb/>
+<fw type="sig" place="bottom">F iij</fw><lb/>
+<pb facs="#f0046" n="38"/>
+Bette/ dahin er ſich gelegt hatte/ nicht kommen/ ſondern des<lb/>
+Todes ſterben ſolte/ Jnmaſſen der HErꝛ durch den Prophe-<lb/>
+ten Eliam im 2 Buch der Koͤnige im 1. Capitel/ jhm ernſtlich<lb/>
+eroͤffnen vnd fuͤrtragen laſſen Vñ was dergleichen mehr vr-<lb/>
+ſachen ſein moͤgen/ vmb deren willen nicht allen vnnd jeden<lb/>
+Menſchen/ von Leibes Kranckheit widerumb geholffen wird.</p><lb/>
+<p><note place="left">Zum Sprich<lb/>
+wort wo nit<lb/>
+gar zurfabel/<lb/>
+muͤſſen etwã<lb/>
+auch fromme<lb/>
+vnd fuͤrnem-<lb/>
+me Leute fuͤr<lb/>
+der Welt<lb/>
+werden: ſo<lb/>
+wolt als vn-<lb/>
+ſer einiger<lb/>
+Artzt Chri-<lb/>
+ſtus ſeiber<lb/>
+zum Sprich-<lb/>
+wort worden<lb/>
+iſt.</note>Derowegen ſeye vns nunmehr gnug/ das wir dieſes eini-<lb/>
+gen noch bey vnſerm bewehrten/ vom HErꝛn ſelber geſende-<lb/>
+ten/ vnnd mit dem H. Geiſt vor ſeinen Geſellen geſalbeten<lb/>
+Artzt/ wie auch dem Sprichwort/ ſo wider jhn zum ſpott vnd<lb/>
+verachtung geſtellet/ erinnern/ nemlich das wir vns nicht all<lb/>
+zu ſehr verwundern/ noch beſchwaͤren/ viel weniger aber hoch<lb/>
+betruͤben/ wann die Welt vñ derſelbigen Jnwohner in Staͤt-<lb/>
+ten/ oder auff dem Lande gleich als ein Sprichwort/ auch auß<lb/>
+hohen vnd anſehenlichen/ vmb Statt vnd Land wol verdien-<lb/>
+ten Perſonen machen. Dann es muß je Chriſtus Jeſus vn-<lb/>
+ſer getrewe Hoheprieſter vñ Haupt <hi rendition="#aq">Medicus,</hi> nicht nur in der<lb/>
+Statt Nazareth/ da er ſich ein vñ dargeſtellet/ vñ mit holdſeli-<lb/>
+<note place="left">Luc: 4.</note>gen Worten hoͤren laſſen/ das Sprichwort haben/ vnd mit<lb/>
+jhm hinnemmen/ Artzt hilff dir ſelber: ſondern muß auch her-<lb/>
+nach am Stamme des Creutzes in ſeiner hoͤchſten Marter vñ<lb/>
+<note place="left">Matth: 27.<lb/>
+Mar: 15.<lb/>
+Luc: 23.</note>vnaußſprechlichẽ ſchmertzen hoͤren/ Er hat andern geholffen<lb/>
+vnd kan jhm ſelber nicht helffen/ iſt Er Chriſt der auſſerwehl-<lb/>
+te Gottes/ iſt Er Chriſtus der Sohn des Hochgelobten/ iſt er<lb/>
+der Koͤnig Jſrael/ ſo ſteige er nun vom Creutz herab vñ helffe<lb/>
+jhm ſelber/ ſo woͤllen wir an jhn glauben/ vnd was dergleichen<lb/>
+mehr die Hiſtori des Paſſions weitleuffiger zeuget. Nicht<lb/>
+der fromme Joſeph allein muß erfahren vnd innen werden/ dz<lb/>
+<note place="left">Geneſ: 37.<lb/>
+Job: 17.<lb/>
+Job: 30.</note>ſeine zehen Bruͤder vnder einander ſagen: ſehet der Traͤumer<lb/>
+kompt daher<hi rendition="#i">:</hi> ſondern auch der hiebeuor geduldige Job kla-<lb/>
+get nun mehr nicht ohne Menſchliche vngedult in ſeinem<lb/>
+Buͤchlin im 17. Capitel/ der HErꝛ habe jhn zum Sprichwort<lb/>
+vnder den Leuthen geſetzt/ Er muͤſſe ein Wunder ſein vnder<lb/>
+jhnen. Vnd im 30. Capitel beklaget Er ſich beneben anderm<lb/>
+<fw place="bottom" type="catch">vnglůck</fw><lb/>
+<pb facs="#f0047" n="39"/>
+vngluͤck/ auch deſſen/ das er loſer vñ verachter Leuth Kindern<note place="right">Getter<lb/>
+gegen Gott<lb/>
+vnnd ſeinem<lb/>
+H. wort.<lb/>
+Denter. 28.<lb/>
+1. Reg: 9.</note><lb/>
+ein Seitenſpiel vnd jhr Maͤrlin ſein muͤſſe: vnd das mehr iſt/<lb/>
+ſo hat der Gerechte allein weiſe Gott ſelber in ſeinem Geſetz<lb/>
+vnd im 5. Buch Moſe am 28. Capitel ſich hoͤren vnd vernem-<lb/>
+men laſſen/ das ſein eigẽ Volck zum Schewſal zum Sprich-<lb/>
+wort/ vñ zum Spott oder zur Fabel werden ſolle vnder allen<lb/>
+Voͤlckern/ weñ es dem HErn ſeinem Gott vngehorſam wer-<lb/>
+de/ vnd jhn verlaſſe/ dagegen andern Goͤttern diene/ welches<lb/>
+der HErꝛ nach geſchehener einweihung des Tempels zu Je-<note place="right">Warumb<lb/>
+Chriſtus der-<lb/>
+gliſchen ge-<lb/>
+litten vnd wo<lb/>
+wir vns da-<lb/>
+bey zuerin-<lb/>
+nern/ da er<lb/>
+jhm ſeiber<lb/>
+gleichſamnte<lb/>
+helffen woͤl-<lb/>
+len.</note><lb/>
+ruſalem im erſten Buch der Koͤnige im 9. Capitel erholet/ da-<lb/>
+her werden rechtglaubige Chriſten in dergleichen Faͤllen ſo<lb/>
+ſehr ſich nicht bekuͤm̃ rn/ als vielmehr erinnern/ Chriſtus jhr<lb/>
+getrewer Heyland/ HErꝛ vñ Haupt/ ſeye ſelber zum Sprich-<lb/>
+wort worden/ vnnd habe wohl anders vnnd mehrers vber ſich<lb/>
+außgehen laſſen/ noch jhm ſelber helffen woͤllen/ damit er vns<lb/>
+Menſchen wie von dem Fluch vñ der vermaledeiung des Ge-<lb/>
+ſetzes/ Alſo auch von dem Hoͤlliſchen Geſpoͤtt erloͤſete/ wel-<lb/>
+ches die verfluchte/ die boͤſe Geiſter in alle Ewigkeit mit vns<note place="right">1. Petr. 5.<lb/>
+Mattb: 10<lb/>
+Mar: 10.<lb/>
+Luc: 18.</note><lb/>
+wuͤrden treiben/ wenn nicht der Vnſchuldige fuͤr die Schul-<lb/>
+dige/ vnd der Gerechte fuͤr die Vngerechte gelitten vnnd ver-<lb/>
+ſpottet/ geſchmehet vnnd verſpeiet/ ja gegeyſelt vnnd getoͤdtet<lb/>
+worden Wir ſollen nit nur gedencken die Welt kuͤnde jhr ge-<lb/>
+ſpoͤtt nicht laſſen/ Art laſſe von Art nicht: wir kuͤnden es auch<lb/>
+nicht allein ſelber verurſachen vnnd verdienen/ wa nicht eben<lb/>
+an den Menſchen/ doch bey dem HErꝛn vnſerm Gott/ von<lb/>
+dem wir nicht allwegen/ noch in allen vnd jeden Staͤnden/ in<lb/>
+allen vnd jeden Stucken vnſers Beruffs vñ Chriſtenthumbs<lb/>
+gedencken/ reden vnd halten/ wie ſichs wohl gebuͤret/ vnd ſein<lb/>
+Wort außweiſet: ſondern das vns auch Chriſtus ein Fuͤr-<note place="right">1. Petr. 9.</note><lb/>
+bild hinderlaſſen/ dz wir ſollen nachfolgen ſeinẽ Fußſtapffen/<lb/>
+welcher keine Suͤnd gethan hat/ iſt auch kein Betrug in ſei-<lb/>
+nem Mund erfundẽ/ welcher nicht wider ſchalt/ da er geſchol-<lb/>
+ten ward/ nit draͤwet da er lidte: Er ſtellet es aber dẽ heim/ der<lb/>
+da recht richtet: der woͤlle vñ werde auch endlich alleſchmach<lb/>
+<fw place="bottom" type="catch">vnd</fw><lb/>
+<pb facs="#f0048" n="40"/>
+vnd nachreden der Welt Kinder den glaubigen in ewige ehre<lb/>
+<note place="left">Sapient: 5.</note>vnd herꝛligkeit verwandlen/ da jene der mahl eines grauſam<lb/>
+erſchroͤcken werden/ fuͤr ſolcher Seeligkeit der Gerechten/ de-<lb/>
+ren ſie ſich nicht verſehen hetten/ vnnd vnder einander reden<lb/>
+mit rewe/ vñ fuͤr angſt des Geiſtes ſeufftzen/ dz iſt der/ welchen<lb/>
+wir etwann fuͤr ein Spott hatten/ vnnd fuͤr ein hoͤniſch Bei-<lb/>
+ſpiel/ wir Narꝛen hielten ſein Leben fuͤr vnſinnig vnd ſein en-<lb/>
+de fuͤr ein ſchand: Wie iſt er nun gezelet vnder die Kinder<lb/>
+Gottes/ vnd ſein Erb iſt vnder den Heyligen? dann alſo re-<lb/>
+det das Buch der Weißheit im 5. Capitel.</p><lb/>
+<p><note place="left">Der ged<choice><sic>n</sic><corr>u</corr></choice>it<lb/>
+liebe vnd hof<lb/>
+nung endtli-<lb/>
+cher Erloͤ-<lb/>
+ſung ſolte<lb/>
+mann ſich be-<lb/>
+fleiſſen/ weñ<lb/>
+mann zum<lb/>
+Sprichwortt<lb/>
+wird vnder<lb/>
+den Leuthen.</note>Vnnd wolte Gott im hohen Himmel/ das wir in betrach-<lb/>
+tung ſolcher vnd mehrer vrſachen/ vmb deren willen der einge-<lb/>
+borne Sohn Gottes/ der die ewige Weißheit des Vatters/<lb/>
+der Glantz ſeiner Herꝛligkeit vnnd das Ebenbild ſeines We-<lb/>
+ſens/ in angenommener ſeiner heyligen Menſchheit/ allerley<lb/>
+Schmach vnd Nachreden/ wider ſich außgehen laſſen/ vnd in<lb/>
+ſeiner Knechts Geſtalt ſich anderſt nicht erzeiget/ denn als ob<lb/>
+<note place="left">Luc: 21.</note>er jhm ſelber nicht helffen kuͤnden/ vnſere Seelen mit gedult<lb/>
+faſſen lerneten/ vnd vns ſo gar mit Chriſto dem HErꝛn nicht<lb/>
+auffbringẽ/ noch entruͤſten lieſſen/ wañ die Welt ein Sprich-<lb/>
+wort von vns machen/ oder zu vns ſagen will/ das wir viel-<lb/>
+mehr vns mit ſanfftmuͤtigem Geiſt vnd ſchuldigen gehorſam<lb/>
+<note place="left">Matth: 5.</note>eriñerten/ wz Er vns geſagt Matth: im 5. liebet ewere Fein-<lb/>
+de/ ſegnet die euch fluchen/ thut wol denen die euch haſſen/ bit-<lb/>
+tet fuͤr die/ die euch beleydigen vñ verfolgen/ auff das jhr Kin-<lb/>
+der ſeid ewers Vatters im Himmel: Vnd das der Apoſtel an<lb/>
+<note place="left">Roͤm: 12.</note>die Roͤmer im 12. Capitel geſchrieben/ laß dich das boͤſe nicht<lb/>
+vberwinden: ſonder vberwinde das boͤſe mit gutem. Gewiß-<lb/>
+lich vñ eigentlich wuͤrden wir wie manchen mißverſtandts/<lb/>
+manchen Streits vnnd Vnwillens vberhebt vnnd entladen<lb/>
+ſeyn/ alſo im Werck vñ der That ſelber deſto mehr ſpuͤren/ vñ<lb/>
+bekennen muͤſſen/ das vns an gnediger hilff des HErꝛn vn-<lb/>
+ſers Him̃liſchen Artztes ſo gar nit manglen werde/ das er viel<lb/>
+<note place="left">2. Petr. 2.</note>mehr wuͤſſe die Gottſeligen auß der verſuchung zuerloͤſen/ vñ<lb/>
+<fw place="bottom" type="catch">alles</fw><lb/>
+<pb facs="#f0049" n="41"/>
+alles deſſen im ſchawen vñ der That ſelber theilhafftig zuma-<lb/>
+chen/ ſo ſie allhie im glauben/ vnd der hoffnung/ die nicht laſ-<note place="right">2. Cor:<gap reason="illegible" unit="chars"/> .</note><lb/>
+ſet zuſchanden werden/ erwarten/ da dann auch niemand jhre<note place="right">Roͤm: 5.</note><lb/>
+frewde wird von jhnen nemmen/ deſſen der HErꝛ vnſer Er-<note place="right">Johann: 16</note><lb/>
+loͤſer ſeine glaubige Juͤnger wider alle trawrigkeit vñ der ar-<lb/>
+gen Welt verachtung/ Johannis am 6. Capitel troͤſtlich ver-<lb/>
+ſichert/ Seid getroſt/ ich habe die Welt vberwunden.</p><lb/>
+<p><hi rendition="#fr">Wolan/</hi> meine liebſten/ wir haben bißhero/ vnd bey Er-<lb/>
+klaͤrung abgehoͤrter/ zwar kurtzen/ aber denckwuͤrdiger/ Lehr<lb/>
+vñ troſtreichen Wort/ vns auffgehalten/ welche der H. Geiſt<lb/>
+der Euangeliſchen Hiſtori einverleibet/ vnnd die auß dem<lb/>
+Mund deſſen abgangen/ der alle ding weiß/ der auch nicht al-<lb/>
+lein fuͤr dem vnglauben/ der vnbeſtendigkeit/ vñ alle dem trew-<lb/>
+lich gewarnet/ das der Menſchen Heyl/ zeitliche vnnd ewige<lb/>
+wolfahrt verhindert: ſondern der auch als den bewerten Ar-<lb/>
+tzet Leibs vnud der Seelen ſich ſelber dargeſtellet/ der allein<lb/>
+len allen Schaden wenden/ der helffen vnd heylen kan/ wann<lb/>
+mann nur in warem vertrawen zu jhm kommet/ auch gedult<lb/>
+vnd ſanfftmut von jhm lernet.</p></div></div><lb/>
+<div type="fsPersonalia" n="2"><head/>  <p><hi rendition="#fr"><hi rendition="#in">N</hi>Vn mehr/</hi> vñ ehe wir aller dings endẽ vñ beſchlieſſen/<note place="right">Von Wey-<lb/>
+lund Herrn<lb/>
+<hi rendition="#aq">Doctorisle-<lb/>
+hannis Bau-<lb/>
+hini</hi> endlichẽ<lb/>
+abſchied/ vnd<lb/>
+wz nechſt vor<lb/>
+her gangen/<lb/>
+kurtze reia-<lb/>
+tion.</note><lb/>
+erfordert gleichſam vñ mahnet beneben eingefuͤrtẽ vr-<lb/>
+ſachẽ des weiſen Lehrers Syrachs/ ď Kirchẽ Gottes loͤblicher<lb/>
+Brauch vnd gewonheit/ das wir dem Leibe nach abgeſtorbe-<lb/>
+nen vnnd in Gott verſchiedenen: der Seelen nach aber bey<lb/>
+Chriſto vnſerm einigen Seelen Artzt lebendẽ Herꝛn <hi rendition="#aq">Docto-<lb/>
+ris Bauhinj</hi> in ehren weiter gedencken. Dañ jhn ja der HErꝛ<lb/>
+der Hoͤheſte nicht allein erſchaffen/ vñ mit der Edlẽ Kunſt vñ<lb/>
+gabe der Artzney/ die vom Hoͤheſten kommet/ vor andern ge-<lb/>
+zieret/ vnd alſo gezieret/ das jhn auch hohe Potentaten gethret<lb/>
+vñ geliebet: er hat jhn auch nicht nur als ſein geſchoͤpff/ vñ ſei-<lb/>
+ner Hende werck in Chriſto/ der ein Heyland aller Menſchẽ/<lb/>
+ſonderlich aber der Glaubigen iſt/ geliebet vñ erloͤſet: ſondern<lb/>
+auch durch das Waſſer vnd H. Geiſt von newen geboren/ vnd<lb/>
+<fw place="bottom" type="sig">G</fw><lb/>
+<pb facs="#f0050" n="42"/>
+in ſeinen GnadenBund im H. Tauff/ auff vnd angenom̃en/<lb/>
+welcher da iſt der Bund des guten Gewiſſens mit Gott dem<lb/>
+HErꝛn: nachdem er im Jahr nach der ſeligen Geburt vnnd<lb/>
+Menſchwerdung Chriſtj Jeſu vnſers einigen Erloͤſers vnd<lb/>
+Seligmachers <hi rendition="#g">1541.</hi> in der loͤblichen Statt Baſel das<lb/>
+Liecht dieſer Welt angeſchawet/ vnnd wie ehelichen/ alſo von<lb/>
+Weylund/ dẽ Ehrnveſten vnd Hochgelehrtẽ Herꝛn Doctore<lb/>
+Johañ Bauhin/ daſelbſtẽ <hi rendition="#aq">Medico</hi> vnd Profeſſore/ gezeuget.</p><lb/>
+<p>Es haben ſich aber ſeines <hi rendition="#aq">ingenij</hi> fuͤrtreffliche vnd herꝛli-<lb/>
+che Gaben bald/ vnd je mehr vnd mehr erzeiget vnnd ſehen laſ-<lb/>
+ſen/ in dẽ ď Herꝛ ſeliger/ eine ſolche erkandtnus vnderſchiedli-<lb/>
+cher Sprachen/ guter vnd der freyen Kuͤnſten/ aller meiſt auch<lb/>
+der Edlen vnd hochberuͤmbtẽ/ in aller Welt nunlichen vñ ſehr<lb/>
+nothwendigen <hi rendition="#aq">Medicin,</hi> oder der Artzney bekommen/ das er<lb/>
+nicht nur <hi rendition="#aq">ſummum gradum</hi> vnd den Ehrentitul erlanget/ dz<lb/>
+er der Artzney Doctor genennet: ſondern auch in vnſers Gn.<lb/>
+Landsfuͤrſten vñ Herꝛn/ Hochſeliger Gedaͤchtnus/ Dienſte/<lb/>
+vnd zu einem Leib Artzt/ eben im Dreiſſigſten/ vnd dem Jahr<lb/>
+ſeines Alters/ darin vnſer Seelen Artzet Chriſtus ſein Ampt<lb/>
+offentlich angetretten/ gnedig verordnet/ auff vnd angenom-<lb/>
+men worden: dabey er in die 41. Jahr/ vnd von Anno 1571.<lb/>
+biß in ab vnd zu ende lauffendes Jahr/ ja biß zu ſeinem endli-<lb/>
+chen vnd letzten Abſchied geblieben: Vnder deß auch vnd in<lb/>
+mittelſt Einheimiſchen vnd Außlendiſchen/ Hohen vnd Ni-<lb/>
+dern Standes Perſonen/ Edlen vnnd Vnedlen/ Armen ſo<lb/>
+wohl/ als den Reichen ſich durch ſeine heylſame Kunſt/ vnd<lb/>
+langwuͤrige Erfahrung dermaſſen bekant gemacht/ das er<lb/>
+von jhnen geehret/ vnnd groß geachtet worden: dauon eins<lb/>
+theils in Truck außgangne vnd biß daher fuͤrgenom̃ene/ wo<lb/>
+nicht allerdings zu ende gefuͤhrte Schrifften Zeugen/ vnnd<lb/>
+zeugen moͤchten.</p><lb/>
+<p>Wann dann ſchon jemand von jhme/ nun mehr ſelig ru-<lb/>
+henden Herꝛn/ ſagen woͤllen/ oder geſagt hette/ was der HErꝛ<lb/>
+vnſer Heyland zu den Jnwohnern vnd ſeinẽ Zuhoͤrern in der<lb/>
+<fw place="bottom" type="catch">Statt</fw><lb/>
+<pb facs="#f0051" n="43"/>
+Statt Nazareth ſpricht dz ſie es zu jm ſagẽ werdẽ/ Artzt hilff<lb/>
+dir ſelber: dieweil der Gerechte/ allein weiſe Gott jhn mit vñ<lb/>
+vor andern mit beſondern vñ mercklichẽ Schmertzen/ daruͤber<lb/>
+er gleichſam gewinßlet wie ein Krãch vñ Schwalbe vñ gegir-<lb/>
+ꝛet/ wie eine Taube/ ja etwañ ſchmertzlich wehklagen muͤſſen/<lb/>
+mehr vñ offtmaln heimgeſuchet/ vñ in andere viel wege erfah-<lb/>
+ren laſſen/ das auch der Gerechte viel/ viel leiden muͤſſe: ſo iſt<lb/>
+doch auff diß mal gnug/ vnd als ein hohes gnadenwerck Got-<lb/>
+tes in acht zunemmen/ das er nicht deſto weniger vber ſiben-<lb/>
+tzig Jahr kommen/ vnd in ſolchen gnaden angeſehen worden/<lb/>
+dahin nicht alle gelangen kuͤnden/ wiewohl ſie auch zu dienen<lb/>
+vermeinen: Ja das Gott ſein Troſt vnnd vnſer Haupt <hi rendition="#aq">Me-<lb/>
+dicus</hi> ſeine huͤffe geblieben.</p><lb/>
+<p>Von deſſen ſeligmachender Erkantnus/ vnd vnſers lieben<lb/>
+Doctoris Confeſſion oder glaubens Bekantnus/ will mann<lb/>
+auff dis mahl mehr nicht reden/ dann das derſelbige Gottes<lb/>
+H. Wort/ vnd wie es vnder vns verkuͤndiget iſt/ in der Teut-<lb/>
+ſchen Kirchen dieſe Jahr hero/ vnd in ſeinem Alter/ auch bey<lb/>
+ſo beſchwerlichen Leibs Zuſtenden/ dennoch beides am Son-<lb/>
+tag/ vnd dann gleiches falls in der Wochen anhoͤren woͤllen/<lb/>
+vnd beſuchet: darzu das heylige hochwuͤrdige Abendmal vn-<lb/>
+ſers HErꝛn vnd Heylands Jeſu Chriſtj/ darin er vns mit dẽ<lb/>
+geſegneten Brod ſeinen waren Leib zueſſen/ vnd mit dem ge-<lb/>
+ſegneten Kelch ſein wares Blut zutrincken gegeben/ zur auff-<lb/>
+enthaltung ins ewige Leben/ mit gebuͤrender Reuerentz vnnd<lb/>
+der Ehrerbietung/ noch vor etlich wenig Wochen empfangen<lb/>
+hat/ die von innerlicher Ehrerbietung des Hertzens vnnd des<lb/>
+Glaubens gezeuget der offentlich/ vnnd an ſeinem Ort ſich<lb/>
+nicht allerdings verbirget. Wie dann nicht weniger der Herꝛ<lb/>
+ſeliger/ der Religion halber ſo ſtill vnnd friedliebend dieſe zeit<lb/>
+hero ſich erwieſen/ das er es andern weit vor gethan/ die in der<lb/>
+gleichen loͤbliche Fußſtapffen tretten kunden/ wenn ſie Gott<lb/>
+dem HErꝛn gefelligen Friedens/ vnnd der einigkeit des Gei-<lb/>
+ſtes warhaffeig begierig geweſen.</p><lb/>
+<fw place="bottom" type="sig">G ij</fw><lb/>
+<pb facs="#f0052" n="44"/>
+<p>Dieweil aber dem Menſchen einmal auffgeſetzt iſt zu ſter<lb/>
+ben/ darnach das Gericht: auch den Gelehrten nicht hilfft<lb/>
+ſein Kunſt/ der Weltlich Pracht iſt gar vmb ſonſt/ wir muͤſ-<lb/>
+ſen alle ſterben: ſo hat in außgeſtandener letzten Kranckheit/<lb/>
+die doch nicht lang geweret/ der Herꝛ Doctor nechſt vergang-<lb/>
+nen Sontag des gemeinen Gebetts in offentlicher Verſam-<lb/>
+lung begeret/ oder es iſt von ſeinet wegen begert worden: dabe-<lb/>
+neben als er nach Mittag vnnd gegen Abend Ampts halber<lb/>
+beſucht/ ſich Chriſtlich/ vnd bey gutem Verſtand/ gern vnnd<lb/>
+dergeſtalt erſprachet/ das zuuorderſt ſeine ſelbſt eigne demuͤti-<lb/>
+ge Erkantnus vñ Bekantnus dieſe geweſen/ Gott der HErꝛ<lb/>
+habe auch jhn mehrmahlen heimgeſuchet vnnd gezuͤchtiget/<lb/>
+welches wir dann wohl/ vnd mehr denn wohl verdienen kun-<lb/>
+den: er habe jhm auch gnaͤdiglich jeder zeit geholffen/ vnd ſich<lb/>
+als einen getrewen Gott gegen jhm erwieſen/ der niemand<lb/>
+verſuche vber vermoͤgen/ ſondern ein ſolchen Außgang ver-<lb/>
+ſchaffe an der verſuchung/ das wir es ertragen kunden/ den<lb/>
+bitte er von Hertzen/ vnd feiner/ er woͤlle jhn Leibs halber da-<lb/>
+hin nicht kommen laſſen/ das er <hi rendition="#aq">hominibus grauis,</hi> vnnd <hi rendition="#aq">ter-<lb/>
+ræ inutile pondus</hi> werde/ inmaſſen es mit einem vnnd dem<lb/>
+andern Leibs halber ſo fern gerahten: dẽ Verſtand aber woͤl-<lb/>
+le er jhm richtig vnd alſo bewahren/ das er in keine Thorheit<lb/>
+gerathe/ noch etwas rede oder begehe/ deſſen jhn gerewẽ kund-<lb/>
+te/ oder das dem HErꝛn vnſerm Gottentgegen vnd zuwider<lb/>
+were.</p><lb/>
+<p>Als er aber hierauff erinnert/ das auch der Todt ſelber vns<lb/>
+nicht abſcheiden kunde von der liebe Gottes die da iſt in Chri-<lb/>
+ſto Jeſu vnſerm Heyland/ an den wir glauben/ daher viel we-<lb/>
+niger einigeSchwachheit/ oder Bloͤdigkeit auch des Ver-<lb/>
+ſtands dergleichen etwas vermoͤge/ ja Gott der heylige Geiſt<lb/>
+der in vns wohne/ als in ſeinem einigen Tempel/ der helffe<lb/>
+auff vnſerer Schwachheit/ er verſpreche vns gewaltiglich/<lb/>
+mit vnaußſprechlichen Senfftzen: vnd muͤſſen doch alle ding<lb/>
+denen die Gott lieben zum beſten dienen/ der woͤlle vnd werde<lb/>
+<fw place="bottom" type="catch">das</fw><lb/>
+<pb facs="#f0053" n="45"/>
+das gute Werck/ ſo er in vns angefangen hat/ vollenfuͤhren<lb/>
+biß auff den Tag vnſerer endlichen Erloͤſung/ ſagte der Herꝛ<lb/>
+ſeliger weiter/ Es were jhm allerding nichts angelegen/ ohn<lb/>
+allein das der jenige/ den er ſeinen Sohn genennet/ vnnd er-<lb/>
+nennet/ nur folge/ das er ſich recht vnd wohl ſchicke/ vnd ſeine<lb/>
+<hi rendition="#aq">ſtudia</hi> der geſtalt continuiere/ das er dermahl eines/ Gott vnd<lb/>
+den Menſchen dienen kuͤnde/ dabey dann nachmaln andere<lb/>
+vnd die ſo er deßwegen ſchon allbereit erſucht vnd gebetten/ dz<lb/>
+jhre thun/ vnnd im H. Tauff angefangne ernewerung nechſt<lb/>
+Gott dem HErꝛn/ werden erhalten vnd befuͤrdern helffen.</p><lb/>
+<p>Anderer/ vnd ſo wol mittelmeſſigen Alters/ als allermeiſt<lb/>
+ettlicher zim̃lich betagter Perſonen in der Statt/ vnd auſſer-<lb/>
+halb/ ward gleicher geſtalt im beſten vñ zu dem ende gedacht/<lb/>
+das ſich der Herꝛ Doctor beides Menſchlicher Sterbligkeit/<lb/>
+vnd vnſers Lebens hinfelligkeit erinnert/ vñ dan Goͤttlichen<lb/>
+Beiſtandes/ vnd gnediger hilff ſeines einigen Seelen Artzets<lb/>
+Chriſti getroͤſtete/ der jhn vber ſeiner Schrifftlichen Arbeit/<lb/>
+daran er doch wiewol in obligendem ſeinem Alter/ ſeinẽ Luſt/<lb/>
+vnd frewde habe/ mit einẽ kleinen Froſt angegriffen/ vñ Laͤ-<lb/>
+gerhafft werden laſſen: dem ergebe/ vñ vertrawe er ſich gaͤntz-<lb/>
+lich: in betrachtung wir leben/ oder wir ſterben/ ſo ſeyen wir<lb/>
+des HErꝛn/ der ſelber darzu auch geſtorben/ vnud aufferſtan-<lb/>
+den vnnd wider lebendig worden/ das er vber Todte vnnd Le-<lb/>
+bendige HErꝛ ſeye. Nachdem nun dieſes jnhalts Chriſtliches<lb/>
+Geſprech gegen der Nacht geendet/ wie es dann der Herꝛ ſel-<lb/>
+ber eher nicht begehrte zuenden/ ob er wohl zuuor deſſen erin-<lb/>
+nert worden/ damit an ordentlicher Wartung des Leibes de-<lb/>
+ſto weniger abgienge: ſetzeten folgendẽ Tag die Schwachhei-<lb/>
+ten etwas ſtercker an/ alſo das es vmb den Mittag das anſe-<lb/>
+hen gewoñen/ Er wůrde bald den Weg alles Fleiſches gehen/<lb/>
+vnd dieſe jrꝛdiſche Huͤtten ablegen/ Daher er nicht allein/ als<lb/>
+der Natur/ vnnd Menſchlichen Leibs wohl erfahrner/ da-<lb/>
+mahlen erinneret/ die kleine Welt/ <hi rendition="#aq">paruus hic mundus,</hi> wie<lb/>
+ſie den Menſchen zunennen pflegen/ můſſe endlich corꝛui-<lb/>
+<fw place="bottom" type="sig">G iij</fw><lb/>
+<pb facs="#f0054" n="46"/>
+ren/ vnd der Leib zu Staub vnd Aſchen werden: die Seel a-<lb/>
+ber vnd des Menſchen Geiſt wider zu Gott kommen/ der jhn<lb/>
+gegeben/ vnnd in ſeine Allmaͤchtige/ gnedige Hand auff vnd<lb/>
+annemmen/ auch wohl als eine theure beylag bewahren wer-<lb/>
+de: ſondern er ward allermeiſt auff den gewieſen/ der vnſern<lb/>
+ſterblichen Leib/ das jrꝛdiſche Hauß dieſer Huͤtten/ wenn ſie<lb/>
+nun zubrochen/ widerumb an ſeinem groſſen vnd offenbarli-<lb/>
+chen Tag auffrichten/ vnnd vnſern nichtigen Leib verkleren<lb/>
+werde/ das er aͤhnlich ſeye ſeinem Clarificirten Leib nach der<lb/>
+Krafft/ damit er jhm kan alleding vnderthan machen: der ha-<lb/>
+be ſelber geſagt/ Jch bin die aufferſtehung vnd das leben/ wer<lb/>
+an mich glaubet/ der wird leben/ ob er gleich ſturbe/ vnnd wer<lb/>
+da lebet/ vnd glaubt an mich/ der wird nimmermehr ſterben/<lb/>
+vñ wz andere mehr Zeugnuſſen heyliger Schrifft zum Troſt<lb/>
+vnd beſtendiger Hertzſterckung/ nach gelegenheit der zu vnnd<lb/>
+vmbſtende mit ſich gebracht haben.</p><lb/>
+<p>Hat mann nun ſchon damaln die rede/ vnd offt abgangne<lb/>
+Wort ſchwerlich verſtehen kuͤnden/ auch bißweilen wahr ge-<lb/>
+nom̃en/ der Verſtand ſeye vmb ein merckliches geſchwechet/<lb/>
+daher entſtanden/ das er nicht nur auff/ vnd der Kleider bege-<lb/>
+ret: ſondern mit ernſt angehalten/ das alles verordnet wuͤrde/<lb/>
+was zum reyſen oder reitten gehoͤrig: jedoch da er beide des<lb/>
+Kleydes der Vnſchuld vnnd Gerechtigkeit Jeſu Chriſtj da-<lb/>
+gegẽ erinnerlich berichtet/ in derẽ wir fuͤr Gott vnſerm Him̃-<lb/>
+liſchen Vatter getroſt vnnd mit frewden erſcheinen kunden/<lb/>
+vnd woͤllen: vnd dann zugleich auff den Engliſchen Wagen<lb/>
+gewieſen worden/ der naher Himmel gehet/ vnd da die heyli-<lb/>
+ge Engelin Gottes ſelber in den Schoß Abrah<hi rendition="#aq">æ</hi> vns gelei-<lb/>
+ten/ lieſſe er jhm wohl genuͤgen. Wie er jhm dann nicht weni-<lb/>
+ger fuͤrgenommenes vnd gethanes Gebett lieb vnd angenem<lb/>
+ſein/ vnnd wie zur beſtendigkeit im Glauben/ alſo zu Chriſtli-<lb/>
+cher gedult ſich ermanen laſſen/ dieweil mañ je nicht alles ſein<lb/>
+begehren/ noch eines vnd dz andere gnugſam verſtehen kůnde.</p><lb/>
+<p>Nach mittag/ vnd nechſt vor ſeinem Abſchied/ hat ſich der<lb/>
+<fw place="bottom" type="catch">Herꝛ</fw><lb/>
+<pb facs="#f0055" n="47"/>
+Herꝛ/ Doctor Chriſtſeliger Gedaͤchtnus/ noch gegen anwe-<lb/>
+ſenden vnd ſonderlich/ wie berichtet wird/ auff ettliche ſchoͤne<lb/>
+Spruͤche heyliger Schrifft verſtendlich gnug/ vnnd getroſt<lb/>
+erkieret/ darzu ſtarck gegruͤndet/ biß er widerumb auff begeret:<lb/>
+Da er ſitzend in einen ſanfften/ gleich als einen natuͤrlichen<lb/>
+Schlaff geſuncken/ in welchem er vor Geſtern vmb fuͤnff vhr<lb/>
+gegen Abend im HErꝛn entſchlaffen/ ſanfft vnnd ſtill dauon<lb/>
+gefahren iſt.</p><lb/>
+<p>Wolan Gott hat vns nicht geſetzt zum Zorn/ ſondern die<lb/>
+Seligkeit zubeſitzen/ durch vnſern HErꝛn Jeſum Chriſt/ der<lb/>
+fuͤr vns geſtorben iſt/ auff das/ wir wachen oder ſchlaffen/ zu-<lb/>
+gleich mit jhm leben ſollen: Verwundert euch des nit/ denn<lb/>
+es kom̃t die Stunde/ in welcher alle die in Graͤbern ſind/ wer-<lb/>
+den ſei<choice><sic>u</sic><corr>n</corr></choice>e Stimme hoͤren/ ſagt Chriſtus der Sohn Gottes/<lb/>
+Johannis im 5. Cap: vnnd werden herfuͤr gehen/ die da gutes<lb/>
+gethan haben/ zur Aufferſtehung des Lebens/ die aber vbels ge-<lb/>
+than haben/ zur Aufferſtehung des Gerichts: Ja wer mein<lb/>
+Wort hoͤret/ vnd glaubet dem der mich geſandt hat/ der hat dz<lb/>
+ewige Leben/ vnnd kompt nicht in das Gericht/ ſondern er iſt<lb/>
+vom Todte zum Leben hindurch gedrungen. Dazu verhelffe<lb/>
+<hi rendition="#c">vns vnſer einige getrewe Hoheprieſter/ vnd bewerte Artzet<lb/>
+Leibs vnd der Seelen Jeſus Chriſtus/ ſampt ſeinem<lb/>
+Him̃liſchen Vatter/ vnd dem heyligen Geiſt/<lb/>
+warer Gott/ Hochgelobet in E-<lb/>
+wigkeit. Amen.</hi></p><lb/>
+<p><hi rendition="#c"><hi rendition="#g">ENDE.</hi></hi></p></div></div><lb/>
+</body></text>  </TEI>

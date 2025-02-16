@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Auß Gottes Heiligem Rath und Willen Entspringende Ursprungs-Quelle/ Des Endziehls Menschlichen Lebens</title>
+<author>
+<persName ref="http://d-nb.info/gnd/104313471">
+<surname>Schweinitz</surname>
+<forename>George Herman von </forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">21</measure>
+<measure type="tokens">4448</measure>
+<measure type="types">1919</measure>
+<measure type="characters">30900</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:09:44Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/354492b</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/354492b</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/354492b</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/354492b</idno>
+<idno type="DTADirName">354492b</idno>
+<idno type="DTAID">202988</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-202988-8</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Schweinitz, Georg Hermann von: Auß Gottes Heiligem Rath und Willen Entspringende Ursprungs-Quelle/ Des Endziehls Menschlichen Lebens. Zittau, 1673.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Auß Gottes Heiligem Rath und Willen Entspringende Ursprungs-Quelle/ Des Endziehls Menschlichen Lebens</title>
+<author>
+<persName ref="http://d-nb.info/gnd/104313471">
+<surname>Schweinitz</surname>
+<forename>George Herman von </forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">21 S.</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Anna Maria Dehnin</name></publisher>
+<pubPlace>Zittau</pubPlace>
+<date type="publication">1673</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 E 291/3-4 / 354492b</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[75]"/>
+<titlePage type="main"><docTitle><titlePart type="main">Auß GOttes<lb/>
+Heiligem Rath und Willen<lb/>
+<hi rendition="#b">Entſpringende Urſprungs-Quelle/</hi><lb/>
+Des<lb/>
+<hi rendition="#b">Endziehls Menſchlichen Lebens;</hi></titlePart><lb/>
+<titlePart type="sub">Darbey auch<lb/>
+Die maͤchtige <hi rendition="#aq">Sympati</hi>ſche Krafft<lb/>
+Der<lb/>
+<hi rendition="#b">Neigung Ehlicher Liebe</hi></titlePart><lb/>
+<titlePart type="desc">Jn der<lb/>
+<hi rendition="#b">Abdanckungs-Rede/</hi><lb/>
+Bey dem/ den 13. Julii <hi rendition="#aq">Anno</hi> 1672. in Friedersdorff<lb/>
+gehaltenen<lb/>
+Hoch-Adelichen Leichen-Begaͤngnuͤß/<lb/>
+Des<lb/>
+Weyland Hoch- und Wohl-Edelgebohrnen<lb/>
+Herrn/<lb/>
+<hi rendition="#b"><hi rendition="#fr"><hi rendition="#in">H</hi>rn. <hi rendition="#in">H</hi>anſz <hi rendition="#in">S</hi>iegmund</hi><lb/>
+von <hi rendition="#in">F</hi>eſtenberg Packiſch genand/</hi><lb/>
+Herrn auf Friedersdorff/ Wieſenthal/ Ludwigsdorf/<lb/>
+Johnsdorff/ Guͤßhuͤbel/ Vogelsdorff und<lb/>
+Neu-Warnsdorff.</titlePart></docTitle><lb/>
+<byline>Auß verbundeſtem Gemuͤthe<lb/>
+Dargewieſen<lb/>
+Von<lb/>
+<docAuthor><hi rendition="#b">George Herman von Schweinitz</hi></docAuthor><hi rendition="#b">/ auf Crain.</hi></byline><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docImprint><pubPlace>Zittau</pubPlace>/ Gedruckt bey der <publisher>Anna Maria Dehnin/ Wittib</publisher>. <docDate>1673</docDate>.</docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="76"/>
+<fw place="top" type="header">Abdanckungs-Rede.</fw><lb/>
+<div type="fsThanks" n="1"><head><hi rendition="#aq">Mundus regitur &amp; impletur<lb/>
+Opinionibus.</hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">D</hi>Je Welt iſt voller Meinun-<lb/>
+gen/ Einbildungen und Fantaſeyen/</hi><lb/>
+darunter der groͤſte Theil irrig/ ver-<lb/>
+werflich/ naͤrriſch und laͤcherlich. Nicht<lb/>
+wenige dergleichen werden gefunden in vor und<lb/>
+aber-witziger ergruͤndung der Urſachen/ woher dieſes oder jeh-<lb/>
+nes Betruͤbnuͤß/ woher dieſes oder jehnes Ungluͤcke und Kum-<lb/>
+mer entſtanden oder herkommen. Eine ſothane recht-thoͤrich-<lb/>
+te raſerey hat gewohnet bey vielen Heyden/ die die <hi rendition="#aq">Radices</hi> oder<lb/>
+Wurtzeln eines Ubels/ eines Todes/ eines Zufalles der Men-<lb/>
+ſchen deren eigenen Guͤttern/ <hi rendition="#aq">poſſeſſionen</hi> und Beſitzungen/<lb/>
+e<supplied>s</supplied> ſey an beweglichem oder unbeweglichem/ zugeſchrieben.<lb/>
+Worzu auch zuhandweilen etwas zu Staͤrckung jhres Aber-<lb/>
+glauben geholffen/ in deme es ſich etwan ohne Gefehr bege-<lb/>
+ben/ daß unterſchiedenen Beſitzern eines Dinges einerley wie-<lb/>
+derfahren. Nicht das unmerckwuͤrdigſte davon iſt/ was <hi rendition="#aq">Au-<lb/>
+lus Gellius</hi> gedencket/ und <hi rendition="#aq">Guevarra</hi> auß demſelben/ und an-<lb/>
+deren alten <hi rendition="#aq">Autoren</hi> wieder herfuͤr holet von dem beſchrienen<lb/>
+<hi rendition="#aq">Sejam</hi>ſchen Pferde/ deſſen erſter Herr <hi rendition="#aq">Cneus Sejus,</hi> nebenſt<lb/>
+Vier ſeinen Nachfolgern/ gleich dem Roß/ einen klaͤglichen<lb/>
+Außgang gehabt. Was dieſem aͤhnlich/ iſt von dem Golde/<lb/>
+ſo <hi rendition="#aq">Scipio Africanus</hi> auß der Kirchen zu <hi rendition="#aq">Tholaute</hi> in Franck-<lb/>
+reich rauben laſſen/ da alle die jehnigen/ welche zu wegnehmung<lb/>
+dieſes Schatzes Beyſchub gethan/ mit Hauß und Geſchlecht<lb/>
+ſollen innerhalb einem Jahre zu Grunde gegangen ſein/ darauß<lb/>
+<fw place="bottom" type="catch">mehr</fw><lb/>
+<pb facs="#f0003" n="77"/>
+<fw type="header" place="top">Abdanckungs-Rede.</fw><lb/>
+mehr erſcheinet/ daß auch der Kirchen-Raub der falſchen Goͤ-<lb/>
+tzen Tempel nicht ungeſtraffet verblieben/ als etwas andres.<lb/>
+Beydes iſt bey den Heydniſchen <hi rendition="#aq">Scribenten</hi> und jederman ſo<lb/>
+bekand/ das es auch zum Sprichwort worden/ und man von<lb/>
+einem Ungluͤcklichen Menſchen der weder Stern noch Gluͤcke<lb/>
+hat/ dem weder Sonne noch Monde ſcheinet/ zu ſagen pflegt:<lb/>
+<hi rendition="#aq">Eqvum habet Sejanum, Aurum habet Tholoſanum</hi><lb/>
+dem nicht ungleiche wird geleſen/ daß zu <hi rendition="#aq">Athen</hi> in einem Hau-<lb/>
+ſe lauter Narren/ in einem andern lauter einfaͤltige Menſchen<lb/>
+gebohren worden/ welches den <hi rendition="#aq">Senat</hi> daſelbſten benogen/ ſie<lb/>
+von Grund auß wegreiſſen zu laſſen. Der ſonſt kluge Geſetz<lb/>
+Geber <hi rendition="#aq">Solon,</hi> hat wegen dererley allzu vorſichtig befohlen/<lb/>
+den Erben der Abgeſtorbenen nichts zuverkauffen/ ſondern alles<lb/>
+unter ſich ſelbſten allzeit zu theilen/ damit wo was ſchaͤdliches<lb/>
+unter demſelben begriffen/ es nicht gar zu weit fortgexflantzet<lb/>
+wuͤrde.</p><lb/>
+<p>Weren wir nicht mit geſundem Waſſer wahren Chriſtin-<lb/>
+thumbs gereiniget/ koͤnten wir leicht auch in dergleichen kotig-<lb/>
+ten Pfudeln und ſuͤmpfigten Moraͤſten dieſer unſaubern und<lb/>
+unheilſahmen Jrꝛthuͤmer ſtecken und kleben. Wir wuͤrden ſo<lb/>
+dann das liebe Friedersdorff das wehrte Wieſenthal anſchauen/<lb/>
+als Brunnen/ worauß nichts als Tod/ Leid und Bitterkeit<lb/>
+quilt. Wir wuͤrden Sie anſehen/ als Todten Haͤuſer/ darinnen<lb/>
+man dem Tode gleichſam in Rachen liefft 3 Wie eines auf ſolche<lb/>
+arth Keyſer <hi rendition="#aq">Aurelius</hi> gantz wegbrennen laſſen/ in welchem die<lb/>
+Leuthe eine Zeitlang nach einander geſchwinde dahin verſtorben.<lb/>
+Wir wuͤrden zu mahlen Friedersdorff benennen ein Hauß der<lb/>
+Graͤber/ ein Pallaſt des Todes/ ein Garten des Traurens/ ein<lb/>
+Sammel-Platz der Thranen/ und ein Gewoͤlbe oder Schatz-<lb/>
+Kammer der Leichen und verblaſſeten Coͤrper.</p><lb/>
+<fw type="sig" place="bottom">K iij</fw><fw type="catch" place="bottom">Aber</fw><lb/>
+<pb facs="#f0004" n="78"/>
+<fw type="header" place="top">Abdanckungs-Rede.</fw><lb/>
+<p>Aber wir wiſſen/ daß kein Oertgen auf dem gantzen<lb/>
+Kreiß der Erden hierinnen <hi rendition="#aq">priv<supplied>i</supplied>leg<supplied>ir</supplied>et</hi> und befreyet iſt/ und<lb/>
+das der <hi rendition="#aq">Hormisda</hi> mit uns allen erfa<supplied>h</supplied>r<supplied>e</supplied>n muß/ daß ſo wohl<lb/>
+zu Rom als B<supplied>i</supplied>zanz oder <hi rendition="#aq">Conſtantinopel</hi> und anderen Ge-<lb/>
+genden der Welt-Kugel/ die Leute ſterben. Daher uͤberall<lb/>
+gleiche Sicherheit und Unſicherheit und gleiche Dienſtbarkeit<lb/>
+und Freyheit. Keine Veſtung iſt ſo wohl vermauret/ kein<lb/>
+Thor ſo wohl verriegelt/ kein Hauß ſo wohl verſchloſſen/ daß<lb/>
+der Tod nicht hierdurch dringen koͤnne. Hingegen auch in<lb/>
+dem ſchlechſten D<supplied>örf</supplied>lein lebet man ſo lange ſo ſicher/ ſo frey/<lb/>
+als in der beſten und ſtaͤrckſten Verſchantzung. Des Hoͤch-<lb/>
+ſten gutter und heiliger Wille/ ſein allein-weiſer unwandelbarer<lb/>
+Rath-Schluß/ iſt das Maß unſer Thraͤnen/ der Schluͤſſel<lb/>
+des Lebens und des Todes. Unſer Lebens Ziehl ſtehet in ſei-<lb/>
+nen Haͤnden: Er iſt/ der die Menſchen Kinder laͤſſet ſterben/<lb/>
+und ſpricht/ kommt wieder jhr Menſchen Kinder. Ruͤhret<lb/>
+demnach alles unſer aufgelegtes Trauren von dem lieben GOtt<lb/>
+her: Er hat nicht allein die Seel. Frau Packiſchin vor drey<lb/>
+Viertel Jahren zn ſich genommen/ ſondern auch/ binnen die-<lb/>
+ſer kurtzen friſt dero treueſten Eh Gemahl/ ein Muſter treuer<lb/>
+Eh-Gatten/ ein Ebenbild rechter und aufrichter Ritters- und<lb/>
+Bieders Leute/ die Krohne ſeines Hauſes und den Krantz ſei-<lb/>
+ner Standes/ <hi rendition="#fr">Den weyland Hoch- und Wohl-Edelge-<lb/>
+bohrnen Herrn/ Herrn Hanß Siegmund von Fe-<lb/>
+ſtenberg Packiſch genandt/ Herrn auf Frieders-<lb/>
+dorff/ Wieſenthal/ Ludwigsdorff/ Johnsdorff/<lb/>
+Guͤßhuͤbel/ Vogelsdorff/ und Neu-Warnsdorff/</hi><lb/>
+wiewohl zu hoͤchſter Betruͤbnuͤß der wehrteſten Seinigen bald<lb/>
+hernach geholet/ und Jhme juͤngſten Himmelfarths-Tage eine<lb/>
+rechte ſeelige Himmelfarth verliehen. Sein Goͤttlicher Auß-<lb/>
+<fw type="catch" place="bottom">ſpruch</fw><lb/>
+<pb facs="#f0005" n="79"/>
+<fw place="top" type="header">Abdanckungs-Rede.</fw><lb/>
+ſpruch und Endurtheil hat ein Paar/ welches im Schatten die-<lb/>
+ſes Zeitlichen in feſter und unverbruͤlicher Ehlicher Liebe tau-<lb/>
+erhafft ruͤhmlich zuſammen geledet im unvergaͤnglichen Lichte<lb/>
+eines andern ewigen und beſſeren Lebens/ wieder zu einander ge-<lb/>
+bracht/ wo keine Noth/ noch Tod/ noch gewalt Sie vermag<lb/>
+zu trennen von dem lieblichen anſchauen GOttes und dem Thro-<lb/>
+ne Seiner Herꝛligkeit/ in dem Geſamten Chor aller Engel/<lb/>
+Heiligen und Auſſerwehlten. Und kundte es moͤglich ſeyn daß<lb/>
+eines <supplied>ohned</supplied>as ander lange leben ſolte? Mann weiß was treue<lb/>
+Liebe kan/ <hi rendition="#aq">Sympathie</hi> und Neigung in der gantzen Natur fuͤr<lb/>
+Wunder und macht gebuͤhret. Die allzu vertiefften <hi rendition="#aq">Aſtrolo-<lb/>
+g<supplied>i</supplied></hi> und Stern gelehrten ſchreiben eines jeden Tod und Leben<lb/>
+garzu aberglaͤubiſch dem Geſtirne zu/ da muß alles an der<lb/>
+<hi rendition="#aq">Conſtellation</hi> des Himmels gelegen ſeyn: Wie etwan<lb/>
+der Himmel in der Geburth-Stunde eines Men-<lb/>
+ſchen Geſtalt geweſen/ was fuͤr ein guͤttiger oder unguͤt-<lb/>
+tiger Planet im ſteigen oder fall geſtanden/ in welchem Hauſe<lb/>
+die Zuſammenkunfft und <hi rendition="#aq">Conjunction</hi> beſchehen/ daß muß al-<lb/>
+les machen/ das muß vom groͤſten biß zum kleineſten alle <hi rendition="#aq">Spe-<lb/>
+cialiſſima</hi> und gerinſte Zufaͤlle andeuten und mit ſich ziehen.<lb/>
+Daß aber vernuͤnfftige Evangeliſche Chriſten ſich nicht allzuſehr<lb/>
+in dieſe Eitelkeit/ welche Sie iſt/ im Fall man ſich zu viel da-<lb/>
+rinnen vergaffet/ verlieben ſollen/ giebet uns an die Hand die<lb/>
+Goͤttliche <hi rendition="#aq">Providen</hi>tz und Verſehung/ ohne derer allerweiſeſte<lb/>
+Schickung und Zulaſſung auch nicht ein Haar von unſerm<lb/>
+Haͤupte faͤllet. Was dann und wie viel darvon zu halten/<lb/>
+laͤſſet man an ſeinem gehoͤrigen Orthe und in <hi rendition="#aq">mediô</hi> beruhen;<lb/>
+Und machen die <hi rendition="#aq">Moderatio<gap reason="illegible" unit="chars" quantity="3"/></hi> und Kluͤgſten auß Jhnen ſelb-<lb/>
+ſten ſolche außnehmungen und Unterſcheide/ daß man mit vie-<lb/>
+len noch zimlich kan vernuͤget ſein. Allein darauß bleibet doch<lb/>
+bekand/ daß dieſe Wiſſenſchafft oͤfftermahls und mehrentheils<lb/>
+<fw place="bottom" type="catch">be-</fw><lb/>
+<pb facs="#f0006" n="80"/>
+<fw type="header" place="top">Abdanckungs Rede.</fw><lb/>
+betruͤglich und ungewißhafft iſt. Mann pfleget auch uͤber diß<lb/>
+mehr auf achtſahmer die Exempel auf zu nercken/ derer die ein-<lb/>
+getroffen/ als die Vielheit derer welche gefehlet haben. Ubel<lb/>
+koͤnnen zumahl ſich dieſe Stern-Propheten wickeln auß der<lb/>
+<hi rendition="#aq">Objection</hi> und Vorwurff/ wann ſo viel Tauſend in einer<lb/>
+Schlacht geblieben/ und doch nicht alle/ und zwar die meiſten<lb/>
+zu einer Zeit und Stunde gebohren ſein koͤnnen. Gleichwohl<lb/>
+wenden ſie fuͤr/ daß das <hi rendition="#aq">Commune</hi> und allgemeine <hi rendition="#aq">fatum</hi> ei-<lb/>
+nes Landes/ Stadt oder <choice><sic>Otrhes</sic><corr>Orthes</corr></choice> das abſonderliche einer Per-<lb/>
+ſon mit einflechte: Und das in <hi rendition="#aq">particulier</hi> Haͤuſern Freund-<lb/>
+ſchafft und Geſipſchafft viel außrichte. Kan aber was rich-<lb/>
+tiges und unſehlbahres aus dem Lauff des Himmels geſchloſſen<lb/>
+werden/ koͤmt es ebenfals aus der <hi rendition="#aq">Sympathie</hi> die die Ober<lb/>
+und Unter irꝛdiſchen zu ſammen haben. Der Sterne <hi rendition="#aq">influ-</hi><lb/>
+entz und Einfluß muß ſelbſten kraͤfftig ſein/ nachdem ſie unter-<lb/>
+einander in guttem oder boͤſen Vernehmen ſtehen/ und wie<lb/>
+ſie einander verwand und zugethan/ oder im Gegentheil entge-<lb/>
+gen und gehaͤſſig ſind. Denn man kan keines weges in abrede<lb/>
+ſein/ wie oben ſchon beruͤhret worden/ was <hi rendition="#aq">Sympathie</hi> und<lb/>
+<hi rendition="#aq">Antipathie</hi> wuͤrcket und ſchaffet/ was vor unzehlbahre Dinge<lb/>
+jehne vereinige erhalte und vermehre/ und was vor eine Menge<lb/>
+derſelben dieſe zertrenne/ zernichte und vergeringern. Ver-<lb/>
+wunderlich iſt/ daß der <hi rendition="#aq">Magnet</hi> Eyſen/ Stahl und Eyſen-<lb/>
+ſtein/ auch wohl nach etlicher Meinung auf eiſenfarbe arth ge-<lb/>
+brennete Ziegel/ in ſich bringen kan: Daß er/ wenn er gutt und<lb/>
+ſtarck ſein ſol/ muß mit Eyſen und Feylſtaub gewaffnet und ge-<lb/>
+ruͤſtet werden. Nicht weniger abenteuerlich koͤmmet unſeren<lb/>
+Augen fuͤr/ das Agtſtein Stroh an ſich locket/ die Sonnen Ro-<lb/>
+ſe ſich nach der Sonnen wendet/ der Bezoar ein Freund des<lb/>
+Hertzens iſt/ der Corall das Blut beſtillet/ und daß die Edel-<lb/>
+<fw type="catch" place="bottom">geſteine</fw><lb/>
+<pb facs="#f0007" n="81"/>
+<fw place="top" type="header">Abdanckungs-Rede.</fw><lb/>
+geſteine glaͤntzen und ſcheinen/ welche von der Geſtirne Licht<lb/>
+und Glantz <hi rendition="#aq">participi</hi>ten und Theil haben. Aber ohne/ daß<lb/>
+man was gedencket von der <hi rendition="#aq">Antipathie,</hi> deucht mich allbereit<lb/>
+die Anzahl derer Exempel von der <hi rendition="#aq">Sympathie</hi> oder Zuneigung<lb/>
+uͤberfluͤſſig zu ſein. Wir wollen uns nur noch in e<supplied>t</supplied>was na-<lb/>
+hern zu uns ſelbſten und unſerem Menſchlichen Coͤrper. Jſt<lb/>
+nicht ein Glied mit dem andern verknuͤpfft und verbunoͤm/<lb/>
+durch verborgene zuſammen Verſtaͤndnuͤß? Thut nicht eines<lb/>
+dem andern dadurch Huͤlffreichliche Handleiſtung? Und iſt<lb/>
+nicht ein jedes bedacht ſo ſorgfaͤltig auf frembde zugehoͤrige als<lb/>
+ſeine ſelbſt eigene <hi rendition="#aq">Conſervation</hi> und erhaltung? Welche auch<lb/>
+gutten theils/ doch nachdem eines oder das andere der Wich-<lb/>
+tigkeit iſt/ von der erſteren <hi rendition="#aq">dependir</hi>et und hanget.</p><lb/>
+<p>Gehen wir von unſerem <hi rendition="#aq">individuô</hi> unſerem Menſchli-<lb/>
+chen Leibe zu den andern <hi rendition="#aq">individuis</hi> und <hi rendition="#aq">Speciebus</hi> den Voͤl-<lb/>
+ckern und Geſchlechtern biß auf wenige und einzehle Menſchen.<lb/>
+So erfahren wir/ daß manche <hi rendition="#aq">Natiooen</hi> ſich feſte und nahe<lb/>
+zuſam nen halten/ manche einander auf das euſſerſte haſſen und<lb/>
+verfolgen. Welche Freundligkeit und Wiedrigkeit ſich ſo ga<supplied>r</supplied><lb/>
+erſtrecket biß auf Dorff und Stadt/ unter einem Reiche und<lb/>
+Herꝛſchafft. Wie ſolte es den nicht auch auf die Geſchlech-<lb/>
+ter und Haͤuſer einer <hi rendition="#aq">Republic</hi> ſtammen? Da freylich eine<lb/>
+gewoͤhnlicher ſich mit etlichen verbindet/ und zuſtimmet/ als<lb/>
+mit vielen andern. Und warumb ſolte man nicht ebener maſ-<lb/>
+ſen gleichfals unter wenigen Perſohnen die Krafft und Staͤrcke<lb/>
+darvon empfinden? Die Erfahrung bezeugets/ was aus gleich-<lb/>
+heit der <hi rendition="#aq">Humeurs</hi> und <hi rendition="#aq">Temperamenten</hi> beſonders aus aͤhn-<lb/>
+ligkeit der Tugenden und Sitten vor vergnuͤgen und Nutzen<lb/>
+entſpringet/ und wie unter Verwandten und Verehlichten es<lb/>
+ſo maͤchtige Regung und Bewegung verurſachet. Nicht wei-<lb/>
+<fw place="bottom" type="sig">L</fw><fw place="bottom" type="catch">ter</fw><lb/>
+<pb facs="#f0008" n="82"/>
+<fw type="header" place="top">Abdanckungs-Rede.</fw><lb/>
+ter und in der ferne iſt noͤthig ſich zubemuͤhen; Des Seel.<lb/>
+Herrn von Packiſch/ und der Seel. Frau von Packiſchin Eh-<lb/>
+licher Liebe Tugend Exemp<supplied>el</supplied> iſt ſattſahmeſt Zeugnuͤß. Drumb<lb/>
+wie haͤtte eines ohne das ander lange ſein koͤnnen da beyde ſo<lb/>
+geraume Zeit einander aufrichtig und hertzlich geliebet/ und ſo<lb/>
+lange in einer ſo liebreichen und geſegneten Ehe eines des an-<lb/>
+der unaufloͤßliehe Geſchellſchafft genoſſen? So laſſet nun die-<lb/>
+ſes edelſte Paar als wie die Sternen leuchten immer und ewi-<lb/>
+glich/ an dem Guͤldenen Sternen Dache der unentlichen See-<lb/>
+ligkeit. Maͤſſigen wir aber in Chriſtlicher Beſcheidenheit unſer<lb/>
+Trauren/ und dencken/ wie wir vorhin der Seeligſten Frau<lb/>
+Packiſchin das Geleite geben muͤſſen/ und heute anitzo dem<lb/>
+Seel. Herrn von Packiſch ſothane Schuldigkeit geziehmendſt<lb/>
+abgeſtattet haben/ daß die Todten Reihe in kuͤrtzen auch an<lb/>
+uns kommen werde/ damit wir dermaleins wohlbereit und ſee-<lb/>
+liglich nachfolgen moͤgen; Doch das darbey nach Pflicht und<lb/>
+Gebuͤhr der ruͤhmlichſt abgeſtorbenen geſegnetes Gedaͤchtnuͤß<lb/>
+allezeit unter uns ſey in ſtets unverwelckter Bluͤthe. Ein je-<lb/>
+der treuhertziger von Gebluͤth und Gemuͤhte zugethaner und<lb/>
+aufrecht geſinter Freund des Hauſes Friedersdorff erwege/ wie<lb/>
+der Seeligſte. Herr Packiſch niemals/ wann es nur ſein koͤnnen/<lb/>
+a<supplied>n</supplied> wuͤrcklicher Freundſchaffts-Bezeugung auch das muͤndeſte<lb/>
+nich<supplied>t</supplied> ermangeln laſſen: Er hingegen vergelte es in Unvergeſ-<lb/>
+ſe<supplied>nheit</supplied> durch gentigtes Andencken hinwieder. Ein jeder wuͤnt-<lb/>
+ſche treueifrigſt/ was zu des Hochbetruͤbten verwayſeten Hau-<lb/>
+ſes Friedersdorff Troſt und Aufrichtung gehoͤret. Jch ob der<lb/>
+Geringſte/ doch nicht der wenigſt-verpflichteſte Diener des<lb/>
+Packiſchen Nahmens/ beehre das Hoch-Adeliche Grabmahl<lb/>
+mit dieſen nachfolgenden Worten:</p><lb/>
+<fw type="catch" place="bottom">Diß</fw><lb/>
+<pb facs="#f0009" n="83"/>
+<fw place="top" type="header">Abdanckungs-Rede.</fw><lb/>
+<lg type="poem"><l><hi rendition="#in">D</hi>Jß war ein Rittersmann von Stand und von</l><lb/>
+<l><hi rendition="#et">Verſtande;</hi></l><lb/>
+<l>So bald ſein Ehgemahl auß dieſem Leben gieng/</l><lb/>
+<l>Ward Er ſchon halb verſetzt in friſcher ErdenSande:</l><lb/>
+<l>Weil war die Helffte fort des Lebens/ bald an-</l><lb/>
+<l><hi rendition="#c">fieng</hi></l><lb/>
+<l>Des andern Theiles Tod. Jtzt Sie ſich gleich den</l><lb/>
+<l><hi rendition="#c">Sternen/</hi></l><lb/>
+<l>Durch ſtets verklaͤrten Glantz im Himmel nicht ent-</l><lb/>
+<l><hi rendition="#c">fernen:</hi></l><lb/>
+<l>Hier wird der Ahnen Schmuck/ der ſelbſt er-</l><lb/>
+<l><hi rendition="#c">worbne Ruhm</hi></l><lb/>
+<l>Unſterblich beyden ſein/ Jhr Erb- und Eigen-</l><lb/>
+<l><hi rendition="#c">thum.</hi></l></lg><lb/>
+<p>An dieſes wird gleichfals aus treu-Schwaͤgerliche<supplied>m</supplied><lb/>
+und Geſchwiſterlichem Gemuͤthe wohlmeinend ein bruͤnſtiger<lb/>
+Wuntſch kuͤrtzlich bey gefuͤgt.</p><lb/>
+<lg type="poem"><l>Das Haus von Friedersdorff ſey wohlge-</l><lb/>
+<l><hi rendition="#c">troͤſt von GOTT/</hi></l><lb/>
+<l>Der ſteh jhm kraͤfftig bey in trauren Leyd</l><lb/>
+<l><hi rendition="#c">und Noth.</hi></l><lb/>
+<l>Der Himmel ſegne Sie: Es muͤß in jhrem</l><lb/>
+<l><hi rendition="#c">Leben/</hi></l><lb/>
+<l>Sie nichts als Gunſt und Troſt vom Hoͤchſten</l><lb/>
+<l><hi rendition="#c">gantz umbgeben.</hi></l><lb/>
+<fw place="bottom" type="sig">L ij</fw><fw place="bottom" type="catch">Stirbt</fw><lb/>
+<pb facs="#f0010" n="84"/>
+<fw type="header" place="top">Abdanckungs-Rede.</fw><lb/>
+<l>Stirbt ſchon die Vatertreu/ die Mutter iſt</l><lb/>
+<l><hi rendition="#c">nicht mehr/</hi></l><lb/>
+<l>Gibt Schweintz und Packiſch doch zu der</l><lb/>
+<l><hi rendition="#c">Geſchlechter Ehr</hi></l><lb/>
+<l>Was leider Friedersdorff geduppelt war ent-</l><lb/>
+<l><hi rendition="#c">gangen.</hi></l><lb/>
+<l>Durch ein <hi rendition="#fr">begrautes Paar</hi> auch wieder nach</l><lb/>
+<l><hi rendition="#c">verlangen.</hi></l></lg><lb/>
+<p>Daß aber dieſe Hochanſehnliche Verſamlung der Hoch-<lb/>
+Vornehmen Bluts- und Muths-Freundſchafft/ auch die Chriſt-<lb/>
+liche Begleitung der WohlEhrwuͤrdigen Prieſterſchafft und<lb/>
+angenehme Gegenwart des Wohlweiſen Raths der Loͤblichen<lb/>
+Stadt Greiffenberg/ und geſambt erbethene geehrt-lieb- und<lb/>
+werth-geachteſte <hi rendition="#aq">Aſſemblee</hi> bey dieſem Hoch-Adelichen Leich-<lb/>
+Begaͤngnuͤß/ den letzten Ehren-Dienſt erweiſen wollen. Dar-<lb/>
+gegen ſaget das Hochleidtragende Hauß Friedersdorff ſchuldig-<lb/>
+ſten Danck/ und wird es allezeit als eine hohe bezeugete Gna-<lb/>
+de/ Ehr und Freundſchafft achten/ ſo ſelbten hiermit wieder-<lb/>
+fahren/ ſich auch bemuͤhen/ doch wuͤntſchende in erfreulichern<lb/>
+Begebenheiten es moͤglichſt zu verſchulden. Darnebenſt denn<lb/>
+Sie hoͤchlichen allerſeits erſuchet werden/ dem Betruͤbten<lb/>
+Trauerhauſe ferner dero angenehmſt geſchaͤtzte <hi rendition="#aq">preſence</hi> zu<lb/>
+ſonderbahrem Troſt auß <hi rendition="#aq">continuir</hi>ender groſſer Gunſt und<lb/>
+Wohlgewogenheit zu erlauben/ und dadurch geneigt <hi rendition="#aq">occaſion</hi><lb/>
+<hi rendition="#c">zu vergoͤnnen/ einige Zeit und Gelegenheit nach Dienſt-<lb/>
+und gehorſame Bedienung und Bewirtung<lb/>
+verbundenſt abzuſtatten.</hi></p><lb/>
+<fw type="catch" place="bottom"><hi rendition="#b">An</hi></fw></div><lb/>
+<pb facs="#f0011" n="[85]"/>
+<div type="fsEpicedia" n="1">  <div n="2"><head><hi rendition="#b">An die Hoch-Adelichen hoͤchſtbe-<lb/>
+truͤbten Fr. und Jungfr. Toͤchter.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">A</hi>Ch Schmertz! wil Sie den ſtets des Himmels-</l><lb/>
+<l><hi rendition="#c">Schluß verhuͤllen</hi></l><lb/>
+<l>Jn Schleyer? Noch kein Jahr iſt weg/ daß der</l><lb/>
+<l><hi rendition="#c">Natur</hi></l><lb/>
+<l>Die/ welche Sie gebohrn/ jhr Recht ſie ſahn erfuͤllen/</l><lb/>
+<l>Und ich betruͤbte Poſt aus Friedersdorff erfuhr:</l><lb/>
+<l>Und itzo waſchen Sie auch deſſen Sarg mit Thraͤnen/</l><lb/>
+<l>Der Sie nechſt GOTT gezeugt! Man muß der Seuf-</l><lb/>
+<l><hi rendition="#c">tzer Hall</hi></l><lb/>
+<l>Aufs neue wieder hoͤrn ſamt ungemeinem Sehnen/</l><lb/>
+<l>Sie klagen hoͤchſtbeſtuͤrtzt des liebſten Vaters Fall!</l><lb/>
+<l>Ach allzu harter Streich/ ach tiefgeſchlagne Wunden/</l><lb/>
+<l>Ach Wunden/ welche man/ da ſie noch nicht geheilt/</l><lb/>
+<l>Schaut wieder aufgeritzt! Ach allzu ſehr empfunden/</l><lb/>
+<l>Wenn einen doppelt Leid ſo ploͤtzlich uͤbereilt.</l><lb/>
+<l>Sie/ Edle/ ach! Sie ſinds/ die billich ſich betruͤben/</l><lb/>
+<l>Der Eltern Abſchied kraͤnckt den treuen Kinder-Sinn.</l><lb/>
+<l>Doch bin auch/ leider! Jch nicht unberuͤhret blieben/</l><lb/>
+<l>Dem ſein Patron erblaſt/ ſein groſſer Goͤnner hin.</l><lb/>
+<l>Bey Jhnen und bey Mir iſt Urſach gnung zuklagen/</l><lb/>
+<l>Es ſehmertzt/ wenn dieſe weg/ die uns viel guts gethan!</l><lb/>
+<l>Jedoch es laͤſſet GOTT durch heilige Maͤnner ſagen/</l><lb/>
+<l>Wie man der Sachen leicht allhier zu viel thun kan.</l><lb/>
+<l>Jſts ſo/ daß uns in Weh ein Todesfall verſetzet/</l><lb/>
+<l>Weil er die Gegenwart der Werthen Raubt? So weiß</l><lb/>
+<l>Ein Chriſt auch diß/ daß Er hingegen den ergoͤtzet/</l><lb/>
+<l>Der abgeſchieden iſt/ wenn Er nach dem Geheiß</l><lb/>
+<fw type="sig" place="bottom">L. iij</fw><fw type="catch" place="bottom">Der</fw><lb/>
+<pb facs="#f0012" n="[86]"/>
+<l>Der Schrifft/ auf JEſus Tod im Glauben iſt vorſchieden/</l><lb/>
+<l>Als welchem ſo ſein Tod ein froher Anfang iſt/</l><lb/>
+<l>Zum Leben/ das nur Luſt und angenehmen Frieden/</l><lb/>
+<l>Ja/ was man wuͤnſchet/ hegt/ da man kein Wol vermiſt.</l><lb/>
+<l>Zu ſolchem iſt ja auch gelangt die Edle Seele/</l><lb/>
+<l>Ob gleich der morſehe Leib zu Grabe wird geſchikkt</l><lb/>
+<l>Und eine Zeit verfaͤllt in ſelbter duͤſtern Hoͤle.</l><lb/>
+<l>Das Engeln gleiche Theil iſt tauſendfach begluͤkkt.</l><lb/>
+<l>Drumb iſt der beſte Rath ſich nur zu frieden ſtellen/</l><lb/>
+<l>Ob ſchon/ was uns betrifft/ der Abſchied ſchwer geht ein.</l><lb/>
+<l>Gnug/ daß das Ende heiſt ein gutes Urtheil faͤllen/</l><lb/>
+<l>Daß der verſchiedne muß im Paradieſe ſeyn.</l><lb/>
+<l>Und ob der Seelen Kleid muß in der Gruft verweſen/</l><lb/>
+<l>So koͤmmt es dermaleins doch wieder an das Licht.</l><lb/>
+<l>Sie koͤnnen nur davon im heil gen Buche leſen.</l><lb/>
+<l>Jedoch Sie wiſſens ſchon/ Sie zweiffeln minſtens nicht.</l><lb/>
+<l>Jndeſſen ſey jhr Troſt/ daß Sie einſt wieder ſchauen/</l><lb/>
+<l>Die Hertzgeliebteſten/ wo Sie kein Leib beruͤhrt/</l><lb/>
+<l>Wo dieſe/ die auf GOTT hier ſatzten jhr Vertrauen/</l><lb/>
+<l>Ein uͤberirꝛdiſch Kleid/ des Kleid der Unſchuld ziert.</l><lb/>
+<l>Du aber/ reiner Geiſt/ der du in reicher Wonne</l><lb/>
+<l>Schmekkſt allbereit die Luſt beliebter Ewigkeit/</l><lb/>
+<l>Verbleib daſelbſt. Gluͤck zu. Glaͤntz als die helle Sonnt.</l><lb/>
+<l>Wer ſo von hier/ wie Du/ gezogen/ lebt erfreut.</l></lg><lb/>
+<closer><salute><hi rendition="#et">Gebuͤhrendes mitleiden uͤber den Hin-<lb/>
+tritt ſeines hoͤchſigeſchaͤtzten <hi rendition="#aq">Pa-<lb/>
+trons</hi> anzuzeigen und etlicher<lb/>
+maſſen ſeine hohe Goͤnnere zu<lb/>
+troͤſten fertigte dieſes aus Leipzig<lb/>
+<hi rendition="#aq">M.</hi> <hi rendition="#fr">Gottfried Boͤttner.</hi></hi></salute></closer></div><lb/>
+<fw place="bottom" type="catch"><hi rendition="#b">Der</hi></fw><lb/>
+<pb facs="#f0013" n="[87]"/>
+<div n="2"><div n="3"><head><hi rendition="#b">Der Heyden Vergoͤtterung.</hi></head><lb/>
+<div n="4"><head><hi rendition="#aq">Mercurius.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">E</hi>S iſt ins Werck gericht/ was mir vertrauet worden</l><lb/>
+<l>Von dir/ O Jupiter/ was laͤngſt der gantze Orden</l><lb/>
+<l>Hier auf der Sternnenburg nach wolgepflogenem</l><lb/>
+<l><hi rendition="#et">Rath</hi></l><lb/>
+<l>Uber die Sterblichen mit recht verhaͤnget hat.</l><lb/>
+<l>Eh<supplied>'</supplied> ich nun aber dir der Sachen Lauf entdecke/</l><lb/>
+<l>Und/ wie das gantze Rond in Angſt und Kummer ſtecke/</l><lb/>
+<l>Erwaͤhne/ muß ich erſt mit freuden bringen an</l><lb/>
+<l>Daß itzt gen Himmel kommt ein rechter <hi rendition="#fr">Edelman</hi></l><lb/>
+<l>Von Blutts- und Muthes-Ehr der <hi rendition="#fr">Feſtenberger Ahnen/</hi></l><lb/>
+<l>So da bißher gefuͤhrt die Preiß- und Tugend-Fahnen.</l><lb/>
+<l>Denn als ich wiederum mich waͤndte/ nach dem Thor</l><lb/>
+<l>Der Himmels Burg zugehn/ erſchalt in meinem Ohr</l><lb/>
+<l>Ein Klag und Trauer-Thon drey <hi rendition="#fr">hoher Edler Hertzen/</hi></l><lb/>
+<l>Wie Jhnen Ladeſis noch nicht gedaͤmpfte Schmertzen</l><lb/>
+<l>Von neuer tauſendfach in Friedersdorff erregt/</l><lb/>
+<l>Jn dem Sie unverhoft durch einen Schnitt erlegt/</l><lb/>
+<l>Jn finſtern Sarg gebracht/ in kalte Gruft verſencket</l><lb/>
+<l>Den edlen <hi rendition="#fr">Feſtenberg/</hi> von Clothons Hand beſchencket</l><lb/>
+<l>Mit friſchem Lebens Geiſt/ den Atropos vermehrt.</l><lb/>
+<l>Bey Kriegs-und Friedens-Zeit erhalten unverſehrt.</l><lb/>
+<l>Den edlen <hi rendition="#fr">Feſtenberg/</hi> ſo Jhnen nach verlangen</l><lb/>
+<l>An Edler Tapfferkeit und Tugend vorgegangen.</l><lb/>
+<l>Den edlen <hi rendition="#fr">Feſtenberg/</hi> ſo Jhnen wolgeneigt</l><lb/>
+<l>Hoch Edler Vater Lieb und Sorgfalts-Treu erzeigt.</l><lb/>
+<l>Herein/ <hi rendition="#fr">O Edler Held! O Held von hohen Sinnen!</hi></l><lb/>
+<l>Von Deutſchen Ritter-Ruhm! Herein herein/ hierinnen</l><lb/>
+<fw type="catch" place="bottom">Wird</fw><lb/>
+<pb facs="#f0014" n="[88]"/>
+<l>Wird/ groſſer Feſtenberg/ bey ſtaͤtem Welergehn</l><lb/>
+<l>Dem Faß auf Ehren-Preiß/ auf Roſen Ewig ſtehen.</l></lg></div><lb/>
+<div n="4"><head><hi rendition="#aq">Jupiter.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">W</hi>As gutt iſt/ zeigt ſich bald/ Auch in der zarten Jugend</l><lb/>
+<l>Ein edles Kind erweiſt/ wie Tapfferkeit und Tugend</l><lb/>
+<l>Sein hoͤchſt Ergoͤtzung ſey; Wie ſein nach bloͤder Sinn</l><lb/>
+<l>Jn Kunſt und Wiſſenſchafft zuuͤben ſich beginn;</l><lb/>
+<l>Wires ſo eifrig ſey den beſten Schmuck der Helden/</l><lb/>
+<l>W<supplied>i</supplied>tz und Geſchickligkeit/ in weiſer Leute Melden</l><lb/>
+<l>Von Edler Ritters Ehr/ zuſuchen vor der Welt</l><lb/>
+<l>Daburch beruͤhmt zu ſein/ und in das rondte Zelt</l><lb/>
+<l>Des Stern-Reviers zugehn/ Wer Adlich iſt geſinnet/</l><lb/>
+<l>Sieht/ wie Er <choice><sic>Rnhm</sic><corr>Ruhm</corr></choice> und Ehr bald da/ bald dort gewinnet.</l><lb/>
+<l>Sein Math voll Tapfferkeit die Glieder friſch erregt/</l><lb/>
+<l>Zu fechten Ritterlich Luſt und belieben traͤgt.</l><lb/>
+<l>Er ſcheuet keine Muͤh/ Er laͤſt ſich nichts aufhalten/</l><lb/>
+<l>Was ſonſt die Mimmen ſchreckt/ den aller Muth erkalten</l><lb/>
+<l>Und kraff<supplied>t</supplied>loß werden wil; durch Mauer feſtes ſtehn</l><lb/>
+<l>Bey finſtrem Pulver-Dampf/ und ſtarcken Schuͤtz-Ge- <lb/>
+<space dim="horizontal"/>thoͤn</l><lb/>
+<l>Sucht Er den Sieges-Zweig mit Ehren zuerlangen!</l><lb/>
+<l>Ob Jhn auch ſchon Fortun dem Feinde gibt gefangen/</l><lb/>
+<l>Ja gar erlegen laͤſt, bleibt doch ſein Geiſt befreit/</l><lb/>
+<l>Find ſeinen Ritterſitz hier oben ſchon bereit.</l><lb/>
+<l>Wer Ruhm und Ehre ſucht/ in allen ſich bemuͤhet/</l><lb/>
+<l>Daß Er nicht ſchlaͤffrig ſey, bald da/ bald dorchin ſiehet/</l><lb/>
+<l>Wie er gelegenheit ergreifft/ und nach gebuͤhr</l><lb/>
+<l>Uhralten Ritters-Stand mit edler Leben Ziehr.</l><lb/>
+<l>Er gleichet ſich der Sonn/ und richtet ſeine Sinnen</l><lb/>
+<l>Auf diß/ was lieblich iſt/ was Adlich; Sein beginnen</l><lb/>
+<fw type="catch" place="bottom">Muß</fw><lb/>
+<pb facs="#f0015" n="[89]"/>
+<l>Muß gut und nuͤtzlich ſein. Weil aber gut<supplied>e</supplied> Frucht</l><lb/>
+<l>Bringt ſelten Einſamkeit/ Er Jhm bemuͤhſam ſucht</l><lb/>
+<l>Dergleichen Tugendbild/ ſo ſich dem Monden gleichet</l><lb/>
+<l>Jn ſeinem Wohnungs-Zelt/ und Jhm mit Willen reichet</l><lb/>
+<l>Recht treue Liebes-Hand/ mit Jhm zu Rathe geht/</l><lb/>
+<l>Bey Jhm in Noth und Tod als eine Mauer ſteht.</l><lb/>
+<l>So iſt Jhm alsdenn wol; ſo ſieht er wie in allen.</l><lb/>
+<l>Daß Gluͤck Jhm guͤnſtig iſt nach Luſt und auch gefallen;</l><lb/>
+<l>Jſt friſch und wolgemuth; Mit Freunden ſich ergoͤtzt/</l><lb/>
+<l>Doch daß der Tugend-Schmuck dadurch ſey unverletzt.</l><lb/>
+<l>Jn allem ſucht Er <choice><sic>Rnhm</sic><corr>Ruhm</corr></choice> durch Tugend; Jhre Stralen</l><lb/>
+<l>Sind ſein Ergaͤtzligkeit; Sein Thun kan niemand mahlen</l><lb/>
+<l>Nach Wuͤrden auf Papier. Sein Geiſt ſein edler Geiſt.</l><lb/>
+<l>Der ruͤhrt vom Himmel her/ und wird dahin geweiſt</l><lb/>
+<l>Durch Tugend/ die Jhn fuͤhrt. Weil alles bald vergehet/</l><lb/>
+<l>Was luſtig in der Welt/ was praͤchrig/ nicht beſtehet/</l><lb/>
+<l>Die Tugend ewig bleibt Jhr Ruhm ſich nicht verzehrt/</l><lb/>
+<l>Er nichts denn Tugend ſucht/ und Jhren Ruhm begehrt.</l><lb/>
+<l>Wer alſo Tugend liebt/ nach Ruhm und Ehren ſtrebet/</l><lb/>
+<l>Nicht wie Diogenes/ noch Epicurus lebet/</l><lb/>
+<l>Kombt in der Welt hervor ſein Nahme wird geatzt</l><lb/>
+<l>Jn Stahl und Marmelſtein/ den Fama aufgeſetzt.</l><lb/>
+<l>Wer alſo Tugend lie<supplied>b</supplied>t/ nach Ruhm und Ehren ſtrebet/</l><lb/>
+<l>Nicht an dem Jrꝛdiſchen mit Sinn und Hertzen klebet/</l><lb/>
+<l>Der lebet in der Welt/ und bleibt nicht in der Welt/</l><lb/>
+<l>Sein Geiſt ſchwingt ſich empor/ bewohnt diß Sternen- <lb/>
+<space dim="horizontal"/>Feld.</l><lb/>
+<l>Weil du denn/ Werther Geiſt von Feſtenberg/ geliebet</l><lb/>
+<l>Der Tugend ſchoͤnſten Schmuck; Darinnen Dich geuͤbet/</l><lb/>
+<l>Was Ruhm und Lob verdient/ darauf gewendet Fleiß/</l><lb/>
+<l>Wodurch erlanget wird der gruͤnend Ehren-Preiß/</l><lb/>
+<fw type="sig" place="bottom">M</fw><fw type="catch" place="bottom">So</fw><lb/>
+<pb facs="#f0016" n="[90]"/>
+<l>So ſol dein Nahm und Ruhm/ weil Er<supplied>d</supplied> und Himmel ſtehen/</l><lb/>
+<l>Durch Famam ſein bekand/ und niemals untergehen.</l><lb/>
+<l>Es ſol dein Nahm und Ruhm die Nach-Welt reitzen an</l><lb/>
+<l>Dir eiffrigſt nach zugehn auf rauher Tugend-Bahn.</l><lb/>
+<l>Hier ſoltu ewig ſein: Hier ſoltu nach Verlangen</l><lb/>
+<l>Mit edlem Tugend-Schein gleich als die Sternen prangen:</l><lb/>
+<l>Hier ſol Ambroſia dir geben Nahrungs-Krafft/</l><lb/>
+<l>Hier dich vergnuͤgen ſol der ſuͤſſe Nectar-Safft!</l><lb/>
+<l>Wo iſt Mercurius? Auf! Eile zu den Hertzen</l><lb/>
+<l>Von Edler Ritters-Art/ ſo itzt vor Trauerſchmertzen</l><lb/>
+<l>Jn Friedersdorff erblaſt und halb entſeelet ſtehn/</l><lb/>
+<l>Umb dieſen <hi rendition="#fr">Feſtenberg</hi> in tieffſten Leide gehen;</l><lb/>
+<l>Erwaͤhne/ daß ſein Geiſt/ ſein Edler Geiſt erreicht</l><lb/>
+<l>Der Tugend hoͤchſten Zweck/ und ſich den Sternen gleichet</l><lb/>
+<l>Hier auf der Goͤtterburg. <hi rendition="#fr">Wer alſo wolbetagt</hi></l><lb/>
+<l><hi rendition="#fr">Durch Tugend wird erhoͤht/ wird billich nicht</hi></l><lb/>
+<l><hi rendition="#fr"><hi rendition="#c">beklagt!</hi></hi></l></lg></div></div><lb/>
+<div n="3"><head><hi rendition="#b">Der Chriſten Beſeeligung.</hi></head><lb/>
+<div n="4"><head><hi rendition="#aq">Pietas.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">G</hi>OTT/ GOTT ſey Eurer Troſt GOTT ſtaͤrck-</l><lb/>
+<l><hi rendition="#et">Euch/ Edle Sinnen!</hi></l><lb/>
+<l>Was iſt der Menſch? Ein Menſch. Des Menſchen</l><lb/>
+<l><hi rendition="#et">ſein Beginnen</hi></l><lb/>
+<l>Was iſts/ Sein gantzes Thun was iſts/ Ach Eitelkeit!</l><lb/>
+<l>Was mit der Zeit entſteht/ vergeht auch mit der Zeit!</l><lb/>
+<l>Da liegts das <hi rendition="#fr">Edle Haubt!</hi> Da liegts! Es iſt geſchehen</l><lb/>
+<l>Jn einem Augenblick/ was Jhr Euch nicht verſehen</l><lb/>
+<l>So bald/ ſo unverhofft! Was GOTT ſetzt muß beſtehn.</l><lb/>
+<l>Geſtecktes Lebens-Ziel mag niemand uͤbergehn!</l><lb/>
+<fw place="bottom" type="catch">Zwar</fw><lb/>
+<pb facs="#f0017" n="[91]"/>
+<l>Zwar iſts ein ſchweres Ach! ein ſchweres iſts/ verliehrein</l><lb/>
+<l>So Edles <hi rendition="#fr">Vater-Haubt!</hi> Ach Hertz und Sinn zuruͤhren</l><lb/>
+<l>Pflegt traun dergleichen Fall! doch was <hi rendition="#g">GOTT</hi> wil/</l><lb/>
+<l><hi rendition="#c">muß ſein/</hi></l><lb/>
+<l>Drumb allzu groſſes Leid und Trauren ſtellet ein!</l><lb/>
+<l>Wer wohlgebohren iſt/ auch wol und Chriſtlich lebet/</l><lb/>
+<l>Jm Glauben letzten Kampf des Todes uͤberſtrebet/</l><lb/>
+<l>Wiel nicht betrauret ſein! Sein Ruhm gruͤne in der</l><lb/>
+<l><hi rendition="#c">Welt;</hi></l><lb/>
+<l>Sein Geiſt bleibt unverſehrt/ wenn Erd und Himmel</l><lb/>
+<l><hi rendition="#c">faͤllt!</hi></l><lb/>
+<l>Ach Traurens voller Wahn/ Ach Thorheit blinder Heyden!</l><lb/>
+<l>Ach allzu ſalſcher Weg die Sterbligkeit zumeiden/</l><lb/>
+<l>Jn Tugend uͤben ſich/ durch Muͤh und ſtaͤten Fleiß</l><lb/>
+<l>Kunſt und Geſchickligkeit/ auch werthen Ehren Preiß</l><lb/>
+<l>Zufinden ſich bemuͤhn/ wil Chriſten auch gebuͤhren:</l><lb/>
+<l>Daß aber ſolches Thun uns ſolt gen Himmel ſuͤhren</l><lb/>
+<l>Wo Goͤtter jhren Sitz und Wohnung aufgericht/</l><lb/>
+<l>Daſelbſten unſern Geiſt vern aͤhln dem Sternen-Licht/</l><lb/>
+<l>Jſt nichts/ als Fabelwerck: Kan keinen Troſt erregen</l><lb/>
+<l>Bey hoͤchſt betruͤbtem Geiſt/ muß Chriſten nicht bewegen.</l><lb/>
+<l>Ein Chriſt weiß ſeinen GOTT/ und GOTT weiß</l><lb/>
+<l><hi rendition="#c">ſeinen Sinn/</hi></l><lb/>
+<l>Ehrt Er nun ſeinen GOTT/ ſo ehret GOTT auch</l><lb/>
+<l><hi rendition="#c">Jhn.</hi></l><lb/>
+<l>Ein Chriſt noch zartes Kind wird C Hriſto ein verleibet;</l><lb/>
+<l>So Er bey C Hriſto bleibt/ auch C Hriſtus bey Jhm bleibets</l><lb/>
+<l>An Jahren nimmt Er zu/ waͤchſt an Beſcheidenheit/</l><lb/>
+<l>Wird reich an GOttesfurcht/ groß an Geſchickligkeit.</l><lb/>
+<l>Geht endlich in die Welt/ mit CHriſto ſich bemuͤhet</l><lb/>
+<l>Um daß/ was ruͤhmlich iſt. Wenn ſein Geluͤcke bluͤhet</l><lb/>
+<fw type="sig" place="bottom">M ij</fw><fw type="catch" place="bottom">So</fw><lb/>
+<pb facs="#f0018" n="[92]"/>
+<l>So ſpart Er keinen Fleiß demſelben nach zugehn/</l><lb/>
+<l>Sein Sinn/ ſein edler Sinn/ muß niemals muͤſſig ſtehn.</l><lb/>
+<l>Erreicht Er ſeinen Zweck? Wol! Dieſes ſein Begehren</l><lb/>
+<l>Von C Hriſto ferner iſt/ Jhm ſo viel zugewehren/</l><lb/>
+<l>Daß Sein behertzter Geiſt mit Ann<hi rendition="#aq">æ</hi> Geiſt vermaͤhlt</l><lb/>
+<l>Zu den Geſegneten des HERREN ſey gezehlt?</l><lb/>
+<l>Daß Er in ſeinem Hauß ein Chriſtlich Leben fuͤhre/</l><lb/>
+<l>Daſſelbe durch und durch mit Witz und Tugend ziehre/</l><lb/>
+<l>Daß Er von GOTT erhoͤht Ruhmwuͤrdigſt einhergeh/</l><lb/>
+<l>Und mit Gerechtigkeit und Rath geruͤſtet ſteh.</l><lb/>
+<l>Erreicht Er ſeinen Zweck? Sein ſehnliches Begehren</l><lb/>
+<l>Von CHriſto endlich iſt/ Jhm diß noch zugewehren</l><lb/>
+<l>Daß Er nun wol vergnuͤgt moͤg<supplied>'</supplied> in gewuͤntſchter Ruh/</l><lb/>
+<l>Jm Glauben feſt gegruͤndt ſein Leben bringen zu</l><lb/>
+<l>Naht ſich ſein Lebens-Ziel? Wird Jhm von GOTT ge-</l><lb/>
+<l><hi rendition="#c">ſendet</hi></l><lb/>
+<l>Gewiſſe Todes-Poſt: Zu CHriſto Er ſich wendet/</l><lb/>
+<l>Bitt umb Beſtaͤndigkeit im Glauben/ umb Gedult</l><lb/>
+<l>Beweinet bitterlich/ was Er jemals verſchuld.</l><lb/>
+<l>Sieht Er die Seinigen betruͤbet vor Jhm ſtehen/</l><lb/>
+<l>Jhr Augen mildiglich mit Thraͤnen uͤbergehen/</l><lb/>
+<l>So redt ſein Matter Mund nichts als was froͤlich macht/</l><lb/>
+<l>Er muntert Jhren Sinn/ und giebet gutte Nacht.</l><lb/>
+<l>Ruft: JESU komm! Ach komm! Auß dieſem Welt Ge-</l><lb/>
+<l><hi rendition="#c">tuͤmmel</hi></l><lb/>
+<l>Erloͤſe meinen Geiſt/ laß Jhn mit dir im Himmel</l><lb/>
+<l>Vor deinem Vater ſtehn! Wer ſo mit CHriſto lebt</l><lb/>
+<l>Von Kindesbeinen an; Wer ſo nach Tugend ſtrebt/</l><lb/>
+<l>So viel Jhm moͤglich iſt; Wer ſo mit CHriſto endet</l><lb/>
+<l>Geſetzte Lebens-Zeit und ſich gen Himmel wendet/</l><lb/>
+<fw type="catch" place="bottom">Wo</fw><lb/>
+<pb facs="#f0019" n="[93]"/>
+<l>Wo ſein Erloͤſer iſt/ der/ der verdienet Ruhm/</l><lb/>
+<l>Bekommt die Ewigkeit zu ſeinem Eigenthum!</l></lg></div><lb/>
+<div n="4"><head><hi rendition="#c"><hi rendition="#aq">Sobri Etas.</hi></hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">A</hi>Ch werthe Pietas/ was du uns itzt geſaget/</l><lb/>
+<l>Jſt mir zwar wol bewuſt! Mit recht wird nicht beklaget/</l><lb/>
+<l>Wer wohlgeſtorben iſt! Doch iſt mein Schmertz ſehr</l><lb/>
+<l><hi rendition="#c">groß/</hi></l><lb/>
+<l>Weil ich nun gantz und gar bin <hi rendition="#fr">Vater-Mutter-loß.</hi></l><lb/>
+<l>Jch lieg<supplied>'</supplied>/ ich ſitz<supplied>'</supplied>/ ich ſteh<supplied>'</supplied>/ ich geh<supplied>'</supplied>/ ich ſchlaff/ ich bringe</l><lb/>
+<l>Die Zeit mit Wachen zu/ ich fleh<supplied>'</supplied>/ ich beth<supplied>'</supplied>/ ich ſinge/</l><lb/>
+<l>So fuͤhl ich leider! Wie mein halb entſeelter Sinn</l><lb/>
+<l>Seuftz: Edler <hi rendition="#fr">Eltern Treu/</hi> Ach wo iſt die nun hin?</l><lb/>
+<l>Hab<supplied>'</supplied> ich nicht tieff genung bißher in Angſt geſeſſen?</l><lb/>
+<l>Sol meiner/ Liebſter GOTT/ nun gaͤntzlich ſein vergeſſen?</l><lb/>
+<l>Wo iſt mein <hi rendition="#fr">Augenrroſt?</hi> Wo iſt mein Schutz und</l><lb/>
+<l><hi rendition="#c">Rath/</hi></l><lb/>
+<l>Wir legen Jhn ins Grab! O Schmertzens volle That!</l></lg></div><lb/>
+<div n="4"><head><hi rendition="#c"><hi rendition="#aq">Temperantia.</hi></hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">J</hi>A billich klagen wir/ weil nun wird zugedecket/</l><lb/>
+<l>Mit Holtz und kalten Stein/ Der ſo uns noch erwecket</l><lb/>
+<l>Jm Hertzen luͤſſer Troſt/ von auſſen Liebligkeit/</l><lb/>
+<l>Weil Er nach Vaters Art uns mit beſcheidenheit</l><lb/>
+<l>Sehr wol/ Ach wol! Verſorgt. Der abgematten Sinnen</l><lb/>
+<l>War nebenſt GOttesfurcht Jhr eintziges Beginnen</l><lb/>
+<l>Wie/ wenn ſie itzt hinweg/ moͤg<supplied>'</supplied> alles richtig ſtehn/</l><lb/>
+<l>Wie es nach jhrem Wuntſch uns Waͤyſen moͤg<supplied>'</supplied> ergehn!</l><lb/>
+<l>Ach billich klagen wir/ beſtecken mit Cypreſſen</l><lb/>
+<l>Der <hi rendition="#fr">Edlen Eltern Sitz!</hi> doch daß wir nicht vergeſſen/</l><lb/>
+<fw place="bottom" type="sig">M iij</fw><fw place="bottom" type="catch">Den</fw><lb/>
+<pb facs="#f0020" n="[94]"/>
+<l>Den Schmertz zumaͤſſigen/ <hi rendition="#g">GOTT</hi> iſts! GOTT</l><lb/>
+<l><hi rendition="#c">hats gethan/</hi></l><lb/>
+<l><hi rendition="#g">GOTT</hi> iſts der Waͤyſen macht/ der Waͤyſen helf-</l><lb/>
+<l><hi rendition="#c">fen kan/</hi></l></lg></div><lb/>
+<div n="4"><head><hi rendition="#aq">Sobri Etas.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">A</hi>Ch Schweſters/ liebſtes Kind/ du kanſt noch eher</l><lb/>
+<l><hi rendition="#c">daͤmpffen</hi></l><lb/>
+<l>Der Schmertzen heiſſe Glutt/ Auch viel getroſter kaͤmpffen</l><lb/>
+<l>Mit Leid und Traurigkeit! Wie ich verlaſſen ſey/</l><lb/>
+<l>Weiß/ leider/ jederman! Huͤlff GOTT! GOTT ſieh</l><lb/>
+<l><hi rendition="#c">mir bey <gap reason="illegible" unit="chars" quantity="1"/></hi></l><lb/>
+<l>Was iſt mein Leben! Angſt. Was iſt mein Thun! Be-</l><lb/>
+<l><hi rendition="#c">truͤben.</hi></l><lb/>
+<l>Nichts iſt/ daß mir gefaͤllt: Nichts/ daß ich koͤnte lieben:</l><lb/>
+<l>Nichts iſt/ daß mich vergnuͤgt<supplied>!</supplied> Nichts iſt/ das mich be-</l><lb/>
+<l><hi rendition="#c">wegt<supplied>!</supplied></hi></l><lb/>
+<l>Mein gantzes Sinnen-Werck iſt mit ins Grab gelegt<supplied>!</supplied></l></lg></div><lb/>
+<div n="4"><head><hi rendition="#aq">Temperantia.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">A</hi>Ch billich klagen wir<supplied>!</supplied> Doch unſer Haͤnde-Ringen</l><lb/>
+<l>Und uͤberhaͤufftes Leid kan uns nicht wieder bringen/</l><lb/>
+<l>Was GOTT genommen hat<supplied>!</supplied> Wer mag GOTT wit-</l><lb/>
+<l><hi rendition="#c">derſtehn?</hi></l><lb/>
+<l>Was Er in ſeinem Rath beſchleuſt/ muß vor ſich gehn.</l><lb/>
+<l>Drumb laſt uns traurig ſein; Doch nicht in Ohnmacht fallen</l><lb/>
+<l>Vor Angſt und Traurigkeit<supplied>!</supplied> Laſt ſtets bey uns erſchallen:</l><lb/>
+<l>Wer Chriſtlich hat gelebt/ und endlich Chriſtlich ſtirbt/</l><lb/>
+<l>Bey GOtt und aller Welt den hoͤchſten Ruhm erwirbt.</l></lg></div><lb/>
+<div n="4"><head><hi rendition="#aq">Conſtantla.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">M</hi>Ein Geiſt iſt auch betraͤbt/ daß Er verwaͤyſet ſtehen</l><lb/>
+<l>Und mit dem beſten <hi rendition="#fr">Freund<supplied>'</supplied></hi> itzt muß zu Grabe gehen</l><lb/>
+<fw type="catch" place="bottom">(Nichts</fw><lb/>
+<pb facs="#f0021" n="[95]"/>
+<l>(Nichts iſt beſtaͤndiges in dir/ O ſchnoͤde Welt/</l><lb/>
+<l>Was ſich itzt lieblich zeigt/ noch wol den Abend faͤllt!)</l><lb/>
+<l>Jch dacht mich mit Jhm nun erſt recht zuergoͤtzen;</l><lb/>
+<l>So gieng es unverhofft an ein Betruͤbtes letzen!</l><lb/>
+<l>Sein Sinn verließ die Welt/ rieff ſeinen JEſum an:</l><lb/>
+<l>Komm/ fuͤhre mich mit Dir auf rechter Lebens-Bahn!</l><lb/>
+<l>Was wellen wir nun thun/ O hoͤchſt <hi rendition="#fr">Betruͤbte Hertzen?</hi></l><lb/>
+<l>Wer weiß nicht ſeinen Stand? Wer weiß nicht/ was dor</l><lb/>
+<l><hi rendition="#c">Schmertzen</hi></l><lb/>
+<l>Er unter worffen war? Wie Er bey Tag und Nacht</l><lb/>
+<l>Des Lebens letzten Reſt mit Schwachheit zugebracht?</l><lb/>
+<l>Nun aber iſt Jhm wol/ nun iſt Jhm diß benommen/</l><lb/>
+<l>Was Jhn hier ſtets gequaͤlt. Nun iſt Er dahin kommen.</l><lb/>
+<l>Wo ſein Erloͤſer iſt. Wo Er nun Ewig lebt/</l><lb/>
+<l>Jn Fried<supplied>'</supplied> und ſtoltzer Ruh vor GOttes Thron ſchwedt.</l><lb/>
+<l>Weil alſo Jhm ſehr wol/ ach gar zuwol! geſchehen/</l><lb/>
+<l>So laß uns ſtellen ein das uͤberhaͤuffte Flehen!</l><lb/>
+<l>Wol dem/ der gleich wie Er/ druͤckt ſeine Augen zu!</l><lb/>
+<l>Wol dem/ der gleich wie Er/ kommt zu der Himmels<supplied>-</supplied></l><lb/>
+<l><hi rendition="#c">Ruh!</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et">Mit dieſen geringſchaͤtzigen Klag- und<lb/>
+Troſt-Zeilen ſuchet gegen den Hoch-<lb/>
+Adelichen/ Schmertz-Betruͤbten<lb/>
+Packiſchen Erben/ ſein hertzliches<lb/>
+Mitleiden ſchuldigſter Maſſen zu-<lb/>
+bezeugen/ der ſelbſten unwuͤrdigſter<lb/>
+Diener<lb/>
+<hi rendition="#fr">Chriſtoph Baͤniſch/</hi><lb/>
+<hi rendition="#aq">Theol. Stud.</hi></hi></salute></closer></div></div></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+</div>  </body></text>  </TEI>

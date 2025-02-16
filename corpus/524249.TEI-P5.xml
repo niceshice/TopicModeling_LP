@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Christlich Leichpredigt/ Bey der Ehrn vnnd Tugendsamen Frawen Marte/ geborner Ansin</title>
+<author>
+<persName ref="http://d-nb.info/gnd/122121252">
+<surname>Zuckwolf</surname>
+<forename>Johann Jacob</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">16</measure>
+<measure type="tokens">2762</measure>
+<measure type="types">1167</measure>
+<measure type="characters">18641</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:10:40Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/524249</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/524249</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/524249</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/524249</idno>
+<idno type="DTADirName">524249</idno>
+<idno type="DTAID">200226</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-200226-9</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Zuckwolf, Johann Jacob: Christlich Leichpredigt. Darmstadt, 1614.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Christlich Leichpredigt/ Bey der Ehrn vnnd Tugendsamen Frawen Marte/ geborner Ansin</title>
+<author>
+<persName ref="http://d-nb.info/gnd/122121252">
+<surname>Zuckwolf</surname>
+<forename>Johann Jacob</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">16</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Balthasar Hofmann</name></publisher>
+<pubPlace>Darmstadt</pubPlace>
+<date type="publication">1614</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 S 168/3 / 524249</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"><docTitle><titlePart type="main">Chriſtlich Leichpredigt/</titlePart><lb/>
+<titlePart type="desc"><hi rendition="#b"><hi rendition="#in">B</hi>ey der <hi rendition="#in">E</hi>hrn vnnd<lb/>
+Tugendſamen Frawen Marte/ ge-</hi><lb/>
+borner Anſin/ weyland deß Ehꝛnveſten/ Vor-<lb/>
+geachten Herꝛn Dieterich Orthen/ Burgers.<lb/>
+vnd deß Gerichts zu Haylbron ſeligen<lb/>
+hinderlaſſener Wittib:<lb/>
+<hi rendition="#b">Welche den 29. Maij/ anuo 1613. zu</hi><lb/>
+Abend zwiſchen 11. vnd 12. Vhren ſeliglich entſchlaffen/<lb/>
+vnd folgenden 31. Maij ehrlich zur Erden<lb/>
+beſtattet worden.</titlePart></docTitle><lb/>
+<byline>Gehalten<lb/>
+Durch <docAuthor><hi rendition="#aq">M. Ioannem</hi> Zůckwolffen</docAuthor>/ Pre-<lb/>
+digern am Wort Gottes in Haylbron.</byline><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docImprint><hi rendition="#b">Gedruckt zu </hi><pubPlace><hi rendition="#b">Darmbſtatt</hi></pubPlace><hi rendition="#b">/ durch </hi><publisher><hi rendition="#b">Baltha-</hi><lb/>
+ſar Hofmann</publisher>/ im Jahr <docDate><hi rendition="#aq"><hi rendition="#g"><hi rendition="#i">MDCXIV</hi></hi></hi></docDate><hi rendition="#aq"><hi rendition="#g"><hi rendition="#i">.</hi></hi></hi></docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="[2]"/>
+<figure/>
+<pb facs="#f0003" n="3"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsSermon" n="1"><head/>  <div type="fsBibleVerse" n="2"><head><hi rendition="#aq">Textus.</hi></head><lb/>
+<cit><bibl><hi rendition="#c">Auß dem Evangelio Matthei am 24. Cap.</hi></bibl><lb/>
+<quote><hi rendition="#fr"><hi rendition="#in">D</hi>Arumb wachet vnd betet/ dann<lb/>
+jhr wiſſet nicht welche Stundt<lb/>
+ewer <hi rendition="#k">Herr</hi> kommen wuͤrd/<lb/>
+das ſolt jhr aber wiſſen/ wann<lb/>
+ein Haußvatter wuͤſte/ welch Stund der<lb/>
+Dieb kom̃en wuͤrd/ ſo wuͤrde er ja wachen<lb/>
+vnd nicht in ſein Hauß brechen laſſen.<lb/>
+Darumb ſeyt jhr auch bereyt/ Dann deß<lb/>
+Menſchen Sohnwuͤrd kommen zu einer<lb/>
+Stund da jhr nicht meynet/ ꝛc.</hi></quote></cit></div><lb/>
+<div type="fsExordium" n="2"><head><hi rendition="#aq">Explicatio.</hi></head><lb/>
+<p><hi rendition="#in">E</hi>S hat ein Alter Kirchenlehrer ſchoͤn ge-<note place="right"><hi rendition="#aq">Hugo.</hi></note><lb/>
+ſchrieben vnd geſagt/ Der Tod hab dreyer-<lb/>
+ley abgeſandter Botten: Der Erſte heiſſe<lb/>
+<hi rendition="#aq">Caſus, id eſt,</hi> ein ſchneller ploͤtzlicher Zu-<lb/>
+<fw place="bottom" type="sig">A ij</fw><fw place="bottom" type="catch">fall:</fw><lb/>
+<pb facs="#f0004" n="4"/>
+<fw type="header" place="top">Chriſtliche Leichpredigt/</fw><lb/>
+fall: Der Ander/ <hi rendition="#aq">Infirmitas, i.</hi> Leibs Kranckheit:<lb/>
+Der Dritte/ <hi rendition="#aq">Senectus, id eſt,</hi> das hohe Alter: Vnnd<lb/>
+meldet zugleich/ der Erſte Bott bringe zweiffelhaffti-<lb/>
+gen: der Ander ernſtlichen: der Dritte aber gewiſſen<lb/>
+Beſcheid. Vnd ſetzt noch ferꝛners darzu/ der Erſt bring<lb/>
+den verborgenen/ der Ander den herzunahenden/ der<lb/>
+Dritt aber den gegenwertigen Todt.</p><lb/>
+<p>Wann wir nun fleiſſig achtung darauff geben/ be-<lb/>
+finden wir daß dieſe drey Legaten/ alle Stund/ Tag/<lb/>
+Monat vnd Jahr in der gantzen Welt vmbpoſtiren/<lb/>
+dann die taͤgliche Erfahrung bezeugts/ daß viel Leuth<lb/>
+ſterben/ die entweder ein Zeitlang kranck gelegen/ oder<lb/>
+wegen jhres hohen Alters/ oder daß ſie mit ſchnellen<lb/>
+Zufaͤllen vbereylet/ ſtarcker <hi rendition="#aq">Apoplexia</hi> oder Gottes<lb/>
+Gewalt getroffen werden: Nun erſchrecken vns dieſe<lb/>
+Bottſchafften gleichwol alle drey/ wann ſie vns zu<lb/>
+Hauß kommen/ aber der ſchnelle vnverſehene Bott<lb/>
+am allermeiſten. Damit wir nun wiſſen wie wir ſol-<lb/>
+chem Schrecken vorbawen/ vnd in ſchnellen ploͤtzlichen<lb/>
+Zuſtaͤnden troͤſten ſollen/ ſo laſſet vns ſolches kuͤrtzlich<lb/>
+lernen auß den Worten Chriſti vnſers Heylands/ dar-<lb/>
+zu Gott die Gnad ſeines H. Geiſtes geben wolle.</p></div><lb/>
+<div type="fsMainPart" n="2"><head><hi rendition="#aq">Videamus.</hi></head><lb/>
+<p><hi rendition="#in">E</hi>S ſchreibet Chriſtus vnſer Heylandt vns zwo<lb/>
+nůtzliche Reguln vor/ die wir practiciren ſollen<lb/>
+<fw type="catch" place="bottom">in</fw><lb/>
+<pb facs="#f0005" n="5"/>
+<fw type="header" place="top">auß dem 24. Cap. Matthei.</fw><lb/>
+in vnſerm Leben/ Die erſte heiſt wachen: nicht daß wir<lb/>
+dem Leib nach alzeit wachen ſolten/ dañ das iſt vnmuͤg-<lb/>
+lich/ ſondern der Seelen nach/ Wir ſollen vnſers Heils<lb/>
+war nehmen/ Gott vor Augen haben/ vns der Gottſe-<lb/>
+ligkeit befleiſſigen/ vnnd wachen von ſuͤndlichen Wer-<lb/>
+cken/ wie Petrus vermahnet/ Weil wir wiſſen die zeit/<note place="right"><hi rendition="#i"><hi rendition="#aq">Rom.</hi> <supplied>13</supplied></hi></note><lb/>
+daß die Stund da iſt/ auffzuſtehen vom Schlaff/ die<lb/>
+Nacht iſt vergangen/ aber der Tag herbey kommen/<lb/>
+ſo laſſet vns ablegen die Werck der Finſternuß/ vnnd<lb/>
+anlegen die Waffen deß Liechts.</p><lb/>
+<p>Die ander Regul heiſt Beten/ dann es iſt Chriſto<lb/>
+vnſerm <hi rendition="#k">Herren</hi> wolbewuſt/ daß wir nicht gnug<lb/>
+wachen vnd wehren koͤnnen/ weil wir der Feinde zuvtel<lb/>
+haben/ die vns nachſchleichen/ darumb befihlet er vns<lb/>
+das Gebet/ wir ſollen durch daſſelbe GOtt zu einem<lb/>
+trewen Beyſtandt anſprechen.</p><lb/>
+<p>Es ſetzet aber der <hi rendition="#k">Herr</hi> auch Vrſachen/ warumb<lb/>
+wir vns dieſer beyden Reguln gemeß verhalten ſollen/<lb/>
+dann ſagt er/ Jhr wiſſet nicht/ zu welcher Stund ewer<lb/>
+<hi rendition="#k">Herr</hi> kompt/ Vnnd damit mans noch baß veſtehe/<lb/>
+ſo braucht er ein Gleichnuß/ von einem Naͤchtlichen<lb/>
+Dieb/ Dann wann ein Haußvatter wůſte/ daß jhm<lb/>
+einer in der Nacht wuͤrde einbrechen/ ſo wůrde er vmb<lb/>
+der einigẽ vngewiſſen Stund willen/ die gantze Nacht<lb/>
+wachen/ jhme auff den Dienſt warten/ damit jhm ſein<lb/>
+Haab vnd Gůter nit entwendet wuͤrden. Darauff<lb/>
+<fw type="sig" place="bottom">A iij</fw><fw type="catch" place="bottom">ſchlenſt</fw><lb/>
+<pb facs="#f0006" n="6"/>
+<fw place="top" type="header">Chriſtliche Leichpredigt/</fw><lb/>
+ſchleuſt Chriſtus vnſer <hi rendition="#k">Herr/</hi> Darumb ſeyt jhr auch<lb/>
+bereyt/ wann deß Menſchen Sohn kompt/ in einer<lb/>
+Stund da jhr nicht meynet/ vnnd jhr nicht der ewigen<lb/>
+Himmliſchen Guͤter beraubet werdet.</p><lb/>
+<div n="3"><head>Lehr.</head><lb/>
+<p><hi rendition="#in">H</hi>Jerauß ſehen wir: Ob wol allen Menſchen/ jhr<lb/>
+Sterben vnd Abſchied auß dieſer Welt beſtim̃et<lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Iob.</hi> 14.</hi></note>iſt/ wie Job ſagt/ Der Menſch hat ſein beſtimbte<lb/>
+Zeit/ die Tage ſeiner Monat ſtehen bey dir/ du haſt jhm<lb/>
+ein Ziel geſetzt/ das wůrd er nicht vbergehen/ So ſeye<lb/>
+doch den Menſchen nichts tieffers verborgen/ als die<lb/>
+Zeit vnd Stundt/ wann der <hi rendition="#k">Herr</hi> kommen/ vnnd<lb/>
+jhn abfordern wuͤrd/ wie Salomon ſagt/ Der Menſch<lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Ecel.</hi> 9.</hi></note>weiß ſein Zeit nit/ ſondern wie die Fiſch gefangen wer-<lb/>
+den/ mit einem ſchaͤdlichen Hammen/ vnd wie die Voͤ-<lb/>
+gel mit einem Strick gefangen werden/ ſo werden auch<lb/>
+die Menſchen beruͤckt zur boͤſen Zeit/ wann ſie ploͤtzlich<lb/>
+vber ſie fellt.</p><lb/>
+<p>Es hatte zwar ſonſt Gott ſeinen Heiligen groſſe<lb/>
+Geheimnuß offenbahret: aber die Zeit jhres Todtes<lb/>
+nit. Jſaac der Patriarch/ da er ſein Teſtament macht/<lb/>
+ſagt er/ Jch weiß nit wenn ich ſterben muß: vnd zu Job<lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Iob.</hi> 38.</hi></note>ſagt Gott/ Wuͤſteſt du auch/ daß du in der Zeit ſolteſt<lb/>
+geboren werden/ vnd wieviel deiner Tag ſeyn wuͤrden:<lb/>
+Als wolt er ſagen/ du weiſt eins ſo wenig als das ander.<lb/>
+<fw place="bottom" type="catch">Dieweil</fw><lb/>
+<pb facs="#f0007" n="7"/>
+<fw type="header" place="top">auß dem 24. Cap. Matthei.</fw><lb/>
+Dieweil dann nichts vngewiſſers als die Stundte deß<lb/>
+Todtes/ vnnd es geſchehen kan/ daß man ploͤtzlich da-<lb/>
+von muß/ wie der 90. Pſalm redet/ vnd deren Exempel<lb/>
+in heiliger Schrifft viel funden werden/ an Eli/ an<note place="right"><hi rendition="#i">1. <hi rendition="#aq">Sam.<lb/>
+4.<lb/>
+ob.</hi> 1.</hi></note><lb/>
+Jobs Kindern/ an den achtzehen Maͤnnern die der<lb/>
+Thurn zu <hi rendition="#aq">Syloa</hi> erſchlagen/ an <hi rendition="#aq">Anania</hi> vnd <hi rendition="#aq">Saphi-</hi><note place="right"><hi rendition="#i"><hi rendition="#aq">Lucæ</hi> 13.</hi></note><lb/>
+<hi rendition="#aq">ro,</hi> an <hi rendition="#aq">Eutycho</hi> dem Jůngling/ vnnd noch heutiges<note place="right"><hi rendition="#i"><hi rendition="#aq">Actor.</hi> 5.<lb/>
+20.</hi></note><lb/>
+Tages die <hi rendition="#aq">Apoplexia</hi> oder Gottes Gewalt viel Leut<lb/>
+ploͤtzlich hinweg nimpt/ da man in einer Stundt ge-<lb/>
+ſundt vnd kranck/ lebendig vnnd todt iſt. So ſoll kein<lb/>
+Menſch ſich vermeſſen/ nur ein Tag zu vberleben/ wie<lb/>
+dann Salomon darfuͤr warnet/ Ruͤhme dich nicht<lb/>
+deß Morgenden Tags/ dann du weiſt nicht was dir<lb/>
+vor Abendts begegnen mag. Sondern es ſoll ein jeder<lb/>
+dieſe zwo Reguln Chriſti vnſers <hi rendition="#k">Herrn</hi> in ſtether<lb/>
+vbung haben/ der Seelen nach zu Gott wachen/ ſeiner<lb/>
+Seligkeit warnehmen/ die Mittel die Gott ſelber zu-<lb/>
+gebrauchen verordnet/ nemblich Chriſtlich leben/ vnd<lb/>
+ſich vor fuͤrſetzlichen Suͤnden zuhůten/ oder da man ja<lb/>
+wolt in Suͤnden entſchlaffen/ durch die Waͤchter/ das<lb/>
+iſt/ die Lehrer vnd Prediger/ vffwecken laſſen/ wie dann<lb/>
+David von Nathan/ vnd Ninivit<hi rendition="#aq">æ</hi> von Jona vffge-<lb/>
+wecket worden ſind. Dar nach auch ernſtlich beten:<lb/>
+Es ſoll kein Chriſt ſeyn/ der nicht ſein Gebet/ alle Mor-<lb/>
+gen fleiſſig verꝛichte/ in betrachtung/ daß den Tag vber<lb/>
+jhme viel wider wertiges zuhanden ſtoſſen kan: Es ſoll<lb/>
+<fw type="catch" place="bottom">kein</fw><lb/>
+<pb facs="#f0008" n="8"/>
+<fw type="header" place="top">Chriſtliche Leichpredigt/</fw><lb/>
+kein Chriſt ſeyn/ der nit zu Abendts wenn er ſchlaffen<lb/>
+gehen will/ embſig bete/ dann es heiſt ja/ die Nacht iſt<lb/>
+niemandts Freundt.</p><lb/>
+<p>Es ſoll kein Chriſt ſeyn/ der nicht/ wann er von<lb/>
+Hauß gehet/ ſich GOtt befehle/ dann den Außgang<lb/>
+weiß man wol/ aber den Eingang nicht/ darumb dann<lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Pſalm.</hi><lb/>
+121.</hi></note>ein Chriſt mit David ſagen ſoll/ Der <hi rendition="#k">Herr</hi> behuͤte<lb/>
+meinen Außgang vnnd Eingang/ von nun an biß in<lb/>
+Ewigkeit.</p><lb/>
+<p>Ja ſo offt ein Chriſt hoͤrt ein Stundt ſchlagen/ ſoll<lb/>
+er in ſeinem Hertzen gedencken vnd ſagen/ verleyhe mir<lb/>
+GOtt ein ſelige Stundt/ recht zuglauben/ Chriſtlich<lb/>
+zuleben/ geduͤltig zu leyden/ vnd ſelig zuſterben/ dann es<lb/>
+bringet ja ein einige Stund/ das ſonſt ein gantzes Jahr<lb/>
+nit bringt. So wir nun alſo dieſe Reguln Chriſti vn-<lb/>
+ſers <hi rendition="#k">Herrn</hi> fleiſſig practiciren/ ſollen wir als dann<lb/>
+den Himmel vber vns decken/ vnd nicht hoch anfechten<lb/>
+laſſen/ wann wir ſchon ploͤtzlich darvon muͤſſen.</p><lb/>
+<p>Sagt aber jemandt/ ja es erſchroͤcken aber dannoch<lb/>
+die Leuth ob ſolchen ſchnellen Faͤllen/ vnd thut ſonder-<lb/>
+lich den Kindern wehe/ wann jhre Eltern jnen ſo ploͤtz-<lb/>
+lich entzogen werden. Es iſt gleichwol nicht ohne/ aber<lb/>
+wie deme/ ſo ſollen wir hierin erſtlich diß vnſern Troſt<lb/>
+ſeyn laſſen/ daß ſolche Todtsfaͤll nicht den vnſerigen<lb/>
+allein begegnen/ ſondern es ſeye auch dergleichen an-<lb/>
+dern frommen Leuthen begegnet/ wie wir dann zuvor<lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">Exempla</hi></fw><lb/>
+<pb facs="#f0009" n="9"/>
+<fw type="header" place="top">auß dem 24. Cap. Matthei.</fw><lb/>
+<hi rendition="#aq">Exempla</hi> angehoͤret/ vnd auch Johanni dem Apoſtel<lb/>
+dergleichen widerfahren/ wie die Kirchen Hiſtori be-<lb/>
+zeuget.</p><lb/>
+<p>Zum Andern ſo geſchichts nicht ohne Vrſach/ oder<lb/>
+ohne Gottes Willen/ ſondern nach ſeinem Wolgefal-<lb/>
+len/ dahero Salomon ſagt/ Sterben hat ſeine Zeit/<note place="right"><hi rendition="#i"><hi rendition="#aq">Eccl</hi> 3.</hi></note><lb/>
+Vnd Paulus/ Sterben wir/ ꝛc. ſterben wir dem <hi rendition="#k">Her-</hi><note place="right"><hi rendition="#i"><hi rendition="#aq">Rom.</hi> 14</hi></note><lb/>
+<hi rendition="#k">ren/</hi> ꝛc. Vnd ſo keinem Menſchen ein Haͤrlein ohne<note place="right"><hi rendition="#i"><hi rendition="#aq">Matth.</hi><lb/>
+10.</hi></note><lb/>
+Gottes Willen von ſeinem Haupt fellt/ wie ſolte dann<lb/>
+der gantze Menſch ohne Gottes Providentz vnd Ver-<lb/>
+ordnung dahin fallen?</p><lb/>
+<p>Daß aber Gott auch fromme Leut etwan ſo ſchnell<lb/>
+abfordert/ da hat er ſein Bedencken/ dann dieweil auch<lb/>
+fromme Leuth Natuͤrlicher Weiſe den Todt offt ſehr<lb/>
+foͤrchten/ wie Abraham/ vnd Hiskias/ der weinet da<note place="right"><hi rendition="#i"><hi rendition="#aq">Eſa.</hi> <supplied>3</supplied><gap reason="lost" unit="chars" quantity="1"/></hi></note><lb/>
+man jhme vom Sterben ſagt/ ſo eylet Gott mit jhnen/<lb/>
+vnd fordert ſie ſchnell ab/ vnnd will ſie ſolcher Forcht<lb/>
+vnd Angſt entheben/ ſintemal ſie in einer ſolchen Eyl<lb/>
+nicht wiſſen/ wie jhnen geſchicht.</p><lb/>
+<p>Zu dem ſo iſt bewuſt/ daß der Sathan mit langwie-<lb/>
+rig krancken vnd ſterben den Leuten offtermals ſcharpf-<lb/>
+fe Diſputation helt/ ja wie man Exempel weiß/ ſich<lb/>
+offt leibhafftig ſehen laͤſſet/ vnnd vermeynt/ ſchwache<lb/>
+Leuth kleinmuͤtig/ ja verzweiffelt zumachen. Siehe<lb/>
+ſo eylet GOTT mit einem vff daß ſie nicht in ſolchenz<lb/>
+<fw type="sig" place="bottom">B</fw><fw type="catch" place="bottom">Kampff/</fw><lb/>
+<pb facs="#f0010" n="10"/>
+<fw type="header" place="top">Chriſtliche Leichpredigt/</fw><lb/>
+Kampff/ von dem Tauſentkuͤnſtler vberwunden wer-<lb/>
+den. Sondern daß ſie durch ſchnelle Abforderung<lb/>
+vberwinden/ den Sieg erhalten/ vnnd die Kron deß e-<lb/>
+wigen Lebens davon bringen.</p><lb/>
+<p>Vber das/ ſo ſtellet Gott ſolche Leut vns allen zu Pre-<lb/>
+digern dar/ vnd will vns durch jhr Exempel wahrnen/<lb/>
+daß wir vnſere Buß nicht von einem Tag zum andern<lb/>
+vffſchieben ſollen/ ſondern vns zu GOtt bekehren/ all-<lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Syr.</hi> 5.<lb/>
+18.</hi></note>dieweil wir noch ſuͤndigen koͤnnen/ damit nit der Zorn<lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Eccl.</hi> 11.</hi></note>GOttes vns ploͤtzlich vberfalle/ dann es heiſt ja/ Wie<lb/>
+der Baum fellt/ ſo wuͤrd er liegen bleiben. Der dritte<lb/>
+Troſt ſoll ſeyn/ daß wir nit eben auff die ſchnelle Faͤlle<lb/>
+zuſehen haben/ ſondern vff deren Perſonen/ die ſolche<lb/>
+Faͤll begreiffen/ vorhin gefuͤhrtes Leben/ dann wo ſie<lb/>
+bey geſundem Leib/ ſich vor Gottes Angeſicht gedemů-<lb/>
+tiget/ jhre Suͤnd erkennet/ Gottes Wort lieb gehabt/<lb/>
+Chriſtum bekennet fuͤr jhren Heylandt/ das heilige<lb/>
+Abendmahl gebrauchet/ Chriſtlich gelebt/ gedultig ge-<lb/>
+litten/ da hats nicht viel zu bedeuten/ ob ſie ſchon Gott<lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Lib. 1.<lb/>
+C.</hi> 11.</hi></note>eylend wegrauffet/ Dañ wie <hi rendition="#aq">Auguſtinus</hi> ſagt: <hi rendition="#aq">Mala<lb/>
+mors putanda non eſt, quam bona vita præ-<lb/>
+ceſſit:</hi> Kein boͤſer Todt zu achten iſt/ deß/ der ſich recht<lb/>
+gehalten bey Lebens friſt.</p><lb/>
+<p>Der vierdte Troſt iſt/ daß wir zu Hertzen fuͤhren/<lb/>
+wie es am Juͤngſten Tag vnd Ende der Welt zugehen<lb/>
+<fw type="catch" place="bottom">werde/</fw><lb/>
+<pb facs="#f0011" n="11"/>
+<fw type="header" place="top">auß dem 24. Cap. Matthei.</fw><lb/>
+werde/ nemlich es werde ſolcher ſchneller vnd ploͤtzli-<lb/>
+cher End viel geben/ dann es werden die Menſchen/ ſo<lb/>
+der Jůngſte Tag lebendig ergreiffen wůrd/ nicht lang<lb/>
+Kranck vnd im Siegbeth liegen/ ſondern ploͤtzlich ver-<lb/>
+wandelt werden/ welches jnen aber nit ſchaden wuͤrd/<lb/>
+Dann wie Paulus ſagt: So werden ſie dem <hi rendition="#k">Herrn</hi><lb/>
+entgegen gezuckt werden/ in der Lufft/ in den Wolcken/<note place="right"><hi rendition="#i">1. <hi rendition="#aq">Theſſ.</hi><lb/>
+4.</hi></note><lb/>
+vnd bey jhme ſeyn allzeit/ Daß wir aber in vnſerer Li-<lb/>
+taney beten/ Vor boͤſem ſchnellem Todt/ behuͤt vns lie-<lb/>
+ber <hi rendition="#k">Herre</hi> GOtt/ verantwortet ſich ſolche Bitt<lb/>
+ſelbſt/ dann wir ſprechen/ Vor boͤſem ſchnellen Todt/ ꝛc.<lb/>
+Da bittet die Chriſtliche Kirche fůrnemblich vor die<lb/>
+Menſchen/ ſo noch nicht gnugſam mit GOttes Wort<lb/>
+vnderrichtet/ vnnd confirmirt ſeyn/ Wie auch fůr die<lb/>
+welche noch nicht wahre Buß gethan/ vnnd in jhren<lb/>
+Suͤnden moͤchten vbereylet werden. Was aber rech-<lb/>
+te Chriſten ſeyn/ die taͤglich vff das Sterben ſich ge-<lb/>
+faſt machen/ ſich Gott vnd ſeinem Gnaden Schutz be-<lb/>
+fehlen/ die doͤrffen ſolcher Zufaͤll nicht erſchrecken/ ſon-<lb/>
+dern moͤgen mit David ſagen: Wann ein Plag kom-<note place="right"><hi rendition="#i"><hi rendition="#aq">Pſalm.</hi><lb/>
+112.</hi></note><lb/>
+men will/ ſo foͤrchtet ſich der Gerechte nicht/ ſein Hertz<lb/>
+hoffet vnverzagt/ vff den <hi rendition="#k">Herren/</hi> ſein Hertz iſt ge-<lb/>
+troſt vnd foͤrchtet ſich nicht.</p><lb/>
+<p>Vnd einmahl wann wir bedencken/ was fuͤr gute<lb/>
+Tag auff Erden ſeyn/ wie die Gottloſe Welt ſo ver-<lb/>
+<fw type="sig" place="bottom">B ij</fw><fw type="catch" place="bottom">nicht/</fw><lb/>
+<pb facs="#f0012" n="12"/>
+<fw type="header" place="top">Chriſtliche Leichpredigt/</fw><lb/>
+nicht/ in was ſorglichen vnnd gefaͤhrlichen Zeiten wir<lb/>
+leben/ ſo muͤſſen wir bekennen/ es geſchehe denen gar<lb/>
+wol/ die GOtt zeitlich abfordert/ dann ſie entfliehen ja<lb/>
+dem Vngluͤck/ ſo vber die Gottloſe Welt ergehen wuͤrd/<lb/>
+vnd kommen zum Frieden/ vnd ruhen in jhren Kam-<lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Eſa.</hi> 56.</hi></note>mern/ wie der Prophet Eſaias redet.</p></div></div><lb/>
+<div type="fsPersonalia" n="2"><head/>  <p>Dieweil dann der Barmhertzige Gott/ die Chriſt-<lb/>
+liche Matron/ deren wir zu dieſer Stund/ die letzte<lb/>
+Ehr geleiſtet/ verſchienen Freytags abends zwiſchen 11.<lb/>
+vnd 12. Vhr mit einer ſtarcken <hi rendition="#aq">Apoplexi</hi> vnd gewalt-<lb/>
+ſamen Beruͤhrung angegriffen/ vnd hernach in wenig<lb/>
+Stundten auſſer dieſem Jammerthal/ zu ſich in den<lb/>
+ewigen Frewden Saal gefordert/ ſollen wir nicht dar-<lb/>
+fuͤr halten/ daß ſolches ein vngefehrtes Ableiben/ ſon-<lb/>
+dern eben dieſer Abſchied von Gott vnnd ſeiner gnaͤdi-<lb/>
+gen Vorſehung alſo geordnet ſey. Wir ſollens auch nit<lb/>
+halten vor ein ſeltzam Werck/ dann wir haben der glei-<lb/>
+chen Exempel gehoͤrt auß der Schrifft/ vnnd will faſt<lb/>
+gemeyn werden/ nicht allein bey gar Alten/ ſondern<lb/>
+auch Mittelmeſſigen vnd Jungen Perſonen.</p><lb/>
+<p>Wir ſollen demnach nicht eben auff dieſen ſchnel-<lb/>
+len Zufall/ ſondern vielmehr vff der verſtorbenen Ma-<lb/>
+tron gefuͤhrtes Leben ſehen. Sie iſt aber von Chriſtli-<lb/>
+chen Anſehnlichen Eltern in dieſer Statt/ nemblich<lb/>
+von dem Ehrnveſten/ Fuͤrſichtigen vnd Weiſen Herꝛn/<lb/>
+<fw type="catch" place="bottom">Wendel</fw><lb/>
+<pb facs="#f0013" n="13"/>
+<fw place="top" type="header">auß dem 24. Cap. Matthei.</fw><lb/>
+Wendel Anſen Burgermeiſtern/ vnnd ſeiner Hauß-<lb/>
+frawen <hi rendition="#aq">Beanceffora,</hi> einer gebornen Rheinboltin/<lb/>
+beyder ſeligen/ ohngefehrlichen vor vier vnd fuͤnfftzig<lb/>
+Jahren Ehelich erzeugt/ vnnd in dieſe Welt geboren/<lb/>
+zwar in Suͤnden wie alle Menſchen/ aber durch Waſ-<lb/>
+ſer vnd Geiſt in der heiligen Tauff widergeboren wor-<lb/>
+den/ welche Widergeburt ſich Zeitlich an jhr erzeigt<lb/>
+vnd ſehen laſſen/ dann ſie von Jugendt auff geweſen/<lb/>
+ein Liebhaberin deß Worts Gottes/ daſſelbig in ledi-<lb/>
+gem Ehe- vnd Wittibſtandt/ an Son- vnd Werckta-<lb/>
+gen dermaſſen beſucht/ daß man jhr mit Warheit das<lb/>
+Zeugnuß geben kan/ Sie ſeye geweſen eine vnder den<lb/>
+fleiſſigſten Zuhoͤrern Gottes H. Worts/ das hochwůr-<lb/>
+dige Abendmal hat ſie mit vorhergehender hertzlicher<lb/>
+Erkandtnuß jhrer Suͤnden/ vnd Bekandtnuß jhres<lb/>
+Glaubens an Chriſtum/ auff den ſie all jhr Hoffnung<lb/>
+vnd Vertrawen geſtellet/ offt vnnd viel in Chriſtlicher<lb/>
+Verſamblung empfangen. Jn jhrem erſten viertze-<lb/>
+hen Jaͤhrigen Eheſtandt/ hat ſie mit jhrem Herꝛn/<lb/>
+Dieterich Orthen/ Bůrgern vnd deß StattGerichts<lb/>
+allhie ſeligen/ freundlich/ friedlich/ vnnd ſchiedlich ge-<lb/>
+lebt/ vnd jhr fuͤnff Kinder nemblich/ Johann Philpſen/<lb/>
+Dieterich/ Anna Maria/ Johann Dieterich/ vnnd<lb/>
+Georg Friederich/ ſo jhr Gott in ſolchem Eheſtandt be-<lb/>
+ſcheret/ darunder der eine Sohn Dieterich <hi rendition="#aq">in A.</hi> 1586.<lb/>
+<fw place="bottom" type="sig">B iij</fw><fw place="bottom" type="catch">geſtorben/</fw><lb/>
+<pb facs="#f0014" n="14"/>
+<fw type="header" place="top">Chriſtliche Leichpredigt/</fw><lb/>
+geſtorben/ die vberigen vier aber ſo noch bey Leben ſeyn<lb/>
+in wahrer Gottesforcht vnd zu allen Chriſtlichen Tu-<lb/>
+genden aufferzogen/ vnd hat allbereyt an beyden Elti-<lb/>
+ſten ſo ſich kurtz vor dieſem Ableiben/ in Eheſtandt be-<lb/>
+geben/ Ehr vnd Frewd erlebt: die andern beyde ſoͤhne/<lb/>
+ſo vnter der Frembde ſtudiren/ geben gute Hoffnung<lb/>
+von ſich/ daß ſie auch mit der Zeit werden zu Ehren<lb/>
+kommen/ Gott vnd den Menſchen dienen moͤgen. Jn<lb/>
+anderer Ehe hat ſie mit Herꝛn Melchior Voglern <hi rendition="#aq">No-<lb/>
+tario Publico,</hi> vnd deß Stattgerichts allhie ſeligen/<lb/>
+9. Jar gelebt/ vñ ein einigen Sohn Melchior genañt/<lb/>
+geboren/ die vbrige zeit aber in trawrigen Wittibſtand<lb/>
+zubracht/ da jhr dann viel Widerwertiges vnter Au-<lb/>
+gen gangen/ aber doch in allem gedultig geweſen/ dann<lb/>
+ſie dermaſſen mit Gottes Wort außgeruͤſtet/ daß ſie<lb/>
+ſich in allerley trawrige Zuſtaͤnd hat wiſſen zurichten:<lb/>
+Jn jhrem Leben vnnd Wandel hat ſie ſich Chriſtlich/<lb/>
+vnnd ſoviel in der Schwachheit geſchehen kan/ vnta-<lb/>
+denlich verhalten: Gegen jhren Nachbawrn iſt ſie ge-<lb/>
+weſen/ ſo freundlich vnnd vertraͤglich/ daß ſie jhrer ge-<lb/>
+genwart nicht ohne Schmertzen mangeln werden/<lb/>
+Wo ſie jemandten als ein kluges vnnd verſtaͤndiges<lb/>
+Weib mit Rath vnd That beyſpringen koͤnnen/ hat ſie<lb/>
+an jhr nichts laſſen erwinden. Vnd demnach ſie etlich<lb/>
+Jahr allerley Schwachheiten/ die zweiffels ohne vie-<lb/>
+<fw type="catch" place="bottom">lerley</fw><lb/>
+<pb facs="#f0015" n="15"/>
+<fw place="top" type="header">auß dem 24. Cap. Matthei.</fw><lb/>
+lerley Anfechtung vervrſachet/ an jhrem Leib befun-<lb/>
+den/ hat ſie jr durch fleiſſiges leſen/ das Manual Herꝛn<lb/>
+<hi rendition="#aq">Martini Molleri</hi> von der Zubereytung zum Todt/<lb/>
+ſehr wol bekannt gemacht/ vnnd darauß die rechte<lb/>
+ſterbkunſt ſtudirt/ wie dann faſt in allen Blaͤttern was<lb/>
+ſonders troͤſtlichs iſt/ mit jhrer Hand gezeichnet/ auch<lb/>
+eben den Tag als ſie von Gott angegriffen worden/ in<lb/>
+leſung heiliger Goͤttlicher Schrifft/ im 50. Capitel deß<lb/>
+Propheten Eſai<hi rendition="#aq">æ</hi> geweſen/ inmaſſen ſolches noch alſo<lb/>
+gezeichnet/ befunden worden/ dieſen ſpruch hat ſie taͤg-<lb/>
+lich im Mundt gefůhret/ Wann Gott wil/ ſo iſt mein<lb/>
+ziel/ ꝛc. Jtem/ Ach <hi rendition="#k">Herr/</hi> wann ich nur dich habe/ ſo<lb/>
+frag ich nichts nach Him̃el vnd Erden/ ꝛc. welchs jr taͤg-<lb/>
+lichs Gebet geweſen/ ſo hat ſie auch vff alle jhr Buͤcher<lb/>
+geſchꝛieben/ vñ taͤglichs hoͤrẽ laſſen/ Jch weiß daß mein<lb/>
+Erloͤſer lebt/ deß frew ich mich von Hertzen/ der wuͤrd<lb/>
+mich von der boͤſen Welt/ erloͤſen ohne allen Schmer-<lb/>
+tzen/ ꝛc. Welches jhr dann auch widerfahren/ dann als<lb/>
+ſie Freytags ſpat/ vom Feldt heim kommen/ hat ſie<lb/>
+gaͤhling ein ſtarcker Hauptfluß dermaſſen vbereylet/<lb/>
+daß ſie nicht mehr reden moͤgen/ als dieſe Wort/ Ach<lb/>
+Gott wie will mir werden/ <hi rendition="#k">Herr</hi> ſey mir gnedig/ dir<lb/>
+befehle ich mich/ darvff gleich aller verſtand verfallen/<lb/>
+vnd derhalben keine empfindligkeit einiges ſchmertzens<lb/>
+mehr geweſen/ darauff ſie dann Gott in wenig Stun-<lb/>
+<fw place="bottom" type="catch">den</fw><lb/>
+<pb facs="#f0016" n="16"/>
+<fw type="header" place="top">Chriſtliche Leichpredigt/ außm 24. Cap. Matth.</fw><lb/>
+den auffgeloͤſet/ vnnd ſeliglich hat laſſen einſchlaffen/<lb/>
+Jſt demnach kein zweiffel/ es werde der Barmhertzige<lb/>
+GOtt/ jhr letzte Seufftzen zu jhme gethan/ nicht ver-<lb/>
+ſchmehen/ vnnd weil ſie bey geſundem Leib/ recht ge-<lb/>
+glaubt/ Chriſtlich gelebt/ auch fletſſig Gebeten/ jhre<lb/>
+Seele in ſein Allmaͤchtige Hand auff vnd angenom-<lb/>
+men haben/ auch dem Leib am Juͤngſten Tag ein froͤ-<lb/>
+liche Aufferſtehung verleyhen.</p></div><lb/>
+<div n="2"><head/>  <p>Wir alle ſollen noch einmahl verwahrnet ſeyn/ die-<lb/>
+weil es eben der ſchnellen Faͤll viel gibt/ vns deren Re-<lb/>
+guln Chriſti vnſers <hi rendition="#k">He</hi>rꝛn gemeß zuhalten/ wachen/<lb/>
+vnſerer ſeligkeit warnehmen/ vnſeꝛn geiſtlichen Waͤch-<lb/>
+tern folgen/ vnd Gott im Gebett vns taͤglich befehlen/<lb/>
+damit es komme Gott/ wann/ wie/ vnnd welcher ge-<lb/>
+ſtalt er wolle/ er vns als gehorſame Dienſtbotten an-<lb/>
+treffe/ vnnd mit dieſer jetzt verſtorbenen Chriſtlichen<lb/>
+<hi rendition="#c">Matron/ einweiſe zur ewigen Ruhe/ Glori/ Frewd/<lb/>
+vnd Seligkeit/ durch vnſern <hi rendition="#k">Herrn</hi> vnd<lb/>
+Heylandt Jeſum Chriſtum/<lb/>
+Amen.</hi></p><lb/>
+<p><hi rendition="#c"><hi rendition="#g">ENDE</hi></hi></p></div></div><lb/>
+</body></text>  </TEI>

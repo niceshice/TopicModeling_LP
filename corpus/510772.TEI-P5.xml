@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Leichpredigt Vber das Sprüchlein Esaiae am 26. Cap. Von einer Gebererin. Bey Christlicher Leichbestattung der Erbarn vnd tugendsamen Frawen Elisabeth</title>
+<author>
+<persName ref="http://d-nb.info/gnd/11546364X">
+<surname>Hoepner</surname>
+<forename>Johann</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">31</measure>
+<measure type="tokens">4418</measure>
+<measure type="types">1584</measure>
+<measure type="characters">29023</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:10:17Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/510772</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/510772</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/510772</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/510772</idno>
+<idno type="DTADirName">510772</idno>
+<idno type="DTAID">200176</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-200176-8</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Hoepner, Johann: Leichpredigt Vber das Sprüchlein. Leipzig, [1629].</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Leichpredigt Vber das Sprüchlein Esaiae am 26. Cap. Von einer Gebererin. Bey Christlicher Leichbestattung der Erbarn vnd tugendsamen Frawen Elisabeth</title>
+<author>
+<persName ref="http://d-nb.info/gnd/11546364X">
+<surname>Hoepner</surname>
+<forename>Johann</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">31</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Gregorius Ritzsch</name></publisher>
+<pubPlace>Leipzig</pubPlace>
+<date type="publication">1629</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 O 787/3 / 510772</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#b">Leichpredigt</hi></titlePart><lb/>
+<titlePart type="sub">Vber das Spruͤchlein Eſai<hi rendition="#aq">æ</hi> am 26. Cap.<lb/>
+<hi rendition="#b">Von einer Gebererin.</hi></titlePart><lb/>
+<titlePart type="desc">Bey Chriſtlicher Leichbeſtattung der Er-<lb/>
+barn vnd Tugentſamen Frawen<lb/>
+<hi rendition="#b">Eliſabeth/<lb/>
+Des Ehrenveſten vnd Wolgeachten</hi><lb/>
+Herrn Johann Weiſſens/ Buͤrgers vnd<lb/>
+Handelsmans allhier zu Leipzig ge-<lb/>
+weſener Ehefrawen:<lb/>
+<hi rendition="#b">Welche Gott der <hi rendition="#g"><hi rendition="#k">Herr/</hi></hi> ſampt der Lei-</hi><lb/>
+besfrucht/ in Kindesnoͤthen ſeliglich durch den Glau-<lb/>
+ben an Chriſtum/ aus dieſer Welt den 5. <hi rendition="#aq">Decemb. Anno</hi><lb/>
+1629. abgefodert/ vnd den 7. <hi rendition="#aq">hujus</hi> Chriſtlich zur<lb/>
+Erden beſtattet worden.</titlePart></docTitle><lb/>
+<byline>Gehalten<lb/>
+Von<lb/>
+<docAuthor><hi rendition="#aq">Iohanne Höpnero</hi></docAuthor><hi rendition="#aq">, SS. Th. D. Prof.<lb/>
+Publ. &amp; Paſtore ad D. Nicolai.</hi></byline><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docImprint>Gedruckt zu <pubPlace>Leipzig</pubPlace> bey <publisher><hi rendition="#aq">Gregorio</hi> Ritzſch</publisher>.</docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="[2]"/>
+<pb facs="#f0003" n="[3]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="1"><head/>  <opener><salute><hi rendition="#c"><hi rendition="#aq">In Nomine <hi rendition="#g">JESU.</hi></hi></hi></salute></opener><lb/>
+<div type="fsBibleVerse" n="2"><head><hi rendition="#b">Spruͤchlein</hi><lb/>
+Aus dem Propheten Eſaia am 26. Cap.</head><lb/>
+<cit><quote><hi rendition="#fr">Gleich wie eine Schwan-<lb/>
+<hi rendition="#et">gere/ wenn ſie ſchier gebehren ſol/<lb/>
+ſo iſt jhr angſt/ ſchreyet in jhren<lb/>
+Schmertzen: So gehets vns<lb/>
+auch <hi rendition="#g"><hi rendition="#k">Herr</hi></hi> fuͤr deinem Ange-<lb/>
+ſichte/ da ſeynd wir auch ſchwan-<lb/>
+ger/ vnd iſt vns bange/ daß wir<lb/>
+kaum Odem holen.</hi></hi></quote></cit></div><lb/>
+<div type="fsExordium" n="2"><head><hi rendition="#aq">Exordium.</hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">G</hi>Eliebten vnd Außer-</hi><lb/>
+wehlten in Chriſto dem <hi rendition="#g"><hi rendition="#k">Her-<lb/>
+ren/</hi></hi> in dieſem Spruͤchlein<lb/>
+handelt Eſaias von der Truͤb-<lb/>
+ſal der rechtgleubigen Kirchen/<lb/>
+<fw type="sig" place="bottom">A ij</fw><fw type="catch" place="bottom">welche</fw><lb/>
+<pb facs="#f0004" n="[4]"/>
+<fw type="header" place="top"><hi rendition="#b">Von der Gebehrnden Schmertzen/</hi></fw><lb/>
+welche in jhren drangſeligen Verfolgungen/<lb/>
+die ſie von den Ketzern vnd den Tyrannen<lb/>
+außſtehen muß/ aͤngſtiglich zu GOtt ruffet<lb/>
+vnd ſchreyet/ wie etwa ein gebehrendes Weib<lb/>
+in jhren Kindesnoͤthen/ wie denn die heilige<lb/>
+Schrifft ſolch Gleichniß offt anfuͤhret/ auch<lb/>
+<note place="left"><hi rendition="#aq">Joh.</hi> 16.</note>Chriſtus ſelbſt Joh. am 16. Cap. da er ſpricht:<lb/>
+Ein Weib/ wenn ſie gebieret/ ſo hat ſie Traw-<lb/>
+rigkeit/ denn jhre Stunde iſt kommen. Wenn<lb/>
+ſie aber das Kind geboren hat/ denckt ſie nicht<lb/>
+mehr an die Angſt/ vmb der Frewde willen/<lb/>
+daß der Menſch zur Welt geboren iſt. In der<lb/>
+<note place="left"><hi rendition="#aq">Apoc.</hi> 12.</note>Offenbahrung Johan. am 12. Cap. wird die<lb/>
+Kirche auch vergliechen mit einem Weibe mit<lb/>
+der Sonnen bekleidet/ vnd der Mond vnter<lb/>
+jhren Fuͤſſen/ vnd auff jhrem Haͤupt eine Kro-<lb/>
+ne mit zwoͤlff Sternen: Vnd ſie war ſchwan-<lb/>
+ger/ vnd ſchrie/ vnd war in Kindesnoͤthen/<lb/>
+vnd hatte groſſe Qual zur Geburt/ vnd ſie ge-<lb/>
+bahr einen Sohn/ der die Heyden ſolt weiden<lb/>
+mit der eiſern Ruthen.</p><lb/>
+<p>Mit ſolchen Schmertzen der Geburt iſts<lb/>
+nu kein Schertz/ ſondern ein groſſer Ernſt/<lb/>
+vnd geſchicht aus dieſen dreyen eins/ entwe-<lb/>
+<fw type="catch" place="bottom">der/</fw><lb/>
+<pb facs="#f0005" n="[5]"/>
+<fw type="header" place="top"><hi rendition="#b"><hi rendition="#g"><hi rendition="#k">Herr</hi></hi> laß dirs gehn zu Hertzen.</hi></fw><lb/>
+der/ daß Gott der <hi rendition="#k">Herr</hi> beydes Mutter vnd<lb/>
+Kind in ſolchen Schmertzen erhelt/ vnd einen<lb/>
+froͤlichen Anblick beſcheret/ daruͤber man ſich<lb/>
+zu erfrewen/ vnd Gott fuͤr ſolche Huͤlffe/ Se-<lb/>
+gen vnd Wolthat zu dancken hat: Oder es<lb/>
+bleibet eines auff dem Platze/ entweder die<lb/>
+Mutter/ oder das Kind/ wie es der Rachel<lb/>
+ergieng mit jhrem juͤngſten Sohn Benja-<lb/>
+min/ Geneſ. am 35. Oder es bleibet Mutter<lb/>
+vnd Kind zugleich auff dem Platze/ wie ſich<lb/>
+ſolche Faͤlle auch begeben/ vnd wir zu dieſem<lb/>
+mal einen ſolchen trawrigen Fall an vnſerer<lb/>
+im HErrn Chriſto verſtorbenen Mitſchweſter<lb/>
+haben. Zu dero Gedaͤchtniß wir ein ſolch<lb/>
+Spruͤchlein erwehlet haben/ das da redet von<lb/>
+der Angſt vnd Schmertzen der gebehrenden<lb/>
+Weiber. Solches wollen wir in folgenden<lb/>
+zweyen Puͤnctlein erkleren:</p><lb/>
+<list><item>Erſtlich wollen wir berichten/ von dem Vr-<note place="right">1.</note><lb/>
+ſprung vnd vrſachen ſolcherSchmertzen.</item><lb/>
+<item>Fuͤrs ander wollen wir anzeigen/ Warumb<note place="right">2.</note><lb/>
+der bedrengten Kirchen Truͤbſal vnd<lb/>
+Noth mit den Schmertzen eines gebeh-<lb/>
+renden Weibes vergliechen wird.</item></list><lb/>
+<fw type="sig" place="bottom">A iij</fw><fw type="catch" place="bottom">Hie-</fw><lb/>
+<pb facs="#f0006" n="[6]"/>
+<fw type="header" place="top"><hi rendition="#b">Von der Gebehrnden Schmertzen/</hi></fw><lb/>
+<p>Hievon mit Nutz vnd Erbawung zu re-<lb/>
+den/ wolle vns Gott der <hi rendition="#g"><hi rendition="#k">Herr</hi></hi> ſeines hei-<lb/>
+ligen Geiſtes Gnade verleihen/ vmb Chriſti<lb/>
+JEſu willen/ Amen.</p></div><lb/>
+<div type="fsMainPart" n="2"><head/>  <div n="3"><head><hi rendition="#aq">De I.</hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">V</hi>On dem Erſten zeiget Eſaias</hi><lb/>
+allhier: Eine Schwangere/ wenn ſie<lb/>
+bald gebehren ſol/ ſo iſt jhr angſt/ vnd<lb/>
+ſchreyet in jhren Schmertzen. Vnd daß es<lb/>
+nicht geringe Schmertzen ſeyn/ iſt daraus ab-<lb/>
+zunemen/ daß die Schrifft ſelber ſolche ſchmer-<lb/>
+tzen fuͤr die groͤſten Schmertzen helt/ wie Hiß-<lb/>
+kias bekennet in ſeinen groſſen Engſten vnd<lb/>
+Noͤthen/ damit er von Sennacherib bedren-<lb/>
+get ward/ denn alſo lies er dem Propheten<lb/>
+Eſai<hi rendition="#aq">æ</hi> ſagen Cap. 37. Das iſt ein Tag des<lb/>
+Truͤbſals/ Scheltens vnd Leſterns/ vnd ge-<lb/>
+het gleich/ als wenn die Kinder biß an die Ge-<lb/>
+burt kommen ſind/ vnd iſt keine Krafft da zu<lb/>
+gebehren. Mit ſolcher Angſt vergleichet auch<lb/>
+S. Paulus die Angſt vnd Schrecken der ſi-<lb/>
+chern Menſchen/ welche der Juͤngſte Tag ploͤtz-<lb/>
+<fw type="catch" place="bottom">lich</fw><lb/>
+<pb facs="#f0007" n="[7]"/>
+<fw type="header" place="top"><hi rendition="#b"><hi rendition="#g"><hi rendition="#k">Herr</hi></hi> laß dirs gehn zu Hertzen.</hi></fw><lb/>
+lich in jhrem ſuͤndlichen Leben ergreiffen wird/<lb/>
+1. Theſſ. 5. da er ſpricht: Das Verderben wird<note place="right">1. <hi rendition="#aq">Theſs.</hi> 5.</note><lb/>
+ſie ſchnell vberfallen/ gleich wie der Schmertz<lb/>
+ein ſchwanger Weib/ vnd werden nicht ent-<lb/>
+fliehen. Solche Schmertzen begegnen den<lb/>
+Weibsperſonen nicht ohne gefehr/ ſondern ſie<lb/>
+ſind dem Weiblichen Geſchlecht von Gott zur<lb/>
+Zuͤchtigung/ wegen des begangenen Suͤnden-<lb/>
+falls/ aufferleget worden/ wie Geneſ. am 3.<note place="right"><hi rendition="#aq">Geneſ.</hi> 3.</note><lb/>
+Capitel zu leſen. Zum Weibe ſprach Gott der<lb/>
+<hi rendition="#k">Herr:</hi> Ich wil dir viel Schmertzen ſchaffen/<lb/>
+wenn du ſchwanger wirſt. Du ſolſt mit<lb/>
+Schmertzen Kinder gebehren. Es iſt wol zu<lb/>
+mercken/ daß GOtt ſolch Wort zu der Eva<lb/>
+nicht im Stande der Vnſchuld geredet hat/<lb/>
+ſondern nach dem begangenen Fall/ daraus<lb/>
+wir denn ſo viel zu lernen haben/ daß die Ge-<lb/>
+burtſchmertzen nicht von derSchoͤpffung her-<lb/>
+ruͤhren/ ſondern von dem Vngehorſam vnſer<lb/>
+erſten Mutter Eva/ welche die Schlange mit<lb/>
+jhrer Liſtigkeit verfuͤhrete/ daß ſie das Gebot<lb/>
+Gottes vbertrat/ vnd von dem verbotenen<lb/>
+Baum aß. Wenn ſie aber im Stand der Vn-<lb/>
+ſchuld geblieben were/ ſo hette ſie vnd jhre<lb/>
+<fw type="catch" place="bottom">Toͤch-</fw><lb/>
+<pb facs="#f0008" n="[8]"/>
+<fw type="header" place="top"><hi rendition="#b">Von der Gebehrnden Schmertzen/</hi></fw><lb/>
+Toͤchter ohne Schmertzen Kinder gebohren/<lb/>
+wie Eſaias die geiſtliche Geburt der wahren<lb/>
+Kirchen beſchreibet/ dadurch ſie dem HErrn<lb/>
+Chriſto durchs Wort vnd durch die Sacra-<lb/>
+menta geiſtliche Soͤhne vnd Toͤchter zeuget/<lb/>
+ſie gebieret/ ehe jhr weh wird/ ſie iſt geneſen<lb/>
+eines Knabens/ ehe denn jhr Kindesnoth<lb/>
+koͤmpt/ im 66. Cap. Welcher Spruch auch<lb/>
+von der Geburt der Jungfraw Mari<hi rendition="#aq">æ/</hi> da-<lb/>
+durch ſie den Sohn Gottes zur Welt geboren<lb/>
+hat/ außgeleget wird: Denn weil ſie das ewi-<lb/>
+ge Wort/ den Sohn Gottes/ in jhrem Jung-<lb/>
+fraͤwlichen Leibe durch den heiligen Geiſt oh-<lb/>
+ne Suͤnde empfangen hat/ ſo iſt ſie auch jhres<lb/>
+Soͤhnleins geneſen ohne ſolche Schmertzen/<lb/>
+welche eine Straffe der Suͤnden ſeyn/ vnd iſt<lb/>
+alſo zu Bethlehem im Stall des Nachts an<lb/>
+jhr erfuͤllet worden dieſe Weiſſagung Eſai<hi rendition="#aq">æ:</hi><lb/>
+Sie gebiert/ ehe jhr wehe wird/ ſie iſt geneſen<lb/>
+eines Knabens/ ehe denn jhre Kindesnoth<lb/>
+koͤmpt.</p><lb/>
+<p>Gleich wie Gott der <hi rendition="#g"><hi rendition="#k">Herr</hi></hi> den erſten<lb/>
+Menſchen ließ in einen tieffenSchlaff fallen/<lb/>
+vnd nam jhme eine Riebe aus ſeinem Leibe/<lb/>
+<fw type="catch" place="bottom">vnd</fw><lb/>
+<pb facs="#f0009" n="[9]"/>
+<fw type="header" place="top"><hi rendition="#b"><hi rendition="#k">Herr</hi> laß dirs gehn zu Hertzen.</hi></fw><lb/>
+vnd bawet jhm ein Weib aus der Riebe/ daß<lb/>
+ers nicht fuͤhlete/ vnd gieng ohne Schmertzen<lb/>
+zu: Alſo hette auch Eva im Stand der Vn-<lb/>
+ſchuld Kinder ohne Wehetagen vnd Schmer-<lb/>
+tzen geboren/ vnd wer jhr ſo leicht ankommen/<lb/>
+als wenn ſie ein Rock auß- oder angezogen<lb/>
+hette/ wenn ſie einen Sohn oder Tochter zur<lb/>
+Welt gebohren hette/ wann nicht der klaͤg-<lb/>
+liche Suͤndenfall darzwiſchen kommen were/<lb/>
+vnd alle das gute verderbet hette/ das GOtt<lb/>
+in der Schoͤpffung vns Menſchen gegoͤnnet<lb/>
+vnd verliehen hatte.</p><lb/>
+<p>Derowegen daß es nu nach dem Fall mit<lb/>
+dem Weiblichen Geſchlecht einen andern Zu-<lb/>
+ſtand gewonnen hat/ das iſt der Suͤnde zuzu-<lb/>
+ſchreiben/ die hat es verurſachet/ daß die Wei-<lb/>
+ber viel Schmertzen erfahren vnd außſtehen<lb/>
+muͤſſen/ wann ſie ſchwanger werden/ vnd daß<lb/>
+ſie noch mit viel groͤſſern Schmertzen Kinder<lb/>
+gebehren/ dadurch etliche vmb jhres Leibes<lb/>
+Geſundheit gebracht werden/ etliche daruͤber<lb/>
+die Schuld der Natur bezahlen muͤſſen. Das<lb/>
+iſt nu eine groſſe Muͤhe/ Eitelkeit vnd Plage/<lb/>
+deßwegen der Eheſtand billich ein Weheſtand<lb/>
+genennet wird.</p><lb/>
+<fw type="sig" place="bottom">B</fw><fw type="catch" place="bottom">Wie</fw><lb/>
+<pb facs="#f0010" n="[10]"/>
+<fw type="header" place="top"><hi rendition="#b">Von der Gebehrnden Schmertzen/</hi></fw><lb/>
+<p>Wie nu der gerechte GOtt allen Men-<lb/>
+ſchen ein Memorial vnd Denckzettel des be-<lb/>
+gangenen Suͤndenfals angehencket hat/ in<lb/>
+dem ſie alle den Todt am Halſe tragen/ ſonſt<lb/>
+were Adams Fall vorlengſt vergeſſen: Alſo<lb/>
+hat er dem Weiblichen Geſchlecht inſonder-<lb/>
+heit die Geburtsſchmertzen aufferleget/ daß<lb/>
+ſie ſich dabey des Vrſprungs der Suͤnde vnd<lb/>
+alles Vbels erinnern ſollen.</p><lb/>
+<p>Fuͤrs andere geben ſolche Schmertzen<lb/>
+vnd Wehetagen auch Zeugniß von der Erb-<lb/>
+ſuͤnde/ die durch ſolche leibliche Empfengniß<lb/>
+vnd Geburt von einem Geſchlecht auff das<lb/>
+ander/ von den Eltern auff die Kinder vnd<lb/>
+Kindeskinder fortgepflantzet wird/ wie ſich<lb/>
+ein Gifft außbreitet/ oder wie die Schlangen<lb/>
+vnd Ottern jhren Gifft auff jhre Junge brin-<lb/>
+gen/ daß wir alle muͤſſen bekennen vnd klagen<lb/>
+aus dem 51. Pſalm: Sihe/ ich bin aus ſuͤnd-<lb/>
+lichem Samen gezeuget/ vnd meine Mutter<lb/>
+hat mich in Suͤnden empfangen. Dieweil<lb/>
+aber ſolche Empfengniß vnd Geburt fuͤr Got-<lb/>
+<note place="left"><hi rendition="#aq">Ezech.</hi> 16.</note>tes Augen vnrein vnd ein Grewel iſt/ Ez. 16.<lb/>
+vnd wir deßwegen alle Kinder des Zorns/ vnd<lb/>
+<fw type="catch" place="bottom">aus</fw><lb/>
+<pb facs="#f0011" n="[11]"/>
+<fw type="header" place="top"><hi rendition="#b"><hi rendition="#g"><hi rendition="#k">Herr</hi></hi> laß dirs gehn zu Hertzen.</hi></fw><lb/>
+aus dem Reich Gottes außgeſchloſſen ſeyn/<lb/>
+Epheſ. am 2. vnd Johan. am 3. So leſt Gott<lb/>
+ja bißweilen ſeinen Zorn wider ſolche Vnrei-<lb/>
+nigkeit blicken/ vnd wendet doch wieder Gna-<lb/>
+de ein/ daß ers bey wenigen Exempeln bewen-<lb/>
+den leſſet/ vnd nicht alle Adamskinder einen<lb/>
+wie den andern ſtraffet/ wie ſie wol werth we-<lb/>
+ren. Dahero toͤdtet er etliche Kinder in Mut-<lb/>
+terleibe: etliche leſt er lahm/ blind/ taub vnd<lb/>
+gebrechlich gebohren werden: bißweilen muß<lb/>
+die Mutter/ wenn es jhr gar zu hart ankoͤmpt/<lb/>
+die Schuld der Natur bezahlen/ vnterweilen<lb/>
+bleiben Mutter vnd Kind mit einander/ vnd<lb/>
+hierinnen leſt jhme GOtt weder Ziel noch<lb/>
+Maß fuͤrſchreiben/ er macht es/ wie es jhme<lb/>
+gefellt: Da wil vns Menſchen nicht anders<lb/>
+gebuͤhren/ als daß wir vnſern Willen in Got-<lb/>
+tes Willen ſtellen/ nicht wider Gott murren/<lb/>
+ſondern vns demuͤtigen durch wahre Buſſe<lb/>
+vnter ſeine gewaltige Hand/ vnd vielmehr ſa-<lb/>
+gen aus dem 119. Pſalm: <hi rendition="#aq">Juſtus es Domine,</hi><lb/>
+Du <hi rendition="#g"><hi rendition="#k">Herr</hi></hi> biſt gerecht/ vnd deine Gerichte<lb/>
+ſind recht/ damit vns nicht etwas ergers wie-<lb/>
+derfahre.</p><lb/>
+<fw type="sig" place="bottom">B ij</fw><fw type="catch" place="bottom">Zum</fw><lb/>
+<pb facs="#f0012" n="[12]"/>
+<fw type="header" place="top"><hi rendition="#b">Von der Gebehrnden Schmertzen/</hi></fw><lb/>
+<p>Zum dritten koͤmpt auch dieſe ſonderliche<lb/>
+Vrſache darzu/ daß GOtt dem Weiblichen<lb/>
+Geſchlecht ſolche ſchwere Buͤrde aufferleget<lb/>
+hat/ weil das Weib zu erſt geſuͤndiget hat.<lb/>
+Wie S. Paulus ſchreibet in ſeiner 1. Epiſtel<lb/>
+<note place="left">1. <hi rendition="#aq">Tim.</hi> 2.</note>zum Timoth. am 2. Cap. Adam ward nicht<lb/>
+verfuͤhret/ verſtehe zu erſt/ das Weib aber<lb/>
+ward verfuͤhret/ vnd hat die Vbertretung<lb/>
+eingefuͤhret/ darumb hat auch GOtt dem<lb/>
+Weiblichen Geſchlecht dieſes zur Straffe<lb/>
+aufferleget/ daß ſie ſolche Geburtsſchmertzen<lb/>
+ſollen außſtehen/ vnd daß ſie jhren Maͤnnern<lb/>
+ſollen vnterthan ſeyn: doch iſt der Maͤnner<lb/>
+auch nicht verſchonet worden/ es iſt jhnen der<lb/>
+ſawre Naſenſchweiß vnd die harte Arbeit<lb/>
+aufferleget worden/ vnd beyde Manns- vnd<lb/>
+Weibsperſonen die Sterbligkeit/ als ein <hi rendition="#aq">me-<lb/>
+morial</hi> vnd Gedaͤchtniß der Suͤnde/ ja als<lb/>
+ein <hi rendition="#aq">ſtipendium</hi> vnd Sold der Suͤnden/ an-<lb/>
+gekuͤndiget worden/ wie auch S. Paulus<lb/>
+ſchreibet zun Roͤm. am 5. Cap. Durch einen<lb/>
+Menſchen iſt die Suͤnde in die Welt kommen/<lb/>
+vnd der Todt durch die Suͤnde/ vnd iſt alſo<lb/>
+der Todt zu allen Menſchen durchgedrungen/<lb/>
+dieweil ſie alle geſuͤndiget haben.</p></div><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">De</hi></fw><lb/>
+<pb facs="#f0013" n="[13]"/>
+<fw type="header" place="top"><hi rendition="#b"><hi rendition="#g"><hi rendition="#k">Herr</hi></hi> laß dirs gehn zu Hertzen.</hi></fw><lb/>
+<div n="3"><head><hi rendition="#aq">De <hi rendition="#g">II.</hi></hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">W</hi>Eil vns nu durch Chriſtum/</hi><lb/>
+den Sohn Gottes/ aus der Suͤnden-<lb/>
+noth iſt auffgeholffen worden/ ſo iſt<lb/>
+vns auch dieſe Straffe der Suͤnden mitge-<lb/>
+ſchenckt worden/ vnd iſt nu nichts verdam-<lb/>
+lichs an allen denen/ die in Chriſto JEſu ſind/<lb/>
+Rom. 8. Derowegen hats nu eine andere<note place="right"><hi rendition="#aq">Rom.</hi> 8.</note><lb/>
+gelegenheit mit den Geburtsſchmertzen/ mit<lb/>
+der Arbeit/ vnd mit dem Todt bey Chriſten-<lb/>
+leuten/ als etwa bey den Vngleubigen/ denn<lb/>
+vber den Vngleubigen bleibet der Zorn Got-<lb/>
+tes/ Joh. 3. Aber vber den Gleubigen wallet<lb/>
+die Gnade Gottes/ daher iſt auch bey jhnen<lb/>
+ſolche Todtarbeit vnd Schmertzen nicht fuͤr<lb/>
+eine Straffe der Suͤnde/ ſondern fuͤr eine<lb/>
+ϖαιδεία vnd vaͤterliche Zuͤchtigung zu achten<lb/>
+vnd zu halten/ vmb der Vrſache willen wuͤr-<lb/>
+diget auch der heilige Geiſt ſolche Geburts-<lb/>
+ſchmertzen ſo hoch/ daß er den euſſerlichen<lb/>
+Zuſtand der Kirchen/ vnd die truͤbſelige Ver-<lb/>
+folgung der Gleubigen mit den Schmertzen<lb/>
+eines gebehrenden Weibes vergleichet/ die<lb/>
+<fw type="sig" place="bottom">B iij</fw><fw type="catch" place="bottom">Ver-</fw><lb/>
+<pb facs="#f0014" n="[14]"/>
+<fw type="header" place="top"><hi rendition="#b">Von der Gebehrnden Schmertzen/</hi></fw><lb/>
+Vergleichniß Puncta ſtehen kuͤrtzlich darin-<lb/>
+nen.</p><lb/>
+<p>Zum erſten/ Wie einem gebehrenden<lb/>
+Weibe die Schmertzen nicht auſſenbleiben/<lb/>
+ſie werden ploͤtzlich damit vberfallen: Alſo<lb/>
+kan auch die Kirche nicht ohne Verfolgung<lb/>
+ſeyn/ ſie iſt dem Creutz allhier vnterworffen/<lb/>
+vnd wird darumb die ſtreitende Kirche genen-<lb/>
+net/ weil ſie vnter dem Blutfaͤhnlein Chriſti<lb/>
+wider den Teuffel vnd die Welt/ wider die Ke-<lb/>
+tzer vnd Verfolger muß zu Felde liegen/ da-<lb/>
+hero S. Paulus von den Gliedmaſſen der<lb/>
+Kirchen alſo ſchreibet 2. Timoth. 3. Alle die<lb/>
+Gottſelig leben wollen in Chriſto JEſu/ die<lb/>
+muͤſſen Verfolgung leiden.</p><lb/>
+<p>Zum andern/ Wie ſolche Geburtsſchmer-<lb/>
+tzen groͤſſer ſind/ als daß ſie von den Weibern/<lb/>
+als von ſchwachen Werckzeugen/ koͤnnen er-<lb/>
+tragen werden: Alſo iſt auch die Laſt des<lb/>
+Creutzes ſo ſchwer/ vnd das Fewer der Truͤb-<lb/>
+ſal vnd Anfechtung ſo hitzig/ daß wir offt fuͤr<lb/>
+Menſchlicher Schwachheit nicht koͤnnen da-<lb/>
+fuͤr bleiben.</p><lb/>
+<p>Zum dritten/ Wie aber die Goͤttliche Fuͤr-<lb/>
+<fw type="catch" place="bottom">ſorge</fw><lb/>
+<pb facs="#f0015" n="[15]"/>
+<fw type="header" place="top"><hi rendition="#b"><hi rendition="#g"><hi rendition="#k">Herr</hi></hi> laß dirs gehn zu Hertzen.</hi></fw><lb/>
+ſorge vnd die vaͤterliche Trewe Gottes hierin-<lb/>
+nen herfuͤr leuchtet/ daß er den gebehrenden<lb/>
+Weibern hilfft/ vnd ſtercket ſie mit ſeinem<lb/>
+Arm/ daß ſie die Schmertzen außſtehen/ vnd<lb/>
+ſcheidet durch ſeine Goͤttliche Allmacht die<lb/>
+beyden Leiber: Alſo beweiſet Gott der <hi rendition="#k">Herr</hi><lb/>
+der Kirchen ſeine vaͤterliche Liebe vnd Trewe/<lb/>
+vnd ſtecket dem Teuffel ein Ziel/ vnd erloͤſet<lb/>
+ſeine Kirche von jhren Feinden/ vnd erhelt ſie<lb/>
+wider der Hellen Pforten/ daher ſchreibet S.<lb/>
+Paulus 1. Cor. 10. GOtt iſt getrew/ der vns<lb/>
+nicht leſt verſuchen vber vnſer vermoͤgen/ ſon-<lb/>
+dern machet/ daß die Verſuchung ſo ein Ende<lb/>
+gewinne/ daß wirs koͤnnen ertragen.</p><lb/>
+<p>Zum vierdten/ Wie ſich die kreiſtende<lb/>
+Weiber deſſen zu getroͤſten haben/ daß ſie<lb/>
+Gott in jhrem ordentlichen Stande vnd Be-<lb/>
+ruff geſegnet hat/ vnd daß ſie vnd jhres Leibes<lb/>
+Frucht in Gottes Haͤnden ſtehen/ daher ſie<lb/>
+auch im Glauben an Chriſtum ſich vnd den<lb/>
+beſchereten Eheſegen mit einem fleiſſigen Ge-<lb/>
+bet GOtt allezeit zu Gnaden befehlen/ vnd<lb/>
+ſind deſſen durch den heiligen Geiſt in jhrem<lb/>
+Hertzen verſichert/ es ſchicke es GOtt/ wie er<lb/>
+<fw type="catch" place="bottom">wolle/</fw><lb/>
+<pb facs="#f0016" n="[16]"/>
+<fw place="top" type="header"><hi rendition="#b">Von der Gebehrnden Schmertzen/</hi></fw><lb/>
+wolle/ daß ſie in einem ſeligen Stande ſeyn/<lb/>
+nach dem Spruͤchlein S. Pauli 1. Timoth. 2.<lb/>
+Das Weib wird ſel<supplied>ig</supplied> durch Kinder zeugen/<lb/>
+ſo ſie bleibet im Glauben/ vnd in der Liebe/<lb/>
+vnd in der Heiligung ſampt der Zucht: Alſo<lb/>
+hat auch die bedrengte Kirche dieſen Troſt/<lb/>
+daß ſie bey GOtt in Gnaden ſtehet/ vnd daß<lb/>
+ſie leidet nicht vmb Vbelthat willen/ ſondern<lb/>
+vmb Chriſti vnd ſeines heiligen Evangelij<lb/>
+willen/ darumb iſt ſie getroſt in ſolchem Lei-<lb/>
+den/ vnd heiliget GOtt mit ſtandhafftigem<lb/>
+Bekentniß der erkanten Warheit/ vnd behar-<lb/>
+ret bey Chriſto in der Truͤbſal/ vnd vberkoͤm-<lb/>
+met nach vberſtandenem Kampff die Krone<lb/>
+der ewigen Seligkeit.</p></div><lb/>
+<div n="3"><head><hi rendition="#aq"><hi rendition="#g">USUS.</hi></hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">D</hi>Jeſer Bericht ſol vns nu die-</hi><lb/>
+nen zur Lehre/ Troſt vnd Vermah-<lb/>
+nung.</p><lb/>
+<p>Die Lehre iſt/ daß wir alle in der Erbſuͤn-<lb/>
+de gezeuget vnd gebohren ſeyn/ vmb welcher<lb/>
+willen beydes Muͤtter vnd Kinder ſolcher<lb/>
+groſſen gefahr muͤſſen vnterworffen ſeyn/ daß<lb/>
+<fw place="bottom" type="catch">biß-</fw><lb/>
+<pb facs="#f0017" n="[17]"/>
+<fw type="header" place="top"><hi rendition="#b"><hi rendition="#k">Herr</hi> laß dirs gehn zu Hertzen.</hi></fw><lb/>
+bißweilen eines oder das ander/ oder alle<lb/>
+beyde muͤſſen die Schuld der Natur bezahlen.<lb/>
+Sind derowegen ſolche betruͤbte Faͤlle <hi rendition="#aq">Con-<lb/>
+ciones reales,</hi> oder thaͤtliche Predigten von<lb/>
+der Erbſuͤnde vnd deren Sold.</p><lb/>
+<p>Zum Troſt aber ſols vns dienen/ daß vns<lb/>
+Chriſtus mit ſeiner allerheiligſten Menſch-<lb/>
+werdung/ Empfengniß vnd Geburt von aller<lb/>
+Schuld vnd Pein erloͤſet hat. Solch Ver-<lb/>
+dienſt ſollen wir mit wahrem Glauben er-<lb/>
+greiffen/ weil wir dadurch von Gottes Zorn<lb/>
+erloͤſet ſeyn. Solchem Verdienſt haben wirs<lb/>
+zu dancken/ daß GOtt vnſer GOtt iſt von<lb/>
+Mutterleibe an/ vnd daß er vns zeucht aus<lb/>
+Mutterleibe/ wie im 22. Pſalm geſchrieben<lb/>
+ſtehet.</p><lb/>
+<p>Zum dritten ſols vns dienen zur Vermah-<lb/>
+nung/ daß wir GOtt fuͤr ſolche Wolthat der<lb/>
+Schoͤpffung danckbar ſeyn/ welche er auch<lb/>
+durch ſeine vaͤterliche Fuͤrſorge <hi rendition="#aq">continuiret</hi><lb/>
+vnd vollſtrecket/ ſo lange wir allhier zu leben<lb/>
+haben. Wir ſollen auch vnſern Eltern/ vnd<lb/>
+ſonderlich den Muͤttern/ dancken vnſer lebe-<lb/>
+lang/ nach der Vermahnung Sirachs am 7.<lb/>
+<fw type="sig" place="bottom">C</fw><fw type="catch" place="bottom">Cap.</fw><lb/>
+<pb facs="#f0018" n="[18]"/>
+<fw type="header" place="top"><hi rendition="#b">Von der Gebehrnden Schmertzen/ ꝛc.</hi></fw><lb/>
+Cap. Ehre deinen Vater von gantzem Hertzen/<lb/>
+vnd vergieß nicht/ wie ſawer du deiner Mut-<lb/>
+ter worden biſt/ vnd dencke/ daß du von jhnen<lb/>
+gebohren biſt/ vnd was kanſtu jhnen dafuͤr<lb/>
+thun/ daß ſie an dir gethan haben. Vmb der<lb/>
+Vrſachen willen ſollen auch die Ehemaͤnner<lb/>
+jhren Weibern mit Vernunfft beywohnen/<lb/>
+vnd in Betrachtung des ſchweren Standes/<lb/>
+welchen ſie außſtehen muͤſſen/ deſto fleiſſiger<lb/>
+fuͤr ſie beten/ daß GOtt der <hi rendition="#g"><hi rendition="#k">Herr</hi></hi> Mutter<lb/>
+vnd Kind gnaͤdiglich ſtercken/ vnd beym Le-<lb/>
+ben erhalten wolle. Darneben ſollen wir al-<lb/>
+les dem Willen Gottes anheim ſtellen/ in deſ-<lb/>
+ſen Haͤnden es alleine ſtehet/ auff daß/ wenn<lb/>
+ers anders fuͤget vnd ſchicket/ als wir geden-<lb/>
+cken vnd wuͤndſchen/ wir alsdenn vnſern<lb/>
+menſchlichen Willen in GOttes Willen ſtel-<lb/>
+len/ vnd mit dem geduͤltigen Hiob ſagen koͤn-<lb/>
+nen: Der <hi rendition="#g"><hi rendition="#k">Herr</hi></hi> hats gegeben/ der <hi rendition="#k">Herr</hi><lb/>
+hats genommen/ der Name des <hi rendition="#g"><hi rendition="#k">Herrn</hi></hi><lb/>
+ſey gebenedeyet. Demſelbigen ewigen wah-<lb/>
+<hi rendition="#c">ren GOtt ſey Lob vnd Danck geſaget/<lb/>
+von nun an biß in Ewigkeit/<lb/>
+Amen.</hi></p></div></div><lb/>
+<fw type="catch" place="bottom">Bericht.</fw><lb/>
+<pb facs="#f0019" n="[19]"/>
+<fw place="top" type="header"><hi rendition="#b">Bericht von der ſelig Verſtorbenen.</hi></fw><lb/>
+<div type="fsPersonalia" n="2"><head><hi rendition="#b">Bericht.</hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">E</hi>Jnen ſolchen Fall/ wie</hi><lb/>
+droben gedacht/ haben wir<lb/>
+auch an vnſer ſeliglich verſtor-<lb/>
+benen Mitſchweſter/ welche<lb/>
+GOtt der <hi rendition="#g"><hi rendition="#k">Herr</hi></hi> in jhrer ſte-<lb/>
+henden Ehe zwar mit Leibes-<lb/>
+frucht geſegnet/ aber nach ſeinem vnerforſch-<lb/>
+lichen Rath vnd Willen beydes Mutter vnd<lb/>
+Kind abgefodert hat. Von dero Ankunfft/<lb/>
+Wandel vnd Ende Ewre Chriſtliche Liebe zu<lb/>
+berichten/ daß die Erbare vnd Tugentſame<lb/>
+Fraw Eliſabeth/ des Ehrenveſten vnd Wol-<lb/>
+geachten Herrn Johann Weiſſens Eheliche<lb/>
+geweſene Haußfraw/ bey dieſer Stadt von<lb/>
+Chriſtlichen vnd ehrlichen Eltern gezeuget<lb/>
+vnd gebohren/ im Jahr Chriſti 1596. den 20.<lb/>
+<hi rendition="#aq">Octobris,</hi> jhr Vater iſt geweſen der weiland<lb/>
+Erbar vnd Wohlgeachte Georg Kreß/ Buͤr-<lb/>
+ger vnd Handelsmann allhier/ jhre Mutter<lb/>
+die Erbare vnd Tugentſame Fraw Rebecca/<lb/>
+eine gebohrne Buͤrcknerin. Von dieſen jhren<lb/>
+<fw place="bottom" type="sig">C ij</fw><fw place="bottom" type="catch">lieben</fw><lb/>
+<pb facs="#f0020" n="[20]"/>
+<fw place="top" type="header"><hi rendition="#b">Bericht von der ſelig Verſtorbenen.</hi></fw><lb/>
+lieben Eltern iſt ſie auch in allerGottesfurcht/<lb/>
+Zucht vnd Erbarkeit aufferzogen worden.<lb/>
+Nachdem ſie nun jhre mannbare Jahre errei-<lb/>
+chet/ hat ſie ſich mit Rath vnd Vorwiſſen jh-<lb/>
+rer Freundſchafft in ein Chriſtlich Ehegeloͤb-<lb/>
+niß eingelaſſen/ mit obgedachtem Herrn Jo-<lb/>
+hann Weiſſen/ Buͤrgern vnd Handelsmann<lb/>
+allhier/ mit welchem ſie <hi rendition="#aq">Anno</hi> 1628. den 3.<lb/>
+<hi rendition="#aq">Februarii</hi> oͤffentlich iſt getrawet worden/ vnd<lb/>
+ein Jahr vnd 10. Monat eine friedliche/ ge-<lb/>
+ruhige vnd von GOtt geſegnete Ehe beſeſſen.</p><lb/>
+<p>Jhr Chriſtenthumb hat ſie in gebuͤrliche<lb/>
+acht genommen/ die Predigten Goͤttliches<lb/>
+Worts fleiſſig beſuchet/ ſich fuͤr eine Suͤnde-<lb/>
+rin fuͤr GOtt erkant/ den Troſt der heiligen<lb/>
+Abſolution/ ſo wol auch das hochwuͤrdige<lb/>
+Abendmahl mit gebuͤrlicher <hi rendition="#aq">devotion,</hi> wie<lb/>
+auch noch vnlengſten geſchehen iſt/ gebrau-<lb/>
+chet/ vnd ſich mit jhren Neben Chriſten ſchied-<lb/>
+lich vnd Chriſtlich vertragen.</p><lb/>
+<p>Es hat ſie aber der allmaͤchtige GOtt in<lb/>
+jhrem Eheſtande mit einer Leibesfrucht ge-<lb/>
+ſegnet/ alſo daß man zu GOtt gehoffet/ vnd<lb/>
+fleiſſig gebeten/ GOtt wuͤrde ſie jhres Ehe-<lb/>
+<fw place="bottom" type="catch">ſegens</fw><lb/>
+<pb facs="#f0021" n="[21]"/>
+<fw type="header" place="top"><hi rendition="#b">Bericht von der ſelig Verſtorbenen.</hi></fw><lb/>
+ſegens fruchtbarlich empfinden laſſen/ vnd<lb/>
+jhr eine geſunde Leibesfrucht beſcheren. In-<lb/>
+maſſen ſichs denn an nechſt verſchienener<lb/>
+Mitwoch wol darzu angelaſſen/ da ſie in Kin-<lb/>
+desnoͤthen zu arbeiten angefangen/ wenn<lb/>
+ſichs aber vber verhoffen mit ſolcher Arbeit in<lb/>
+die lenge/ vnd alſo biß auff den vierdten Tag<lb/>
+verzogen/ iſt ſie dadurch an jhren Leibeskreff-<lb/>
+ten geſchwecht vnd abgemattet worden/ alſo/<lb/>
+daß ſie nach GOttes Willen daruͤber jhren<lb/>
+Geiſt auffgeben muͤſſen/ darein ſie ſich gantz<lb/>
+willig vnd geduͤltig ergeben/ jhren Beichtva-<lb/>
+ter zu ſich erfodert/ vnd ſich durch Troſt Goͤtt-<lb/>
+liches Worts/ vnd durch ein fleiſſiges Geb<supplied>e</supplied>t<lb/>
+zu einem ſeligen Abſchied aus dieſer Welt ge-<lb/>
+faſt gemacht/ vber welchem Gebete ſie auch jhr<lb/>
+Leben geendet/ vnd alſo im rechten Glauben<lb/>
+an Chriſtum jhren Heiland ſanfft vnd ſelig<lb/>
+entſchlaffen/ am verſchienen Sonnabend fruͤe<lb/>
+zwiſchen 5. vnd 6. Vhr/ jhres Alters 33. Jahr.<lb/>
+Der allmaͤchtige Gott verleihe jhr eine ſanff-<lb/>
+te Ruhe/ vnd am Juͤngſten Tage mit allen<lb/>
+<hi rendition="#c">Gleubigen vnd Außerwehlten eine froͤliche<lb/>
+Aufferſtehung zum ewigen Leben/<lb/>
+Amen.</hi></p></div></div><lb/>
+<fw type="sig" place="bottom"><hi rendition="#aq">C</hi> 3</fw><fw type="catch" place="bottom"><hi rendition="#aq"><hi rendition="#g">EPI-</hi></hi></fw><lb/>
+<pb facs="#f0022" n="[22]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="1"><head/>  <div type="fsEpicedia" n="2"><head><hi rendition="#aq"><hi rendition="#g">EPICEDIA.</hi></hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">D</hi>Eſeris ah Moriens num me ſic <hi rendition="#g"><hi rendition="#k">Elisabetha?</hi></hi></hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#aq">Deſero, ſis patiens, viva redibo brevi.</hi></hi></l><lb/>
+<l><hi rendition="#aq">Mortua nam Chriſto, Chriſto jam vivo redemta,</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#aq">Morte ſua mors eſt hæc mea vita mihi.</hi></hi></l><lb/>
+<l><hi rendition="#aq">In terris quot me miſeram afflixere dolores,</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#aq">In cœlo tot jam gaudia mille beant.</hi></hi></l><lb/>
+<l><hi rendition="#aq">Hinc placidè mortem Defunctæ fide Marite</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#aq">Fer, quæ jam vivit prole beata ſua.</hi></hi></l><lb/>
+<l><hi rendition="#aq">Sic fuit in fatis, hæc ultima linea vitæ</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#aq">Embryo qua Matris, Matre cadente, cadit.</hi></hi></l><lb/>
+<l><hi rendition="#aq">Quid tùm, næveniet tempus, redivivus uterq́;</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#aq">Quo ſurgent, triſtem lætificentq́; patrem.</hi></hi></l><lb/>
+<l><hi rendition="#aq">In gremio Matris ſpectantem, matris in alvo,</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#aq">Fœtum, quem clauſum, cernere non potuit.</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">Andreas</hi></hi> Stange/ <hi rendition="#aq"><hi rendition="#i">Paſtor in<lb/>
+Lütſchen &amp; Heinchen.</hi></hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head><hi rendition="#aq"><hi rendition="#g">COLLOQVIUM MARITI ET<lb/>
+UXORIS.</hi></hi></head><lb/>
+<sp who="#MAR"><speaker><hi rendition="#aq">Maritus.</hi></speaker><lb/>
+<lg type="poem"><l><hi rendition="#fr"><hi rendition="#in">A</hi>Ch liebes Hertz/ wolt jhr dann mich</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Nun jetzt ſo gantz elendiglich</hi></hi></l><lb/>
+<l><hi rendition="#fr">Verlaſſen/ vnd von mir abſcheidn/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">So jhr doch wiſſet/ wie wir beydn</hi></hi></l><lb/>
+<fw place="bottom" type="catch">Ein-</fw><lb/>
+<pb facs="#f0023" n="[23]"/>
+<l><hi rendition="#fr">Einander ſo hertzlich geliebt/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Vnd eins das ander nie betruͤbt.</hi></hi></l></lg></sp><lb/>
+<sp who="#UXO"><speaker><hi rendition="#c"><hi rendition="#aq">Uxor.</hi></hi></speaker><lb/>
+<lg type="poem"><l><hi rendition="#fr">Ach lieber Schatz/ freylich hab ich</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Geliebt euch/ ſo wol als jhr mich/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Wolt GOtt/ wir ſolten noch all beyd</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Beyſammen wohnen laͤngr in Frewd/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Weil aber GOtt nach ſeinem Rath</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Vielleicht es ſo beſchloſſen hat/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Daß jetzt alſo bey ſolchem Leidn</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Wir zwey Liebhertzn vns ſollen ſcheidn/</hi></hi></l><lb/>
+<l><hi rendition="#fr">So wollen wir GOtt halten ſtill/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Vnd laſſen machen/ wie er wil/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Mit vns: Sein Will iſt doch der beſt.</hi></l></lg></sp><lb/>
+<sp who="#MAR"><speaker><hi rendition="#c"><hi rendition="#aq">Maritus.</hi></hi></speaker><lb/>
+<lg type="poem"><l><hi rendition="#et"><hi rendition="#fr">Ach liebes Hertz/ das gleub ich feſt/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Vnd weis gewißlich vnd fuͤrwar/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Daß GOtt auffvnſerm Haͤupt all Haar</hi></hi></l><lb/>
+<l><hi rendition="#fr">Gezehlet hat/ von welchen alln</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Nicht eins kan auff die Erden falln</hi></hi></l><lb/>
+<l><hi rendition="#fr">Ohn ſeinen Willn: Daß aber ich/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Euch liebes Hertz/ ſo gantz klaͤglich/</hi></hi></l><lb/>
+<l><hi rendition="#fr">In ſolchem Schmertz vnd ſolchem Weh</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Vor meinen Augen liegen ſeh/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Das krencket vnd betruͤbt mich ſehr/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Alſo/ daß es nicht wunder wer/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Daß bey ſolchem groſſen Vngluͤck</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Mein Hertz zerſpring in tauſent Stuͤck/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Denn je gewiß kein groͤſſer Schmertz/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Denn wenn der Todt zwey liebes Hertz</hi></hi></l><lb/>
+<fw place="bottom" type="catch">Durch</fw><lb/>
+<pb facs="#f0024" n="[24]"/>
+<l><hi rendition="#fr">Durch ſein Gwalt von einander reiſt/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">So habn einander Lieb beweiſt.</hi></hi></l></lg></sp><lb/>
+<sp who="#UXO"><speaker><hi rendition="#c"><hi rendition="#aq">Uxor.</hi></hi></speaker><lb/>
+<lg type="poem"><l><hi rendition="#fr">Ach lieber Schatz/ ich gleubs gar wol/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Daß ewer Hertz iſt Trawrens voll/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Wenn jhr bedenckt die kurtze Zeit/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Die wir beyſammen/ als Ehleut/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Gelebt haben: Denn je fuͤrwar</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Es noch vollkoͤmlich nicht zwey Jahr/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Als GOtt der HErr nach ſeinem Rath</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Vns erſt zuſammn gefuͤget hat/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Welch Zeit vns doch ſo bald verſchwundn/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Als ob geweſt wern nur zwey Stundn/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Weil GOtt der HErr durch ſeine Gnad</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">So reichlich vns geſegnet hat/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Wir auch nunmehr faſt alle Stund</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Gehofft/ es wuͤrde GOtt jetzu<gap reason="lost" unit="chars" quantity="2"/></hi></hi></l><lb/>
+<l><hi rendition="#fr">Sein Ehſegn/ den er vns erlebn</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Hat laſſen/ nun mit frewden gebn/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Vnd aus Genad/ mit gutem Gluͤck/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Vns mit eim froͤlichen Anblick</hi></hi></l><lb/>
+<l><hi rendition="#fr">Erfrewen/ vnd zu ſeinen Ehrn</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Ein gſunde Leibesfrucht beſchern.</hi></hi></l><lb/>
+<l><hi rendition="#fr">Daß aber ſolch verhoffte Frewd</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Jn vnverhoffte Trawrigkeit</hi></hi></l><lb/>
+<l><hi rendition="#fr">Sich jetzt veraͤndert ſo geſchwind/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Vnd es faſt das anſehn gewint/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Als ob hieruͤber ſolt mein Schatz</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Mutter vnd Kind auff einem Platz</hi></hi></l><lb/>
+<fw type="catch" place="bottom">Todt</fw><lb/>
+<pb facs="#f0025" n="[25]"/>
+<l><hi rendition="#fr">Todt bleiben/ vnd mein Leib wuͤrd ſeyn</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Das Grab meins lieben Kindelein/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Daß euch/ mein Schatz/ nun ſolche Noth</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Nicht krencken ſolt/ bedencke GOtt/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Vnd ein jed from Chriſtliches Hertz/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Denn es ein Schmertz vbr alle Schmertz/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Darbey euch anders nicht zu ſinn</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Seyn kan/ als wenn man neme hin/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Vnd riß ein Stuͤck von ewrem Hertzn/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Welchs nicht abgehen wird ohn Schmertzn.</hi></hi></l><lb/>
+<l><hi rendition="#fr">Doch wie dem alln: wolln wir drumb nicht/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Mein Schatz/ verzagen/ weil GOtt ſpricht:</hi></hi></l><lb/>
+<l><hi rendition="#fr">Jch bin dein vnd deins Samens GOtt/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Der dir beyſteht in Angſt vnd Noth/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Reichlich dir auch ſein Huͤlff beweiſt/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Vnd aus der Noth vnd Todt dich reiſt/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Dich endlich auch zu Ehren bringt/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Wenn Todt vnd Leben mit dir ringt/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Wo Menſchen Huͤlff aus/ geht erſt an</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Gottes Huͤlff/ daß man ſpuͤren kan/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Vnd ſagen muß/ aus dieſer Noth</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Allein vns hat geholffen GOtt.</hi></hi></l><lb/>
+<l><hi rendition="#fr">Drumb ob der HErr gleich toͤdtet mich/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Wil dennoch auff jhn hoffen ich/</hi></hi></l><lb/>
+<l><hi rendition="#fr">An meines Kindleins Seligkeit</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Auch zweiffeln nicht in Ewigkeit/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Denn weil wir ſolchs durch vnſr Gebet</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">GOtt fuͤrgetragen/ fruͤ vnd ſpaͤt/</hi></hi></l><lb/>
+<l><hi rendition="#fr">So iſts in Mutterleib geteufft</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Durch Gottes Geiſt/ vnd thewr erkaͤufft</hi></hi></l><lb/>
+<fw type="sig" place="bottom">D</fw><fw type="catch" place="bottom">Durch</fw><lb/>
+<pb facs="#f0026" n="[26]"/>
+<l><hi rendition="#fr">Durch Chriſti Blut/ damit es rein</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Von Suͤnden abgewaſchen ſein/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Drumb dieſe meine Trawrigkeit</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Jch fuͤr nichts acht/ als eitel Frewd/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Denn ich weis/ daß am Juͤngſten Tag/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Aus meinem Grab ohn alle klag/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Jch vnd mein liebes Kindelein</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Werdn aufferſtehn/ vnd ewig ſeyn</hi></hi></l><lb/>
+<l><hi rendition="#fr">Bey GOtt/ den ich von Angeſicht</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Anſchawen werd/ dran zweifflich nicht.</hi></hi></l></lg></sp><lb/>
+<sp who="#MAR"><speaker><hi rendition="#c"><hi rendition="#aq">Maritus.</hi></hi></speaker><lb/>
+<lg type="poem"><l><hi rendition="#fr">Ach liebes Hertz/ es iſt alls war/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Wie jhr jetzt ſagt/ ich aber gar</hi></hi></l><lb/>
+<l><hi rendition="#fr">Muß nun ſeyn ein verlaſſen Mann/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Was kan ich doch fuͤr Frewd hier han/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Wenn mein GOtt wolt/ ſo wolt auch ich</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Mit euch/ liebs Hertz/ gantz williglich</hi></hi></l><lb/>
+<l><hi rendition="#fr">Von dieſer Welt jetzt ſcheiden ab/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Vnd mit euch kommen in ein Grab.</hi></hi></l></lg></sp><lb/>
+<sp who="#UXO"><speaker><hi rendition="#c"><hi rendition="#aq">Uxor.</hi></hi></speaker><lb/>
+<lg type="poem"><l><hi rendition="#fr">Ach lieber Schatz/ gebt euch zu friedn/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Seynd wir doch drumb nicht gar geſchiedn/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Ob ich gleich ſterb/ ſo leb ich doch/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Vnd hab die ſtarcke Hoffnung noch/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Daß wir dermal eins alle beyd</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Zuſammn kommen wieder in Frewd</hi></hi></l><lb/>
+<l><hi rendition="#fr">An jenem Tag im ewign Lebn/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Da vns GOtt wird zu ſchawen gebn</hi></hi></l><lb/>
+<l><hi rendition="#fr">Jn Frewden vnſer Kindelein/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Welchs allhier nicht hat ſollen ſeyn/</hi></hi></l><lb/>
+<fw type="catch" place="bottom">Drumb</fw><lb/>
+<pb facs="#f0027" n="[27]"/>
+<l><hi rendition="#fr">Drumb habt Gedult/ erwart der Zeit/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Vnd macht durch dieſe Trawrigkeit</hi></hi></l><lb/>
+<l><hi rendition="#fr">Euch nicht ſelbſt Zeit vnd Tage ſchwer/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Es hilfft euch nicht/ vnd ſchadt euch ſehr.</hi></hi></l><lb/>
+<l><hi rendition="#fr">Jch bin/ mein Schatz/ die erſte nicht/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">An der ein ſolcher Fall geſchicht/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Meiner Creutzſchweſtern viel man find/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Die ſelig ſo geſtorben ſind.</hi></hi></l><lb/>
+<l><hi rendition="#fr">Die lieb Rahel/ vnd andere/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Die haben auch viel Angſt vnd Weh</hi></hi></l><lb/>
+<l><hi rendition="#fr">Bey jhrr Geburt außſtehen muͤſſn/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Vnd druͤber jhr Leben einbuͤſſn/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Vnd ich weis/ daß mit nicht verdirbt</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Ein ſolchs Weib/ ſondern ſelig ſtirbt/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Wenn ſie biß an jhr Hinnefahrt</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Jm Glauben nur bleibt vnd beharrt.</hi></hi></l><lb/>
+<l><hi rendition="#fr"><hi rendition="#b">Hiermit geſegne euch nu GOtt/</hi></hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">All die jhr mir in Kindesnoth</hi></hi></l><lb/>
+<l><hi rendition="#fr">Menſchliche Huͤlff vnd Lieb beweiſt/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Zufoͤrderſt aber allermeiſt</hi></hi></l><lb/>
+<l><hi rendition="#fr">Rebecca/ liebſte Schweſter mein/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Geſegn dich GOtt/ du biſt allein</hi></hi></l><lb/>
+<l><hi rendition="#fr">Mein liebſte Schweſter/ wie hab ich</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">So hertzlich lieb dich/ ob gleich mich</hi></hi></l><lb/>
+<l><hi rendition="#fr">Von dieſer Welt GOtt jetzt nimpt hin/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Von dir ich vngeſchieden bin/</hi></hi></l><lb/>
+<l><hi rendition="#fr">So wol als von meim lieben Mann/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Jn Frewd kommen wir wiedr zuſamm.</hi></hi></l><lb/>
+<l><hi rendition="#fr">Hierauff HErr Chriſt befehl ich dir</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Mein Geiſt/ ach GOtt/ weich nicht von mir/</hi></hi></l><lb/>
+<fw place="bottom" type="sig">D ij</fw><fw place="bottom" type="catch">Nim</fw><lb/>
+<pb facs="#f0028" n="[28]"/>
+<l><hi rendition="#fr">Nim meine Seel in deine Haͤnd/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Vnd beſcher mir ein ſeligs End/ Amen.</hi></hi></l></lg></sp><lb/>
+<sp who="#MAR"><speaker><hi rendition="#c"><hi rendition="#aq">Maritus.</hi></hi></speaker><lb/>
+<lg type="poem"><l><hi rendition="#fr">Ach liebes Hertz/ wolt jhr denn je</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">So gar von mir nun wandern hie/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Vnd laͤnger bleiben nicht bey mir/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Sondern im Elend mich allhier</hi></hi></l><lb/>
+<l><hi rendition="#fr">Allein laſſen/ ſo ſey es GOtt</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Geklagt/ daß ich in ſolcher Noth/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Vnd in ſo groſſen Hertzeleidn</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Euch jetzt muß ſehen von mir ſcheidn/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Vnd weils jo anders nicht kan ſeyn/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">So muß ich mich geduͤltig drein</hi></hi></l><lb/>
+<l><hi rendition="#fr">Ergeben/ vnd nicht weiter krenckn/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Sondern an Jacob hier gedenckn/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Der ſolch Ehereutz mit Schmertzn vnd Weh</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Erfahren auch hat in der Eh/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Als bey Bethel in Kindesnoth</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Sein liebſt Rahel muſt bleiben todt/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Mit dem wil ich in ſolchen Faͤlln/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Mein Willn in Gottes Willen ſtelln/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Vnd mit Gedult mein Ehereutz tragn/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Vnd mit dem lieben Job auch ſagn/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Wies GOtt gefalln/ ſo iſts geſchehn/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Ob ichs mich gleich nicht hett verſehn/</hi></hi></l><lb/>
+<l><hi rendition="#fr">GOtt giebt/ Gott nimpt/ wies jhm gefellt/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Macht ers mit vns auff dieſer Welt/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Vnd was ermacht/ iſt wol gemacht/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Ob wirs offt manchmal nicht gedacht/</hi></hi></l><lb/>
+<fw type="catch" place="bottom">Er iſt</fw><lb/>
+<pb facs="#f0029" n="[29]"/>
+<l><hi rendition="#fr">Er iſt vnd bleibt allzeit gerecht/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Vnd ſein Gericht ſind nicht vnrecht/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Weil wir offt nicht thun was wir ſolln/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">So thut GOtt auch nicht was wir wolln/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Jn ſeiner Hand ſteht Todt vnd Lebn/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Was jhm gefellt/ thut er vns gebn/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Er iſt der HErr/ vnd wir die Knecht/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Was er kruͤmbt/ das macht niemand ſchlecht.</hi></hi></l><lb/>
+<l><hi rendition="#fr">Drumb meine Seel ich mit Gedult</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Wil faſſen/ vnd in Gottes Huld</hi></hi></l><lb/>
+<l><hi rendition="#fr">Jm Glauben mich einſchlieſſen feſt/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Vnd von jhm hoffn allzeit das beſt/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Er als ein frommer trewer GOtt/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Wird mir beyſiehn in meiner Noth/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Vnd das Creutz/ ſo er nach ſeim Rath</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Mir jetzund aufferleget hat/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Mit Gedult helffen vberwindn/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Daß mein betruͤbte Seel moͤg findn</hi></hi></l><lb/>
+<l><hi rendition="#fr">Bey jhm Troſt/ Ruh vnd ewig Frewd/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Das helff mir GOtt in Ewigkeit.</hi></hi></l></lg></sp><lb/>
+<p><hi rendition="#c"><hi rendition="#fr"><hi rendition="#b">Amen/ HErr JEſu/ Amen.</hi></hi></hi></p></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<fw place="bottom" type="sig">D iij</fw><fw place="bottom" type="catch"><hi rendition="#fr">Wenn</hi></fw><lb/>
+<pb facs="#f0030" n="[30]"/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#fr"><hi rendition="#in">W</hi>Enn Gott aus lieber Eh zwey Hertzen thut zer-</hi></l><lb/>
+<l><hi rendition="#et">ſcheiden/</hi></l><lb/>
+<l>Thuts jhnen freylich weh/ vrſacht ein jammrigs Leiden/</l><lb/>
+<l><hi rendition="#et">Noch muß das eine Theil/ ſo noch am Leben hier/</hi></l><lb/>
+<l><hi rendition="#et">Sich geben in Gedult: Denn einmal gleuben wir/</hi></l><lb/>
+<l>Daß/ wenn der Sterbligkeit Huͤtten wir abelegen/</l><lb/>
+<l>Vns dort in Ewigkeit in dem verheiſſnen Segen</l><lb/>
+<l><hi rendition="#et">Kein Todt mehr trennen ſol: Sie ſind den Engeln gleich/</hi></l><lb/>
+<l><hi rendition="#et">Ja Gottes Engelein werden im Himmelreich</hi></l><lb/>
+<l>Dere Geſellen ſeyn/ die Wittben weis hier leben/</l><lb/>
+<l>Auch wird ein Ehgenoß dem andern wiedergeben/</l><lb/>
+<l><hi rendition="#et">Welche im Glauben hier an Chriſtum ſich geletzt/</hi></l><lb/>
+<l><hi rendition="#et">Auff den Herr Wittber jhr auch ewre Hoffnung ſetzt/</hi></l><lb/>
+<l>Jſt ewr liebs Ehgemahl euch gleich zu bald verſchieden/</l><lb/>
+<l>Habt jhr einkleine Zeit beyſammn gewont hiernieden/</l><lb/>
+<l><hi rendition="#et">So wird die Ewigkeit euch ſolches bringen ein/</hi></l><lb/>
+<l><hi rendition="#et">Da ewig jhr beyſammn ſolt vngeſchieden ſeyn/</hi></l><lb/>
+<l>Da jede trewe Freund zuſammen wiederkommen/</l><lb/>
+<l>Daſelbſten aller Sorg wir werden gantz benommen/</l><lb/>
+<l><hi rendition="#et">Dahin hat ſich nu auch jhr liebe Seel gewant/</hi></l><lb/>
+<l><hi rendition="#et">Hiemit ſo troͤſtet euch in ewrem Wittberſtand.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">G. R. Typogr.</hi></hi></salute></closer><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<fw type="catch" place="bottom"><hi rendition="#i"><hi rendition="#aq">Eſa.</hi> 35.</hi></fw><lb/>
+</div>
+<pb facs="#f0031" n="[31]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<figure/>  <div n="2"><head/>  <cit><bibl><hi rendition="#c"><hi rendition="#i"><hi rendition="#aq">Eſa. 35. v.</hi> 10.</hi></hi></bibl><lb/>
+<quote><hi rendition="#fr">Die Erloͤſeten des <hi rendition="#k">Herrn</hi> werden<lb/>
+wiederkommen mit Jauchtzen/ ewige<lb/>
+Frewde wird vber jhrem Haͤupte ſeyn/<lb/>
+Frewde vnd Wonne werden ſie ergreif-<lb/>
+fen/ vnd Schmertz vnd Seufftzen wird<lb/>
+weg muͤſſen.</hi></quote></cit><lb/>
+<trailer><hi rendition="#c"><hi rendition="#g">ENDE.</hi></hi></trailer></div></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+</body></text>  </TEI>

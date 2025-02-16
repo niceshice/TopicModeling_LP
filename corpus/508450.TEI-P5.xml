@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Leichpredigt Ob dem Christlichen Begrebniß/ des Achtbaren/ Erbarn/ Wolgelarten vnd Wolweysen Herren Magistri Joannis Starcken von Oxenfurt</title>
+<author>
+<persName ref="http://d-nb.info/gnd/17406103X ">
+<surname>Dresserus</surname>
+<forename>Laurentius</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">23</measure>
+<measure type="tokens">6193</measure>
+<measure type="types">2270</measure>
+<measure type="characters">42908</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:10:09Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/508450</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/508450</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/508450</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/508450</idno>
+<idno type="DTADirName">508450</idno>
+<idno type="DTAID">200093</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-200093-7</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Dresserus, Laurentius: Leichpredigt Ob dem Christlichen Begrebniß. Bautzen, 1578.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Leichpredigt Ob dem Christlichen Begrebniß/ des Achtbaren/ Erbarn/ Wolgelarten vnd Wolweysen Herren Magistri Joannis Starcken von Oxenfurt</title>
+<author>
+<persName ref="http://d-nb.info/gnd/17406103X ">
+<surname>Dresserus</surname>
+<forename>Laurentius</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">23</measure>
+</extent>
+<publicationStmt>
+<publisher><name>s. e.</name></publisher>
+<pubPlace>Bautzen</pubPlace>
+<date type="publication">1578</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 O 103 / 508450</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001"/>
+<titlePage type="main"> <docTitle> <titlePart type="main"> <hi rendition="#b">Leichpredigt Ob dem</hi><lb/>
+Chriſtlichen Begrebniß/ des Achtbaren/<lb/>
+Erbarn/ Wolgelarten vnd Wolweyſen Herren Ma-<lb/>
+giſtri Joannis Starcken von Oxenfurt/</titlePart></docTitle><docTitle><titlePart type="sub"> Der K: Stadt Bu-<lb/>
+diſſin/ im Marggraffthumb Ober Lauſſitz/ alten Buͤrgermei-<lb/>
+ſters/ Welcher in Gott ſeliglich verſchieden/ am Freytag nach<lb/>
+Galli/ den 17. Octobris/ vmb 10. vhr nach Mittage/ vnd<lb/>
+Chriſtlich daſelbſt begraben zum Taucher/ am 21.<lb/>
+Sontag nach Trinitatis/ den 19.<lb/>
+Octobris.<lb/>
+</titlePart> </docTitle> <docTitle> <titlePart type="desc"> <hi rendition="#b">In welcher Predigt/</hi><lb/>
+kurtz vnnd einfeltig erkleret wird/ der<lb/>
+ſpruch Eſai<hi rendition="#aq">æ</hi> am 56. cap. Der Gerechte koͤmpt vmb/<lb/>
+vnd iſt niemand der es zu hertzen nimpt etc. Gethan vnd<lb/>
+beſchrieben/ Alles in dieſem lauffenden<lb/>
+1578. Jahre.<lb/>
+</titlePart> </docTitle> <byline> Durch<lb/>
+<docAuthor> <hi rendition="#b">Laurentium Dreſſerum Gircauienſem/</hi><lb/>
+Seniorem:<lb/>
+</docAuthor> Wolgedachter Stadt Budiſſin<lb/>
+Euangeliſcher Prediger.<lb/>
+</byline> <milestone rendition="#hr" unit="section"/><lb/>
+</titlePage> </front><body>
+<pb facs="#f0002"/>
+<div type="dedication" n="1"><p><hi rendition="#b">Allen vnnd Jetzlithen</hi><lb/>
+Erbaren Buͤrgern vnnd Jnwonern der<lb/>
+gantzen Chriſtlichen Gemein der K: Stadt Budiſ-<lb/>
+ſin/ Jm Marggraffthumb Ober Laußitz/ Seinen befohlnen<lb/>
+Chriſtlichen hertzgeliebten Kirchkindern vñ zuhoͤrern/ Wuͤntzſchet<lb/>
+von hertzen/ Laurentius Dreſſerus Gircauienſis der Eltere/ Jhr<lb/>
+Euangeliſcher Prediger/ vnd Seelſorger/ Neben ſeinem Gebet<lb/>
+<hi rendition="#c">vnd gering vermoͤglichen ſchuͤldigen vnd willigen dienſten/<lb/>
+Gottes gnade vnd Segen in Chriſto/ vnd alle<lb/>
+beſtendige wohlfart vnd gedeyen an<lb/>
+Leib vnd Seele.</hi></p></div><lb/>
+<div type="preface" n="1"><head/> <p><hi rendition="#b"><hi rendition="#in">W</hi>JR haben/ hertz vnd vielge-</hi><lb/>
+liebte Herrn vnd Freunde/ im HER-<lb/>
+REN/ Heute vierzehen tage/ Als wir vnſerm<lb/>
+lieben alten Herren Buͤrgermeiſter/ dem Er-<lb/>
+baren vnd Achtbaren Herrn M. Johanni<lb/>
+Starcken/ ſeligen/ das geleit zum Grabe gegeben/ vnd den letzten<lb/>
+menſchlichen/ moͤglichen ſchuldigen dienſt geleiſtet vnd erzeiget/<lb/>
+Nicht alleine geſehen (vngeacht des regens vnd vngewitters) eine<lb/>
+herrliche groſſe Frequentz vnd menge/ beide vnſrer Buͤrgerſchaff<supplied>t</supplied><lb/>
+vnd Jnnwohner/ vnd auch etzlicher namhafftiger Chriſtlicher<lb/>
+Adels perſonen/ vnd alſo einheimiſcher vnd frembder/ die eben<lb/>
+daſſelbe/ mit vnd neben vns/ ohne einige vermanung vnd erfor-<lb/>
+derung/ aus lautrer liebe vnd gunſt/ ſo ſie zu jhm getragen/ willig<lb/>
+vnd gerne gethon haben. Sondern wir haben darneben geſehen<lb/>
+vnd vormercket/ <hi rendition="#aq">publicum luctum,</hi> gemeine trawrigkeit vieler/<lb/>
+vnd faſt aller Perſonen/ wie ſie vmb dieſen/ als furwar einen thew-<lb/>
+ren/ nuͤtzlichen Mann getrawret vnd leidt getragen/ vnd ſeinen<lb/>
+Toͤdlichen abgang hertzlich beweinet vnd beklaget haben/ vnd noch/<lb/>
+wie man hoͤret vnd ſiehet/ beklagen. Weil aber ſolches/ nach der<lb/>
+<fw place="bottom" type="catch">Welt</fw><lb/>
+<pb facs="#f0003"/>
+Welt brauch/ bey vielen ſonderlich den ſichern/ vnachtſamen/ leicht<lb/>
+zuuerrauſchen pfleget/ Wie denn wol auch der gut vnd wolthaten<lb/>
+ſo vns Gott durch ſolche leut erzeiget/ von vielen nicht zu gar lang<lb/>
+gedacht wird: Wie man ſagt: Kompt man der vndanckbaren<lb/>
+Welt aus den augen vnd geſichte/ Man koͤmpt jhr auch bald aus<lb/>
+dem hertzen vnd gemuͤte/ Dieſer Magiſter Johan Starck aber/<lb/>
+Jſt beydes vmb dieſe Stadt/ Buͤrgerſchafft vnd Gemeine/ So<lb/>
+wol vmb das gantze Marggraffthumb/ vnd viel andre leute/ gar<lb/>
+ein woluerdienter Man geweſen/ derwegen <hi rendition="#aq">Celebri, perpetuaꝙ́<lb/>
+memoria dignus,</hi> ewigs vnd ehrlichs gedechtniß wol wirdig/ Wie<lb/>
+Dauid ſagt/ <hi rendition="#aq">Pſalm 112. In memoria æterna crit iuſtus.</hi></p><lb/>
+<p>Damit ich nun auch in dieſem fall/ nach meinem Ampt das<lb/>
+meine/ bey einem jtzlichen/ dinſtlich thete vnd verrichtete/ Nemlich/<lb/>
+das dieſes verſtorbnen Chriſtlichen Mannes gedechtnis/ nicht ſo<lb/>
+bald verrauſchen/ Der wolthaten Gottes/ Vns durch jhn/ in allen<lb/>
+Regimenten erzeiget/ nicht vergeſſen/ Wir alle zum embſigen Ge-<lb/>
+bet/ fuͤr gemeine wolfart dieſer Stadt/ Auch durch ſein Exempel/<lb/>
+andre/ zu gleicher ſorgfeltigkeit/ trew vnd fleiß/ in jhrem ſtande/<lb/>
+ampt vnd beruff/ vnd alle vnterſaſſen/ zu gebuͤrlicher reuerentz ehr-<lb/>
+erbietung vnd gehorſam gegen jhren Chriſtlichen Regenten vnd<lb/>
+Stadtvaͤtern/ gereitzt moͤchten werden/ Habe ich (vngeacht wie<lb/>
+mirs von etzlichen gedeutet vnd außgeleget mag werden) hir zu fuͤr<lb/>
+nothwendig/ nuͤtzlich vnd dienſtlich/ in meiner einfalt erachtet/<lb/>
+Das/ Auch ſeiner betruͤbten hinterlaſnen/ Tugentſamen Chriſt-<lb/>
+lichen Witfrawen/ ſo wol den Waiſen/ Erben vnd Kinderlein/<lb/>
+Beneben ſeiner gantzen Ehrlichen freundſchafft vnd verwandten/<lb/>
+zum troſt vnd ehren/ die Leichpredigt/ ſo bey ſeiner beſtattung/<lb/>
+zware gar ſchlecht vnd einfeltig/ doch hoff ich/ recht vnd Chriſtlich/<lb/>
+durch Goͤttliche verleihung geſchehen/ fuͤr dieſe Stadt vnd Ge-<lb/>
+mein/ darzu ich dann von etzlichen fuͤrnehmen leuten/ auſſerhalb<lb/>
+des Regiments/ angehalten vnd vermanet/ auffgelegt vnd ge-<lb/>
+druckt wuͤrde/ Da man nicht zweyfelt es werde keiner/ oder je ſehr<lb/>
+wenig Buͤrger vnd Jnwoner/ in dieſer Sadt vnd Gemeine ſein/<lb/>
+Der nit zum wenigſten ein Exemplar ſolcher Leichpredigt/ Ober-<lb/>
+<fw place="bottom" type="sig">A ij</fw><fw place="bottom" type="catch">zelter</fw><lb/>
+<pb facs="#f0004"/>
+zelter vnd andrer vrſachen/ ſonderlich auch ſeiner Kinder hal-<lb/>
+ben/ zu keuffen/ vnnd in ſeinem Hauſe zuhaben/ begeren werde/<lb/>
+Darauff ichs in Gottes namen alſo bewilliget vnd geſchehen laſ-<lb/>
+ſen/ Der verleihe auch ſeine gnade/ das es bey allen denen/ ſo es fuͤr<lb/>
+koͤmpt/ Sonderlich aber bey den jenigen/ ſo es hirmit namhafftig<lb/>
+dedicirt vnd offerirt/ eben das/ durch ſeinen heyligen Geiſt/ ausrich-<lb/>
+te vnd wircke/ darzu es vermeinet vnd vbergeben/ So wird es zu<lb/>
+Gottes ehre vnd allem guten gereichen/ Mich des ſchreibens/ den<lb/>
+andern des leſens/ vnd alſo keinen ſeiner zeit vnnd muͤh gerewen<lb/>
+duͤrffen/ Jch begere auch darfuͤr keine andre verehrung/ denn das<lb/>
+mans zu Gottes lob/ mit danck fuͤr ſeine wolthaten/ vnd zu behar-<lb/>
+licher gemeiner wolfart vnd beſſerung/ mit lieb annehmen/ vnd zu<lb/>
+Chriſtlichem/ Buͤrgerlichem/ Nackbarlichem fried vnd einigkeit/<lb/>
+brauchen wolle/ darumb ich demuͤtig vnd fleißig bitte/ vnd mich<lb/>
+forthin in allem/ beyde Ampt vnd Perſon nach/ dieſer Loͤblichen<lb/>
+Stadt/ vnd Chriſtlichen Buͤrgerlichen Gemeine/ gegen einem<lb/>
+jedern/ was ſtands vnd vermoͤgens er iſt/ reich oder arm/ zu jeder<lb/>
+zeit/ dienſtlich vnd freundlich/ nach vermoͤgen/ erbiete vnd erzeige/<lb/>
+Damit Gott in ſeine gnad vnd ſchutz befohlen/ Geben am 23.<lb/>
+Sontag nach Trinitatis/ den 2. Nouembris: Da Chriſtus<lb/>
+Matth: 22. Den Juͤden vnd vns allen ernſtlich beſtelet: Gebet<lb/>
+dem Keyſer/ was des Keyſers iſt/ vnd Gotte/ was Gottes iſt/ Das<lb/>
+helff vns Gott allen Amen/ Anno 1578.</p><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">Laurentins Dreſſerus G:<lb/>
+manu propria.</hi></hi></salute></closer><lb/>
+<epigraph><cit><quote><hi rendition="#c"><hi rendition="#aq"><hi rendition="#b">Pſalm 122.<lb/>
+Rogate quæ ad pacem ſunt Hieruſalem.</hi></hi></hi></quote></cit></epigraph></div><lb/>
+<pb facs="#f0005"/>
+<div type="fsSermon" n="1"><div type="preface" n="2"><head><hi rendition="#b">Eingang vor der verle-<lb/>
+ſung des Texts.</hi></head><lb/>
+<p><hi rendition="#b"><hi rendition="#in">J</hi>Hr geliebten vnd auſerwelten Got-</hi><lb/>
+tes in dem Herren Chriſto/ Gott hat vns/ nach<lb/>
+ſeinem Goͤttlichen rath/ willen vnd wolgefal-<lb/>
+len/ durch den Toͤdtlichen abgangk/ des Achtbaren/<lb/>
+Erbaren/ Wolgelarten vnd Wolweiſen Herren Ma-<lb/>
+giſiri Joannis Starcken/ dieſer Stadt/ Buͤrger-<lb/>
+ſchafft vnd Gemein/ alten Herren Buͤrgermeiſters/<lb/>
+ſeliger vnd Chriſtlicher gedechtniß/ verurſachet/ Nicht<lb/>
+allein dieſe vnſere jtzige verſamlung vnd zuſammen-<lb/>
+kunfft/ an dieſem traurigen ort/ auffm Gottsacker/<lb/>
+Sondern auch/ zum teil aus Chriſtlicher liebe/ zum<lb/>
+teil aus ſchuͤldiger pflicht/ <hi rendition="#aq">publicum luctum,</hi> gemei-<lb/>
+ne trauertage anzuſtellen/ vnd eine zeitlang zuhalten.<lb/>
+Vns damit nicht alleine/ gegen vnſerm/ dieſer Chriſt-<lb/>
+lichen Gemein/ Woluerdientem Herren vnd Regen-<lb/>
+ten/ fuͤr ſeine trewe Vaͤterliche ſorge vnd wolthaten/<lb/>
+danckbar zuerzeigen. Sondern jtzo vnnd allewege<lb/>
+deſter fleiſſiger zubetrachten/ vnd von Gott dem Va-<lb/>
+ter/ Jn vnſers einigen Mitlers vnd vorbitters Jheſu<lb/>
+Chriſti namen/ zuerbitten/ Was vnſrer Stadt vnd<lb/>
+jhren Jnwonern/ zum gemeinen nutz/ vnd ſonſt allent-<lb/>
+halben/ noͤtig/ nuͤtzlich vñ dienſtlich ſein mochte/ Denn<lb/>
+alle gute gaben kommen von oben herab.</p><lb/>
+<fw place="bottom" type="sig">A iij</fw><fw place="bottom" type="catch">So</fw><lb/>
+<pb facs="#f0006"/>
+<p>So wollen wir nu bey Chriſtlicher beſtattung ſei-<lb/>
+ner Leich vnd Coͤrpers/ in dieſer gar loͤblichen Volck-<lb/>
+reichen vorſamlung/ durch Goͤttliche gnad vnd ver-<lb/>
+leihung/ dere wir vns bey Gott dem Vater/ durch<lb/>
+Chriſti verdienſt vnd vorbitte/ warhafftig vnd gewiß-<lb/>
+lich zutroͤſten haben/ Vns/ den lebendigen/ zur lehr/<lb/>
+troſt vnd warnung/ ein wenig/ mit kurtzen wortten/<lb/>
+nach gelegenheit jtziger zeit vnd ſtelle/ zuerkleren/ fuͤr<lb/>
+vns nehmen/ einen herrlichen/ dieſen letzten fehrlichen<lb/>
+betruͤbten zeiten/ vnd ſichern leuten/ fuͤrwar einen gar<lb/>
+nothwendigen ſchoͤnen Text/ aus dem Buch vnd Pre-<lb/>
+digten/ des recht Euangeliſchen Propheten Eſai<hi rendition="#aq">æ</hi>/<lb/>
+der in ſeinem 56. cap: vnter anderm alſo ſaget.</p></div><lb/>
+<div type="fsBibleVerse" n="2"><head><hi rendition="#b">Text.</hi></head><lb/>
+<cit><quote><hi rendition="#b"><hi rendition="#in">D</hi>Er Gerechte koͤmpt vmb/ vnnd nie-<lb/>
+mand iſt der es zu hertzen nehme/<lb/>
+Heylige leute werden auffgerafft/ vnd<lb/>
+niemand achtet drauff/ denn die Gerech-<lb/>
+ten werden weg gerafft fuͤr dem vngluͤck/<lb/>
+vnd die richtig fuͤr ſich gewandelt haben/<lb/>
+kommen zum fried/ vnd ruhen in jhren<lb/>
+Kammern.</hi></quote><bibl/></cit></div><lb/>
+<fw place="bottom" type="catch"><hi rendition="#b">Außlegung.</hi></fw><lb/>
+<pb facs="#f0007"/>
+<div type="fsMainPart" n="2"><head><hi rendition="#b">Außlegung.</hi></head><lb/>
+<p><hi rendition="#b"><hi rendition="#in">J</hi>HR geliebten Gottes in dem HERren</hi><lb/>
+Chriſto/ das dieſer Text dieſen betruͤbten letzten<lb/>
+leuten vnnd zeiten/ gar nuͤtzlich vnd nothwendig<lb/>
+ſey beydes den guten vnd boͤſen/ darff weder vber-<lb/>
+fluͤßiger worte/ nach weitgeſuchterbeweiſung/ Deñ<lb/>
+der Prophet prediget darinnen/ beydes den gleubi-<lb/>
+gen verſtorbenen/ Auch jhren lebendigen freunden vnd verwanten/<lb/>
+einen herrlichen Troſt/ Vnd wiederumb den vngleubigen Gott-<lb/>
+loſen/ die offt die frommen vberleben/ vnnd von jhrem Tode gar<lb/>
+ſeltzam vnd wunderlich vrteilen vnd reden/ ein ernſthafftige treu-<lb/>
+hertzige warnung/ Von dieſen beyden ſtuͤcken/ in einer eyle vnd<lb/>
+kuͤrtze/ ſeliglich vnd fruchtbarlich zureden vnd hoͤren/ verleihe vns<lb/>
+der liebe Vater vmb Chriſti willen/ ſeinen heiligen Geiſt vnd gna-<lb/>
+de/ Amen.</p><lb/>
+<p>Jhr wiſſet Gott lob vnd danck/ alle wol Lieben Chriſten/ wie<lb/>
+jhm Gott der Vater/ aus lautrer gnad vnd barmhertzigkeit/ von<lb/>
+anbegin vnd von ewigkeit/ ehr der Welt gruͤnde/ ſagt S. Paulus/<lb/>
+Ephe. 1. gelegt ſeind worden/ Jm rathſchlag der heyligen dreyfal-<lb/>
+tigkeit/ auff der Mittel Perſon/ des Herren Jheſu Chriſti/ ſeines<lb/>
+eingebornen natuͤrlichen geliebten Sones/ demuͤtigen fußfall vnd<lb/>
+vorbitte/ fuͤr das damals kuͤnfftig Menſchlich geſchlecht/ fuͤrgeſetzt<lb/>
+vnd beſchloſſen hat/ Durch die gnad vnd wirckung des heyligen<lb/>
+Geiſtes/ Mit dem heyligen Predigampt vnd muͤndlichen wort/<lb/>
+Jm erkentnuͤß ſeines Goͤttlichen weſens vnd willens durch Chri-<lb/>
+ſtum/ fuͤr vnd fuͤr/ von anfang bis zum end der Welt/ Aus dem<lb/>
+menſchlichen geſchlechte/ ein angenehmes Volck vnd Kirche zube-<lb/>
+ruffen/ zu ſamlen/ zu erleuchten/ zu heyligen/ vnd wider der hellen<lb/>
+pforten zuerhalten/ zum freudenreichen ewigen weſen vnd leben/<lb/>
+Wie zum theil der Koͤnigliche Prophet Dauid troͤſtlich dauon re-<lb/>
+det/ Pſalm 2.</p><lb/>
+<fw place="bottom" type="catch">Das</fw><lb/>
+<pb facs="#f0008"/>
+<p>Das ſeind nun die leute/ Nemlich die auſerweite Kirche Chri-<lb/>
+ſti/ ſampt jhren warhagtigen lebendigen Gliedmaſſen/ welche all-<lb/>
+hie der H. Geiſt durch den Propheten Eſaiam nennet/ Heylige/<lb/>
+Gerechte/ richtige leute/ Welche S. Petrus 1. cap: 2. Auch nen-<lb/>
+net/ das auſerwelte geſchlecht/ das Koͤnigliche Priſterthumb/ das<lb/>
+heylige Volck/ das volck des eigenthumbs etc. verſamlet ohne vn-<lb/>
+derſcheit vnd anſehen der Perſonen/ aus allerley Nationen vnd<lb/>
+Voͤlckern.</p><lb/>
+<p>Vnd werden vor dem andern vngeſchlachten verkerten ge-<lb/>
+ſchlecht/ der ſichern Epicurer vnd froͤlichen weltkinder/ der vngleu-<lb/>
+bigen vnd Gottloſen vnderſchiedlich erkennet/ an rechter lehre vnd<lb/>
+bekentniß Goͤttlichs worts/ des Euangelions/ rechten brauchs der<lb/>
+Hochwirdigen Sacrament/ von Chriſto geordenet/ vnd an jhrem<lb/>
+Gottſeligen Chriſtlichen wandel vnd gehorſam Goͤttlichs worts/<lb/>
+ſo viel jhnen in dieſer angebornen ſchwachheit/ des verderbten vnd<lb/>
+ererbten Bluts vnd fleiſches/ durch die gnade des heiligen Geiſtes/<lb/>
+gegen Gott vnd Menſchen/ menſchlich vnd moͤglich iſt.</p><lb/>
+<p>Wie dann der heylige Apoſtel Paulus Philip: 2. alle Chri-<lb/>
+ſten/ alſo auch vns alle vormanet/ das wir als Gottes Kinder auff<lb/>
+Erden/ mitten vnter dem vngeſchlachten verkerten geſchlecht/<lb/>
+leuchten vnd ſcheinen als die lichter/ Vns eines Gottſeligen/ vn-<lb/>
+ſtrefflichen/ ſtillen wandels vnd lebens befleiſſen/ gegen jederman.<lb/>
+Wie wir denn durch den Sohn Gottes/ eben zu dem ende/ ſo<lb/>
+theur/ mit ſeinem roſenfarben vnſchuͤldigen blut/ Erloͤſet/ erkaufft/<lb/>
+erworben/ gewonnen/ gerechtfertiget/ geheiliget/ mit dem heiligen<lb/>
+Geiſt begabet/ vnd von Gott dem Vater/ durch den glauben an<lb/>
+Chriſtum vnd diß alles/ zu gnaden angenommen vnd kommen ſein/<lb/>
+Das wir jhm fuͤr ſolche wolthaten danckbar ſein vnd gehorſam-<lb/>
+lich/ williglich dienen ſollen/ Jn Heyligkeit vnd Gerechtigkeit/ die<lb/>
+jhm gefellig iſt/ vnſer lebenlang. Drumb nennet ſie auch der Pro-<lb/>
+phet ſolche leute/ die hie auff Erden/ vnter den leuten richtig/ fuͤr ſich<lb/>
+gelebt/ vnd gewandelt haben/ Jn jhrem Stand vnd Beruff nach<lb/>
+Gottes befehl vnd geboten/ gegen Gott vnd Menſchen etc.</p><lb/>
+<fw place="bottom" type="catch">Sie</fw><lb/>
+<pb facs="#f0009"/>
+<p>Sie haben aber ſolche Heyligkeit/ Gerechttgkeit/ Kindſchafft/<lb/>
+erbſchafft/ ſeligkeit etc. nicht von ſich ſelbſt/ noch von der volkom-<lb/>
+menheit jhrer ſelbſt gethonen guten wercke/ das ſie es domit außer-<lb/>
+halben oder neben Chriſto verdient hetten/ Nein/ Sie bekennen alle<lb/>
+einmuͤtig mit Eſaia cap: 64. Das jhre gerechtigkeit/ Jhrenthal-<lb/>
+ben fuͤr Gott ſey/ wie ein vnreines tuch/ Deñ auch Dauid ſpricht/<lb/>
+Pſalm 130. Wenn Gott auff vnſer thun ſehen/ vnd miſſethat zu-<lb/>
+rechnen wolte/ das kein Menſch fuͤr Jhn beſtehen/ weder gerecht<lb/>
+noch ſelig werden koͤnde/ Drumb beten alle auſſerwelte/ geheiligte<lb/>
+vnd gerechtfertigte fuͤr vnd fuͤr/ Abba lieber Vater/ vergib vns<lb/>
+vnſere ſchulden etc. Jtem/ Ach Herr gehe nicht jns Gericht mit dei-<lb/>
+nen Knechten/ Denn fuͤr dir wuͤrde kein lebendiger rechtfertig ſein/<lb/>
+Darumb handel nicht mit vns nach vnſern Suͤnden/ vergilt vns<lb/>
+nicht nach vnſern miſſethaten/ Sondern gedenck an vns nach dei-<lb/>
+ner grundloſen Barmhertzigkeit/ <hi rendition="#aq">propter Dominum,</hi> vmbs ver-<lb/>
+heißnen/ vnd nuhmals krefftig erweiſten Meſſi<hi rendition="#aq">æ</hi> willen/ dem/ dem<lb/>
+alleine/ vnd nicht vns gebuͤret die ehre/ ſagen Dauid vnd Daniel/<lb/>
+vnd mit jnen alle außerwelten zu allen zeiten.</p><lb/>
+<p>Darumb ſeind ſie gerecht/ heylig/ richtig/ ſelig etc. Erſtlich zu-<lb/>
+gerechneter weiſe/ <hi rendition="#aq">Imputatiue,</hi> aus lauterer gnad vnd Barmher-<lb/>
+tzigkeit Gottes/ ohne jhr zuthun/ allein durch den Glauben/ vmb<lb/>
+Chriſti willen/ Darnach <hi rendition="#aq">inchoatiue,</hi> das ſie dem Heiligen Geiſt<lb/>
+gehorſamen/ zur beweiſung jres glaubens/ Gotte zu ſchuͤldiger vnd<lb/>
+gebuͤrlicher danckbarkeit/ fuͤr ſeine vnuergleichliche wolthaten.<lb/>
+Andern leuten zum guten Exempel vnd beyſpiel/ Auch glauben<lb/>
+vnd gut gewieſſen zubewaren/ mutwillige Suͤnde vnd ſtraffe zu-<lb/>
+uerhuͤten/ ein Chriſtlich leben anfangen vnd beſtendiglich fuͤhren<lb/>
+bis an jhr ende/ nach Gottes geboten/ gegen Gott vnd Menſchen/<lb/>
+jnnerlich vnd euſerlich etc. Als viel jhnen/ in dieſer ſchwachheit<lb/>
+Menſchlich vnd muͤglich/ als oben angezeiget. Dieſer angefang-<lb/>
+ne gehorſam/ ob er jhrenthalben/ denn wir ſeind fuͤr vnd fuͤr/ der<lb/>
+verterbten vnd ererbten Natur halben/ <hi rendition="#aq">Vicioſa materia.</hi> vnuol-<lb/>
+kommen iſt/ gefelt dannoch Gott wol/ aus lautern gnaden/ durch<lb/>
+den glauben vmb Chriſti willen/ vnd hat verheiſſung beyde des ge-<lb/>
+<fw place="bottom" type="sig">B</fw><fw place="bottom" type="catch">genwertigen</fw><lb/>
+<pb facs="#f0010"/>
+genwertigen zeitlichen/ Auch des zukuͤnfftigen ewigen lebens/ wie<lb/>
+S. Paulus gar troͤſtlich ſagt/ 1. Tim: 4. <hi rendition="#aq">Pietas ad omnia vtilis<lb/>
+eſt:</hi> Darumb wir vns in der Gottſeligkeit/ billich/ allezeit fleiſ-<lb/>
+ſig vben ſollen.</p><lb/>
+<p>Das ſeind alſo die heyligen/ gerechten/ richtigen/ ſeligen etc.<lb/>
+Nun denckt die Welt/ vnd meint die kluge Heldin/ die Menſchli-<lb/>
+che vernunfft nicht anders/ Denn/ weil ſie ſo gewiß/ Gottes Kin-<lb/>
+der/ gerechte/ heylige/ ſelige leute ſein/ Es werde vnd muͤſſe jhnen hie<lb/>
+auff Erden jmmer wol/ vnd nimmer vbel gehen/ Sie werden ſich<lb/>
+fuͤr keinem vngluͤck/ weder fuͤr Creutz noch Tod befahren noch<lb/>
+fuͤrchten duͤrffen/ Dis alles widerfahr allein billich Gottes fein-<lb/>
+den/ den vngerathnen/ vnheyligen/ Gottloſen vnd vnſeligen leuten/<lb/>
+den ſichern Epicurern/ Welt vnd Teuffels Kindern/ Antwort:<lb/>
+Ja wenn jhr <hi rendition="#aq">Politeuma</hi> wandel oder Buͤrgerſchafft allein auff<lb/>
+Erden/ vnd nicht viel mehr im Himel/ oder das Reich Chriſti jh-<lb/>
+res Heylandes/ von dieſer Welt wer/ So wird es freilich alſo/ nach<lb/>
+der Welt vnd vernunfft vrtel/ vnd nicht anders gehen/ Aber vnſer<lb/>
+Buͤrgerſchafft vnnd wandel/ ſagt S. Paulus Phil: 3. Jſt im<lb/>
+Himel/ vnd mein Reich/ ſagt Chriſtus vor Pilato/ Johan: 18.<lb/>
+Jſt nicht von dieſer Welt/ Jch vnd meine außerwelten/ ſeind auff<lb/>
+was hoͤhers/ herrlichers vnd beſſers beſcheiden/ denn auff diß kurtze<lb/>
+vergengliche/ vngewiſſe vnnd vnbeſtendige weltliche weſen vnd<lb/>
+leben.</p><lb/>
+<p>Darumb wenn die vernunfft vnd welt nun ſihet/ das dieſe<lb/>
+heylige/ gerechte/ ſelige leute/ Gottes Kinder/ auff dieſer Welt ſo<lb/>
+voller vngluͤcks vnd Jammers/ vnd ſchier allenthalben vnſeliger<lb/>
+ſeind in dieſem leben/ vnd dem Tode neher/ denn andere/ offentlich<lb/>
+Gottloſe leute/ So dencken ſie bald/ Gott muͤſſe jhnen/ nicht ſo<lb/>
+gar gnedig vnd guͤnſtig/ nach ſo wol verwandt ſein/ Als ſie ſich<lb/>
+duͤncken laſſen vnd rhuͤmen/ Die Gottloſen (Denn ſie vrteilen<lb/>
+allein nach dem euſſerlichen anſehen vnd zuſtande/ Pſalm 144.)<lb/>
+Halten der Kirchen vnd jhrer gliedmaſſen/ betruͤbter Gottſeliger<lb/>
+leute/ duͤrfftigs vnd elends leben fuͤr vnſinnig/ vnd jhr ende fuͤr<lb/>
+eine ſchande/ ſagt das Buch der Goͤttlichen weißheit am 5. cap.</p><lb/>
+<fw place="bottom" type="catch">Was</fw><lb/>
+<pb facs="#f0011"/>
+<p><hi rendition="#c"><hi rendition="#b">Was hats denn aber gleichwol damit</hi><lb/>
+fuͤr eine geſtalt vnd meinung?</hi></p><lb/>
+<p>Dauon thut vnd gibt vns hie der heylige Geiſt durch Eſai-<lb/>
+am/ gar einen feinen/ klaren bericht/ War iſts/ ſpricht er/ Ge-<lb/>
+rechte leute kommen vmb/ manchmal viel erbermlicher vnd er-<lb/>
+ſchrecklicher/ denn vngerechte/ Heylige leute/ Gottes Kinder/ die<lb/>
+richtig fuͤr ſich nach Gottes befehl vnd willen gewandelt haben/<lb/>
+werden auch durch den Tod weggerafft/ manchmal ehe vnd mehr<lb/>
+denn andre/ Wie die Exempel der groſſen heyligen/ Johannis des<lb/>
+Teuffers/ Stephani/ Jacobi vnd andrer gnugſam zeugen/ Jch<lb/>
+gleube Annas/ Caiphas/ vnd andre Gottloſe Buben haben viel<lb/>
+lenger gelebt/ vnd ſeind viel elter worden/ der zeit vnd Jahren nach/<lb/>
+denn ſie.</p><lb/>
+<p>Merck aber/ Lieber Menſch/ ſagt Eſaias/ Ja der heylige<lb/>
+Geiſt ſelber/ Was bedeutets/ Wenn vnſer Herr Gott ſeine liebe<lb/>
+Kinder vnd Geſindlin alſo beſeit ſchicket/ vnd aus dem wege reu-<lb/>
+met/ Denn ſie hindern doch ſonſt auch die Welt Kinder in allen<lb/>
+winckeln?</p><lb/>
+<p>Es bedeutet/ ſagt er/ beydes jhnen/ vnd auch der Welt vnd<lb/>
+jhren Kindern/ die nach jhnen/ in der Welt/ auff Erden lebendig<lb/>
+oder vberig bleiben/ beyder ſeits etwas groſſes/ Welchs aber alle-<lb/>
+zeit/ leider wenig leute/ dermaſſen zu hertzen vnd in acht nemen/<lb/>
+als ſie wol billich ſolten/ wenn ſie ſo Gottfuͤrchtig vnd klug weren/<lb/>
+als ſie ſich wol duͤncken laſſen.</p><lb/>
+<p>Den Heyligen vnd gerechten/ den außerwelten gnaden Kin-<lb/>
+dern Gottes/ wird zwart jhr leben durch den Tod gebrochen vnd<lb/>
+jhre tage abgekuͤrtzet/ Aber ſie kommen dadurch zum friede/ ſchlaf-<lb/>
+fen vnd ruhen bis an den Juͤngſten tag/ Jn jhren Grebern/ als<lb/>
+in jhren kammern/ oder ſanfften Rhubetlin/ wie jhnen auch der<lb/>
+Son Gottes ſelber verdient vnd zugeſagt hat/ Johan: 5. War-<lb/>
+lich ich ſage euch/ Wer mein wort hoͤret/ vnd gleubet dem/ der mich<lb/>
+geſandt hat/ der hat das ewige leben/ vnd koͤmpt nicht jns Gericht/<lb/>
+Sondern er iſt vom Tode zum leben hindurch gedrungen.</p><lb/>
+<fw place="bottom" type="sig">B ij</fw><fw place="bottom" type="catch">Zu rhu</fw><lb/>
+<pb facs="#f0012"/>
+<p>Zu rhu vnd zu friede kommen/ iſt warlich lieben Chriſten/<lb/>
+etwas herrlichs vnd groſſes/ Weiſe mir doch/ lieber Chriſt/ nur et-<lb/>
+wan einen orth/ auff dem gantzen Erdkreis vnd boden/ Do du die-<lb/>
+ſe beyde/ Nemlich fried vnd ruhe/ bey einander finden vnd gehaben<lb/>
+moͤgeſt/ Fuͤrnemlich nuhmals/ bey dieſen letzten grundtboͤſen leu-<lb/>
+ten vnd verterbten zeiten/ Da die Welt ſo Gottlos/ gewiſſenlos<lb/>
+vnd boͤs iſt/ das ſie auch wol den verſtorbnen in der erden/ ſouil an<lb/>
+der Welt iſt/ fried vnd rhu/ weder goͤnnet noch leſſet/ Sie wuͤlet<lb/>
+vnd ſtoͤret/ wie ein vnfletige Saw (mit gunſt gemeldet) mit jhrem<lb/>
+raͤſſel/ der verſtorbnen Chriſten Greber auff/ als die auch den ver-<lb/>
+ſtorbnen/ vnd manchmal gar trefflichen woluerdienten leuten/ nit<lb/>
+nachlaſſen noch auffhoͤren/ vbel nach zureden. Man ſparts jhnen<lb/>
+wol beim leben nicht/ was ſolt man deñ nach jhrem tod nicht thun/<lb/>
+do ſie es nicht mehr hoͤren/ noch ſich verantworten koͤnnen/ weh<lb/>
+aber ſolchen leuten. <hi rendition="#aq">Exempla ſunt quidem odioſa, Sed heu hîc<lb/>
+&amp; vbiꝙ́ obuia.</hi></p><lb/>
+<p>Mancher baut jhm mit groſſen vnkoſten/ ein herrlich zimmer/<lb/>
+abgeſondert von den leuten/ an einen ort/ do nit viel tumults/ ge-<lb/>
+tuͤmels oder pochens iſt/ Verhofft er wolle da ruhe vnd fried ha-<lb/>
+ben/ Aber er hats vnd findets nicht/ Die welt ſtoͤret jhn vberal auff/<lb/>
+vnd macht jhn vnruig/ Drumb ſeind die vnkoſten verloren/ Was<lb/>
+er aber auff den Gotsacker/ auff ſein Grab woget/ das iſt vnuer-<lb/>
+loren/ das darff jhn nicht rewen/ Da wird er in Chriſto bis am<lb/>
+Juͤngſten tag/ vnd darnach ewig rhu vnd friede haben. Denn<lb/>
+ob wol die Welt ſein Grab auff/ Seinen Coͤrper vnd gebein auß-<lb/>
+grebet/ verbrennet/ vnd damit zuuervnruigen vnd gar zuuerdam-<lb/>
+men gedencket/ Wie vielen trefflichen leuten/ von den Geiſtlichen<lb/>
+Tyrannen in der Roͤmiſchen Kirchen/ offt geſchehen iſt/ vnd nach<lb/>
+geſchehen moͤchte/ Jhr muͤthlin/ an denen/ ſo ſie fuͤr ketzer halten/<lb/>
+zu kuͤlen/ Schadet aber den rechtgleubigen vnd außerwelten/ an<lb/>
+jhrer rhu/ fried vnd ſeligkeit in Chriſto gar lauter nichts.</p><lb/>
+<p>Darumb wird eins gleubigen Chriſten grab/ oder der ort/ do<lb/>
+ſein Coͤrper gebein vnd a<supplied>ſ</supplied>che hinkommet/ gar billich genennet eine<lb/>
+rhuſtadt, eine herrliche ſchlaffkammer/ ein ſan<supplied>ff</supplied>tes faulbetlin etc.</p><lb/>
+<fw place="bottom" type="catch">Das</fw><lb/>
+<pb facs="#f0013"/>
+<p>Das bedenckt vnd verſtehet zwar/ die kluge welt vnd vernunfft<lb/>
+mit jhren Kindern nicht/ helts fuͤr ein gedicht vnd traum/ denn ſie<lb/>
+iſt allein au<supplied>ff</supplied>s euſſerliche verpicht vnd abgericht/ Jſt aber gleich-<lb/>
+wol in der warheit alſo/ Wie es ob Gottwil/ vnſer froͤliche auffer-<lb/>
+ſtehung in Chriſto/ mit verklerten/ vnſterblichen leiben/ am Juͤng-<lb/>
+ſten tage/ zum freudenreichen/ ewigen herrlichen weſen vnd leben/<lb/>
+wol ausweiſen/ confirmiren vnd beſtettigen wird/ mit ewiger rew<lb/>
+vnd wehklagen aller Gottloſen: Sap: 5.</p><lb/>
+<p>Des ſollen ſich alle Chriſten/ wider jhren eignen Tod vnd ſter-<lb/>
+ben/ wider die anfechtungen des Todes/ wider die entſetzung/ eckel<lb/>
+vnd grauen/ ob dem Grabe/ Gottsacker vnd Beinhauß/ Darnach<lb/>
+auch wider den toͤdlichen abgang/ Jhrer Chriſtlich verſtorbnen/<lb/>
+Freunde vnd verwandten/ von hertzen in Chriſto/ troͤſten vnd frew-<lb/>
+en/ Gott dancken/ vnd jhnen ſolchen fried vnd rhue Jn Chriſto/<lb/>
+weils ia dem lieben Gott/ alſo wolgefallen hat/ hertzlich goͤnnen/<lb/>
+vnd Gott ernſtlich bitten vnd anruffen/ auch jhr leben in Gottes<lb/>
+furcht/ mit trewer vnd fleißiger bewahrung/ glaubens vnd guten<lb/>
+gewiſſen<supplied>s</supplied>/ alſo anſtellen/ vnd durch huͤlff des heyligen Geiſts hi-<lb/>
+naus fuͤren vnd zum ende bringen/ Das ſie auch/ gleich jren gelieb-<lb/>
+ten verſtorbnen/ alſo in jhr Grab/ zum ſeligen fried vnd rhu kom-<lb/>
+men moͤgen/ Amen.</p><lb/>
+<p>Summa/ <hi rendition="#aq">Precioſa in conſpectu Domini, mors ſancto-<lb/>
+rum eius,</hi> ſagt der heylige Geiſt ſelber/ Pſalm 116. Er trag ſich zu<lb/>
+wenn vnd wie er wolle/ ſagt/ <hi rendition="#aq">lib: Sap:</hi> 3. vnd allhie Eſaias/ So<lb/>
+bedeutet vnd bringt er jhnen alles guts.</p><lb/>
+<p><hi rendition="#b">Was bedeuts vnd bringet es aber/ den</hi><lb/>
+vbrigen gottloſen/ So ſie in der Welt auff erden im<lb/>
+leben nach ſich verlaſſen/ wenn ſolche leute von ihnen weggerafft<lb/>
+werden/ Wie ſie ſich denn jmer bey mehlich/ einer noch dem andern<lb/>
+<hi rendition="#c">fein verlieren/ vnd ſeubeilich von vns/ aus dieſer vndanck-<lb/>
+baren/ boͤſen Welt hinweg ſchleichen?</hi></p><lb/>
+<p>Das hoͤrt vnd vernimpt man hie auch wol/ wer es andershoͤ-<lb/>
+ren vnd vernehmen wil Das der welt zur woluerdi<supplied>e</supplied>nten zeitlic<supplied>h</supplied>en/<lb/>
+<fw place="bottom" type="sig">B iij</fw><fw place="bottom" type="catch">leiblichen</fw><lb/>
+<pb facs="#f0014"/>
+leiblichen ſtraff (die Geiſtliche vnd ewige iſt vnd bleibt nach allweg<lb/>
+im reſt dahinden) jhrer greulichen muthwilligen Suͤnde/ vnbuß-<lb/>
+fertigkeit/ verachtung/ ſicherheit/ vndanckbarkeit etc. Jn Gottes<lb/>
+gerechtem vntreglichen zorn/ ein gros vngluͤck bereit/ vnd als denn/<lb/>
+wo fern ſie nicht buſſe thut/ gewiß nicht fern ſey/ Wie die Exempel<lb/>
+vnd hiſtorien/ Jn Geiſtlichen vnnd Weltlichen geſchichten vnd<lb/>
+hendeln/ zu allen zeiten gnugſam bezeugen vnd weiſen.</p><lb/>
+<p>Was folgete fuͤr greulicher vnrath vnd lermen/ nit allein zu<lb/>
+Meilandt/ ſondern faſt in gantz Jtalia auff des heyligen Ambroſii<lb/>
+todt/ welchs ſie aber zuuor nicht gleubten/ als ers jhnen bey ſeinem<lb/>
+leben zu trewer warnung offt ſagte.</p><lb/>
+<p>Jch mus vmb geliebter kurtze willen/ aus mangel der zeit/ auch<lb/>
+orts vnd gewitters halben/ dismal mehr Exempel/ der ich doch<lb/>
+Gottlob viel wuͤſte/ zuerzelen abbrechen/ Merckt nur nach eins/<lb/>
+Wir wiſſen wol/ denn es iſt bey vnſerm gedencken geſchehen/ Was<lb/>
+auff Docter Luthers Tod/ ſeliger gedechtniß/ Jn Deutzſchlandt<lb/>
+folgte/ welchs er/ vnd andere fromme Chriſten/ bey ſeinem leben/<lb/>
+wie er offt ſagt/ mit jhrem embſigen Gebet auffhielten/ Aber traun/<lb/>
+als er Anno 1546. am tag Concordi<hi rendition="#aq">æ</hi> ſtarb/ Do jhm kaum die<lb/>
+fuͤſſe (wie man ſpricht) kalt worden/ vnd er begraben ward/ faſt<lb/>
+noch im ſelben Jhar/ fieng ſich der lerman vnd vngluͤck in Deutz-<lb/>
+ſcher Nation/ bey mehlich von tag zu tag/ je lenger je mehr an/<lb/>
+Gieng ein fewr vnd vngluͤck in Germania auff vnd an/ Daran<lb/>
+man noch zu leſchen hat/ vnd Gott allein weis/ ob es auch fuͤr der<lb/>
+zukunfft Chriſti/ gentzlich moͤchte geleſchet werden/ wie wir zwart<lb/>
+an vnterlasbitten/ Aber wir halten vns leider/ vnſer viel ſelber<lb/>
+nicht darnach/ drumb prellt vnſer Gebet auch zuruͤcke.</p><lb/>
+<p>Das bedeutets der Welt ſagt hie der heylige Geiſt vnd Eſai-<lb/>
+as/ wenn ſolche leute außm weg gereumet/ denn ſie hindern doch<lb/>
+ſonſt beim leben vberall/ weggeraffet vnd an einen gewahrſamen<lb/>
+ſichern orth verſchickt werden/ Denn Gott thut mit den ſeinigen/<lb/>
+wie ein frommer Haußuater/ wenn etwan in Krigsleufften oder<lb/>
+ſonſt/ groſſe vnd gefehrliche durchzuͤge geſchehen ſollen/ So ſchickt<lb/>
+er bey zeit zuuor/ Sein Weib/ Kinder/ Geſindlin/ welche in ſolchen<lb/>
+<fw place="bottom" type="catch">leufften/</fw><lb/>
+<pb facs="#f0015"/>
+leufften wenig nuͤtz im wege ſeind/ beſeit außm geſicht. Oder wie<lb/>
+man in Brunſten vnd feuersnoͤten zuthun pfleget/ Do man ahn<lb/>
+arm zuſammen rafft vnd außtregt/ das liebſte vnd beſte/ ſo man<lb/>
+hat/ dem leufft man zu/ das ander befihlt man Gott vnd dem<lb/>
+gluͤck/ do gehts offt erbermlich vnd erſchrecklich mit zu.</p><lb/>
+<p>Wir haben hie/ am Herrn Magiſtro Johan Starcken/ an<lb/>
+vnſerm lieben alten Herrn Buͤrgermeiſter/ einen theuren man<lb/>
+(neben den andern alten Herrn/ die Gott lang erhalte Amen)<lb/>
+einen trewen <hi rendition="#aq">Patrem patriæ,</hi> Sorger fuͤr vnſere Stadt/ Gemein<lb/>
+vnd Vaterlandt/ verloren (wiewol/ als S. Ambroſius ſagt/ nit<lb/>
+gar verloren) Des wir warlich neben den andern Herrn vnd<lb/>
+Vaͤtern/ Jm Regiment/ Jn dieſen verwirten leufften/ vnd be-<lb/>
+truͤbten zeiten/ wol viel lenger beduͤrfft hetten/ wie er denn auch al-<lb/>
+ters halben/ ob er wol gantz eißgraw war/ wol lenger/ do es Gottes<lb/>
+wille/ leben hette koͤnnen/ Denn welche gnade vnd gaben er von<lb/>
+Gott hatte/ nicht allein zureden/ Sondern in verwornen vnd offt<lb/>
+zweiuelhafftigen ſachen/ guten rath zu finden vnnd mitzuteylen/<lb/>
+Welchs er denn niemanden/ der es von jhm begerte vnd zu jhm<lb/>
+kam/ Dem armen ſo wenig als dem Reichen/ wie frommen Stad-<lb/>
+vaͤtern vnd Regenten gebuͤret/ verſagte/ Das wiſſen die Herren/<lb/>
+ſeine <hi rendition="#aq">Aſſeſſores</hi> vnd Beyſitzer/ beyde in der hochloͤblichen Koͤnig-<lb/>
+lichen Cantzley/ vnd im Erbaren Rathſtuel/ denen er trewlich bey-<lb/>
+gewonet/ mehr vnd viel bas zu ſagen vnd zeugen/ denn Jch/ wie ſie<lb/>
+denn beſtendig/ Wo man ſeiner nur gedencket/ thun/ vnd iſt ohne<lb/>
+das Gottlob/ Stadt vnd Landkuͤndig/ bey einheimiſchen vnd auſ-<lb/>
+lendiſchen.</p><lb/>
+<p>Nun ſaget Eſaias hie/ Wenn ſolche leute weggerafft werden/<lb/>
+durch den Tod/ zu friede kommen/ vnd rhuen fein ſanfft/ in jhren<lb/>
+Grebern/ wie in einem ſchoͤnen zimmer/ vnd rhubetlin/ dohin ſie<lb/>
+Gott bey ſeit verſchicket/ Do ſchwebet hernach/ die Gottloſe vn-<lb/>
+danckbare ſichere Welt/ wie zur zeit Noe/ im vngluͤck/ darfuͤr hat<lb/>
+Gott/ Jene/ als die ſeinen weggenomen/ Aber/ wie der Prophet<lb/>
+hie klagt/ vnd wir mit jhm/ Niemand iſt/ oder je ſehr wenig leute<lb/>
+ſeind/ die es zu hertzen nemen/ Wer nimpts in acht? Wer fuͤrchtet<lb/>
+<fw place="bottom" type="catch">Gott?</fw><lb/>
+<pb facs="#f0016"/>
+Gott? Wer wird beſſer? Wer bedencket/ oder beſorget ſich/ das<lb/>
+was groſſes oder fehrlichs darhinder ſey? Niemand/ ſagt Eſai-<lb/>
+as/ Oder je ſehr wenig/ ſo blindt/ ſo ſicher iſt die Welt/ las dichs<lb/>
+Gott erbarmen.</p><lb/>
+<p>Man duͤrffte ſolche vnd dergleichen leute/ in der Welt nicht<lb/>
+ſehr neiden noch plagen/ Gott moͤchte ſie vns/ hie vnd anderswo/<lb/>
+nach allzuriſch aus den augen ruͤcken/ vnd aus den zeenen reiſſen/<lb/>
+Aber von Natur haben wir Menſchen faſt alle gerne newe Re-<lb/>
+giment vnd Regenten/ wie auch newe Prediger/ Die Welt wird<lb/>
+alter Regenten vnd Prediger/ liderlich ſath vnd vberdruͤßig/ vnd<lb/>
+ſeind doch die bewertſten/ vnd meinens am treulichſten/ Wie ent-<lb/>
+lich die erfahrung ſchir vberal lehret/ Aber die Welt/ ſag ich/ hat<lb/>
+vnd ſihet gemeiniglich gerne enderung/ So doch enderungen/ in<lb/>
+allen Regimenten vnd Stenden/ nach dem gemeinen ſprichwort/<lb/>
+<hi rendition="#aq">Omnis mutatio eſt periculoſa,</hi> Wo nicht allewege/ doch gemein-<lb/>
+lich/ gefahr vnd etwas newes mit ſich bringen/ dardurch vndanck-<lb/>
+barkeit vnd andere Suͤnde geſtraffet muͤſſen werden/ Darumb<lb/>
+auch Salomo ſagt/ in Spruͤchen/ Vmb des Voͤlcks Suͤnde wil-<lb/>
+len/ werden die Regiment offt verendert.</p><lb/>
+<p>Drumb ſolt etwan der toͤdliche abgang dieſes theuren vnnd<lb/>
+treuen Mannes/ dieſer Chriſtlichen Stadt/ Buͤrgerſchafft vnd<lb/>
+Gemein/ was ſonderlichs oder gefehrlichs bedeuten vnd bringen<lb/>
+wollen/ Wie wir vns aus den klaren worten vnd treuen warnung<lb/>
+des Propheten/ vnſrer Suͤnden halben/ nicht vnbillich befahren<lb/>
+vnd vermuͤten.</p><lb/>
+<p>Wir ſtehen jtzt allhie bey einander/ geliebte Herrn vnd freunde/<lb/>
+Jm Herren Chriſto/ vffm Gottsacker/ vnterm hellen vnd hohen<lb/>
+Himel/ So wollen wir einmuͤtig/ vnd wie mit einem hertzen vnd<lb/>
+munde/ Jm Himel/ den Gott alles troſtes/ den Vater aller gna-<lb/>
+de vnd barmhertzigkeit/ Jn vnſers einigen waren Mitlers vnd<lb/>
+vorbuters Jheſu Chriſtinamen/ vnd auff ſein verdienſt/ vorbiet<lb/>
+vnd zuſage/ Neben einander/ mit hertzlichem Gebet vnd ernſtlicher<lb/>
+anruffung/ demuͤtig anfallen/ Er wolte es aus gnaden vnd Vaͤ-<lb/>
+terlicher erbarmung von vns abwenden/ Vnd vns das/ damit<lb/>
+<fw place="bottom" type="catch">wirs</fw><lb/>
+<pb facs="#f0017"/>
+wirs vmb jhn woluerdienet/ nach zu rechter zeit von hertzen erken-<lb/>
+nen/ berewen/ buͤſſen vnd beſſern laſſen/ vnd jhme jtzt vnd <supplied>f</supplied>orthin<lb/>
+allezeit/ neben andern Chriſten/ vnſere Stadt/ Rathſtuel/ Buͤr-<lb/>
+gerſchafft vnd Gemein/ Auch Kirch/ Schul vnnd Predigſtuel/<lb/>
+ſelber zubeſtellen/ Vnd vns ſampt dem vnſern/ durch ſeine liebe<lb/>
+heylige Engelin/ die Himliſche frongeiſterlein/ zubewachen/ behuͤ-<lb/>
+ten vnd bewaren/ Veterlich vnd gnediglich laſſen befohlen ſein/<lb/>
+Das wuͤntzſch vnd bete ich/ vnd alle fridſame fromme Chriſten<lb/>
+mit mir/ von hertzen trewlich allezeit/ Amen.</p><lb/>
+<p>Vnd das ſey kuͤrtzlich geſagt/ von zweyerley Predigt des<lb/>
+Propheten in dieſem Text/ Eine zum troſt den gleubigen verſtor-<lb/>
+denen/ vnd jhren lebendigen freunden vnd verwandten/ Wiede-<lb/>
+rumb die andere/ den vngleubigen Gottloſen zu nothwendiger vnd<lb/>
+treuhertziger warnung.</p><lb/>
+<p>Jch ſolt auch nun/ Liebe Chriſten/ zum beſchluß/ etwas ſagen/<lb/>
+Als ich mit warheit/ Gott lob/ viel zuſagen/ hette vnd wuͤſte/ wie<lb/>
+jhr alle zeugen wuͤrdet/ vom Chriſtlichen wandel/ weſen vnd leben/<lb/>
+von Jugend auff/ bis zum ſeligen end vnd beſchluß/ vnſers alten<lb/>
+Herren Buͤrgermeiſters/ Nicht allein zu ſeinem lob/ Sondern<lb/>
+vielen andern Chriſten zum guten Exempel/ Weil es aber Gott-<lb/>
+lob vnd danck/ zuuor Land vnd Stadkuͤndig/ vnd bey jederman<lb/>
+Edel vnd vnedel wolbekant/ wil ich mich deſſelben enthalten/ Das<lb/>
+man mir nicht nachſagen duͤrffe/ Jch thet es mehr vmb anderer<lb/>
+vrſachen/ Denn aus liebe vmb der lautern hellen warheit willen.</p><lb/>
+<p>Zu deme Begert er nu/ vnd bedarff auch ohne das/ meines<lb/>
+lobens gar nicht/ <hi rendition="#aq">Pietas vbicunꝙ́ eſt ſeipſam ſatis &amp; laudat &amp;<lb/>
+prædicat.</hi> So darff ich auch den nicht loben/ den mit warheit vnd<lb/>
+billigkeit/ niemand ſchelten kan.</p><lb/>
+<p>Doch mit ſtilleſchweigen nicht alles zu vbergehen/ nach etwas<lb/>
+zuuergeben/ Jſts offenbar/ welcher mas vnd wie er ſich/ in ſeiner<lb/>
+Jugend gehalten/ Do denn der Menſch von natur/ wie die erfa-<lb/>
+rung lehret/ am furwitzigſten iſt/ Nemlich/ das er ſeinen fleis ge-<lb/>
+legt vnd gewendet hat/ Nicht/ wie leider offt viel Junger leute/<lb/>
+ſonderlich des Standes pflegen/ vff ſauffen/ ſpilen/ muͤſſiggehen/<lb/>
+<fw place="bottom" type="sig">C</fw><fw place="bottom" type="catch">Bulen</fw><lb/>
+<pb facs="#f0018"/>
+Bulen vnd allerley Buͤberey/ mit groſſem betruͤbniß jhrer Eltern<lb/>
+vnd freunde/ vnd jhrer ſelbſt nachtheil vnd verterben/ Sondern<lb/>
+auff ſeine ehrliche <hi rendition="#aq">Studia</hi> vnd vbungen/ Jn ſprachen vnd guten<lb/>
+kuͤnſten/ Das bezeuget/ neben ſeiner vielfeltigen wircklichen bewei-<lb/>
+ſung/ <hi rendition="#aq">Gradus Magiſterij,</hi> Welcher <hi rendition="#aq">Gradus,</hi> wie auch andere/<lb/>
+Jn den hochloͤblichen <hi rendition="#aq">Vniuerſiteten</hi> vnd hohen Schulen/ Deudt-<lb/>
+ſcher vnd andrer Nationen nit jederman ohne vnderſcheit/ Auch<lb/>
+nit leichtfertigen leuten/ vnd vngelerten muͤſſiggengern/ Sondern<lb/>
+Gottfuͤrchtigen/ fleißigen erbaren vnd gelerten leuten/ zuerkant<lb/>
+vnd mitgeteilet wird/ <hi rendition="#aq">Qui militârunt &amp; digni ſunt, vt præ cæte-<lb/>
+ris ornentur ex virtutibus.</hi> Wiewol es zuweilen auch/ aber<lb/>
+doch ſelten vnd mit wenigen/ ein wenig anders zugehen mag/ So<lb/>
+kan doch ſolches hie nicht ſtadt noch raum haben/ bey dieſem theu-<lb/>
+ren Manne.</p><lb/>
+<p>Wie Gottfuͤrchtig er ſonſt/ vnd ein rechter liebhaber Gottes<lb/>
+worts vnd diener geweſen/ weis jederman/ auch ich ſelber etwas<lb/>
+dauon zu ſagen/ wie eine kurtze zeit ich hie geweſen/ Do er Con-<lb/>
+tract wurde/ vnd nit mehr fertig zu gehen vermochte/ ließ er ſich<lb/>
+zur Kirchen vnd Predigt/ wie auch zu Rathaus fuͤren/ damit er<lb/>
+ja nichtes nachlies/ noch verſeumte.</p><lb/>
+<p>Sein Hausregiment/ Kinder vnd geſinde zucht/ war gar or-<lb/>
+dentlich beſtelt vnd fleißig gehalten/ Da muſten ſeine Kinder/ ſon-<lb/>
+derlich die Soͤnlin wie Jung ſie ſeind/ Jhren Catechiſmum/<lb/>
+Grichiſch/ Lateiniſch/ Deudtſch/ ein ſtuͤck nach dem andern/ vor<lb/>
+vnd nach eſſens recitiren vnd erzelen/ vnd war ſeine hertzliche hoͤch-<lb/>
+ſte luſt vnd freude/ Werden nun ſolches/ wie ich vertraw/ ſeine liebe<lb/>
+Kinder/ fleiſſig in acht haben/ behalten vnd thun/ vnd jhres lieben<lb/>
+Herren Vatern/ ſeligen/ loͤblichem Exempel nach folgen/ So<lb/>
+wird jhnen Gott/ ſeinen heyligen Geiſt vnd gnade geben/ das ſie<lb/>
+mit der zeit gleich/ wolgedachtem jhrem lieben Herrn Vatern/<lb/>
+werden ehrliche vnd der Kirchen Chriſti vnd jhren Gliedmaſſen<lb/>
+nuͤtzliche leut vnd diener/ vnd alſo außerwelte wergzeug Gottes<lb/>
+ſein.</p><lb/>
+<fw place="bottom" type="catch">Mocht</fw><lb/>
+<pb facs="#f0019"/>
+<p>Mocht jemand ſagen/ Lieber rhuͤm jhn nicht ſo gar heylig vnd<lb/>
+hoch/ Er iſt je Adams vnd Eu<hi rendition="#aq">æ</hi> Kind/ ein Menſch/ derwegen one<lb/>
+Suͤnd/ vnd Menſchliche gebrechen/ ſo wenig geweſen/ als ein an-<lb/>
+drer Menſch/ Antwort: Wer iſt des in abrede? Er hats ſelber<lb/>
+nie gelengnet/ Sondern in ſeiner Beicht/ offt vnd vielfeltig gar<lb/>
+hertzlich/ auch mit trenen/ wie jhm des/ der Ehrwirdige Herr Da-<lb/>
+uid Berlin/ vnſerer Kirchen treuer Diacon/ Sein Beichtvater/<lb/>
+fuͤr Gott vnd aller Welt/ zeugen wird vnd kan/ beſeuffzet vnd be-<lb/>
+reuet/ Vmb den troſt der heyligen <hi rendition="#aq">Abſolution</hi> ernſtlich gebeten/<lb/>
+darauff bey ſeinem leben offt/ vnd jtzt gar neulich fuͤr ſeinem ende/<lb/>
+das Hochwirdige Sacrament vnnd im ſelben allerheyligſten<lb/>
+Abentmal/ den warhafftigen/ gegenwertigen Leib vnd Blut Jhe-<lb/>
+ſu Chriſti/ nicht Sacramentiriſcher/ Dere wir Gottlob vnſre<lb/>
+Kirch vnd Schul jtziger zeit/ Gott helff ferner mit gnaden/ wol<lb/>
+ſicher vnd frey wiſſen/ ſondern recht Chriſtlicher weiſe vnd mey-<lb/>
+nung/ auff Chriſti allmechtiges wort/ Befehl vnd zuſage/ mit wa-<lb/>
+rem Glauben empfangen/ vnd damit ſein zeitlichs leben/ Jn<lb/>
+warhafftigem erkentniß/ anruffung vnd bekentniß ſeines/ vnd vn-<lb/>
+ſer aller/ einigen Heylands vnd Selichmachers Jheſu Chriſti/<lb/>
+beſtendiglich bis in ſeinen letzten Odem/ (denn ſo lang hat jhm<lb/>
+auch Gott ſeine vernunfft vnd ſprach verlihen) vnd ob Gottwil<lb/>
+gantz ſeliglich beſchloſſen/ Wer kan vnd wil nun leugnen oder ver-<lb/>
+neinen/ Das jhm Adams fall (welchs doch auch ſo bald in der<lb/>
+heyligen tauff geſchehen) vnd ſeine Suͤnde/ vmb Chriſti willen/<lb/>
+von Gott nit vergeben ſein? Was nun Gott ſelber aus gnaden<lb/>
+vergeben hat/ das ſollen vnd wollen wir billich auch vergeben/ vnd<lb/>
+vergeſſen ſein laſſen/ Daſſelbe nicht wider verneuen noch eyuern/<lb/>
+Denn es gebuͤret vns auch nicht/ Er hat einen andern Richter.</p><lb/>
+<p>Jſt es zum beſchluß/ nit eine groſſe demut vnd herrliche glau-<lb/>
+bens frucht/ Das er jhm erwehlet/ vnd in ſeinem Teſtament ver-<lb/>
+ordnet/ auch fleißig drumb gebeten hat/ Man wolle ſeinen Coͤr-<lb/>
+per nach ſeinem Tode/ anderſwo nirgent hin zur Erden beſtadten<lb/>
+noch begraben/ Denn allhie vffm gemeinen Begrebniß vnd Gots-<lb/>
+acker zum Taucher.</p><lb/>
+<fw place="bottom" type="sig">C ij</fw><fw place="bottom" type="catch">Damit</fw><lb/>
+<pb facs="#f0020"/>
+<p>Damit er bezeuget hat ſeinen glauben/ das die Erde vberal des<lb/>
+Herren/ vñ der gantze Erdenkreis vnd boden/ durch den vnſchuͤldi-<lb/>
+gen Tod/ vnd durchs vergoßne roſenfarbe theure blut des rechten<lb/>
+hohen Prieſters vnd Ertzbiſchoffs Jeſu Chriſti/ gnugſam/ gehey-<lb/>
+liget vnd geweihet ſey/ zum ſeligen begrebniß/ vnd froͤlicher auffer-<lb/>
+ſtehung Jn Chriſto/ allen außerwelten hie vnd anderßwo/ zum<lb/>
+freudenreichen ewigen leben/ Das verleihe jhme vnd vns allen/ die<lb/>
+es ernſtlich vnd von hertzen begeren/ Gott der Vater/ Gott der<lb/>
+Son/ Gott der H. Geiſt/ die Heylige Dreyfaltigkeit/ der einige<lb/>
+ware Gott/ hochgelobt in alle ewigkeit/ Amen.</p><lb/>
+<div n="2"><head><hi rendition="#aq">Appendix</hi> vnd Erinnerung.</head><lb/>
+<p><hi rendition="#in">J</hi>CH hab jtzt droben geſagt vnd iſt die warheit/ das wol vnd<lb/>
+vielgedachter/ vnſer Herr Buͤrgermeiſter/ feliger/ Jn ſei-<lb/>
+nem Teſtament vnd letzten willen verordnet/ auch muͤndt-<lb/>
+lich begeret/ vnd zum hoͤchſten vnd fleißigſten gebeten hat/ Das<lb/>
+man jhn nach ſeinem Tode/ ja nirgend hin begraben wolle/ dann<lb/>
+zum Taucher/ Damit helt ſichs alſo.</p><lb/>
+<p>Die K: Stadt Budißin/ hat zum wenigſten fuͤnff Begreb-<lb/>
+niß ſtellen/ zu jhren Chriſtlichen verſtorbnen/ Das erſte vnd fuͤr-<lb/>
+nembſte/ Jſt zum Thum oder bey der Pfarkirchen zu S. Peter/<lb/>
+in der Stadt/ Das ander zu S. Niclas/ Das dritte zu vnſer<lb/>
+Frawen Kirchen/ beyde fuͤr der Stadt/ aber doch in verſchloßnen<lb/>
+Vorſtedten/ Das vierde zum Heyligen Geiſt/ vnd das fuͤnffte<lb/>
+zum Taucher/ ein ehrlicher wolgelegner/ luſtiger groſſer raum<lb/>
+vnd platz/ Dieſe liegen beyde fuͤr den verſchloſſenen vorſtedten/<lb/>
+Dahin man den gemeinen Man vnd Armen (Wie man ſie nen-<lb/>
+net) bißher gepfleget zu legen vnd begraben.</p><lb/>
+<p>Nun hatte Jch/ vnwirdig/ nach meinem Ampte/ etwan fuͤnff<lb/>
+wochen zuuor/ am 16. Sontag nach Trinitatis/ aus vielen be-<lb/>
+dencklichen vnd beweglichen vrſachen/ Sonderlich weil des be-<lb/>
+grabens in der Stadt vnd Vorſtedten zuuiel werden wolte/ vnd<lb/>
+manche/ do es jhnen gewegert/ nicht ohne vnwillen waren/ Welch-<lb/>
+ein vermutung gab/ das in den leuten nach etwan/ eine <hi rendition="#aq">Superſtitio</hi><lb/>
+<fw place="bottom" type="catch">vnd</fw><lb/>
+<pb facs="#f0021"/>
+vnd aberglaube ſein muͤſte/ Als wehr ein orth vnd ſtelle/ die Chri-<lb/>
+ſten zubegraben/ beſſer vnd ſeliglicher/ oder (wie man vorzeiten<lb/>
+zureden pflegte) Heyliger vnd geweyter/ denn der andere/ etc.</p><lb/>
+<p>Derwegen an einen Erbaren Wolweiſen Rath/ ſampt der<lb/>
+gantzen loͤblichen Buͤrgerſchafft vnd Chriſtlichen Gemein/ Jch<lb/>
+eine Bitt vnd vermanung offentlich thete/ Weil es auch ſonſt one<lb/>
+gefahr nicht wer/ Die Begrebniß jnnerhalb verſchloßner Stadt<lb/>
+vnd Mauren/ ſo nahe bey den Leuten zuhaben/ Man wolte das<lb/>
+Begrebniß zum Taucher fuͤr ſich nemen zubawen/ vnd ein Buͤr-<lb/>
+ger oder Jnwohner fuͤr ſich einen/ oder nach vormoͤgen vnd ge-<lb/>
+legenheit/ jhrer zwen/ drey etc. zuſammen/ einen Bogen/ wie es<lb/>
+fein ehrlich vnd ordentlich etwa angefangen/ einnehmen/ Welche<lb/>
+ſie hernach zu jhrem vnd der jhrigen Begrebniſſen/ Jhres gefal-<lb/>
+lens/ Jnhaben vnd brauchen moͤchten/ Bis es durch Gottes vnd<lb/>
+frommer Chriſtlicher leute huͤlffe/ mit der zeit/ von Jahr zu Jahr<lb/>
+koͤnde verbracht werden/ vnd ſich alſo die leute jhrer alten Super-<lb/>
+ſtition/ abthun moͤchten/ Begerte keine ander/ denn zu gelegener<lb/>
+zeit vnd Sommertagen/ eine wirckliche oder thetliche Antwort/<lb/>
+Verſehe mich auch/ weil dis die erſte bitte wehr/ Sie wuͤrden mirs<lb/>
+nicht verſagen noch abſchlagen etc. Vnd wie Jch nach brauch<lb/>
+meiner/ Jederman wolbekanten/ vnd mir ſelbſt nicht vnbewuſten<lb/>
+einfalt/ mit mehren worten vnd weitleufftiger damals dauon re-<lb/>
+den mochte.</p><lb/>
+<p>Dieſe vermanung vnd bitte/ Jſt dem frommen Chriſtlichen<lb/>
+Man/ (vnd wie Jch hoffe vnd vertraw/ Wo nicht allen/ doch dem<lb/>
+mehrern theil/ vnd vielen Gottfuͤrchtigen Chriſtlichen hertzen<lb/>
+mehr) dermaſſen zu hertzen vnd gemuͤth gegangen/ vnd gefallen/<lb/>
+das er/ weil er den außwarts oder fruͤling/ nach Gottes willen/<lb/>
+ſelber zu bawen/ nicht erleben ſolte/ Mit ſeiner eignen Perſon vnd<lb/>
+Coͤrper/ den anfang machte/ vnd gemacht haben wolte/ Hat der-<lb/>
+wegen/ einen ordentlichen vnd ehrlichen Baw zuthun/ was ſtadt-<lb/>
+lichs darzu beſcheiden/ Ja jhme ſelber einen orth vnd ſtelle zum be-<lb/>
+grebniß/ benentlich erwehlet/ vnd angeordnet dermaſſen/ das man<lb/>
+im baw/ zu beyden ſeiten nachfolgen wird muͤſſen/ So begirig iſt<lb/>
+<fw place="bottom" type="sig">C iij</fw><fw place="bottom" type="catch">er auch</fw><lb/>
+<pb facs="#f0022"/>
+er auch in dieſem/ dieſe Chriſtliche Gemein/ Jnn vnd nach ſeinem<lb/>
+Tode zubefuͤrdern/ vnd ſeinem Seelſorger Chriſtlich zugehorſa-<lb/>
+men/ geweſen/ wie zuuor allewege/ bey ſeinem leben Welchs Gott<lb/>
+jhme vnnd ſeinen Erben/ hie vnd dort vergelten wird/ Amen.<lb/>
+Zweiuel auch nicht/ viel ſtatliche Buͤrger vnd fromme Chriſten/<lb/>
+in dieſer Stadt vnd Gemeine/ werden ſeinem Exempel/ doch ein<lb/>
+jeder nach ſeinem vermoͤgen vnd gelegenheit/ zu rechter zeit nach<lb/>
+folgen/ Dargegen der liebe Gott/ Sie vnd die jhren an jhrer na-<lb/>
+rung vnd ſonſt/ mit gnaden reichlich ſegnen wird vnd wolle/ hie<lb/>
+vnd dort Amen.</p><lb/>
+<p>Solchs hab ich droben/ im ende der Predigt meines erachtens/<lb/>
+billich/ als ein glaubens frucht vnd Exempel Chriſtlicher demut<lb/>
+angezogen. Gott verleih vns allen bis an vnſer ende/ beſtendig-<lb/>
+keit im rechten einfeltigen waren Chriſtlichen Glauben/ einen<lb/>
+Gottſeligen wandel/ froͤlich hertz vnd gut gewiſſen/ einen ſeligen<lb/>
+abſchied/ vnd froͤliche aufferſtehung in Chriſto/ zum freudenreich-<lb/>
+en ewigen leben/ Amen.</p></div></div></div><lb/>
+<div type="fsEpicedia" n="1"><head><hi rendition="#aq"><hi rendition="#g"><hi rendition="#i"><hi rendition="#k">epigramma.</hi></hi><lb/>
+IN FVNVS CLARISSIMI VIRI,<lb/>
+<hi rendition="#k">omniqve doctrinarvm et virtvtvm genere</hi></hi><lb/>
+<hi rendition="#i">ornati</hi> <hi rendition="#k">m. <hi rendition="#g">ioannis starckii,</hi></hi> <hi rendition="#i">Conſulis Budiß:<lb/>
+de pluribus bene meriti.</hi></hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq">Iuſti <hi rendition="#g">DEO</hi> altißimo curæ ſunt.</hi></l><lb/>
+<l><hi rendition="#g"><hi rendition="#in">A</hi>Gricolæ veluti fœcundæ tempore meßis,</hi></l><lb/>
+<l><hi rendition="#in">Cernentes nigri nubila denſa poli,</hi></l><lb/>
+<l><hi rendition="#in">Nunc properate, aiunt, famuli properate, maniplos</hi></l><lb/>
+<l><hi rendition="#in">Accipiant ſiccos horrea noſtra nouos,</hi></l><lb/>
+<l><hi rendition="#in">Ne pluuiæ noceant, ventorum prælia neue</hi></l><lb/>
+<l><hi rendition="#in">Spargant, ſint tutis grana relecta locis:</hi></l><lb/>
+<l><hi rendition="#in">Sic Deus immittet ſi quando incommoda mundo,</hi></l><lb/>
+<l><hi rendition="#in">Atꝙ́ inſperatos dura ruina premet,</hi></l><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">Morte</hi></fw><lb/>
+<pb facs="#f0023"/>
+<l><hi rendition="#aq">Morte trahit ſanctos ad ſese, ne qua procella</hi></l><lb/>
+<l><hi rendition="#aq">Ipſorum poßit mergere vaſta caput.</hi></l><lb/>
+<l><hi rendition="#aq">In tumulo condit placido ceu membra cubili,</hi></l><lb/>
+<l><hi rendition="#aq">Atꝙ́ dat vt terris molliter oſſa cubent.</hi></l><lb/>
+<l><hi rendition="#aq">"Triſtitiæ admittit nil ianua clauſa ſepulchri.</hi></l><lb/>
+<l><hi rendition="#aq">"Ianna nil luctus, nilꝙ́ doloris habet.</hi></l><lb/>
+<l><hi rendition="#aq">Teſtis es, hîc cuius viridi ſub ceſpite corpus</hi></l><lb/>
+<l><hi rendition="#aq">Et iacet, &amp; fiet vermibus ecce cibus.</hi></l><lb/>
+<l><hi rendition="#aq">Tu quamuis clarus Budißa Conſul in vrbe,</hi></l><lb/>
+<l><hi rendition="#aq">Conſilijs pollens, relligione valens:</hi></l><lb/>
+<l><hi rendition="#aq">Namꝙ́ tibi dederant Muſæ Demosthenis ora,</hi></l><lb/>
+<l><hi rendition="#aq">Et Marci, Roma eſt qui decus alta tuum.</hi></l><lb/>
+<l><hi rendition="#aq">Et, <hi rendition="#g"><hi rendition="#i"><hi rendition="#k">fortis</hi></hi></hi> quoniam dictus cognomine, nullum</hi></l><lb/>
+<l><hi rendition="#aq">Intermittebas ferre laboris onus:</hi></l><lb/>
+<l><hi rendition="#aq">Te tamen ipſe Deus noſtris amplexibus aufert,</hi></l><lb/>
+<l><hi rendition="#aq">Vrbis totius cumꝙ́ dolore rapit.</hi></l><lb/>
+<l><hi rendition="#aq">Immenſæ certè circumſtant limina clades</hi></l><lb/>
+<l><hi rendition="#aq">Ad noſtros veniet pœna parata focos.</hi></l><lb/>
+<l><hi rendition="#aq">Sed tibi parta quies, liber iam Carcere mundi,</hi></l><lb/>
+<l><hi rendition="#aq">Ante Dei aſpectum tempora lætus agis.</hi></l><lb/>
+<l><hi rendition="#aq">In te iam fruſtrà ſumet ſua Zoilus arma,</hi></l><lb/>
+<l><hi rendition="#aq">Et mendax fruſtrà friuola verba iacet.</hi></l><lb/>
+<l><hi rendition="#aq">Tu Deus afflictam ſerua vi numinis Vrbem.</hi></l><lb/>
+<l><hi rendition="#aq">Tolleꝙ́ venturum deſuper ipſe malum.</hi></l><lb/>
+<l><hi rendition="#aq">Sollicitos ſolare patres, penes ipſa poteſtas.</hi></l><lb/>
+<l><hi rendition="#aq">Et quos eſt noſtri prouida cura gregis.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">Thomas Faber faciebat in<lb/>
+perpetuam memoriam.</hi></hi></salute></closer></div><lb/>
+</body></text> </TEI>

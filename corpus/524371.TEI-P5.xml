@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">ΘΑΝΑΤΟΛΟΓΙΑ</title>
+<title type="sub">In obitum Magnifici, Strenui admodum, Nobilissimiq́; viri, pietate, virtute, gravitate
+eminentissimi Dn. Georgi à Reibnitz</title>
+<author>
+<persName>
+<surname>Sighardus</surname>
+<forename>Caspar</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">15</measure>
+<measure type="tokens">2009</measure>
+<measure type="types">1431</measure>
+<measure type="characters">17656</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:10:42Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/524371</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/524371</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/524371</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/524371</idno>
+<idno type="DTADirName">524371</idno>
+<idno type="DTAID">202982</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-202982-9</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Sighardus, Caspar [u. a.]: ΘΑΝΑΤΟΛΟΓΙΑ. Leipzig, 1612.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">ΘΑΝΑΤΟΛΟΓΙΑ</title>
+<title level="m" type="sub">In obitum Magnifici, Strenui admodum, Nobilissimiq́; viri, pietate, virtute, gravitate
+eminentissimi Dn. Georgi à Reibnitz</title>
+<author>
+<persName>
+<surname>Sighardus</surname>
+<forename>Caspar</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">15 S.</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Michael Lantzenberger</name></publisher>
+<pubPlace>Leipzig</pubPlace>
+<date type="publication">1612</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 S 176/5-6 / 524371</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#g">ΘΑΝΑΤΟΛΟΓΙΑ</hi></titlePart><lb/>
+<titlePart type="desc"><hi rendition="#aq"><hi rendition="#i">In obitum</hi><lb/>
+Magnifici, Strenui admodum, Nobi-<lb/>
+liſſimiq́; viri, pietate, virtute, gravitate<lb/>
+eminentiſſimi<lb/>
+Dn. Georgi à</hi> <hi rendition="#b"><hi rendition="#in">R</hi>eibnitz</hi><lb/>
+in <hi rendition="#in">A</hi>rnsdorff/ <hi rendition="#in">S</hi>teinſeiffen <hi rendition="#aq">&amp;</hi> <hi rendition="#in">L</hi>eippa<lb/>
+<hi rendition="#aq">&amp;c. hæreditarii, 26. Septembris, Anno 1611.<lb/>
+Chriſtianæ Liturgiæ Arnsdorfi piè beatéq; deſuncti,<lb/>
+Carmine Græco-elegiaco conſcripta</hi></titlePart></docTitle><lb/>
+<byline><hi rendition="#aq"><hi rendition="#i">à</hi></hi><lb/>
+<docAuthor><hi rendition="#aq"><hi rendition="#g">CASPARO SIGHARDO</hi></hi></docAuthor><lb/>
+<hi rendition="#aq">Hirſchbergâ Sil. pro temp. in aula<lb/>
+Arnsdorfenſi commorante,<lb/>
+<hi rendition="#i">Rhythmis verò Germanicis ſacro bonoꝙ́<lb/>
+ſenſu deſcripta</hi><lb/>
+à</hi><lb/>
+<docAuthor><hi rendition="#aq"><hi rendition="#g">IACOBO VVERNERO</hi></hi></docAuthor> <hi rendition="#aq"><hi rendition="#g">HIRSCH-</hi><lb/>
+berg. Sileſio.</hi></byline><lb/>
+<epigraph><cit><bibl><hi rendition="#aq">1. Theſſ. 4.</hi></bibl><lb/>
+<quote><hi rendition="#aq"><hi rendition="#i">De ijs qui obdormièrunt ne contriſtemini, ſicut ij,<lb/>
+qui ſpem non habent.</hi></hi></quote></cit></epigraph><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docImprint><pubPlace><hi rendition="#aq"><hi rendition="#g"><hi rendition="#i">LIPSIAE</hi></hi></hi></pubPlace> <publisher><hi rendition="#aq"><hi rendition="#g"><hi rendition="#i">MICHAEL LANTZENBER-<lb/>
+GER</hi></hi></hi></publisher> <hi rendition="#aq"><hi rendition="#i"><hi rendition="#g">EXCUDEBAT</hi> Anno</hi></hi> <docDate><hi rendition="#i">1612</hi></docDate><hi rendition="#aq"><hi rendition="#i">.</hi></hi></docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="[2]"/>
+<div type="dedication"><p><hi rendition="#c"><hi rendition="#aq"><hi rendition="#g">NOBILISSIMÆ, PIETATE IU-<lb/>
+XTIM, VIRTUTUMQVE RADIIS EMINEN-</hi><lb/>
+tiſsimæ Matronæ, Annæ Zedlitziæ, Dn. Georg. Reibnitzi<lb/>
+P. mem. relictæ viduæ, Dominæ in</hi> Arnsdorff/<lb/>
+Steinſeiffen vnd Leippa:<lb/>
+<hi rendition="#aq"><hi rendition="#i">Nec non</hi><lb/>
+Verâ &amp; antiquâ generis Nobilitate, virtute, doctrinâ<lb/>
+&amp; autoritate præſtantiſsimis viris,</hi></hi><lb/>
+<list><item><list rendition="#rightBraced"><item><hi rendition="#aq"><hi rendition="#i">Dn. <hi rendition="#g"><hi rendition="#k">Johanni</hi></hi> à</hi></hi> Reibnitz in Arnsdorff/<lb/>
+<hi rendition="#et">Steinſeiffen <hi rendition="#aq">&amp;</hi> Leippa ꝛc.</hi></item><lb/>
+<item><hi rendition="#aq"><hi rendition="#i">Dn. <hi rendition="#g"><hi rendition="#k">Friderico</hi></hi> à</hi></hi> Knobelsdorff <hi rendition="#aq">&amp;</hi><lb/>
+<hi rendition="#et">Behna/ in Cuntzendorff/ Olbersdorff<lb/>
+<hi rendition="#aq">&amp;</hi> Pilgramsdorff.</hi></item><lb/>
+<item><hi rendition="#aq"><hi rendition="#i">Dn. <hi rendition="#g"><hi rendition="#k">Abrahamo</hi></hi> à</hi></hi> Sommerfeld <hi rendition="#aq">&amp;</hi> Fal-<lb/>
+<hi rendition="#et">ckenhain in Wartaw <hi rendition="#aq">&amp;</hi> Jaͤſchwitz.</hi></item><lb/>
+<item><hi rendition="#aq"><hi rendition="#i">Dn. <hi rendition="#g"><hi rendition="#k">Theodorico</hi></hi> à</hi></hi> Zedlitz <hi rendition="#aq">&amp;</hi> Sieben-<lb/>
+<hi rendition="#et">eiche in Simsdorff <hi rendition="#aq">&amp;</hi> Maͤhnersdorff.</hi></item><lb/>
+<item><hi rendition="#aq"><hi rendition="#i">Dn. <hi rendition="#g"><hi rendition="#k">Adamo</hi></hi> ab</hi></hi> Vnruh in Lubſchutz.</item></list> <hi rendition="#aq"><hi rendition="#i">Hæreditarijs.</hi></hi></item></list><lb/>
+<hi rendition="#c"><hi rendition="#aq">Marito, &amp; parenti piè defuncto exequias Arnsdorffi<lb/>
+28. Octobris parantibus:<lb/>
+<hi rendition="#i">Dominis Mecænatibus, patronis &amp; promotoribus<lb/>
+ſuis devotè ſuſpiciendis.</hi></hi></hi></p><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">Pro grati animi ſymbolo, &amp; veræ</hi> συμϖα-<lb/>
+θείας <hi rendition="#aq">teſtimonio<lb/>
+<hi rendition="#i">Conſecrant<lb/>
+Autores.</hi></hi></hi></salute></closer></div><lb/>
+<pb facs="#f0003" n="[3]"/>
+<div type="fsEpicedia" n="1"><head/>  <milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/> <lg type="poem"><l>Φεῦ μεγάλη, μοῖρ', ἐστι τεὴ ϑνητοὺς ἀπολεῖσϑαι</l><lb/>
+<l>Λύσσα, τοι αἴ κραδίη γίγνεται ὀξυτέρη.</l><lb/>
+<l>Δειλῶν θ' αἷμα βροτῶν, καὶ ἔγκατα πάντα λαφύσσειν</l><lb/>
+<l>Ἄφνω, σοι ἦτορ γίγνετα οὐλόμενον.</l><lb/>
+<l>Τοὔνεκα ἀνθρώποισιν ἐφ' ἡμέρῃ, ἠδ' ἐπὶ νυκτί</l><lb/>
+<l>Αὐτομάτως φοιτᾷς πάντας ὀλοῦσ' ἐπὶ γῆς.</l><lb/>
+<l>Ἄνδρας γὰρ σφάττεις σὺ ὁμῶς ἀφάτους τε φαλούς τε,</l><lb/>
+<l>Ὄλβιος ἂν ϑνήσκει ὡς ὁ ἄνολβ(ι)ος ἀνήρ.</l><lb/>
+<l>Ἀνϑρώπων κρατέεις, καὶ σοι πείϑονται ἄνακτες:</l><lb/>
+<l>Χρὴ σέοθεν πάντας πῆμα, πάθημα παθεῖν.</l><lb/>
+<l>ἠδὲ δόμους κρατερῶν χαίρεις κατέχεσθαι ἀνάκτων</l><lb/>
+<l>καὶ αὐτοῖς ῥέζειν πολλάκι πολλὰ κακὰ.</l><lb/>
+<l>Πότμε κακῶν ἀρχηγὲ, βιοφθόρε, πάντα χαλέπτων</l><lb/>
+<l>πολλ' Αρνστορβείῃ γαίῃ ὄρωρας ἄχη.</l><lb/>
+<l>Εὐφϑόγτοιο λύρης, κιθάρης τε καὶ αὐλητῆρος</l><lb/>
+<l>παυσάμεθ', αἴ πένθους πλήρεα πάντα πέλει.</l><lb/>
+<l>Κάτθανεν ἤδη ὅτ' Αρνστορβείᾳ ἐπὶ χθονὶ ἥρως,</l><lb/>
+<l>ποικίλα δὴ σοφίης ἔργα ἑπιστάμενος.</l><lb/>
+<l>Κάτθανε Ρειβνίτιος μέγα Αρνστορβείου ἔρεισμα</l><lb/>
+<l>Λαοῦ ἀργαλέη τειρομένου πενίῃ.</l><lb/>
+<l>Κάτθανεν, ὃς ϑεὸν ἐζήτησε, χ' αἵμα πρὸς ἁπάντων</l><lb/>
+<l>δόξαν ἔχειν ἀγαθὴν, οἷσιν ἄναξ ἔθελεν.</l><lb/>
+<fw place="bottom" type="sig"><hi rendition="#aq">A</hi> 2</fw><fw place="bottom" type="catch">Ἔμ-</fw><lb/>
+<pb facs="#f0004" n="[4]"/>
+<l>Ἔμμεναι ἠδὲ γλυκὺς καλοῖσι, κακοῖσι δὲ πικρίς,</l><lb/>
+<l>Τοῖσι μὲν αἰδοῖος, τοῖσι δὲ δεινὸς ἰδεῖν.</l><lb/>
+<l>Τὸν δ' ὀλοφύρονται πολλοὶ κλειτῶν δὲ ἀγαυά</l><lb/>
+<l>Ρειβνιτίων χαλεπῷ φῦλα κέκεδε πόθῳ.</l><lb/>
+<l>Ναὶ ἀδάμαντος ἔχεις, ϑάνατος, κρατερόφρονα</l><lb/>
+<l>Πτώματι Ρειβνιτίου ἐν φρεσ' ἰαινόμενος. (ϑυμόν,</l><lb/>
+<l>Πάλλειν καὶ σφάλλειν μιν, οὗ ἂν κλέος οὔποτ' ὀλεῖται,</l><lb/>
+<l>Σοῦ κραδίην τέρπεις δειλὰ χαριζομένην.</l><lb/>
+<l>Ἀλλὰ παρ' ἀγτελιοῖο χοροῦ σὺ ἐνίσπῃ, ὄλεϑρε,</l><lb/>
+<l>Σεῖο ἐς ἀνϑρώπους καὶ μεγάλη δύναμις.</l><lb/>
+<l>Οἱ γὰρ ἐλήφαντ' ἐκῥεθέων ψυχὴν ἐς ὄλυμπον,</l><lb/>
+<l>Ρειβνιτίου, ζωὴν ἀθάνατον διάγειν.</l><lb/>
+<l>Εὔφρονα πίστιν ὅταν ζάθεοις ἐπεεσσι πιθήσας</l><lb/>
+<l>Ἐζήτουν, καὶ ἁδεῖν χριστῷ ἀλεξικάκῳ.</l><lb/>
+<l>Ἀυτόματος δὲ ἐπεὶ Ρειβνιτίῳ ἐξύχῳ ἄλλων</l><lb/>
+<l>Νοῦς φοίτησαν, κεῖνος ἔλεξε τάδε.</l><lb/>
+<l>Α δὴ ἀτασϑαλίη τί ἐμοῖσι καθημένη ὤμοις</l><lb/>
+<l>Σῶμα καταισχύνεις καὶ νόον ἡμέτερον.</l><lb/>
+<l>Α δ' ἔτεκε<gap reason="illegible" unit="words" quantity="2"/> καὶ κῆρα μέλαιαν,</l><lb/>
+<l><gap reason="illegible" unit="words" quantity="1"/> δειλ' ἄμμων, κ' ἀλγινόεντα πόνον.</l><lb/>
+<l><gap reason="illegible" unit="words" quantity="1"/> πολλὰ ϑεῷ ἠρήσατο χεῖρας ὀρεγνύς,</l><lb/>
+<l>Κεῖνα ἔπη αὐου ἦλθε διὰ στόματος.</l><lb/>
+<l>Χριστὲ ἄκος μερόπαν σόον, ἔμμεναι οὐκ ἀπολέσϑαι,</l><lb/>
+<l>Ὅς λαόν βούλει, νοῦσον ἄλαλκε κακήν.</l><lb/>
+<fw type="catch" place="bottom">Κῆρα</fw>
+<pb facs="#f0005" n="[5]"/>
+<l>Κῆρα ἄλαλκε κακὴν, ἀπαρυκ' ἀπὸ σώματος ἄλγος</l><lb/>
+<l>Δοὺς χρηστὴν ψυχαῖς, ϑέσκελον ᾆσμα, τροφήν</l><lb/>
+<l>Κλῦϑί μοι εὐχομένῳ, καὶ δὸςπερὶ πάντα ἀγαυήν.</l><lb/>
+<l>Νυνὶ παρηγορίην ἡσυχίηντε καλήν.</l><lb/>
+<l>Ἔπραξ', ἠδὲ μέτρον ζωῆς, καλὲ χριστὲ, τέλεσσα</l><lb/>
+<l>Ἐν χϑονὶ ἀργαλέη, ἥν μοι ἔδωκας ἔχειν.</l><lb/>
+<l>Ἄρτι τεοῖς ἐπέθην μου πάντ' ὀφλφήματα ὤμοις,</l><lb/>
+<l>Παύσομαι οὖν καμάτου, οἰζύος ἠδὲ κακῆς.</l><lb/>
+<l>ὡς ἔφατ', οὐδ' ἀπίθησε λέγοντι ταληθῆ ἰησοῦς;</l><lb/>
+<l>ἤλυθεν ἀχθομένῳ αἶψα πόνοιο λύσις.</l><lb/>
+<l>Νούσου ἐπεὶ τέλεσεν Ρειβνίζιος ἀτρέμα ἆθλον,</l><lb/>
+<l>αὐτίκα δὴ κεῖται πολλῇ ἐν ἡσυχίῃ.</l><lb/>
+<l>Αὐτὸς ἄφαρ μὲν ἔλειψ' ἐρατὸν φάος ἠελίοιο,</l><lb/>
+<l>αὐτὰρ ἐν οὐλύμπῳ λεύσσει ἄμεινον ἀεὶ.</l><lb/>
+<l>Τοῦ μὲν ἔχεις σῶμα; ψυχὴ δὲ ἄημα ϑεοῖο</l><lb/>
+<l>οὐκ ἦλθ' ἐς κρυερὸν φῶρον ἀποφϑιμένων.</l><lb/>
+<l>Βουλῇ ἀλλὰ ϑεοῦ πολυολβοτάτοιο ἐκλήθη</l><lb/>
+<l>Ἐκ χθονὸς οὐρανίου εἰς τὰ ϑέατρα δόμου.</l><lb/>
+<l>Νῦν ζῇ σὺν μακάρεσσιν ἀτάρβητος καὶ ἀπήμων,</l><lb/>
+<l>οὐδεμία μνήμη γίγνεται, ἔνθα κακῶν,</l><lb/>
+<l>Εἰσότε ὁ χριστὸς κρίνεσϑαι ἕκαστον ἱκάνει</l><lb/>
+<l>Ἐν μεγάλῃ δυνάμει, πᾶσι δίκην δικάσων.</l><lb/>
+<l>Αὐτὸς, ἵταν μαλερῷ τε πυρὶ χθὼν πᾶσα νεμεῖται,</l><lb/>
+<l>Ζεύξει ἔτι ψυχὴν σώματι Ρειβνιτίου.</l><lb/>
+<fw place="bottom" type="sig"><hi rendition="#aq">A</hi> 3</fw><fw place="bottom" type="catch">καὶ</fw><lb/>
+<pb facs="#f0006" n="[6]"/>
+<l>Καὶ μετὰ αὐτοῦ ἀεὶ ἔσεται ἀχέων δίχα πάντων,</l><lb/>
+<l>Χ' ἵξεται ἐκ ϑανάτου ἐς βίον ἀμβρόσιον.</l><lb/>
+<l>Τοὶ δ' ἀγορεύσει, ὄλεθρε, ἀριζήλῳ τινὶ μύθῳ</l><lb/>
+<l>πικρὰ λίνη ἔλαβες πῶς πτερόεντα βέλη;</l><lb/>
+<l>Μὴ σύ γε, ὃν καλέουσι βροτῶν φάγος ἐσσὶ ἀλιτρός,</l><lb/>
+<l>Μικρὰν μὲν τιμὴν σῆς κακότητος ἔχων.</l><lb/>
+<l>Μὴ λίην ἐπίφαινε βροτούς γὰρ ἔτ' οὐχ αἱρήσεις</l><lb/>
+<l>Ἐκλεκτοὺς ἀγαθοῖς ἔργμασι πειθομένους.</l><lb/>
+<l>Ἀτρέμα ὦ ϑάναθ' ἧσο, καὶ ἄλλων μῦθον ἄκουε</l><lb/>
+<l>Ἄφνω, οἵ πάντως φέρτεροί εἰσι σέο.</l><lb/>
+<l>Ἦ γὰρ κεν δειλὸς καὶ οὐ κρατερὸς καλεοίμην.</l><lb/>
+<l>οὐδὲ βροτῶν μερόπων ποικιλόδορος ἄναξ.</l><lb/>
+<l>Εἰ δή σοι πᾶν ἔργον ὑπείξομαι, ὦ μέγ' ἀναιδές,</l><lb/>
+<l>ὃς τέκας οὐλομένην πᾶσιν ἀμηχανίην.</l><lb/>
+<l>Χερσὶν γοῦν κρατερῇσιν ἐγώγε μαχήσομαι ἤδη</l><lb/>
+<l>Σοι καὶ τῷ ἄλλῳ μὴ φιλέοντι ϑεόν.</l><lb/>
+<l>Ἄλλο δὲ τοι ἐρέω, σὺ δ' ἐνὶ φρεσὶ βάλλεο σῇι</l><lb/>
+<l>πότμ' ἀγαθῶν ἔξεις μηκέτ ἔπειτα ῥέθη.</l><lb/>
+<l>Πῶς ἔτι γὰρ μὲν σεῦ τολμᾷ νόος ἄνδρας ἀλιτρούς</l><lb/>
+<l>Τῇγ αὐτῇ μοίρᾳ εὐσεβέας τε ἔχειν.</l><lb/>
+<l>Ὦ μοι ἀναιδείην ἐπιειμέν', ἐκ ἠερόεντος</l><lb/>
+<l>Σεῖο φάρογτος ἐῶ τέκνα ϑεοῖο φίλα.</l><lb/>
+<l>Εὐσεβέων τότε ἦτορ ἀγάλλεται, ὁππότ' ἀκούσει</l><lb/>
+<l>Χριστοῦ φθεγτομένου ἱμερόεσσαν ὄπα.</l><lb/>
+<fw type="catch" place="bottom">Χαίρετε</fw>
+<pb facs="#f0007" n="[7]"/>
+<l>Χαίρετε ἐκλεκτοίμ ου, κοῦραι ἅμ' ἠδὲ καὶ ἅνδρες,</l><lb/>
+<l>ἄλλοτε οὓς μέλανος κῆρες ἕλον ϑανάτου.</l><lb/>
+<l>Ἄσσον ἴτ' οὔτι μοι ὔμμες ἐπαίτιοι, ἀλλὰ ὄλεθρος,</l><lb/>
+<l>ὅς χ'ὑμᾶς δνοφεροῖς ἀμφεκάλυψε δόμοις.</l><lb/>
+<l>Εἰς δὲ μέσον φωνήσειὁμῶς ἑνὶ καὶ σὺν ἅπασιν,</l><lb/>
+<l>ἡ φωνὴ ἐχϑροῖς ἐχϑρὰ φίλοισι φίλη.</l><lb/>
+<l>Ἀνδρῶν λῆψαι ἕκαστος, ὅπως ἀντάξιόν ἐστι.</l><lb/>
+<l>Χάρμ' ἀγαθοὶ ζωῆς πλῆγμ' αἴδαο κακοί.</l><lb/>
+<l>Δειλοὶ ἴθ' ἱβρισταὶ σκότιοι ἐς πυθμένα λίμνης,</l><lb/>
+<l>ὄφρα ἔχῃ ὔμμας τάρταρος ἠερόεις.</l><lb/>
+<l>ᾧδε σὺ, ὦ ϑάνατε βληθήσῃ εἰς δνοφερὸν δῶ</l><lb/>
+<l>τοῦ αἴδου κρυεροῦ, ἄλγεα λυγρὰ πατεῖν.</l><lb/>
+<l>Καὶ μετά σου, σφετέραις οἲ ἀτασϑαλίῃσιν ὄλοντο:</l><lb/>
+<l>Φῦλ' ἀγαθῶν ἐπὶ γῆς οἳ φεβέεσκον ἀεὶ,</l><lb/>
+<l>Εἶτα ἐς εὐρώεντα δόμον στυγεροῦ αἴδαο</l><lb/>
+<l>Βήσονται, παῦσις μηκέτι ἔνθα γίων.</l><lb/>
+<l>Εὐσεβέες δὲ καθέξους αἰγλήεντα ὄλυμπον,</l><lb/>
+<l>Χάρματα πολλὰ φέρειν, γήδεα πολλὰ φέρειν.</l><lb/>
+<l>Τοὔνεκα, Ρειβνίτιος, πολὺ χάρματα χαῖρε ἀπήμων,</l><lb/>
+<l>οὐρανίοισι φίλος γήθεα γῆθε ἀεὶ.</l><lb/>
+<l>Σῶμα τὸ σῆμ'ἔχῃ ἡσυχίῃ, ψυχὴ δὲ γένοιτο</l><lb/>
+<l>Θάλλος καὶ αὐγὴ ἐν μακάροισι ϑεοῦ.</l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">Caſpar Sighardus<lb/>
+Hirſchbergâ-Sil.</hi></hi></salute></closer></div><lb/>
+<fw place="bottom" type="catch">Todes-</fw><lb/>
+<pb facs="#f0008" n="[8]"/>
+<div n="2"><head><hi rendition="#b">Todesgeſpreche</hi><lb/>
+Vber dem ſeliglichen abſchied des weiland<lb/>
+Edlen/ Geſtrengen/ Ehrnveſten vnd Wolbe-<lb/>
+namten Herrn<lb/>
+<hi rendition="#b"><hi rendition="#in">G</hi>eorgen von <hi rendition="#in">R</hi>eibnitz auff</hi><lb/>
+<hi rendition="#in">A</hi>rnsdorff/ <hi rendition="#in">S</hi>teinſeiffen<lb/>
+vnd Oberleippa.<lb/>
+<hi rendition="#b">Welcher den 26. Septemb. zu Arns-</hi><lb/>
+dorff im <hi rendition="#g"><hi rendition="#k">Herrn</hi></hi> ſelig entſchlaffen/ vnd den 28.<lb/>
+<hi rendition="#aq">Octobris</hi> Chriſtlichem Adlichem brauch nach daſelbſt<lb/>
+zur Erden beſtattet worden.</head><lb/>
+<lg type="poem"><l><hi rendition="#in">O</hi> Todt wie grauſam iſt dein grim/</l><lb/>
+<l>Zu wuͤrgen ſtehet all dein ſinn:</l><lb/>
+<l><note place="left"><hi rendition="#aq">Pſal.</hi> 89.</note>O wie groß iſt doch dein gewalt/</l><lb/>
+<l><note place="left">2. <hi rendition="#aq">Reg.</hi> 4.</note>Du reiſſeſt hin beyds jung vñ alt/</l><lb/>
+<l>Keines du nicht verſchonen wilt/</l><lb/>
+<l>Es ſey gleich Mann oder Weibsbild:</l><lb/>
+<l><note place="left"><hi rendition="#aq">Sap.</hi> 2.</note>Gelahrte/ reich/ jung/ alt vnd ſchon/</l><lb/>
+<l>Auch Edel mit muͤſſen davon:</l><lb/>
+<l>Du reiſſt ſie hin ohn alle klag/</l><lb/>
+<l>Bey Nachte ſo wol als bey tag.</l><lb/>
+<l>Ja du biſt weit in allem Land</l><lb/>
+<l>Bey Koͤnigen vnd Herrn bekandt:</l><lb/>
+<fw place="bottom" type="catch">Wer</fw><lb/>
+<pb facs="#f0009" n="[9]"/>
+<l>Wer wil ſich fuͤr dir verſchlieſſen?</l><lb/>
+<l>Dein Pfeil durch all Mawren ſchieſſen.</l><lb/>
+<l>O Todt du gantz zerruͤtten thuſt<note place="right">Hora<supplied>tius</supplied> lib.1. <lb/>
+<supplied>20</supplied><gap reason="illegible" unit="chars" quantity="1"/></note></l><lb/>
+<l>Des Menſchen leben/ frewd vnd luſt/</l><lb/>
+<l>Wie ſolches jetzt erfahren han/</l><lb/>
+<l>Jn Arnsdorff <gap reason="illegible" unit="words" quantity="2"/><supplied>und Mans</supplied></l><lb/>
+<l>Dann vnſer frewd vnd Geigen ſcha<supplied>u</supplied></l><lb/>
+<l>Haſtu verwandelt in truͤbſal:</l><lb/>
+<l>Jn dem du vnſren Edlen Herrn/</l><lb/>
+<l>Jn Gotte nun m<supplied>ehrſeeligern</supplied></l><lb/>
+<l>Herrn Georg von Reibnitz erk<supplied>ohrn</supplied></l><lb/>
+<l>Aus dem Hauſe Arnsdorff <supplied>gebohrn</supplied></l><lb/>
+<l>Haſt weggeriſſen/ welcher war</l><lb/>
+<l>Ein huͤlff der Armen offenbar/</l><lb/>
+<l>Jn ſeim leben tracht er mit fleiß</l><lb/>
+<l>Zu haben lob/ ehre vnd preiß:</l><lb/>
+<l>Den frommen er ſich glind erzeigt/</l><lb/>
+<l>Halsſtarrigen war er vngneigt.</l><lb/>
+<l>Jm regiern mit beſcheidenheit</l><lb/>
+<l>Verricht er manchen groſſen ſtreit:</l><lb/>
+<l>Darumb jhn jetzt beklagen ſehr/</l><lb/>
+<l>Welch er beſchuͤtzt mit ruhm vnd ehr.</l><lb/>
+<l>O Todt haſtu nicht ein ſteinern hertz/</l><lb/>
+<l>Daß du in ſolchem leid vnd ſchmertz</l><lb/>
+<fw type="sig" place="bottom">B</fw><fw type="catch" place="bottom">Frolo-</fw><lb/>
+<pb facs="#f0010" n="[10]"/>
+<l>Frolocken darffſt: vnd hoͤnen doch</l><lb/>
+<l>Den/ welcher in Gott lebet noch.</l><lb/>
+<l>Warlich die H. Engel ſpotten dein/</l><lb/>
+<l>Daß du ſo vermeſſen darffſt ſeyn/</l><lb/>
+<l>Aber was hilfft dich dein gewalt?</l><lb/>
+<l><note place="left"><hi rendition="#aq">Luc.</hi> 16.</note>Sie han ſein Seel gefuͤhret bald</l><lb/>
+<l>Jn groſſe frewd vnd herrligkeit/</l><lb/>
+<l>Da ſie wird lebn in ewigkeit.</l><lb/>
+<l><note place="left"><hi rendition="#aq">Ioh.</hi> 11.</note>Weiſeſtu nicht? wer ſich nur helt</l><lb/>
+<l><note place="left"><hi rendition="#aq">Apoc.</hi> 14.</note>Jm Glauben an Heyland der Welt/</l><lb/>
+<l>Der iſt gewiß aus Gottes wort/</l><lb/>
+<l><note place="left">1. <hi rendition="#aq">Ioh.</hi> 3.</note>Daß er nicht ſol bleiben im todt:</l><lb/>
+<l>Sondern biß an den Juͤngſten tag</l><lb/>
+<l>Schlaffen fein ſanfft ohn alle klag.</l><lb/>
+<l>Solchs that ja vnſer Edler Held/</l><lb/>
+<l>Als Kranckheit jhn druckt manichfelt/</l><lb/>
+<l>Gar denckwirdige wort er ſprach:</l><lb/>
+<l>O bitterer Todt vngemach/</l><lb/>
+<l>O Kranckheit vnd du Suͤnden laſt/</l><lb/>
+<l>Was krenckſt du mich ohn vnterlaß.</l><lb/>
+<l>Ferner in ſolcher Leibes ſchmertz/</l><lb/>
+<l>Rieff er zu Gott von grund ſeins hertz:</l><lb/>
+<l>O Jeſu lieber <hi rendition="#g"><hi rendition="#k">Herre</hi></hi> mein/</l><lb/>
+<l><note place="left"><hi rendition="#aq">Luc.</hi> 2.</note>Du biſt der Welt Heyland allein/</l><lb/>
+<fw place="bottom" type="catch">Erwir-</fw><lb/>
+<pb facs="#f0011" n="[11]"/>
+<l>Erwirbeſt vns die Seligkeit/</l><lb/>
+<l>Beraubet durch des Teuffels neid.<note place="right"><hi rendition="#aq">Sap.</hi> 2.</note></l><lb/>
+<l>Drumb meine bitt O HErre Gott/</l><lb/>
+<l>Erhoͤren wolſt nach deinem Wort:<note place="right"><hi rendition="#aq">Ioh.</hi> 14.</note></l><lb/>
+<l>Geben meim Leib ein ſanffte ruh/</l><lb/>
+<l>Die Seel dem Vater fuͤhren zu/</l><lb/>
+<l>Geſpeiſet mit dem Himmelbrodt<note place="right"><hi rendition="#aq">Ioh.</hi> 6.</note></l><lb/>
+<l>Welch iſt in meiner Leibes noth.</l><lb/>
+<l>Vollendet iſt mein jrrdiſch leben/<note place="right">2. <hi rendition="#aq">Tim.</hi> 4.</note></l><lb/>
+<l>Zu frieden wil ich mich nu geben/</l><lb/>
+<l>Auff dein Machtſchuldern meine Suͤnd<note place="right"><hi rendition="#aq">Ioh.</hi> 1.</note></l><lb/>
+<l><supplied>L</supplied>eg ich getroſt/ ſo viel jhr ſind:<note place="right"><hi rendition="#aq">Eſa.</hi> 53.</note></l><lb/>
+<l>Du wirſt ſie alle tragen wol/</l><lb/>
+<l>Derer kein mich mehr plagen ſol:</l><lb/>
+<l>Dann du alleine biſt der Mann<note place="right"><hi rendition="#aq">Pſal.</hi> 9.</note></l><lb/>
+<l>Der aus tods thoren helffen kan.</l><lb/>
+<l>Kaum ſolches er geſaget hat/</l><lb/>
+<l>Von Gott er auffgenommen ward.</l><lb/>
+<l>Verließ zwar dieſer Werlet liecht:<note place="right"><hi rendition="#aq">Ioh.</hi> 8.</note></l><lb/>
+<l>Ergreiff aber des Himmels Liecht.</l><lb/>
+<l>Du Todt behelteſt ſeinen Leib</l><lb/>
+<l>Jm Grabe/ noch ein kleine zeit:</l><lb/>
+<l>Die Seel aber im Frewdenſaal<note place="right"><hi rendition="#aq">Sap.</hi> 3.</note></l><lb/>
+<l>Bey Chriſto lebt/ ohn alle qual:</l><lb/>
+<fw place="bottom" type="sig">B ij</fw><fw place="bottom" type="catch">Helt</fw><lb/>
+<pb facs="#f0012" n="[12]"/>
+<l>Helt gemeinſchafft im Himmelreich/</l><lb/>
+<l>Mit allen heilgen Gottes gleich/</l><lb/>
+<l><note place="left"><hi rendition="#aq">Matth.</hi> 25.</note>Biß endlich Chriſtus vnſer <hi rendition="#g"><hi rendition="#k">Herr</hi></hi></l><lb/>
+<l>Vom Himmel hoch wird kommen her/</l><lb/>
+<l>Vnd hinwieder dem Leib ſein Seel</l><lb/>
+<l><note place="left"><hi rendition="#aq">Eſai.</hi> 25.</note>Jn frewd vnd herrligkeit zuzehln:</l><lb/>
+<l><note place="left"><hi rendition="#aq">Apocal.</hi> 21.</note>Auch ſie dann fuͤhren allbereit</l><lb/>
+<l><note place="left"><hi rendition="#aq">Eſaiæ</hi> 65.</note>Jns Leben da kein Sterbligkeit.</l><lb/>
+<l>Dich aber O grimmiger Todt/</l><lb/>
+<l>Wird ſo anreden vnſer <hi rendition="#g">GOTT:</hi></l><lb/>
+<l>Sag mir her vnnd bekenne frey/</l><lb/>
+<l>Wo du erlangt dein toͤdtlich Pfeil.</l><lb/>
+<l>Biſtu allhier zu dieſer friſt/</l><lb/>
+<l>Welcher die Menſchenkinder friſt?</l><lb/>
+<l>Warlich deines grawſamen ſinn</l><lb/>
+<l>Wirſtu haben kleinen gewin:</l><lb/>
+<l>Keinn Menſchen du mehr fahen ſolt/</l><lb/>
+<l><note place="left"><hi rendition="#aq">Ioh.</hi> 8.</note>Die in jener Welt mir gefolgt.</l><lb/>
+<l>O Todt ſteh nur ein wenig ſtill/</l><lb/>
+<l>Vnd hoͤr was ich dir ſagen wil:</l><lb/>
+<l><note place="left">2. <hi rendition="#aq">Th.</hi> 1.</note>Lieber wo blieb der Name mein?</l><lb/>
+<l><note place="left"><hi rendition="#aq">Oſeæ</hi> 13.</note>Wuͤrd ich koͤnnen Allmechtig ſeyn?</l><lb/>
+<l>Wann ich dir/ vnverſchemten Gaſt/</l><lb/>
+<l>Mein Chriſten zu plagn lieſſe raſt.</l><lb/>
+<fw place="bottom" type="catch">Drumb</fw><lb/>
+<pb facs="#f0013" n="[13]"/>
+<l>Drumb ich ſie nun mit ſtarcker hand</l><lb/>
+<l>Wil reiſſen all aus deinem band;</l><lb/>
+<l>Der Hellen thuͤr vnd thor wegtragen/</l><lb/>
+<l>Dich auch darzu thun verjagen:</l><lb/>
+<l>Du ſolt nicht mehr in deinem Reich</l><lb/>
+<l>Fromm vnd boͤſe haben zugleich:</l><lb/>
+<l>Hoͤreſt du vnverſchemter kerl/</l><lb/>
+<l>Mein Außerwehlten gib mir her.</l><lb/>
+<l>O frewd vnd wonne ohne ſchmertz<note place="right"><hi rendition="#aq">Apocal.</hi> 3.</note></l><lb/>
+<l>Als dann wird haben ein ſolch hertz/<note place="right">1. <hi rendition="#aq">Pet.</hi> 1.</note></l><lb/>
+<l>Welches des HErrn ſtimm langſt begert/</l><lb/>
+<l>Troͤſtlich hoͤren alſo ſagend:<note place="right"><hi rendition="#aq">Matth.</hi> 25.</note></l><lb/>
+<l>Seyd gegruͤſſet jhr außerkohrn</l><lb/>
+<l>Zum Himmel jetzt gantz new geborn/</l><lb/>
+<l>Jhr Maͤnner vnd Frawn allzumal/<note place="right"><hi rendition="#aq">Pſal.</hi> 116.</note></l><lb/>
+<l>Welch je gedruckt des todes qual/</l><lb/>
+<l>Trett herzu/ ich thu euch kein leid/</l><lb/>
+<l>Jhr ſeyd mein außerwehlte Leut/</l><lb/>
+<l>Trett herzu mit froͤlichem ſinn/</l><lb/>
+<l>Mit euch ich wol zu frieden bin.</l><lb/>
+<l>Als dann ein jeder ſeinen lohn<note place="right"><hi rendition="#aq">Matth.</hi> 25.</note></l><lb/>
+<l>Entpfahn wird nach ſeins lebens thun/<note place="right">2. <hi rendition="#aq">Cor.</hi> 5.</note></l><lb/>
+<l>Die frommen zwar die ewige frewd/</l><lb/>
+<l>Die Gottloſen viel angſt vnd ſtreit.</l><lb/>
+<fw place="bottom" type="sig">B iij</fw><fw place="bottom" type="catch">Du</fw><lb/>
+<pb facs="#f0014" n="[14]"/>
+<l>Du aber Todt ins Hellen Hauß</l><lb/>
+<l>Wirſt auch werden geworffen aus/</l><lb/>
+<l>Sampt denen welch in Suͤnd/ ohn le<supplied>id</supplied></l><lb/>
+<l>Geſtorben ſeyn/ zur gnaden zeit/</l><lb/>
+<l>Letzlich werden auch gehen ein/</l><lb/>
+<l><note place="left"><hi rendition="#aq">Sap.</hi> 5.</note>Mit groſſer klag zur Hellen pein:</l><lb/>
+<l>Welch die Chriſten hielten fuͤr ſpott/</l><lb/>
+<l>Vnd ſie drungen in ſchwere noth.</l><lb/>
+<l><note place="left"><hi rendition="#aq">Ioh.</hi> 10.</note>Die frommen aber wird Gott fuͤhrn</l><lb/>
+<l><note place="left"><hi rendition="#aq">Ioh.</hi> 16.</note>Jns Himmelreich mit jubilirn:</l><lb/>
+<l>Deß ſich billich frewt vnſer Held/</l><lb/>
+<l>Herr Reibnitz/ jetzt zu jhn gezehlt/</l><lb/>
+<l>Deſſen Leib Gott woll geben nu</l><lb/>
+<l>Jn der Erd eine ſanffte ruh/</l><lb/>
+<l>Biß an ſolch groſſen frewden tag/</l><lb/>
+<l>Da Chriſtus nach ſeiner zuſag</l><lb/>
+<l><note place="left"><hi rendition="#aq">Ioh.</hi> 19.</note>Vnſer ſtaub/ aſch/ bein/ haut vnd haar</l><lb/>
+<l>Vernewren wird vnd machen klar.</l><lb/>
+<l>Amen das hilff zu rechter zeit</l><lb/>
+<l>Du hochgelobt Dreyfaltigkeit/ Amen.</l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">Iacobus VVernerus H. S.</hi></hi></salute></closer></div><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">AD NO-</hi></fw><lb/>
+<pb facs="#f0015" n="[15]"/>
+<div n="2"><head><hi rendition="#aq"><hi rendition="#g">AD OBILISSIMVM</hi> Dn. <hi rendition="#g">IOAN-</hi><lb/>
+<gap reason="illegible" unit="chars" quantity="3"/> à Reibnitz in</hi> Arnsdorff <hi rendition="#aq">&amp;</hi> Leippa/ <hi rendition="#aq">Eq. Sileſ.<lb/>
+obitum Patris ex animo lugentem<hi rendition="#i">:</hi></hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">D</hi>Vm defles chari genitoris funera <hi rendition="#g"><hi rendition="#k">Iane</hi></hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Reibniciæ</hi></hi> ſtirpis fulgidum agalma tuæ;</hi></l><lb/>
+<l><hi rendition="#aq">Iure doles: nam qui, ſi buſta repoſta parentum</hi></l><lb/>
+<l><hi rendition="#aq">Aſpiceret, totus non eat in lacrumas,</hi></l><lb/>
+<l><hi rendition="#aq">Neminem ego ſtatuo, niſi balæna exſpuit ipſum</hi></l><lb/>
+<l><hi rendition="#aq">Nutriit Hircanis aut ruma dira jugis.</hi></l><lb/>
+<l><hi rendition="#aq">Sed modus in lacrumis: modus indulſiſſe dolori,</hi></l><lb/>
+<l><hi rendition="#aq">Et ceſſare modus flere, dolere, queri.</hi></l><lb/>
+<l><hi rendition="#aq">Nam cecidit fatis: hæc inclementia fati eſt,</hi></l><lb/>
+<l><hi rendition="#aq">Terrigenûm nullus quam cohibere valet.</hi></l><lb/>
+<l><hi rendition="#aq">Fata manent omnes, ſecat &amp; necat Atropos omnes;</hi></l><lb/>
+<l><hi rendition="#aq">Omnia mortiferâ falce reſecta cadunt.</hi></l><lb/>
+<l><hi rendition="#aq">Omnibus eſt lethi via conculcanda, nec ullum</hi></l><lb/>
+<l><hi rendition="#aq">Exceptum lege hac vidimus orbe virum.</hi></l><lb/>
+<l><hi rendition="#aq">Ergo non opus eſt lacrumis, nec pectore triſti</hi></l><lb/>
+<l><hi rendition="#aq">Cùm fati nullus vim cohibere queat.</hi></l><lb/>
+<l><hi rendition="#aq">Deſine <hi rendition="#k">Reibnici</hi> premere altum corde dolorem,</hi></l><lb/>
+<l><hi rendition="#aq">Deſine luctificos corde ciere ſonos.</hi></l><lb/>
+<l><hi rendition="#aq">Æternam potiùs requiem gratare parenti</hi></l><lb/>
+<l><hi rendition="#aq">Qui ſubiit rutili gemmea tecta poli.</hi></l><lb/>
+<l><hi rendition="#aq">Nec Patri invideas cœli ſuper aſtra locato</hi></l><lb/>
+<l><hi rendition="#aq">Planctus ubi ceſſat, mœror ubi omnis abeſt.</hi></l><lb/>
+<l><hi rendition="#aq">Velle <hi rendition="#g"><hi rendition="#k">Dei</hi></hi> ſit velle tuum, nam velle Iehovæ</hi></l><lb/>
+<l><hi rendition="#aq">Nolle tuum non ſe opponere jure poteſt.</hi></l><lb/>
+<l><hi rendition="#aq">Vive diu Tu vive <hi rendition="#k">Deo</hi> cum <hi rendition="#g"><hi rendition="#k">Matre</hi></hi> ſuperſtes</hi></l><lb/>
+<l><hi rendition="#aq">Donec ad æthereum ſit locus ire locum.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">M. Iohannes Folimhaus<lb/>
+Gryphiberga Sileſius.</hi></hi></hi></salute></closer></div></div><lb/>
+</body></text>  </TEI>

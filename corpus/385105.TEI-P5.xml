@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Leichpredigt/ Von dem guten Lande/ Luc. 8</title>
+<title type="sub">Beym Begräbniß der Erbarn vnd Tugentsamen Frawen ANNA, Des Erbarn Wolgeachten Matthias Lorentzen/ Bürgers vnd Händlers in Leipzig/ ehelicher Haußfrawen</title>
+<author>
+<persName ref="http://d-nb.info/gnd/121933555">
+<surname>Schmuck</surname>
+<forename>Vincentius</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">27</measure>
+<measure type="tokens">3976</measure>
+<measure type="types">1809</measure>
+<measure type="characters">26994</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:09:59Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/385105</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/385105</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/385105</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/385105</idno>
+<idno type="DTADirName">385105</idno>
+<idno type="DTAID">200049</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-200049-1</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Schmuck, Vincentius: Leichpredigt/ Von dem guten Lande. Leipzig, 1611.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Leichpredigt/ Von dem guten Lande/ Luc. 8</title>
+<title level="m" type="sub">Beym Begräbniß der Erbarn vnd Tugentsamen Frawen ANNA, Des Erbarn Wolgeachten Matthias Lorentzen/ Bürgers vnd Händlers in Leipzig/ ehelicher Haußfrawen</title>
+<author>
+<persName ref="http://d-nb.info/gnd/121933555">
+<surname>Schmuck</surname>
+<forename>Vincentius</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">27</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Valentin Am Ende</name></publisher>
+<pubPlace>Leipzig</pubPlace>
+<date type="publication">1611</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 F 1251/15 / 385105</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<pb facs="#f0001"/>
+<front> <titlePage type="main"> <docTitle> <titlePart type="main"> <hi rendition="#b">Leichpredigt/</hi><lb/>
+</titlePart> <titlePart type="sub"> <hi rendition="#fr">Von dem guten Lande/</hi> <hi rendition="#aq">Luc.</hi> 8.<lb/>
+<hi rendition="#b">Beym Begraͤbniß der Erbarn</hi><lb/>
+vnd Tugentſamen Frawen<lb/>
+<hi rendition="#aq"><hi rendition="#g">ANNA,</hi></hi><lb/>
+<hi rendition="#fr">Des Erbarn Wolgeachten</hi><lb/>
+<hi rendition="#b">Matthias Lorentzen/ Buͤrgers</hi><lb/>
+vnd Haͤndlers in Leipzig/ ehelicher<lb/>
+Haußfrawen.<lb/>
+</titlePart> <titlePart type="desc"> <hi rendition="#fr">Am Sontag</hi> <hi rendition="#aq">Sexageſima,</hi> <hi rendition="#fr">war der 27. Tag</hi><lb/>
+<hi rendition="#aq">Januarij, Anno</hi> 1611.<lb/>
+</titlePart> </docTitle> <byline> Gehalten durch<lb/>
+<docAuthor> <hi rendition="#aq"><hi rendition="#i">D.Vincentium</hi></hi> Schmuck<lb/>
+</docAuthor>/ Pfarrern vnd<lb/>
+Profeſſorn daſelbſt.<lb/>
+</byline> <milestone rendition="#hr" unit="section"/><lb/>
+<docImprint> Zu <pubPlace>Leipzig</pubPlace>/ bey <publisher>Valentin Am Ende</publisher>.<lb/>
+</docImprint> </titlePage> </front><body>
+<pb facs="#f0002"/>
+<pb facs="#f0003"/>
+<div type="fsSermon" n="1"> <div type="fsBibleVerse" n="2"><head>Text der Predigt.<lb/>
+<hi rendition="#i"><hi rendition="#aq">Luc.</hi> 8.</hi></head><lb/>
+<cit><quote><hi rendition="#in">D</hi>As aber auff dem guten Land/<lb/>
+ſind/ die das Worthoͤren vnd be-<lb/>
+halten in einem feinen guten Hertzen/<lb/>
+vnd bringen Frucht in Gedult.</quote><bibl/></cit></div><lb/>
+<div type="fsMainPart" n="2"><div n="3"><head>Außlegung.</head><lb/>
+<p><hi rendition="#in">H</hi>Eutiger Sontag <hi rendition="#aq"><hi rendition="#i">Sexageſima,</hi></hi><lb/>
+Geliebte im <hi rendition="#k"><hi rendition="#g">Herrn</hi></hi> Chriſto/ hat<lb/>
+vns das Evangelium vom See-<lb/>
+mann mitgebracht/ darinnen der<lb/>
+<hi rendition="#k">Herr</hi> Chriſtus ſein Wort einem Samen ver-<lb/>
+gleichet/ vnd die Predigt deſſelben dem außſeen/<lb/>
+die Zuhoͤrer aber dem Feld oder Acker/ darein<lb/>
+der Same geworffen wird. Vnd gleich wie es<lb/>
+nun bey der Korn oder Weitzen/ oder anderer<lb/>
+Fruͤchte ſaat zu gehen pfleget/ daß der Same<lb/>
+vngleich ankoͤmpt/ vnd neben dem guten Land/<lb/>
+etliches an den Weg gereth/ etlichs aber auff<lb/>
+Felſen/ etliches vnter die Doͤrner fellet/ vnd der-<lb/>
+maſſen nicht auffgehet/ oder Frucht bringt/ als<lb/>
+das jenige/ was ein gut Land hat angetroffen/<lb/>
+<fw place="bottom" type="sig">A ij</fw><fw place="bottom" type="catch">Son-</fw><lb/>
+<pb facs="#f0004"/>
+<fw place="top" type="header">Leichpredigt.</fw><lb/>
+Sondern wird erſtickt/ oder vertreten/ oder ver-<lb/>
+dorret/ vnd bleibet alſo ohne Frucht: Ebener-<lb/>
+maſſen/ hat der <hi rendition="#k"><hi rendition="#g">Herr</hi></hi> Chriſtus geſagt/ gehe<lb/>
+es auch zu bey der Predigt des Goͤttlichen<lb/>
+Wortes/ da ſeyen die Hertzen der Zuhoͤrer vn-<lb/>
+gleich/ vnd das Wort treffe bey vielen an/ da es<lb/>
+keine Frucht bringet/ vnd ſolche ſeyen der Pre-<lb/>
+digt nicht gebeſſert: Allein wo es ein gut Land<lb/>
+finde/ vnd recht angenommen vnnd behalten<lb/>
+werde/ da erweiſe ſichs reichlich/ vnnd dieſe<lb/>
+ſeyens/ die durchs gepredigte vnnd angehoͤrte<lb/>
+Wort ſelig werden.</p><lb/>
+<p>Wiewol wir nu heut von ſolchem Evange-<lb/>
+lio vnnd Gleichniß nach notturfft gehandelt/<lb/>
+vnd nicht zweifeln/ andechtige Zuhoͤrer werden<lb/>
+verſtanden haben/ nicht allein was der <hi rendition="#k">Herr</hi><lb/>
+Chriſtus durch felſichte vnd dornichte Hertzen/<lb/>
+ſo wol auch die er dem weg vergleichet/ verſtehe/<lb/>
+ſondern auch/ was er hergegen ein gut Land<lb/>
+nenne/ Vnd wie die jenigen muͤſſen geartet ſeyn/<lb/>
+die des Worts Gottes zu jhrer Seligkeit ge-<lb/>
+nieſſen ſollen: Jedoch/ weil mã hievon nicht zu-<lb/>
+viel ſagen oder erjnnern kan/ vnd wir jetzo vber<lb/>
+die heutige Predigt/ auch vnſer verſtorbenen<lb/>
+Mitſchweſter zu Ehren einen kurtzen Leichen-<lb/>
+<fw place="bottom" type="catch">Sermon</fw><lb/>
+<pb facs="#f0005"/>
+<fw place="top" type="header">Leichpredigt.</fw><lb/>
+Sermon thun ſollen/ ſo haben wir von dem<lb/>
+Evangelio vnd heutiger <hi rendition="#aq"><hi rendition="#i">Materia</hi></hi> nicht wollen<lb/>
+abweichen/ ſondern E. L. dißmals das letzte<lb/>
+Verßlin aus dem heutigen Evangelio abgele-<lb/>
+ſen/ welches mit kurtzen worten von dem guten<lb/>
+Land/ vnd alſo von den jenigen/ die durchs ge-<lb/>
+predigte Wort ſelig werden/ redet/ vnd dieſelbe<lb/>
+beſchreibet. Vnd das wollen wir zu kurtzer Be-<lb/>
+trachtung fuͤr vns nehmen/ vnd beſehen:</p><lb/>
+<list><item><hi rendition="#fr">Was der <hi rendition="#k"><hi rendition="#g">Herr</hi></hi> Chriſtus fuͤr Eigenſchaff-<lb/>
+ten denen zulege/ die einem guten Land zu<lb/>
+vergleichen ſeyn/ vnnd ſich gegen GOttes<lb/>
+Wort alſo verhalten/ daß ſie deſſen zu jhrer<lb/>
+Seligkeit gebeſſert ſind.</hi></item></list><lb/>
+<p>Solches mit Verſtand vnd vnſer Erbaw-<lb/>
+ung zu erkleren vnnd einzunehmen/ wolle vns<lb/>
+Gott ſeines heiligen Geiſtes Gnade darzu ver-<lb/>
+leihen/ vmb Jeſu Chriſti willen/ Amen.</p></div><lb/>
+<div n="3"><head>Erklerung deß Puncts.</head><lb/>
+<p><hi rendition="#in">V</hi><hi rendition="#fr">Jererley art Landes/ vnd alſo</hi><note place="right">Vierer-<lb/>
+ley Zuhoͤ-<lb/>
+rer Goͤtt-<lb/>
+liches<lb/>
+Worts.</note><lb/>
+viererley Zuhoͤrer deß Goͤttlichen<lb/>
+Worts/ Geliebte im <hi rendition="#k"><hi rendition="#g">Herrn/</hi></hi><lb/>
+hat der <hi rendition="#k"><hi rendition="#g">Herr</hi></hi> Chriſtus gemacht<lb/>
+<fw place="bottom" type="sig">A iij</fw><fw place="bottom" type="catch">im</fw><lb/>
+<pb facs="#f0006"/>
+<fw place="top" type="header">Leichpredigt.</fw><lb/>
+im heutigen Evangelio. Denn etliche hat e<supplied>r</supplied><lb/>
+vergliechem einem vertretenen Wege/ Etlich<supplied>e</supplied><lb/>
+den Felſen/ etliche dem Lande/ das mit Doͤt-<lb/>
+nern bewachſen iſt/ etliche aber dem guten Lan-<lb/>
+de. Gleich wie er nu auff der Juͤnger Frage<lb/>
+ordentlich erklaͤret hat/ was er verſtehe durch<lb/>
+die am Wege/ Nemlich die vnachtſamen/ vnnd<lb/>
+denen der Teuffel das Wort nicht ins Her<supplied>tz</supplied><lb/>
+laſſe/ deßgleichen durch die auff dem Felß/ die<lb/>
+Vnbeſtendigen vnd Wetterwendiſche/ vnd fer-<lb/>
+ner/ durch die vnter den Doͤrnern/ die Geitz<supplied>i</supplied>-<lb/>
+gen vnd Wolluͤſtige/ oder Weltſuͤchtige: Alſo<lb/>
+erkleret er auch zuletzt/ welches die ſeyn/ bey de-<lb/>
+nen der Same ein gut Land antrifft/ vñ ſpricht:<lb/>
+<note place="left">Beſchrei<lb/>
+bung deß<lb/>
+guten<lb/>
+Lands.</note><hi rendition="#fr">Die aber auff dem guten Land/ ſind die<lb/>
+das Wort hoͤren/ vnd behalten/ in einem<lb/>
+feinen guten Hertzen/ vnnd bringen<lb/>
+Frucht in Hedult.</hi> Diß iſt die Beſchrei-<lb/>
+bung wahrer Chriſten vnd rechtſchaffener Zu-<lb/>
+hoͤrer Goͤttlich es Worts/ dergleichen wir alle<lb/>
+ſeyn ſollen/ vnd derwegen haben wir auff ſolche<lb/>
+Wort des <hi rendition="#k"><hi rendition="#g">Herrn</hi></hi> Chriſti billich fleiſſig ach-<lb/>
+tung zu geben.</p><lb/>
+<p>Er faſſet aber/ wenn wir die Wort recht<lb/>
+<fw place="bottom" type="catch">anſehen/</fw><lb/>
+<pb facs="#f0007"/>
+<fw place="top" type="header">Leichpredigt.</fw><lb/>
+anſehen/ wol fuͤnfferley <hi rendition="#aq"><hi rendition="#i">requiſita</hi></hi> zuſam̃en/ die<note place="right">Fuͤnffer-<lb/>
+ley eigen-<lb/>
+ſchafften<lb/>
+ein<supplied>e</supplied>s <supplied>r</supplied><lb/>
+echten<lb/>
+<supplied>wah</supplied> ren<lb/>
+Chriſten.</note><lb/>
+da ſeyn muͤſſen bey dem/ der ein gut Land ſeyn/<lb/>
+vnd durch Gottes Wort ſelig werden ſoll. Vnd<lb/>
+iſt das erſte/ daß er erfordert/ daß man Gottes<lb/>
+Wort hoͤren muͤſſe. Das ander/ daß man es be-<lb/>
+halte. Das Dritte/ daß es geſchehe mit einem<lb/>
+feinen guten Hertzen. Das vierdte/ daß man<lb/>
+frucht bringe. Vnd das letzte/ daß es geſchehe in<lb/>
+Gedult. Dieſe Stuͤck lernet verſtehen/ ſo wer-<lb/>
+det jhr Bericht haben/ von dem/ was wir vns<lb/>
+dißmal haben fuͤrgenommen.</p><lb/>
+<p>Vnd Erſtlich ſaget der <hi rendition="#k"><hi rendition="#g">Herr</hi></hi> Chriſtus/<note place="right">1.<lb/>
+Gottes<lb/>
+Wort hoͤ<lb/>
+<gap reason="lost" unit="chars" quantity="1"/>n.</note><lb/>
+daß Gottes Wort muͤſſe gehoͤret werden. Das<lb/>
+iſt das jenige/ was vns das dritte Gebot befih-<lb/>
+let/ Nemlich/ daß wir GOttes Wort vnnd die<lb/>
+Predigt nicht ſollen verachten/ ſondern heilig<lb/>
+halten/ gern hoͤren vnd lernen: Vnd iſt das al-<lb/>
+lerfoͤrderſt/ das da ſeyn muß bey eim Menſchen/<lb/>
+der da wil ſelig werden. Denn es hat vnſerm<lb/>
+<hi rendition="#k"><hi rendition="#g">Herrn</hi></hi> Gott wolgefallen/ daß er mit vns<lb/>
+handeln wil durchs Wort/ vnd vns durch daſ-<lb/>
+ſelbe heiligen vnd ſelig machen/ vnd zwar durch<lb/>
+das gepredigte Wort/ welche Predigt der<lb/>
+<hi rendition="#k"><hi rendition="#g">Herr</hi></hi> Chriſtus dem Seewerck vergleichet.<lb/>
+Darumb ſo muß das Wort gehoͤret werden/<lb/>
+<fw place="bottom" type="catch">vnd</fw><lb/>
+<pb facs="#f0008"/>
+<fw place="top" type="header">Leichpredigt.</fw><lb/>
+vnd kan ohne das Gehoͤr deſſelben zum Glau-<lb/>
+ben vnd zur Seligkeit niemand gelangen/ wie<lb/>
+außdruͤcklich geſchrieben ſtehet/ Roman. 10.<lb/>
+<hi rendition="#fr">Wie ſollen ſie gleuben/ von dem ſie<lb/>
+nichts gehoͤret haben? Wie ſollen ſie a-<lb/>
+ber hoͤren ohne Prediger? Wie ſollen ſie<lb/>
+aber predigen/ wo ſie nicht geſand wer-<lb/>
+den? Koͤmpt alſo der Glaube aus der<lb/>
+Predigt/ das Predigen aber durch<lb/>
+das Wort Gottes.</hi> Das iſts auch/ das<lb/>
+Roman. 1. ſtehet: <hi rendition="#fr">Das Evangelium iſt<lb/>
+eine Krafft Gottes/ ſelig zu machen/ die<lb/>
+daran gleuben.</hi> Soll es aber ſolches auß-<lb/>
+richten/ ſo muß es geprediget vnd verkuͤndiget/<lb/>
+vnd von denen/ die es ſoll ſelig machen/ angehoͤ-<lb/>
+ret werden. Vnd derenthalben hat der <hi rendition="#k">Herr</hi><lb/>
+Chriſtus das Predigampt geordnet/ das hat<lb/>
+den Befehl/ daß es mit Verkuͤndigung des<lb/>
+Worts ſol vmbgehen/ vnd jederman ſol dieſel-<lb/>
+be hoͤren/ ſonſt were das Predigen vergebens.<lb/>
+Darumb wird auch dort dem reichen Mann/<lb/>
+der vmb ſeine Bruͤder bekuͤmmert war/ daß ſie<lb/>
+nicht moͤchten verdampt werden/ geſaget:<lb/>
+<fw place="bottom" type="catch"><hi rendition="#fr">Sie</hi></fw><lb/>
+<pb facs="#f0009"/>
+<fw place="top" type="header">Leichpredigt.</fw><lb/>
+<hi rendition="#fr">Sie haben Moſen vnd die Propheten/<lb/>
+laß ſie dieſelbige hoͤren/</hi> Luc. 16. Vnd in der<lb/>
+Verklerung Chriſti befihlet vns der Vater vom<lb/>
+Himmel/ <hi rendition="#fr">Das iſt mein lieber Sohn/ ꝛc.<lb/>
+den ſolt jhr hoͤren.</hi> Matth. 17. Deßgleichen er<lb/>
+hinwiederumb die Apoſtel von ſeinetwegen wil<lb/>
+gehoͤret haben/ vnnd ſpricht: <hi rendition="#fr">Wer euch hoͤ-<lb/>
+ret/ der hoͤret mich/ Wer euch verachtet/<lb/>
+der verachtet mich.</hi> Luc. 10. Iſt alſo das an-<lb/>
+gehoͤr Goͤttliches Worts durchaus noͤtig/ vnd<lb/>
+wird ſolches fleißigen Zuhoͤrern/ vnnd die ſich<lb/>
+gern zur Predigt finden/ zum Troſt geſagt/ vnd<lb/>
+daß ſie in ſolchem guten Werck geſtercket wer-<lb/>
+den/ als die da wiſſen/ daß ſie hierinnen<lb/>
+nach Gottes Willen thun: Den andern aber/<lb/>
+die ſolches fleiſſes nicht ſind/ vnd ſelten zur pre-<lb/>
+digt kommen/ zur Warnung/ daß ſie ſich eines<lb/>
+beſſern bedencken/ vnd nicht die Ordnung Got-<lb/>
+tes alſo hindan ſetzen/ daß ſie ſich dadurch jh-<lb/>
+res beſten Kleinods/ der ewigen Seligkeit ver-<lb/>
+luͤſtig machen.</p><lb/>
+<p>Darnach zum Andern/ ſo erfordert der<note place="right">2.<lb/>
+Gottes<lb/>
+wort be<lb/>
+hatten.</note><lb/>
+<hi rendition="#k"><hi rendition="#g">Herr</hi></hi> Chriſtus/ daß das angehoͤrte Wort<lb/>
+behalten werde. Vnd daß diß bey dem vorigen<lb/>
+<fw place="bottom" type="sig">B</fw><fw place="bottom" type="catch">noͤtig</fw><lb/>
+<pb facs="#f0010"/>
+<fw place="top" type="header">Leichpredigt.</fw><lb/>
+noͤtig ſey/ iſt gut zu erachten/ denn was were<lb/>
+das hoͤren nuͤtz/ wenn man nichts draus lernen<lb/>
+vnd behalten wolte? Weil man aber Gottes<lb/>
+Wort behalten ſoll/ ſo iſt von noͤthen fuͤr allen<lb/>
+dingen/ Wenn man es hoͤret/ daß man fleiſſig<lb/>
+achtung gebe/ auff das/ was geredt wird/ vnnd<lb/>
+lerne das Wort einnehmen/ vnnd recht verſte-<lb/>
+hen/ wie die <hi rendition="#aq"><hi rendition="#i">Lydia,</hi></hi> Act. 16. eine ſolche Zuhoͤre-<lb/>
+rin gab/ daß ſie darauff acht hette/ was von<lb/>
+Paulo geredt ward. Darnach/ daß mans zu<lb/>
+Hertzen neme/ vnnd mercke es/ vnd dencke jhm<lb/>
+daheim nach/ damit mans ins Gedechtnis<lb/>
+bringe. Vnd dann/ daß mans nicht wider ver-<lb/>
+geſſe/ oder aus dem Sinn laſſe/ ſondern bleibe<lb/>
+darauff vnnd darbey/ vnnd halte feſt daruͤber/<lb/>
+vnd gebrauche ſich deſſen jeder zeit/ wo es von<lb/>
+noͤten iſt. Dieſes/ Geliebte/ heiſſet das Wort<lb/>
+behalten/ wie es vorgedachte <hi rendition="#aq"><hi rendition="#i">Lydia</hi></hi> behalten<lb/>
+hat/ Deßgleichen die zu Theſſalonich/ die das<lb/>
+Wort gantz willig auffnamen/ vnd dann auch<lb/>
+nachſuchten vnnd nachſchlugen in der Bibel/<lb/>
+wenn ſie Pauli Predigten gehoͤret hatten/ ob<lb/>
+ſichs alſo hielte/ Actor. 17. Wo ſolche luſt iſt zu<lb/>
+Gottes Wort/ vnd eine rechte Liebe/ es zu ler-<lb/>
+nen/ da gehets ins Hertz/ vnd da behelt man es.</p><lb/>
+<fw place="bottom" type="catch">Vnd</fw><lb/>
+<pb facs="#f0011"/>
+<fw place="top" type="header">Leichpredigt.</fw><lb/>
+<p>Vnd hieher gehoren nachfolgende Mittel:<note place="right">Mitte<lb/>
+darzu.</note><lb/>
+als Erſtlich/ daß man fuͤr der Predigt bete/ vnd<lb/>
+Gott vmb Gnade anruffe/ daß er das Hertz<lb/>
+vnd Verſtendnis auffthue/ vnnd gebe auffmer-<lb/>
+ckende Ohren/ vnnd erwecke im Hertzen rechte<lb/>
+Luſt vnnd Andacht zum Wort/ damit man es<lb/>
+nicht vergebens hoͤre/ Sondern mit rechtem<lb/>
+Verſtand/ Luſt vnd Liebe/ vnd des Gehoͤrs moͤ-<lb/>
+ge gebeſſert ſeyn. Denn das iſts/ das Jacobus<lb/>
+ſagt: <hi rendition="#fr">Bedarff jemand Weißheit/ der bit-<lb/>
+te Gott/ ſo wird ſie jhm gegeben werden.</hi><lb/>
+Das iſt/ Wer Gottes Wort mit Frucht vnnd<lb/>
+Verſtand hoͤren wil/ der muß Gott vmb ſeine<lb/>
+Gnade anruffen/ der jhm ſolches durch ſeinen<lb/>
+heiligen Geiſt verleihe/ Inmaſſen David im<lb/>
+<gap reason="lost" unit="chars" quantity="1"/>9. Pſalm faſt in allen Verßlein betet. Dar-<lb/>
+nach/ daß man in der Predigt frembde Gedan-<lb/>
+cken außſchlahe/ vnd erwehre ſich deß Schlafs<lb/>
+vnd des vberdruſſes/ vnd richte die Gedancken<lb/>
+auff das/ was vns Gott leſt fuͤrhalten. Zum<lb/>
+Dritten/ daß man hernach auch nachdencke<lb/>
+vnd betrachte das angehoͤrte/ rede vnd confe-<lb/>
+rire gerne davon mit andern/ vnnd laſſe es jhm<lb/>
+nicht geſchwind wider aus den gedancken kom-<lb/>
+men. Zum vierdten/ daß man des hoͤrens nicht<lb/>
+<fw place="bottom" type="sig">B ij</fw><fw place="bottom" type="catch">muͤd</fw><lb/>
+<pb facs="#f0012"/>
+<fw place="top" type="header">Leichpredigt.</fw><lb/>
+muͤd werde/ ſondern jmmer anhalte/ vnnd gern<lb/>
+hoͤre einerley zu vielmalen widerholen/ Wie<lb/>
+denn die Prediger ſchuͤldig ſind/ jmmer einerley<lb/>
+zutreiben/ auff daß man geſterckt werde/ in dem/<lb/>
+was man einmal gelernet hat/ vnd den Grund<lb/>
+deſto gewiſſer lege. Vnd denn/ wo man etwas<lb/>
+gefaſſet hat/ allezeit GOtt dafuͤr dancke/ vnnd<lb/>
+bitte/ daß er die Nachfolge geben wolle/ vnnd<lb/>
+vns in ſeiner Erkentniß taͤglich voͤlliger ma-<lb/>
+chen. Auff ſolche weiſe behelt ſich GOttes<lb/>
+Wort/ vnd das ſind die mittel dazu/ die muͤſſen<lb/>
+Chriſtenleute jhnen laſſen angelegen ſeyn/ auff<lb/>
+daß ſie nach Gottes willen ein gut Land erfun-<lb/>
+den werden.</p><lb/>
+<note place="left">3.<lb/>
+Ein fein<lb/>
+vnd gut<lb/>
+Hertz ha-<lb/>
+<supplied>b</supplied>en.</note><p>Zum Dritten ſagt der <hi rendition="#k"><hi rendition="#g">Herr/</hi></hi> daß das<lb/>
+Angehoͤr vnnd Behalten deß Worts geſche-<lb/>
+hen muͤſſe in einem feinen guten Hertzen.</p><lb/>
+<p>Ein fein vnd gut Hertz aber nennet der <hi rendition="#k">He</hi>rr<lb/>
+Chriſtus ein gleubig vnd gehorſam Hertz/ das<lb/>
+jhm gernſagen leſſet/ vnd da Gottes Wort wo?<lb/>
+antrifft/ das auch erkennet/ wieviel am Wort<lb/>
+Gottes gelegen ſey/ vnd hat daſſelbe lieb/ vnnd<lb/>
+ſaſſet es/ vnd richtet ſich in allem darnach/ bey-<lb/>
+des was Gottes Wort verheiſſet/ vnd was es<lb/>
+auch befihlet vnd verbeut/ vnd achtet das Wort<lb/>
+<fw place="bottom" type="catch">hoͤher</fw><lb/>
+<pb facs="#f0013"/>
+<fw place="top" type="header">Leichpredigt.</fw><lb/>
+hoͤher als alles was ſonſt in der Welt iſt. Das<lb/>
+heiſt ein fein hertz/ vñ ein gut hertz/ das nicht vn-<lb/>
+achtſam iſt/ wie die ſo dem vertretenen Weg ver-<lb/>
+gliechen werden/ noch hart/ wie die Felſen/ noch<lb/>
+von Dornen der wolluſt vnd weltlichen ſorgen<lb/>
+verwildert/ ſondern Gott vnd ſeinem Wort er-<lb/>
+geben/ alſo/ daß es ſich daſſelbige vnterweiſen<lb/>
+vnd regieren laſſe in allen dingen. Zum Exem-<lb/>
+pel/ Wenn Gottes Wort die Suͤnde offenba-<lb/>
+ret/ vnnd Laſter vnd Vntugend ſtraffet vnd da-<lb/>
+wider prediget/ ſo erſchrecken dafuͤr/ was gute<lb/>
+vnd feine Hertzen ſind/ Vnd wo ſie jhnen Suͤnde<lb/>
+bewuſt ſind/ ſo fuͤrchten vnd demuͤtigen ſie ſich<lb/>
+<supplied>f</supplied>uͤr Gott/ erkennen die ſuͤnde/ vnd bitten ſie jhm<lb/>
+ab/ vnd lernen ſich mit fleiß fortan huͤten. Be-<lb/>
+<supplied>f</supplied>iehlet es denn/ vnnd lehret/ was Gott haben<lb/>
+wil/ vnd woran er einen wolgefallen habe/ ſo<lb/>
+gewinnen feine vnd gute Hertzen alſo bald luſt<lb/>
+darzu/ vnnd befleiſſigen ſich deme nachzukom-<lb/>
+men/ vnd iſt jhr Wuntſch mit David vnnd Si-<lb/>
+rach/ daßſie ſich fuͤr aller Suͤnd vnnd Vbertre-<lb/>
+tung bewahren koͤndten/ vnd allezeit nicht an-<lb/>
+ders als im gehorſam Gottes erfunden wer-<lb/>
+den. Prediget Gottes Wort vom Glauben<lb/>
+vnd der Gerechtigkeit/ vnd wie dieſelbe allein<lb/>
+<fw place="bottom" type="sig">B iij</fw><fw place="bottom" type="catch">in</fw><lb/>
+<pb facs="#f0014"/>
+<fw place="top" type="header">Leichpredigt.</fw><lb/>
+in Chriſto zu ſuchen ſey/ ſo nemen ſichs feine<lb/>
+vnnd gute Hertzen an/ troͤſten ſich deſſen/ vnnd<lb/>
+verlaſſen ſich mit aller zuverſicht auff GOt-<lb/>
+tes gnedige Verheiſſung in Chriſto/ vnnd er-<lb/>
+greiffen in jhm durch den Glauben das ewige<lb/>
+Leben. Wird aber gelehret aus Gottes wort<lb/>
+von Gottes Erkentniß/ vnnd den mancherle<supplied>y</supplied><lb/>
+Geheimniſſen deß Reichs GOttes/ in denen<lb/>
+Artickeln zumal/ die wieder die Vernunfft lauf-<lb/>
+fen/ ſo geben feine vnnd gute Hertzen achtung<lb/>
+drauff/ nemen das/ was Gottes Wort ſagt/<lb/>
+einfeltig an/ bleiben darbey/ nemen die Ver-<lb/>
+nunfft gefangen/ vnd gruͤbeln nicht vnbefohle-<lb/>
+nes dinges in Goͤttlichen ſachen/ ſetzen auch al-<lb/>
+len zweiffel aus dem Wege. Solche heiſſen <supplied>u</supplied><gap reason="lost" unit="chars" quantity="1"/><lb/>
+feine vnnd gute Hertzen/ die thun es/ vnnd die<lb/>
+ſinds/ bey welchen Gottes Wort ſtadt findet/<lb/>
+vnd ſich alſo behalten leſſet/ daß gute vnd Gott<lb/>
+wolgefellige Fruͤchte mit hauffen ernach fol-<lb/>
+gen.</p><lb/>
+<note place="left">4.<lb/>
+Frucht<lb/>
+bringen.</note><p>Vnd das iſt nun das neheſte vnd Vierdte/<lb/>
+das von rechtſchaffenen Hoͤrern Goͤttliches<lb/>
+Worts erfordert wird/ Nemlich daß ſie Frucht<lb/>
+bringen/ welche Frucht dann bey feinen vnnd<lb/>
+<fw place="bottom" type="catch">guten</fw><lb/>
+<pb facs="#f0015"/>
+<fw place="top" type="header">Leichpredigt.</fw><lb/>
+guten Hertzen gewißlich ſich findet/ vnd keines<lb/>
+weges auſſen bleibet.</p><lb/>
+<p>Es heiſſen aber Fruͤchte/ in dem Acker-<lb/>
+werck Gottes/ die Beweiſungen/ damit ein<lb/>
+Chriſt darthut/ fuͤr Gott vnd den Leuten/ daß<lb/>
+er in der that ein warer Chriſt/ vnd eines feinen<lb/>
+guten Hertzens ſey/ Nemlich allerley gute<lb/>
+Werck/ die er nach erforderung beyder Taffel<lb/>
+der heiligen Zehen Gebot/ in dem Dienſt Got-<lb/>
+tes/ vnd gegen dem Neheſten/ ſo wol in ſeinem<lb/>
+Stand vnnd Beruff uͤbet/ vnd durch dieſelbe/<lb/>
+ſeine Gottſeligkeit leuchten leſſet/ von welcher-<lb/>
+ley Fruͤchten/ das iſt/ von guten Wercken/ wir<lb/>
+fuͤr acht Tagen bey der Außlegung des Evan-<lb/>
+gelij vom Weinberge gehandelt haben. Sol-<lb/>
+che ſind/ zum Exempel/ wie ſie S. Paulus<lb/>
+Galat. 5. erzehlet/ Liebe/ Freude/ Friede/ Ge-<lb/>
+dult/ Freundligkeit/ Guͤtigkeit/ glaube/ Sanfft-<lb/>
+muth/ Keuſchheit. Setze darzu/ Gebet vnnd<lb/>
+ware Anruffung Gottes/ Item/ Danckſagung<lb/>
+fuͤr ſeine Wolthat/ Ferner/ Gehorſam vnd Ehr-<lb/>
+erbietung gegen die/ ſo vns fuͤrſtehen/ Meſſig-<lb/>
+keit/ Dienſthafftigkeit/ Warheit/ vnd in Sum-<lb/>
+ma/ alles was Goͤttlich vnd loͤblich iſt.</p><lb/>
+<fw place="bottom" type="catch">Solche</fw><lb/>
+<pb facs="#f0016"/>
+<fw place="top" type="header">Leichpredigt.</fw><lb/>
+<p>Solche Fruͤchte erfordert vnnd erwartet<lb/>
+Gott aus ſeinem Weinberge/ vnnd von ſeinem<lb/>
+Ackerwerck/ vnnd wo ein gut Land iſt/ da blei-<lb/>
+ben ſie nicht auſſen/ vnd ohne dieſelbe kan ſich<lb/>
+keiner einen Chriſten ruͤhmen.</p><lb/>
+<note place="left">5.<lb/>
+Alles in<lb/>
+Hedult.</note><p>Endlich zum Fuͤnfften/ ſo gedencket der<lb/>
+<hi rendition="#k"><hi rendition="#g">Herr</hi></hi> Chriſtus der Gedult/ in welcher aus<lb/>
+feinen guten Hertzen gedachte Fruͤchte her<lb/>
+wachſen. Mit ſolchem Wort aber erfordert<lb/>
+er Beſtendigkeit im Glauben vnd im Chriſten-<lb/>
+thumb/ alſo daß man dabey beharre vnnd auß-<lb/>
+dawre/ vnd ſich davon nichts laſſe abwendig<lb/>
+machen/ ſondern halte feſt/ biß ans Ende/ vnd<lb/>
+ſehe/ daß man mit beſtendigem Glauben be-<lb/>
+ſchlieſſe. Diß Wort hat er darumb darzu ge-<lb/>
+ſatzt/ daß jhrer viel ſind/ die wol anfangen im<lb/>
+Chriſtenthumb/ Aber dennoch zur Frucht nicht<lb/>
+kommen/ darumb/ daß ſie wider nachlaſſen/<lb/>
+vnd es wil kein Beſtand bey jhnen ſeyn/ denn<lb/>
+ſie wollen bey dem Evangelio nichts leiden/<lb/>
+ſondern vbergeben es wider/ ſo bald ſie dar-<lb/>
+bey ſollen etwas außſtehen/ vnnd der geſtalt<lb/>
+ſind ſies nicht gebeſſert. Dem zuwider erfordert<lb/>
+der <hi rendition="#k"><hi rendition="#g">Herr</hi></hi> Chriſtus Gedult bey ſeinen Be-<lb/>
+kennern/ vnnd Beſtendigkeit/ ohne welche ſich<lb/>
+<fw place="bottom" type="catch">keiner</fw><lb/>
+<pb facs="#f0017"/>
+<fw place="top" type="header">Leichpredigt.</fw><lb/>
+keiner fuͤr ein gut Land außgeben konne. Denn<lb/>
+wie ein Acker/ auff dem der Same wol auffkom-<lb/>
+men ſoll/ allerley muß außſtehen/ von Regen<lb/>
+vnd Schnee/ auch der Sonnen Hitze auff ſich<lb/>
+fallen laſſen/ welchs jhm aber ſo wenig ſchadet/<lb/>
+daß eben hiedurch ſeine fruchtbarkeit/ wann es<lb/>
+temperiret iſt/ gefoͤrdert wird/ Alſo wil Gottes<lb/>
+Wort in eim Hertzen/ da es wohnet/ auch ſeine<lb/>
+uͤbungen haben/ durch mancherley Anfechtun-<lb/>
+gen/ darunter muß man gedult haben/ es kom-<lb/>
+nen ſolche gleich her ohne mittel von Gott/ als<lb/>
+<supplied>d</supplied>a ſind die uͤbungen vnter dem Creutz/ welches<lb/>
+Gott zuſchicket/ oder aber von Tyrannen vnnd<lb/>
+Verfolgern/ die das Wort anfechten/ vnnd den<lb/>
+Bekennern deſſelben daruͤber zuſetzen/ da muß<lb/>
+<supplied>m</supplied>an feſt halten/ vnd bey Leib vom Wort nicht<lb/>
+weichen/ ſondern außdawren/ vnnd vber ſich<lb/>
+gehen laſſen/ was man ſoll/ damit man nur<lb/>
+beym Wort bleibe. Solche Beſtendigkeit heiſt<lb/>
+der <hi rendition="#k">Herr</hi> Chriſtus Gedult/ in dere ſich gute<lb/>
+Hertzen finden laſſen/ vnd Gott zu ehren jhre<lb/>
+Fruͤchte fort vnd fort vnd vngehindert tragen.<lb/>
+Daher gehoͤren die <hi rendition="#aq"><hi rendition="#i">exempla</hi></hi> der Apoſtel/ Maͤr-<lb/>
+terer/ vnnd anderer beſtendiger Bekenner der<lb/>
+Evangeliſchen Warheit wider die Furcht der<lb/>
+<fw place="bottom" type="sig">C</fw><fw place="bottom" type="catch">Tyran-</fw><lb/>
+<pb facs="#f0018"/>
+<fw place="top" type="header">Leichpredigt.</fw><lb/>
+Tyrannen vnd Verfolger: Vnnd vnter den<lb/>
+Creutztraͤgern/ Jobs/ Tobi<hi rendition="#aq">æ</hi>/ Davids vnnd<lb/>
+anderer/ die ſich die Hitze der Anfechtung nicht<lb/>
+jrren lieſſen/ Gott vnnd jhre Hoffnung derwe-<lb/>
+gen zu vbergeben/ ſondern feſte hielten/ vnnd<lb/>
+Hoffnung lies ſie nicht zu ſchanden werden.<lb/>
+Deßgleichen die jenigen Spruͤche/ ſo von der<lb/>
+Beſtendigkeit in dem waren GlaubensBe-<lb/>
+kendtnis reden/ vnd darzu vermahnen/ welche<lb/>
+wir dißmahl/ wegen Kuͤrtze vnd Vngelegenheit<lb/>
+der zeit/ anzufuͤhren einſtellen.</p><lb/>
+<p>Haben alſo E. L. vernommen/ Was de<supplied>r</supplied><lb/>
+<hi rendition="#k"><hi rendition="#g">Herr</hi></hi> Chriſtus ein gut Land heiſſe/ Nem-<lb/>
+lich ſolche Leute/ die Gottes Wort hoͤren vnd<lb/>
+behalten/ vnd thun daſſelbe in einem feinen gu-<lb/>
+ten Hertzen/ vnnd bringen Frucht in Gedult.<lb/>
+Das ſind rechtſchaffene wahre Chriſten/ vnnd<lb/>
+ſolche gebuͤret vns/ daß wir vns alle finden laſ-<lb/>
+ſen/ Vnnd daß es geſchehe/ das verhelffe vns<lb/>
+der/ der vns ſolche trewhertzige Erinnerung<lb/>
+<hi rendition="#c">zu vnſerm beſten gethan hat/ vnſer <hi rendition="#k"><hi rendition="#g">Herr</hi></hi><lb/>
+Jeſus Chriſtus/ gelobet ſampt dem<lb/>
+Vater vnnd heiligen Geiſt<lb/>
+ewiglich/ Amen.</hi></p></div></div><lb/>
+<fw place="bottom" type="catch"><hi rendition="#fr">Beſchluß.</hi></fw><lb/>
+<pb facs="#f0019"/>
+<fw place="top" type="header">Leichpredigt.</fw><lb/>
+<div type="fsPersonalia" n="2"><head>Beſchluß.</head><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<p><hi rendition="#in">H</hi><hi rendition="#fr">Ierauff nun zum Beſchluß mit</hi><lb/>
+wenigem zu melden von der Verſiorbe-<lb/>
+nen/ der Erbarn Tugentſamen Frawen Anna/<lb/>
+des Erbarn/ Wolgeachten Matthias Loren-<lb/>
+tzen/ Buͤrgers vnd Haͤndlers allhier/ numehr<lb/>
+betruͤbten Witwers/ geweſener ſeligen Hauß-<lb/>
+frawen/ ſo iſt dieſelbe jhrer Geburt geweſen von<lb/>
+Halla/ allda jhr Vater/ der Ehrnvheſte vnnd<lb/>
+Wolweiſe Herr Andres Kather/ Buͤrger vnd<lb/>
+des Raths daſelbſt/ noch am Leben. Ihre<lb/>
+Mutter aber/ Fraw Anna/ ſo vor zwelff Jah-<lb/>
+ren geſtorben/ iſt deß fuͤrnehmen beruͤhmbten<lb/>
+<hi rendition="#aq"><hi rendition="#i">Medici,</hi></hi> Herrn D. Caſpar Nefen allhie/ ſeli-<lb/>
+gen/ Tochter geweſen. Gleich wie ſie nu Chriſt-<lb/>
+liche Eltern gehabt/ alſo haben ſie dieſelbe auch<lb/>
+zum Chriſtenthumb/ durch die heilige Tauffe<lb/>
+gefoͤdert/ vnd ferner darinnen/ neben dem/ was<lb/>
+zur Haußhaltung gehoͤrig/ fleiſſig erzogen/ da-<lb/>
+bey auch etwas gethan Herrn Peter Heintzens<lb/>
+allhier Haußfraw/ ſo ſie vor ſechs Jahren hie-<lb/>
+her zu ſich genommen/ allda vorgedachter jhr<lb/>
+Ehman vor vier Jahren ſie erfreyet/ vnnd mit<lb/>
+jhr durch Gottes Segen zwey Soͤhnlein er-<lb/>
+<fw place="bottom" type="sig">C ij</fw><fw place="bottom" type="catch">zeuget</fw><lb/>
+<pb facs="#f0020"/>
+<fw place="top" type="header">Leichpredigt</fw><lb/>
+zeuget hat. Ihr Sitten/ Leben vnnd Wan-<lb/>
+del belangende/ hat ſie darinne leuchten laſ-<lb/>
+ſen/ wahre Gottſeligkeit/ Luſt vnnd Liebe zu<lb/>
+Gottes Wort vnd zum Gebet/ vnd ſich des an-<lb/>
+gehoͤrs der Predigt fleiſſig angenommen/ auch<lb/>
+das hochwirdige Sacrament offt vnd andech-<lb/>
+tig gebrauchet/ welches noch jetzo kurtz vo<supplied>r</supplied><lb/>
+Weihnachten geſchehen. Auch iſt ſie ſonſt<lb/>
+eines ſtillen vnd eingezogenen Wandels gewe-<lb/>
+ſen/ Vnnd jhr Haußwirt gibt jhr zeugniß/ daß<lb/>
+ſie ſich fleiſſig nach jhm gerichtet/ vnd jhm alle<lb/>
+Ehre vnd Trewe bewieſen habe/ auch ſo ſie jhm<lb/>
+an Augen anſehen koͤnnen/ was jhm wolgefel-<lb/>
+lig/ habe ſies mit willen gethan/ Welches ei-<lb/>
+tel Fruͤchte ſind der Gottſeligkeit/ vnd ein Be-<lb/>
+weis eines feinen guten Hertzen/ oder guten<lb/>
+Landes/ davon wir jetzt geprediget haben. Es<lb/>
+hat ſie aber vnſer <hi rendition="#k"><hi rendition="#g">Herr</hi></hi> GOtt in jhren<lb/>
+Sechswochen/ nach dem er ſie fuͤr vierzehen<lb/>
+Tagen aller erſt entbunden/ vnd jhr einen jun-<lb/>
+gen Sohn beſcheret hat/ mit einem hitzigen Fi-<lb/>
+ber angegrieffen/ deme mit keiner Artzney/ vn-<lb/>
+angeſehen des groſſen fleiſſes/ ſo angewendet<lb/>
+worden/ iſt zu wehren geweſt/ darumb ſie auch<lb/>
+endlich daruͤber geblieben/ welches ſie jhr/ ehe<lb/>
+<fw place="bottom" type="catch">ſie</fw><lb/>
+<pb facs="#f0021"/>
+<fw place="top" type="header">Leichpredigt.</fw><lb/>
+ſie noch ins Kindbett kommen/ hat anthen laſ-<lb/>
+ſen. Vnnd als ſie in der vergangenen Mitt-<lb/>
+wochs nacht ſonderlich in groſſer Hitz gelegen/<lb/>
+hat ſie ſich auff den Morgen des Evangelij von<lb/>
+den Arbeitern im Weinberge/ welches wir heu-<lb/>
+te acht Tage gehabt/ erjnnert/ vnd geſagt/ daß<lb/>
+ſie auch die gantze nacht ſehr heis in des <hi rendition="#k"><hi rendition="#g">Her-<lb/>
+ren</hi></hi> Weinberg gearbeitet hette/ ſie hoffte aber<lb/>
+der Erloͤſung vnd der Ablohnunng/ mit denen<lb/>
+die nicht vmbſonſt gearbeitet hetten. Alſo hat<lb/>
+von dañ an jhre Kranckheit ſtuͤndlich zugenom-<lb/>
+men/ biß ſie Donnerſtag auff den Abend zwi-<lb/>
+ſchen ſieben vnd acht vhren im <hi rendition="#k"><hi rendition="#g">Herrn</hi></hi> ſelig<lb/>
+entſchlaffen iſt/ jhres Alters im 24. Jahr. Jetzt<lb/>
+iſt ſie der Seelen nach bey jhrem Erloͤſer Chri-<lb/>
+ſto Jeſu/ biß am juͤngſten Tag auch der Leib zu<lb/>
+gleicher Herrligkeit erwecket werde. Dazu vns<lb/>
+alle auch mit Gnaden befoͤrdere derſelbige vn-<lb/>
+<hi rendition="#c">ſer Heyland vnnd Seligmacher/ welchem<lb/>
+ſey Ehr vnnd Danck von Ewigkeit<lb/>
+zu Ewigkeit/ Amen.</hi></p></div></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<fw place="bottom" type="sig"><hi rendition="#i"><hi rendition="#aq">C</hi> 3</hi></fw><fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#i">Sequun-</hi></hi></fw><lb/>
+<pb facs="#f0022"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsEpicedia" n="1"><head><hi rendition="#aq"><hi rendition="#i">Sequuntur</hi><lb/>
+<hi rendition="#g">EPICŒDIA,</hi><lb/>
+In honorem pie defunctæ ab amicis &amp; affi-<lb/>
+nibus</hi> συμπαϑείας <hi rendition="#aq">ergò conſcripta.</hi></head><lb/>
+<div n="2"><head><hi rendition="#aq"><hi rendition="#g">PARODIA HORATIANA,</hi><lb/>
+ex IV. Carm.Od.XIII.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">N</hi><hi rendition="#i">Eglexere, vir ò DItua vota, DI</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Neglexere, Vir ô, Fis Viduus, tamen</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Vix uxore potitus,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Lugesꝙ́ &amp; gemis impotens.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Et voto querulo &amp; flebilibus modis</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k"><hi rendition="#g">Annam</hi></hi> ſollicitas, illa beantis, &amp;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Docti aſſumere <hi rendition="#k"><hi rendition="#g">Christi</hi></hi></hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Optato excubat in ſinu.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Eheu lapſus homo tranſvolat irritas</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Terras, &amp; profugit mox, quia luridus</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Errorꝙ́, &amp; quia culpæ</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Turpant ſacrilegum genus.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Nec Viri referunt gaudia Spiritus</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Nec ſancti Genij pectora, quæ ſemel</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Claris prædita donis</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Conceßit placidus <hi rendition="#k"><hi rendition="#g">Deus.</hi></hi></hi></hi></l><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#i">Con-</hi></hi></fw><lb/>
+<pb facs="#f0023"/>
+<l><hi rendition="#aq"><hi rendition="#i">Conjunx <hi rendition="#k"><hi rendition="#g">Anna</hi></hi> fugit quò tua? quis color?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Quis vultus? quid habetve illius? illius?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Quo mulcebat amores</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Quo te ſurpuerat tibi.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Felix conjugium, notaꝙ́ &amp; artium</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Gratarum facies, ſed ſociæ breves</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Annos fata dederunt,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Servatura tibi tuam,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Conſtantis fidei exemplar amabile,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Siſte ergò lacrymas, ſiſte precor. Sat eſt.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Multo non ſine riſu</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Præmiſſam accipies polo.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Comes interea ab filiolos vide</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Communemꝙ́ fove pectore flammulam,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Olim junget Olympus,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Quos Mors diſſecat invida.</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">Jenæ</hi> συμπαθείας <hi rendition="#aq">ergo<lb/>
+M. Thomas Sagittarius P.C.<lb/>
+Logices &amp; Metaphyſices Prof.<lb/>
+Publ.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/> <lg type="poem">     <l><hi rendition="#aq"><hi rendition="#in">D</hi>Um prægnans madidís <hi rendition="#k"><hi rendition="#g">J<hi rendition="#i">ov am</hi></hi></hi> ſuſpirat ocellis</hi></l><lb/>
+<l><hi rendition="#aq">Conjunx, &amp; tacitas fundit ab ore preces;</hi></l><lb/>
+<l><hi rendition="#aq">Adferat auxilium, faciatq́ hanc prole parentem</hi></l><lb/>
+<l><hi rendition="#aq">Pulchra: mox votis annuit ille pijs.</hi></l><lb/>
+<l><hi rendition="#aq">Annuit. En genitrix facta eſt enixa tenellum</hi></l><lb/>
+<l><hi rendition="#aq">Partum, perſolvens pignora caſta thori.</hi></l><lb/>
+<l><hi rendition="#aq">Nam puerum peperit, perijt ſed blanda marita,</hi></l><lb/>
+<l><hi rendition="#aq">Atq; animam <hi rendition="#k"><hi rendition="#g">C<hi rendition="#i">hristo</hi></hi></hi> reddidit illa ſuam.</hi></l>     <lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">Quæ</hi></fw><lb/>
+<pb facs="#f0024"/>
+<l><hi rendition="#aq">Quæ modò mater erat fido ſociata marito,</hi></l><lb/>
+<l><hi rendition="#aq">Occidit, ut prati flos cadit, umbra fugit.</hi></l><lb/>
+<l><hi rendition="#aq">Quiq́ maritus erat, viduus modò triſtis &amp; orbus</hi></l><lb/>
+<l><hi rendition="#aq">Filiolus verâ matre relictus adeſt.</hi></l><lb/>
+<l><hi rendition="#aq">Quis non ingentes gemitus det pectore ab im o?</hi></l><lb/>
+<l><hi rendition="#aq">Quis nolit lachrymis ora rigare pijs?</hi></l><lb/>
+<l><hi rendition="#aq">Ah importunè cadis heu ſidißima conjunx</hi></l><lb/>
+<l><hi rendition="#aq">Unica ſpes decus atque una columna domus.</hi></l><lb/>
+<l><hi rendition="#aq">Binos jam linquis teneros, mæſtumq́ parentem</hi></l><lb/>
+<l><hi rendition="#aq">Filiolos, veri fœdera coniugij.</hi></l><lb/>
+<l><hi rendition="#aq">Sed licet haud nimium querulo indulgere dolori,</hi></l><lb/>
+<l><hi rendition="#aq">Luctus enim certum debet habere modum.</hi></l><lb/>
+<l><hi rendition="#aq">Sic viſum ſuperis, ſic fert Prudentia vitæ</hi></l><lb/>
+<l><hi rendition="#aq">Noſtræ cum Chriſto vivere cumq́ mori.</hi></l><lb/>
+<l><hi rendition="#aq">Sic viſum ſuperis divino Numine cuncta</hi></l><lb/>
+<l><hi rendition="#aq">Fiunt. Hoc <hi rendition="#k"><hi rendition="#g">C<hi rendition="#i">hristo,</hi></hi></hi> eſt dulce, vocante mori</hi></l><lb/>
+<l><hi rendition="#aq">Siſte igitur lachrymas, ægrum nunc ſiſte dolorem:</hi></l><lb/>
+<l><hi rendition="#i">Morigeros etenim nos decet eſſe Deo.</hi></l><lb/>
+<l><hi rendition="#aq">Siſte precor lachrymas, placidus te ſubjice <hi rendition="#k"><hi rendition="#g">C<hi rendition="#i">hristo,</hi></hi></hi></hi></l>     <lb/>
+<l><hi rendition="#aq">Et placidus placidè hoc pergrave perfer onus.</hi></l><lb/>
+<l><hi rendition="#aq">Intereà corpus placidè requieſcit in urna,</hi></l><lb/>
+<l><hi rendition="#aq">Expectans reditum <hi rendition="#k">C<hi rendition="#i">hriste</hi></hi> benigne tuum.</hi></l><lb/>
+<l><hi rendition="#aq">Tempore poſtremo tunc glorificata reſurget,</hi></l><lb/>
+<l><hi rendition="#aq">Quæ jam fit fœdis vermibus eſca, caro.</hi></l> </lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">Adponit<lb/>
+Paulus Vockelius LL. ſtud.<lb/>
+affinis.</hi></hi></hi></salute></closer></div><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#i">Vita</hi></hi></fw><lb/>
+<pb facs="#f0025"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/> <lg type="poem"> <l><hi rendition="#aq"><hi rendition="#in">V</hi><hi rendition="#i">Ita quid eſt hominis? dolor eſt, <hi rendition="#k"><hi rendition="#g">Domine</hi></hi> uſꝙ quouſꝙ</hi></hi></l>     <lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Tandem, ſi quæras, dicet: de pulvere factus</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Donec pulvis eris, <hi rendition="#k"><hi rendition="#g">Christo</hi></hi> duce, ſummaꝙ́ quando</hi></hi></l> <lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ad ſedes ſuperum tranſcendes culmina cœli.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Hem dolor [ô ardens dolor] annos vivere multos</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Nil reſcire boni, aſt ex omni parte d<gap reason="lost" unit="chars" quantity="1"/><supplied>l</supplied>ores</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Perſentire graves. O quàm qui limina mortis</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Tranſilijt fide &amp; indubia benè credulus inde</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Deceßit, felix debet diciꝙ́ beatus;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Nempe ex anguſtis ad læta auguſta receptus.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Quæ jam mentiri neſcit, fateatur oportet</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Functa malis multùm, mundanis, <hi rendition="#k"><hi rendition="#g">Anna,</hi></hi> paratum</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Credidit ex voto quis ei non quodlibet, ut vix</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Inde queratur; erant tamen omnia mundi immundi</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Attritus dolor, hunc ſatis ut perpeſſa <hi rendition="#k"><hi rendition="#g">Jehovae</hi></hi></hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Viſa, redi ad Matrem corpus, dicebat, &amp; adme</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Patrem anima, in requiem donec jungamini ovantes.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Factum eſt. Sic obijt <hi rendition="#k"><hi rendition="#g">Laurenti,</hi></hi> planctibus excors</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ne revoces, abijt mage nos cunctosꝙ́ præivit,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Queîs dolor uſꝙ́ volet <hi rendition="#k"><hi rendition="#g">Dominus</hi></hi> ſedgaudia tandem</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Omnibus uſꝙ́ ævum per <hi rendition="#k"><hi rendition="#g">Christum</hi></hi> parta manebunt.</hi></hi></l> </lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">Condolent.ergò<lb/>
+Caſparus Cather.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<fw place="bottom" type="sig"><hi rendition="#aq">D</hi></fw><fw place="bottom" type="catch"><hi rendition="#aq">Sic</hi></fw><lb/>
+<pb facs="#f0026"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/> <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">S</hi>Ic adeò incertus noſtri ſtat terminus ævi,</hi></l><lb/>
+<l><hi rendition="#aq">Et vix cùm cœptum eſt vivere, deſinimus.</hi></l><lb/>
+<l><hi rendition="#aq">Sic adeò fruſtrà nobis promittimus annos</hi></l><lb/>
+<l><hi rendition="#aq">Longos. Nam fallax, vita caduca, bonum.</hi></l><lb/>
+<l><hi rendition="#aq">Cum ſenibus pueros primævo in flore juventæ,</hi></l><lb/>
+<l><hi rendition="#aq">Cum natis matres Mors rapit atq; necat.</hi></l><lb/>
+<l><hi rendition="#aq">Nil valet hîc pietas animi, nil gratia morum,</hi></l><lb/>
+<l><hi rendition="#aq">Jugera nil culti multa tenere ſoli.</hi></l><lb/>
+<l><hi rendition="#aq">Cùm verò in terris nil caſu aut numine cæco</hi></l><lb/>
+<l><hi rendition="#aq">Eveniat quicquam, ceu Stagerita docet:</hi></l><lb/>
+<l><hi rendition="#aq">Errat qui longè rectâ ratione remotâ</hi></l><lb/>
+<l><hi rendition="#aq">Sideribus volvi talia cuncta putat.</hi></l><lb/>
+<l><hi rendition="#aq">Ergò ſcire cupis, quæ Mortis cauſa furoris</hi></l><lb/>
+<l><hi rendition="#aq">Vera ſit, en monſtrat pagina ſacra tibi.</hi></l><lb/>
+<l><hi rendition="#aq">Scilicet Eva ſacros juſſus oblita Tonantis,</hi></l><lb/>
+<l><hi rendition="#aq">(Quos animo fuerat fasq́; piumq́; ſequi)</hi></l><lb/>
+<l><hi rendition="#aq">Dum dulces vetitâ decerpſerat arbore fœtus,</hi></l><lb/>
+<l><hi rendition="#aq">Chriſticolis nobis heu mala tanta parat!</hi></l><lb/>
+<l><hi rendition="#aq">Nos igitur pariter cunctos hac uſq; teneri</hi></l><lb/>
+<l><hi rendition="#aq">Lege, ſat exemplo comprobat <hi rendition="#k"><hi rendition="#g">A<hi rendition="#i">nna</hi></hi></hi> ſuo.</hi></l><lb/>
+<l><hi rendition="#aq">Quam Mors ſpe citius vitæ melioribus annis</hi></l><lb/>
+<l><hi rendition="#aq">Subtrahit aſpectu, chare Marite, tuo.</hi></l><lb/>
+<l><hi rendition="#aq">Cujus erat probitas multùm ſpectata fidesq́;</hi></l><lb/>
+<l><hi rendition="#aq">Et ſummo verè grata Deo pietas.</hi></l><lb/>
+<l><hi rendition="#aq">Hinc oritur luctus, lachrymas hinc fundere largas</hi></l><lb/>
+<l><hi rendition="#aq">Incipis, &amp; vitam turturis inſtar agis.</hi></l><lb/>
+<l><hi rendition="#aq">Hæcce tamen miſeris nobis ſolatia reſtant:</hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Nil præter corpus Mors jugulare valet.</hi></hi></l><lb/>
+<l><hi rendition="#aq">Spiritus ipſe ſui cœlo meliore locatus</hi></l><lb/>
+<l><hi rendition="#aq">Parte, ſacræ aſpectu perfruitur Triados.</hi></l><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">Ac</hi></fw><lb/>
+<pb facs="#f0027"/>
+<l><hi rendition="#aq">Ac velutagricolis, gelidæ quæ tempore brumæ</hi></l><lb/>
+<l><hi rendition="#aq">Semina ſparguntur culta per arva ſoli,</hi></l><lb/>
+<l><hi rendition="#aq">Non pereunt, juſto ſed tempore læta vireſcunt,</hi></l><lb/>
+<l><hi rendition="#aq">Cultorem donis exhilarantq́ue ſuis:</hi></l><lb/>
+<l><hi rendition="#aq">Sic quoque Mortales imâ tellure repoſtos</hi></l><lb/>
+<l><hi rendition="#aq">Horrida mors vinclis non tenet uſq; ſuis.</hi></l><lb/>
+<l><hi rendition="#aq">Tempus erit, tumulis quæ nunc cõpoſta quieſcũt</hi></l><lb/>
+<l><hi rendition="#aq">Corpora, prodibunt viva vocante Deo.</hi></l><lb/>
+<l><hi rendition="#aq">Tunc quoq; fida tori conjux, dum fata ſinebant,</hi></l><lb/>
+<l><hi rendition="#aq">Jungetur lateri, ſuavis ut ante tuo.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et">Συλλυπȣμ<gap reason="fm" unit="chars" quantity="3"/> <hi rendition="#aq"><hi rendition="#i">apponebat Lipſiæ<lb/>
+Tobias Schuvvartus Cizenſis<lb/>
+opt. art. &amp; phil. Studioſus.</hi></hi></hi></salute></closer><lb/>
+<byline><hi rendition="#c"><hi rendition="#aq"><hi rendition="#g">FINIS.</hi></hi></hi></byline><lb/>
+</div></div>     <milestone rendition="#hr" unit="section"/><lb/>
+</body></text> </TEI>

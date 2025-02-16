@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Christliche Leichpredigt/ Bey der Leichbegängniß Weyland Des Ehrenvesten/ vnnd Hochgelhrten Herrn Adami Opalae</title>
+<author>
+<persName ref="http://d-nb.info/gnd/121374068">
+<surname>Huber</surname>
+<forename>Johann</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">24</measure>
+<measure type="tokens">4097</measure>
+<measure type="types">1956</measure>
+<measure type="characters">28940</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:10:15Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/509973</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/509973</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/509973</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/509973</idno>
+<idno type="DTADirName">509973</idno>
+<idno type="DTAID">200066</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-200066-9</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Huber, Johann: Christliche Leichpredigt/ Bey der Leichbegängniß. Oels, 1623.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Christliche Leichpredigt/ Bey der Leichbegängniß Weyland Des Ehrenvesten/ vnnd Hochgelhrten Herrn Adami Opalae</title>
+<author>
+<persName ref="http://d-nb.info/gnd/121374068">
+<surname>Huber</surname>
+<forename>Johann</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">24</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Johann Bössemesser</name></publisher>
+<pubPlace>Oels</pubPlace>
+<date type="publication">1623</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 O 581/13 / 509973</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#b">Chriſtliche Leichpꝛedigt/</hi></titlePart><lb/>
+<titlePart type="desc"><hi rendition="#b">Bey der Leichbegaͤngniſs</hi><lb/>
+Weyland<lb/>
+<hi rendition="#b"><hi rendition="#in">D</hi>es <hi rendition="#in">E</hi>hrenveſten/ vnnd<lb/>
+Hochgelehrten Herꝛn</hi> <hi rendition="#aq">Adami Opalæ,<lb/>
+<hi rendition="#i">Promovirten Doctoris</hi></hi> inn der Artzney/<lb/>
+Welcher Sambſtags/ den 30 Tag Martij/<lb/>
+in <hi rendition="#g"><hi rendition="#k">Gott</hi></hi> Seeliglich verſchieden:<lb/>
+<hi rendition="#b">Vnd hernach Zinſtags/<lb/>
+Den 2. Tag Aprilis/ auff der gewoͤhn-<lb/>
+lichen Begraͤbnuͤß zur Rothen Kirchen/ oder</hi><lb/>
+zun Guten Leuthen genandt/ Chriſtlichem<lb/>
+Gebꝛauch nach zur Erden beſtaͤttiget<lb/>
+woꝛden:</titlePart></docTitle><lb/>
+<byline>Gehalten/<lb/>
+<hi rendition="#b">Durch</hi> <docAuthor><hi rendition="#aq"><hi rendition="#i">M. <hi rendition="#g"><hi rendition="#k">Johannem Huberum</hi></hi></hi></hi></docAuthor><hi rendition="#aq"><hi rendition="#i"><hi rendition="#g"><hi rendition="#k">,</hi></hi></hi></hi><lb/>
+Pfarꝛherꝛen zu S. Wilhelm/ in der<lb/>
+<hi rendition="#b">Stadt Straßburg.</hi><lb/>
+<hi rendition="#aq"><hi rendition="#g"><hi rendition="#i"><hi rendition="#k">Anno Christi,</hi></hi><lb/>
+M. DC. XXII.</hi></hi></byline><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docImprint><hi rendition="#b">Gedruckt in der Fuͤrſtlichen Stadt</hi> <pubPlace><hi rendition="#b">Olſſe</hi></pubPlace><hi rendition="#b">/</hi><lb/>
+bey <publisher>Johann Boͤſſemeſſer</publisher>. <docDate>1623</docDate>.</docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="[2]"/>
+<div n="1"><head><hi rendition="#c">Bildniß<lb/>
+<hi rendition="#b">Des Weyland Ehrenveſten vnd Hoch-<lb/>
+gelehrten H.</hi> <hi rendition="#aq"><hi rendition="#i">Adami Opalæ,</hi></hi> <hi rendition="#b">der</hi> <hi rendition="#aq"><hi rendition="#i">Philoſophiæ</hi></hi><lb/>
+vnd Artzney <hi rendition="#aq"><hi rendition="#i">Doctoris.</hi></hi></hi></head><lb/>
+<figure/>  <cit><bibl><hi rendition="#c">1.<hi rendition="#aq">Chron.</hi> 30.</hi></bibl><lb/>
+<quote>Wir ſind Frembdlinge vnnd Geſte fuͤr dir/ wie vnſere Vaͤter alle/<lb/>
+Vnſer Leben auff <choice><sic>C</sic><corr>E</corr></choice>rden iſt wie ein Schatten/ vnd iſt kein auffhalten.</quote><bibl/></cit></div><lb/>
+<pb facs="#f0003" n="[3]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="dedication" n="1"><p><hi rendition="#b"><hi rendition="#in">D</hi>en <hi rendition="#in">G</hi>eſtrengen/ <hi rendition="#in">E</hi>dlen/<lb/>
+Ehrenveſten/ auch Wolbenambten:<lb/>
+Herꝛn Chriſtoff Franckenberg/ von Proſchlitz/</hi><lb/>
+<hi rendition="#c">auff Roſchkowitz/ Fuͤrſtl: Lign: Brigiſ: Rath/<lb/>
+Hauptmann zu Creutzburg vnd<lb/>
+Pitſchen.</hi><lb/>
+<hi rendition="#b">H: Melchior Koſchembor von Skor-<lb/>
+kaw/ auff Seychwitz/ Golaw/ vnd Latznow/</hi><lb/>
+beyder Fuͤrſtenthuͤmer Oppeln vnd Ratibor Landesrechts<lb/>
+<hi rendition="#c">beſitzern vnnd Eltiſten/ Kreyß-Hauptmann zu<lb/>
+Roſenberg/ vnd Landsberg.</hi><lb/>
+<hi rendition="#b"><hi rendition="#c">So wol</hi><lb/>
+Den Edlen/ Geſtrengen/ Ehrenveſten/<lb/>
+Wolbenambten Herꝛen/ N. N. Hoferichtern/</hi><lb/>
+Landesaͤltiſten: Wolveroꝛdneten Fuͤrſtl: Amptsperſonen/<lb/>
+Herꝛn Burggrafen/ Herꝛn Land vnd Renntſchreibern zu<lb/>
+Creutzburg: Zu gleiche der gantzen Loͤblichen Adelichen<lb/>
+<hi rendition="#c">Ritterſchafft des Creutzburgiſchen vnd Pitſchniſchen<lb/>
+Weichbildes/ Die Edlen Viel Ehrentugend-<lb/>
+reichen Frawen Wittiben mit<lb/>
+eingeſchloſſen.<lb/>
+Demnach</hi><lb/>
+<hi rendition="#b">DEn Ehrwuͤrdigen/ Andaͤchtigen/<lb/>
+Achtbaren/ Wolgelehꝛten Herꝛn N. N.</hi> <hi rendition="#aq"><hi rendition="#i">Seniori,</hi></hi><lb/>
+der gantzen Prieſterſchafft/ beyder Schulen <hi rendition="#aq">Rectorib<hi rendition="#sup">ꝰ,</hi></hi><lb/>
+<hi rendition="#c"><hi rendition="#aq">Collegis</hi>, vnd Chriſtlichen Schuljugendt.</hi><lb/>
+<fw type="sig" place="bottom">A ij</fw><fw type="catch" place="bottom">Deſſelbigen</fw><lb/>
+<pb facs="#f0004" n="[4]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<hi rendition="#c">Deſſelbigen gleichen</hi><lb/>
+<hi rendition="#b">Den Erſamen Wolweiſen/ auch Erba-<lb/>
+ren/ Wolgeachten Herꝛn N. N. Buͤrgermeiſtern</hi><lb/>
+<hi rendition="#c">vnd Raths verwandten/ Eltiſten/ Geſchwornen/ Zech-<lb/>
+meiſtern/ auch den gantzen Chꝛiſtlichen Gemeinen beyder<lb/>
+Staͤdte Creutzburg vnd Pitſchen/ Sambt vnd<lb/>
+ſonderlich:</hi></p><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">S</hi>Einer gebietenden Obrigkeit/ Großguͤnſtigẽ</hi><lb/>
+Herꝛn/ Foͤrdern/ Gutthaͤtern/ Lieben Ordensbruͤďn/<lb/>
+<hi rendition="#aq">Collegis</hi> vnd gutten freunden/ <hi rendition="#aq">dediciret</hi> vnd verehꝛet/<lb/>
+Neben Wuͤndſchung Goͤttlicher Genaden/ dieſe von<lb/>
+Straßburg jhme zugeſchickte/ auff ſeines lieben Stiff-<lb/>
+Sohnes Herꝛn <hi rendition="#aq">Doctoris Adami Opalæ</hi> Begraͤbniß<lb/>
+gehaltene Leichpredigt/ <hi rendition="#aq">Chriſtophorus</hi> Suͤſſenbach/<lb/>
+Goͤttliches worts diener zu Pitſchen/ vnd <hi rendition="#aq">Senior,</hi> ſeine<lb/>
+Gehorſame <hi rendition="#aq">Submiſſion,</hi> Danckbares gemuͤhte/ vnd<lb/>
+Trewhertzige meinung zu erzeigen/ auch alle Staͤnde<lb/>
+ernſtlich zu bitten/ vnd zu ermahnen/ Sie wollen dieſen<lb/>
+auß dem 12 Capitel des Predigers Salomonis genom-<lb/>
+menen/ in der Leichpredigt erklaͤreten Summariſchen<lb/>
+Bibliſchen Hauptſpruch bey ſich ſelbſten <hi rendition="#aq">practiciren,</hi><lb/>
+vnd bey den jhꝛigen ins Werck zuſetzen befoͤꝛderlich ſein:</p><lb/>
+<p><hi rendition="#fr">Fuͤrchte Gott/ vnd halte ſeine Gebott/ denn das<lb/>
+<hi rendition="#et">gehoͤret allen Menſchen zu. Denn Gott wird<lb/>
+alle Werck fuͤr Gericht bringen/ das verboꝛgen</hi><lb/>
+<hi rendition="#c">iſt/ es ſey gut oder boͤſe.</hi></hi></p></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#g"><hi rendition="#i">RECTOR</hi></hi></hi></fw><lb/>
+<pb facs="#f0005" n="[5]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="1"><head><hi rendition="#aq"><hi rendition="#g"><hi rendition="#i"><hi rendition="#k">Rector Academiæ Argen-<lb/>
+toratensis,</hi></hi></hi><lb/>
+<hi rendition="#b"><hi rendition="#k">Melchior Sebitius</hi> Junior,</hi><lb/>
+<hi rendition="#k">medicinæ doctor &amp; professor,</hi><lb/>
+<hi rendition="#i">Studioſis Adolenſcentibus S. P. D.</hi></hi></head><lb/>
+<p><hi rendition="#aq"><hi rendition="#in">A</hi>Ntiquum &amp; tritum eſt proverbium, <hi rendition="#g"><hi rendition="#k">Homo<lb/>
+Proponit: Deus Disponit:</hi></hi> quod tùm in aliis<lb/>
+vitæ ordinibus: tùm vel maximè in eo veritatẽ<lb/>
+habet, qui à literis &amp; Muſis nomen accepit. Solent<lb/>
+enim, quibus ſalus publica curæ cordíque eſt, hunc<lb/>
+ſibi ſtudiorũ ſcopum proponere, ut vel Eccleſiæ com-<lb/>
+moda aliquando promoveant: vel Reipubl. admini-<lb/>
+ſtrandæ inſerviant: vel erudiendæ juventuti in Scho-<lb/>
+lis operam ſuam præſtent. Et ut voti fiant compotes,<lb/>
+ſtrenuè eos laborare, nullísque vigiliis, periculis, mo-<lb/>
+leſtiis, curis, atq; ſumptibus parcere videmus. Verùm<lb/>
+aliter nõnunquam <hi rendition="#k">Deus,</hi> qui res humanas pro arbitrio<lb/>
+ſuo moderatur ac gubernat, diſponit. Nam eos, qui<lb/>
+ejuſmodi ſcopus ſibi præfixos habent, vel in principio<lb/>
+ſtatim ſtudiorum: vel in medio eorum curſu: vel illis<lb/>
+jam feliciter abſolutis, ex vitæ hujus ſtatione quãdoq;<lb/>
+evocat: inq̀; ejuſmodi domiciliũ transfert, ubi (verba<lb/>
+Auguſtini ſunt) regnũ eſt verè beatum, carens morte,<lb/>
+vacans fine, cui nulla tempora ſuccedunt per ævum:<lb/>
+ubi cõtinuus ſine nocte dies neſcit habere tempus: ubi<lb/>
+victor miles hymnidicis Angelorum choris ſociatur,<lb/>
+Deóq; ſine ceſſatione Canticũ de canticis Sion cantat,</hi></p><lb/>
+<cit><quote><hi rendition="#c"><hi rendition="#aq"><hi rendition="#i">Nobile perpetuâ caput amplectente coronâ.</hi></hi></hi></quote><bibl/></cit><lb/>
+<p><hi rendition="#aq">Cauſas autẽ hujus ſuæ diſpoſitionis habet juſtiſſimas:<lb/>
+in quas ſcrupuloſiùs nobis minimè inquirendum: ſed</hi><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">humi-</hi></fw><lb/>
+<pb facs="#f0006" n="[6]"/>
+<hi rendition="#aq">humilitate ſimplici, &amp; æquo animo in ejus voluntate<lb/>
+ac beneplacito acquieſcendum. Nihil enim quod ani-<lb/>
+mæ ſaluti officere: aut temporalem evertere felicitatẽ<lb/>
+poſſit, molitur: ſed omnia, pro ut eſt <hi rendition="#k">Deus</hi> optimus, &amp;<lb/>
+Pater benigniſſimus, ad optimos fines dirigit: habetq̀;<lb/>
+jus liberrimum repetendi ea, quæ fingulari ex gratia<lb/>
+mortalibus conceſſerat. Horum ex albo, qui utilita-<lb/>
+tem quidem Chriſtianæ Reipubl. ſibi propoſitam ha-<lb/>
+bebant: ſed arcano <hi rendition="#k">Dei</hi> cõſilio præmaturè è vivis ſunt<lb/>
+abrepti, Vir erat, pietate, claritate, doctrinâ, &amp; virtute<lb/>
+ornatiſſimus, D. <hi rendition="#k">Adamus Opala,</hi> Medicinæ &amp; Philo-<lb/>
+ſophiæ Doctor egregius: amicus &amp; auditor quondam<lb/>
+meus, uti conſtantiſſimus, ita &amp; gratiſſimus optatiſſi-<lb/>
+músque. Nam cùm</hi> ἐγκυκλοπαιδείας <hi rendition="#aq">curſum feliciter<lb/>
+abſoluiſſet: totúmq; ſeſe Medicinæ ſtudiis dedidiſſet:<lb/>
+&amp; jam Lauream conſequutus eſſet Doctoralem: nihil<lb/>
+in votis &amp; optatis habebat magis, quàm ut talentum<lb/>
+divinitùs ſibi conceſſum benè collocare: ſoloq; natali<lb/>
+plurimùm prodeſſe poſſet. Verùm aliter diſpoſuit is,<lb/>
+in cujus manu ſortes ſunt noſtræ: quíque vita eſt, &amp;<lb/>
+longitudo dierum noſtrorum. Etenim cùm pleno,<lb/>
+quod ajunt, ſpiritu ad præfixũ ſibi ſcopum anhelaret<lb/>
+<hi rendition="#k">Opala</hi> noſter: &amp; remis velísq; contenderet in patriam<lb/>
+ecce in lethalem labitur ægritudinem, quæ eum die<lb/>
+Martii XXX. circa ſeptimam matutinam lucis hujus<lb/>
+uſurâ ſuaviſſimâ privavit. Eſt autem, ut paucis vobis<lb/>
+vitæ ejus curriculum deſcribam, Bicinæ, in Ducatu<lb/>
+Bregenſi, Circiter A° <hi rendition="#k">Christi</hi> 1592. Calend. 3. Octobr.<lb/>
+natus: Patre Reverendo &amp; doctiſſimo Viro, D. <hi rendition="#k">Adamo<lb/>
+Opala,</hi> Paſtore Schönfeldẽſis Eccleſiæ vigilantiſſimo<hi rendition="#i">:</hi><lb/>
+Matre verò <hi rendition="#k">Eva</hi></hi> Schillingin/ <hi rendition="#aq">matronâ iis decoratâ ani-<lb/>
+mi dotib<hi rendition="#sup">ꝰ,</hi> quæ fœmineum ſexum &amp; decent, &amp; vehe-</hi><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">menter</hi></fw><lb/>
+<pb facs="#f0007" n="[7]"/>
+<hi rendition="#aq">menter ornant. Literarũ fundamenta jecit in Scholâ<lb/>
+Bicinenſi: poſtea Parentũ juſſu ad illuſtre ſeſe Bregen-<lb/>
+ſium Gymnaſium contulit: in quo Muſarum latices<lb/>
+hauſit uberiùs. Nectare verò &amp; Ambroſiâ logicarum<lb/>
+artiũ mediocriter imbutus, Academias, tanquã offici-<lb/>
+nas nõ humaniorum ſolùm literarum: ſed etiam ſupe-<lb/>
+riorum Facultatũ inſtructiſſimas, adire utile &amp; jucun-<lb/>
+dum duxit. Itaq; à Vitrico ſuo, viro pietate inſigni,<lb/>
+judicio gravi, virtute præcellenti, rerúmq; theologi-<lb/>
+carum cognitione admodum conſpicuo, D. <hi rendition="#k">Christo-<lb/>
+phoro Süssenbachio,</hi> Paſtore ac Seniore Bicinenſi,<lb/>
+Argentinam ante ſeptennium ablegatus eſt: &amp; ut In-<lb/>
+ſpectorem vitæ ac ſtudiorum haberet fidum atq; indu-<lb/>
+ſtrium: eſſétque, cujus auxilio &amp; conſilio tàm in ad-<lb/>
+verſis, quàm ſecundis reb<hi rendition="#sup">ꝰ</hi> intrepidè ac liberaliter ute-<lb/>
+retur, Ornatiſſimo doctiſſimóque Viro, D. M. <hi rendition="#k">Paulo<lb/>
+Gnilio,</hi> Decimæ Claſſis Moderatori fideliſſimo, ami-<lb/>
+co ſingulari, de meliori notâ cõmendatus. Sic autem<lb/>
+apud nos ſeſe geſſit: ſícque ſtudia tractavit philoſo-<lb/>
+phica, ut Anno M DCXVII. Calendis Maii, Lauream<lb/>
+Philoſophiæ ſecundam, quæ <hi rendition="#k">Magisterii</hi> titulo in-<lb/>
+ſignitur, unà cum aliis doctis &amp; honeſtis juvenibus, in<lb/>
+frequenti præclarorum virorum cœtu, magnâ cum<lb/>
+ingenii, virtutis, &amp; eruditionis ſuæ celebratione fuerit<lb/>
+adeptus. Habebat enim naturam ad diſcendam Medi-<lb/>
+cinam pronam atque propenſam. Ideóq; non priùs<lb/>
+eam ſibi aggrediendam putabat, quàm illa ſibi ſubſidia<lb/>
+&amp; adminicula comparâſſet, quæ ad faciliùs percipien-<lb/>
+dam, commodiùs docendam, &amp; feliciùs ex ercendam<lb/>
+Medicinã ſum̃operè conducunt. Curſu philoſophico<lb/>
+ad finem perducto, medicinalia tractare ſtudia cœpit.<lb/>
+Verùm non tenebriorum quorundam &amp;</hi> αυτοδιδάκτωμ<lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">more,</hi></fw><lb/>
+<pb facs="#f0008" n="[8]"/>
+<hi rendition="#aq">more, ſuo quidem judicio valdè, ſi Diis placet, ſapien-<lb/>
+tum, domi delituit: ſed in mediam Academiæ noſtræ<lb/>
+lucem prodiit: publicis Medicorum lectionibus inter-<lb/>
+fuit ſedulò: diſputationes publicas atq; privatas magni<lb/>
+fecit: opponendo reſpõdendóq; ſtrenuè ſeſe exercuit:<lb/>
+anatomicis adminiſtrationib<hi rendition="#sup">ꝰ,</hi> quæ hyberno tempore<lb/>
+ſolennes apud nos eſſe conſueverunt, mirũ in modum<lb/>
+fuit delectatus: deniq; quoties in æſtate herbarũ cauſâ<lb/>
+ad nemoroſa, pratenſia, campeſtria, &amp; paludoſa loca<lb/>
+ex curriſſent artis Profeſſores, impigrũ &amp; indefeſſum<lb/>
+comitem iis ſeſe adjunxit: hácq; ſuâ diligentiâ &amp; di-<lb/>
+ſcendi fervore laudabilem medicarũ rerum ſcientiam<lb/>
+ſibi acquiſivit. Poſtquam verò quinquennium ferè<lb/>
+Argentoratenſi in Academiâ conſumſiſſet: uberioris<lb/>
+doctrinæ capeſſendæ cauſâ ad Baſileenſem ſe recepit:<lb/>
+&amp; Medico Doctoratu ornatus Argentinam rediit: ubi<lb/>
+cùm aliquandiu iterum fuiſſet commoratus, in lucem<lb/>
+populariter jam graſſantem XX. Martii incidit: eâque<lb/>
+XXX. menſis ejusdem vitam finiit. Itaq; vos ratione<lb/>
+officii, quo jam fungor, rogo &amp; hortor, ut poſtremum<lb/>
+honorem defuncto D. Doctori habeatis: &amp; ad coho-<lb/>
+neſtandas ejus exequias hodiè Horâ <hi rendition="#g">II.</hi> pomeridianâ<lb/>
+ante ædes <hi rendition="#k">Georgii Burckhardi,</hi> concivis noſtri,<lb/>
+templo Guilhelmitano vicinas, frequentes cõveniatis.<lb/>
+Spero autem, vos id ultrò facturos: veſtrâq; præſentiâ<lb/>
+&amp; quanto amore proſequuti ſitis demortuum, com-<lb/>
+militonem olim veſtrum jucundiſſimum: &amp; quàm ob-<lb/>
+ſervetis ejus Vitricum, Reverendum &amp; clariſſimum<lb/>
+D. <hi rendition="#g"><hi rendition="#k">Süssenbachium:</hi></hi> de Eccleſiâ <hi rendition="#k">Christi</hi> optimè<lb/>
+meritum, &amp; adhuc merentem quotidiè: &amp; quo in Ioco apud vos ſit<lb/>
+D. M. GNILIUS, defuncti agnatus: cujus operam in erudiendâ ætate<lb/>
+tenellâ utilem ac planè neceſſariam Academia noſtra agnoſcit, publicè<lb/>
+declaraturos. Valete. Perſcriptum Argentinæ II. Aprilis Anno poſt<lb/>
+natum <hi rendition="#g">CHRISTUM,</hi> M DC XXII.</hi></p></div><lb/>
+<fw place="bottom" type="catch">Text.</fw><lb/>
+<pb facs="#f0009" n="[9]"/>
+<div n="1"><head/>      <div type="fsBibleVerse" n="2"><head><hi rendition="#b">Text.</hi></head><lb/>
+<cit><bibl><hi rendition="#c"><hi rendition="#b">Auſs dem 12. Cap. des Predigers</hi><lb/>
+Salomonis/ <hi rendition="#i"><hi rendition="#aq">verſ. 13. &amp;</hi> 14.</hi></hi></bibl><lb/>
+<quote><hi rendition="#fr"><hi rendition="#in">L</hi>Aſt vns die Hauptſumma aller<lb/>
+Lehre hoͤren: Fürchte Gott/ vnd<lb/>
+halte ſeine Gebott: dann das gehoͤret<lb/>
+allen Menſchen zu. Dann Gott wird<lb/>
+alle Werck fuͤr Gericht bringen/ das</hi><lb/>
+verborgen iſt/ Es ſey gut oder boͤſe.</quote><bibl/></cit></div><lb/>
+<div type="fsExordium" n="2"><head><hi rendition="#b">Innhalt vnd Abtheylung</hi><lb/>
+des Texts.</head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">G</hi>Eliebte im HErꝛn/ in jetzt ab-</hi><lb/>
+geleſenen Woꝛten/ deß allerweiſeſten<lb/>
+Koͤnigs Salomonis/ genom̃en auß<lb/>
+dem 12. Cap: ſeines Buͤchleins/ ſo der<lb/>
+Prediger genennet wird/ werden vns fuͤrnemlich<lb/>
+drey Puͤnctlein zu bedencken fuͤr gehalten.</p><lb/>
+<p>Im 1. Schreibet der weiſe Koͤnig ein ſonder<lb/>
+Geſatz vñ Regul fuͤr: Darnach ſich der Menſch in ſeinem<lb/>
+gantzen Leben richten ſoll.</p><lb/>
+<p>Im 2. Zeiget er an/ wen ſolche vorgeſchꝛiebene<lb/>
+Regul angehe: Nemlich nicht nur etliche wenig/ ſondern<lb/>
+alle Menſchen ins gemein.</p><lb/>
+<fw place="bottom" type="sig">B</fw><fw place="bottom" type="catch">Im</fw><lb/>
+<pb facs="#f0010" n="[10]"/>
+<fw place="top" type="header">Chꝛiſtliche LeichPꝛedigt.</fw><lb/>
+<p>Im 3. Setzet Er eine Ernſte vnd bewegliche<lb/>
+<hi rendition="#aq">Motiv</hi> vnd Vrſach/ vmb dero willen dieſe Regul mit fleiß<lb/>
+in Achtung zu nehmen iſt.</p><lb/>
+<p>Hiervon nach Gelegenheit der Zeit zu reden<lb/>
+kuͤrtzlich: Gebe der liebe GOtt fruchtbarlich. Amen.</p></div><lb/>
+<div n="2"><head/>  <div n="3"><head><hi rendition="#aq">I.</hi></head><lb/>
+<p><hi rendition="#in">A</hi>Nfaͤnglich nun/ machet der weiſe Koͤnig<lb/>
+Salomon/ einen ſolchen Eingang in ſeine<lb/>
+Regul vñ Pꝛedigt/ das Er ſaget: <hi rendition="#fr">Laſt vns die<lb/>
+Hauptſumma aller Lehre hoͤren.</hi> Redet<lb/>
+nicht von den Glaubens Articulen/ was man<lb/>
+glauben ſolle: ſondern wie man ſich ſonſt im leben<lb/>
+vnd wandel verhalten ſolle/ welches letztere/ nach<lb/>
+dem Ers in ſeinen Spruͤchen weitlaͤuffteger auß-<lb/>
+gefuͤhret/ vnd fuͤrgeſchrieben hatte/ wie man ſich<lb/>
+gegen Gott im Himmel/ vnd gegen den Menſchẽ<lb/>
+auff Erden verhalten ſolle. Wie die Prieſter/ die<lb/>
+Obrigkeit vñ Eltern zuverehren: Was dieſe drey<lb/>
+gegen jhꝛen Zuhörern/ Vnterthanen/ vnd lieben<lb/>
+Kindern thun/ vñ wie ſich die hinwiderumb gegẽ<lb/>
+jhren vorgeſetzten verhalten ſollen. Ingleichem<lb/>
+wie man mit den Nachbawren/ Tagloͤhnern vnd<lb/>
+Armen ſolle vmbgehen/ damit einem jeden recht<lb/>
+geſchehe.</p><lb/>
+<fw place="bottom" type="catch">Inn</fw><lb/>
+<pb facs="#f0011" n="[11]"/>
+<fw place="top" type="header">Chꝛiſtliche LeichPꝛedigt.</fw><lb/>
+<p>In ſeinem Prediger hat Salomon angezeiget<lb/>
+vnd gelehꝛet/ wie man ſich des Gluͤcks nicht vber-<lb/>
+heben ſol/ weil alles eytel vñ vergaͤnglich: In vn-<lb/>
+gluͤck aber ſol man auch nicht zu Kleinmuͤtig vnd<lb/>
+Zaghafft ſein: Weil es Gott alles in ſeiner Hand<lb/>
+hat/ vnd Vaͤterlich richtet. So kom̃et er hierauff<lb/>
+vnd faſſet es alles kurtz zuſammen/ das er ſpricht:<lb/>
+<hi rendition="#fr">Foͤrchte Gott/ vnd halte ſeine Gebott.</hi></p><lb/>
+<p>Durch die Forcht/ wird nicht eine Knechtliche<lb/>
+foꝛcht verſtanden/ da der Menſch einen Tyꝛannen<lb/>
+vnd Wuͤtterich foͤꝛchtet/ vñ wuͤnſchet/ das er auß-<lb/>
+gerottet werde/ vnd nicht mehr ſeye. In keinem<lb/>
+wege: ſondern es wird dadurch eine ſolche forcht<lb/>
+verſtandẽ/ die da wol Liebe vñ Ehꝛerbietung mag<lb/>
+genennet werden: welcherley bey fromen kindern/<lb/>
+gegen jhren lieben Eltern/ zufinden/ die ſie nicht<lb/>
+alſo foͤrchten/ vnd ſich fuͤr jhnen entſetzen/ das ſie<lb/>
+dieſelben fliehen vnd meiden: ſondern vielmehr/<lb/>
+ſind ſie gerne vmb dieſelben/ zuthun/ was ſie jhnen<lb/>
+befehlen/ vnd zu vnterlaſſen/ was ſie jhnen ver-<lb/>
+bieten: vnd das alles zu ſchuldiger Danckbarkeit/<lb/>
+fuͤr die wolthaten/ ſo ſie jhnen vielfaͤltig bewieſen.</p><lb/>
+<p>Das heiſſet Gott den HErꝛen foͤꝛchten/ vnd iſt<lb/>
+eygentlich zu reden/ Gott foͤꝛchten/ vñ Gott lieben<lb/>
+einerley/ beydes eine eygentliche frucht des waren<lb/>
+<fw place="bottom" type="sig">B ij</fw><fw place="bottom" type="catch">Glaubens</fw><lb/>
+<pb facs="#f0012" n="[12]"/>
+<fw place="top" type="header">Chꝛiſtliche LeichPꝛedigt.</fw><lb/>
+Glaubens: Dañ der Glaube iſt durch die Liebe/<lb/>
+vnd die furcht Gottes thaͤtig/ zun Galat. 5. Cap.<lb/>
+Daher wird in Erklaͤrung eines jeden gebots des<lb/>
+geſatzes Gottes geſagt: Wir ſollen Gott foͤꝛchten<lb/>
+vnd lieben. Die furcht iſt von noͤten. Dann wir<lb/>
+ſollen vns ſchewen boͤſes zuthun. Die Liebe iſt<lb/>
+von noͤthen: Dann es ſol vnſer einige Luſt ſein/<lb/>
+Recht/ gutes vnd wol zuthun.</p><lb/>
+<p>Dieſe foꝛcht vnd liebe Gottes/ ruͤhmet der liebe<lb/>
+Syꝛach ſonderlich in ſeinem Buͤchlein <hi rendition="#i"><hi rendition="#aq">Cap. 1. v.</hi> 11.</hi><lb/>
+wann er ſpricht: Die forcht des HErꝛen iſt Ehꝛe<lb/>
+vnd Ruhm: Frewde vnd eine ſchoͤne Cron. <hi rendition="#i"><hi rendition="#aq">v.</hi> 16.</hi><lb/>
+Die foꝛcht des <hi rendition="#k">Herrn</hi> iſt der Weißheit anfang.<lb/>
+<hi rendition="#i"><hi rendition="#aq">v.</hi> 17.</hi> Die forcht des HErꝛn iſt der rechte Gottes<lb/>
+dienſt. <hi rendition="#i"><hi rendition="#aq">v.</hi> 27.</hi> Die forcht des HErꝛen wehret der<lb/>
+Suͤnde. Bey dieſer forcht vñ liebe Gottes/ findet<lb/>
+ſich auch das/ daß man Gott gebott haͤlt/ dañ es<lb/>
+hanget jmmer eins am anderen: Gott foͤrchten/<lb/>
+Gott lieben: Gottes gebott halten.</p><lb/>
+<p>Wann ich einen Lieb habe/ ſo foͤrchte/ ſchewe/<lb/>
+vnd hůte ich mich/ etwz zuthun/ dadurch er moͤcht<lb/>
+<hi rendition="#aq"><hi rendition="#i">offendiret</hi></hi> vnd beleydiget werden: Im gegentheil/<lb/>
+befleiſſe ich mich zuthun/ was jhm lieb iſt/ wo moͤg-<lb/>
+lich/ auch ſeinen gedancken genug zuthun. Ich<lb/>
+habe auch dz zwyfache vertrawen gewiß zu jhm:<lb/>
+Fuͤrs 1. das Er michs werde in anderem genieſſen<lb/>
+<fw place="bottom" type="catch">laſſen:</fw><lb/>
+<pb facs="#f0013" n="[13]"/>
+<fw place="top" type="header">Chꝛiſtliche LeichPꝛedigt.</fw><lb/>
+laſſen: Fuͤrs 2. Das Er mir Hertzlich verzeihen<lb/>
+vnd vergeben werde/ was ich wider jhn gethan<lb/>
+habe. Wann wir nun Gott foͤrchten vnd lieben/<lb/>
+wann wir ſeine Gebott halten/ ſo ſollen wir jhm<lb/>
+auch in allen nöthen Kindlich vertrawen. Von<lb/>
+ſolcher Eygenſchafft der waren foꝛcht Gottes ſagt<lb/>
+Syrach/ <hi rendition="#i"><hi rendition="#aq">Cap. 2. v.</hi> 18. 19. 20.</hi> Die den HErꝛen<lb/>
+foͤrchten/ glauben ſeinem Wort/ vnd die jhn Lieb<lb/>
+haben/ halten ſeine Gebott: Die den HErren<lb/>
+foͤrchten/ thun was jhm wolgefellet/ vnd die jhn<lb/>
+Lieb haben/ halten das Geſetz recht. Die den<lb/>
+HErꝛn foͤrchten/ ſchicken jhr Hertz/ vnd Demuͤh-<lb/>
+tigen ſich fuͤr jhm.</p><lb/>
+<p>Damit ſtimmet der HErꝛ Chriſtus vberein/<lb/>
+wann Er Johan. <hi rendition="#i"><hi rendition="#aq">Cap.</hi> 14.</hi> ſagt: Wer mich liebet/<lb/>
+der wird meine Woꝛt halten: Vnd/ liebet jhꝛ mich/<lb/>
+ſo haltet meine Gebott. Vnd abermal: Wer mei-<lb/>
+ne Gebot hat vnd haͤlt ſie/ der iſts/ dermich liebet.</p><lb/>
+<p>Auff dieſe weiſe hat Gott den HErꝛn gefoͤrchtet/<lb/>
+der liebe Job/ von welchem Cap. 1. geſagt wird/<lb/>
+Er ſeye geweſt ſchlecht vñ recht/ fromb vñ Gotts-<lb/>
+foͤrchtig/ vnd habe das boͤſe gemeidet. Der liebe<lb/>
+Tobias hat Gott den HErꝛn von gantzem hertzen<lb/>
+gefoͤrchtet: Er hat ſeine Erſtlinge vnd Zehenden<lb/>
+gantz Trewlich gegeben/ die gefangene Iſraëliten<lb/>
+<fw place="bottom" type="sig">B iij</fw><fw place="bottom" type="catch">Hertzlich</fw><lb/>
+<pb facs="#f0014" n="[14]"/>
+<fw place="top" type="header">Chꝛiſtliche LeichPꝛedigt.</fw><lb/>
+Hertzlich getroͤſtet/ Einem jeglichen von ſeinen<lb/>
+Guͤtteren/ nach ſeinem vermoͤgen mitgetheylet:<lb/>
+Die Hungerigen hat Er geſpeiſet/ die Nacketen<lb/>
+bekleydet/ vnd die Erſchlagene vnd Todten be-<lb/>
+graben/ <hi rendition="#i"><hi rendition="#aq">Tob. cap.</hi> 1.</hi> Zacharias vnd Eliſabeth die<lb/>
+Eltern Johannis des Teuffers/ ſagt S. Lucas/<lb/>
+<hi rendition="#i"><hi rendition="#aq">Cap.</hi> 1.</hi> Seyen alle beyde fromb geweſt fuͤr Gott/<lb/>
+vnd ſeyen gangen in allen Gebotten vñ ſatzungen<lb/>
+des HErꝛen vntadelich. Derogleichen wird von<lb/>
+dem lieben Simeon geruͤhmet/ Luc. 2. Cap. Das<lb/>
+Er ſey fromb vnd Gottsfoͤꝛchtig geweſt/ vnd habe<lb/>
+auff den Troſt Iſrael gewartet.</p><lb/>
+<p>Vnd võ <hi rendition="#aq"><hi rendition="#i">Cornelio</hi></hi> einem Hauptmann zu C<hi rendition="#aq">æ</hi>ſa-<lb/>
+rien leſen wir im Buch der Apoſtelgeſchichten am<lb/>
+<hi rendition="#i">10. <hi rendition="#aq">Cap.</hi></hi> das Er ſeye Gottſelig vnd Gottsfoͤrchtig<lb/>
+geweſt/ ſambt ſeinem gantzen Hauſe: Er habe<lb/>
+dem Volck viel allmoſen gegeben/ vnd habe jmmer<lb/>
+zu Gott gebettet. Solcher Gottſeligkeit ſollen<lb/>
+wir vns alle befleiſſigen/ dann Gott leſſet dieſelbe<lb/>
+nimmermehr vnbelohnet. Die Gottſeligkeit iſt<lb/>
+zu allen dingen nuͤtz/ vnd hat die Verheiſſung<lb/>
+dieſes vnd des Zukuͤnfftigen lebens. <hi rendition="#i">1. <hi rendition="#aq">Tim. 4. v.</hi> 8.</hi><lb/>
+Syrach <hi rendition="#i"><hi rendition="#aq">Cap. 1. v.</hi> 13.</hi> Wer den HErꝛen foͤrchtet/<lb/>
+dem wirds wolgehen in der letzten noth/ vnd wird<lb/>
+endlich den Segen behalten. <hi rendition="#i"><hi rendition="#aq">verſ.</hi> 19.</hi> Wer den<lb/>
+<fw place="bottom" type="catch">HErꝛen</fw><lb/>
+<pb facs="#f0015" n="[15]"/>
+<fw place="top" type="header">Chꝛiſtliche LeichPꝛedigt.</fw><lb/>
+HErꝛn foͤꝛchtet/ dem wirds wolgehen/ vnd wann<lb/>
+Er Troſts bedarff/ wird Er geſegnet ſein. <hi rendition="#i"><hi rendition="#aq">v.</hi> 20.</hi><lb/>
+Gott förchten iſt die Weißheit/ die reich machet/<lb/>
+vnnd bringet alles Gutt mit ſich: Sie erfuͤllet<lb/>
+das gantze Hauß mit jhren Gaben/ vnd alle Ge-<lb/>
+mach mit jhrem Schatz. Das daß wahr ſey/<lb/>
+hat vnter anderem im Werck erfahren/ der liebe<lb/>
+Job/ welchen Gott mit groſſem Gutt geſegnet/<lb/>
+vnd jhme gegeben hat <hi rendition="#i">7000.</hi> Schaaffe. <hi rendition="#i">3000.</hi> Ca-<lb/>
+mel/ <hi rendition="#i">500.</hi> Joch Rinder/ <hi rendition="#i">500.</hi> Eſelin/ vnd ſehr viel<lb/>
+Geſindes. Ja das noch mehr iſt/ ſo hat Gott/ da<lb/>
+Er den lieben Job im Glauben zu Probiren/ auff<lb/>
+einen Tag vmb alle ſein Haabe/ ja auch vmb ſeine<lb/>
+10. Kinder brachte/ jhme nach außgeſtandener<lb/>
+Truͤbſal vnd bewehretem Glauben/ es jhme alles<lb/>
+duppelt wider geben/ was Er verlohren hatte/<lb/>
+Nemlich/ Er gab jhm <hi rendition="#i">18000.</hi> Schaaffe/ <hi rendition="#i">6000.</hi><lb/>
+Camel/ <hi rendition="#i">100.</hi> Joch Rinder/ vnnd <hi rendition="#i">1000.</hi> Eſelin.<lb/>
+Dem lieben Tobiæ/ gab Er ſein Geſicht wider.<lb/>
+Zachariam vnd Eliſabeth machet Er Fruchtbar<lb/>
+in jhrem hohen alter. Der liebe Simeon bekam<lb/>
+den Meſſiam im Fleiſch zuſehen. <hi rendition="#aq"><hi rendition="#i">Cornelius</hi></hi> hate<lb/>
+Gluͤck in ſeinem Hauſe/ Gehorſamb bey ſeinen<lb/>
+Kriegsknechten/ auch gluͤckliche Sieg wider die<lb/>
+Feinde.</p><lb/>
+<fw place="bottom" type="catch">So</fw><lb/>
+<pb facs="#f0016" n="[16]"/>
+<fw place="top" type="header">Chꝛiſtliche LeichPꝛedigt.</fw><lb/>
+<p>So nun Gott thun ſol/ was wir gerne wollen/<lb/>
+ſo ſollen wir auch billich thun/ was Gott haben<lb/>
+wil: ſonderlich in dieſen ſchweren Zeiten/ da vns<lb/>
+GOTT als ein rechter Richter heimſuchet mit<lb/>
+Krieg/ mit Thewrung/ vnd mit allerley Kranck-<lb/>
+heiten/ die wir nicht verachten/ vnd Leichtfertiger<lb/>
+weiſe in den Windt ſchlagen ſollen. Dann wann<lb/>
+wir vns ſelber richteten/ ſo wuͤrden wir nicht ge-<lb/>
+richtet: Wann wir aber gerichtet werden/ ſo<lb/>
+werden wir von dem HErꝛen gezuͤchtiget/ auff<lb/>
+das wir nicht mit der Welt verdampt werden.<lb/>
+<hi rendition="#i">1. <hi rendition="#aq">Corinth:</hi></hi> am <hi rendition="#i">7. <hi rendition="#aq">v.</hi> 31. 32.</hi></p></div><lb/>
+<div type="fsMainPart" n="3"><head><hi rendition="#b">Der Andere Theyl.</hi></head><lb/>
+<p><hi rendition="#in">D</hi>Arinn wird vermeldet/ wen jtzt angehoͤrte<lb/>
+Regul/ Geſatz vñ Lehre angehe/ Nemlich<lb/>
+nicht etliche Menſchen allein/ ſondern alle durch<lb/>
+vnd durch. Dann alſo ſpricht der Koͤnig Salo-<lb/>
+mon. Daß/ was Ich jetzt geſagt habe/ gehoͤret<lb/>
+allen Menſchen zu: Mercks wol/ allen Menſchẽ/<lb/>
+Sie ſeyen weß Standes/ Geſchlechts vnd Alters<lb/>
+ſie jmmer wollen. Vnd das nicht vnbillich/ dann<lb/>
+was die Menſchen ſeind/ vnd was ſie haben/ das<lb/>
+ſind vnd haben ſie von GOtt: wie der Apoſtel<lb/>
+Paulus ſagt/ <hi rendition="#i">1. <hi rendition="#aq">Cor. 4. v.</hi> 7.</hi> Menſch/ was haſtu/<lb/>
+<fw place="bottom" type="catch">das</fw><lb/>
+<pb facs="#f0017" n="[17]"/>
+<fw place="top" type="header">Chꝛiſtliche LeichPꝛedigt.</fw><lb/>
+das du nicht empfangen haſt/ haſtu es aber em-<lb/>
+pfangen/ was ruͤhmeſtu dich dann/ als ob du es<lb/>
+nicht empfangen hetteſt?</p><lb/>
+<p>Darnach vnd fuͤrs ander/ ſeind wir von Gott<lb/>
+dazu erſchaffen/ das wir ſeine Gebott halten/ vnd<lb/>
+gutes thun ſollen/ wie der Apoſtel Paulus zun<lb/>
+Epheſ. 2. ſagt: Wir ſind Gottes werck/ geſchaffen<lb/>
+in Chriſto JEſu zu guten Wercken/ zu welchen<lb/>
+Gott vns zuvor bereytet hat/ das wir darinnen<lb/>
+Wandeln ſollen.</p><lb/>
+<p>Fuͤrs dritte/ Sindt wir von Chriſto dazu<lb/>
+erloͤſet worden/ das wir Gott foͤrchten/ vnd ſeine<lb/>
+Gebott halten. Dann alſo ſpricht der Apoſtel<lb/>
+Paulus/ <hi rendition="#i">2. <hi rendition="#aq">Cor.</hi> 5.</hi> Chriſtus iſt fuͤr alle geſtoꝛben/<lb/>
+vnd iſt darumb fuͤr alle geſtorben/ auff das die/ ſo<lb/>
+da leben/ hinfort nicht jhnen ſelber leben/ ſondern<lb/>
+dem/ der fuͤr ſie geſtorben/ vnd wider aufferſtan-<lb/>
+den iſt.</p><lb/>
+<p>Inn Betrachtung deſſen/ ſolten billich alle<lb/>
+Menſchen Gott jederzeit gefoͤrchtet haben/ vnd<lb/>
+noch förchten. Aber es fehlet: Wie zu ſehen an<lb/>
+dem Koͤnig Pharaone im 2. Buch Moſis <hi rendition="#i"><hi rendition="#aq">Cap.</hi> 5.</hi><lb/>
+Zu welchem als Moſes vnd Aaron kamen vnd<lb/>
+ſprachen: So ſaget der HErr/ der Gott Iſra&amp;eb;l:<lb/>
+Laß mein Volck ziehen/ das mirs ein Feſt halte in<lb/>
+<fw place="bottom" type="sig">C</fw><fw place="bottom" type="catch">der</fw><lb/>
+<pb facs="#f0018" n="[18]"/>
+<fw place="top" type="header">Chꝛiſtliche LeichPꝛedigt.</fw><lb/>
+der Wuͤſten. Darauff antwortet Pharao gantz<lb/>
+Trotziglich/ vnd ſagt: Wer iſt der HErr/ deſſen<lb/>
+Stim̃ ich hoͤren můſſe/ vnd Iſrael ziehen laſſen?<lb/>
+Ich weiß nichts von dem HErꝛn/ wil auch Iſrael<lb/>
+nicht laſſen ziehen.</p><lb/>
+<p>Alſo that auch Nicanor/ 2. Buch der Macca-<lb/>
+beer/ <hi rendition="#i"><hi rendition="#aq">Cap.</hi> 15.</hi> Welcher die Juden ſpoͤttiſcher weiſe<lb/>
+fragte vñ ſagte: Der den Sabbath geboten hat/<lb/>
+Iſt Er der HErr im Himmel: Ey wolan/ ſo ſey<lb/>
+Er der Herꝛ auff Erden/ vnd gebiete/ Ihr ſollet<lb/>
+Euch ruͤſten/ vnd des Koͤniges befehl außrichten.</p><lb/>
+<p>Alſo bekennet der Vngerechte Richter Luc. 18.<lb/>
+Cap. gar vnverholen/ vnd ſagt/ Er fuͤrchte ſich<lb/>
+nicht fuͤr Gott: Er ſchewe ſich auch fuͤr keinem<lb/>
+Menſchen/ dergleichen werden jetziger Zeit noch<lb/>
+viel mehr gefunden. An ſolchen nun vnd an jhres<lb/>
+gleichen hat GOtt bewieſen/ daß jhm Gottloß<lb/>
+weſen nit gefalle. Dañ Pharao muſte im rothen<lb/>
+Meer erſauffen. Nicanor kam in der Schlacht<lb/>
+vmb. Der Vngerechte Richter wird ſeinen theil<lb/>
+am Himmelreich auch verſchertzet haben. Weil<lb/>
+der Apoſtel Paulus/ 1. Corinth. 6. Cap. ſpricht:<lb/>
+Wiſſet jhr nicht/ daß die vngerechten/ werden das<lb/>
+Reich Gottes nicht ererben. Darumb ſo jrꝛe ſich<lb/>
+Niemandt/ Gott leſſet ſich nicht ſpotten. Zun Galat. 6.</p></div><lb/>
+<fw place="bottom" type="catch">Der</fw><lb/>
+<pb facs="#f0019" n="[19]"/>
+<fw type="header" place="top">Chꝛiſtliche LeichPꝛedigt.</fw><lb/>
+<div n="3"><head><hi rendition="#b">Der dritte Theyl.</hi></head><lb/>
+<p><hi rendition="#in">W</hi>JE dann darauff im dritten Theyl/ eine<lb/>
+ſtarcke <hi rendition="#aq"><hi rendition="#i">Motiv,</hi></hi> vnd bewegliche Vrſache<lb/>
+folget/ die alle Menſchen treiben vnd vermoͤgen<lb/>
+ſol/ vor angehoͤrter Regul ſtatt vñ platz zugeben/<lb/>
+in dem der weiſe Koͤnig ſpricht: GOtt wird alle<lb/>
+Werck fuͤr Gericht bringen/ das verborgen iſt/<lb/>
+Es ſey gutt oder boͤſe. Alle vnd jede Wort/ ſind<lb/>
+Kraͤfftige vnd bedenckliche Wort/ Wer iſt der/<lb/>
+der alles wird fuͤr bringen? Es werdens nicht<lb/>
+Menſchen thun/ ſondern der Ewige Allmaͤchtige<lb/>
+GOtt wirds thun: Der alles ſiehet vnd weiß:<lb/>
+Der alles kan vnd vermag. Welches Allmacht<lb/>
+zu widerſtehen vnmuͤglich iſt. Was wird Er dañ<lb/>
+herfuͤr bringen? Der Menſchen Wercke/ nicht<lb/>
+nur etliche Wercke/ welche in Gott gethan ſein/<lb/>
+vnd jhme wolgefallen: ſondern auch die boͤſen/<lb/>
+vnd zwar dieſelben alle/ Nicht nur die/ ſo den<lb/>
+Menſchen bekandt vnd bewuſt ſein: ſondern auch<lb/>
+die verborgenen/ vnd werden gebracht werden/<lb/>
+Nicht fuͤr Menſchen Gericht/ ſondern fuͤr das<lb/>
+Gerichte des Ewigen Sohns Gottes. Der hie<lb/>
+auff dieſer Welt von den Gottloſen vnſchuldiger<lb/>
+weiſe Gerichtet vñ verdampt woꝛden: Dem hat<lb/>
+der Vater alles Gericht vbergeben. <hi rendition="#i"><hi rendition="#aq">Joh. 5. v.</hi> 27.</hi><lb/>
+<fw type="sig" place="bottom">C ij</fw><fw type="catch" place="bottom">weil</fw><lb/>
+<pb facs="#f0020" n="[20]"/>
+<fw type="header" place="top">Chꝛiſtliche LeichPꝛedigt.</fw><lb/>
+Weil Er des Menſchen ſohn iſt. Jſt eine ſtarcke<lb/>
+<hi rendition="#aq"><hi rendition="#i">Motiva,</hi></hi> die billich alle Menſchen bewegen ſoll/<lb/>
+Gott zu foͤrchten. Jn dieſer Welt ſind vñ bleiben<lb/>
+viel Sachen verborgen: Aber dort wird alles<lb/>
+offenbar werden/ wie Matth. am 10 Cap. ſtehet.<lb/>
+Es iſt nichts verboꝛgen/ das nicht offenbar werde/<lb/>
+vnd iſt nichts heimlich/ das man nit wiſſen werde.</p><lb/>
+<p>Mit den Worten <hi rendition="#aq"><hi rendition="#i">Salomonis</hi></hi> ſtimmet vberein/<lb/>
+der H. Apoſtel Paulns/ 1. Cor. am 4. vnd ſagt:<lb/>
+Der <hi rendition="#g"><hi rendition="#k">HErr</hi></hi> wird ans Liecht bringen/ was im<lb/>
+finſtern verborgen iſt/ vnd den Rath des Hertzen<lb/>
+offenbahren. Jeſai. am 66. ſtehet/ das Gott alle<lb/>
+Wercke vnnd Gedancken der Gottloſen ſamlen<lb/>
+werde. Matth. 12. Die Gottloſen werden am<lb/>
+Juͤngſten Tage muͤſſen Rechenſchafft geben/ fuͤr<lb/>
+ein jedes vnnuͤtzes Wort/ ſo auß jhrem Munde<lb/>
+gangen. Matth. 26. Alle Voͤlcker werden fuͤr<lb/>
+Chriſto des Menſchen Sohn verſamlet werden.<lb/>
+2. Corinth. 5. ſpricht S. Paulus: Wir muͤſſen<lb/>
+alle offenbar werden fuͤr dem Richterſtul Chꝛiſti/<lb/>
+auff das ein jeglicher empfahe/ nach dem er ge-<lb/>
+handelt hat/ bey Leibesleben/ Es ſey gut oder boͤſe.<lb/>
+Dieſe Betrachtung nun/ ſoll endlich zu einem<lb/>
+ſonderen Troſt dienen/ fromen vnd Gottſeligen<lb/>
+hertzen/ deren vnſchuldt entweder hie verborgen<lb/>
+<fw type="catch" place="bottom">bleibt/</fw><lb/>
+<pb facs="#f0021" n="[21]"/>
+<fw place="top" type="header">Chꝛiſtliche LeichPꝛedigt.</fw><lb/>
+bleibt/ oder jhre Herꝛligkeit/ die ſie als Kinder<lb/>
+Gottes im Glauben haben/ vnd aber noch nicht<lb/>
+an Tag kommen vnd Erſchienen/ oder welcher<lb/>
+Gutthaͤtigkeit vnd Trewe dienſte nicht erkandt<lb/>
+vnd vergolten werden.</p><lb/>
+<p>Alſo ſagt Johannes in der 1. Epiſtel am 3. Cap.<lb/>
+Meine Lieben/ Es iſt noch nicht Erſchienen/ was<lb/>
+wir ſein werden/ wir wiſſen aber/ wañ es erſchei-<lb/>
+nen wird/ das wir jhm gleich ſein werden/ dann<lb/>
+wir werden jhn ſehen/ wie Er iſt. Alſo ward die<lb/>
+Herꝛligkeit des lieben Lazari offenbar in der ſchoß<lb/>
+Abꝛahams/ das Er Gottes kindt ſey. Luc. am 16.<lb/>
+Deßgleichen ſtehet auch im Buͤchlein der Weiß-<lb/>
+heit/ Cap. 5. Als denn wird der Gerechte ſtehen<lb/>
+mit groſſer Frewdigkeit wider die/ ſo jhn geaͤng-<lb/>
+ſtet haben/ vnd ſo ſeine arbeit verworffen haben.<lb/>
+Wenn dieſelbigen denn ſolchs ſehen/ werden ſie<lb/>
+grauſam erſchꝛecken/ fuͤr ſolcher Seligkeit/ der ſie<lb/>
+ſich nicht verſehen hetten/ vnd werden vnterein-<lb/>
+ander reden mit rewe/ vnd fuͤr angſt des Geiſtes<lb/>
+ſeufftzen. Das iſt der/ welchen wir etwa fuͤr einen<lb/>
+Spott hatten/ vnnd fuͤr ein hoͤniſch Beyſpiel.<lb/>
+Wir Narꝛen hielten ſein Leben fuͤr Vnſinnig/<lb/>
+vnd ſein Ende fuͤr ein Schande/ wie iſt Er nun<lb/>
+gezehlet vnter die Kinder Gottes/ vnd ſein Erbe<lb/>
+<fw place="bottom" type="sig">C iij</fw><fw place="bottom" type="catch">iſt</fw><lb/>
+<pb facs="#f0022" n="[22]"/>
+<fw type="header" place="top">Chꝛiſtliche LeichPꝛedigt.</fw><lb/>
+iſt vnter den Heyligen? Matth. am 26. wird<lb/>
+Chꝛiſtus ruͤhmen võ den Glaͤubigen/ das ſie jhn/<lb/>
+in ſeinen Glaͤubigen/ geſpeiſſet vnd getraͤncket/<lb/>
+vnnd dergleichen gutthat bewieſen haben. Jm<lb/>
+Gegentheil werden die Gottloſen kommen ver-<lb/>
+zagt mit dem gewiſſen jhrer Suͤnden/ vnd jhre<lb/>
+eygene Suͤnden/ werden ſie vnteraugen ſchelten/<lb/>
+im Buͤchlein der Weißheit. Cap. 4. v. 20. Weil<lb/>
+wir dann alle arme Suͤnder ſein/ ſo laſſet vns<lb/>
+ſolches bey zeiten erkennen/ wahꝛe Rew vnd Leyd<lb/>
+vber vnſere Suͤnden tragen/ an Chriſtum glau-<lb/>
+ben/ beſtaͤndig in jhme verharꝛen/ vnd vnſer leben<lb/>
+beſſeren/ ſo wird vns die Zukunfft Chriſti zum<lb/>
+letzten Gericht nicht ſchꝛecklich/ ſondern gar troͤſt-<lb/>
+lich ſein/ das wir mit S. Johanne in ſeiner Offen-<lb/>
+bahrung am 22. Cap. ſagen: Ja kom <hi rendition="#g"><hi rendition="#k">HErr</hi></hi><lb/>
+JEſu/ vnd kom balde/ vns von allem vbel zu er-<lb/>
+loͤſen/ vnd in die Ewige Herꝛligkeit einzufuͤhren.</p><lb/>
+<p><hi rendition="#c"><hi rendition="#g">AMEN. AMEN.</hi></hi></p></div></div><lb/>
+<div type="fsPersonalia" n="2"><head/>  <p><hi rendition="#fr"><hi rendition="#in">W</hi>As nun zum Beſchluß betrifft vñ anlanget/</hi><lb/>
+Weyland/ Den Ehrenveſten vnnd Hochgelehrten<lb/>
+Herꝛn <hi rendition="#aq">Doctorem Adamũ Opalam</hi> ſeliger Gedaͤchtnuͤß/<lb/>
+deſſen Leichnam wir auff dißmal auß Chriſtlicher liebe vñ<lb/>
+Gewohnheit bißher zu ſeinem Ruhebettlein das Geleyte<lb/>
+gegeben: So wird von ſeiner Geburt vnd Ehrlichem her-<lb/>
+kommen in dem außgetheyleten <hi rendition="#aq"><hi rendition="#i">Programmate</hi></hi> nach noth-<lb/>
+<fw type="catch" place="bottom">turfft</fw><lb/>
+<pb facs="#f0023" n="[23]"/>
+<fw place="top" type="header">Chꝛiſtliches Ehꝛenzeugniß.</fw><lb/>
+turfft gemeldet/ darzu ich nichts zu thun habe: Der hat<lb/>
+ſich im Studiren ſo fleiſſig verhalten: Das Er nicht allein<lb/>
+<hi rendition="#i"><hi rendition="#g"><hi rendition="#k">Anno</hi></hi> 1617.</hi> Neben anderen ſeinen Herꝛen <hi rendition="#aq"><hi rendition="#i">Competitoribus</hi></hi><lb/>
+allhie zn Straßburg <hi rendition="#aq"><hi rendition="#i">gradum Magisterii:</hi></hi> ſondern auch im<lb/>
+vergangenen Jahr zu Baſel <hi rendition="#aq"><hi rendition="#i">gradum Doctoratus in Medica<lb/>
+facultate</hi></hi> mit ruhm erlanget. Seiner Gottesfurcht<lb/>
+halben/ hat Er von den Herꝛen Predigern im Muͤnſter<lb/>
+(zu welcher Kirchen Er ſich gehalten) ein guttes Zeugniß:<lb/>
+Vnd hat in ſeinem Leben vnd Wandel niemandt Erger-<lb/>
+niß geben.</p><lb/>
+<p><hi rendition="#fr"><hi rendition="#b">Als Er nun fuͤrhabens war/ ſich nach Hauß</hi></hi><lb/>
+zu begeben/ vnd ſeine liebe Eltern zu beſuchen/ vnd zu er-<lb/>
+frewen: Siehe/ da thut der allein weiſe GOtt einen ein-<lb/>
+grieff/ leget jhn nieder in die Hitzige/ vnd bey vns faſt ge-<lb/>
+wonliche Hauptkranckheit/ die jhm hart zu geſetzet: Weil<lb/>
+Er nun ſein Loſament vnd Herberge in vnſerer Pfarꝛe zu<lb/>
+S. Wilhelm hatte/ Bin ich Donnerſtags den 28. Martij<lb/>
+zu jhme beruffen worden: Da Ich jhn dann inn ſeinem<lb/>
+Haupt alſo beſchweret gefunden/ das Ich jhn nur einfaͤltig<lb/>
+auß den Zehen geboten zu Erkandtnuͤß ſeiner Suͤnden ge-<lb/>
+bracht/ vnd im Chriſtlichen Glauben ſchlecht vñ bloß auff<lb/>
+Chriſtum gewieſen: Habe mit jhme gebettet den 51 Pſal.<lb/>
+Davids: Item/ die ſchoͤne Gefaͤnge vnnd Gebettlein:</p><lb/>
+<cit><quote><hi rendition="#et">GOTT der Vatter wohn vns bey/ ꝛc.</hi></quote><bibl/></cit><lb/>
+<cit><quote><hi rendition="#et">ICh Ruff zu dir <hi rendition="#g"><hi rendition="#k">HErr</hi></hi> JEſu Chriſt/ ꝛc.</hi></quote><bibl/></cit><lb/>
+<cit><quote><hi rendition="#et"><hi rendition="#g"><hi rendition="#k">HErr</hi></hi> JEſu Chriſt wahr Menſch vnd Gott/ ꝛc.</hi></quote><bibl/></cit><lb/>
+<p>Vnd dergleichen: Hat Er gar fleiſſig mit gebettet/ vnd ſich<lb/>
+dem lieben GOtt hertzlich befohlen/ biß jhn endlich ſein<lb/>
+Trewen Gott vnd Vatter Sambſtags den 30. Martij/<lb/>
+Morgens vmb die 7. Vhr ſeliglich abgefodert vnd zu ſich<lb/>
+genommen:</p><lb/>
+<fw place="bottom" type="catch">Nach</fw><lb/>
+<pb facs="#f0024" n="[24]"/>
+<p><fw type="header" place="top">Chꝛiſtliches Ehꝛenzeugniß.</fw><lb/>
+Nach dem Er die vorige Nacht bey gutem Verſtande den<lb/>
+lieben GOTT hertzlich angeruffen. Welchem dann der<lb/>
+Trewe GOtt am Groſſen Tag des Gerichts ein froͤliche<lb/>
+Aufferſtehung verleyhen: Seine Liebe Betruͤbte Eltern<lb/>
+Vaͤtterlich troͤſten/ vnd einem jeden vnter vns zu ſeiner<lb/>
+<hi rendition="#c">Zeit auch ein Seliges Ende/ durch JEſum ſeinen<lb/>
+lieben Sohn auß Gnaden verleyhen wolle.</hi></p><lb/>
+<p><hi rendition="#c"><hi rendition="#g">AMEN. AMEN.</hi></hi></p></div></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+</body></text>  </TEI>

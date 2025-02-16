@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Lebens-Beschreibung Herrn Wolffgang Eulenbecks</title>
+<author>
+<persName ref="http://d-nb.info/gnd/10416106X">
+<surname>Schöttgen</surname>
+<forename>Christian</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">12</measure>
+<measure type="tokens">2896</measure>
+<measure type="types">1322</measure>
+<measure type="characters">20525</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:10:00Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/386597</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/386597</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/386597</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/386597</idno>
+<idno type="DTADirName">386597</idno>
+<idno type="DTAID">200284</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-200284-7</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Schöttgen, Christian: Lebens-Beschreibung Herrn Wolffgang Eulenbecks. Dresden, 1740.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Lebens-Beschreibung Herrn Wolffgang Eulenbecks</title>
+<author>
+<persName ref="http://d-nb.info/gnd/10416106X">
+<surname>Schöttgen</surname>
+<forename>Christian</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">12</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Johann Wilhelm Harpeter</name></publisher>
+<pubPlace>Dresden</pubPlace>
+<date type="publication">1740</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 F 1661/16 / 386597</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<pb facs="#f0001"/>
+<front><titlePage type="main"> <docTitle> <titlePart type="main"><hi rendition="#in">L</hi>ebens-<hi rendition="#in">B</hi>eſchreibung<lb/>
+<hi rendition="#b"><hi rendition="#in">H</hi>errn <hi rendition="#in">W</hi>olffgang<lb/>
+<hi rendition="#in">E</hi>ulenbecks,</hi></titlePart><lb/>
+<titlePart type="sub">Der Rechten Doctoris, und Chur-Saͤch-<lb/>
+ſiſchen wohlverdienten Hof-Raths.</titlePart><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<titlePart type="desc">Zugleich werden<lb/>
+<hi rendition="#b"><hi rendition="#in">A</hi>lle hohe <hi rendition="#in">G</hi>oͤnner, <hi rendition="#in">P</hi>atronen<lb/>
+und <hi rendition="#in">F</hi>reunde,</hi><lb/>
+Den 29. April 1740.<lb/>
+Jn der Schule zum heiligen Creutz<lb/>
+<hi rendition="#b"><hi rendition="#in">E</hi>inige <hi rendition="#in">A</hi>bſchieds-<hi rendition="#in">R</hi>eden</hi><lb/>
+geneigt anzuhoͤren,<lb/>
+gehorſamſt erſucht,<lb/>
+von<lb/>
+<hi rendition="#b"><hi rendition="#in">C</hi>hriſtian <hi rendition="#in">S</hi>choͤttgen,</hi><lb/>
+Rector.</titlePart></docTitle><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docImprint><pubPlace><hi rendition="#fr">Dreßden</hi></pubPlace><hi rendition="#fr">,</hi> gedruckt bey <publisher>Johann Wilhelm Harpetern</publisher>.</docImprint><lb/>
+</titlePage></front><body>
+<pb facs="#f0002"/>
+<pb facs="#f0003"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsPersonalia" n="1"><head><hi rendition="#b">Leben D. Wolffgang Eulenbecks, Churfuͤrſtl.</hi><lb/>
+Saͤchßiſchen Raths.</head><lb/>
+<div n="2"><head>§. 1.</head><lb/>
+<p><hi rendition="#in">D</hi>Jeſer Mann iſt wehrt, daß man ſeiner gedencket. Er hat ſich<lb/>
+um ſeinen Herrn, um Land und Leute, um Kirchen und Schu-<lb/>
+len ſo verdient gemacht, daß es der hoͤchſten Billigkeit gemaͤß,<lb/>
+ihm ein ruͤhmliches Ehren-Gedaͤchtniß zu ſtifften. Aber wo-<lb/>
+her nehmen? Es iſt ihm eine Leichen-Predigt gehalten von<lb/>
+dem damahligen Stadt-Prediger M. Balthaſar Meißnern, die<lb/>
+iſt auch im Druck vorhanden, aber die hiſtoriſche Nachrichten ſind mehr<lb/>
+nicht, als folgende: Er iſt alt geworden 66. Jahr, 1. Monden und 7. Tage.<lb/>
+Verheirathet hat er ſich mit Frau Urſula, Herrn George von Sode, beyder<lb/>
+Rechten Doctors zu Leipzig, Tochter, und mit ihr 29. Jahr gelebet. Der<lb/>
+Sohn iſt ploͤtzlich dahin gegangen, die Tochter lebet noch. Er hat dem<lb/>
+Hauſe Sachſen 31. Jahr gedienet, und viel hohe Verrichtungen uͤbernom-<lb/>
+men. Bey erfolgtem Alter und Kranckheit hat er ſein Glaubens-Be-<lb/>
+kenntniß abgelegt, iſt er den 31. Dec. 1596. geſtorben, und den 4. Jan. 1597.<lb/>
+in die Creutz-Kirche begraben worden. Das iſt nun blutwenig zu einer<lb/>
+tuͤchtigen Lebens-Beſchreibung. Jch habe alſo andere Nachrichten zuſam-<lb/>
+men ſtoppeln und auftreiben muͤſſen. Jnsbeſondere aber iſt mir ein alter<lb/>
+Zettel in die Haͤnde gekommen, auf welchem ſeine Reiſen und Commißio-<lb/>
+nen aufgezeichnet waren, mit demſelben habe die Scribenten conferiret, und<lb/>
+die Sachen richtig befunden, obgleich unſers D. Eulenbecks Nahme nicht<lb/>
+allezeit gemeldet worden. Wo ich aber den Nahmen finde, da habe ich<lb/>
+bey der angefuͤhrten Ziffer ein Sterngen geſetzt.</p></div><lb/>
+<fw place="bottom" type="sig">A 2</fw><fw place="bottom" type="catch">§. 2.</fw><lb/>
+<pb facs="#f0004" n="4"/>
+<fw place="top" type="header">Leben D. Wolffgang Eulenbecks,</fw><lb/>
+<div n="2"><head>§. 2.</head><lb/>
+<p>Es iſt alſo unſer D. Eulenbeck ohngefehr ums Jahr Chriſti 1530. ge-<lb/>
+bohren, wie aus der Leichen-Predigt zu ſchlieſſen. Daß er aus Barby<lb/>
+buͤrtig geweſen, iſt aus ſeinem Vermaͤchtniß zu ſehen, davon unten vor-<lb/>
+kommen wird. Seiner Eltern Nahmen lehret uns ſeines Bruders, D. Da-<lb/>
+niel Eulenbecks, Prof. Juris zu Jena, Lebens-Lauff. Der Vater, Pe-<lb/>
+trus Eulenbeck, Erbherr auf Barby, war derer Grafen zu Barby Cantz-<lb/>
+ler. Deſſen Wapen Keyſer Maximilian <hi rendition="#aq">I.</hi> erneuert und vermehret, auch<lb/>
+denen Nachkommen beyderley Geſchlechts zu gebrauchen verſtattet hat. Jn<lb/>
+der Rectorat-Matricul zu Jena ſtehet es alſo abgemahlet. Jm Schilde<lb/>
+ſtehet eine gecroͤnte Eule, auf dem offenen und gecroͤnten Helme aber zwee-<lb/>
+ne Fluͤgel blauer und gelber Farbe. <hi rendition="#aq"><note place="foot" n="(a)"><hi rendition="#aq">Zeumeri Vitæ Profeſſorum Juris Jenenſium p.</hi> 51. 52.</note></hi> Jn unſerer Schul-Bibliothec<lb/>
+wird das Wapen auf einigen Buͤchern mit Gold au<hi rendition="#aq">f</hi>gedruckt gefunden,<lb/>
+welches ſo ausſiehet: Der Schild iſt ausgeſchnitten, ſchraͤg ins gevierdte<lb/>
+getheilet, in deſſen oberſten Felde eine ſtehende gecroͤnte Eule mit ausge-<lb/>
+ſpannten Fluͤgeln: Die beyden Seiten-Felder ſind getheilet, ſo, daß die<lb/>
+oberſte Seite, nach der heutigen Herolds-Kunſt zu reden, blau, die un-<lb/>
+terſte Gold-farbig: in dem unterſten drey geſchobene weiſſe Schachſteine in<lb/>
+blauen Felde. Auf dem gecroͤnten Helme ſind zweene Fluͤgel, auf deren<lb/>
+ieden die drey gedachten Schachſteine. Die dabey ſtehenden Worte ſind:<lb/>
+<hi rendition="#aq">EX LEGATO D. D. GVOLGANGI EVLENBECCII AD BIBLIOTHE-<lb/>
+CAM DRESDENSEM.</hi></p></div><lb/>
+<div n="2"><head>§. 3.</head><lb/>
+<p>Von wem er in ſeiner Jugend informiret worden, und welche Uni-<lb/>
+verſitaͤten er bezogen, kan ich nicht ſagen. Sein Bruder hat die Doctor-<lb/>
+Wuͤrde zu Siena geholet, und ihn hat ſein Vater auch nach Jtalien ge-<lb/>
+ſchickt. <hi rendition="#aq"><note place="foot" n="(b)"><hi rendition="#aq">Seb. Schefferus in Ecloga nuptiali p. 6.<lb/>
+<hi rendition="#et"><hi rendition="#i">Auſonias etiam tendit peregrinus in oras,<lb/>
+Vt videat mores hominum. cognoſcat &amp; urbes,<lb/>
+Qvas Aponus, Tibris, qvas praterlabitur Arnus,<lb/>
+Clara vel Eridani qvas lympha binominis ambit.</hi></hi></hi></note></hi> A. 1564. oder 65. iſt er von Churf. Auguſto als Rath in<lb/>
+Dienſte genommen worden, wie aus der Leich-Predigt zu ſchlieſſen.<lb/>
+A. 1567. den 29. April. hat er ſich in Leipzig verehliget mit Frau Urſula,<lb/>
+<fw place="bottom" type="catch">Mar-</fw><lb/>
+<pb facs="#f0005" n="5"/>
+<fw place="top" type="header">Churfl. Saͤchß. Raths.</fw><lb/>
+Marci Antonii Lindemanns, Baumeiſters daſelbſt Witwe. <note place="foot" n="(c)">Sein Nahme ſtehet in Heidenreichs Leipziger Chronic, und zwar im Verzeich-<lb/>
+niß derer Raths-Perſonen, daß er <hi rendition="#aq">a.</hi> 1549. Raths-Herr, und <hi rendition="#aq">a.</hi> 1552. Bau-<lb/>
+meiſter geworden.</note> Jhre El-<lb/>
+tern aber waren Herr George von Sode, beyder Rechten Doctor, und<lb/>
+Frau Urſula, des beruͤhmten Medici D. Heinrich Stromers von Auerbach,<lb/>
+Tochter. <note place="foot" n="(d)">DJeſe und einige andere Nachrichten habe aus <hi rendition="#aq">Sebaſtiani Schefferi, Aldenbergen-</hi><lb/>
+<hi rendition="#et"><hi rendition="#aq">ſis, Ecloga,</hi> welche auf dieſe Hochzeit verfertiget, und zu Leipzig 1567. 8. auf<lb/>
+einen Bogen gedruckt: Hernach in deſſen <hi rendition="#aq">Poëmatibus, Francof. 1572. 8. p.</hi> 218.</hi></note> Mit derſelben hat er einen Sohn und eine Tochter gezeuget.<lb/>
+Der Sohn, Daniel Eulenbeck, ſtudierte zu Leipzig, hatte aber daſelbſt das Un-<lb/>
+gluͤck, daß er 1587 auf Chriſtoph Sigismund von Bila Hochzeit, als er um<lb/>
+eilff Uhr nach Hauſe gehen wollen, die Treppe ruͤckwarts herunter geſchla-<lb/>
+gen, daß er Sprach-loß gelegen. Folgenden Tages den 26. Octobr. iſt er<lb/>
+geſtorben, und in die Paulliner Kirche begraben worden. <note place="foot" n="(e)">Vogels Leipziger <hi rendition="#aq">Annales p. 253. Stepneri Inſcript. Lipſ. p.</hi> 12.</note> Es iſt auch<lb/>
+die von D. Selneckern ihm gehaltene Leichen-Predigt in Druck vorhan-<lb/>
+den. Die Tochter, Catharina, iſt an D. Sigmund Roͤlingen, auf Wil-<lb/>
+berg, Chur-Saͤchſiſchen Rath, verheirathet, und A. 1600. den 9. Martii<lb/>
+im 29. Jahr ihres Alters erſtorben. <note place="foot" n="(f)"><hi rendition="#aq">Michaëlis Inſcript.</hi> der Dreßdner Frauen-Kirche <hi rendition="#aq">p.</hi> 15.</note></p></div><lb/>
+<div n="2"><head>§. 4.</head><lb/>
+<p>Nachdem er als Hof-Rath in Saͤchſiſche Dienſte getreten, iſt er,<lb/>
+nebſt ſeinen ordentlichen Verrichtungen, auch viel in Verſchickungen ge-<lb/>
+braucht worden. A. 1570. iſt er bey Confirmation derer Privilegien der<lb/>
+Stadt Reichenbach zugegen geweſen. <note place="foot" n="(g)">Obiſcher Beſchr. von Reichenbach <hi rendition="#aq">p.</hi> 24.</note> A. 1572. iſt er nach Erfurt ab-<lb/>
+geſchickt, und daſelbſt den 29. May angekommen, woſelbſt mit denen Wei-<lb/>
+mariſchen Raͤthen, wegen Rectificirung derer Aemter, auch einiger Schuld-<lb/>
+und Schadens-Forderung gehandelt worden. Die Sache betraff eigent-<lb/>
+lich die Theilung derer Erneſtiniſchen Lande unter H. Johann Wilhelm,<lb/>
+und des gefangenen Herz. Joh. Friedrichs Soͤhne, Joh. Caſimir und Joh.<lb/>
+Ernſten, wobey auch Keyſerliche Subdelegirte und andere Raͤthe geweſen,<lb/>
+und iſt der Theilungs-Receß den 6. Nov. beſagten Jahres zu Stande ge-<lb/>
+kommen. <note place="foot" n="(h)">Muͤllers <hi rendition="#aq">Annal. Saxon. p. 161. Rudolphi Gotha diplomatica I.</hi> 8. 29. Hoͤnn Coburg.<lb/>
+<hi rendition="#et">Hiſt. <hi rendition="#aq">l. 6. p.</hi> 37.</hi></note> Das Jahr darauf iſt er in der Faſten-Zeit zu Wien ge-<lb/>
+weſen, und hat bey dem Keyſer eine gewiſſe Werbung angebracht. Die<lb/>
+<fw place="bottom" type="sig">A 3</fw><fw place="bottom" type="catch">Wei-</fw><lb/>
+<pb facs="#f0006" n="6"/>
+<fw place="top" type="header">Leben D. Wolffgang Eulenbecks,</fw><lb/>
+Weimariſchen Raͤthe Heinrich von Erffa, D. Joh. Roßbeck und der Se-<lb/>
+cretar Schnepf ſind auch daſelbſt geweſen, wie unſer Eulenbeck ſchreibet,<lb/>
+und haben das ihre practiciret. Dieſes trifft auch mit der Hiſtorie zu, in-<lb/>
+dem H. Joh. Wilhelm es ſo weit gebracht, daß er mit denen ihm zugefal-<lb/>
+lenen Landen, auch der Primogenitur und andern darzu gehoͤrigen Vorrech-<lb/>
+ten den 26. Febr. beliehen worden. <note corresp="#fnk" place="foot" n="(i)"/></p></div><lb/>
+<div n="2"><head>§. 5.</head><lb/>
+<p>Den 9. Martii beſagten 1573. Jahres iſt er von Dreßden aus nach<lb/>
+Erfurt gereiſet, von dar er den 23. nach Weimar aufgebrochen, und den<lb/>
+16. April wieder in Dreßden angekommen. Solches geſchach, weil ſich<lb/>
+Churf. Auguſtus nach Herzog Joh. Wilhelms zu Weimar Tode der Wei-<lb/>
+mariſchen und Coburgiſchen Vormundſchafft, als nechſter Agnat, unter-<lb/>
+zogen. <note xml:id="fnk" place="foot" n="(k)">Muͤller <hi rendition="#aq">I. c. p.</hi> 163.</note> Wie er denn in eben dergleichen Angelegenheit auf Trinitatis<lb/>
+einen Tag zu Coburg bereiſen muͤſſen. Gegen das Ende dieſes Jahres hat<lb/>
+er an Stein-Schmertzen kranck gelegen. A. 1574. iſt er den 11. Jan.<lb/>
+nach Prag verreiſet. Was aber daſelbſt ſeine Verrichtung geweſen, iſt<lb/>
+mir zur Zeit unbewuſt.</p></div><lb/>
+<div n="2"><head>§. 6.</head><lb/>
+<p>A. 1575. iſt er, nebſt andern Chur-Saͤchſiſchen Raͤthen, zu Prag ge-<lb/>
+weſen, und hat vor Churf. Auguſto in Vormundſchafft Herzog Joh. Wil-<lb/>
+helms nachgelaſſener Soͤhne, ingleichen wegen Coburg, die Lehen uͤber<lb/>
+ihre Fuͤrſtenthum und Lande geſucht und erhalten. Jſt geſchehen den<lb/>
+11. Julii. <note place="foot" n="(l)">Muͤller <hi rendition="#aq">l. c. p.</hi> 169. * allwo er unrecht <hi rendition="#fr">von Eulenbeck</hi> geſchrieben wird.</note> Den 10. Nov. dieſes Jahrs halff er, nebſt andern Chur-<lb/>
+Pfaͤltziſchen, Saͤchſiſchen, und Brandenburgiſchen Raͤthen, die Sachſen-<lb/>
+Weimariſche und Coburgiſche Ritter-Dienſte aus einander ſetzen: auch<lb/>
+wurden den 12. dieſes verſchiedene Jrrungen in einem andern Receß ver-<lb/>
+glichen. <note place="foot" n="(m)">Hoͤnn Cohurg. Hiſt. <hi rendition="#aq">II. p.</hi> 199. 200. Muͤller <hi rendition="#aq">I. c. p.</hi> 168. *</note> Herr Muͤller ſetzt dieſes letztere in das vorige Jahr, allein<lb/>
+Herrn Hoͤnns Zeugniß, welches mit dem Eulenbeckiſchen Aufſatze gleich-<lb/>
+ſtimmig iſt, zeigen ſeinen Fehler, der vielleicht mehr ſeinem Copiſten, als<lb/>
+ihm ſelbſt, zuzuſchreiben.</p></div><lb/>
+<fw place="bottom" type="catch">§. 7.</fw><lb/>
+<pb facs="#f0007" n="7"/>
+<fw place="top" type="header">Churfl. Saͤchß. Raths.</fw><lb/>
+<div n="2"><head>§. 7.</head><lb/>
+<p>A. 1576. war er ein Churfuͤrſtl. Abgeſandter auf dem Reichstage zu<lb/>
+Regenſpurg geweſen, und ſtehet ſein Nahme in dem daſelbſt den 12. Oct.<lb/>
+errichteten und publicirten Reichs-Abſchiede mit unterſchrieben. Den 14.<lb/>
+Oct. iſt er von Regenſpurg abgereiſet, und den 20. zu Dreßden angekom-<lb/>
+men. Jm November und December iſt er zu Coburg geweſen, woſelbſt<lb/>
+abermahl einige ſtreitige Puncte wegen der Bergwercke, Muͤntze, Hofge-<lb/>
+richt, u. d. g. in einem Receſſe vertragen worden. <note place="foot" n="(n)">Hoͤnn <hi rendition="#aq">I. c. p.</hi> 200. Muͤller <hi rendition="#aq">p.</hi> 172. *</note> Hier hat Herr<lb/>
+Muͤller das Jahr richtig angegeben, und trifft mit dem Eulenbeckiſchen Auf-<lb/>
+ſatze zu, Herr Hoͤnn hingegen ſetzt das vorige Jahr. A. 1557. den 19.<lb/>
+Martii iſt er an einen Biſchoff abgefertiget worden, vermuthlich nach<lb/>
+Wuͤrtzburg, davon mir weiter nichts bekannt.</p></div><lb/>
+<div n="2"><head>§. 8.</head><lb/>
+<p>A. 1578. war er nebſt andern Abgeſandten zu Prag, und hat von<lb/>
+Keyſer Rudolpho den 8. Nov. die Lehen vor ſeinen Churfuͤrſten, den 10. aber<lb/>
+vor Weimar und Coburg geſucht und erhalten. <note place="foot" n="(o)">Muͤller <hi rendition="#aq">p.</hi> 174. *</note> Als nach Abgang<lb/>
+Keyſer Maximilian <hi rendition="#aq">II.</hi> A. 1579. die Boͤhmiſche Erbeinigung zwiſchen Key-<lb/>
+ſer Rudolphen <hi rendition="#aq">II.</hi> und Churf. Auguſten zu Sachſen erneuret ward, iſt nebſt<lb/>
+andern auch unſer D. Eulenbeck, zu Goſigk, nach Prag abgefertiget wor-<lb/>
+den, um dieſe Sache zu Stande zu bringen. <note place="foot" n="(p)"><hi rendition="#aq">Dipl.</hi> in Joh. Joach. Muͤllers Reichstags-<hi rendition="#aq">Theatro</hi> unter <hi rendition="#aq">Maximilian. I.</hi> 4. Vor-<lb/>
+<hi rendition="#et">ſtell. <hi rendition="#aq">c. 24. p.</hi> 311. * Luͤnigs R. A. <hi rendition="#aq">part. ſpec.</hi> von Sachſen <hi rendition="#aq">p. 102. * du Mont<lb/>
+Corps diplomatique du Droit des Gens tom. V. part. I. p.</hi> 342. *</hi></note> Hierauf beſuchte er ei-<lb/>
+nen Muͤntz-Probation-Tag, welcher den 18. May. zu Leipzig gehalten<lb/>
+ward. <note corresp="#fnr" place="foot" n="(q)"/> Jm Monat Auguſt 1580. iſt er wieder zu Coburg geweſen,<lb/>
+zu Ausgang des Septembris aber nach Boͤhmen verruͤckt. So hat er<lb/>
+auch die folgende Neu-Jahr-Meſſe zu Leipzig beſucht. Den folgenden 31.<lb/>
+Auguſti hat er abermahls zu Coburg einige zwiſchen Sachſen-Weimar<lb/>
+und Coburg ſtreitige Puncte abthun helffen. <note xml:id="fnr" place="foot" n="(r)">Joh. Seb. Muͤllers <hi rendition="#aq">Annal. Saxon. p.</hi> 175. * 177. *</note> Den letzten September<lb/>
+dieſes Jahres hat er nebſt ſeinen uͤbrigen Collegen eine anderweitige und<lb/>
+neue Beſtallung bekommen, wie es denn damahls gebraͤuchlich war, daß<lb/>
+die Raͤthe und Bediente nur auf einige Zeit angenommen wurden. <note place="foot" n="(s)">Sie ſtehet in Horns Hand-Bibliothec <hi rendition="#aq">VIII. p.</hi> 893.</note></p></div><lb/>
+<fw place="bottom" type="catch">§. 9.</fw><lb/>
+<pb facs="#f0008" n="8"/>
+<fw place="top" type="header">Leben D. Wolffgang Eulenbecks,</fw><lb/>
+<div n="2"><head>§. 9.</head><lb/>
+<p>A. 1582. iſt er mit dem Churfuͤrſten auf dem Reichs-Tage zu Aug-<lb/>
+ſpurg geweſen. Seinen Nahmen aber darff man in der Unterſchrifft nicht<lb/>
+ſuchen, weil der Churfuͤrſt ſelbſt unterſchrieben. Jm Auguſt A. 1585. ſtehet<lb/>
+auch etwas von einer Magdeburgiſchen Reiſe. Was aber dieſelbige auf ſich<lb/>
+gehabt, iſt unbekannt. A. 1586. als nach Churfuͤrſt Auguſtens Abſterben<lb/>
+Churfuͤrſt Chriſtian <hi rendition="#aq">I.</hi> die Boͤhmiſche Lehen geſucht, iſt er mit dahin abge-<lb/>
+fertiget worden. Der ausgefertigte Lehn-Brief iſt den 31. Oct. datiret. <note place="foot" n="(t)">Muͤllers <hi rendition="#aq">Annales p. 194. * Dipl.</hi> in Joh. Joachim Muͤllers Reichstags-<hi rendition="#aq">Theatro</hi><lb/>
+<hi rendition="#et"><hi rendition="#aq">I. c p.</hi> 329. *</hi></note><lb/>
+Den 18. Nov. wird er bey Ausfertigung derer Zwickauiſchen Privilegien<lb/>
+als Zeuge angefuͤhret. <note place="foot" n="(u)">Muͤllers <hi rendition="#aq">Annal. I. c.</hi> *</note> A. 1587. iſt er abermahl nach Prag gereiſet,<lb/>
+um die Boͤhmiſche Erbeinigung zwiſchen Keyſer Rudolphen <hi rendition="#aq">II.</hi> und gedach-<lb/>
+ten ſeinem Herrn zu erneuern. <note place="foot" n="(x)"><hi rendition="#aq">Dipl. apud</hi> Joh. Joach. Muͤller <hi rendition="#aq">I. c.</hi> *</note> A. 1587. den 9. Dec. hat er zu Co-<lb/>
+burg, nebſt verſchiedenen andern Raͤthen, allerhand ſtreitige Puncte abge-<lb/>
+than. <note place="foot" n="(y)">Hoͤnn <hi rendition="#aq">I. c. p.</hi> <gap reason="illegible" unit="chars" quantity="1"/>1. * Muͤller <hi rendition="#aq">p.</hi> 200.</note> Nachdem Churfuͤrſt Chriſtian <hi rendition="#aq">I.</hi> geſtorben, hat auch deſſen<lb/>
+Frau Witwe ſich ſeines Raths bedienet, wie er denn auf dem Titul der<lb/>
+gedruckten Leichen-Predigt Churf. Saͤchſiſcher, wie auch der Churfuͤrſtl.<lb/>
+Frau Witwen vornehmer und geheimer Rath genennet wird.</p></div><lb/>
+<div n="2"><head>§. 10.</head><lb/>
+<p>Jn denen Crypto-Calvinianiſchen Haͤndeln wird ſeiner gar nicht ge-<lb/>
+dacht, woraus zu ſchlieſſen, daß er ſich, als ein ehrlicher Lutheraner und<lb/>
+Patriot ſtill und unverweißlich aufgefuͤhret. A. 1591. im Monat No-<lb/>
+vember ward ihm Alters halber vergoͤnnet, daß er an die beſtimmten Stun-<lb/>
+den und Zeiten taͤglich nicht mehr gebunden ſeyn ſolte. Es wurden ihm<lb/>
+auch des Jahrs ſechs Wochen zu Beſuchung ſeiner Guͤter und Haußhal-<lb/>
+tung verwilliget. Worinn ſeine Guͤter beſtanden, weiß ich nicht zu ſa-<lb/>
+gen, finde aber vielmahl, daß bey ſeinem Nahmen ſtehe, <hi rendition="#fr">auf Goßig,</hi> und<lb/>
+<hi rendition="#fr">zu Goßig,</hi> welches mit dem Goßig oder Goſeck bey Naumburg, welches<lb/>
+D. Peifern zugehoͤret, wohl nicht zu vermengen. Denn bey der nur ge-<lb/>
+dachten Confirmation derer Zwickauiſchen Privilegien haben ſich unter-<lb/>
+ſchrieben David Peifer <hi rendition="#fr">zu Goſig,</hi> und Wolffgang Eulenbeck, <hi rendition="#fr">zu Goſig.</hi><lb/>
+Es muͤſte denn ſeyn, daß Goſeck damahls getheilet geweſen. Wenn aber<lb/>
+<fw place="bottom" type="catch">unſers</fw><lb/>
+<pb facs="#f0009" n="9"/>
+<fw place="top" type="header">Churfl. Saͤchß. Raths.</fw><lb/>
+unſers Eulenbecks Goßig von jenem unterſchieden iſt, ſo weiß ich deſſen La-<lb/>
+ge zur Zeit nicht anzugeben.</p></div><lb/>
+<div n="2"><head>§. 11.</head><lb/>
+<p>Jch habe oben geſagt, daß unſer D. Eulenbeck in die hieſige Creutz-<lb/>
+Kirche begraben worden, muß alſo nun deſſen Grabſteine und Epitaphium,<lb/>
+welche in der Sacriſtey befindlich, auch gedencken. Die Grabſteine haben<lb/>
+zum Haͤupten beyderſeits meßingene Taffeln, und in der Mitten rundte<lb/>
+meßingene Wapen, nehmlich das Eulenbeckiſche und Sodiſche. Die<lb/>
+Aufſchrifften darauf ſind folgende: <hi rendition="#aq">I. Magnifici &amp; Clariſſimi Viri D. Wolf-<lb/>
+gangi Eulenbecii I. V. D. &amp; Illuſtriſſ. Saxoniæ Electorum D. Auguſti, &amp; D.<lb/>
+Chriſtiani F. R. nec non D. Friderici Wilhelmi, Electoratus Adminiſtra-<lb/>
+toris, &amp; D. Sophiæ Electoriſſæ viduæ, Conſiliarii intimi, de Eccleſia &amp;<lb/>
+Republica præclare meriti, exuviæ ſub hoc monumento requieſcunt,<lb/>
+lætam in die noviſſimo reſurrectionem, &amp; animæ in Deo viventis æter-<lb/>
+num conſortium præſtolantes. Pie obiit ultimo Decembris, Anno Chriſti<lb/>
+M. D. XCVI. ætatis LXVI. II. Honeſtiſſima &amp; ſpectatæ pietatis Matro-<lb/>
+na, Domina Vrſula a Sode, Magnifici &amp; Clariſſimi Viri, D. Wolfgangi Eu-<lb/>
+lenbecii, I. V. D. &amp; Conſiliarii Electoralis Saxonici meritiſſimi, quondam<lb/>
+Conjux fideliſſima, poſt vidua mœſtiſſima, abſoluto fugacis vitæ ſtadio,<lb/>
+immortalem ſui partem Chriſto Redemtori, mortalem terræ reddidit, ſub<lb/>
+hoc monumento uſque ad diem glorioſum in pace requieſcens. Pie<lb/>
+obiit XV. Jun. Anno Chr. M. D. XCVIII. æta. LVI.</hi></p></div><lb/>
+<div n="2"><head>§. 12.</head><lb/>
+<p>Das Epitaphium iſt von Marmor, und ſtehet in der Mitten der ge-<lb/>
+creutzigte Heiland, vor welchem auf der einem Seite Vater und Mutter,<lb/>
+auf der andern aber Sohn, Tochter und Schwieger-Sohn knien. Die<lb/>
+Schrifft uͤber dem Crucifix iſt folgende: <hi rendition="#aq">Magnifico &amp; Clariſſimo Viro,<lb/>
+Domino Wolfgango Eulenbecio, I. V. D. &amp; per XXX. annos Electora-<lb/>
+tus Saxonici Conſiliario intimo ac meritiſſimo, qui rebus in officio ſuo<lb/>
+præclare geſtis pie in Chriſto obiit XXXI. Decembris, anno ſalutis<lb/>
+M. D. XCVI. ætatis LXVI. Honeſtiſſimæ matronæ D. Vrſulæ a Sode,<lb/>
+Conjugi D. Doctoris Wolfgangi Eulenbecii, quæ cum per XXX. annos<lb/>
+marito ſuo fidem conjugalem probaſſet, placide obdormivit XII. Jun.</hi><lb/>
+<note place="foot" n="(z)">Auf dem Grabſteine ſtehet den 15. <hi rendition="#aq">Jun.</hi> und alſo ſiehet man, daß auch ſolche<lb/>
+<hi rendition="#et">Monumente nicht allezeit ohne Fehler ſind.</hi></note> <hi rendition="#aq">anno ſalutis M. D. XCVIII. ætatis LVI.</hi></p><lb/>
+<fw place="bottom" type="sig">B</fw><fw place="bottom" type="catch">Unter</fw><lb/>
+<pb facs="#f0010" n="10"/>
+<fw place="top" type="header">Leben D. Wolffgang Eulenbecks,</fw><lb/>
+<p>Unter demſelben: <hi rendition="#aq">Pientiſſimæ fœminæ D. Catharinæ Eulenbeciæ,<lb/>
+conjugi D. Sigismundi Rolingii, I. V. D. &amp; Conſiliarii Electoratus Sax. quæ<lb/>
+poſtquam per XI. fere annos cum marito in matrimonio jucundo &amp; pa-<lb/>
+cifico vixiſſet, animam Chriſto Redemtori reddidit, IX. Martii, Anno ſalu-<lb/>
+tis M. DC. ætatis XXIX.</hi></p><lb/>
+<p><hi rendition="#aq">Socero, ſocrui &amp; conjugi deſideratiſſimis, gener &amp; maritus ſuperſtes<lb/>
+hoc obſervantiæ &amp; amoris nunquam morituri monumentum F. F.</hi></p></div><lb/>
+<div n="2"><head>§. 13.</head><lb/>
+<p>Auf ſeinem Sterbe-Bette hat er ſich etliche mahl erinnert, welcher-<lb/>
+geſtalt ihn GOtt nicht allein in Erkenntniß ſeiner goͤttlichen Wahrheit,<lb/>
+ſondern auch an zeitlichen Guͤtern durch Chriſtliche rechtmaͤßige Mittel<lb/>
+ſo reichlich geſegnet, daß er, zu Bezeigung ſeiner Danckbarkeit,<lb/>
+etwas von denenſelben, Kirchen, Schulen und dem Armuth zum Beſten<lb/>
+zu ſtifften, verpflichtet ſey. Er hat auch wenig Tage vor ſeinem Tode de-<lb/>
+nen Seinigen anbefohlen, daß ſie nicht allein ſeine armen Freunde zu Bar-<lb/>
+by, ſondern auch Kirchen und Schulen allhier zu Dreßden aus ſeiner Ver-<lb/>
+laſſenſchafft mit einem gewiſſen Geſtiffte bedencken ſolten. Da nun die ver-<lb/>
+laſſene Witwe bald nach ihrem Ehe-Herren Todes verblichen, ſo hat der ge-<lb/>
+dachte Schwieger-Sohn D. Roͤling, nebſt ſeiner Ehe-Liebſte, ihres ſeel. Va-<lb/>
+ters und Schwieger-Vaters Willen a. 1598. den 26. Julii ſolchergeſtalt<lb/>
+ins Werck gerichtet, daß eine gewiſſe Summa auf deſſen Hauſe in der Mo-<lb/>
+ritz-Straſſe, welches itzund der Hr. Steuer-Procurator Edelmann beſitzet,<lb/>
+damahls aber zwiſchen D. George Cracauens und Magiſter Chriſtian<lb/>
+Schuͤtzens Erben Haͤuſern gelegen, hafften und verbleiben ſollen, davon Kir-<lb/>
+che und Schule, nebſt deren Bedienten jaͤhrlich die davon fallenden Jnter-<lb/>
+eſſen ausgezahlet bekommen. Und dieſes iſt von beſagter Zeit an gangbar<lb/>
+geweſen, und auch noch, wie das darzu verfertigte Qvittungs-Buch von<lb/>
+Jahren zu Jahren ausweiſet. Was aber zu Barby vor ein Vermaͤchtniß<lb/>
+geſtifftet worden, iſt mir nicht bekannt, weil die Erben in unſere Stifftung-<lb/>
+ſchreiben, ſie haͤtten ſich, wegen damahliger Sterbens-Gefahr zu Magdeburg<lb/>
+und Barby, dahin nicht begeben koͤnnen.</p></div><lb/>
+<div n="2"><head>§. 14.</head><lb/>
+<p>Solchergeſtalt nun genieſſen wir allhier etwas von der Mildigkeit die-<lb/>
+ſes Mannes, und ich habe meine Schuldigkeit zu ſeyn erachtet, ihm dieſes<lb/>
+geringe Ehren-Gedaͤchtniß zu ſtifften, ſo weit es meine Kraͤffte zugelaſſen.<lb/>
+Wird mir von andern dergleichen Wohlthaͤtern Nachricht zukommen, ſo<lb/>
+<fw place="bottom" type="catch">wer-</fw><lb/>
+<pb facs="#f0011" n="11"/>
+<fw place="top" type="header">Churfl. Saͤchß. Raths.</fw><lb/>
+werde nicht ermangeln, auch denenſelben ihr gebuͤhrendes Recht wiederfah-<lb/>
+ren zu laſſen. Denn da dergleichen gottſelige Stiffter einen Chriſtlichen<lb/>
+Nach-Ruhm hinterlaſſen, ſo iſt es billich, daß man ſolchen auch der Nach-<lb/>
+Welt zur Nachfolge und Exempel vor die Augen lege. Der heilige Apo-<lb/>
+ſtel ermahnet die Einwohner der Stadt Philippi, ſie ſolten demjenigen nach-<lb/>
+ſtreben, was wohl lautet, und wobey ein Chriſtliches Lob zu verdienen.<lb/>
+Dieſes pflege ich unſerer Jugend offt vorzuhalten, und nehme dieſesmahl<lb/>
+Gelegenheit <hi rendition="#fr">die Ambition eines Chriſten</hi> abhandeln zu laſſen. Alſo wird</p><lb/>
+<list><item>1. <hi rendition="#b">Carl Auguſt Thiele,</hi> von Dreßden, anzei-<lb/>
+gen, worinn ſie beſtehe, nehmlich darinn, daß man ſich<lb/>
+eine Ehre draus macht, wenn man auf der Welt etwas<lb/>
+Gutes ausrichten kann.</item><lb/>
+<item>2. <hi rendition="#b">Johann Andreas Leutner,</hi> von Dreßden,<lb/>
+wird darthun, daß dieſelbe ihren Uhrſprung von GOtt<lb/>
+habe.</item><lb/>
+<item>3. <hi rendition="#b">Johann Andreas Pufendorff,</hi> von Leip-<lb/>
+zig, ſoll in Griechiſcher Sprache die der Chriſtlichen ent-<lb/>
+gegen geſetzte verkehrte Ambition beſchreiben.</item><lb/>
+<item>4. <hi rendition="#b">Johann Gottfried Dalichovius,</hi> von<lb/>
+Coßwig bey Meißen, wird abhandeln, wie man die<lb/>
+rechte und verkehrte Ambition unterſcheiden ſoll.</item><lb/>
+<item>5. <hi rendition="#b">Samuel Heinrich Junghans,</hi> von Cran-<lb/>
+zahl bey Annaberg, wird die Bewegungs-Urſachen der<lb/>
+Chriſtlichen Ambition kuͤrtzlich beruͤhren, und vor ſich und<lb/>
+die drey erſtern von hieſiger Creutz-Schule Abſchied<lb/>
+nehmen.</item></list><lb/>
+<fw place="bottom" type="catch">6. <hi rendition="#b">Gott-</hi></fw><lb/>
+<pb facs="#f0012" n="12"/>
+<fw place="top" type="header">Leben D. Wolffgang Eulenbecks, Churfl. Saͤchß. Raths.</fw><lb/>
+<list><item>6. <hi rendition="#b">Gottfried Schrenckendorff,</hi> von Dreßden,<lb/>
+wird zeigen, was ſie Gutes wuͤrcke, und denen Abge-<lb/>
+henden alles Gutes anwuͤnſchen, dabey er ſich der teut-<lb/>
+ſchen Poeſie gebrauchen wird.</item></list><lb/>
+<p>Es werden alſo hierdurch <hi rendition="#fr">hohe Goͤnner, Patronen</hi> und <hi rendition="#fr">Freunde</hi> un-<lb/>
+ſerer Schule gehorſamſt erſuchet, auf nechſtkommenden 29. April, Nach-<lb/>
+mittage um 2. Uhr ſich in derſelben einzufinden, um der Jugend zu zei-<lb/>
+gen, daß noch Leute auf der Welt ſind, welche aus denen Studien etwas<lb/>
+<hi rendition="#c">machen, und ſie dadurch zu allem Guten zu ermuntern.</hi></p><lb/>
+<dateline><hi rendition="#c">Dreßden den 20. April 1740.</hi></dateline></div></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+</body></text> </TEI>

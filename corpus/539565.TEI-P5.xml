@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Das Gelehrte/ Geehrte/ Beschwerte und Bewerthe Superintendenten-Haubt</title>
+<author>
+<persName ref="http://d-nb.info/gnd/115433988">
+<surname>Baudis</surname>
+<forename>Laurentius </forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">16</measure>
+<measure type="tokens">2967</measure>
+<measure type="types">1361</measure>
+<measure type="characters">21401</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:10:50Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/539565</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/539565</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/539565</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/539565</idno>
+<idno type="DTADirName">539565</idno>
+<idno type="DTAID">203027</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-203027-8</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Baudis, Laurentius: Das Gelehrte/ Geehrte/ Beschwerte und Bewerthe Superintendenten-Haubt. Liegnitz, [1662].</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Das Gelehrte/ Geehrte/ Beschwerte und Bewerthe Superintendenten-Haubt</title>
+<author>
+<persName ref="http://d-nb.info/gnd/115433988">
+<surname>Baudis</surname>
+<forename>Laurentius </forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">16 S.</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Zacharias Schneider</name></publisher>
+<pubPlace>Liegnitz</pubPlace>
+<date type="publication">1662</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 W 2062/4-5 / 539565</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#b">Das Gelehrte/ Geehrte/</hi><lb/>
+Beſchwerte und Bewerthe<lb/>
+<hi rendition="#aq"><hi rendition="#k">Superintendenten-</hi></hi><lb/>
+<hi rendition="#fr">Haubt/</hi></titlePart><lb/>
+<titlePart type="desc">Nach beſchehener Volckreicher<lb/>
+und Trawriger Beer-<lb/>
+digung<lb/>
+Deß Weyland<lb/>
+Wol-Ehrwuͤrdigen/ Groß-Achtb.<lb/>
+und Hochgelehrten Herren<lb/>
+<hi rendition="#aq"><hi rendition="#g">CASPARIS</hi></hi> <hi rendition="#fr">Keſelerß/<lb/>
+der Kirchen und Ehrw. Prieſterſch.</hi><lb/>
+dieſes Liegnitzſchen Fuͤrſtenthumbß Hoch-<lb/>
+Verdienten <hi rendition="#aq">Superintendentens,</hi><lb/>
+Deß Fuͤrſtl. Ehe-Gerichtes <hi rendition="#aq">Adſeſſoris Primar.</hi><lb/>
+und der Kirchen zur L. Frawen trewge-<lb/>
+weſenen PfarrErß/</titlePart></docTitle><lb/>
+<byline><hi rendition="#b">Stat der Abdanckungß-Rede</hi><lb/>
+nur einfaͤltig und kuͤrtzlich<lb/>
+wol zubeobachten<lb/>
+fuͤrgetragen<lb/>
+Durch <docAuthor><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Laurentium Baudisium</hi></hi></hi></docAuthor><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">,</hi></hi></hi><lb/>
+deß Fuͤrſtl, <hi rendition="#aq">ConſiſtorI Adſeſs.</hi> und der Kir-<lb/>
+chen zu S. Johannis PfarrErn.</byline><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docImprint>Gedruckt in <pubPlace>Liegnitz</pubPlace> von <publisher>Zach. Schneidern</publisher>.</docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="[2]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="dedication"><p><hi rendition="#c">Deß Durchlauchten/ Hochgebohrnen<lb/>
+Fuͤrſten und Herren/<lb/>
+<hi rendition="#fr">Herren Ludwig/</hi><lb/>
+<hi rendition="#b">Hertzogen in Schleſien/ zur Liegnitz/<lb/>
+Brieg und Goldberg/</hi><lb/>
+Unſeres gnaͤdigen Regierenden Landeß-<lb/>
+Fuͤrſten und Herrenß/<lb/>
+Hoch-Abgeordneter Hoch-Anſchnlicher<lb/>
+H. Abgeſandter/<lb/>
+Hoch-Edelgebohrener/ Geſtrenger<lb/>
+Herr<lb/>
+<hi rendition="#b">Landes-Haubtmann:</hi><lb/>
+Der Durchlauchten/ Hochgebohrenen<lb/>
+Fuͤrſtin und Frawen/<lb/>
+<hi rendition="#fr">Fr. Anna Sophia/</hi><lb/>
+<hi rendition="#b">Gebohrener Hertzogin zu Mecklen-</hi><lb/>
+burg/ Vermaͤhleter Hertzogin zur Liegnitz/<lb/>
+Brieg und Goldberg/<lb/>
+<hi rendition="#aq">U</hi>nſerer gnaͤdigen Fuͤrſtin und Frawen/<lb/>
+Hochabgeordn. Hochanſehnl Fr. Abgeſandtin/<lb/>
+Hoch-Edelgebohrne/ Geſtrenge<lb/>
+<hi rendition="#b">Fraw Hoffe-Meiſterin;</hi></hi></p></div><lb/>
+<fw place="bottom" type="catch">Hoch-</fw><lb/>
+<pb facs="#f0003" n="[3]"/>
+<div type="fsThanks" n="1"><p><hi rendition="#fr">Hoch-Wol Edelgebohrene/ Wol-</hi><lb/>
+Edele/ Geſtrenge/ Hoch- und Wolbe-<lb/>
+nambte/ Edele/ Ehrenveſte/ Hoch- und<lb/>
+Wolweiſe/ Wol Ehrwuͤrdige/ Groß-<lb/>
+Achtbare/ Hoch und Wolgelaͤhrte/ beſon-<lb/>
+ders Hochgeehrte/ Herren und Freunde;<lb/>
+<hi rendition="#fr">Hoch-Wol Edelgebohrene/ Wol-</hi><lb/>
+<hi rendition="#c">Edele/ Viel Ehr- und Tugendreiche/ Edele/<lb/>
+Erbare/ Tugendſame Frawen<lb/>
+und Jungfrawen:<lb/>
+<cit><quote><hi rendition="#b">O mein Haubt/ mein Haubt!</hi></quote><bibl/></cit></hi></p><lb/>
+<p><hi rendition="#in">A</hi>Lſo klaget jener Sohn der Rei-<lb/>
+chen Frawen zu Sunem/ wenn Er<lb/>
+ſich ſehr uͤbel befindet und gar ſtir-<lb/>
+bet 2. <hi rendition="#aq">Reg.</hi> 4. Niemand wird<lb/>
+mir uͤbel deuten/ wenn ich in fuͤr-<lb/>
+gehendem allgemeinem <hi rendition="#aq">luctu</hi> der<lb/>
+verweyſeten hieſigen Kirchen/ und der/ ſo zu ſagen/<lb/>
+<hi rendition="#fr">enthaubteten Ehrwuͤrdigen Prieſterſchafft</hi> die-<lb/>
+ſes Liegn. Fuͤrſtenthumbß/ meine Klage abborge ei-<lb/>
+nem Kinde. Jch weiß ja/ daß dem H. Geiſte nicht<lb/>
+mißfaͤllet die Redenßart in der H. Schrifft/ da ein<lb/>
+<hi rendition="#fr">Haubt</hi> genennet wird/ <hi rendition="#aq">qvicq vid eſt præcipuum,<lb/>
+primum &amp; ſummum,</hi> daß daß hoͤchſte/ <hi rendition="#k">e</hi>rſte und<lb/>
+fuͤrnehmbſte iſt. Eß wird daß wort <hi rendition="#fr">Haubt/</hi> der<lb/>
+Grundſprache nach/ <hi rendition="#aq">tribuiret</hi> und zugeſchrieben ſo<lb/>
+denn <hi rendition="#fr">unlebhafften/</hi> Steinen/ Baͤwmen/ Bergen/<lb/>
+<fw type="sig" place="bottom">A ij</fw><fw type="catch" place="bottom">denn</fw><lb/>
+<pb facs="#f0004" n="[4]"/>
+denn Thuͤren oder Thoren/ der Jacobßleiter ꝛc. alß<lb/>
+denn <hi rendition="#fr">Lebhafften</hi> dingen/ nemlich/ denn Fuͤrſten/<lb/>
+Koͤnigen und Herren/ denn Regenten und Obrikei-<lb/>
+ten/ denn alten ehrlichen Leuten/ denn wol <hi rendition="#aq">meriti-</hi><lb/>
+reten Maͤnnern/ auch denn <hi rendition="#aq">Theologis</hi> und <hi rendition="#aq">Docto-<lb/>
+ribus,</hi> ſonderlich denen/ die mit hohen gaben fuͤr an-<lb/>
+dern außgeruͤſtet/ und alſo auch anderen zur <hi rendition="#aq">inſpe-<lb/>
+ction,</hi> alß <hi rendition="#aq">Superintendenten, Decani, Senio-<lb/>
+res,</hi> und <hi rendition="#aq">Paſtores</hi> fuͤrgeſtellet ſind. <hi rendition="#aq">U</hi>nd daß<lb/>
+thut der H. Geiſt folgender Uhr ſachen halber:</p><lb/>
+<p>Wie daß <hi rendition="#fr">Haubt</hi> iſt daß <hi rendition="#fr">Hoͤchſte</hi> und <hi rendition="#fr">geehr-<lb/>
+teſte</hi> unter denn Gliedern deß Menſchlichen Leibeß/<lb/>
+alſo ſol billich daß Predigampt gehalten werden fuͤr<lb/>
+daß hoͤchſte und geehrteſte in der Chriſtlichen Kirchen.</p><lb/>
+<p>Wie daß <hi rendition="#fr">Haubt</hi> iſt das <hi rendition="#fr">maͤchtigſte und fuͤr-<lb/>
+trefflichſte/</hi> alſo daß Predigambt/ Gott hat ihme da-<lb/>
+durch/ alß denn mund der jungen Kinder und ſaͤuglin-<lb/>
+gen eine <hi rendition="#fr">macht</hi> zugerichtet/ umb feiner Feinde willen/<lb/>
+daß Er vertilge denn Feind und denn Rachgirigen.</p><lb/>
+<p>Wie daß <hi rendition="#fr">Haubt</hi> iſt daß <hi rendition="#fr">allernoͤthigſte</hi> und<lb/>
+<hi rendition="#fr">nuͤtzlichſte/</hi> ſintemahln auß dem Haubte aller Safft<lb/>
+und Krafft durch gewiſſe <hi rendition="#aq">venas</hi> und adern in die un-<lb/>
+teren Glieder/ und alſo denn gantzen Leib/ <hi rendition="#aq">deſtilli-</hi><lb/>
+ret und herabtraͤuffelt/ Alſo wircket daß Predigambt/<lb/>
+und durch dieſeß der Heil. Geiſt/ vermittelß deß wor-<lb/>
+teß und Hochwuͤrdigen Sacramenten/ in der Chriſtl.<lb/>
+Kirchen und einem iedwedern Chriſten wie daß rech-<lb/>
+te Chriſtliche/ alſo daß wahre geiſtliche Leben:</p><lb/>
+<p>Durchß Predigambt haben wir/ daß wir Leben im<lb/>
+Glauben deß Sohnes Gottes/ der unß geliebet/ und<lb/>
+ſich ſelbſt fuͤr unß gegeben hat: Durchß Predig-<lb/>
+<fw place="bottom" type="catch">amb-</fw><lb/>
+<pb facs="#f0005" n="[5]"/>
+ambt werden die Heiligen zugerichtet zum Wercke/<lb/>
+deß Ambteß/ daß der Leib Chriſti erbawet werde.</p><lb/>
+<p>Demnach ſo werde ich nicht irren/ wenn ich bey<lb/>
+dem Trawrigen Todeß-Fall und klaͤglichen <hi rendition="#aq">Sepul-<lb/>
+tur</hi> deß Weyl. <hi rendition="#fr">Wol-Ehrwuͤrdigen/ Großacht-<lb/>
+baren und Hochgelehrten Herren CASPAR<lb/>
+KESELERS/ unſereß Trewgeweſenen Her-<lb/>
+ren</hi> <hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Superintendentens,</hi></hi></hi> mich gebrauche der<lb/>
+Klageworte deß Sunamitiſchen Knabenß/ doch gar<lb/>
+anderer meinung und in hoͤherem verſtande/ und ſage:<lb/>
+<hi rendition="#c"><cit><quote><hi rendition="#b">O mein Haubt/ mein Haubt!</hi></quote><bibl/></cit></hi><lb/>
+Eß iſt ja unſer H. Keſeler geweſen ein Mañ nicht auß<lb/>
+dem gemeinen Hauffen deß Volckeß/ ſondern <hi rendition="#fr">Ein<lb/>
+Haubt/</hi> daß iſt/ <hi rendition="#k">e</hi>in Lehrer/ und Leiter deß Volckeß/<lb/>
+auch nicht der Letzte/ geringſte und wenigſte/ ſondern<lb/>
+der <hi rendition="#k">e</hi>rſte/ <hi rendition="#k">h</hi>oͤchſte und fuͤrnembſte/ nemlich <hi rendition="#fr">daß Haubt<lb/>
+der Ehrwuͤrdigen Prieſterſchafft in dieſem Lieg-<lb/>
+nitzſchen Fuͤrſtenthumb/</hi> ſo der <hi rendition="#aq">experientz</hi> und<lb/>
+<hi rendition="#fr">Gaben/</hi> ſo der <hi rendition="#aq">eminentz</hi> und <hi rendition="#fr">Ambteß</hi> halben.</p><lb/>
+<p>Sehen wir dieß <hi rendition="#fr">Haubt</hi> recht an/ ſo befinden<lb/>
+wir/ daß wir an unſerem Her. <hi rendition="#aq">Superintend.</hi> gehabt<lb/>
+<hi rendition="#c"><cit><quote><hi rendition="#b">Ein Gelehrtes Prieſter-Haubt/</hi></quote><bibl/></cit></hi><lb/>
+Einen Mann/ der nach Syr. am 39. gelehret im<lb/>
+Geſetze deß <hi rendition="#k">Herren/</hi> der die Weißheit der Alten<lb/>
+erforſchet/ und in denn Propheten ſtudieret. Dan-<lb/>
+nenhero Er die Geſchicklikeit gehabt zu bawen und zu<lb/>
+beſſern daß Hauß deß <hi rendition="#k">Herren</hi>/ welche S. Pau-<lb/>
+luß die kluge und weiſe Baw-Kunſt nennet 1. Cor. 3.<lb/>
+Die Prieſter und Diener/ welche David ordnete<lb/>
+<fw place="bottom" type="sig">A iij</fw><fw place="bottom" type="catch">zum</fw><lb/>
+<pb facs="#f0006" n="[6]"/>
+zum dienſt und wercke der Stifftß-Huͤtten und deß<lb/>
+Tempelß Gotteß/ werden genennet fleiſſige Leute/<lb/>
+geſchickt zum Ambte 1. Chron. 27. welchen nahmen<lb/>
+S. Paulus im Newen Teſtament behelt/ und ſaget/<lb/>
+daß die Diener Gotteß ſollen ſeyn ἱκανοὶ, tuͤchtig/ oder<lb/>
+geſchickt/ andere zu lehren. Gleich wie Pharao/<lb/>
+der Koͤnig in Egypten wolte haben geſchickte Leute/<lb/>
+die ſeinem Viehe fuͤrgeſetzet wuͤrden/ Alſo wil der<lb/>
+groſſe GOTT geſchickte Leute und Lehrer/ die ſeiner<lb/>
+ſo thewr erkaufften Herde fuͤrgeſtellet wuͤrden: Wel-<lb/>
+che Geſchickligkeit beſtehet nicht nur im Predigen/<lb/>
+ſondern auch/ daß man verſtehe/ waß man prediget/<lb/>
+daß man/ wie <hi rendition="#aq">Syr.</hi> am 39 ſaget/ wiſſe/ waß taug<lb/>
+oder nicht taug/ daß man daß wort der warheit recht<lb/>
+theile/ und alleß <hi rendition="#aq">methodicè,</hi> klar und deutlichen<lb/>
+fuͤrbringe/ und allenthalben ſuche daß σοφίσαι ες σω-<lb/>
+τηζίαν welcheß dann iſt der Haubt-Zweck der Heiligen<lb/>
+Schrifft/ und wie S. Paulus 2 <hi rendition="#aq">Tim.</hi> 3. lehret/ daß<lb/>
+man erba wlich ſey beydeß den Gelehrten und Unge-<lb/>
+lehrten/ wie abermahln S. Paulus ſaget <hi rendition="#aq">Rom.</hi> 1.<lb/>
+daß Er ein ſchuldener ſey beides der Griechen und<lb/>
+Ungriechen/ der Weiſen und der Unweiſen. Welch<lb/>
+ein <hi rendition="#fr">geſchickter und gelehrter Prediger</hi> unſer Herꝛ<lb/>
+<hi rendition="#aq">Superintendens</hi> geweſen/ erweiſet die Erbawung/<lb/>
+welche Er in dieſer Kirchen/ auf dieſer Cantzel biß in<lb/>
+42 Jahre/ gantz heilſamlich befoͤdert hat: Er war<lb/>
+<hi rendition="#fr">Ein Haubt der Prediger/ Ein gelehrteß Prie-<lb/>
+ſter-Haubt/ Ein geſchickter Schrifftgelehrter/</hi><lb/>
+wie <hi rendition="#fr">Eſra/ Ein Lehrer/</hi> gelehret zum Himmelreich.<lb/>
+<hi rendition="#aq">Matth.</hi> 13.</p><lb/>
+<fw place="bottom" type="catch">Er</fw><lb/>
+<pb facs="#f0007" n="[7]"/>
+<p>Er war<lb/>
+<hi rendition="#c"><cit><quote><hi rendition="#b">Ein Geehrteß Kirchen-Haubt/</hi></quote><bibl/></cit></hi><lb/>
+Nicht/ wie der <hi rendition="#k">Herr Ch</hi>riſtus genennet wird/ <hi rendition="#k">e</hi>in<lb/>
+<hi rendition="#fr">Haubt ſeiner Gemeine;</hi> auch nicht/ wie der Bapſt<lb/>
+zu Rom geneñet werden wil/ daß <hi rendition="#fr">Sichtbare Haubt<lb/>
+der Chriſtl. Kirchen/</hi> ach nein! ach nein! Sondern<lb/>
+<hi rendition="#fr">nach der H. Schrifftarth/</hi> welchermaſſen dieſelbe<lb/>
+nennet ein Haubt/ alleß daß/ daß eine hoͤhe/ und fuͤr<lb/>
+andern einen fuͤrzug hat; und <hi rendition="#fr">nach der Evangeli-<lb/>
+ſchen Ambts-Art/</hi> welchermaſſen Jhme befohlen<lb/>
+war zu ſein <hi rendition="#fr">Ein Haubt/</hi> daß iſt/ <hi rendition="#aq">Superintendens</hi><lb/>
+und <hi rendition="#aq">Inſpector</hi> der Kirchen und der Prieſterſchafft im<lb/>
+Liegnitzſchen Fuͤrſtenthumb; <hi rendition="#aq">Speculator,</hi> Ein<lb/>
+<hi rendition="#fr">Waͤchter/</hi> Ein <hi rendition="#fr">Schawer/</hi> geſetzet uͤber daß Hauß<lb/>
+deß Liegnißſchen Jſraelis; Ein <hi rendition="#fr">Biſchoff/</hi> ἀπὀ τοὐ<lb/>
+ἐπισκοεῖν, der fleiſſig auſſehe/ und achtung gebe/<lb/>
+wie eß in der Kirchen Gottes zugehet/ damit alles ehr-<lb/>
+lich und ordentlich zugehe; <hi rendition="#aq">qvi prodeſſe diligat,<lb/>
+non præeſſe,</hi> wie <hi rendition="#aq">Auguſtinus</hi> redet; <hi rendition="#fr">Ein Geiſt-<lb/>
+licher</hi> <hi rendition="#aq">Aaron,</hi> der ſeine Bruͤder die Leviten immer<lb/>
+<hi rendition="#aq">in conſpectu,</hi> im Angeſicht/ im gedaͤchtniß habe/<lb/>
+und in ſeinem Hertzen trage; <hi rendition="#fr">Ein rechter Pauluß/</hi><lb/>
+der da ſorge trage fuͤr alle Gemeinen; <hi rendition="#fr">Ein Apoca-<lb/>
+lyptiſcher Cherub/</hi> voll Augen/ der/ wenns moͤglich<lb/>
+were/ alle ſchritte und wercke ſeiner untergebenen Prie-<lb/>
+ſter beſchawe/ der da waͤre alß ein großmuͤttiger <hi rendition="#fr">Loͤw</hi><lb/>
+durch freudigkeit am worte; alß ein arbeitſames <hi rendition="#fr">Kalb</hi><lb/>
+durch unverdroſſenheit im Ambte; Ein ſanff<supplied>t</supplied>muͤtti-<lb/>
+ger <hi rendition="#fr">Menſch/</hi> durch leutſelikeit gegen die ſchwachen<lb/>
+<fw type="catch" place="bottom">am</fw><lb/>
+<pb facs="#f0008" n="[8]"/>
+am troſte; Alß ein hochfligender <hi rendition="#fr">Adler/</hi> durch die<lb/>
+warheit und lauterkeit in der Lehre. Solcher<lb/>
+maſſen hat unſer Herr <hi rendition="#aq">Superintendens</hi> getragen<lb/>
+<hi rendition="#fr">die Haubt-Ehre;</hi> Wie daß <hi rendition="#fr">Haubt</hi> die ehre hat<lb/>
+fuͤr anderen Gliedmaſſen; Alſo hat die Fuͤrſtliche<lb/>
+Obrikeit Jhn gewuͤrdiget ſolcher <hi rendition="#fr">Hohen Titul-<lb/>
+Ehre/</hi> die Ehrwuͤrdige Prieſterſchafft mit gebuͤh-<lb/>
+render <hi rendition="#fr">Ambtß- und Gehorſambß-Ehre;</hi> Die<lb/>
+Kirchen und Gemeinden mit williger <hi rendition="#aq">reſpect-</hi> <hi rendition="#fr">und<lb/>
+Liebes-Ehre.</hi> S. Paulus wil/ daß man die Elte-<lb/>
+ſten/ die wol fuͤrſtehen/ zwyfacher ehren werth halten<lb/>
+ſolle/ ſonderlich die zugleich arbeiten im Wort und<lb/>
+in der Lehre; Dannenhero unſer H. <hi rendition="#aq">Superint</hi> billich<lb/>
+hoher ehren werth gehalten worden/ der wol fuͤrgeſtaͤ-<lb/>
+den/ und zugleich gearbeitet hat im worte und in der<lb/>
+Lehre. Hoher Ehren werth ſind groſſer Herren <hi rendition="#aq">Le-<lb/>
+gaten</hi> und Abgeſandten: Hoͤherer ehren ein <hi rendition="#aq">Legat-</hi><lb/>
+und Mundbothe daß groſſen Gottes und <hi rendition="#k">Herren/</hi><lb/>
+ein Haußhalter und <hi rendition="#fr">Diener JESU Chriſti;</hi> Der<lb/>
+Hoͤchſten aber ein <hi rendition="#aq">Superintendens;</hi> Ein <hi rendition="#fr">Samuel/</hi><lb/>
+der da iſt/ an Gottes ſtat/ oder von Gottes wegen/<lb/>
+ein <hi rendition="#fr">Auffſeher</hi> deß <hi rendition="#fr">Chors</hi> der Propheten.</p><lb/>
+<p>Unſer Herr <hi rendition="#aq">Superintendens</hi> iſt auch geweſen<lb/>
+<hi rendition="#c"><cit><quote><hi rendition="#b">Ein beſchwertes Ambteß-<lb/>
+Haubt/</hi></quote><bibl/></cit></hi><lb/>
+Ein <hi rendition="#fr">Nagel/</hi> daran man allerley Laſt gehenget: Ein<lb/>
+<hi rendition="#fr">Laſttraͤger/</hi> der wol tragen koͤnnen; Ein <hi rendition="#fr">Mann/</hi><lb/>
+der recht Maͤnnlich und ſtarck geweſen/ und/ auff ge-<lb/>
+<fw place="bottom" type="catch">wiſſe</fw><lb/>
+<pb facs="#f0009" n="[9]"/>
+wiſſe maſſe/ Maͤnnlicher alß Moſe/ der unter der laſt<lb/>
+geſaget: Jch vermag das Volck nicht allein alles er-<lb/>
+tragen/ denn es iſt mir zu ſchwer. <hi rendition="#aq">U</hi>nſer Herr <hi rendition="#aq">Supe-<lb/>
+rintendens</hi> hat getragen</p><lb/>
+<p><hi rendition="#fr">Die Unterrichtß- und obſichts-Beſchwerung/</hi><lb/>
+Eine Laſt/ die groß und ſchwer iſt. Wer lehren ſol/ der<lb/>
+muß ſonſt nichtes zu thun haben/ Syr. 39. Waß mei-<lb/>
+nen wir/ die <hi rendition="#aq">Inſpections-</hi> und obſichts-muͤhe zu thun<lb/>
+gemachet unſer em H. <hi rendition="#aq">Superint.</hi> wie ſehr offte ſie Jhn<lb/>
+von ſeinen <hi rendition="#aq">Meditationibus</hi> und Unterrichts-ſorgen<lb/>
+abgezogen habe: Er hat getragen</p><lb/>
+<p><hi rendition="#fr">Die Rathß- und Kirchen-Gerichts beſchwe-<lb/>
+rung/</hi> in ſachen nicht allein <hi rendition="#fr">daß offentliche Kirchẽ-<lb/>
+Gerichte/</hi> das Fuͤrſtl. <hi rendition="#aq">Conſiſtor.</hi> ſondern auch <hi rendition="#fr">daß<lb/>
+abſonderliche Ambts-Gerichte/</hi> daß <hi rendition="#aq">Superinten-<lb/>
+denten-</hi> Ambt/ anlangende/ da iſt Er angelauffen<lb/>
+worden wie Paulus/ ſo in <hi rendition="#fr">Eheſachẽ/</hi> alß in <hi rendition="#fr">Ambtß-<lb/>
+und Kirchen-ſachen:</hi> Da iſt Er auch geweſen <hi rendition="#aq">Sin-<lb/>
+gulare oraculum,</hi> wenn Er rath gab/ ſo war es/<lb/>
+alß wenn man GOTT ſelber rath gefraget hette:<lb/>
+<hi rendition="#aq">Securum aſylum,</hi> zu Jhme/ alß einer ſtarcken ge-<lb/>
+wahrſam und ſicherung/ mochten die Diener deß<lb/>
+<hi rendition="#k">Herrn</hi> in Ambtß-Kummer freudige Zuflucht neh-<lb/>
+men: Er war <hi rendition="#aq">Commune bonum,</hi> <hi rendition="#fr">ein allgemei-<lb/>
+nes Kirchen- und Prieſter-Gut.</hi> Von dem Kaͤy-<lb/>
+ſer <hi rendition="#aq">Nero</hi> ſchreibet <hi rendition="#aq">Vellejus Paterculus</hi> nur ein ei-<lb/>
+niges mahl/ daß <hi rendition="#k">e</hi>r einen <hi rendition="#aq">actum</hi> verrichtet/ und dabey<lb/>
+ſich beruͤhmet: <hi rendition="#aq">Hoc Reipublicæ cauſsâ facio,</hi> daß<lb/>
+thue ich dem gemeinẽ weſen zum beſten. Unſer H. <hi rendition="#aq">Su-<lb/>
+perintendens, qvicqvid fecit, Reipubl. Chri-</hi><lb/>
+<fw type="sig" place="bottom">B</fw><fw type="catch" place="bottom"><hi rendition="#aq">ſtianæ</hi></fw><lb/>
+<pb facs="#f0010" n="[10]"/>
+<hi rendition="#aq">ſtianæ caußa fecit,</hi> hat alles/ was <hi rendition="#k">e</hi>r gethan/ dem<lb/>
+gemeinẽ Kirchenweſen zum beſten gethan. <hi rendition="#fr">Sum̃a/</hi> Er<lb/>
+hat getragen <hi rendition="#fr">viele und groſſe beſchwerungen.</hi> So<lb/>
+das H. Predigambt fuͤr ſich iſt nicht πάζεζγον, nicht<lb/>
+πεζί<gap reason="illegible" unit="chars" quantity="1"/>ζγον oder ὸῶζον, nicht ein <hi rendition="#k">n</hi>eben Werck/ nicht eine<lb/>
+faule Pfruͤnde/ koͤſtliche <hi rendition="#aq">præbende,</hi> uñ gnaͤdige Herr-<lb/>
+ſchafft/ ſondern ἔζγον, Ein Werck/ Ein Geſchaͤffte/<lb/>
+und zwar καλὸνἔζγον, <hi rendition="#aq">opus arduum, nec otium,<lb/>
+ſed negociorum negocium,</hi> <hi rendition="#fr">Ein Muͤhe-Laſt-<lb/>
+und Arbeitß-Werck/</hi> So iſt ja freylich das Hohe<lb/>
+<hi rendition="#aq">Superintend.</hi> <hi rendition="#fr">Ambt daß allermuͤhſeligſte/ ge-<lb/>
+ſchaͤfftigſte und Laſtvolleſte Werck:</hi> da leicht zu-<lb/>
+gedencken/ daß unſer Herr <hi rendition="#aq">Superintend,</hi> <hi rendition="#fr">alß ein be-<lb/>
+ſchwerteß Ambteß-Haubt/</hi> offtmahln auff ſeinem<lb/>
+Bette/ mit Jacob/ alß auf einem harten Steine werde<lb/>
+gelegen und wolerfahren haben/ was <hi rendition="#aq">Hieron. Epiſt.<lb/>
+83. ad Ocean</hi> ſchreibet/ <hi rendition="#aq">Episcopatum eſſe opus,<lb/>
+non dignitatem, laborem non delicias, opù<lb/>
+per qvod humilitate decreſcat, non intun esca<lb/>
+faſtigio,</hi> daß Biſchoffs-Ambt ſey kein Muͤſſiggang,<lb/>
+Wolluſt- und Pracht-Werck/ ſondern ein ſchwereſ-<lb/>
+Ambt/ daß einen mehr demuͤttiget/ alß erhoͤhet.</p><lb/>
+<p>Er iſt auch geweſen<lb/>
+<hi rendition="#c"><cit><quote><hi rendition="#b">Ein bewehrteß Chriſten-Haubt</hi></quote><bibl/></cit></hi><lb/>
+Oder/ daß Jchß recht gebe/ <hi rendition="#fr">Ein gutter Chriſt.</hi> Aber!<lb/>
+Wer wird an der Gottſeligkeit und Chriſtenthumb<lb/>
+deß H. <hi rendition="#aq">Superintendentens</hi> zweiffeln? <hi rendition="#aq">Bonus<lb/>
+Theologus eſt bonus Chriſtianus;</hi> Die wahre<lb/>
+<hi rendition="#aq">Theologia</hi> beſtehet ſo wol <hi rendition="#aq">in praxi</hi> alß <hi rendition="#aq">in Theo-<lb/>
+riâ.</hi> Ein gutter <hi rendition="#aq">Theologus</hi> hat daß geheimniß deß<lb/>
+<fw place="bottom" type="catch"><supplied>Glauben</supplied></fw><lb/>
+<pb facs="#f0011" n="[11]"/>
+Glaubens in guttem gewiſſen. Er ruͤhmet mit jenem<lb/>
+vornehmen bekandtẽ <hi rendition="#aq">Theologo: Ut docui, ut potui,</hi><note place="right"><hi rendition="#aq">M. A. T.</hi></note><lb/>
+<hi rendition="#aq">ſt udui bene vivere:</hi> wie gelchret/ ſo gelebet. Wie<lb/>
+nun unſer H. <hi rendition="#aq">Super.</hi> alß angehoͤret/ ein gutter <hi rendition="#aq">Theol.</hi><lb/>
+alſo iſt <hi rendition="#k">e</hi>r auch ein gutter Chriſt geweſen darumb nicht<lb/>
+vonnoͤthen davon neue weitlaͤufftigkeit zu machen.</p><lb/>
+<p><hi rendition="#fr">Und ein ſolches Haubt iſt Er geweſen.</hi><lb/>
+<hi rendition="#aq">Ab! fuit!</hi> Er iſts leider geweſen! Geweſen<lb/>
+<hi rendition="#fr">das Haubt/</hi> daß uns gelehret/ daß wir geſehen und<lb/>
+gehoͤret; <hi rendition="#fr">Das Haubt/</hi> daß wir geliebet und geeh-<lb/>
+ret! <hi rendition="#fr">Das Haubt/</hi> daß wir gar embſig und kuͤhnlich<lb/>
+beſehweret! <hi rendition="#fr">Das Haubt/</hi> daß wir erfunden haben<lb/>
+bewehret! <hi rendition="#aq">Ahfuit!</hi> Eß iſt geweſen! O daß wir tod-<lb/>
+ten aufferwecken koͤndten/ wir wolten dahin arbei-<lb/>
+ten/ daß dieſes <hi rendition="#fr">unſer Haubt</hi> noch lebete/ und ob un-<lb/>
+ſern Haͤubtern ferner ſchwebete: Aber was wuͤnſchen<lb/>
+wir? Der Todt hoͤret nicht: ſo bleibet auch der Rath<lb/>
+deß <hi rendition="#k">Herren</hi> ſeſt ſtehen/ und laͤſſet ſich nicht endern.</p><lb/>
+<p>Eß bleibet nur bey dem Seufftzer:<lb/>
+<hi rendition="#c"><cit><quote><hi rendition="#b">O mein Haubt/ mein Haubt!</hi></quote><bibl/></cit></hi><lb/>
+Eß ſeufftzet die <hi rendition="#fr">verwaͤyſete Kirche: O mein Haubt/<lb/>
+mein Haubt</hi><hi rendition="#i">!</hi> denn das <hi rendition="#fr">Haubt/</hi> das Sie trewlich<lb/>
+gelehret/ von welchem/ alß von dem Haubte Aarons/<lb/>
+der allerkoͤſtlichſte Balſam der heilſamen Lehren und<lb/>
+ermahnungen/ auf Sie gefloſſen/ das iſt nun hin!</p><lb/>
+<p>Eß ſeufftzet <hi rendition="#fr">Eine Ehrw. Prieſterſchafft: O mein<lb/>
+Haubt/ mein Haubt!</hi> Denn das <hi rendition="#fr">Haubt/</hi> das da<lb/>
+ackroͤnet war mit der Crone der Ehren und vieler er-<lb/>
+fahrung/ das <hi rendition="#fr">Haubt/</hi> das ſo munterlich gewachet/<lb/>
+ſo weißlich gerathen/ und alſo als ein Elias uͤber dem<lb/>
+<fw type="sig" place="bottom">B ij</fw><fw type="catch" place="bottom">Eliſa</fw><lb/>
+<pb facs="#f0012" n="[12]"/>
+Eliſa geweſen/ das iſt von Jhren <hi rendition="#fr">Haͤubten</hi> wegge-<lb/>
+nommen!</p><lb/>
+<p>Eß ſeufftzet die <hi rendition="#fr">Hochbetruͤbte Fr. Wittib/</hi><lb/>
+ſambt dem einigen Stab und Stecken Jhres hohen Al-<lb/>
+ters/ dem eintzigen H. Sohne/ und jhrer Freuden/<lb/>
+der Fr. Tochter: <hi rendition="#fr">O mein Haubt/ mein Haubt!</hi><lb/>
+Denn Jhr <hi rendition="#fr">Haubt</hi> iſt nun dahin! <hi rendition="#fr">Die Crone Jhres<lb/>
+Haubtes</hi> iſt abgefallen! Sie iſt eine Wittib/ ein<lb/>
+Coͤrper ohne Haubt.</p><lb/>
+<p>Es ſeufftzet <hi rendition="#fr">der H. Sohn/</hi> nicht nur alß Sohn/ ſon-<lb/>
+dern alß <hi rendition="#aq">Collega,</hi> und Mitglied im Predig-Ambte:<lb/>
+<hi rendition="#fr">O mein Hanbt/ mein Haubt!</hi> Denn Er hat mit<lb/>
+dem H. Vater zu gleich auch <hi rendition="#fr">das Haubt</hi> verlohren.</p><lb/>
+<p>Und/ waß ich zufoͤrderſt und bald anfaͤnglichen<lb/>
+hette anfuͤhren ſollen/ ſo iſt kein zweiffel/ daß <hi rendition="#fr">Der<lb/>
+Durchl. Hochgebohrene Fuͤrſt und Herr/ Herr<lb/>
+LUDWJG/ Hertzog in Schleſien/ zur Liegnitz<lb/>
+Brieg und Goldberg/ unſer Regierender Gnaͤ-<lb/>
+diger Fuͤrſt und Herr/</hi> nicht ohne bewegung Deh-<lb/>
+ro Fuͤrſtl. Gemuͤttes empfinden/ daß <hi rendition="#fr">daß Haubt/</hi><lb/>
+welches Dehro Hochtragende Biſchoffliche gewalt/<lb/>
+mit groſſer <hi rendition="#aq">auctorität</hi> und <hi rendition="#aq">gravitât</hi> allenthalben/ und<lb/>
+allezeit <hi rendition="#aq">præſentiret</hi> uñ gehalten/ numehr im tode lieget/<lb/>
+und ſeinen vertraweten Biſchoffs-Stab und hohe<lb/>
+Ambtes-Sorge/ auf Befehl deß groſſen Gottes/ zu<lb/>
+Dero Fuͤrſtl. Fuͤſſen niedergeleget hat.</p><lb/>
+<p>Jch ſelbſt/ mit <hi rendition="#fr">meinen Her.</hi> <hi rendition="#aq"><hi rendition="#k">Collegis</hi></hi> <hi rendition="#fr">und<lb/>
+Ambteßbruͤdern</hi> kan nichts alß ſeufftzen: <hi rendition="#fr">O mein<lb/>
+Haubt/ O mein Haubt!</hi> Denn auch <hi rendition="#fr">unſer Haubt</hi><lb/>
+und Fuͤrgaͤnger/ unſer Hirt und Lehrer/ unſer groſſer<lb/>
+Freund und Vater iſt geſtorben.</p><lb/>
+<fw place="bottom" type="catch"><hi rendition="#fr">Ach</hi></fw><lb/>
+<pb facs="#f0013" n="[13]"/>
+<p>Ach was ſollen wir <hi rendition="#fr">dieſem gelehreten und ge-<lb/>
+ehreten Haubte</hi> thun? Mit was dienſte koͤnnen wir<lb/>
+eß nun nach dem Tode verehren? Mit klagen iſt Jh-<lb/>
+me nichts gedienet: Denn es iſt an dem orthe der freu-<lb/>
+den/ da kein klagen mehr iſt/ in dem Leben/ da kein<lb/>
+todt iſt. Eß hat nun die Crone das <hi rendition="#fr">bewehrte Haubt;</hi><lb/>
+Eß ruhet nun ſtill uñ ſanffte das <hi rendition="#fr">beſchwerte Haubt;</hi><lb/>
+Eß iſt kommen von einer vergaͤnglichen und ſterblich-<lb/>
+en/ zu einer unvergaͤnglichen und ewigen Ehre/ daß<lb/>
+<hi rendition="#fr">geehrte Haubt;</hi> Jtzt hat und ſiehet eß/ was es hier<lb/>
+geglaͤubet/ waß eß gehoffet/ was es auch geprediget hat<lb/>
+<hi rendition="#fr">daß gelehrte Haubt;</hi> <hi rendition="#aq">Societas ejuscum Patre,<lb/>
+Filio &amp; Spiritu Sancto;</hi> Eß hat nun gemeinſchaft<lb/>
+mit Gott Vater/ Sohn/ und Heil. Geiſte. Darumb<lb/>
+ſo iſt es unnoͤthig zu klagen; Wir ſollen Jhme viel-<lb/>
+mehr <hi rendition="#aq">gratuli</hi>ren/ und von Hertzen goͤnnen/ <hi rendition="#fr">die herr-<lb/>
+liche Crone/ die liebliche Ruhe/ die ewige Ehre/<lb/>
+die Himliſche Freude;</hi> Wir ſollen dieſes <hi rendition="#fr">Ehrwuͤr-<lb/>
+dige Haubt</hi> <hi rendition="#aq">balſamiren,</hi> wie die Maria zu Betha-<lb/>
+nien daß Haubt <hi rendition="#k">Je</hi>ſu Chriſti/ wir ſollen es uͤberſchuͤt-<lb/>
+ten mit dem Balſam deß wol <hi rendition="#aq">meritireten</hi> Ruhmes/<lb/>
+der ſchuldigen und danckbaren gedaͤchtnis/ der Wohl-<lb/>
+thaͤtigkeit und Liebe kegen die hinterlaſſenen betruͤbten<lb/>
+Seinigen; ja mit dem Balſam deß letzten wuntſches<lb/>
+und <hi rendition="#aq">Valet-</hi>Segens auß den Sprichw. Sal. am 10.<lb/>
+Cap. <hi rendition="#fr">Denn Segen habe das Haubt dieſes Ge-<lb/>
+rechten!</hi> Das wird dem Seel. H. <hi rendition="#aq"><hi rendition="#k">Superinten-<lb/>
+denten</hi></hi> ſo wol thun alß ein Balſam auff ſeinem<lb/>
+<hi rendition="#fr">Haubte.</hi></p><lb/>
+<fw type="sig" place="bottom">B iij</fw><fw type="catch" place="bottom">Daß</fw><lb/>
+<pb facs="#f0014" n="[14]"/>
+<p><hi rendition="#fr">Daß nun unſer gnaͤdiger Landes-Fuͤrſt<lb/>
+und Herr/</hi> wie auch <hi rendition="#fr">Unſere gnaͤdige Fuͤrſtin und<lb/>
+Fraw/</hi> ſolches an dem Sel. H. <hi rendition="#aq">Superintendenten</hi><lb/>
+zu thun gnaͤdigſt geſonnen/ deſſen verſichern <hi rendition="#fr">Dieſelb-<lb/>
+ten</hi> allbereit die <hi rendition="#fr">Hochbetr. Leidtragenden</hi> durch<lb/>
+Dehro Hoch-abgeordnete Fuͤrſtl. Geſandſchafften/<lb/>
+welche Hohe Fuͤrſtl. Fuͤrſtl. Gnaden ſie auch demuͤt-<lb/>
+tigſt erkennen/ unterthaͤnigſt ruͤhmen/ und/ daß der<lb/>
+Gott aller Goͤtter/ Dehro <hi rendition="#fr">Durchlauchte Fuͤrſtl.<lb/>
+Fuͤrſtl. Haͤubter</hi> dafuͤr mit Fuͤrſtl. reichen Seegen<lb/>
+uͤberſchuͤtten/ und Sie zum Seegen ſetzen wolle immer<lb/>
+und ewiglich/ gehorſamlich und hertzbruͤnſtiglich wuͤn-<lb/>
+ſchen/ zu Dehro Fuͤrſtl. gnaͤdigem Schutze ſich ferner<lb/>
+in aller <hi rendition="#aq">U</hi>ntertaͤnigkeit empfehlende.</p><lb/>
+<p><hi rendition="#fr">Daß auch EE. Geſtr. Geſtr. die Hochloͤbl.<lb/>
+Fuͤrſtl. Regierung/ Ein Ehrenv. und Hochweiſ.<lb/>
+Rath/ Eine Ehrw. geſambte Prieſterſchafft/<lb/>
+die Herren</hi> <hi rendition="#aq">Rector</hi> und <hi rendition="#aq">Collegæ</hi> <hi rendition="#fr">bey der Schu-<lb/>
+le/ die Herr. von der Cantzley und Rent Camer/<lb/>
+die Herr. allerſeits/ Ein Hochl. Hoch- und Wol-<lb/>
+Adeliches/ auch Buͤrgerliches Frawenzimmer/<lb/>
+Eine gantze loͤbl. Buͤrgerſchafft/</hi> eß dem Seeligen<lb/>
+<hi rendition="#fr">Haubte/</hi> keinmal an Balſam und Oele <hi rendition="#aq">meritire-</hi><lb/>
+ten ruhmes und gedaͤchtnis werden ermangeln laſſen/<lb/>
+deſſen geben Sie auff heute gleichenfalls großgunſti-<lb/>
+ge/ und gutte anzeigung; Und wenn die Hochbetruͤbte<lb/>
+Fraw Wittib/ Herr Sohn/ und Fraw Tochter hie-<lb/>
+durch Sich kraͤfftiglich auffgerichtet befinden/ So iſ<lb/>
+auch Jhr eintzig hertzlicher wunſch/ daß der Geber al-<lb/>
+les gutten wolle wie E. E. <hi rendition="#fr">Geſtr. Geſtr.</hi> und E. C.<lb/>
+<fw place="bottom" type="catch">Hochw</fw><lb/>
+<pb facs="#f0015" n="[15]"/>
+Hochw. Rath mit dem Geiſt der Weißheit und deß<lb/>
+Verſtandes/ deß Rathes und der Staͤrcke zu heilſa-<lb/>
+mer Ambtes fuͤhrung iederzeit erfuͤllen/ Alſo Sie<lb/>
+ſambt den Herren/ Frauen und Jungfrauen allerſeits/<lb/>
+Einer gantz Loͤblichen <hi rendition="#aq">Commun</hi> und Stadt/ in er-<lb/>
+freulichem auffnehmen/ gutten Frieden/ und ge-<lb/>
+wnuͤſchter <hi rendition="#k">r</hi>uhe immerdar erhalten/ Dehnenſelbten<lb/>
+zu aller angenehmen und moͤglichen Dienſtgefliſſen-<lb/>
+heit ſich ergebende.</p><lb/>
+<p><hi rendition="#fr">Der</hi> <hi rendition="#g"><hi rendition="#k">Herr/</hi></hi> <hi rendition="#fr">der Gott uͤber alles lebendi-<lb/>
+ges Fleiſch/ der da Haͤubter in Jſrael emſetzet<lb/>
+und ordnet/ abſetzet und endert/</hi> wolle Jhme an<lb/>
+die Stelle deß nun durch ſeinen willen abgefallenen<lb/>
+<hi rendition="#aq">Superintendenten-</hi> <hi rendition="#fr">Haubtes</hi> <hi rendition="#k">e</hi>rſehen ein ander<lb/>
+<hi rendition="#fr">gelehrtes und bewehrtes Haubt/ das einen gut-<lb/>
+ten verſtand habe am HErrn/ das da halte ob<lb/>
+dem Fuͤrbilde der heilſamen Worte/ und ſein<lb/>
+Ambt redlich außrichte: Ein Haubt/ das fuͤr<lb/>
+der Gemeine deß HErren auß und eingehe/ und<lb/>
+ſie auß-und einfuͤhre/ das die Gemeine deß Her-<lb/>
+ren nicht ſey wie Schaffe ohne Hirten/ wie ein<lb/>
+Heer ohne Haubt/ das nicht die boßheit Jhren<lb/>
+Kopff auffrichte/ und allerhand unheil wieder<lb/>
+diß Lignitzſche Jſraẽl/</hi> und ſagen: <hi rendition="#fr">Sie haben kein<lb/>
+Haubt und keinen Schutz mehr/ nun wollen<lb/>
+wir ſie uͤberziehen und außrotten.</hi> 1. <hi rendition="#aq">Macc.</hi> 12. 54.</p><lb/>
+<p>Derſelbte getrewe GOtt wolle die verwundeten<lb/>
+und bluttenden Hertzen der Hochbetruͤbten verbinden<lb/>
+und heilen/ der Frau Wittib krafft und ſtaͤrcke ſeyn/<lb/>
+den H. Sohn/ denn einigen <hi rendition="#fr">Keſeleriſchen</hi> Stamm<lb/>
+<fw type="catch" place="bottom">und</fw><lb/>
+<pb facs="#f0016" n="[16]"/>
+und <hi rendition="#k">n</hi>ahmens Erben/ ſambt der Fr. Tochter/ lange<lb/>
+Zeit erhalten/ <hi rendition="#k">Er</hi>bewahre deß verſtorbenen Herren<lb/>
+<hi rendition="#aq">Superinten denten</hi> Seele in ſeiner Hand/ denn Leib<lb/>
+in dem Schos der Erden/ biß auf jenen groſſen Tag/<lb/>
+da Er mit allen Außerwehlten ſein <hi rendition="#fr">Haubt</hi> wird froͤ-<lb/>
+lich wiederumb aufheben/ die ewige Erloͤſung erſe-<lb/>
+hen<hi rendition="#i">!</hi> das <hi rendition="#aq">Euge Serve bone</hi> mit unaußſprechlichen<lb/>
+Freuden und <hi rendition="#k">e</hi>hren vernehmen/ und die Crone der<lb/>
+Gerechtigkeit und deß Lebens davon tragen: Da Er<lb/>
+denn auch <hi rendition="#fr">unſer durch mancherley Elend und<lb/>
+Truͤbſalen zur Erden gebeugetes Haubt</hi> wieder<lb/>
+auffrichten/ und zu ewigen herrlichen und ſeligen <hi rendition="#k">e</hi>h-<lb/>
+ren ſetzen wolle/ Amen! Amen!</p><lb/>
+<p><hi rendition="#fr">Wir ſchlieſſen numehr/ und reden unſeren</hi><lb/>
+Seel. Herren <hi rendition="#aq">Superintendenten</hi> mit denen/ et-<lb/>
+was verenderten worten/ an/ damit fuͤr ein 34. Jah-<lb/>
+ren eben an dieſem Orthe/ Ein Fuͤrtrefflicher Mann<lb/>
+<hi rendition="#k">e</hi>inem Hochverdienten und Hochberuͤhmbten <hi rendition="#aq">Supe-<lb/>
+rintendenten parentiret</hi> hat;</p><lb/>
+<p><hi rendition="#c"><note place="left"><hi rendition="#aq">G. B. D.<lb/>
+M. S. G.</hi></note><hi rendition="#aq">Dulce caput, <hi rendition="#k">Keselere,</hi> ſolo ſub-<lb/>
+tracte labanti,<lb/>
+Æternùm ſalve, perpetuumq́;<lb/>
+vale!</hi></hi></p></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+</body></text>  </TEI>

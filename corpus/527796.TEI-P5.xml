@@ -1,0 +1,2084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Ein Christliche Predig. über der Leich des Edlen vnnd Vesten Hansen von Liebenstein</title>
+<author>
+<persName ref="http://d-nb.info/gnd/11899669X">
+<surname>Andreä</surname>
+<forename>Jacob </forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">59</measure>
+<measure type="tokens">11546</measure>
+<measure type="types">2904</measure>
+<measure type="characters">80162</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:10:48Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/527796</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/527796</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/527796</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/527796</idno>
+<idno type="DTADirName">527796</idno>
+<idno type="DTAID">200271</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-200271-8</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Andreä, Jacob: Ein Christliche Predig. Tübingen, 1564.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Ein Christliche Predig. über der Leich des Edlen vnnd Vesten Hansen von Liebenstein</title>
+<author>
+<persName ref="http://d-nb.info/gnd/11899669X">
+<surname>Andreä</surname>
+<forename>Jacob </forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">59</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Ulrich Morharts Wittib</name></publisher>
+<pubPlace>Tübingen</pubPlace>
+<date type="publication">1564</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 S 1537/5 / 527796</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#fr">Ein Chꝛiſtliche Pꝛedig-</hi></titlePart><lb/>
+<titlePart type="desc"><hi rendition="#fr">über der Leich des Edlen vnnd Ve-<lb/>
+ſten Hanſen von Liebenſtein ſeliger<lb/>
+gedaͤchtnuß/ zů Göppingen den ſi-<lb/>
+benden Septembꝛis Anno</hi><lb/>
+<hi rendition="#aq">M. D. LXIII.</hi><lb/>
+<hi rendition="#fr">gehalten.</hi></titlePart></docTitle><lb/>
+<byline>Durch<lb/>
+<docAuthor><hi rendition="#fr">Jacobum Andꝛee</hi></docAuthor><hi rendition="#fr"> D. Pꝛopſt vnd</hi><lb/>
+Cantzler der Vniuerſitet zů<lb/>
+Tübingen.</byline><lb/>
+<docImprint><hi rendition="#fr">Getruckt zů</hi> <pubPlace><hi rendition="#fr">Tübingen</hi></pubPlace><hi rendition="#fr">/ bey</hi><lb/>
+<publisher>Vlrich Moꝛharts Wit-<lb/>
+tib</publisher>.<lb/>
+<docDate><hi rendition="#aq"><hi rendition="#i">M. D. <hi rendition="#g">LXIIII.</hi></hi></hi></docDate></docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="[2]"/>
+<pb facs="#f0003" n="[3]"/>
+<div type="preface" n="1"><head/>  <salute><hi rendition="#c"><hi rendition="#fr">Dem Edlen v<choice><abbr>ñ</abbr><expan>nd</expan></choice> Veſten<lb/>
+Philipſen von Liebenſtein/ ſeinem<lb/>
+günſtigen lieben Junckern/ wünſcht<lb/>
+Jacobus Andꝛee D.</hi><lb/>
+Gnad vnd frid in Chꝛiſto.</hi></salute><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">E</hi>S iſt ein gemeiner/ aber ſehꝛ</hi><lb/>
+ſchaͤdlicher bꝛauch in dieſer Welt/ das in<lb/>
+Glaubens ſachen/ ſo vnſer Seelen heil vnd<lb/>
+ſeligkeit belangen/ nicht allein auff das einig<lb/>
+vnfehlbar woꝛt Gottes/ ſonder auff den<lb/>
+groͤſſeſten vnd anſehelichſten hauffen der menſchen geſehen<lb/>
+würdt/ was der ſelbig vil Jar her v<choice><abbr>ñ</abbr><expan>nd</expan></choice> lange zeit geglaubt/<lb/>
+vnd für recht gehalten/ von dem woͤllen ſich auch ettwann<lb/>
+vernünfftige Leüt durch das hell außgetruckt woꝛt Got-<lb/>
+tes nicht abweiſen laſſen.</p><lb/>
+<p>Voꝛ ſellicher falſchen vnnd ſchaͤdlichen meinung aber<lb/>
+warnet vns der heilig Geiſt an vilen oꝛten der heiligen<lb/>
+Schꝛifft. Jeremie am 17. Capittel: So ſpꝛicht der<note place="right">Jere. xvij.</note><lb/>
+Herꝛ/ Verflůcht iſt der Man/ der ſich auff menſchen ver-<lb/>
+laßt/ vnnd helt flaiſch für ſeinem Arm/ vnd mit ſeinem<lb/>
+hertzen vom Herren weicht. Vnnd Moſes: Du ſolt nicht<note place="right">Exo. xxijj.</note><lb/>
+volgen der menge zům boͤſen. Vnd Chꝛiſtus rhuͤmet den<note place="right">Math. vij.</note><lb/>
+für ein klůgen Man/ der ſein Hauß auff ein Felſen bawet/<lb/>
+da nun ein Platzregen fiel/ vnd ein geweſſer kam/ vnd we-<lb/>
+beten die Winde v<choice><abbr>ñ</abbr><expan>nd</expan></choice> ſtieſſen an das Hauß/ fiel es doch nicht/<lb/>
+denn es was auff ein Felſen gebawet/ der aber iſt einem toͤ-<lb/>
+richten Man gleich/ der ſein Hauß auff den Sand bawet/<lb/>
+<fw type="sig" place="bottom">A ij</fw><fw type="catch" place="bottom">da nun</fw><lb/>
+<pb facs="#f0004" n="[4]"/>
+<fw place="top" type="header"><hi rendition="#b">Voꝛred.</hi></fw><lb/>
+da nun ein Platzregen fiel/ vnd kam ein geweſſer/ vnd we-<lb/>
+beten die Winde/ vnd ſtieſſen an das Hauß/ da fiel es/ vnd<lb/>
+thaͤt ein groſſen fahl.</p><lb/>
+<p>Dergleichen pflegt gemeinlich allen denen zůbegegnen/<lb/>
+ſo jres Glanbens oder wohns grund auff anderer Leüt<lb/>
+glauben geſetzt/ ſo dieſelbige jren Glauben endern/ ſo ha-<lb/>
+ben diſe kein grund mehꝛ/ darauff jr Glaub beſtehn moͤcht.</p><lb/>
+<p>So dargegen Rechtgeſchaffne Chꝛiſten nicht achten<lb/>
+was diſer oder jener glaube/ auch durch anderer Leüt ab<lb/>
+fahl in jrem Glauben nicht jrr oder zweifelhafftig man<lb/>
+den/ ſonder an der lehꝛ Chꝛiſti halten/ wann ſie gleich ſe-<lb/>
+hen/ das die gantz Welt daruon abwiche/ denn er iſt auff<lb/>
+ein Felſen den Herren Chꝛiſtum befeſtiget vnd gegründet.</p><lb/>
+<p>Dieweil dann Chꝛiſtlicher lieber Junckher nicht al-<lb/>
+lein Jr/ ſonder auch andere mehꝛ Gotsfurchtige Chꝛiſten<lb/>
+meine alte Pfarrkinder zů Goͤppingen mich auffs fleiſ-<lb/>
+ſigſt gebetten/ die Pꝛedig/ ſo ich über Hanſen von Lie-<lb/>
+benſtein ſeligen ewers Vetters Leich gethon/ auffzů-<lb/>
+ſchꝛeiben vnd in truck zůuerfertigen/ hab ich mich ermel-<lb/>
+ter vꝛſachen will<choice><abbr>ẽ</abbr><expan>en</expan></choice> ſouil mehꝛ bewegen laſſen ewern Chꝛiſt-<lb/>
+lichen begeren zůwilfahꝛen/ darmit nicht allein jr/ ſampt<lb/>
+der Chꝛiſtlichen Gemein zů Goͤppingen von wegen ſei-<lb/>
+ner Chꝛiſtlichen bekanntnuß vnd abſchids/ euch hetten ü-<lb/>
+ber ſeinem abſterben zů troͤſten/ denen er mit Rhat vnnd<lb/>
+hilff vil mahls auff das trewlichſt gedienet/ ſonder auch<lb/>
+andere in ſeinem Chriſtlichen abſchid ſich hetten zů-<lb/>
+erſehen/ die noch der zeit auff andere hohe Potentaten<lb/>
+vnd Paͤpſtiſche <hi rendition="#aq"><hi rendition="#i">Concilia</hi></hi> warten/ wiſſentliche Abgoͤtterey<lb/>
+vnd mißbreuch/ ſo ſie vermoͤg jres von Gott jnen beuolhen<lb/>
+Ampts zůthůn ſchuldig/ nicht abſchaffen woͤllen.</p><lb/>
+<fw place="bottom" type="catch">Dann</fw><lb/>
+<pb facs="#f0005" n="[5]"/>
+<fw type="header" place="top"><hi rendition="#b">Voꝛred.</hi></fw><lb/>
+<p>Dann da ſie ſehen werden/ woͤlcher geſtalt ſeliger ge-<lb/>
+daͤchtnuß euwer Vetter/ Hans vonn Liebenſtein<lb/>
+(ſo ein wetſer vernünfftiger berhatſamer Man/ deßglei-<lb/>
+chen auch nicht bald in eim groſſen gezürck gefunden/ wie<lb/>
+vil ſolcher v<choice><abbr>õ</abbr><expan>on</expan></choice> Adel gern beke<choice><abbr>ñ</abbr><expan>nn</expan></choice>en werd<choice><abbr>ẽ</abbr><expan>en</expan></choice>/ woͤlche ſein kundt-<lb/>
+ſchafft gehapt) ſouil Jar her auff ein Allgemeine verglei-<lb/>
+chung geſehen/ entlich aber dieſelbig/ vnnd auß was vꝛſa-<lb/>
+chen fallen laſſen/ erwegen werden/ verhoff ich zů dem All-<lb/>
+maͤchtigen/ es ſoll jnen durch Gottes gnad ſouil Chꝛiſt-<lb/>
+us nachgedenckens machen/ das ſie jrer ſelbſten/ auch<lb/>
+jrer Vnderthonen Seelen heil betrachten/ vnd derſelben<lb/>
+beſſern Rhat ſchaffen werden.</p><lb/>
+<p>Der Allmaͤchtig Gott vnnd Vatter vnſers Herren<lb/>
+Jeſu Chꝛiſti/ woͤll ſollicher Leüt Hertz/ ſo noch in vn-<lb/>
+nerſtand ſeines Euangeliums ſtecken/ mit der krafft vnnd<lb/>
+gnad ſeines heiligen Geiſts ruͤren/ das ſie der ſti<choice><abbr>m̃</abbr><expan>mm</expan></choice> war ne-<lb/>
+men/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice> gehoꝛſamlich<choice><abbr>ẽ</abbr><expan>en</expan></choice> volgen/ die der Vatter vom Him-<lb/>
+mel über ſeinen Son geredt vnd geſpꝛochen/ diß iſt mein<note place="right">Math iij. xvij.<lb/>
+Joan. x.</note><lb/>
+lieber Son/ an dem ich ein wolgefallen habe/ <hi rendition="#fr">Den hoͤ-<lb/>
+rend/</hi> der ſie auß allem jrrſal erloͤſen/ vnd durch die einige<lb/>
+rechte Thür/ woͤlche er allein iſt/ in das ewig leben einfuͤ-<lb/>
+<hi rendition="#c">ren kan. Demſelbigen hiemit in den gwaltigen vnd<lb/>
+gnaͤdigen ſchirm Gottes beuolhen. Geben</hi></p><lb/>
+<dateline><hi rendition="#c">zů Tübingen den erſten Octo-<lb/>
+bris. Anno 1563.</hi></dateline></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<fw type="sig" place="bottom">A iij</fw><fw type="catch" place="bottom">Auß</fw><lb/>
+<pb facs="#f0006" n="[1]"/>
+<div type="fsSermon" n="1"><head/>  <div type="fsBibleVerse" n="2"><head/>  <p><hi rendition="#c"><hi rendition="#fr">Auß dem andern bůch<lb/>
+der König im xx. Capittel.</hi></hi><lb/>
+<cit><quote>Zů der zeit/ ward Hiskia tod kranck/ vnd der Pro-<lb/>
+phet Eſaia/ der ſon Amoz kam zů jme/ vnd ſprach<lb/>
+zů jm/ So ſpricht der Herr/ beſchicke dein Hauß/<lb/>
+denn du würſt ſterben vnd nicht leben pleiben/ ꝛc.</quote><bibl/></cit></p></div><lb/>
+<div type="fsMainPart" n="2"><head><hi rendition="#b">Außlegung.</hi></head><lb/>
+<p><hi rendition="#in">E</hi>S hoͤꝛt ewer Lieb/ was für ein kur-<lb/>
+tze ernſtliche Predig der Pꝛophet E-<lb/>
+ſaias/ dem frommen Koͤnig Hiskie<lb/>
+auß dem beuelch Gottes in ſeinem<lb/>
+Todtbeth gethon habe. Jn woͤlcher<lb/>
+der Koͤnig erinnert vnnd ernſtlich vermanet<lb/>
+würdt/ das er ſein Haußhaltung auff das beſt<lb/>
+zůſamen oꝛdne/ denn er werde derſelben nicht<lb/>
+lenger voꝛſtehn koͤnden/ ſonder muͤſſe derſelben<lb/>
+abſtehn/ vnd ſterben/ woͤlches zwar ein wun-<lb/>
+derbarliche Pꝛedig geweſen iſt.</p><lb/>
+<p>Dann weil der Koͤnig Hiskia tod kranck la-<lb/>
+ge/ ſolt jn billich der Pꝛophet mit der Haußſoꝛg<lb/>
+vnbekümmert gelaſſen/ vnnd ſeinen Nachkom-<lb/>
+men dieſelbige beuolhen haben/ die das Koͤnig-<lb/>
+reich erben v<choice><abbr>ñ</abbr><expan>nd</expan></choice> künfftiglich verwalten wurden/<lb/>
+<fw place="bottom" type="catch">Zů</fw><lb/>
+<pb facs="#f0007" n="1[2]"/>
+<fw type="header" place="top">Hanſen von Liebenſtein.</fw><lb/>
+Zů dem/ ſo iſt Hiskia/ nicht ein Abgoͤttiſcher<lb/>
+noch Gottloſer/ ſonder ein frommer <choice><sic>Gotsfoͤ:ch-<lb/>
+tiger</sic><corr>Gotsfoͤrch-<lb/>
+tiger</corr></choice> Koͤnig geweſen/ der gethon hat/ was dem<lb/>
+Herrn wol gefiel/ wie ſein vatter Dauid/ der die<lb/>
+Abgoͤtterey im Koͤnigreich Juda abgethon/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice><note place="right">ij. Regum xviij.<lb/>
+ij. Chꝛon. xxix.</note><lb/>
+die aͤrine Schlang zerſchmettert/ woͤlche Mo-<lb/>
+ſes gemacht hat/ der auch durch ſein geiſtliche v<choice><abbr>ñ</abbr><expan>nd</expan></choice><lb/>
+weltliche Rhaͤt ein Refoꝛmation der Kirchen<lb/>
+vnd des rechten waren Gottes dienſts nach dem<lb/>
+Geſetze des Herren im gantzen Koͤnigreich Ju-<lb/>
+da angeſtelt/ vnd alſo ſein Hertz recht gegen dem<lb/>
+Herren gſtanden/ das es ſcheinet/ als hette er di-<lb/>
+ſer Pꝛedig des Pꝛopheten gar nicht bedürfft/<lb/>
+woͤlche vil mehꝛ den Gottloſen zůgehoͤꝛet/ die in<lb/>
+jrem Gottloſen weſen zů jrer ſelbſt/ vnnd deren<lb/>
+Vnderthonen ewig verderben/ voꝛtfaren/ das<lb/>
+ſie durch ſolliche ernſtliche Pꝛedig zůr bůß be-<lb/>
+wegt/ vnd jr leben nach Gottes willen anſtellen<lb/>
+moͤchten. Man ſchꝛeibt von dem Gottloſen wuͤ-<lb/>
+terich vnd Tyrannen/ dem Keiſer <hi rendition="#aq">Nerone/</hi> da er<note place="right">Nero ein Gott-<lb/>
+loſer Herꝛ.</note><lb/>
+von einem gehoͤꝛt/ der gewünſchet/ das nach ſei-<lb/>
+nem tod die gantz Welt mit Fewꝛ angeſtoſſen<lb/>
+würde/ ſolte er geſagt haben/ <hi rendition="#aq">imò etiam me viuo,</hi><lb/>
+das iſt/ er woͤlt das es bey ſeinem leben geſchehe/<lb/>
+ſo gar hat jn nichts angefochten/ das nach ſei-<lb/>
+nem tod im Roͤmiſchen Reich wol regiert vnnd<lb/>
+haußgehalten wurde.</p><lb/>
+<fw type="catch" place="bottom">Aber</fw><lb/>
+<pb facs="#f0008" n="[3]"/>
+<fw place="top" type="header">Pꝛedig über der Leich/</fw><lb/>
+<p>Aber der heilig Geiſt richt vnnd fertiget die<lb/>
+Kinder Gottes weit anderſt ab/ wie in diſer<lb/>
+Pꝛedig des Pꝛopheten Eſaie zuͤſehen iſt. Jn woͤl-<lb/>
+cher er den Künig Hiskia zweyer notwendiger<lb/>
+ſachen erinnert/ die erſt iſt/ das er ſich ſchick auff<lb/>
+die Rechenſchafft/ die er Gott thon muͤß von<lb/>
+wegen der verwaltung des Koͤnigreichs Juda/<lb/>
+ſo lang es jme von Gott beuolhen geweſen iſt.<lb/>
+Die ander/ das er die fürſehung thuͤ/ darmit<lb/>
+auch nach ſeinem tod/ im Koͤnigreich vnd vnder<lb/>
+ſeinen Nachkommen frid vnnd einigkeit/ beſon-<lb/>
+ders aber der recht Gottesdienſt vnder dem<lb/>
+Volck Gottes erhalten werde/ wie Gott den ſel-<lb/>
+ben durch ſein<choice><abbr>ẽ</abbr><expan>en</expan></choice> des Koͤnigs Hißkie dienſt refoꝛ-<lb/>
+miert/ vnd nach ſeinem willen widerumb ange-<lb/>
+ſtellet hat. Woͤlche beide ſtuck allen Chꝛiſt<choice><abbr>ẽ</abbr><expan>en</expan></choice>men-<lb/>
+ſchen/ beſonders aber den Weltlichen Herꝛen v<choice><abbr>ñ</abbr><expan>nd</expan></choice><lb/>
+Regenten/ denen Gott Vnderthone befolhen<lb/>
+hat/ wol zuͤbedencken ſeyen/ von denen wir auff<lb/>
+dißmal kürtzlich vnd einfeltig reden woͤllen.</p><lb/>
+<p><note place="left">Vnſere haͤndel<lb/>
+ſterben nit mit<lb/>
+vns ab.</note>Dann vnſer verwaltung/ vnnd was wir<lb/>
+auff Erden gehandelt/ ſtirbt nicht mit vns ab/<lb/>
+wie etliche vil vnglaubige Leüt halten/ ſonder<lb/>
+derſelben gedechtnuß bleibt bey Gott/ der es auch<lb/>
+von einem jeden foꝛdern würdt.</p><lb/>
+<p>Alſo lehꝛet die heilige Schꝛifft/ deſſen die<lb/>
+Chꝛiſten taͤglich erinnert werden ſollen/ das die<lb/>
+<fw place="bottom" type="catch">aͤmpter</fw><lb/>
+<pb facs="#f0009" n="2[4]"/>
+<fw type="header" place="top">Hanſen von Liebenſtein.</fw><lb/>
+aͤmpter in der Welt nicht vngefehꝛ/ ſonder durch<note place="right">Alle aͤmpter von<lb/>
+Gott außgethei<lb/>
+let.<lb/>
+Joan. iij.</note><lb/>
+den weiſen rhat Gottes außgetheilet werden/<lb/>
+wie geſchꝛiben ſtehet: Ein Menſch kan nichts<lb/>
+nemmen/ es werde jm dann gegeben vom Him-<lb/>
+mel. Fürnemlich aber iſt ſollichs von der Ober-<lb/>
+keit klar vnnd offenbar/ die ein oꝛdnung Gottes<note place="right">Rom. iij.<lb/>
+Dan. ij.<lb/>
+Pꝛoverb. xix<gap reason="illegible" unit="chars"/></note><lb/>
+iſt/ über woͤlche der Herꝛ mit ernſt helt/ vnnd ſie<lb/>
+nach ſeinem willen vnd wolgefallen endert.</p><lb/>
+<p>Wie nun der Herꝛ allerley beruͤff vnd aͤmp-<lb/>
+ter in der Welt außtheilet/ alſo lehꝛet auch die<lb/>
+heilige Schꝛifft/ das er auff ein beſtimpten Tag<note place="right">Der groſſe vnd<lb/>
+letſte Reichßtag<lb/>
+Gottes.</note><lb/>
+alle Menſchen für ſich foꝛdern/ vnd jres Hauß-<lb/>
+haltens rechenſchafft von jn<choice><abbr>ẽ</abbr><expan>en</expan></choice> empfangen werd.<lb/>
+Dann alſo redet der Herꝛ im Pꝛopheten Eſaia:<note place="right">Eſaie xlr.</note><lb/>
+So war als ich lebe/ ſpꝛicht der Herꝛ/ Mir ſol-<lb/>
+len alle Knie gebogen werden/ vnnd alle Zungen<lb/>
+ſollen Gott bekennen. Vnd S. Paulus ſchꝛeibt:<note place="right">Rom. xiiij.</note><lb/>
+Wir werden all für den Richterſtůl Chꝛiſti dar<lb/>
+geſtellet werden/ ſo würdt ein jeglicher für ſich<lb/>
+ſelbſt rechenſchafft geben. Chꝛiſtus der Herꝛ ſa-<lb/>
+gets noch deütlicher/ vnd mit beſondern ſchꝛoͤck-<lb/>
+lichen woꝛten: Jch ſage euch/ ſpꝛicht er/ das die<lb/>
+Menſchen muͤſſen rechenſchafft geben/ am juͤng-<note place="right">Matth. xxij.</note><lb/>
+ſten gericht/ von einem jeglichen vnnützen woꝛt/<lb/>
+das ſie geredt haben.</p><lb/>
+<p>Diſe zeügnuſſen allzůmal/ neben vnnd mit<lb/>
+andern vil mehꝛ dergleichen/ erinnern vns deüt-<lb/>
+<fw type="sig" place="bottom">B</fw><fw type="catch" place="bottom">lich/</fw><lb/>
+<pb facs="#f0010" n="[5]"/>
+<fw place="top" type="header">Pꝛedig über der Leich/</fw><lb/>
+lich/ das wir alle klein vnnd groß/ hoch vnnd<lb/>
+niders ſtands/ auff dem groſſen vnnd ſchꝛoͤckli-<lb/>
+chen tag des Herꝛen/ werden muͤſſen aller vn-<lb/>
+ſer Woꝛt vnnd Werck halben/ rechenſchafft ge-<lb/>
+ben/ nicht einem bloſſen Menſchen/ ſonder dem<lb/>
+<note place="left">Geneſ. ij.<lb/>
+Actoꝛ. xx.<lb/>
+Rom. xij.</note>gerechten Allmechtigen Gott/ der vns auß nichts<lb/>
+erſchaffen/ mit ſeinem Blůt erloͤſet/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice> auff Er-<lb/>
+den wenig oder vil zůuerwalten/ beuolhen hat.</p><lb/>
+<p>Dieweil wir dann alle wiſſen/ das Gott nit<lb/>
+allein ein Barmhertziger/ Gnediger/ ſonder auch<lb/>
+<note place="left">Syrach v.</note>ein ſtrenger Richter iſt/ woͤlcher/ wie Syrach<lb/>
+ſpꝛicht/ gleich ſo baldt zürnen kan/ als gnaͤdig er<lb/>
+iſt/ ſollen wir billich vns diſe ſoꝛge voꝛ allen an-<lb/>
+dern angelegen ſein laſſen/ das wir alle ſtundt<lb/>
+vnſer rechnung geſtellet haben/ darmit/ wann<lb/>
+er vns in ſein Cantzley beſchꝛeibe/ wir gerüſtet/<lb/>
+vnnd mit vnſer Rechnung gefaſſet ſeyen.</p><lb/>
+<p>Darmit aber nicht jemand gedencken moͤch-<lb/>
+te/ er koͤndte wol ſollichs ſparen/ biß jn Gott mit<lb/>
+einer Kranckheit heymſůchte/ oder jhm ein be-<lb/>
+<note place="left">Niemandt ſoll<lb/>
+ſein beſſerung<lb/>
+verziehen.</note>ſondern Pꝛopheten ins Hauß/ wie hie dem<lb/>
+Hißkia den Eſaiam/ ſchicken werde. So hatt<lb/>
+vns Chꝛiſtus diß fahls/ ein lauttern beſcheid<lb/>
+<note place="left">Luce xxj.</note>geben/ der lauttet alſo/ da er ſpꝛicht: Wachet<lb/>
+zů aller zeit/ vnnd bettet/ das jhꝛ wirdig wer-<lb/>
+den moͤgen/ zůentfliehen diſem allem/ das ge-<lb/>
+<fw place="bottom" type="catch">ſchehen</fw><lb/>
+<pb facs="#f0011" n="3[6]"/>
+<fw type="header" place="top">Hanſen von Liebenſtein.</fw><lb/>
+ſchehen ſoll/ vnnd zůſtehen für des Menſchen<lb/>
+Son. Vnnd abermals: Wachet/ dann jhꝛ<note place="right">Matth. xxv. </note><lb/>
+wiſſet weder tag noch ſtunde/ in woͤlcher des<lb/>
+Menſchen Son kommen würdt. Vnd aber-<note place="right">Luce xij.</note><lb/>
+mals ſpꝛicht Chꝛiſtus: Das ſollet jr aber wiſſen/<lb/>
+wann ein Haußherꝛ wüßte/ zů woͤlcher ſtunde<lb/>
+der Dieb keme/ ſo wachet er/ vnnd ließ nicht in<lb/>
+ſein Hauß bꝛechen/ Darumb ſeidt jr auch bereit/<lb/>
+denn des Menſchen Son würdt kommen zů<lb/>
+der ſtunde/ da jr nicht meinet.</p><lb/>
+<p>Diſe Spꝛüch Chꝛiſti lehꝛen vns/ das wir<lb/>
+nicht jrgendt auff ein Propheten warten/ oder<lb/>
+vnſer rechnung ettlich Jar/ Tag/ oder Monat/<lb/>
+auffſchieben moͤgen/ ſonder vermanet vns gantz<lb/>
+trewlich/ wir ſollen alle tag vnnd ſtund gefaſ-<lb/>
+ſet ſein/ dann die zeit/ wann Gott ein jeden ab-<lb/>
+foꝛdern würdt/ ſey allen Menſchen verboꝛgen/<lb/>
+vnd allein Gott bekannt.</p><lb/>
+<p>So bezeügen es leider vil Exempel der<lb/>
+taͤglichen erfahꝛung/ das Gott jr etliche ſo ſchnell<lb/>
+vnd vnuerſehens auß diſem zeit abfoꝛdert/ das<lb/>
+ſie jhꝛ Hauß nicht beſchicken koͤnden/ vnd alſo<lb/>
+nicht einem jeden Tag vnd Stunde gibt/ ſich<lb/>
+nach notturfft auff dem Todtbett zůbeden-<lb/>
+cken/ vnd ſein abſchid auß diſer welt ſaͤliglichen<lb/>
+zůmachen. Der vꝛſach<choice><abbr>ẽ</abbr><expan>en</expan></choice> wir diſe kurtze Pꝛedig des<lb/>
+<fw type="sig" place="bottom">B ij</fw><fw type="catch" place="bottom">Pꝛophe-</fw><lb/>
+<pb facs="#f0012" n="[7]"/>
+<fw type="header" place="top">Pꝛedig über der Leich/</fw><lb/>
+<note place="left"><gap reason="illegible" unit="chars"/></note>Pꝛopheten Eſaie/ weil wir noch friſch vnnd ge-<lb/>
+ſundt/ vnd bey gůter vernunfft ſeyn/ wolbeden-<lb/>
+cken/ vnd vns nach derſelben ſchicken ſollen.</p><lb/>
+<p>Auff das wir aber dieſelbig deſte beſſer ver-<lb/>
+ſtehen/ vnd vns auch nutz machen koͤnden/ ſollet<lb/>
+jr erſtlich wiſſen/ das zweyerley Heüſer ſein/ die<lb/>
+ein Chꝛiſtenmenſch beſchicken ſoll/ dem in diſer<lb/>
+Welt auch andtre Leüt zůuerwalten/ von dem<lb/>
+Herꝛen beuolhen ſein.</p><lb/>
+<p><note place="left">Ein jeder Chꝛiſt<lb/>
+iſt ein Gottes-<lb/>
+hauß.<lb/>
+Joan. xiiij.</note>Das ein iſt das klein Hauß/ eines jeglichen<lb/>
+Menſchen Seel vnd Leib/ von woͤlchem Hauß<lb/>
+der Herꝛ Chꝛiſtus redet/ da er ſpꝛicht: Wer mich<lb/>
+liebet/ der würdt meine woꝛt halten/ vnd mein<lb/>
+Vatter würdt jn lieben/ vnd wir werden zů jm<lb/>
+kommen/ vnd wohnung bey jme machen. Vnd<lb/>
+<note place="left">ij. Coꝛinth. vj.</note>S. Paulus: Jr ſeyt der Tempel des Lebendigen<lb/>
+Gottes/ wie dann Gott ſpꝛicht: Jch wil in jnen<lb/>
+wohnen/ vnnd in jhnen wandlen/ vnnd wil jhꝛ<lb/>
+Gott ſein/ vnnd ſie ſollen mein Volck ſein. Die<lb/>
+Spꝛüch bezeügen/ das der Chꝛiſten Seelen v<choice><abbr>ñ</abbr><expan>nd</expan></choice><lb/>
+Leib nicht allein Heüſer/ ſonder Gottes Heüſer<lb/>
+vnd Kirchen ſein/ in woͤlchen Gott als in einem<lb/>
+Tempel wohnen will.</p><lb/>
+<p>So erfoꝛdert nun der Pꝛophet von Hiß-<lb/>
+kia/ vnd allen ſterbenden Menſchen/ das ſie daß<lb/>
+Hauß jres Hertzen vnd verſtands dermaſſen be<lb/>
+ſchicken/ darmit ſie deßhalben Gott gůte rechen-<lb/>
+<fw type="catch" place="bottom">ſchafft</fw><lb/>
+<pb facs="#f0013" n="4[8]"/>
+<fw place="top" type="header">Hanſen von Liebenſtein.</fw><lb/>
+ſchafft an dem tag geben koͤnden/ den er allem<lb/>
+Fleiſch beſtimpt hat.</p><lb/>
+<p>Weil denn der Apoſtel bezeügt/ was nicht<note place="right">Rom. x<gap reason="illegible" unit="chars"/><lb/>
+Geb. xj.</note><lb/>
+auß glauben iſt/ das ſey alles Sünde/ vnnd one<lb/>
+den Glauben es vnmüglich ſey Gott gefallen/<lb/>
+ſo ſoll voꝛ allen dingen ein jeglicher Chꝛiſten-<note place="right">Ein jeder <gap reason="illegible" unit="chars"/></note><lb/>
+menſch ſeines Glaubens gewiß ſein/ vnnd nicht<lb/>
+in eim beſchwerlichen zweifel ſtehen/ dann wer<lb/>
+da zweifelt/ ſpꝛicht S. Jacob/ der iſt gleich wie<lb/>
+des Meeres woge/ die vom Wind getrieben<lb/>
+vnd gewebd würdt/ vnnd ein ſollicher Menſch/<lb/>
+ſchꝛeibt er weiter/ dencke nit/ das er etwas von<lb/>
+dem Herꝛen empfahen werde. Ein zweifeler<lb/>
+iſt vnbeſtendig in allen ſeinen weg<choice><abbr>ẽ</abbr><expan>en</expan></choice>. Alſo ſpꝛicht<lb/>
+auch Chꝛiſtus: Wer aber nicht glaubt/ der würt<note place="right">Marci xvj.</note><lb/>
+verdampt.</p><lb/>
+<p>Dann vnſer Saͤligkeit ſtehet fürnemlich<note place="right">Warauff vnſer<lb/>
+ſaͤligkeit ſtehe.</note><lb/>
+auff diſen Puncten/ das wir wiſſen/ wie Gott<lb/>
+gegen vns geſinnet ſeye/ vnnd wie wir vns hin-<lb/>
+widerumb gegen jhm verhalten ſollen/ woͤlches<lb/>
+zwar vns weder angeboꝛen/ noch wir mit vn-<lb/>
+ſerm verſtandt vnd vernunfft erlangen moͤgen.<lb/>
+Dann Gott/ ſpꝛicht Sanct Paulus/ wohnet<note place="right">j. Tim. vj.</note><lb/>
+in einem liecht/ da niemandt zů kommen kan/<lb/>
+verſtehe/ mit der bloſſen vernunfft/ ſo vernempt<lb/>
+der natürlich Menſch nichts vom Geiſt Gottes/<lb/>
+Es iſt jm ein thoꝛheit/ ſpꝛicht der Apoſtel/ vnnd<note place="right">j. Coꝛinth. <gap reason="illegible" unit="chars"/></note><lb/>
+<fw place="bottom" type="sig">B iij</fw><fw place="bottom" type="catch">kan</fw><lb/>
+<pb facs="#f0014" n="[9]"/>
+<fw type="header" place="top">Pꝛedig über der Leich/</fw><lb/>
+kan es nicht erkennen/ dann er würdt von Geiſt-<lb/>
+lichen ſachen gefragt.</p><lb/>
+<p>Dieweil wir denn von Natur alle blindt<lb/>
+<note place="left">Joan. I. viij.<lb/>
+Chꝛiſtus der eini<lb/>
+ge wegweiſer<lb/>
+ins ewig le-<lb/>
+ben.</note>ſeyen/ vnnd Gott nicht erkennen/ hatt Gott ſei-<lb/>
+nen Son geſandt/ woͤlcher das Liecht iſt/ das<lb/>
+im Finſternuß ſcheinet/ der in des Vatters ſchoß<lb/>
+iſt/ der hatt es vns verkündiget/ woͤlcher nicht<lb/>
+allein in den Tagen ſeiner Menſchwerdung/<lb/>
+ſonder auch zůuoꝛ durch die Patriarchen vnnd<lb/>
+Pꝛopheten/ vnnd hernach durch die Apoſtel/<lb/>
+<note place="left">Joan. xv.<lb/>
+ij. Tim. iij.<lb/>
+Actoꝛ. xx.</note>vns den willen ſeines Vatters deütlich/ klar/<lb/>
+hell/ vnd nach aller notturfft/ ſo vil wir in diſer<lb/>
+Welt zů vnſerm ewigen heil wiſſen ſollen/ gnuͤg-<lb/>
+ſam gelehꝛet hat.</p><lb/>
+<p>Vnd wiewol von dem allein weitleüffig in<lb/>
+den Buͤchern des Alten v<choice><abbr>ñ</abbr><expan>nd</expan></choice> Newen Teſtaments<lb/>
+gehandlet/ ſo mag es doch in wenig/ nemlich in<lb/>
+<note place="left">Drey Artickel<lb/>
+oder Jtem eins<lb/>
+jeden Chꝛiſten<lb/>
+rechnung.</note>drey Poſten oder Artickel wol begriffen/ vnd ge<lb/>
+ſtellet werden/ auff woͤlchen das gantze heil vn-<lb/>
+ſerer Seelen berůwet.</p><lb/>
+<p>Der erſt iſt/ woͤlchen der Son Gottes in der<lb/>
+<note place="left">Der erſte Jtem/<lb/>
+iſt rechte erkant-<lb/>
+nuß der Sün-<lb/>
+den.<lb/>
+Gen. iij.<lb/>
+Pſalm. lj.<lb/>
+Joan. iij.<lb/>
+Epheſ. ij.</note>H. Schꝛifft lehꝛet/ das wir nicht allein die ge-<lb/>
+bott Gottes mit ſündtlichen wercken übertret-<lb/>
+ten/ ſonder auch alle von dem erſten Menſchen<lb/>
+an in Sünden empfangen vnd geboꝛen/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice> von<lb/>
+natur Kinder des zoꝛns/ der vngnaden Gottes/<lb/>
+vnd der ewigen verda<choice><abbr>m̃</abbr><expan>mm</expan></choice>nuß/ ja durch die Sün-<lb/>
+<fw type="catch" place="bottom">de</fw><lb/>
+<pb facs="#f0015" n="5[10]"/>
+<fw type="header" place="top">Hanſen von Liebenſtein.</fw><lb/>
+de todt ſeyen/ auß woͤlcher not wir vns ſelbſt ſo<lb/>
+wenig helff<choice><abbr>ẽ</abbr><expan>en</expan></choice> koͤnd<choice><abbr>ẽ</abbr><expan>en</expan></choice> oder vermoͤg<choice><abbr>ẽ</abbr><expan>en</expan></choice>/ als ein todter<note place="right">Coloſſ. ij.</note><lb/>
+verſtoꝛbner Leib/ ſich ſelbſt widerumb zům leben<lb/>
+auffricht<choice><abbr>ẽ</abbr><expan>en</expan></choice> kan. Daru<choice><abbr>m̃</abbr><expan>mb</expan></choice> ſich alles Fleiſch voꝛ dem<lb/>
+angeſicht Gottes demuͤtigen/ vnd alle Heiligen<note place="right">j. Petri iiij.</note><lb/>
+vmb vergebung der Sünden bitten muͤſſen/ wie<lb/>
+Dauid im Pſalmen ſagt: Jch ſpꝛach/ ich wil dem<note place="right">Pſalm. xxxij.</note><lb/>
+Herꝛn mein übertrettung bekennen/ da vergab-<lb/>
+ſtu mir die miſſethat meiner Sünde. Vnd aber-<lb/>
+mals ſagt er: Herꝛ/ ſo du wilt die Sünde zůrech-<note place="right">Pſalm. cxxx.</note><lb/>
+nen/ wer wil voꝛ dir beſtehen? Vnd abermals:<note place="right">Pſalm. cxliij.</note><lb/>
+Herꝛ/ tritt mit deinem Diener nit in das gericht/<lb/>
+denn der lebt nit/ der voꝛ dir beſtehen moͤg. Alſo<lb/>
+lehꝛet auch Chꝛiſtus ſeine Jünger/ die lieben A-<lb/>
+poſtel betten/ Vergib vns vnſer ſchuldt/ wie wir<note place="right">Matth. vj<gap reason="illegible" unit="chars"/><lb/>
+Luce vj.</note><lb/>
+vergeben vnſern ſchuldigern/ ꝛc.</p><lb/>
+<p>Dann in diſem erſten Poſten oder Artickel/<lb/>
+kan ſich niemandt entſchuldigen/ wie fro<choice><abbr>m̃</abbr><expan>mm</expan></choice> vnd<lb/>
+heilig er auch iſt. Wir haben all geſündigt/ ſa-<note place="right">Rom. iij.</note><lb/>
+get der Apoſtel/ vnd mangeln des rhůms Got-<lb/>
+tes/ wir koͤnd<choice><abbr>ẽ</abbr><expan>en</expan></choice> vns nichts/ de<choice><abbr>ñ</abbr><expan>nn</expan></choice> vnſerer ſchwach-<lb/>
+heit/ aber gar nicht der Gerechtigkeit voꝛ Gott<lb/>
+dem Herꝛen rhuͤmen. All vnſer Gerechtigkeit/<lb/>
+ſaget Eſaias/ iſt/ wie ein vnrein vnflaͤtig tůch/<note place="right">Eſaie lxiiij<gap reason="illegible" unit="chars"/></note><lb/>
+das man ehꝛen halb nicht wol nennen darff/<lb/>
+<hi rendition="#aq">pannus menſtruatæ.</hi></p><lb/>
+<p>Dieweil denn Gott rein vnd gerecht/ ja die<lb/>
+<fw type="catch" place="bottom">reinig-</fw><lb/>
+<pb facs="#f0016" n="[11]"/>
+<fw place="top" type="header">Pꝛedig über der Leich/</fw><lb/>
+reinigkeit/ Gerechtigkeit/ vnnd heiligkeit ſelbſt<lb/>
+iſt/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice> aber die Gerechtigkeit kein gemeinſchafft<lb/>
+hat mit der Vngerechtigkeit/ ſo muͤſſen wir bey<lb/>
+<note place="left">Die Sünder ha-<lb/>
+ben jhrer natur<lb/>
+halben kein recht<lb/>
+im Himmel.</note>diſem Poſten erſtlich bekennen/ das wir kein<lb/>
+Recht im Himmel haben/ ja das vns der Him-<lb/>
+mel mit Recht abgeſpꝛochen/ vnd wir billich als<lb/>
+die vnreine/ vngerechte Menſchen/ auß dem<lb/>
+Himmel/ zů dem vnreinen/ vngerechten Sa-<lb/>
+than/ in abgrundt der Hellen verdampt wer-<lb/>
+den. Dieweil wir nicht in der Gerechtigkeit be-<lb/>
+<note place="left">Geneſ. j. iij.<lb/>
+Epheſ. iij.</note>ſtanden/ darinnen vnſere erſte Eltern erſchaf-<lb/>
+fen woꝛden/ ſonder von Gott vnd ſeinem Gebott<lb/>
+abgewichen/ vnd den Sathan vns haben ver-<lb/>
+fuͤhꝛen/ vnd betriegen laſſen.</p><lb/>
+<p>Wer dieſen Jtem in ſeiner rechnung mit<lb/>
+einem bůßfertigen hertzen ſtellen vnd ſetzen kan/<lb/>
+der hat die erſte ſtaffel zům ewigen leben/ recht<lb/>
+angetretten.</p><lb/>
+<p><note place="left">Die Sünde ſol<lb/>
+von hertzen er-<lb/>
+kennet werden.<lb/>
+Pſalm. lj.<lb/>
+Matth. xxvij.</note>Es můß aber ein Menſch diſen erſten Jtem<lb/>
+nit mit lachen dem Herꝛen fürhalten/ ſonder mit<lb/>
+hertzlich<choice><abbr>ẽ</abbr><expan>en</expan></choice> bittern zaͤhern/ vnd thꝛaͤnen/ wie wir<lb/>
+vom Dauid vnnd Petro leſen/ die bitterlichen<lb/>
+jre Sünde beweinet haben/ Dann ſo ſich einer<lb/>
+entſetzen vnd fürchten ſol/ der ſeinem Landsfür-<lb/>
+ſten zů billicher vngnaden beweget hat/ wie<lb/>
+ſolt ſich dann nicht ein Menſch entſetzen/ der<lb/>
+Gott ſeinen Schoͤpffer/ mit vnzalbar vil Sün-<lb/>
+<fw place="bottom" type="catch">den/</fw><lb/>
+<pb facs="#f0017" n="6[12]"/>
+<fw type="header" place="top">Hanſen von Liebenſtein.</fw><lb/>
+den/ zům zoꝛn vnnd vngnaden beweget/ gegen<note place="right">Pſalm. xxij.</note><lb/>
+woͤlchem wir weniger denn Würmlin gerech-<lb/>
+net werden ſollen. Wie im Büch Job geſchꝛiben<note place="right">Job xxv.</note><lb/>
+ſtehet: Sihe/ der Mon ſcheinet noch nicht/ vnd<lb/>
+die Stern ſind noch nicht rein fuͤr ſeinen augen/<lb/>
+wie vil weniger ein Menſch/ die Made/ vnd ein<lb/>
+Menſchenkind der Wurm.</p><lb/>
+<p>Vnnd hie laß ſich kein ſein ſicher Hertz be-<note place="right">Niemandt ſoll<lb/>
+ſicher ſein.<lb/>
+Gen. vij.<lb/>
+ij. Sam. xvij.<lb/>
+Matth. xxvij.</note><lb/>
+triegen/ das jhn jetzt die Sünde nicht auficht/<lb/>
+dann da ſie im Cain auffwachet/ ſpꝛach er: Mei-<lb/>
+ne Sünd iſt groͤſſer/ denn das ſie mir verzigen<lb/>
+werde. Achitophel vnd Jndas erhencken ſich<lb/>
+ſelbſt/ da die Sünde in jhnen lebendig würdt.<lb/>
+Woͤlche Exempel alle rohloſe Menſchen beden-<lb/>
+cken ſollen/ die alſo in jhren Sünden foꝛtfahꝛen/<lb/>
+vnnd Gottes trawungen in wind ſchlagen vnd<lb/>
+verachten/ vnnd vermeinen ſie haben noch zeit<lb/>
+genůg Bůß zůwircken/ die etwan übereilet wer-<lb/>
+den moͤchten.</p><lb/>
+<p>Der ander Jtem vnſerer rechnung iſt ein<note place="right">Der ander It<choice><abbr>ẽ</abbr><expan>em</expan></choice><lb/>
+vnſerer rechn<choice><abbr>ũ</abbr><expan>un</expan></choice>g<lb/>
+iſt das recht er-<lb/>
+kanntnuß Chꝛi-<lb/>
+ſti.<lb/>
+Luce ij.<lb/>
+Galat. iiij.<lb/>
+Eſaie liij.<lb/>
+Rom. iiij. v.</note><lb/>
+recht lebendige erkanntnuß vnſers Herꝛen vnnd<lb/>
+Seligmachers Jeſu Chꝛiſti/ von woͤlchem die<lb/>
+H. Schꝛifft zeüget/ das er warhafftiger Gott<lb/>
+vnd Menſch/ vom Vatter von ewigkeit/ vnnd<lb/>
+Maria in der zeit der gnaden/ geboꝛn/ alle ſtraff<lb/>
+der ſünden des gantzen menſchlichen geſchlechts/<lb/>
+auff ſich genommen/ durch ſein leiden/ ſterben/<lb/>
+<fw type="sig" place="bottom">C</fw><fw type="catch" place="bottom">vnd</fw><lb/>
+<pb facs="#f0018" n="[13]"/>
+<fw place="top" type="header">Pꝛedig über der Leich/</fw><lb/>
+vnd Hellfart gebuͤſſet/ vnd alſo den zoꝛn Gottes<lb/>
+<note place="left">Coloſſ. iij.<lb/>
+Epheſ. ij.</note>geſtillet/ vnnd alle die an jn glauben/ den Him-<lb/>
+meliſchen Vatter wideru<choice><abbr>m̃</abbr><expan>mb</expan></choice> durch ſein Blůt ver-<lb/>
+<note place="left">Eſaie xlix.</note>ſoͤnet/ vnd jre Sünde mit ſeinem Blůt vnd vn-<lb/>
+ſchuldigem gehoꝛſam/ zuͤgedeckt/ das der Herꝛ<lb/>
+<note place="left">Matth. <gap reason="illegible" unit="chars"/>.</note>derſelben nicht mehꝛ gedencken will. Der En-<lb/>
+gel Gabꝛiel ſaget zů Joſeph von Maria: Sie<lb/>
+würde einen Son geberen/ des Namen ſoltu Je<lb/>
+ſus heiſſen/ denn er würdt ſein Volck ſaͤlig ma-<lb/>
+<note place="left">Eſaie liij.</note>chen von jren Sünden. Die ſtraff/ ſaget Eſai-<lb/>
+as/ ligt auff jme/ das wir friden hetten/ vnnd<lb/>
+durch ſeine Wunden ſeindt wir geheilet woꝛ-<lb/>
+<note place="left">i. Joan. j.</note>den. Das Blůt Jeſu Chꝛiſti/ ſpꝛicht Johan-<lb/>
+nes/ reiniget vns von allen vnſeren Sünden.<lb/>
+Der Euangeliſt Johannes ſchꝛeibt alſo: Diſe<lb/>
+<note place="left">Joan. xx.</note>aber ſindt geſchꝛiben/ das jr glaubet/ Jheſus ſey<lb/>
+Chꝛiſt/ der Son Gottes/ vnnd das jr durch den<lb/>
+Glauben das leben habt/ in ſeinem Namen. Vnd<lb/>
+<note place="left">Actoꝛ. iiij.</note>Sanct Petrus: Es iſt in keinem andern heil/<lb/>
+iſt auch kein ander Namen den Menſchen ge-<lb/>
+<note place="left">j. Joan. ij.</note>geben/ darinnen wir ſollen ſaͤlig werden. Dann<lb/>
+er iſt die verſoͤnung für der gantzen Welt Sün-<lb/>
+de.</p><lb/>
+<p><note place="left">Durch Chꝛiſt<choice><abbr>ũ</abbr><expan>um</expan></choice><lb/>
+allein der Him-<lb/>
+mel auffgeſchloſ<lb/>
+ſen.</note>Diſe Spꝛüch lehꝛen vnns deütlich vnnd<lb/>
+klar/ wer vns den weg zům Himmel gemacht/<lb/>
+vnnd die Thür widerumb geoͤffnet habe/ die<lb/>
+vns von wegen vnſerer Sünde vnd vngerech-<lb/>
+<fw place="bottom" type="catch">tigkeit/</fw><lb/>
+<pb facs="#f0019" n="7[14]"/>
+<fw place="top" type="header">Hanſen von Liebenſtein.</fw><lb/>
+tigkeit verſchloſſen ward/ Naͤmlich allein vnſer<lb/>
+Herꝛ vnnd Saͤligmacher/ Jheſus Chꝛiſtus/<lb/>
+durch ſein gehoꝛſam/ Blůtuergieſſen/ leiden vnd<lb/>
+ſterben/ wie er dann ſelbſt ſpꝛicht: Jch bin der<lb/>
+Weg/ die warheit/ vnd das Leben/ niemandt<note place="right">Joan. xiiij.</note><lb/>
+kompt zům Vatter denn durch mich. Vnd aber-<lb/>
+mals: Jch bin die Thür zuͤm Schaffſtall/<note place="right">Joan. x.</note><lb/>
+wer durch ein andere Thür eingehet/ denn<lb/>
+durch mich/ der iſt ein Dieb vnnd ein Moͤꝛder.<lb/>
+Alſo ſagt auch Sanct Paulus: Es ſey ferꝛ von<lb/>
+mir rhuͤmen/ denn des Creütz Jheſu Chꝛiſti.<lb/>
+Vnnd zům Philippern: Was mir gewin war/<note place="right">Phil. iij.</note><lb/>
+das habe ich vmb Chꝛiſtus willen für ſchaden<lb/>
+geachtet/ dann ich achte es alles für ſchaden/<lb/>
+gegen der überſchwencklichen erkanntnuß Chꝛi-<lb/>
+ſti Jheſu meines Herꝛen/ vmb woͤlches willen<lb/>
+ich alles hab für ſchaden gerechnet/ vnd achte es<lb/>
+für Kaat/ auff das ich Chꝛiſtum gewinne/ vnd<lb/>
+in jm erfunden werde/ das ich nicht habe mein<lb/>
+Gerechtigkeit/ die auß dem Geſetz/ ſonder die<lb/>
+durch den Glauben an Chꝛiſto kompt/ nemlich/<lb/>
+die Gerechtigkeit die von Gott dem Glauben zů-<lb/>
+gerechnet würdt.</p><lb/>
+<p>Damit wir aber diſer grechtigkeit des glaub<choice><abbr>ẽ</abbr><expan>en</expan></choice>s/<note place="right">Nutz der heilig<choice><abbr>ẽ</abbr><expan>en</expan></choice><lb/>
+Sacramenten.<lb/>
+Rom. v.</note><lb/>
+woͤlche iſt vergeb<choice><abbr>ũ</abbr><expan>un</expan></choice>g der ſünd<choice><abbr>ẽ</abbr><expan>en</expan></choice> allein im ghoꝛſam<lb/>
+Chꝛiſti/ gnůgſam verſichert wer<choice><abbr>ẽ</abbr><expan>en</expan></choice>/ hat ſie <choice><abbr>ď</abbr><expan>der</expan></choice> Herꝛ<lb/>
+Chꝛiſtus nit allein mit d<choice><abbr>ẽ</abbr><expan>en</expan></choice> bloſſ<choice><abbr>ẽ</abbr><expan>en</expan></choice> woꝛt ſeiner goͤtt-<lb/>
+<fw place="bottom" type="sig">C ij</fw><fw place="bottom" type="catch">lichen</fw><lb/>
+<pb facs="#f0020" n="[15]"/>
+<fw type="header" place="top">Pꝛedig über der Leich/</fw><lb/>
+lichen verheiſſung vnnd zůſagung verſpꝛochen/<lb/>
+(woͤlches zwar gnůg geweſen were/ weil er die<lb/>
+<note place="left">Joan. xiiij.<lb/>
+Ezech. xviij.</note>ewige warheit iſt/ vnd mit dem Eyd betheuret<lb/>
+hat/ das er nicht woͤlle den todt des Sünders/<lb/>
+ſonder das er ſich bekehꝛe/ vnnd das leben habe)<lb/>
+ſonder hatt auch an diſe ſeine verheiſſung/ von<lb/>
+wegen vnſerer ſchwachheit/ die jme am beſten be<lb/>
+kannt/ zwey warzeichen hencken woͤllen/ die wir<lb/>
+Sacramenta nennen/ auff das die armen Sün<lb/>
+der gar keine vꝛſachen hetten/ an ſeiner gnaden<lb/>
+zů zweifeln/ wie ſchwer ſie auch mit Sünden be-<lb/>
+laden/ ſo ſie Bůß wircken/ vnd den Herꝛen Chꝛi-<lb/>
+ſtum mit warhafftigem Glauben ergreiffen.<lb/>
+Naͤmlich die H. Tauff/ in woͤlcher wir mit dem<lb/>
+Blůt Chꝛiſti beſpꝛenget/ vnnd durch den Geiſt<lb/>
+Chꝛiſti new geboꝛen werden. V<choice><abbr>ñ</abbr><expan>nd</expan></choice> das H. Nacht-<lb/>
+mal/ da Chꝛiſtus vns mit ſeinem warhafftigem<lb/>
+Leib vnnd Blůt zům ewigen leben ſpeiſen vnnd<lb/>
+trencken/ vnd alſo der vergebung der Sünden/<lb/>
+vnd ſeiner gnaden gnůgſam/ vnnd auff das al-<lb/>
+ler gewiſſeſt/ verſichern will.</p><lb/>
+<p><note place="left">Der dritte Jt<choice><abbr>ẽ</abbr><expan>em</expan></choice>/<lb/>
+vnſerer rechn<choice><abbr>ũ</abbr><expan>un</expan></choice>g<lb/>
+iſt/ die danck-<lb/>
+barkeit.</note>Der dꝛitte Jtem vnſerer rechnung/ iſt die<lb/>
+danckſagung/ woͤlche ſteht im Hertzen/ woꝛten/<lb/>
+vnd wercken/ eines Chꝛiſtglaubigen Menſchen/<lb/>
+Dann ein ſollicher Menſch allein/ vnnd ſonſt<lb/>
+keiner/ darff für Gott tretten/ vnnd mit jm re-<lb/>
+den/ der ſich allein auff den verdienſt Chꝛiſti<lb/>
+<fw type="catch" place="bottom">verlaſ-</fw><lb/>
+<pb facs="#f0021" n="8[16]"/>
+<fw place="top" type="header">Hanſen von Liebenſtein.</fw><lb/>
+verlaſſet/ vnd in ſeinem namen bettet/ vnd allein<note place="right">Dan. ix.<lb/>
+Joan. xv.</note><lb/>
+vmb ſeinet willen die erhoͤꝛung glaubt/ der auß<lb/>
+ſeinem gebett kein verdienlich werck macht/ da<choice><abbr>ñ</abbr><expan>nn</expan></choice><lb/>
+es iſt ein ſtück der danckſagung/ da man Gott die<lb/>
+Ehꝛ gibt/ das er allein in Geiſtlichen vnnd leib-<lb/>
+lichen anligen helffen koͤnde.</p><lb/>
+<p>Demnach iſt ein rechter Chꝛiſtenmenſch ſei-<note place="right">Chꝛiſten ſeindt<lb/>
+Gott danck.<lb/>
+bar.</note><lb/>
+nem Gott vnd Erloͤſer von hertzen für alle gna-<lb/>
+den vnd gůtthaten/ ſonderlich aber/ für das lei-<lb/>
+den vnnd ſterben Chꝛiſti danckbar/ durch woͤl-<lb/>
+ches allein wir von der Sünde/ dem zoꝛn Got-<lb/>
+tes/ dem Todt/ Teüffel/ Hell/ vnnd ewigen ver-<lb/>
+da<choice><abbr>m̃</abbr><expan>mm</expan></choice>nuß erloͤſet ſein. Das er von demſelben in<lb/>
+ſeinem Hertzen ehꝛlich helt/ mit ſeinem Mundt<lb/>
+nicht üppig oder leſterlich daruon redet/ noch<lb/>
+von ſich ſonſt reden verne<choice><abbr>m̃</abbr><expan>mm</expan></choice>en laſſet/ dardurch<lb/>
+die lehꝛ von Chꝛiſto verleſtert werden moͤchte.<note place="right">Rom. j.</note><lb/>
+Deßgleichen befleiſſiget er ſich ſein gantzes leben<lb/>
+dermaſſen anzůſtellen/ das es dem Euangelio<lb/>
+kein ſchand noch vnehꝛ/ ſonder ein zier/ beleidi-<lb/>
+get ſeinen Naͤchſten nicht/ bewaret ſich voꝛ den<lb/>
+Sünden/ in woͤlchen er zůvoꝛ gefangen gele-<lb/>
+gen/ vnd was jm Gott für Creütz vnd wider-<lb/>
+wertigkeit aufflegt/ die tregt er mit gedult/ vnd<lb/>
+weißt/ das/ wie der Apoſtel zeügt/ diſer zeit lei-<note place="right">Rom. viij.</note><lb/>
+den/ der Herꝛligkeit nicht werdt iſt/ die an den<lb/>
+Kindern Gottes ſoll offenbar werden.</p><lb/>
+<fw place="bottom" type="sig">C iij</fw><fw place="bottom" type="catch">Es</fw><lb/>
+<pb facs="#f0022" n="[17]"/>
+<fw type="header" place="top">Pꝛedig über der Leich/</fw><lb/>
+<p><note place="left">Chriſten koͤnden<lb/>
+leichtlich ver-<lb/>
+zeihen.</note>Es iſt auch einem ſollichen Menſchen leicht<lb/>
+vnd gar nicht ſchwer/ allen denen von Hertzen<lb/>
+zůuerzeihen/ die jn beleidigt haben/ wann er ge-<lb/>
+denckt/ das alle ſchuldt vnſerer Feinden/ die ſie<lb/>
+vns ſchuldig ſein/ iſt wie ein troͤpfflein Waſſer<lb/>
+gegen dem groſſen/ weiten/ tieffen Meer/<lb/>
+der groſſen vnaußſpꝛechlichen ſchuld zůrechnen/<lb/>
+die wir Gott vnſerer Sünden halben ſchuldig<lb/>
+ſein/ woͤlche er doch vns auß gnaden vmb ſeines<lb/>
+lieben Sons willen hat nachgelaſſen. So vns<lb/>
+<note place="left">Matth. xviij.</note>denn Gott in Chꝛiſto die zehen tauſendt pfundt<lb/>
+geſchenckt/ ſolten wir denn vnſern Naͤchſten nit<lb/>
+auch ein Groſchen nachlaſſen koͤnden?</p><lb/>
+<p>Jn ſumma/ eim Chꝛiſtenmenſchen/ der durch<lb/>
+<note place="left">Eim Chꝛiſten<lb/>
+iſts alles leicht.</note>den Geiſt Gottes wider geboꝛen/ iſt nichts ſo<lb/>
+ſchwer/ das er durch die gnad Gottes nicht ü-<lb/>
+<note place="left">Phil. j.</note>berwinden koͤndte/ wie der Apoſtel ſaget: Jch<lb/>
+vermag alles durch den/ der mich mechtig ma-<lb/>
+chet/ Chꝛiſtus/ vnnd da wir am ſchwechſten<lb/>
+<note place="left">ij. Coꝛinth. xij.</note>ſein/ iſt Chꝛiſtus in vns am ſterckſten. Wie a-<lb/>
+bermals der Herr zů dem Apoſtel ſaget: Laß<lb/>
+dir an meiner Gnaden genuͤgen/ dann meine<lb/>
+krafft iſt in den Schwachen mechtig/ Dar-<lb/>
+umb ſaget der Apoſtel weiter/ bin ich gůts můts<lb/>
+in ſchwachheiten/ in ſchmach/ in noͤtten/ in ver-<lb/>
+folgung/ in aͤngſten/ vmb Chꝛiſtus willen/ dann<lb/>
+wann ich ſchwach bin/ ſo bin ich ſtarck.</p><lb/>
+<fw type="catch" place="bottom">Diß</fw><lb/>
+<pb facs="#f0023" n="9[18]"/>
+<fw place="top" type="header">Hanſen von Liebenſtein.</fw><lb/>
+<p>Diß ſein die dꝛey Jtem/ die ein jeder Chꝛi-<lb/>
+ſtenmenſch/ wo er gehet vnnd ſtehet/ bey jm in<lb/>
+ſeinem hertzen/ wie ein Bott die Bꝛieff in ſeinem<lb/>
+lideren Bottenſecklin für vnnd für tragen/<lb/>
+vnnd ſich nimmer on diſe geſtelte Rechnung fin-<lb/>
+den ſoll.</p><lb/>
+<p>Eim ſollichen Menſchen iſt/ wie einem tre-<note place="right">Ein Chꝛiſt ſtirbt<lb/>
+des gaͤhen tods<lb/>
+nicht.</note><lb/>
+wen/ fleiſſigen/ oꝛdenlichen Amptmann/ der ein<lb/>
+verrechnet Ampt hatt/ dem iſt nimmer angſt<lb/>
+auff die Rechnung/ es beſchꝛeiben jn die Rennt-<lb/>
+meiſter/ vnd Ka<choice><abbr>m̃</abbr><expan>mm</expan></choice>erꝛhaͤt/ wann ſie woͤllen/ ſo iſt<lb/>
+er gefaſt/ die Rechnung iſt geſtellet/ darff ſie nur<lb/>
+aufflegen.</p><lb/>
+<p>Alſo ſoll auch ein jeder Chꝛiſtenmenſch mit<lb/>
+ſeinem Bottenſecklin vnnd Rechnung/ alle<lb/>
+ſtundt vnnd augenblick gefaſſet ſeyn/ wann jhn<lb/>
+Gott auß diſem zeit abfoꝛdert/ das er mit ſeinen<lb/>
+dꝛey Jtem für ſein Perſon gefaſſet ſeye/ vnd ſein<lb/>
+Hertz gegen Gott auffrichtig ſtehe/ Ein ſolli-<note place="right">Pſalm. xvj.</note><lb/>
+cher Menſch kan des gaͤhen/ vnuerſehen Tods<lb/>
+nicht ſterben/ dann er wartet alle ſtundt des<lb/>
+Herꝛen.</p><lb/>
+<p>Vnd diß heißt das kleine Hauß vnſers Her-<lb/>
+tzen beſchicken vnnd oꝛdnen/ daruon der Pꝛo-<lb/>
+phet redet/ zůuoꝛ vnnd ehe wir ſterben/ auff das<note place="right">Luce xxj.</note><lb/>
+wir voꝛ des Menſchen Son beſtehen moͤgen.</p><lb/>
+<fw place="bottom" type="catch">Alſo</fw><lb/>
+<pb facs="#f0024" n="[19]"/>
+<fw type="header" place="top">Pꝛedig über der Leich/</fw><lb/>
+<p>Alſo haben alle heiligen Ertzuaͤtter/ Koͤnig/<lb/>
+Pꝛopheten/ Apoſtel/ Martyrer/ ſampt allen frõ-<lb/>
+men Chꝛiſten/ jre rechnung geſtellet/ vnnd dar-<lb/>
+auff mit freüden abſterben koͤnden. S. Paulus<lb/>
+<note place="left">Phil. j.</note>ſpꝛicht: Jch beger auffgeloͤſet zů werden/ vnd bey<lb/>
+Chꝛiſto ſeyn/ Warumb? Dann die rechnung<lb/>
+war geſtellt/ das er wuſte/ wie er mit Gott dar-<lb/>
+<note place="left">Actoꝛ. vij.</note>an was. S. Stephanus ſpꝛicht: Herꝛ Jeſu/ ni<choice><abbr>m̃</abbr><expan>mm</expan></choice><lb/>
+mein Geiſt auff/ dann die rechnung war geſtel-<lb/>
+<note place="left">Luce xxiij.</note>let. Der Schaͤcher am Creütz ſagt: Herꝛ/ wann<lb/>
+du kompſt in dein Reich/ ſo gedenck an mich/ der<lb/>
+ſtirbet mit freüden/ dann die rechnung war ge-<lb/>
+ſtellet/ da Chꝛiſtus zů jm ſagt: Warlich ich ſage<lb/>
+dir/ heinnacht wirſtu bey mir ſeyn im Paradiß.<lb/>
+<note place="left">Job xv.</note>Job ſagt: Herꝛ/ wann du mich gleich erwürgſt/<lb/>
+ſo will ich dannoch auff dich hoffen/ dann die<lb/>
+rechnung war geſtellet/ vnnd wuſte das er einen<lb/>
+gnedigen Gott hatte.</p><lb/>
+<p><note place="left">Gottloſe Leütt<lb/>
+kompt der Todt<lb/>
+ſchwer an.</note>Dargegen aber iſts nimmermehꝛ müglich/<lb/>
+das einer ſich gern vnnd willig in todt ergebe/<lb/>
+der ſeiner rechnung noch nicht gewiß iſt/ der<lb/>
+zweifelt/ vnnd nicht waiſt/ ob er ein gnedigen<lb/>
+Gott hab oder nicht/ ob er mit ſeiner rechnung<lb/>
+beſtehen moͤge/ woͤlche Menſchen zwifach der<lb/>
+todt ſchwer ankompt/ vnnd darzů übel ſterben/<lb/>
+weil ſie zweifeln/ vnnd nicht wiſſen’/ wie ſie mit<lb/>
+Gott ſtehen/ vnnd da es gar wol gerhat/ ins<lb/>
+<fw type="catch" place="bottom">Feg-</fw><lb/>
+<pb facs="#f0025" n="10[20]"/>
+<fw type="header" place="top">Hanſen von Liebenſtein.</fw><lb/>
+Fegfewer gewiſen werden.</p><lb/>
+<p>Die rechten Chꝛiſten aber kompt der todt<note place="right">Die Chꝛiſten<lb/>
+kompt der todt<lb/>
+ring an.</note><lb/>
+nicht ſo ſchwer an/ dann ob ſich gleich Fleiſch v<choice><abbr>ñ</abbr><expan>nd</expan></choice><lb/>
+Blůt darab entſetzt/ vnd ſeiner verkerten ſündi-<lb/>
+gen art nach/ letz ſtellet/ ſo gedencken ſie doch/<lb/>
+das es einmal geſtoꝛben ſein můß/ wie geſchꝛiben<note place="right">Hebꝛ. ix.</note><lb/>
+ſtehet: Den Menſchen iſt ein mal geſetzt zů ſter-<lb/>
+ben/ darnach das Gericht.</p><lb/>
+<p>So vil aber das Gericht belanget/ haben ſie<lb/>
+den troſt/ woͤlchen jnen Chꝛiſtus gegeben hat/<lb/>
+da er ſpꝛicht: So jemandt mein woꝛt helt/ der<note place="right">Joan. viij.</note><lb/>
+würt den todt nit ſehen ewiglich. V<choice><abbr>ñ</abbr><expan>nd</expan></choice> abermals:<note place="right">Joan. v.</note><lb/>
+Warlich/ warlich ſage ich eüch/ wer mein woꝛt<lb/>
+hoͤꝛet/ vnnd glaubt dem der mich geſandt hat/<lb/>
+der hat das ewige leben/ vnd kompt nicht in das<lb/>
+gericht/ ſondern iſt vom todt zům leb<choice><abbr>ẽ</abbr><expan>en</expan></choice> hindurch<lb/>
+gedꝛungen. Diſe herꝛliche Spꝛüch zeügen/ das<lb/>
+die rechtglaubigen Chꝛiſten kein Gericht/ noch<lb/>
+den Todt zůfürchten haben/ ſonder durch den<lb/>
+todt in das leben dꝛingen/ hie durch ware Bůß/<lb/>
+vnd doꝛt in die offenbarung des Himmeliſchen<lb/>
+waͤſens.</p><lb/>
+<p>Diß macht willige vnnd froͤliche Leüt zuͤ-<note place="right">Die Martyrer<lb/>
+ſein mit freüden<lb/>
+geſtoꝛben.</note><lb/>
+ſterben/ wie man denn liſet von den heiligen<lb/>
+Martyrern/ nit Maͤnnern allein/ ſonder Wei-<lb/>
+bern vnnd Jungfrawen/ die mit freüden/ nicht<lb/>
+allein allerley marter/ ſonder auch den bittern<lb/>
+<fw type="sig" place="bottom">D</fw><fw type="catch" place="bottom">todt</fw><lb/>
+<pb facs="#f0026" n="[21]"/>
+<fw type="header" place="top">Pꝛedig über der Leich/</fw><lb/>
+todt gelitten/ vnd in Chꝛiſto überwunden hab<choice><abbr>ẽ</abbr><expan>en</expan></choice>.</p><lb/>
+<p><note place="left">Haußuaͤtter ha-<lb/>
+ben zwo rech-<lb/>
+nung zůſtellen.</note>Es hat aber ertlichen vilen Leüten Gott<lb/>
+der Herꝛ nicht allein diß klein Hauß/ jhres leibs<lb/>
+vnd der Seelen/ ſonder noch darzů ein groͤſſere<lb/>
+Haußhaltung beuolhen/ von woͤlcher wegen ſie<lb/>
+eben ſo wol/ als von jrer ſelbs wegen/ dem Her-<lb/>
+ren rechenſchafft geben muͤſſen. Darumb ſie<lb/>
+auch dißfalls ſich gefaßt machen/ vnd jre Hauß-<lb/>
+haltung/ ſie ſey klein oder groß/ dermaſſen anſtel<lb/>
+len/ das ſie jn<choice><abbr>ẽ</abbr><expan>en</expan></choice> am ewig<choice><abbr>ẽ</abbr><expan>en</expan></choice> leben nit hinderlich ſey.</p><lb/>
+<p><note place="left">I. Sam. ij.</note>Dann meniglichen das Exempel Heli des<lb/>
+Pꝛieſters bekannt iſt/ der für ſein perſon wol ein<lb/>
+frommer Mann was/ Aber da er ſeine Soͤne<lb/>
+nicht nach dem beuelch Gottes zoge/ ſonder jnen<lb/>
+jren můtwillen geſtattet/ das ſie vnzüchtig vnd<lb/>
+Gottloß handelt<choice><abbr>ẽ</abbr><expan>en</expan></choice>/ hat jm der Herꝛ den Halß ein-<lb/>
+<note place="left">I. Sam. iiij.</note>gebꝛochen/ jn des gaͤhen tods ſterben/ ſeine Soͤn<lb/>
+erſtochen werden laſſen/ vnnd iſt der flůch auff<lb/>
+dem Hauß Heli bliben ewiglichen.</p><lb/>
+<p>Was nun ein Vatter ſeinen Kindern vnd<lb/>
+Hauß geſinde dißfalls ſchuldig iſt/ das iſt auch<lb/>
+<note place="left">Ampt der O-<lb/>
+berkeit.</note>ein Herꝛſchafft jhꝛen Vnderthonen ſchuldig/<lb/>
+vnnd iſt die Herꝛſchafft gegen Gott nicht ent-<lb/>
+ſchuldigt/ die für jre Perſon recht glaubt vnnd<lb/>
+lebet/ Aber jrer Vnderthonen glauben vnnd le-<lb/>
+bens ſich nichts annemen wolt.</p><lb/>
+<p>Der Vꝛſachen Gott der Herꝛ/ dem Koͤnig<lb/>
+<fw type="catch" place="bottom">ſeines</fw><lb/>
+<pb facs="#f0027" n="11[22]"/>
+<fw place="top" type="header">Hanſen von Liebenſtein.</fw><lb/>
+ſeines Volcks/ nit allein die Landsoꝛdnung be-<lb/>
+uolhen/ wie er den Vnderthon<choice><abbr>ẽ</abbr><expan>en</expan></choice> Recht ſchaffen/<lb/>
+vnd ſie wider gewalt vnd vnrecht ſchützen ſolt/<lb/>
+ſonder hat jm auch ein ernſtlich<choice><abbr>ẽ</abbr><expan>en</expan></choice> beuelch geben/<lb/>
+das er ein abſchꝛifft von der Kirchenoꝛdnung<note place="right">Der Oberkeit<lb/>
+iſt nit allein die<lb/>
+Landsoꝛdn<choice><abbr>ũ</abbr><expan>un</expan></choice>g/<lb/>
+ſonder auch die<lb/>
+Kirchenoꝛdnung<lb/>
+benolhen.<lb/>
+Deuter. xvij.</note><lb/>
+haben ſoll auff das er ſich auch in derſelben Gott<lb/>
+gefellig wiſſe zůhalten. Dann alſo lauten die<lb/>
+woꝛt diſes beuelchs: Wa<choice><abbr>ñ</abbr><expan>nn</expan></choice> der Koͤnig ſitzen würt<lb/>
+auff dem Stůl ſeines Koͤnigreichs/ ſoll er diß<lb/>
+ander Geſetz von den Pꝛieſtern/ den Leuiten ne-<lb/>
+men/ vnnd auff ein Bůch ſchꝛeiben laſſen/ das<lb/>
+ſoll bey jm ſeyn/ vnd ſoll darinn leſen ſein leben-<lb/>
+lang/ auff das er lerne fürchten den Herren ſei-<lb/>
+nen Gott/ das er halte alle woꝛt diſes Geſetzes/<lb/>
+vnd diſe Recht/ das er darnach thuͤ. Er ſoll ſein<lb/>
+Hertz nicht erheben über ſeinen Brůder/ vnnd<lb/>
+ſoll nicht weichen/ weder zůr Rechten noch zůr<lb/>
+Lincken/ auff das er ſeine tag erlengere auff ſein<choice><abbr>ẽ</abbr><expan>en</expan></choice><lb/>
+Koͤnigreich/ er vnd ſeine Kinder in Jſrael.</p><lb/>
+<p>Jn diſem Goͤttlichen beuelch/ würt dem Koͤ-<lb/>
+nig die Kirchenoꝛdnung auff das aller ernſtlichſt<lb/>
+beuolhen/ das ſie nicht allein die Pꝛieſter v<choice><abbr>ñ</abbr><expan>nd</expan></choice> Le-<lb/>
+uiten/ ſonder auch der Koͤnig ſelbſt wiſſen/ vnnd<lb/>
+darüber halten/ daruon weder auff die rechte<lb/>
+noch lincke weichen ſoll/ ſo er anderſt ſein<lb/>
+Leben erlengeren/ vnnd das Koͤnigreich<lb/>
+auff ſeine Kinder bꝛingen vnnd erhalten woͤll.<lb/>
+<fw place="bottom" type="sig">D ij</fw><fw place="bottom" type="catch">Diſem</fw><lb/>
+<pb facs="#f0028" n="[23]"/>
+<fw type="header" place="top">Pꝛedig über der Leich/</fw><lb/>
+Diſem beuelch nach haben ſich die fromme Koͤ-<lb/>
+nig des Gottesdienſts v<choice><abbr>ñ</abbr><expan>nd</expan></choice> der Kirchenoꝛdnung/<lb/>
+angenommen/ wie in der Hiſtoꝛia der Koͤnig<lb/>
+Dauids/ Salomon/ Aſa/ Vſia/ Hißkia/ Joſa-<lb/>
+phat/ Joſie/ vnnd dergleichen zůleſen/ die abthe-<lb/>
+ten jrer Vaͤtter vnd voꝛfahꝛer vermeinten Got-<lb/>
+tesdienſt/ ja Hißkia der verſtoͤꝛet auch vnnd zer-<lb/>
+bꝛicht die aͤhꝛine Schlang/ die Moſe gemachet<lb/>
+hat/ da ſie die Kinder Jſrael mißbꝛauchten/ vnd<lb/>
+würt von Gott darüber gerhuͤmet.</p><lb/>
+<p><note place="left">Oberkeit/ ſo nit<lb/>
+über der rechten<lb/>
+Kirchenoꝛdn<choice><abbr>ũ</abbr><expan>un</expan></choice>g<lb/>
+gehalten/ ſeindt<lb/>
+hefftig geſtrafft<lb/>
+woꝛden.</note>Dargegen die Koͤnig/ ſo wider das Geſetz<lb/>
+des Herꝛen lieſſen die Pꝛieſter vnnd das Volck/<lb/>
+Abgoͤtterey treiben/ vnnd halffen jnen darzů/<lb/>
+hatt Gott grewlich geſtrafft/ das er Stammen<lb/>
+vnd Namen außgereütet/ vnnd nicht ein Hundt<lb/>
+überbleiben laſſen/ der den Abgoͤttiſchen Koͤni-<lb/>
+gen zůgehoͤꝛet.</p><lb/>
+<p>Wider den Koͤnig Jeroboam/ woͤlcher mit<lb/>
+Abgoͤtterey Jſrael ſündigen macht/ ſtehet alſo<lb/>
+<note place="left">j. Regum xiiij.</note>geſchrieben: Sihe/ Jch will vnglück über das<lb/>
+Hauß Jeroboam fuͤhꝛen/ vnd außrotten an dem<lb/>
+Jeroboam/ auch den der an die Wandt piſſet/<lb/>
+den verſchloſſen vnd verlaſſen in Jſrael/ vnnd<lb/>
+will die Nachkommen des Hauſes Jeroboam<lb/>
+außfegen/ wie man Kaat auf feget/ biß es gar<lb/>
+mit jme außſeye. Wer vom Jeroboam ſtirbt in<lb/>
+der Statt/ den ſollen die Hund freſſen/ wer aber<lb/>
+<fw type="catch" place="bottom">auff</fw><lb/>
+<pb facs="#f0029" n="12[24]"/>
+<fw place="top" type="header">Hanſen von Liebenſtein.</fw><lb/>
+auff dem Feld ſtirbet/ den ſollen die Voͤgel vn-<lb/>
+der dem Himmel freſſen/ dann der Herꝛ hats ge-<lb/>
+redt. Ein gleich Vꝛtheil Gottes iſt auch über den<lb/>
+Abgoͤttiſchen Koͤnig Achab ergangen. Da<choice><abbr>ñ</abbr><expan>nn</expan></choice> al-<lb/>
+ſo verkündigt jhm der Pꝛophet Elias auß dem<note place="right">j. Regum xxj.</note><lb/>
+beuelch des HERREN/ Sihe/ ſpꝛicht er: Jch<lb/>
+will vnglück über dich bꝛingen/ vnd deine nach-<lb/>
+kommen wegnemen/ vnd will vom Achab auß-<lb/>
+rotten/ auch den/ der an die Wand piſſet/ vnnd<lb/>
+der verſchloſſen vnnd übergelaſſen iſt in Jſrael.<lb/>
+Vñ will dein Hauß machen/ wie das Hauß Je-<lb/>
+robo<choice><abbr>ã</abbr><expan>am</expan></choice>/ des Sons Nebach/ wie das Hauß Bae-<lb/>
+ſa/ des Sons Ahia/ vmb des raitzens willen/ da-<lb/>
+mit du mich erzürnet/ vnnd Jſrael ſündigen ge-<lb/>
+machet haſt.</p><lb/>
+<p>Diſe erſchꝛoͤckenliche Exempel/ haben die<lb/>
+fromme Koͤnig im Reich Juda/ neben dem hieo-<lb/>
+ben angezeigten vnnd außgetruckten beuelch<note place="right">Deut. xvj.</note><lb/>
+Gottes behertziget/ vnnd nicht gewartet/ biß<lb/>
+die Pꝛieſter jre mißbꝛeüch vnd vermeinten Got-<lb/>
+tesdienſt nach dem Geſetz des Herren in einem<lb/>
+Concilio enderten/ ſonder ſie theten ſelbſt auß<note place="right">Die Koͤnig vnd<lb/>
+alle Oberkeit ſol<lb/>
+len nit auff der<lb/>
+Prieſter Conci-<lb/>
+lium warten/<lb/>
+ſonder in krafft<lb/>
+jres Ampts ſich-<lb/>
+der Kirchen an-<lb/>
+nemen.</note><lb/>
+Koͤniglichem gwalt darzů/ griffen in kein fre<choice><abbr>m̃</abbr><expan>mb</expan></choice>-<lb/>
+de Ampt/ ſonder theten/ das jhnen der Herꝛ be-<lb/>
+uolhen/ Dann ſie ſolten die Kirchenoꝛdnung<lb/>
+gleich ſo wol als die Pꝛieſter wiſſen/ vnd hetten<lb/>
+ein außgedꝛuckten beuelch des Herꝛen/ ſie ſolten<lb/>
+<fw place="bottom" type="sig">D iij</fw><fw place="bottom" type="catch">weder</fw><lb/>
+<pb facs="#f0030" n="[25]"/>
+<fw place="top" type="header">Pꝛedig über der Leich/</fw><lb/>
+weder zůr rechten noch zůr lincken weichen/ ſon-<lb/>
+der bey d<choice><abbr>ẽ</abbr><expan>en</expan></choice> bůchſtaben v<choice><abbr>ñ</abbr><expan>nd</expan></choice> geſatz des Herꝛn bleib<choice><abbr>ẽ</abbr><expan>en</expan></choice>.</p><lb/>
+<p>Alſo thet jhm der fromme vnnd Gottſaͤlige<lb/>
+Koͤnig Joſaphat/ der nicht wartet/ biß die Pꝛie-<lb/>
+ſter ein Concilium hielten/ vnd über der Refoꝛ-<lb/>
+mation der Kirchen ſich entſchloſſen v<choice><abbr>ñ</abbr><expan>nd</expan></choice> vergli-<lb/>
+chen/ ſonder nimpt ſelbſt dz Geſetzbůch für ſich/<lb/>
+wie der Herꝛ allen Koͤnigen beuolhen hat/ vnnd<lb/>
+<note place="left">ij. Chꝛon. xvij.</note>thůt ab die hoͤhen vnd Hayne auß Juda/ Dar-<lb/>
+nach ſchickt er ſeine geiſtliche v<choice><abbr>ñ</abbr><expan>nd</expan></choice> weltliche Rhaͤt/<lb/>
+in das gantze Koͤnigreich Juda/ die hatten das<lb/>
+Geſetzbůch des Herꝛn mit ſich/ vnd zogen vmb-<lb/>
+her in allen Stetten Juda/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice> lehꝛten dz Volck.</p><lb/>
+<p><note place="left">ij. Chꝛon. xxxiiij.</note>Deßgleichen hab<choice><abbr>ẽ</abbr><expan>en</expan></choice> gethon die andern fro<choice><abbr>m̃</abbr><expan>mm</expan></choice>en<lb/>
+Koͤnig Juda/ als Aſa/ Azarias/ Ezechias. Zů<lb/>
+der zeit Joſie v<choice><abbr>ñ</abbr><expan>nd</expan></choice> zůvoꝛ hielten die Pꝛieſter ſo wol<lb/>
+hauß in der Kirchen/ das ſie das Geſetzbůch ver-<lb/>
+loꝛen hatten. Vnd da es vnder dem Koͤnig Jo-<lb/>
+ſia widergefunden/ laſt jms der Koͤnig leſen/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice><lb/>
+als er darauß verſtand<choice><abbr>ẽ</abbr><expan>en</expan></choice>/ wie ferꝛ die Pꝛieſter vñ<lb/>
+das Volck daruon abgewichen/ zerꝛeißt er ſeine<lb/>
+Kleider/ ſchickt zů <choice><abbr>ď</abbr><expan>er</expan></choice> Pꝛophetin Hulda ſeine geiſt<lb/>
+liche vnnd Weltliche Rhaͤt/ bey jhꝛ ſich beſcheids<lb/>
+zůerholen. Darauff beruͤfft er gantz Juda/ geiſt-<lb/>
+lich vnnd Weltlichs ſtands/ groß vnnd klein zů-<lb/>
+ſammen/ macht einen Bundt für dem HER-<lb/>
+REN/ das man hinfüro/ nach dem Geſetz/ dem<lb/>
+<fw place="bottom" type="catch">Herꝛn</fw><lb/>
+<pb facs="#f0031" n="13[26]"/>
+<fw place="top" type="header">Hanſen von Liebenſtein.</fw><lb/>
+Herꝛn dienen ſolt/ vnd thet allen grewel auß al-<lb/>
+len Landen/ die der Kinder Jſrael waren.</p><lb/>
+<p>Diſe Exempel der Koͤnig/ neben dem be-<lb/>
+uelch Gottes ſollen alle Oberkeit/ hoch vnnd ni-<lb/>
+ders ſtands erinnern/ da ſie ſaͤliglichen abſter-<lb/>
+ben woͤllen/ das ſie nicht allein für jre Perſon/<lb/>
+die Rechnung ſtellen/ ſonder auch ſich in der an-<lb/>
+dern vnnd groſſen Haußhaltung erſehen/ ob ſie<lb/>
+auch über der rechten Kirchenoꝛdnung Gottes/<lb/>
+vermoͤg ſeines beuelchs/ gehalten/ vnd was der<lb/>
+ſelben zůwider/ wie die fro<choice><abbr>m̃</abbr><expan>mm</expan></choice>e Koͤnig/ abgſchafft<lb/>
+v<choice><abbr>ñ</abbr><expan>nd</expan></choice> gebeſſert haben. Wo nit/ werden ſie voꝛ dem<lb/>
+Herꝛn ein ſchweren ſtand thůn/ Da<choice><abbr>ñ</abbr><expan>nn</expan></choice> die ſchꝛifft<lb/>
+redet/ ſie machen das Volck ſündigen/ wann ſie<lb/>
+ſich eintweder der Kirchenoꝛdnung gar nichts<lb/>
+annemen/ oder über den mißbꝛeüchen vnnd Ab-<lb/>
+goͤtterey halten.</p><lb/>
+<p>Vnnd zwat werden die Oberkeiten des<note place="right">Die Oberkeit<lb/>
+im Newen Te-<lb/>
+ſtament/ kan ſich<lb/>
+weniger ent-<lb/>
+ſchuldigen denn<lb/>
+im Alten.</note><lb/>
+Newen Teſtaments ſich weniger entſchuldigen<lb/>
+koͤnd<choice><abbr>ẽ</abbr><expan>en</expan></choice>/ de<choice><abbr>ñ</abbr><expan>nn</expan></choice> die abgoͤttiſche Koͤnig im Alt<choice><abbr>ẽ</abbr><expan>en</expan></choice> Teſta-<lb/>
+ment/ Dann dem Judiſchen Volck hat Gott der<lb/>
+Herꝛ vil Ceremonien in ſeiner Kirchenoꝛdnung<lb/>
+beuolhen/ vnd demnach erwas ſchwerers gewe-<lb/>
+ſen/ da<choice><abbr>ñ</abbr><expan>nn</expan></choice> die Kirchenoꝛdnung des Newen Teſta-<note place="right">Im Newen Te-<lb/>
+stam<choice><abbr>ẽ</abbr><expan>en</expan></choice>nt ein kur-<lb/>
+tze Kirchenoꝛd-<lb/>
+nung.</note><lb/>
+ments/ da der Herꝛ alle Judiſche/ Moſaiſche/<lb/>
+vnnd Leuitiſche Ceremonien abgethon/ vnnd<lb/>
+gar ein kurtze Kirchenoꝛdnung verfaſſer/<lb/>
+<fw place="bottom" type="catch">die</fw><lb/>
+<pb facs="#f0032" n="[27]"/>
+<fw place="top" type="header">Pꝛedig über der Leich/</fw><lb/>
+die ein jeder Koͤnig/ Fürſt/ Graff/ Herꝛ/ Edel-<lb/>
+mann/ Vogt/ Burgermeiſter/ Schultheiß wol<lb/>
+lernẽ kan/ wie dann im Euangelio zůſehn/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice> da<lb/>
+vns in dem einen Euangeliſten ettwas dunckel<lb/>
+ſein moͤchte/ wirts in den andern dꝛey<choice><abbr>ẽ</abbr><expan>en</expan></choice> Euange-<lb/>
+liſten/ S. Pauli/ vnd anderer Apoſtel Schꝛiff-<lb/>
+ten erklaͤret funden.</p><lb/>
+<p><note place="left">Artickel der Kir<lb/>
+ch<choice><abbr>ẽ</abbr><expan>en</expan></choice>oꝛdnung des<lb/>
+Newen Teſta-<lb/>
+ments.</note>Vnnd hat die Kirchenoꝛdnung des Newen<lb/>
+Teſtaments dꝛey fürnemer Puncten. Der erſte<lb/>
+iſt von der Lehꝛ/ das der Herꝛ beuolhen hat zů<lb/>
+<note place="left"><hi rendition="#aq">I.</hi><lb/>
+Von der Lehꝛ.</note>lehꝛen/ Es ſeyen alle Menſchen von natur Sün<lb/>
+der/ vnd Kinder des zoꝛns/ vnd muͤſſen verge-<lb/>
+bung der Sünden/ allein in dem verdienſt vnd<lb/>
+Blůtuergieſſen vnſers Herꝛn Jeſu Chꝛiſti/ durch<lb/>
+den Glauben ſůchen/ vnnd wie ſie die begangne<lb/>
+Sünde von Hertzen beweinen/ alſo ſollen ſie ſich<lb/>
+auch künfftig voꝛ allen Sünden huͤten/ ein ehꝛ-<lb/>
+lich/ Chꝛiſtlich/ vnd Gott wolgefellig leben fuͤh-<lb/>
+ren/ vnnd ein jeder ſeinem Berůff trewlich auß-<lb/>
+warten/ ſich gegen Gott vnd den menſchen/ ver-<lb/>
+moͤg Gottes Gebotts/ verhalten.</p><lb/>
+<p><note place="left"><hi rendition="#aq">II.</hi><lb/>
+Von den Sacra<lb/>
+menten.</note>Der ander Punct iſt/ von den Sacramen-<lb/>
+ten/ deren zwey/ vnd nicht mehꝛ in der Kirchen<lb/>
+oꝛdnung Chꝛiſti ſtehen/ Naͤmlich/ die waſſer<lb/>
+Tauff/ ſo im namen des Vatters/ Sons/ vnnd<lb/>
+heiligen Geiſts geſchehen ſolle/ in woͤlcher wir<lb/>
+durch den Geiſt Chꝛiſti widergeboꝛen/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice> durch<lb/>
+<fw place="bottom" type="catch">das</fw><lb/>
+<pb facs="#f0033" n="14[28]"/>
+<fw type="header" place="top">Hanſen von Liebenſtein.</fw><lb/>
+das Blůt Chꝛiſti von allen ſünd<choice><abbr>ẽ</abbr><expan>en</expan></choice> gereinigt wer-<lb/>
+den/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice> das Nachtmal Chꝛiſti/ in woͤlch<choice><abbr>ẽ</abbr><expan>en</expan></choice> Chꝛi-<lb/>
+ſtus vns ſeinen warhafftigen Leib vnnd Blůt<lb/>
+zů eſſen vnd zů trincken gibt/ ſeines leidens vnd<lb/>
+ſterbens darbey mit danckſagung zůgedencken.</p><lb/>
+<p>Vnnd ſein beider Sacrament ſtifftungen ſo<lb/>
+hell/ deütlich vnd klar/ das/ wer ſich das einfel-<lb/>
+tig woꝛt Gottes fuͤhꝛen laſſen will/ wol waiſt/<lb/>
+was er thon oder laſſen ſoll.</p><lb/>
+<p>Der dꝛitte Punct iſt das Gebaͤtt/ ſo in der<note place="right"><hi rendition="#aq">III.</hi><lb/>
+Das Gebaͤtt.</note><lb/>
+gemein Gottes gehen ſoll/ da man den Herꝛn für<lb/>
+allerley not der Chꝛiſtenheit anruͤfft/ vnnd für<lb/>
+die Gnaden vnnd gůtthaten/ ſo er vns an Leib<lb/>
+vnd Seel bewiſen/ vnd noch taͤglich erzeigt/ lob<lb/>
+vnd danck ſaget.</p><lb/>
+<p>Diß ſein die dꝛey Hauptartickel der Chꝛiſtli-<lb/>
+chen Kirchenoꝛdnung/ das in verſamlung der<lb/>
+gemein Gottes/ recht gelehꝛt vnd gepꝛedigt/ bei-<lb/>
+de Sacrament/ Tauff vnnd Abendtmal/ nach<lb/>
+ſeinem woꝛt gereicht vnnd empfangen/ vnnd<lb/>
+der Herꝛ im Geiſt vnd der warheit angerůffen/<lb/>
+gelobt vnd gepꝛiſen würdt.</p><lb/>
+<p>Aber von Reüchern/ von Liechtern/ von<lb/>
+Choꝛroͤcken/ oder Meßgwand/ vnd dergleichen<lb/>
+vnzalbar Ceremonien/ hats Gott im newen Te-<lb/>
+ſtament nicht allein nicht gebotten/ ſonder auß<lb/>
+truckenlichen vns durch ſeinen Son anzeigen<note place="right">Matth. x<gap reason="illegible" unit="chars"/></note><lb/>
+<fw type="sig" place="bottom">E</fw><fw type="catch" place="bottom">laſſen/</fw><lb/>
+<pb facs="#f0034" n="[29]"/>
+<fw type="header" place="top">Pꝛedig über der Leich/</fw><lb/>
+laſſen/ das jme mit ſollichen Menſchengebotten<lb/>
+vergebens/ ja gar nicht gedienet ſeye.</p><lb/>
+<p><note place="left">Der Oberkeit<lb/>
+ſtreff/ ſo ſich der<lb/>
+Kirchenoꝛdn<choice><abbr>ũ</abbr><expan>un</expan></choice>g<lb/>
+nit mit Chꝛiſtli-<lb/>
+chem verſtande animpt.</note>Weil dann ermelte Puncten der Lehꝛ nit ſo<lb/>
+dunckel/ das ſie nit ein Chꝛiſtliche Oberkeit ver-<lb/>
+nemmen vnnd lehꝛnen koͤndte: Als von der er-<lb/>
+ſchaffung der Welt/ von der Sünde/ was ſie<lb/>
+ſeye/ vnnd woher ſie jren vꝛſpꝛung habe/ von<lb/>
+ſtraff der Sünden/ von der Bůß/ von verge-<lb/>
+bung der Sünden/ vom verdienſt Chꝛiſti/ von<lb/>
+dem glauben/ hoffnung/ liebe/ gedult/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice> eins je-<lb/>
+den Menſchen berůff/ von beid<choice><abbr>ẽ</abbr><expan>en</expan></choice> Sacramenten/<lb/>
+Tauff vnnd Nachtmal/ von warer anruͤffung<lb/>
+Gottes/ vnd danckſagung/ So iſt klar vnd vn-<lb/>
+widerſpꝛechlich/ das ein jede Oberkeit/ vnd wem<lb/>
+andere mehꝛ leüt zů regieren von Gott vnderge-<lb/>
+ben ſein/ am Jüngſten tag ſich ni<choice><abbr>m̃</abbr><expan>mm</expan></choice>ermehꝛ werd<choice><abbr>ẽ</abbr><expan>en</expan></choice><lb/>
+verantwoꝛten koͤnd<choice><abbr>ẽ</abbr><expan>en</expan></choice>/ die ſich <choice><abbr>ď</abbr><expan>der</expan></choice> Kirchenoꝛdnung<lb/>
+Chꝛiſti nit mit rechtem verſtand annemen/ vnd<lb/>
+jre Vnderthone/ ſo vil an jnen iſt/ nit dazů halt<choice><abbr>ẽ</abbr><expan>en</expan></choice>.</p><lb/>
+<p>So nun dem alſo/ wo woͤllen dann am Jün-<lb/>
+ſten tag die jenigen bleiben/ die jre Oberherꝛn be-<lb/>
+reden/ Es ſey nit jres Ampts noch berůffs/ ſich<lb/>
+der Kirchenoꝛdnung anzůnemen/ woͤlche ſachen<lb/>
+über jrem verſtand ſeyen/ vnd nit deſtweniger<lb/>
+ſollen ſie über derſelben auff das aller ſtrengeſt<lb/>
+halten/ vnangeſehen/ das ſie derſelben kein ver-<lb/>
+ſtand haben/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice> nit wiſſen/ ob ſie mit Gott oder<lb/>
+<fw type="catch" place="bottom">wider</fw><lb/>
+<pb facs="#f0035" n="15[30]"/>
+<fw place="top" type="header">Hanſenvon Liebenſtein.</fw><lb/>
+wider Gott iſt. Die Koͤnig des alten Teſtam<choice><abbr>ẽ</abbr><expan>en</expan></choice>ts/<lb/>
+haben die Kirchenoꝛdnung Moſe wiſſen ſollen/<lb/>
+die dunckel geweſen iſt/ vnd vil Ceremonien ge-<note place="right">ij. Coꝛinth. x.<lb/>
+Galat. iiij.</note><lb/>
+habt. Vnd ein Chꝛiſtlicher Koͤnig ſoll nit wiſſen<lb/>
+die Kirchenlehꝛ vnd oꝛdnung Chꝛiſti/ die gegen<lb/>
+jener zůrechnen/ gantz hell vnd liecht iſt. Würde<lb/>
+nit all Welt über ein Haußuatter ſchꝛeien/ der ſei-<lb/>
+ner Kinder nichts achtete/ vnd ließ ſie in zeitlich<lb/>
+vnd ewig verderben fallen/ daruoꝛ er ſie wol be-<lb/>
+huͤten koͤndte. Was würde dann für ein jaͤmer-<lb/>
+lich/ grauſam/ vnd erſchꝛockenlich geſchꝛey über<lb/>
+ein Landsherꝛn auff Erd<choice><abbr>ẽ</abbr><expan>en</expan></choice>/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice> am jüngſt<choice><abbr>ẽ</abbr><expan>en</expan></choice> tag er<lb/>
+gehn/ der nit wiſſen will ein grund ſeiner Kirch<choice><abbr>ẽ</abbr><expan>en</expan></choice><lb/>
+oꝛdn<choice><abbr>ũ</abbr><expan>un</expan></choice>g/ zů woͤlcher er ſeine Vnderthon<choice><abbr>ẽ</abbr><expan>en</expan></choice> mit ge-<lb/>
+walt zů ſein ſelbſt/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice> jrer ewig<choice><abbr>ẽ</abbr><expan>en</expan></choice> verderb<choice><abbr>ẽ</abbr><expan>en</expan></choice> helt?</p><lb/>
+<p>Es trachten die gwaltige mechtige Potenta<lb/>
+ten/ Koͤnig/ Fürſten/ Grauen/ Herꝛn/ vom A-<lb/>
+del/ ꝛc. nach groſſem gewalt/ vilen Laͤndern vnd<lb/>
+Leüten/ vnd da ſies vnder jren gwalt gebꝛacht/<lb/>
+fragen ſie wenig darnach/ wie ſies zů der rechten<lb/>
+Kirchenoꝛdnung halten/ vnd vermeinen ſie ha-<lb/>
+bens wol außgericht/ wa<choice><abbr>ñ</abbr><expan>nn</expan></choice> ſies mit denſelben da-<lb/>
+hin gbꝛacht/ dz ſie jn<choice><abbr>ẽ</abbr><expan>en</expan></choice> gehoꝛſam ſein muͤſſen. So<lb/>
+aber die Herꝛen ein mal mit ernſt betrachteten/<lb/>
+dz hie der Pꝛophet d<choice><abbr>ẽ</abbr><expan>en</expan></choice> Koͤnig Hißkieſagt/ beſchi-<lb/>
+cke dein Hauß/ ꝛc. Vnd das ſie am Jüngſten tag<lb/>
+für ſie alle muͤßten ſo ſchwere rechenſchafft geb<choice><abbr>ẽ</abbr><expan>en</expan></choice>/<lb/>
+<fw place="bottom" type="sig">E ij</fw><fw place="bottom" type="catch">ſo</fw><lb/>
+<pb facs="#f0036" n="[31]"/>
+<fw type="header" place="top">Pꝛedig über der Leich/</fw><lb/>
+ſo ſolten ſie wünſchen/ das jre Lender noch klei-<lb/>
+ner/ vnd der Vnderthonen vil weniger weren/<lb/>
+Dann Herꝛen ſein nicht vmb pꝛachts/ gewalts/<lb/>
+oder wolluſts wegen von Gott zů Herꝛen ge-<lb/>
+ſetzt/ ſonder vmb ſeiner Kirchenoꝛdnung vnnd<lb/>
+Landsoꝛdnung willen/ das ſie mit aller ſoꝛgfel-<lb/>
+tigkeit ſich derſelben annemen/ voꝛſtehen/ vnnd<lb/>
+darüber halten ſollen.</p><lb/>
+<p><note place="left">Ein Chꝛiſt ſoll<lb/>
+ſeinen Erben nit<lb/>
+haͤder vnd zaͤnck<lb/>
+hinderlaſſen.</note>Wann nun ein Menſch/ ſo vil die Kirchen-<lb/>
+oꝛdnung für ſein perſon/ vnd ſeine verwaltung/<lb/>
+jme von Gott beuolhen/ belanget/ mit der Rech-<lb/>
+nung gefaſt/ dz er die warheit Goͤttlichs woꝛts/<lb/>
+vnd ſeines willens waiſt/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice> mit ernſt vnd eifer<lb/>
+darüber helt/ So erheiſchet beides Gottes<lb/>
+beuelch/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice> die liebe des naͤchſten/ dz wir auch in<lb/>
+zeitlichen guͤtern vnnd ſachen/ vnſer Haußhal-<lb/>
+tung der geſtalt anſchicken/ darmit vnſern Er-<lb/>
+ben vnd Nachkommen nicht vꝛſach zům zanck/<lb/>
+vnd ſchedlicher vneinigkeit gegeben werde/ ſon-<lb/>
+der denſelben vnſern Vaͤtterlichen Rhat mit-<lb/>
+theilen/ vnnd alſo auch nach vnſerm todt/ jhnen<lb/>
+nutz ſein/ wie wir denn leſen/ das die Ertzuaͤtter<lb/>
+Abꝛaham/ Jſaac/ Jacob/ gethon haben.</p><lb/>
+<p><note place="left">Gen. xxv.</note>Abꝛaham damit nach ſeinem todt vnder ſei-<lb/>
+nen Kindern/ deren er nit einerley hett/ des zeit-<lb/>
+lichen Gůtshalben nicht zaͤnck ſich erhebten/ gab<lb/>
+er alle ſein Gůt dem Jſaac. Aber den Kindern/<lb/>
+<fw type="catch" place="bottom">die</fw><lb/>
+<pb facs="#f0037" n="16[32]"/>
+<fw place="top" type="header">Hanſen von Liebenſtein.</fw><lb/>
+die er von den Kebsweibern hatt/ gab er ge-<lb/>
+ſchenck/ vnnd ließ ſie von ſeinem Son Jſaac zie-<lb/>
+hen.</p><lb/>
+<p>Deßgleichen thet Jſaac auch gegen ſeinen<note place="right">Geneſ. xxvij.</note><lb/>
+zweyen Soͤnen/ Jacob vnd Eſau/ vnd ob wol<lb/>
+Eſau ſich ſeines Vatters beſcheid nicht ließ be-<lb/>
+nuͤgen/ vnnd ſeinen Brůder Jacob hefftig zů-<lb/>
+geſetzt/ ſo hatt ſich doch Jacob ſeines Vatters<lb/>
+Segen troͤſten koͤnden in aller ſeiner wider wi-<lb/>
+der wertigkeit/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice> ſein Eſaus rhaͤt vnd anſchleg<lb/>
+nichtig geweſen/ weil er ein gottloſer Jeger was/<lb/>
+vnd ſeines Vatters Segen zuͤuoꝛ nicht hoch ge-<lb/>
+achtet/ da er denſelben vmb ein Linſenmůß ver-<note place="right">Geneſ. xxv<gap reason="illegible" unit="chars"/></note><lb/>
+kaufft/ můß er deſſelben auch hernach manglen.</p><lb/>
+<p>Alſo iſt Jacobs Teſtament/ ein beſtendige<note place="right">Geneſ. xlix.</note><lb/>
+veroꝛdnung geweſen vnder ſeinen Soͤnen/ das<lb/>
+nicht allein ſie/ ſonder auch jre Kindskinder wiſ-<lb/>
+ſen ſolten/ was jr ſegen auff Erden ſein würde/<lb/>
+darmit keiner den andern deßhalben neidete/<lb/>
+ſonder ein jeder nach ſeinem ſtandt wüßte Gott<lb/>
+vnd ſeinem naͤchſten Brůder zůdienen.</p><lb/>
+<p>Alſo beſchied auch Thobias/ da er ſterben<note place="right">Thob. xiiij.</note><lb/>
+wolt/ ſein Son vnd ſiben junge Knaben/ ſeines<lb/>
+Sons Kinder/ vnnd gab jnen ein heilſame lehꝛ/<lb/>
+wie ſie ſich beides in der Kirchenoꝛdnung vnnd<lb/>
+zeitlichen Guͤtern/ verhalten ſolten.</p><lb/>
+<p>Da nun der geſtalt fromme vnd verſtendi-<lb/>
+<fw place="bottom" type="sig">E iij</fw><fw place="bottom" type="catch">ge El-</fw><lb/>
+<pb facs="#f0038" n="[33]"/>
+<fw type="header" place="top">Pꝛedig über der Leich/</fw><lb/>
+ge Eltern jr Hauß nach Gottes woꝛt/ vnnd al-<lb/>
+ler billigkeit beſchicken/ muͤſſen es vnſelige Kin-<lb/>
+der ſein/ die jrer Elter letſt<choice><abbr>ẽ</abbr><expan>en</expan></choice> willen ſo baldt ver-<lb/>
+geſſen ſolten/ vnd demnach wenig Segens von<lb/>
+Gott haben würden/ wie das vierdte Gebott<lb/>
+<note place="left">Dent. vj.<lb/>
+Exo. xx.<lb/>
+Man ſoll dz Te-<lb/>
+ſtament nit erſt<lb/>
+im todtbett ma-<lb/>
+chen.</note>außweiſet. Weil aber des Tags vnd der ſtundt<lb/>
+ſeines tods niemandt verſichert/ wie anfangs<lb/>
+gehoͤꝛet/ ſoll ermelte veroꝛdnung nicht biß in das<lb/>
+Todtbett verzogen werden/ da wir eintweder<lb/>
+mit Kranckheit oder dem Todt übereilet/ vnnd<lb/>
+weder vns ſelbſt noch andern mehꝛ rhat<choice><abbr>ẽ</abbr><expan>en</expan></choice> koͤnd<choice><abbr>ẽ</abbr><expan>en</expan></choice>/<lb/>
+ſonder die ſachen mit guͤtem verſtand vnd rhat/<lb/>
+Chꝛiſtlich vnnd aller billigkeit nach anſchicken/<lb/>
+v<choice><abbr>ñ</abbr><expan>nd</expan></choice> verſehen/ wann vns G<hi rendition="#g">OTT</hi> angreifft/ das<lb/>
+wir mit beiden Rechnungen in Geiſtlichen vnnd<lb/>
+Weltlichen ſachen gefaſſet ſeyn.</p></div><lb/>
+<div type="fsPersonalia" n="2"><head/>  <p>Alſo haben wir auch auff diſe ſtundt/ den<lb/>
+Edlen vnd Veſten/ Hanſen von Liebenſtein ſaͤ-<lb/>
+liger gedaͤchtniß/ als ein lebendig Glid Chꝛiſti/<lb/>
+nach Chꝛiſtlicher oꝛdnung zůr Erden beſteti-<lb/>
+get. Von deſſen Leben v<choice><abbr>ñ</abbr><expan>nd</expan></choice> Chꝛiſtlichem abſchid/<lb/>
+auß diſem zeit/ ich ewer lieb ein kurtze erinnerung<lb/>
+vns allen zuͤ troſt/ auch vilen andern ſchwach-<lb/>
+glaubigen zůr beſſerung thůn ſoll.</p><lb/>
+<p>Was da<choice><abbr>ñ</abbr><expan>nn</expan></choice> ſeinen glauben gegen Gott/ vnnd<lb/>
+Chꝛiſtliche bekanntnuß belangt/ ſo jemandt von<lb/>
+demſelben red<choice><abbr>ẽ</abbr><expan>en</expan></choice> oder zeüg<choice><abbr>ẽ</abbr><expan>en</expan></choice> kan/ verhoff ich/ ewer<lb/>
+<fw type="catch" place="bottom">lieb</fw><lb/>
+<pb facs="#f0039" n="17[34]"/>
+<fw place="top" type="header">Hanſen von Liebenſtein.</fw><lb/>
+lieb werd mir zůtrawen/ dz ich ſolchs am beſten<lb/>
+der vꝛſachen thůn koͤnde/ dann ich nahendt bey<lb/>
+zehen gantzen Jaren jm beygewonet/ vnd dem-<lb/>
+nach ſein gemuͤth gnuͤgſam erkennen moͤgen.</p><lb/>
+<p>Dann wie alle die jenigen wiſſen/ ſo vmb jne<lb/>
+geweſen/ hat er gern ſeine ſachen geheim gehalt<choice><abbr>ẽ</abbr><expan>en</expan></choice>/<lb/>
+vnd nit mit jederman/ beſonders in glaubens ſa-<lb/>
+chen/ vil woꝛt gebꝛaucht.</p><lb/>
+<p>Die zeit ich aber ewer Pfarꝛher geweſen/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice><lb/>
+er mich gantz fleiſſig gehoͤꝛt/ auch vil vnd offt zů<lb/>
+ſich berůffen/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice> mir ſouil zůuerſtehn geb<choice><abbr>ẽ</abbr><expan>en</expan></choice>/ dz er<lb/>
+mich wol leid<choice><abbr>ẽ</abbr><expan>en</expan></choice> moͤcht/ hab jn in glaubens ſachen<lb/>
+mehꝛmal mit aller beſcheid<choice><abbr>ẽ</abbr><expan>en</expan></choice>heit/ inſonderheit v<choice><abbr>ñ</abbr><expan>nd</expan></choice><lb/>
+allein in abweſen anderer leüt/ auch ſeiner Hauß<lb/>
+genoſſen angeredt/ beſonders da er noch ein Meß<lb/>
+pꝛieſter in ſeinem Doꝛff zů Jebenhauſen gehalt<choice><abbr>ẽ</abbr><expan>en</expan></choice>/<lb/>
+v<choice><abbr>ñ</abbr><expan>nd</expan></choice> nachmals auß eim andern Doꝛff/ durch ein<lb/>
+Baͤpſtiſch<choice><abbr>ẽ</abbr><expan>en</expan></choice> Pꝛieſter ſein Caploney verſehn lieſſe.</p><lb/>
+<p>Darauff er mir gleicher geſtalt mit aller<lb/>
+beſcheidenheit widerumb begegnet/ vnd nit ver-<lb/>
+halten/ das er vnſer lehꝛ noch der zeit nicht bey-<lb/>
+fall thůn koͤndte/ z<choice><abbr>ũ</abbr><expan>un</expan></choice> theils/ das erlicher Artickel<lb/>
+halben nicht gnůgſam bericht/ vnd jm gar nit<lb/>
+gefiele/ das alle Ceremonien auß der Kirchen<lb/>
+gemuſtert/ zů denen er von Kindtheit auff all-<lb/>
+wegen ein beſonder neigung vnnd liebe gehabt/<lb/>
+zům theil das auch ſonſt bey vnſerm Euangelio<lb/>
+ſachen fürgiengen/ die nicht faſt Euangeliſchen<lb/>
+<fw place="bottom" type="catch">weh-</fw><lb/>
+<pb facs="#f0040" n="[35]"/>
+<fw place="top" type="header">Pꝛedig über der Leich/</fw><lb/>
+wehꝛen/ dz es alſo zů beider theil mangelhafftig<lb/>
+vnd gůt were/ damit durch einhellig zůthůn der<lb/>
+Chꝛiſtlichen/ Geiſtlichen vnd Weltliche Stend/<lb/>
+ein Chꝛiſtliche einhellige vergleichung in der lehꝛ<lb/>
+vnnd Ceremonien angeſtelt würde/ dann ſo vil<lb/>
+er gedencken koͤndte/ würde es der geſtalt in die<lb/>
+leng nichtbeſtehen koͤnden.</p><lb/>
+<p>Woͤlchs alles ich jme mit aller beſcheidenheit<lb/>
+abgeleinet/ mit ferꝛner vermeldung/ der ſtreit<lb/>
+were nicht vmb der Ceremonien willen allein/<lb/>
+in woͤlchen wir vns baldt vergleichen wolten/<lb/>
+ſonder von den fürnembſten Artickeln vnſers<lb/>
+Chꝛiſtlichen Glaubens/ daran vns vnſer See-<lb/>
+len heil vnd ſaͤligkeit gelegen. Das aber auch bey<lb/>
+den vnſern allerley vngerads fürgangen/ das<lb/>
+ſey dem Euangelio nicht zůzůmeſſen/ weil vn-<lb/>
+<note place="left">Joan. vj.</note>der den Jüngern Chꝛiſti einer der Teüffel gewe-<lb/>
+ſen/ ſonſt muͤſten wir auch Chꝛiſtum vnd ſeine<lb/>
+Apoſtel verwerffen.</p><lb/>
+<p>Vnd ſolliches haben wir vil vnnd offt mit<lb/>
+einander getrieben/ dann er ſich nicht wolt eini-<lb/>
+ges Artickels halben/ beſonders vnnd allein mit<lb/>
+mir zů diſputieren/ einlaſſen/ ſonder blieb alſo in<lb/>
+gemeiner erzoͤlung/ was jm an vns mißfallen.<lb/>
+So wolt auch ich jne nicht befftig dꝛingen/ die-<lb/>
+weil mir ſein Natur wol bekannt was/ ſonder<lb/>
+ließ mir genuͤgen/ das er die Pꝛedig Gottes<lb/>
+<fw place="bottom" type="catch">woꝛts</fw><lb/>
+<pb facs="#f0041" n="18[36]"/>
+<fw type="header" place="top">Hanſen von Liebenſtein.</fw><lb/>
+woꝛts mit fleiß hoͤꝛet/ wie er dann meiner fleiſ-<lb/>
+ſigſten zůhoͤꝛer einer geweſen/ vnd nicht bald ein<lb/>
+Pꝛedig/ auſſerhalb beſchwerlicher Leibskranck-<lb/>
+heit/ oder gantz notwendigen geſchefften/ ver-<lb/>
+ſaumpt. Vnd verhoffet alſo/ weil er das rechte<lb/>
+mittel/ vnnd den werckzeüg des heiligen Geiſts<lb/>
+nicht veracht/ ſonder mit ernſt vnd fleiß gebꝛau-<lb/>
+chet/ es werde Gott ein ſelige ſtundt geben/ dar-<lb/>
+innen jhm der Herꝛ ſein Hertz ruͤren/ vnnd gar<lb/>
+zů jhm ziehen würde/ darumb ich dann den All-<lb/>
+mechtigen vil vnd offt von Hertzen angeruͤffen<lb/>
+habe.</p><lb/>
+<p>Kundt alſo auß ſeinen reden genůgſam ver-<lb/>
+ſtehen v<choice><abbr>ñ</abbr><expan>nd</expan></choice> abnemen/ das er die zeit her den Baͤp-<lb/>
+ſtiſchen (wie man ſie nennet) beygewonet/ von<lb/>
+hertzen auſſerhalb eines einigen Artickels/ mit<lb/>
+jnen gehalten/ vnnd alſo vnſer Kirchenoꝛdnung<lb/>
+jhm wenig einleüchten woͤllen/ beſonders aber<lb/>
+hat er mich mehꝛmals bericht/ wie hefftig er ſich<note place="right">Wz Hanſen v<choice><abbr>õ</abbr><expan>on</expan></choice><lb/>
+Liebenſtein am<lb/>
+hefftigſten für<lb/>
+den Kopff ge-<lb/>
+ſtoſſen.</note><lb/>
+ab den vnbeſcheidenen Pꝛedigen geergert/ Auch<lb/>
+mir vnnd andern offt geſaget: Jſts denn al-<lb/>
+les des Teüffels werck/ was man im Bapſtu<choice><abbr>m̃</abbr><expan>mb</expan></choice><lb/>
+gethon hat? man würdt dennoch nicht aller<lb/>
+dings ſo gar vnrecht haben/ wie etliche daruon<lb/>
+reden/ es iſt alſo auff vns kommen/ man hats<lb/>
+angenommen/ vnnd glaubt/ wie es fürtragen<lb/>
+woꝛden iſt/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice> ſein deren noch ein groſſer/ ja vil<lb/>
+<fw type="sig" place="bottom">F</fw><fw type="catch" place="bottom">ein</fw><lb/>
+<pb facs="#f0042" n="[37]"/>
+<fw place="top" type="header">Pꝛedig über der Leich/</fw><lb/>
+ein groͤſſerer hauff/ die noch an <choice><abbr>ď</abbr><expan>der</expan></choice> ander lehꝛ hal-<lb/>
+ten/ man ſey vil zů frey woꝛden/ es doͤꝛffe jetz ein<lb/>
+jeder reden was er woͤll/ da im Bapſtumb einer<lb/>
+ſein Biſchoff vnnd Oꝛdinarium fürchten muͤſ-<lb/>
+ſen/ Es muͤß nur ein beſſere oꝛdnung werden/<lb/>
+ſonſt werden die vil vnnd mancherley ende-<lb/>
+rungen nichts gůts mitt ſich bꝛingen/ Gleich-<lb/>
+<note place="left">Wz Hanſen v<choice><abbr>õ</abbr><expan>on</expan></choice><lb/>
+Liebenſtein am<lb/>
+erſten vnd heff-<lb/>
+tigſten geer-<lb/>
+gert.</note>wol wie hefftig er über ſeiner Elter glaub<choice><abbr>ẽ</abbr><expan>en</expan></choice>/ Kir-<lb/>
+chen Ceremonien/ vnd bekanntniß gehalten/ als<lb/>
+bald er nur ein wenig zů ſeinem verſtandt kom-<lb/>
+men/ hab jm nicht gefallen/ das man die Reichen<lb/>
+ſo ſtarck des Himmelreichs vertroͤſtet/ darumb/<lb/>
+das ſie vil ſtifften kündten/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice> allwegen bey ſich<lb/>
+ſelbſt gedacht/ es muͤßte ein Geltſüchtiger vnge-<lb/>
+rechter Gott ſein/ der vmb Gelts willen ein Rei-<lb/>
+chen einnemen/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice> ein Armen im Fegfewer qual<lb/>
+vnd marter leiden lieſſe.</p><lb/>
+<p>Wie ich nun diſes letſtes gern hoͤꝛet/ darmit<lb/>
+er zůuerſtehen gab/ das Gott bald gleich in ſei-<lb/>
+ner jugent ein füncklin ſeiner erka<choice><abbr>ñ</abbr><expan>nn</expan></choice>tniß angezün-<lb/>
+det. Alſo ließ ich mich nit jrꝛen/ dz er noch der zeit<lb/>
+an des gegentheils vermeinten Gottesdienſts<lb/>
+gehalten.</p><lb/>
+<p>Sonder nach dem ich wol wißte/ dz noch an-<lb/>
+dere mehꝛ meiner zůhoͤꝛer in gleich<choice><abbr>ẽ</abbr><expan>en</expan></choice> vnverſtandt<lb/>
+waren/ enthielt ich mich aller hefftigen reden/ ſo<lb/>
+jn oder andere für den kopff hetten ſtoſſen moͤg<choice><abbr>ẽ</abbr><expan>en</expan></choice>/<lb/>
+<fw place="bottom" type="catch">vnd</fw><lb/>
+<pb facs="#f0043" n="19[38]"/>
+<fw type="header" place="top">Hanſen von Liebenſtein.</fw><lb/>
+vnd nam für mich die Hauptſtuͤck Chꝛiſtlicher<lb/>
+lehꝛ/ handelt dieſelbige mit gůtem grund heiliger<lb/>
+ſchꝛifft/ vnd hielt beide vnſer v<choice><abbr>ñ</abbr><expan>nd</expan></choice> des gegentheils<lb/>
+lehꝛ gegen der H. Schꝛifft/ mit angehenckter/<lb/>
+freündtlicher vnd ernſtlicher erinnerung/ ſie ſol-<lb/>
+ten jetzt ſelbſt vꝛtheilen/ woͤlchem theil ſie mit gů-<lb/>
+tem gewiſſen koͤndten anhangen vnd folgen.</p><lb/>
+<p>Vnd weil es ein weiſer/ vernünfftiger/ ver-<note place="right">Hans von Lie-<lb/>
+beſtein/ iſt nit<lb/>
+vnbedacht von<lb/>
+ſeiner meinung<lb/>
+abgeſtanden.</note><lb/>
+ſtendiger Ma<choice><abbr>ñ</abbr><expan>nn</expan></choice> geweſen/ der nit vnbedacht oder<lb/>
+leichtfertig (wie deren vil gefunden/ ſo in eim tag<lb/>
+dꝛey glauben/ on verſtand vnd grund annemen)<lb/>
+hat er ſich nit gleich bewegen laſſen/ ſon<choice><abbr>ď</abbr><expan>der</expan></choice> auſſer-<lb/>
+halb vnſerer Pfarꝛ/ bey den Baͤpſtiſchen nit de-<lb/>
+ſte weniger das Sacrament empfangen.</p><lb/>
+<p>Da ich aber auch denſelben Artickel von des<lb/>
+Herꝛn Nachtmal nach notturfft/ vnnd in vilen<lb/>
+Pꝛedigen gehandelt/ hat es jm ſo vil nachgeden-<lb/>
+ckens gemacht/ das er frey des Baͤpſtiſchen Sa<lb/>
+craments obergeſtanden/ vnnd etliche Jar her<lb/>
+weder bey den Baͤpſtiſchen noch den vnſern/ das<lb/>
+Nachtmal empfangen.</p><lb/>
+<p>Der gleichen hat er ſich auch je vnd allwegen<lb/>
+geg<choice><abbr>ẽ</abbr><expan>en</expan></choice> ſeinen Vnderthonen gehalten/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice> ſie weil er<lb/>
+ſelbſt etlicher Artickel halben im zweifel geſtan-<lb/>
+d<choice><abbr>ẽ</abbr><expan>en</expan></choice>/ weder mit gebot noch verbot zů der Religion<lb/>
+zwungen/ ſonder einen jeden nach ſeinem gewiſ-<lb/>
+ſen gehn laſſen/ die Pꝛedig zůhoͤꝛen/ vnnd das H.<lb/>
+Sacram<choice><abbr>ẽ</abbr><expan>en</expan></choice>t des leibs v<choice><abbr>ñ</abbr><expan>nd</expan></choice> blůts Chꝛiſti zů<choice><abbr>ẽ</abbr><expan>em</expan></choice>pfah<choice><abbr>ẽ</abbr><expan>en</expan></choice>.</p><lb/>
+<fw type="sig" place="bottom">F ij</fw><fw type="catch" place="bottom">Als</fw><lb/>
+<pb facs="#f0044" n="[39]"/>
+<fw place="top" type="header">Pꝛedig über der Leich/</fw><lb/>
+<p>Als ich nun daſſelbig in erfahꝛung gebꝛacht/<lb/>
+das er in einem zweifel geſtanden/ vnd auff der<lb/>
+einen ſeiten das lang herkommen vnnd gewon-<lb/>
+heit/ auff der andern den außgetruckten beuelch<lb/>
+Chꝛiſti hatte/ hab ich noch mehꝛ ein Hertz vnnd<lb/>
+troſt zů ſeiner bekehꝛung gefaſſet/ mit jm ettwas<lb/>
+freyers zůreden/ vnnd jn alſo mit runden woꝛ-<lb/>
+ten angeredt/ Er hett mich nun vil Jar hoͤꝛen<lb/>
+pꝛedigen/ von allen ſtreitigen Puncten vnd Ar-<lb/>
+tickeln vnſern Chꝛiſtlichen Lehꝛ/ demnach bette<lb/>
+ich jne vmb Gottes vnnd ſeiner Seelen heil wil-<lb/>
+len/ Er wolte mir doch ſagen/ ob er einigen fehl<lb/>
+oder mangel an meiner lehꝛ hette/ ſo wolt ich jn<lb/>
+deſſen noch ferꝛner bericht<choice><abbr>ẽ</abbr><expan>en</expan></choice>/ oder von jm bericht<lb/>
+empfangen.</p><lb/>
+<p>Darauff er mir geantwoꝛtet: Er verhoff-<lb/>
+te/ es ſolte diſe ſach/ daran vns vnſer hoͤchſtes<lb/>
+gůt/ der Seelen ſaͤligkeit gelegen/ auff einem<lb/>
+Chꝛiſtlichen Concilio gentzlich eroͤꝛtert/ vnnd<lb/>
+Chꝛiſtlich verglichen werden. Auch mich deſſel-<lb/>
+ben halben offt vnnd vilangeredt/ ob ich doch<lb/>
+nichts dergleichen hoͤꝛete. Als ich jm aber ſagte:<lb/>
+Jch hett gentzlich kein hoffnung darzů auß vꝛ-<lb/>
+ſachen/ das ich verſtuͤnde/ wie das die Baͤpſti-<lb/>
+ſchen Biſchoff/ ſo gar nicht gedechten einigen<lb/>
+mißbꝛauch abzůſchaffen/ das ſie auch auff dem<lb/>
+Concilio zů Trient gehalten/ vnder andern di-<lb/>
+<fw place="bottom" type="catch">ſen</fw><lb/>
+<pb facs="#f0045" n="20[40]"/>
+<fw type="header" place="top">Hanſen von Liebenſtein.</fw><lb/>
+ſen erſchꝛoͤckenlichen Hauptgrewel beſtaͤtiget:<lb/>
+nemlichen/ woͤlcher Menſch feſtiglichen glaubte/<note place="right">Erſchrockenli-<lb/>
+cher Artickel<lb/>
+auff dem Conci-<lb/>
+lio zů Trient be-<lb/>
+ſtetiget.</note><lb/>
+vnd für gewiß hielte/ das jm ſeine Sünd durch<lb/>
+Chꝛiſtum verzigen ſeyen/ der ſey in ewigkeit ver-<lb/>
+flůcht vnd vermaledeyet. Darüber er ſich dann<lb/>
+hertzlich entſetzt/ vnd vermeint/ das ich jnen ſol-<lb/>
+lichen erſchꝛoͤckenlichen Jrꝛthumb vnbillicher<lb/>
+weiß zůlegete/ biß ich jme die Decret alle nach ein<lb/>
+ander/ vnd ſonderlich auch diſen Artickel gewi-<lb/>
+ſen/ das ers ſelbſt geleſen/ mit ferꝛner vermel-<lb/>
+dung/ das diß der alte Jrꝛthumb were/ der im<lb/>
+Bapſtumb getriben/ ja darauff das gantz Bap-<lb/>
+ſtumb gegründet/ da ſie gelehꝛet: Es ſoll ein<lb/>
+Menſch auff ſeine ſchwachheit ſehen/ vnd weil<lb/>
+er derſelben nimmer ledig werde/ ſo lang er lebe/<lb/>
+ſo ſoll er auch zweifeln ob er einen gnedigen Gott<lb/>
+habe oder nicht/ in woͤlchem zweifel ſie auch die<lb/>
+armen Leüt abſterben lieſſen/ vnnd in das Feg-<lb/>
+fewer ſchickten/ mit vertroͤſtung jhrer hilff/ ſie<lb/>
+wolten jhnen auß deſſelben qual mit baͤtten/ fa-<lb/>
+ſten/ Vigilien/ vnd Seelmeſſen/ helffen.</p><lb/>
+<p>Auff diſe erinnerung/ ſagt er mir mit run-<note place="right">Wz Hanſen v<choice><abbr>õ</abbr><expan>on</expan></choice><lb/>
+Liebenſtein v<choice><abbr>õ</abbr><expan>on</expan></choice><lb/>
+Bapſtumb gar<lb/>
+abgeſchꝛeckt.</note><lb/>
+den woꝛten: Nun ſehe ich/ wann es diſe meinung<lb/>
+hat/ das wenig hoffnung bey einem Concilio<lb/>
+iſt. Jch hett verhofft/ ſagt er/ diſer Artickel ſolt<lb/>
+nun nicht mehꝛ not gehabt haben/ in betrach-<lb/>
+tung/ das es lauter vnnd klar/ das Chꝛiſtus mit<lb/>
+<fw type="sig" place="bottom">F iij</fw><fw type="catch" place="bottom">ſei-</fw><lb/>
+<pb facs="#f0046" n="[41]"/>
+<fw place="top" type="header">Pꝛedig über der Leich/</fw><lb/>
+<note place="left">Hanſen v<choice><abbr>õ</abbr><expan>on</expan></choice> Lie-<lb/>
+benſtein Chꝛiſtli<lb/>
+che bekanntnuß<lb/>
+wider das Con-<lb/>
+cilium zů Tri<choice><abbr>ẽ</abbr><expan>en</expan></choice>t.</note>ſeinem leiden vnd ſterben allein all vnſere Sün-<lb/>
+de gebuͤſſet vnd bezalet/ vnnd das wir ſolliches<lb/>
+feſtiglichen glauben ſolten:</p><lb/>
+<p>Solt<choice><abbr>ẽ</abbr><expan>en</expan></choice> wir erſt/ ſpꝛach er/ daran zweifeln/ wz<lb/>
+were da<choice><abbr>ñ</abbr><expan>nn</expan></choice> vnſer Chꝛiſtlicher glauben da wir glau-<lb/>
+b<choice><abbr>ẽ</abbr><expan>en</expan></choice>/ Ablaß der ſünden/ durch Chꝛiſtum/ der gelit-<lb/>
+ten hat vnder Pontio Pilato? Vnd ſagt weiter<lb/>
+darauff: Wann ich dann mit Gelt vnd ſtifftun-<lb/>
+gen ein theil meiner Sünden buͤſſen koͤndt/ ſo<lb/>
+wolt ich nach mein<choice><abbr>ẽ</abbr><expan>en</expan></choice> todt all mein gůt auch von<lb/>
+mir geben/ aber ich find es bey mir nit/ Es hab<choice><abbr>ẽ</abbr><expan>en</expan></choice><lb/>
+meine Elter vil hin vnnd wider geſtifftet/ da ſie<lb/>
+vnſer zeit erlebt/ vnd ſo vil/ als wir gelehꝛet woꝛ-<lb/>
+den/ ſie würden es wol vnderlaſſen haben.</p><lb/>
+<p>Mit diſen gedancken/ von des Conciliums<lb/>
+erſchꝛockenliche lehꝛ vnd Artickel/ ließ ich jne ein<lb/>
+zeitlang vmbgehen/ redet jn deßhalben ein gůte<lb/>
+zeit nicht weiter an/ trieb es aber auff das aller<lb/>
+ernſtlichſt vnd gründlichſt in vilen meinen Pꝛe-<lb/>
+digen/ die er mit groſſem fleiß gehoͤꝛt. Was diß<lb/>
+für ein erſchꝛockenliche lehꝛ were/ da die Baͤpſti-<lb/>
+ſchen lehꝛer/ vnnd ſonderlich das Concilium ge-<lb/>
+ſchloſſen/ wie dann diſelehꝛ/ diß jetzig Concilium<lb/>
+zů Trient wideru<choice><abbr>m̃</abbr><expan>mb</expan></choice> beſtetiget/ woͤlcher Menſch<lb/>
+feſtiglichen glaube/ das jhm ſeine Sünde durch<lb/>
+Chꝛiſtum verzigen ſeye/ der ſey in ewigkeit ver-<lb/>
+hampt vñ verflůcht. Dardurch er bewegt woꝛ-<lb/>
+<fw place="bottom" type="catch">den/</fw><lb/>
+<pb facs="#f0047" n="21[42]"/>
+<fw type="header" place="top">Hanſen von Liebenſtein.</fw><lb/>
+den/ etwas mit mehꝛ fleiß in heiliger Schꝛifft/<lb/>
+Altes vnnd Newes Teſtaments nachzůleſen/<lb/>
+auch ich alſo nach vnnd nach/ je lenger je mehꝛ<lb/>
+ſpüren moͤgen/ das er vnſerer Kirchen lehꝛ ſich<lb/>
+von tag zů tag nehert.</p><lb/>
+<p>Dann wie vns allen wiſſend/ iſt er in allen<lb/>
+ſeinen ſachen ein beſonder oꝛdenlicher Mann ge-<lb/>
+weſen/ der allem ding fleiſſig vnd ernſtlich nach-<lb/>
+gedacht/ vnnd was er beſtetiget oder vermeint/<lb/>
+mit wolbedachtem hertzen vnd gemuͤth gethon.</p><lb/>
+<p>Endlich da ich gdacht/ ich hett jm lang zuͤge-<lb/>
+ſehn/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice> mit jm gnůg gedult trag<choice><abbr>ẽ</abbr><expan>en</expan></choice>/ auch verhof-<lb/>
+fet/ das er nun ſatten vnnd gnůgſamen bericht<lb/>
+von allen Artickeln empfangen/ hab ich jn aber-<lb/>
+mals vnd etwas ernſtlichers angeredt: Jch bet-<lb/>
+te jn vmb Gottes willen/ dieweil ich ſo vil Jar<lb/>
+ſein Pfarꝛherꝛ geweſen/ vnnd er mich mit ſon-<lb/>
+derm fleiß gehoͤꝛet/ Er ſolt mir doch ſagen/ ob<lb/>
+er noch ettwas fehl vnnd mangel an der Lehꝛ<lb/>
+hette/ die ich jm fürgetragen/ hat er mit runden<note place="right">Hanſen v<choice><abbr>õ</abbr><expan>on</expan></choice> Lie-<lb/>
+benſtein endli-<lb/>
+che bekannt-<lb/>
+nuß.</note><lb/>
+woꝛten/ nicht beſonders allein in abweſen ande-<lb/>
+rer Leüt/ ſonder auch mehꝛmals in gegenwer-<lb/>
+tigkeit viler/ ſo’ ohn zweifel zuͤm gůten theil jetz<lb/>
+in diſer Leichpꝛedig gegenwertig/ geſaget: Die<lb/>
+Lehꝛ/ ſo ich der gemein GOTtes allhie nun vil<lb/>
+Jar her auß den Buͤchern der Propheten<lb/>
+vnnd Apoſteln/ Altes vnnd Newes Teſta-<lb/>
+<fw type="catch" place="bottom">ments</fw><lb/>
+<pb facs="#f0048" n="[43]"/>
+<fw place="top" type="header">Pꝛedig über der Leich/</fw><lb/>
+ments fürgetragen/ ſeye die Goͤttlich warheit/<lb/>
+vnnd gewißlich kein anderer weg zů der ewigen<lb/>
+ſaͤligkeit/ vnnd woͤlcher derſelben gehoꝛſamlich<lb/>
+volgen/ on zweifel ſaͤlig werde.</p><lb/>
+<p>Vmb woͤlches zeügnuß willen ich dem All-<lb/>
+mechtigen vmb ſein ſelbſt/ vnd anderer Chꝛiſten<lb/>
+willen/ ſo auff jhn geſehen/ von hertzen gedan-<lb/>
+cket/ mit woͤlchem er zůuerſtehen geben/ das er<lb/>
+nun ein genůgſamen ſatten vnnd beſtendigen<lb/>
+grund in ſeinem glauben/ vnd rhů ſeines gewiſ-<lb/>
+ſens erlangt/ vnd an der lehꝛ des H. Euangelij<lb/>
+nicht mehꝛ gezweifelt.</p><lb/>
+<p>Gleichwol hoͤꝛet ich nicht auff/ mit verma-<lb/>
+nung anzůhalten/ auff das er in der erkanntniß<lb/>
+des Herꝛn Chꝛiſti/ jmmer je mehꝛ zůgenommen/<lb/>
+biß er ſollichen ſeinen Glauben auch offentlich<lb/>
+bekennet/ dardurch er verurſacht/ mir vil alte<lb/>
+ſtifftungen zůweiſen/ deren gar alten abſchꝛifft<lb/>
+er behanden (wie er dann ein beſondern luſt zů<lb/>
+den Antiquiteten gehabt) vnnd mir darinnen<lb/>
+gewieſen/ wie die alte Keyſer ettlichen Kirchen<lb/>
+Priuilegia vnd Freyheiten beſtaͤtiget/ vnd zům<lb/>
+theils auch zů den voꝛigen ſtifftungen gethon/<lb/>
+doch allwegen mit diſer vermeldung: <hi rendition="#aq">pro reme-<lb/>
+dio animarum ſuarum.</hi> Jhren Seelen dardurch<lb/>
+bey Gott zůrhaten/ vnd fürzůhelffen. Hie ſehet<lb/>
+jr/ ſpꝛach er zů mir/ wie vnſere voꝛeltern ſo übel<lb/>
+<fw place="bottom" type="catch">verfuͤh-</fw><lb/>
+<pb facs="#f0049" n="22[44]"/>
+<fw place="top" type="header">Hanſen von Liebenſtein.</fw><lb/>
+verfuͤhꝛet/ vnd nicht nach Gottes woꝛt gewiſen<lb/>
+woꝛden ſein.</p><lb/>
+<p>Darauff ich jme ſagt: Es hett jm dannoch<note place="right">Es ſein vil vnſe<lb/>
+rer voꝛfahꝛen un<lb/>
+Bapſtumb ſaͤlig<lb/>
+woꝛden.<lb/>
+Rom. xj.<lb/>
+Matth. xxiiij.</note><lb/>
+Gott auch ſeine <choice><sic>ſibeutauſendt</sic><corr>ſibentauſendt</corr></choice> voꝛbehalten/ die<lb/>
+jre Knie voꝛ dem Baal nicht gebogen haben/ wie<lb/>
+der Herꝛ Chꝛiſtus geſagt/ wo müglich/ es ſolten<lb/>
+auch die Außerwoͤlten in Jrꝛthumen gefuͤhꝛet<lb/>
+woꝛden ſein.</p><lb/>
+<p>Ja ſagt er: Jch zweifel auch nicht daran/ es<lb/>
+werden deren nicht wenig geweſen ſein/ die diſen<lb/>
+betrůg gemerckt vnnd verſtanden/ aber ſich deſ-<lb/>
+ſen nicht offentlich haben doͤꝛffen vernemen laſ-<lb/>
+ſen/ weil man nicht ſo frey geweſen/ wie zů diſer<lb/>
+zeit/ man hett jr ſonſt mehꝛ funden/ die diſen Jrꝛ-<lb/>
+thumb widerſpꝛochen hetten.</p><lb/>
+<p>Da nun meines erachtens/ der Lehꝛ halben<lb/>
+bey jm nicht fehl noch mangel/ fieng ich an bey<lb/>
+jm anzůhalten/ Er woͤlte den Meßpꝛieſter/ ſo zů<lb/>
+Jebenhauſen/ in ſeinem Fleck<choice><abbr>ẽ</abbr><expan>en</expan></choice> noch lehens weiß/<lb/>
+auß eim andern Doꝛff/ Meß zůleſen beſtellet/ ab<lb/>
+ſchaffen.</p><lb/>
+<p>Dann nach dem jm für ſein perſon/ Gott ſein<lb/>
+woꝛt vnnd Goͤttlichen willen zůerkennen gege-<lb/>
+ben/ ſey er/ als von Gott ein geoꝛdnete Oberkeit<lb/>
+ſchuldig/ auch ſein<choice><abbr>ẽ</abbr><expan>en</expan></choice> Vnderthonen ſolchen thew-<lb/>
+ren ſchatz mitzůtheilen/ vnd dahin zůhalten/ das<lb/>
+ſie den Herꝛn jren Gott recht erkennen/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice> nach<lb/>
+<fw place="bottom" type="sig">G</fw><fw place="bottom" type="catch">ſeinem</fw><lb/>
+<pb facs="#f0050" n="[45]"/>
+<fw type="header" place="top">Pꝛedig über der Leich/</fw><lb/>
+ſeinem beuelch dienen.</p><lb/>
+<p>Dieweil aber daſelbſten kein eigne Pfarꝛ/ ſon-<lb/>
+der allein <hi rendition="#aq">Caplonia curata,</hi> ghen Faurdaw in die<lb/>
+Pfarr gehoͤꝛig/ da voꝛ Jaren ein Stifft gewe-<lb/>
+ſen/ vnd von dannen auß im Bapſtumb mit al-<lb/>
+len Pfaͤrrlichen Rechten verſehn woꝛd<choice><abbr>ẽ</abbr><expan>en</expan></choice>/ ſagt er/<lb/>
+die zeit er jhnen voꝛgeſtanden/ hett er ſie zů der<lb/>
+Baͤpſtiſchen Religion nie gezwungen/ ſonder ei-<lb/>
+nen jeden/ nach außweiſung ſeines gewiſſens/ hie<lb/>
+vnnd in den vmbligenden Flecken/ Gottes woꝛt<lb/>
+laſſen hoͤꝛen/ vnnd jhnen daſſelbige nicht verbot-<lb/>
+ten.</p><lb/>
+<p>Vnnd ob er wol alsbald auff mein letſt an-<lb/>
+halten/ den Meßpꝛieſter abgeſchaffen/ vnnd die<lb/>
+Meß obergeſtelt/ hat jme doch bedencklich fal-<lb/>
+len woͤllen/ zů Jebenhauſen gleich ein Euan-<lb/>
+geliſchen Pꝛedicanten auffzůſtellen/ vnnd die<lb/>
+Sachen Anno 1557. auff dem Reichßtag zů<lb/>
+Regenſpurg gehalten/ auffgezogen/ ob doch die<lb/>
+enderung mit gemeiner Chꝛiſtlicher Stend be-<lb/>
+willigung geſchehen moͤchte. Da aber das Col-<lb/>
+loquium zů Woꝛmbs/ ſelbiger zeit bewilligt/ hat<lb/>
+er mich biß auff daſſelbig auch auffgehalten/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice><lb/>
+da man on frucht von einander geſcheiden/ vnd<lb/>
+ich jhm gethones Eydes halben nicht doꝛfft<lb/>
+ſagen/ waran es ſich geſtoſſen/ hat er es biß auff<lb/>
+künfftigen Reichßtag Anno 1559. verzogen/ da<lb/>
+<fw type="catch" place="bottom">die</fw><lb/>
+<pb facs="#f0051" n="23[46]"/>
+<fw place="top" type="header">Hanſen von Liebenſtein.</fw><lb/>
+die <hi rendition="#aq">acta Colloquij Wormatien.</hi> publiciert/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice> n<choice><abbr>ũ</abbr><expan>un</expan></choice><lb/>
+allen Stenden eroͤffnet/ das ſich die Baͤpſtiſchen<note place="right">Die Hauptvr-<lb/>
+ſach/ waru<choice><abbr>m̃</abbr><expan>mb</expan></choice> dz<lb/>
+letſte Colloqui<choice><abbr>ũ</abbr><expan>um</expan></choice><lb/>
+zů Wormbs zer-<lb/>
+ſchlagen.</note><lb/>
+mit den Lutheriſchen/ wie man ſie beiderſeits<lb/>
+nennt/ nicht haben der geſtalt einlaſſen woͤllen/<lb/>
+das alle jrꝛungen allein auß heiliger Schꝛifft ſol-<lb/>
+ten eroͤꝛtert vnnd entſcheiden werden/ vnnd ſich<lb/>
+ſonderlich diſer erſchꝛockenlichen rede vernemen<lb/>
+laſſen/ Die H. Schꝛifft wer nit <hi rendition="#aq">vox Iudicis,</hi> das<lb/>
+iſt/ die ſtim̃ des Richters/ ſonder <hi rendition="#aq">materia litis,</hi> dz<lb/>
+iſt/ ein zanckeiſen.</p><lb/>
+<p>Da er ſolchs vernomen/ war durch <choice><sic>Gortes</sic><corr>Gottes</corr></choice><note place="right">Was Hanſen vo<lb/>
+Liebenſtein be-<lb/>
+wegt/ dz er dem<lb/>
+Bapſtumb gar<lb/>
+vꝛlaub geben.</note><lb/>
+gnad bey jm kein hinderſich ſehen mehꝛ/ dann es<lb/>
+ſchlůgen das Colloquium vnd Concilium zůſa-<lb/>
+men/ auff woͤlche beide/ neb<choice><abbr>ẽ</abbr><expan>en</expan></choice> den Reichßuerſam-<lb/>
+lungen/ er je vnnd allwegen groſſe hoffnung ge-<lb/>
+ſetzt/ es ſolten die ſtreitigen Religions Puncten/<lb/>
+einmal Chꝛiſtlichen verglichen werden.</p><lb/>
+<p>Vnd weil die Vaͤtter auff dem Concilio di-<lb/>
+ſen erſchꝛockenlichen Artickel beſtetigt: Woͤlcher<lb/>
+Menſch feſtiglichen glaub/ das jm ſeine Sünde<lb/>
+durch Chꝛiſtum verzigen ſeyen/ der ſey in ewig-<lb/>
+keit verflůchet: Die Gelehꝛten aber auff dem<lb/>
+Colloquio zů Woꝛmbs/ ſich mit runden woꝛten<lb/>
+vernemmen laſſen/ die heilige Schꝛifft ſey nit die<lb/>
+ſti<choice><abbr>m̃</abbr><expan>mm</expan></choice> des Richters/ nach woͤlcher allein ſich alle<lb/>
+Lehꝛer richten ſollen/ vnnd wer auff diſer mei-<lb/>
+nung beharren woͤll/ das alle ſtreitige Religions<lb/>
+artickel nach der H. Schꝛifft ſolt<choice><abbr>ẽ</abbr><expan>en</expan></choice> entſchid<choice><abbr>ẽ</abbr><expan>en</expan></choice> wer-<lb/>
+<fw place="bottom" type="sig">G ij</fw><fw place="bottom" type="catch">den/</fw><lb/>
+<pb facs="#f0052" n="[47]"/>
+<fw type="header" place="top">Pꝛedig über der Leich/</fw><lb/>
+den/ mit dem woͤllen ſie nicht diſputieren.</p><lb/>
+<p>Darüber auch endtlich das angeſetzt Collo-<lb/>
+quium/ auff woͤlchs die gantze Chꝛiſtenheit geſe-<lb/>
+hen/ zerſchlagen woꝛden. Da er/ ſage ich/ ſolches<lb/>
+geſehen vnnd gehoͤꝛet/ hat er jnen gleich glatt vꝛ-<lb/>
+laub geben/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice> im namen des Allmechtigen Got-<lb/>
+tes mir beuolhen/ ſeine Vnderthonen/ bey woͤl-<lb/>
+chen biß daher Meß geleſen woꝛden/ mit dem<lb/>
+reinen woꝛt Gottes auff das aller beſcheideneſt<lb/>
+zů vnderꝛichten/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice> da ſie in Jrꝛtumb gefuͤhꝛet/<lb/>
+dieſelbige jnen auß Gottes woꝛt darzůthůn/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice><lb/>
+recht zů vnderweiſen/ woͤlchs ich von Goͤppin-<lb/>
+gen auß/ die zeit ich anheimiſch geweſen/ vnge-<lb/>
+fehꝛlich zwey Jar lang verſehen/ vnnd wie ich<lb/>
+<note place="left">Joan. xvij.</note>verhoff/ die erka<choice><abbr>ñ</abbr><expan>nn</expan></choice>tniß des Herꝛn Chꝛiſti/ woͤlche<lb/>
+iſt das ewige leben/ trewlich jn<choice><abbr>ẽ</abbr><expan>en</expan></choice> fürgehalten/ die<lb/>
+ſie auch durch den Geiſt GOTtes gefaſſet/ vnd<lb/>
+verhoffenlich/ auch biß in jr ende behalten wer-<lb/>
+den.</p><lb/>
+<p><note place="left">Was Hanſen v<choice><abbr>õ</abbr><expan>on</expan></choice><lb/>
+Lieb<choice><abbr>ẽ</abbr><expan>en</expan></choice>ſtein vom<lb/>
+Nachtmal des<lb/>
+Herꝛn abgehal-<lb/>
+ten.</note>Letzlich habe ich jn auch des Herꝛen Nacht-<lb/>
+mals halben erinnert/ daſſelbige mit der gemein<lb/>
+Gottes offentlich zůempfahen/ da jn dann auch<lb/>
+der leidige zwiſpalt nicht wenig gehindert/ ſo ſich<lb/>
+zwiſchen den vnſern ein zeit her gehalten.</p><lb/>
+<p>Dann das er es in beider geſtalt ſolt empfan-<lb/>
+gen/ hett er kein bedencken mehꝛ/ weil der außge-<lb/>
+truckt beuelch Chꝛiſti/ in den dꝛeyen Euangeli-<lb/>
+<fw type="catch" place="bottom">ſten</fw><lb/>
+<pb facs="#f0053" n="24[48]"/>
+<fw place="top" type="header">Hanſen von Liebenſtein.</fw><lb/>
+ſten geſchꝛiben ſtehet/ das man ſein Blůt nicht eſ-<note place="right">Matth. xxvj.<lb/>
+Marci xiiij.<lb/>
+Luce xxij.</note><lb/>
+ſen/ ſonder trincken ſolt. Trincket alle darauß<lb/>
+ſpꝛicht Chꝛiſtus/ diß iſt mein Blůt/ Er hat nicht<lb/>
+geſagt/ eſſet mein Blůt mit meinem Leib/ vnan-<lb/>
+geſehen das Chꝛiſtus nicht getrennet würt/ ſein<lb/>
+woꝛt iſt klar vnnd lauter/ wie er diß Nachtmal<lb/>
+geſtifftet.</p><lb/>
+<p>Diß aber hat jn ein zeitlang in die Augen ge-<lb/>
+ſtochen/ das ein Pꝛediger ſagt: Das Brot iſt der<lb/>
+Leib Chꝛiſti. Der ander ſagt: Vnder dem Brot<lb/>
+iſt der Leib Chꝛiſti. Der dꝛitte/ mit/ in oder neben<lb/>
+dem Brot iſt der Leib Chꝛiſti. Darauff ich<lb/>
+jme nachuolgenden gründtlichen bericht gege-<lb/>
+ben/ vnd zům offtermal widerholet/ dann er nit<lb/>
+einmal hieruon mit mir geredt.</p><lb/>
+<p>Es ſey einmal war/ vnnd haben neben der<note place="right">Chꝛiſtlicher ein-<lb/>
+feltiger bericht/<lb/>
+von dem H.<lb/>
+Nachtmal.</note><lb/>
+Euangeliſten vnnd Apoſtel lehꝛ ſollichs auch die<lb/>
+Vꝛalten Lehꝛer/ Jren<hi rendition="#aq">æ</hi>us/ Tertullianus/ Augu-<lb/>
+ſtinus/ ꝛc. vnd andere bekennt/ das im H. Nacht<lb/>
+mal zwey ding ſeyen/ das ein/ ſey das eüſſerlich<lb/>
+Element/ Brot vnnd Wein/ das ander ſey der<lb/>
+Leib vnd das Blůt Chꝛiſti/ wie ſollichs auß den<lb/>
+woꝛten des Apoſtels klar zůuernemmen/ da er<lb/>
+ſpꝛicht: Das Bꝛot das wir bꝛechen/ iſt es nit ein<note place="right">j. Coꝛ. x.</note><lb/>
+gemeinſchafft des Blůts Chꝛiſti/ Der geſegnete<lb/>
+Kelch/ den wir ſegnen/ iſt der nicht ein gemein-<lb/>
+ſchafft des Blůts Chꝛiſti. Weil aber die außſpen<lb/>
+<fw place="bottom" type="sig">G iij</fw><fw place="bottom" type="catch">dung</fw><lb/>
+<pb facs="#f0054" n="[49]"/>
+<fw place="top" type="header">Pꝛedig über der Leich/</fw><lb/>
+dung des Leibs vnd Blůts Chꝛiſti/ ein geheim-<lb/>
+nuß iſt/ woͤlche kein Menſch mit vernunfft be-<lb/>
+<note place="left">Epheſ. j.<lb/>
+Matth. xxviij.<lb/>
+Coloſſ. ij.</note>greiffen kan/ gleich wie ſein Himmeliſch Regi-<lb/>
+ment/ das nicht allein die Goͤttlich Natur in<lb/>
+Chꝛiſto/ ſonder auch ſein Menſchlich natur alles<lb/>
+regiere was im Hi<choice><abbr>m̃</abbr><expan>mm</expan></choice>el v<choice><abbr>ñ</abbr><expan>nd</expan></choice> auff Erden iſt/ ſo pfle-<lb/>
+gen wir eben daruon zů reden/ als wie die ſchꝛifft<lb/>
+von Gott redet/ dem ſie Augen/ Ohꝛen/ Hend v<choice><abbr>ñ</abbr><expan>nd</expan></choice><lb/>
+Fuͤß/ Naſen/ ꝛc. zůleget/ ſo doch GOtt in ſeinem<lb/>
+Goͤttlichen weſen weder Hend noch Fuͤß/ weder<lb/>
+Augen noch Ohꝛn hat. Demnach gilt es eben<lb/>
+gleich/ man ſage/ im Bꝛot/ oder mit dem Bꝛot/ o-<lb/>
+der vnder dem Bꝛot/ neben dem Bꝛot/ bey dem<lb/>
+Bꝛot/ oder wie die woꝛt Chꝛiſti ſelbſt lauten/ das<lb/>
+Brot iſt der Leib Chꝛiſti.</p><lb/>
+<p>Dann dadurch verſtehn wir nit/ das der leib<lb/>
+Chꝛiſti ſey auß dem Bꝛot gemacht/ oder in das<lb/>
+Brot eingſchloſſen/ oder daran/ darunder/ oder<lb/>
+darneben gebund<choice><abbr>ẽ</abbr><expan>en</expan></choice> noch ſchweb<choice><abbr>ẽ</abbr><expan>en</expan></choice>d (woͤlchs alles<lb/>
+fleiſchliche gedancken ſein/ vnd ſich mit diſem ho-<lb/>
+hen geheimnuß gar nit reim<choice><abbr>ẽ</abbr><expan>en</expan></choice>) ſonder wie er/ ver<lb/>
+moͤg ſeines woꝛts geg<choice><abbr>ẽ</abbr><expan>en</expan></choice>wertig/ alſo werde er auch<lb/>
+mit diſem ſichtbaren Elementen außgetheilt v<choice><abbr>ñ</abbr><expan>nd</expan></choice><lb/>
+empfangen. Darumb ſoll er ſich diſe vngleiche<lb/>
+reden/ ſo widerwertig ſcheinen/ nichts anfechten<lb/>
+laſſen/ ſonder allein auff den beuelch vnnd woꝛt<lb/>
+Chꝛiſti ſehen/ vnd jm die ſoꝛg beuelhen/ wie er zů-<lb/>
+<fw place="bottom" type="catch">gegen</fw><lb/>
+<pb facs="#f0055" n="25[50]"/>
+<fw type="header" place="top">Hanſen von Liebenſtein.</fw><lb/>
+gegen ſein koͤnde/ der verheiſſen hat/ wo zwen in<lb/>
+ſeinem namen verſamlet ſein/ woͤll er mitten vn-<note place="right">Matth. xviij.</note><lb/>
+der jnen ſein/ woͤlchs er/ vnnd ſonſt kein anderer<lb/>
+Heilig vermag zůthůn/ dann Gott hat alle voͤlle<note place="right">Warumb der<lb/>
+Leib Chꝛiſti im<lb/>
+heiligen Nacht-<lb/>
+mal koͤnde ge-<lb/>
+genwertig<lb/>
+ſein.</note><lb/>
+ſeiner Gottheit diſem Menſchen Chꝛiſto leibhaff<lb/>
+tig mitgetheilt/ vnnd zů ſeiner gerechten geſetzt/<lb/>
+jm allen gwalt im Hi<choice><abbr>m̃</abbr><expan>mm</expan></choice>el v<choice><abbr>ñ</abbr><expan>nd</expan></choice> auff Erd<choice><abbr>ẽ</abbr><expan>en</expan></choice> gegeb<choice><abbr>ẽ</abbr><expan>en</expan></choice>/<lb/>
+darumb vermag er ſollichs nit allein nach ſeiner<lb/>
+Goͤttlich<choice><abbr>ẽ</abbr><expan>en</expan></choice> natur/ an woͤlcher niemandt zweifelt/<lb/>
+ſonder auch nach ſeiner Menſchlichen natur/ de-<note place="right">Matth. xxviij.<lb/>
+Epheſ. j.</note><lb/>
+ren der vnendtlich gewalt Gottes mitgetheilet/<lb/>
+vnd vermag alles zůthon was er will/ in Hi<choice><abbr>m̃</abbr><expan>mm</expan></choice>el<lb/>
+vnd auff Erden/ woͤlchs weder die Engel noch<lb/>
+die andern Heiligen vermoͤgen. Auff diſe Ma-<lb/>
+yeſtat/ gewalt/ <choice><abbr>vñ</abbr><expan>nd</expan></choice> herꝛligkeit des menſchen Chꝛi-<lb/>
+ſti iſt zůſehen/ vnd der ſie erkennt/ den würt nit<lb/>
+mehꝛ wundern/ wie Chꝛiſtus auch nach ſeiner<lb/>
+Menſchlichen natur warhafftig vnd weſentlich<lb/>
+vns gegenwertig ſein koͤndte.</p><lb/>
+<p>Diſes berichts/ iſt Er durch Gottes gnad<lb/>
+wol zů friden geweſen/ vnnd nicht weiter diſpu-<lb/>
+tiert/ ſonder d<choice><abbr>ẽ</abbr><expan>en</expan></choice> einfeltig<choice><abbr>ẽ</abbr><expan>en</expan></choice> woꝛt Chꝛiſti geglaubt.</p><lb/>
+<p>Vnder deſſen bin ich durch die ſchickung des<lb/>
+Allmechtig<choice><abbr>ẽ</abbr><expan>en</expan></choice> on all mein beger von eüch/ zů einer<lb/>
+andern Kirchen abgefoꝛdert/ da er mich de<choice><abbr>ñ</abbr><expan>nn</expan></choice> mit<lb/>
+gantz betruͤbtem hertzen von ſich glaſſen/ wie al-<lb/>
+le die wiſſen/ ſo taͤglich vmb jne geweſen.</p><lb/>
+<p>Als er nun kurtz verſchiner tagen in diſe ſeine<lb/>
+<fw type="catch" place="bottom">letſte</fw><lb/>
+<pb facs="#f0056" n="[51]"/>
+<fw place="top" type="header">Pꝛedig über der Leich/</fw><lb/>
+<note place="left">Wie ſich Hans<lb/>
+von Liebenſtein<lb/>
+in ſeiner Kranck<lb/>
+heit ghalten/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice><lb/>
+Chꝛiſtlich im<lb/>
+Herꝛn ver-<lb/>
+ſcheiden.</note>letſte beſchwerliche Kranckheit gefallen/ vnnd<lb/>
+jm dieſelbige hefftig zůſetzen woͤllen/ hatt er ſich<lb/>
+hertzlich nach mir geſenet vnd verlanget. Vnnd<lb/>
+da ich vnlangſt kommen/ vnnd jhn bey gůtem<lb/>
+verſtandt funden/ iſt das erſte woꝛt geweſen/<lb/>
+das er mit mir geredt: Jr ſeidt mein Beichtuat-<lb/>
+ter.</p><lb/>
+<p>Darauff ich jne mit weitleüffigen woꝛten<lb/>
+erinnert der Chꝛiſtlichen bekanntnuß/ von allen<lb/>
+vnd jeden ſtreitigen Artickeln vnſerer Religion/<lb/>
+ob er noch bey derſelben beſtendig halten/ vnnd<lb/>
+da jm Gott auß diſem zeit abfoꝛdern würd/ ſein<lb/>
+leben ſaͤliglichen darinnen beſchlieſſen wolte/ hat<lb/>
+er ermelte Confeſſion widerumb kurtz erholet/<lb/>
+vnnd mehꝛmal bezeüget/ auch Gott hertzlich ge-<lb/>
+betten/ das er jne in derſelben mit ſeinem Geiſt<lb/>
+vnd krafft biß in ſein ende erhalten wolte.</p><lb/>
+<p>Nachmals hab ich jn auch erinnert des thew-<lb/>
+ren ſchatzs/ den vns der Herꝛ Chꝛiſtus in ſeinem<lb/>
+heiligen Nachtmal hinderlaſſen/ darmit vnſern<lb/>
+ſchwachen glauben zůſtercken/ hat er auch hier-<lb/>
+mit ſeinen Glauben offentlich bezeügen woͤl-<lb/>
+len. Vnd ob er wol etwas ſchwechers geweſen/<lb/>
+dannoch im Bett nicht bleiben woͤllen/ ſonder<lb/>
+ſich auff einen Seſſel geſetzt/ ſeine Sünde von<lb/>
+Hertzen bekennet/ vmb vergebung der Sünden<lb/>
+<fw place="bottom" type="catch">allein</fw><lb/>
+<pb facs="#f0057" n="26[52]"/>
+<fw type="header" place="top">Hanſen von Liebenſtein.</fw><lb/>
+allein durch Jheſum Chꝛiſtum gebetten/ vnnd<lb/>
+ſich mit hoͤchſter gedult in die gwaltige vnd gne-<lb/>
+dige handt Gottes ergeben/ vnnd alſo ſampt ſei-<lb/>
+ner lieben Haußfrawen/ Anna/ Geboꝛne Goͤle-<lb/>
+rin/ von mir das hochwirdige Sacrament mit<lb/>
+groſſer ehꝛentbietung empfangen/ dem Herꝛen<lb/>
+Chꝛiſto für ſein leiden v<choice><abbr>ñ</abbr><expan>nd</expan></choice> ſterben lob vnd danck<lb/>
+geſaget/ vnnd endtlich dem Herꝛen Chꝛiſto Leib<lb/>
+vnd Seel beuolhen.</p><lb/>
+<p>Deſſelbigen Abendts/ fieng an die Kranck-<lb/>
+heit von ſtundt zů ſtundt ſich zů mehꝛen/ vnd da<lb/>
+jm die rede anfieng zů ſchwer werden/ haben wir<lb/>
+jne deßhalben mit reden nicht bemuͤhen woͤllen/<lb/>
+ſonder auff alle erinnerungen/ ſo von mir geſche-<lb/>
+hen/ mit ja oder nein/ zů antwoꝛten gebetten/ er<lb/>
+wolte denn ſonſt anders weiters von vns ha-<lb/>
+ben.</p><lb/>
+<p>Da er denn nicht mit einfaltigem ja/ ſonder<lb/>
+vil ja ja/ alle erinnerung/ jme von mir beſchehen/<lb/>
+beſtetiget/ deßgleichen offt vnd vil Amen geſagt/<lb/>
+vnd zů zeiten verteütſcht/ das iſt war/ das würt<lb/>
+war/ das würdt geſchehen.</p><lb/>
+<p>Vnnd ob er wol ein vnſaͤglichen ſchmertzen<note place="right">Hanſen von<lb/>
+Lieb<choice><abbr>ẽ</abbr><expan>en</expan></choice>ſtein hoͤch<lb/>
+ſtegedult.</note><lb/>
+an ſeinem Leib erlitten/ hat jm doch Gott neben<lb/>
+dem verſtandt/ den er ſchier biß in ſein letſten<lb/>
+ſeüfftzen behalten/ ein beſondere groſſe v<choice><abbr>ñ</abbr><expan>nd</expan></choice> Chꝛiſt<lb/>
+liche gedult verliehen/ das er alſo dem Herren<lb/>
+<fw type="sig" place="bottom">H</fw><fw type="catch" place="bottom">Chꝛi-</fw><lb/>
+<pb facs="#f0058" n="[53]"/>
+<fw place="top" type="header">Pꝛedig über der Leich/</fw><lb/>
+Chꝛiſto ſein Creütz gedultig vnnd willig nach-<lb/>
+getragen/ durch den Glauben überwunden/ vnd<lb/>
+alſo/ wie ein Liechtlin außgeblaſen/ ſanfft vnnd<lb/>
+ſtill in vnſerm Herꝛ<choice><abbr>ẽ</abbr><expan>en</expan></choice> Jeſu Chꝛiſto ſaͤliglich ver-<lb/>
+ſcheiden.</p><lb/>
+<p>Diß iſt geweſen die bekanntnuß ſeines Glau-<lb/>
+bens/ vnnd das er der geſtalt mit mir gehandelt/<lb/>
+auch ſein ende alſo im Herꝛn beſchloſſen/ bezeüge<lb/>
+ich voꝛ vnſerm Herꝛn Jeſu Chꝛiſto/ vnnd wer-<lb/>
+den ſollichs auch mit mir zeügen ein gůte anzal<lb/>
+der Perſonen/ ſo bey diſer ſeinen letſten bekannt-<lb/>
+nuß/ vnd Chꝛiſtlichem abſchid geweſen.</p><lb/>
+<p>Die ich gleichwol etwas lengers vnd weit-<lb/>
+leüffigers (doch wie ich verhoff/ euch nicht ver-<lb/>
+dꝛießlich) erholet/ Darmit wir dem Allmechti-<lb/>
+gen Gott von Hertzen für jn lob vnd danck ſag-<lb/>
+ten/ das er jne (ob gleichwol ſpat) in ſein<choice><abbr>ẽ</abbr><expan>en</expan></choice> wein-<lb/>
+<note place="left">Matth. xx.</note>berg berůffen/ vnd gewißlich den Groſchen des<lb/>
+ewigen lebens gegeben hat/ zům theil auch dar-<lb/>
+umb/ weil er ein liecht in ſeinem ſtand vnder dem<lb/>
+Adel/ von wegen ſeines hohen verſtands/ vnnd<lb/>
+andern hohen tugendten/ mit woͤlchen er von<lb/>
+Gott voꝛ andern begabt geweſen/ das die jeni-<lb/>
+gen/ ſo ſeines Rhats in Weltlichen ſachen/ als ei-<lb/>
+nes weiſen/ vernünfftigen/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice> beſonders Rhat-<lb/>
+ſamen Manns gebꝛaucht/ auch ſeinem Chꝛiſtli-<lb/>
+chem Exempel nach jrer ſelbſt/ vnnd derſelben<lb/>
+<fw place="bottom" type="catch">Vnder-</fw><lb/>
+<pb facs="#f0059" n="27[54]"/>
+<fw type="header" place="top">Hanſen von Liebenſtein.</fw><lb/>
+Vnderthonen Seelen ſaͤligkeit rhatſchaffen/<lb/>
+vnnd nachuolgen/ der ſo lange zeit an dem Bap-<lb/>
+ſtumb gehalten/ vnnd ſich kein leichtfertig Gaſ-<lb/>
+ſengeſchꝛey daruon hert abweiſen laſſen/ wo er<lb/>
+nicht mit beſtendigen gewiſſen vnd genůgſamen<lb/>
+zeügmiſſen der heiligen Schꝛifft/ deſſen alles in<lb/>
+ſeinem gewiſſen were überzeügt geweſen. Woͤl-<lb/>
+chem der Allmaͤchtige ein froͤliche aufferſtehung<lb/>
+mit allen außerwoͤlten Gottes/ vnnd vns auch<lb/>
+<hi rendition="#c">ein ſaͤlig ende verleihen woͤll/ durch vnſern<lb/>
+Herꝛen Jheſum Chꝛiſtum/<lb/>
+AMEN.</hi></p><lb/>
+<p><hi rendition="#c"><hi rendition="#g">ENDE.</hi></hi></p></div></div><lb/>
+</body><back>  <div type="imprint"><p><hi rendition="#c"><hi rendition="#fr">Getruckt zů Tübingen/ bey Vlrich<lb/>
+Moꝛharts Wittib.</hi><lb/>
+<hi rendition="#g">1564.</hi></hi></p></div></back><lb/>
+</text>  </TEI>

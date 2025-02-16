@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Lejch Sermon/ Dem weilandt Ehrwürdigen Achtbaren vnd wolgelahrten Herren Valentino Profio, trewfleissigen Archidiacono</title>
+<author>
+<persName ref="http://d-nb.info/gnd/131357727">
+<surname>Hentschel</surname>
+<forename>Adam</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">27</measure>
+<measure type="tokens">4919</measure>
+<measure type="types">2140</measure>
+<measure type="characters">32992</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:10:03Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/395595</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/395595</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/395595</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/395595</idno>
+<idno type="DTADirName">395595</idno>
+<idno type="DTAID">200135</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-200135-4</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Hentschel, Adam: Lejch Sermon. Brieg, 1614.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Lejch Sermon/ Dem weilandt Ehrwürdigen Achtbaren vnd wolgelahrten Herren Valentino Profio, trewfleissigen Archidiacono</title>
+<author>
+<persName ref="http://d-nb.info/gnd/131357727">
+<surname>Hentschel</surname>
+<forename>Adam</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">27</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Casparus Sigfried</name></publisher>
+<pubPlace>Brieg</pubPlace>
+<date type="publication">1614</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 N 369/5 / 395595</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"><docTitle><titlePart type="main">LEJCH SERMON/</titlePart><lb/>
+<titlePart type="desc">Dem weilandt<lb/>
+<hi rendition="#b">Ehrwuͤrdigen A-<lb/>
+chtbaren vnd wolgelahrten Herren</hi><lb/>
+<hi rendition="#aq">Valentino Profio,</hi> trewfleiſſigen <hi rendition="#aq">Archidia-<lb/>
+cono,</hi> der Kirche GOttes in ſeinem Vater-<lb/>
+lande zum Jawer vber die 34 Jahr;<lb/>
+<hi rendition="#b">Welcher den 14 <hi rendition="#aq">Januarij,</hi> die-</hi><lb/>
+ſes 1614 Jahres/ ſanfft vnd ſelig im Herren<lb/>
+entſchlaffen/ vnd darauff den 17 <hi rendition="#aq">Ianuarij</hi> Chriſt-<lb/>
+lich vnd ehrlich zur erden beſtattet<lb/>
+worden:</titlePart></docTitle><lb/>
+<byline><hi rendition="#b">Nach gehalten/ von</hi><lb/>
+<docAuthor><hi rendition="#aq">M. <hi rendition="#k">Adamo Hentschelio</hi></hi></docAuthor><hi rendition="#aq"><hi rendition="#k">,</hi></hi><lb/>
+der Kayſerlichen vnd Koͤnig: Stadt<lb/>
+Jawer PfarErrn.</byline><lb/>
+<docImprint><hi rendition="#b">Gedruckt in der Fuͤrſtlichen Stadt</hi><lb/>
+<pubPlace>Briegk</pubPlace>/ bey <publisher>Caſparo Sigfried</publisher>. Jn vorlegung<lb/>
+<publisher><hi rendition="#fr">Martin Gniſers</hi></publisher> <hi rendition="#fr">vnd</hi> <publisher><hi rendition="#fr">David Moͤllers</hi></publisher><hi rendition="#fr">/ bede Buch-<lb/>
+haͤndler zu Breßlaw. Anno</hi> <docDate>1614</docDate>.</docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="[2]"/>
+<div type="dedication" n="1"><head/><p><hi rendition="#c"><hi rendition="#fr">Der Erbaren Tugendtſamen<lb/>
+Frawen Vrſul</hi><hi rendition="#aq">æ:</hi><lb/>
+Auch<lb/>
+<hi rendition="#b">Dem Ehrwuͤrdigen Wolgelehrten Her-</hi><lb/>
+ren <hi rendition="#aq">Joachimo Profio</hi> trewſleiſſigen PfarErrn<lb/>
+zu Mertzdorff im Fuͤrſtenthum Jawer;<lb/>
+<hi rendition="#b">Des inn GOttſeligen Herren</hi> <hi rendition="#aq">Valentini Profij &amp;c.</hi><lb/>
+<hi rendition="#b">hinterlaſſenen Fraw Wittwen/<lb/>
+vnd</hi><lb/>
+<hi rendition="#fr">Herren Sohne.</hi><lb/>
+Auff jhr begeren/ vberſandt; Auch zu Ehren <hi rendition="#aq">dediciret</hi><lb/>
+vnd zugeſchrieben:<lb/>
+<hi rendition="#b">durch</hi><lb/>
+<hi rendition="#aq">M. <hi rendition="#g"><hi rendition="#k">Adamum Hentschelium.</hi></hi></hi></hi></p></div><lb/>
+<fw type="catch" place="bottom"><hi rendition="#fr">Ihr</hi></fw><lb/>
+<pb facs="#f0003" n="[3]"/>
+<div type="fsSermon" n="1"><head/><div type="preface" n="2"><head/><opener><salute><hi rendition="#c"><hi rendition="#fr">Jhr Andaͤchtige im Herren/</hi></hi></salute></opener><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">W</hi>Jr haben jtzt inn einer anſehnlichen</hi><lb/>
+Leich <hi rendition="#aq">proceſſion</hi> allher zu ſeiner Ruheſtadt<lb/>
+beleittet/ den Weilandt Ehrwuͤrdigen Achtbarn vnd<lb/>
+Wolgelahrten Herren <hi rendition="#aq">Valentinum Profium,</hi> wel-<lb/>
+cher in die vier-vnd-dreiſſig Jahr/ ein trewfleiſſiger<lb/>
+Seelen-Sorger dieſer Gemeine/ vnd demnach von<lb/>
+den Elteſten vnd vornembſten Prieſtern im gantzen<lb/>
+Fuͤrſtenthumb/ gewieß einer geweſen iſt. Bey ſolcher<lb/>
+ſeiner ehrlichen Leichbeſtettung/ wollen wir etwas<lb/>
+nuͤtzliches/ vnd der abgeleibten Perſon gemes vnnd<lb/>
+gleichfoͤrmiges/ aus Gottes Wort/ vor vns nemen;<lb/>
+Die heilige Dreyfaltigkeit aber fuͤr allen dingẽ vmb<lb/>
+Segen vnd Gedeyen anruffen mit einem glaͤubigen<lb/>
+Vater vnſer.</p></div><lb/>
+<div type="fsBibleVerse" n="2"><head><hi rendition="#aq"><hi rendition="#g">TEXTVS</hi></hi></head><lb/>
+<cit><bibl><hi rendition="#c"><hi rendition="#aq">ex Geneſioscapite 15. ꝟ. 15.</hi></hi></bibl><lb/>
+<quote><hi rendition="#c"><hi rendition="#fr">Gott ſprach zu Abram/<lb/>
+Du ſolt fahren zu deinen Vaͤtern mit Frie-<lb/>
+den/ vnd in guttem Alter begraben werden.</hi></hi></quote></cit><lb/>
+</div><div type="fsExordium" n="2"><head/><p><hi rendition="#fr"><hi rendition="#in">W</hi>Arumb Jch/ Jhr meine Geliebte/</hi><lb/>
+die jetzt abgeleſene Wort/ habe zum <hi rendition="#aq">Funda-<lb/>
+ment</hi> vnd grunde angeſtelter Leich-<hi rendition="#aq">Sermen</hi><lb/>
+<fw type="sig" place="bottom">A ij</fw><fw type="catch" place="bottom">vor</fw><lb/>
+<pb facs="#f0004" n="[4]"/>
+vor vielen andern wehlen wollen; Mercket/ meines<lb/>
+erachtens/ ein jeglicher vnter euch aus vnnd von ſich<lb/>
+ſelber. Denn Einmahl iſts geſchehen <hi rendition="#aq">Ob defuncti<lb/>
+Congruentiam,</hi> weil dieſe Wort ſich auff vnſern ſe-<lb/>
+ligen Herren <hi rendition="#aq">Valentinum</hi> eigentlich ſchiecken vnnd<lb/>
+reimen; So gar/ das Jch nicht wuſte/ ob in der Bi-<lb/>
+blia ein Text zufinden ſey/ der ſeiner Perſon gleich-<lb/>
+foͤrmiger were. Denn in kuͤrtzen (geliebts Gott)<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Geneſ.</hi> 12.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 8.</note>werden Ewre Liebe/ aus meinen ordentlichen Frey-<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Pſal.</hi> 105.<lb/>
+<hi rendition="#i">ꝟ</hi></hi> 6.</note>tagspredigten/ vber das erſte buch Moſis hoͤren/ das<lb/>
+Abraham vom Nahmen des Herren gepredigt ha-<lb/>
+be/ vnd ein Knecht Gottes geweſen ſey; vnſer Herr<lb/>
+<hi rendition="#aq">Senior</hi> auch. Abraham ſtundt in ſeinem beruff aus/<lb/>
+nicht allein viel muͤhe vnd arbeit/ ſondern auch viel<lb/>
+wiederwertigkeit; vnſer Herr <hi rendition="#aq">Valentinus</hi> auch. A-<lb/>
+braham war in ſeinem beruff fleiſſig vnd geduldig;<lb/>
+vnſer Herr <hi rendition="#aq">Senior</hi> auch. Abraham wardt zum an-<lb/>
+dern mahl ein Eheman/ zeugete ſonderlich einen fuͤr-<lb/>
+nemen Sohn/ den Jſaac; Herr <hi rendition="#aq">Valentinus</hi> auch.<lb/>
+Abraham fuhr endlich zu ſeinen Vaͤtern mit frieden/<lb/>
+ward in guttem Alter von ſeinem Sohn Abraham<lb/>
+begraben; Herr <hi rendition="#aq">Valentinus</hi> auch.</p><lb/>
+<p>Fuͤrs ander habe Jch zur heuttigen <hi rendition="#aq">Funus</hi>predigt<lb/>
+abgeleſenen Textvor andern gewehlet. <hi rendition="#aq">Ob hiſtoriæ<lb/>
+Cohærentiam,</hi> weil ich inn der erklerung des erſten<lb/>
+Buches Moſe/ gleich heut fruͤhe angefangen habe<lb/>
+<fw place="bottom" type="catch">das</fw><lb/>
+<pb facs="#f0005" n="[5]"/>
+das zwoͤlffte Capitel/ vnd alſo die geſchicht vom be-<lb/>
+ruͤmpten Ertzvater Abraham; von welcher Ge-<lb/>
+ſchicht vnd Hiſtoria der abgeleſene Text ein vorneh-<lb/>
+mes ſtuͤcke iſt.</p><lb/>
+<p>Zu geſchweigen jetzt/ fuͤrs dritte/ das wir aus die-<lb/>
+ſem texte eben ſo wol als aus einem andern/ koͤnnen in<lb/>
+vnſerm Chriſtenthumb nuͤtzlich erbawet werden.<lb/>
+Wollen demnach im Nahmen Gottes/ folgende Fra-<lb/>
+ge daraus beantworten; Nemlich:</p><lb/>
+<p><hi rendition="#c"><hi rendition="#fr">Was fuͤr wolthaten Gott an dieſem ort dem<lb/>
+Abraham vorheiſſen habe?</hi></hi></p><lb/>
+<p>Hiruon gar kuͤrtzlich/ helffe Gott nuͤtzlich! Amen.</p><lb/>
+<div n="3"><head/><p><hi rendition="#in">A</hi>Nlangendt die einige vorgenommene Frage; Was<lb/>
+fuͤr gaben vnd wolthaten Gott dem Abraham in<lb/>
+vorleſenen wortten verſprochen habe? ſeindt derſelb-<lb/>
+ten vornemlich dreyerley.</p><lb/>
+<p>Die erſte iſt/ <hi rendition="#aq">Vitæ longævitas</hi> Langes leben.</p><lb/>
+<p>Die ander iſt/ <hi rendition="#aq">Mortis tranquillitas</hi> Friedliches<lb/>
+ende.</p><lb/>
+<p>Die dritte iſt/ <hi rendition="#aq">Sepulturæ honeſtas</hi> Ehrliches be-<lb/>
+graͤbniß.</p><lb/>
+</div></div><div type="fsMainPart" n="2"><head/>  <div n="3"><head/><p><hi rendition="#fr"><hi rendition="#in">D</hi>Ie erſie Gutthat dem Abraham von</hi><lb/>
+GOtt zugeſaget/ iſt/ <hi rendition="#aq">Vitæ longævitas</hi> lan-<lb/>
+ges leben; Du ſolt/ ſpricht Er/ <hi rendition="#fr">in guttem Alter</hi><lb/>
+<fw type="sig" place="bottom">A iij</fw><fw type="catch" place="bottom"><hi rendition="#fr">begra-</hi></fw><lb/>
+<pb facs="#f0006" n="[6]"/>
+<hi rendition="#fr">begraben werden.</hi> Solche zuſage hat Gott auch<lb/>
+gehalten/ vnd iſt Abraham alt worden 175 Jahr.<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Pſal.</hi> <supplied>3</supplied>3.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 4.</note>Denn des Herren wort iſt warhafftig/ vnd was<lb/>
+Gott zuſaget/ das helt Er gewieß.</p><lb/>
+<p>Lernet allhie/ Jhr meine geliebte/ das langes le-<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Geneſ.</hi> 2.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 7.</note>ben vnd hohes Alter eine gabe Gottes ſey. Gott hat<lb/>
+dem Menſchen in der Schoͤpffung das leben gege-<lb/>
+ben/ hat jhm einen lebendigen Athem eingeblaſen;<lb/>
+Derſelbte Athem/ das Er lange bey vnd in vns bleibe/<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Deut.</hi> 30.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 20.</note>ſtehet allein bey Gott. Gott iſt vnſer leben/ vnd vnſer<lb/>
+<note place="left">1. <hi rendition="#aq"><hi rendition="#i">Chron.</hi> 30<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 12</note>langes Alter. Jn Gottes hand ſtehet es/ Jederman<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Ioh</hi> 10. <hi rendition="#i">ꝟ.</hi></hi> 12</note>groß vnd ſtarck zumachen. Gottes auffſehen bewah-<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Pſal.</hi> 129.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 16.</note>ret vnſern Athem. Gottes augen ſahen mich da ich<lb/>
+noch vnbereitet war/ vnd waren alle tage auff dein<lb/>
+Buch geſchrieben die noch werden ſolten/ vnd derſel-<lb/>
+ben keiner da war. GOtt giebet jederman leben vnd<lb/>
+Odem allenthalben/ vnd hat gemacht das von einem<lb/>
+blutte aller Menſchen Geſchlecht auff dem gantzen<lb/>
+Erdboden wohnen/ vnd hat ziel geſaͤtzt/ zuuor verſe-<lb/>
+hen/ wie lang vnd weit ſie wohnen ſollen; vnd zwar<lb/>
+iſt Er nicht ferre von einem jeglichen vnter vns/ denn<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Actor.</hi> 17.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 26. 28.</note>in jhm leben/ weben vnd ſind wir/ ſpricht S. Pau-<lb/>
+lus in ſeiner Predigt zu Athen gethan.</p><lb/>
+<p>Langes leben aber wil Gott noch heutt widerfah-<lb/>
+ren laſſen/ denen die Abrahams Exempel noch From<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Pſal.</hi> 34. <hi rendition="#i">ꝟ.</hi></hi><lb/>
+13.</note>vnd Gottfuͤrchtig ſind. Wer iſt der lang leben bege-<lb/>
+<fw place="bottom" type="catch">ret/</fw><lb/>
+<pb facs="#f0007" n="[7]"/>
+ret/ vnd gerne gutte tage hette? Laß vom boͤſen vnnd<lb/>
+thue guts. Wol dem der den HErrn fuͤrchtet/ vnd<lb/>
+auff ſeinen wegen gehet/ der HErr wird jhn ſegenen/<note place="right"><hi rendition="#aq"><hi rendition="#i">Pſal.</hi> 13. <supplied>8.</supplied><lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 1. 5. <gap reason="illegible" unit="chars" quantity="1"/>.</note><lb/>
+das Er ſehe ſeiner Kinder Kinder. Mein Kind vergiß<lb/>
+meines Geſetzes nicht/ vnd dein hertze behalte meine<lb/>
+gebot/ denn ſie werden dir langes leben/ gutte Jahr<lb/>
+vnd friede bringen/ genade vnnd trew werden dich<note place="right"><hi rendition="#aq"><hi rendition="#i">Proverb.</hi> 3,<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 1. 2.</note><lb/>
+nicht laſſen.</p><lb/>
+<p>Jnſonderheit verheiſſet Gott langes leben Fro-<note place="right"><hi rendition="#aq"><hi rendition="#i">Eph.</hi> 6. <hi rendition="#i">ꝟ.</hi> 2<lb/>
+<hi rendition="#i">ex<lb/>
+Exod. c</hi> 10.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 12.</note><lb/>
+men gehorſamen Kindern. Ehre Vater vnd Mut-<lb/>
+ter/ das iſt das erſte Gebot das verheiſſung hat/<lb/>
+auff das dirs wolgehe/ vnd lange lebeſt auff erden.<note place="right"><hi rendition="#aq"><hi rendition="#i">Syr.</hi> 3. <hi rendition="#i">ꝟ.</hi></hi> 7.</note><lb/>
+Wer ſeinen Vater ehret/ der wird deſto lenger leben.<lb/>
+Zum klugẽ Sohne Dauidts zum Salomon ſpꝛicht<lb/>
+Gott; So du wirſt in meinen wegen wandeln/ vnd<lb/>
+meine Sitten vnd Gebot halten/ wie dein Vater<lb/>
+Dauidt gethan hat/ ſo wil Jch dir geben ein lan-<note place="right">1. <hi rendition="#aq"><hi rendition="#i">Reg.</hi> 3.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 14.</note><lb/>
+ges leben.</p><lb/>
+<p>Zur Gottes-Furcht gehoͤret ein Andechtiges Ge-<lb/>
+bet Er bittet dich vmb langes leben/ ſo giebſtu jhm<lb/>
+langes leben immer vnnd ewiglich; ruͤhmet Dauidt<note place="right"><hi rendition="#aq"><hi rendition="#i">Pſal.</hi> 21. <hi rendition="#i">ꝟ.</hi></hi> 5</note><lb/>
+von Gott. Vnnd anderswo; Er ruffet mich an/ ſo<note place="right"><hi rendition="#aq"><hi rendition="#i">Pſal.</hi> 91. <hi rendition="#i">ꝟ.</hi></hi><lb/>
+15.</note><lb/>
+wil Jch jhn erhoͤren/ Jch wil jhn ſettigen mit langem<lb/>
+leben/ vnd wil jhm zeigen mein Heil. Welches Da-<lb/>
+uidt auch ſelber gethan vnd <hi rendition="#aq">practiciret</hi> hat/ in dem<lb/>
+Er bettet; HErr mein Gott nihm mich nicht weg in<note place="right"><hi rendition="#aq"><hi rendition="#i">Pſal.</hi> 1<supplied>02</supplied>.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 25.</note><lb/>
+der helffte meiner tage.</p><lb/>
+<fw place="bottom" type="catch">Zur</fw><lb/>
+<pb facs="#f0008" n="[8]"/>
+<p>Zur Gottſeligkeit gehoͤret auch/ das man ſich<lb/>
+in euſſerlichen dingen dem Wort Gottes gemeß ver-<lb/>
+halte. Alß in eſſen vnd trincken. Mein<gap reason="lost" unit="chars" quantity="1"/> Kind pruͤ-<lb/>
+fe was deinem leibe geſund iſt/ vnd ſihe was jhm vn-<lb/>
+geſund iſt/ das gib jhm nicht. Denn allerley dienet<lb/>
+nicht jederman/ ſo mag auch nicht jederman aller-<lb/>
+ley. Vbeꝛfuͤlle dich nicht mit allerley niedlicher Spei-<lb/>
+ſe/ vnd friß nicht zu gierig. Denn viel freſſen macht<lb/>
+kranck/ vnd ein vnerſettiger Fraß krieget das grim-<lb/>
+men; viel haben ſich zu tode gefreſſen (vnnd geſof-<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Syr.</hi> 38. <hi rendition="#i">ꝟ.</hi></hi><lb/>
+30.</note>fen) wer aber meſſig iſt/ der lebet deſto lenger.</p><lb/>
+<p><note place="left"><hi rendition="#aq"><hi rendition="#i">Syr.</hi> 30. <hi rendition="#i">ꝟ.</hi></hi><lb/>
+25.</note>Trawrigkeit toͤdtet auch viel leute. Von traw-<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Syr.</hi> 38. <hi rendition="#i">ꝟ.</hi></hi><lb/>
+18.</note>ren kompt der todt/ vnnd des hertzens trawrigkeit<lb/>
+ſchwechet die kraͤffte. Ein froͤlich hertz iſt des Men-<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Syr.</hi> 20. <hi rendition="#i">ꝟ.</hi></hi><lb/>
+23.</note>ſchen leben/ vnd ſeine freude iſt ſein langes leben. Ein<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Prov.</hi> 17.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 22.</note>froͤlich hertz macht das leben luſtig/ aber ein betruͤ-<lb/>
+bter Muth vertrocknet die gebeine.</p><lb/>
+<p><note place="left"><hi rendition="#aq"><hi rendition="#i">Syr.</hi> 30 <hi rendition="#i">ꝟ.</hi></hi><lb/>
+26.</note>Eifer vnd zorn verkuͤrtzen auch das leben/ vnd<lb/>
+ſorge macht alt vor der zeit. Einem froͤlichen hertzen<lb/>
+ſchmecket alles wol/ was er iſſet.</p><lb/>
+<p>Wer demnach langes leben begeret/ der ſey From<lb/>
+vnnd Gottfuͤrchtig: folge dem heiligen Ertzt Vater<lb/>
+Abraham im glauben vnd im leben: Solche Gott-<lb/>
+<note place="left">1. <hi rendition="#aq"><hi rendition="#i">Tim.</hi> <supplied>6</supplied>.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 6.</note>ſeligkeit iſt ein groſſer gewin/ iſt zu allen dingen nuͤ-<lb/>
+<note place="left">1. <hi rendition="#aq"><hi rendition="#i">Tim.</hi> 4.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 8.</note>tze/ vnd hat die verheiſſung beyde dieſes vnd des zu-<lb/>
+kuͤnfftigen lebens.</p><lb/>
+<fw place="bottom" type="catch">Darge-</fw><lb/>
+<pb facs="#f0009" n="[9]"/>
+<p>Dargegen aber die blutgirigen vnd falſchen ſol-<note place="right"><hi rendition="#aq"><hi rendition="#i">Pſal.</hi> 55. <hi rendition="#i">ꝟ.</hi></hi><lb/>
+24.</note><lb/>
+len jhr leben nicht zur helffte bringen; Wer ſeinen<lb/>
+Vater vnd Mutter flucht/ oder vngehorſam iſt/ des<lb/>
+leuchte (verſtehet des lebens leuchte) wird verleſchen.<lb/>
+Sey nicht zu Gottloſe/ vnd narre nicht/ auff das<note place="right"><hi rendition="#aq"><hi rendition="#i">Pro<supplied>v</supplied>erb.</hi><lb/>
+20. <hi rendition="#i">ꝟ.</hi></hi> 20.</note><lb/>
+du nicht ſterbeſt zur vnzeit.<note place="right"><hi rendition="#aq"><hi rendition="#i">Eccl</hi> 7. <hi rendition="#i">ꝟ.</hi></hi><lb/>
+18.</note></p><lb/>
+<p>Moͤchte aber allhie jemandt gedencken; Lieber<lb/>
+wie ſchiecken vnnd reimen ſich gleich wol ſolche ver-<lb/>
+heiſſungen vom langen leben der Fromen/ vnd dann<lb/>
+auch die draͤwungen vom kurtzen leben der Gottlo-<lb/>
+ſen/ mit der Erfahrung? Welche traun offentlich das<lb/>
+wiederſpiel giebet/ vnd bezeuget offt vnd viel/ das<lb/>
+frome leutte/ Jung dahin ſterben/ macher boͤſe Bube<lb/>
+aber lebet lange/ iſt in keiner gefahr des todes/ Son-<lb/>
+dern ſtehet feſt wie ein Pallaſt. Wornach auch Job<note place="right"><hi rendition="#aq"><hi rendition="#i">Pſal.</hi> 37. <hi rendition="#i">ꝟ.</hi></hi><lb/>
+4.</note><lb/>
+mit verwunderung fraget vnd ſaget; Warumb le-<note place="right"><hi rendition="#aq"><hi rendition="#i">Iob.</hi> 21. <hi rendition="#i">ꝟ.</hi></hi><lb/>
+7. 18.</note><lb/>
+ben die Gottloſen/ werden alt/ vnd nehmen zu mit<lb/>
+Guͤtteꝛn/ ſie weꝛden alt bey gutten tagen/ vnd erſchꝛe-<lb/>
+cken kaum einen augenblick fuͤr der hellen? Antwort;<lb/>
+Der gemeinen Ordnung Gottes nach bleibets dar-<lb/>
+bey: Die Furchte des Herren mehret die tage/ Aber<note place="right"><hi rendition="#aq"><hi rendition="#i">Prov.</hi> 10.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 27.</note><lb/>
+die Jahre der Gottloſen werden verkuͤrtzt. Wenn a-<lb/>
+ber ſolcher Ordnung Gottes zu wider/ die Gottlo-<lb/>
+ſenlange leben/ die Fromen aber baldt ſterben; Als<lb/>
+dann hat Gott mit beiden etwas ſonderliches vor.<lb/>
+Vnd zwar den Gottloſen friſtet er das leben/ damit<lb/>
+<fw place="bottom" type="sig">B</fw><fw place="bottom" type="catch">ſie</fw><lb/>
+<pb facs="#f0010" n="[10]"/>
+ſie zeit vnd raum zur Buſſe haben/ vnd doch ein-<lb/>
+mahl in ſich ſelber ſchlagen vnd gedencken moͤchten;<lb/>
+Sihe ſo vnd ſo lange haſtu gelebet/ ſo alt biſtu/ haſt<lb/>
+aber dein leben zumahl vbel zubracht.<lb/>
+<space dim="horizontal"/>Gott wirdts inn die leng leiden nicht/<lb/>
+<space dim="horizontal"/>Schaw das dich nicht erhaſch Gottes Gericht;</p><lb/>
+<p>Es iſt genug das du die vergangene zeit des le-<lb/>
+<note place="left"><supplied>1</supplied>. <hi rendition="#aq"><hi rendition="#i">Pet.</hi> 4.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 3.</note>bens zubracht haſt in vnzucht/ luͤſten/ trunckenheit/<lb/>
+freſſerey/ ſaufferey ꝛc. Sonſten heuffeſt du dir ſelbeſt<lb/>
+nach deinem verſtockten vnbußfertigen hertzen/ den<lb/>
+zorn auff den tag des zorns; Vnnd heiſſet als dann;<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Rom.</hi> 2. <hi rendition="#i">ꝟ.</hi></hi> 5</note>Deine verdamniß iſt gantz recht/ die Suͤnder von<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Eſa.</hi> 65. <hi rendition="#i">ꝟ.</hi></hi><lb/>
+20.</note>hundert Jahren ſollen verflucht ſein.</p><lb/>
+<p>Was aber Fromer leutte fruͤhzeittigen todt an-<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Sap.</hi> 4. <hi rendition="#i">ꝟ.</hi></hi> 7.<lb/>
+10.</note>langet/ redet dauon ſonderlich das buch der Weiß-<lb/>
+heit ſehr troͤſtlich/ vnd ſpricht; Der Gerechte ob er<lb/>
+gleich zu zeitlich ſtirbet/ ſo iſt er doch in der ruhe/<lb/>
+ſeine Seele gefellet Gott wol/ vnd iſt jhm lieb/ da-<lb/>
+<note place="left"><gap reason="lost" unit="chars" quantity="1"/>1.</note>rumb eilet Er mit jhm aus dem leben/ vnd wird weg<lb/>
+genommen vnter den Suͤndern/ das die boßheit ſei-<lb/>
+nen verſtandt nicht verkehre/ noch falſche Lehre ſeine<lb/>
+<note place="left"><gap reason="lost" unit="chars" quantity="1"/>2.</note>Seele betriege. Denn die boͤſen Exempel verfuͤhren/<lb/>
+vnd verterben einem das gutte/ vnd die reizende luſt<lb/>
+<note place="left">23.</note>verkehret vnſchuldige hertzen. Er iſt bald volkom-<lb/>
+<note place="left">24.</note>men worden/ vnd hat viel Jahr erfuͤllet/ denn ſeine<lb/>
+Seel gefelt Gott/ darumb eilet er mit jhm aus dem<lb/>
+boͤſen leben.</p><lb/>
+<fw place="bottom" type="catch">Endtlich</fw><lb/>
+<pb facs="#f0011" n="[11]"/>
+<p>Endtlich haben bey dieſer erſten Goͤttlichen wol-<lb/>
+that dem Abraham verheiſſen/ Sonderlich wir Pre-<lb/>
+diger in vnſern beſchwerlichen Kirchendinſten/ vns<lb/>
+deſſen zu troͤſten; Das die zahl vnſer Monden ſtehe<lb/>
+bey Gott. Das vnſere zeit ſtehe in Gottes haͤnden:<note place="right"><hi rendition="#aq"><hi rendition="#i">Iob</hi> 14. <hi rendition="#i">ꝟ.</hi></hi> <supplied>5</supplied>.</note><lb/>
+Koͤ<choice><abbr>ñ</abbr><expan>nn</expan></choice>en demnach vnter vnſer vielfaltigen wiederwer-<note place="right"><hi rendition="#aq"><hi rendition="#i">Pſal.</hi> 3<supplied>1</supplied>. <hi rendition="#i">ꝟ.</hi></hi><lb/>
+16.</note><lb/>
+tigkeit getroſt ſein/ vnd mit Dauid ſagen; Auff Gott<note place="right"><hi rendition="#aq"><hi rendition="#i">Pſal.</hi> 56. <hi rendition="#i">ꝟ.</hi></hi><lb/>
+12.</note><lb/>
+hoffe ich/ vnnd fuͤrchte mich nicht/ was koͤnnen mir<note place="right"><hi rendition="#aq"><hi rendition="#i">Pſal.</hi> 27. <hi rendition="#i">ꝟ.</hi></hi><lb/>
+1. 3.</note><lb/>
+Menſchen thun. Vnd abermahl; Der HERR iſt<lb/>
+mein licht vnd mein heil/ fuͤr wem ſolte ich mich fuͤrch-<lb/>
+ten? Der HErr iſt meines lebens krafft/ fuͤr wem<lb/>
+ſolte mir grawen? Wenn ſich ſchon ein Heer wider<lb/>
+mich leget/ ſo fuͤrchtet ſich doch mein hertz nicht/ wenn<lb/>
+ſich Krieg wieder mich erhebet/ ſo verlaſſe ich mich<lb/>
+auff jhn. Allein Glauben glaub<choice><abbr>ẽ</abbr><expan>en</expan></choice> wil von noͤthen ſein.<lb/>
+<hi rendition="#c">Genug von der erſten Wolthat dem Abraham in<lb/>
+abgeleſenen wortten verheiſſen.</hi></p></div><lb/>
+<div n="3"><head/><p><hi rendition="#in">D</hi>Je ander Gutthat die GOtt dem Abraham<lb/>
+an dieſem Ort zugeſaget/ auch gehalten/ iſt<lb/>
+<hi rendition="#aq">Mortis tranquillitas</hi> ein ſanfftes/ ruhiges vnnd<lb/>
+Friedliches Ende. <hi rendition="#fr">Du ſolt fahren mit frieden/</hi><lb/>
+ſpricht Gott allhie: Vnd anders wo/ du ſolt in einem<note place="right"><hi rendition="#aq"><hi rendition="#i">Geneſ</hi></hi> 25.<lb/>
+2. 8.</note><lb/>
+ruhigen Alter begraben werden. Welches denn zu-<lb/>
+verſtehen iſt/ Einmahl von der euſſerlichen leiblichen<lb/>
+ruhe/ das Abraham im Alter an ſeinem leibe ſonder-<lb/>
+<fw type="sig" place="bottom">B ij</fw><fw type="catch" place="bottom">lich</fw><lb/>
+<pb facs="#f0012" n="[12]"/>
+lich nicht empfunden hat die vielfaltigen leibes be-<lb/>
+ſchwerungen/ die ſich ſonſten Natuͤrlicher weiſe im<lb/>
+Alter hauffig finden: Alſo das die Huͤtter des hau-<lb/>
+ſes/ das iſt/ die haͤnde zittern; Das die Starcken/<lb/>
+das iſt/ die Schenckel ſich kruͤmmen; Die Muͤllen<lb/>
+wollen nicht mehr mahlen/ ꝛc. Wie ſolcher maͤngel<lb/>
+des Menſchlichen Alters viel erzehlet/ vnd mit arti-<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">cap.</hi></hi> 12.</note>gen verbluͤmbten wortten beſchrieben hat/ Salomon<lb/>
+in ſeinem Prediger. Solche ſchwachheiten vnd ge-<lb/>
+brechen hat Abraham inn ſeinem Alter ſonderlich<lb/>
+nicht gehabt. GOtt hat jhm gegeben <hi rendition="#aq">vegetam &amp;<lb/>
+Ceruinam ſenectutem,</hi> hat jhn dermaſſen geſter-<lb/>
+cket/ das er nicht allein im hunderſten Jahr ſeines Al-<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Gen.</hi> 21. <hi rendition="#i">ꝟ.</hi></hi> 5</note>ters den Jſaac von der Sara/ ſondern auch zwey vnd<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Gen.</hi> 25. <hi rendition="#i">ꝟ.</hi></hi> 1</note>viertzig Jahr hernach/ noch andere Kinder mehr mit<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Deuter.</hi> 34.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 7.</note>der <hi rendition="#aq">Cethura</hi> gezeuget hat. Allermaſſen wie auch von<lb/>
+Moſe geſchrieben ſtehet/ das Er alt geweſen ſey 120<lb/>
+Jahr/ ſeine augen waren nicht tunckel worden/ vnd<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Ioſuæ</hi> 14.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 11</note>ſeine krafft war nicht verfallen. Caleb ſpricht auch/<lb/>
+Jch bin heut fuͤnff-vnd-Achtzig Jahr alt/ vnd bin<lb/>
+noch heuttiges tages ſo ſtarck/ als ich war des tages/<lb/>
+da mich Moſe ausſandte/ wie meine krafft war da-<lb/>
+zumahl/ alſo iſt ſie auch jtzt.</p><lb/>
+<p>Neben ſolcher euſſerlichen leiblichen ruhe/ ſollen<lb/>
+dieſe wort (<hi rendition="#fr">im friede fahren</hi>) auch verſtanden<lb/>
+werden/ von dem innerlichen Geiſtlichen Friede des<lb/>
+<fw place="bottom" type="catch">Hertzens/</fw><lb/>
+<pb facs="#f0013" n="[13]"/>
+Hertzens/ das Abraham an den verſprochenen ge-<lb/>
+benedeiten Weibes Samen/ an den Meſſiam war-<lb/>
+hafftig gegleubet/ ſich deſſen im Geiſt getroͤſtet/ vnd<lb/>
+auff denſelbigen mit Friede vnd Frewde von hinnen<lb/>
+gefahren iſt. Jnmaſſen ſeinen glauben Chriſtus ſelbſt<lb/>
+ruͤhmet/ vnd ſaget; Abraham war froh/ das er mei-<note place="right"><hi rendition="#aq"><hi rendition="#i">Iohan</hi> 8. <hi rendition="#i">ꝟ.</hi></hi><lb/>
+56.</note><lb/>
+nen tag ſehen ſolte/ vnd er ſahe jhn/ vnd frewete ſich.</p><lb/>
+<p>Eine ſolche Friedefarth vnd guttes ruhiges Al-<lb/>
+ter/ koͤnnen wir Menſchen noch heut erlangen. De<choice><abbr>ñ</abbr><expan>nn</expan></choice><lb/>
+ob zwar das liebe Alter ins gemein allerley leibes<lb/>
+beſchwerungen auff ſich hat; Alſo wurden Jſaacs<note place="right"><hi rendition="#aq"><hi rendition="#i">Geneſ.</hi> 27.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 1.</note><lb/>
+augen tunckel zu ſehen. Der alte <hi rendition="#aq">Barſillaj</hi> bekante<lb/>
+auch ſeines alters ſchwachheiten vor dem Koͤnige<lb/>
+Dauid/ vnd ſprach; Jch bin heut achtzig Jahr alt/<note place="right">2. <hi rendition="#aq"><hi rendition="#i">Samuel.</hi><lb/>
+19. <hi rendition="#i">ꝟ.</hi></hi> 35.</note><lb/>
+wie ſolt ich kennen was gutt oder boͤſe iſt? Oder<lb/>
+ſchmecken was ich eſſe vnd trincke? Oder hoͤren was<lb/>
+die Saͤnger vnd Saͤngerin ſingen? Achia der Pro-<note place="right">1. <hi rendition="#aq"><hi rendition="#i">Reg.</hi> 14.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 4.</note><lb/>
+phet konte auch nicht ſehen/ denn ſeine augen ſtarre-<lb/>
+ten fuͤr Alter. Desgleichen geſchicht noch heut/ ſo<lb/>
+bald einer etliche wenig Jahr vber ſeine krafft Jahr/<lb/>
+vber ſeinen ἀκμήν kompt/ nimmet er zuſehendes abe/<lb/>
+vnd wir Prediger ſolches am meiſten erfahren. Deſ-<lb/>
+ſen alles aber vngeachtet/ koͤnnen wir gleichwol noch<lb/>
+heutt eine Friedefartt vnd guttes ruhiges Alter ha-<lb/>
+ben/ wenn wir nemlich vnſere Jugendt wol anlegen/<lb/>
+vnd vns bey zeiten einen gutten Schatz auffs kuͤnff-<lb/>
+<fw type="sig" place="bottom">B iij</fw><fw type="catch" place="bottom">tige</fw><lb/>
+<pb facs="#f0014" n="[14]"/>
+tige Alter ſamblen. Keinen groͤſſern Schatz aber koͤn-<lb/>
+nen wir nimmermehr ſamblen/ als wann wiꝛ von Ju-<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Tob.</hi> 4. <hi rendition="#i">ꝟ.</hi></hi> 6</note>gent auff Gottfuͤrchtig ſein. Dein lebenlang habe<lb/>
+Gott fuͤr augen vnd im hertzen/ vnd huͤtte dich/ das<lb/>
+du in keine Suͤnde willigeſt/ vnd thuſt wieder Got-<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Eccl</hi> 12. <hi rendition="#i">ꝟ.</hi></hi> 1</note>tes gebott. Gedencke an deinen Schoͤpffer in deiner<lb/>
+Jugendt/ ehe denn die boͤſen tage kommen/ vnd die<lb/>
+Jahr herzutretten/ da du wirſt ſagen ſie gefallen<lb/>
+mir nicht.</p><lb/>
+<p>Wenn wir alſo vns der Gottſeligkeit von Ju-<lb/>
+gendt auff beſleiſſigen/ als dann bringen wir ein<lb/>
+guttes ruhiges gewiſſen ins Alter/ vnd koͤnnen dar-<lb/>
+durch alle beſchwerungen des krancken muͤhſeligen<lb/>
+Alters vns ſelbeſt fein miltern vnd leichtern/ koͤnnen<lb/>
+mit frewden erwarten der auffloͤſung vnſerer leiber:<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Luc.</hi> 2. <hi rendition="#i">ꝟ.</hi></hi> 29</note>Ja wir koͤ<choice><abbr>ñ</abbr><expan>nn</expan></choice>en der geſtalt mit dem alten Simeon von<lb/>
+hertzen wuͤnſchen/ Gott wolle ſeinen Diener in frie-<lb/>
+de fahren laſſen.</p><lb/>
+<p>Jm gegentheil aber/ welche jhre Jugent vbel vnd<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Sapient.</hi> 2.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 6.</note>boͤßlich zubracht haben/ haben ſich vnter einander<lb/>
+auffgemuntert/ vnnd geſprochen; Wolher nu laſſet<lb/>
+vns wol leben weils da iſt/ laſſet vns vnſers leibes<lb/>
+brauchen weil er Jung iſt/ wir wollen vns mit dem<lb/>
+<note place="left">7.</note>beſten Wein vnd Salben fuͤllen/ laſſet vns die May-<lb/>
+<note place="left">8.</note>en blumen nicht verſeumen/ laſſet vns Kraͤntze tragen<lb/>
+<note place="left"><supplied>9</supplied>.</note>von jungen Roſen ehe ſie welck werden/ vnſer keiner<lb/>
+<fw place="bottom" type="catch">laſſe</fw><lb/>
+<pb facs="#f0015" n="[15]"/>
+laſſe jhm fehlen mit prangen/ das man allenthalben<lb/>
+ſpuͤren moͤge/ wo wir froͤlich geweſen ſindt/ wir ha-<lb/>
+ben doch nicht mehr dauon denn das. Solche leutt<lb/>
+bringen mit ſich in jhr Alter ein boͤſes vnruhiges ge-<lb/>
+wiſſen/ die <hi rendition="#aq">delicta Iuventutis,</hi> die Suͤnde jhrer Ju-<lb/>
+gent wachen als dann auff/ quelen vnnd aͤngſtigen<lb/>
+ſie viel hefftiger/ als all das jenige/ was ſonſten Al-<lb/>
+ters halben jhnen am Leibe immermehr mag be-<lb/>
+ſchwerlich ſein.</p><lb/>
+<p>Sonderlich beſtehet eine rechtruhige Hinne-<lb/>
+fahrt aus dieſem leben; Einmahl <hi rendition="#aq">in recté creden-</hi><note place="right"><hi rendition="#aq"><hi rendition="#i">Iohan.</hi> <supplied>5</supplied>. <hi rendition="#i">ꝟ.</hi></hi><lb/>
+29.</note><lb/>
+<hi rendition="#aq">do,</hi> wenn wir Abrahams exempel nach/ an denen<lb/>
+gleuben den GOtt geſandt hat. Wer an den gleu-<note place="right"><hi rendition="#aq"><hi rendition="#i">Iohan.</hi> 5.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 24.</note><lb/>
+bet/ der hat das ewige leben/ vnd koͤmmet nicht ins<lb/>
+gerichte/ ſondern er iſt vom tode zum leben hindurch<lb/>
+gedrungen. Fuͤrs ander beſtehet eine ſolche Friede-<lb/>
+fahrt <hi rendition="#aq">in pié vivendo,</hi> das wir vben eine gutte Rit-<note place="right">1. <hi rendition="#aq"><hi rendition="#i">Tim.</hi> <gap reason="lost" unit="chars" quantity="1"/>:<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 8.</note><lb/>
+terſchafft/ haben den glauben vnnd gutt gewiſſen.<lb/>
+Das wir einen gutten Kampff kaͤmpffen/ vnſern<note place="right">2 <hi rendition="#aq"><hi rendition="#i">Tim.</hi> 4.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> <gap reason="illegible" unit="chars" quantity="1"/>.</note><lb/>
+lauff vollenden vnd glauben halten.</p><lb/>
+<p>Weil aber ſolches in vnſerm vermoͤgen nicht ſte-<note place="right">2. <hi rendition="#aq"><hi rendition="#i">Theß.</hi><lb/>
+3. <hi rendition="#i">ꝟ.</hi></hi> 2.</note><lb/>
+het; der Glaube iſt nicht jedermans ding; Son-<note place="right"><hi rendition="#aq"><hi rendition="#i">Iohan</hi> 6. <hi rendition="#i">ꝟ.</hi></hi><lb/>
+44.</note><lb/>
+dern eine gabe Gottes. So ſindt wir auch ſonſten<lb/>
+von vns ſelber/ alß von vns ſelber nicht tuͤchtig et-<lb/>
+was zudencken/ ſondern das wir tuͤchtig ſind/ das<note place="right">2. <hi rendition="#aq"><hi rendition="#i">Cor.</hi> 3.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 5.</note><lb/>
+iſt von GOtt: Derentwegen ſollen wir vns fleiſſig<lb/>
+<fw place="bottom" type="catch">halten</fw><lb/>
+<pb facs="#f0016" n="[16]"/>
+halten zu den ordentlichen Mitteln/ dadurch Gott<lb/>
+der heilige Geiſt rechten glauben vnnd Gottſeliges<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Pſal.</hi> 1. <hi rendition="#i">ꝟ.</hi></hi> 2.</note>leben inn vnſern Hertzen wuͤrcken wil. Als da iſt/<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Col.</hi> 3. <hi rendition="#i">ꝟ.</hi></hi> 16</note><hi rendition="#aq">Verbj ſtudium,</hi> habe deine luſt am Geſetz des Her-<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Rom.</hi> 10. <hi rendition="#i">ꝟ.</hi></hi><lb/>
+18.</note>ren/ vnd rede von ſeinem geſetze tag vnd nacht. Laſ-<lb/>
+ſet Gottes Wortt vnter euch reichlich wonen in al-<lb/>
+ler weißheit. Denn der glaube kompt aus der Pre-<lb/>
+digt/ das predigen aber durchs wortt Gottes. Das<lb/>
+<note place="left">1. <hi rendition="#aq"><hi rendition="#i">Tim.</hi> 3.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 17.</note>Wort macht auch das ein Menſch Gottes ſey vol-<lb/>
+kommen/ zu allen gutten wercken geſchickt. Dar-<lb/>
+zu denn auch kommen ſoll <hi rendition="#aq">Precum exercitium,</hi><lb/>
+das wir beyneben fleiſſig beten/ vnd mit den Apo-<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Luc.</hi> 17. <hi rendition="#i">ꝟ.</hi></hi><lb/>
+5.</note>ſteln ſprechen/ HERR ſtaͤrcke vns den glauben;<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Marc.</hi> 9. <hi rendition="#i">ꝟ.</hi></hi><lb/>
+24.</note>vnd mit jenem Vater; Jch gleube lieber HErr/ hilff<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Pſal</hi> 17.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 5.</note>meinem vnglauben. Mit dem Propheten Dauid/<lb/>
+Herr erhalte meinen gang auff deinen Fußſteigen/<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Pſal.</hi> 143 <hi rendition="#i">ꝟ.</hi></hi><lb/>
+10.</note>das meine tritte nicht gleitten. <hi rendition="#g">HERR</hi> lehre mich<lb/>
+thun nach deinem wolgefallen/ dein gutter Geiſt<lb/>
+ſuͤhre mich auff ebener bahn.</p><lb/>
+<p>Werden wir vnns der geſtalt vmb eine ſelige<lb/>
+Friedefahrt bekuͤmmern vnnd annemen; Als dann<lb/>
+wirdt GOtt vnns gewißlich keine Fehlbitte thun<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Luc.</hi> 11. <hi rendition="#i">ꝟ.</hi></hi><lb/>
+13.</note>laſſen. Der Vater im Himmel wirdt den heiligen<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Iacob.</hi> 1.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 5.</note>Geiſt geben/ denen die jhn bietten. So jemanden<lb/>
+vnter euch Weißheit mangelt/ der biette von Gott/<lb/>
+der da giebet einfaltiglich jederman/ vnd ruckts nie-<lb/>
+<fw type="catch" place="bottom">manden</fw><lb/>
+<pb facs="#f0017" n="[17]"/>
+manden auff/ ſo wird ſie jhm gegeben werden/ er biet-<lb/>
+te aber im glauben vnd zweiffele nicht.</p><lb/>
+<p><hi rendition="#c">Gnug auch vom andern.</hi></p></div><lb/>
+<div n="3"><head/><p><hi rendition="#in">D</hi>Je dritte Wolthat/ dem Abraham von Gott<lb/>
+verheiſſen/ iſt <hi rendition="#aq">Sepulturæ honeſtas</hi> ein ehrli-<lb/>
+ches Begrebnis; <hi rendition="#fr">Du ſolt in guttem Alter be-<lb/>
+graben werden.</hi> Welches denn auch geſchehen/<lb/>
+vnd haben jhn ſeine Soͤhne Jſaac vnd Jſmael ehr-<note place="right"><hi rendition="#aq"><hi rendition="#i">Geneſ.</hi> 25.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 9.</note><lb/>
+lich begraben.</p><lb/>
+<p>Dieſe wolthat goͤnnet Gott auch vns noch heut/<lb/>
+wir koͤnnen ohne alle Krieges vnd Peſt gefahr nicht<lb/>
+allein offentlich vnnd ehrlich begraben/ Sondern<lb/>
+auch vnſern vorhin verſtorbenen verwandten vnd<lb/>
+Bluts-Freunden ahn jhre Seite/ vnd gleichſam in<lb/>
+ein gemach/ in ein Kaͤmmerlein geleget werden.</p><lb/>
+<p>Denn ob ſchon ſo hoch vnd viel nicht daran ge-<lb/>
+legen/ wie vnd wohin einer begraben werde/ ſon-<lb/>
+derlich im Nothfall/ wenns der zuſtandt vnd gele-<lb/>
+genheit der zeit vnnd des Orths nicht leiden wil;<lb/>
+Da heiſſet es/ <hi rendition="#aq">Facilis jactura ſepulchrj,</hi> vnd iſt ja<lb/>
+die erde des HErren/ vnd was drinnen iſt: Jedoch<note place="right"><hi rendition="#aq"><hi rendition="#i">Pſal.</hi> 24.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 1.</note><lb/>
+wenn wirs haben koͤnnen/ koͤnnen nicht allein ehr-<lb/>
+lich begraben/ Sondern auch zu den vnſern geleget<lb/>
+werden/ ſollen wirs alß eine beſondere begnadung<lb/>
+Gottes danckbarlich gebrauchen. Abraham wardt<lb/>
+<fw type="sig" place="bottom">C</fw><fw type="catch" place="bottom">begra-</fw><lb/>
+<pb facs="#f0018" n="[18]"/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Geneſ.</hi> 2<supplied>5</supplied><lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 10.</note>begraben mit Sara ſeinem Weibe. Jacob vnd Jo-<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Gen.</hi> 47. <hi rendition="#i">ꝟ.</hi></hi><lb/>
+30</note>ſeph wollen auch nicht in Egypten/ ſondern im Lan-<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Gen.</hi> 49. <hi rendition="#i">ꝟ.</hi></hi><lb/>
+29.</note>de Canaan bey jhren vor-Eltern begraben ſein. Der<lb/>
+alte Tobias bindet ſeinem Sohne Teſtaments wei-<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Gen.</hi> 50. <hi rendition="#i">ꝟ.</hi></hi><lb/>
+25.</note>ſe ein/ vnd ſaget; Wenn Gott wirdt meine Seele<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Tob.</hi> 4. <hi rendition="#i">ꝟ.</hi></hi><lb/>
+<supplied>3</supplied>. 5.</note>wegnehmen/ ſo begrabe meinen leib/ vnd wenn dei-<lb/>
+ne Mutter geſtorben iſt/ ſo begrabe ſie neben mich.</p><lb/>
+<p>Hergegen wenn einer zu Friedenszeitten in ſeiner<lb/>
+Vaͤter grab nicht kommen koͤntte/ iſts fuͤr eine ſon-<lb/>
+derliche Straffe vnnd vngluͤck gerechnet worden.<lb/>
+<note place="left">2. <hi rendition="#aq"><hi rendition="#i">Macc</hi> 5.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 10.</note>Alſo ſtehet geſchrieben von dem Jaſon/ Er habe<lb/>
+nicht gluͤcke gehabt/ das er inn ſeinem Vaterlande<lb/>
+were begraben worden. Vom Koͤnige Joiakim<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Ierem.</hi> 22.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 19.</note>ſpricht Gott ſelber/ Er ſol wie ein Eſel begraben/<lb/>
+vnd hinaus geworffen werden fuͤr die Thor Jeru-<lb/>
+<note place="left">2. <hi rendition="#aq"><hi rendition="#i">Reg.</hi> 13.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 22.</note>ſalem. Dem Propheten/ der dem Munde Gottes<lb/>
+vngehorſam geweſen war/ draͤwet Gott/ ſein Leich-<lb/>
+nam ſolle nicht in ſeiner Vaͤter grab kommen.</p><lb/>
+<p>Vns aber goͤnnet Gott ſolche wolthat noch heut;<lb/>
+Derentwegen wirs auch danckbarlich gebrauchen/<lb/>
+vnd die vnſern ehrlich zur erde beſtatten ſollen; Ein-<lb/>
+mal <hi rendition="#aq">in teſtimonium pietatis</hi> zum offentlichen zeug-<lb/>
+nis jhres vnter vnns gefuͤhrten Chriſtlichen lebens<lb/>
+vnd wandels. <hi rendition="#aq">Sepulturæ officium, honeſtæ vitæ<lb/>
+teſtimonium.</hi></p><lb/>
+<p>Ein ehrlich begraͤbnis iſt auch ein <hi rendition="#aq">Teſtimonium</hi><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">dilecti-</hi></fw><lb/>
+<pb facs="#f0019" n="[19]"/>
+<hi rendition="#aq">dilectionis</hi> ein offentlich zeugniß der hertzlichen lie-<lb/>
+be/ die wir zu vnſern verſtorbenen getragen haben.<lb/>
+Wenn wir etwas von vnſern Eltern oder gutte<supplied>n</supplied><lb/>
+Freunden ererbet haben/ es ſey ein Buch/ ein Kleidt/<lb/>
+ein Ring/ das halten wir trawn hoch/ hebens mit<lb/>
+allem fleiß auff/ gedencken jhrer darbey offt vnnd<lb/>
+viel/ <hi rendition="#aq">tantó nobis eſt charius, quantó major erga</hi><note place="right"><hi rendition="#aq"><hi rendition="#i">Auguſtin.<lb/>
+lib</hi> 1 <hi rendition="#i">de<lb/>
+Ci<supplied>vi</supplied>tate</hi><lb/>
+<hi rendition="#g">DEI</hi> <hi rendition="#i">c.</hi></hi> 1<supplied>3</supplied>.</note><lb/>
+<hi rendition="#aq">illos affectus;</hi> Wieviel mehr ſollen wir die Leichnam<lb/>
+der verſtorbenen/ in jhren graͤbern ehrlich vnd wol<lb/>
+verwahren/ alles aus hertzlicher liebe gegen ſie. Be-<lb/>
+weiſe auch an den Todten deine wolthat/ deine liebe.<note place="right"><hi rendition="#aq"><hi rendition="#i">Syr.</hi> 7. <hi rendition="#i">ꝟ.</hi></hi><lb/>
+17.</note></p><lb/>
+<p>Endtlich iſt ein ehrlich begraͤbnis auch ein of-<lb/>
+fentlich <hi rendition="#aq">Teſtimonium Reſurrectionis,</hi> das wir die<lb/>
+Aufferſtehung der todten am Juͤngſten tage vnge-<lb/>
+zweiffelt gleuben/ vnnd gewiß ſein/ was jtzt geſeet<lb/>
+wirdt verweßlich/ das werde aufferſtehen vnuer-<lb/>
+weßlich; Was geſeet wirdt inn vnehre/ das werde<lb/>
+aufferſtehen inn herrligkeit; Was geſeet wirdt inn<lb/>
+ſchwachheit/ das werde aufferſtehen in krafft; Was<lb/>
+jtzt geſeet wirdt ein Natuͤrlicher Leib/ das werde<lb/>
+aufferſtehen ein Geiſtlicher leib. Wie S. Paulus<lb/>
+redet in ſeinem herrlichen vnnd recht Apoſtoliſchen<note place="right">1. <hi rendition="#aq"><hi rendition="#i">Cor.</hi> 1<supplied>5</supplied>.<lb/>
+<hi rendition="#i">ꝟ.</hi></hi> 41. 44.</note><lb/>
+<hi rendition="#aq">tractat</hi> denen Er von der Aufferſtehung der todten<lb/>
+geſchrieben hat.</p><lb/>
+<p>Vnd dieſes ſey kuͤrtzlich genung geſaget von den<lb/>
+dreyerley wolthaten/ die GOtt in abgeleſenem text<lb/>
+<fw place="bottom" type="sig">C ij</fw><fw place="bottom" type="catch">dem</fw><lb/>
+<pb facs="#f0020" n="[20]"/>
+dem Ertzt Vater Abraham verheiſſen hat: Auch<lb/>
+welcher geſtalt wir noch heutt dieſelbte von GOtt<lb/>
+erlangen vnd haben koͤnnen.</p><lb/>
+</div></div><div type="fsPersonalia" n="2"><head/>  <p>Folgen hierauff die <hi rendition="#aq">Perſonalia,</hi> von vnſerm ſeli-<lb/>
+gen Herrn <hi rendition="#aq">Seniore,</hi> dem wir jtzt den letzten Ehren-<lb/>
+dinſt zu ſeinem Ruhebetlein geleiſten/ allermaſſen<lb/>
+wie ſolche ſchrifftlich mir vberantwortet worden.</p><lb/>
+<p>Herr <hi rendition="#aq">Valentinus</hi> Profe/ iſt Weilandt geboren<lb/>
+worden Anno 1545 von dem Erbarn vnnd Wol-<lb/>
+weiſen Herrn <hi rendition="#aq">Valentino</hi> Profen/ Buͤrgern vnnd<lb/>
+des Raths allhier/ vnnd ſeiner lieben Hauswirten<lb/>
+Frawen Anna geborner Girlachen; von welchen<lb/>
+ſeinen lieben Eltern/ vnd dann ſeinem Herrn Vet-<lb/>
+ter <hi rendition="#aq">M. Joachimo</hi> Girlachen/ beſtalten <hi rendition="#aq">ordinario<lb/>
+Phyſico</hi> dieſes orths/ Er beides hier vnd anderswo/<lb/>
+inn etlichen vnterſchiedenen Schulen vnd <hi rendition="#aq">Univer-<lb/>
+ſiteten</hi> zum ſtudieren gehalten; Welchem Er auch<lb/>
+mit hoͤchſtem fleiß obgelegen; Bies er von einem<lb/>
+E. Rath allhier Anno 1570 von der Leipzichen<lb/>
+<hi rendition="#aq">Univerſitet</hi> herein zu einem <hi rendition="#aq">Baccalaureo</hi> inn die<lb/>
+Schule <hi rendition="#aq">vocirt</hi> worden/ darinnen Er ein Jahr lang<lb/>
+<hi rendition="#aq">laboriret;</hi> Darauff er alsbald im Jahr 1571 or-<lb/>
+dentlicher weiſe zum <hi rendition="#aq">Diaconat</hi> dieſer Kirchen/ von<lb/>
+einem E. Wolweiſen Rath/ iſt beruffen vnd ange-<lb/>
+nommen worden; Jn welchem Er auch vber die 34<lb/>
+<fw type="catch" place="bottom">Jahr</fw><lb/>
+<pb facs="#f0021" n="[21]"/>
+Jhar trewlich vnd fleiſſig der Kirchen vnd gemeinem<lb/>
+Almoß hat helffen fuͤrſtehen; Vber gutten vnd nuͤtz-<lb/>
+lichen Ordnungen mit gebuͤrendem ernſt vnd Eif-<lb/>
+fer ſteiff vnnd feſte/ ohn alles ahnſehen der Perſo-<lb/>
+nen/ gehalten/ wie jhme menntglich deſſen zeugnis<lb/>
+geben kan vnd muß; Hat auch etlich mahl/ da Gott<lb/>
+jhme ſeine Herrn <hi rendition="#aq">Collegen</hi> ahn der Seiten abge-<lb/>
+fodert/ durch Gottes huͤlffe das Ampt/ mit groſſer<lb/>
+muͤhe/ gantz alleine verſorget. Ahn ſeiner verord-<lb/>
+neten Beſuldung iſt Er vergnuͤget/ vnd niemanden<lb/>
+beſchwerlichen geweſen; Vnd ob er ſchon an andere<lb/>
+vornehme Orthe/ zu Eilff vnterſchiedenen mahlen/<lb/>
+iſt <hi rendition="#aq">vociret</hi> worden/ hat er doch ſeine erſte <hi rendition="#aq">Vocation</hi><lb/>
+nicht verlaſſen/ ſondern allhier bey ſeinen lieben<lb/>
+Landsleuten/ Gott vnd ſeiner Kirchen/ nach deme<lb/>
+jhm der Allmechtige Gott gnade verliehen/ bieß an<lb/>
+ſein Alter dienen wollen.</p><lb/>
+<p>Bieß er ſolches ampt endlich Anno 1605 <hi rendition="#aq">Do-<lb/>
+minica 10 Trinitat:</hi> numehr fuͤr 8½ Jahren/ wegen<lb/>
+groſſer leibes ſchmertzen vnd ſchwachheit ſelber gut-<lb/>
+willig vbergeben. Da er dann die vbrige zeit ſeines<lb/>
+lebens daher/ mit leſen/ beten vnd ſingen/ zu hauß<lb/>
+vnd in der Kirchen/ darein er ſich tragen laſſen/ zu-<lb/>
+bracht; Auch beides ſeine zuhoͤrer/ ſo wol die ſeini-<lb/>
+gen zu hauß fuͤr falnſcher vnd irriger Lehre/ treulich<lb/>
+vnd fleiſſig gewarnet.</p><lb/>
+<fw type="sig" place="bottom">C iij</fw><fw type="catch" place="bottom">Im</fw><lb/>
+<pb facs="#f0022" n="[22]"/>
+<p>Jm Jahr 1574 hat er ſich zum Erſtenmahl in<lb/>
+den heiligen Eheſtandt begeben/ mit der tugentſa-<lb/>
+men Jungfrawn Barbara/ Caſpar Johnes Buͤr-<lb/>
+gers allhir nach gelaſſenen Tochter/ mit der er inn<lb/>
+die Eilff Jahr ein Chriſtliche Ehe beſeſſen/ da jhme<lb/>
+dann auch Gott etliche Kinderlein beſcheret/ aber<lb/>
+zur zeit der geburt bald wieder zu ſich genommen.</p><lb/>
+<p>Jm Jahr 1585 hat Er ſich zum andernmahl<lb/>
+vorehlichet/ mit der jtzt hochbetruͤbten Witwen/ der<lb/>
+dazu mahles Tugentſamen Jungfrawen Vrſula/<lb/>
+Baltzer Beers allhier Tochter/ mit welcher Er<lb/>
+vber die 28 Jahr/ in gerugſamer Ehe gelebet/ da-<lb/>
+rin jhn Gott mit zweien Soͤhnen geſegnet/ deren<lb/>
+einen/ vnd zwar den Juͤngſten er albereitts Anno<lb/>
+1595 wiederumb durch den zeitlichen todt zu ſich<lb/>
+genommen; Den andern aber noch bey leben erhelt/<lb/>
+ſo lang er wil.</p><lb/>
+<p>Sein euſſerliches leben vnd wandel anbelanget/<lb/>
+ſo hat Er ſich fuͤr einen Menſchen/ vnd alſo einen<lb/>
+armen Suͤnder erkennet/ das <hi rendition="#aq">Miſerere mej <hi rendition="#k">Deus,</hi></hi><lb/>
+mit dem heiligen Dauid teglich <hi rendition="#aq">repetiret,</hi> vnd von<lb/>
+hertzen gebeten/ wofern Er/ auſſer ſeinem Ampte/<lb/>
+jemanden zuewieder vnd zu nahe geweſen/ man wol-<lb/>
+te es jhme aus Chriſtlicher liebe verzeihen/ derglei-<lb/>
+chen Er auch gethan.</p><lb/>
+<p>Sonſten iſt Er auffrichtig/ demuͤtig/ allem Ehr-<lb/>
+<fw type="catch" place="bottom">geitz/</fw><lb/>
+<pb facs="#f0023" n="[23]"/>
+geitz/ ſtoltz/ hoffarth/ Geitz vnnd vienanzerey von<lb/>
+hertzen feind geweſen; vnnd ſich mit ſeinen Herren<lb/>
+<hi rendition="#aq">Collegis,</hi> wie dann auch mit jederman in lieb/ fried<lb/>
+vnd Einigkeit gar wol vertragen.</p><lb/>
+<p>Es hat aber Gott der Herr/ gedachten vnſern<lb/>
+lieben Mittbruder/ die zeit ſeiner Wahlfahrt/ bald<lb/>
+von Jugendt auff/ mit mancherley ſchweren vnd<lb/>
+ſchmertzlichen kranckheiten anheimgeſucht; in wel-<lb/>
+chen er auch im Glauben vnd gedult/ ſich willig<lb/>
+Jhm vntergeben/ vnd mit hoͤchſtem verlangen vnd<lb/>
+wunſchen (wie maͤnniglich bewuſt) auff ſein Sterb<lb/>
+vnd hinfahrts ſtuͤndlein gehoffet vnd geharret/ bis<lb/>
+entlich der gnaͤdige Gott jhm daſſelbige gezweiget/<lb/>
+vnd dieſe woche am nehren Dinſtage/ zu nacht/ drey<lb/>
+viertel auff zehen vhr/ inn/ mit/ vnd vnter dem Ge-<lb/>
+bet des heiligen Vater vnſers/ aus dieſem Jam-<lb/>
+merthal durch ein ſanfftes Ende abgefodert hatt/<lb/>
+im 69 Jahr ſeines Alters.</p><lb/>
+<p>Nun gnade Gott dieſem vnſerm ſeligen Herren<lb/>
+<hi rendition="#aq">Valentino;</hi> ſampt allen die von hinnen geſchieden<lb/>
+ſein/ vnd gebe auch vns nach ſeiner zuſage vnd vn-<lb/>
+ſer hoffnung; Allhie zwar/ langes leben/<lb/>
+<hi rendition="#et">Friedliches Ende/<lb/>
+Ehrliches Begraͤbniß;</hi><lb/>
+Dortt aber/ das Ewige ſelige leben in Chriſto Je-<lb/>
+<hi rendition="#c">ſu/ Amen.</hi></p><lb/>
+</div></div><fw type="catch" place="bottom"><hi rendition="#aq">Sequun-</hi></fw><lb/>
+<pb facs="#f0024" n="[24]"/>
+<div type="fsEpicedia" n="1"><head><hi rendition="#aq">Sequuntur<lb/>
+<hi rendition="#g">THRENODIÆ ALIQVOT, IN OBI-<lb/>
+TVM VIRI REVERENDI ET PRAE-<lb/>
+<hi rendition="#i"><hi rendition="#k">clari, Dn Valentini Profii,</hi></hi></hi><lb/>
+Orthodoxæ doctrinæ in Eccleſia patria Iaurana<lb/>
+Miniſtri fideliſsimi, anni Miniſterij Eccleſiaſtici<lb/>
+XXXIIII; AEtat. ſuæ <hi rendition="#k">Lxix</hi>; Anni veró CHRI-<lb/>
+<hi rendition="#g">STI M. DC.</hi> XIV, <hi rendition="#k">xiiii</hi> die M. Ianuarij.<lb/>
+ab Amicis conſcriptæ.</hi></head><lb/>
+<div n="2"><head><hi rendition="#aq">I.</hi></head><lb/>
+<lg xml:id="poem1a" type="poem" next="poem1b"><l><hi rendition="#aq"><hi rendition="#in">Q</hi>Vi deſiderio carpitur anxio</hi></l><lb/>
+<l><hi rendition="#aq">Devincti populi: Commoditatibus,</hi></l><lb/>
+<l><hi rendition="#aq">Vt ſortis validi ſuppeditant dies,</hi></l><lb/>
+<l><hi rendition="#aq">Ferventi ſtudio pervigil excubat:</hi></l><lb/>
+<l><hi rendition="#aq">Haud ſolers aliter, pro grege, <hi rendition="#g">PROFIVS,</hi></hi></l><lb/>
+<l><hi rendition="#aq">Quem natale ſolum iunxerat, &amp; fides</hi></l><lb/>
+<l><hi rendition="#aq">Alté ſidereis orbibus addita,</hi></l><lb/>
+<l><hi rendition="#aq">Indefeſſus erat, cum gemitu &amp; prece:</hi></l><lb/>
+<l><hi rendition="#aq">Legem &amp; Iuſticiam per populum palàm</hi></l><lb/>
+<l><hi rendition="#aq">Fidus præco tulit ſedulò &amp; integrè;</hi></l><lb/>
+<l><hi rendition="#aq">Teſtatus ſolidum caſibus aſperis</hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#g">IOVAM</hi> præſidium &amp; læticiam in nece.</hi></l><lb/>
+<l><hi rendition="#aq">Dein, fractus trepidis mille laboribus,</hi></l><lb/>
+<l><hi rendition="#aq"><supplied>E</supplied>xhauſtus gravibus mille doloribus,</hi></l><lb/>
+<l><hi rendition="#aq">Fato ſub Patriæ ceſsit amoribus,</hi></l><lb/>
+<l><hi rendition="#aq">Adſertus nitido cœlicolis Choro.</hi></l><lb/>
+<l><hi rendition="#aq">En, quàm Thariadæ conſimilis Seni,</hi></l><lb/>
+<l><hi rendition="#aq">Qui Numen, reprobis parceret Accolis</hi></l></lg><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">Expug-</hi></fw><lb/>
+<pb facs="#f0025" n="[25]"/>
+<lg xml:id="poem1b" prev="poem1a" type="poem"><l><hi rendition="#aq">Expugnat precibus: Tunc ſtabilem ob fidem</hi></l><lb/>
+<l><hi rendition="#aq">Largam (ad vota) capit munificentiam.</hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#g">PROFI</hi> ſancte Vale: Perpetuùm ſinu</hi></l><lb/>
+<l><hi rendition="#aq">Blando Thariadæ gaudia, honoribus</hi></l><lb/>
+<l><hi rendition="#aq">Lætis percipias: Atterat æſtuans</hi></l><lb/>
+<l><hi rendition="#aq">Non te mole labor, non dolor inſolens.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">Amico optatiſsimo<lb/>
+M. <hi rendition="#g"><hi rendition="#k">Tobias</hi></hi></hi></hi> Henckell <hi rendition="#aq"><hi rendition="#i">Paſtor Eccleſia<lb/>
+<hi rendition="#g"><hi rendition="#k">Dei</hi></hi></hi></hi> in Dambßdorff <hi rendition="#aq"><hi rendition="#i">dedicat.</hi></hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head><hi rendition="#aq"><hi rendition="#g">II.</hi></hi><lb/>
+<hi rendition="#c"><hi rendition="#aq"><hi rendition="#g">TVMVLVS<lb/>
+VIRO REVERENDO, ET IN CHRI-</hi><lb/>
+ſto pie defuncto Dn. Valentino Profio in<lb/>
+Eccleſia Iaurana Seniori digniſs:<lb/>
+Erectus</hi></hi></head><lb/>
+<lg xml:id="poem2a" type="poem" next="poem2b"><l><hi rendition="#aq"><hi rendition="#in">O</hi>Ssa <hi rendition="#k">Valentini</hi> tumulo ſunt condita <hi rendition="#k">ProfI</hi></hi></l><lb/>
+<l><hi rendition="#aq">Dogmatis adſertor qui<choice><abbr>q;</abbr><expan>que</expan></choice> <hi rendition="#k">Luthere,</hi> tui.</hi></l><lb/>
+<l><hi rendition="#aq">In patriâ docuit Myſtes ultra<choice><abbr>q;</abbr><expan>que</expan></choice> fidelis</hi></l><lb/>
+<l><hi rendition="#aq">Annos triginta; ſi numerare velis.</hi></l><lb/>
+<l><hi rendition="#aq">Hic orthodoxæ doctrinæ ſemina ſparſit</hi></l><lb/>
+<l><hi rendition="#aq">Voce, Fide ſtabili, dum ſupereſſe datur.</hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#k">Christo,</hi> commendans animam, cui nititur uni,</hi></l><lb/>
+<l><hi rendition="#aq">Nam<choice><abbr>q;</abbr><expan>que</expan></choice> redemta fuit ſangvine <hi rendition="#k">Christe</hi> tuo.</hi></l></lg><lb/>
+<fw place="bottom" type="sig"><hi rendition="#aq">D</hi></fw><fw place="bottom" type="catch"><hi rendition="#aq">Vitam</hi></fw><lb/>
+<pb facs="#f0026" n="[26]"/>
+<lg xml:id="poem2b" prev="poem2a" type="poem"><l><hi rendition="#aq">Vitam venturi ſecli, revocanda ſepulcro;</hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Judicis</hi></hi> exſpectans, membra repoſta, diem.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">A<lb/>
+<hi rendition="#g"><hi rendition="#k">Joachimo Wethmano</hi></hi><lb/>
+Jaurano P. L.</hi></hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head><hi rendition="#aq"><hi rendition="#g">III.</hi></hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">I</hi>Nter eos, ſi quem referam, quos durior urſit</hi></l><lb/>
+<l><hi rendition="#aq">Sors, iuſti arbitrio conſilio<choice><abbr>q́;</abbr><expan>q́ue</expan></choice> <hi rendition="#g">DEI.</hi></hi></l><lb/>
+<l><hi rendition="#aq">En, procul, Affinis, dubio, dilecte caducam</hi></l><lb/>
+<l><hi rendition="#aq">Cum traheres vitam, tu numerandus eras.</hi></l><lb/>
+<l><hi rendition="#aq">Nam<choice><abbr>q̂;</abbr><expan>q̂ue</expan></choice> quot &amp; quantos curciatus at<choice><abbr>q́;</abbr><expan>q́ue</expan></choice> dolores</hi></l><lb/>
+<l><hi rendition="#aq">Morborum tuleris corpore, cui<choice><abbr>q́;</abbr><expan>q́ue</expan></choice> patet.</hi></l><lb/>
+<l><hi rendition="#aq">Hos, obitus Eratris velox, inopina<choice><abbr>q́;</abbr><expan>q́ue</expan></choice> fata</hi></l><lb/>
+<l><hi rendition="#aq">Auxerunt miris, Vir Reverende, modis.</hi></l><lb/>
+<l><hi rendition="#aq">Semper at exemplo <hi rendition="#g">IOBI</hi> patientis, acerbæ</hi></l><lb/>
+<l><hi rendition="#aq">Vim poteras æquo pectore ferre crucis.</hi></l><lb/>
+<l><hi rendition="#aq">Immemor haud dicti, quod diuus Apoſtolus affert:</hi></l><lb/>
+<l><hi rendition="#aq">Cum Chriſto patiens cælica ſceptra geram.</hi></l><lb/>
+<l><hi rendition="#aq">Nunc liber curis, morbis, cruciatibus, ipsa</hi></l><lb/>
+<l><hi rendition="#aq">Arce beatorum gaudia magna capis.</hi></l><lb/>
+<l><hi rendition="#aq">Aureus ut Phœbus tua mens jam fulget in alto,</hi></l><lb/>
+<l><hi rendition="#aq">Corpus terra tegit, ſed quo<choice><abbr>q́;</abbr><expan>q́ue</expan></choice> reddet idem.</hi></l><lb/>
+<l><hi rendition="#aq">Quapropter, coram mundo, quem faſsus <hi rendition="#g">IESVM:</hi></hi></l><lb/>
+<l><hi rendition="#aq">Hunc nunc in cœlis aſseris, ante Patrem.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i"><hi rendition="#g"><hi rendition="#k">Jacobus Malleolus</hi></hi> Can-<lb/>
+tor Jauravien: Affini ſuo di-<lb/>
+lecto condd. fac.</hi></hi></hi></salute></closer></div><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">IIII. Eheu</hi></fw><lb/>
+<pb facs="#f0027" n="[27]"/>
+<div n="2"><head><hi rendition="#aq"><hi rendition="#g">IIII.</hi></hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">E</hi>Heu quàm fragili pendent mortalia caſu,</hi></l><lb/>
+<l><hi rendition="#aq">Quàm ſubito motu, quæ viguêre, ruunt:</hi></l><lb/>
+<l><hi rendition="#aq">Ducite lugentes funebria Carmina Muſæ</hi></l><lb/>
+<l><hi rendition="#aq">Lugubri veſtras cingite fronde comas.</hi></l><lb/>
+<l><hi rendition="#aq">Occidit eximius, ſed felix, <hi rendition="#g"><hi rendition="#k">Profius</hi></hi> ille</hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Profius</hi></hi> æthere<supplied>æ</supplied> ſidus amor<choice><abbr>q;</abbr><expan>que</expan></choice> gregis.</hi></l><lb/>
+<l><hi rendition="#aq">Decidit ut magnis ſucciſa fragoribus arbor;</hi></l><lb/>
+<l><hi rendition="#aq">Sic cadit, ingenti non ſine clade, bonus.</hi></l><lb/>
+<l><hi rendition="#aq">Fortunate Senex, Tua molliter oſsa quieſcant;</hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Te</hi></hi> vigor æternùm non abolendus, alit.</hi></l><lb/>
+<l><hi rendition="#aq">Jam<choice><abbr>q́;</abbr><expan>que</expan></choice> ſubobſcuros olim ſcrutata receſsus,</hi></l><lb/>
+<l><hi rendition="#aq">Mens pia, ſtelligerum vertice volvit opus.</hi></l><lb/>
+<l><hi rendition="#aq">Hunc quia <hi rendition="#g"><hi rendition="#k">Te</hi></hi> coluit, quia <hi rendition="#g"><hi rendition="#k">Te</hi></hi> conſtanter amavit</hi></l><lb/>
+<l><hi rendition="#aq">Salvator, gremio, ſuscipe Chriſte, tuo.</hi></l><lb/>
+<l><hi rendition="#aq">Interea ſalve mens arce beata polorum;</hi></l><lb/>
+<l><hi rendition="#aq">Mollia ſed molli membra tegantur humo.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">Obſervantiæ &amp; honoris ergò<lb/>
+ſcribebat<lb/>
+Gregorius Wernerus Aurimontanus,<lb/>
+Impubb. â Kheul in Martinsdorff<lb/>
+nunc temporis Præceptor.</hi></hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+</div>  </body></text>  </TEI>

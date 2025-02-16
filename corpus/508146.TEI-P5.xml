@@ -1,0 +1,1329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Adelicher vnd anderer vornehmen Geschlechter erster Anfang vnd endlicher Untergang</title>
+<title type="sub">Betrachtet auß dem 17. Cap. der Apostel Geschicht/ vnd gepredigt bey Adelicher Leichbegängnüß/ Des weyland Edlen vnd Ehrnvesten/ Carol-Friedrichen von Eisleben</title>
+<author>
+<persName ref="http://d-nb.info/gnd/120869535">
+<surname>Mauritius</surname>
+<forename>Joachim </forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">39</measure>
+<measure type="tokens">8120</measure>
+<measure type="types">2536</measure>
+<measure type="characters">55024</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:10:05Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/508146</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/508146</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/508146</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/508146</idno>
+<idno type="DTADirName">508146</idno>
+<idno type="DTAID">200140</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-200140-5</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Mauritius, Joachim: Adelicher vnd anderer vornehmen Geschlechter erster Anfang vnd endlicher Untergang. Wittenberg, 1626.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Adelicher vnd anderer vornehmen Geschlechter erster Anfang vnd endlicher Untergang</title>
+<title level="m" type="sub">Betrachtet auß dem 17. Cap. der Apostel Geschicht/ vnd gepredigt bey Adelicher Leichbegängnüß/ Des weyland Edlen vnd Ehrnvesten/ Carol-Friedrichen von Eisleben</title>
+<author>
+<persName ref="http://d-nb.info/gnd/120869535">
+<surname>Mauritius</surname>
+<forename>Joachim </forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">39</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Joh. Hake</name></publisher>
+<pubPlace>Wittenberg</pubPlace>
+<date type="publication">1626</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 O 18/11 / 508146</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#b">Adelicher vnd anderer vornehmen Geſchlech-</hi><lb/>
+ter erſter Anfang vnd endlicher Vntergang.</titlePart><lb/>
+<titlePart type="sub">Betrachtet auß dem 17. Cap. der Apoſtel Geſchicht/ vnd<lb/>
+gepredigt bey Adelicher Leichbegaͤngnuͤß/</titlePart><lb/>
+<titlePart type="desc"><hi rendition="#b">Des weyland Edlen vnd Ehrn-<lb/>
+veſten/ Carol-Friedrichen von Eilsleben/ des letz-</hi><lb/>
+ten dieſes Vhralten Adelichen Geſchlechtes/ welcher den 17. April.<lb/>
+Anno 1622. vor mittag zwiſchen 10. vnd 11. Vhr/ da er 9. Jahr 30. Wochen<lb/>
+vnd 6. Tage Alt geweſen/ ſanfft vnd ſelig zu Oſterwiegt in dem HErrn entſchlaf-<lb/>
+fen/ vnd folgends den 3. Junij daſelbſt in S. Stephani Kirchen bey ſeinem<lb/>
+lieben Vater/ mit gewoͤhnlichen Adelichen Ceremonien zur<lb/>
+Erden beſtattet worden.</titlePart></docTitle><lb/>
+<byline><hi rendition="#b">Jetzo aber auff ſonderbares begehren der Adelichen Freundſchafft/ vnd</hi><lb/>
+dem Adel zu Ehren in Druck gegeben/ Durch<lb/>
+<docAuthor><hi rendition="#aq">M. <hi rendition="#g">JOACHIMUM MAURITII</hi></hi></docAuthor><hi rendition="#aq"><hi rendition="#g">,</hi> Paſtorem,</hi><lb/>
+vnd Seelſorgern der Chriſtlichen Gemeine daſelbſt.</byline><lb/>
+<figure/><lb/>
+<docImprint><pubPlace><hi rendition="#b">Wittenberg</hi></pubPlace><hi rendition="#b">/ Gedruckt bey</hi> <publisher><hi rendition="#b">Joh. Haken</hi></publisher><hi rendition="#b">/</hi> <docDate><hi rendition="#b">1626</hi></docDate><hi rendition="#b">.</hi></docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="[2]"/>
+<pb facs="#f0003" n="1"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche Leichpredigt.</hi></fw><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsSermon" n="1">  <salute><hi rendition="#c"><hi rendition="#b">In <hi rendition="#g">JESV</hi> Namen</hi><lb/>
+Amen.</hi></salute><lb/>
+<div type="preface" n="2"><head><hi rendition="#aq">Præfatio ante lectionem textus.</hi></head><lb/>
+<p><hi rendition="#b"><hi rendition="#in">W</hi>Jr haben jetzo fuͤr vns ſtehen das</hi><lb/>
+letzte Sproͤßlein/ oder den letzten Maͤnlichen<lb/>
+Lehnerben von dem Vhralten Adelichen Stam-<lb/>
+bawm vnd geſchlechte derer von Eilsleben. Da wir<lb/>
+<hi rendition="#aq">Anno</hi> 1620. den 21. <hi rendition="#aq">Septemb.</hi> Seinen lieben S.<lb/>
+Vater mit Chriſtlichen vnd Adelichen Ceremonien alhier zur Erden<lb/>
+beſtattet/ wuͤntſcheten wir von dieſem Ort vnd hoffeten auch/ Gott<lb/>
+wolte vnd wuͤrde jhn als den einigen vnd letzten Stamm: vnd Lehn-<lb/>
+erben/ des Vhralten vnd vornemen Adelichen geſchlechtes derer<lb/>
+von Eilsleben/ bey guter/ langwiriger/ friſcher geſundheit erhal-<lb/>
+ten/ vnd gnade geben/ das er nicht allein nach ſeines hertzlieben Va-<lb/>
+ters wuntſch/ wol erzogen/ ſondern auch durch jhn das Edle ge-<lb/>
+ſchlechte derer von Eilsleben fortan biß ans ende der Welt fortge-<lb/>
+pflantzet vnd erhalten werden moͤchte.</p><lb/>
+<p>Der allein weiſe Gott aber hats mit jhm anderſt vnd weit beſ-<lb/>
+ſer/ den wir gewuͤnſchet/ vorgehabt/ hat mit jhm aus dieſem betruͤb-<lb/>
+ten vnd verkehrten boͤſen Weltweſen weggeeilet/ vnd jhn verſetzet in<lb/>
+das groſſe geſchlechte aller auſſerwehlten vnd gebenedeyeten Gottes<lb/>
+heiligen im Himmel/ da er alhier auff Erden ein Edelman geweſen/<lb/>
+iſt er numehr von Gott viel hoͤher geadelt/ vnnd aus jhm ein Him-<lb/>
+melsfuͤrſt vud Koͤnig gemacht worden. Gott hat jhm auffgeſetzet<lb/>
+die Vnverwelckliche Krone der Ehren/ vnd zum ewigem Lehn vnd<lb/>
+Erbe jhm eingethan den groſſen Himmelsſaal mit vnausſprechli-<lb/>
+<fw type="sig" place="bottom">A ij</fw><fw type="catch" place="bottom">ch<supplied>e</supplied>n</fw><lb/>
+<pb facs="#f0004" n="2"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+chen vnd vnerſchoͤpfflichen Himmelsguͤtern/ frewde/ luſt vnd herr-<lb/>
+ligkeit/ die er nu fuͤr der Welt koͤſtliche Schaͤtze vnnd Keyſerthuͤme<lb/>
+nicht gebe.</p><lb/>
+<p><note place="left"><hi rendition="#aq"><hi rendition="#i">Nulla ſalus<lb/>
+terris, cœle-<lb/>
+ſlia poſci-<lb/>
+mus omnes</hi></hi></note>Vnd wer wolte jhm dieſe herrliche gluͤckſeeligkeit vnd gluͤckſe-<lb/>
+lige herligkeit nicht von Hertzen goͤnnen/ vnnd ſelbſt ein ſehnliches<lb/>
+verlangen dahin haben/ weil doch dieſe Welt nunmehr auff die todte<lb/>
+neige kom̃en/ vud man darinne faſt nichts guts noch froͤliches mehr<lb/>
+zu hoffen vnd erwarten hat?</p><lb/>
+<p>Ach ſelig ſind die todten die in dem HErrn ſterben Von nun<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Luth.<lb/>
+Gene<supplied>ſ</supplied>.</hi></hi></note>an/ <hi rendition="#aq"><hi rendition="#i">Apoc.</hi></hi> 14. Ja wir moͤgen wol nach des Herren <hi rendition="#aq"><hi rendition="#i">Lutheri</hi></hi> worten<lb/>
+wuͤntſchen: <hi rendition="#aq"><hi rendition="#i">Moriamur in pace, antequam veniat calamitas ſuper Germa-<lb/>
+niam:</hi></hi> Ach das wir in frieden ſtuͤrben/ ehe den die dicken ſchwartzen<lb/>
+Wolcken/ ſo bißher etzliche Koͤnigreiche/ Chur vnnd Fuͤrſtenthume<lb/>
+vberzogen/ gantz Deutſchland/ vnd auch vns vbergehen vud treffen<lb/>
+moͤchten. Nu Gott helffe mit gnaden hindurch/ Amen.</p><lb/>
+<p>Weil wir aber der vnſern/ die in Gott ſelig verſtorben/ nach jh-<lb/>
+rem abſchiede Ehrengebuͤrlich gedencken/ ſo geſchicht es an vnſerm<lb/>
+S. Jungen Junckern jetzo auch billich. Wollen jhm demnach/ als<lb/>
+dem letzten dieſes geſchlechtes/ alhie ein oͤffentliches Ehrengedecht-<lb/>
+nuͤß vnd grabmal ſetzen vnd auffrichten/ oder aus Gottes wort einen<lb/>
+Chriſtlichen Leichſer mon halten vnd anhoͤren.</p><lb/>
+<p>Damit es aber Gott dem Allerhoͤchſten zu Ehren/ vns ſaͤmptli-<lb/>
+chen zur heilſamen Lehr/ allen betruͤbten aber zu kraͤfftigen Troſte ge-<lb/>
+reichen moͤge/ Als wolle der getrewe barmhertzige Vater vmb ſei-<lb/>
+nes allerliebſten Sohns willen vns auff allen theilen die Gnaden-<lb/>
+krafft ſeines werthen H. Geiſtes verleihen. Derowegen erhebet<lb/>
+<hi rendition="#c">ewre Hertzen mit mir zu GOtt/ vnd betet aus gleubigem<lb/>
+vnd demuͤtigem Hertzen ein andechtiges<lb/>
+Vater Vnſer.</hi></p><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Textus.</hi></hi></hi></fw><lb/>
+<pb facs="#f0005" n="3"/>
+<fw place="top" type="header"><hi rendition="#b">Leichpredigt.</hi></fw><lb/>
+</div><div type="fsBibleVerse" n="2"><head><hi rendition="#aq"><hi rendition="#g">TEXTUS.</hi></hi></head><lb/>
+<cit><bibl><hi rendition="#c"><hi rendition="#aq">Act. 17. Cap.</hi></hi></bibl><lb/>
+<quote><hi rendition="#fr"><hi rendition="#in">G</hi>OTT hat gemacht das von einem<lb/>
+Blut aller Menſchen geſchlechte<lb/>
+auff dem gantzen Erdboden wo-<lb/>
+nen/ vnd hat ziel geſetzet/ zuvor verſehen/<lb/>
+wielange vnd weit ſie wohnen ſollen: Das<lb/>
+ſie den HErrn ſuchen ſollen/ ob ſie jhn doch<lb/>
+fuͤhlen vnd finden moͤchten.</hi></quote></cit><lb/>
+</div><div type="fsExordium" n="2"><head><hi rendition="#aq">EXORDIUM.</hi></head><lb/>
+<p><hi rendition="#in">J</hi>Ob. 14. Der Menſch vom Weibe gebohren<lb/>
+lebet kurtze zeit vnd iſt vol vnruhe/ gehet auff<lb/>
+wie eine Blume/ vnd felt abe/ fleucht wie ein<lb/>
+Schatten/ vnd bleibet nicht.</p><lb/>
+<p>Jn dieſen worten fuͤhret der Man Gottes<lb/>
+eine ſchmertzliche Klage/ das es mit des Menſchen Leben<lb/>
+vnd weſen alhier ein elendes Jaͤmmerliches vnnd Muͤhſeli-<lb/>
+ges ding ſey.</p><lb/>
+<p><hi rendition="#aq">I. In vitæ ingreßu,</hi> in ſeines Lebens anfang. Den<lb/>
+das wir jetzo nicht ſagen wie vns in dem woͤrtlein <hi rendition="#fr">Menſch</hi><lb/>
+allerley Jammer vnd Elend abgebildet vnnd vorgehalten<lb/>
+werde/ welches auch von den weiſen Heiden iſt erkandt wor-<lb/>
+den/ die geſagt haben: <hi rendition="#aq">hominem dixeris, omnes miſerias<lb/>
+dixeris:</hi> Wenn du des Menſchen namen nur nenneſt/ ſo iſt<lb/>
+<fw place="bottom" type="sig">A iij</fw><fw place="bottom" type="catch">zugleich</fw><lb/>
+<pb facs="#f0006" n="4"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+zugleich mit demſelben alles menſchliche elende ausgeſpro-<lb/>
+chen.</p><lb/>
+<p>So iſt das im anfange elendes gnug/ das der Menſch<lb/>
+vom Weibe geboren iſt. Den zuvor war er nach dem herrli-<lb/>
+chen Ebenbilde Gottes formiret vnd erſchaffen: Nach dem<lb/>
+fall aber zeugete Adam einen Sohn der ſeinem bilde ehnlich<lb/>
+war/ Gen 5. Das iſt: einen Sohn der in Suͤnden vnd mit<lb/>
+erhitzten luͤſten empfangen vnd geboren/ Pſalm. 51. Vnnd<lb/>
+ſolche Erbſchuld bleibet noch jmmerdar bey der gantzen<lb/>
+<hi rendition="#aq">poſteritet</hi> vnd allen nachkommen Adams. Vmb welcher<lb/>
+willen allerley vnfall dem Menſchen/ ſo bald er auff dieſe<lb/>
+Welt geboren/ zukoͤmpt/ wie ſich ſolches nachmals ereu-<lb/>
+get.</p><lb/>
+<p><hi rendition="#aq"><hi rendition="#g">II.</hi> In vitæ progreßu,</hi> in ſeines lebens lauff vnnd fort-<lb/>
+gang. Denn da findet ſich: 1. <hi rendition="#aq">Vitæ brevitas,</hi> die kurtze zeit<lb/>
+Menſchliches lebens. Der Menſch war anfenglich vnſterb-<lb/>
+lich/ oder zum ewigen leben erſchaffen/ Sap. 2. Denn da die<lb/>
+Suͤnde nicht war/ war auch kein todt/ durch die Suͤnde a-<lb/>
+ber iſt der todt in die Welt kommen/ Rom. 5. Vnnd heiſt nu-<lb/>
+mehr: <hi rendition="#aq">Naſcentes morimur finisque ab origine pendet.</hi><lb/>
+So bald wir geboren werden/ fangen wir an zu ſterben/ vnd<lb/>
+iſt alſo vnſers leben anfang vnd ende nicht weit von einan-<lb/>
+der. Wie denn auch die taͤgliche erfahrung weit vnd breit/<lb/>
+ja in der gantzen Welt bezeugen thut/ das mehr Kinderlein<lb/>
+oder Junge Leute offt in der beſten bluͤte jhrer Jungen Jah-<lb/>
+re/ als verlebte Perſonen dahin ſterben/ wie es deñ ſonderlich<lb/>
+in dieſen letzten zeiten an grawen Heuptern vnnd graviteti-<lb/>
+ſchen tuͤchtigen Leuten faſt in allen dreyen Staͤnden man-<lb/>
+geln wil/ da vor zeiten man dieſelbigen ſo wol in Regimen-<lb/>
+ten als im Predigampte in groͤſſerer anzahl vnnd mit<lb/>
+luſt angeſehen vnnd beſchawet hat.</p><lb/>
+<fw type="catch" place="bottom"><hi rendition="#fr">Darnach</hi></fw><lb/>
+<pb facs="#f0007" n="5"/>
+<fw type="header" place="top"><hi rendition="#b">Leichpredigt.</hi></fw><lb/>
+<p>Darnach vnd fuͤrs 2. <hi rendition="#aq">breve illud vitæ curriculum,</hi> der<lb/>
+kurtze lauff oder die kurtze zeit vnſers Lebens iſt noch voller<lb/>
+vnruhe/ wie auch im 90. Pſalm geſchrieben ſtehet: Wens<lb/>
+koͤſtlich geweſen iſt/ ſo iſts muͤhe vnd arbeit geweſen. Ach<lb/>
+freylich iſt es ein elend Jaͤmmerlich ding vmb aller Men-<lb/>
+ſchen leben/ von Mutter leibe an biß ſie in die Erde begra-<lb/>
+ben werden die vnſer aller Mutter iſt: da iſt jmmer ſorge/<lb/>
+hoffnung/ furcht/ vnd zu letzt der todt/ ſo wol bey dem der<lb/>
+in hohen Ehren ſitzet/ als bey dem geringſten auff Erden:<lb/>
+So wol bey dem der Seiden vnd Kron tregt/ als bey dem der<lb/>
+einen groben Kittel an hat. Da iſt jmmer Zorn/ eiffer/ wie-<lb/>
+derwertigkeit/ vnfehde/ todes gefahr/ neidt vnnd zanck/<lb/>
+Syr. 40.</p><lb/>
+<p><hi rendition="#aq"><hi rendition="#g">III.</hi></hi> Befindet ſich auch ein gut Partickel menſchliches<lb/>
+Jammers vnd Elendes <hi rendition="#aq">in vitæ egreßu,</hi> am ende vnd auß-<lb/>
+gange des Menſchlichen Lebens. Davon redet Job in<lb/>
+zweyen gleichnuͤſſen/ vnd ſpricht: 1. Er gehet auff wie eine<lb/>
+Blume vnd felt abe. Eine Blume/ wenn ſie am beſten gruͤ-<lb/>
+net vnd bluͤhet/ felt offt ploͤtzlich abe: Bißweilen wird ſie<lb/>
+von der Sonnen hitze ausgedorret vnd verwelcket: Bißwei-<lb/>
+len wird ſie mit gewalt von Menſchen oder Viehe abgepfluͤ-<lb/>
+cket vnd zertreten: offt wird ſie von auſſen durch das ge-<lb/>
+ſchmeiß/ oder inwendig/ vnd wol an der Wurtzel durch ge-<lb/>
+wuͤrm vergifftet vnd angeſtochen/ verleuret darauff ſafft vnd<lb/>
+krafft/ vnd felt dahin wie Jon<hi rendition="#aq">æ</hi> Kurbiß/ Cap. 4. Alſo gehen<lb/>
+auch die Menſchen Kinder dahin vnd ſterben/ etliche eines<lb/>
+natuͤrlichen/ etliche eines Jehen/ etliche eines vnzeitigen<lb/>
+vnnd fruͤen todes: Verwelcken wie eine Blume/ vnnd ver-<lb/>
+dorren wie das Hew oder Graß/ Eſa. 40.</p><lb/>
+<p>2. Sagt er/ der Menſch fleucht wie ein Schatte vnnd<lb/>
+<fw type="catch" place="bottom">bleibet</fw><lb/>
+<pb facs="#f0008" n="6"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+bleibet nicht. Deßgleichen ſtehet auch Hiob 8. Pſal. 39. 44.<lb/>
+Geringers koͤnte von einem Menſchen faſt nicht geſagt wer-<lb/>
+den/ als das er einem ſchatten verglichen wird.</p><lb/>
+<p>Wenn man nun fragt/ was ein ſchatte ſey? So ant-<lb/>
+worten die gelehrten vnd ſagen: Ein ſchatte iſt fuͤr ſich lauter<lb/>
+nichts/ aber zufalsweiſe entſtehet er als eine beraubung vnd<lb/>
+verkehrung des vollen ſcheins eines lichtes. Daher/ wie weit<lb/>
+die ſtralen nicht reichen koͤnnen/ es etwas finſter wird/ vnnd<lb/>
+bleiben aber Ort/ Lufft/ vnnd Menſchen vnter deß in jhrem<lb/>
+weſen/ vnd wenn das licht wieder kompt/ ſo muß der ſchatte<lb/>
+weichen/ vnd in einem augenblick verſchwinden. Alſo/<lb/>
+ſpricht Job/ iſt es auch mit dem Menſchen bewandt/ wenn<lb/>
+Gott ſeine Handt von jhm abzeucht/ vnd ſeinen Geiſt vnnd<lb/>
+Othein von jhm abfordert/ ſo kompt er von dem Erdbo-<lb/>
+den weg/ das ſeiner endlich vergeſſen vnd nicht mehr ge-<lb/>
+dacht wird.</p><lb/>
+<p>Was nun Job im angezogenen Spruͤchlein ſagt/ deſ-<lb/>
+ſen haben wir ein warhafftiges bildnuß vnnd augenſcheinli-<lb/>
+ches Exempel an der Jungen Adelichen Leiche die fuͤr vns<lb/>
+ſtehet. Denn Juncker Caro! Friedrich von Eilsleben iſt<lb/>
+auch ein Jaͤmmerlicher vnd elender Menſch geweſen/ ein-<lb/>
+mal <hi rendition="#aq">in vitæ ingreſſu &amp; ortu,</hi> in ſeines lebens anfange.<lb/>
+Weil er nach Adams bilde gezeuget/ oder in Suͤnden em-<lb/>
+pfangen vnd geboren geweſen. Darnach <hi rendition="#aq">in vitæprogreßu,</hi><lb/>
+in ſeines lebens lauff vnd fortgange/ weil auch die kurtze zeit<lb/>
+ſeines lebens voller vnruh vnd muͤhe geweſen/ in dem er nit<lb/>
+allein von einem orte zum andern vmbwallen/ ſondern auch<lb/>
+ſeines lieben Vaters fruͤezeitigen todt erleben/ vnd fuͤr ſeine<lb/>
+Perſohn bißweilen gefehrliche Kranckheiten hat außſtehen<lb/>
+muͤſſen/ biß er auch endlich <hi rendition="#aq">in vitæ egreßu</hi> in ſeines lebens<lb/>
+<fw type="catch" place="bottom">ende</fw><lb/>
+<pb facs="#f0009" n="7"/>
+<fw type="header" place="top"><hi rendition="#b">Leichpredigt.</hi></fw><lb/>
+ende vnnd außgange wie eine zarte Blume abgefallen/ ver-<lb/>
+welcket/ vnd wie ein Schatte dahin geflohen/ als wenn er<lb/>
+nie geweſen/ auch nie gekommen were von ſeiner Mutter<lb/>
+Leibe.</p><lb/>
+<p>Dahero angezogene Worte Hiobs zum Text ſeiner<lb/>
+Leichpredigt fuͤglich genommen/ auch auff ſeine Perſon ar-<lb/>
+tig hetten koͤnnen <hi rendition="#aq">accommodiret</hi> werden/ wenn es nicht<lb/>
+mit jhm jetzo ein ſonderlicher <hi rendition="#aq">caſus,</hi> vnd er der letzte von die-<lb/>
+ſem Vhralten Adelichen geſchlechte were/ davon bey vns<lb/>
+wenig Exempel fuͤrfallen thun.</p><lb/>
+<p>Weil den auff ſolchen vngewoͤnlichen todesfall verle-<lb/>
+ſene Wort aus dem 17. Cap. der Apoſtel Geſchichte ſich e-<lb/>
+ben ſchicken thun/ als wollen wir ſie bey dieſer gelegenheit<lb/>
+fuͤr vns nemen vnd daraus anhoͤren:</p><lb/>
+<p>1. <hi rendition="#aq">Omnium generationum &amp; proſapiarum prin-<lb/>
+cipium &amp; originem,</hi> oder woher alle vorneme geſchlechte<lb/>
+auff Erden herkommen vnd entſproſſen ſein.</p><lb/>
+<p>2. <hi rendition="#aq">Earundem durationem &amp; ſinem,</hi> oder wie lange<lb/>
+dieſelbigen auff Erden alhier bleiben vnd wohnen ſollen.</p><lb/>
+</div><div type="fsMainPart" n="2">  <div n="3"><head><hi rendition="#b">Vom Erſten Stuͤcke.</hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">A</hi>Vff vnſere erſtformirte</hi> <hi rendition="#aq">quæſtion</hi> <hi rendition="#fr">vnnd fra-</hi><lb/>
+ge/ wo nemblich alle vorneme <hi rendition="#aq">familien</hi> vnd geſchlech-<lb/>
+ter auff Erden herkommen vnd entſproſſen ſein? Antwortet<lb/>
+der Apoſtel in verleſenen Worten gar deutlich vnd zeiget an:<lb/>
+1. <hi rendition="#aq">Cauſam efficientem,</hi> oder wer der Stiffter ſey/ der alle<lb/>
+<hi rendition="#aq">familias</hi> vnd geſchlechter/ vnd auch den Ritter: vnd Adel-<lb/>
+<fw type="sig" place="bottom">B</fw><fw type="catch" place="bottom">ſtandt</fw><lb/>
+<pb facs="#f0010" n="8"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+ſtandt geſtifftet/ auff vnnd angerichtet habe? Nemblich<lb/>
+Gott der allerhoͤchſte ſelbſt.</p><lb/>
+<p>Denn ſo lauten die Worte: <hi rendition="#fr">GOtt hat gemacht/</hi><lb/>
+das von einem Blut aller Menſchen geſchlechte auff dem<lb/>
+gantzen Erdboden wohnen. Lehret alſo/ das GOTT der<lb/>
+Allmechtige alle Menſchen auff dem gantzen Erdboden er-<lb/>
+ſchaffen/ wie denn niemand ruͤhmen vnd ſagen kan/ er ſey<lb/>
+von jhm ſelber herkommen/ oder er habe ſich ſelbſt gemacht/<lb/>
+ſondern ein jeder muß fuͤr ſich bekennen vnnd ſagen/ <hi rendition="#g"><hi rendition="#k">Er/</hi></hi><lb/>
+Gott/ hat vns gemacht/ vnd nicht wir ſelbſt/ Pſ. 100.</p><lb/>
+<p>Darnach hat er bey dem hochmuͤtigen baw zu Babel<lb/>
+die einerley ſprache verwirret/ vnnd die Menſchen von dan-<lb/>
+nen in allerley Laͤnder zerſtrewet/ das viel Zungen vnd ſpra-<lb/>
+chen/ viel <hi rendition="#aq">nationes</hi> vnd Voͤlcker worden/ in einer jedern<lb/>
+<hi rendition="#aq">nation</hi> hat er weiter vmb beſſerer ordnung vnnd richtigkeit<lb/>
+willen vnterſchiedliche <hi rendition="#aq">familias</hi> vnd geſchlechter vom hoͤch-<lb/>
+ſten biß zum niedrigſten ſtande angerichtet/ vnd nach dem<lb/>
+einer mit Tugendt gezieret geweſen/ hat er denſelben vber<lb/>
+andere erhoben vnd zu ehren geſetzet.</p><lb/>
+<p>Denn es hat dem allein weiſen Gott in ſeinem weiſen<lb/>
+Raht gefallen/ das ein vnterſcheidt ſey zwiſchen Tugendt<lb/>
+vnd Laſter/ fleiß vnd faulheit/ vnnd das derſelbe von maͤn-<lb/>
+niglich geſehen vnd erkandt werde. Jtem das ein vnter-<lb/>
+ſcheidt der Staͤnde ſey/ das etliche gebieten vnnd gute geſetze<lb/>
+vnd ordnung machen/ etliche aber gehorchen vnnd nach den<lb/>
+ſatzungen leben: auff das alſo das Menſchliche geſchlecht/<lb/>
+vnd einer bey dem andern in gutem fried vnd ruhe lebe/ auch<lb/>
+gute ordnung/ zucht vnd erbarkeit in der gantzen Welt er-<lb/>
+halten werde. Wie ſolches lehret Syrach 33. Cap. Gott<lb/>
+<fw place="bottom" type="catch">hat</fw><lb/>
+<pb facs="#f0011" n="9"/>
+<fw place="top" type="header"><hi rendition="#b">Leichpredigt.</hi></fw><lb/>
+hat alle Menſchen aus der Erden vnd Adam aus dem ſtaube<lb/>
+geſchaffen/ vnd hat ſie vnterſchieden nach ſeiner manigfal-<lb/>
+tigen Weißheit/ vnd hat mancherley weiſe vnter jhnen ge-<lb/>
+ordnet. Etliche hat er geſegnet/ erhoͤhet vnnd geheiliget/<lb/>
+vnd zu ſeinem dienſte gefordert. Etliche aber hat er verflu-<lb/>
+chet vnd geniedriget vnd aus jhrem ſtande geſtuͤrtzet/ denn ſie<lb/>
+ſind in ſeiner handt wie der thon in des Toͤpffers handt. Er<lb/>
+macht alle ſeine wercke wie es jhm gefellet. Alſo ſind auch<lb/>
+die Menſchen in der handt des der ſie gemacht hat/ vnd gibt<lb/>
+einem jeglichen wie es jhm gut deucht.</p><lb/>
+<p>Vnd die denn Gott nach ſeiner Weißheit alſo fuͤr an-<lb/>
+dern herfuͤr zencht vnd zu ehren ſetzet/ denen pfleget er nach-<lb/>
+mals eine ſonderliche <hi rendition="#aq">authoritet</hi> vnd anſehen zu machen/<lb/>
+begabet ſie mit ſonderlicher Weißheit vnnd einem hohen<lb/>
+Verſtande/ giebt jhnen einen fuͤrtrefflichen Heldenmuth<lb/>
+vnd andere Tugenden/ damit ſie groſſe/ vnd dem Menſch-<lb/>
+lichen geſchlechte hochnuͤtzbare vnd dienſtliche ſachen auß-<lb/>
+richten koͤnnen.</p><lb/>
+<p>Moſe vnd Joſua/ welche beyde von Gott erwehlet/ dz<lb/>
+ſie die Kinder Jſrael aus Egypten fuͤhren vnnd ins gelobte<lb/>
+Land bringen ſolten/ hat Gott mit ſonderlichen gaben gezie-<lb/>
+ret.</p><lb/>
+<p>Gideon/ Jeptha/ Simſon/ ſind von Gott erwecket/ dz<lb/>
+ſie Jſrael aus der handt jhrer Feinde erloͤſen ſolten/ darumb<lb/>
+zieret er ſie auch mit einem groſſen Heldenmuth vnd ſtarcker<lb/>
+krafft.</p><lb/>
+<p>David war ein Schaͤfferknecht/ Gott aber wolte/ er<lb/>
+ſolte nicht mehr die Schaffe/ ſondern ſein Volck Jſrael wei-<lb/>
+den vnd regieren/ darumb ſchmuͤcket er jhn mit ſonderlicher<lb/>
+<fw place="bottom" type="sig">B ij</fw><fw place="bottom" type="catch">fuͤrſich-</fw><lb/>
+<pb facs="#f0012" n="10"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+fuͤrſichtigkeit/ ſtercke/ gottſeeligkeit vnd andern gaben die ei-<lb/>
+nem Regenten wol anſtehen.</p><lb/>
+<p>Dergleichen exempel findet man in Prophan vnnd<lb/>
+Weltlichen hiſtorien viel an Monarchen/ Keyſern/ Koni-<lb/>
+gen/ Fuͤrſten vnd Herrn/ vnd wuͤrden zu lang wehren dieſel-<lb/>
+ben alle hier zu erzehlen.</p><lb/>
+<p>2. Zeiget er auch an <hi rendition="#aq">materiam ex qua,</hi> oder aus wel-<lb/>
+chem Stambawm/ <hi rendition="#aq">fundament</hi> vnd grunde alle <hi rendition="#aq">nationẽ</hi><lb/>
+vnd Voͤlcker/ vnd bey denſelben alle groſſe <hi rendition="#aq">familien</hi> vnd ge-<lb/>
+ſchlechter erbawet ſein: Nemblich von einem blut. Da-<lb/>
+durch verſtehet er dem einigen erſten Menſchen Adam. Deñ<lb/>
+von dem einigen Menſchen ſind alle Menſchen biß auff die<lb/>
+Suͤndflut herkommen vnd geboren worden. Nach der<lb/>
+Suͤndflut iſt der Erdboden zwar von Noha vnnd ſeinen<lb/>
+Soͤhnen wieder beſetzet worden/ es haben aber auch dieſe jh-<lb/>
+ren Vhrſprung von dem erſten Menſchen Adam. Darumb<lb/>
+jhm auch dieſe ehre nach der Suͤndflut bleibet/ das von ſei-<lb/>
+nem Blute Gott alle geſchlechte der Menſchen auff dem<lb/>
+Erdboden gemacht hat.</p><lb/>
+<p>Nach der zeit hat das Menſchliche geſchlechte ange-<lb/>
+fangen ſich in zweyerley Volck zu theilen/ nemblich in Juͤ-<lb/>
+den vnd Heiden.</p><lb/>
+<p>Die Juͤden hatten jhren Vhrſprung von dem Sem<lb/>
+Noh<hi rendition="#aq">æ</hi> aͤlteſten Sohne. Die Heiden aber kamen her von<lb/>
+Japher vnd Ham/ den beyden andern Soͤhnen Noh<hi rendition="#aq">æ.</hi></p><lb/>
+<p>Die Juͤden hatten jhre 12. Haͤuptgeſchlechte vnnd<lb/>
+Staͤmme/ von den 12. Soͤhnen des Patriarchen Jacobs/<lb/>
+da denn ein jeder Stam oder Heuptgeſchlechte ſeine ſonder-<lb/>
+bare <hi rendition="#aq">familias</hi> vnd geſchlechter hin wieder gehabt.</p><lb/>
+<p>Die Heiden hatten auch jhre ſonderliche vnterſchiedt-<lb/>
+<fw type="catch" place="bottom">liche</fw><lb/>
+<pb facs="#f0013" n="11"/>
+<fw place="top" type="header"><hi rendition="#b">Leichpredigt.</hi></fw><lb/>
+liche Heuptgeſchlechter/ vnd nenneten ſich nach dem Na-<lb/>
+men deſſen davon ſie jhren Vhrſprung vnd anfang hatten.<lb/>
+Als die Cananiter hatten jhren Namen vnnd Vhrſprung<lb/>
+von Canaan/ der war ein Sohn Cham/ des Sohns Noh<hi rendition="#aq">æ.</hi><lb/>
+Die Cananiter waren den ferner getheilet in andere <hi rendition="#aq">famili-<lb/>
+as</hi> vnd geſchlechter/ als da waren die Jeſubiter/ Hethiter/<lb/>
+Girgeſiter etc. Die alle Canaans geſchlechte waren von Je-<lb/>
+bus/ Heth/ Girgot etc.</p><lb/>
+<p>Von Jſmael/ Abrahams Sohn/ den er mit der A-<lb/>
+gar zeugete/ kommen her die Jſmaeliten. Die Moabiter<lb/>
+vnd Ammoniter ſind herkommen von Moab vnnd Ammi/<lb/>
+welche die Toͤchter Loths mit jhrem Vater erzeugeten. Die<lb/>
+Edomiter ſind Eſaus geſchlechte.</p><lb/>
+<p>Was nu ſonſten hin vnd wieder in der gantzen weiten<lb/>
+Welt vnd auff den gantzen vmbkreiß der Erden fuͤr Voͤl-<lb/>
+cker/ Zungen Sprachen vnd geſchlechter wonen/ die ſind al-<lb/>
+le nach der Suͤndflut ausgebreitet worden durch die nach-<lb/>
+kommen Noh<hi rendition="#aq">æ</hi> vnd ſeiner Kinder/ als da ſtehet Gen. 10.</p><lb/>
+<p>Bey den Juͤden ſind durch ſonderliche Providentz des<lb/>
+Allerhoͤchſten die Staͤmb vnd Geſchlechtregiſter biß zu der<lb/>
+geburt zeit des <hi rendition="#g"><hi rendition="#k">Herrn</hi></hi> Chriſti richtig behalten worden.<lb/>
+Wie deſſen <hi rendition="#aq">Genealogia</hi> Matth. 1. Luc. 3. klar außweiſet.</p><lb/>
+<p>Darumb war es auch GOtt dem Allmechtigen am<lb/>
+meiſten zu thun/ das man gewiß beweiſen koͤnte/ Vnſer <hi rendition="#k">Je-</hi><lb/>
+ſus were der warhaffte verſprochene Meſſias/ aus dem<lb/>
+Stam Juda/ vom Geſchlechte Davids.</p><lb/>
+<p>Nach derſelbigen zeit da die Juͤden vmb jhrer Vn-<lb/>
+danckbarkeit vnd Verſtockung willen vnter alle Voͤlcker<lb/>
+zerſtrewet/ iſt eine ſolche <hi rendition="#aq">confuſion,</hi> vnd ſind jre geſchlech-<lb/>
+ter dermaſſen verwirret worden/ das kein Juͤde gewiß weiß/<lb/>
+<fw place="bottom" type="sig">B iij</fw><fw place="bottom" type="catch">noch</fw><lb/>
+<pb facs="#f0014" n="12"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+noch ſich ruͤhmen kan/ er ſey dieſes oder jenes geſchlechtes.<lb/>
+Weil aber die Heiden/ die ſonſten der groſſe hauffe waren/<lb/>
+in vielerley Nationen vnd Voͤlcker ſich abgetheilet/ auch<lb/>
+ſonſt in vnzehlicher menge ſich vermehreten vnd außbreite-<lb/>
+ten/ haben ſie ſich in weit abgelegene oͤrter vnnd Jnſeln be-<lb/>
+geben vnd vertheilen muͤſſen. Dahero mit der zeit bey et-<lb/>
+lichen gar vergeſſen worden/ welches geſchlechtes vnnd her-<lb/>
+kommens ſie geweſen/ deßwegen denn bey etlichen derſelben<lb/>
+Heidniſchen Voͤlckern allerley Ehrſuͤchtige vnd thoͤrichte<lb/>
+gezaͤncke entſtanden/ welches vnter jhnen das Vhraͤlteſte vñ<lb/>
+Edleſte Volck vnd geſchlechte were?</p><lb/>
+<p>Die Arcadier/ ein Griechiſch Volck hat dieſer Hoch-<lb/>
+mut vnd Ehrſucht ſehr eingenommen/ die wolten beſſer ſein<lb/>
+denn andere Leute/ gaben fuͤr/ ſie weren ein ſelbgewachſſen<lb/>
+Volck in jhrem Griechenlande/ vnd koͤnten nicht wie ande-<lb/>
+re Nationen vnd Voͤlcker frembdes Vhrſprungs vnd auß-<lb/>
+lendiſchen herkommens vberwieſen werden. Wolten dem-<lb/>
+nach allein/ das die rechte Alt-vnnd Erbſaſſen ja Edle-<lb/>
+ſten gehalten werden. Mit dieſer blinden thorheit ſind<lb/>
+auch viel andere vorneme Voͤlcker beſchmeiſt geweſen/ da ei-<lb/>
+ne alte Nation wieder die andere geeiffert/ welche die alleraͤl-<lb/>
+teſte vnd erſte were/ die von keinem anfange wuͤſte/ ſondern<lb/>
+von den Goͤtteru jhren Vhrſprung hette? Als da waren vn-<lb/>
+ter andern die Aegyptier vnd Phrygen.</p><lb/>
+<p>Die Aegyptier/ weil ſie ein ſehr fruchtbar Land bewo-<lb/>
+neten/ welches der fluß <hi rendition="#aq">Nilus</hi> wunderbarer weiſe waͤſſerte<lb/>
+vnd ſehr geil oder fruchtbar machete/ vnd alſo wegen ſolcher<lb/>
+wunderbaren geilheit des Erdbodens etliche Thiere zuſe-<lb/>
+hens aus der Erden wuchßen/ die forne lebeten/ hinten aber<lb/>
+noch ein erdenklump waren/ So wolten ſie hieraus ſchlieſ-<lb/>
+<fw place="bottom" type="catch">ſen/</fw><lb/>
+<pb facs="#f0015" n="13"/>
+<fw place="top" type="header"><hi rendition="#b">Leichpredigt.</hi></fw><lb/>
+ſen/ das in jhren Landen die Vhraͤlteſten Menſchen/ vnd<lb/>
+aus der Erden erſt gewachſſen weren/ die ſich hernach wei-<lb/>
+ter beſamet vnd auch andere Laͤnder beſetzt hetten.</p><lb/>
+<p>Die Phrygen aber wolten noch fuͤr den Aegyptiern<lb/>
+hergehen vnd aͤlter ſein.</p><lb/>
+<p>Dieſen ſtreit zu entſcheiden vnd die gewißheit davon<lb/>
+zu erfahren hat <hi rendition="#aq">Pſammerichus</hi> ein Koͤnig in Egypten ein<lb/>
+ſolches vorgenommen.</p><lb/>
+<p>Er nam zween Junge Knaben/ ſo bald die von der<lb/>
+Mutter geboren/ vnd that ſie einem Hirten/ das er ſie vnter<lb/>
+dem Viehe erziehen ſolte/ die Ziegen muſten ſie mit jhrer<lb/>
+Milch ernehren/ vnd verbot ernſtlich/ das kein Menſch ein<lb/>
+Woͤrtlein mit vnd fuͤr jhnen reden duͤrffte/ das ſie es nicht<lb/>
+hoͤreten vnd nachreden lerneten. Wenn ſie nu von jhnen<lb/>
+ſelber anfingen zu reden/ wolte er die erſte naturliche Men-<lb/>
+ſchenſprache erfahren/ vnd ferner hieraus erkennen/ weiches<lb/>
+die aͤlteſten vnd erſten Menſchen auff Erden geweſen we-<lb/>
+ren. Da ſie nun zweyjaͤhrig worden/ vnd zu reden ſoltẽ<lb/>
+anfangen/ ließ ſie der Hirte vnter den Ziegen wol aushun-<lb/>
+gern/ der meinung/ die not wuͤrde ſie der Natur gebrauchen<lb/>
+vnd worte machen lehren/ wie ſie der erſte Menſch ohn eines<lb/>
+vorſprechen oder eingeben geredet hette. Was geſchicht?<lb/>
+Sie werden einsmals des Hirten aus dem Vieſtalle gewar/<lb/>
+ruffen jhm mit ausgeſtreckten Haͤnden/ wegen hunger/ laut<lb/>
+zu: <hi rendition="#aq">Beccus,</hi> oder <hi rendition="#aq">Bek Bek.</hi> Solches wort wiederholeten die<lb/>
+armen Kinder aus groſſem Hunger offte. Der Hirte zei-<lb/>
+gets dem Koͤnige an/ ſie werden fuͤr den Koͤnig gebracht/<lb/>
+der hoͤrets ſelber auch von jhnen/ fraget darauff/ was denn<lb/>
+das fuͤr eine ſprache ſey/ vnd was die Wort hieſſen/ da erfeh-<lb/>
+ret er/ das <hi rendition="#aq">Beccus</hi> oder <hi rendition="#aq">Beck</hi> in Phrygiſcher ſprache ſo viel<lb/>
+<fw place="bottom" type="catch">heiſſe/</fw><lb/>
+<pb facs="#f0016" n="14"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+heiſſe/ als Brodt. Daraus ſchleuſt er/ die Phrygen muͤſſen<lb/>
+doch eher denn die Aegyptier geweſen ſein/ weil auch der Ae-<lb/>
+gyptier Kinder von jhnen ſelbſt derſelben ſprache geredet ha-<lb/>
+ben/ vnd muſten alſo die Aegyptier den Phrygen weichen/<lb/>
+gewonnen geben/ jhnen denn vorzug vnnd die erſtigkeit laſ-<lb/>
+ſen.</p><lb/>
+<p>Aber Oder lecherlichen prob! Wie haben die armen<lb/>
+Jungen Kinder anders koͤnnen reden lernen/ als jhnen von<lb/>
+den Ziegen iſt vorgebleket worden?</p><lb/>
+<p>Der Apoſtel Paulus entſcheidet dieſen Hochmuͤtigen<lb/>
+vnd nichtigen ſtreit in vnſerm Texte gar richtig/ vñ ſpricht/<lb/>
+das ſich keine Nation fuͤr der andern ruͤhmen koͤnne noch<lb/>
+ſolle/ das ſie aus vnd von jhnen ſelbſt gewachßen vnnd ent-<lb/>
+ſtanden/ ſondern ſie haben alle einen Stam̃bawm/ den er-<lb/>
+ſten Menſchen Adam/ von deſſen Blut ſein alle andere<lb/>
+Menſchen vnd geſchlechter auff Erden entſproſſen vnd her-<lb/>
+kommen.</p><lb/>
+<p>Alſo/ ob wol etliche vorneme Adeliche geſchlechte je<lb/>
+eins aͤlter iſt denn das andere/ ſo muß man doch ſolches einẽ<lb/>
+jedern paſſiren vnnd gut ſein laſſen. Endlich aber muß<lb/>
+man ſie alle an den erſten Menſchen/ davon ſie jhren Vhr-<lb/>
+ſprung haben/ <hi rendition="#aq">remittiren</hi> vnd verweiſen. Da hat ſich<lb/>
+deñ keiner fuͤr dem andern zu ruͤhmen/ ſondern ſie haben al-<lb/>
+le einen Vater/ gleichen anfang vnd vhrſprung.</p><lb/>
+<p>Wenn nu Ja allhier ein Kluͤgling were/ der einwen-<lb/>
+den vnd ſagen wolte/ es were Ja Adam allein nicht gnug-<lb/>
+ſam geweſen/ ſondern es hette auch Eva darzu kom̃en muͤſ-<lb/>
+ſen/ daß das Menſchliche geſchlechte erbawet vnnd ausge-<lb/>
+breitet wuͤrde: Dem antwortet <hi rendition="#aq">Auguſtinus l. 14. de Ci-<lb/>
+vit. Dei Cap.</hi> 1. alſo: <hi rendition="#aq">Duorum primorum hominum cre-</hi><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">atus</hi></fw><lb/>
+<pb facs="#f0017" n="15"/>
+<fw place="top" type="header"><hi rendition="#b">Leichpredigt.</hi></fw><lb/>
+<hi rendition="#aq">atus eſt unus ex nullo, alter ex illo.</hi> Vnter den beyden<lb/>
+erſten Menſchen iſt der eine von keinem/ oder aus nichts/<lb/>
+der ander aber aus demſelben erſten erſchaffen worden. Es<lb/>
+iſt auch die Eva von Adam genommen/ darumb bleibets<lb/>
+noch dabey/ das von einem Blut aller Menſchen geſchlech-<lb/>
+te auff den gantzen Erdboden wohnen/ vnnd alle geſchlech-<lb/>
+ter/ Nationen vnnd Voͤlcker einen anfang/ einen Stam-<lb/>
+bawm vnd einen Vater/ den Adam/ haben.</p><lb/>
+<p>3. Meldet der Apoſtel auch <hi rendition="#aq">cauſam finalem,</hi> zu wel-<lb/>
+chem ende GOtt der <hi rendition="#g"><hi rendition="#k">Herr</hi></hi> nicht allein die Menſchen er-<lb/>
+ſchaffen/ ſondern auch in gewiſſe geſchlechter vnnd Staͤnde<lb/>
+in vnd abgetheilet: Nemblich/ nicht darumb/ das ſie allhier<lb/>
+auff dieſer Welt in Epicuriſcher weltluſt vnd frewde leben/<lb/>
+vnd darin jhre hoͤchſte frewde vnd <hi rendition="#aq">ſummum bonum</hi> ſuchẽ<lb/>
+ſolten/ ſondern das ſie in gemein GOtt erkennen/ demſelbi-<lb/>
+gen fuͤrchten/ lieben/ ehren vnd preiſen ſollen.</p><lb/>
+<p>Denn das iſt einmal gewiß vnd war: Alles was Gott<lb/>
+der <hi rendition="#g"><hi rendition="#k">Herr</hi></hi> im Himmel vnd auff Erden geſchaffen/ das<lb/>
+hat er alles dem Menſchen zu dienſt vnd nutzen erſchaffen/<lb/>
+<hi rendition="#aq">hominem verò propter ſeipſum condidit,</hi> den Men-<lb/>
+ſchen aber hat er gemacht/ das er jhm dienen/ jhn ehren/ vnd<lb/>
+jhn als dz hoͤchſte Gut erkennen/ lieben vnd annemen ſol.</p><lb/>
+<p>Sonderlich aber die fuͤrnemen geſchlechter ſo von Gott<lb/>
+fur andern geadelt vnd herfuͤr gezogen/ ſollen als ein ſonder-<lb/>
+liches <hi rendition="#aq">exemplar pietatis &amp; omnium virtutum,</hi> als ein<lb/>
+herrlicher Spiegel der Gottesfurcht vnd aller andern tugen-<lb/>
+den/ andern geſchlechten vorleuchten.</p><lb/>
+<p>Der <hi rendition="#g"><hi rendition="#k">Herr</hi></hi> Chriſtus ſagt Matth. 5. Man zuͤndet<lb/>
+nicht ein Liecht an vnd ſetzet es vnter einen Scheffel/ ſondern<lb/>
+auff einen Leuchter/ ſo leuchtet es allen die im hauſe ſind.</p><lb/>
+<fw place="bottom" type="sig">C</fw><fw place="bottom" type="catch">Nun</fw><lb/>
+<pb facs="#f0018" n="16"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+<p>Nun aber hat Gott die vornemen <hi rendition="#aq">familien</hi> fuͤr andern<lb/>
+herfuͤrgezogen vnd hochgeſetzet/ nach keiner andern mei-<lb/>
+nung/ als das ſie den andern die in dem groſſen Welthauſe<lb/>
+wohnen/ vorleuchten ſollen.</p></div><lb/>
+<div n="3"><head><hi rendition="#aq"><hi rendition="#g">USUS.</hi></hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">D</hi>As erſte Puͤnctlein dieſes Apoſtoliſchen</hi><lb/>
+Berichts/ da wir gehoͤret/ das Gott ſelbſt vnter dem<lb/>
+Menſchlichen geſchlechte die groſſen <hi rendition="#aq">familien</hi> vnnd ge-<lb/>
+ſchlechter angeordnet vnd geſtifftet habe/ das ſol alle die ſo<lb/>
+Vornemes geſchlechtes vnd Adelſtandes ſind/ anreitzen zu<lb/>
+hertzlicher danckſagung/ das ſie es mit groſſem danck erken-<lb/>
+nen/ Gott auch hertzlich dafuͤr dancken/ das er ſie nicht al-<lb/>
+lein zu vernuͤnfftigen Menſchen erſchaffen/ ſondern jhnen<lb/>
+auch noch dieſe Wolthat erzeiget/ das er ſie aus dem ſtaube<lb/>
+auffgerichtet/ vnd aus dem kot erhoͤhet/ vnnd ſie neben die<lb/>
+Fuͤrſten/ neben die Fuͤrſten ſeines Volcks geſetzet habe/<lb/>
+Pſ. 113.</p><lb/>
+<p>Denn wenn es ohne Gott geweſen/ weren ſie zu keinen<lb/>
+Vernuͤnfftigen Menſchen erſchaffen worden/ vnd wenn er<lb/>
+ſie nicht herfuͤr gezogen/ hetten ſie vnter andern gemeinen<lb/>
+Leuten bleiben vnd leben muͤſſen. Derowegen ſie nicht auf<lb/>
+jhren Adelichen ſtandt ſehen/ vnnd ſich deßwegen erheben<lb/>
+ſollen/ ſondern ſie ſollen auff Gott ſehen/ von dem ſie jhren<lb/>
+Adelichen ſtandt haben/ vnd dem dancken. Denn der<lb/>
+Menſch hat nichts von jhm ſelber/ ſondern er hat alles von<lb/>
+Gott empfangen. Hats ers aber empfangen/ ſol er ſich nicht<lb/>
+ruͤhmen/ als hette ers nicht empfangen/ 1. Cor. 4.</p><lb/>
+<p>Dem loͤblichen Kaͤyſer <hi rendition="#aq">Alphonſo</hi> zu <hi rendition="#aq">Neapolis</hi> wird<lb/>
+zu ewigem ruhm nachgeſchrieben/ das er geſagt: Er koͤnte<lb/>
+<fw type="catch" place="bottom">Gott</fw><lb/>
+<pb facs="#f0019" n="17"/>
+<fw place="top" type="header"><hi rendition="#b">Leichpredigt.</hi></fw><lb/>
+Gott fuͤr drey dinge nicht gnug dancken: 1. Das er jhn zu<lb/>
+einem Vernuͤnfftigen Menſchen erſchaffen. 2. Das er jhn<lb/>
+zu wahrer Erkentnuß Chriſti vnd der Goͤttlichen warheit<lb/>
+kommen laſſen. 3. Das er jhn zu ſo hohen Koͤniglichen wuͤr-<lb/>
+den vber ein Chriſtlich Volck erhaben hette. Das iſt ein<lb/>
+recht ſchoͤn wort vnd ein danckbares hertz/ welches einem<lb/>
+ſolchen vornemen Potentaten vnd allen Hohes ſtandes Per-<lb/>
+ſonen wol anſtehet.</p><lb/>
+<p>Der Herr <hi rendition="#aq">Lutherus</hi> gedencket einer ſchoͤnen geſchicht/<lb/>
+da er das dritte gebot/ wie den auch/ da er das <hi rendition="#aq">Magniſicat</hi><lb/>
+erklehret/ welche ſich auff dem <hi rendition="#aq">Concilio</hi> zu Coſtnitz/ da<lb/>
+Johan Huß iſt verbrandt worden/ begeben hat/ Nemblich:<lb/>
+Zween Cardinaͤle ritten im Felde/ vnd ſahen einen Hirten<lb/>
+ſtehen vnd Weinen/ der eine Cardinal/ ein ſanfftmuͤtiger<lb/>
+Mann/ wolte nicht fuͤruͤber reiten/ ſondern den Mann troͤ-<lb/>
+ſten/ darumb reit er zu jhm vnd fragte jhn/ was jhm leides<lb/>
+wie derfahren wehre<supplied>?</supplied> der Hirte kan lange fuͤr Weinen kein<lb/>
+Wort von ſich bringen/ zu letzt hebt er an/ vnnd wei<supplied>ſ</supplied>et eine<lb/>
+grewliche Kroͤte/ vnd ſpricht: darumb Weine ich: das mich<lb/>
+Gott nicht hat laſſen eine ſolche erſchreckliche Creatur wer-<lb/>
+den/ wie dieſer Wurm iſt/ vnd das ich das nie erkandt/ viel<lb/>
+weniger jhm dafuͤr lob vnd danck geſagt habe. Der Cardi-<lb/>
+nal erſchrickt fuͤr dieſem Wort/ ſinckt in ein Ohnmacht/ felt<lb/>
+vom Maulthier/ das man jhn in die ſtat muß tragen/ vnnd<lb/>
+ſchreyet: <hi rendition="#aq">O Sancte Auguſtine,</hi> wie war haſtu geſagt: Wir<lb/>
+gelehrten wallen in Fleiſch vnd Blut/ vnter des kommen die<lb/>
+vngelehrten/ vnd nemen vns den Himmel fuͤr dem Maul<lb/>
+weg.</p><lb/>
+<p>O wie viel ſind der Menſchen noch wol heut zu tage/<lb/>
+die mit dieſem Hirten eine lange zeit/ Ja wol jhr lebenlang<lb/>
+<fw place="bottom" type="sig">C ij</fw><fw place="bottom" type="catch">hinge-</fw><lb/>
+<pb facs="#f0020" n="18"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+hingehen/ vnd nicht einmahl daran gedencken/ viel weniger<lb/>
+Gott dancken/ das er ſie nicht zu einer abſchewlichen Crea-<lb/>
+tur/ ſondern zu einem Vernuͤnfftigen Menſchen erſchaffen<lb/>
+hat.</p><lb/>
+<p>Vnd alſo lebet vielleicht vnter denen vom Adel man-<lb/>
+cher dahin/ der wenig bedenckt/ viel weniger Gott dancket/<lb/>
+das er jhn nicht alle in zu einem Vernuͤnfftigen Menſchen<lb/>
+erſchaffen/ ſondern auch fuͤr andern in einen hohen ſtand ge-<lb/>
+ſetzet hat/ was nu hierin von einem oder dem andern verſeu-<lb/>
+met/ das kan vnd ſol noch nachgeholet werden.</p><lb/>
+<p>Das iſt eins.</p><lb/>
+<p><hi rendition="#fr">Darnach</hi> ſo ſollen ſie auch hierbey dieſe erjnnerung<lb/>
+vnd Vermahnung faſſen/ weil ſie von Gott in den ſtand ge-<lb/>
+ſetzet ſein/ das ſie auch darinne ſo leben/ vnd mit denen ſo jh-<lb/>
+nen anvertrawet ſind/ alſo vmbgehen vnd Haußhalten/ das<lb/>
+ſie jhrem Oberſten Lehnherrn Gott im Himmel davon re-<lb/>
+chenſchafft geben/ vnd wol beſtehen koͤnnen. Denn ja of-<lb/>
+fenbar vnd war/ das etlichen vom Adel bißweilen die Ober<lb/>
+vnd Vntergerichte befohlen ſein/ das ſie einem jeden in ſei-<lb/>
+nen wolbefuͤgten ſachen ſollen recht wiederfahren laſſen/<lb/>
+ſchuͤtzen vnd verthetigen. Nu aber werden die/ welchen dz<lb/>
+Regiment vber andere befohlen iſt/ in heiliger Schrifft ge-<lb/>
+nandt GOTtes gerichtshalter/ 2. Chron. 19. Oder ſeines<lb/>
+reichs Amptleute/ Sap. 6. vnd wird jnen ausdruͤcklich vor-<lb/>
+geſagt/ das Gott fragen werde wie ſie handeln vnnd was ſie<lb/>
+ordnen? Vnd werde/ wenn ſie nicht beſtehen koͤnnen/ ein<lb/>
+ſcharff gerichte vber die Oberherrn ergehen.</p><lb/>
+<p>Darumb ſehet wol zu was jhr thut/ vnd laſſet die furcht<lb/>
+des <hi rendition="#k">He</hi>rren bey euch ſein/ vnd huͤtet euch/ vnd thut was euch<lb/>
+beſohlen iſt/ denn bey dem <hi rendition="#k">He</hi>rrn vnſerm Gott iſt kein vn-<lb/>
+<fw place="bottom" type="catch">recht</fw><lb/>
+<pb facs="#f0021" n="19"/>
+<fw type="header" place="top"><hi rendition="#b">Leichpredigt.</hi></fw><lb/>
+recht/ noch anſehen der Perſon/ oder <choice><sic>aunemẽ</sic><corr>annemẽ</corr></choice> des geſchencks/<lb/>
+2. Chron. 19.</p><lb/>
+<p><hi rendition="#fr">Zum dritten</hi> ſo mercket auch dieſen troſt/ wenn<lb/>
+jhr bleibet in ewrem ſtande/ vnd ſchreitet da nicht aus/ thut<lb/>
+auch nichts das dem zu wieder were/ vnd gerahtet ohn ewer<lb/>
+verurſachen in wiederwertigkeit/ vngluͤck oder gefahr/ ſo<lb/>
+koͤnnet jhr getroſt zu Gott ewrem Schoͤpffer ruffen vnd der<lb/>
+erhoͤrung gewiß ſein.</p><lb/>
+<p>Denn ſo ſagt Syrach 10. Mein Kind/ in wiederwer-<lb/>
+tigkeit ſey getroſt vnd trotze auff dein ampt (alſo auch auff<lb/>
+deinen ſtand.) Denn wer an ſeinem ampte oder an ſeinem<lb/>
+ſtande verzagt/ wer wil dem helffen? vnd wer wil den bey eh-<lb/>
+ren erhalten/ der ſein ampt vnd ſeinen ſtandt ſelbſt vnehret?<lb/>
+Koͤnnet alſo gewiß ſein/ der Gott der euch in dieſen ſtand ge-<lb/>
+ſetzet/ der werde euch auch darin ſchuͤtzen vnd erhalten/ vnnd<lb/>
+die wiederwertigkeit/ darein jhr ohn ewer verurſachen ge-<lb/>
+rhaten/ zum beſten wenden vnd daraus erloͤſen.</p><lb/>
+<p><hi rendition="#fr">Darnach/</hi> Da der Apoſtel zum andern berichtet/<lb/>
+das alle Nationen vnd Volcker/ wie auch alle Vorneme ge-<lb/>
+ſchlechter/ von dem einigen Menſchen Adam herkommen/<lb/>
+dadurch ſollen alle Menſchen ins gemein zuſammen ge-<lb/>
+ſchweiſſet vnd verbunden werden zu einer Bruͤderlichen lie-<lb/>
+be vnd was derſelben anhengig iſt. Denn wir nicht allein al-<lb/>
+leſampt einen Himliſchen Vater/ Gott im Himmel/ ſon-<lb/>
+dern auch alle einen natuͤrlichen Vater auff Erden/ den er-<lb/>
+ſten Menſchen Adam/ haben.</p><lb/>
+<p>Die aber vornemes vnd Adeliches geſchlechts ſind/<lb/>
+ſollen nicht ſtoltzieren/ vbermut treiben/ vnd den armen ein-<lb/>
+feltigen Nechſten neben ſich verachten/ ſondern demuͤtig<lb/>
+<fw type="sig" place="bottom">C iij</fw><fw type="catch" place="bottom">ſein/</fw><lb/>
+<pb facs="#f0022" n="20"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+ſein/ vnd bedencken/ das alle Menſchen/ vom hoͤchſten biß<lb/>
+zum niedrigſten jhrer erſten ankunfft natur vnd weſen nach<lb/>
+einander gleich ſein/ gleich wie ſie auch im tode einander wi-<lb/>
+der gleich werden.</p><lb/>
+<p>Denn es hat kein Koͤnig einen andern anfang ſeiner<lb/>
+geburt/ ſondern ſie haben alle einerley eingang vnd gleichen<lb/>
+ausgang/ Sap. 7.</p><lb/>
+<p>Darumb erhebe ſich niemandt allzuſehr/ er ſey ſo hoch<lb/>
+als er wolle/ er iſt ſtaub vnd aſche. Sondern je hoͤher du<lb/>
+biſt/ je mehr dich demuͤtige/ ſo wird dir der <hi rendition="#g"><hi rendition="#k">Herr</hi></hi> hold<lb/>
+ſein/ Syr. 3.</p><lb/>
+<p>Nechſt einem waren ſeligmachenden glauben iſt Gott<lb/>
+dem <hi rendition="#g"><hi rendition="#k">Herrn</hi></hi> nichts ſo angenem als ein demuͤtiges Hertz/<lb/>
+vnd iſt jhm nichts ſo zu wieder als ein hoffertiges Hertz/ wie<lb/>
+Judith ſagt/ Cap. 9. Es haben dir die hoffertigen noch nie<lb/>
+gefallen/ aberallezeit hat dir gefallen der elenden vnnd de-<lb/>
+muͤtigen gebet. Ja Gott wiederſtehet den hoffertigen/ a-<lb/>
+ber den demuͤtigen gibt er gnade/ 1. Pet. 5. Cap.</p><lb/>
+<p>Deſſen nemet ein denckwuͤrdiges Exempel an David<lb/>
+vnd ſeinem gemahl Michal. Sie waren beyde vom niedrigẽ<lb/>
+ſtande zu Koͤniglichen ehrẽ erhoben/ David war ein Schaff-<lb/>
+hirte geweſen/ Michal war zwar Koͤnig Sauls Tochter/<lb/>
+Saul aber war von gemeinem geſchlechte zum Koͤnige ge-<lb/>
+macht. David war bey ſeinen hohen ehren ſehr demuͤtig:<lb/>
+der Michal aber ſaß das Hertz gewaltig hoch. Der Koͤnig<lb/>
+David holet einsmahls die Lade Gottes aus dem Hauſe<lb/>
+Obed Edom in ſeine Stadt mit ſonderlicher <hi rendition="#aq">ſolen nitet</hi> vñ<lb/>
+hertzens andacht/ tantzte vnd ſprang mit frewden vnnd aller<lb/>
+macht fuͤr dem <hi rendition="#k">Herrn/</hi> vnd war beguͤrtet mit einem leinen<lb/>
+Leibrock. Da ſolches die Tochter Sauls/ Davids gemahl/<lb/>
+<fw place="bottom" type="catch">Michal</fw><lb/>
+<pb facs="#f0023" n="21"/>
+<fw place="top" type="header"><hi rendition="#b">Leichpredigt.</hi></fw><lb/>
+Michal ſahe/ verachtete ſie den Koͤnig in jhrem Hertzen/<lb/>
+redet auch gar hoͤniſch mit jhm/ vnd hieß jhn einen loſen<lb/>
+Mann/ der ſich fuͤr den Megden ſeiner Knechte entbloͤſſet<lb/>
+hette wie ſich die loſen Leute entbloͤſſen. Koͤnig David a-<lb/>
+ber antwortete jhr beſcheidentlich vnd ſagte: Jch wil fuͤr<lb/>
+dem <hi rendition="#k">Herren</hi> ſpielen/ der mich erwehlet hat fuͤr deinem<lb/>
+Vater vnd fuͤr alle deinem Hauſe/ das er mir befohlen hat<lb/>
+ein Fuͤrſt zu ſein vber das Volck des <hi rendition="#g"><hi rendition="#k">Herrn</hi></hi> vber Jſrael/<lb/>
+vnd wil noch geringer werden denn alſo/ vnd wil niedrig ſein<lb/>
+in meinen Augen vnnd mit dem Maͤgden davon du geredt<lb/>
+haſt/ zu ehren werden. Welches den auch geſchach. Denn<lb/>
+Michal/ Sauls Tochter/ hat kein Kind biß an den tag jh-<lb/>
+res todes/ 2. Sam. 6. Alſo ſtraffete Gott jhren vbermut vnd<lb/>
+hoffart.</p><lb/>
+<p>Ewer Liebe wird ohn das bekand ſein das Exempel<lb/>
+<hi rendition="#aq">Agatoclis</hi> Koͤniges in Sicilien/ der eines Toͤpffers Sohn<lb/>
+war. Damit nu ſein Hertz nicht ſtoltz vnd vbermuͤtig wuͤrde/<lb/>
+hat er taͤglich auff der Koͤniglichen Taffel vnter die guͤlden<lb/>
+vnd ſilberne/ auch jrrden geſchirre auffſetzen laſſen/ dabey<lb/>
+er ſich ſeiner geringen ankunfft erjnnert.</p><lb/>
+<p>Jtem <hi rendition="#aq">Willegis</hi> oder <hi rendition="#aq">willichij,</hi> Ertzbiſchoffs zu<lb/>
+Maintz/ der eines Rademachers Sohn geweſen/ vnnd zu<lb/>
+ſolcher <hi rendition="#aq">dignitet</hi> erhaben worden/ damit derſelbe ſeiner ge-<lb/>
+ringen ankunfft nicht vergeſſen noch ſich ſeines hohen Eh-<lb/>
+renſtandes erheben moͤchte/ hat er nicht allein hin vnd wie-<lb/>
+der ein Pſlugrad anmahlen (welches noch alle Ertzbiſchoͤffe<lb/>
+zu Maͤintz in jhren Wapen behalten) ſondern auch dieſo<lb/>
+worte darbey ſchreiben laſſen:</p><lb/>
+<lg type="poem"><l><hi rendition="#aq">Willegis willegis,</hi></l><lb/>
+<l><hi rendition="#aq">Recole unde veneris.</hi></l><lb/>
+<fw place="bottom" type="catch">O Wille-</fw><lb/>
+<pb facs="#f0024" n="22"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+<l>O Willegis O Willegis/</l><lb/>
+<l>Deinr gringen ankunfft nicht vergiß.</l></lg><lb/>
+<p>Das iſt tugendt/ das iſt demut/ der folget nach.<lb/>
+Der gemeine vnd einfeltige Man aber ſol hiebey auch<lb/>
+dieſes erjnnert ſein/ das er nicht die vom Adel vnd vornemes<lb/>
+geſchlechtes verachte/ oder ohne einigen <hi rendition="#aq">reſpect</hi> Sich jhnen<lb/>
+gleich achte/ vnd ſage: was ſind denn die vom Adel oder an-<lb/>
+dere Vornemes geſchlechtes mehr vnd beſſer deñ ich vnd an-<lb/>
+dere Menſchen? War iſt es jhrer erſten vnd natuͤrlichen an-<lb/>
+kunfft nach/ ſind ſie nicht mehr denn ich/ du vnnd andere<lb/>
+Menſchen/ weil ſie ſampt vns allen von einem Menſchen/<lb/>
+Adam/ herkommen. So weit aber ſind ſie mehr denn ich/<lb/>
+du vnd andere/ weil ſie von Gott ſelbſt fuͤr mir/ dir vnd an-<lb/>
+dern Menſchen ſind herfuͤr gezogen vnd zu ehren erhaben/<lb/>
+da heiſt es nu: Ehre dem Ehre gebuͤret/ Rom. 13. Was<lb/>
+demnach GOtt ehret/ dz ſollẽ billich alle Gottliebende Her-<lb/>
+tzen mit ehren/ wo ſie nicht GOTT in ſeiner ordnung fre-<lb/>
+ventlich <hi rendition="#aq">reformiren</hi> vnd vberkluͤgeln wollen.</p><lb/>
+<p>Darumb als der Hochloͤblichſte Kaͤyſer <hi rendition="#aq">Maximil. I.</hi><lb/>
+einsmahls die alte gewoͤhnliche Reime an einer Wandt<lb/>
+laß:</p><lb/>
+<lg type="poem"><l>Da Adam hackt vnd Eva ſpann/</l><lb/>
+<l>Wo war als denn ein Edelman.</l></lg><lb/>
+<p>Schrieb er gantz vernuͤnfftiglich darunter:</p><lb/>
+<lg type="poem"><l>Jch bin ein Man wie ein ander Mann/</l><lb/>
+<l>Nur das mir Gott die ehre gann.</l></lg><lb/>
+<p><hi rendition="#fr">Vors dritte</hi> ſollen alle Adeliche Perſohnen vnd<lb/>
+Vorneme geſchlechter fuͤr allen dingen dahin ſehen/ das ſie<lb/>
+<fw place="bottom" type="catch">das</fw><lb/>
+<pb facs="#f0025" n="23"/>
+<fw type="header" place="top"><hi rendition="#b">Leichpredigt.</hi></fw><lb/>
+das <hi rendition="#aq">ſinal</hi> vnd die Endvrſache/ worumb ſie Gott fuͤr andern<lb/>
+hoch erhaben/ wol bedencken/ das ſie nemblich ſein ſollen<lb/>
+<hi rendition="#aq">vivum exemplar veræ pietatis &amp; omnium virtutum,</hi><lb/>
+ein lebendiger Spiegel vnd Exempel der wahren Gottes-<lb/>
+furcht vnd allen andern Chriſtlichen Tugenden.</p><lb/>
+<p>Zur waren <hi rendition="#aq">pietet</hi> gehoͤret dieſes: das ſie fůr jhre Per-<lb/>
+ſon Gott vnd ſein ſeligmachendes Wort hertzlich lieben/<lb/>
+das Buch des Geſetze Gottes oder die H. Bibel von jhrem<lb/>
+Munde nicht kommen laſſen/ wie Gott dem Fuͤrſten Joſu<hi rendition="#aq">æ</hi><lb/>
+befihlet/ Cap. 1. Vnd denn das ſie die Diener Gottes vnnd<lb/>
+ſeines Worts Ehrengebuͤrlich <hi rendition="#aq">reſpectiren,</hi> ſie nicht ver-<lb/>
+achten/ beleidigen/ oder fuͤr jhre kurtzweilige Maͤnlein hal-<lb/>
+ten/ ſondern bedencken/ das ſie <hi rendition="#aq">legaten</hi> ſein eines groſſen<lb/>
+<hi rendition="#k">He</hi>rren/ der die ſchmach/ ſeinen Dienern wiederfahren/ zu<lb/>
+ſeiner zeit gewaltig eiffern vnd ſtraffen wird. Fuͤrnemb-<lb/>
+lich aber ſollen ſie keine muͤhe/ arbeit/ noch koſten ſparen/<lb/>
+das die Ehre Gottes vnd ſein heiliges Wort außgebreitet<lb/>
+vnd fortgepflantzet werde. Denn dieſes Wort gehet auch<lb/>
+euch Edle an/ da Gott der <hi rendition="#g"><hi rendition="#k">Herr</hi></hi> ſpricht: Eſa. 49. Die<lb/>
+Koͤnige ſollen deine Pfleger/ vnd jhre Fuͤrſten deine Seug-<lb/>
+ammen ſein. Solche <hi rendition="#aq">pietet</hi> machet euch recht Edel fuͤr<lb/>
+GOtt.</p><lb/>
+<p>Fuͤr der Welt aber ſol euch Edele machen das Kleid<lb/>
+von allerley tugend farben. Denn diß iſt vnleugbar war/<lb/>
+das die tugendt gleichſam eine Mutter iſt der loͤblichen Rit-<lb/>
+terſchafft vnd des Adels/ Ja ein herrlicher reicher vnnd v-<lb/>
+berfluͤſſiger Brun aller Adelichen <hi rendition="#aq">digniteten</hi> vnd herrlig-<lb/>
+keiten/ Syr. 10. Die Weißheit des geringen bringt jhn zu<lb/>
+ehren vnd ſetzt jhn neben die Fuͤrſten.</p><lb/>
+<fw type="sig" place="bottom">D</fw><fw type="catch" place="bottom"><hi rendition="#aq">Palin-</hi></fw><lb/>
+<pb facs="#f0026" n="24"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+<cit><bibl><hi rendition="#c"><hi rendition="#aq">Palingen. Zodiac. l.</hi> 6.</hi></bibl><lb/>
+<quote><lg corresp="#tl1" xml:id="fl1" type="poem"><l><hi rendition="#aq">Non igitur genus eſt, non ſanguis, non ſtatuarum</hi></l><lb/>
+<l><hi rendition="#aq">Mutarum ſeries, non auri copia, quæte</hi></l><lb/>
+<l><hi rendition="#aq">Nobilitet, virtus, virtus, hac nobilis Hector</hi></l><lb/>
+<l><hi rendition="#aq">Alcidesque fuit.</hi></l></lg></quote></cit><lb/>
+<p><hi rendition="#c"><hi rendition="#fr">Das iſt zu Deutſch:</hi></hi></p><lb/>
+<lg corresp="#fl1" xml:id="tl1" type="poem"><l>Es macht nicht Edl geſchlecht odr blut</l><lb/>
+<l>Nicht Schild odr Helm vnd Wapen gut/</l><lb/>
+<l>Viel weniger Silber/ Goldt odr Gelt/</l><lb/>
+<l><hi rendition="#fr">Tugendt/ Tugendt</hi> den Adl erhelt.</l></lg><lb/>
+<p>David ward ein Koͤniglicher Eidam/ weil er den vn-<lb/>
+gehewren Goliath ritterlich erſchlagen. Joab war der erſt<lb/>
+auff der Mawren zu Jebus oder Jeruſalem/ darumb ſchlug<lb/>
+jhn David zum Ritter/ vnd machte jhn zum Feldheuptman<lb/>
+vber ſein gantzes Heer/ 1. Chron. 12.</p><lb/>
+<p>Alſo ſind: Joſeph von Pharao/ Daniel von David<lb/>
+vnd Belſazer/ <hi rendition="#aq">Mardochæus</hi> von Ahasvero/ vmb jhres ho-<lb/>
+hen Verſtandes/ groſſen gaben/ fuͤrtrefflichen <hi rendition="#aq">ingenij,</hi><lb/>
+Mannheit/ trew vnd erbarkeit willen geadelt/ zu Ritter ge-<lb/>
+ſchlagen/ mit Koͤniglichen Kleidern/ <hi rendition="#aq">privilegiis, Immu-<lb/>
+niteten,</hi> Ehrentiteln/ vnd andern Adelichen Kennzeichen<lb/>
+begabet vnd fuͤr andern verehret worden.</p><lb/>
+<p>Welcher gebrauch auch im H. Roͤmiſchen Reich bey<lb/>
+Keyſern/ Koͤnigen vnd Fuͤrſten allezeit iſt behalten worden.<lb/>
+Vnd dahero iſt auch der Deutſche Adel kommen/ das die ſo<lb/>
+jhrem Keyſer vnd Herren trewlich gedienet/ in Kriegen vnd<lb/>
+Scharmuͤtzeln wieder den Feind ſich Ritterlich gehalten/<lb/>
+vnd ſonſt mit Weißheit vnd Geſchickligkeit ſich vmb Fuͤr-<lb/>
+<fw type="catch" place="bottom">ſten</fw><lb/>
+<pb facs="#f0027" n="25"/>
+<fw type="header" place="top"><hi rendition="#b">Leichpredigt.</hi></fw><lb/>
+ſten vnd Herren/ Landt vnd Leute verdienet gemacht/ die/<lb/>
+ſage ich/ ſind geadelt worden. Denn gleich wie die tugend<lb/>
+ewig vnd vnſterblich iſt/ alſo iſts auch billich das die beloh-<lb/>
+nung der Tugendt auch beſtendig ſey vnnd ſich biß auff die<lb/>
+nachkommen verſtamme.</p><lb/>
+<p>Gleich wie nu in aller Welt nichts Holdſeliger/ liebli-<lb/>
+cher/ ſchoͤner vnnd herrlicher iſt/ deñ der Adel/ wenn er mit<lb/>
+Tugendt vnd Gottſeligkeit gezieret iſt: Alſo iſt im gegen-<lb/>
+theil in aller Welt nichts grewlicher vnd abſchewlicher als<lb/>
+der Adel ohne Tugend/ oder wenn die von der Ritterſchafft<lb/>
+ſich allerley boßheit/ laſter vnd ſchande ergeben haben. Deñ<lb/>
+wenn die Tugend verloſchen/ ſo verleuret ſich auch der Adel/<lb/>
+deſſen ſeel vnd leben die Tugend iſt/ vnd bleibet nur der bloſſe<lb/>
+name der Ritterſchafft.</p><lb/>
+<lg type="poem"><l><hi rendition="#aq">Quid tibi nobilitas, quid clarum nomen avorum,</hi></l><lb/>
+<l><hi rendition="#aq">Si ſervus vicijs factus es ipſe tuis?</hi></l><lb/>
+<l>Was hilfft eim Edln ſein groſſer nam</l><lb/>
+<l>Vnd das er iſt von hohem ſtam/</l><lb/>
+<l>Wenn nicht ſein Hertz der tugendt ergebn</l><lb/>
+<l>Sondern thut in Laſtr vnd ſchanden lebn?</l></lg><lb/>
+<p>Stehet demnach nicht fein/ das etliche vom Adel vber<lb/>
+die thuͤrmer vnd Tugendſchrancken ins frey Feldt ſpringen/<lb/>
+vnd jhre/ auch andere Adeliche <hi rendition="#aq">familien dehoneſtiren.</hi><lb/>
+Jhr werdet als rechte vnd Chriſtliche vom Adel euch fleißig<lb/>
+achten nach dem Spruͤchlein des Apoſtels Phil. 4. Was<lb/>
+warhafftig iſt/ was erbar/ was gerecht/ was keuſch/ was<lb/>
+<hi rendition="#c">lieblich/ was wol lautet/ iſt etwa eine tugendt/ iſt<lb/>
+etwa ein lob/ dem dencket<lb/>
+nach.</hi></p></div><lb/>
+<fw type="sig" place="bottom">D ij</fw><fw type="catch" place="bottom"><hi rendition="#b">Vom</hi></fw><lb/>
+<pb facs="#f0028" n="26"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+<div n="3"><head><hi rendition="#b">Vom Andern Stuͤck.</hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">J</hi>N dem Erſten Theil haben wir vns</hi><lb/>
+zimlich auffgehalten vnd verſpaͤtet/ das wir nun die<lb/>
+zeit in etwas wieder gewinnen/ wollen wir/ ſo viel muͤglich/<lb/>
+den andern Haͤuptpunct/ da es vnſerm vorhaben nach am<lb/>
+noͤtigſten/ kuͤrtzlich beruͤren.</p><lb/>
+<p>Der Heuptzweck in vnſerm andern theil beruhet hierauff:<lb/>
+<hi rendition="#fr">Wie lange denn alle vorneme Geſchlechte<lb/>
+auff Erden wehren?</hi> Des Apoſtels worte lauten da-<lb/>
+von alſo: <hi rendition="#fr">Er/ Gott/ hat auch Ziel geſetzet/ zuvor<lb/>
+verſehen/ wie lange vnnd weit ſie wohnen<lb/>
+ſollen.</hi></p><lb/>
+<p>Zweyerley meldet alhie der Apoſtel:</p><lb/>
+<p><hi rendition="#aq">I.</hi> Das Gott der Allmechtige einem jeglichen geſchlech-<lb/>
+te ſein theil Landes vnd von zeitlichen guͤtern/ wie viel ein je-<lb/>
+der haben ſol/ abgemeſſen habe. Denn er ziel geſetzet/ wie<lb/>
+weit ein jeglich geſchlechte wohnen ſol. Das nu dem ge-<lb/>
+wiß alſo ſey/ iſt zu ſehen <hi rendition="#aq">ex Deut.</hi> 2. Denn als die Kinder<lb/>
+Jſrael nach jhrem außgange aus Egypten vnnd da ſie auch<lb/>
+Gott aus der Wuͤſten aus fuͤhren wolte/ durch der Edomiter<lb/>
+Land gezogen/ ſprach der <hi rendition="#g"><hi rendition="#k">Herr</hi></hi> zuvor zu Moſe: Jhr<lb/>
+habt diß gebirge nu gnug vmbzogen/ wendet euch gegen<lb/>
+Mitternacht/ vnd gebeut dem Volck vnd ſprich: Jhr wer-<lb/>
+det durch die graͤntze ewrer Bruͤder der Kinder Eſaw zihen/<lb/>
+die wohnen zu Seir/ vnd ſie werden ſich fuͤr euch fuͤrchten/<lb/>
+aber verwahret euch mit fleiß/ das jhr ſie nicht bekrieget/ deñ<lb/>
+<fw type="catch" place="bottom">ich</fw><lb/>
+<pb facs="#f0029" n="27"/>
+<fw place="top" type="header"><hi rendition="#b">Leichpredigt.</hi></fw><lb/>
+ich werde euch jhres Landes nicht einen Fußbreit geben/ deñ<lb/>
+das gebirge Seir habe ich den Kindern Eſaw zu beſitzen ge-<lb/>
+geben.</p><lb/>
+<p>Dergleichen <hi rendition="#aq">Salvaguardi</hi> vnd befreyunge wird auch<lb/>
+daſelbſt den Moabitern vnd Ammonitern gegeben/ allezeit<lb/>
+mit dieſem anhange: Jch wil dir jhres Landes nicht zu be-<lb/>
+ſinen geben/ deñ daſſelbe Land habe ich den Kindern Loth zu<lb/>
+beſitzen gegeben.</p><lb/>
+<p>Alſo ordnet <hi rendition="#g">GOTT</hi> auch noch heute zu tage<lb/>
+<hi rendition="#fr">alles mit maſſe/ zahl vnnd gewicht/</hi><lb/>
+Sap. 11. Cap.</p><lb/>
+<p>Mercket dieſes in gemein alle Menſchen/ ſonderlich a-<lb/>
+ber jhr Edlen vnd Landſaſſen/ wenn jhr ein ort Landes oder<lb/>
+ein ſtuͤck guts beſitzet/ dencket vnd wiſſet nur nicht anders/<lb/>
+denn das euch die grentzen von Gott ſelbſt abgemeſſen ſein/<lb/>
+hat einer viel/ ſo dancke er Gott dafuͤr/ hat einer wenig/ ſo<lb/>
+ſey er damit auch zu frieden vnd bedencke/ das es Gott alſo<lb/>
+getheilet habe. Er ſtrebe nicht wieder Gottes willen/ vnd<lb/>
+wieder recht vnd billigkeit nach anderm gute/ vnd huͤte ſich/<lb/>
+das er ja mit ſeines Nechſten ſchaden ſeine grentzen nicht er-<lb/>
+weitere/ vnd ſein gut verbeſſere. Denn GOtt hat einen<lb/>
+ſtarcken Zaun darumb geſetzet in den heiligen Zehen Gebo-<lb/>
+ten/ vnd denſelben mit ſchrecklichen Dornen beſtecket. Deut.<lb/>
+27. Verflucht ſey wer ſeines Nechſten grentze engert/ vnd al-<lb/>
+les Volck ſol ſagen: Amen.</p><lb/>
+<p>Hiedurch verwuͤſtet mancher ſein eigen gut/ wie Gott<lb/>
+drewet/ Eſa. 5. Wehe denen die ein Hauß an das ander zie-<lb/>
+hen/ vnd einen Acker zum andern bringen/ biß dz kein raum<lb/>
+mehr da ſey/ das ſie alleine das Land beſitzen. Es iſt fuͤr den<lb/>
+ohren des <hi rendition="#k">He</hi>rren Zebaoth/ was gilts/ wo nicht die vielen<lb/>
+<fw place="bottom" type="sig">D iij</fw><fw place="bottom" type="catch">Haͤuſer</fw><lb/>
+<pb facs="#f0030" n="28"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+Haͤuſer ſollen wuͤſte werden/ vnd die groſſen vnd feinen oͤde<lb/>
+ſtehen?</p><lb/>
+<p><hi rendition="#aq"><hi rendition="#g">II.</hi></hi> Sagt er auch/ das Gott der Allmechtige von ewig-<lb/>
+keit her Vorgeſehen vñ beſchloſſen/ wie lange die geſchlechter<lb/>
+auff Erden wohnen ſollen.</p><lb/>
+<p>Dieſe worte begreiffen abermahls zweyerley in ſich:<lb/>
+1. Das kein <hi rendition="#aq">familia</hi> oder geſchlecht/ es ſey ſo gewaltig als<lb/>
+es jmmer wolle/ ewig wehre/ vnd beſtendig bleibe. Denn<lb/>
+alles hat ſeine zeit/ vnd iſt nichts ewiges vnnd vnvergengli-<lb/>
+ches auff dieſer Welt. Denn alles was jrrdiſch vnd ſicht-<lb/>
+bar iſt/ das iſt vergenglich/ 2. Cor. 5. Nu ſind die geſchlech-<lb/>
+ter jrrdiſch vnd ſichtbar. Daraus erfolget/ das ſie auch ver-<lb/>
+genglich ſein. Das bezeuget die H. Schrifft/ viel Pro-<lb/>
+phan Hiſtorien vnd die tegliche erfahrung mit viel vnzehli-<lb/>
+chen Exempeln. Denn wo iſt <hi rendition="#aq">Moſis, Ioſuæ, Davidis, Cæ-<lb/>
+ſaris, Pompeij &amp;c.</hi> Wo iſt etlicher bekanten Graffen vnnd<lb/>
+Herrn geſchlechte in der Nachbarſchafft? Sind ſie nicht<lb/>
+von dieſer Welt dahin?</p><lb/>
+<p>2. Das einer jeglichen <hi rendition="#aq">familiæ</hi> jhr gewiſſer <hi rendition="#aq">terminus<lb/>
+fatalis</hi> geſetzt iſt/ das von ewigkeit her Vorſehen/ vnnd im<lb/>
+Raht Gotten beſchloſſen/ wie lange ein oder das ander ge-<lb/>
+ſchlechte wehren ſol. Vnnd das laſſe ſich niemand wun-<lb/>
+dern/ das Gott der Allmechtige einem jedern geſchlechte ſei-<lb/>
+nen gewiſſen <hi rendition="#aq">periodum</hi> geſetzet habe vnnd ſich darumb be-<lb/>
+kuͤmmern thue. Leſt er jhm doch viel nichtiger dinge vnd<lb/>
+die vnvernuͤnfftige Creaturen angelegen ſein.</p><lb/>
+<p>Hat er nicht den Waſſern jhre gewiſſe grentzen vnnd<lb/>
+Vfer geſetzet/ die ſie nicht vberſchreiten muͤſſen?</p><lb/>
+<p>Hat er doch in ſeiner gnedigen Providentz auch die<lb/>
+Sperlinge/ vnſere haar/ Matth. 10.</p><lb/>
+<fw type="catch" place="bottom">Hat</fw><lb/>
+<pb facs="#f0031" n="29"/>
+<fw type="header" place="top"><hi rendition="#b">Leichpredigt.</hi></fw><lb/>
+<p>Hat er doch einem jeglichen Menſchen ſein ziel des le-<lb/>
+bens geſetzet/ das er nicht vbergehen kan/ Job. 14.</p><lb/>
+<p>Sondern wenn eines jeglichen Menſchen/ vnnd auch<lb/>
+eines jeglichen geſchlechtes Santſeiger außgelauffen vnnd<lb/>
+ſein ſtuͤndlein kommen/ ſo muß er davon.</p><lb/>
+<p>Dieſe Lehr von der ewigen Goͤttlichen Providentz<lb/>
+nach welcher einem jeglichen zeit vnd maſſe/ zu leben vnnd<lb/>
+ſterben/ beſtimmet iſt/ ſolte wol etwas weitleufftiger außge-<lb/>
+fuͤhret werden/ aber das iſt fuͤr dißmal vnſer <hi rendition="#aq">ſcopus</hi> nicht/<lb/>
+vnd weil wir vns in den vorigen zimlich verſpetet vnnd auff-<lb/>
+gehalten/ ſo muͤſſen wir jetzo zum ende eilen:</p><lb/>
+<p>Da denn diß noch noͤtig zu berichten: <hi rendition="#fr">Was denn<lb/>
+<hi rendition="#g">GOTT</hi> fuͤr vrſachen habe/</hi> das er alſo ein vor-<lb/>
+neme geſchlecht nach dem andern vmbſtuͤrtzet vnnd vnterge-<lb/>
+hen leſſet?</p><lb/>
+<p><hi rendition="#aq">Reſp.</hi> Wir ſind wol in der heiligen vnd geheimen Raht-<lb/>
+kammer Gottes nicht geweſen/ darumb koͤnnen wirs eigent-<lb/>
+lich nicht wiſſen/ wuͤrde vns auch wol viel zu ſchwer ſein/ die<lb/>
+heimligkeit GOttes zuerforſchen.</p><lb/>
+<p>So viel vns aber in <hi rendition="#g">GOTTES</hi> H<supplied>e</supplied>iligthumb/ o-<lb/>
+der in heiliger Schrifft hievon geoffenbahret iſt/ befindet<lb/>
+ſichs:</p><lb/>
+<p><hi rendition="#aq">I.</hi> Das etliche geſchlechter zu jhrem eigenen vntergan-<lb/>
+ge ſelbſt vrſache geben/ wenn ſie nicht in den heiligen wegen<lb/>
+Gottes/ vnd nach ſeinen geboten wandeln/ ſondern dieſel-<lb/>
+ben freventlich vbertreten/ da den ſolche boßheit auff die<lb/>
+Jungen bißweilen mit verſtammet/ vnnd alſo <hi rendition="#g">GOTT</hi><lb/>
+ein gantz geſchlechte vntergehen zu laſſen/ verurſachet<lb/>
+wird.</p><lb/>
+<fw type="catch" place="bottom">Denn</fw><lb/>
+<pb facs="#f0032" n="30"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+<p>Denn gleich wie GOtt der <hi rendition="#k">Herr</hi> verheiſſet/ er wol-<lb/>
+le denen die jhn fuͤrchten vnd ſeine gebot halten/ wolthun biß<lb/>
+ins tauſent gliedt: Alſo drewet er hinwieder/ das er der Vaͤ-<lb/>
+ter Miſſethat heimſuchen vnd ſtraffen wolle an den Kindern<lb/>
+biß ins dritte vnd vierdte glied/ Exod. 20.</p><lb/>
+<p>Das bezeugen die exempel: Saul war von <hi rendition="#g">GOTT</hi><lb/>
+hoch gnug erhaben/ weil er aber vngehorſam war/ fiel er<lb/>
+ploͤtzlich/ vnnd ſein gantz geſchlechte vnnd Kinder mit<lb/>
+jhm.</p><lb/>
+<p>Vmb Reuberey vnd Diebſtals willen ward Achan mit<lb/>
+ſeinem gantzen geſchlechte außgetilget/ Joſ. 7.</p><lb/>
+<p>Weil Achab groſſe Abgoͤtterey trieb/ die Propheten<lb/>
+Gottes Verfolgete vnd Toͤdtete/ auch wieder den Naboth<lb/>
+vnrichtige haͤndel fuͤrnam/ muſte er mit ſeinem gantzen<lb/>
+hauſe ausgerottet werden/ 2. Reg. 9.</p><lb/>
+<p>Darumb huͤtet euch/ das jhr den <hi rendition="#g"><hi rendition="#k">Herrn</hi></hi> ewren<lb/>
+Gott nicht beleidiget/ ſondern in ſeiner furcht lebet/ ſo wird<lb/>
+er ewren ſtul wol befeſtigen vnnd ewer geſchlechte wol ſegnen<lb/>
+vnd erhalten. Denn das geſchlechte der frommen wird<lb/>
+geſegnet ſein/ Pſ. 112. Jch wil meines Hertzen wuntſch<lb/>
+darzu thun/ vnnd ſagen aus dem 115. Pſalm. Der <hi rendition="#g"><hi rendition="#k">Herr</hi></hi><lb/>
+ſegne euch je mehr vnnd mehr/ euch vnnd ewre Kin-<lb/>
+der.</p><lb/>
+<p>2. Sonſten finden wir auch/ das/ wenn Gott ein Land<lb/>
+mit Krieg oder ſonſt ſtraffen wil/ ſo pfleget er die ſtarcken<lb/>
+Kriegsleute/ Propheten/ Richter/ Elteſte vnd Heuptleute<lb/>
+vorweg zu nemen/ darauff denn die Landſtraffe flugs folgen<lb/>
+thut/ als er drewet/ Eſa. 3. Cap.</p><lb/>
+<p>Weil denn bißhero ein Vornem geſchlechte nach dem<lb/>
+andern/ ein Held nach dem andern/ ein ehrlicher Man nach<lb/>
+<fw place="bottom" type="catch">dem</fw><lb/>
+<pb facs="#f0033" n="31"/>
+<fw type="header" place="top"><hi rendition="#b">Leichpredigt.</hi></fw><lb/>
+dem andern hinweg gerichtet wird/ als beſorge ich ſehr/<lb/>
+GOtt werde vns mit einer ſcharffen Ruten zuͤchtigen vnnd<lb/>
+heimſuchen. Bittet GOtt/ das er noch etliche fromme<lb/>
+Leute/ die wol Beten/ kluge Leute/ die guten Raht geben/<lb/>
+vnd ſtarcke Helden/ die mutig ſtreiten koͤnnen/ ſeinem Volck<lb/>
+zum beſten erhalten wolle.</p><lb/>
+<p>3. Koͤnnen wir auch nicht anders ſchlieſſen/ als weil<lb/>
+GOtt in etlichen Jahren Vorneme Fuͤrſtliche/ Graͤffliche<lb/>
+vnd Adeliche geſchlechte gantz hat vntergehen laſſen/ denn<lb/>
+das er mit dieſer Welt zu ende eile. Denn die Vornemen<lb/>
+geſchlechte ſind des Landes Pfeiler/ Joh. 9. Des Landes<lb/>
+grundfeſte/ Pſalm. 82. Wenn man aber vnter einem ge-<lb/>
+bewde die Pfeiler vnnd Grundtfeſte wegrucket/ ſo kan man<lb/>
+leicht die rechnung machen/ das es mit dem Hauſe vnnd<lb/>
+gebewde keinen langen beſtand haben koͤnne/ ſondern es muͤſ-<lb/>
+ſe zu truͤmmern gehen.</p><lb/>
+<p>Alſo weil Gott die Vornemen geſchlechte als Grund-<lb/>
+feſte vnd Pfeiler wegnimbt/ ſo wird das groſſe Welthauß<lb/>
+auch nicht lange ſtehen/ ſondern einfallen.</p><lb/>
+<p>Demnach iſt nu der vntergang Vornemer geſchlech-<lb/>
+ter nichts anders/ als ein gewiſſer Vorbote des Herzuna-<lb/>
+henden Juͤngſten tages.</p><lb/>
+<p>Darumb wir bey ſolchen faͤllen nicht ſo ſicher ſein ſol-<lb/>
+len/ ſondern gedencken: Wer weiß wie es dir/ Ja wie es der<lb/>
+gantzen Welt in kuͤrtze ergehen werde: vnd derwegen bereit<lb/>
+ſein allezeit/ auff das wir wuͤrdig ſein zu entfliehen allem<lb/>
+vngluͤcke vnnd zu ſtehen fuͤr des Menſchen Sohn/<lb/>
+Luc. 21.</p><lb/>
+<p>Das iſt nu das jenige/ was wir aus vnſerm verleſenen<lb/>
+<fw type="sig" place="bottom">E</fw><fw type="catch" place="bottom">Texte</fw><lb/>
+<pb facs="#f0034" n="32"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+Texte von Vornemer geſchlechter anfang vnnd vnter-<lb/>
+gang kuͤrtzlich vnnd einfeltig haben erjnnern koͤnnen.</p><lb/>
+<p><hi rendition="#k">Je</hi>ſus Chriſtus wolle es zu vnſer aller beſten geredt ſein<lb/>
+vnd gedeyen laſſen/ vnd zu ſeiner zeit vns alle gleich machen<lb/>
+vnnd erheben zu Koͤnigen vnnd Prieſtern fuͤr GOtt ſeinen<lb/>
+<hi rendition="#c">Himliſchen Vater. Demſelbigen ſey Ehre vnd ge-<lb/>
+walt von Ewigkeit zu Ewigkeit/<lb/>
+<hi rendition="#g">AMEN.</hi></hi></p><lb/>
+</div></div><milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsPersonalia" n="2"><head><hi rendition="#aq"><hi rendition="#b">PERSONALIA.</hi></hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">W</hi>As nu zum endlichen Beſchluß<lb/>
+anlanget vnſern Seh. Jungen Jun-<lb/>
+ckern/ Carol Friedrich von Eilsleben/ So<lb/>
+iſt Maͤnniglich bewuſt/ das er von Vhraltem<lb/>
+vornemen Adelichem Stam̃ geboren/ nemb-<lb/>
+lich Anno 1612. den 14. Septembris.</hi></p><lb/>
+<p><hi rendition="#fr">Sein Vater Sehl. iſt geweſen der Wei-<lb/>
+landt Edle Geſtrenge vnd Ehrnveſte Hans<lb/>
+Georgen von Eilsleben.</hi></p><lb/>
+<p><hi rendition="#fr">Seine Mutter Sehl. die Edle vnd Ehrn-<lb/>
+tugentreiche Fraw Vrſula von Randaw/</hi><lb/>
+<fw type="catch" place="bottom"><hi rendition="#fr">des</hi></fw><lb/>
+<pb facs="#f0035" n="33"/>
+<fw place="top" type="header"><hi rendition="#b">Leichpredigt.</hi></fw><lb/>
+<hi rendition="#fr">des Edlen Geſtrengen vnnd Ehrnveſten<lb/>
+Friedrichen von Randaw/ geweſenẽ Heupt-<lb/>
+mans auff Horneburg vnd Wuͤlperoda/ Ehe-<lb/>
+leibliche Tochter. Sein Großvater wegen<lb/>
+des Vatern iſt geweſen der Edle Geſtrenge<lb/>
+vnd Ehrnveſte Carol von Eilsleben/ Erbſaß<lb/>
+zu Haidmersleben. Seine Großmutter/<lb/>
+die Edle vnd Ehrentugendreiche Fraw Ca-<lb/>
+tharina von Breitzken/ des Edlen Geſtrengẽ<lb/>
+vnd Ehrnveſten Hans Georgen von Breitz-<lb/>
+ken/ Erbſaſſen zu Knoblauch/ ſehl. Eheleib-<lb/>
+liche Tochter. Sein Eltervater wegen ſei-<lb/>
+nes Vatern iſt geweſen der Edle Geſtrenge<lb/>
+vnd Ehrnveſte Heinrich von Eilsleben/ auch<lb/>
+zu Haidmersleben Erbſaſſe. Seine Elter-<lb/>
+mutter Anna von Redeken/ des Edlen Ge-<lb/>
+ſtrengen vnd Ehrnveſten Heinrichen Rede-<lb/>
+ken Eheleibliche Tochter. Welches geſchlech-<lb/>
+te denn auch ausgeſtorben.</hi></p><lb/>
+<p><hi rendition="#fr">Sein Großvater wegen ſeiner lieben Mut-<lb/>
+ter iſt/ wie vor gedacht/ der Edle Geſtrenge<lb/>
+vnd Ehrnveſte Friedrich von Randaw/ ge-</hi><lb/>
+<fw place="bottom" type="sig">E ij</fw><fw place="bottom" type="catch"><hi rendition="#fr">weſe-</hi></fw><lb/>
+<pb facs="#f0036" n="34"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+<hi rendition="#fr">weſener Heuptman auff Horneburg vnnd<lb/>
+Wuͤlperoda. Seine Großmutter wegen ſei-<lb/>
+ner Mutter iſt geweſen die Edle vnd Ehrntu-<lb/>
+gentreiche Fraw Anna von Hopkorff/ des Ed-<lb/>
+len Geſtrengen vnnd Ehrenveſten Ernſten<lb/>
+von Hopffkorff/ zu Sidaw Erbſaſſen ſehl.<lb/>
+Eheleibliche Tochter.</hi></p><lb/>
+<p><hi rendition="#fr">Sein aͤlter vater wegen ſeiner Mutter iſt<lb/>
+geweſen der Edle Geſtrenge vnnd Ehrnveſte<lb/>
+Hans von Randaw ſehl. geweſener Heupt-<lb/>
+man auff Horneburg vnnd Zillingen/ vnnd<lb/>
+Erbſaß zu Horneburg etc.</hi></p><lb/>
+<p><hi rendition="#fr">Seine aͤltermutter iſt geweſen die Edle vnd<lb/>
+Tugendreiche Fraw Elſa von Werder/ des<lb/>
+Edlen Geſtrengen vnd Ehrnveſten Heinri-<lb/>
+chen von Werder/ Erbſaſſen zu Lade ſehl.<lb/>
+Eheleibliche Tochter.</hi></p><lb/>
+<p><hi rendition="#fr">Es wolte ſich wol gebuͤren/ dz dieſes Ade-<lb/>
+liche geſchlechte ferner deduciret wuͤrde/<lb/>
+weil aber den anweſenden ſaͤmptlichen ge-<lb/>
+freundten vnd vom Adel wol bekant/ das es<lb/>
+ein Vornemes vnnd Vhraltes geſchlech-</hi><lb/>
+<fw place="bottom" type="catch"><hi rendition="#fr">te iſt/</hi></fw><lb/>
+<pb facs="#f0037" n="35"/>
+<fw type="header" place="top"><hi rendition="#b">Leichpredigt.</hi></fw><lb/>
+<hi rendition="#fr">te iſt/ als wird es ſo weit vnnoͤtig geach-<lb/>
+tet.</hi></p><lb/>
+<p><hi rendition="#fr">Jedoch iſt dieſes zu erjnnern/ das diß ge-<lb/>
+ſchlechte derer von Eilsleben faſte fuͤr 500.<lb/>
+Jahren beruͤhmbt geweſen im Ertzſtifft Mag-<lb/>
+deburg/ wie ſolches</hi> <hi rendition="#aq">Marcus Wagnerus,</hi> <hi rendition="#fr">ein<lb/>
+Vornemer</hi> <hi rendition="#aq">Theologus</hi> <hi rendition="#fr">vnd</hi> <hi rendition="#aq">Hiſtoricus</hi> <hi rendition="#fr">in ſeinẽ</hi><lb/>
+<hi rendition="#aq">tractatu hiſtorico</hi> <hi rendition="#fr">von des Adels ankunfft be-<lb/>
+richten thut:</hi></p><lb/>
+<p><hi rendition="#aq">Nota:</hi> <hi rendition="#fr">Derer von Eilsleben/ ſo darin ge-<lb/>
+dacht/ ſind Herr Ludolph vnnd Reinhardt<lb/>
+von Eilsleben. So in angelegenen wichtigen<lb/>
+haͤndeln ſind gebraucht worden/ wie bey ge-<lb/>
+dachtem Autore weiter kan geleſen wer-<lb/>
+den.</hi></p><lb/>
+<p><hi rendition="#fr">Vnſer S. Juncker hat nach Gottes wil-<lb/>
+len das geſchlechte beſchloſſen vnnd geendet.<lb/>
+Vnd iſt faſt fruͤezeitlich aus dieſem leben vn-<lb/>
+ter den Suͤndern weggenommen vnd hinge-<lb/>
+ruͤcket: Ohn allen zweiffel darumb/ weil er<lb/>
+Gott in ſeiner Kindlichen einfalt wolgefal-</hi><lb/>
+<fw type="sig" place="bottom">E iij</fw><fw type="catch" place="bottom"><hi rendition="#fr">len</hi></fw><lb/>
+<pb facs="#f0038" n="36"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+<hi rendition="#fr">len vnd ihm lieb geweſen/ wie er denn nach<lb/>
+ſeinem kindlichen Verſtande wehrender lei-<lb/>
+bes vngelegenheit/ ſonderlich da er ſelbſt ver-<lb/>
+mercket/ das es ſich mit jhm nicht zu dieſem<lb/>
+zeitlichen/ ſondern zu dem ewigen Leben beſ-<lb/>
+ſern wuͤrde/ ſich ſehr Chriſtlich bezeiget/ an-<lb/>
+daͤchtig alles was er gelernet/ mit mir vñ an-<lb/>
+dern anweſenden offt gebetet/ vñ nur vmb ei-<lb/>
+ne gnedige <hi rendition="#k">e</hi>rloͤſung Gott an geruffen. Wie er<lb/>
+denn auch vnter einem andechtigen gebet<lb/>
+Gott dem Allmechtigen ſein liebes ſeelichen<lb/>
+befohlen/ verſchienenen 17.</hi> <hi rendition="#aq">April.</hi> <hi rendition="#fr">im Mittage<lb/>
+zwiſchen 10. vnnd 11. Vhren/</hi> <hi rendition="#aq">anno ætatis,</hi> <hi rendition="#fr">9.<lb/>
+30. wochen/ 6. tage. Welche ſeine Seele von<lb/>
+den lieben heiltgen Engelein in</hi> <hi rendition="#aq">Abrahæ</hi> <hi rendition="#fr">ſchoß<lb/>
+vnzweifelich getragen vnd daſelbſt erquicket<lb/>
+wird. Den Coͤrper wollen wir jetzo ſei-<lb/>
+nem lieben ſehl. Vater zum fuͤſſen in ſein ru-<lb/>
+hebetlein ſitzen/ in gewiſſer hoffnung/ er<lb/>
+werde durch die ſtimme des Sohns GOttes/<lb/>
+ſobald erſchallen wird/ zu dem ewigen frew-</hi><lb/>
+<fw type="catch" place="bottom"><hi rendition="#fr">den-</hi></fw><lb/>
+<pb facs="#f0039" n="37"/>
+<fw type="header" place="top"><hi rendition="#b">Leichpredigt.</hi></fw><lb/>
+<hi rendition="#fr">denleben ſ<supplied>a</supplied>mptallen auſſerwehlten Gottes<lb/>
+aufferwecket/ vnd mit herrligkeit eingefuͤh-<lb/>
+ret werden. Da wir den einander in frew-<lb/>
+den wieder ſehen vnd einmuͤtig GOtt dan-<lb/>
+cken wollen.</hi></p><lb/>
+<p><hi rendition="#c"><hi rendition="#fr">Dar zu vns allen die Hochgebe-<lb/>
+nede yete Dreyfaltigkeit verhelffen wolle/<lb/>
+gelobet in Ewigkeit/<lb/>
+Amen.</hi></hi></p><lb/>
+<figure/></div></div> </body></text>  </TEI>

@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Respice finem Bedencke das End</title>
+<title type="sub">Oder Christliche Predigt/ Bey dem LeichProcess Ehr- vnd Erden-Bestattung Deß Ehrenvesten vnd Wolgelahrten Herrn Michael Saubers</title>
+<author>
+<persName ref="http://d-nb.info/gnd/104286334">
+<surname>Cörber</surname>
+<forename>Johann</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">20</measure>
+<measure type="tokens">4972</measure>
+<measure type="types">1960</measure>
+<measure type="characters">33046</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:10:34Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/523741</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/523741</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/523741</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/523741</idno>
+<idno type="DTADirName">523741</idno>
+<idno type="DTAID">200196</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-200196-6</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Cörber, Johann: Respice finem Bedencke das End. Mainz, 1632.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Respice finem Bedencke das End</title>
+<title level="m" type="sub">Oder Christliche Predigt/ Bey dem LeichProcess Ehr- vnd Erden-Bestattung Deß Ehrenvesten vnd Wolgelahrten Herrn Michael Saubers</title>
+<author>
+<persName ref="http://d-nb.info/gnd/104286334">
+<surname>Cörber</surname>
+<forename>Johann</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">20</measure>
+</extent>
+<publicationStmt>
+<publisher><name>s. e</name></publisher>
+<pubPlace>Mainz</pubPlace>
+<date type="publication">1632</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 S 132/10 / 523741</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#aq"><hi rendition="#g">RESPICE FINEM</hi></hi></titlePart><lb/>
+<titlePart type="sub">Bedencke das End.<lb/>
+<hi rendition="#fr">Oder</hi><lb/>
+<hi rendition="#b">Chriſtliche Predigt/</hi></titlePart><lb/>
+<titlePart type="desc">Bey dem Leich <hi rendition="#aq">Proceſs</hi> Ehr- vnd Erden-<lb/>
+Beſtattung<lb/>
+<hi rendition="#b">Deß Ehrenveſten vnd Wolgelahrten<lb/>
+Herꝛn</hi><lb/>
+<hi rendition="#aq">MICHAEL</hi> <hi rendition="#b">Saubers/</hi><lb/>
+Der Koͤnigl: <hi rendition="#b">Mayeſtaͤt in Schweden hochan-</hi><lb/>
+ſehlichen Ratht vnd FeldtMar-<lb/>
+ſchalcks/<lb/>
+<hi rendition="#b">Herꝛn</hi> <hi rendition="#aq"><hi rendition="#g">GVSTAVI HORNS,</hi></hi> <hi rendition="#b">Herꝛn</hi><lb/>
+zu Hering/ Malla/ ꝛc. Ritterns/ ꝛc.<lb/>
+geweſenen <hi rendition="#aq">Secretarij</hi> Se-<lb/>
+ligen/</titlePart></docTitle><lb/>
+<byline><hi rendition="#fr">Gehalten</hi><lb/>
+Durch <docAuthor><hi rendition="#aq">M. <hi rendition="#g"><hi rendition="#k">Johannem Cörbervm</hi></hi></hi></docAuthor><hi rendition="#aq">,</hi> P. L.<lb/>
+<hi rendition="#b">Erſthochgedachten Herꝛn FeldtMar-</hi><lb/>
+ſchalcks Hoff Predigern/<lb/>
+Jn S. Vlrichs Kirchen<lb/>
+<hi rendition="#fr">zu</hi><lb/>
+<hi rendition="#b">Muͤnchen in Bayerlandt</hi><lb/>
+den 16. <hi rendition="#aq">Maij.</hi></byline><lb/>
+<docImprint><hi rendition="#fr">Vnd zu</hi> <pubPlace><hi rendition="#fr">Meyntz</hi></pubPlace><lb/>
+<hi rendition="#b">Gedruckt im Jahr/</hi> <docDate><hi rendition="#b">1632</hi></docDate><hi rendition="#b">.</hi></docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="[2]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="dedication"><p><hi rendition="#c"><hi rendition="#b">Dem Ehrenveſten/ HochAchbarn vnd</hi><lb/>
+Wolgelahrten/<lb/>
+<hi rendition="#b">Herꝛen</hi> <hi rendition="#aq"><hi rendition="#g">GEORGIO SNOISZHIK,</hi></hi><lb/>
+<hi rendition="#b">Bey der Koͤniglichen May: in Schweden vor-</hi><lb/>
+hochernanten Herꝛen FeldtMarſchalckens<lb/>
+<hi rendition="#aq">Excellent<hi rendition="#i">:</hi> Secretario,</hi><lb/>
+Meinem Vertrawtem werthen Freund.<lb/>
+<hi rendition="#fr">Dann</hi><lb/>
+<hi rendition="#b">Deß ſelig verſtorbenen HerꝛnSaubers betruͤb-</hi><lb/>
+ten Frawen Mutter/ Geſchwiſtern/ vnd<lb/>
+andern Anverwanten.</hi></p><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">dedicirt</hi> vnd<lb/>
+vbergeben<lb/>
+<hi rendition="#fr">Durch</hi><lb/>
+<hi rendition="#aq">M. <hi rendition="#g"><hi rendition="#k">Iohannem Cõrbervm</hi></hi></hi> P. L.<lb/>
+Hoffpredigern.</hi></salute></closer></div><lb/>
+<pb facs="#f0003" n="3"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsSermon" n="1"><head/>  <div type="preface" n="2"><head/>  <p><hi rendition="#fr"><hi rendition="#in">E</hi>S fuͤhret mich/ Geliebte vnnd Außer-<lb/>
+wehlte in Chriſto dem HERREN/</hi><lb/>
+der allerhoͤchſte GOtt/ der da wunderbahr iſt in<lb/>
+ſeinen Wercken/ auch auff dieſe Cantzel/ an ei-<lb/>
+nem vngewoͤhnlichen Orth/ vnd bey einem vn-<lb/>
+verhofften Fall.</p><lb/>
+<p><hi rendition="#fr">Vngewoͤhnlich iſt das Orth/</hi> in dem ich/ alß ein Evan-<lb/>
+geliſcher Prediger/ allhier zu Muͤnchen ſoll auff offener Cantzel<lb/>
+aufftretten vnnd predigen/ welches von keinem gehoͤrt/ von nie-<lb/>
+mand jemahls geſehen noch erfahren worden: Dann was wir<lb/>
+<hi rendition="#fr">(Lutheriſche genandte)</hi> in Beyerland/ ſonderlich aber allhier<lb/>
+zu Muͤnchen/ (<hi rendition="#fr">da man manches ſcharpffes</hi> <hi rendition="#aq">Scriptum</hi> <hi rendition="#fr">wider<lb/>
+vns</hi> <hi rendition="#aq">publicirt</hi>) fůr Platz/ iſt menniglich bekant/ doch gehet es al-<lb/>
+les nach Gottes willen.</p><lb/>
+<p>Ein vnverhoffter Fall iſt es/ in dem der weiſe GOtt gantz<lb/>
+vnverſehen in ſeiner bluͤhenden Jugendt/ nach ſeinem zwar vn-<lb/>
+erforſchlichem/ doch allein guten Willen/ auß dieſem betrůbten<lb/>
+Zehrenthal zu ſich in den himliſchen Frewdenſaal hat abgefor-<lb/>
+dert den Weylandt Ehrenveſten vnnd Wohlgelehrten/ Herꝛn<lb/>
+<hi rendition="#aq">Michael Saubert,</hi> deß Hoch Wolgebornen vnſers Gnaͤdigen<lb/>
+Herꝛn/ Herꝛn Guſtav Horns/ Herꝛn zu Hering vnd Malla/ ꝛc.<lb/>
+Rittern/ ꝛc. Koͤnigl. May. zu Schweden Raht vnd Feldtmar-<lb/>
+ſchalcks geweſenen <hi rendition="#aq">Secretarium,</hi> welchem wir das Glaid hieher<lb/>
+gegeben/ vnd den letzten Dienſt zuerweiſen im Werck ſeyn. Auff<lb/>
+daß wir aber den Weg nicht vbel anlegen/ ſondern auch was<lb/>
+<fw type="sig" place="bottom">A ij</fw><fw type="catch" place="bottom">nutzlichs</fw><lb/>
+<pb facs="#f0004" n="4"/>
+nutzlichs mit vns naher Hauß bringen/ wollen wir ein kurtzes<lb/>
+Spruͤchlein auß dem ſeligmachendem Wort Gottes zu erk<supplied>l</supplied>aͤ-<lb/>
+ren vornehmen/ zu nutzlicher Abhandlung aber deſſelbigen/ vmb<lb/>
+Gnad vnd Beyſtandt deß H. Geiſtes/ ein andachtiges Vatter<lb/>
+vnſer betten.</p><lb/>
+<p><hi rendition="#fr">Vatter vnſer der du biſt im Himmel/ ꝛc.</hi></p></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsBibleVerse" n="2"><head><hi rendition="#aq"><hi rendition="#g">TEXTVS.</hi></hi></head><lb/>
+<cit><bibl><hi rendition="#c">Pſalm. 91.</hi></bibl><lb/>
+<quote><hi rendition="#fr"><hi rendition="#k">He</hi>rꝛ lehre vns bedencken daß wir ſter-<lb/>
+<hi rendition="#et">ben muͤſſen/ auff daß wir klug wer-<lb/>
+den/ ꝛc.</hi></hi></quote></cit></div><lb/>
+<div type="fsExordium" n="2"><head><hi rendition="#aq"><hi rendition="#g">EXPLICATIO.</hi></hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">E</hi>S wil ja freylich/ Geliebte in Chriſto Je-</hi><lb/>
+ſu/ der liebreiche Gott/ daß allenMenſchen geholf-<lb/>
+fen werde/ vnd ſo wahr er lebt/ begehret er nicht den<lb/>
+Todt deß Suͤnders/ ſondern vielmehr daß er ſich<lb/>
+bekehre vnd lebe/ Ezech. 33. Darumb er auch alle<lb/>
+darzu dienſtliche Mittel jhnen an die Hand gibt: Jnſonderheit<lb/>
+aber/ weil jhm wol bewuſt/ daß die jmmerwehrende Betrach-<lb/>
+tung deß Todes darzu ſehr dienſtlich: Alß hat er ſolche allen<lb/>
+frommen Chriſten vielfaͤltig vnd auff mancherley Weiß <hi rendition="#aq">incul-<lb/>
+eirn</hi> vnd einbilden wollen.</p><lb/>
+<fw type="catch" place="bottom">Alßbal-</fw><lb/>
+<pb facs="#f0005" n="5"/>
+<p>Alßbalden nach dem vnſeligen Suͤnden Fall/ machet er<lb/>
+vnſern erſten Eltern Kleidung von Fellen/ das iſt von todten<lb/>
+Thierheuten. Ach was will er darmit<supplied>?</supplied> Erjnnern wille ſie/ daß/<lb/>
+gleich wie ſi<supplied>e</supplied> jhre Roͤck vnnd Kleidung von todten Th<supplied>i</supplied>eren ge-<lb/>
+nommen haben/ alſo tragen ſie auch den Todt in jhrem Buſen<lb/>
+vnd eygenen Leibe<supplied>r</supplied>n<hi rendition="#i">:</hi> Sie muͤſſen zur Erden werden/ darvon ſie<lb/>
+genommen ſeynd/ <hi rendition="#aq">Gen. 3. lerem.</hi> 18 fuͤhret Gott den Prophe-<lb/>
+ten hinab ins Toͤpffers Hauß/ da ſiehet er wie der Toͤpffer bald<lb/>
+dieſes bald ein anders Gefaͤß widerumb zubricht/ vnnd vnter den<lb/>
+Thon wirff<supplied>t</supplied>: Deß Toͤpffers Hauß iſt deß Todts Werckſtart/<lb/>
+wir arme Erden Wůrmlein ſeynd Thon vnd Leimen/ die GOtt<lb/>
+zwar zu Gefaͤſſen ſeiner Gnaden berenet/ aber vmb vnſerer Suͤn-<lb/>
+den willen/ werden wir einer nach dem andern/ bald dieſer bald je-<lb/>
+ner wiederumb zerbrochen/ vnnd zu nicht gemacht. Dann das<lb/>
+macht deß HErꝛen Zorn/ daß wir ſo vergehen/ vnnd ſein Grim/<lb/>
+daß wir ſo ploͤtzlich dahin muͤſſen/ vnſer Miſſethat ſtellet er fuͤr<lb/>
+ſich/ vnd vnſer vnerkandte Suͤnd ins Liecht fuͤr ſein Angeſicht/<lb/>
+<hi rendition="#fr">ſagt Moſes im 90. Pſalmen.</hi></p><lb/>
+<p>Weiln dann an ſolcher Betrachtung ſo viel gelegen/ alſo<lb/>
+daß auch David GOtt ſehnlich angeruffen/ im 39. Pſalmen/<lb/>
+<hi rendition="#fr">Ach HERR lehre mich bedencken/ daß es ein End mit mir<lb/>
+hat/ vnd mein Leben ein Ziel hat/</hi> vnd Moſes in dieſen abgele-<lb/>
+ſen Spruͤchtein deßgleichen thut: Alß wollen wir fuͤr dißmahls<lb/>
+1. Das Bild deß Todts mit einander in etwas anſchawen.</p><lb/>
+<p>Zum 2. Die Vrſach behertzigen/ warumb man ſo vn-<lb/>
+gern an den Todt gedencke.</p><lb/>
+<p>Vnd zum 3. andeuten/ Wie viel vns an jmmerweh<supplied>r</supplied>ender<lb/>
+Betrachtung deß Todts geleg<supplied>e</supplied>n ſey.</p><lb/>
+<p>Der Gott/ <hi rendition="#fr">Welcher Leben vnnd Todtin ſeinen Haͤn-</hi><lb/>
+<fw type="sig" place="bottom"><hi rendition="#fr">A iij</hi></fw><fw type="catch" place="bottom"><hi rendition="#fr">den</hi></fw><lb/>
+<pb facs="#f0006" n="6"/>
+<hi rendition="#fr">den hat/</hi> helffe daß wir Chriſtlich leben/ ſelig ſterben/ vnnd der-<lb/>
+maleins am Juͤngſten Tag eine froͤliche Himmelfahrt haben/<lb/>
+Amen/ Amen.</p></div><lb/>
+<div type="fsMainPart" n="2"><head/>  <div n="3"><head/>  <p><note place="left"><hi rendition="#aq"><hi rendition="#i">Quid Mors!</hi></hi></note><hi rendition="#fr"><hi rendition="#in">D</hi>Er Todt iſt ein Beraubung deß Lebens/ vnd aller<lb/>
+deren Ding/ ſo dieſem jrꝛdiſchen Leben vnterworf-<lb/>
+fen ſeynd.</hi> So hat nun ein todter Menſch kein Leben<lb/>
+oder Seel mehr/ die zwen beſte Freund Leib vnnd Seel ſeynd ge-<lb/>
+ſchieden/ <hi rendition="#fr">mit den Augen kan</hi> er nicht mehr ſehen/ <hi rendition="#fr">mit den Oh-<lb/>
+ren</hi> nicht mehr hoͤren/ <hi rendition="#fr">mit dem Mund</hi> nicht mehr reden: Er ligt<lb/>
+da/ ſtreckt alle Vier/ hat kein Vernunfft noch Verſtandt:</p><lb/>
+<lg type="poem"><l><hi rendition="#fr">Daß Angeſicht jhm fallet ein/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Die beyde Augen brechen/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Daß Hertz thut ſelbſt in Angſten ſeyn/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Der Mund kein Wort kan ſprechen.</hi></hi></l><lb/>
+<l><hi rendition="#fr">Die ſchoͤne Gſtalt muß werden alt/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Die Pulß wird nimmer lauffen/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Deß Todes Schweiß macht jhm gar heiß/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Da kompt die Noth mit hauffen.</hi></hi></l></lg><lb/>
+<p>Er verleſſet Eltern/ Geſchwiſtere/ Ehegatten/ Guth/ Ehr/ vnd<lb/>
+alles was jhm hier lieb war/ bekommet auch deren keins mehr/<lb/>
+weiln die Welt ſtehet. Das kommet nun Fleiſch vnd Blut hart<lb/>
+an: Dann ſo man vber einen geringen Verluſt bekuͤmmert iſt/<lb/>
+wie viel mehr/ wann man vmb alles kommet/ da iſt Angſt vnnd<lb/>
+Noth/ Wemmern vnd Wehklagen/ Leid vnd Trawrigkeit.</p><lb/>
+<p>Vnnd gleich wie ein Menſch alles Zeitliches verlaͤſt/ alſo<lb/>
+wird er auch hingegen von allen/ ja von den <hi rendition="#aq">intimis</hi> vnnd<lb/>
+beſten Freunden verlaſſen/ vor dem todten Leichnam fleucht man/<lb/>
+helt Mund vnd Naſen zu/ man ſicht wie man jhn auß dem Hauß<lb/>
+bringet/ vnd heiſet nach den gemeinen Reimen:</p><lb/>
+<fw place="bottom" type="catch"><hi rendition="#fr">Dein</hi></fw><lb/>
+<pb facs="#f0007" n="7"/>
+<lg type="poem"><l><hi rendition="#fr">Dein Freundtſchafft thut ein kleine Zeit</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Vmb deinen Todt ſich klagen/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Ein Mantel vnd ein ſchwartzes Kleid</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Ein halbes Jaͤhrlein tragen:</hi></hi></l><lb/>
+<l><hi rendition="#fr">Dann ſpricht die Rott/ genad jhm Gott/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Sie hat dein bald vergeſſen/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Man theilt dein Haab wann du im Grab/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Von Wuͤrmern wuͤrſt gefreſſen.</hi></hi></l></lg><lb/>
+<p>Ja man foͤrchtet ſich wohl auß Vnverſtand vor dem Ver-<lb/>
+ſtorbenen/ vnd ſorgt/ er komme wieder/ mache ein Geſpenſt/ die<lb/>
+Guͤter werden <hi rendition="#aq">transferirt,</hi> das Ampt vnd Pfruͤnd einem andern<lb/>
+vbergeben/ ja wol ehe verſprochen/ alß der Todte begraben iſt.<lb/>
+Vnd gehet eben her wie in einer <hi rendition="#aq">Comœdien,</hi> da mancher im<lb/>
+wehrendem <hi rendition="#aq">Actu</hi> Koͤniglich verkleidet iſt/ aber ſo bald das Spiel<lb/>
+ein Endt/ leget er den Habi<supplied>t</supplied> ab/ vnnd iſt der wieder/ was er zuvor<lb/>
+war: Alſo weil der Menſch im Leben iſt/ bedienet er wohl hohe<lb/>
+Aempter/ hat herꝛliche Gaben/ ſtattliches Vermoͤgen/ hoͤffliche<lb/>
+Wolluſt/ vornehme Freund: Wann aber die <hi rendition="#aq">Comœdia</hi> ſeines<lb/>
+Lebens auß iſt/ verlaͤſt er alles was er hatte/ vnnd wird wieder zur<lb/>
+Erden darvon er genommen iſt/ <hi rendition="#aq">Geneſ. 3. Cap.</hi></p><lb/>
+<p>Vnd dieſes wiederfehret allen Menſchen/ keiner iſt vor der<note place="right"><hi rendition="#aq"><hi rendition="#i">Mors in o-<lb/>
+mnes tran-<lb/>
+ſit.</hi></hi></note><lb/>
+Gewalt deß Todts <hi rendition="#aq">exempt</hi> vnd <hi rendition="#aq">priuilegirt.</hi></p><lb/>
+<lg type="poem"><l><hi rendition="#fr">Der Todt friſt alle Menſchen Kind</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Wie Er ſie find/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Acht nicht was Standts oder Ehrn ſie ſind.</hi></l></lg><lb/>
+<p>Alß der Kaͤyſer <hi rendition="#aq">Auguſtus</hi> die Statt <hi rendition="#aq">Peruſiam</hi> einge-<lb/>
+nommen/ hat er ſehr viel Buͤrger laſſen hinrichten/ den jenigen<lb/>
+aber/ ſo vmb Genad bathen/ nur dieſe Antwort gegeben: <hi rendition="#aq">Mori-<lb/>
+endum eſt<hi rendition="#i">:</hi></hi> Jhr muͤſt ſterben. Alſo ſeit der Todt durch deß<lb/>
+Teuffels Liſt iſt eingedrungen/ vnnd die gantze Welt hat einge-<lb/>
+<fw type="catch" place="bottom">nommen/</fw><lb/>
+<pb facs="#f0008" n="8"/>
+nom̃en/ heiſt es nun mit jederman/ <hi rendition="#aq">moriendum eſt,</hi> <hi rendition="#fr">Du muſt<lb/>
+ſterben:</hi> Da hilfft nichts vor/ es iſt der alte Bundt <hi rendition="#aq">Hebr.</hi> 10.<lb/>
+<hi rendition="#fr">Reiche vnd Arme</hi> muͤſſen ſterben/ <hi rendition="#fr">Schoͤn vnd Heßliche</hi> muͤſ-<lb/>
+ſen ſterben <hi rendition="#fr">Gelehrte vnd Vngelehrte</hi> muͤſſen ſterben/ <hi rendition="#fr">Obrig-<lb/>
+keit vnd Vnterthanen</hi> muͤſſen ſterben/ <hi rendition="#fr">Schwach vnd Star-<lb/>
+cke</hi> muͤſſen ſterden. <hi rendition="#fr">Was halff</hi> <hi rendition="#aq">Cræſum</hi> ſein Reichthumb? Er<lb/>
+muſte fort. <hi rendition="#fr">Was halff</hi> <hi rendition="#aq">Helenam</hi> jhre Schoͤnheit? ſie muſte<lb/>
+fort. <hi rendition="#fr">Was halff</hi> <hi rendition="#aq">Ciceronem, Demoſthenem</hi> vnd andere jhre<lb/>
+Beredtſambkeit/ ſie muſten fort.</p><lb/>
+<p><hi rendition="#fr">Was halff</hi> <hi rendition="#aq"><supplied>I</supplied>ulium Cæſarem Alexandrum Magnum,</hi><lb/>
+vnd andere jhre Macht/ <hi rendition="#aq">Simſonem</hi> ſeine Staͤrcke/ ſie muſten<lb/>
+an deß todes Reihen<hi rendition="#i">:</hi> da hilfft weder Doctor oder Apotecker:</p><lb/>
+<lg type="poem"><l><hi rendition="#fr">Kein Kraut fuͤr den Todt gewachſen iſt/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Mein frommer Chriſt/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Alles was lebet ſterblich iſt.</hi></l></lg><lb/>
+<p>Dannenhero iſt jenes todten Bild zu loben/ da man den<lb/>
+Todt gemahlet <hi rendition="#fr">ohne Augen/</hi> weiln er keine <hi rendition="#fr">Schoͤnheit/</hi> kein<lb/>
+Adel vnd Hochheit/ kein Dignitaͤt vnnd Wuͤrde/ kein Sammet<lb/>
+vnd Seiden/ kein Gold vnd Edelgeſtein anſiehet. Gleich wie ein<lb/>
+Maͤher auff einer Wieſen ohne Vnterſchied die ſchoͤne liebliche<lb/>
+Bluͤmlein vnd das gemeine Graß mit ſeiner Senſen abmeihet:<lb/>
+Alſo auch der Todt. Er ward gemahlet <hi rendition="#fr">ohne Ohren/</hi> weiln bey<lb/>
+jhm kein <hi rendition="#aq">Supplicirn,</hi> kein <hi rendition="#aq">Advocirn,</hi> kein <hi rendition="#aq">Proteſtun,</hi> kein <hi rendition="#aq">ſubti-<lb/>
+liſirn</hi> vnd <hi rendition="#aq">diſputirn</hi> kein Seufftzen oder Liebkoſen/ keine Kunſt/<lb/>
+kein Beredtſambkeit ſtatt findet. Er wird gemahlet <hi rendition="#fr">ohne Haar/<lb/>
+ohne Fleiſch vnd Blut</hi> O du ſchoͤnes FrawenZimmer/ <hi rendition="#fr">dein<lb/>
+ſchoͤne Locken/</hi> dein frembdes Haar/ dein zart vnnd ſubtiles<lb/>
+Fleiſch wird nichts geachtet/ er machet nur viel vnd mancherley<lb/>
+Wuͤrmer darauß/ dein glaͤntzende Stirn/ vnnd alle dein Haupt-<lb/>
+Ziert muß zu Nicht werden.</p><lb/>
+<fw type="catch" place="bottom"><hi rendition="#fr">Gehe</hi></fw><lb/>
+<pb facs="#f0009" n="9"/>
+<p><hi rendition="#fr">Gehe hin ins Beinhauß/ Such mir ein edlen Kopff her-<lb/>
+anß:</hi> Sagt jene gottſelige Jungfraw. Er wird gemahlet <hi rendition="#fr">ohne<lb/>
+Haͤndt/</hi> er leſt ſich mit Gold vnnd Geld nicht beſtecken/ ſonſten<lb/>
+wuͤrden ſich die Reichen wol loß kauffen/ vnd das Spiel nur vber<lb/>
+die Armen gehen/ Ach nein? Es muß alles zugleich fort.</p><lb/>
+<p>Siehe zuruͤck auff deine Vorfahren/ <hi rendition="#fr">mein liebes Hertz/</hi><lb/>
+wo ſeynd ſie? Sie ſeynd geſtorben/ vnd den Weg aller Welt gan-<lb/>
+gen/ dahin muſtu auch/ der Todt macht dir nichts beſon<supplied>d</supplied>ers/<lb/>
+<hi rendition="#aq">non es melior Patribus tuis,</hi> die Natur kan nimmermehr ſo viel<lb/>
+Menſchen auff die Welt bringen/ der Todt nimmet ſie alle hin-<lb/>
+weg<hi rendition="#i">:</hi> Ja wann die Natur gleich viel Jahr ſich bemuͤhet vnnd ar-<lb/>
+beitet/ biß ſie einen Menſchen auffbringet/ verſtoͤſſet jhn doch der<lb/>
+Todt wol in einer Stund/ ja in einem Augenblick vnter der Erdẽ.</p><lb/>
+<p>Darumb wer dem fluͤchtigen Leben zu viel tr<supplied>a</supplied>wet/ der ba-<lb/>
+wet ein Caſtell in dem Lufft/ vnd betreugt ſich ſelbſtẽ gantz ſchaͤnd-<lb/>
+lich. Es ſeynd ja die Menſchen/ Alle alle/ keinen außgenommen/<lb/>
+nichts alß Baͤch vnd Fluͤß/ welche gar ſchnell in das bittere Meer<lb/>
+deß Todts eylen/ vnnd ſo bald ſie dahin gelangen/ ſich verlieren/<lb/>
+alß waͤren ſie zuvor nie geweſen.</p><lb/>
+<p>Vnd welches am aller meiſten/ ſo gewiß der Todt/ ſo vnge-<lb/>
+wiß iſt auch die Stund deß Todts.</p><lb/>
+<p>Zwar im Anfang der Welt war <hi rendition="#fr">der Todt gleichſamb<lb/>
+ein junger Jaͤger vnd ein vngewiſſer Schuͤtz/</hi> da dorffet man<lb/>
+dem Leben noch etwas trawen: Dann nach <hi rendition="#fr">Adam ſchoſſe er 930.</hi><lb/>
+Jahr/ biß er jhn fellet. Nach <hi rendition="#fr">Seth 912.</hi> Jahr. Nach <hi rendition="#fr">Enos<lb/>
+905.</hi> Jahr. Nach <hi rendition="#fr">Lamech 777.</hi> Jahr. Nach <hi rendition="#fr">Mahaleel 895.</hi><lb/>
+Jahr. Nach <hi rendition="#fr">Jahred 962.</hi> Jahr. Nach <hi rendition="#fr">Mathuſalem 969.</hi><lb/>
+Jahr. Aber weh jetzt? Weh jetzt vns armẽ Erdenwuͤrmlein? Jetzt<lb/>
+iſt der leidige Todt/ der ſchroͤckliche Jaͤger durch langwuͤrige V-<lb/>
+bung ſo geſchwind vnd kunſtreich worden/ daß er die Sache mit<lb/>
+<fw place="bottom" type="sig">B</fw><fw place="bottom" type="catch">dem</fw><lb/>
+<pb facs="#f0010" n="10"/>
+dem Menſchen gantz vnverſehens/ auch in einem Augenblick kan<lb/>
+außmachen. Wie offt ſcheuſſet er in der Geburt auff einẽ Schuß<lb/>
+Mutter vnd Kind/ daß ſie beyde todt bleiben. <hi rendition="#fr">Wie offt begibt er<lb/>
+ſich garin Mutterleib hinein/ vnnd erwuͤrget die Frucht<lb/>
+vnd das arme Kindlein vnter dem Muͤtterlichen Hertzen.</hi><lb/>
+Ach Jammer Jammer. Ach Elend Elend?</p><lb/>
+<p>Er graſſieret freylich <hi rendition="#aq">in Oriente,</hi> da nimbt er Kinder hinweg/<lb/>
+<hi rendition="#aq">in Meridie,</hi> da er die Menſchen in bluͤhenden Alter todt machet.<lb/>
+<hi rendition="#aq">In Septentrione,</hi> weiln er der gewachſenen zimblich <hi rendition="#fr">Alten vnd<lb/>
+Erkalten</hi> nicht verſchonet. <hi rendition="#aq">In Occidente,</hi> wann er zum hoͤch-<lb/>
+ſten Alter kommen. Jn allen dieſen Altern/ muͤſſen wir jmmer-<lb/>
+dar in Forcht vnd Sorgen ſtehen. Dann</p><lb/>
+<lg type="poem"><l><hi rendition="#fr">Kein Menſch auff Erd vns ſagen kan/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Wann wir von hinnen muͤſſen/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Wann der Todt kombt vnd klopffet an/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">So muß man jhm auffſchlieſſen:</hi></hi></l><lb/>
+<l><hi rendition="#fr">Er nimbt mit Gwalt hin Jung vnd Alt/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Thut ſich vor niemand ſcheuhen:</hi></hi></l><lb/>
+<l><hi rendition="#fr">Deß Koͤnigs Stab bricht er bald ab/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Vnd fuͤhrt jhn an den Reihen.</hi></hi></l></lg><lb/>
+<p>Ach mein Gott? Wie viel Menſchen kommen vrploͤtzlich<lb/>
+vmb/ wie mancherley Weg vnd weiß ſeynd zu dem Todt? Dieſer<lb/>
+wird verbrent/ jener erhenckt/ einer erſaufft im Waſſer/ der ander<lb/>
+wird von der Erden verſchlungen? Wie viel werden in jhren ey-<lb/>
+genen Heuſern erwuͤrgt? Wie viel auff dem Feld? Wie viel in<lb/>
+frembden Haͤuſern? Vielen wird das Leben verkůrtzet/ durch<lb/>
+Gifft/ durch Hunger/ Froſt/ vnd andere Mittel.</p><lb/>
+<p><hi rendition="#aq">Plinius, Empedocles</hi> vnnd <hi rendition="#aq">Socrates</hi> ſeynd verbrunnen.<lb/>
+<hi rendition="#aq">Æſeulapius, Zoroaſter</hi> vñ <hi rendition="#aq">lulius Hoſtilius</hi> ſeynd vom Don-<lb/>
+ner erſchlagen worden. <hi rendition="#aq">Menandrum, Terentium</hi> vnd <hi rendition="#aq">Marcũ<lb/>
+Marcellum</hi> hat das Waſſer erſeufft/ <hi rendition="#aq">Diomedem</hi> vnd <hi rendition="#aq">Lucium</hi><lb/>
+<fw type="catch" place="bottom">die</fw><lb/>
+<pb facs="#f0011" n="11"/>
+die Roͤmiſche Keyſer haben die Pferdt zu todt gebiſſen/ <hi rendition="#aq">Seuerus</hi><lb/>
+vnd <hi rendition="#aq">Iovianus</hi> habẽ ſich zu todt gefreſſen/ <hi rendition="#aq">Demoſthenes, Han-<lb/>
+nibal, Themiſtocles, Lucullus, Seneca,</hi> vñviel viel andere võ<lb/>
+Gifft ſterbẽ muͤſſen/ <hi rendition="#aq">Tarquinius Priſcus</hi> iſt an einer Fiſchgrad/<lb/>
+<hi rendition="#aq">Anacreon</hi> an einem Weinbeer/ <hi rendition="#aq">Fabius Prætor</hi> an einem Haar<lb/>
+erſtickt. <hi rendition="#aq">Sophocles</hi> vnd <hi rendition="#aq">Diagoras</hi> ſeynd von lauter Frewd ge-<lb/>
+ſtorben/ <hi rendition="#aq">Philæmon</hi> hat ſich zu todt gelacht. Einer ſtirbt vnter<lb/>
+dem Eſſen/ der ander im Schlaff/ ja es wird wol einer mitten in<lb/>
+der Miſſethat ergriffen/ vnd vmbgebracht:</p><lb/>
+<lg type="poem"><l><hi rendition="#fr">Der Todt vrploͤtzlich alß ein Dieb</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Thut gehling einher ſchleichen/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Es ſey dir gleich leid oder lieb/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Du kanſt jhm nicht entweichen:</hi></hi></l><lb/>
+<l><hi rendition="#fr">Sein Pfeil iſt Gifft/ wann er dich trifft/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Muſt du dich bald auffmachen/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Er nimbt dich mit/ es hilfft kein Bitt/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Drumb ſieh zu deinen Sachen.</hi></hi></l></lg><lb/>
+<p>Er iſt vns allezeit auff dem Ruͤcken/ wir moͤgen vns vor jhm<lb/>
+nicht verbergen/ dann er durchwandert alle Orth/ alle Winckel/<lb/>
+folget vns nach wie der Schatten dem Leib/ wann wir vns am we-<lb/>
+nigſten verſehen/ da vberſiehet er keine <hi rendition="#aq">Occaſion</hi> vnnd Gelegen-<lb/>
+heit. Mitten wir im Leben ſeynd/ mit dem Todt vmbfangen:<lb/>
+Singet die Kirch recht vnd wol auß langer Erfahrenheit.</p></div><lb/>
+<div n="3"><head><hi rendition="#aq"><hi rendition="#g">II. PARS.</hi></hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">J</hi>St dann nun dem alſo? Muͤſſen die Menſchen</hi><lb/>
+ſterben/ ja alle Menſchen ſterben/ ja ſie ſterben zu gantz<lb/>
+vngewiſſer Stundt vnd Zeit/ keiner iſt einen Tag/ ja eini-<lb/>
+gen Augenblick befreyet/ wie kommet es dann/ daß man ſo ſicher<lb/>
+vnd ſorgloß dahin lebet/ alß haͤtte man gar mit dem Todt einen<lb/>
+Bundt/ vnnd ein <hi rendition="#aq">Salvam Quardiam</hi> vor allen ſeinen Auſtoͤſſen<lb/>
+<fw place="bottom" type="sig">B ij</fw><fw place="bottom" type="catch">vnd</fw><lb/>
+<pb facs="#f0012" n="12"/>
+vnd Einfaͤllen. Es findẽ ſich/ <hi rendition="#fr">Geliebte im HErꝛn/</hi> vnterſchied-<lb/>
+liche Vrſachen/ dardurch der arme Menſch in dieſe Blindtheit<lb/>
+gereth/ daß er ſo wenig an den Todt gedencket. Deren iſt die 1.<lb/>
+<note place="left">1. <hi rendition="#aq"><hi rendition="#i">Cauſa.<lb/>
+Satanæ<lb/>
+Calliditas.</hi></hi></note>Von welcher alle andere herꝛuͤhren <hi rendition="#fr">deß Teuffels liſtige Ver-<lb/>
+ſuch<choice><sic>n</sic><corr>u</corr></choice>ng/</hi> welcher ſich vmb nichts ſo ſehr bemuͤhet/ alß wie er<lb/>
+dem Menſchen moͤge diß Sterbſtuͤndlein auß dem Sinn brin-<lb/>
+gen/ vnd ſicher machen/ dann wann es ſo weit kommet/ ſtehet jhm<lb/>
+ſchon Thuͤr vnnd Thor offen/ jhn alß einen armen gefangenen<lb/>
+von einer Suͤnd zu der andern/ vnd entlich gar in das Verderben<lb/>
+<note place="left">Hiſtoria<lb/>
+vom <hi rendition="#aq"><hi rendition="#i">Cyro.</hi></hi></note>zu ſchloͤppen. <hi rendition="#fr">So machet es Cyrus mit den Scythiern.</hi> Er<lb/>
+ſtellet ſich/ alß wann er floͤhe/ vnd ließ ſein Feldtlaͤger hinder jhm<lb/>
+voll deß beſtens Weins/ vnd der herꝛlichſtẽ Speiſe/ darauff platz-<lb/>
+ten die <hi rendition="#aq">Scythier</hi> mit allen Vieren/ wurdẽ aber/ alß ſie am froͤlich-<lb/>
+ſten waren/ von jhren liſtigen Feind dem <hi rendition="#aq">Cyro</hi> vnverſehens vber-<lb/>
+fallen/ vnd neben der Koͤnigin <hi rendition="#aq">Tomyris</hi> einigen Sohn/ jaͤmmer-<lb/>
+lich erſchlagen vnd vmbgebracht. <hi rendition="#fr">O Satan/ Satan!</hi> Wie<lb/>
+viel bringſtu eben vff ſolche Weiß in vnwiederbringlichen Scha-<lb/>
+den/ du kanſt wol leyden/ daß der Menſch in aller Vppigkeit/ in<lb/>
+Frewd vnd Wolluͤſten/ in Suͤnd vnd Laſtern lebe/ bildeſt jhm ſo<lb/>
+lang ein/ es hab kein Gefahr vnd Noth mit jhm/ biß er vnverſehe-<lb/>
+ner weiß/ wie ein armes Voͤgelein/ von dem Todt vberfallen vnd<lb/>
+jaͤmmerlich hingerichtet wird. Darumb bedencke es wol <hi rendition="#fr">liebe<lb/>
+Seel/</hi> ſchlage ſolche verdampte Sicherheit auß dem Sinn:</p><lb/>
+<lg type="poem"><l><hi rendition="#fr">Vieleicht iſt heut der letzte Tag/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Den du noch haſt zu leben/</hi></hi></l><lb/>
+<l><hi rendition="#fr">O Menſch/ veracht nicht was ich ſaͤg/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Nach Tugendt ſolt du ſtreben.</hi></hi></l><lb/>
+<l><hi rendition="#fr">Wie mancher Mann wuͤrd muͤſſen dran/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">So hofft noch viel der Jahren/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Vnd muß noch heut weil die Sonn ſcheint/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Zur Hoͤll hinunter fahren.</hi></hi></l></lg><lb/>
+<fw type="catch" place="bottom">2. Die</fw><lb/>
+<pb facs="#f0013" n="13"/>
+<p>2. Die andere Vrſach/ warumb ſo wenig an jhr Sterbftuͤnd-<note place="right"><hi rendition="#i">2. <hi rendition="#aq">Cauſa.<lb/>
+Viuendi<lb/>
+cupiditas.</hi></hi></note><lb/>
+lein gedencken: iſt <hi rendition="#aq">vivendi cupiditas,</hi> die groſſe Begierd zum jr-<lb/>
+diſchen Leben/ von denen ſagt <hi rendition="#fr">Syrach am</hi> 41. O Todt wie bit-<lb/>
+ter biſtu/ wann an dich gedencket ein Menſch/ der gute Tag vnd<lb/>
+genug hat/ vnd ohne Sorg lebet/ vnnd dem es wohl gehet in allen<lb/>
+Sachen/ vñ der noch wol eſſen mag. Deſſen haben wir ein Exem-<lb/>
+pel an dem Reichen <hi rendition="#fr">Luc.</hi> 12. Liebe Seel <hi rendition="#fr">(ſprach er)</hi> du haſt ei-<lb/>
+nen groſſen Vorꝛaht auff viel Jahr/ habe Ruhe/ jß/ trinck/ vnnd<lb/>
+hab einen gutẽ Muth/ da gedenckt er nur ſeines Vorꝛahts vff viel<lb/>
+Jahr/ aber deß Tods gantz nicht/ was ſagt aber Gott darzu? Du<lb/>
+Narꝛ/ <hi rendition="#fr">ſpricht er/</hi> heint wird dein Seel von dir genommen wer-<lb/>
+den/ weß wird dann ſeyn/ alles was du geſamblet haſt! O daß wir<lb/>
+nit auch alſo geſinnet waͤren/ vnd vnſerer Gebrechligkeit ſo gar<lb/>
+vergeſſen/ wie viel beſſer wuͤrde es vmb vns ſtehen? Wie viel<lb/>
+froͤmmer vnd Gottſeliger wuͤrden wir ſeyn. Aber es gehet leyder<lb/>
+nach den Reimen:</p><lb/>
+<lg type="poem"><l><hi rendition="#fr">O Fleiſch du ſchnoͤder Madenſack</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Wie viel haſt du betrogen.</hi></hi></l><lb/>
+<l><hi rendition="#fr">Vnd durch den Geitz durch Fraß vnd Glack</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Zur Sicherheit gezogen:</hi></hi></l><lb/>
+<l><hi rendition="#fr">Wer dir vertrawt ſeh auff ſein Haut/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Er wuͤrds wol muͤſſen zahlen</hi></hi></l><lb/>
+<l><hi rendition="#fr">Jm hoͤlliſchn Fewr nur allzu thewr</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Der Speck ligt auff der Fallen:</hi></hi></l></lg><lb/>
+<p>3. Vrſach ſolcher <hi rendition="#fr">verdambtẽ Sicherheit</hi> <hi rendition="#aq">Abuſionis miſe-</hi><note place="right">3. <hi rendition="#aq"><hi rendition="#i">Cauſa.<lb/>
+Abuſionis<lb/>
+miſericor-<lb/>
+diæ diuinæ<lb/>
+multiplici-<lb/>
+tas.</hi></hi></note><lb/>
+<hi rendition="#aq">ricordiæ diuinæ multiplicitas.</hi> Der Mißbrauch der Barmher-<lb/>
+tzigkeit Gottes/ der iſt nur leyder allzu groß/ da der Teuffel dem<lb/>
+Menſchẽ vorbildet/ er ſoll ſich nur friſch halten/ vñ thun was das<lb/>
+Hertz geluͤſtet/ vnd den Augen gefalle/ <hi rendition="#aq">Eccleſ.</hi> 12. Gott ſey barm-<lb/>
+<choice><sic>tzig</sic><corr>hertzig</corr></choice>/ ja die Barmhertzigkeit ſelbſten/ es ſey genug/ wann man im<lb/>
+Alter/ im Todtbett fromb werde/ hab er doch den Schecher am<lb/>
+<fw type="sig" place="bottom">B iij</fw><fw type="catch" place="bottom">Creutz</fw><lb/>
+<pb facs="#f0014" n="14"/>
+Creutz in der letzten Noth nit verlaſſen/ ſondern zu Genaden auff-<lb/>
+genommen/ wie viel mehr werde es jhm widerfahren/ der ſo viel<lb/>
+Bubenſtuͤck nicht begangen hab? Aber jrꝛe dich nit/ <hi rendition="#fr">liebes Hertz/</hi><lb/>
+Gott laͤſt ſich nicht ſpotten/ <hi rendition="#fr">Er hat wol Genad/ aber dir den<lb/>
+morgenden Tag zu leben nicht verſprochen/</hi> vnd du weiſt nit<lb/>
+ob dich der Todt nicht vrploͤtzlich ergreiffen moͤcht/ zu deme wer-<lb/>
+den einem Geſunden viel Verhinderung zu der Buß <hi rendition="#aq">obijcirt,</hi><lb/>
+vielmehr einem Todtkrancken/ vnd GOtt iſt freylich wol barm-<lb/>
+hertzig/ aber darbey auch gerecht/ wann man ſeine Langmut ſo<lb/>
+ſchaͤndtlich mißbraucht/ weder Moſen noch die Propheten will<lb/>
+hoͤren/ ſo erzuͤrnet er ſich in ſeinem Grim/ verſtoͤſt wol ſolche <hi rendition="#aq">cra-<lb/>
+ſtinatores</hi> in Ewigkeit/ daß ſie ſein Abendtmahl nimmermehr<lb/>
+ſchmecken ſollen/ wie er troͤhet <hi rendition="#aq">Luc.</hi> 14. vnnd gehet es wie die<lb/>
+Chriſtliche Kirch ſinget:</p><lb/>
+<lg type="poem"><l><hi rendition="#fr">Vnd wann er nimmer leben mag/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">So fehter an ein groſſe Klag/</hi></hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Will ſich erſt Gott ergeben:</hi></hi></l><lb/>
+<l><hi rendition="#fr">Jch foͤrcht fuͤrwar die goͤttlich Gnad/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Die er alzeit verſpottet hat/</hi></hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Werd ſchwerlich ob jhm ſchweben.</hi></hi></l></lg></div><lb/>
+<div n="3"><head><hi rendition="#aq"><hi rendition="#g">III. PARS.</hi></hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">D</hi>Jeſes alles nimmet Moſes der groſſe Prophet</hi><lb/>
+Gottes wol zu Hertzen/ darumb bittet er im abgeleſenen<lb/>
+<note place="left">Die Klug<lb/>
+heit beſte-<lb/>
+het 1.<lb/>
+<hi rendition="#aq"><hi rendition="#i">In Amoris<lb/>
+rerũ mun-<lb/>
+danarum<lb/>
+moderatio-<lb/>
+ne.</hi></hi></note>Spruͤchlein: HErꝛ lehre vns bedencken daß wir ſterben<lb/>
+muͤſſen/ auff daß wir klug werden. Dieſe Klugheit beſtehet 1. <hi rendition="#aq">In<lb/>
+mundanorum amoris moderatione,</hi> daß wir vns in das jrꝛdi-<lb/>
+ſche nit zu ſehr verlieben ſollen/ ſondern Welt Welt ſeyn laſſen/<lb/>
+vnd mehr gedencken an das ſo droben iſt/ in Betrachtung/ daß al-<lb/>
+les Zeitliches vergaͤnglich vnd fluͤchtig/ vnd in deß Todes Angſt<lb/>
+im wenigſten helffen koͤnne. Dann:</p><lb/>
+<fw type="catch" place="bottom"><hi rendition="#fr">Die</hi></fw><lb/>
+<pb facs="#f0015" n="15"/>
+<lg type="poem"><l><hi rendition="#fr">Die Ehr/ das Gluͤck/ das Geld vergehr/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Der Menſch auch ſelber nicht beſteht<supplied>:</supplied></hi></hi></l><lb/>
+<l><hi rendition="#fr">Dann alle Ding nehmen ein End/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Was die Welt hat/ vergeht behend.</hi></hi></l></lg><lb/>
+<p>Darumb wird das gantze Leben in H. Schrifft bald ver-<lb/>
+glichen einer Wolcken vnd Nebel/ <hi rendition="#aq">Sapient.</hi> 4. Einem Wind/<lb/>
+<hi rendition="#aq">Iob.</hi> 7. Einem Dampff/ <hi rendition="#aq">Iac.</hi> 4. Einem Schatten <hi rendition="#aq">Iob.</hi> 14. Ei-<lb/>
+nem Graß/ vnd Blum auff dem Feld. Jtem dem Staub <hi rendition="#aq">Pſal.</hi><lb/>
+103. Einem Rauch/ <hi rendition="#aq">Pſal.</hi> 101. Der Spinnenweb/ <hi rendition="#aq">Pſal</hi> 96. Wie<lb/>
+das Eyß von der Sonnen Hitz zerſchmeltzet/ ein Glaß zerbricht/<lb/>
+ein Blat von Baͤumen fellet/ ſo gehet auch der Menſch vrploͤtz-<lb/>
+lich dahin/ vnd iſt <hi rendition="#aq">vanitas vanitatum,</hi> ein Eitelkeit vber alle Ei-<note place="right"><hi rendition="#aq"><hi rendition="#i">Pharao.<lb/>
+Senacherib.<lb/>
+Herodes.<lb/>
+Goliath.<lb/>
+Alexander<lb/>
+Magnus.<lb/>
+Iulius C<supplied>æ-</supplied><lb/>
+ſar.<lb/>
+Cræſus.</hi></hi></note><lb/>
+telkeit/ das haben erfahren der verſtockte <hi rendition="#aq">Pharao Exodi</hi> 14. Der<lb/>
+ſtoltze <hi rendition="#aq">Senacherib leſai.</hi> 37. Der auffgeblaſene <hi rendition="#aq">Herodes Acto-<lb/>
+rum</hi> 12. Der ſtarcke <hi rendition="#aq">Goliath. 1. Samuel.</hi> 17.</p><lb/>
+<p><hi rendition="#aq">Alexander Magnus</hi> hat viel Sieg erlanget/ aber er muſte<lb/>
+doch ſterben/ <hi rendition="#aq">Iulius Cæſar</hi> viel Feind erlegt/ aber er muſte doch<lb/>
+ſterben/ <hi rendition="#aq">Cræſus</hi> viel Gold geſamblet/ aber es halff jhn nichts/ die<lb/>
+Welt vnd alles was <hi rendition="#fr">Weltlich/</hi> muß man doch verlaſſen:</p><lb/>
+<lg type="poem"><l><hi rendition="#fr">Allein das ewig Guth</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Macht rechten Muth/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Darbey ich bleib/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Wag Gut vnd Leib/</hi></hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Gott helff mir vberwinden.</hi></hi></l></lg><lb/>
+<p>2. Beſtehet ſolche Klugheit <hi rendition="#aq">in peccatorum intermiſsione,</hi><note place="right">2.<lb/>
+<hi rendition="#aq"><hi rendition="#i">In peccato-<lb/>
+rum inter-<lb/>
+mißione.</hi></hi></note><lb/>
+in Ablaſſung von Suͤnden. O wer fleiſſig vnnd offt ſich ſeines<lb/>
+Todts vnnd Sterbſtuͤndleins erjnnert/ dem wird der Suͤnden-<lb/>
+Kuͤtzel wol vergehen/ was will der viel Schinden vnd Schaben/<lb/>
+viel Wuchern vnd Geitzen/ der da bedencket/ daß er alles dahin-<lb/>
+den/ ja ſein Geld vnd Gut wollachenden Erben laſſen muß? We-<lb/>
+me ſolt nicht der Kleider Stoltz/ vnd eygene Lieb vergehen/ der da<lb/>
+<fw place="bottom" type="catch">behertzigt/</fw><lb/>
+<pb facs="#f0016" n="16"/>
+behertzigt/ wie ſein armer Leib in der Erden verfaulen vnd vermot-<lb/>
+tern muß<hi rendition="#i">!</hi> Wer wolt an Pancketirn/ Freſſen/ vnd Sauffen viel<lb/>
+Luſt haben/ der da offt jhm einbildet/ wie er ſelbſtẽ den Wuͤrmern<lb/>
+vnnd Schlangen zur Speiß werden ſolle? Solte nicht einem<lb/>
+Rachgierigen aller Zorn vergehen/ wann er taͤglich jhm zu Ge-<lb/>
+muͤht zoͤge/ wie ſein Mundtverſtummen/ ſein Haͤnd erlahmen/<lb/>
+vnd alle ſeine Kraͤffte ſich durch den Todt gaͤntzlich verliehre<choice><sic>u</sic><corr>n</corr></choice><lb/>
+wuͤrden? <hi rendition="#fr">Nach dem Todt habẽ wir alle außgebocht.</hi> Solte<lb/>
+nicht einem GottsLaͤſterer das Fluchen vnd Schwoͤren erlaubet<lb/>
+werden/ wann er alle Tage jhme einbildete/ wie ſein Zung in dem<lb/>
+Todt erſtarꝛen/ vnnd am Juͤngſten Gericht/ ſo ein ſchwere Re-<lb/>
+chenſchafft auch von einem jeden Wort werde erfordert werden.<lb/>
+Summa die ſelige offtmahlige Betrachtung deß Todts iſt ein<lb/>
+gewiſſe Artzeney wider alle Suͤnde: Wer wolt mitten vnter ſei-<lb/>
+nen Feinden gantz vngewapnet jubilirn vnd froͤlich ſeyn? Wer<lb/>
+wolte vff dem Meer in hoͤchſter Vngeſtuͤmb vnd <hi rendition="#aq">Fortun,</hi> Spie-<lb/>
+len vnd Kurtzweil treiben? Ach das thun ja alle die jenige/ die deß<lb/>
+Todts vergeſſen/ ſich in Suͤnden vnd aller Vppigkeit uͤben/ vnd<lb/>
+nicht wiſſen wollen/ in was Gefahr ſie ſtecken/ in was Elend ſie<lb/>
+hangen/ vnd in was Jammer vnd Noth ſie vrploͤtzlich gerahten<lb/>
+koͤnnen.</p><lb/>
+<p><note place="left">3.<lb/>
+<hi rendition="#aq"><hi rendition="#i">Satanæ vi-<lb/>
+ctione.</hi></hi></note>3. Die fleiſſige Betrachtung deß Todts/ vnd die Klugheit ſo<lb/>
+darauß kommet/ beſtehet auch <hi rendition="#aq">in Satanæ victione,</hi> in Vber-<lb/>
+windung vnſers Ertz- vnnd Erbfeinds deß leidigen Sathans.</p><lb/>
+<p><note place="left"><hi rendition="#aq"><hi rendition="#i">Hannibal.</hi></hi></note>Von <hi rendition="#aq">Hannibale</hi> dem trefflichen Obriſten der <hi rendition="#aq">Carthagi-<lb/>
+nenſer</hi> leſen wir/ daß die gantze Zeit/ in welcher er wieder <hi rendition="#aq">Scipio-<lb/>
+nem</hi> zu Feldt gelegen/ er niemals ſein Gewehr von ſich geleget/<lb/>
+oder/ da er nicht von ſeinen <hi rendition="#aq">Offici</hi>rern mit Fleiß verwachet/ ge-<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Iphycrates.</hi></hi></note>ſchlaffen habe. Alſo <hi rendition="#aq">Iphycrates</hi> der <hi rendition="#aq">Athenienſer</hi> Obriſter<lb/>
+iſt auch vnter den Freunden ſtaͤtig in Waffen geſtanden/ vnd da<lb/>
+<fw place="bottom" type="catch">er</fw><lb/>
+<pb facs="#f0017" n="17"/>
+er gefragt wurde/ warumb er ſolches thaͤte/ geantwortet? damit<lb/>
+ich nicht vnverſehens vberfallen werde: Wie viel mehr ſollen wir<lb/>
+durch jmmerwehrende Voraugenſtellung vnſeres Endes vns<lb/>
+kluͤglich vor dem hoͤlliſchen <hi rendition="#aq">Leviathan</hi> vorſehen: Dann wir ha-<lb/>
+bẽ ja nit mit Fleiſch vnd Blut zu kaͤmpffen/ ſondern mit dem Fuͤr-<lb/>
+ſten der Welt/ der da herumb gehet wie ein bruͤllender Loͤw/ vnnd<lb/>
+ſuchet welchen er koͤnne verſchlingen. 1. <hi rendition="#aq">Pet.</hi> 5. Solchen Feind<lb/>
+aber vberwinden wir/ wann wir ſeiner Eingebung nicht folgen/<lb/>
+in die boͤſe Luͤſt vnnd Begierd/ die er jmmerdar einblaͤſet/ nicht be-<lb/>
+willigen/ viel weniger aber zu groben euſſerlichen Todtſuͤnden<lb/>
+vns bereden laſſen. Welches alles durch vielfaͤltige Betrachtung<lb/>
+deß Todts geſchehen kan.</p></div><lb/>
+<div n="3"><head/>  <p><hi rendition="#in">O</hi> Nun/ du <hi rendition="#fr">barmhertziger Vatter/ vnnd Liebhaber der</hi><note place="right"><hi rendition="#aq"><hi rendition="#i">Praxis.</hi></hi></note><lb/>
+<hi rendition="#fr">gantzen Chriſtenheit?</hi> Lehre vns bedencken daß wir ſterben<lb/>
+muͤſſen/ auff daß wir klug werdẽ/ vnd vns ſelig darzu bereiten.<lb/>
+Bedencke du lieber Chriſt/ wie noͤhtig dir ſolche Betrachtung ſey/ wie<lb/>
+viel dir daran gelegen/ damit du der Welt abſagen/ die Suͤnde meyden/<lb/>
+vnd den Satan vberwinden koͤnneſt. Ach wie der Baum faͤllet/ ſo bleibt<lb/>
+er ligen/ wer es da vberſiehet/ hat alles vberſehen/ nach dem Todt folget<lb/>
+das Gericht/ nach dem Gericht die <hi rendition="#aq">Execution,</hi> da wuͤrd ein jeder em-<lb/>
+pfangen nach ſeinem Verdienſt/ vnd die Gottloſe in die ewige Pein ein-<lb/>
+gehen/ aber die Gerechten in das ewige Leben. <hi rendition="#aq">Matth.</hi> 25. Gedencke nit<lb/>
+daß es daſelbſt werde zugehen wie auff der Welt/ da es offtmals heiſt:</p><lb/>
+<lg type="poem"><l><cit><quote><hi rendition="#aq">Dat veniam Corvis vexat cenſura Columbas,</hi></quote><bibl/></cit></l><lb/>
+<l><hi rendition="#fr">Der diebiſch Rab kompt wol darvon/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Die arme Taub kriegt boͤſen Lohn.</hi></hi></l></lg><lb/>
+<p>Ach nein nein/ Gott iſt ein gerechter Gott/ der nicht kan verfuͤhrt<lb/>
+werden <hi rendition="#fr">mit Geſchenck vnd Gaben/</hi> dann er iſt der Allerreicheſt/<lb/>
+vnd darff deß vnſerigen nicht/ <hi rendition="#aq">corrumpirt</hi> wuͤrde er nicht <hi rendition="#fr">von Lieb/</hi><lb/>
+dann er gibt nit Achtung auff die Perſon vnd Freundſchafft/ nicht <hi rendition="#fr">von<lb/>
+Neid/</hi> dann er haſſet keine ſeiner Creaturn/ nicht <hi rendition="#fr">von Forcht/</hi> dann<lb/>
+er iſt vber alles/ vnd hat ſich vor niemand zu foͤrchten.</p><lb/>
+<fw place="bottom" type="sig">C</fw><fw place="bottom" type="catch">Hier</fw><lb/>
+<pb facs="#f0018" n="18"/>
+<p>Hier in der Welt heiſt es/ <hi rendition="#fr">Allerdurchleuchtigſter/ Vnvber-<lb/>
+windlichſter Großmaͤchtigſter/ Ehrwuͤrdigſter/ Hoch-<lb/>
+wol Edelgeborner/</hi> ꝛc. da weiß man nit/ wie man auß verdambter<lb/>
+Heucheley vnd Hoffart nur breite Titul genug machẽ vnd außteilẽ ſoll:<lb/>
+Aber im ewigen Leben werdẽ ſich ſolche alle verlierẽ/ nur dieſe 2. werden<lb/>
+gehoͤret werden: <hi rendition="#fr">Du Geſegneter/ vnd 2. Du Vermaledeyter.</hi></p><lb/>
+<p><hi rendition="#fr">Geſegnete</hi> werden genennet werden/ die allhier in jren Gedancken<lb/>
+taͤglich ſterben/ vnd ein ſolch Chriſtlich Leben fuͤhren/ alß wann ſie alle<lb/>
+Stund vnd Augenblick fortmuͤſten/ zu dieſen wird Chriſtus am letzten<lb/>
+Gericht ſagen: <hi rendition="#fr">Kom̃et her jhr Geſegnete meines Vatters/</hi> erer-<lb/>
+bet das Reich/ dz euch bereitet iſt von Anbegin der Welt her. Hingegen<lb/>
+<hi rendition="#fr">werden verflucht ſeyn</hi> alle die/ ſo da nim̃er an den Todt gedencken/<lb/>
+in Suͤnd vnd Laſtern die Zeit jhres Lebens ſich wuͤhlen vnd weltzen/ mit<lb/>
+dem <hi rendition="#fr">Haman</hi> ſtoltzieren/ mit den <hi rendition="#fr">Sodomitern</hi> Vnzucht treiben/ mit<lb/>
+dem <hi rendition="#fr">Reichen Mann</hi> ſchlemmen/ praſſen vnd Vnbarmhertzigkeit<lb/>
+uͤben/ mit <hi rendition="#fr">Pharaone</hi> tyranniſiren/ mit <hi rendition="#fr">Herode</hi> morden/ mit <hi rendition="#fr">Achan</hi><lb/>
+ſtehlen/ ja mit allen Gottloſen den Namen deß Allerhoͤchſten/ vnd die<lb/>
+Wunden/ Marter vnd Sacramenta vnſers liebſten HErꝛn Jeſu Chri-<lb/>
+ſti ſchaͤnden vnd laͤſteren/ dieſe alle/ ſie ſeynd Koͤnig oder Kaͤyſer/ Fuͤrſten<lb/>
+oder Herꝛn/ Graffen oder Edeleuth/ Biſchoff oder Bader/ Koch oder<lb/>
+Keller/ werden jhre Ehrentitul/ ſo ſie in der Welt gehabt haben/ alle ver-<lb/>
+lieren/ vnd die ſchroͤckliche Stim deß gerechten Richters anhoͤren muͤſ-<lb/>
+ſen: <hi rendition="#fr">Gehet hin jhr Verfluchtẽ in das hoͤlliſche Fewr/</hi> welches<lb/>
+bereit iſt dem Teuffel vnd ſeinen Engeln/ wie er jhnen <hi rendition="#aq">Matth. 25. Cap.</hi><lb/>
+troͤhet. Ach ſo werdet nun klug lieben Chriſten/ werdet klug <hi rendition="#fr">ſag ich<lb/>
+noch einmal/</hi> bedencket das End/ ſo werdet jhr nicht ſuͤndigen.</p><lb/>
+<p><note place="left"><hi rendition="#aq"><hi rendition="#i">Sigiſmun-<lb/>
+dus Rex<lb/>
+Craſtinus.</hi></hi></note><hi rendition="#aq">Sigiſmundus</hi> 2. der Koͤnig in Polen ward <hi rendition="#aq">Rex Craſtinus</hi> oder der<lb/>
+morgende Koͤnig genennet/ weiln er alle ſeine Geſchefft <hi rendition="#aq">protrahirt</hi> vnd<lb/>
+vffzoge: Ach laſt ſolches von vnſerer Buß nit geſagt werdẽ? Es iſt groſ-<lb/>
+ſe Gefahr darbey: Heut/ heut da jhr deß HErꝛen Stimme hoͤret/ da jhr<lb/>
+Exempel vor Augen ſehet/ verſtopffet ewre Ohren nit/ die Axt iſt ſchon<lb/>
+dem Baum an die Wurtzel geleget/ der Todt ſchlaͤgt vnd hacket jmmer-<lb/>
+dar darein/ biß der Baum einmal gar fellet/ ſo viel Tag/ ja ſo viel Stũd<lb/>
+von vnſern Leben dahin gehen/ ſo viel Streich vnd Schlaͤg geſchehen.<lb/>
+<fw type="catch" place="bottom"><hi rendition="#fr">Der</hi></fw><lb/>
+<pb facs="#f0019" n="19"/>
+<hi rendition="#fr">Der letzte Streich dardurch der Baum gantz fellet/ iſt vns<lb/>
+vnverborgen.</hi> Muſterte doch dort der Koͤnig <hi rendition="#aq">Alexander</hi> ſeinen Sol-<note place="right"><hi rendition="#aq"><hi rendition="#i">Alexander.</hi></hi></note><lb/>
+daten mit hoͤchſten ſpott auß/ weiln er erſt die Wafen woͤlt ſcherpfen/ da<lb/>
+er in die Schlacht ſolte gehen/ was wuͤrd Gott thun/ wann wir in der<lb/>
+wichtigen Sachen/ daran vns nit Geld vnd Gut/ ſondern vnſerer See-<lb/>
+len Seligkeit gelegen/ ſo nachlaͤſig ſeyn wollen/ vnd vns zu dem Todt nit<lb/>
+bey zeit gefaſt machen/ <hi rendition="#fr">ſeynd wir Alt/</hi> koͤnnen wir nit lang mehr lebẽ/<lb/>
+wir ſehen dẽ Todt vnd das Grab taͤglich vor Augen/ <hi rendition="#fr">ſeynd wir jung/</hi><lb/>
+haben wir gleichfalß keinen Brieff darvor/ er ſtellet vnſern jungen Leben<lb/>
+vff dem Fuß nach/ vnd ehe wir vns in der Welt recht vmb geſehen/ wuͤ-<lb/>
+ſchet er hinder vns her/ vnd maͤhet vns wie Graß vff der Wieſen hin-<lb/>
+weg? <hi rendition="#fr">Summa: Selig iſt der alle Tag/ ſeliger/ der alle Stund/<lb/>
+am ſeligſten/ der alle Augenblick den Todt betrachtet.</hi></p></div></div><lb/>
+<div type="fsPersonalia" n="2"><head/>  <p><hi rendition="#in">A</hi>Nlanget dieſen vnſern in GOtt verſtorbenen Mit Bruder/ Herꝛn<note place="right"><hi rendition="#aq"><hi rendition="#i">Perſonalia.</hi></hi></note><lb/>
+<hi rendition="#fr">Michael Saubern/</hi> iſt derſelbe von Ehrlich vñ Chriſtlichen El-<lb/>
+tern geboren wordẽ. Wie dañ ſein Vatter Herꝛ <hi rendition="#fr">Sebaſtian Sauber</hi><lb/>
+ein vornehmer Buͤrger/ vnd deß Raths zu Leutershauſen geweſen.<lb/>
+Von ſolchem iſt er bald nach ſeiner Geburt durch die H. Tauff Chriſto<lb/>
+einverleibt/ vnd in das Buch der Außerwoͤhlten gezeichnet worden.</p><lb/>
+<p>Alß er etwas erwachſen/ hat er jhn mit fleiß zur GottesFurcht<lb/>
+vnd den Schulen gehalten/ da er dann ſo weit kommen/ daß er nicht al-<lb/>
+lein ſeine Lateiniſche Sprach wohl verſtanden: Sondern auch neben<lb/>
+einer fertigen Handt ein gut <hi rendition="#aq">Coucept</hi> machen koͤnnen.</p><lb/>
+<p>Vnd damit er dermahl eins dem Vatterland vnd feinen Freun-<lb/>
+den koͤnte mit Nutz bedienet ſeyn/ hat er ſolches ſein <hi rendition="#aq">Talentum</hi> nicht ver-<lb/>
+graben/ ſondern viel mehr in der Jugendt wol gebrauchen/ vnd durch<lb/>
+das <hi rendition="#aq">Exercitium</hi> vermehren wollen/ derowegen ſich naher Oettingen<lb/>
+begeben/ allda er ſich in der Graͤfflichen Cantzeley vff die 5. Jahrlang<lb/>
+vffgehalten/ vnd alſo erzeyget/ daß vermoͤg ſeines ehrlichen Abſchieds/<lb/>
+man mit jhm allerdings wol content geweſen.</p><lb/>
+<p>Von dannen hat er vmb was mehrers zu erfahren/ Herꝛn Feld-<lb/>
+Marſchalcks <hi rendition="#aq">Excellent</hi> ſeine Dienſt <hi rendition="#aq">præſentirt,</hi> vnnd in der Kriegs-<lb/>
+Cantzeley ſich mit willigem Fleiß vnd gebuͤhrlicher Verſchwiegenheit<lb/>
+alſo erzeygt/ daß jhre <hi rendition="#aq">Excellent</hi> jhn gewißlich vngern verlohren/ vnnd<lb/>
+<fw place="bottom" type="catch">da</fw><lb/>
+<pb facs="#f0020" n="20"/>
+da es Gottes gnaͤdiger Will waͤre geweſen/ gern laͤnger bey ſich haͤtte<lb/>
+loiden moͤgen.</p><lb/>
+<p>Ob er zwar auch kein Engel geweſen/ ſondern ſeine menſchliche<lb/>
+Gebrechen an ſich gehabt: daruͤber dann alle Heiligen zu klagen/ <hi rendition="#aq">Pſ. 51.<lb/>
+v. 7. Eph. 2. 3. Eſai. 59. 2. Iob. 14. v. 4. Rom. 3. v.</hi> 12. Jedoch <hi rendition="#fr">hat er<lb/>
+Gottes Wort</hi> geliebet/ gern gehoͤrt/ weder Fruͤh- oder <hi rendition="#fr">Abendt</hi>Gebet/<lb/>
+da es jhme Amptshalben moͤglich/ demſelbigẽ beyzuwohnen/ verſaͤmbt/<lb/>
+ſich vor euſerlichen Laſtern mit fleiß gehuͤtet/ vnnd ſeinen Chriſtlichen<lb/>
+Glauben in den Wercken gegen maͤnniglich alſo erwieſen/ daß jeder-<lb/>
+man jhn geliebet/ vnd bey der gantzen Hoffſtatt gewiß nicht einer zu fin-<lb/>
+den/ der ob ſeinen vor menſchlichen Augen fruͤhzeitigen Abſterben nicht<lb/>
+hertzlich bekuͤmmert waͤre.</p><lb/>
+<p>Vor 10. Tagen hat jhn Gott mit einem hitzigen Fieber angegrif-<lb/>
+fen/ welche Kranckheit er mit groſſer Gedult außgeſtanden/ auch/ da<lb/>
+er geſehen/ daß <hi rendition="#fr">(vngeacht es an guten Mitteln vnd fleiſſiger<lb/>
+Warth bey Tag vnd Nacht nicht gemangelt)</hi> die Schwach-<lb/>
+heit je mehr vnd mehr vberhand nehme/ ſeine Suͤnd erkennet/ gebeich-<lb/>
+tet/ die troͤſtliche Abſolution vnnd das H. Abendmahl begehrt/ welches<lb/>
+auch jhme von mir iſt mitgetheilet worden/ worauff er dann ſeine See-<lb/>
+le dem Allerhoͤchſten befohlen: vnnd den 15. Maij vmb 1. Vhr Nach-<lb/>
+mittag von ſeiner Qual erloͤſet/ vnd von dieſem betruͤbten Jammerthal<lb/>
+ſelig abgeſchieden iſt.</p><lb/>
+<div n="3"><head/>  <p><hi rendition="#fr">Wer wol lebt kan nicht vbel ſterben/ wer an Chriſtum<lb/>
+glaubt kan nicht verlohren werden.</hi> Wir bitten den Vatter<lb/>
+aller Barmhertzigkeit/ er wolle alle die/ ſo vmb ſeinet willen trawrig/<lb/>
+durch ſeinen heiligen Geiſt troͤſten vnd alſo regieren/ daß wir gleichfals<lb/>
+auch allhier ritterlich Kaͤmpffen/ Glauben vnd gut Gewiſſen behalten/<lb/>
+vnd dermaleins die Kron der Ehren darvon tragen: Das verleyhe<lb/>
+<hi rendition="#c">vns die Hochgebenedeyete Dreyeinigkeit/ Gott Vatter/ Sohn/<lb/>
+vnd heiliger Geiſt/ vmb dero vnaußſprechlichen Guͤt<lb/>
+vnd Genad willen/ Amen/ Amen/<lb/>
+Amen.</hi></p><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<p><hi rendition="#c"><hi rendition="#g">ENDE.</hi></hi></p></div></div></div><lb/>
+</body></text>  </TEI>

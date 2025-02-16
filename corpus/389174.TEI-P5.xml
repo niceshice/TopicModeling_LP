@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Letzte Ehre Zum Seligen Ruhebettlein</title>
+<title type="sub">Dem Wol-Edlen/ Vesten und Wolbenambten H. Johann Schmeiß</title>
+<author>
+<persName>
+<surname>N. N.</surname>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">24</measure>
+<measure type="tokens">3966</measure>
+<measure type="types">1817</measure>
+<measure type="characters">25687</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:10:01Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/389174</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/389174</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/389174</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/389174</idno>
+<idno type="DTADirName">389174</idno>
+<idno type="DTAID">203008</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-203008-3</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">[N. N.]: Letzte Ehre Zum Seligen Ruhebettlein. Oels, 1659.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Letzte Ehre Zum Seligen Ruhebettlein</title>
+<title level="m" type="sub">Dem Wol-Edlen/ Vesten und Wolbenambten H. Johann Schmeiß</title>
+<author>
+<persName>
+<surname>N. N.</surname>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">24 S.</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Johann Seyffert</name></publisher>
+<pubPlace>Oels</pubPlace>
+<date type="publication">1659</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 J 81/42-43 / 389174</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#b">Letzte Ehre<lb/>
+Zum<lb/>
+<hi rendition="#fr">Seligen Ruhebettlein/</hi></hi></titlePart><lb/>
+<titlePart type="desc"><hi rendition="#b">Dem Wol-Edlen/ Veſten und<lb/>
+Wolbenambten<lb/>
+<hi rendition="#fr">H. Johann Schmeiß/</hi><lb/>
+von Ehrenpreißberg/<lb/>
+Sr. Churfuͤrſtl. Durchl. zu Brandenburg</hi><lb/>
+wolverdienten <hi rendition="#aq">Factoren.</hi><lb/>
+<hi rendition="#b">Welcher den 8.</hi> <hi rendition="#aq">Decembr:</hi> <hi rendition="#b">des Alten 1658.<lb/>
+Jahres/ umb 6. Uhr vor Mittage im <hi rendition="#k">Herren</hi></hi><lb/>
+Selig entſchlaffen zu Coͤlln an<lb/>
+der Spree/<lb/>
+<hi rendition="#b">Und den 1. Sonntag</hi> <hi rendition="#aq">Epiphaniæ</hi> <hi rendition="#b">dieſes Neuen 1659. Jah-</hi><lb/>
+res/ daſelbſt in St. Peters Kirchen mit Chriſtlichen Ce-<lb/>
+remonien beygeſetzet worden:</titlePart></docTitle><lb/>
+<byline>Erwieſen<lb/>
+<docAuthor><hi rendition="#b">Von guten Freunden</hi></docAuthor>.</byline><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docImprint><pubPlace><hi rendition="#g">OELSSE</hi></pubPlace>/<lb/>
+<hi rendition="#b">Gedruckt bey </hi><publisher><hi rendition="#b">Joha<supplied>nn</supplied> Seyffert</hi></publisher>/<lb/>
+Jm <docDate>1659</docDate>. Jahre.</docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="[2]"/>
+<pb facs="#f0003" n="[3]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsEpicedia" n="1">  <div n="2"><head/>  <lg type="poem"><l><hi rendition="#in">D</hi>Jß war dem Jubelirer der beſte Edelſtein/</l><lb/>
+<l>Ein Reicher Jubelirer der Ewigkeit zu ſeyn.</l><lb/>
+<l>Glantz/ Haͤrt und das Gewichte macht einen Erdenkloß/</l><lb/>
+<l>Dem Silber hier zum Liechte/ und fuͤr dem Golde groß.</l><lb/>
+<l>Was jtzt <hi rendition="#fr">Herꝛ Schmeiß</hi> gefunden/ daß hat der Erdball</l><lb/>
+<l><hi rendition="#right">nicht/</hi></l><lb/>
+<l>Hier iſt gar bald verſchwunden des Tunckeln Funckle Licht/</l><lb/>
+<l>Dort oben ſchaͤtzt er Steine auff Hoher Prieſter Bruſt/</l><lb/>
+<l>Wie ſchoͤn in derer Schreine glaͤntzt ſeines Namens Luſt.</l></lg><lb/>
+<closer><salute><hi rendition="#et">Zu letztem Ehrendienſte dem Seligverſtorbenen auff<lb/>
+Begehren ſeines geliebten H. Collegen Herren<lb/>
+M. Heintzelmanns ſchrieb dieſes<lb/>
+<hi rendition="#b">Elias Sigismund Reinhard/</hi><lb/>
+der H. Schrifft <hi rendition="#aq">Licentiat.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#in">D</hi>Je Treue laͤßt die Welt/ iſt Himmel-an geflogen/</l><lb/>
+<l>Drumb Jhr jhr rechter Sohn/ <hi rendition="#fr">Herr Schmeiß/</hi> bald nach-</l><lb/>
+<l><hi rendition="#right">gezogen/</hi></l><lb/>
+<l>Ein Mann von Alter Treu und Deutſcher Redligkeit/</l><lb/>
+<l>Nechſt rechrer GOTtesfurcht/ der ſo viel Jahr und Zeit</l><lb/>
+<l>Bißher durch Land und Strand/ durch Feuer/ Eiß und Eiſen</l><lb/>
+<l>Den Kugel-runden Punct hat muͤſſen offt durchreiſen/</l><lb/>
+<l>Doch ſtaͤlts an ſeinem GOTT/ an Tugend/ Ehr und Pflicht</l><lb/>
+<l>Beſtaͤndig blieben iſt. Sonſt fragt nu niemand nicht</l><lb/>
+<l>Von Welt geſinter Schaar was mehr nach Treu und Glauben/</l><lb/>
+<l>Man deckt mit GOTtes Schrifft als einer Ketzer Hauben/</l><lb/>
+<fw place="bottom" type="sig">a ij</fw><fw place="bottom" type="catch">Den</fw><lb/>
+<pb facs="#f0004" n="[4]"/>
+<l>Den falſchen Jrrſall zu/ man ſpielt mit Luthers Wort</l><lb/>
+<l>Wie Kinder mit dem Ball/ der muß bald hier bald dort</l><lb/>
+<l>Der Bettlers-Mantel ſeyn/ was mancher feſt verſprochen</l><lb/>
+<l>Auff Bidermannes Hand/ wird bald wie Glaß zerbrochen/</l><lb/>
+<l>Wann nur mehr Vortheil ſcheint/ daß auch der Groſſe Hirt</l><lb/>
+<l>Wann <hi rendition="#k">Er</hi> zu Richten kommt/ kaum Glauben finden wird.</l></lg><lb/>
+<closer><salute><hi rendition="#et">Diß Schrieb dem Seligverſtorbenen/ Seinem werthen<lb/>
+Landsmanne und Freunde zu letzten Ehren<lb/>
+<hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Samuel Pomarius,</hi></hi><lb/>
+SS. Theol: Licentiat.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head><hi rendition="#b">Ode.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">M</hi>Ein lieber Freund/ wie? Scheideſt du von mier/</l><lb/>
+<l>Du wehrter Mann: Du deiner Freundſchafft Zier/</l><lb/>
+<l>Und meine Luſt/ mein Troſt und mein Verlangen:</l><lb/>
+<l>Wie biſt du mir/ ſo unverſehns entgangen!</l><lb/>
+<l>Du faͤllſt voraus/ dem Schmeißiſchen Geſchlecht</l><lb/>
+<l>Zu zeitlich ab/ daß du anfiengeſt recht.</l><lb/>
+<l>Es haͤtte dein nun erſtlich ſollen brauchen/</l><lb/>
+<l>So muß dein Geiſt in einem Huj verrauchen.</l><lb/>
+<l>Der Groſſe <hi rendition="#fr">Fuͤrſt/ Fuͤrſt Friedrich Wilhelm</hi> klagt/</l><lb/>
+<l>Daß Jhm dein Tod ſo bald wird angeſagt/</l><lb/>
+<l>Du brachteſt Jhm nicht nur die beſten Steine/</l><lb/>
+<l>Und wahreſt auch/ nicht nur ein Freund zum Scheine/</l><lb/>
+<l>Beſondern Treu/ mit deinem Haab und Gut</l><lb/>
+<l>Mit aller Ehr und letztem tropffen Blut.</l><lb/>
+<l>Als Hack den Bergs und andre Faͤlle lehren/</l><lb/>
+<l>Wie Schmeiß bedacht geweſen zu vermehren</l><lb/>
+<l>Deß HERREN Ruhm/ der Jhm Genaͤdigſt war</l><lb/>
+<l>Und annoch bleibt auff ſeiner Todtenbahr.</l><lb/>
+<fw type="catch" place="bottom">Ach</fw><lb/>
+<pb facs="#f0005" n="[5]"/>
+<l>Ach koͤnte dich dein Herr in dieſes Leben</l><lb/>
+<l>Zuruͤcke ziehn/ Er wuͤrde Hundert geben</l><lb/>
+<l>Und noch ſo viel vor dich/ Du tapffrer Mann/</l><lb/>
+<l>Du ſtandeſt Jhm recht wohl und praͤchtig an.</l><lb/>
+<l>Bey Hoͤheſten warſt du beliebet worden</l><lb/>
+<l>Und ſtiegeſt doch nicht uͤber deinen Orden/</l><lb/>
+<l>Wie mancher meint/ Er habe viel erfahrn</l><lb/>
+<l>Und kommet doch nicht gleich ſo grauen Hahrn.</l><lb/>
+<l>Es iſt allzeit nicht an der Kunſt gelegen/</l><lb/>
+<l>Beſonders jtzt/ da man es auff den Degen</l><lb/>
+<l>Und Kugeln ſetzt/ da wird man kleiner Schuͤtz</l><lb/>
+<l>Der treffen kan/ mehr als ein groſſer nuͤtz.</l><lb/>
+<l>Und wenn er noch ſo viel im Kopffe haͤtte/</l><lb/>
+<l>So nimmt Jhn doch die Kugel und die Kette/</l><lb/>
+<l>Wenn Sie Jhn trifft. Alsdenn hilfft ordentlich</l><lb/>
+<l>Kein Buch noch Kunſt/ wol Fechten haͤlt den Stich.</l><lb/>
+<l>Nicht das hiemit Gelehrte nichtes taugen/</l><lb/>
+<l>Ob Sie gleich ſind veracht vor Menſchen Augen/</l><lb/>
+<l>Denn haͤußlich Raht/ regieret mehr das Feld</l><lb/>
+<l>Als tauſent Mann/ bey tauſent wolgeſtellt.</l><lb/>
+<l>Wiewol der <hi rendition="#fr">Schmeiß</hi> auch Krieges-Rath zu finden/</l><lb/>
+<l>Und Tuͤcken wuſt in Eyle zu ergruͤnden</l><lb/>
+<l>Wohin manch Werck und gantz derkehrtes Ding/</l><lb/>
+<l>Aus Leute Witz geſpielet war/ und gieng.</l><lb/>
+<l>Jhm war das Land/ das jtzo Blutet lange</l><lb/>
+<l>Und die Nachbarn erkuͤndet/ da im Schwange</l><lb/>
+<l>Noch gieng der Flor/ da es noch beſſer ſtand.</l><lb/>
+<l>Jhm war das Theil Europa/ gantz bekant.</l><lb/>
+<l>Drumb haben wir was groſſes zu Beklagen/</l><lb/>
+<l>Jn dem wir Jhn/ den Mann/ zu Grabe tragen/</l><lb/>
+<l>Den <hi rendition="#fr">Ferdinand der Dritte</hi> hat geliebt/</l><lb/>
+<l>Dem mancher <hi rendition="#fr">Fuͤrſt</hi> und <hi rendition="#fr">K<supplied>oͤ</supplied>nig</hi> zeugnuͤß giebt/</l><lb/>
+<fw place="bottom" type="sig">a iij</fw><fw place="bottom" type="catch">Ja</fw><lb/>
+<pb facs="#f0006" n="[6]"/>
+<l>Ja jedermann/ daß Er ein Hofmann blieben</l><lb/>
+<l>Bis in den Tod: Mehr aber wollen lieben</l><lb/>
+<l>GOTT Seinen <hi rendition="#k">Herrn/</hi> als Aller <hi rendition="#fr">Herren</hi> Gunſt/</l><lb/>
+<l>Solch lieben iſt gewißlich nicht uͤmbſonſt/</l><lb/>
+<l>Jtzt leuchtet Er viel heller als Carfunckel.</l><lb/>
+<l>Der hellſte Stern iſt gegen Jhm gantz tunckel.</l><lb/>
+<l>Jhr werdet bald/ Jhr jtzt-Betruͤbten/ ſehn/</l><lb/>
+<l>Was Jhr auch hofft: Laßts dißmal ſo geſchehn.</l></lg><lb/>
+<closer><salute><hi rendition="#et">Auß Chriſtlicher ſchuldigkeit und Hertzlichem<lb/>
+mitleiden hinzugeſetzet von<lb/>
+<hi rendition="#b">M. Johann Heinzelmann/</hi><lb/>
+Predigern bey der Pfarrk: zu<lb/>
+St. Niclas in Berlin.</hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head><hi rendition="#b">Nach-Klang.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">S</hi><hi rendition="#fr">Chmeiß/</hi> wann die Tugenden vom Tode machten Frey/</l><lb/>
+<l>ſo wuͤrdeſt du gewis jtzt nicht im Grabe liegen.</l><lb/>
+<l>Die <hi rendition="#fr">Demuth</hi> muͤſte dich allein zu ruͤkke kriegen;</l><lb/>
+<l>Als welche ſonderlich bey dir nicht ſchlug ſchlimm bey.</l><lb/>
+<l>Wie mancher kaaler Kerl macht von ſich ein geſchrey/</l><lb/>
+<l>und Praalt und Lermt/ alß wolt’ Er in die Wolkken fliegen/</l><lb/>
+<l>wann Er zu Hoffe lebt/ und Fuͤrſten hilfft Betriegen;</l><lb/>
+<l>Er geht ſo breit und groß alß ſonſten Jhrer Drey.</l><lb/>
+<l>Ein ſolches Praalen war/ bey dir/ <hi rendition="#fr">Schmeiß/</hi> nicht zu hoͤren/</l><lb/>
+<l>Ob dich ſchon mancher Fuͤrſt und Koͤnig hielt in Ehren;</l><lb/>
+<l>Die <hi rendition="#fr">Demuth</hi> mußt’ alltzeit an deiner Seiten ſtehn.</l><lb/>
+<l>GOTT der die <hi rendition="#fr">Demuth</hi> liebt erfrewe dich in Gnaden/</l><lb/>
+<l>und ſchuͤtze/ was von dir noch Lebt/ vor allem Schaden:</l><lb/>
+<l>Wir muͤſſen doch den Weg auch endlich Alle gehn.</l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Nicolaus</hi></hi></hi> <hi rendition="#b">Peukker/</hi><lb/>
+<hi rendition="#aq">Notar: Cæſar: Cam: Elector. Brand: Advoc: &amp;<lb/>
+Reipub: Svevo-Colõ: Prætor: &amp; Senat: Ordi.</hi></hi></salute></closer></div><lb/>
+<pb facs="#f0007" n="[7]"/>
+<div n="2"><head><hi rendition="#b">Grabſchrifft.</hi></head><lb/>
+<p><hi rendition="#c">Auff<lb/>
+Des Wohl-Edlen/ Veſten und Hochbenambten<lb/>
+<hi rendition="#b"><hi rendition="#fr">Herrn Johann Schmeiſſes/</hi><lb/>
+Churf<supplied>l</supplied>: Brand: Factorn Seliges Abſterben.</hi><lb/>
+Zu Troſt<lb/>
+Der Wohl-Edlen/ Ehren-Tugendreichen<lb/>
+<hi rendition="#b">Frawen Sabinen/ von Eckin.</hi><lb/>
+Dem Wohl-Edlen/ Groß-Achtbahrn und Hochgelahrten<lb/>
+<hi rendition="#b">Herrn Johann Chriſtian:<lb/>
+Churfl: Brandenb: Vornehmen-Rath.</hi><lb/>
+Wie anch dem<lb/>
+Wohlartigen und freyer Kunſtbefliſſenen Knaben<lb/>
+<hi rendition="#b">Guſtavo Friederico:</hi><lb/>
+Als<lb/>
+Des Seligverſtorbenen hinterlaſſenen betruͤbten Kindern:<lb/>
+Verfaſſet und uͤberſchickt<lb/>
+vom<lb/>
+<hi rendition="#aq">M. <hi rendition="#g"><hi rendition="#k">Michael</hi></hi></hi> <hi rendition="#b">Schirmer/</hi><lb/>
+des Berliniſchen <hi rendition="#aq">Gymnaſii ConRectore.</hi></hi></p></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#in">S</hi>Tillt/ Kinder/ Eure Zaͤhren-fluth/</l><lb/>
+<l><hi rendition="#aq">U</hi>nd laſſet Heiden ewren Muth/</l><lb/>
+<l>Den Euch mein Todt verletzet.</l><lb/>
+<l>Jch bin nach langer Muͤh und Streit’</l><lb/>
+<l>Jn Ruh und guͤldne Herrligkeit</l><lb/>
+<l>Des Himmels eingeſetzet.</l><lb/>
+<fw type="catch" place="bottom">Mein</fw><lb/>
+<pb facs="#f0008" n="[8]"/>
+<l>Mein Lob bleibt mir auch in der Welt/</l><lb/>
+<l>Dieweil Jch alß ein Glaubens-Held</l><lb/>
+<l>Auff Chriſtum bin geſtorben.</l><lb/>
+<l>Wer hier erlangt die Ehren-Cron</l><lb/>
+<l><hi rendition="#aq">U</hi>nd auß der Welt traͤgt Ruhm zu Lohn/</l><lb/>
+<l>Der bleibet unverdorben.</l><lb/>
+<l>Waß hat der Menſch von ſeiner Muͤh/</l><lb/>
+<l>Alß Sorg und <hi rendition="#aq">U</hi>nluſt Spat und Fruͤh?</l><lb/>
+<l>Geneuſt Er einer Freude;</l><lb/>
+<l>So hat Er immer Furcht dabey/</l><lb/>
+<l>Daß ſie kurtz und vermiſchet ſey</l><lb/>
+<l>Mit <hi rendition="#aq">U</hi>ngeluͤck und Leide.</l><lb/>
+<l>Denn wer ſich trawet dem Geluͤck/</l><lb/>
+<l>Erfaͤhrt deſſelben Neid und Tuͤck;</l><lb/>
+<l>Kan ſich nicht Selig preiſen:</l><lb/>
+<l>Sein Leben iſt voll Eitelkeit/</l><lb/>
+<l>Sorg/ Vnruh/ Faͤhrligkeit und Streit/</l><lb/>
+<l>Wie Salomon kan weiſen.</l><lb/>
+<l>Erwerben/ hat viel Fleiß und Muͤh;</l><lb/>
+<l>Erhalten/ Sorgen Spat und Fruͤh/</l><lb/>
+<l>Verlieren/ Leid und Zagen:</l><lb/>
+<l>Bald hat man/ was man fuͤrchten muß/</l><lb/>
+<l>Bald lange Hoffnung mit verdruß/</l><lb/>
+<l>Ja urſach gnug zu Klagen.</l><lb/>
+<l>Des weſens bin Jch nun befreyt/</l><lb/>
+<l><hi rendition="#aq">U</hi>nd Leb in ſtoltzer Ruhſamkeyt/</l><lb/>
+<l>Da weder Furcht noch Schrecken.</l><lb/>
+<fw place="bottom" type="catch">Cer</fw><lb/>
+<pb facs="#f0009" n="[9]"/>
+<l>Der Auffgang oder Muͤtternacht/</l><lb/>
+<l>Was Er andrewt mit grimmer Macht/</l><lb/>
+<l>Mir Selgen kan erwecken.</l><lb/>
+<l>Was unter Stern und Monden ligt/</l><lb/>
+<l>Daruͤber hab Jch nun geſigt:</l><lb/>
+<l>Nichts kan an mich gelangen.</l><lb/>
+<l>Jch ſchweb erfrewt vor <hi rendition="#k">Gottes</hi> Thron/</l><lb/>
+<l><hi rendition="#aq">U</hi>nd kan in meiner Sieges-Cron</l><lb/>
+<l>Mit allen Selgen prangen.</l><lb/>
+<l>Derhalben/ Kinder/ laſſet nach</l><lb/>
+<l>Ewr klagen/ Leid und feuchtes Ach;</l><lb/>
+<l>Weil Mir iſt wohl geſchehen.</l><lb/>
+<l>Wir wollen uns zur andern zeit/</l><lb/>
+<l>Jn dieſer ſchoͤnen Herrligkeit</l><lb/>
+<l>Mit Frewden wieder ſehen.</l></lg></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head><hi rendition="#b">Dem Edlen Herrn Schmeiſſen/</hi><lb/>
+zu pflichtſchuldigem Nachruhm.</head><lb/>
+<lg type="poem"><head><hi rendition="#b">Dier/ Dier/ Mein Edler Schmeiß/<lb/>
+gehoͤrt der Ehrenpreiß.</hi></head><lb/>
+<lb/>
+<lg n="1"><head>1.</head><l><hi rendition="#in">D</hi>Je wolgeübte Kunſt</l><lb/>
+<l>macht hochbeliebte Leuͤte/</l><lb/>
+<l>Sie theilet Fuͤrſten Gunſt</l><lb/>
+<l>zu einer freien Beuͤte.</l><lb/>
+<fw type="sig" place="bottom">b</fw><fw type="catch" place="bottom">Wenn</fw><lb/>
+<pb facs="#f0010" n="[10]"/>
+<l>Wenn Gunſt die Kunſt nicht nehrte/</l><lb/>
+<l>wo bliebe <hi rendition="#k">Gott</hi> und Gold?</l><lb/>
+<l>wenn Gunſt die Kunſt nicht ehrte/</l><lb/>
+<l>Wer blieb <hi rendition="#fr">Herrn Schmeiſſen</hi> hold?</l></lg><lb/>
+<lg n="2"><head>2.</head><lb/>
+<l>Der war ein ſolcher Mann/</l><lb/>
+<l>daß <hi rendition="#k">Gott</hi> Jhm viel vertrauet/</l><lb/>
+<l>was in der Erden-Bahn</l><lb/>
+<l>geſchaffen und gebauet/</l><lb/>
+<l>was <hi rendition="#g"><hi rendition="#k">Gottes</hi></hi> hand geſetzet/</l><lb/>
+<l>im ſcheinen und gewicht/</l><lb/>
+<l>hat Schmeiſſes Kunſt geſchaͤtzet/</l><lb/>
+<l>durch urtheil und Geſicht.</l></lg><lb/>
+<lg n="3"><head>3.</head><lb/>
+<l>Der Groſſe Ferdinand</l><lb/>
+<l>ertheilt/ die Kuͤnſt zu zieren/</l><lb/>
+<l>Das hohe Gnadenpfand/</l><lb/>
+<l>ein Adlich Helm zu fuͤhren:</l><lb/>
+<l>und weil Er/ GOTT zu Ehren/</l><lb/>
+<l>manch Herrlich Steinlein probt/</l><lb/>
+<l>macht GOTT/ die Gunſt zu mehren/</l><lb/>
+<l>Herr Schmeiſſen ſelbſt belobt.</l></lg><lb/>
+<lg n="4"><head>4.</head><lb/>
+<l>Was Er an Steinen that/</l><lb/>
+<l>Veruͤbt Er im Gewiſſen;</l><lb/>
+<l>Er wiche nicht ein Grad/</l><lb/>
+<l>von Luthers reinem wiſſen/</l><lb/>
+<fw place="bottom" type="catch">Er</fw><lb/>
+<pb facs="#f0011" n="[11]"/>
+<l>Er meidte Heuͤchelſcheinen/</l><lb/>
+<l>und was ein Teutſcher haßt;</l><lb/>
+<l>Druͤm <hi rendition="#k">Gott</hi> Jhn und die Seinen</l><lb/>
+<l>in fein Gold hat gefaßt.</l></lg><lb/>
+<lg n="5"><head>5.</head><lb/>
+<l>Warum muß dann die Kunſt</l><lb/>
+<l>ſo zeitlich fruͤh verſtieben/</l><lb/>
+<l>und wie ein leichter Dunſt/</l><lb/>
+<l>von Windes macht zerrieben/</l><lb/>
+<l>zu jhrem Endbruch ſinken</l><lb/>
+<l>und eilen in den Sand?</l><lb/>
+<l><hi rendition="#k">Gott</hi> fodert durch ſein winken/</l><lb/>
+<l>die Kuͤnſtler in ſeyn Land.</l></lg><lb/>
+<lg n="6"><head>6.</head><lb/>
+<l><hi rendition="#k">Gott</hi> wil zur Ewigkeit</l><lb/>
+<l>ein Diamant hauß bawen/</l><lb/>
+<l>das ſol bald ſein bereit</l><lb/>
+<l>damit es kuͤnfftig ſchauen/</l><lb/>
+<l>die <hi rendition="#k">Gott</hi> zur Himmels buͤhnen/</l><lb/>
+<l>nach Jhrem glauben fuͤhrt/</l><lb/>
+<l>daß Sie dort ewig gruͤnen/</l><lb/>
+<l>und bleiben wol geziert.</l></lg><lb/>
+<lg n="7"><head>7.</head><lb/>
+<l>Des Hauſes Grund und Dach</l><lb/>
+<l>Carfunkelt von Jubelen/</l><lb/>
+<l>es muß in keinem Fach/</l><lb/>
+<l>Schmarag noch Demant fehlen.</l><lb/>
+<fw type="sig" place="bottom">b ij</fw><fw type="catch" place="bottom">Herr</fw><lb/>
+<pb facs="#f0012" n="[12]"/>
+<l>Herr Schmeiß beprobt die Steine/</l><lb/>
+<l>nach jhrem Schwer und Werth</l><lb/>
+<l>die GOTT in ſeinem ſchreine/</l><lb/>
+<l>ſo wunder ſchoͤn Verklaͤrt.</l><lb/>
+<l>So haſtu doch/ Herr Schmeiß/</l><lb/>
+<l>den Himmels Ehrenpreiß.</l></lg></lg><lb/>
+<closer><salute><hi rendition="#et">Meinem vielgeliebten Freunde ſetzte ich<lb/>
+es ſchuldigſt<lb/>
+<hi rendition="#b">M. Gotthilff Treuer</hi><lb/>
+genant/ Keiſerlob/ <hi rendition="#aq">Berli:<lb/>
+Gymn: SubRector.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head><hi rendition="#b">Satz.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">W</hi>Enn das Feld den Harniſch traͤget/</l><lb/>
+<l>Und der Schnee das Land bedeckt/</l><lb/>
+<l>So liegt alle Luſt verſteckt/</l><lb/>
+<l>Weil zur Anmuht nicht beweget/</l><lb/>
+<l>Er faſt ſehr verſtaalter Bach/</l><lb/>
+<l>Der auff ſeinem flachen Dach</l><lb/>
+<l>Auch wol Roß und Reuter fuͤhret/</l><lb/>
+<l><gap reason="lost" unit="chars" quantity="2"/>en zuvor ein Nachen ziehret.</l><lb/>
+<l>Feld und Baum verliehrt die Kron/</l><lb/>
+<l>Jenes ſeine dichten Ahre/</l><lb/>
+<fw place="bottom" type="catch">Dieſer</fw><lb/>
+<pb facs="#f0013" n="[13]"/>
+<l>Dieſer ſeine vollen Haare/</l><lb/>
+<l>Es verſtummt der Waͤlder Thon.</l><lb/>
+<l>Alles Thier erſtaunt vor trauren/</l><lb/>
+<l>Liget in der Gruffte Mauren.</l></lg></div><lb/>
+<div n="2"><head><hi rendition="#b">Gegen Satz.</hi></head><lb/>
+<lg type="poem"><l>Wann der Schuee das Haupt beleget/</l><lb/>
+<l><hi rendition="#aq">U</hi>nd das Haaren weiß erweckt/</l><lb/>
+<l>So wird Krafft und Safft erſchreckt.</l><lb/>
+<l>Alter nichts/ als kaltes/ heget.</l><lb/>
+<l>Lauter/ lauter <hi rendition="#aq">U</hi>ngemach/</l><lb/>
+<l>Fuͤhrt es bey ſich Tauſentfach/</l><lb/>
+<l>Davon man vor Frewden ſpuͤret/</l><lb/>
+<l>Jtzt Melancholey geb<supplied>i</supplied>eret/</l><lb/>
+<l>Endlich bringt es gar zu Lohn</l><lb/>
+<l>Eine ſchwartze Leichen-Bahre</l><lb/>
+<l>Drauff man durch die Erd hin fahre</l><lb/>
+<l>Zur verſtorbnen Seelen Thron.</l><lb/>
+<l><hi rendition="#aq">U</hi>nd diß kalten Alters lauren</l><lb/>
+<l>Jſt ja warlich zubetauren.</l></lg></div><lb/>
+<div n="2"><head><hi rendition="#b">Nach-Klang.</hi></head><lb/>
+<lg type="poem"><l>So hat auch entſafftet gantz/ das hier vor uns ſtehet/</l><lb/>
+<l>Drinn Gebluͤtte wallt</l><lb/>
+<l>Adlicher Geſtalt/</l><lb/>
+<l>Kalten Alters rauches Eiß/ deſſen Ruhr <gap reason="lost" unit="chars" quantity="4"/>het/</l><lb/>
+<fw place="bottom" type="sig">b iij</fw><fw place="bottom" type="catch">Keiſer</fw><lb/>
+<pb facs="#f0014" n="[14]"/>
+<l>Kaͤiſer/ Koͤnge/ Fuͤrſten Macht. Jtzt ligt es erblaſſt/</l><lb/>
+<l>Hofft der Fruͤhlings Freuden/</l><lb/>
+<l>Nach ſo vielen Leyden</l><lb/>
+<l>Zu genieſſen ewiglich ſuͤſſe Ruhe und Raſt.</l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#b">M. Gottfried Weber.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head><cit><quote><bibl>Pſalm 73.</bibl><lb/>
+<hi rendition="#b">Wan Jch nur Dich habe/ ſo frage Jch nichts<lb/>
+nach Himmel und Erden. ꝛc.</hi></quote></cit></head><lb/>
+<lg type="poem"><l><hi rendition="#in">N</hi>Jchts ſoll auff dieſer Welt/ nichts kann auff dieſer Erden</l><lb/>
+<l>Vergnuͤgen meinen Sinn. Waß mit beſtrahlten Pferden</l><lb/>
+<l>das Sonnen licht beſcheint/ dem iſt auch in der luſt</l><lb/>
+<l>und Tauſendfacher ruh/ nicht ſicherheit bewuſt.</l><lb/>
+<l>Jch bin mit heiſſer brunſt hoͤchſt embſig durch gegangen/</l><lb/>
+<l>waß dieſes weite Rund/ waß Erd’ und Lufft umbfangen/</l><lb/>
+<l>Mich hab’ ich durch gewuͤhlt/ und alles durchgeſucht/</l><lb/>
+<l>waß man erdencken kan/ und irgent waß gefrucht.</l><lb/>
+<l>Jch hab’ in Fuͤrſten Gnad’ und Hoher gunſt gelebet/</l><lb/>
+<l>Jch hab’ in dieſer Welt nach ſeltner Ruh geſtrebet/</l><lb/>
+<l>waß Jndien vermag/ und waß der Moren ſtrand/</l><lb/>
+<l>Jn ſeiner fluth begreifft/ das wird mir zu geſand.</l><lb/>
+<l>Waß fernem Land’ und Reich’ iſt einzig anbefohlen/</l><lb/>
+<l>daß ließ ich mir zur luſt und auch zu letzen holen;</l><lb/>
+<l>Waß eines Menſchen Geiſt/ waß Naſen/ Aug’/ und Ohr/</l><lb/>
+<l><supplied>un</supplied>d mund ergoͤtzen kan/ daß kam mir alles vor.</l><lb/>
+<l><gap reason="lost" unit="chars" quantity="5"/>rd in aller Welt von Jedermann geprieſen/</l><lb/>
+<l><gap reason="lost" unit="chars" quantity="2"/>rckt’ ich/ daß die Welt mir dieſes nur gewieſen.</l><lb/>
+<fw type="catch" place="bottom">Die</fw><lb/>
+<pb facs="#f0015" n="[15]"/>
+<l>Die Welt/ jhr haußgenoß/ jhr thun/ jhr falſcher ſchein/</l><lb/>
+<l>und alles/ waß Sie hatt/ geht ſteten wechſel ein.</l><lb/>
+<l>Drumb hab’ ich mich nur gar der eytel luſt entriſſen.</l><lb/>
+<l>Waß Meer und Himmel hagt/ drauff mancher iſt befliſſen/</l><lb/>
+<l>das trat ich in den koth. Die Welt/ das eytle reich/</l><lb/>
+<l>der erden falſche luſt/ das gilt mir alles gleich.</l><lb/>
+<l>Gehabt euch ſaͤmbelich wohl/ jhr falſche Guͤldne ſeule/</l><lb/>
+<l>Sucht andre welchen ihr werden koͤnt zu theile/</l><lb/>
+<l>du triegliche Wolluſt/ Meervoll muͤh’/ angſt und ſtreit/</l><lb/>
+<l>Jhr feſſel aller ruh/ jhr ſuͤſſe dinſtbahrkeit.</l><lb/>
+<l>Weg arge Welt! Darinn all’ arge falſchheit wohnet/</l><lb/>
+<l>drin Liſt und Tuͤcke bluͤhn/ drin Maineyd wird belohnet/</l><lb/>
+<l>Dein hochmuth/ frevel/ trotz iſt mir nu gantz verhaſt/</l><lb/>
+<l>Jch hab’ an deiner ſchmach ein grauen laͤngſt gefaſt/.</l><lb/>
+<l>Jetzt will ich Himmel auff in GOTtes wohnung klimmen/</l><lb/>
+<l>wil mit dem wolluſt Chor der Himmel-Fuͤrſten/ ſtimmen</l><lb/>
+<l>ein neues Lob-Lied an/ dort in der ſchoͤnen Stadt/</l><lb/>
+<l>die nie kein hoherSinn und Geiſt ergruͤndet hat.</l><lb/>
+<l>Jetzt ſeh’ ich freudig an/ die guͤldne Himmels pforten/</l><lb/>
+<l>mich fang die theure Zier an allen end’ und orten:</l><lb/>
+<l>Die Gaſſen werden gleich dem ſchoͤnſten Gold geſchaut/</l><lb/>
+<l>die Thore ſein darinn von Perlen auffgebaut/</l><lb/>
+<l>der ſtarcken Mauer grund iſt gantz von EdlenSteinen/</l><lb/>
+<l>dem reineſten Chriſtall und Glaſe gleich am ſcheinen.</l><lb/>
+<l>Mein JEſus/ meine Luſt/ haͤlt meine Seele werth.</l><lb/>
+<l>Weg Himmel/ Erd/ und Lufft/ und was die zeit verzehrt!</l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#b">M. G. Roͤßner.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head><hi rendition="#b">Grab-Maal.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">O</hi> Schleinigſt boͤſe Poſt/ O herbes Ungewitter!</l><lb/>
+<l>Du ſchickſt mit wilder macht den aͤrgſten Freund-zerritter/</l><lb/>
+<fw place="bottom" type="catch">Den</fw><lb/>
+<pb facs="#f0016" n="[16]"/>
+<l>Den Tod uns jetzo her. Ach Ungluͤck/ Schmertz und Noth!</l><lb/>
+<l>Mein Freund/ mein beſter Freund/ Herr Schmeiß/ Herr</l><lb/>
+<l><hi rendition="#et">Schmeiß iſt Todt.</hi></l><lb/>
+<l>Ach unglickſeelig’ Nacht/ die mir zuvor geſaget/</l><lb/>
+<l>Wie mein ſehr wehrter Schmeiß umb mich ſich ſo beklaget!</l><lb/>
+<l>Recht umbgekehrtes Lied! Jch/ ich beklage dich/</l><lb/>
+<l>Dich und die deinigen/ Ja ſelbſt auch endlich mich/</l><lb/>
+<l>Weil ich beraubet bin deß Außbunds rechter Treue</l><lb/>
+<l>Und alter Redligkeit/ verbanuet iſt die Neue/</l><lb/>
+<l>So nur auff Wucher ſteht; Der <hi rendition="#fr">GottesfurchtDemand/</hi></l><lb/>
+<l>Der wars den man ſo rein an deiner Seelen fand/</l><lb/>
+<l>Du bliebeſt GOtt getreu/ nicht Ampt noch andre Wuͤrden/</l><lb/>
+<l>Nicht Gunſt/ Befoͤrdernuͤß/ nichts konte dir auffbuͤrden</l><lb/>
+<l>(Daß taͤglich ſonſt geſchicht) den falſchen GOttes dienſt</l><lb/>
+<l>Du ſchlugeſt eh’ in Wind den koͤſtlichſten Gewinſt.</l><lb/>
+<l>Diß war dein hoͤchſter Schatz/ der hat dich nie verlaſſen/</l><lb/>
+<l>Auch in der groͤſten Noth/ den kunteſtu umbfaſſen/</l><lb/>
+<l>Wann dich die Truͤbſal zwang/ du ſchrieſt: Nu mein GOtt/</l><lb/>
+<l>Jch laſſe dich doch nicht auch mitten in dem Todt;</l><lb/>
+<l>Ein <hi rendition="#fr">herrlicher Saphier/</hi> der ſeinen Fuͤrſten zierte/</l><lb/>
+<l>Und niemals dieſen Glantz verlohr/ den er ſonſt fuͤhrte/</l><lb/>
+<l>Durch boͤſe hinterliſt; Dis iſt ein Wunderwerck</l><lb/>
+<l>Zu Hoff/ und auch zugleich der Trew ein rechtes merck.</l><lb/>
+<l>Ein <hi rendition="#fr">koͤſtlicher Schmaragd/</hi> der durch ſo helle Tugend</l><lb/>
+<l>Das Alter zierete/ den Augen friſcher Jugend</l><lb/>
+<l>Zur Sterckung dinlich war/ Ja wer Jhn nur gekennt/</l><lb/>
+<l>Der hat Jhn gar mit recht die alte Trew genennt.</l><lb/>
+<l>Und <gap reason="lost" unit="words" quantity="1"/> war auch der Zweck/ worauff dein gantzes Leben</l><lb/>
+<l><gap reason="lost" unit="words" quantity="1"/> gerichtet ſtund/ du kunteſt dich ergeben</l><lb/>
+<l><gap reason="lost" unit="chars" quantity="3"/>uldig aller Noth/ du wareſt in gefahr</l><lb/>
+<l>Getroſt/ weil dis dein Reim und ſteter Wahlſpruch war:</l><lb/>
+<fw type="catch" place="bottom"><hi rendition="#fr">Wer</hi></fw><lb/>
+<pb facs="#f0017" n="[17]"/>
+<l><hi rendition="#fr">Wer ſeinen groſſen <hi rendition="#k">Gott</hi> allzeit von Herzen liebet/</hi></l><lb/>
+<l><hi rendition="#fr"><hi rendition="#aq">U</hi>nd ſeines Nechſten Hertz mit willen nicht betruͤbet/</hi></l><lb/>
+<l><hi rendition="#fr">Dem Herꝛn und Vaterland getrew bleibt bis in Tod</hi></l><lb/>
+<l><hi rendition="#fr">Den laͤſt des hoͤchſten Schutz gewis in keiner Noht.</hi></l><lb/>
+<l>Nun dieſes Wahlſpruchs Zweck haſtu bereits erlanget/</l><lb/>
+<l>Jn dem die werthe Seel’ in jenem Leben pranget;</l><lb/>
+<l>Wir aber ſind allhier von Hertzen ſehr betruͤbt/</l><lb/>
+<l>Weil der nun von uns iſt/ den wir ſo ſehr geliebt.</l><lb/>
+<l>Abſonders aber dich mein ander Schmeiß betauret/</l><lb/>
+<l>Daß du nicht in Berlin perſoͤnlich haſt betrauret</l><lb/>
+<l>Des lieſten Vaters Tod; Deß groſſen Fuͤrſten Gnad</l><lb/>
+<l>Die iſts/ die dieſes Werck an<gap reason="lost" unit="chars" quantity="1"/>etzt verhindert hat.</l><lb/>
+<l>Die ſey auch nun dein Troſt/ es wird von deinen Thraͤnen</l><lb/>
+<l>Und alzu groſſem Schmertz jtzt Breßlaw ſchon erwehnen</l><lb/>
+<l>Die ſelbſt betrubet iſt/ und dieſen Trauerfall</l><lb/>
+<l>Mit vollen Thraͤnen guß bezeuget uͤberall.</l><lb/>
+<l>Jhr andern Kinder ſteht/ theils auch noch unerzogen</l><lb/>
+<l>Gantz traurig und bedeckt mit groſſen Waſſerwogen</l><lb/>
+<l>Die Klag- und Thraͤnen voll/ nur halt gebrochne wort</l><lb/>
+<l><hi rendition="#fr">Ach/ Mein/ Vater/ iſt/ Tod/</hi> hoͤrt man vald hier dald dort.</l><lb/>
+<l>Die gantze Freundſchafft klagt und iſt mit Leid umbgeben/</l><lb/>
+<l>Sie ſey nur wo ſie ſey/ erwuͤnſcht nicht mehr zu leben/</l><lb/>
+<l>Weil nun jhr beſter Freund und alte Redligkeit</l><lb/>
+<l>Von hier gezogen iſt/ hin in die Ewigkeit</l><lb/>
+<l>Und Jch/ O Seliger/ hatt’ alle mein vertrawen</l><lb/>
+<l>Auff dich nechſt <hi rendition="#g">GOTT</hi> geſetzt/ auff dich wolt ich nur bauen/</l><lb/>
+<l>Du wuſteſt huͤlff und rath/ du hateſt mir beꝛeugt</l><lb/>
+<l>Wie dem geholffen wahr/ dem ſo ein Freund ge<gap reason="lost" unit="chars" quantity="2"/>igt.</l><lb/>
+<l>Ach aber als ich wil recht deiner gunſt genieſſen</l><lb/>
+<l>Die mir verſprochen wahr/ ſo wirſtu hingeriſſen</l><lb/>
+<fw place="bottom" type="sig">c</fw><fw place="bottom" type="catch">Von</fw><lb/>
+<pb facs="#f0018" n="[18]"/>
+<l>Von unſers Wuͤrgers hand/ ich haͤtt’/ O groſſer Freund</l><lb/>
+<l>Jn ſolcher kurzen zeit dein Ster<choice><sic>d</sic><corr>b</corr></choice>en nit vermeint!</l><lb/>
+<l>Doch GOTT dem hoͤchſten gut/ dem es ſo wol gefallen</l><lb/>
+<l>Sey dieſes heimgeſtelt/ <hi rendition="#k">Er</hi> wirfft uns bittre Gallen</l><lb/>
+<l>Auch in den Honig ſelbſt/ wer nicht die Galle koſt</l><lb/>
+<l>Der ſchmecket nimals recht der ſuͤſſen Reben Moſt.</l><lb/>
+<l>Zwar klagen ſteht uns frey/ doch muͤſſen wir nun halten</l><lb/>
+<l>Jm Trauren rechten Maaß/ und billich laſſen walten</l><lb/>
+<l>Den allein Weiſen <hi rendition="#g">GOTT/ <hi rendition="#k">Er</hi></hi> wird das bittre Leid/</l><lb/>
+<l>Wenn ſeine Stunde/ koͤmt verzukern mit der zeit.</l><lb/>
+<l>Wir laſſen dich nun ruhn du Preißberg voller Ehren/</l><lb/>
+<l>Und wollen deinen Ruhm der lezten Nach-Welt lehren/</l><lb/>
+<l><hi rendition="#fr">Wie du geweſen biſt/ GOtt und dem Fuͤrſten trew/</hi></l><lb/>
+<l><hi rendition="#fr">Des Nechſten beſſer Rath ohn falſch/ ohn heucheley.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et">Welches aus ſchuldigem Mitleiden gegen die<lb/>
+Hinterlaſſenen Hochbetruͤbten auffſetzte<lb/>
+und aus Wittenberg uͤberſchickte<lb/>
+<hi rendition="#b">Sigfried Cunrad</hi><lb/>
+von Soran aus Nieder Lauſitz<lb/>
+der H. Srifft gefliſſener.</hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#in">D</hi>En Seinen iſt GOtt Huld/ Er nimmt Sie von der Erden/</l><lb/>
+<l><hi rendition="#k">Er</hi> fuͤhrt Sie Himmel-an/ nach dem Sie viel Beſchwerden/</l><lb/>
+<l>Viel Creutz/ viel Angſt und Quaal erlitten und erduldt/</l><lb/>
+<l>Den Seinen iſt GOTT huld.</l><lb/>
+<l><hi rendition="#k">Er</hi> haͤlt Sie hoch und werth/ Er liebt Sie beſter maſſen/</l><lb/>
+<l>Ob es gleich ſcheinet offt/ als haͤtt Er Sie verlaſſen/</l><lb/>
+<l>Jn einen Grauſamen verwuͤſtet und verheert/</l><lb/>
+<l>So haͤlt Er Sie doch werth.</l><lb/>
+<l>W<supplied>elch</supplied>er GOttfuͤrchtig lebt/ auch GOtt ſtets hat fuͤr Augen/</l><lb/>
+<l>Nach dieſer Thraͤnen-Saat/ der wird mit Freud anſchauen</l><lb/>
+<fw type="catch" place="bottom">Der</fw><lb/>
+<pb facs="#f0019" n="[19]"/>
+<l>Der Heilgen Engelſchaar. Der kommt wo GOtt ſelbſt lebt/</l><lb/>
+<l>Wer hier GOttfuͤrchtig lebt.</l><lb/>
+<l>Druͤmb wol geehrter Mann/ jtzt neuer Himmels-Buͤrger/</l><lb/>
+<l>Sehr wol iſt Euch geſchehn/ in dem der Menſchen-Wuͤrger</l><lb/>
+<l>Euch Seelig hingerafft von dieſer ſchnoͤden Bahn/</l><lb/>
+<l>Druͤmb wol geehrter Mann.</l><lb/>
+<l>Wer ſagt: Euch ſey nicht wohl? Als etwan Eure Lieben/</l><lb/>
+<l>Die uͤber Euren Fall ſich billich hochbetruͤben</l><lb/>
+<l>Und Weinen bitterlich mit Augen Waſſer voll:</l><lb/>
+<l>Wer ſagt: Euch ſey nicht wol?</l><lb/>
+<l>Wir ruffen Euch Gluͤck zu: Wir andern die wir Euch</l><lb/>
+<l>Am Blutte nicht verwandt/ doch nach der Liebe gleich/</l><lb/>
+<l>Erkennen Euer Gluͤck/ wir goͤnnen Euch die Ruh/</l><lb/>
+<l>Wir ruffen Euch Gluck zu?</l><lb/>
+<l>Druͤmb hoͤrt zu Weinen auff. Jhr die Jhr ſeyd betruͤbet/</l><lb/>
+<l>Denn ſo/ ſo handelt <hi rendition="#g">GOTT</hi> mit denen ſo Er liebet.</l><lb/>
+<l><hi rendition="#fr">Herr Schmeiß</hi> der hat gar wol geendet ſeinen Lauff/</l><lb/>
+<l>Druͤmb hoͤrt zu Weinen auff.</l><lb/>
+<l>Er iſt nun Freuden voll/ daß Heil muſt Jhr Jhm goͤrnen/</l><lb/>
+<l>Mit klagen werdet Jhr Euch wenig helffen koͤnnen/</l><lb/>
+<l>Jhm ſelber dient es nicht/ den Jhm iſt mehr als wol/</l><lb/>
+<l>Er iſt nun Freuden voll.</l><lb/>
+<l>Er iſt in Himmel bracht: Er leuchtet wie die Sonne/</l><lb/>
+<l>Am Himmels Firmament/ in voller Freud und Wonne/</l><lb/>
+<l>Er iſt da wo <hi rendition="#g">GOTT</hi> iſt/ Er hat den Schluß gemacht/</l><lb/>
+<l>Ade zu guter Nacht:</l></lg><lb/>
+<closer><salute><hi rendition="#et">Mit dieſem beweinet und betrauret/ den ſchlei-<lb/>
+nigen Hinteitt des Seeugverblichenen<lb/>
+nach gebuͤhr<lb/>
+<hi rendition="#b">Chriſtian Martin Richter/</hi><lb/>
+<hi rendition="#aq">Berl: M.</hi> der We<gap reason="lost" unit="chars" quantity="7"/>heit und<lb/>
+der H. Schrifft gefliſſener.</hi></salute></closer></div><lb/>
+<fw place="bottom" type="sig">c ij</fw><fw place="bottom" type="catch">St!</fw><lb/>
+<pb facs="#f0020" n="[20]"/>
+<div n="2"><head><hi rendition="#b">St!<lb/>
+Zu Letzten Ehren<lb/>
+St!<lb/>
+Auffgerichtet<lb/>
+St!<lb/>
+Dem Weiland<lb/>
+Wohl-Edlen/ Veſten und Hoch-benamten<lb/>
+<hi rendition="#fr">Herrn Johann Schmeiſſen/<lb/>
+von Ehren-Preiß-Berg.</hi><lb/>
+Seiner Kuhr-Fuͤrſt<supplied>l</supplied>: Durch<supplied>l</supplied>: zu Brandenburg/</hi><lb/>
+Wohl-verdient-geweſenen <hi rendition="#aq">Factori.</hi></head><lb/>
+<p><hi rendition="#c">Durch reine verſezzung 178. Buchſtaben/ alſo:</hi></p><lb/>
+<lg type="poem"><l><hi rendition="#fr"><hi rendition="#in">E</hi>R Preiſt den Hoͤchſten <hi rendition="#g"><hi rendition="#k">Gott</hi></hi> und ruͤhmt</hi></l><lb/>
+<l><hi rendition="#fr"><hi rendition="#et">Jhn in der Hoͤh’/</hi></hi></l><lb/>
+<l><hi rendition="#fr">in lauter Freud’ auch luſt: Lebt ohne leid/ gefahr</hi></l><lb/>
+<l><hi rendition="#fr">Hoch in deꝛ Sternen-Burg/ dort bey deꝛ Engel-Schaaꝛ/</hi></l><lb/>
+<l><hi rendition="#fr">Uns bleibt nur angſt zum Zweck/ wenn auf uns ſchnelt</hi></l><lb/>
+<l><hi rendition="#fr"><hi rendition="#et">ein Wee!</hi></hi></l><lb/>
+<l>Jhr Meine Trawret nicht/ die <hi rendition="#fr">Ehre</hi> goͤnnet Mir:</l><lb/>
+<l>Jch Lebe numehr wohl in ſchoͤner Himmels-Zier!</l></lg><lb/>
+<closer><salute><hi rendition="#et"><note place="left">(a) den 8. Chr:<lb/>
+2. Sont. Adv:</note><hi rendition="#aq">D</hi>es Herrn lohann S<hi rendition="#aq">C</hi>h <hi rendition="#aq">M</hi>elſſens <hi rendition="#aq">V</hi>on Ehren-<lb/>
+Prelß-Berg <hi rendition="#aq">(a)</hi> abLeben<lb/>
+<note place="left">b) den 8. Brach<lb/>
+H. Dreyfal<supplied>-</supplied><lb/>
+tigkeit.</note>hats a<hi rendition="#aq">L</hi>ſo <hi rendition="#aq">I</hi>n Oe<hi rendition="#aq">L</hi>ſſe <hi rendition="#aq">(b) MI</hi>t el<hi rendition="#aq">L</hi>fert<hi rendition="#aq">I</hi>ger<lb/>
+Fe<hi rendition="#aq">D</hi>er betra<hi rendition="#aq">V</hi>ret<lb/>
+<hi rendition="#b">Jacob Sturm von Sprem-Berg/</hi><lb/>
+aus dem Marg-Graftuhm Nieder-<lb/>
+Lanſitz/ der Rechten/ Poeſie- und<lb/>
+Hiſtorien Gefliſſener.</hi></salute></closer></div><lb/>
+<fw place="bottom" type="catch">Und</fw><lb/>
+<pb facs="#f0021" n="[21]"/>
+<div n="2"><lg type="poem"><l><hi rendition="#in">U</hi>Nd dich/ geliebter Mann/ von redlichem Gemuͤhte/</l><lb/>
+<l>Von Ehr und GOttesfurcht/ von loͤblichem Gebluͤtte/</l><lb/>
+<l>Rafft jtzt der Wuͤrger-Tod ſo ſchleinig aus der Welt/</l><lb/>
+<l>Die nunmehr in ſich nichts als Angſt und Kummer haͤlt.</l><lb/>
+<l>Wie gerne wolte doch/ mein Edler Schmeiß/ erretten/</l><lb/>
+<l>Dich unſre Stadt/ die dir nun muß zum Tode Betten</l><lb/>
+<l>Ein Grab/ die/ welche dich geliebet jederzeit</l><lb/>
+<l>Und deinen Tod mit Cur zu hindern war bereit.</l><lb/>
+<l>Jedoch uͤmbſonſt! Der Leib liegt allbereit erſtarret/</l><lb/>
+<l>Und muß in frembden Sand hie bey Uns ſeyn verſcharret.</l><lb/>
+<l>Ach! Solte Breßlaw auch/ das gleichfals dich geliebt/</l><lb/>
+<l>O Selger/ trauren nicht/ und darob ſeyn betruͤbt/</l><lb/>
+<l>Allein du Stirbeſt wol/ und wirſt fort Ewig leben/</l><lb/>
+<l>Ob ſchon hie dieſer Ort dem Leibe Ruhe geben</l><lb/>
+<l>Und dich hinbetten muß! Was hilffet dir doch Ort/</l><lb/>
+<l>Der niemands eigen iſt? Es ſey hie oder dort/</l><lb/>
+<l>Da du entſeelet wirſt/ ſo muſt du doch geſtehen</l><lb/>
+<l>Du ſeyſt ein Frembdling/ der nie veſten Grund geſehen</l><lb/>
+<l>Darauff Er faſſen koͤnnt/ daß Wallen frembder Zeit</l><lb/>
+<l>Sey nur ein Auffenthalt von eigner Herrligkeit.</l><lb/>
+<l>Du haſt/ O Edler Schmeiß/ des frembden Grunds vergeſſen</l><lb/>
+<l>Und dir den feſten Sitz des Himmels zugemeſſen</l><lb/>
+<l>Da Niemand iſt/ wie vor/ ein Frembdling oder Knecht/</l><lb/>
+<l>Da Edle Freyheit iſt das rechte Buͤrger-Recht.</l></lg><lb/>
+<closer><salute><hi rendition="#et">Zu Chriſtlichem Andencken bey des Seelig-<lb/>
+Verſtorbenen fuͤgts auf Begehren eyligſt<lb/>
+mit an<lb/>
+<hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Petrus Papius,</hi></hi><lb/>
+SS. Theol: Studioſus.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">D</hi>Imidium Vitæ Mors eſt, Mors ultima Vita;</hi></l><lb/>
+<l><hi rendition="#aq">Vivere nam noſtrum nil niſi Mortis apex.</hi></l><lb/>
+<fw type="sig" place="bottom">c iij</fw><fw type="catch" place="bottom"><hi rendition="#aq">Sic</hi></fw><lb/>
+<pb facs="#f0022" n="[22]"/>
+<l><hi rendition="#aq">Sic SCHMEISSI, nulli lugeant Tua fata re<gap reason="illegible" unit="chars" quantity="1"/>cti;</hi></l><lb/>
+<l><hi rendition="#aq">Vita <hi rendition="#i">fuit</hi> luthum, Mors <hi rendition="#i">Tibi</hi> Vita <hi rendition="#i">manet.</hi></hi></l></lg><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<lg type="poem"><l><hi rendition="#in">U</hi>Nſer Leben iſt ein Tod/ <hi rendition="#aq">U</hi>nſer Sterben iſt ein Leben/</l><lb/>
+<l>Alſo Stirbt man durch den Tod auch dem Tode</l><lb/>
+<l><hi rendition="#et">ſelbſten ab.</hi></l><lb/>
+<l>Laſſet Jhr bekuͤmmerten dieſes Euch zum troſte geben:</l><lb/>
+<l>Daß Herr Schmeiß noch Lebend ſey/ der jtzt</l><lb/>
+<l><hi rendition="#et">gehet in das Grab.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#b">Johann Ernſt Pfuel.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#in">W</hi>Je nach gemeinem Wahn die Sonne ſich geneiget/</l><lb/>
+<l>Und nunmehr gnugſam tieff der Erden zu gebeuget/</l><lb/>
+<l>Da wurdeſtu hinauff/ Mein Edler Herr/ gefuͤhrt/</l><lb/>
+<l>Mit dir an jener ſtatt der Himmel ward geziert:</l><lb/>
+<l>Daß blancke Sternen-Heer ſich deiner Ankunfft frewet/</l><lb/>
+<l>Und den von Phoͤbes faſt verblendten Schein erneuet/</l><lb/>
+<l>Als es den Tage zu ſo ſchleinig ward gewahr/</l><lb/>
+<l>Daß du ein neues Licht kamſt unter jhrer Schaar.</l><lb/>
+<l>Jch/ der uͤmb dir/ vor dem mit dir wol billich Prangte/</l><lb/>
+<l>Nicht kleinen Vorzug mir fuͤr andere erlangte</l><lb/>
+<l>Dein außgebreitter Ruhm/ und die Geſchickligkeit/</l><lb/>
+<l>Wormit dich durch und durch dein Schoͤpffer angekleidt.</l><lb/>
+<l>Jch hatte meine Luſt/ wenn ich dich ſah uͤmbgehen/</l><lb/>
+<l>Mit Haͤuptern dieſer Welt/ und unerſchrocken ſtehen</l><lb/>
+<l>Jedoch in Demuth tieff fuͤr jhrer Hoheit Thron:</l><lb/>
+<l>Daß war wol deiner Kunſt und Weißheit rechter Lohn.</l><lb/>
+<l>Du warſt/ an dem ich mich nicht ſattſam kunt ergetzen/</l><lb/>
+<l>An deinem hohen Sinn noch gnug ich kunte wetzen/</l><lb/>
+<fw place="bottom" type="catch">Den</fw><lb/>
+<pb facs="#f0023" n="[23]"/>
+<l>Den ſchartichten Verſtand und meiner Sinne Ruſt:</l><lb/>
+<l>Von meinem Haͤuͤpte du doch mehr denn bald gemuſt.</l><lb/>
+<l>Durch dich hat dein Geſchlecht des Himmels-Heer geehret/</l><lb/>
+<l>Daſſelb hat Fuͤrſten Gunſt mit Gunſten hoch vermehret/</l><lb/>
+<l>Druͤmb wareſt du wol recht ein <hi rendition="#fr">Berg von Ehrenpreiß/</hi></l><lb/>
+<l>An dem faſt ich auch wolt ermuntern meinen Fleiß.</l><lb/>
+<l>Allein das Blat hat ſich mit mir zu bald gewendet/</l><lb/>
+<l>Jn dem GOTT deinen Lauff des Lebens ſanfft geendet/</l><lb/>
+<l>An ſtatt daß ich durch dich erlangen wolte Ruh/</l><lb/>
+<l>Hat meine Hand gedruckt dir deine Augen zu.</l><lb/>
+<l>Jch war/ mein Herr/ bey dir in deiner letzten Stunde/</l><lb/>
+<l>Jch halff die Seuftzer dir erzwingen aus dem Munde/</l><lb/>
+<l>Und ſchicken vor dir an/ du folgteſt ſanffte nach/</l><lb/>
+<l>Die Augen worden mir ein voller Thraͤnen-Bach.</l></lg><lb/>
+<closer><salute><hi rendition="#et">Denen uͤber dem mehr als fruͤhzeitigen Ableben<lb/>
+des wolſel: Herrn Schmeiſſens Hochbetruͤb-<lb/>
+ten zu Troſt ſchrieb dieſes gleichfals Hoch-<lb/>
+betruͤbt<lb/>
+<hi rendition="#b">Chri: Coppen/</hi><lb/>
+<hi rendition="#aq">SS. Th. Studioſ.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#in">W</hi>O nehm ich Thraͤnen her/ die allerliebſten Meinen/</l><lb/>
+<l>Und Jhren Todesgang zur Gnuͤge zu Beweinen?</l><lb/>
+<l>Die Mutter ward/ da ich ein Kind/ geriſſen hin/</l><lb/>
+<l>Den Vater nimmt der Todt/ eh’ ich erwachſen bin.</l><lb/>
+<l>Aus Kindheit kunt ich nicht/ die Mutter rech<supplied>t</supplied> Betrauren/</l><lb/>
+<l>Herr Vater/ aber Jhn/ Jhn werd ich Hochbetauren/</l><lb/>
+<l>Denn Er mein Steken war/ und meiner Jugend Stab/</l><lb/>
+<l>Und mus anitzo mir mit Tode gehen ab.</l><lb/>
+<l>Ey warumb ſolten nicht der Augen Thraͤnen flieſſe<supplied>n</supplied>/</l><lb/>
+<l>Die runden Baͤchlein ſich aus uͤberfluß erguͤſſen/</l><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">U</hi>nd</fw><lb/>
+<pb facs="#f0024" n="[24]"/>
+<l>Und netzen Mund und Kleid? Er ſchlieff wol Seelig ein/</l><lb/>
+<l>Allein ich fuͤrcht/ es wird umb mich gehan nun ſeyn.</l><lb/>
+<l>Mein Troſt/ den irrgend ich in dieſem Fall kan haben/</l><lb/>
+<l>Der das von Thraͤnen faſt verzehrte Hertz kan laben/</l><lb/>
+<l>Jſt GOTT/ der ſelbſten ſich der Weiſen Vater nennt/</l><lb/>
+<l><hi rendition="#k">Er</hi> wird verlaſſen nicht den/ der Jhn nur anrennt.</l></lg><lb/>
+<closer><salute><hi rendition="#et">Mit mehren ſeinen ſel: Heren Vater/ letzlich<lb/>
+zu beehren ließ nicht zu deſſen Sohnes<lb/>
+Wehmuht<lb/>
+<hi rendition="#b">Guſtav Fridrich Schmeiß/</hi><lb/>
+von Ehrenpreißberg.</hi></salute></closer><lb/>
+<trailer><hi rendition="#c"><hi rendition="#g">ENDE.</hi></hi></trailer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+</div>  </body></text>  </TEI>

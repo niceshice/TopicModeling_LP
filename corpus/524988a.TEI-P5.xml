@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Metra exsequialia</title>
+<author>
+<persName>
+<surname>N. N.</surname>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">6</measure>
+<measure type="tokens">770</measure>
+<measure type="types">659</measure>
+<measure type="characters">5686</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:10:45Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/524988a</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/524988a</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/524988a</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/524988a</idno>
+<idno type="DTADirName">524988a</idno>
+<idno type="DTAID">202983</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-202983-4</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">[N. N.]: Metra exsequialia. Jena, 1617.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Metra exsequialia</title>
+<author>
+<persName>
+<surname>N. N.</surname>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">6 S.</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Johan Weidner</name></publisher>
+<pubPlace>Jena</pubPlace>
+<date type="publication">1617</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 S 224/5 / 524988a</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Antiqua</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[51]"/>
+<titlePage type="main"><milestone rendition="#hr" unit="section"/><lb/>
+<docTitle><titlePart type="main"><hi rendition="#aq"><hi rendition="#g">METRA EXSEQUIALIA,</hi></hi></titlePart><lb/>
+<titlePart type="desc"><hi rendition="#aq"><hi rendition="#i">Quibus</hi><lb/>
+Manes Pios Memoriamq̀; Beatam<lb/>
+<hi rendition="#i">Venerabilis &amp; Doctißimi Viri,</hi><lb/>
+<hi rendition="#g">Dn. JOANNIS<lb/>
+SWANENGELII<lb/>
+HORENSOMMER-<lb/>
+DENSIS,</hi><lb/>
+<hi rendition="#i">Paſtoris Eccleſiæ Oldislebienſis, annorum<lb/>
+triginta decursù, vigilantißimi,</hi><lb/>
+ad D. 14. Maji A. S. ∞ ⅼↄⅽ XVII.<lb/>
+<hi rendition="#i">piè in Dominô demortui,<lb/>
+quantulôcunꝙ ſtudiô.</hi></hi></titlePart></docTitle><lb/>
+<byline><hi rendition="#aq">Ab </hi><docAuthor><hi rendition="#aq">Amicis &amp; Fautoribus</hi></docAuthor><hi rendition="#aq">.</hi></byline><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docImprint><pubPlace><hi rendition="#aq"><hi rendition="#g"><hi rendition="#i">JENÆ,</hi></hi></hi></pubPlace><lb/>
+<publisher><hi rendition="#aq">Typis Johannis VVeidneri</hi></publisher><hi rendition="#aq">, Anno</hi> <docDate>1617</docDate>.</docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="[52]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsEpicedia" n="1"><head/>  <milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">S</hi><hi rendition="#i"><hi rendition="#g">CHWANENGELII</hi> eras: verè tibi nomen utrumꝙ́</hi></hi></l><lb/>
+<l><hi rendition="#i"><hi rendition="#aq">Competit, &amp; gemini nominis omen habes</hi></hi></l><lb/>
+<l><hi rendition="#i"><hi rendition="#aq">Cygnus eras, ſed qui vivus moriensꝙ́ benignum</hi></hi></l><lb/>
+<l><hi rendition="#i"><hi rendition="#aq">Voce tua poteras commemorare Deum.</hi></hi></l><lb/>
+<l><hi rendition="#i"><hi rendition="#aq">Candidior nive Cygnus eras: tua pectora fraudis</hi></hi></l><lb/>
+<l><hi rendition="#i"><hi rendition="#aq">Neſcia; quidquid eras non niſi candor eras.</hi></hi></l><lb/>
+<l><hi rendition="#i"><hi rendition="#aq">Aligeri nomen ſed cur fecêre Miniſtri?</hi></hi></l><lb/>
+<l><hi rendition="#i"><hi rendition="#aq">Cur? his cum geniis quod tibi munus idem.</hi></hi></l><lb/>
+<l><hi rendition="#i"><hi rendition="#aq">Nuncia ferre Dei noſtræ reſponſa ſalutis,</hi></hi></l><lb/>
+<l><hi rendition="#i"><hi rendition="#aq">Hæc fuit, hæc vitæ cura fidesꝙ́ tuæ.</hi></hi></l><lb/>
+<l><hi rendition="#i"><hi rendition="#aq">Jam recinis ſummi genitoris in æthere laudes</hi></hi></l><lb/>
+<l><hi rendition="#i"><hi rendition="#aq">Angelus &amp; Cygnus, quæ cupis omne capis.</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">VVolffgang Heider M.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head><hi rendition="#aq"><hi rendition="#i">In Obitum</hi><lb/>
+Reverendi &amp; Humaniſsimi Viri,<lb/>
+<hi rendition="#b">Dn. JOHANNIS</hi></hi> <hi rendition="#b">Schwan-</hi><lb/>
+Engell <hi rendition="#aq">Paſtoris apud Oldislebienſes vigi-<lb/>
+lantiſsimi &amp; digniſsimi, quondam Amici<lb/>
+ſui plurimum amandi.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">Q</hi><hi rendition="#i">Uiꝙ́ Sacerdotes caſti dum vita manebat:</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Omnibus, bis niveâ cinguntur tempora vittâ,</hi></hi></l><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">Virgilius</hi></fw><lb/>
+<pb facs="#f0003" n="[53]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<l><hi rendition="#aq">Virgilius fatur. Tua ſed quâ tempora vittâ,</hi></l><lb/>
+<l><hi rendition="#aq">Cincta SchwanEngeli, mors quando lumina clauſit</hi></l><lb/>
+<l><hi rendition="#aq">Atq; his à terris ſuperas deduxit ad ædeis<hi rendition="#i">?</hi></hi></l><lb/>
+<l><hi rendition="#aq">Angelus &amp; Cygnus dederant tibi nomina, &amp; nullus</hi></l><lb/>
+<l><hi rendition="#aq">Hæreo, quin Cygnus veluti eſt albedine tinctus</hi></l><lb/>
+<l><hi rendition="#aq">Omneis per parteis, tua ſic quoq tempora vittâ</hi></l><lb/>
+<l><hi rendition="#aq">Ornavit nive â inq́; ſinum portavit Abrahæ</hi></l><lb/>
+<l><hi rendition="#aq">Angelus. Hinc curæ ceſſant, &amp; gaudia creſcunt,</hi></l><lb/>
+<l><hi rendition="#aq">Gaudia, Mortalis quæ nunquam vidit ocellus,</hi></l><lb/>
+<l><hi rendition="#aq">Gaudia, Mortalis quæ capta nec auribus unquam.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">M. MichaelVVolfius, Phy-<lb/>
+ſices Prof. Pub. in Acad. Jen.</hi></hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head><hi rendition="#aq">Threnodia funebris, ſeu epi-<lb/>
+taphium dicatum memoriæ Reverendi,<lb/>
+pietate, eruditione, doctrina morumq; venuſtate Or-<lb/>
+natiſsimi Viri, Dn. <hi rendition="#g"><hi rendition="#k">Johannis Schwanengels</hi></hi><lb/>
+Paſtoris olim in Oldisleben fideliſsimi &amp; digniſsimi<lb/>
+fautoris, amici, vicini &amp; confratris in Chriſto ca-<lb/>
+riſsimi &amp; deſideratiſsimi, aut. M. <hi rendition="#g"><hi rendition="#k">Nico-<lb/>
+lao Eccardo.</hi></hi></hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">Q</hi><hi rendition="#i">Ui tranſis, paulum curſum mihi ſiſte, viator,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Et cinis ad cineres officioſus ades.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Qualis es, ipſe fui, dum fata Deusꝙ́ ſinebant:</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Nunc ego ſum merſus funere, qualis eris.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Olsleb Schwanengel cantavi verba ſalutis,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Verba miniſterio tradita Chriſte tuo.</hi></hi></l><lb/>
+<fw place="bottom" type="sig"><hi rendition="#i"><hi rendition="#aq">G</hi> 3</hi></fw><fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#i">Officii</hi></hi></fw><lb/>
+<pb facs="#f0004" n="[54]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Officii curſus ter denos continet annos</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ast uno; duplo vitaꝙ major erat,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Et quamvis populo vera pietate prairem,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Effugere haud potui tela cruenta necis.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ut Majus pulchro depinxerat omnia vultu,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Naturæ ſolvi debita juſta ſuæ.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Æternis olim cum pinxerit omnia majus</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Floribus. in florem &amp; induar ipſe novum,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Æterni tumulô menſes me ſcilicet iſt hoc</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Elicient, Chriſto tum veniente meo</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Quæ docui populum referam cum mercia ritæ.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Hæc volui: benè tu nunc moriturus abi.</hi></hi></l></lg></div><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#fr"><hi rendition="#in">H</hi>Err Chriſt hie lieget in der Erd/</hi></l><lb/>
+<l><hi rendition="#fr">Ein trewer Hirte deiner Hert/</hi></l><lb/>
+<l><hi rendition="#fr">Johann SchwanEngel ward genand/</hi></l><lb/>
+<l><hi rendition="#fr">Hie dreiſſig Jahr gfuͤhrt das Pfarrampt.</hi></l><lb/>
+<l><hi rendition="#fr">Laß jhn dermahl hoͤren die Wort:</hi></l><lb/>
+<l><hi rendition="#fr">So du ſagſt beym Mattheo dort. c. 25.</hi></l><lb/>
+<l><hi rendition="#fr">Wolan/ kom her du trewer Knecht/</hi></l><lb/>
+<l><hi rendition="#fr">Du haſt dein Ampt verricht gar recht:</hi></l><lb/>
+<l><hi rendition="#fr">Weil du nun fleiß vnd trew erwieſn/</hi></l><lb/>
+<l><hi rendition="#fr">Jn dem/ ſo dir befohln geweſn/</hi></l><lb/>
+<l><hi rendition="#fr">So wil ich dich ſetzn vber viel/</hi></l><lb/>
+<l><hi rendition="#fr">Geh in mein Reich/ das iſt mein Will.</hi></l><lb/>
+<l><hi rendition="#fr">Diß wuͤnſch ich Eccard von Hertzn zwar/</hi></l><lb/>
+<l><hi rendition="#fr">HErr Chriſt machs an vns allen wahr.</hi></l><lb/>
+<l><hi rendition="#fr"><hi rendition="#g"> <space dim="horizontal"/> AMEN.</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">Eodem authore.</hi></hi></salute></closer></div><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq"><hi rendition="#i">Mœchæ</hi></hi></fw><lb/>
+<pb facs="#f0005" n="[55]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">M</hi><hi rendition="#i">Oechæ ADELHEIDIS quà ſunt uxoria clauſtra,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Virgea quin pagi mœnia ONESTER adit;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Et moreris, ſenii cum SEXAGESIMA Bruma</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">PRIMA nive oppleret tempora curi gena;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Frigora triginta, triginta cumꝙ́ Calores</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Vox Tua LYTRiotæ mite doceret epos;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Pignora dein thalami ſexû potiore tuliſſes</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Quina; exin gnatam durimô agone uteri;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Floriditate ſua cùm, cuncta domeſtica, obirent</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Munia, in ornatû verſicolore domûs;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">At SCHWANENGELI, horarum quia momina currunt,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">ANGELICI exoras agmina Præſidii,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#g">CYGNUS</hi> &amp; in tabulis ſuprema noematæ dictas,</hi></hi></l><lb/>
+<l><hi rendition="#i"><hi rendition="#aq">Invictum en vinount vota precesꝙ́ DEUM!</hi></hi></l><lb/>
+<l><hi rendition="#i"><hi rendition="#aq">SCHWANENGEL ſatur hinc vitæ, ſatur atꝙ laborum,</hi></hi></l><lb/>
+<l><hi rendition="#i"><hi rendition="#aq">(Innuit ut pætriô Littera Stirpsꝙ́ ſono:)</hi></hi></l><lb/>
+<l><hi rendition="#i"><hi rendition="#aq">SPE citius, currû Simeónis, celica templa</hi></hi></l><lb/>
+<l><hi rendition="#i"><hi rendition="#aq">Intrat, Abrahami devenit inꝙ́ ſinum</hi></hi></l><lb/>
+<l><hi rendition="#i"><hi rendition="#aq">Felix in terris, Felicior ultimô agone</hi></hi></l><lb/>
+<l><hi rendition="#i"><hi rendition="#aq">Summi nempe Boni ſingula puncta meret!</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">M. Samuel Gualtherus, Scholæ, in Fran-<lb/>
+cohuſiô Schwartzburgicô, Rector.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">A</hi><hi rendition="#i">H! Fama quàm prænuncia Funeris</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">lerris humandi triſtiſonâ chely,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Vitæ amputaſſe quæ ferebat</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Stamina, &amp; enecuiſſe Mortam</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Myſten, ſenantem Chriſtiſequo Gregi</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Almi <hi rendition="#g">JEHOVÆ</hi> celica dogmata,</hi></hi></l><lb/>
+<l><hi rendition="#i"><hi rendition="#aq">Fervore mentis ſanctiore,</hi></hi></l><lb/>
+<l><hi rendition="#i"><hi rendition="#aq">Peniculô ac digiti Orthodoxô:</hi></hi></l><lb/>
+<l><hi rendition="#i"><hi rendition="#aq">Myſten, popellus cúi bene noverat</hi></hi></l><lb/>
+<l><hi rendition="#i"><hi rendition="#aq">Concreditas pol pectoris intimas</hi></hi></l><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#i">Fibras,</hi></hi></fw><lb/>
+<pb facs="#f0006" n="[56]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Fibras, ſibiꝙ́ recreandas</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Nectare ſalvificante Verbi;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Myſtenꝙ́, qui dignus fuit, entheô</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Favore Regis cuncti-potentis ut</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Huic ſenectâ longiore</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Neſtoreæ Pyliæꝙ́ ariſtas</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Longævitatis condere Longipes</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">(Pro!) Mors dediſſet. Sed revocabilis</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Mortis furor manet nec uſpiam:</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Hæc via &amp; Urnicolis vianda est.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Parcæ triparcæ parcere nemini</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Hominum ſolent, ſeu ſint juvenes, ſenes,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Parcas nec in rapaciores,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Artibus ipſe valet Macháon.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Proinde Conjunx Conjuge congrege</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Orbata luge funereos Viri</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Cippos, amicta quinque Fratrum</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Luctificâ facies cupreßû</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Largis inunda fletibus; Et ſacra</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">In templa, <hi rendition="#g">GNATI,</hi> promeriti <hi rendition="#g">PATRIS</hi></hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Servate vobis invicem, heus, ve-</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">ſtigia perpetuos in annos.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ast lacrymoſis ſic querimoniis</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Plorato <hi rendition="#g">MATER</hi> Fatum inamabile,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#g">GNATIQVE,</hi> veſtra macerentur</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ne nimio, anxiferoꝙ corda</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Squallore. Nam quisquis bene deſiit</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Vitâ fruiſci, non obit, aut perit,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Sed intrat hic Celi Palatia</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Sidereâ adſtipulante Turmâ!</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et">τῆς σομπαρείας ἕνεκα<lb/>
+<hi rendition="#aq">M. Georgius Wonna Reipubl. Francohu-<lb/>
+ſinæ Senator.</hi></hi></salute></closer><lb/>
+<trailer><hi rendition="#c"><hi rendition="#aq"><hi rendition="#g"><hi rendition="#i">FINIS.</hi></hi></hi></hi></trailer></div></div><lb/>
+</body></text>  </TEI>

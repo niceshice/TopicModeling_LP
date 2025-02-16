@@ -1,0 +1,1286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Leichpredigt/ Aus dem Sprüchlein Syrachs am 7. Cap. [...] Bey Christlicher Leichbestattung/ Des Erbarn vnd Wolgelahrten/ Zachariae Waltheri von Breßlaw</title>
+<author>
+<persName ref="http://d-nb.info/gnd/116991534">
+<surname>Leyser</surname>
+<forename>Polycarp</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">46</measure>
+<measure type="tokens">6239</measure>
+<measure type="types">2635</measure>
+<measure type="characters">42764</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:10:46Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/525080</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/525080</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/525080</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/525080</idno>
+<idno type="DTADirName">525080</idno>
+<idno type="DTAID">200240</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-200240-0</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Leyser, Polycarp: Leichpredigt/ Aus dem Sprüchlein Syrachs. Leipzig, 1620.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Leichpredigt/ Aus dem Sprüchlein Syrachs am 7. Cap. [...] Bey Christlicher Leichbestattung/ Des Erbarn vnd Wolgelahrten/ Zachariae Waltheri von Breßlaw</title>
+<author>
+<persName ref="http://d-nb.info/gnd/116991534">
+<surname>Leyser</surname>
+<forename>Polycarp</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">46</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Andreas Mamitzsch</name></publisher>
+<pubPlace>Leipzig</pubPlace>
+<date type="publication">1620</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 S 231/23 / 525080</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#b">Leichpredigt/</hi></titlePart><lb/>
+<titlePart type="sub"><hi rendition="#fr"><hi rendition="#in">A</hi>us dem <hi rendition="#in">S</hi>pruͤchlein</hi> <cit><bibl><hi rendition="#fr"><hi rendition="#in">S</hi>yrachs am 7. <hi rendition="#in">C</hi>ap.</hi></bibl><lb/>
+<quote><hi rendition="#fr">Was du thuſt/ ſo bedencke das Ende/ ꝛc.</hi></quote><bibl/></cit></titlePart><lb/>
+<titlePart type="desc"><hi rendition="#b">Bey Chriſtlicher Leichbeſtattung/</hi><lb/>
+Des Erbarn vnd Wolgelahrten/<lb/>
+<hi rendition="#aq"><hi rendition="#g">ZACHARIAE<lb/>
+WALTHERI</hi></hi> von<lb/>
+Breßlaw/ <hi rendition="#aq">Legum Studioſi,</hi><lb/>
+<hi rendition="#b">Welcher in wahrer Erkentnuͤß/ vnd<lb/>
+anruffung Jeſu Chriſti/ den 26. Auguſti/ An-</hi><lb/>
+no <hi rendition="#g">1619.</hi> fruͤhe vmb 3. Vhr in Leipzig/ ſelig von<lb/>
+dieſer Welt geſchieden/ vnd den 28. deſſelben<lb/>
+Chriſtlich zur Erden beſtattet<lb/>
+worden:</titlePart></docTitle><lb/>
+<byline><hi rendition="#fr">Gehalten durch</hi><lb/>
+<docAuthor><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Polycarpum</hi></hi></hi> <hi rendition="#b"> Leyſern</hi></docAuthor><hi rendition="#b">/ <hi rendition="#aq">D.</hi><lb/>
+Pfarrern vnd Profeſſorn daſelbſt.</hi></byline><lb/>
+<docImprint><pubPlace><hi rendition="#b">Leipzig/</hi></pubPlace><lb/>
+<publisher><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Typis Lamber gianis</hi></hi>,</hi><lb/>
+<hi rendition="#fr">Druckts Andreas Mamitzſch</hi></publisher><hi rendition="#fr">/ Jm Jahr</hi> <docDate><hi rendition="#g">1620</hi></docDate><hi rendition="#g">.</hi></docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="[2]"/>
+<pb facs="#f0003" n="[3]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsSermon" n="1"><head/>  <div type="fsBibleVerse" n="2"><head><hi rendition="#b">Text der Leichpredigt.</hi></head><lb/>
+<cit><bibl><hi rendition="#c"><hi rendition="#b">Aus dem Hauß Buͤchlein Syrach am ſieben-<lb/>
+<hi rendition="#fr">den Capitel.</hi></hi></hi><lb/>
+</bibl> <quote><hi rendition="#c"><hi rendition="#b">Was du thuſt/ ſo bedencke das<lb/>
+Ende/ ſo wirſtu nimmermehr<lb/>
+vbels thun.</hi></hi></quote></cit></div><lb/>
+<div type="fsExordium" n="2"><head><hi rendition="#fr">Eingang.</hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">A</hi>Ndaͤchtige vnd Gelieb-</hi><lb/>
+te in dem <hi rendition="#k">Herrn</hi> Jeſu Chri-<lb/>
+ſto: Es haben auch die ver-<lb/>
+nuͤnfftigen Heyden/ die jeni-<lb/>
+gen vor kluge vnd verſtaͤndi-<lb/>
+ge Leute gehalten/ welche jhre<lb/>
+Sachen vnd alles fuͤrnehmen anfaͤnglich wol<lb/>
+erwogen/ nicht allein wie es weißlich anzu-<lb/>
+fangen/ ſondern auch gluͤcklich hinaus zu fuͤh-<lb/>
+<fw type="sig" place="bottom">A ij</fw><fw type="catch" place="bottom">ren/</fw><lb/>
+<pb facs="#f0004" n="[4]"/>
+<fw type="header" place="top">Chriſtliche Leichpredigt.</fw><lb/>
+ren/ vnd was fuͤr ein gutes Ende zugewarten<lb/>
+ſey/ zuvor betrachtet/ darmit ſie nicht viel an-<lb/>
+fangen/ wenig hinaus fuͤhren/ vnd der Leute<lb/>
+Spott/ neben dem Schaden endlich empfin-<lb/>
+den duͤrffen. Viel mehr wil ſolches Chri-<lb/>
+ſten gebuͤhren/ daß ſie nicht vnbedachtſamer<lb/>
+weiſe was fuͤrnehmen vnd anfangen/ ſondern<lb/>
+in allen jhren Worten/ Wercken/ ja auch Ge-<lb/>
+dancken/ das Ende wol erwegen/ ſintemal jhr<lb/>
+HErr vnd Meiſter Jeſus/ Matth. 10. von jh-<lb/>
+nen erfodert/ daß ſie weiſe ſeyn ſollen/ wie die<lb/>
+Schlangen/ vnnd doch ohne falſch/ wie die<lb/>
+Tauben.</p><lb/>
+<p>Eben dieſe Regel ſchreibet jhnen auch fuͤr<lb/>
+der Mann Gottes Moyſes/ im 90. Pſalm da<lb/>
+er ſaget: <hi rendition="#fr">Lehre vns bedencken/ daß wir<lb/>
+ſterben muͤſſen/ auff daß wir Klug wer-<lb/>
+den,</hi> Dieſes bittet von GOtt/ der Koͤnigli-<lb/>
+che Prophet David im 39. Pſalm: <hi rendition="#g"><hi rendition="#k">Herr</hi></hi><lb/>
+<hi rendition="#fr">lehre doch mich/ daß ein Ende mit mir<lb/>
+haben muß/ vnd mein Leben ein Ziel<lb/>
+hat/ vnd ich davon muß.</hi></p><lb/>
+<p>Vnd von dieſen groſſen Heiligen/ hat der<lb/>
+<fw type="catch" place="bottom">Hauß-</fw><lb/>
+<pb facs="#f0005" n="[5]"/>
+<fw type="header" place="top">Chriſtliche Leichpredigt.</fw><lb/>
+Hauß Prediger Syrach/ dieſes verleſene<lb/>
+Spruͤchlein gelernet/ in welchem er alle Men-<lb/>
+ſchen ermahnet/ wenn ſie was anfangen wol-<lb/>
+len/ ſollen ſie zuvor das Ende bedencken/ ſo<lb/>
+werde viel boͤſes vnterwegen bleiben. Er re-<lb/>
+det aber nicht von dem Ende einer jeden Sa-<lb/>
+che oder Handels/ davon das gemeine Sprich-<lb/>
+wort lautet: Anfang bedencke das Ende:<lb/>
+Sondern er handelt von dem letzten ende der<lb/>
+Menſchen/ welches iſt der Todt/ vnd was den-<lb/>
+ſelben nachfall geb/ wie ſolches die vorgehen-<lb/>
+den Wort klaͤrlich weiſen. Denn 1. Ver-<lb/>
+mahnet er ſie/ auch an den Todten Wolthat<lb/>
+zu beweiſen/ das iſt/ ſie Chriſtlich begraben zu<lb/>
+laſſen. 2. Zu dem Trawren/ Laß die wei-<lb/>
+nenden nicht ohne Troſt/ ſondern trawre mit<lb/>
+den trawrigen. 3. Sich nicht zu beſchwe-<lb/>
+ren/ die Krancken zu beſuchen/ vnd jhnen mit<lb/>
+Troſt vnd Rath beyzuſpringen.</p><lb/>
+<p>Gehet demnach Syrach allhier mit To-<lb/>
+des Gedancken vmb/ Denn wenn man iſt bey<lb/>
+Krancken/ wie bald ſiehet man ſie ſterben/ da<lb/>
+muß man des verſtorbenen Freunde troͤſten/<lb/>
+den verſtorbenen zur Erden beſtatten. Da-</p><lb/>
+<fw type="sig" place="bottom">A iij</fw><fw type="catch" place="bottom">mit</fw><lb/>
+<pb facs="#f0006" n="[6]"/>
+<fw place="top" type="header">Chriſtliche Leichpredigt.</fw><lb/>
+<p>Damit man aber nicht allein mit andern<lb/>
+zu thun habe/ vnd ſich ſelbſt darbey vergeſſe/<lb/>
+folget darauff vnſer verleſenes Spruͤchlein/<lb/>
+welches die Menſchen erjnnert/ ſie ſeyn auch<lb/>
+ſterblich/ vnd muͤſſen endlich ein ende nemen/<lb/>
+darumb ſie jhr Leben alſo anſtellen ſollen/ daß<lb/>
+ſie ein gutes Ende nehmen moͤgen/ denn es<lb/>
+heiſt: <hi rendition="#aq">Omnia tunc bona ſunt, clauſula quan-<lb/>
+do bona eſt.</hi> Jſt alſo dieſes Spruͤchlein ein<lb/>
+Leichen Argument/ welches vns zur betrach-<lb/>
+tung des Todes/ vnnd Chriſtlicher Vorberei-<lb/>
+tung/ zu einem ſeligen Ende anmahnet vnd er-<lb/>
+jnnert.</p><lb/>
+<p>Vnd ſolches anjetzo abzuhandeln/ hat<lb/>
+vns Vrſach vnnd Anlaß gegeben/ vnſer ver-<lb/>
+ſtorbener Mitbruder/ Herr Zacharias Wal-<lb/>
+ther/ der Rechten <hi rendition="#aq">Studioſus,</hi> den wir anjetzo<lb/>
+zu ſeinem Ruhebettlein gefolget/ der wol viel-<lb/>
+leicht nicht gehoffet/ noch gedacht hette/ daß<lb/>
+jhm ſein Ende allhier bey vns zu Leipzig/ von<lb/>
+GOtt beſcheret werde. Es iſt jhm aber der<lb/>
+Todt ſo lange nachgeſchlichen/ biß er jhn er-<lb/>
+haſcht/ ins Siechbette geworffen/ in welchem<lb/>
+er gemercket/ das ſein Ende verhanden/ vnd<lb/>
+<fw place="bottom" type="catch">dem-</fw><lb/>
+<pb facs="#f0007" n="[7]"/>
+<fw place="top" type="header">Chriſtliche Leichpredigt.</fw><lb/>
+dem nach zu einem ſeligen abſchied ſich Chriſt-<lb/>
+lich bereitet.</p><lb/>
+<p>Es wil aber in dieſen Worten Syrach<lb/>
+vns dreyerley lehren<hi rendition="#i">:</hi></p><lb/>
+<list><item><hi rendition="#aq">I.</hi> <hi rendition="#fr"> Was da ſey </hi> <hi rendition="#aq">Vita Chriſtianorum,</hi><lb/>
+der Chriſten Leben/ nemlich <hi rendition="#aq">operari,</hi><lb/>
+etwas thun.</item><lb/>
+<item><hi rendition="#aq">II.</hi> <hi rendition="#fr"> Was ſie </hi> <hi rendition="#aq">in Opere,</hi> <hi rendition="#fr"> in allem jrem</hi><lb/>
+thun bedencken ſollen/ nemlich <hi rendition="#aq">finem<hi rendition="#i">;</hi></hi><lb/>
+das Ende.</item><lb/>
+<item><hi rendition="#aq">III.</hi> <hi rendition="#fr"> Warzu jhnen ſolche Betrach-</hi><lb/>
+tung des Todes nuͤtzlich ſey/ nemlich<lb/>
+ſie werden nimmermehr vbels thun.</item></list><lb/>
+<p>Dieſe drey Puͤnctlein/ wollen wir mit<lb/>
+einander in der Furcht des <hi rendition="#k">Herrn</hi> betrach-<lb/>
+ten/ derſelbe wolle vns ſeine Gnad vnd Bey-<lb/>
+ſtand des heiligen Geiſtes reichlich verleyhen/<lb/>
+vmb Jeſu Chriſti willen/ Amen.</p></div><lb/>
+<div type="fsMainPart" n="2"><head/>  <div n="3"><head><hi rendition="#b">Erklaͤrung des Erſten Puncts.</hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">A</hi>Nfaͤnglich wiſſen Ewer Chriſtliche</hi><lb/>
+Liebe/ das Gott ein <hi rendition="#k">Herr</hi> iſt Himmels<lb/>
+vnd der Erden/ ein allmaͤchtiger Gott/ ein <hi rendition="#aq">El</hi><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">Schadai,</hi></fw><lb/>
+<pb facs="#f0008" n="[8]"/>
+<fw place="top" type="header">Chriſtliche Leichpredigt.</fw><lb/>
+<hi rendition="#aq">Schadai,</hi> ein vollkommener <hi rendition="#k">Herr/</hi> dem nich-<lb/>
+tes mangelt/ noch mangeln kan/ ſondern alles<lb/>
+vollauff vnnd vbrig hat. Es berichtet aber<lb/>
+doch die H. Schrifft/ daß er jhm vnſert hal-<lb/>
+ben viel zu thun gemacht/ in dem er von Ewig-<lb/>
+keit her beſchloſſen/ die Menſchen zu ſchaffen/<lb/>
+vnd ewig ſelig zu machen/ wie er denn von E-<lb/>
+wigkeit in Chriſto/ alle Glaͤubigen zum ewi-<lb/>
+gen Leben erwecket/ Epheſ. 1. Jn der fuͤlle der<lb/>
+Zeit den Menſchen/ vnd vmb des willen den<lb/>
+gantzen Erdenkreiß in ſechs Tagen erſchaffen/<lb/>
+Geneſ. 1. vnd denſelben biß anhero traͤget mit<lb/>
+ſeinem kraͤfftigen Wort/ Hebr. 1. vnd erhelt/<lb/>
+davon Chriſtus meldet/ Johan. am 5. Cap.<lb/>
+<hi rendition="#fr">Mein Vater wircket bißher/ vnnd ich<lb/>
+wircke auch.</hi></p><lb/>
+<p>Weiter iſt auch offenbar/ das GOtt den<lb/>
+Menſchen nach ſeinem Ebenbild erſchaffen/<lb/>
+der jhm gleich ſeyn ſolt/ vnd in ſeine Fußtapf-<lb/>
+fen trete: Derowegen er den Menſchen/ ſo<lb/>
+bald er erſchaffen worden/ in den Paradiß ge-<lb/>
+ſetzet/ daß er denſelben bawen/ ſeiner warten<lb/>
+vnd pflegen ſolle/ Geneſ. am 2. auch nach dem<lb/>
+<fw place="bottom" type="catch">Suͤn-</fw><lb/>
+<pb facs="#f0009" n="[9]"/>
+<fw place="top" type="header">Chriſtliche Leichpredigt.</fw><lb/>
+Suͤndenfall ſolche Arbeit nicht von jhm ge-<lb/>
+no<choice><abbr>m̃</abbr><expan>mm</expan></choice>en/ ſondern den Naſenſchweiß zur ſtraffe<lb/>
+darzu geſetzet/ daß er im Schweiß ſeines An-<lb/>
+geſichts/ ſein Brod eſſen ſolte/ Geneſ. 3.</p><lb/>
+<p>Das alſo Gott in der Welt keinen Muͤſ-<lb/>
+ſiggaͤnger wil haben/ ſondern arbeiten: Vnd<lb/>
+wo ſie ſolche Anordnung verachten/ hoͤren<lb/>
+muͤſſen die Wort des himliſchen Haußvaters/<lb/>
+<hi rendition="#aq">Matth. 20. Quid ſtatis ocioſi,</hi> <hi rendition="#fr"> Was<lb/>
+ſtehet jhr den gantzen Tag muͤſſig:</hi> Vnd<lb/>
+das Vrtheil S. Pauli: <hi rendition="#fr">Wer nicht wil ar-<lb/>
+beiten/ ſoll auch nicht eſſen/</hi> 2. <hi rendition="#aq">Theſſal.</hi> 3.</p><lb/>
+<p>Jm Bapſithumb gibt es viel muͤſſige Leu-<lb/>
+te/ Muͤnche/ Nonnen. Vorzeiten waren<lb/>
+die Euchiten ſolche Geſellen/ die nur beteten/<lb/>
+vnd andere lieſſen arbeiten/ aber es heiſſet/<lb/>
+<hi rendition="#aq">Ora &amp; labora,</hi> man ſoll beten vnnd arbeiten/<lb/>
+vnd eines neben dem andern verrichten/ Be-<lb/>
+ten ſollen wir als Chriſten/ arbeiten als Men-<lb/>
+ſchen/ keiner hat allhier ein <hi rendition="#aq">Privilegium</hi> fuͤr<lb/>
+dem andern.</p><lb/>
+<p>Ferner vnd zum andern/ weil nach dem<lb/>
+klaͤglichen Suͤndenfall vnſer erſten Eltern/<lb/>
+<fw place="bottom" type="sig">B</fw><fw place="bottom" type="catch">die</fw><lb/>
+<pb facs="#f0010" n="[10]"/>
+<fw type="header" place="top">Chriſtliche Leichpredigt.</fw><lb/>
+die Arbeit den Menſchen ſawer gemacht/ da-<lb/>
+durch die Kraͤfften geſchwaͤchet/ vnnd der<lb/>
+Schweiß außgetrieben wird/ Hat der getre-<lb/>
+we Gott/ Gnade fuͤr Recht gehen laſſen/ vnd<lb/>
+verordnet/ daß der Menſch des Tages ſeine<lb/>
+Arbeit verrichten/ vnd des Nachts außruhen/<lb/>
+vnd die abgematteten Glieder ſich wieder er-<lb/>
+holen laſſen ſol. Von welcher Ordnung Got-<lb/>
+tes/ der Koͤnigliche Prophet David redet im<lb/>
+104. Pſalm: <hi rendition="#fr">Du macheſt Finſternuͤß das<lb/>
+es Nacht wird/ da regen ſich alle wilde<lb/>
+Thier/ die jungen Loͤwen die da bruͤllen<lb/>
+nach dem Raub/ vnd jhre Speiſe ſuchen<lb/>
+von Gott/ Wenn aber die Sonne auff-<lb/>
+gehet/ heben ſie ſich darvon/ vnd legen<lb/>
+ſich in jhre Loͤcher/ So gehet denn der<lb/>
+Menſch aus an ſeine Arbeit/ vnd an ſein<lb/>
+Ackerwerck/ biß an den Abend.</hi></p><lb/>
+<p>So ſoll nun dieſe Ordnung Gottes/ ein<lb/>
+jeder in acht nemen/ vnd ſeine Guͤte gegen vns<lb/>
+Menſchen/ daraus erkennen/ daß er vns die<lb/>
+Ruhe goͤnnet/ vnnd in der Arbeit nicht vber-<lb/>
+<fw type="catch" place="bottom">treiben</fw><lb/>
+<pb facs="#f0011" n="[11]"/>
+<fw type="header" place="top">Chriſtliche Leichpredigt.</fw><lb/>
+treiben wil. Es wil aber Gott dadurch nicht<lb/>
+auffgehoben haben/ die Fuͤrſichtigkeit/ vnd<lb/>
+Sorgen der Obrigkeit/ welche fuͤr andere<lb/>
+wachen muͤſſen: Denn ein fuͤrſichtiger Re-<lb/>
+gent/ ſoll nicht die gantze Nacht durch ſchlaf-<lb/>
+fen/ wie vom Koͤnige Ahaſvero zu leſen/ im<lb/>
+Buͤchlein Eſther am ſechſten Capitel/ ſie muͤſ-<lb/>
+ſen auch Nachtwaͤchter beſtellen/ welche zuſe-<lb/>
+hen/ weil andere ruhen vnd ſchlaffen/ das nit<lb/>
+durch Fewer oder boͤſe Buben/ andere in Ge-<lb/>
+fahr geſetzet werden. Wer aber ſonſt fuͤr ſich<lb/>
+ohne erhebliche Vrſach/ die Ruhe ſtoͤret/ vnd<lb/>
+die Nacht mit ſchwelgen vnnd ſchwermen zu-<lb/>
+bringet/ der bricht Gottes Ordnung/ Vber<lb/>
+ſolche ſchreyet der Prophet Eſaias das Weh/<lb/>
+Cap. 7. die nemlich ſitzen biß in die Nacht/ biß<lb/>
+ſie der Wein erhitze/ ſchreiten auch aus jhrem<lb/>
+Beruff/ vnd dem Geleit der heiligen Engel/<lb/>
+kommen leicht zu Schaden/ denn die Nacht iſt<lb/>
+niemands Freund/ vnd behalten darneben ein<lb/>
+boͤſes Gewiſſen.</p><lb/>
+<p>Vber das vnd zum dritten/ hat der weiſe<lb/>
+Gott die Arbeit des Tages eingetheilet/ vnd<lb/>
+einem jeden einen gewiſſen beruff/ vnd in dem-<lb/>
+<fw type="sig" place="bottom">B ij</fw><fw type="catch" place="bottom">ſelben</fw><lb/>
+<pb facs="#f0012" n="[12]"/>
+<fw type="header" place="top">Chriſtliche Leichpredigt.</fw><lb/>
+ſelben ſeine Arbeit aufferleget/ in derſelben<lb/>
+ſoll ſich einer finden laſſen/ wil er den Segen<lb/>
+Gottes/ Gluͤck vnd Wolfahrt haben/ Denn<lb/>
+einer nicht alles verrichten kan vnd mag/ es<lb/>
+wird jhm viel zu ſchwer werden/ darumb hat<lb/>
+GOtt die Arbeit den Menſchen in die drey<lb/>
+Staͤnde eingetheilet/ vnnd jhnen zweyerley<lb/>
+Arbeit aufferleget.</p><lb/>
+<p>1. Kopff arbeit/ welche den Geiſtlichen<lb/>
+vnd Weltlichen Standt fuͤrnemlich angehet.</p><lb/>
+<p>Ein Prediger ſoll Gottes Wort lehren/<lb/>
+da gehoͤret viel zu/ daß er der Sprachen maͤch-<lb/>
+tig/ der Streit Schrifften kuͤndig ſey/ in der<lb/>
+Bibel wol beleſen/ in den Kirchen Hiſtorien er-<lb/>
+fahren ſey/ Er muß lernen die Gemuͤther ken-<lb/>
+nen/ das Wort Gottes recht treiben/ ſtraffen<lb/>
+die ſtraffwuͤrdig/ ermahnen die da jrren/ troͤ-<lb/>
+ſten die trawrigen/ ꝛc.</p><lb/>
+<p>Jm gleichen eine Obrigkeit ſoll halten v-<lb/>
+ber Gottes Wort/ vnd gute Kirchen <hi rendition="#aq">diſciplin,</hi><lb/>
+vber Recht vnd Gerechtigkeit/ da gibet es viel<lb/>
+nachdenckens/ die Welt iſt arg/ verſchlagen/<lb/>
+vnd tuͤckiſch/ auch vnbendig/ die Warheit thut<lb/>
+man vertuſchen/ die Leute beliegen. Das nu<lb/>
+<fw type="catch" place="bottom">ein</fw><lb/>
+<pb facs="#f0013" n="[13]"/>
+<fw type="header" place="top">Chriſtliche Leichpredigt.</fw><lb/>
+ein Regent fuͤrſichtig wandele/ keinem theil<lb/>
+zu wenig oder zu viel thu/ das giebet nachden-<lb/>
+cken vnd muͤhe.</p><lb/>
+<p>2. Handtarbeit/ welche im Haͤußlichen-<lb/>
+Standt fuͤrnemlich zu finden/ Ein Haußva-<lb/>
+ter muß ſeine Haußhaltung/ ein Bawer ſeine<lb/>
+Ecker/ ein Hirte ſein Vieh/ ein Handwercks-<lb/>
+Mann ſein Handwerck vnd Laden beſtellen/<lb/>
+damit ein jedes zu ſeiner Zeit verrichtet/ ver-<lb/>
+faͤrtiget/ verkauffet/ genuͤtzet werde.</p><lb/>
+<p>Jn dieſer Staͤnde einen/ hat Gott einem<lb/>
+jeden Menſchen geſetzet/ da findet er ſein Ta-<lb/>
+gewerck/ das ſoll er zuverrichten jhm trewlich<lb/>
+laſſen angelegen ſeyn/ ſo wird er in der That<lb/>
+erfahren/ was David ſaget im 128. Pſalm:<lb/>
+<hi rendition="#fr">Wol dem/ der den HErrn fuͤrchtet/ vnd<lb/>
+auff ſeinen Wegen gehet/ du wirſt dich<lb/>
+nehren deiner Haͤnde Arbeit/ wol dir du<lb/>
+haſtes gut.</hi></p><lb/>
+<p>Endlich vnd zum vierdten/ zu dem Geiſt-<lb/>
+lichen Standt/ gehoͤren nicht allein Kirchen/<lb/>
+in welchen Lehrer vnd Zuhoͤrer gefunden wer-<lb/>
+den/ ſondern auch die Schulen/ es ſein Stadt-<lb/>
+<fw type="sig" place="bottom">B iij</fw><fw type="catch" place="bottom">Schuͤ-</fw><lb/>
+<pb facs="#f0014" n="[14]"/>
+<fw type="header" place="top">Chriſtliche Leichpredigt.</fw><lb/>
+Schulen oder Hohe Schulen/ denn vor alters<lb/>
+die Schulen durch die Lehrer der Kirchen/ re-<lb/>
+gieret vnd verſehen ſind worden/ Vnd finden<lb/>
+ſich auch darinnen zwey hauffen/ <hi rendition="#aq">Præceptores</hi><lb/>
+vnd <hi rendition="#aq">Profeſſores,</hi> vnd denn <hi rendition="#aq">Diſcipuli:</hi> Jener<lb/>
+Ampt iſt/ daß ſie fleiſſig leſen vnd <hi rendition="#aq">repetiren,</hi> in<lb/>
+guten Kuͤnſten vnnd Sprachen/ in Gottes-<lb/>
+furcht vnd andern <hi rendition="#aq">ſcientiis:</hi> Jhre vertrawte<lb/>
+Zuhoͤrer vnterweiſen/ auch gute <hi rendition="#aq">diſciplin</hi> fuͤh-<lb/>
+ren: Dieſer aber der Studenten gebuͤhr iſt/<lb/>
+ſolches lernen/ vnd jhnen folgen: Wenn ſie<lb/>
+demnach jhrem Ampt ein genuͤgen thun/ vnd<lb/>
+gegen Gott verantworten wollen/ ſo muͤſſen<lb/>
+ſie ſich zu Hauß in jhrem Studier Stuͤblein/<lb/>
+auſſer dem in der Kirchen vnd <hi rendition="#aq">Auditoriis</hi> fin-<lb/>
+den laſſen/ dahin ſind ſie gewieſen/ nicht im<lb/>
+Stall zum reiten/ auff dem Boden zu fechten<lb/>
+vnd tantzen/ auff der Gaſſen zu ſpatziren/ vnd<lb/>
+andere zu vervnruhigen/ ſondern es heiſſet/<lb/>
+<hi rendition="#aq">hoc age,</hi> ſie ſollen ſtudieren/ darumb werden<lb/>
+ſie hergeſand/ vnd groſſe Vnkoſten von jhren<lb/>
+Eltern vnd Patronen auff ſie gewendet/ thun<lb/>
+ſie ſolches nicht/ ſo ſchreiten ſie aus Gottes<lb/>
+Ordnung/ vnd haben wenig Segen zu hoffen/<lb/>
+<fw type="catch" place="bottom">kom-</fw><lb/>
+<pb facs="#f0015" n="[15]"/>
+<fw type="header" place="top">Chriſtliche Leichpredigt.</fw><lb/>
+kommen ſie gleich endlich zu Dienſte/ ſo ni<choice><abbr>m̃</abbr><expan>mm</expan></choice>et<lb/>
+doch jhr fuͤrnemen den Krebsgang/ de<choice><abbr>ñ</abbr><expan>nn</expan></choice> ſie den<lb/>
+Segen ſchon verſchuͤttet haben. Darumb<lb/>
+ſollen ſie nicht gedencken/ wenn ſie fruͤhe ein<lb/>
+Stunde oder drey ſtudieren/ darnach ſey der<lb/>
+gantze Tag frey/ den muͤſſen ſie vnnuͤtzlich<lb/>
+zubringen. Nein/ den Tag/ vnd nicht etliche<lb/>
+Stunden/ ſind dem Menſchen zur Arbeit ver-<lb/>
+ordnet: Es kan darneben Gott ein froͤliches<lb/>
+Stuͤndlein/ vnd ehrliche <hi rendition="#aq">recreation,</hi> mit tan-<lb/>
+tzen/ fechten/ reiten/ etc. wol goͤnnen/ aber es<lb/>
+muß nicht das <hi rendition="#aq">principale</hi> ſeyn/ vnd der Stu-<lb/>
+denten Handwerck. So muͤſſen ſie auch nicht<lb/>
+gedencken/ der Tag zum ſtudieren fange ſich<lb/>
+an/ wenn die Sonne ins Bett ſcheinet/ <hi rendition="#aq">auro-<lb/>
+ra Muſis amica,</hi> die Fruͤhſtunden ſind am be-<lb/>
+quemeſten/ die ſoll man nicht verſchlaffen/ die<lb/>
+gantze Nacht ſitzen/ iſt zu viel/ man martert<lb/>
+den Leib abe/ vnd ſtirbet fuͤr der Zeit<hi rendition="#i">:</hi> Aber<lb/>
+ein Stuͤndlein zwey oder drey dem Tage zu<lb/>
+geben/ iſt nicht verboten. Dieſe jhre gebuͤhr<lb/>
+vnnd Ampt ſollen alle Studenten wol in acht<lb/>
+nehmen: Was du thuſt/ Du ſolt aber ſtu-<lb/>
+dieren/ thuſt du das/ ſo biſtu in deinem Be-<lb/>
+<fw type="catch" place="bottom">ruff/</fw><lb/>
+<pb facs="#f0016" n="[16]"/>
+<fw place="top" type="header">Chriſtliche Leichpredigt.</fw><lb/>
+ruff/ vnd GOtt ſegnet dein fuͤrnehmen/ das<lb/>
+deine Eltern/ Freunde/ vnd Patronen/ Ehr<lb/>
+vnd Frewde an dir erleben. Thuſtu es aber<lb/>
+nicht/ ſondern legeſt dich auff die faule oder<lb/>
+ſchlimme Seiten/ ſo wiſſe/ gleich wie ein Waſ-<lb/>
+ſer/ das jmmer ſtille ſtehet/ in ſich ſelbſt faulet/<lb/>
+vnd ſtinckend wird/ alſo auch die Menſchen/<lb/>
+<hi rendition="#aq">Nihil agendo malè agere diſcunt<hi rendition="#i">:</hi></hi> Wenn ſie<lb/>
+nichts thun/ ſo lernen ſie arges thun/ denn die<lb/>
+Seel im Menſchen ruhet nicht/ vnd als dann<lb/>
+wird <hi rendition="#aq">Otium pulvinar Sathanæ,</hi> v<choice><abbr>ñ</abbr><expan>nd</expan></choice> wird durch<lb/>
+ſolche Muͤſſiggaͤnger/ aus anſtifftung des lei-<lb/>
+digen Sathans/ viel Vngluͤck vnd Vnruh ge-<lb/>
+ſtifftet. Dafuͤr fromme Studenten hiermit<lb/>
+ſollen gewarnet ſeyn.</p></div><lb/>
+<div n="3"><head><hi rendition="#b">Vom Andern Punct.</hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">Z</hi>Vm Andern/ Nach dem Chriſten</hi><lb/>
+wiſſen/ daß ſie nicht zum Muͤſſiggang/<lb/>
+ſondern zur Arbeit ſind beruffen/ Lernet ſie<lb/>
+Syrach ferner/ was ſie in aller jhrer Arbeit<lb/>
+thun vnd fuͤrnehmen/ bedencken vnd betrach-<lb/>
+ten ſollen/ nemlich das Ende. Es haben die<lb/>
+alten Kirchenlehrer/ <hi rendition="#aq">Bernhardus</hi> vnd andere/<lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">quatuor</hi></fw><lb/>
+<pb facs="#f0017" n="[17]"/>
+<fw type="header" place="top">Chriſtliche Leichpredigt.</fw><lb/>
+<hi rendition="#aq">quatuor Noviſsima,</hi> Vier letzte Dinge dem<lb/>
+Menſchen zu betrachten fuͤrgeſtellet/ welche<lb/>
+<hi rendition="#aq">Finis,</hi> das Ende des Menſchen/ in heiliger<lb/>
+Schrifft genennet werden.</p><lb/>
+<p>Das 1. iſt <hi rendition="#aq">Mors,</hi> der zeitliche Todt/<lb/>
+welcher das Band des Leibes vnd der Seelen<lb/>
+auffloͤſet/ vnd das Ende iſt des jrrdiſchen Le-<lb/>
+bens: Alſo redet darvon Bileam im vierdten<lb/>
+Buch Moſis am 23. Cap. Mein Ende werde<lb/>
+wie dieſer Ende/ vnnd meine Seele muͤſſe ſter-<lb/>
+ben des Todes dergleichen. Es redet GOtt<lb/>
+ſelbſt alſo/ Geneſ. 6. Alles Fleiſches Ende iſt<lb/>
+fuͤr mir kommen/ dorauff die Suͤndfluth er-<lb/>
+folget/ vnd wird ein Ende gemacht aller Men-<lb/>
+ſchen vnd jrrdiſchen Creaturen. Jmgleichen<lb/>
+redet von der gottloſen Todt/ der 73. Pſalm/<lb/>
+Er habe gemercket auff jhr Ende. Denn da<lb/>
+gehet es an ein ſcheiden/ von dieſer Welt/ die<lb/>
+Seele fehret an jhren Ort/ den Leib ſcharret<lb/>
+man in die Erden/ da verweſet er/ es hat mit<lb/>
+jhm auff dieſer Welt ein ende.</p><lb/>
+<p>Das 2. iſt <hi rendition="#aq">Judicium,</hi> der letzte Tag<lb/>
+der Welt/ an welchem das Juͤngſte Gerichte<lb/>
+ſoll gehalten werden/ wie der HErr Chriſtus<lb/>
+<fw type="sig" place="bottom">C</fw><fw type="catch" place="bottom">bezeu-</fw><lb/>
+<pb facs="#f0018" n="[18]"/>
+<fw type="header" place="top">Chriſtliche Leichpredigt.</fw><lb/>
+bezeuget/ Johan. 12. Das Wort daß ich gere-<lb/>
+det habe/ wird jhn richten am juͤngſten Tage.<lb/>
+Vnnd der Tag wird genennet/ das Ende der<lb/>
+Welt/ Matth. 13. Denn ob ſich wol gottloſe<lb/>
+Spoͤtter finden/ die da ſagen<hi rendition="#i">:</hi> Wo iſt die ver-<lb/>
+heiſchung ſeiner Zukunfft? De<choice><abbr>ñ</abbr><expan>nn</expan></choice> nach dem die<lb/>
+Vaͤter entſchlaffen ſind/ bleibet es alles/ wie<lb/>
+von anfang der Creaturen geweſen iſt. Dar-<lb/>
+uͤber der Apoſtel Petrus ſchon klaget/ in der<lb/>
+andern Epiſtel am 3. Capit. Vnd die Welt-<lb/>
+weiſen Heyden/ weder vom anfang noch ende<lb/>
+der Welt/ etwas gewiſſes gewuſt haben: So<lb/>
+glaͤuben doch Chriſten mit der Schrifft/ daß<lb/>
+Himmel vnd Erden werden vergehen/ Luc. 21.<lb/>
+mit groſſem krachen/ die Element werden fuͤr<lb/>
+Hitze ſchmeltzen/ vnd die Erde/ vnd die Werck<lb/>
+die darinnen ſind/ werden verbrennen/ in der<lb/>
+1. Petri am 3. Cap. vnd alſo ein ende nehmen.</p><lb/>
+<p>Das 3. iſt <hi rendition="#aq">Cruciatus gehennæ,</hi> die e-<lb/>
+wige Qual vnd Marter in der Hellen/ das iſt<lb/>
+das ende der Gottloſen vnglaͤubigen Welt/<lb/>
+wie der Apoſtel Paulus lehret/ Philip. am 3.<lb/>
+die Feinde des Creutzes Chriſti/ welcher Ende<lb/>
+iſt das Verdamnuͤß. Denn wenn der HErr<lb/>
+<fw type="catch" place="bottom">Chri-</fw><lb/>
+<pb facs="#f0019" n="[19]"/>
+<fw place="top" type="header">Chriſtliche Leichpredigt.</fw><lb/>
+Chriſtus das letzte Gericht wird gehalten/ v<choice><abbr>ñ</abbr><expan>nd</expan></choice><lb/>
+das Endurtheil vber die gottloſen geſprochen<lb/>
+haben/ ſo werden ſie gehen in die ewige Pein/<lb/>
+Matth. 25. da wird jhr Wurm nicht ſterben/<lb/>
+vnd jhr Fewer nicht verloͤſchen/ vnd werden<lb/>
+allem Fleiſch ein grewel ſeyn/ Eſa. 66.</p><lb/>
+<p>Das 4. iſt <hi rendition="#aq">Vita æterna,</hi> das ewige Le-<lb/>
+ben/ das iſt das Ende vnſers Glaubens/ wie<lb/>
+der Apoſtel Petrus vns lehret/ in ſeiner erſten<lb/>
+Epiſtel am 1. Capit. So werdet jhr euch fre-<lb/>
+wen/ mit vnaußſprechlicher Frewde/ vnd das<lb/>
+ende ewers Glaubens darvon bringen/ nem-<lb/>
+lich der Seelen ſeligkeit: Dahin gehet alles<lb/>
+tichten vnnd trachten der Chriſten/ darnach<lb/>
+ſehnen ſie ſich/ denn es wird eine ſolche groſſe<lb/>
+Frewde ſeyn/ dergleichen kein Auge geſehen/<lb/>
+kein Ohr gehoͤret/ vnnd in keines Menſchen<lb/>
+Hertz kommen iſt.</p><lb/>
+<p>Dieſes ſind die vier <hi rendition="#aq">Noviſsima,</hi> vnd letz-<lb/>
+te Stuͤcke/ welche ein jeder Chriſt fleiſſig ſoll<lb/>
+betrachten/ vnd laſſen ſich nicht ſcheiden/ denn<lb/>
+wenn der Todt den anfang gemacht/ ſo folget<lb/>
+das Gericht/ es ſey <hi rendition="#aq">in particulari</hi> oder <hi rendition="#aq">univer-<lb/>
+ſali,</hi> denn es iſt dem Menſchen geſetzet/ einmal<lb/>
+<fw place="bottom" type="sig">C ij</fw><fw place="bottom" type="catch">zu ſter-</fw><lb/>
+<pb facs="#f0020" n="[20]"/>
+<fw type="header" place="top">Chriſtliche Leichpredigt.</fw><lb/>
+zu ſterben/ darnach das Gerichte/ Hebr. am 9.<lb/>
+So bald aber das Gericht gehalten/ vnd das<lb/>
+Vrtheil geſprochen/ erfolget auch die <hi rendition="#aq">execu-<lb/>
+tio,</hi> daß ſie gehen/ entweder in das Leben vnd<lb/>
+Glori des Himmels/ oder in die Hellen/ wie<lb/>
+der <hi rendition="#g"><hi rendition="#k">Herr</hi></hi> Chriſtus den gantzen Proceß/<lb/>
+Matth 25. beſchreibet.</p><lb/>
+<p>Wenn wir aber dem Syrach auff ſeine<lb/>
+Wort vnd <hi rendition="#aq">intent</hi> achtung geben/ daß er han-<lb/>
+delt von Kranckheit des Leibes/ vnd des Ge-<lb/>
+muͤthes/ oder bekuͤmmernuͤß von Begraͤbnuͤſ-<lb/>
+ſen/ vnd ende des Menſchen/ muͤſſen wir be-<lb/>
+kennen/ daß er fuͤrnemlich von dem erſten <hi rendition="#aq">no-<lb/>
+viſsimo,</hi> von dem zeitlichen Tode rede/ (doch<lb/>
+ſind die andern Stuͤck nicht außgeſchloffen/)<lb/>
+welcher auch von den Heyden/ <hi rendition="#aq">Ultima linea<lb/>
+rerum,</hi> das Ende alles dinges genennet wird.</p><lb/>
+<p>Vnd dieſes Ende des Menſchlichen Le-<lb/>
+bens/ wer es nach der vermahnung Syrach/<lb/>
+Chriſtlich betrachten wil/ der muß nach fol-<lb/>
+gende Stuͤcken nachdencken:</p><lb/>
+<p>1. Muß er gleuben/ <hi rendition="#aq">Mortis acer bitudinem,</hi><lb/>
+das kein Menſch ewig lebe/ ſondern nach dem<lb/>
+Suͤndenfall iſt daß <hi rendition="#aq">univerſal</hi> Vrtheil/ ſo vber<lb/>
+<fw type="catch" place="bottom">das</fw><lb/>
+<pb facs="#f0021" n="[21]"/>
+<fw place="top" type="header">Chriſtliche Leichpredigt.</fw><lb/>
+das gantze Menſchliche Geſchlecht ergangen/<lb/>
+<hi rendition="#fr">Du biſt Erden/ vnd ſolt zur Erden wer-</hi><lb/>
+den: Darumb ſagt die Epiſtel an die Hebreer<lb/>
+am 9. Cap. Es ſey dem Menſchen geſetzt ein-<lb/>
+mal zu <choice><sic>ſterbeu</sic><corr>ſterben</corr></choice>. GOtt hat dieſes <hi rendition="#aq">decret</hi> vnd<lb/>
+Satz gemacht/ kein Menſch kan es vber ſchrei-<lb/>
+ten/ das iſt der Weg alles Fleiſches/ Joſu. 23.<lb/>
+Sind gleich zwey lebendig in Himmel abgefo-<lb/>
+dert/ ſo ſind es doch <hi rendition="#aq">ſingularia,</hi> vnd dienen zu<lb/>
+vergewiſſerung des ewigen Lebens. Jns ge-<lb/>
+mein <choice><sic>ader</sic><corr>aber</corr></choice>/ hat keiner kein <hi rendition="#aq">Privilegium,</hi> wir<lb/>
+ſterben alle.</p><lb/>
+<p>2. <hi rendition="#aq">Horæ incertitudinem,</hi> Das ob wol der<lb/>
+Todt gewiß iſt/ ſo iſt doch die Zeit vnd Stun-<lb/>
+de des Todes vngewiß/ Darumb ſaget der al-<lb/>
+te Kirchenlehrer <hi rendition="#aq">Bernhardus: Mors ſeni in ja-<lb/>
+nuis, inveni in inſidiis,</hi> der Todt wartet Jun-<lb/>
+gen vnd Alten auff den Dienſt: Den Alten<lb/>
+ſtehet er in der Thuͤr/ ſie ſehen an jhrem Leibe/<lb/>
+daß der Todt jhnen nahe ſeyn muß: Die jun-<lb/>
+gen aber meynen/ weil ſie ſtarck vnd geſundt<lb/>
+ſeyn/ ſo ſey der Todt noch ferne/ aber er lau-<lb/>
+ret heimlich auff ſie/ vnd ehe ſie ſichs verſehen/<lb/>
+iſt er mit ſeiner Senſen hinter jhnen her/ vnd<lb/>
+<fw place="bottom" type="sig">C iij</fw><fw place="bottom" type="catch">hawet</fw><lb/>
+<pb facs="#f0022" n="[22]"/>
+<fw type="header" place="top">Chiriſtliche Leichpredigt.</fw><lb/>
+hawet ſie abe/ daß ſie wie die ſchoͤnen Blumen<lb/>
+auff den Wieſen dahin fallen/ ploͤtzlich ver-<lb/>
+welcken. Gott weiß wol die Stunde des To-<lb/>
+des/ denn er hat ſie geſetzet/ aber dem Men-<lb/>
+ſchen hat er es nicht offenbahret/ auff daß ſie<lb/>
+nicht ſicher werden/ vnnd jhre Buſſe biß auff<lb/>
+die letzte Stunde ſparen.</p><lb/>
+<p>3. <hi rendition="#aq">Propinquitatem,</hi> Daß der Todt nicht<lb/>
+weit ſey/ ſondern alle Tage ſeiner zu befahren<lb/>
+haben/ denn wir ſehen/ wie bald es vmb den<lb/>
+Menſchen geſchehen iſt/ Heute roth/ Morgen<lb/>
+Todt/ vnd fahren ſchnell dahin/ als flohen<lb/>
+wir davon/ im 90. Pſalm/ Vnd je laͤnger wir<lb/>
+leben/ je naͤher wir dem Todte kommen/ denn<lb/>
+die Zahl vnſer Jahre nimmet ſelten zu/ wie<lb/>
+dem Koͤnige Hißkia aus Gnaden wiederfah-<lb/>
+ren/ ſondern mehr ab/ dieweil wir mit vnſern<lb/>
+Suͤnden/ vnd gottloſen Leben/ das Ziel offt<lb/>
+verrucken vnd verkuͤrtzen/ welches der gerech-<lb/>
+te GOtt leſſet geſchehen/ die Gottloſen deſto<lb/>
+eher zur Straffe zu ziehen/ Oder holet auch<lb/>
+wol die Frommen vnverhofft hinweg/ daß ſie<lb/>
+nicht in der Welt verderben/ ſondern zu jhrer<lb/>
+Ruhe befoͤrdert werden.</p><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">In æqua-</hi></fw><lb/>
+<pb facs="#f0023" n="[23]"/>
+<fw type="header" place="top">Chriſtliche Leichpredigt.</fw><lb/>
+<p>4. <hi rendition="#aq">Inæqualitatem,</hi> Daß der Todt vnglei-<lb/>
+cher weiſe zu vns koͤmmet/ etliche ſterben ploͤtz-<lb/>
+lich vnd geſchwind dahin/ daß ſie der Schlag<lb/>
+ruͤhret/ hitziges Fieber/ Stickfloͤß/ vnd ande-<lb/>
+re ein kurtzes Ende machet/ andere muͤſſen ſich<lb/>
+lang quelen/ liegen Jahr vnd Tag ehe es zum<lb/>
+ſterben koͤmmet/ vnd wil doch darnach offt we-<lb/>
+der zum Tode noch Leben ſich ſchicken: Etliche<lb/>
+ſterben eines natuͤrlichen Todes/ andere wer-<lb/>
+den erſchlagen/ erſchoſſen/ erſauffen im Waſ-<lb/>
+ſer/ vnd wird jhnen mit Gewalt das Leben ge-<lb/>
+nommen. Es heiſſet aber allhier gemeinig-<lb/>
+lich/ <hi rendition="#aq">Quilibet eſt faber ſuæ fortunæ,</hi> Es ſey ei-<lb/>
+ner ſelbſt an ſeinem Tode vrſach/ vnd habe ſol-<lb/>
+ches wol verdienet.</p><lb/>
+<p>5. <hi rendition="#aq">Difficultatem,</hi> Das es nicht leicht/ vnd<lb/>
+ein kurtzweil ſey/ ſterben/ ſondern ein ſchwerer<lb/>
+vnd harter ſtandt/ da Angſtſchweiß/ Thraͤ-<lb/>
+nen/ Ach/ Weh vnd Rach/ geſehen vnd gehoͤ-<lb/>
+ret werden. Es bleibet auch nicht bey der Lei-<lb/>
+bes Angſt/ ſondern da wachet offt das Gewiſ-<lb/>
+ſen auff/ vnd helt vns fuͤr die vnerkandte vnd<lb/>
+vngebuͤßte Suͤnden/ der Teuffel iſt auch ge-<lb/>
+ſchaͤfftig/ die ſterbenden zu bewegen/ entweder<lb/>
+<fw type="catch" place="bottom">zur</fw><lb/>
+<pb facs="#f0024" n="[24]"/>
+<fw type="header" place="top">Chriſtliche Leichpredigt.</fw><lb/>
+zur Vngedult/ wenn die Schmertzen groß<lb/>
+ſind/ vnd kein auffhoͤren/ oder zur Liebe des<lb/>
+zeitlichen Gutes/ daran ſie jhr Hertz gehaͤn-<lb/>
+get/ vnd gar ſchwerlich davon laſſen/ vnd ſich<lb/>
+ſcheiden koͤnnen/ biß endlich das Band Leibes<lb/>
+vnd der Seelen getre<choice><abbr>ñ</abbr><expan>nn</expan></choice>et wird/ die zwey hoͤch-<lb/>
+ſten Freunde auff Erden/ laſſen ſich vngerne<lb/>
+ſcheiden.</p><lb/>
+<p>Wer aber die Vermahnung Syrachs in<lb/>
+acht nemen wil/ der muß dieſes ſein Ende wol<lb/>
+bedencken/ daß wir einmahl mit Angſt vnd<lb/>
+Wehe aus der Welt muͤſſen.</p><lb/>
+<p>Vnd ſolche Vermahnung haben nicht al-<lb/>
+lein die Chriſten jederzeit in acht genommen/<lb/>
+welche darumb jhre Graͤber in jhre Luſtgaͤrten<lb/>
+machen laſſen/ wie vom Joſepho/ Matth. 27.<lb/>
+zu leſen iſt/ auff daß/ wenn ſie froͤlich waͤren/<lb/>
+vnnd vielleicht des Todes daruͤber vergeſſen/<lb/>
+ſich an jhren Graͤbern erjnnerten/ es wuͤrde<lb/>
+ein Ende mit jhnen haben/ jhr Leben habe ein<lb/>
+Ziel/ vnd muͤſſen darvon. Sondern auch die<lb/>
+vernuͤnfftigen Heyden in jhren <hi rendition="#aq">Conviviis</hi> vnd<lb/>
+Wolleben/ ein Todten Kopff aufftragen laſ-<lb/>
+ſen/ daß ſich die Gaͤſte in jhrer Frewd des To-<lb/>
+<fw type="catch" place="bottom">des er-</fw><lb/>
+<pb facs="#f0025" n="[25]"/>
+<fw type="header" place="top">Chriſtliche Leichpredigt.</fw><lb/>
+des erjnnerten/ vnd auff jhr Ende gedaͤchten/<lb/>
+welches auch in den Gaſtereyen jhnen koͤndte<lb/>
+beſtimmet ſeyn/ vnd alſo von dem Todt nicht<lb/>
+vnverſehens vbereylet wuͤrden.</p></div><lb/>
+<div n="3"><head><hi rendition="#b">Vom Ditten Punct.</hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">D</hi>Enn vors Dritte/ Es iſt ſolche be-</hi><lb/>
+trachtung den Chriſten in jhrem Leben<lb/>
+ſehr nuͤtzlich vnd erſprießlich. Die Welt Kin-<lb/>
+der gedencken nicht gerne an jhr Ende/ mey-<lb/>
+nen/ es mache nur Melancholiſch Gebluͤte/<lb/>
+vnd ſey genug/ wenn man die Bitterkeit des<lb/>
+Todes fuͤhle/ was wolle man zuvor die Leute<lb/>
+mit martern/ vnnd forchtſam vnd kleinmuͤti-<lb/>
+ger machen: Chriſten Leute aber hoͤren vn-<lb/>
+ſerm Syrach zu/ der ſaget/ Wer ſtets ſein En-<lb/>
+de betrachtet/ der werde nimmermehr ſuͤndi-<lb/>
+gen. Ey wie koͤndte vns beſſer geſchehen/ als<lb/>
+wenn wir dieſes erlangen koͤndten/ weren wir<lb/>
+doch halb im Himmel.</p><lb/>
+<p>Es verhelt ſich aber in Warheit alſo/<lb/>
+wie Syrach ſaget: Denn erſtlich/ Woher<lb/>
+wird der Todt bitter vnnd ſchwer? Von der<lb/>
+<fw type="sig" place="bottom">D</fw><fw type="catch" place="bottom">Suͤn-</fw><lb/>
+<pb facs="#f0026" n="[26]"/>
+<fw type="header" place="top">Chriſtliche Leichpredigt.</fw><lb/>
+Suͤnden/ denn durch die Suͤnde dringet der<lb/>
+Todt hindurch zu den Menſchen/ Rom. am 5.</p><lb/>
+<p>Wer ſich nun fuͤrchtet fuͤr ein ſchweres<lb/>
+Ende/ der huͤtet ſich fuͤr Suͤnden/ damit er es<lb/>
+jhm nicht noch ſchwerer mache. Ein gebraͤnt<lb/>
+Kind/ ſaget man/ fuͤrchtet das Fewer: Laſſet<lb/>
+vns hierinnen auch den Kindern gleich ſeyn/<lb/>
+wie vns Chriſtus vermahnet/ Matth. am 18.<lb/>
+Wir fuͤhlen taͤglich den Todt an vns/ in ſeinen<lb/>
+Vorboten/ in allerley Kranckheiten vnd Be-<lb/>
+truͤbnuͤſſen/ vnnd die machen vns das Leben<lb/>
+ſawer/ warumb wolten wir muthwillig ſuͤn-<lb/>
+digen/ vnd die Laſt noch groͤſſer machen.</p><lb/>
+<p>Leider ſehr viel werden gefunden/ die nach<lb/>
+Vngluͤck ringen/ vnd ſich keiner Suͤnde ſche-<lb/>
+wen/ Ach wenn ſie daran gedaͤchten/ wie bald<lb/>
+iſt es vmb geſunden Leib/ ja vmb Leib vnd Le-<lb/>
+ben felbſt geſchehen/ ſie wuͤrden viel nicht fuͤr-<lb/>
+nehmen vnd thun/ Aber es heiſſet/ <hi rendition="#aq">Sero ſapi-<lb/>
+unt phrygas,</hi> Wenn ſie in Schaden kommen<lb/>
+ſind/ als denn koͤmmet das <hi rendition="#aq">Pœniters,</hi> es iſt a-<lb/>
+ber zu lang geharret.</p><lb/>
+<p>Vors ander/ Wer ſein ende bedencket/ der<lb/>
+huͤtet ſich nicht allein fuͤr Suͤnden/ ſondern<lb/>
+<fw type="catch" place="bottom">auch</fw><lb/>
+<pb facs="#f0027" n="[27]"/>
+<fw place="top" type="header">Chriſtliche Leichpredigt.</fw><lb/>
+auch alles das jenige/ was vrſach vnd gelegen-<lb/>
+heit zu ſuͤndigen gibet: Vnd das iſt mit einem<lb/>
+Wort die Welt/ denn in der Welt iſt vnd heiſ-<lb/>
+ſet es: <hi rendition="#aq">Vanitas vanitatum,</hi> Es iſt alles eytel/<lb/>
+Darumb ſoll ein Chriſt dem Zeitlichen/ vnd<lb/>
+dieſer Welt Guͤtern abſagen/ als welche zu<lb/>
+fuͤndigen vrſach geben. Vnd was iſt in der<lb/>
+Welt/ Augen Luſt/ Fleiſches Luſt/ vnnd hof-<lb/>
+fertiges Weſen? Was reitzet aber die Leute<lb/>
+mehr zu Suͤnden/ als zeitliche Wolluſt/ groſ-<lb/>
+ſe Ehr/ vnd viel Reichthumb/ Daß ſind die<lb/>
+Strick des boͤſen Feindes/ damit er die Men-<lb/>
+ſchen gefangen nimmet/ vnd wenn ſie einmal<lb/>
+anbeiſſen/ koͤnnen ſie ſich deſſen nicht wol wi-<lb/>
+der entbrechen. Wie lang weren aber dieſer<lb/>
+Welt Guͤter?</p><lb/>
+<lg type="poem"><l><hi rendition="#fr">Es wehret nur ein kleine Zeit/</hi></l> <l><hi rendition="#fr"><hi rendition="#et">Vnd hilfft doch nichts zur Seligkeit.</hi></hi></l></lg>   <p>Weil denn nicht allein die Menſchen/<lb/>
+ſondern aller Welt Guͤter ein Ende nehmen/<lb/>
+ſo behertzigen ſolches Chriſten Leute/ wenden<lb/>
+ſich von dem zeitlichen/ zu dem ewigen/ laſſen<lb/>
+GOtt vnd ſein Wort jhre einige Augen- vnd<lb/>
+<fw place="bottom" type="sig">D ij</fw><fw place="bottom" type="catch">Her-</fw><lb/>
+<pb facs="#f0028" n="[28]"/>
+<fw type="header" place="top">Chriſtliche Leichpredigt.</fw><lb/>
+Hertzen Luſt ſeyn/ bekuͤ<choice><abbr>m̃</abbr><expan>mm</expan></choice>ern ſich vmb die Him-<lb/>
+liſche Glori vnd Herrligkeit/ vnnd trachten<lb/>
+nach den Himliſchen Schaͤtzen/ die die Diebe<lb/>
+nicht ſtelen koͤnnen/ noch der Roſt verzehren<lb/>
+kan/ als da ſind/ wahre Erkentnuͤß Gottes/<lb/>
+Glaube an Chriſtum/ vergebung der Suͤn-<lb/>
+den/ Gerechtigkeit/ Heiligkeit/ etc. Denn ſie<lb/>
+wiſſen/ ob es gleich ein ende mit jhnen haben<lb/>
+muß/ ſo hat es doch mit dieſen Guͤtern kein<lb/>
+ende/ ſondern auch nach dem Tode folgen ſie<lb/>
+vns nach/ vnnd im ewigen Leben werden wir<lb/>
+derſelben voͤllig genieſſen.</p><lb/>
+<p>Endlich vnd zum dritten/ dieweil kundt<lb/>
+vnd offenbahr iſt/ daß der Menſch in dieſer<lb/>
+Schwachheit/ wie angelegen er es jhm auch<lb/>
+ſeyn laſſen mag/ gantz Engelrein vnnd ohne<lb/>
+Suͤnden ſein Leben nicht zubringen kan/ So<lb/>
+noͤtiget vnd treibet vns die Betrachtung des<lb/>
+Todes/ dem auch die Heiligen Gottes vnter-<lb/>
+worffen ſeyn/ daß wir vns nach dem Suͤnden-<lb/>
+traͤger Jeſum Chriſtum vmbſehen/ denn der<lb/>
+hat alle Suͤnde auff ſich geno<choice><abbr>m̃</abbr><expan>mm</expan></choice>en/ vnd durch<lb/>
+ſein Blut außgetilget/ Der hat durch ſeinen<lb/>
+Todt den Todt vberwunden/ ſeinen Stachel<lb/>
+<fw type="catch" place="bottom">zu-</fw><lb/>
+<pb facs="#f0029" n="[29]"/>
+<fw type="header" place="top">Chriſtliche Leichpredigt.</fw><lb/>
+zubrochen/ daß er kein Todt/ ſondern ein<lb/>
+Schlaff/ vnd Thuͤr zum ewigen Leben den<lb/>
+Chriſten worden/ der machet das ende des Le-<lb/>
+bens ſuͤſſe/ Denn er iſt das Holtz des Lebens/<lb/>
+wenn wir es in das bittere Waſſer des Todes<lb/>
+werffen/ vnnd durch den Glauben in vnſer<lb/>
+Hertzen faſſen/ ſo iſt der Todt kein Todt mehr/<lb/>
+ſondern ein ſanffter Schlaff.</p><lb/>
+<p>Vnd wer nach einem ſolchen ſanfften<lb/>
+Ende ſeufftzet/ vnd ſich ſehnet/ der erkenne fuͤr<lb/>
+allen dingen ſeine Suͤnde/ damit er den Todt<lb/>
+wol verdienet/ Er ſey nicht aus der Zahl der<lb/>
+Epicurer/ die ſich weder vor dem Todt/ noch<lb/>
+Straffe der Suͤnden fuͤrchten: So wird die<lb/>
+bitterkeit des Todes nicht vertrieben/ ſondern<lb/>
+folget endlich daraus Schrecken/ Zagen des<lb/>
+Gewiſſens/ vnd Verzweiffelung: Darnach<lb/>
+hoͤre er zu dem Evangelio/ gleube an Chri-<lb/>
+ſtum/ der vmb vnſer Suͤnden willen geſtor-<lb/>
+ben/ vnd vmb vnſer Gerechtigkeit willen auff-<lb/>
+erſtanden iſt/ den GOtt vns gemachet hat/<lb/>
+zur Weißheit/ zur Gerechtigkeit/ zur Heili-<lb/>
+gung/ vnd zur Erloͤſung/ Wer an den gleubet/<lb/>
+der wird nicht zu Schanden/ ſondern hat das<lb/>
+<fw type="sig" place="bottom">D jij</fw><fw type="catch" place="bottom">ewige</fw><lb/>
+<pb facs="#f0030" n="[30]"/>
+<fw place="top" type="header">Chriſtliche Leichpredigt.</fw><lb/>
+ewige Leben zu hoffen<hi rendition="#i">!</hi> Darzu muß kommen<lb/>
+ein newer Wandel/ daß man ſich fuͤrſehe fuͤr<lb/>
+der Suͤnden/ ſoviel geſchehen kan/ uͤbe eine<lb/>
+gute Ritterſchafft/ behalte den Glauben/ vnd<lb/>
+gut Gewiſſen. Wer das thut/ der hat ſich<lb/>
+deſſen zu getroͤſten: <hi rendition="#aq">Qui benè vivit, nunqu<choice><abbr>ã</abbr><expan>am</expan></choice><lb/>
+malè moritur, Auguſtinus<hi rendition="#i">:</hi></hi> Wer wol lebet/<lb/>
+vnnd einen Chriſtlichen Wandel fuͤhret/ der<lb/>
+kan nicht vbel ſterben. Vnd daß wir ſolches<lb/>
+thun/ vnd dermal eins ſanfft einſchlaffen moͤ-<lb/>
+gen/ wolle der getrewe GOtt in Gnaden vns<lb/>
+allen/ durch Chriſtum verleyhen/ Amen.</p></div></div><lb/>
+<div type="fsPersonalia" n="2"><head/>  <p><hi rendition="#fr"><hi rendition="#in">W</hi>As nun anlangen thut/ vn-</hi><lb/>
+ſern in GOtt ſelig verſtorbenen<lb/>
+Mitbruder/ dem wir jetzo den letz-<lb/>
+ten Ehren Dienſt beweiſen: Der<lb/>
+Erbare vnd Wolgelarte Zacharias Walther<lb/>
+<hi rendition="#aq">Legum Studioſus.</hi> So iſt mir ſeines Lebens<lb/>
+vnd Wandels halben/ dieſen Bericht zu kom-<lb/>
+men/ daß er im Jahr Chriſti <hi rendition="#g">1597.</hi> in der<lb/>
+Haͤuptſtadt in Schleſien/ zu Breßlaw ſey ge-<lb/>
+bohren.</p><lb/>
+<p>Sein Vater iſt der Ehrwuͤrdige vnd Wol-<lb/>
+<fw place="bottom" type="catch">gelahr-</fw><lb/>
+<pb facs="#f0031" n="[31]"/>
+<fw type="header" place="top">Chriſtliche Leichpredigt.</fw><lb/>
+gelahrte Hern <hi rendition="#aq">M. Lucas</hi> Walther <hi rendition="#aq">Diaconus</hi><lb/>
+allda/ vnd wolverdienter Prediger zu S. Eli-<lb/>
+ſabeth.</p><lb/>
+<p>Seine Mutter die Erbare vnd Tugend-<lb/>
+ſame Fraw Martha Bognerin/ eines ehrli-<lb/>
+chen Geſchlechtes daſelbſt/ welche beyde noch<lb/>
+im Leben/ vnd durch dieſen vnverhofften To-<lb/>
+desfall jhres Sohns/ nicht wenig ſich betruͤ-<lb/>
+ben werden/ Denn Kinder kommen doch von<lb/>
+Hertzen/ vnd gehen wider zu Hertzen/ welches<lb/>
+ein Vater Hertz am beſten verſtehet.</p><lb/>
+<p>Sie haben aber dieſen jhren Sohn/ als-<lb/>
+bald zur heiligen Tauff befoͤrdert/ daß er vn-<lb/>
+ter die Zahl der Chriſten gezehlet/ vnnd das<lb/>
+Erbe des ewigen Lebens zu hoffen hat/ Auch<lb/>
+hernach im Catechiſmo/ im Gebet alſo vnter-<lb/>
+richtet/ daß er ſeines Glaubens Rechenſchafft<lb/>
+zu geben/ bereit war.</p><lb/>
+<p>Neben dem haben ſie darnach getrach-<lb/>
+tet/ daß er kein Muͤſſiggaͤnger wuͤrde/ ſon-<lb/>
+dern von Jugend zur Arbeit gehalten/ nicht<lb/>
+allein in der Schulen die <hi rendition="#aq">initia linguarum &amp;<lb/>
+artium</hi> zu lernen gethan/ Sondern auch zu<lb/>
+Hauß mit der <hi rendition="#aq">privat Inſtitution,</hi> vnd Hauß-<lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">diſci-</hi></fw><lb/>
+<pb facs="#f0032" n="[32]"/>
+<fw type="header" place="top">Chiriſtliche Leichpredigt.</fw><lb/>
+<hi rendition="#aq">diſciplin</hi> taͤglich an jhm gebawet/ damit er ein<lb/>
+trewer Arbeiter in dem groſſen Hauſe Gottes<lb/>
+dieſer Welt werden moͤchte.</p><lb/>
+<p>Nach dem er ſeiner Sprachen maͤchtig/<lb/>
+v<choice><abbr>ñ</abbr><expan>nd</expan></choice> in <hi rendition="#aq">humanioribus</hi> die <hi rendition="#aq">fundamenta</hi> gefaſſet/<lb/>
+iſt er vor zwey Jahren anhero auff dieſe <hi rendition="#aq">Uni-<lb/>
+verſitet</hi> verſchicket worden/ daß er anfaͤnglich<lb/>
+den <hi rendition="#aq">ſtudiis Philoſophicis</hi> oblege/ vnd hernach<lb/>
+das <hi rendition="#aq">ſtudium Juris</hi> fuͤr die Hand nehme/ Wel-<lb/>
+chem zu folge er ſich anhero begeben/ vnd der<lb/>
+<hi rendition="#aq">Studien</hi> fleiſſig angenommen/ da es jhm denn<lb/>
+weder am <hi rendition="#aq">ingenio</hi> noch <hi rendition="#aq">adminiculis</hi> geman-<lb/>
+gelt/ ſondern der Hoffnung geweſen/ wenn er<lb/>
+gebuͤhrenden Fleiß anwenden/ vnd ſeine Jahr<lb/>
+erreichen wuͤrde/ er ſolte ein nuͤtzlicher Mann/<lb/>
+dem gemeinen Nutz zum beſten/ aufferzogen<lb/>
+worden ſeyn.</p><lb/>
+<p>Was ſonſt ſein Leben vnd <hi rendition="#aq">Converſation</hi><lb/>
+betrifft/ geben jhm die ſeinigen gutes Zeug-<lb/>
+nuͤß/ daß/ ſo viel Jugendt vnd Schwachheit<lb/>
+leiden wollen/ er ſich Chriſtlich/ ſchiedlich vnd<lb/>
+friedlich erwieſen habe. Ob er aber wol jung<lb/>
+geweſen/ vnd kaum das zwey vnd zwantzigſte<lb/>
+Jahr ſeines Alters vberſtanden/ ſo hat doch<lb/>
+<fw type="catch" place="bottom">Gott</fw><lb/>
+<pb facs="#f0033" n="[33]"/>
+<fw place="top" type="header">Chriſtliche Leichpredigt.</fw><lb/>
+Gott mit jhm zum ende geeylet/ vnd Menſch-<lb/>
+licher Vernunfft Gedancken nach/ <hi rendition="#aq">ad maturi-<lb/>
+tatem</hi> nicht kommen laſſen. Denn jhm vor<lb/>
+acht Tagen ohn gefehr ein Hitziges Fieber an-<lb/>
+geſtoſſen/ welches jhn in wenig Tagen alſo<lb/>
+abgemattet/ daß er geſpuͤret/ ſein ende wuͤrde<lb/>
+verhanden ſeyn/ Derowegen zu einem ſeligen<lb/>
+Ende ſich gefaßt gemacht/ ſeinen Beichtvater<lb/>
+zu ſich erfordert/ nach erkentnuͤß vnd bekent-<lb/>
+nuͤß ſeiner Suͤnden/ welche jhm hertzlich Leid<lb/>
+geweſen/ vnd beweinet hat/ den Troſt der Ab-<lb/>
+ſolution mit Glauben angenommen/ ſein ver-<lb/>
+trawen auff Chriſtum geſetzet/ vnd in jhm zu<lb/>
+leben vnd zu ſterben ſich erkleret/ vnd darauff<lb/>
+mit beten vnd ſeufftzen angehalten/ biß jhn der<lb/>
+Allmaͤchtige GOtt aus dieſem Ja<choice><abbr>m̃</abbr><expan>mm</expan></choice>erthal er-<lb/>
+loͤſet/ vnd zu ſich in ſein ewiges Reich abgefo-<lb/>
+dert/ Welches geſchehen iſt vorſchienen Don-<lb/>
+nerſtag vmb drey Vhr gegen Morgen.</p><lb/>
+<p>Er ruhet nun von der Arbeit dieſer Welt/<lb/>
+<hi rendition="#fr">Sein Jammer/ Truͤbſal vnd Elend/<lb/>
+<space dim="horizontal"/>Jſt kommen zu einem ſeligen Ende.</hi><lb/>
+</p> <p><hi rendition="#fr">HErr Chriſte/ verleyhe dieſe Gna-</hi><lb/>
+<fw place="bottom" type="sig"><hi rendition="#fr">E</hi></fw><fw place="bottom" type="catch"><hi rendition="#fr">de</hi></fw><lb/>
+<pb facs="#f0034" n="[34]"/>
+<fw type="header" place="top">Chriſtliche Leichpredigt.</fw><lb/>
+<hi rendition="#fr">de auch vns allen/ bevoraus den betruͤb-<lb/>
+ten Eltern/ daß ſie erkennen </hi> <hi rendition="#aq"><hi rendition="#i">mortalem<lb/>
+genuerunt,</hi></hi> <hi rendition="#fr"> mit dem es ein Ende haben<lb/>
+werde: Weil er aber ein ſeliges Ende ge-<lb/>
+nommen/ mit Job ſprechen: Der Na-<lb/>
+me des HErrn ſey gepreyſet. Ferner<lb/>
+verleyhe vns allen Kraͤffte/ in vnſerm<lb/>
+Beruff dir trewlich zu dienen/ an vnſer<lb/>
+Ende ſtets zu dencken/ vnd fuͤr Suͤnden<lb/>
+<hi rendition="#c">zu huͤten/ vmb ſeines Namens Ehre<lb/>
+willen/ durch Jeſum Chri-<lb/>
+ſtum/ Amen.</hi></hi></p></div></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq"><hi rendition="#i"><hi rendition="#g">GEOR-</hi></hi></hi></fw><lb/>
+<pb facs="#f0035" n="[35]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsProgrammaAcademicum" n="1"><head><hi rendition="#aq"><hi rendition="#g">GEORGIVS<lb/>
+ERNESTVS,</hi> Dominus<lb/>
+à</hi> Schoͤnburg/ <hi rendition="#aq">Dominus</hi> in Glaucha/ Wal-<lb/>
+denburg &amp; Lichtenſtein/ <hi rendition="#aq">hæreditarius Do-<lb/>
+minus</hi> in Greßlitz/ <hi rendition="#aq">&amp;c.<lb/>
+<hi rendition="#i">RECTOR ACADEMIÆ<lb/>
+<hi rendition="#g">LIPSIENSIS.</hi></hi></hi></head><lb/>
+<p><hi rendition="#aq"><hi rendition="#in">I</hi><hi rendition="#i">VRE celebratur in<lb/>
+<choice><sic>græcornm</sic><corr>græcorum</corr></choice> monumentis e-<lb/>
+gregia illa <hi rendition="#g">MAXIMI<lb/>
+TYRII,</hi> Platonici Philo-<lb/>
+ſophi ſententia:</hi></hi> ὁ ϑάνατος<lb/>
+ἀθανασίας αρχὴ καὶ γεύεσις<lb/>
+μέλλοντος βίου. <hi rendition="#aq"><hi rendition="#i">His enim<lb/>
+verbis vir ſapiens, etſi</hi></hi><lb/>
+ἀφώτιστος <hi rendition="#aq"><hi rendition="#i">&amp; rerum divi-<lb/>
+narum ignarus ſubindica-<lb/>
+re voluit, eos, qui ſublati hinc diſcedunt, non interire<lb/>
+penitùs, aut in perpetuum more pecudum aboleri, uti<lb/>
+impij Sadducæi olim cum Epicureis furenter aſſeverá-<lb/>
+runt; ſed omninò post hanc fragilem &amp; ærumnoſam vi-<lb/>
+tam in mundo, reſtare aliam multò meliorem, eam<choice><abbr>ꝙ́</abbr><expan>qúe</expan></choice></hi></hi><lb/>
+<fw place="bottom" type="sig"><hi rendition="#i"><hi rendition="#aq">E</hi> 2</hi></fw><fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#i">æternam</hi></hi></fw><lb/>
+<pb facs="#f0036" n="[36]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<hi rendition="#aq"><hi rendition="#i">æternam vitam, in quam per mortem ingrediantur pio-<lb/>
+rum hominum animæ, &amp; ſolutæ ab his mundanis æru-<lb/>
+mnis &amp; difficultatibus multiplicibus perpetuâ quiete<lb/>
+&amp; beatitate ſempiterna perfruantur. Quam de ani-<lb/>
+marum immortalitate, de<choice><abbr>ꝙ́</abbr><expan>qúe</expan></choice> altera futura vita ſenten-<lb/>
+tiam obſcuriùs indicatam &amp; traditam in gentilium ſcri-<lb/>
+ptis, omnium manifeſtißime declarant verbi</hi></hi> ϑεοπνέυςου<lb/>
+<hi rendition="#aq"><hi rendition="#i">oracula, quæ noſtræ carnis reſurrectionem teſtimoniis &amp;<lb/>
+exemplis illuſtribus quàm plurimis confirmant, &amp; ſimul<lb/>
+æternæ vitæ gaudia in conſpectu <hi rendition="#g"><hi rendition="#k">Dei</hi></hi> duratura in perpe-<lb/>
+tuum, omnibus ijs, qui perfidem eluctati fortiter ex hac<lb/>
+miſeria in vera</hi> <hi rendition="#g"><hi rendition="#k">Christi</hi></hi></hi> σωτῆρος <hi rendition="#aq"><hi rendition="#i">agnitione diſceſſe-<lb/>
+runt, indubitatâ veritate promittunt. Et ſanè hac ſpe<lb/>
+futuræ beatitatis ac vi Spiritus ſancti arcana, non modo<lb/>
+vehementer erigi ac confirmari adverſus Satanæ ac Mor-<lb/>
+tis terriculamenta pias animas; ſedetiam ad expetendum<lb/>
+ardenti deſiderio</hi></hi> τὸ ἀναλῦσει <hi rendition="#aq"><hi rendition="#i">mirificè accendi, morienti-<lb/>
+um divina conſtantia voces<choice><abbr>ꝙ</abbr><expan>que</expan></choice> pietatis ac cœleſtis gaudij<lb/>
+plenæ quotidiè teſtantur. Ac ſuo jam exemplo ſatis<lb/>
+comprobavit adoleſcens ingenio &amp; eruditione præſtans</hi><lb/>
+<hi rendition="#g"><hi rendition="#k">Zacharias Walther</hi></hi> <hi rendition="#i">Vratis lavienſis, &amp; le-<lb/>
+gum Studioſus, quem die abbin<supplied>e</supplied> tertio in vera fide &amp; a-<lb/>
+gnitione <hi rendition="#g"><hi rendition="#k">Dei</hi></hi> ejus<choice><abbr>ꝙ́</abbr><expan>qúe</expan></choice> invocatione ſeriâ &amp; conſtanti beatam<lb/>
+animam</hi> <hi rendition="#g"><hi rendition="#k">Christo</hi></hi> <hi rendition="#i">redemptori ſuo reddidiſſe accepi-<lb/>
+mus. Cujus quidem in</hi> <hi rendition="#g"><hi rendition="#k">Christo</hi></hi> <hi rendition="#i">piè denati funus<lb/>
+cum publico hoc programmate pro more jam Nobis ſi-<lb/>
+gnificandum eſſet, viſum fuit paucis attingere ea, quæ de<lb/>
+ortu &amp; reliquo vitæ curriculo in ejusmodi funerum indi-<lb/>
+catione publicæ commemorari ſolent, ut hac ratione intro-</hi></hi><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq"><hi rendition="#i">ductæ</hi></hi></fw><lb/>
+<pb facs="#f0037" n="[37]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<hi rendition="#aq"><hi rendition="#i">ductæ conſuetudini laudatißimæ ſatisfieret, &amp; piè demor-<lb/>
+tuus aliquo afficeretur honore. Natus is est Vratis la-<lb/>
+viæ Anno</hi></hi> τῆς παγκοσμίου σωτηρίας <hi rendition="#aq"><hi rendition="#i">ſupra milleſimum,<lb/>
+quingenteſimum, nonageſimo ſeptimò, à parentibus ibi-<lb/>
+dem bonoratißimis. Pater ipſius fuit vir Reverendus<lb/>
+&amp; eximius,</hi> Dn. M. <hi rendition="#g"><hi rendition="#k">Lucas Walther,</hi></hi> <hi rendition="#i">Diaconus<lb/>
+apud Vratislavienſes: Mater verò </hi> <hi rendition="#g"><hi rendition="#k">Martha</hi></hi></hi> Bo-<lb/>
+genern/ <hi rendition="#aq"><hi rendition="#i">Fœmina ſpectatæ pietatis &amp; probitatis; à quibus<lb/>
+parentibus ſuis optimis piè defunctus, â primâ ſtatim in-<lb/>
+fantia cum reliquis fratribus ſuis quin<choice><abbr>ꝙ́</abbr><expan>qúe</expan></choice> ad pietatis, vir-<lb/>
+tutis &amp; honeſtatis culturam ſedulò ac diligenter aſſuefa-<lb/>
+ctas, &amp; privata etiam inſtitutione fideli excitatus fuit.<lb/>
+Ubi verò jam ad aliquem in humanioribus pervenerit fru-<lb/>
+ctum ſtudiorum, voluntate Patris hanc noſtram ante bi-<lb/>
+ennium adijt Academiam, &amp; hactenus ſtudiis Philoſo-<lb/>
+phicis, &amp; inprimis Legali ſcientiæ addictus fuit, eam<choice><abbr>ꝙ́</abbr><expan>qúe</expan></choice><lb/>
+adhibuit diligentiam, ut progreſſu temporis aliis utiliter<lb/>
+inſervire potuiſſet. Præterea eam vitæ rationem ſecutus<lb/>
+est, ut meritò post mortem etiam teſtimonium pietatis &amp;<lb/>
+probitatis reportarit. Superioribus diebus eum Febris<lb/>
+invaſit acuta, quæ brevi temporis ſpatio vires omnes ita<lb/>
+afflixit &amp; proſtravit, ut abjecta recuperandæ ſanitatis ſpe<lb/>
+emigrationem ex hoc miſeriarum hoſpitio tranquillam &amp;<lb/>
+placidam unicè deſideravit, quam etiam à miſericorde<lb/>
+<hi rendition="#g"><hi rendition="#k">Deo</hi></hi> nudius tertius intra tertiam &amp; quartam horam ma-<lb/>
+tutinam tandem impetravit, mortuus vigeſimo ſexto hu-<lb/>
+jus, anno ætatis ſuæ vigeſimo ſecundo. Reliquum est,<lb/>
+ut, quicun<choice><abbr>ꝙ́</abbr><expan>qúe</expan></choice> jurisdictionem agnoſcunt Academicam, tùm<lb/>
+ut piè defuncto ſupremum pietatis &amp; humanitatis offici-</hi></hi><lb/>
+<fw type="sig" place="bottom"><hi rendition="#i"><hi rendition="#aq">E</hi> 3</hi></fw><fw type="catch" place="bottom"><hi rendition="#aq"><hi rendition="#i">umpræ-</hi></hi></fw><lb/>
+<pb facs="#f0038" n="[38]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<hi rendition="#aq"><hi rendition="#i">um præſtent; tùm ut affectionem animi ſui teſtentur,<lb/>
+pompam funebrem poſtea hora tertia, precibus finitis ex<lb/>
+ædibus, quas in vico ab Arce denominato incoluit</hi></hi> ἐμακα-<lb/>
+ρίτης, <hi rendition="#aq"><hi rendition="#i">ad concionem priùs funebrem &amp; ad ſepulturæ lo-<lb/>
+cum deducendam præſentiâ ſuâ coboneſtent. Etſi verò<lb/>
+id ſine cujusquam admonitione cives Academicos prolixè<lb/>
+facturos confidimus: tamen voluntatis quo<choice><abbr>ꝙ</abbr><expan>que</expan></choice> noſtræ ſi-<lb/>
+gnificationem, quam petentibus reverenter &amp; ſubjectè<lb/>
+pro more denegare nullo modo potuimus, non nihil ad eam</hi></hi><lb/>
+<hi rendition="#c"><hi rendition="#aq"><hi rendition="#i">rem momenti allaturam ſperamus P. P. V. Calend.<lb/>
+Septemb. Anno</hi></hi> τῆς ἐν ἀνθρωπήσεως<lb/>
+<hi rendition="#aq"><hi rendition="#i">M. <hi rendition="#g">DC. XIX.</hi></hi></hi></hi></p></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq"><hi rendition="#i">Stat</hi></hi></fw><lb/>
+<pb facs="#f0039" n="[39]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsEpicedia" n="1"><head/>  <div n="2"><head/>      <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">S</hi>Tat ſua cuiq́ue dies certa ſtant omnia lege</hi></l><lb/>
+<l><hi rendition="#aq">Pro ratione <hi rendition="#g"><hi rendition="#k">Dei,</hi></hi> qui vocat usq́ue ſuos.</hi></l><lb/>
+<l><hi rendition="#aq">Sic nigræ mortis maner immutabile fatum,</hi></l><lb/>
+<l><hi rendition="#aq">Quod <hi rendition="#g"><hi rendition="#k">Walthere</hi></hi> probas, dum petis</hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#et">aſtra poli.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><choice><sic>Qni</sic><corr>Qui</corr></choice> moritur ſancti &amp; benedicti numine <hi rendition="#g"><hi rendition="#k">Christi,</hi></hi></hi></l><lb/>
+<l><hi rendition="#aq">Dia ſalus tali perſtat in axe poli.</hi></l><lb/>
+<l><hi rendition="#aq">Hoc <hi rendition="#g"><hi rendition="#k">Walthere</hi></hi> tuis linquens diſcedis ab oris</hi></l><lb/>
+<l><hi rendition="#aq">Mundanisq́ue capis gaudia mente <hi rendition="#k">Dei.</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">Condol. ergò ſuo quondam con-<lb/>
+victori fecit</hi><lb/>
+Iacobus Blümelius Lipſienſis,<lb/>
+Philoſophiæ &amp; J. U. D.</hi></hi></salute></closer><lb/>
+<trailer><hi rendition="#c"><hi rendition="#aq"><hi rendition="#i"><hi rendition="#g">FINIS.</hi></hi></hi></hi></trailer></div></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<pb facs="#f0040" n="[40]"/>
+<pb facs="#f0041" n="[1]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsEpicedia" n="1"><head/>  <div n="2"><head/>      <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">T</hi>Ractâras Themidos ſacra volumina,</hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">A</hi>gmen Pieridum inſtruxerat artibus</hi></l><lb/>
+<l><hi rendition="#aq">Te <hi rendition="#i">VV <hi rendition="#k">althere,</hi></hi> petis cælicolûm do-</hi></l><lb/>
+<l><hi rendition="#aq">Longa at debuerant Lanificæ <hi rendition="#i"><hi rendition="#g"><hi rendition="#k">Deae</hi></hi></hi><space dim="horizontal"/> (mus.</hi></l><lb/>
+<l><hi rendition="#aq">Florenti juveni ſtamina nectere:</hi></l><lb/>
+<l><hi rendition="#aq">Virtus hæc eadem nam voluit tua,</hi></l><lb/>
+<l><hi rendition="#aq">Quam blandè alloquitur fama ſupermanens.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">Nicolaus Polius,<lb/>
+S. S. Theol. St.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">V</hi><hi rendition="#i">T roſa manè ſuos expandit fulgida flores,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Solis ad exortum mox ſeſe tollit in auras</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">In prato viridi grato<choice><abbr>ꝙ́</abbr><expan>qúe</expan></choice> ſuperbit odore,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Confeſtim tamen hæc formam mutata priorem,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Cum celeres Sol ſiſtit equos, ceu marcida langvet;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Sic quo<choice><abbr>ꝙ</abbr><expan>que</expan></choice> VValtherum quem fòvit Lipſica terra</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Proh dolor! extinxit mors ipſo in flore juventæ.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Sed ſatis is vixit, ſi tempora triſtia ſpectes;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Nam fugit morbos<choice><abbr>ꝙ́</abbr><expan>qúe</expan></choice> graves, animi<choice><abbr>ꝙ́</abbr><expan>qúe</expan></choice> labores,</hi></hi></l><lb/>
+<fw place="bottom" type="sig">)(</fw><fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#i">Quæ<choice><abbr>ꝙ́</abbr><expan>qúe</expan></choice></hi></hi></fw><lb/>
+<pb facs="#f0042" n="[2]"/>
+<l><hi rendition="#aq"><hi rendition="#i">Quæ<choice><abbr>ꝙ́</abbr><expan>qúe</expan></choice> ſecuturo venient triſtißim aſeclo.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Quapropter tumulum non ſic deflete <hi rendition="#g"><hi rendition="#k">Parentes;</hi></hi></hi></hi></l><lb/>
+<l><hi rendition="#i"><hi rendition="#aq">Nam capit æternæ cum ſanctis gaudia vitæ.</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#b">David Cleberus</hi><lb/>
+Lubenâ Sil.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head><hi rendition="#aq"><hi rendition="#b">Defunctus ad Parentes.</hi></hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">H</hi>Eu quam præcipiti curſu labuntur in orbe</hi></l><lb/>
+<l><hi rendition="#aq">Anni! quàm fallax eſt noſtræ gloria vitæ<hi rendition="#i">!</hi></hi></l><lb/>
+<l><hi rendition="#aq">Multi qui vanos tantum venerantur honores,</hi></l><lb/>
+<l><hi rendition="#aq">Et ſibi tecta ſtruunt auguſta in montibus altis,</hi></l><lb/>
+<l><hi rendition="#aq">Hi vivunt tamen &amp; numerant longiſsima ſecla:</hi></l><lb/>
+<l><hi rendition="#aq">At qui hodiè ſibi proponit ſudare per artes</hi></l><lb/>
+<l><hi rendition="#aq">Palladias, prono terram cras cogitur ore</hi></l><lb/>
+<l><hi rendition="#aq">Mordere: ô dolor! ô Parcę cui parcitis unquam!</hi></l><lb/>
+<l><hi rendition="#aq">Scilicet humanum nihil eſt, quod non ſit humand<choice><abbr>ũ</abbr><expan>um</expan></choice>,</hi></l><lb/>
+<l><hi rendition="#aq">Nec quicquam datur in toto durabile mundo;</hi></l><lb/>
+<l><hi rendition="#aq">Naſcimur in luctu, multis<choice><abbr>q́;</abbr><expan>qúe</expan></choice> doloribus ævum</hi></l><lb/>
+<l><hi rendition="#aq">Ducimus, &amp; fugimus ceu vanæ temporis umbræ.</hi></l><lb/>
+<l><hi rendition="#aq">Ergò <hi rendition="#g"><hi rendition="#k">Deo</hi></hi> placeat cum ſic ſuper aſtra ſedenti,</hi></l><lb/>
+<l><hi rendition="#aq">Ut funeſta etiam deguſtem pocula mortis,</hi></l><lb/>
+<l><hi rendition="#aq">Fata ſequar vitam<choice><abbr>q́;</abbr><expan>qúe</expan></choice> lubens ſub Sole relinquam.</hi></l><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">Non</hi></fw><lb/>
+<pb facs="#f0043" n="[3]"/>
+<l><hi rendition="#aq">Non potuit medicus triſtes medicamine morbos</hi></l><lb/>
+<l><hi rendition="#aq">Pellere, &amp; exhauſtas mihi rurſus reddere vires,</hi></l><lb/>
+<l><hi rendition="#aq">Una meum morbum mors finiit, una dolores</hi></l><lb/>
+<l><hi rendition="#aq">Abſumſit, minimè doleo juvenilibus annis</hi></l><lb/>
+<l><hi rendition="#aq">Quod morior; verum potius de ſorte beatâ</hi></l><lb/>
+<l><hi rendition="#aq">Gratulor ipſe mihi. Vos jamnunc ergò <hi rendition="#k">Parentes,</hi></hi></l><lb/>
+<l><hi rendition="#aq">Vos quo<choice><abbr>q;</abbr><expan>que</expan></choice> dilecti Fratres quos ſemper amore</hi></l><lb/>
+<l><hi rendition="#aq">Dilexi vero, non ſic mea funera flete,</hi></l><lb/>
+<l><hi rendition="#aq">Sed luctum hunc lenite ſacrę medicamine vocis,</hi></l><lb/>
+<l><hi rendition="#aq">At<choice><abbr>q;</abbr><expan>que</expan></choice> brevi tempus certò ſcitote futurum,</hi></l><lb/>
+<l><hi rendition="#aq">Omnes quo ſocium ſine fine agitabimus ævum.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">David</hi></hi> Walther/ <hi rendition="#aq"><hi rendition="#i">Vrat. Sil.</hi></hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>      <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">S</hi><hi rendition="#i">Ic, VV <hi rendition="#g"><hi rendition="#k">althere,</hi></hi> decus Patriæ, ſpes at<choice><abbr>ꝙ</abbr><expan>que</expan></choice> Pa-</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><space dim="horizontal"/>rentum</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Maxima, nunc inter deſinis eſſe homines.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Heu! nimium celeras, dignus qui Neſtoris annos</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Exuperes, Patri poßis ut eſſe Salus.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Sed quoniam placuit Domino, quis quæſo reſiſtet?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Qui dedit, is rurſus tollere quæ<choice><abbr>ꝙ</abbr><expan>que</expan></choice> potest.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ergo Vale mundi multis exemte periclis,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">In cœlis iterum conſpiciende <hi rendition="#g"><hi rendition="#k">Vale.</hi></hi></hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">Paulus Rumpelius Witteb. Saxo.</hi></hi></salute></closer></div><lb/>
+<fw type="sig" place="bottom">)( 2</fw><fw type="catch" place="bottom"><hi rendition="#aq">Svave</hi></fw><lb/>
+<pb facs="#f0044" n="[4]"/>
+<div n="2"><head/>      <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">S</hi>Vave ſodalitium nobis, Walthere, fuiſti,</hi></l><lb/>
+<l><hi rendition="#aq">Liber ut in fragili corpore ſenſus erat.</hi></l><lb/>
+<l><hi rendition="#aq">Te novi puerum nobiſcum ſedulus <hi rendition="#g"><hi rendition="#k">Olsnae,</hi></hi></hi></l><lb/>
+<l><hi rendition="#aq">Dum licuit <hi rendition="#g"><hi rendition="#k">Musis</hi></hi> invigilare ſacris.</hi></l><lb/>
+<l><hi rendition="#aq">Nos inter jucunda fuit conjunctio <hi rendition="#g"><hi rendition="#k">Breslae,</hi></hi></hi></l><lb/>
+<l><hi rendition="#aq">Tu mihi amicorum carior unus eras.</hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Lipsia</hi></hi> Muſarum cum te cognovit alumnum,</hi></l><lb/>
+<l><hi rendition="#aq">Ipſa tibi lethi nuncia certa fuit.</hi></l><lb/>
+<l><hi rendition="#aq">Sic in Thesbiadum ac jucundo flore juventæ</hi></l><lb/>
+<l><hi rendition="#aq">Parca ferox vetuit <hi rendition="#k">Te</hi> ſupereſſe diu.</hi></l><lb/>
+<l><hi rendition="#aq">Ergò immaturam lugemus funeris horam:</hi></l><lb/>
+<l><hi rendition="#aq">Hæc noſtri luctus nænia teſtis adeſt.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">Fratri ac amico integerrimo ex vero</hi></hi> συμπά-<lb/>
+ϑειας <hi rendition="#aq"><hi rendition="#i">affectu apponebat</hi><lb/>
+Wenceslaus Uſe<lb/>
+Olsnâ Sil.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">S</hi><hi rendition="#i">Unt duo, quæ dant eſſe rei, queîs conſtat hic ordo,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Quæ ſervant dubias &amp; ſine lege vices.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Sunt ſimul interdum, nunqu<choice><abbr>ã</abbr><expan>am</expan></choice> tamen inter ami-</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Inveniunt fixâ ſede ſolove locum. <space dim="horizontal"/>(cos</hi></hi></l><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#i">Sunt</hi></hi></fw><lb/>
+<pb facs="#f0045" n="[5]"/>
+<l><hi rendition="#aq"><hi rendition="#i"><choice><sic>Snnt</sic><corr>Sunt</corr></choice> quia cum placidâ morti certamina vitâ,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Neutra ſinit vinci, vincere neutra potest.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Nunc ſuperat vitam <hi rendition="#k">Mors,</hi> nunc ſuperatur ab illâ,</hi></hi></l><lb/>
+<l><hi rendition="#i"><hi rendition="#aq">Nunc mors ipſa cadit, nunc quo<choice><abbr>ꝙ</abbr><expan>que</expan></choice> <hi rendition="#k">Vita</hi> cluit.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Hanc inimicorum luctam, VV<hi rendition="#g"><hi rendition="#k">altere,</hi></hi> potentum</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Heus experte cedò: fortior uter erat?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Fortis erat <hi rendition="#g"><hi rendition="#k">Vitæ</hi></hi> vis, integra tota juventus</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">In ſano ſanæ corpore mentis erat:</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Fortior atra fuit <hi rendition="#k">Mors;</hi> nam<choice><abbr>ꝙ</abbr><expan>que</expan></choice> extinguier ipſis</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Cum flammis ingens cernitur ignis aquis.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Fortior at cùm ſit <hi rendition="#g"><hi rendition="#k">Mors,</hi></hi> est fortißimatandem</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#g"><hi rendition="#k">Vita</hi></hi> tamen: <hi rendition="#g"><hi rendition="#k">Mors</hi></hi> est ultima <hi rendition="#g"><hi rendition="#k">Vita</hi></hi> mali.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Fortis erat multò mage <hi rendition="#k">Mors,</hi> quàm vita malorum:</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Morte voluptatum fortior illa fuit.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#g"><hi rendition="#k">Mors</hi></hi> licet hæc in te fuerit violentior æquo,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Attamen hanc ſuperat deni<choice><abbr>ꝙ</abbr><expan>que</expan></choice> <hi rendition="#g"><hi rendition="#k">Vita</hi></hi> polo.</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">Ità<lb/>
+vicem amici lugebat<lb/>
+<hi rendition="#b">Martinus. Manige-</hi><lb/>
+lius Sprottâ Sil.</hi></hi></salute></closer></div><lb/>
+<fw type="sig" place="bottom">)( 3</fw><fw type="catch" place="bottom"><hi rendition="#aq"><hi rendition="#b">Ad</hi></hi></fw><lb/>
+<pb facs="#f0046" n="[6]"/>
+<div n="2"><head><hi rendition="#aq"><hi rendition="#b">Ad Parentes.</hi></hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">S</hi>It modus in lacrymis, ceſſent ſuſpiria, ceſſet</hi></l><lb/>
+<l><hi rendition="#aq">Conficiens totum corpus &amp; oſſa dolor.</hi></l><lb/>
+<l><hi rendition="#aq">Non licet hic gnatus, dum paucis viſerat orbem,</hi></l><lb/>
+<l><hi rendition="#aq">Huîcce valedicens, avoletante diem:</hi></l><lb/>
+<l><hi rendition="#aq">Non tamen in totum vos diſperiiſſe putetis,</hi></l><lb/>
+<l><hi rendition="#aq">Præmiſſum potius credite certè mihi.</hi></l><lb/>
+<l><hi rendition="#aq">Quando ſuprema dies perituro illuxerit orbi,</hi></l><lb/>
+<l><hi rendition="#aq">Et dederit ſonitum buccina magna ſuum.</hi></l><lb/>
+<l><hi rendition="#aq">Pręmiſſus gnatus veniet redivivus ad auras.</hi></l><lb/>
+<l><hi rendition="#aq">Jungetur lateri, Vir Reverende, tuo.</hi></l><lb/>
+<l><hi rendition="#aq">Gaudia multa Pater capiet, quo<choice><abbr>q;</abbr><expan>que</expan></choice> filius ipſe,</hi></l><lb/>
+<l><hi rendition="#aq">Mutuus amplexus, mutuus ardor erit.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">Chriſtophorus</hi></hi> <hi rendition="#fr">Scholtz/</hi><lb/>
+<hi rendition="#aq">Vratísl. Sil.</hi></hi></salute></closer></div></div><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq"><hi rendition="#g">FINIS.</hi></hi></fw><lb/>
+</body></text>  </TEI>

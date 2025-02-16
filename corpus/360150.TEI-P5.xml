@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Aulici Pii Et Felicis Imago</title>
+<title type="sub">In Viro Qvondam Nobilissimo, Amplississimo Atqve Praecellentissimo M Godofredo Hoffmanno</title>
+<author>
+<persName ref="http://d-nb.info/gnd/117293997">
+<surname>Wentzel</surname>
+<forename>Johann Christoph</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">16</measure>
+<measure type="tokens">4658</measure>
+<measure type="types">2743</measure>
+<measure type="characters">36423</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:09:55Z</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+<p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 License.</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/360150</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/360150</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/360150</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/360150</idno>
+<idno type="DTADirName">360150</idno>
+<idno type="DTAID">203038</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-203038-7</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Wentzel, Johann Christoph: Aulici Pii Et Felicis Imago. Bautzen, 1713.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Aulici Pii Et Felicis Imago</title>
+<title level="m" type="sub">In Viro Qvondam Nobilissimo, Amplississimo Atqve Praecellentissimo M Godofredo Hoffmanno</title>
+<author>
+<persName ref="http://d-nb.info/gnd/117293997">
+<surname>Wentzel</surname>
+<forename>Johann Christoph</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">16</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Gottfried Gottlob Richter</name></publisher>
+<pubPlace>Bautzen</pubPlace>
+<date type="publication">1713</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 F 841a / 360150</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gelegenheitsschrift</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<pb facs="#f0001" n="[1]"/>
+<front><titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#aq">AULICI PII ET FELICIS<lb/>
+<hi rendition="#g">IMAGO</hi></hi></titlePart><lb/>
+<titlePart type="desc"><hi rendition="#aq"><hi rendition="#g"><hi rendition="#i">IN VIRO QVONDAM</hi></hi><lb/>
+NOBILISSIMO, AMPLISSISSIMO ATQVE<lb/>
+<hi rendition="#g">PRÆCELLENTISSIMO<lb/>
+DOMINO<lb/>
+<hi rendition="#b">M. GODOFREDO<lb/>
+HOFFMANNO,</hi><lb/>
+<hi rendition="#i">RECTORE GYMNASII ZITTAVI-<lb/>
+ENSIS MERITISSIMO,<lb/>
+QVAM IN SPLENDIDA PROCERVM ZITTAVIENSIVM<lb/>
+PANEGYRI</hi></hi><lb/>
+ORATIONE PARENTALI<lb/>
+D. III. OCT. M. DCC XIII.<lb/>
+UTCUNQVE EXPRESSIT</hi></titlePart></docTitle><lb/>
+<byline><docAuthor><hi rendition="#aq"><hi rendition="#i">JO. CHR. WENTZEL</hi></hi></docAuthor><hi rendition="#aq"><hi rendition="#i">, D.</hi><lb/>
+GYMN. ZITTAV. DIRECT.</hi></byline><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docImprint><pubPlace><hi rendition="#aq">BUDISSÆ</hi></pubPlace><hi rendition="#aq">,</hi> <publisher><hi rendition="#aq">LITERIS RICHTERIANIS</hi></publisher><hi rendition="#aq">.</hi></docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="2"/>
+<div type="fsProgrammaAcademicum" n="1"><head><hi rendition="#aq"><hi rendition="#i">Programma, quo invitabantur Auditores.</hi></hi></head><lb/>
+<p><hi rendition="#aq"><hi rendition="#in">S</hi>Agaciſſimus rerum antiquarum indagator <hi rendition="#i">Christianus<lb/>
+Franciſcus Paullini</hi>, civis meus ac fautor, dum viveret,<lb/>
+opti<supplied>m</supplied>us, nummicujusdam argentei in cœnobio Ame-<lb/>
+lunxbornenſi ſibi oblati meminit, cujus autorem <hi rendition="#i">Danck-<lb/>
+marum, Abbatem Corbejenſem</hi> fuiſſe ſuſpicatur. Conſpi-<lb/>
+ciebantur in altera ejus facie <hi rendition="#i">quinque lilia</hi>, additis in margine lite-<lb/>
+ris, B. A. N. D. inferiusque ſigno crucis. Per literas illas quatu-<lb/>
+or non Germanorum</hi> Band/ <hi rendition="#aq">ſed voces latinas, <hi rendition="#i">Bene, at non diu</hi><lb/>
+ſignificari addit. (Philoſ.</hi> Luſiſt. <hi rendition="#aq">P. I. p. 498.) Equidem, cuinam<lb/>
+rei aut perſonæ jucunda hæc imago dicata fuerit, diſertè non indi-<lb/>
+cat: procul dubio verò in memoriam atque honorem laudati Ab-<lb/>
+batis, qui eandem loco ſymboli, per vitam conſtanter circumtu-<lb/>
+liſſe legitur, poſteritas grata excuderat. Verum, niſi metuendum<lb/>
+eſſet, ne ineptientis cujusdam</hi> ἀκαιρίας <hi rendition="#aq">arguerer, ſub adultam hanc<lb/>
+autumnitatem, qua, licet præter morem blanda ac manſveta,<lb/>
+omne fere florum decus contumulatum eſt, quaſi poſtliminio li-<lb/>
+liorum familiam reducens: pulcerrimam illam imaginem me-<lb/>
+moriæ <hi rendition="#i">Nobiliſſimi, Ampliſſimi atque Prœcellentiſſimi quondain Viri</hi><lb/>
+DOMINI GODOFREDI HOFFMANNI, <hi rendition="#i">Rectoris Gymnaſii no-<lb/>
+ſtri undiquaque celebratiſſimi, Philologi ac Polyhiſtoris de orbe lite-<lb/>
+rario, Scholisque Germanorum univerſis meritiſſimi</hi>, conſecrarem.<lb/>
+Aſt quis jure ad abſurda referat, quod ſapientiſſima mater, natu-<lb/>
+ra, abſurdorum cenſui exemit? Memoriæ proditum eſt, ea ipſa<lb/>
+nocte, qua glorioſiſſimus Romanorum Imperator, Hiſpanorum-<lb/>
+que Rex, <hi rendition="#i">Carolus Qvintus</hi>, deceſſit, lilium, in horto ſeceſſui ip-<lb/>
+ſius contiguo, poſtquam per integrum menſium æſtivorum<lb/>
+decurſum, calicis ſui apertionem minitatum fuiſſet, ſubito can-<lb/>
+didum ſuum decus, non ſine ſpectantium admiratione, pulcher-<lb/>
+rime explicaſſe. Si itaque naturam non puduit, tempore tam alie-</hi><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">no</hi></fw><lb/>
+<pb facs="#f0003" n="3"/>
+<hi rendition="#aq">no &amp; inſveto, lilium producere, quaſi illud mature proviſura, quo<lb/>
+in exequiis Divi Herois altare exornandum eſſet: cur me pudeat,<lb/>
+illius monumento, eodem menſe, imponere lilium, cui non ſo-<lb/>
+lum idem fere cum Carolo tempus emortuale contigerat, ſed cujus<lb/>
+vita &amp; virtutes candidiſſimæ merentur, ut Charites ac Muſæ omnes<lb/>
+certatim lilia ſua, imo &amp; roſas in ſepulchrum ipſius effundant.<lb/>
+Vita ipſius univerſa antiqua fide ac candore, campum quendam<lb/>
+lillis undique albicantem exſcribebat, qualis prope Suſam Perſiæ<lb/>
+urbem ſuperbire creditur. In nummo illo Abbatis quinque nota-<lb/>
+bantur lilia: In <hi rendition="#i">Hoffmanno</hi> noſtro quinque virtutes præcipue emi-<lb/>
+cabant, quarum ſingulæ lilietum quoddam, <hi rendition="#i">Palladii</hi> voce, appel-<lb/>
+lari merebantur. Quis enim eſt, vel in Luſatia, vel Miſnia, quis in<lb/>
+Sileſia tandem, ad quem præconia <hi rendition="#i">Pietatis, Spei, Fidu<supplied>c</supplied>iæ, Libe-<lb/>
+ralitatis</hi> ac <hi rendition="#i">Humilitatis Hoffmannianæ</hi> non penetraverint? Sed quid<lb/>
+de literis illis quatuor ſuturum eſſe putatis, quibus nummi memo-<lb/>
+rati ornabatur imago? Sane, ſi rectius cogitaverimus, quæ ſpa-<lb/>
+tia in curriculo Scholaſtici muneris confecerit, quos labores emen-<lb/>
+ſus fuerit, transponendi videntur laudati literarum characteres.<lb/>
+Scribemus itaque D. A. N. B. <hi rendition="#i">Diu, at non bene.</hi> Ut inuſitata fide<lb/>
+&amp; dexteritate officio ſuo præfuit: ſic non tam bene ſemper ſucceſ-<lb/>
+ſit opus, ut nihil interſperſum fuerit mali. Ubi feliciſſima videtur<lb/>
+Rectoris Scholaſtici vita, labore Herculeo, faſtidiis, invidiis, odi-<lb/>
+is, ſimultatibus, contemtu, judiciis ac cenſuris iniquis, quin ca-<lb/>
+villationibus etiam &amp; calumniis, ut ventis quibusdam, exagitatur.<lb/>
+Quo intenſius opus Domini urſeris, eo majores adverſitatum flu-<lb/>
+ctus excitat ſtygius ille Scholarum hoſtis. Si diſciplinæ ſeveriori<lb/>
+inſtes, aut ille exacerbandus eſt, quem caſtigas, aut offendendi<lb/>
+illi, quos parentes &amp; cognatos (pene dixerim, nutrices vetulas)<lb/>
+agnoſcit &amp; veneratur. Emendationem volunt: ſed emendantem<lb/>
+averſantur. Ulcera curanda offerunt<hi rendition="#i">:</hi> aſt, ſi ferrum aut ignem<lb/>
+è longinquo ſaltem oſtenderis, perire delicatulum malunt, quam</hi><lb/>
+<fw type="sig" place="bottom"><hi rendition="#aq">a</hi> 2</fw><fw type="catch" place="bottom"><hi rendition="#aq">co-</hi></fw><lb/>
+<pb facs="#f0004" n="4"/>
+<hi rendition="#aq">corrigi. Simulac Schola flore ſuo gaude re cœpit, bone Deus,<lb/>
+quas artes alliciendi, quas blanditias, nugas venales, jocos ſcur-<lb/>
+riles, ſi non mimos &amp; acroamata, comminiſcuntur, quibus Re-<lb/>
+ctorem adoleſcentulos ineſcare, &amp; in retia ſua pertrahere, ſine<lb/>
+fronte adſeverant. Modo ipſum ampullas projicere &amp; ſesquipeda-<lb/>
+lia verba, quid? quod omnia ejus dicta deauratis medicorum ca-<lb/>
+tapotiis ſimilia eſſe, clamitant. Mox conductores quosdam, præ-<lb/>
+cones ac pararios emitti mentiuntut, qui propoſitis ac promiſſis<lb/>
+neſcio quibus deliciis, incautis &amp; curioſulis ingeniis vafre impo-<lb/>
+nant. Nunc indulgentiam, &amp; diſciplinam juſto laxiorem vitupe-<lb/>
+rant, cujus ſva vitate juvenum animi libertatem perdite amantes,<lb/>
+quaſi faſcino quodam, ac poculo Circæo, demententur, illician-<lb/>
+turque. Nunc loci genium ad voluptates compoſitum, hoſpiti-<lb/>
+orum commoditates, civium liberalitatem &amp; favorem in Schola-<lb/>
+ſticos pronum, pro vera ſtatus florentis cauſa agnoſci volunt, pau-<lb/>
+cis ad eos, qui Scholæ vel præſunt, vel docendo proſunt, laudem<lb/>
+promeritam referentibus. Aſt, ſi ex adverſo Schola flore ſuo de-<lb/>
+cidat, aut omnino ad eum non aſſurgat, id quod mille fere tempo-<lb/>
+rum fatorumque converſionibus, bello, annonæ caritate, Scho-<lb/>
+larum vicinarum celebritate ac frequentia, quid? quod ipſorum<lb/>
+juvenum levitate ac pruritu, &amp; non raro diſciplinæ adſtrictioris a-<lb/>
+verſatione, contingere poteſt &amp; ſolet: quam facile vitium aliquod<lb/>
+aut defectum Rectori imputant malevoli, cui in acceptis referenda<lb/>
+ſit rei ſcholaſticæ infelicitas. Verum, prout publica voce fatendum<lb/>
+eſt, <hi rendition="#i">Beatum Hoffmannum</hi> a communibus hiſce Rectorum fatis ac<lb/>
+adverſitatibus fere fuiſſe immunem, adeo, ut non una aſteruerit vi-<lb/>
+ce, ſe per univerſum vivendi ſpatium (ſi acerbiſſimam <hi rendition="#i">Guntheriæ</hi><lb/>
+ſuæ, uxoris prioris, mortem exeipiat) nullam fere ſenſiſie calami-<lb/>
+tatem: Sic, negata etiam hac felicitate, ſcribendum erat: <hi rendition="#i">Diu &amp; be-<lb/>
+ne.</hi> Per viginti annorum ſpatium in Lyceo Laubanenſi deſudabat,<lb/>
+primum Con-Rectoris, deinde Rectoris munere defungens, &amp; ea</hi><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">qui-</hi></fw><lb/>
+<pb facs="#f0005" n="5"/>
+<hi rendition="#aq">quidem cum laude, ut factis ipſius ac conatibus felicitas non minus<lb/>
+quam fama adſpirare videretur. Teſtimonium omni exce ptione<lb/>
+majus perhibent tot ingenia nobiliſſima, quæ ſub illo ad omne eru-<lb/>
+ditionis elegantioris pariter ac ſolidioris genus, felicitate in viden-<lb/>
+da, adoleverunt. Et ſi hæc ipſa deficerent, idem plus ſatis teſta-<lb/>
+rentur Laubanenſium preces, ſi non &amp; lacrymæ, quibus fidiſſimi<lb/>
+ſui <hi rendition="#i">Hoffmanni</hi> diſceſſum remorari, vel plane avertere contendebant.<lb/>
+Adeſto itaque grata poſteritas, cineribus que Hoffmanni inſcribe:<lb/>
+<hi rendition="#i">Diu &amp; bene.</hi> Aſt ſola noſtra Zittavia literas illas primas ſibi repo-<lb/>
+ſcere videtur, <hi rendition="#i">Bene at non diu</hi>, ſcriptura. Bene heic muneri dif-<lb/>
+ficillimo præfuit. In docendo enim nihil eorum omiſit, quæ ju-<lb/>
+ventuti vel neceſſaria, vel ſalutaria eſſe cognoverat. In perficiendis<lb/>
+laboribus aliis, tam alacrem, tam que impigrum ac indefeſſum ſeſe<lb/>
+præſtitit, ut ſæpe cibo &amp; ſomno abſtineret, operæ ſuæ, cui inten-<lb/>
+tus erat, manum ultimam impoſiturus. Nemo unquam diſcipli-<lb/>
+nam adſtrictiorem impenſius urſit, nemo gravius exercuit <hi rendition="#i">Hoff-<lb/>
+manno:</hi> ſed nemo etiam faciliori ſucceſſu, non ſaltem, quod ſeve-<lb/>
+ritatem blandiſſima quadam humanitate condiret, ſed quod ani-<lb/>
+madverterent quoque adoleſcentes, nihil inculcari præceptis, quod<lb/>
+ipſe non exprimeret exemplo. Ut <hi rendition="#i">Euphrates</hi> ille Plinianus huma-<lb/>
+nitatis, ſic <hi rendition="#i">Hoffmannus</hi> pietatis plenus erat, quam præcipiebat.<lb/>
+Sed quid hoc bene, ſi non diu? inquis mea Zittavia. Dicam pace<lb/>
+tua: <hi rendition="#i">Sat diu, ſi ſat bene</hi>! An planetam hunc aut illum propterea præ-<lb/>
+feres ſoli, quod ille vix aliquot luſtris iter ſuum abſolvit, ad quod<lb/>
+metiendum, publico orbis lum ini annus ſufficit? Meritis &amp; utili-<lb/>
+tate, non annorum intercapedine metienda eſt <hi rendition="#i">Hoffmanni</hi> tui vita.<lb/>
+Quid vero? an nondum credis, <hi rendition="#i">Hoffmannum</hi> tuum &amp; bene &amp; diu<lb/>
+vixiſſe? Diu tecum vixit, quia bene, ut recte cum <hi rendition="#i">Sprœlingio</hi> Poë-<lb/>
+ta canamus<hi rendition="#i">:</hi></hi></p><lb/>
+<cit><quote><lg type="poem"><l><hi rendition="#aq"><hi rendition="#i">Lilium</hi> erat: gratum nobis ſpirabat odorem</hi></l><lb/>
+<l><hi rendition="#aq">Marcuit aſt ſubito, cur? quia lilium erat.;</hi></l><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">Qui</hi></fw><lb/>
+<pb facs="#f0006" n="6"/>
+<l><hi rendition="#aq">Qui <hi rendition="#i">bene</hi>, quam vis ille <hi rendition="#i">diu</hi> non vixerit, ejus</hi></l><lb/>
+<l><hi rendition="#aq">Vita <hi rendition="#i">diu</hi> mihi ſat, cum <hi rendition="#i">bene</hi> ſat fuerit.</hi></l></lg></quote><bibl/></cit><lb/>
+<p><hi rendition="#aq">Diu vivit, quia æternum bene. Vivit in cœlo candidiſſimum hoc<lb/>
+lilium, &amp; a <hi rendition="#i">Roſis,</hi> in quibus cum JEſu paſcitur, divinum nanciſcitur<lb/>
+decus. Vivit, &amp; e manu dulciſſimi Servatoris infinita pietatis,<lb/>
+fidei ac liberalitatis in egenos, præmia refert. Diu vivit, quia in<lb/>
+terris poſt fata etiam bene vivit. Vivit in derelicta ac orba, quæ<lb/>
+videtur, ſobole. Quoties enim tot ſplendidiſſimorum Cognato-<lb/>
+rum beneficia ac ſolatia, tantum ſummorum Patronorum ac Ever-<lb/>
+getarum favorem ac præſidium, reſpicimus, quibus calamitas illo-<lb/>
+rum ac miſeria demulcetur, quis non anim advertat, in ipſis pieta-<lb/>
+tem paternam &amp; vivere &amp; coronari? Vivit præcipue in <hi rendition="#i">Nobiliſſi-<lb/>
+mis filiis</hi> natu majoribus, quorum in virtute ac eruditione incre-<lb/>
+menta partim admirari, partim laude &amp; applauſu publico, imo &amp;<lb/>
+præmiis colere cœpit Lipſia. Vivit denique in illorum memoria,<lb/>
+quibus olim in ſinu ſuo ſemina virtutis doctrinæque veræ ingeſſit.<lb/>
+Ut enim per <hi rendition="#i">Hoffmannum</hi> bene vivere didicerunt: ſic, ut <hi rendition="#i">Hoffman-<lb/>
+nus</hi> viciſſim per monumen tumaliquod honori ſuo excitatum, in-<lb/>
+ter poſteros quoque bene &amp; diu vivat, ſedulo providerunt. Non-<lb/>
+nulli ſcilicet ex Auditorum <hi rendition="#i">Hoffmannianorum</hi> numero, Pietate duce<lb/>
+ac grato animi affectu, me meosque in officio ſucceſſores, legato<lb/>
+ſatis liberali, obligarunt, ut ſingulis, ſi qui futuri ſint, annis, dies<lb/>
+<hi rendition="#i">Hoffmanni</hi> emortualis oratione aliqua Parentali celebretur. Cum<lb/>
+itaque bono cum numine, die craſtino, poſt finita ſacra matutina,<lb/>
+mœſti quidem ſed debiti officii facturi ſimus initium, <hi rendition="#i">Magnificos at-<lb/>
+que Prænobiliſſimos civit at is noſtræ Proceres,</hi> literarum Patronos,<lb/>
+Fautores atque A micos omnes, meritorum Hoffmannianorum<lb/>
+denique cultores univerſos, affectu humili, devoto ac officioſiſſimo<lb/>
+rogo obteſtorque, ut ſplendidiſſima ſua præſentia teſtari dignentur,<lb/>
+ne in ſe quidem vivere deſiiſſe <hi rendition="#i">Hoffmannum.</hi></hi></p><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<p><hi rendition="#c"><hi rendition="#aq"><hi rendition="#i">P. P. Zittaviæ, d. 2. Octobr. M. DCCXIII.</hi></hi></hi></p></div><lb/>
+<pb facs="#f0007" n="7"/>
+<div type="fsOtherPublication" n="1"><head><hi rendition="#aq"><hi rendition="#b">Oratio ipſa.</hi><lb/>
+<hi rendition="#i">Auditores omnium Ordinum dignitatumque Honoratiſſimi.</hi></hi></head><lb/>
+<p><hi rendition="#aq"><hi rendition="#in">P</hi>Rincipes dum florem nobilitatis, &amp; præcipua virtutis ac prudentiæ lu-<lb/>
+mina, ſollicite conquirunt, accerſuntque, aulas ſuas in florentiſſi-<lb/>
+ma quædam ſeminaria convertere videntur, è quibus, poſcente<lb/>
+uſu ac neceſſitate, ecs petere integrum eſt, quorum opera &amp; con-<lb/>
+ſilio vel in pacis vel belli negotiis ex voto utantur. O pulcherrimum<lb/>
+ſpectaculum, quando Princeps, virtute magis, quam dignitate ſuis præſtan-<lb/>
+tior, Sol. m æmulatur, quem miniſtri in curſu negotiorum ſuorum, ea lucis ac<lb/>
+virtutis ſi militudine ſequuntur, ut cives habeant, quo per diem pacis ac feli-<lb/>
+citatis gaudere, per calamitatum publicarum tenebras vero, mentes pavidas<lb/>
+ſolari queant. Fallor, aut ea felicitate olim ſuperbierunt <hi rendition="#i">Conſt antini Magni,<lb/>
+Caroli Magni, Heinrici Aucupis, Alphonſi Arragonum Regis, Johannis Frideri-<lb/>
+ci, ac Johannis Conſtantis, Saxoniæ Electorum, Philippi, Cattorum Principis, Jo-<lb/>
+achimi Brandenburgici, Friderici Altenburgenſis, Erneſti denique Pii,</hi> regiæ Nec<lb/>
+ad ſervum aſſentatorum genus referendus eſſem, ſi infacundia mea hodie im-<lb/>
+perantium quorundam laudes deterere auderem. Singularia interim ſunt, quæ<lb/>
+<hi rendition="#i">de Theodoſio Juniore</hi> Nicephorus, Egnatius, Paulus Diaconus, aliique autores ſa-<lb/>
+tis idonei, memoriæ prodiderunt. Optimus videlicet Princeps certas ac ſtatas<lb/>
+diei horas cum miniſtris ſuis purpuratisq;, lectionibus ſacris, cantilenis ac piis<lb/>
+de rebus fidei colloquiis impendebat, adeo, ut aulam ipſius rectius cœnobium<lb/>
+aliquod, quam regiam aut palatium appellaſſes. Verum enim vero ea vafri-<lb/>
+ties eſt &amp; aſtutia Dæmonis, ut cum perſpectum habeat, ab aulis principum de-<lb/>
+pendere, quicquid in terris univerſis, &amp; civium omnium grege, vel boni viget,<lb/>
+vel mali graſſatur, totus in eo eſt, ut Scholas illas virtutum in turpia vitiorum<lb/>
+latibula, ſcelerumque palæſtras, transformet. Quamvis autem non ſemper illo<lb/>
+gaudeat ſucceſſu, quem ſperaverat, eò ta men in opere ſuo abominando ſæpe<lb/>
+progreditur, ut paucæ hodie reperiantur aulæ, in quibus nihil aſſentationis,<lb/>
+ambitionis nihil, nihil denique calumniarum &amp; invidiæ dominetur, adeo, ut<lb/>
+noſtro etiam ævo cum Lucano exclamare liceat:</hi></p><lb/>
+<p><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">Exeat aula,<space dim="horizontal"/>‒<space dim="horizontal"/>‒<space dim="horizontal"/>‒<lb/>
+Qui volet eſſe pius!</hi></hi></hi></p><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">Sed</hi></fw><lb/>
+<pb facs="#f0008" n="8"/>
+<p><hi rendition="#aq">Sed ut pietas in aulis plurimis paulo rarior eſt: Sic &amp; felicitas nimis<lb/>
+eheu, frequenter in aulicis deſideratur. Quis eſt, qui neſciat, quam triſti at-<lb/>
+que immiti fato <hi rendition="#i">Parmenio, Philot as, Clytus, Papinianus</hi> patrumque noſtrorum<lb/>
+tempore <hi rendition="#i">Pizarrus, Alvarus, Volſæus, Spinoſa, Luna, Thuanus, Villaregius, Som-<lb/>
+merſetus, Cleſelius, Bironius</hi> &amp; innumeri alii defuncti fuerint, poſtquam ſide-<lb/>
+rum inſtar aulas Regum ſuorum illuſtraverant. Sed neque illi ſaltem pœnas<lb/>
+ſecuritati ſuæ dederunt, qui crimine aliquo, vel ſaltem ſuſpicione illius, Prin-<lb/>
+cipum ſuorum provocarant indignationem: ſed ipſi etiam inſontes novercan-<lb/>
+tis ac perſequentis fortunæ laqueos ſæpiſſime non effugerunt, quorum ordini,<lb/>
+ex innumera turba, merito <hi rendition="#i">Camillum, Scipionem, Senecam, Thomam Morum,</hi><lb/>
+transſcribimus. <hi rendition="#i">Orontes</hi> Artaxerxis Regis gener, pulchre dixiſſe fertur â <hi rendition="#i">Plu-<lb/>
+tarcho,</hi> in apopthegmatibus, <hi rendition="#i">Principum amicos videri conſimiles Arithmetico-<lb/>
+rum digitis. Nam ut hi computando nunc myriada, nunc monada repræſentent:<lb/>
+ita eos, qui regibus ſe inſinuent, modo pollere plurimum &amp; obſervari; mox vero,<lb/>
+qui fortunæ mos ſit, quæ homines velut pilas habeat, in imum demer ſos ludibrio<lb/>
+eſſe omnibus.</hi> Locum autem his queſtibus dediſſe ipſum ejus ſocerum, idem<lb/>
+<hi rendition="#i">Plutarchus</hi> commemorat. Is enim ob leviſſimam cauſam ipſi ſuccenſens, da-<lb/>
+mnatum ac honore quovis exutum, omnium contemtui &amp; ludibrio expoſuerat.<lb/>
+Quo rariora itaque ſunt aulicorum felicium ſimul &amp; piorum exempla, eò gra-<lb/>
+tior haud dubie Vobis, Auditores O. O. honoratiſſimi, illius erit memoria, quem<lb/>
+Vosmet ipſi, ut optimæ notæ aulicum, amaſtis olim &amp; coluiſtis. Eſt ille<lb/>
+<hi rendition="#i">Nobiliſſimus, Ampliſſimus atque Præcellentiſſimus Vir, Dominus M. Godofredus<lb/>
+Hoffmannus,</hi> florentiſſimi hujus Gymnaſii, per annos quatuor, Rector non fa-<lb/>
+migeratiſſimus minus, quam meritiſſimus. Ipſa generis proſapia &amp; nativitas<lb/>
+ipſum fecerat <hi rendition="#i">aulicum,</hi> ne quis cavilletur, ſaltem ridiculo quodam errore in i-<lb/>
+pſum cecidiſſe id nominis. Objicis, abjectam vivendi rationem eorum, quos<lb/>
+<hi rendition="#i">Hoffmannus</hi> generis ſui nactus fuerat autores, parum præ ſe tuliſſe, quod re-<lb/>
+rum aulicarum ſplendori comparari potuerit: prætereaque contemto muneri,<lb/>
+in quo vitam ſuam, ceu ergaſtuli quoddam detrimentum, transegerit, male cum<lb/>
+negotiis purpuratorum, aut omnino imperantium, convenire, niſi pro digni-<lb/>
+tate eadem habeas, Rectorem eſſe, &amp; Regem, aut Tyrannum illum inter pue-<lb/>
+ros Corinthios &amp; in ſolio Syracuſano, eodem mactandum eſſe honore. Sed qui<lb/>
+in aulas Principum mortalium receptus non fuerat, dignus habebatur, quem<lb/>
+æternus ille dominantium Dominus, Rexque Regum potentiſſimus, amicis ſuis<lb/>
+&amp; purpuratis adlegeret. Cumque ſub Summi hujus rerum omnium arbitri au-<lb/>
+ſpiciis, ea in mortalitatis curriculo fideliter ac ſtrenue expedi viſſet, quæ ſibi in-</hi><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">juncta</hi></fw><lb/>
+<pb facs="#f0009" n="9"/>
+<hi rendition="#aq">juncta eſſe noverat, anno ſuperiori, in primo menſis Octobris limine, ad ipſa<supplied>m</supplied><lb/>
+æternitatis aulam à Rege ſuo cœleſti evocatus, univerſa imperia ac regna, o-<lb/>
+mnemque aularum terrenarum luxum ac</hi> φαντασίαν <hi rendition="#aq">vultu lætiſſimo deridere ac<lb/>
+contemnere cœpit. Licet itaque nec florentiſſima noſtra Zittavia, nec inclyta<lb/>
+hæc bonarum Dearum ſedes, optimo Hoffmanno tantam felicitatem tamque<lb/>
+exoptatas rerum vices invideat, Muſæ tamen jacturæ gravisſimæ, quam per in-<lb/>
+opinatam ejus &amp; immaturam plane mortem paſſæ fuerunt, nondum oblitæ.<lb/>
+nihil prius habent ant antiquius, quam ut optima Optimi ſui patris memoria<lb/>
+monumento aliquo gratæ pietatis, in hac bonarum artium &amp; ſpei publicæ palæ-<lb/>
+ſtra, conſervetur, &amp; ad ſeros usque poſteros, ſi quos ſperare licet, proferatur.<lb/>
+Sed videte, quam feliciter voto ſuo pio ac debito potiri cœperint! Nonnulli ex<lb/>
+amplisſimo, &amp; pene innumerabili ordiue, quibus olim licuit eſſe tam felicibus,<lb/>
+ut à <hi rendition="#i">Beato Viro</hi> non favore ſaltem veré paterno foverentur, ſed in optimis et-<lb/>
+jam artibus ac liuguis ſedulo &amp; ſide ſumma erudirentur, acceptorum beneſicio-<lb/>
+rum memores, legato aliquo certo, &amp; eo quidem ſatis liberali, me illosque, quos,<lb/>
+ſi viſum numini, in hoc munere habiturus ſum ſucceſſores, obſtrinxerunt, ut<lb/>
+diem illam, quæ omnium noctium caliginem ſuperare, &amp; in pluribus lucem<lb/>
+ſpei ae fiduciæ in denſiſſimas tenebras transmutaſſe videbatur, quoties ver-<lb/>
+tente anno reduceretur, ſermone aliquo parentali colamus ac celebremus. Lau-<lb/>
+datisſimæ huic &amp; in exemplum omnibus commendandæ pietati, dum velifica-<lb/>
+turi accesſi mus, <hi rendition="#i">Vobis</hi> non ingratum fore arbitror, <hi rendition="#i">A. O. O. Honoratiſſimi!</hi> bea-<lb/>
+tum <hi rendition="#i">Hoffmannum</hi> ſub imagine AULICI PII ET FELICIS, mecum breviter<lb/>
+contemplari. Neque autem opus eſſe video, favorem Veſtrum &amp; indulgen-<lb/>
+tiam operoſius exorare, cum certo confidam, omnem meam infacundiam ac<lb/>
+balbatiem, vel ſolo <hi rendition="#i">Hoffmanni</hi> meritisſimi amore, inuſitatoque in qualiacunque<lb/>
+mea ſtudia, favore ac propenſione, haud difficulter iri excuſatum.</hi></p><lb/>
+<p><hi rendition="#aq">Cum <hi rendition="#i">Hoffmannus</hi> noſter in lavacri cœleſtis fonte purpuram ſangvinis<lb/>
+JESU CHRISTI induiſſet, auctoque jam rationis uſu intelligeret, inter ami-<lb/>
+cos Dei &amp; purputatos ejus ſe eſſe receptum, ante omnia, partim ex dulcisſi-<lb/>
+morum parentum, quos è Patria Sileſia, ob conſtantem religionis veræ amo-<lb/>
+rem, proſcriptio JESULO exuli ſimiles reddiderat, partim è præceptcrum ſi-<lb/>
+delium ore diſcebat, quænam aulæ illius, in qua in poſterum verſandum eſſet,<lb/>
+conſtitutio, quæ juta, qui rerum omnium ordo foret. Sibi enim dedecori fo-<lb/>
+re, facile ſentiebat, Domino alicui ſervitia ſua &amp; operam addicere, priusquam<lb/>
+voluntatem ejus &amp; decreta exacte calleret: dedecori, nomen ſuum familiæ au-<lb/>
+licorum dare, neque amictum illorum, coloremve quaſi teſſeræ loco ab illis</hi><lb/>
+<fw type="sig" place="bottom"><hi rendition="#aq">b</hi></fw><fw type="catch" place="bottom"><hi rendition="#aq">geſtari</hi></fw><lb/>
+<pb facs="#f0010" n="10"/>
+<hi rendition="#aq">geſtari ſolitum, recte cognoviſſe. Hanc aulæ divinæ conſtitutionem nemo<lb/>
+clarius perfectiusque deſcribit Rege Davide, quippe, qui per univerſam Pſal-<lb/>
+morum ſuorum ſeriem, id dedit operam, ut divinæ majeſtatis leges ac ſtatu-<lb/>
+ta accurate &amp; ſigillatim exp oneret. Tandem in Pſalmo centeſimo primo ſuam<lb/>
+ipſius aulam, quaſi ad divinar um ordinationum exemplar expreſſam, orbi uni-<lb/>
+verſo imperanti exhibet, quales miniſtros &amp; DEus, &amp; ipſe, Numinis divini<lb/>
+exemplo, ſibi expoſcat, ordine pulcherrimo ediſſerens. Cum itaque <hi rendition="#i">Hoffman-<lb/>
+nus</hi> noſter mature ex ſacro codice didiciſſet, quæ fidum &amp; vetum aulæ divinæ<lb/>
+miniſtrum deceant, totus in eo eſſe cœpit, ut vita ipſa &amp; factis tanta aula ſe<lb/>
+redderet dignum.</hi></p><lb/>
+<p><hi rendition="#aq">Prima itaque imperantis lex eſt <hi rendition="#i">impios odiſſe, neque illos intra aulæ<lb/>
+ſuæ tolorare pomœria.</hi> Cur ergo miniſtrorum prima lex nen ſit, impietatem<lb/>
+abhorrere, cujus hoſtem infenſisſimum DEum eſſe noverunt? Non omnino<lb/>
+vituperanda ſunt, quæ famoſus ille Satyricus <hi rendition="#i">Boccalinus</hi> orbi reliquit<hi rendition="#i">: Licet<lb/>
+Princeps ipſe,</hi> inquit, <hi rendition="#i">ad miraculum usque pius ac moratus ſit, mille tamen ipſum<lb/>
+circumſtrepunt Cacodæmones, qui ad varia ſcelerum genera, variis artibus ac ma-<lb/>
+chinis ad nequitiam pelliciunt &amp; invitant.</hi> Hinc ſæpiſſime aut ipſe Princeps illau-<lb/>
+dabili ſuo exempſo ac conſvetudine, miniſtros ſuos ad ſimilia pellicit facinora;<lb/>
+aut purpurati, dæmonis organa, tamdiu mentem domini movent, quatiunt<lb/>
+ac vellicant, donec in ſuorum malitiam conſentiat. Sed <hi rendition="#i">Hoffmannus</hi> noſter ab<lb/>
+ineunte ætate ſedulo cavit, ne quicquam vel in Schola vel Academia, vel mu-<lb/>
+nere denique, committeret, quo domini ac regis ſui nomen &amp; majeſtatem vel<lb/>
+leviſſime violare poſſet. Si quæras, quidnam beatum <hi rendition="#i">Hoffmannum</hi> potiſſimum<lb/>
+moverit, ut neque puerorum petulantiam effrenem, nec diſſolutam juvenum<lb/>
+licentiam aut voluptatem, nec virorum denique avaritiam, ambitionem aut ini-<lb/>
+micitias probaret vel ſectaretur, in promtu ratio eſt: <hi rendition="#i">Gottfriedus</hi> erat. Ad for-<lb/>
+tius firmiusque ſancienda pacis fœdera, interdum pretioſiſſima invicem mittun-<lb/>
+tur dona: Hinc, cum DEO viſum eſſet, cum <hi rendition="#i">Hoffmanno</hi> ſuo in baptiſmate<lb/>
+arctius quoddam pacis inire fœdus, inuſitatas ingenii indolisque dotes manu li-<lb/>
+beraliſſima in ipſum effudit. Hic autem de munere mutuo cogitans, nihil in<lb/>
+facultatum ſuarum apparatu invenit, quod blandiſſimo patri gratius accepti-<lb/>
+usque eſſe poſſet, quam cor ſuum, idque pietate &amp; fervidiſſimo virtutis omnis<lb/>
+amore plane refertum ac turgens. <hi rendition="#i">Honeſtum ac bonum Virum agere,</hi> inquit il-<lb/>
+le, <hi rendition="#i">nobiliſſimum omnium artificium eſt.</hi> Aſt vero, qui illi operam ſuam paulo<lb/>
+ſtudioſius commodant, vix habent, quod ſe in aulis quorumvis <hi rendition="#i">M</hi>agnatum lo-</hi><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">cum</hi></fw><lb/>
+<pb facs="#f0011" n="11"/>
+<hi rendition="#aq">cum inventuros eſſe credant. Videte, quibus divortiis à ſe invicem abeant Nu-<lb/>
+minis divini, terrenorumque principum aulæ. In his ſæpe, ſi non riſu, con-<lb/>
+temtu tamen &amp; averſatione excipitur veræ pietatis ſtudium: in illa damnas eſt,<lb/>
+&amp; odio omnium expoſitus, qui pietate neglecta, regiam vitiorum viam ingredi-<lb/>
+tur. Sane, ſi nihil in <hi rendition="#i">Hoffmanno</hi> laudari poſſet, præter unicam illam virtu-<lb/>
+tum omnium principem ac reginam, <hi rendition="#i">Pietatem,</hi> dignus tamen eſſet, quem o-<lb/>
+mnes ſcholarum Rectores Panegyricis ſuis &amp; encomiorum publicorum ſolenni-<lb/>
+tate, concelebrarent. O felices ſcholarum Doctores, qui vere Gottfriedi audi-<lb/>
+unt! ſed ò &amp; infelicisſimos, qui ut novi quidam</hi> Θεομάχοι, <hi rendition="#aq">congeſtis criminum<lb/>
+vel impietatis montibus, nefandum Deo moliuntur bellum. Certe Magiſtri illi,<lb/>
+qui in curriculo ſuo ſcholaſtico id unice agunt, ut vel famam atque auram po-<lb/>
+pularem, quam unice captant, vel Junonem monetam, ut cum antiquitate<lb/>
+loquar, ſibi concilient, ſusque deque habita numinis ſanctiſſimi gloria, reique<lb/>
+publicæ commodis ac ſalute, vix aliud ſibi polliceri poterunt, quam, ut apud<lb/>
+ſeram quoque poſteritatem ignominia publica differantur, &amp; ab omnibus cla-<lb/>
+dem vel calamitatem Joſephi, ut cum ſacro oraculo loquar, ſerio &amp; ſero æſti-<lb/>
+mantibus, modis ſua nequitia dignis, vapulent.</hi></p><lb/>
+<p><hi rendition="#aq">Quæ deinde Davides cum impietate jungit, <hi rendition="#i">cor perverſum</hi> ſcilicet <hi rendition="#i">&amp;<lb/>
+detrectationes occultas, atque quaſi cuniculatim jactas,</hi> quibus aliqui amicorum<lb/>
+innocuorum famam, auſu abominande, quid? quod ethnicis etiam inviſo &amp; exe-<lb/>
+crabili, lacerare ſolent, illa omnia, ut cauda quædam draconis, impietatisque<lb/>
+appendix fœdiſſima, a vita, moribus &amp; oonverſatione <hi rendition="#i">Hoffmanni</hi> noſtri non<lb/>
+propius, ac ipſa deteſtabilis eotum mater, remota erant. Rejicit porro en-<lb/>
+theus ille Pſaltes eorum malitiam, <hi rendition="#i">qui aſtutam vapido gestant ſub pectore vulpem,<lb/>
+in domo mea illum,</hi> inquit, <hi rendition="#i">non tolero.</hi> Nec <hi rendition="#i">Hoffmannus</hi> noſter turpiſſimam hanc<lb/>
+fallaciam in pectore ſuo tolerabat. Mem niſtis, <hi rendition="#i">Patroni Optimi Maximi,</hi> quod<lb/>
+in ſchediaſmate, quo VOS ad cohoneſtanda hæc parentalia invitabam, <hi rendition="#i">beato Vi-<lb/>
+ro</hi> lilia quædam ſacraverim. Et annon vel ſolo candore ſuo, qui ſine pari erat<lb/>
+&amp; exemplo, id floris ornamentum merebatur. Non diffiteor, eſſe hoc noſtro<lb/>
+ævo, qui execrandum animi ſui nigrorem, ſimulato quodam &amp; in labiis natante<lb/>
+candore, palliare didicerint, ut recte cum Poëta conqueraris:</hi></p><lb/>
+<cit><quote><lg type="poem"><l><hi rendition="#aq"><hi rendition="#i">Sæpe etenim occuluit picta ſeſe hydra ſub herba</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Et nivea irrepſit furialis lilia verinis.</hi></hi></l></lg></quote><bibl/></cit><lb/>
+<fw type="sig" place="bottom"><hi rendition="#aq">b</hi> 2</fw><fw type="catch" place="bottom"><hi rendition="#aq">Sed</hi></fw><lb/>
+<pb facs="#f0012" n="12"/>
+<p><hi rendition="#aq">Sed vos compello, omnes <hi rendition="#i">Zittaviæ</hi> noſtræ &amp; <hi rendition="#i">Laubæ</hi> cives. Vos inter rogo, an<lb/>
+in <hi rendition="#i">Hoffmanni</hi> Veſtri conſvetudine quicquam notaveritis, quod mentis atræ ſu-<lb/>
+ſpicionem movere potuerit?</hi></p><lb/>
+<cit><quote><lg type="poem"><l><hi rendition="#aq"><hi rendition="#i">Nullus in hoc fucus, non fictæ verba loquelæ,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Pectora erant pura candidiora nive.</hi></hi></l></lg></quote><bibl/></cit><lb/>
+<p><hi rendition="#aq">O quam belle in ipſum quadrabant verba Manutii. <hi rendition="#i">Dignus hic eſt, cui vel inju-<lb/>
+rato fidem habeas.</hi> Non errabo, ſi ipſum virum</hi> τετραγωνον <hi rendition="#aq">appellavero: nuspi-<lb/>
+am enim verborum ampullas projiciebat, nec favoris ſui conteſtatione, aut aureis<lb/>
+promiſſorum montibus, credulos onerabat: Sed quæ ſemel ore prodierant, mor-<lb/>
+dicus poſtmodum &amp; conſtanter tuebatur, tenebatque, adeo, ut de ipſo recte dixiſ-<lb/>
+ſes, quod ille telæ linteæ ſoli expoſitæ, &amp; ope a quæ candefaciendæ, adſcripſe-<lb/>
+rat: <hi rendition="#i">Candidior ſemper.</hi> Quo diutius enim quis converſatione ejus fruebatur, <supplied>e</supplied>o<lb/>
+clarius candor ejus &amp; fides intemerata proferebatur in apricum. Pergit Davides<lb/>
+&amp; <hi rendition="#i">mendaciorum quoque Dædalos</hi> ex aula ſua proſcribit, veritatem pulcherrimam<lb/>
+in bonis civibus eſſe laudem &amp; corollam, ſubindicans. Si aularum terrenarum<lb/>
+mores æſtimes, rariſſimi ſunt inter miniſtros, qui Principi ſuo nudam &amp; ſimpli-<lb/>
+cem veritatem aperiunt aut exponunt. <hi rendition="#i">Proſcrïbitur,</hi> inquit <hi rendition="#i">M</hi>othofius, <hi rendition="#i">aple-<lb/>
+risque aulis veritas: vel ſi adeſt, ſilentium fovet plusquam Pythagoricum.</hi> Nec,<lb/>
+ſi omnia miniſteria lucro vel favoris captandi decempeda metiaris, omnino dis-<lb/>
+ſvadenda eſt conſveta illa veritatis ſuppreſſio. Idque jam pridem agnovit in jus-<lb/>
+ſtiſſimus in ſimulata ſua juſtitia judex, cum quafi ſubridens, &amp; per ludibrium<lb/>
+ex Servatore quæreret: <hi rendition="#i">quid eſt veritas?</hi> in palatiis Magnatum raro vendibiles<lb/>
+eſſe has merces, ſignificans. Bone Deus, quot Principum numeres aulas,<lb/>
+quibus exitioſum adulatorum genus labem aliquam affricuit! Quod inter Pur-<lb/>
+puratos Aſtyagis, Medorum Regis, Harpagus erat, illud Demetrio Stratocles,<lb/>
+Mardonius Xerxi, &amp; Alexandro Macedoni Anaxarchus. Quid autem Hoffman-<lb/>
+nus noſter<hi rendition="#i">?</hi> Sane, prout Deo vero &amp; veraci nomen ſuum dederat: ſic veritatem<lb/>
+inter ſuos non colere, ipſi pro piaculo erat. Quotiescunque itaque Magiſtratui<lb/>
+aperiendi erant vel circa ſtudia, vel mores &amp; diſciplinam, in ſchola defectus,<lb/>
+ſcapham appellare ſcapham non verebatur. Ubi parentes de ſiliorum fidei ſuæ<lb/>
+concreditorum, vel probitate vel pravitate, certiores red di debebant, nec ce-<lb/>
+ruſſa utebatur, in excuſandis vel plane tegendis vitiis: nec fuco, ut qualia-</hi><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">cunque</hi></fw><lb/>
+<pb facs="#f0013" n="13"/>
+<hi rendition="#aq">cunque in artibus aut lingvis conamina tantum non cum duodecim Herculis fa-<lb/>
+cinoribus compararentur. Præcipue autem in eo ſe</hi> ἀληϑόφιλον <hi rendition="#aq">eſſe, teſtaba-<lb/>
+tnr, quod veritatis cœleſtis oracula omnibus humanæ ſapientiæ coloribus lon-<lb/>
+giſſime præferens,</hi> ἑνὸς <hi rendition="#aq">illius Salutatis</hi> Χρέιαν <hi rendition="#aq">ſe mper &amp; ubique graviſſimo fer-<lb/>
+vore &amp;</hi> ζήλω <hi rendition="#aq">inculcabat, licet forte non pauci extiterint, qui filios ſuos ad artes<lb/>
+placendi, &amp; irretiendi profanorum animos, perducere maluiſſent.</hi></p><lb/>
+<p><hi rendition="#aq">Mox illos etiam eliminat Davides, <hi rendition="#i">qui geſtibus ſuperbis animoque fa-<lb/>
+ſtuoſo &amp; elæto, Dec hominibusque oneri eſſe ſolent.</hi> Vix negabitis, dari Magnates,<lb/>
+qui maximam honoris ſui partem in eo ponant, quod aulæ miniſtri veſtibus mul-<lb/>
+to auro purpuraque diſtinctis ſuperbiant. Dario ſane, ultimo Perſarum tam in<lb/>
+Imperio, quam felicitate, regi, non ſuſſiciebat, duces copiarum ingenti pre-<lb/>
+tioſioris metalli mole, mulorum inſtar, oneratos eſſe; Sed ipſa etiam vehicu-<lb/>
+la equorumque freni ac phaleræ, iisdem ornamentis fulgebant. Sed cui volupe<lb/>
+eſt, in aula ſummi rerum Domini vivere, Principisque ſui perfrui gratia, aut<lb/>
+faſtum omnem &amp; ſuperbiam caue pejus &amp; anguevitabit, aut eodem defungetur<lb/>
+fato, quo Nobilis ille in <hi rendition="#i">Friderici Placidi</hi> Saxoniæ Electoris, aula. Cum enim<lb/>
+hic blandioribus Principis hortationibus permoveri non poſſet, ut veſtem luxu-<lb/>
+rioſe nitidam cum ſimpliciore commutaret, non ſine ſummo terrore audire co-<lb/>
+gebatur; <hi rendition="#i">quem pudet, meam in amictu ſimplicitatem ſequi, aulam hanc ſine me-<lb/>
+ra relinquat, oportet.</hi> De Imperatoribus Orientis memoriæ proditum eſt, quod<lb/>
+ipſis ſolenne fuerit, læva ſua vaſculum ex auro textili factum, libelloque æmu-<lb/>
+lum, quod cinere impleri juſſiſſent, ubique circumgeſtare, ut hac ratione fra-<lb/>
+gilitatis ſuæ ac mortalitatis memores, humilitati ſemper ac ubique ſtuderent.<lb/>
+Certe <hi rendition="#i">Hoffmannus</hi> noſter liber quidam erat, ſi non omnino vaſta aliqua Biblio-<lb/>
+theca, omni divinæ humanæ que ſapientiæ apparatu inſtructa &amp; abundans. Et<lb/>
+quis me adulationis inſimulet, ſi dicam, dotes illas incomparabiles, quibus mens<lb/>
+illius erectisſima effulgebat, aureum ipſi conciliaſſe decus? Quin ex eodem me-<lb/>
+tallo, meliorique, quod Poeta vocat, luto, ficta eſſe videbatur, ſingularis<lb/>
+plane &amp; <hi rendition="#i">Hoffmanno</hi> propria in docendo dexteritas facilitasque! Aſttantum abeſt,<lb/>
+ut divina hæc</hi> Χαρίσματα <hi rendition="#aq">animum ejus inflaverint, ut potius, quoties auto-<lb/>
+rem ipſorum, Deum, cogitabat, humillimo animi affectu coram majeſtatis cœ-<lb/>
+leſtis ſolio ſeſe abjecerit, corollas hasce ſuas, quaſi ad exemplum ſeniorum il-<lb/>
+lorum Apocalypticorum, numini Sanctiſſimo offerens, indignitatemque ſuam<lb/>
+devote ac timide agnoſcens. Ex eadem indignitatis ſuæ agnitione multa alia bo-</hi><lb/>
+<fw type="sig" place="bottom"><hi rendition="#aq">b</hi> 3</fw><fw type="catch" place="bottom"><hi rendition="#aq">na</hi></fw><lb/>
+<pb facs="#f0014" n="14"/>
+<hi rendition="#aq">na ac laudabilia, ut ex fonte quodam ubetrimo promanabant. Cum intellige-<lb/>
+ret, pulchra mentis ornamenta non ſibi, ſed aliis, vel ſaltem in alicrum uſum<lb/>
+conceſſa eſſe, ne momentum quidem præterlabi patiebatut, quod in gratiam &amp;<lb/>
+utilitatem ſuorum con verti poſſe credebat. Ipſas etiam pecunias, ut laboris<lb/>
+ſui irrequieti præmia, quaſi ſibi, ut indigno non debitas, pro onere habebat,<lb/>
+niſi ſtatim indigentiæ miſerorum conſecraret, dignus ſane, cujus non dextra<lb/>
+ſaltem, ſed membra omnia, tanquam impigra amoris Chriſtiani &amp; paterni inſtru-<lb/>
+menta, cum manu liberalis illius Northumbriæ Regis, nunquam computreſ-<lb/>
+cant. Mirabuntur ſane exteri, ſi audiverint, <hi rendition="#i">beatum Hoffmannum</hi> ſæpe majo-<lb/>
+rem eorum habuiſſe curam, quos parentes alii fidei ipſius commiſerant, quam<lb/>
+ſuæ ipſius ſobolis. Sed mirentur ſane, modo &amp; imitentur! Verum eſt, fuiſſe,<lb/>
+qui mitisſimum virum, de nimia in alienos liberalitate, amice monerent<hi rendition="#i">:</hi> Sed a-<lb/>
+nimo fiduciæ divinæ pleno reſpondit: <hi rendition="#i">Se cura propriæ ſobolis parum tangi, firmi-<lb/>
+ter perſvaſum, DEum non potentiſſimum ſaltem, ſed &amp; benigniſſimum patrem,<lb/>
+poſt fata ſua, eadem facilitate de ſuſtentandi mediis proſpecturum ſuis, ac ſibi<lb/>
+exuli omnibus que facultatibus deſtituto, imo vel ideo infeliciſſimo, quod infelici-<lb/>
+tatem ſuam per ætatem ne intellexiſſet quidem, de bene beateque vivendi ſubſidiis,<lb/>
+mir aculoſa plane ſapientia proſpexiſſet.</hi> Nec ſane heroicæ huic ſpei &amp; fiduciæ e-<lb/>
+ventus defuit.</hi></p><lb/>
+<p><hi rendition="#aq">Quem itaque mecum ut <hi rendition="#i">Aulicum pium ac probum</hi> contemplati fuiſtis,<lb/>
+<hi rendition="#i">Auditores Honoratiſſimi,</hi> ut &amp; in felicitate ſua breviter contueri velitis, enixe<lb/>
+obteſtor. Quam infelices fuerint non pauci, omnibus fere ſeculis, aulici, nemini<lb/>
+vel leviter in hiſtoriis verſato ignotum eſſe poteſt. Non mentitur, qui aulam<lb/>
+cœlum eſſe dicit, ſed in quo nimis frequens ſit fulgurum fulminumque illætabi-<lb/>
+lis ortus: <hi rendition="#i">Paradiſum,</hi> ſed ſerpentibus &amp; lapſu non carentem. <hi rendition="#i">Fabulam</hi> ſatis<lb/>
+lætam, ſed quæ tragica ſæpe finiatur cataſtrophe. Purpurati qui officio ſuo<lb/>
+exacte ſatisfacere, ſpemque Principis ſui ad amusſim implere ſatagunt, vix tan-<lb/>
+tum temporis ſibi relictum eſſe vident, ut ſalutem ac commoda domus ſuæ, non<lb/>
+dicam animæ, quæ omnino potior &amp; nobilior eſt, ex voto curare valeant. Non<lb/>
+errabat <hi rendition="#i">Similis,</hi> purpuratus ille in tropicis aulæ diu multumque verſatus, cum mo-<lb/>
+numento ſuo inſcribi juberet: <hi rendition="#i">hic ſitus eſt ſimilis, qui annos quinquaginta viven-<lb/>
+do emenſus, non niſi ſeptem vixit.</hi> Aulam neſcio quis navigationem appellat, in<lb/>
+qua ex vitro navis, vela papyracea, malus è ſtramine, ancora vero ex ligno<lb/>
+ficulneo conſtet. Ipſe <hi rendition="#i">Fridericus Sapiens,</hi> Saxoniæ Elector, cujus aulam tamen<lb/>
+facile aliarum appellaveris exemplum, de principibus aſſerit, quod ignem re-</hi><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">ferant,</hi></fw><lb/>
+<pb facs="#f0015" n="15"/>
+<hi rendition="#aq">ferant, cujus beneficio quis caleſieri, ſed &amp; aduri posſit. Paucis: Non omni-<lb/>
+bus tam benigniter adſpirat fortuna, ut absque periculo mare aulicum navigan-<lb/>
+do emetiantur. At, o quam ſelicior aliis noſter erat <hi rendition="#i">Hoffmannus,</hi> in eam rece-<lb/>
+ptus aulam, quæ nec caſu purpuratorum præcipite, nec tot periculis notabilis<lb/>
+eſt. Dum enim Domino ſuo ſerviit, ſuæ ſimul ſaluti omnium optime inſerviit.<lb/>
+Tantumque abeſt, ut negotiis Regis ſui intentus, domum ſuam neglexerit, ut<lb/>
+potius nemo meritis ſuis, &amp; opera domino præſtita, majora in ſuos derivaverit<lb/>
+emolumenta, quam felicisſimus <hi rendition="#i">Hoffmannus.</hi> Eſto, quod in aulis principum<lb/>
+mortalium miniſtri cum pomis aureis vel aurantiis comparari mereantur, quæ<lb/>
+ſucco deſtituta abjicimus<hi rendition="#i">:</hi> de <hi rendition="#i">Aulico</hi> noſtro nemo certe dixerit, quod levem la-<lb/>
+borum meritorumque gratiam retulerit. Sane, poſtquam ſemel, ut antea levi-<lb/>
+ter monuimus, â Numine blandisſimo in fœdus pacis &amp; gratiæ receptus fuerat,<lb/>
+bone Deus, quibus bonis, quibus favoris cœleſtis pignoribus mactabatur! In<lb/>
+terram alienam ejecto numen de hoſpitio, miſero ac derelicto de Patronis, ege-<lb/>
+no de vitæ ſuſtentaculis proſpiciebat. Nihil habenti, ut Abdolonymo illi, nihil<lb/>
+defuit. Ad Scholas ablegatus, præceptores eruditos, dextros, candidos ac<lb/>
+fidos nanciſcebatur, ſub quibus, comitante ubique plenisſimo Dei favore, ad<lb/>
+virtutis non minus, quam literarum laudem haud mediocrem aſſurtekit. Qua<lb/>
+benignit ate in alma Philurea à <hi rendition="#i">Carpzovio, Ittigio, Oleario, Rechenbergio, Fel-<lb/>
+lero, Franckenſteinio,</hi> aliisque, exceptus fuerit, nimis longum foret, heic com-<lb/>
+me morare. Sufficit, <hi rendition="#i">Hoffmannum</hi> hic inveniſſe, quicquid a Parentibus filius,<lb/>
+a Patron<gap reason="lost" unit="chars" quantity="5"/>ns, a que præceptore diſcipulus expectare poteſt. Vix ad matu-<lb/>
+ritatem aliquam perducta erant ſtudia, cum dulces præſto eſſent fructus. Lip-<lb/>
+ſia lauream Philoſophicam, quaſi victoriæ publice reportatæ ſymbolum, Lau-<lb/>
+banenſes Con-Rectoratum (communi vocabulo) ipſi decernebant. Mox ejus-<lb/>
+dem Lycei faſces, &amp; tandem florentiſſimi noſtri Zittei gubernacula demanda-<lb/>
+bantur, &amp; hæc omnia, cum manifeſto</hi> τοῦ ϑείου <hi rendition="#aq">æternæque providentiæ indicio.<lb/>
+Nec enim per largitiones, quibus male reſpondebant facultates, nec per alium<lb/>
+caſuum illornm obliquorum, per quos hodie non exigua vocationum pars extor<lb/>
+queri ſolet, ſed ſolo Sapientisſimi omnium rerum arbitri nutu, ad eam mune-<lb/>
+rum ſuorum dignitatem evehebatur. In officio jam conſtitutus, immenſam<lb/>
+Numinis benig nitatem mille experiebatur modis. Succedebat ex voto gravisſi-<lb/>
+mus etiam, &amp; difficillimus labor; operam amicisſimam conferebant collegæ,<lb/>
+cum quibus &amp; heicloci &amp; apud Laubanenſes, fraternum in morem conſtanter vi-</hi><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">vere</hi></fw><lb/>
+<pb facs="#f0016" n="16"/>
+<hi rendition="#aq">vere dabatur, in quo ſane maximam partem felicitatis, quam Rectoris Schola-<lb/>
+ſtici fortuna capit, conſiſtere, non ab re exiſtimo. Nec viam hujus beatitudi-<lb/>
+nis moleſtam aut ſalebroſam reddebant diſcipuli, quos maximam partem, (quis<lb/>
+enim Satanæ malitiæque propriæ mancipia reſpiciat?) probos, morigeros &amp; gra-<lb/>
+tos experiebatur. Et quo felicius ſuccederet ſcholaſtica hæc navigatio, tot etiam<lb/>
+Patroni ſummi, tot <hi rendition="#i">M</hi>ecœnates, ac Fautores, aura blandisfima ipſi adſpirabant.<lb/>
+Ut taceam, quantum calcar bonorum omnium apptobatio, applauſusque Ger-<lb/>
+maniæ unive rſus, præter famæ celebritatem, laudes &amp; encomia magnorum,<lb/>
+<hi rendition="#i">Viro Optimo</hi> jam tum alacriter currenti, addiderint. Si de opum affluxu quæras,<lb/>
+idem merito de Schola conque rendum eſt, quod impurus ille purisſimæ Latini-<lb/>
+tatis architectus, Petronius, de rhetoribus habet:</hi></p><lb/>
+<cit><quote><lg type="poem"><l><hi rendition="#aq"><hi rendition="#i">Qui pelago credit, magno ſe fœnore tollit,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Qui pugnas &amp; caſtra petit, præcingitur auro,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Vilis adulator picto jacet ebrius oſtro,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Et qui ſollicitat nuptas, ad præmia peccat,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Sola pruinoſis horret facundia pannis,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Atque inopi lingua deſertas invoc at artes,</hi></hi></l></lg></quote><bibl/></cit><lb/>
+<p><hi rendition="#aq">Sed niſi <hi rendition="#i">Hoffmanno</hi> hac in parte benig nior arriſiſſet fortuna, non habuiſſet, unde.<lb/>
+ceu fonte quodam, inuſitata ejus decurreret liberalitas. Prolixum foret, juſta<lb/>
+ſerie exponere, quanta &amp; quot bona, in duplici matrimonio, e manu benigniſſimi<lb/>
+Numinis retulerit. Tribus dixiſſe ſufficiat, neutrum ſine dulcisſima animorum<lb/>
+conjunctione, pace, amore &amp; tranquillitate, neutrum ſine fructibus amoris no-<lb/>
+bilisſimis ac ſvaviſſimis, neutrum denique ſine felicitatis, &amp; bonorum affluxu<lb/>
+largisſimo fuiſſe. Vel in vulgus notum eſt, quod aula principum cœlum ex-<lb/>
+ſcribat, in quo nunc oriantur aſtra, nunc occidant. Et ſane gratior eſſet<lb/>
+ſpecioſa <hi rendition="#i">M</hi>agnatum gratia, ſi tantum conſtantiæ haberet, quantum ſvavitatis<lb/>
+poſſidet. Aſt recte dixit, quisquis dixit:</hi></p><lb/>
+<cit><quote><hi rendition="#aq"><hi rendition="#i">Gratia Magnatum centum prætervo lat alis.</hi></hi></quote><bibl/></cit><lb/>
+<p><hi rendition="#aq">Paucos numeres inter purpuratos feliciores, quorum exitus principio felici</hi></p></div><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">re-</hi></fw><lb/>
+</body></text>  </TEI>

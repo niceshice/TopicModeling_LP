@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Eine Christliche Leichpredigt/ bey der Begräbnuß deß Ehrengeachten/ Wolgelehrten vnd Vornehmen Herren/ Dauid Wincklers</title>
+<author>
+<persName ref="http://d-nb.info/gnd/128433930">
+<surname>Mylaeus</surname>
+<forename>Johann Philipp</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">16</measure>
+<measure type="tokens">3978</measure>
+<measure type="types">1597</measure>
+<measure type="characters">26623</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:10:10Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/508455</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/508455</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/508455</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/508455</idno>
+<idno type="DTADirName">508455</idno>
+<idno type="DTAID">200095</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-200095-7</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Mylaeus, Johann Philipp: Eine Christliche Leichpredigt. Heidelberg, 1599.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Eine Christliche Leichpredigt/ bey der Begräbnuß deß Ehrengeachten/ Wolgelehrten vnd Vornehmen Herren/ Dauid Wincklers</title>
+<author>
+<persName ref="http://d-nb.info/gnd/128433930">
+<surname>Mylaeus</surname>
+<forename>Johann Philipp</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">16</measure>
+</extent>
+<publicationStmt>
+<publisher><name>s. e.</name></publisher>
+<pubPlace>Heidelberg</pubPlace>
+<date type="publication">1599</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 O 103 / 508455</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"> <docTitle> <titlePart type="main"> Eine Chriſtliche<lb/>
+<hi rendition="#b">Leichpredigt/ bey der<lb/>
+Begraͤbnuß deß Ehrengeachten/<lb/>
+Wolgelehrten vnd Vornehmen Herꝛen/</hi> Dauid<lb/>
+Wincklers/ etwan Buͤrgermeiſters zu Reichen-<lb/>
+bach in Schleſien/<lb/>
+</titlePart> </docTitle> <byline> <hi rendition="#b">Gehalten den</hi> 21. <hi rendition="#aq">Martij Anno</hi> 99.<lb/>
+<hi rendition="#b">Durch Herꝛn</hi><lb/>
+<docAuthor> <hi rendition="#aq">Iohannem Philippum My-<lb/>
+læum</hi></docAuthor> <hi rendition="#b">Pfarhern in der Kirchen zum</hi> H:<lb/>
+Geiſt/ zu Heydelbergk.<lb/>
+</byline> <figure/><lb/>
+<docImprint> <hi rendition="#b">Gedruc<choice><sic>h</sic><corr>k</corr></choice>t im Jar </hi><docDate><hi rendition="#b"><hi rendition="#g">1599</hi></hi></docDate>.<lb/>
+</docImprint> </titlePage> </front><body>
+<pb facs="#f0002" n="[2]"/>
+<pb facs="#f0003" n="3"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="preface" n="1"><head><hi rendition="#aq">RECTOR ACADEMIÆ<lb/>
+HEIDELBERGENSIS<lb/>
+<hi rendition="#g"><hi rendition="#k">David. Pareus Francostenæus Silesius.</hi></hi><lb/>
+S. Theologiæ Doctor &amp; Profeſſor: omnibus<lb/>
+Academiæ Subditis. S.</hi></head><lb/>
+<p><hi rendition="#aq"><hi rendition="#in">A</hi><hi rendition="#g"><hi rendition="#k">Nte</hi></hi> aliquot menſes venit in hanc urbem cum<lb/>
+familia vir pius, honeſtus &amp; literatus <hi rendition="#k">david vvin-<lb/>
+glerus silesius.</hi> Is cum juvenis olim Vilnæ Litvva-<lb/>
+niæ metropoli in familia Illuſtriſſimi Principis Radze-<lb/>
+vvilii ſeptennium vixiſſet, &amp; orthodoxi cœtus, qui iſt-<lb/>
+hic eſt, membrum fuiſſet: reuerſus tandem in patriam<lb/>
+<hi rendition="#g"><hi rendition="#k">Reichebacum,</hi></hi> quod eſt ducatus Svvidnicenſis<lb/>
+oppidum non ignobile, ob ſingularem pietatem, do-<lb/>
+ctrinam atq; prudentiam ciuibus ſuis charus, primùm<lb/>
+ſcholæ patriæ præfectus, poſtea in Senatorium ordi-<lb/>
+nem aſcitus, annos non paucos magna cum laude con-<lb/>
+ſulatum geſſit: nec rarò legationibus ad co mitia Ordd.<lb/>
+Sileſiæ Reipub. cauſa interfuit atque etiam præfuit. Etſi<lb/>
+autem honoribus &amp; vitæ commodis domi ſic ſatis af-<lb/>
+flueret: attamen ea quæ mundus ſectari ſolet, bona flu-<lb/>
+xa &amp; momentanea pro nihilo ducens, cum Dauide</hi><note place="right"><hi rendition="#aq">Pſal.</hi> 27.<lb/>
+&amp; 84.</note><lb/>
+<hi rendition="#aq">Pſalte ſum mis hoc votis ſemper à <hi rendition="#g"><hi rendition="#k">Deo opt. max.</hi></hi><lb/>
+contendit: hocque vnum petijt, vt in domo Iehouæ ha-<lb/>
+bitare, ac fugacis vitæ reliquum in eccleſia orthodoxa<lb/>
+tranſigere &amp; claudere daretur. Nec votis ſucceſſus de-<lb/>
+fuit. Ante ſemeſtre enim cum filiis huc commigrans<lb/>
+noſtræſe eccleſiæ adiunxit, ac breui hoc tempore, pieta-</hi><lb/>
+<fw place="bottom" type="sig"><hi rendition="#aq">A</hi> 2</fw><fw place="bottom" type="catch"><hi rendition="#aq">te ac</hi></fw><lb/>
+<pb facs="#f0004" n="4"/>
+<hi rendition="#aq">teacvirtute, qua pollebat, ſingulari nobis ac bonis o-<lb/>
+mnibus ita ſe commendauit, vt etiam exIlluſtriſſimi D.<lb/>
+Electoris aula præfecturæ cuiuſdam obtinendæ ſpes<lb/>
+iam non dubia ei affulgeret.</hi></p><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#i">Verùm aderat propior tranſacti terminus æui</hi>:</hi></l><lb/>
+<l><hi rendition="#i"><hi rendition="#i">Et voluit meliore Deus ſtatione locari</hi></hi></l><lb/>
+<l><hi rendition="#i"><hi rendition="#i"><hi rendition="#g"><hi rendition="#k">VVinglervm.</hi></hi> fideiꝙ́ ſuæ iam fine fruiſci.</hi></hi></l></lg><lb/>
+<p><hi rendition="#aq">Ex mutatione igitur aëris, victusque diuerſa ratione<lb/>
+nuper</hi> δυσκρασίαν <hi rendition="#aq">quandam &amp; morbum contraxit: quo<lb/>
+paulatim ingraueſcente, &amp; in ca ætate (erat enim quin-<lb/>
+quennio maior quinquagenario) curationem non ad-<lb/>
+mittente, iuxta omnipotentis Dei voluntatem, heri in<lb/>
+verafide &amp; inuocatione Filij Dei, vitam clauſit: imò hãc<lb/>
+miſeram &amp; caducam cum æterna &amp; glorioſa illa, quæ<lb/>
+nos in cœlis manet, commutauit. Hoſpiti igitur tam<lb/>
+pio &amp; honeſto, vt pietatis ergò honeſtum quoq; funus<lb/>
+façiamus,</hi> κοινωνία <hi rendition="#aq">ſanctorum &amp; charitas à nobis flagitat.<lb/>
+Id hodie hora <hi rendition="#g"><hi rendition="#k">xii.</hi></hi> curabitur: atq; ex ædibus Reueren-<lb/>
+diviri M. <hi rendition="#g"><hi rendition="#k">Abrahami sculteti silesii,</hi></hi> pa-<lb/>
+ſtoris Eccleſiæ ad Franciſcanos, aulæ Schönauianæ,<lb/>
+quem vocãt</hi> den Schoͤnawer hoff/ <hi rendition="#aq">contiguis, ad cœme-<lb/>
+terium D. Petri efferetur. Hortamur igitur omnes no-<lb/>
+ſtræ iuriſdictioni ſubiectos, &amp; cumprimis ſtudioſam<lb/>
+iuuentutem, vt funus pij &amp; literati hoſpitis debita reue-<lb/>
+rentia frequentes comitari, ſupremoq́; cohoneſtare of-<lb/>
+ficio ne grauentur: illud Horatianum meditantes.</hi></p><lb/>
+<p><hi rendition="#et"><hi rendition="#aq">O beate Sexti</hi></hi><lb/>
+<note place="left"><hi rendition="#aq">Lib. 1. od.</hi> 4.</note><hi rendition="#aq">Vitæ ſumma breuis ſpem nos vetat inchoare longam.</hi></p><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">PP. Heidelbergæ <hi rendition="#g">XXI.</hi> Martii Iuliani. Anno<lb/>
+Domini</hi></hi> M. D. C.</hi></salute></closer></div><lb/>
+<pb facs="#f0005" n="5"/>
+<div type="fsSermon" n="1"><div type="fsBibleVerse" n="2"><head/>     <cit><bibl><hi rendition="#c"><hi rendition="#aq">Matt. <supplied>1</supplied>3. verſ.</hi> 44. 45. 46.</hi></bibl><lb/>
+<quote><hi rendition="#in">A</hi>Bermals iſt das Himmelreich gleich einem ver-<lb/>
+borgenen ſchatz im acker/ welchen ein menſch fand/<lb/>
+vnd verbarg jhn/ vnd gieng hin fuͤr freuden vber<lb/>
+demſelbigen/ vnd verkaufft alles/ was er hatte/ vnd kaufft<lb/>
+den acker. Abermals iſt gleich das Himmelreich einem<lb/>
+Kauffman/ der gute Perlen ſuchte/ vnd da er eine koͤſtli-<lb/>
+che Perlen fand/ gieng er hin/ vnd verkaufft alles was er<lb/>
+hat/ vnd kaufft dieſelbigen.</quote></cit></div><lb/>
+<div type="fsMainPart" n="2"><head>Erklaͤrung/</head><lb/>
+<p>Geliebten in dem Herꝛn Chriſto demnach der menſch<lb/>
+durch die taͤgliche erfahrung genungſam vnterwieſen<lb/>
+wird/ wie es vm̃ das armſelige menſchliche leben beſchaf-<lb/>
+fen/ vnd wie daſſelbige ſo ſchnel vnd geſchwind zum endt<lb/>
+lauffe/ dañ da kan auch kein alter namhafft gemacht wer-<lb/>
+den/ deſſen der todt verſchonen ſolt/ oder daß jm einige ſi-<lb/>
+cherheit verheiſſen doͤrfft/ ſonder da muß meniglich bekẽ-<lb/>
+nen das ſich keiner auff ſeine ſterck/ jugendt/ reichthum̃/<lb/>
+groſſen gewalt/ wuͤrden/ vnd anſehen dieſer welt/ oder et-<lb/>
+was anders zuuerlaſſen hab/ dan daß alles ſiehet der todt<lb/>
+nicht an/ wan deß menſchen zeit vnd ziel vorhanden iſt/<lb/>
+vnd wan er anfaͤngt zu herſchen/ vnd ſeinen gewalt zu<lb/>
+uͤben/ dan nach der Lehre deß Ap. Heb. 9. iſt einem jeden<lb/>
+menſchen geſetzet einmal zu <choice><sic>ſterbeu</sic><corr>ſterben</corr></choice>/ vnd darnach daß ge-<lb/>
+richt.</p><lb/>
+<p>Dieſem nach will es ein groſſe nott<supplied>u</supplied>rfft ſein/ das wir<lb/>
+auff diß irdiſch vergenglich leben nichts trauen/ ſetzẽ oder<lb/>
+bawen/ ſonder all vnſer <hi rendition="#aq">ſtudium</hi> kunſt fleiß vnd geſchick-<lb/>
+lichkeit dahin anwenden/ das wir ſeliglich ſterben moͤgen/<lb/>
+<fw type="sig" place="bottom">A ij</fw><fw type="catch" place="bottom">vnd</fw><lb/>
+<pb facs="#f0006" n="6"/>
+vnd vnſern geiſt dem lieben Gott/ wieder mit freuden lie-<lb/>
+fern moͤgen/ vondem wir in anfenglich empfangen ha-<lb/>
+ben: <hi rendition="#aq">Prouerb.</hi> 12. wie dan auch ſolches dem Man Gottes<lb/>
+Moſem bewegt hat im 90. Pſalmen Gott den Herꝛn in-<lb/>
+bruͤnſtig anzuruffen vnd zubittẽ/ das er doch dem armen<lb/>
+menſchen ſeine ſterblichkeit wol woͤlle einbilden/ vnd zu<lb/>
+gemuͤthe fuͤhren/ damit er ſein hertz von der eitelkeit dieſes<lb/>
+lebens abziehe/ vnd in ſachen ſeine ſeligkeit betreffent/<lb/>
+wacker erfunden werde/ Herꝛ ſaget er/ lehr vns beden-<lb/>
+cken/ das wir ſterben muͤſſen auff das wir klug werden/<lb/>
+dan obs gleichwol nicht on/ daß vns die tegliche erfah-<lb/>
+rung vnſer ſterblichkeit genugſam fuͤr die augen mohlt/<lb/>
+ſo offt man einen todten Coͤrper auff den Kirchhoff tre-<lb/>
+get/ alſo das es ſich leſt anſehen/ als wan wir deß gebets<lb/>
+nicht hoch vonnoͤthen hetten/ jedoch iſt es wohl zu bekla-<lb/>
+gen/ das ſo wenig in dem Herꝛn ſterben/ daß iſt in beſten-<lb/>
+diger anruffung vnd bekandnuß ſeines nahmens/ welche<lb/>
+doch die ſchrifft allein fuͤr ſehlig preiſet/ in der Offenba-<lb/>
+rung Johan. am 14. Vnd vnangeſehen das die menſchen<lb/>
+ſonſt jren verſtant wol wiſſen zugebrauchen/ vnd auch<lb/>
+kluge mittel erdencken/ wie ſie doch jren zeitlichen nutz<lb/>
+ſchaffen moͤgen/ vnd zu groſſen ehren/ vnd zeitlichen gut<lb/>
+kommen/ jedoch wils vielen daran mangeln/ daß ſie die<lb/>
+himliſche klugheit nicht begreiffen/ vnd die ſterblichkeit<lb/>
+nicht der geſtalt woͤllen zu gemuͤth fuͤhren/ wie ſie ſolten/<lb/>
+daher entſtehet jnen dan entlich dieſer ſchad/ das wan die<lb/>
+tag jres lebens zum ende geloffen/ daß ſie ſich keines beſ-<lb/>
+ſern lebens zuuerſehen/ das jnen die Himliſche guͤter ver-<lb/>
+ſpert ſind/ vnd das ſie deren halben muͤſſen in verluſt vnd<lb/>
+ſchaden liegen/ das alſo deß menſchen hoͤchſte klugheit<lb/>
+vnd weißheit darinnen ſtehet/ in welcher er auch fuͤrnem-<lb/>
+lich ſein <hi rendition="#aq">ſtudium</hi> vnd vbung haben ſol/ wie er doch ein-<lb/>
+mal ſeliglich abtrucken/ vnd ſein zeitlich leben alſo zubrin<lb/>
+<fw place="bottom" type="catch">gen</fw><lb/>
+<pb facs="#f0007" n="7"/>
+gen moͤg das er doch das rechte ewige ſelige leben/ nicht<lb/>
+verſchertze.</p><lb/>
+<p>Hiezu nuhe wird dieſes dem menſchen ein groſſer vor-<lb/>
+theil vnd behelff ſein/ wan er dieſe verleſene gleichnuß wol<lb/>
+ſtudieret/ vnd zu gemuͤthe fuͤhret was doch Chriſtus da-<lb/>
+mit wil gemeinet vnd verſtanden haben. Was nun dieſe<lb/>
+gleichnuß anlangt/ ſo iſt zu wiſſen das der zweck derſelben<lb/>
+fuͤrnemlich dahin gelanget/ das jm der me<choice><sic>u</sic><corr>n</corr></choice>ſch den ſchatz<lb/>
+deß ewigen lebens/ vnd deß Goͤttlichen worts/ mit groſ-<lb/>
+ſem ernſt vnd eyfer ſol laſſen angelegen vnd befohlen ſein<lb/>
+alſo das er auch vmb deßſelben willen keinen koſten/ vnd<lb/>
+verluſt deß zeitlichen ſol anſehen/ oder ſparen/ das dieſes<lb/>
+der Jnhalt der gleichnuß ſey/ ſo iſt derſelbig genugſam<lb/>
+darauß abzunehmen/ dieweil Chriſtus das ewige leben<lb/>
+einem Edlen ſchatz vnd perlin vergleicht/ dan gleich wie<lb/>
+man einem ſchatz vnd koͤſtlichen perlin mit fleiß nach ſtelt<lb/>
+vnd auch keinen koſten fleiß muͤh vnd arbeit ſpart/ damit<lb/>
+man den ſchatz erlangen/ vnd dauon bringen moͤg. Alſo<lb/>
+will auch Chriſtus lehren/ das der menſch kein koſten/<lb/>
+fleiß/ muͤh/ oder arbeit ſparen ſol/ damit er deß Goͤttli-<lb/>
+chen worts genieſſen/ daſſelbige hoͤren/ vnd durch huͤlff<lb/>
+vnd anleittung deſſelben/ deß ewigen ſchatzes im Him̃el<lb/>
+moͤg theilhafftig werden/ vnd zwar/ wir haben viel heili-<lb/>
+ger Exempel H. Leuth in der Schrifft zu leſen/ welche<lb/>
+jnen den ſchatz deß ewigen lebens mit groſſem ernſt haben<lb/>
+laſſen angelegen ſein/ das ſie auch demſelben mit allem<lb/>
+fleiß nachgeſtelt/ dan von Abraham ſtehet geſchrieben/<lb/>
+das wie jhn Gott auß ſeinem vatterland in ein frembt<lb/>
+Land zu ſeiner erkantnuß/ vnd zum Gottesdienſt beruf-<lb/>
+fen hab/ da hab er den Beruff gehorſamblich angenom-<lb/>
+men/ vnangeſehen/ das er nicht einen fuß breit darinnen<lb/>
+gehabt/ da er doch zuuor Hauß vnd Hoff hat/ die vrſach<lb/>
+erzehlet der Ap. Heb. 11. vnd ſaget/ das er ein ſolches deſto<lb/>
+<fw place="bottom" type="catch">gutwil-</fw><lb/>
+<pb facs="#f0008" n="8"/>
+gutwilliger gethan hab/ dieweil er hab auff eine ſtatt ge-<lb/>
+hofft/ welcher baumeiſter vnd Schoͤpffer Gott iſt.</p><lb/>
+<p>Ein ander Exempel haben wir zuſehen an Moſe/ dan<lb/>
+vngeacht/ das er an des Koͤnigs <hi rendition="#aq">Pharaonis</hi> Hoff in allem<lb/>
+weltlichen pracht/ vnd wolluſten erzogen war/ vnd auch<lb/>
+immerdar in groſſen Fuͤrſtlichen ehren hette leben koͤñen/<lb/>
+wan er von der Kirchen Gottes het wollen abgeſondert<lb/>
+ſein/ noch wuͤſte er ein ſolchen pracht zuuerachten/ dan<lb/>
+wie weiter im 11. cap. der Ep. an die Heb. geſchrieben<lb/>
+ſtehet/ Er geſellet ſich zum volck Gottes/ vnd liß ſich gern<lb/>
+mit demſelben ſchmehen vnd verachten/ dan wie der Ap.<lb/>
+ſagt. Er achtet die ſchmach Chriſti fuͤr groͤſſer Reich-<lb/>
+thumb/ alß die ſchaͤtz <hi rendition="#aq">AEgypti.</hi> Nicht anders iſt auch der<lb/>
+Koͤnigliche Prophet Dauid geſinnet geweſen/ dan ſein<lb/>
+Silber vnd Gold het er jm nimmermehr laſſen ſo lieb<lb/>
+ſein/ als das Goͤttliche wortt/ vnd daher ſaget er auch im<lb/>
+19. Pſalmen. Jch ſcheme mich deiner zeugnuß nit/ ſon-<lb/>
+dern ich rede dauon fuͤr Koͤnig vnd Fuͤrſten/ dan das ge-<lb/>
+ſetz deines Mundes iſt mir viel lieber/ alß viel tauſent<lb/>
+ſtuck Goldt vnd Silbers/ vnd wer wolte doch die Exem-<lb/>
+pel der reichen leuthe im Neuen Teſtament alle erzehlen/<lb/>
+die es gewoget/ vnd den Herꝛn Chriſtum/ vmb deß ewi-<lb/>
+gen lebens willen offentlich bekant/ vnd ſein Wort gelie-<lb/>
+bet vnd geſucht haben/ vnangeſehen das es nit ohn groſſe<lb/>
+maͤrckliche Gefahr jhres zeitlichen guts/ vnd auch etwan<lb/>
+Leibes vnd Lebens/ het koͤnnen abgehen/ vnd darumb ſo<lb/>
+lehrnen wir nuh bey dieſer Gleichnuß/ was doch von de-<lb/>
+nẽ Leuthen zuhalten ſey/ die da nur auff den zeitlichen nutz<lb/>
+ſeynd abgerichtet/ vnd allein dahin ſtreben/ daß jhnen in<lb/>
+dieſem leben wol ſey/ wie ſie aber den ſchatz deß ewigen le-<lb/>
+bens moͤgen dauon bringen/ vnd jre arme ſeelen dazu be-<lb/>
+fuͤrdern/ darumb bekuͤmmern ſie ſich nicht/ ſondern da<lb/>
+haben ſie weltſchmeckende hertzen/ die nur am zeitlichen<lb/>
+<fw place="bottom" type="catch">hafften/</fw><lb/>
+<pb facs="#f0009" n="9"/>
+hafften/ vnd noch keinem beſſern vnd ewigen leben fra-<lb/>
+gen/ vnd daher kompts dan/ das es inen alles gleich gildt/<lb/>
+ſie genieſſen der Schaͤtz im Himmel oder nicht/ wan ſie<lb/>
+nur deß irꝛdiſchen vnd zeitlichen volauff haben.</p><lb/>
+<p>Solchen Leuthen gibet Chriſtus ein notwendige<lb/>
+vermahnung im 6. Mat/ Jhr ſollt euch nicht ſchetz auff<lb/>
+erden ſamlen/ da ſie die motten freſſen/ vnd die diebe ſte-<lb/>
+len koͤnnen/ ſamlet euch aber ſchaͤtz im Himmel/ die da be-<lb/>
+ſtendig/ ewig vnd vnuergenglich ſindt/ vnd die da keinen<lb/>
+ſolchen ſorgen vnd anfechtungẽ vnderwoꝛffen ſeindt/ wie<lb/>
+man ſie behalten/ vnd vor dem diebſtal verwahren moͤg.<lb/>
+Da fꝛaget man aber wie dan ſolches zugeh/ vñ wie jm ein<lb/>
+menſch ein ſchatz im Himmel ſamlen moͤg? Antwort:<lb/>
+Das geſchicht alſo 1. wañ der menſch ſein hertz abwendet<lb/>
+von vnnuͤtzen ſchaͤblichen ſorgen/ vnd ſich allein bekuͤm-<lb/>
+mert vmb das hemliſche ewige gut/ das vns Chriſtus<lb/>
+durch ſein blut erworben hat/ wie er doch deſſen moͤg ge-<lb/>
+nieſſen vnd theilhafftig werden/ vñ darauff dr<supplied>in</supplied>get auch<lb/>
+der Ap. im 3. an die Coloſſer Suchet was droben iſt/ da<lb/>
+Chriſtus iſt/ ſitzende zu der rechten Gottee.</p><lb/>
+<p>Hiezu wirdt auch erfordert/ das man gern den armen<lb/>
+gliedern Chriſti ſteuer vnd behuͤlfflich ſey/ nach der lehr<lb/>
+Pauli in der 1 ad Timoth am 6. das wan die reichen ger-<lb/>
+ne geben/ behůlfflich ſein/ vnd reich werden an guten wer-<lb/>
+cken/ das ſie jnen ſelber einen ſchatz ſamlen/ vnd einen gu-<lb/>
+ten grundt auff das zukůnfftige/ damit ſie das ewige lebẽ<lb/>
+ergreiffen/ dan den andern/ die jr Silber vnd Goldt ver-<lb/>
+roſten laſſen/ mit verſeumnuß der armen denen dreuwet<lb/>
+Jacob im 5. cap. die ewige verdamnuß/ vnd ein großheu-<lb/>
+len vnd wehklagen/ zuuorderſt aber muß ein menſch mit<lb/>
+wahrem glauben beſitzen/ den Herꝛen Jeſum Chriſtum<lb/>
+als in welchem alle ſchaͤtze der erkantnuß vnd weißheit<lb/>
+Gottes verborgen liegen/ dan wer Chriſtum wol ſtudie-<lb/>
+<fw place="bottom" type="sig">B</fw><fw place="bottom" type="catch">ret/ vnd</fw><lb/>
+<pb facs="#f0010" n="10"/>
+ret/ vnnd in ſein hertz hat eingeſchloſſen/ der hat rei-<lb/>
+chen troſt in todes noͤthen vnd andern anfechtungen/ der<lb/>
+hat wol zugenommen in der ſchule deß H. Geiſtes/ vnd<lb/>
+der iſt ein rechtſeliger menſch/ dahin gegẽ alle andere <hi rendition="#aq">ſtu-<lb/>
+dia,</hi> jren nutz vnd gebrauch allein in der welt haben/ Aber<lb/>
+das <hi rendition="#aq">ſtudium,</hi> das man Chriſtum wol erkennen lernt/ vñ<lb/>
+wie man ſich jm im leben vnd im ſterben ſol auffopffern/<lb/>
+vñ alſo ſein eigen ſein vnd erfunden werdẽ/ wan vnd auff<lb/>
+was weiſe vns auch Gott der Herꝛ mit dẽ todt angreifft/<lb/>
+an welchem ort es auch immermehr geſchehen moͤg/<lb/>
+daſſelbig <hi rendition="#aq">ſtudium</hi> hat ſeinen nutz vnd gebrauch auch in<lb/>
+jener welt/ dan dort wil ſich Chriſtus mit ſeiner hoͤchſten<lb/>
+weißheit allen ſeinen ſchuͤlern/ vnd angehoͤrigen Juͤn-<lb/>
+gern/ volkomlich offenbaren/ mittheilen vnd zuerkennen<lb/>
+geben/ vnſer wiſſen ſaget Paulus 1. Cor. 13. iſt ſtuͤckwerck:<lb/>
+wan aber kommen wirdt das volkom̃en/ alßdan ſo wirdt<lb/>
+das ſtuͤckwerck auffhoͤren.</p><lb/>
+<p>Jn ſumma/ es iſt wol zubeklagen/ vnd ein erbaͤrmli-<lb/>
+cher handel/ das der menſch weiß/ das er zu ewigen him̃-<lb/>
+liſchen guͤtern erſchaffen/ vnd auch wiederumb zu denſel-<lb/>
+ben durch Chriſtum Jeſum erloͤſet iſt/ das er gleichwohl<lb/>
+offtermals ſein hertz dermaſſen an zeitlichen guͤtern hen-<lb/>
+gen leſt/ das er all ſein luſt vnd freude darinnen ſucht vnd<lb/>
+gar nit den ewigẽ Himliſchẽ guͤtern nachſtellet/ ja er mag<lb/>
+offt nit dauõ hoͤrẽ/ ſein hertz wird jm traurig im leib drin-<lb/>
+nen/ wan man jm vom verluſt der zeitlichẽ guter predigt/<lb/>
+vnd das er dieſelben in einem nothfall von wegen der be-<lb/>
+kantnuß Chriſti/ vnd ſeiner warheit begeben ſol/ oder wan<lb/>
+ſie jm ſonſt zu nah wolten zum hertzen raumen/ vnd hie-<lb/>
+von hat vns Chriſtus ein ſchroͤcklich exempel fuͤrgeſtellet/<lb/>
+in dem Reichen Junglinge Marci am 10. dan wiewol<lb/>
+derſelbig ein feinen anfang hat/ vnd ſich auch mit einem<lb/>
+rechten ernſt vmb das ewige leben bekuͤm̃ert/ noch da jm<lb/>
+<fw place="bottom" type="catch">Chri-</fw><lb/>
+<pb facs="#f0011" n="11"/>
+Chriſtus predigt/ wie das er ſein gut verkauffen/ vnd al-<lb/>
+les den armen geben ſoll/ alß dan ſo werd er im einen ſchatz<lb/>
+im Himmel ſamlen/ da gehet er traurig von dem ange-<lb/>
+ſicht deß Herꝛn hinweg/ vnd wil lieber der Himliſchen/<lb/>
+alß der jrdiſchen ſchaͤtz gerathen/ darauß wir dan ſehẽ das<lb/>
+Reichthumb ein ſehr groß verhindernuß am ewigen le-<lb/>
+ben iſt/ wo man das hertz daran henget/ vnd daher ſie auch<lb/>
+nicht ohn vrſache von Chriſto den doͤrnern verglichen<lb/>
+worden im 8. Luce/ das gleich wie man ein dorn nicht wol<lb/>
+kã angreiffen ohn groſſe verletzũg das man ſich nit daran<lb/>
+ſtechen ſolte. Alſo iſt es mißlich/ das der menſch der da<lb/>
+noch ſei<supplied>n</supplied> <hi rendition="#aq">datum</hi> in dieſe welt ſetzt/ dazu kan gebracht wer-<lb/>
+den/ das er ſein zeitlich gut in einem nothfall vmb deß e-<lb/>
+wigen lebens willen in die ſchantze ſchlage/ daher auch<lb/>
+Paulus in der 1. an Tim. am 6. bezeuget/ das die jenigen/<lb/>
+ſo da wollen reich werden/ oder nach reichthumb ſtreben/<lb/>
+in die ſtrick deß teuffels fallen. Alſo nuhe verſtehen wir/<lb/>
+wie jm ein menſch in ſeinem gantzen leben/ den ſchatz deß<lb/>
+ewigen lebens ſoll laſſen angelegen vnd befohlen ſein vnd<lb/>
+ſein zeitliche geſchaͤfften alſo anſtellen/ das er doch ſeiner<lb/>
+ſterblichkeit nicht vergeß/ wie vns dan auch Paulus hie-<lb/>
+zu vermahnet 1. <hi rendition="#aq">Cor.</hi> 7. da er ſaget die zeit iſt kurtz/ vnd<lb/>
+derhalben welche kauffen/ die ſollen ſein/ alß beſaͤſſen ſie<lb/>
+es nit/ dan das weſen dieſer welt vergehet. Was aber all-<lb/>
+hie vom Reich Gottes geſaget wird/ vnd wie das man ge-<lb/>
+gen demſelben alles ſol verachten vnd in die ſchantz ſchla-<lb/>
+gen/ was nur einen ſchein vnd glantz in dieſer welt haben<lb/>
+mag/ daſſelbig iſt auch von den mitteln zuuerſtehen/ die<lb/>
+zum Reich Gottes befuͤrdern/ als da iſt die predigt des<lb/>
+worts vnd der gebrauch der heiligen <hi rendition="#aq">Sacramenten/</hi> dan<lb/>
+durch ſolche mittel wurd die hoffnung deß ewigen lebens<lb/>
+in vns erhalten/ vñ der glaub an Jeſum Chriſtũ geſterckt<lb/>
+vnd daher werden ſie in der Schrifft auch einem Edlen<lb/>
+<fw place="bottom" type="sig">B ij</fw><fw place="bottom" type="catch">ſchatz</fw><lb/>
+<pb facs="#f0012" n="12"/>
+ſchatz vnd perlin verglichẽ/ wie dan Chriſtus im 7. Mat.<lb/>
+ſagt jr ſollet das heiligthumb nicht den hunden geben/ vñ<lb/>
+die perlin ſolt jr nicht fuͤr die ſew werffen: vnd gemeinet<lb/>
+damit nichts anders/ dan das man den offentlichen halſ-<lb/>
+ſtarrigen ſpoͤttern vnd verachtern/ die predigt goͤttliches<lb/>
+worts/ vnd die H. <hi rendition="#aq">Sacramenta</hi> nit wieder jren willen ſoll<lb/>
+auffdringen. Dan ſonſt wird Gott ſelbſt in ſeinem wort<lb/>
+vnd <hi rendition="#aq">Sacrament</hi> geſchmaͤhet/ vnd verunehrt.</p><lb/>
+<p>Hiher gehoͤrt auch was <hi rendition="#aq">Paulus 2. Cor.</hi> 4. von den Apo-<lb/>
+ſteln ſchreibt/ wie das ſie die ſchaͤtz deß Euangelij in jrdi-<lb/>
+ſchen gefaͤſſen tragen/ gleich nuhe wie man einen ſchatz<lb/>
+pfleget zuuerwahren das man nicht drum kom̃e/ alſo ſoll<lb/>
+man auch Gottes wort/ vnd die H. <hi rendition="#aq">Sacramenta</hi> in hohen<lb/>
+ehren halten/ vnd daß gar nicht anſehen/ das ein ſolcher<lb/>
+ſchatz von dem mehren theil dieſer welt nichts geachtet/<lb/>
+oder ſonſt geſchmehet vnd verunehrt wird/ denn da muß<lb/>
+man gedencken/ das ein ſolcher ſchatz verborgen lig: wie<lb/>
+Chriſtus alhie in der gleichnuß lehret/ vnd das nit jeder-<lb/>
+man die hohe geheymnuſſen deß Goͤttlichen worts/ vnd<lb/>
+der H. <hi rendition="#aq">Sacrament</hi> verſtehe/ vñ derhalben/ wan ein mẽſch<lb/>
+den ſchatz gefunden hat/ das jm Gott ſein H. wort/ vnd<lb/>
+den rechten gebrauch der H. <hi rendition="#aq">Sacrament</hi> hat offenbaret<lb/>
+vnd zuerkennen gegeben: ſo ſehe er zu das er jm denſelben<lb/>
+ſchatz nit nehmen laß/ er verkauffe ehe alles was er hat/ vñ<lb/>
+vermag/ ehe deñ er jm den rechten verſtandt deß Goͤttli-<lb/>
+chen worts/ vnd den wahren gebrauch der H. <hi rendition="#aq">Sacrament</hi><lb/>
+nehmẽ laß/ dan gleich wie einer in einer fewersbrunſt dar<lb/>
+nach ſtrebet/ das er den beſten ſchatz: vnd das edelſte klei-<lb/>
+noth moͤg dauon bringen/ wan er ſchon das ander alles<lb/>
+muß verfladern/ vnd verbrennen laſſen. Alſo auch wan<lb/>
+es in der welt brennet/ wan die verfolgung angehen/ vnd<lb/>
+das man die Chriſten von wegen der bekandtnuß Goͤtt-<lb/>
+liches worts vm̃ leib ehr vnd gut begert zubringen/ ſo lug<lb/>
+<fw place="bottom" type="catch">du zn/</fw><lb/>
+<pb facs="#f0013" n="13"/>
+du zu/ das du den beſten ſchatz moͤgeſt dauon bringen.</p><lb/>
+<p>Was iſt das fuͤr ein ſchatz? es iſt ein gut gewiſſen/ es<lb/>
+iſt ein ſtandhafftiger glaub/ der ſich auff Gottes wortt<lb/>
+gruͤndet/ Es iſt auch ein ſteiffe bekandtnuß in der waren<lb/>
+Religion/ den ſchatz laſſen leider viel menſchen fahren/<lb/>
+wan jnen der Religionhalben wird zugeſetzet/ dafuͤr nuh<lb/>
+muß man ſich huͤeten/ vnd den ſpruch Chriſti wol <hi rendition="#aq">medi-<lb/>
+tiren</hi> im 10. <hi rendition="#aq">Mat.</hi> das wer vmb ſeinet willen hauß vnd hoff<lb/>
+verlaſſe/ der wirts wieder finden.</p><lb/>
+<p>Vnd derohalben/ gleich wie jener <hi rendition="#aq">Philoſophus Bias</hi><lb/>
+genant/ alß in ſeinem Vaterland ein feuersbrunſt auß-<lb/>
+ging vnd er gefraget ward/ wie es doch keme/ das er nicht<lb/>
+auch etwas auß der brunſt errettete/ vnd mit ſich nehme/<lb/>
+da er doch ſehe/ wie andere buͤrger ſich vnterſtunden et-<lb/>
+was dauon zubringen/ ey antwortet er/ <hi rendition="#aq">omnia mea me-<lb/>
+cum porto,</hi> das iſt/ ich trage alle guͤter bey mir/ vnd ver-<lb/>
+ſtund dadurch ſeine hohe weißheit/ vnd feine groſſe kunſt/<lb/>
+vnd meinet/ er koͤndt jm dieſelbige allezeit zunutz machen.<lb/>
+Alſo vnd viel mehr ſol ſich ein Chriſt befleiſſen/ das wan<lb/>
+ſchon das fewer der verfolgung/ biß an ſein ehr leib vnd<lb/>
+gut gereichen ſolte/ das er doch den ſchatz eines guten ge-<lb/>
+wiſſens ſtets bey ſich trage/ das er eine gute Ritteꝛſchafft<lb/>
+vbe/ vnd den glauben/ vnd ein gut gewiſſen behalte. Ein<lb/>
+ſolchen ſchatz wird jm der menſch allzeit wiſſen zu nutz zu<lb/>
+machen/ dan da weiß er wie ſeine ſachen mit Gott ſtehen/<lb/>
+er hat reichen troſt in allen anfechtungen vñ iſt bereit dem<lb/>
+Herꝛn zu leben vnd zu ſterben/ in gewiſſer hoffnung das<lb/>
+jm der ſchatz deß ewigen lebens zu keiner zeit fehlen werde/<lb/>
+ſondern gleich wie ſein geliebter Herꝛ vñ Heylandt Chri-<lb/>
+ſtus einmal erſchienẽ ſey/ jm ſolche Himliſche ſchaͤtz vnd<lb/>
+guͤtter durch ſein bitter leiden vnd ſterben zu erwerben/<lb/>
+Alſo werd er jn auch in den <hi rendition="#aq">poſſes</hi> derſelbẽ guͤter einſetzẽ/<lb/>
+vnd jme die vollkoͤmliche nieſſung der ewigen freud vnd<lb/>
+<fw place="bottom" type="sig">B iij</fw><fw place="bottom" type="catch">klarheit</fw><lb/>
+<pb facs="#f0014" n="14"/>
+klarheit in ſeiner herlichen zukunfft mittheilen vnd wi-<lb/>
+derfahren laſſen.</p><lb/>
+<p>Wie dan kein zweiffel/ das auch dieſer fuͤrnehme vnd<lb/>
+erlebte Herſeliger/ deſſen Leichnam nhu mehr zu ſeinem<lb/>
+ruhbetlein deß Erdreichs iſt beſtattet worden gleicher ge-<lb/>
+ſtalt der ewigen Himliſchen ſchaͤtz vnd guͤter ſeiner ſeelen<lb/>
+nach/ mit ſeinem haupt Chriſto genieſſe/ dan ob er ſchon<lb/>
+durch ein ſchnellen todt/ vnd geſchwinden znſtandt auß<lb/>
+dieſer welt iſt abgefordert worden/ wie dan inſonderheit<lb/>
+alte erlebte Leuthe gemeinglich ſolchen ſchnellen hinreiſ-<lb/>
+ſenden kranckheiten vnd zuſtaͤnden vnderworffen ſindt/<lb/>
+jedoch ſo hat er das loͤbliche zeugnuß bey allen denen hin-<lb/>
+derlaſſen/ die jn gekant vnd vmb den lauff ſeines lebens/<lb/>
+vnd vmb die gelegenheit ſeiner perſchon gut wiſſens tra-<lb/>
+gen/ das er ſich alle zeit der wahren <hi rendition="#aq">Religion</hi> Gotsfurcht<lb/>
+vnd hertzlichen frombkeit eyferig befliſſen/ vnd das er jm<lb/>
+auch die ſorge ſeiner ſeligkeit/ vnd deß ewigen lebens mit<lb/>
+groſſem ernſt hab laſſen angelegen ſein/ wie dan auch die<lb/>
+ſelbig ſorg ein vrſach/ das er ſich vmb das zeitliche nicht ſo<lb/>
+hoch bekuͤm̃ert hat/ wiewol jhn auch Gott in dieſem leben<lb/>
+genugſamlich geſegnet vñ herfuͤr gezogẽ/ dan er auch et-<lb/>
+wan am Keyſerlichen hoff von wegen ſeiner gaben vnd<lb/>
+tugenden wol angeſehen geweſen/ wie er dan auch zu Rei-<lb/>
+chenbach in Schleſien erſtlich ſeinen treuen dienſt bey deꝛ<lb/>
+Schule derſelben ſtatt bewieſen/ biß er entlich in Rhat ge-<lb/>
+zogen vnd hernachmals zum burgermeiſter ampt iſt er-<lb/>
+wehlet/ vnd erhaben worden/ da er dan abermals von we-<lb/>
+gen ſeiner treuendienſt vnd auffrichtigen lebens vñ wan-<lb/>
+dels iſt geliebet vnd wert gehalten worden. Dieweil jm a-<lb/>
+ber Gott der Herꝛ zeitlich die warheit in ſtritigen glaubẽs<lb/>
+vnd Religions ſachen hat mitgetheilet/ vnd zuerkennen<lb/>
+gegeben/ ſo hat jn der luſt vnd eyffer zu derſelbigen war-<lb/>
+heit beweget/ das er alles ſo viel muͤglich in der ſtatt zu<lb/>
+<fw place="bottom" type="catch">gelt</fw><lb/>
+<pb facs="#f0015" n="15"/>
+geld gemacht/ vnd ſich hie herauß in die Churfl. pfaltz be-<lb/>
+geben/ allein damit er das reine vnuerfelſchte wort Got-<lb/>
+tes lauter vnd klar haben vnd hoͤren moͤchte/ neben andeꝛn<lb/>
+Chriſtlichen <hi rendition="#aq">Ceremonien</hi> vnd vbungen der Gottſelig-<lb/>
+keit/ vnd dieweil er ſolches alles freywillig vnd vngezwũ-<lb/>
+gen gethan/ das er das ſeine verlaſſen/ verkaufft/ welches<lb/>
+wiewol zu erachten ohne verluſt nicht hat koͤnnen abgehẽ/<lb/>
+ſo wuͤrde er viel weniger deß verluſts geachtet haben/ wan<lb/>
+jn ſchon die hohe noth dazu ſolte gedrungen haben/ das er<lb/>
+alſo ohne zweiffel auch auß deren zal geweſen/ die da ger-<lb/>
+ne vnd mit freuden alles verkauffen/ allein das ſie deß<lb/>
+koͤſtlichen ſchatzes deß Goͤttlichen worts alhie auff erden<lb/>
+genieſſen/ vnd hernachmals den vnuergenglichen ſchatz<lb/>
+im Himmel moͤgen dauon bringen/ vnd derhalben die-<lb/>
+weil er ſeinen Herꝛn Chriſtum frey offentlich bekandt/<lb/>
+vnd ſchrifftmaͤſſige glaubens ſachen ohne ſchew verthe-<lb/>
+diget/ auch ſonderliche freude in dieſer Churfl. Pfaltz von<lb/>
+der anhoͤrung Goͤttliches worts vnd andern Chriſtlichen<lb/>
+<hi rendition="#aq">Ceremonien</hi> gehabt/ darum̃ hat jn Gott widerumb ge-<lb/>
+ehrt der geſtalt/ das er auch von vnſerer genedigſten Her-<lb/>
+ſchafft/ vnd deren hochloͤblichen Rhaͤten zu einẽ Schult-<lb/>
+heiſſen der Churfuͤrſtlichẽ ſtatt Bensheim/ an der Berg-<lb/>
+ſtraſſen iſt <hi rendition="#aq">deſigniret</hi> vnd verordnet geweſen (welchem<lb/>
+dienſt er auch one zweiffel mit nutz vnd frucht wůrde fuͤr-<lb/>
+geſtanden ſein/ wan jm Gott das zeitliche lebẽ lenger ſol-<lb/>
+te gefriſtet habẽ) Nuh wolan wir doͤrffen getroſt dieſe ge-<lb/>
+wiſſe hoffnung von jm ſchoͤpffen/ das er nuhmehr deſto<lb/>
+reichlicher je mehr er Gott geliebet mit Himliſchen guͤe-<lb/>
+tern geſegnet ſey in Chriſto Jeſu/ alß der da keine werck<lb/>
+der Gottſeligkeit wil vnbelohnet laſſen/ ja der auch ſeine<lb/>
+bekenner vnd <hi rendition="#aq">Confeſſores,</hi> an jenem tage widerumb er-<lb/>
+kennen/ vnd offentlich vor dem vmbſtandt aller Engel<lb/>
+vnd menſchen bekennẽ/ vnd ſie zu ſich in ſeine ewige klar-<lb/>
+heit vnd herligkeit wil auffnemen.</p><fw place="bottom" type="catch">Wir</fw><lb/>
+<pb facs="#f0016" n="16"/>
+<p>Wir haben an ſolchen exempeln Gottſeliger Gelehr-<lb/>
+ter leuthe/ dern es wenig zu vnſern zeiten gibt/ vns zu ſpi-<lb/>
+geln/ das wir auch in jre fußſtapffen eintretten/ vnd vns<lb/>
+die bekantnuß Goͤttlicher warheit/ vnd die ſorge deß ewi-<lb/>
+gen lebens mit groſſem ernſt vnd eyſſer laſſen angelegen<lb/>
+ſein/ vnd das wir vns auch nicht beſchweren ſollen/ auß<lb/>
+luſt vnd lieb zur warheit Gottes gerne an ſolchen orthen<lb/>
+vnd enden zu ſein/ vnd vnſer vbriges hinderſtelliges leben<lb/>
+zubeſchlieſſen/ da das reine Euangelium võ Chriſto Jeſu<lb/>
+lauter vnd klar geprediget wird/ vnd da die reine lehr von<lb/>
+der perſon Chriſti/ vnd ſeinem ſeligmachenden ampt ge-<lb/>
+trieben/ vnd nicht verlaͤſtert wird/ auff das wan wir je ein<lb/>
+geringen zeitlichen verluſt ſolten erleiden an haab vñ guͤ-<lb/>
+tern/ das wir doch deß groſſen ſchatzes nit beraubt wuͤꝛdẽ/<lb/>
+der vns im Him̃el drobẽ beygelegt iſt durch Jeſum Chri-<lb/>
+ſtum/ vnd dieweil wir auch gleichwol alle tage ſehen vnd<lb/>
+erfahren/ was wir fuͤr ein gefehrlichen ſtandt allhie auff<lb/>
+erden beſtehen muͤſſen/ vnd wie vnſer leben ſo viel ſchnel-<lb/>
+len vnuerſaͤhnlichen zu ſtaͤndẽ vnd todes gefahren vnter-<lb/>
+worffen iſt/ ſo ſollen wir vns warnen laſſen/ das wir vns<lb/>
+vermoͤg der vermahnung deß Herꝛn Jeſu alle tag ſtund<lb/>
+vnd augenblick zu ſeiner zukunfft/ vnd zu einem ſeligen<lb/>
+endt gefaſt machen/ mit wachen/ betten vnd einem nuͤch-<lb/>
+tern Gottſeligen wandel/ alß dan ſo werden wir ſtets im<lb/>
+Herꝛn ſterben/ es greiffe vns auch der liebe Gott an/ wie<lb/>
+er wolle/ wan vnd an welchem ort er woͤll/ dan da kan die<lb/>
+außerwelten kein Creatur von der liebe Gottes ſcheiden.<lb/>
+Ja weder todt noch leben weder gegenwertiges noch zu<lb/>
+kuͤnfftiges/ ſondern da ſagen ſie ſtets mit dẽ Dauid im 31<lb/>
+Pſalm Herꝛ mein zeit ſteht in deinen henden/ vnd mit<lb/>
+Paulo 2. Th. 1. ich weiß an wen ich geglaubet hab/ vñ deꝛ<lb/>
+wird mir meine beylog bewahren biß an jenen tag. Dem-<lb/>
+ſelben getreuen. Herꝛn Jeſu Chriſto ſey lob preiß vnd<lb/>
+ehr von nuh an biß in Ewigkeit/ Amen.</p><lb/>
+<p><hi rendition="#c"><hi rendition="#g">ENDE.</hi></hi></p></div></div><lb/>
+</body></text> </TEI>

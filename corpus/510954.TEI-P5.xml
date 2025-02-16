@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Letzte Ehren-Bekräntzung Der (weiland) Hoch WohlEdel gebornen Jungfrauen Helena Catharina geborner von Schneckenhaus und Badewitz/ auf Pickau</title>
+<author>
+<persName>
+<surname>Fabricus</surname>
+<forename>Elias</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">22</measure>
+<measure type="tokens">4308</measure>
+<measure type="types">1761</measure>
+<measure type="characters">31247</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:10:19Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/510954</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/510954</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/510954</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/510954</idno>
+<idno type="DTADirName">510954</idno>
+<idno type="DTAID">200168</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-200168-3</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Fabricus, Elias: Letzte Ehren-Bekräntzung. Brieg, 1669.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Letzte Ehren-Bekräntzung Der (weiland) Hoch WohlEdel gebornen Jungfrauen Helena Catharina geborner von Schneckenhaus und Badewitz/ auf Pickau</title>
+<author>
+<persName>
+<surname>Fabricus</surname>
+<forename>Elias</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">22</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Christoph Tschorn</name></publisher>
+<pubPlace>Brieg</pubPlace>
+<date type="publication">1669</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 O 874/5 / 510954</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#b">Letzte Ehren-Bekraͤntzung</hi></titlePart><lb/>
+<titlePart type="desc">Der (weiland)<lb/>
+<hi rendition="#b">Hoch Wohl<hi rendition="#k">e</hi>del gebornen<lb/>
+<hi rendition="#in">J</hi>ungfrauen <hi rendition="#in">H</hi>elena <hi rendition="#in">C</hi>atharina<lb/>
+geborner von <hi rendition="#in">S</hi>chneckenhaus<lb/>
+und Badewitz/ auf Pickau/</hi><lb/>
+<hi rendition="#fr">Bey Dero</hi><lb/>
+<hi rendition="#b"><hi rendition="#in">J</hi>n Volckreicher begleitung gehaltenen</hi><lb/>
+Hoch Adelichen Leichen-Begaͤngnis<lb/>
+<hi rendition="#b"><hi rendition="#in">V</hi>or der <hi rendition="#in">S</hi>tadt <hi rendition="#in">L</hi>eobſchuͤtz/<lb/>
+Auf einem Berge (von dannen hernach die</hi><lb/>
+Hoch-Adeliche Leiche nacher Badewitz<lb/>
+in die Loͤbl. Geſchlechts-Grufft abge-<lb/>
+fuͤhret und beygeſetzet<lb/>
+ward)<lb/>
+<hi rendition="#b">Den</hi> 26. <hi rendition="#aq">Septembris Anno</hi> 1669.<lb/>
+ſo gutt es in der eil ſeyn<lb/>
+moͤgen</titlePart></docTitle><lb/>
+<byline><hi rendition="#b">geſchehen von</hi><lb/>
+<docAuthor><hi rendition="#aq">Elia Fabricio</hi></docAuthor><hi rendition="#aq">.</hi></byline><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docImprint>Zum <pubPlace>Brieg</pubPlace>/ druckts <publisher>Chriſtoph Tſchorn</publisher>.</docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="[2]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsThanks" n="1"><head/><lb/>
+<div n="2"><head/><opener><salute><hi rendition="#c"><hi rendition="#aq"><hi rendition="#b">(Tituli.)</hi></hi></hi></salute></opener>  <p><hi rendition="#fr"><hi rendition="#in">E</hi>s ſchreiben die alten Heydniſchen Na-</hi><lb/>
+turkuͤndiger/ daß bey dem <hi rendition="#aq">Sey</hi>thiſchen Fluß<lb/>
+<hi rendition="#aq">Hypanis</hi> ein vierfuͤßiges Thierlein mit Fluͤ-<lb/>
+geln gefunden werde/ welches nicht laͤnger alß<lb/>
+einen Tag lebet/ und deßwegen <hi rendition="#aq">Hemerobias</hi><lb/>
+von den beyden <hi rendition="#aq">Philoſophis Ariſtotele</hi> und <hi rendition="#aq">Plinio</hi> genen-<lb/>
+net wirdt dieſes ſolle die Natur und Art an ſich haben/ daß es<lb/>
+in meinung lange zu Leben ſehr muͤhſam und geſchaͤfftig iſt/ mit<lb/>
+einſam̃lung ſeiner Lebens-mittel. Ehe es ſich aber verſtehet/<lb/>
+und zwar noch ſelbigen Tag/ darinnen es auf die Welt kommen/<lb/>
+muß es wieder vergehen/ und alles hinter ſich laſſen. Dieſes<lb/>
+Tag-lebenden Thierleins/ gedencket auch der wohlberedte Roͤmi-<lb/>
+ſche <hi rendition="#aq">Orator Cicero</hi> und <hi rendition="#aq">ſtatu<supplied>i</supplied></hi>ret gar weißlich/ daß mit dem-<lb/>
+ſelbigen die Menſchliche Lebenszeit/ wegen der Fluͤchtigkeit und<lb/>
+Kuͤrtze/ durch welche der Menſch oft wenn er ſichs am wenigſten<lb/>
+verſtehet uͤbereilet wirdt/ wohl verglichen werden koͤnne. <hi rendition="#aq">U</hi>nd<lb/>
+zwar freylich<supplied>?</supplied> Denn was iſt doch dieſes Zeitliche Leben des<lb/>
+Menſchen<supplied>?</supplied> <hi rendition="#aq">Fumus &amp; Umbra,</hi> ein Rauch und Schatten/ der<lb/>
+bald vergehet/ <hi rendition="#aq">Ventus vadens &amp; non rediens,</hi> ein Wind<lb/>
+der dahin faͤhret und nicht wieder kommet/ <hi rendition="#aq">Bulla citò difflu-<lb/>
+ens</hi> eine Waſſer-Blaſe die ſchnell zerfleuſſet. Wenn der Menſch<lb/>
+<fw type="catch" place="bottom">vermei-</fw><lb/>
+<pb facs="#f0003" n="[3]"/>
+vermeinet Er habe kaum angefangen zu leben/ ſo muß er das<lb/>
+Leben ſchon wieder laſſen. Wenn er am meiſten gemuͤhet iſt<lb/>
+ſich in die Welt einzurichten/ ſo muß er d<gap reason="lost" unit="chars" quantity="2"/><supplied>e</supplied>lbe geſegnen. Wor-<lb/>
+auf der weiſeſte Koͤnig ſo jemals unter den ſterblichen Menſchen<lb/>
+gelebet/ ſein abſehen gehabt/ wenn er ſo tr<gap reason="illegible" unit="chars" quantity="1"/>ulich vermahnet und<lb/>
+ſaget: Ruͤhme dich nicht des morgenden <supplied>T</supplied>ages/ denn du weiſt<note place="right"><hi rendition="#aq"><hi rendition="#i">Prov.</hi></hi> 27.<lb/>
+1.</note><lb/>
+nicht/ was ſich noch heute mit dir begeben mag/ Sintemal der<lb/>
+Tod der abgeſagte Lebens-Feind alle Stunden/ ja alle Augen-<lb/>
+blick dem Menſchen nachſch<gap reason="lost" unit="chars" quantity="3"/>het/ und ihme den gar auß zu<lb/>
+machen bereit iſt/ auch gantz und gar keinen <hi rendition="#aq">U</hi>nterſcheid weder<lb/>
+des Standes noch der Jahre machet. Er fuͤhret in ſeinem<lb/>
+<hi rendition="#aq">Symbolo</hi> die Zwey Worte: <hi rendition="#aq"><hi rendition="#g">NULLI PARCO,</hi></hi> Ich<lb/>
+ſchone keines Menſchen. Er nihmt und friſſt all Menſchen<lb/>
+Kind/ wie er ſie findt/ fragt nicht wes Standes oder Ehren<lb/>
+ſie ſind.</p><lb/>
+<p>Was wunder iſt nun/ daß dannenhero vorgemelter <hi rendition="#aq">Ari-<lb/>
+ſtoteles</hi> alß ein Heyde/ und auß dem <hi rendition="#aq">U</hi>hrtheil Menſchlicher<lb/>
+Vernunft den Todt genennet hat Τῶν φοβερῶν φοβερὸτατον,<lb/>
+das ſchrecklichſte unter allen ſchrecklichen Dingen/ ſo einem<lb/>
+Menſchen jemals begegnen koͤnnen<supplied>?</supplied> Denn dieſer ja eben dieſer<lb/>
+iſts/ deruns das liebe Leben ehe man ſichs verſtehet weg raubet.<lb/>
+<hi rendition="#fr">Dieſer</hi> iſts der auß den ſchoͤnſten und wolgeſtalteſten Menſchen/<lb/>
+ſtinckende Aaß und abſcheuliche Σκἐλετα machet. <hi rendition="#fr">Dieſer</hi><lb/>
+iſts/ der uns ſchwartze Trauer-Kleider und Florene Binden an-<lb/>
+leget/ und die Angeſichter mit Weiſſen Schleyern verhuͤllet.<lb/>
+<hi rendition="#fr">Dieſer</hi> iſts/ der Eltern und Kinder/ Bruͤder und Schweſter/<lb/>
+treu-vereinigte Ehleute/ und die allerſuͤſſeſten Hertz-vertrauteſten<lb/>
+Freunde und Freundinne/ unbarmhertziger Weiſe von einander<lb/>
+trennet. <hi rendition="#fr">Dieſer</hi> iſts/ der uns die Augen roth/ die Wangen<lb/>
+blaß/ und die Hertzen bluttig machet. <hi rendition="#fr">Dieſer</hi> iſts/ der die<lb/>
+allerfeſteſte unergruͤndliche vereinbarung des Leibes und der See-<lb/>
+<fw place="bottom" type="sig">A ij</fw><fw place="bottom" type="catch">len ge-</fw><lb/>
+<pb facs="#f0004" n="[4]"/>
+len gewaltſam aufloͤſet/ von einander ſcheidet/ und aller Weltli-<lb/>
+chen Freude ein Ewiges <hi rendition="#aq">Valete</hi> giebet.</p><lb/>
+<p><hi rendition="#aq">U</hi>nd eben D<supplied>ieſ</supplied>er iſts/ welcher auch juͤn<supplied>gſt</supplied> verwichenen<lb/>
+20gſten/ dieſes zu Ende lauffenden Monats <hi rendition="#aq">Septembris</hi> durch<lb/>
+Goͤttl. verhaͤngnis i<gap reason="lost" unit="chars" quantity="1"/>den Hoch-Adelichen Schneckenhauſiſchen<lb/>
+Geſchlechts-Garten/ einen unverſehenen gewaltſamen Einfall<lb/>
+gethan/ und mit ſeiner unbarmhertzigen durchdringenden Tod-<lb/>
+ten-Senſe eine ſchoͤne in dem allerbeſten <hi rendition="#aq">Flor</hi> prangende Blu-<lb/>
+me abgemeyet/ Nehmlich die <hi rendition="#fr">Hoͤch-Edel geborne Jung-<lb/>
+frau Helena Catharina/ geborne von Schnecken-<lb/>
+Hauß und Badewitz/ auf Pickau/</hi> (Deren wir anietzo<lb/>
+den letzten Ehrendienſt erweiſen:) gar fruͤhzeitig in der beſten<lb/>
+Bluͤtte ihres Alters/ von dieſer Welt abgefordert und wegge-<lb/>
+riſſen hat. Jſt das nicht erſchrecklich<supplied>?</supplied> Jſt das nicht erbaͤrm-<lb/>
+lich<supplied>?</supplied> Ach du unerſaͤttiger Menſchen-Wuͤrger<hi rendition="#i">!</hi> Haſt du denn<lb/>
+gar nicht anſtehen/ deine toͤdtliche Senſe von dieſer Edlen Crea-<lb/>
+tur abwenden/ und des ſo ſchoͤnen bluͤhenden Alters verſchonen<lb/>
+koͤnnen<supplied>?</supplied> Was haſt du veruͤbet<supplied>?</supplied> Was haſt du vor betruͤbnis<lb/>
+und Wehklagen/ in vielen aufrichtigen Hertzen und Gemuͤttern<lb/>
+<hi rendition="#aq">cauſiret<supplied>?</supplied></hi> Ach wie hertzlich wirdt dieſe wehrteſte Hoch-Adeli-<lb/>
+che <hi rendition="#aq">Dam</hi> an vielen Orten betrauret und beklaget<supplied>?</supplied></p><lb/>
+<p>Es beklagen Sie ihre <hi rendition="#fr">Hoch-Adeliche Anverwandte<lb/>
+und Bluttsfreunde/</hi> in dem Sie an Jhr eine gar aufrich-<lb/>
+tige treue Freundin ſo bald verlohren.</p><lb/>
+<p>Es beklaget Sie inſonderheit/ Ihre gegenwertige hertzlieb-<lb/>
+ſte ietzo Hochbetruͤbte Jungfrau <hi rendition="#fr">Mahme: Die auch Hoch-<lb/>
+Wohl-Edel geborne Jungfrau Eva geborne von<lb/>
+Schneckenhauß und Badewitz/</hi> bey welcher Sie mehren-<lb/>
+theils auferzogen/ und zu allen Chriſt-Adelichen Tugenden an-<lb/>
+gehalten worden; Derer Sie ſich auch jederzeit mit unverbruͤch-<lb/>
+<fw place="bottom" type="catch">licher</fw><lb/>
+<pb facs="#f0005" n="[5]"/>
+licher Treue und gehorſamer <hi rendition="#aq">devotion</hi> gleichſam als ein wolge-<lb/>
+zogenes Kind gegen ſeine Eltern/ beſter maaſſen <hi rendition="#aq">accommodiret</hi><lb/>
+hat/ und gern alles was Sie Ihr nur an den Augen anſehen<lb/>
+moͤgen gewerckſtelliget haͤtte; Ja ſchmertzlich und mit vergteſ-<lb/>
+ſung unzaͤhlicher heiſſer Thraͤnen beklaget Sie dieſelbe.</p><lb/>
+<p>Es beklaget Sie in gemein faſt die gantze wehrte Stadt<lb/>
+<hi rendition="#fr">Leobſchuͤtz/</hi> alß mit deren Jnnwohnern Sie ſtets in gutter<lb/>
+<hi rendition="#aq">correſpondentz</hi> gelebet/ und durch angeborne <hi rendition="#aq">human<supplied>it</supplied></hi>aͤt/<lb/>
+die Sie in Worten/ Geberden und Wercken erwieſen/ bey jeder-<lb/>
+mannbeliebt und angenehm gemacht hat.</p><lb/>
+<p>Es beklagen Sie viel arme Leut von Mannes und Wei-<lb/>
+bes Perſonen/ denen Sie mit einem und dem andern Jhrem ver-<lb/>
+moͤgen nach/ gar willige und Huͤlffliche Handreichung gethan/<lb/>
+wuͤnſchen Jhr darfuͤr von der Goͤttlichen Maytt: reiche beloh-<lb/>
+nung in dem Ewigen Freuden-Leben. Was wunder iſts<lb/>
+denn<supplied>?</supplied> Sage ich noch einmal: Wann mehr angefuͤhrter<lb/>
+Heydniſcher <hi rendition="#aq">Philoſophus,</hi> ja auch wohl noch heutiges Tages<lb/>
+manch betruͤbter und Leidtragender Chriſt uhrtheilet/ daß der<lb/>
+Todt das ſchrecklichſte Ding ſey<supplied>?</supplied> Weil gleichwol ſeine Thaten<lb/>
+der Menſchlichen Vernunft anders nicht alß ſchrecklich vorkom-<lb/>
+men/ und durch ſolche viel Trauren und Hertzeleid unter den<lb/>
+Menſchen entſtehet/ wenn man bald dieſen bald jenen/ auch die<lb/>
+uns lieb ſeyn ſo ploͤtzlich und unverſehens wegraffen ſtehet/ und<lb/>
+ſelbſt auch alle augenblick einer geſchwinden uͤbereilung gewertig<lb/>
+ſeyn muß. Aber weil wir Chriſten ſeyn/ und uns des wahren<lb/>
+Chriſtenthums ruͤhmen; So wil uns in allwege obliegen/ von<lb/>
+dem Zeitlichen tode oder abſterben des Menſchen/ nicht nach dem<lb/>
+euſerlichen anſehen/ viel weniger nach der blinden Heyden ſeltza-<lb/>
+men einfaͤllen; ſondern einig und alleine nach der Goͤttl. Lehre<lb/>
+und Heyliger Leute außſagen/ auch Chriſt-gebuͤhrlicher betrach-<lb/>
+tung beydes des Lebens und Todes zu urtheilen: Alßdann werden<lb/>
+wir vernehmen und befinden/ daß der Todt nichts anders ſey als<lb/>
+<fw place="bottom" type="sig">A iij</fw><fw place="bottom" type="catch">ein</fw><lb/>
+<pb facs="#f0006" n="[6]"/>
+ein ſuͤſſer Schlaaf/ da der Leib ruhet von aller beſchwehr/ und<lb/>
+ein durchgang auß dem Zeitlichen Jammerthal in den Ewigen<lb/>
+Freuden-Saal/ auß dem Zeitlichen Streit zur Ewigen Sicher-<lb/>
+heit/ und auß der armſaͤligen Sterbligkeit/ zu der Ewigweh-<lb/>
+renden <hi rendition="#aq">U</hi>nſterbligkeit.</p><lb/>
+<p>Dieſes Zeitliche Leben iſt nicht nur wie Anfangs erwehnet/<lb/>
+Kurtz und Fluͤchtig; Sondern auch allerdings Muͤhſaͤlig und<lb/>
+voller Widerwertigkeit/ alſo daß ein jeder/ der gleich ſein Al-<lb/>
+ter ein wenig erſtrecket und zu Jahren kommt/ gleichwol endlich<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Gen.</hi> 47.<lb/>
+<hi rendition="#i">v.</hi></hi> 9.</note>bekennen/ und mit dem Heyligen <hi rendition="#fr">Ertz-Vater Jacob</hi> <hi rendition="#aq">ex-<lb/>
+clami</hi>ren muß: Wenig und boͤß iſt die Zeit meiner Wahl-<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Pſal.</hi> 90.<lb/>
+<hi rendition="#i">v.</hi></hi> 11.</note>fahrt; und mit <hi rendition="#aq">Moſe:</hi> Wenn unſer Leben koͤſtlich geweſen/<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Sap.</hi> 7. <hi rendition="#i">v.</hi></hi> 3.</note>ſo iſts Muͤhe und Arbeit geweſen. Betrachten wir des Lebens<lb/>
+<hi rendition="#fr">Eingang:</hi> So iſt Weinen unſer erſte Stimme/ alß ob wir<lb/>
+gleich zum Anfang und Eintritt die Zukuͤnftige vielfaͤltige<lb/>
+Wiederwertigkeiten bejammern wollten. Betrachten wir des<lb/>
+Lebens <hi rendition="#fr">Fortgang:</hi> Hilff Ewiger <hi rendition="#g"><hi rendition="#k">GOtt/</hi></hi> was muͤſſen<lb/>
+wir da empfinden<supplied>?</supplied> Wie viel tauſenderley verdruͤßligkeiten/<lb/>
+muͤſſen wir zum Theil an unß ſelbſt/ zum Theil an andern ſe-<lb/>
+hen<supplied>?</supplied> Bald werden wir beunruhiget/ durch Einfall frembder<lb/>
+Voͤlcker und bluttige Kriege: Bald durch giftige Peſtilentz<lb/>
+und andere vielfaͤltige Kranckheiten: Bald durch allerhand<lb/>
+Verfolgung und ploͤtzliche <hi rendition="#aq">U</hi>ngluͤcks-faͤlle: Bald durch ver-<lb/>
+luſt unſeres Haab und Vermoͤgens und daher entſtehende Ar-<lb/>
+muth: Bald durch uͤbele nachreden und unverdiente Ehren-<lb/>
+ruͤhrige ſchmaͤhworte. Gehet ein Tag vorbey und kommt die<lb/>
+finſtere Nacht heran/ da wir vermeinen durch natuͤrlichen<lb/>
+Schlaaf die Beſchwer abzulegen/ ſo werden wir auch entwe-<lb/>
+der durch ſchwere Traͤume oder andere vorfallende gefaͤhrligkei-<lb/>
+ten geſchrecket und erwecket/ daß wir vielmal nach dem Schlaaf<lb/>
+<fw place="bottom" type="catch">uͤbeler</fw><lb/>
+<pb facs="#f0007" n="[7]"/>
+uͤbeler <hi rendition="#aq">diſponi</hi>ret ſeyn/ alß da wir uns niederlegten. Jn<lb/>
+<hi rendition="#aq">Summa</hi> wir muͤſſen geſtehen/ was der Grichiſche Geſetzt-<lb/>
+geber <hi rendition="#aq">Solon</hi> ſchreibet: <hi rendition="#aq">Tota noſtra vita calamitaseſt,</hi><note place="right"><hi rendition="#aq"><hi rendition="#i">Sir.</hi> 40.<lb/>
+<hi rendition="#i">v.</hi></hi> 1.</note><lb/>
+unſer gantz Leben iſt voll Jammer: Oder wie der frome Hauß-<lb/>
+Lehrer redet: Es iſt ein elend jaͤmmerlich Ding umb aller<lb/>
+Menſchen Leben/ von Mutter-Leibe an. Welches auch der<lb/>
+Gottsfuͤrchtige Biſchoff zu <hi rendition="#aq">Hypon</hi> bejahet mit dieſen worten:<lb/>
+<hi rendition="#aq">Tantis malis repleta eſthæc vita ut comparatio-</hi><note place="right"><hi rendition="#aq"><hi rendition="#i">Auguſtinus.</hi></hi></note><lb/>
+<hi rendition="#aq">ne eorum, Mors remedium videatur non pæna:</hi><lb/>
+Jſt doch dieſes Leben mit ſo viel ungluͤck und uͤbel angefuͤllet/<lb/>
+daß in betrachtung deſſen der Todt/ vielmehr vor eine bewehr-<lb/>
+te Artzney/ alß etwa vor einige Straffe zu halten. Wer<lb/>
+kan ſich denn nun mit guttem fug und recht uͤber den Todt be-<lb/>
+ſchweren/ und ihn vor das erſchrecklichſte Ding halten<supplied>?</supplied> Weil<lb/>
+wir durch denſelben von allem vorhero erzehlten Beſchwer/ Jam-<lb/>
+mer und Elend entriſſen werden/ zu unzerſtoͤrlicher Ruhe kom-<lb/>
+men/ und die wahre Gluͤckſaͤligkeit erreichen<supplied>?</supplied> Hat doch der<lb/>
+mehr als wohlberedte <hi rendition="#aq">Cicero</hi> (welcher nur ein Heyde und<lb/>
+von der rechten Saͤligkeit keine gruͤndliche Wiſſenſchaft herge-<lb/>
+gen von der Natur vortrefliche Gaben gehabt) dafuͤr gehalten<lb/>
+und geſchloſſen: <hi rendition="#aq">Non male actum eſſe cum iis qui-<lb/>
+bus licitum eſt vitam cum morte commutare,</hi> daß<lb/>
+denen gar nicht uͤbel geſchehe/ welche dieſes Zeitliche Leben mit<lb/>
+dem Tode verwechſeln. Ja/ wendet aber die Menſchliche<lb/>
+Vernunft ein und ſaget: Es iſt gleichwol das Leben lieb und<lb/>
+dem Menſchen in die Natur gepflantzet/ daß er ſich vor dem<lb/>
+Tode entſetzet/ zumal wenn er noch in ſeiner bluͤhenden Jugend<lb/>
+iſt. Ach es iſt doch gar zu klaͤglich und erbaͤrmlich wenn ein<lb/>
+ſchoͤnes junges Blutt ſo bald verblaſſen/ und in die ſchwartze<lb/>
+<fw place="bottom" type="catch"><hi rendition="#fr">Erden</hi></fw><lb/>
+<pb facs="#f0008" n="[8]"/>
+Erden eingeſencket werden ſoll<supplied>?</supplied> Ach unſere wehrteſte <hi rendition="#fr">Jung-<lb/>
+frau von Schneckenhauß/</hi> hatte erſt recht angefangen<lb/>
+zu leben und Ihre beſten Jahre erreichet/ da Sie als eine ſchoͤ-<lb/>
+ne wohlriechende <hi rendition="#fr">Roſe/</hi> als eine in vollem Pracht aufſteigende<lb/>
+<hi rendition="#fr">Lilie</hi> bluͤhete<hi rendition="#i">!</hi> Ach wie gar zu bald iſt es mit Ihr auß gewe-<lb/>
+ſen. Ach wie gar zu fruͤhzeitig/ hat Sie dem grimmigen<lb/>
+Tode zur außbeute werden muͤſſen<hi rendition="#i">!</hi></p><lb/>
+<p>Aber ich antworte hierauf kuͤrtzlich: Dieſer Einwurff<lb/>
+und gefaſter wahn betrift nur den jenigen Menſchen/ welcher<lb/>
+dieſer vergaͤnglichen Welt und ihren betruͤglichen Schaͤtzen er-<lb/>
+geben iſt. Einem ſolchen kom̃t der Todt allemal zu fruͤh/ ob<lb/>
+er ihn gleich biß ins graue Alter leben laͤſſt. Ja einem ſol-<lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Sir.</hi> 41. <hi rendition="#i">v.</hi></hi> 1.</note>chen Menſchen iſt <hi rendition="#fr">der Todt</hi> bitter wenn er nur an Ihn geden-<lb/>
+cket/ wie der weiſe Hauß-Lehrer zeuget. Hergegen ein GOtt<lb/>
+ergebenes Hertz iſt jederzeit in bereitſchaft und willig ſein Leben<lb/>
+zu laſſen: <hi rendition="#fr">Sein Zeit</hi> und Stund iſt wenn <hi rendition="#k">GOtt</hi> wil/ es<lb/>
+ſchreibt ihm nicht fuͤr Maaß und Ziel: Es komme der Todt ſo<lb/>
+fruͤhzeitig als er immer wolle. <hi rendition="#aq">U</hi>nd zwar billich<supplied>:</supplied> Denn ſo<lb/>
+wenig ſich ein Schiffman zu beſchweren hat/ wenn er auf dem<lb/>
+weiten Meer/ ohne hinderung und anſtoß/ von groſſen aufſtei-<lb/>
+genden Wellen/ von ſtarcken <hi rendition="#aq">contrar</hi>-und Sturm-Winden<lb/>
+ſchleunig an den gewuͤnſchten Port anlaͤnden kan; <hi rendition="#fr">Eben</hi> ſo<lb/>
+wenig hat ſich ein Gottliebender Menſch zu beſchweren/ wenn<lb/>
+er fruͤhzeitig und noch in ſeinen bluͤhenden Jahren das <hi rendition="#aq">U</hi>nge-<lb/>
+ſtuͤme Meer dieſer Welt/ auf welchem die rauhen Sturm-<lb/>
+Winde haͤuffiger Widerwertigkeiten heftig blaſen/ die grau-<lb/>
+ſamen Wellen vieler Verfolgungen und anfeindungen gewaltig<lb/>
+entgegẽ ſteigen/ und die betruͤglichen <hi rendition="#aq">Syrenen</hi> der verdam̃lichen<lb/>
+Wolluͤſte in gefaͤhrliche abweege locken/ gluͤcklich hindurch ſe-<lb/>
+gelt/ und ohne einigen Verluſt an den ſtillen Port der Ewigen<lb/>
+<fw place="bottom" type="catch">Ruhe</fw><lb/>
+<pb facs="#f0009" n="[9]"/>
+Ruhe da ihn kein <hi rendition="#aq">U</hi>ngluͤck mehr ſchrecket/ und kein geſchrey<lb/>
+erwecket/ deßda eher anlaͤndet/ welches auch die Saͤlig ver-<lb/>
+ſtorbene und numehr in GOtt ruhende <hi rendition="#fr">Jungfrau von<lb/>
+Schneckenhauß</hi> gar wohl betrachtet hat. Denn wie<lb/>
+<hi rendition="#fr">Dieſelbe</hi> dieſes Zeitlichen Lebens bitterkeit/ ſchon ſatſam ſchme-<lb/>
+cken muͤſſen/ in deme Sie gantz fruͤhzeitig und noch unerzogen/<lb/>
+in den Hochbekuͤmmerten <supplied>Way</supplied>ſen-Standt verſetzet worden/ und<lb/>
+Jhren lieben Herren Vatern nur wenige Jahr auf dieſer Welt<lb/>
+gehabt/ die Frau Mutter aber (Ach Jammer) gar nicht ge-<lb/>
+kennet/ und dannenhero alß eine verlaſſene Vater und Mutter<lb/>
+Waͤyſe vielen Widerwertigkeiten Kumwer und Sorgen/ auch<lb/>
+inſonderheit zuweilen <hi rendition="#aq">U</hi>npaͤßligkeiten unterworffen geweſen<supplied>;</supplied></p><lb/>
+<p>Alſo hat Sie jederzeit ein hertzliches verlangen getragen/<lb/>
+mit dem Hoch erleuchten Heyden Lehrer und Außerwehlten Ruͤſt-<lb/>
+Zeug GOttes/ <hi rendition="#fr">Aufgeloͤſet und bey Ihrem <hi rendition="#g"><hi rendition="#k">Her-</hi></hi></hi><note place="right"><hi rendition="#aq"><hi rendition="#i">S. Paul.<lb/>
+Phil.</hi></hi> 1.</note><lb/>
+<hi rendition="#fr"><hi rendition="#g"><hi rendition="#k">ren</hi> CHRISTO</hi> zu ſeyn:</hi> Jhr auch ſelbſten<lb/>
+vielmal <hi rendition="#aq">prognoſticiret,</hi> daß Sie in Ihrem Jungfraͤulichen<lb/>
+Ehrenſtande von der Welt ſcheiden/ und keinen andern Braͤuti-<lb/>
+gam alß nur einig und allein <hi rendition="#fr">JESUM</hi> den allerholdſaͤligſten<lb/>
+Braͤutigam Jhrer Seelen haben wuͤrde. Denn weil Sie ein<lb/>
+<hi rendition="#k">GOtt</hi>-und nicht ein Welt-liebendes Hertz gehabt/ ſo iſt auch<lb/>
+Jhr ſehnliches verlangen geweſen den rechten Zweck ie eher ie<lb/>
+beſſer zuerreichen/ dahin Jhr Hertz gezielet/ und hat ſich hier-<lb/>
+an weder die ſcheinbare Welt-Freude noch Ihre bluͤhende Ju-<lb/>
+gend keines weges hindern laſſen; ſondern in ſteter bereitſchaft<lb/>
+gelebet/ und ſich dem willen des Allerhoͤchſten ergeben/ in den<lb/>
+gedancken</p><lb/>
+<lg type="poem"><l><hi rendition="#fr"><hi rendition="#g"><hi rendition="#k">Herr</hi></hi> wenn du wilſt ſo wil ich fort/</hi></l><lb/>
+<l><hi rendition="#fr">Je laͤnger hier/ ie ſpaͤter dort/</hi></l></lg><lb/>
+<p>Wie denn meldens- und denck-wuͤrdig iſt/ daß Sie auf Jhrem<lb/>
+<fw place="bottom" type="sig">B</fw><fw place="bottom" type="catch">Siech-</fw><lb/>
+<pb facs="#f0010" n="[10]"/>
+Siechbette noch bey guttem Verſtande/ und da die umbſtehen-<lb/>
+den ſich der Zeit Jhres todes nicht ſchon verſehen haͤtten/ von freyẽ<lb/>
+ſtuͤcken die Haͤnde erhaben und damit Jhr ſelbſt die <hi rendition="#fr">Augen<lb/>
+und den Mund zugedruͤcket hat:</hi> Worauß wohl abzu-<lb/>
+nehmen/ daß Sie uͤberdruͤßig geweſen/ mit Jhren Augen die<lb/>
+Eytelkeiten dieſer Welt mehr zuſehen/ und mit dem Munde<lb/>
+mehr Artzneyen/ dardurch die edle Seele in dem gefaͤngnis des<lb/>
+gebrechlichen Leibes noch etwas a<supplied>ufg</supplied>ehalten werden moͤchte/ ein-<lb/>
+zunehmen.</p><lb/>
+<p><hi rendition="#aq">U</hi>nd ſolcher geſtalt hat Sie gleich darauf Ihre Keuſche<lb/>
+Seele in Jhrem Jungfraͤulichen Ehren-ſtande/ der <hi rendition="#fr">Hoch-<lb/>
+heyligſten Dreyfaltigkeit/ <hi rendition="#g"><hi rendition="#k">GOtt</hi></hi> dem Vater</hi> der<lb/>
+Sie erſchaffen/ <hi rendition="#fr"><hi rendition="#g"><hi rendition="#k">Gott</hi></hi> dem Sohne</hi> der Sie erloͤſet/ und<lb/>
+<hi rendition="#fr"><hi rendition="#g"><hi rendition="#k">GOtt</hi></hi> dem Heyligen Geiſte/</hi> der Sie in der Heyli-<lb/>
+gen Tauffe geheyliget hat/ zu treuen Haͤnden aufgeopffert:<lb/>
+uud dieſes Zeitliche durch einen gar ſanft-und ſaͤligen Tod/<lb/>
+mit dem Ewigen verwechſelt. O des allergluͤckſaͤligſten<lb/>
+Wechſels<supplied>?</supplied> O der unvergleichlichen Ehr ſo Jhr wiederfahren<supplied>?</supplied><lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Sap:</hi> 3.<lb/>
+<hi rendition="#i">v.</hi></hi> 2.</note>Jetzt kan ich nicht ungereimt auf Sie <hi rendition="#aq">applici</hi>ren die worte<lb/>
+auß der Weißheit des Hochweyſeſten <hi rendition="#aq">Salomons:</hi></p><lb/>
+<cit><quote><hi rendition="#c"><hi rendition="#fr">Sie pranget in Ewigem Krantz/<lb/>
+und behelt den Sieg des Keuſchen<lb/>
+Kampfes.</hi></hi></quote><bibl/></cit><lb/>
+<p>Hier in dieſem Leben hat Sie getragen/ auch dem Welt-brau-<lb/>
+che nach mit ſich in die Grufft genohmmen einen <hi rendition="#fr">Jrdiſchen<lb/>
+Krantz</hi> von Blumen oder andern gewoͤhnlichen Straͤuſſen/<lb/>
+welcher iſt ein Zeichen und Zierde der Reinen und Keuſchen<lb/>
+<fw type="catch" place="bottom">Jung-</fw><lb/>
+<pb facs="#f0011" n="[11]"/>
+Jungfrauſchaft/ ein Zeichen des erhaltenen Sieges wider alle<lb/>
+fleiſchliche Anfechtungen/ und mit dergleichen ſchoͤnen Sieges-<lb/>
+Zeichen iſt auch billich gegenwertige To<supplied>dt</supplied>enbahr/ darauf die<lb/>
+Edle Jungfraͤuliche Leiche getragen wird/ praͤchtig gezieret und<lb/>
+bekraͤntzet.</p><lb/>
+<p><hi rendition="#fr">Dort aber in dem Ewige<supplied>n</supplied> Leben/</hi> dahin Sie<lb/>
+numehro ungezweifelt/ der Seelen nach/ verſetzet worden/ traͤgt<lb/>
+Sie eine unvergaͤnglich- und <supplied>un</supplied>verwelckliche Krone/ nicht von<lb/>
+unbeſtaͤndigen Blumen oder Eitelen Zierathen; Sondern von<lb/>
+der hellen Klarheit der Goͤttl. Majeſtaͤt und vollkommenen ge-<lb/>
+rechtigkeit Jhres hertzliebſten Seelen-Braͤutigams <hi rendition="#g">JES<hi rendition="#aq">U</hi>/</hi><lb/>
+deren Glantz und <hi rendition="#aq">valor</hi> in alle Ewigkeit nicht verdunckeln noch<lb/>
+abnehmen wirdt/ und alſo ſage Jch gar billich:</p><lb/>
+<cit><quote><hi rendition="#c"><hi rendition="#fr">Sie pranget in Ewigem Krantz/<lb/>
+und behelt den Sieg des Keuſchen<lb/>
+Kampfes.</hi></hi></quote><bibl/></cit><lb/>
+<p>Nicht allein aber hat Sie in dieſem Leben getragen/ und biß<lb/>
+an Jhr ſaͤliges Ende erhalten <hi rendition="#fr">einen Blumen-Krantz/</hi><lb/>
+ſondern auch einen <hi rendition="#fr">Tugend-Krantz</hi> von ſchoͤnen Chriſt-<lb/>
+Adelichen und Jungfraͤulichen Tugenden/ derer Sie ſich jeder-<lb/>
+zeit beſter maaſſen beflieſſen/ uͤnd zwar der geſtalt/ daß Sie<lb/>
+nicht nur dem euſerlichen anſehen nach Tugendhaft gehalten<lb/>
+werde; ſondern auch Wahrhaftig ſeyn moͤge. Denn Sie hat<lb/>
+ſich vornemlich beflieſſen</p><lb/>
+<p><hi rendition="#fr">Wahrer Gottsfuͤrchtigkeit/</hi> ſintemal Sie ſich je-<lb/>
+derzeit dem Heiligen Willen GOttes/ in rechter gelaſſenheit<lb/>
+ergeben/ und den <hi rendition="#g"><hi rendition="#k">Herren</hi> JES<hi rendition="#aq">U</hi>M</hi> uͤber alle<lb/>
+Dinge (wie Ihre unterſchiedene wohlgeſetzte <hi rendition="#g">JES<hi rendition="#aq">U</hi>S</hi><lb/>
+<fw type="sig" place="bottom">B ij</fw><fw type="catch" place="bottom">Lieder</fw><lb/>
+<pb facs="#f0012" n="[12]"/>
+Lieder/ die Sie bey geſunden tagen mit heller Stim̃ geſungen/<lb/>
+und in Jhrer unpaͤßligkeit zum Troſt vorſingen und vorbaͤten<lb/>
+laſſen/ gnugſam beze<gap reason="lost" unit="chars" quantity="3"/>en) hertzlich geliebet und geehret/ auch<lb/>
+durch inbruͤnſtiges Gebaͤt und andere Gottſaͤlige uͤbungen Jh-<lb/>
+re begierde zur Gottes<supplied>fu</supplied>rcht erwieſen. Sie hat ſich beflieſſen</p><lb/>
+<p><hi rendition="#fr">Ungefaͤlſchter Gutthertzigkeit</hi> oder geziemender <hi rendition="#aq">af-<lb/>
+fection</hi> gegen Jhrem Nechſten; Maaſſen Sie gern jederman<lb/>
+nach vermoͤgen/ alle Chriſtliche Tr<supplied>eu</supplied>e und Liebes-Dienſte wuͤrck-<lb/>
+lich erzeiget/ wie Jhr dann ſolches von vielen noch lange Zeit<lb/>
+zu wohl<supplied>ve</supplied>rdientem Ruhme nachgeſaget werden wirdt. Sie<lb/>
+hat ſich beflieſſen</p><lb/>
+<p><hi rendition="#fr">Ruhmwuͤrdiger Demuͤttigkeit/</hi> in deme Sie ſich<lb/>
+zwar Ihrem Adelichen Stande gemaͤß in gebuͤhrlichen Schran-<lb/>
+cken gehalten; doch darbey gegen Maͤnniglich Ehrerbiettig<lb/>
+und <hi rendition="#aq">human</hi> geweſen/ und alle Hoffart ernſtlich gehaſſet.</p><lb/>
+<p>Sie hat ſich beflieſſen</p><lb/>
+<p><hi rendition="#fr">Unbefleckter Keuſchheit/</hi> geſtalt Sie Jhren ſchoͤnen<lb/>
+Tauff-Namen <hi rendition="#fr">Helena Catharina/</hi> welche eine helleuch-<lb/>
+tende reine Jungfrau bezeichnen/ wuͤrcklich nachkommen/ und<lb/>
+in allen Wercken/ reden und gebehrden/ ſich Keuſch und Zuͤch-<lb/>
+tig verhalten/ auch mit ſolcher Jungfraͤulichen Keuſchheit/ an-<lb/>
+dern beywohnenden Tugenden/ einen beſondern ſchoͤnen Glantz<lb/>
+gegeben. Sie hat ſich beflieſſen</p><lb/>
+<p><hi rendition="#fr">Eingezogener Haͤußligkeit/</hi> in deme Sie alß eine<lb/>
+<hi rendition="#fr">von Schneckenhauß/</hi> nach rechter Schnecken art gern zu<lb/>
+Hauſe verblieben/ und ſich alles vorwitzigen umbſpatzirens<lb/>
+gaͤntzlich enteuſert hat.</p><lb/>
+<p>Aber ich wil mich mit herauß-ſtreichung Jhrer Lobwuͤrdi-<lb/>
+gen Tugenden nicht auf halten/ ſondern laſſe hiervon Ihre be-<lb/>
+nachbarte und bekannte/ ja die gantze Loͤbl. <hi rendition="#fr">Stadt Leobſchuͤtz</hi><lb/>
+<fw type="catch" place="bottom">(woſelbſt</fw><lb/>
+<pb facs="#f0013" n="[13]"/>
+(woſelbſt Sie einen groſſen Theil Jhrer Lebenszeit zugebracht<lb/>
+hat) unparteyiſch <hi rendition="#aq">judici</hi>ren.</p><lb/>
+<p>Wie nun dieſe numehr in GOtt ruhende Hoch-Adeliche<lb/>
+Jungfrau den Zeitlichen <hi rendition="#fr">Tugend-Krantz</hi> bewahret/ und<lb/>
+durch unnachlaͤßliche beſtaͤndigkeit (welche vor allen andern Tu-<lb/>
+genden einig und allein die rechte bekroͤnung <hi rendition="#aq">meriti</hi>ret) voll-<lb/>
+kommen gemacht hat; Alſo iſt kein zweifel/ daß Sie auch dort<lb/>
+in dem Ewigen Freuden-Leben die Himmliſche Ehren-Krone er-<lb/>
+langet hat/ und daß</p><lb/>
+<cit><quote><hi rendition="#c"><hi rendition="#fr">Sie pranget in Ewigem Krantz/<lb/>
+und behelt den Sieg des Keuſchen<lb/>
+Kampfes.</hi></hi></quote><bibl/></cit><lb/>
+<p><hi rendition="#aq">U</hi>nd in dieſem unvergaͤnglichen Ehren-Krantze/ wirdt Sie ſchon<lb/>
+der Seelen nach vermaͤhlet und helt froͤliche Hochzeit mit Ihrem<lb/>
+Einig-geliebten Himmliſchen Braͤutigam <hi rendition="#fr"><hi rendition="#g">JESU/</hi> der</hi><note place="right"><hi rendition="#aq"><hi rendition="#i">Hoſ.</hi> 2.<lb/>
+<hi rendition="#i">v.</hi></hi> 19.</note><lb/>
+<hi rendition="#fr">hat ſich mit Jhr verlobet in Ewigkeit/ in Gerechtig-<lb/>
+keit und Gericht/ in Gnad und Barmhertzigkeit:</hi></p><lb/>
+<lg type="poem"><l><hi rendition="#fr">Er helt Sie feſt in ſeinen Armen</hi></l><lb/>
+<l><hi rendition="#fr">In ſteter Liebe zu erwarmen/</hi></l><lb/>
+<l><hi rendition="#fr">Er hat ſich Ewiglich mit Jhr vertraut</hi></l><lb/>
+<l><hi rendition="#fr">Mit Jhr/ alß ſeiner wehrten Braut.</hi></l></lg><lb/>
+<p>Ja die Edle Seele wartet numehr und wuͤnſchet nichts anders<lb/>
+alß die Allgemeine Aufferſtehung/ da Sie mit dem Leibe von<lb/>
+welchem Sie allhier durch den Zeitlichen Todt geſchieden wor-<lb/>
+den/ wieder vereiniget werden/ und denſelben ihrer erlangten<lb/>
+<hi rendition="#aq">dignit</hi>aͤt/ und ewigen Saͤligkeit theilhaftig machen wirdt:<lb/>
+<fw type="sig" place="bottom">B iij</fw><fw type="catch" place="bottom">O wie</fw><lb/>
+<pb facs="#f0014" n="[14]"/>
+O wie unaußſprechlich froh wirdt alßdenn unſere Saͤlige<lb/>
+<hi rendition="#fr">Jungfrau Schneckenhauſin</hi> ſeyn<supplied><hi rendition="#i">!</hi></supplied> O Freude uͤber alle<lb/>
+Freude die Sie genieſſen wirdt<gap reason="illegible" unit="chars" quantity="1"/> <hi rendition="#fr">Freude</hi> uͤber dem ſuͤſſen an-<lb/>
+ſchauen der Aller-Heyligſten <hi rendition="#fr">Dreyfaltigkeit <hi rendition="#k">GOtt</hi>es:<lb/>
+Freude</hi> uͤber der Holdſaͤligſten Geſellſchaft der Heyligen En-<lb/>
+gel: <hi rendition="#fr">Freude</hi> uͤber der liebreichen Gemeinſchaft aller Heyligen<lb/>
+GOttes: <hi rendition="#fr">Freude</hi> uͤber der praͤchtigen <hi rendition="#aq">Reſidentz</hi> und un-<lb/>
+uͤberwindlichen Himmels-Burg/ ja inſonderheit auch <hi rendition="#fr">Freude</hi><lb/>
+uͤber der gewuͤnſchten Zuſammenkunft und wiederſehung mit den<lb/>
+Hertzliebſten Jhrigen/ da Sie Jhren Hertzliebſten Herren Va-<lb/>
+ter/ Jhre Holdſaͤligſte Geſchwiſter und Befreundten wieder ſe-<lb/>
+hen/ und Jhre auch Hertzliebſte Frau Mutter/ Jhrem verlan-<lb/>
+gen nach/ kennen lernen/ und bey dieſer annehmlichen <hi rendition="#aq">Com-<lb/>
+pagni,</hi> in vollkommener vergnuͤgung/ und lieblichem <hi rendition="#fr">Weſen</hi><lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Pſal.</hi> 16.<lb/>
+<hi rendition="#i">v.</hi></hi> 12.</note><hi rendition="#fr">zur Rechten GOttes/</hi> von Ewigkeit zu Ewigkeit Leben<lb/>
+wirdt/ <hi rendition="#aq">U</hi>nd</p><lb/>
+<cit><quote><hi rendition="#c"><hi rendition="#fr">Prangen in Ewigem Krantz/<lb/>
+und behalten den Sieg des Keu-<lb/>
+ſchen Kampfes.</hi></hi></quote><bibl/></cit></div><lb/>
+<div type="fsPersonalia" n="2"><head/>  <p><hi rendition="#in">W</hi>ann dann nun der Abgeſaͤlte Coͤrper anietzo von<lb/>
+hier zu ſeiner gehoͤrigen Ruheſtat nach Bade-<lb/>
+witz in die Hoch-Adeliche Schneckenhauſiſche Grufft<lb/>
+abgefuͤhret und beygeſetzet werden ſol; Alß iſt noch<lb/>
+uͤbrig zuvorhero ehe ſolches geſchiehet/ Chriſtlichem<lb/>
+brauche nach/ von der in GOttruhenden <hi rendition="#fr">Jungfrauen<lb/>
+von Schneckenhauß</hi> Adelichem Herkommen/ und ſaͤ-<lb/>
+<fw type="catch" place="bottom">ligen</fw><lb/>
+<pb facs="#f0015" n="[15]"/>
+ligen Albſchiede auß dieſer Sterbligkeit (ſo viel auf-<lb/>
+gezeichnet worden) einige kuͤrtzliche Meldung zu<lb/>
+thun/ und demnach ohne Umbſchweiff mit wenigem<lb/>
+zu wiſſen: <hi rendition="#fr">Daß Dieſelbe</hi> von dem Uhr-Alten Ge-<lb/>
+ſchlechte derer von <hi rendition="#fr">Schneckenhauß/</hi> <hi rendition="#aq">Anno</hi> 1645. den<lb/>
+12. <hi rendition="#aq">Martii</hi> in der Stadt Jaͤgerndorff auf dieſe Welt<lb/>
+geboren/ und den 25ſten darauf durch das <hi rendition="#aq">Sacrament</hi><lb/>
+der Heyligen Tauffe dem <hi rendition="#g"><hi rendition="#k">Herren</hi> JESU</hi> vor-<lb/>
+getragen/ mit dem ſchoͤnen Namen <hi rendition="#fr">Helena Cathari-<lb/>
+na/</hi> begabet und bezieret worden:</p><lb/>
+<p><hi rendition="#fr">Jhr Herr Vater iſt geweſen</hi></p><lb/>
+<list><item>Der weiland <hi rendition="#fr">Hoch-Wohl Edelgeborne/ und Geſtren-<lb/>
+ge Herr Frantz von Schneckenhauß und Bade-<lb/>
+witz/ auf Pickau:</hi></item><lb/>
+<item>Jhres Herren Vatern Frau Mutter/ eine geborne<lb/>
+von Burghauß/ auß dem Hauſe Stoltz im<lb/>
+Franckſteiniſchen Weichbild:</item><lb/>
+<item>Jhres Herren Vatern Vatern Frau Mutter/ iſt<lb/>
+geweſen eine geborne Tſcheplin von Belckau/<lb/>
+auß dem Hauſe Ponienczitz/ im Rattiboriſchen<lb/>
+Fuͤrſtenthum:</item><lb/>
+<item>Jhres Herren Vatern Frau Mutter Frau Mutter/<lb/>
+eine geborne von der Heyde/ auß dem Hauſe<lb/>
+Seyffersdorff/ im Reichenbachiſchen Kreiſſe:</item><lb/>
+<item>Derer Frau Mutter iſt geweſen eine geborne Hun-<lb/>
+din von Alten-Grottkau/ auß dem Hauſe Oßig:</item></list><lb/>
+<fw type="catch" place="bottom">Deren</fw><lb/>
+<pb facs="#f0016" n="[16]"/>
+<list><item>Deren Frau Mutter eine geborne Bittowſkin von<lb/>
+Bittau/ auß dem Hauſe Hrabina im Troppaui-<lb/>
+ſchen Fuͤrſtenthum:</item><lb/>
+<item>Deren Frau Mutter eine geborne Rohrin/ auß dem<lb/>
+Hauſe Seyffersdorff:</item><lb/>
+<item>Deren Frau Mutter eine geborne Schweinichin/ auß<lb/>
+dem Hauſe Schweinhauß/ im Polckenhainiſchen<lb/>
+Kreiſſe.</item></list><lb/>
+<p><hi rendition="#fr">Jhre Frau Mutter iſt geweſen/</hi></p><lb/>
+<list><item>Die weiland <hi rendition="#fr">Hoch-Wohl Edel geborne Frau Hedwi-<lb/>
+gis geborne von Schnellendorff/ auß dem Hauſe<lb/>
+Neudorff/ im Reichenbachiſchen Kreiſſe:</hi></item><lb/>
+<item>Jhrer Frau Mutter Frau Mutter/ iſt geweſen eine<lb/>
+geborne Waldauin/ auß dem Hauſe Schoͤnfeld:</item><lb/>
+<item>Jhrer Frau Mutter/ Herren Vatern Frau Mut-<lb/>
+ter/ iſt geweſen eine geborne Gottſchin auß dem<lb/>
+Hauſe Kynaſt:</item><lb/>
+<item>Jhrer Frau Mutter/ Frau Mutter/ Frau Mutter/<lb/>
+eine geborne Stoſchin/ auß dem Hauſe Schwartz:</item><lb/>
+<item>Deren Frau Mutter eine geborne Bedauin/ auß<lb/>
+dem Hauſe Peterwitz:</item><lb/>
+<item>Deren Frau Mutter iſt geweſen eine geborne Schlich-<lb/>
+tingsheimin/ auß dem Hauſe Girß:</item><lb/>
+<item>Deren Frau Mutter eine geborne Tſchirnin/ auß<lb/>
+dem Hauſe Streyſe:</item><lb/>
+<item>Deren Frau Mutter eine geborne Rohrin/ auß dem<lb/>
+Hauſe Schittel.</item></list><lb/>
+<fw type="catch" place="bottom"><hi rendition="#fr">Von</hi></fw><lb/>
+<pb facs="#f0017" n="[17]"/>
+<p><hi rendition="#fr"><hi rendition="#in">V</hi>On dieſem Anſehlichen Geſchlecht und Wohl-</hi><lb/>
+Adelichen Gebluͤtt/ iſt die Saͤlige Jungfrau<lb/>
+<hi rendition="#fr">Helena Catharina von Schneckenhauß</hi> entſproſſen<lb/>
+und erzeuget: Bald aber in Jhrer erſten zarten<lb/>
+Kindheit/ der Zeitlichen ungluͤckſaͤligkeit unterworf-<lb/>
+fen/ und ohne zweifel zur anzeigung daß Sie <hi rendition="#g"><hi rendition="#k">GOtt</hi></hi><lb/>
+lieb/ und nicht zu der ſchno<gap reason="illegible" unit="chars" quantity="1"/>en Welt-Freud/ ſondern<lb/>
+zur Ewigen Saͤligkeit geſchaffen ſey/ mit dem Goͤtt-<lb/>
+lichen Liebes-Zeichen des zwar bitteren/ doch allen<lb/>
+fromen Chriſten gar gemeinen <hi rendition="#fr">Creutzes</hi> bezeichnet<lb/>
+worden/ in deme Sie Jhrer Hertzliebſten Eltern<lb/>
+ſehr fruͤhzeitig verluſtig werden muͤſſen/ und die<lb/>
+Frau Mutter nur 13. Wochen bey Jhr gelebet/ der<lb/>
+Herr Vater aber wegen der gefaͤhrlichen Krieges-<lb/>
+Zeiten nicht allein wenig bey Jhr ſeyn koͤnnen/ ſon-<lb/>
+dern auch inkurtzer Zeit darauf/ nehmlich in dem 13<hi rendition="#sup">den</hi><lb/>
+Jahr Jhres Alters/ dieſe Welt geſegnet/ doch aber<lb/>
+auf ſeinem Tod-bette <hi rendition="#fr">Sie</hi> vorhero mit einem Vaͤ-<lb/>
+terlichen Seegen/ wie <hi rendition="#fr">Jſaac</hi> ſeinen Sohn <hi rendition="#fr">Jacob</hi><lb/>
+<hi rendition="#aq">Gen.</hi> 16. vorſehen hat/ deſſen Sie ſich in Jhrem Le-<lb/>
+ben oftmals gar ſchoͤne zu troͤſten gewuſt. Nach<lb/>
+Wohlermelten Jhres Hertzliebſten Herren Vatern<lb/>
+ſaͤligen Abſterben haben Sie deſſen Jungfrauen<lb/>
+Schweſtern/ als Jhre vielgeliebte Jungfrauen<lb/>
+Mahinen (zu denen Sie ſchon im Dritten Jahr Jh-<lb/>
+res Alters gegeben worden) ſtets bey ſich behalten/ und<lb/>
+Sie zu aller Gottes furcht und Chriſt-Adelichen Tu-<lb/>
+<fw type="sig" place="bottom">C</fw><fw type="catch" place="bottom">genden</fw><lb/>
+<pb facs="#f0018" n="[18]"/>
+genden erzogen/ auch im Leſen/ Schreiben und an-<lb/>
+dern gutten Si<supplied>tt</supplied>en unterwieſen/ denen Sie auch al-<lb/>
+len ſchuldigen gehorſam und ungefaͤlſchte treue gelei-<lb/>
+ſtet hat. Und als die aͤlteſte Jungfrau Mahm/<lb/>
+die Wohl-Edel geborne Jungfrau <hi rendition="#fr">Eliſabeth</hi> geborne<lb/>
+von <hi rendition="#fr">Schneckenhauß/</hi> von dieſer Welt ſcheiden ſollen/<lb/>
+hat Sie zuvor mehr wohle<gap reason="lost" unit="chars" quantity="1"/>meldte numehr in GOtt-<lb/>
+ſaͤligruhende Jungfrau <hi rendition="#fr">Helena Catharina</hi> geborne<lb/>
+von <hi rendition="#fr">Schneckenhauß/</hi> den andern Zweyen Schweſtern<lb/>
+<hi rendition="#aq">recommendi</hi>ret/ daß Sie ſich <hi rendition="#fr">Jhrer/</hi> als Jhres<lb/>
+Fleiſches und Bluttes annehmen/ und Sie nicht von<lb/>
+ſich laſſen moͤchten: Welches Sie auch gethan haben.<lb/>
+Da auch hernach die andere Mahm/ als die Wohl-<lb/>
+Edel geborne Jungrau <hi rendition="#fr">Anna Maria/</hi> geborne von<lb/>
+<hi rendition="#fr">Schneckenhauß</hi> Todes verfahren/ iſt Sie allein bey<lb/>
+der anitzo noch gegenwertigen Hochbetruͤbten Jung-<lb/>
+frau Mahme/ als der Wohl Edel gebornen <hi rendition="#fr">Jung-<lb/>
+frauen Eva</hi> geborner von <hi rendition="#fr">Schneckenhauß</hi> verblieben/<lb/>
+und hat Jhr allen gebuͤhrlichen gehorſam geleiſtet/<lb/>
+auch in ſolchem gar treulich biß an Jhren letzten<lb/>
+Seuftzer verharret/ daß jederman ein hertzliches<lb/>
+wohlgefallen dran gehabt.</p><lb/>
+<p>Dieweil nun alle Menſchen der Sterbligkeit<lb/>
+unterworffen/ und dahero nicht allein umb der Suͤn-<lb/>
+de willen Siech und Kranck ſeyn; ſondern auch dem<lb/>
+alten Bunde nach/ gar dem Tode her halten muͤſſen.<lb/>
+Als hat ſolches die ietzo Saͤlige Jungfrau <hi rendition="#fr">Helena</hi><lb/>
+<fw type="catch" place="bottom">Ca-</fw><lb/>
+<pb facs="#f0019" n="[19]"/>
+<hi rendition="#fr">Catharina</hi> geborne von <hi rendition="#fr">Schneckenhauß</hi> auch betrof-<lb/>
+fen. Denn Sie ſich ſchon von ver<gap reason="illegible" unit="chars" quantity="2"/>ichen <hi rendition="#aq">S. Jacobi</hi><lb/>
+an ſtets uͤbel-auf und unpaͤßlich befunden/ auch her-<lb/>
+nach 4. Wochenlang Bettlaͤgrig geweſen/ da Sie ſich<lb/>
+bald dem Willen des Allweiſen Gottes ergeben/ und<lb/>
+hertzlich gebaͤten/ die Goͤttl. Allmacht wolle es mit<lb/>
+Jhrer Kranckheit ſchicke<supplied>n/</supplied> wie es Jhr gut und ſaͤ-<lb/>
+lig ſey/ auch etliche mal in Jhrer Kranckheit geſaget:<lb/>
+(wenn Sie das Bildnis Jhrer Saͤligen Jungfrau<lb/>
+Schweſtern angeſehen) wie wohl wirdt Mir ſeyn/<lb/>
+wenn Jch zu Jhnen kommen werde/ O wie wohl<lb/>
+ſind Sie verſorget! Und denn wiederumb: Wie wohl<lb/>
+wirdt mir ſeyn/ wenn Jch zu meiner lieben Frau<lb/>
+Mutter kommen werde/ die Jch nicht gekennet ha-<lb/>
+be: Dort werde Jch Sie wohl kennen.</p><lb/>
+<p>Ob nun wohl Jhre alhier gegenwertige Jung-<lb/>
+frau Mahm/ an allerhand Mitteln und <hi rendition="#aq">medicamen-</hi><lb/>
+ten auch ſorgfaͤltiger wartung nichts ermangeln<lb/>
+laſſen; ſo ſind doch alle angewandte Mittel verge-<lb/>
+bens und umbſonſt geweſen/ und hat die Kranckheit<lb/>
+gar nicht ab: ſondern immermehr zu genohmmen;<lb/>
+Dahero man denn die Geiſtlichen Mittel vor die<lb/>
+Hand nehmen muͤſſen/ und hat Jhr gar oft Jhre liebe<lb/>
+Jungfrau Mahm das ſchoͤne Lied/ <hi rendition="#fr">Jch lieg und ſeuftze<lb/>
+Tag und Nacht:</hi> ſambt noch vielen andern andaͤchti-<lb/>
+gen Gebaͤten und Liedern vorgebaͤtet/ welches Sie<lb/>
+auch allzeit deutlich nachgeſprochen/ ja vor ſich ſelbſt<lb/>
+<fw type="sig" place="bottom">C ij</fw><fw type="catch" place="bottom">gebaͤtet/</fw><lb/>
+<pb facs="#f0020" n="[20]"/>
+gebaͤtet/ und daß man Jhr nochmehr vorleſen und<lb/>
+vorbaͤten ſolle be<supplied>w</supplied>ehret. Solchem nach iſt Sie in<lb/>
+dieſer wahren anruffung Jhres Einigen Heylandes<lb/>
+und <hi rendition="#fr">Erloͤſers <hi rendition="#g">JESU</hi> Chriſti/</hi> nach vorhero be-<lb/>
+ſchehener eigenhaͤndiger zudruͤckung Jhrer Augen<lb/>
+und des Mundes am 20ſten dieſes ablauffenden Mo-<lb/>
+nats <hi rendition="#aq">Septembris,</hi> als juͤ<supplied>ng</supplied>ſt verwichenen Freytag<lb/>
+des morgens umb ¼ auf 8. Uhr ſanft und ſaͤlig ent-<lb/>
+ſchlaafen/ und von dieſer Jammer-vollen Welt ge-<lb/>
+ſchieden: Jhres Alters 24. Jahr 27. Wochen und<lb/>
+3. Tage.</p><lb/>
+<p>Daß nun Eu. Gn. und meine Hoch- und Viel-<lb/>
+geehrte Herren/ auch wehrten Goͤnner und Freunde:<lb/>
+So wohl Eu. Gn. Ein Hoch- und Wohl-Loͤbl. auch<lb/>
+Ehrbares Frauen-Zimmer/ ſich ſo gnaͤdig/ guͤnſtig/<lb/>
+geneigt und Wohlmeinend erwieſen/ und der Saͤlig<lb/>
+verſtorbenen Hoch-Adelichen Jungfrauen/ den letz-<lb/>
+ten Ehrendienſt/ und geleite/ theils biß auf dieſe<lb/>
+Staͤte/ theils gar biß an den Ort/ da der Abgeſeelte<lb/>
+Coͤrper in die Adeliche Grufft/ beygeſetzet werden<lb/>
+ſoll/ wuͤrcklich leiſten wollen: Dafuͤr thut ſich die<lb/>
+hinterbliebene gegenwertig-Hochbetruͤbte Jung-<lb/>
+frau Mahm/ nebenſt der gantzen Hoch-Adelichen<lb/>
+Blutts-Verwandſchaft Hoch-fleißig auch Dienſt-<lb/>
+und Freundlichen bedancken: und ſind allerſeits er-<lb/>
+boͤtig ſolches mit andaͤchtigem Gebaͤt/ auch moͤglich-<lb/>
+<fw type="catch" place="bottom">ſten</fw><lb/>
+<pb facs="#f0021" n="[21]"/>
+ſten Dienſt-und Freundſchafts bezeugungen bey al-<lb/>
+len <hi rendition="#aq">occurrentien</hi> beſter maaſſen zuverſchulden/ wuͤn-<lb/>
+ſchende daß die Goͤttl. Allmacht Sie ſambt und ſon-<lb/>
+ders bey gluͤcklich <hi rendition="#aq">floriren</hi> dem Wohlſtande erhalten/<lb/>
+mit Himmliſchem Seegen begnaden/ und vor allem<lb/>
+Betruͤbnis und Hertzeleid lange Zeit friſten und be-<lb/>
+huͤtten wolle.</p></div><lb/>
+<div type="fsEpicedia" n="2"><head/>  <lg type="poem"><l><hi rendition="#et"><hi rendition="#in">E</hi>i nun ſo ruh in GOtt <hi rendition="#fr">Du Edles Hertz</hi></hi></l><lb/>
+<l>Entſeelt in keuſchem Stand und beſten Jahren</l><lb/>
+<l><hi rendition="#et">Du biſt und bleibſt numehr ohn allen Schmertz</hi></l><lb/>
+<l>Bey deinem JESU und den Engelſchaaren!</l><lb/>
+<l><hi rendition="#et">Dein <hi rendition="#fr">Hochzeit-Feſt</hi> hat nicht auf dieſer Welt/</hi></l><lb/>
+<l>Wie vielen ſonſt geſchieht/ geſchehen ſollen/</l><lb/>
+<l><hi rendition="#et">Jm Himmel iſts vor Dich ſchon angeſtellt/</hi></l><lb/>
+<l>Da dein Erloͤſer Dich hin haben wollen.</l><lb/>
+<l><hi rendition="#et">Wie praͤchtig gehts da zu? Denn JESUS iſt/</hi></l><lb/>
+<l>Selbſt <hi rendition="#fr">Bråutigam/</hi> der hat in allen treuen</l><lb/>
+<l><hi rendition="#et">Zu ſeiner lieben <hi rendition="#fr">Braut Dich Jhm</hi> erkieſt:</hi></l><lb/>
+<l>Die Engel deſſen ſich gar hoch erfreuen</l><lb/>
+<l><hi rendition="#et">Und <hi rendition="#fr">Hochzeit-Dien<supplied>er</supplied></hi> ſind: das <hi rendition="#fr">Hochzeit-Kleid</hi></hi></l><lb/>
+<l>Jſt <hi rendition="#fr">Himmels-Glantz:</hi> die <hi rendition="#fr">Koſt von</hi> <hi rendition="#aq">Ambroſinen</hi></l><lb/>
+<l><hi rendition="#et">Des <hi rendition="#fr">Gottes Troſts:</hi> der <hi rendition="#fr">Schatz</hi> die <hi rendition="#fr">Såligkeit:</hi></hi></l><lb/>
+<l>Und <hi rendition="#aq">Muſican</hi>ten ſind die <hi rendition="#aq">Seraph</hi><supplied>i</supplied>nen:</l><lb/>
+<l><hi rendition="#et">Der <hi rendition="#fr">Hochzeit-Saal</hi> iſt dort des <hi rendition="#fr">Himmels-Thron:</hi></hi></l><lb/>
+<l>Die <hi rendition="#fr">Heyligen</hi> geſambt die <hi rendition="#fr">Hochzeit-Gaſte:</hi></l><lb/>
+<fw type="sig" place="bottom">C iij</fw><fw type="catch" place="bottom">Der</fw><lb/>
+<pb facs="#f0022" n="[22]"/>
+<l><hi rendition="#et">Der <hi rendition="#fr">Braut-Krantz</hi> iſt von <hi rendition="#g"><hi rendition="#k">GOtt</hi></hi> ein’ <hi rendition="#fr">Ehren Kron:</hi></hi></l><lb/>
+<l>Jn ſumma alles iſt beſtellt aufs beſte/</l><lb/>
+<l><hi rendition="#et">Und alſo lebſt Du nun in Herrligkeit</hi></l><lb/>
+<l>Ohn alles Enď/ und wirſt niemals veralten:</l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Du prangſt in ſtetem Krantz’/</hi> und haſt bereit</hi></l><lb/>
+<l><hi rendition="#fr">Den Sieg des keuſchen Kampfs/</hi> mit ruhm’ erhalten.</l></lg><lb/>
+<figure/></div></div> </body></text>  </TEI>

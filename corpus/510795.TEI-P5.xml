@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Leichpredigt/ Vber das Trostsprüchlein aus dem 73. Psalm. HERR/ wenn ich nur dich habe/ etc. Bey Christlichem Leichbegängniß der weiland Edlen/ Ehr- vnd Tugendreichen E. Lydomillae</title>
+<author>
+<persName ref="http://d-nb.info/gnd/11546364X">
+<surname>Hoepner</surname>
+<forename>Johann</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">23</measure>
+<measure type="tokens">3328</measure>
+<measure type="types">1160</measure>
+<measure type="characters">21774</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:10:18Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/510795</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/510795</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/510795</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/510795</idno>
+<idno type="DTADirName">510795</idno>
+<idno type="DTAID">200170</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-200170-9</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Hoepner, Johann: Leichpredigt/ Vber das Trostsprüchlein aus dem 73. Psalm. Leipzig, 1636.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Leichpredigt/ Vber das Trostsprüchlein aus dem 73. Psalm. HERR/ wenn ich nur dich habe/ etc. Bey Christlichem Leichbegängniß der weiland Edlen/ Ehr- vnd Tugendreichen E. Lydomillae</title>
+<author>
+<persName ref="http://d-nb.info/gnd/11546364X">
+<surname>Hoepner</surname>
+<forename>Johann</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">23</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Friedrich Lanckischen S. Erben</name></publisher>
+<pubPlace>Leipzig</pubPlace>
+<date type="publication">1636</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 O 787/29 / 510795</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#b">Leichpredigt/</hi></titlePart><lb/>
+<titlePart type="sub">Vber das Troſtſpruͤchlein aus dem <cit><bibl>73. Pſalm.</bibl><lb/>
+<quote><hi rendition="#g"><hi rendition="#k">Herr/</hi></hi> wenn ich nur dich habe/ ꝛc.</quote></cit></titlePart><lb/>
+<titlePart type="desc">Bey Chriſtlichem Leichbegaͤngniß der wei-<lb/>
+land Edlen/ Ehr-vnd Tugendreichen<lb/>
+<hi rendition="#b">F. Lydomill<hi rendition="#aq">æ/</hi><lb/>
+Des weiland Edlen vnd Ehrenve-<lb/>
+veſten Herꝛn Adam Zwill von Konetzchlum/</hi><lb/>
+Buͤrgers vnd Handelsmans in Praga S. nach-<lb/>
+gelaſſenen Wittiben/<lb/>
+<hi rendition="#b">Welche in wahrer Erkaͤntniß jhres Heylan-</hi><lb/>
+des Jeſu Chriſti/ dieſes 1636. Jahrs den 21. Februarij<lb/>
+in Leipzig ſeliglichen entſchlaffen vnd den folgenden 23. <hi rendition="#aq">dito</hi><lb/>
+mit Chriſtlichen Ceremonien zur Erden beſtat-<lb/>
+tet worden.</titlePart></docTitle><lb/>
+<byline>Gehalten von<lb/>
+<docAuthor><hi rendition="#aq"><hi rendition="#g">JOHANNE HÖPNERO</hi></hi></docAuthor><hi rendition="#aq">, SS. Theol. D.<lb/>
+Prof. Publ. Paſtore ad D. Nicolai &amp;<lb/>
+Superintendente.</hi></byline><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docImprint><hi rendition="#b">Gedruckt zu </hi> <pubPlace><hi rendition="#b">Leipzig</hi></pubPlace><hi rendition="#b">/ bey </hi><publisher><hi rendition="#b">Friederich Lanckiſchen</hi><lb/>
+S. Erben</publisher>/ <hi rendition="#aq">Anno</hi> <docDate> 1636</docDate>.</docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="[2]"/>
+<pb facs="#f0003" n="[3]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="1"><head/>  <opener><salute><hi rendition="#c"><hi rendition="#aq"><hi rendition="#b"><hi rendition="#g"><hi rendition="#k">In Nomine Jesu.</hi></hi></hi></hi></hi></salute></opener><lb/>
+<div type="fsBibleVerse" n="2"><head>Spruͤchlein aus dem 73 Pſalm.</head><lb/>
+<cit><quote><hi rendition="#fr"><hi rendition="#g"><hi rendition="#k"><hi rendition="#in">H</hi>err/</hi></hi> wenn ich nur dich habe/ ſo<lb/>
+frage ich nichts nach Himmel<lb/>
+vnd Eꝛden. Wenn mir gleich Leib vnd<lb/>
+Seele verſchmacht/ ſo biſtu doch<lb/>
+Gott allezeit meines Hertzen Troſt/<lb/>
+vnd mein Theil.</hi></quote></cit></div><lb/>
+<div type="fsExordium" n="2"><head><hi rendition="#aq">Exordium.</hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">G</hi>Eliebte vnnd Andaͤchti-</hi><lb/>
+gen Freundt in Chriſto dem<lb/>
+HErrn/ der erſte Menſch iſt<lb/>
+im Stand der Vnſchuld alſo<lb/>
+von Gott geſchaffen worden/<lb/>
+daß er ſeinem Schoͤpffer ange-<lb/>
+hangen/ jhn von gantzen Hertzen geliebet/ ge-<lb/>
+ehret/ gefuͤrchtet vnd gehorchet hat/ gleichwie<lb/>
+<fw type="sig" place="bottom">A ij</fw><fw type="catch" place="bottom">der</fw><lb/>
+<pb facs="#f0004" n="[4]"/>
+<fw place="top" type="header">Chriſtliche Leichpredigt.</fw><lb/>
+der allerhoͤchſte Gott von den H. Engeln alſo<lb/>
+geehret vnd geliebet wird: Hat demnach der<lb/>
+erſte Menſch GOtt den <hi rendition="#g"><hi rendition="#k">Herrn</hi></hi> fuͤr ſein<lb/>
+Hauptgut gehalten/ vnd iſt ſeine hoͤchſte Luſt<lb/>
+vnd Frewde geweſen/ Gott zu lieben/ vnd ſei-<lb/>
+ne Befehl außzurichten/ wie heutiges Tages<lb/>
+die H. Engelein allzeit ſehen das Angeſicht<lb/>
+Gottes/ vnd ſtehen fuͤr ſeinem Thron/ vnd<lb/>
+richten ſeine Befehlich aus/ vnd warten den<lb/>
+Glaͤubigen auff den Dienſt/ vnd beſchuͤtzen<lb/>
+ſie fuͤr dem Teuffel im Leben vnd Sterben.</p><lb/>
+<p>Aber der leidige Suͤndenfall hat ſolch<lb/>
+Band der Liebe zwiſchen Gott vnd den Men-<lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Eſa.</hi> 59</hi></note>ſchen zerriſſen/ wie Eſa. 59. ſtehet: Ewre<lb/>
+Suͤnd vnd Vntugend ſcheiden euch vnd ew-<lb/>
+ren Gott von einander. Weil aber GOtt<lb/>
+ſelbſt aus vnermeßlicher Liebe ſich mit der<lb/>
+Welt verſoͤhnet hat durch ſeinem Sohn/ wel-<lb/>
+chener vmb vnſer Suͤnde willen dahin gege-<lb/>
+ben hat/ ſo hat er vns auch durch ſein Ver-<lb/>
+dienſt den H. Geiſt erworben/ der zuͤndet ſolch<lb/>
+Glaubens Liecht wieder an in vnſerm Her-<lb/>
+tzen/ daß wir durch den Glauben an Chriſtum<lb/>
+zu Gott nahen/ ein kindlich Vertrawen zu<lb/>
+<fw place="bottom" type="catch">Gott</fw><lb/>
+<pb facs="#f0005" n="[5]"/>
+<fw place="top" type="header">Chriſtliche Leichpredigt</fw><lb/>
+Gott habẽ/ vnd vmb Chriſti willen die K<gap reason="illegible" unit="chars" quantity="4"/>-<lb/>
+ſchafft gegen Gott empfangen/ vnd das Er-<lb/>
+be des ewigen Lebens hoffen. Solcher Glau-<lb/>
+be bringet nu eine ſolche Liebe vnd Zuverſicht<lb/>
+auff Gott mit ſich/ daß wir nu ſagen koͤnnen<lb/>
+mit Aſſaph: HErr/ wenn ich nur dich habe/<lb/>
+ſo frage ich nichts nach Himmel vnd Erden/<lb/>
+wenn mir gleich Leib vnd Seele verſchmacht/<lb/>
+ſo biſtu doch Gott allezeit meines Hertzens<lb/>
+Troſt vnd mein Theil. Solche Wort wol-<lb/>
+len wir nu verſtehen lernen/ vnd darauß ver-<lb/>
+nehmen: Welches vnſer Hauptgut ſey/ vnd<lb/>
+was wir von demſelbigen fuͤr hohe <hi rendition="#aq">beneficia</hi><lb/>
+vnd Wolthaten zu genieſſen haben.</p></div><lb/>
+<div type="fsMainPart" n="2"><head><hi rendition="#aq"><hi rendition="#g">EXPLICATIO.</hi></hi></head><lb/>
+<p><hi rendition="#in">D</hi>As Hauptgut eines Menſchen machet<lb/>
+Aſſaph alſo bald in den erſten Woͤrt-<lb/>
+lein <hi rendition="#g"><hi rendition="#k">Herr</hi></hi> namhafftig/ welches<lb/>
+Woͤrtlein <hi rendition="#aq">Jehovah</hi> iſt der weſentliche Name<lb/>
+Gottes/ welcher keiner Creatur zugeeignet<lb/>
+wird. Dieſer groſſe GOtt hat ſich nun alſo<lb/>
+geoffenbahret/ in ſeinem Wort/ daß er ſey ei-<lb/>
+nig im Weſen/ vnd dreyfaltig in Perſonen/<lb/>
+<fw place="bottom" type="sig">A iij</fw><fw place="bottom" type="catch">vnd</fw><lb/>
+<pb facs="#f0006" n="[6]"/>
+<fw place="top" type="header">Chriſtliche Leichpredigt.</fw><lb/>
+vnd daß die mitlere Perſon in der Gottheit/<lb/>
+ď eingeborne Sohn Gottes/ vnſere Menſch-<lb/>
+heit in die Einigkeit ſeiner Perſon angenom-<lb/>
+men habe/ vnd iſt in zweyen vnterſchiedenen<lb/>
+Naturen/ ein Chriſtus/ θεάνθρωϖος, GOtt<lb/>
+vnd Menſch/ ein Koͤnig aller Koͤnige/ vnd ein<lb/>
+Herr aller Herren/ vnſer Hoherprieſter vnd<lb/>
+Mitler/ wie vns S. Paulus dieſen HErrn<lb/>
+<note place="left"><hi rendition="#i">1. <hi rendition="#aq">Tim.</hi> 2.</hi></note>beſchreibet/ in der 1. Tim. 2. Es iſt ein Gott/ vñ<lb/>
+ein Mitler zwiſchen Gott vnd den Menſchen/<lb/>
+nemblich der Menſch Chriſtus Jeſus der ſich<lb/>
+ſelbſt gegeben hat fuͤr alle zur Erloͤſung. In<lb/>
+<note place="left"><hi rendition="#i">1. <hi rendition="#aq">Cor.</hi> 8.</hi></note>der 1. an die Corinthier am 8. ſtehet eben eine<lb/>
+ſolche Beſchreibung: Es iſt kein ander Gott/<lb/>
+ohne der einige/ vnnd wiewol es ſind die<lb/>
+Goͤtter genennet werden/ es ſey im Himmel<lb/>
+oder auff Erden/ ſo haben wir doch nur einen<lb/>
+GOtt/ den Vater von welchem alle Dinge<lb/>
+ſind/ vnd wir in jhm/ vnd einen HErrn Je-<lb/>
+ſum Chriſt/ durch welchen alle Dinge ſind/<lb/>
+vnd wir durch jhn. Dieſen <hi rendition="#k">Herrn</hi> meynet<lb/>
+auch Aſſaph allhier/ ja dieſer einige Gott vnd<lb/>
+Mitler wird in der H. Schrifft durch das<lb/>
+Woͤrtlein <hi rendition="#k">Herr</hi> verſtanden/ vnd weñ gleich<lb/>
+<fw place="bottom" type="catch">nur</fw><lb/>
+<pb facs="#f0007" n="[7]"/>
+<fw place="top" type="header">Chriſtliche Leichpredigt.</fw><lb/>
+nur eine Perſon genennet wird/ ſo werden<lb/>
+doch die andern Perſonen in der Gottheit<lb/>
+nicht außgeſchloſſen/ denn die euſſerlichen<lb/>
+Wercke/ welche die Gottheit in den Creatu-<lb/>
+ren wircket/ ſind vnzertrennet/ ſie gehoͤren<lb/>
+allen dreyen Perſonen.</p><lb/>
+<p>Dieſen Gott vnd HErrn muͤſſen wir<lb/>
+haben/ HErr/ wenn ich nur dich habe/ ſpricht<lb/>
+Aſſaph. Wie koͤnnen wir dieſen HErrn erlan-<lb/>
+gen vnd haben? Antwort: Darzu wird erfo-<lb/>
+dert die Vereinigung vnſerer Seele mit<lb/>
+Gott/ dadurch Gott ſeine Wohnung in vn-<lb/>
+ſeren Hertzen hat/ daß wir in Gott bleiben/<lb/>
+vnd Gott in vns. Wie vns Gott anfaͤng-<lb/>
+lich zu ſeinem Ebenbild erſchaffen hat/ auff<lb/>
+daß er ſeinen Tempel in vnſern Seelen het-<lb/>
+te. Aber durch die Suͤnde iſt der Tempel<lb/>
+GOttes zerſtoͤret worden/ der vnſaubere<lb/>
+Geiſt hat durch die Erbſuͤnde ſeinen Pallaſt<lb/>
+in vnſren Hertzen auffgeſchlagen/ der treibet<lb/>
+ſein Werck kraͤfftig in den Kindern des Vn-<lb/>
+glaubens/ er verfuͤhret vns aus einer Suͤn-<lb/>
+de in die andere/ vnd wir koͤnnen fuͤr vns ſelbſt<lb/>
+nicht nuͤchtern werden von den Stricken deß<lb/>
+<fw place="bottom" type="catch">Sa-</fw><lb/>
+<pb facs="#f0008" n="[8]"/>
+<fw place="top" type="header">Chriſtliche Leichpredigt.</fw><lb/>
+Satans/ noch vns aus ſeiner tyranniſchen<lb/>
+Obrigkeit loß wircken/ ſondern der groſſe<lb/>
+Gott vnd HErr von Himmel hat vns erret-<lb/>
+tet von der Obrigkeit der Finſterniß/ wie S.<lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Coloſſ.</hi> 1.</hi></note>Paulus ſchreibet zun Coloſſ. am 1. Capitel:<lb/>
+Danckſaget dem Vater der vns tuͤchtig ge-<lb/>
+macht hat zu den Erbtheil der Heiligen im<lb/>
+Liecht/ welcher vns errettet hat võ der Obrig<lb/>
+keit der Finſterniß/ vnd hat vns verſetzt in<lb/>
+das Reich ſeines lieben Sohns/ an welchem<lb/>
+wir haben die Erloͤſung/ durch ſein Blut<lb/>
+nemlich/ die vergebung der Suͤnde. Jeſus<lb/>
+Chriſtus hat vns durch ſeine allertieffſte Er-<lb/>
+niedrigung/ dadurch er ſeinem Himliſchen<lb/>
+Vater iſt gehorſam worden biß zum Tode<lb/>
+am Creutz/ aus des Teuffels Reich erloͤ-<lb/>
+ſet/ vnd vns jhme ſelbſt durch ſein Blut/ zu<lb/>
+ſeinem Eigenthuͤmlichen Volck erkauffet/<lb/>
+auff daß wir jhm in ſeinen Reich dienen ſollen<lb/>
+ohne Furcht vnſer Lebelang/ in Heiligkeit<lb/>
+vnd Gerechtigkeit/ die jhm gefaͤllig iſt. Die-<lb/>
+ſem HErrn hat nu Gott einen Namen ge-<lb/>
+geben/ der vber alle Namen iſt/ daß in dem<lb/>
+Namen Jeſu ſich beygen ſollen/ alle der Knie/<lb/>
+<fw place="bottom" type="catch">der</fw><lb/>
+<pb facs="#f0009" n="[9]"/>
+<fw place="top" type="header">Chriſtliche Leichpredigt.</fw><lb/>
+die im Himmel vnd auff Erden/ vnd vnter der<lb/>
+Erden ſind/ vnd alle Zungen bekeñen ſollen/<lb/>
+daß Jeſus Chriſtus der HErr ſey/ zur Ehre<lb/>
+Gottes des Vaters/ wie zun Philip. am 2.<note place="right"><hi rendition="#i"><hi rendition="#aq">Philip.</hi> 2.</hi></note><lb/>
+geſchrieben ſtehet. Wenn wir an dieſen HEr-<lb/>
+ren glaͤuben/ ſo reiniget er vnſere Hertzen mit<lb/>
+ſeinem Blut von allen Suͤnden/ er geuſt vber<lb/>
+vns aus ſeinen H. Geiſt/ der bereitet vnſere<lb/>
+Hertzen zu Tempeln vnd Wohnungen der H.<lb/>
+Dreyfaltigkeit. Auff dieſe weiſe werden<lb/>
+wir durch den Glauben wieder mit Gott ver-<lb/>
+einiget/ wie S. Paulus ſchreibet zun Epheſ.<note place="right"><hi rendition="#i"><hi rendition="#aq">Epheſ.</hi> 1.</hi></note><lb/>
+am 3. Chriſtus wohnet durch den Glauben in<lb/>
+vnſerm Hertzen.</p><lb/>
+<p>Wer nu an Jeſum Chriſtum glaͤubet/ der<lb/>
+hat einen gnaͤdigen Gott/ er iſt ein Kind vnd<lb/>
+Erbe Gottes/ wie zun Galat. am 3. geſchrie-<note place="right"><hi rendition="#i"><hi rendition="#aq">Gal.</hi> 3.</hi></note><lb/>
+ben ſtehet: Jhr ſeyd alle Kinder Gottes durch<lb/>
+den Glauben an Chriſtum Jeſum. Denn<lb/>
+wie viel ewer getaufft ſind/ die haben Chri-<lb/>
+ſtum angezogen.</p><lb/>
+<p>Wenn wir nun alſo den HErrn haben/<lb/>
+was haben wir fuͤr guts von jhm zu hoffen<lb/>
+vnd zu gewarten? Antwort: Weil Gott das<lb/>
+<fw place="bottom" type="sig">B</fw><fw place="bottom" type="catch">alle-</fw><lb/>
+<pb facs="#f0010" n="[10]"/>
+<fw place="top" type="header">Chriſtliche Leichpredigt.</fw><lb/>
+allerhoͤchſte Gut iſt/ ſo wil er ſich ſelbſt mit al-<lb/>
+ler ſeiner Guͤte ſeinen Glaͤubigen vnd Auß-<lb/>
+erwehleten mittheilen/ wie er ſpricht zu Ab-<lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Gen.</hi> 15.</hi></note>raham/ Geneſ. 15. <hi rendition="#aq">Ero merces tua valde ma-<lb/>
+gna,</hi> Jch bin dein ſehr groſſer Lohn. Wer Gott<lb/>
+hatt/ der hat alles/ denn Gott allein iſt der<lb/>
+<hi rendition="#aq">Schaddai,</hi> der vollkommene Gott/ der vnſere<lb/>
+Seele ſettigen kan/ welche jhre Ruhe nir-<lb/>
+gend anders/ als in Gott finden vnd erlan-<lb/>
+gen kan. Gott iſt die Liebe/ vnd iſt Frewde<lb/>
+vnd liebliches Weſen fuͤr jhm: Gott anſcha-<lb/>
+wen iſt die hoͤchſte Seligkeit/ vnd wircket lau-<lb/>
+ter Frewde/ Friede vnd Hertzens Wonne.<lb/>
+Da Petrus Jeſum ſahe in ſeiner Klarheit<lb/>
+auff dem Berge Thabor/ vnnd hoͤrete die<lb/>
+Stimme des Vaters/ ſanck er in einen ſuͤſſen<lb/>
+Schlaff/ vnd da er erwachte/ ſagte er zu Jeſu:<lb/>
+HErr/ hie iſt gut ſeyn/ wiltu/ ſo wollen wir<lb/>
+hie drey Huͤtten machen/ dir eine/ Moſi eine<lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Matt.</hi> 17.</hi></note>vnd Elias eine/ Matth. 17.</p><lb/>
+<p>Allhier erzehlet Aſſaph dreyerley Guͤ-<lb/>
+ter/ die wir von der gnadenreichen Einwoh-<lb/>
+nung Gottes zu gewarten haben.</p><lb/>
+<p>Das <hi rendition="#aq">I.</hi> Gut iſt der vnerſchoͤpffliche Reich-<lb/>
+<fw place="bottom" type="catch">thumb</fw><lb/>
+<pb facs="#f0011" n="[11]"/>
+<fw place="top" type="header">Chriſtliche Leichpredigt.</fw><lb/>
+thumb GOttes: Wenn ich nur dich habe/<lb/>
+ſpricht Aſſaph/ ſo frage ich nichts nach Him-<lb/>
+mel vnnd Erden. Aſſaph wil ſich gerne des<lb/>
+Himmels vnd der Erden verzeihen/ vnd aller<lb/>
+Guͤter/ die im Himmel vnd auff Erden zu fin-<lb/>
+den ſeyn/ wenn er nur ſeinen lieben Gott ha-<lb/>
+ben vnd erlangen kan: Hierinnen hat Aſſaph<lb/>
+nicht vnrecht geurtheilet/ denn Himmel vnd<lb/>
+Erden hat GOtt geſchaffen/ ſo weit nu der<lb/>
+Schoͤpffer das Geſchoͤpffe vnd das Werck<lb/>
+ſeiner Haͤnde vbertrifft: So weit vbertrifft<lb/>
+auch Gott der HErr Himmel vnd Erden/<lb/>
+vnd alles was drinnen zu finden iſt. Gott<lb/>
+allein iſt ewig. Aber die Welt iſt vergenglich:<lb/>
+Die Himmel werden veralten/ wie ein Ge-<lb/>
+wand/ ſtehet im 102. Pſalm. Himmel vnd Er-<note place="right"><hi rendition="#i"><hi rendition="#aq">Pſal.</hi> 102.</hi></note><lb/>
+den vergehen/ wie Chriſtus Luc. 21. Capitel<note place="right"><hi rendition="#i"><hi rendition="#aq">Luc.</hi> 21.</hi></note><lb/>
+bezeuget: Die Erde vnd alle Werck die drin-<lb/>
+nen ſind/ werden im Fewer auffgehen/ vnd<lb/>
+die Elementa werden fuͤr Hitze zerſchmeltzen/<lb/>
+ſchreibet S. Petrus/ 2. Pet. 3. Wer demnach<note place="right"><hi rendition="#i">2 <hi rendition="#aq">Pet.</hi> 3.</hi></note><lb/>
+ſein Paradieß in dieſer Welt ſuchet/ der iſt der<lb/>
+groͤſte Narr: Wer ſein <hi rendition="#aq">datum</hi> auff dieſe Welt<lb/>
+ſetzet/ der begehet die groͤſte Thorheit. Aber<lb/>
+<fw place="bottom" type="sig">B ij</fw><fw place="bottom" type="catch">wer</fw><lb/>
+<pb facs="#f0012" n="[12]"/>
+<fw place="top" type="header">Chriſtliche Leichpredigt.</fw><lb/>
+wer GOtt vertrawet/ hat wol gebawet im<lb/>
+Himmel vnd auff Erden/ wer ſich verleſt auff<lb/>
+Jeſum Chriſt/ dem muß der Himmel werden.<lb/>
+Alſo ſchreibet auch S. Johannes in ſeiner 1.<lb/>
+<note place="left"><hi rendition="#i">1. <hi rendition="#aq">Job.</hi> 2.</hi></note>Epiſtel am 2. Cap. Die Welt vergehet mit<lb/>
+jhrer Luſt. Wer aber den Willen Gottes thut/<lb/>
+der bleibet in Ewigkeit. Wer wolte nicht lie-<lb/>
+ber reich ſeyn denn arm/ wir reden nicht von<lb/>
+dem Reichthumb dieſer Welt/ welches wurm-<lb/>
+ſtichig vnd mottenfreſſig iſt/ in der Epiſtel<lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Jacob.</hi> 4.</hi></note>Jacobi am 4. Capitel/ ſondern wir reden von<lb/>
+dem rechten beſtendigen Reichthumb/ wel-<lb/>
+ches allein in Gott zu finden iſt/ wer nu einen<lb/>
+gnaͤdigen Gott hat/ der iſt reicher als Him-<lb/>
+mel vnd Erden: Hergegen wer einen vngnaͤ-<lb/>
+digen Gott hat/ ob er gleich alles Reichthumb<lb/>
+dieſer Welt beſeſſe/ ſo kans jhm doch nicht ret-<lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Zephan.</hi> 1.</hi></note>ten/ wie beym Propheten Zephania am 1. ge-<lb/>
+ſchrieben ſtehet/ Es wird ſie jhr Silber vnd<lb/>
+Gold nicht erretten muͤgen/ am Tage des<lb/>
+Zorns des HErrn. Er muß zu letzt ins Hel-<lb/>
+liſche Fewer/ vnd mit dem Teuffel ewiges<lb/>
+Armuth leiden.</p><lb/>
+<p>Das 2. Gut/ welches wir von der Ein-<lb/>
+<fw place="bottom" type="catch">woh-</fw><lb/>
+<pb facs="#f0013" n="[13]"/>
+<fw place="top" type="header">Chriſtliche Leichpredigt.</fw><lb/>
+wohnung Gottes zugewarten haben/ iſt ein<lb/>
+beſtendiger Troſt in der letzten Todesſtunde/<lb/>
+davon zeuget Aſſaph alſo: Wenn mir gleich<lb/>
+Leib vnnd Seele verſchmacht/ ſo biſtu doch<lb/>
+Gott allezeit meines Hertzens Troſt. Dieſe<lb/>
+Wolthat iſt nicht hoch gnug zupreiſen. Denn<lb/>
+vmb der Suͤnde willen muͤſſen wir alle ſter-<lb/>
+ben/ es koͤmpt die Reye auch an vns/ ehe wirs<lb/>
+meynen/ daß Leib vnd Seele vns verſchmach-<lb/>
+ten. Das iſt/ das natuͤrliche Lebensband<lb/>
+zwiſchen dem Leibe vnd der Seele wird zuriſ-<lb/>
+ſen/ das gehet ohne empfindung einer groſſer<lb/>
+Hertzens Angſt/ vnnd ſonderlicher Schmer-<lb/>
+tzen nicht abe/ weil der Todt wider die Natur<lb/>
+iſt/ vnd die Seele nicht gerne aus dem Neſte<lb/>
+jhres Leibes fehret/ ob ſie gleich ein geiſtli-<lb/>
+ches Geſchoͤpff vnd daher vntoͤdtlich iſt/ ſo iſt<lb/>
+ſie doch betꝛuͤbet vmb ſolches ſcheidens willen.<lb/>
+Gleich wie zwey gute Freunde mit betruͤbten<lb/>
+Gemuͤth vnnd naſſen Augen von einander<lb/>
+ſcheiden: Alſo erhebt ſich auch Jammer vnd<lb/>
+Noth/ weñ vns Leib vnd Seel verſchmachten<lb/>
+wil: Da kan niemand helffen als der Gott<lb/>
+vnſers Lebens/ der nimpt vns auff/ wie<lb/>
+<fw place="bottom" type="sig">B iij</fw><fw place="bottom" type="catch">David</fw><lb/>
+<pb facs="#f0014" n="[14]"/>
+<fw place="top" type="header">Chriſtliche Leichpredigt.</fw><lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Pſal.</hi> 27.</hi></note>David ſpricht im 27. Pſalm: Mein Vater<lb/>
+vnd Mutter verlaſſen mich/ aber der <hi rendition="#g"><hi rendition="#k">Herr</hi></hi><lb/>
+nimpt mich auff. Er nimpt vnſere Seelen in<lb/>
+ſeine Hand/ da ruhen ſie/ vnnd kan ſie keine<lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Sap.</hi> 5.</hi></note>Angſt noch Qual mehr anruͤhren/ Sap. 5.<lb/>
+Solten wir nicht vmb dieſer Vrſachen willen<lb/>
+Gott fuͤr vnſer Hauptgut halten/ vnd jhn lie-<lb/>
+ben vber alles? Solten wir vns nicht ſeiner<lb/>
+allein troͤſten im Leben vnd Sterben? Er iſt<lb/>
+vnſers Hertzens Troſt. Im Hebreiſchen heiſ-<lb/>
+ſet es <hi rendition="#aq">Petra,</hi> Er iſt vnſers Hertzens Felß/ ein<lb/>
+ſtarcker Felß/ welcher durch keinerley Sturm-<lb/>
+wind der Anfechtung kan vmbgeblaſen wer-<lb/>
+den/ ein ſolcher Felß/ auff welchen die Kirche<lb/>
+vnd alle Glaͤubige feſt gegruͤndet ſeyn/ daß ſie<lb/>
+alle Hellenpforten nicht vberweltigen koͤn-<lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Matt.</hi> 16.</hi></note>nen/ Matth. 16. Alſo wird auch Chriſtus ein<lb/>
+<note place="left"><hi rendition="#i">1. <hi rendition="#aq">Cor.</hi> 10.</hi></note>geiſtlicher Felß genennet/ 1. Cor. 10. der hat<lb/>
+die Jſraelitẽ durch die Wuͤſten gefuͤhret. Die-<lb/>
+ſer <hi rendition="#g"><hi rendition="#k">Herr</hi></hi> iſt auch noch der Felß vnſers<lb/>
+Heils/ welcher vns durch das tieffe Angſt-<lb/>
+Meer dieſer Welt hindurch fuͤhret/ vnd brin-<lb/>
+get vns an das Vfer der ewigen Seligkeit.</p><lb/>
+<p>Das 3. Gut/ welches wir von der gnaͤ-<lb/>
+<fw place="bottom" type="catch">digen</fw><lb/>
+<pb facs="#f0015" n="[15]"/>
+<fw place="top" type="header">Chriſtliche Leichpredigt.</fw><lb/>
+digen Einwohnung Gottes zu gewarten ha-<lb/>
+ben/ iſt das ſchoͤne herrliche Erbtheil des ewi-<lb/>
+gen Lebens/ darauff frewet ſich Aſſaph/ vnd<lb/>
+ſpricht: So biſtu doch GOtt allezeit meines<lb/>
+Hertzens Troſt vnd mein Theil. Das He-<lb/>
+breiſche Woͤrtlein heiſſet ein Erbtheil/ das ei-<lb/>
+nem durchs Loß zufaͤllet/ wie ſolch Gleichniß<lb/>
+im 16. Pſalm gebrauchet wird: Das Loß iſt<note place="right"><hi rendition="#i"><hi rendition="#aq">Pſal.</hi> 16.</hi></note><lb/>
+mir gefallen auffs lieblichſte/ mir iſt ein ſchoͤn<lb/>
+Erbtheil worden. Dieſer Titul erinnert vns/<lb/>
+daß das ewige Leben nicht aus Verdienſt der<lb/>
+Wercke/ ſondern aus purlauter Gnade von<lb/>
+Gott gegeben wird/ darumb wird es auch ge-<lb/>
+nennet/ Χάρισμα, ein Gnadengeſchenck Got-<lb/>
+tes/ zun Roͤm. 6. Cap. da Paulus ſchreibet:<note place="right"><hi rendition="#i"><hi rendition="#aq">Rom.</hi> 6.</hi></note><lb/>
+Der Todt iſt der Suͤnden Sold/ aber die<lb/>
+Gabe Gottes iſt das ewige Leben in Chriſto<lb/>
+Jeſu vnſerm HErrn. Wird demnach das ewi-<lb/>
+ge Leben nicht verdienet/ es iſt keine verglei-<lb/>
+chung zwiſchen vnſrem Verdienſt vnd dem<lb/>
+ewigen Leben/ ſondern es wird ererbet/ wie<lb/>
+der HErr Chriſtus an jenem Tage zu den<lb/>
+Glaͤubigen ſagen wird: Kommet her jhr Ge-<lb/>
+ſegneten meines Vaters/ ererbet das Reich/<lb/>
+<fw place="bottom" type="catch">das</fw><lb/>
+<pb facs="#f0016" n="[16]"/>
+<fw place="top" type="header">Chriſtliche Leichpredigt.</fw><lb/>
+das euch bereitet iſt von Anbegin der Welt/<lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Matt.</hi> 25.</hi></note>Matth. 25. Solch ſchoͤnes Erbe haben alle<lb/>
+Glaͤubigen zugewarten/ der Todt kan ſie<lb/>
+nicht darumb bringen/ ſondern ſie dringen<lb/>
+durch den zeitlichen Todt ins ewige Leben/<lb/>
+vnd nehmen das Erbe ein/ das jhnen behal-<lb/>
+<note place="left"><hi rendition="#i">1. <hi rendition="#aq">Pet.</hi> 1.</hi></note>ten wird im Himmel/ 1. Pet. 1.</p><lb/>
+<div n="3"><head><hi rendition="#aq"><hi rendition="#g">USUS.</hi></hi></head><lb/>
+<p><hi rendition="#in">S</hi>Olches ſol vns nu dienen zu ſterckung<lb/>
+vnſers Glaubens/ daß wir mit vnſerm<lb/>
+Hertzen Gott anhangen/ vnd jhm aus gan-<lb/>
+tzer Macht vertrawen. Er hat vns erſchaffen/<lb/>
+erloͤſet vnd geheiliget/ in jhm leben/ weben<lb/>
+vnd ſind wir: Er iſt ein ſtarcker Felß/ vnd ei-<lb/>
+ne Zuflucht in der Noth/ alle die auff jhn tra-<lb/>
+wen werden nicht zu ſchanden werden. Da-<lb/>
+mit wir aber mit Gott moͤgen vereiniget ſeyn<lb/>
+vnd bleiben/ ſo muͤſſen wir vns erſtlich durch<lb/>
+wahre Buſſe zu jhm bekehren/ vnd vns mit<lb/>
+feſten Glauben an den Mitler Chriſtum hal-<lb/>
+ten/ durch welchen wir einen Zugang zum<lb/>
+Vater haben/ wie er ſpricht Joh. 14. Ich bin<lb/>
+der Weg/ die Warheit vnd das Leben/ nie-<lb/>
+<fw place="bottom" type="catch">mand</fw><lb/>
+<pb facs="#f0017" n="[17]"/>
+<fw place="top" type="header">Chriſtliche Leichpredigt.</fw><lb/>
+mand koͤmpt zum Vater denn durch mich.</p><lb/>
+<p>Fuͤrs 2. muͤſſen wir vnſere Gemuͤther<lb/>
+abziehen von der Liebe der jrrdiſchen vnd ver-<lb/>
+gaͤnglichen Guͤter. Denn wenn wir vns in<lb/>
+denſelbigen zu ſehr wolten verlieben/ wie koͤn-<lb/>
+ten wir Gott von gantzer Seelen lieben? Da-<lb/>
+rumb vermahnet vns der H. Geiſt im 62. Pſ.<note place="right"><hi rendition="#i"><hi rendition="#aq">Pſal.</hi> 62.</hi></note><lb/>
+Fellet euch Reichthumb zu/ ſo henget das<lb/>
+Hertz nicht dran. Ja darumb nimpt vns Gott<lb/>
+weg/ was wir am liebſten haben/ vnſere Ehe-<lb/>
+maͤnner/ vnſere Weiber/ vnſere Kinder/ auff<lb/>
+daß er vnſern Glauben pruͤfe/ ob wir Gott<lb/>
+vber alles lieben/ vnd daß die Liebe/ damit wir<lb/>
+Gott lieben ſollen/ von allen Huͤlſen der jrr-<lb/>
+diſchen Liebe gereiniget werde/ daß ſie ſey ei-<lb/>
+ne vngeferbte/ bloſſe/ lauterliche Liebe Got-<lb/>
+tes.</p><lb/>
+<p>Zum 3. muͤſſen wir vns fuͤr dem zeitli-<lb/>
+chen Tode nicht zu ſehr fuͤrchten/ denn ſelig<lb/>
+ſind/ die im HErrn ſterben/ <hi rendition="#aq">à modò,</hi> von nun<lb/>
+an/ ſtehet geſchrieben Apoc. 14. Die ſelig<note place="right"><hi rendition="#i"><hi rendition="#aq">Apoc.</hi> 14.</hi></note><lb/>
+durch Jeſum entſchlaffen/ leben dennoch in<lb/>
+Chriſto nach ſeiner Verheiſſung/ Joh. am 11.<note place="right"><hi rendition="#i"><hi rendition="#aq">Joh.</hi> 11.</hi></note><lb/>
+Cap. da er ſpricht: Ich bin die Aufferſtehung<lb/>
+<fw place="bottom" type="sig">C</fw><fw place="bottom" type="catch">vnd</fw><lb/>
+<pb facs="#f0018" n="[18]"/>
+<fw place="top" type="header">Chriſtliche Leichpredigt.</fw><lb/>
+vnd das Leben/ wer an mich glaͤubet/ der wird<lb/>
+leben/ ob er gleich ſtuͤrbe/ vnd wer da lebet vnd<lb/>
+glaͤubet an mich/ der wird nimmermehr ſter-<lb/>
+ben.</p><lb/>
+<p>Zum 4. muͤſſen wir auch vngezweiffelt<lb/>
+hoffen auff das Erbe des ewigen Lebens/ ſol-<lb/>
+che Hoffnung leſſet nicht zu ſchanden werden/<lb/>
+ſie erhelt vns auch im Tode/ vnd hilfft vns<lb/>
+alle Trawrigkeit vberwinden/ wie David<lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Pſal.</hi> 27.</hi></note>ſpricht im 27. Pſalm: Ich glaͤube doch/ daß<lb/>
+ich ſehen werde das Gut des HErrn im Lan-<lb/>
+de der Lebendigen. <hi rendition="#aq">Mori non timet, qui vi-<lb/>
+tam ſperat,</hi> wer ein ewiges Leben hoffet/ der<lb/>
+fuͤrchtet ſich nicht zu ſterben/ denn durch einen<lb/>
+ſeligen Todt dringen wir ins ewige Leben/<lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Joh.</hi> 5.</hi></note>wie Chriſtus zuſaget/ Joh. 5. Warlich/ war-<lb/>
+lich ich ſage euch/ wer mein Wort hoͤret vnd<lb/>
+glaͤubet dem/ der mich geſand hat/ der hat das<lb/>
+ewige Leben/ vnd koͤmpt nicht ins Gericht/<lb/>
+ſondern er iſt vom Tode zum Leben hindurch<lb/>
+gedrungen.</p><lb/>
+<p>Solches verleyhe vns allen mit Gna-<lb/>
+den/ der einige wahre Gott/ Vater/ Sohn<lb/>
+vnd H. Geiſt hochgelobet in Ewigkeit/ Amen.</p></div></div><lb/>
+<fw place="bottom" type="catch">Bericht.</fw><lb/>
+<pb facs="#f0019" n="[19]"/>
+<fw place="top" type="header">Lebenslauff der ſelig Verſtorbenen.</fw><lb/>
+<div type="fsPersonalia" n="2"><head><hi rendition="#b">Bericht.</hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">A</hi>Vff ſolch Hauptgut hat auch ge-</hi><lb/>
+trawet vnd gebawet/ vnd ſich mit feſten<lb/>
+Glauben an den Felſen jhres Heils Jeſum<lb/>
+Chriſtum gehalten/ vnd durch denſelbigen<lb/>
+den Todt vnd die Welt froͤlich vberwunden<lb/>
+vnſere im HErrn Chriſto ſeliglich verſtorbe-<lb/>
+ne Mitſchweſter/ die weiland Edle/ Ehr-vnd<lb/>
+Tugendreiche Fraw Lydomilla/ des weiland<lb/>
+Edlen/ Ehrenveſten Herrn Adam Zwill von<lb/>
+Konetzchlum/ Buͤrgern vnd Handelsmann<lb/>
+in Prag nachgelaſſene Wittbe/ von dero An-<lb/>
+kunfft/ Lebenslauff vnd End kuͤrtzlichen zu<lb/>
+berichten/ daß ſie in Praag im Jahr Chriſti<lb/>
+1560. vmb Martini auff dieſe Welt geboren<lb/>
+worden.</p><lb/>
+<p>Jhr Herr Vater iſt geweſen/ der weiland<lb/>
+Edle/ Ehrenveſte Herr Vait Hercules von<lb/>
+Morchendorff/ ſo bey weiland Keyſer <hi rendition="#aq">Ferdi-<lb/>
+nando I.</hi> vnd <hi rendition="#aq">Maximiliano II.</hi> hochloͤblichſter<lb/>
+Gedaͤchtniß bey der Boͤhmiſchen Cammer<lb/>
+vor einem <hi rendition="#aq">Concipiſten</hi> auffgewartet/ in wel-<lb/>
+chem Dienſt er auch geſtorben.</p><lb/>
+<fw place="bottom" type="catch">Ihr</fw><lb/>
+<pb facs="#f0020" n="[20]"/>
+<fw place="top" type="header">Lebenslauff der ſelig Verſtorbenen.</fw><lb/>
+<p>Jhr Fraw Mutter aber/ Fraw Eſtera<lb/>
+Herculeſin geborne Hayckin von Hayeck/ des<lb/>
+Edlen vnd Hochgelahrten Herrn Tadiaſch<lb/>
+von Hayeck/ ſelber zeit Keyſers <hi rendition="#aq">Maximiliani<lb/>
+II.</hi> Leib <hi rendition="#aq">Medici</hi> eheleibliche Tochter. Dieſe jhre<lb/>
+liebe Eltern nun haben die ſelig Verſtorbene<lb/>
+in aller Gottesfurcht vnd Chriſtlichen Tu-<lb/>
+genden aufferzogen/ biß Anno 1578. im 18.<lb/>
+Jahr jhres Alters/ da iſt ſie von denſelben<lb/>
+durch ſonderliche ſchickung Gottes/ dem Ed-<lb/>
+len/ Ehrenveſten Herrn Johann Schmer-<lb/>
+toſch von Rieſenthal/ Buͤrgern vnd Handels-<lb/>
+mann in Praag verehlichet worden/ mit dem<lb/>
+ſie in friedlicher/ freundlicher Ehe 11. Jahr<lb/>
+vnd 6. Monat gelebet/ vnd mit einander 6.<lb/>
+Kinder gezeuget/ nemlich 2. Soͤhn vñ <supplied>4</supplied>. Toͤch-<lb/>
+ter/ darvon der eine Sohn mit Namen Mar-<lb/>
+tin Schmertoſch noch am Leben. Vnd nach-<lb/>
+dem durch Gottes ſchickung vnſer ſelig Ver-<lb/>
+ſtorbenen jhr Mann Anno 1591. verſtorben/<lb/>
+iſt ſie 5. Jahr in jhrem Wittbenſtandt verblie-<lb/>
+ben/ hernach wieder ſich Anno 1595. verhey-<lb/>
+rathet/ dem Edlen/ Ehrenveſten Herrn Adam<lb/>
+Zwill von Konetzchlum/ Buͤrgern vnd Han-<lb/>
+<fw place="bottom" type="catch">dels-</fw><lb/>
+<pb facs="#f0021" n="[21]"/>
+<fw place="top" type="header">Lebenslauff der ſelig Verſtorbenen.</fw><lb/>
+delsmann der alten Stadt Praag/ mit deme<lb/>
+ſie auch Chriſtlich vnd friedlich 17. Jahr ge-<lb/>
+lebet/ vnd mit einander 3. Toͤchter gezeuget/<lb/>
+darvon die eine Tochter mit Namen Lydo-<lb/>
+milla noch am Leben.</p><lb/>
+<p>Jm Jahr 1612. hat Gott der Allmaͤchti-<lb/>
+ge vnſer ſelig Verſtorbene abermal in den<lb/>
+Wittbenſtandt geſetzt/ vnnd jhren andern<lb/>
+Mann von dieſer Welt abgefordert/ von der-<lb/>
+ſelben Zeit an hat ſie in jhrem Wittbenſtandt<lb/>
+gantzer 24. Jahr biß an jhr Ende/ in aller<lb/>
+Gottesfurcht zubracht vnd gelebet. Vnd<lb/>
+weiln Jhr Roͤmiſche Keyſerl. Mayt. Willen<lb/>
+vnd Meynung geweſen/ keine Evangeliſchen<lb/>
+mehr im Koͤnigreich Boͤhmen zu dulten/ noch<lb/>
+zu leiden/ ſo hat man die offtgedachte vnſere<lb/>
+ſelig Verſtorbene im Jahr 1628. auch neben<lb/>
+andren/ wegen der wahren Evangeliſchen<lb/>
+Religion von Praag weggeſchafft/ vnd ins<lb/>
+Elend vertrieben/ daß ſie ſich nach Nuͤrnberg<lb/>
+begeben muͤſſen/ vnd allda in 2. Jahr verblie-<lb/>
+ben/ von dannen iſt ſie aus tragender trew-<lb/>
+hertzigen Liebe zu jhren Sohn vnd Enckeln<lb/>
+<fw place="bottom" type="sig">C iij</fw><fw place="bottom" type="catch">nach</fw><lb/>
+<pb facs="#f0022" n="[22]"/>
+<fw place="top" type="header">Lebenslauff der ſelig Verſtorbenen.</fw><lb/>
+nach Leipzig gezogen/ vnd bey jhnen ſich biß<lb/>
+an jhr ſeliges Ende auffgehalten.</p><lb/>
+<p>Jhr Leben hat ſie von Jugend auff in<lb/>
+Gottesfurcht vnd fleiſſigem Kirchengang/<lb/>
+wie maͤnniglich bewuſt/ zugebracht/ das hei-<lb/>
+lige hochwuͤrdige Abendmal gar offt ge-<lb/>
+braucht/ vnd alſo jhren Chriſtlichen Glau-<lb/>
+ben vnd Wandel leuchten laſſen.</p><lb/>
+<p>Nachdem ſie aber in jhr hohes Alter<lb/>
+kommen/ hat ſie ſich offtermals wegen jhrer<lb/>
+Leibesbeſchwerung beklaget/ den 18. Februa-<lb/>
+rij mit groſſer Mattigkeit vnd Hertzzittern<lb/>
+vberfallen worden/ alſo daß ſie ſich ſtracks<lb/>
+gantz legen muͤſſen/ darauff denn die Kranck-<lb/>
+heit alſo zugenommen/ daß ſie leichtlich ſchlieſ-<lb/>
+ſen koͤnnen/ es werde ſie der liebe GOtt von<lb/>
+dieſer Welt abfordern/ derhalben ſie jhren<lb/>
+Beichtvater alsbalden erfordern laſſen/ vnd<lb/>
+nach empfangener troͤſtlichen Abſolution/<lb/>
+auch Nieſſung des wahren Leibes vnd Bluts<lb/>
+JEſu Chriſti/ ſich zu einem ſeligen Sterb-<lb/>
+ſtuͤndlein bereitet/ wie denn auch jhr der lie-<lb/>
+be Gott aus Gnaden verliehen/ vnd iſt ſie am<lb/>
+vergangenen Sontag vmb 2. Vhr in der<lb/>
+<fw place="bottom" type="catch">Nacht</fw><lb/>
+<pb facs="#f0023" n="[23]"/>
+<fw place="top" type="header">Lebenslauff der ſelig Verſtorbenen.</fw><lb/>
+Nacht ſeliglich entſchlaffen/ jhres Alters im<lb/>
+76. Jahre.</p><lb/>
+<div n="3"><head/>  <p>Der Allerhoͤchſte GOtt verleihe dem<lb/>
+verblichenen Coͤrper in der Erden eine ſanff-<lb/>
+te Ruhe/ vnd am Tage der Herrligkeit eine<lb/>
+<hi rendition="#c">froͤliche Aufferſtehung zum ewigen<lb/>
+Leben/ Amen.</hi></p><lb/>
+<trailer><hi rendition="#c"><hi rendition="#g">ENDE.</hi></hi></trailer></div></div></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+</body></text>  </TEI>

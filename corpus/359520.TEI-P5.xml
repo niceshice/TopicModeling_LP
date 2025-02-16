@@ -1,0 +1,2474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Die Selige Glaubitzin</title>
+<title type="sub">Oder/ Recht gläubende/ und so dann das Gute des Herrn/
+im Lande der Lebendigen/ sehende/ Seele</title>
+<author>
+<persName ref="http://d-nb.info/gnd/141248718">
+<surname>Langen</surname>
+<forename>Samuel</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">76</measure>
+<measure type="tokens">17110</measure>
+<measure type="types">5065</measure>
+<measure type="characters">116973</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:09:50Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/359520</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/359520</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/359520</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/359520</idno>
+<idno type="DTADirName">359520</idno>
+<idno type="DTAID">203001</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-203001-0</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Langen, Samuel: Die Selige Glaubitzin. Schlichtingsheim, 1693.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Die Selige Glaubitzin</title>
+<title level="m" type="sub">Oder/ Recht gläubende/ und so dann das Gute des Herrn/
+im Lande der Lebendigen/ sehende/ Seele</title>
+<author>
+<persName ref="http://d-nb.info/gnd/141248718">
+<surname>Langen</surname>
+<forename>Samuel</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">76 S.</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Johann Christoph Wild</name></publisher>
+<pubPlace>Schlichtingsheim</pubPlace>
+<date type="publication">1693</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 F 652/1-4 / 359520</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#b"><hi rendition="#in">D</hi>ie<lb/>
+<hi rendition="#in">S</hi>elige <hi rendition="#in">G</hi>laubitzin</hi>/</titlePart><lb/>
+<titlePart type="sub">Oder/<lb/>
+Recht glaͤubende/ und ſo dann das Gute des HERRN/<lb/>
+im Lande der Lebendigen/ ſehende/ Seele/</titlePart><lb/>
+<titlePart type="desc">Bey<lb/>
+<hi rendition="#b">Dem Hoch-Adelichen Leich-Begaͤngnuͤs</hi>/<lb/>
+Der/<lb/>
+Jm 42ſten Jahre ihres Alters/ <hi rendition="#aq">d. 3. Septembr.</hi> 1692.<lb/>
+Jm HERRN/ ſeligſt verſchiedenen/<lb/>
+Hoch-Edel-Gebohrnen/ und/ von allen Chriſt-Adelichen/ ihrem Geſchlecht/<lb/>
+wol-anſtehenden/ Tugenden/ Hochbelobten <hi rendition="#g">FRAUEN/</hi><lb/>
+<hi rendition="#fr"><hi rendition="#in"><hi rendition="#b">F</hi>r. <hi rendition="#in"><hi rendition="#g">MARJANA</hi></hi></hi></hi>/<lb/>
+von Glaubitzin/ gebohrnen/ von Stoſchin/<lb/>
+Frauen/ auf Dalckau/ Baune und Großwirbitz/<lb/>
+Des<lb/>
+Hoch-Edel-Gebohrnen Ritters und <hi rendition="#g">HERRN</hi>/<lb/>
+<hi rendition="#fr"><hi rendition="#in"><hi rendition="#b">H</hi>erꝛn <hi rendition="#in">J</hi>ohann <hi rendition="#in">G</hi>eorgen</hi></hi>/<lb/>
+von Glaubitz/ Herꝛn auf Dalckau/ Baune und Großwirbitz/<lb/>
+Hoch-geliebten Fr. Gemahlin/<lb/>
+So/<lb/>
+<hi rendition="#fr">Am</hi> 12ten <hi rendition="#aq">Novembris</hi> <hi rendition="#fr">vorgemeldeten Jahres/</hi><lb/>
+Mit Chriſt-Adelichen Ceremonien/ gehalten wurde/<lb/>
+Aus <hi rendition="#aq">Pſalm. XXVII. v.</hi> 13.<lb/>
+<hi rendition="#fr">Jn der Huͤtten Gottes/ fuͤr Groſſen Glogau</hi>/<lb/>
+einfaͤltigſt fuͤrgeſtellet/<lb/>
+Jtzo aber etwas umbſtaͤndiger auffgefuͤhret/ und/ auff Begehren/ der Preſſe unterworffen/</titlePart></docTitle><lb/>
+<byline>Von<lb/>
+<docAuthor><hi rendition="#aq">M. <hi rendition="#g">SAMUEL</hi></hi> <hi rendition="#b">Langen/</hi></docAuthor><lb/>
+<hi rendition="#aq">Eccleſ. Glog. Evang. Paſtore &amp; Inſpectore.</hi></byline><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docImprint><pubPlace><hi rendition="#fr">Schlichtingsheim/</hi> an der Oder</pubPlace>/ druckts <publisher>Johañ Chriſtoph Wild</publisher>/ <hi rendition="#aq">An.</hi> <docDate>1693</docDate>.</docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="[2]"/>
+<pb facs="#f0003" n="[3]"/>
+<div type="dedication"><p><hi rendition="#c">Dem Hoch-Edel-Gebohrnen Ritter und Herꝛn/<lb/>
+<hi rendition="#b"><hi rendition="#fr"><hi rendition="#in">H</hi>erꝛn <hi rendition="#in">J</hi>ohañ <hi rendition="#in">G</hi>eorgen/ von Glaubitz</hi>/</hi><lb/>
+Herꝛn/ auff Dalckau/ Baune und Groß-wirbitz/<lb/>
+Als Hochbetruͤbten Herꝛn Wittiber;<lb/>
+<hi rendition="#fr">Wie auch</hi><lb/>
+<hi rendition="#b"><hi rendition="#in">S</hi>iegemund</hi><lb/>
+Und<lb/>
+<hi rendition="#b"><hi rendition="#in">J</hi>ohannſen/</hi><lb/>
+Gebruͤdern/ von <hi rendition="#fr">Glaubitz/</hi><lb/>
+Der Verblaſſeten<lb/>
+Hinterlaſſenen Soͤhnen;<lb/>
+<hi rendition="#fr">So dann</hi><lb/>
+Denen Hoch-Edel-Gebohrnen Ritteren und Herꝛen/<lb/>
+<hi rendition="#b">Herꝛn <hi rendition="#in">B</hi>althaſar/ von Stoſch/</hi><lb/>
+Herꝛn/ auf klein Tſchirnaw/ Schkeyden und Paltzig/<lb/>
+<hi rendition="#b">Herꝛn <hi rendition="#in">G</hi>eorge <hi rendition="#in">L</hi>adisla/ von Stoſch/</hi><lb/>
+des Loͤbl: Czauden-Rechts/ in Guhrauiſchen Creyſe/<lb/>
+<hi rendition="#aq">Asſeſſori,</hi> Herꝛn/ auf Gabel und Peterwitz/<lb/>
+Als Hertz-Betruͤbeten Herꝛen Bruͤdern;<lb/>
+Sampt<lb/>
+<hi rendition="#fr">Der Hoch-Edel-Gebohrnen Frauen/</hi><lb/>
+<hi rendition="#b">Frauen <hi rendition="#in">H</hi>elenen <hi rendition="#in">K</hi>ottwitzin/</hi><lb/>
+Gebohrnen/ von Stoſch/<lb/>
+Frauen/ auff Contop/ Bejadel und Streitelsdorff/<lb/>
+Als der Seligſt Verſtorbenen<lb/>
+Hoch-Leidtragenden Frauen Schweſter/<lb/>
+<pb facs="#f0004" n="[4]"/>
+<hi rendition="#fr">So wol</hi><lb/>
+Dem Hoch-Edel-Gebohrnen Ritter und Herꝛn/<lb/>
+<hi rendition="#b">Herꝛn <hi rendition="#in">A</hi>dam <hi rendition="#in">W</hi>entzel/ von Kottwitz/</hi><lb/>
+Herꝛn/ auf Contop/ Bejadel und Streitelsdorff/<lb/>
+Als<lb/>
+<hi rendition="#fr">Der/ in GOtt/ ruhenden</hi><lb/>
+Hochgeliebten Herꝛn Schwager;<lb/>
+<hi rendition="#fr">Jmgleichen auch</hi><lb/>
+Denen Hoch-Edel-Gebohrnen Frauen/<lb/>
+<hi rendition="#b">Frauen <hi rendition="#in">C</hi>atharinaͤ <hi rendition="#in">B</hi>eataͤ Stoſchin/</hi><lb/>
+Gebohrnen/ von Landskron/<lb/>
+Frauen/ auf klein Tſchirnau/ Schkeyden und Paltzig/<lb/>
+<hi rendition="#b">Frauen <hi rendition="#in">U</hi>rſulaͤ <hi rendition="#in">E</hi>liſabeth Stoſchin/</hi><lb/>
+Gebohrnen/ von Seefeld/<lb/>
+Frauen/ auf Gabel und Peterwitz/<lb/>
+Als<lb/>
+<hi rendition="#fr">Der Seligſten</hi><lb/>
+Frauen Schwaͤgerinnen/</hi><lb/>
+</p><closer><salute><hi rendition="#c">uͤbergiebet<lb/>
+Dieſe Leichen-Predigt/<lb/>
+Mit hertzlicher Anerwuͤnſchung<lb/>
+Des reichen Troſtes GOttes und hocherfreuͤlichen Wolſeyns/<lb/>
+Dero<lb/>
+<hi rendition="#fr">Pflicht-Schuldigſter</hi><lb/>
+Fuͤrbitter/ bey <hi rendition="#g">GOTT/</hi><lb/>
+<hi rendition="#aq">M. S. L.</hi></hi></salute></closer></div><lb/>
+<pb facs="#f0005" n="5"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsSermon" n="1">  <salute><hi rendition="#in">D</hi>As walte der GOtt alles Troſtes/ der uns<lb/>
+troͤſtet/ in alle unſerm Truͤbſal/ daß wir auch<lb/>
+troͤſten koͤnnen/ die da ſind/ in allerley Truͤb-<lb/>
+ſal/ mit dem Troſt/ damit wir getroͤſtet wer-<lb/>
+den/ von GOtt. Derſelbe wolle auch itzo und<lb/>
+allezeit troͤſten/ was Er hat betruͤbet/ auffrich-<lb/>
+ten/ was Er niedergeſchlagen/ auch uns aller-<lb/>
+ſeits/ zu rechter Zeit/ laſſen ſelig ſterben/ und<lb/>
+durch unſeren <hi rendition="#g">JESUM/</hi> den Himmel erer-<lb/>
+ben. Amen!</salute><lb/>
+<div type="preface" n="2"><head/>  <p><hi rendition="#fr"><hi rendition="#in">O</hi> Weib/ dein Glaube iſt groſz!<lb/>
+Dir geſchehe/ wie du wilt.</hi> Diß<lb/>
+iſt/ <hi rendition="#fr">Jhr Meine Geliebte/ zum Theil/<lb/>
+Hertz-ſchmertzlichſt-Betruͤbte/ allerſeits<lb/>
+GOtt-ergebene/ Zuhoͤrer/ in Chriſto JEſu/<lb/>
+dem HErꝛn/</hi> der hoͤchſt-erfreuliche Außſpruch/ welcher/<lb/>
+auß des allertheureſten Heylandes Munde/ gehet/ gegen<lb/>
+die wolverſuchete Cananaͤerin/ und zu finden iſt/ im <hi rendition="#aq">Mat-<lb/>
+thæo,</hi> am <hi rendition="#aq">XV. v.</hi> 28.</p><lb/>
+<p>Ach GOtt! Wie uͤbel war dieſe/ arme/ Frau dran!<lb/>
+<fw type="sig" place="bottom">A 3</fw><fw type="catch" place="bottom">Jhre</fw><lb/>
+<pb facs="#f0006" n="6"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+Jhre Tochter ward/ vom Teuffel/ uͤbel geplaget/ und ſie<lb/>
+ſelbſt dergeſtalt/ an ihrem/ zarten/ Mutter-Hertzen/ wo-<lb/>
+her jene kommen war und wieder dahin gieng/ mit ſehr<lb/>
+ſchweren Creutze/ rechtſchaffen angegriffen. Und da war<lb/>
+alle menſchliche Huͤlffe aus; Darumb ſuchete Sie die Goͤtt-<lb/>
+liche. Aber die ſchiene auch ſehr ferne zu ſeyn/ und CHri-<lb/>
+ſtus ſeine holde Menſchen-Freundligkeit und heylſame<lb/>
+Helffer-Art gaͤntzlich abgeleget zu haben; Daß ſie wol ſa-<lb/>
+gen moͤgen: Hat denn GOtt vergeſſen/ gnaͤdig zu ſeyn/<lb/>
+und ſeine Barmhertzigkeit/ vor Zorn/ verſchloſſen? <hi rendition="#aq">Pſalm.<lb/>
+LXXVII,</hi> 10. Dann zum Theil wolte Er gar nicht antwor-<lb/>
+ten; Zum Theil antwortete Er/ aber alſo/ daß ſie ſich deſ-<lb/>
+ſen wenig zu erfreuen hatte/ in dem Er ſie nicht allein/ vor<lb/>
+eine Heydin/ ſondern/ gar Huͤndin/ ſchalt; So/ nach dem<lb/>
+Urtheil eines alten <hi rendition="#aq">Theologi,</hi> wol ein harter/ erſchroͤckli-<lb/>
+cher/ Donnerſchlag geweſen/ welcher/ dem armen betruͤb-<lb/>
+ten Weibe/ das Hertz/ im Leibe/ zerſchmettern moͤgen.<lb/>
+Doch iſt ihr Glaube ſo groß/ daß ſie ſich das alles nicht<lb/>
+anfechten laͤſſet; ſondern/ bey ihrem Anſuchen/ ſo lange<lb/>
+beharꝛet/ bis ſie dem unuͤberwindlichen HErꝛn das Hertze<lb/>
+gewinnet/ und dieſes Lob abpreſſet: O Weib/ dein Glaube<lb/>
+iſt groß! Ja/ ihn gar/ zu ſagen/ noͤthiget: Dir geſchehe/<lb/>
+wie du wilt; So auch wuͤrck- und hoͤchſt vergnuͤglich er-<lb/>
+folgete. Dann ihre Tochter ward geſund/ zu derſelbi-<lb/>
+gen Stunde.</p><lb/>
+<p>Wir leiſten heute den letzten Ehren-Dienſt nicht ei-<lb/>
+ner Cananaͤerin/ ſondern wiedergebohrnen Chriſtin; Jſt<lb/>
+die <hi rendition="#fr">Weyland Hoch-Edel-gebohrne/ und von</hi><lb/>
+<fw place="bottom" type="catch"><hi rendition="#fr">allen/</hi></fw><lb/>
+<pb facs="#f0007" n="7"/>
+<fw type="header" place="top"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+<hi rendition="#fr">allen/ Jhrem Geſchlechte/ geziemenden/<lb/>
+Chriſt-Adelichen/ Tugenden/ Hochbelobte<lb/>
+Frau/ <hi rendition="#in">F</hi>r. <hi rendition="#in">M</hi>ariana/ von Glaubitzin/ ge-<lb/>
+bohrne/ von Stoſchin/ Frau/ auf Dalckau/<lb/>
+Baune und Groß-wirbitz/ des Hoch-Edel-<lb/>
+Gebohrnen Ritters und Herꝛn/ <hi rendition="#in">H</hi>n. <hi rendition="#in">J</hi>o-<lb/>
+hann <hi rendition="#in">G</hi>eorgen/ von Glaubitz/ Herꝛn/ auf<lb/>
+Dalckau/ Baune und Groß-wirbitz/ hoch-<lb/>
+geliebteſte Frau Gemahlin.</hi> Dieſelbe iſt nicht<lb/>
+ſo wol/ mit Kinder-Creutz/ woran es aber auch ſonſt nicht<lb/>
+ermangelt hat/ als vielmehr/ mit ſelbſteignen/ langwuͤri-<lb/>
+gen/ Siechthum/ ſo heimgeſuchet worden/ daß es/ in Wahr-<lb/>
+heit/ geheiſſen: Menſchen Huͤlffe iſt kein nuͤtze. <hi rendition="#aq">Pſal. LX,</hi> 13.<lb/>
+Uber das/ daß Sie/ dem Patriarchen/ ſeine Jam̃er-Worte<lb/>
+abzuborgen hatte: Wenig und boͤſe iſt die Zeit meines Le-<lb/>
+bens; <hi rendition="#aq">Geneſ. XLVII,</hi> 9. Muſte Sie beſonders/ mit <hi rendition="#aq">Hiob,</hi><lb/>
+klagen: Mein Antlitz (ja/ mein gantzer Leib) iſt geſchwol-<lb/>
+len. <hi rendition="#aq">Job. XVI,</hi> 16. Nahme daher ihre Zuflucht/ zu der Huͤlf-<lb/>
+fe/ in den groſſen Noͤthen. <hi rendition="#aq">Pſal. XLVI,</hi> 1. Muſte aber das/<lb/>
+was die Cananaͤerin/ erfahren/ und faſt Gelegenheit fin-<lb/>
+den/ die Jobiſche Jammer-Klage ihrig zu machen: Du<lb/>
+biſt mir verwandelt/ in einen grauſamen/ und zeigeſt dei-<lb/>
+nen Gram/ an mir/ mit der Staͤrcke deiner Hand. Du<lb/>
+hebeſt mich auff/ und laͤſſeſt mich/ auf dem Winde/ fahren/<lb/>
+<fw type="catch" place="bottom">und</fw><lb/>
+<pb facs="#f0008" n="8"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+und zuſchmeltzeſt mich kraͤfftiglich. Deñ ich weiß/ du wirſt<lb/>
+mich dem Tode uͤberantworten. <hi rendition="#aq">Job. XXX, 21. ſeq.</hi> Hoͤrete<lb/>
+indes doch nicht auf/ ihꝛ Vertrauen großglaͤubig/ auf Jhn/<lb/>
+zuſtellen/ und/ ſo freuͤdig/ als zuverſichtlich/ zu ſprechen:<lb/>
+Dennoch bleibe ich feſt an dir — Wann mir gleich Leib und<lb/>
+Seel verſchmacht; So biſt du doch GOtt allezeit meines<lb/>
+Hertzens Troſt und mein Theil. <hi rendition="#aq">Pſal. LXXIII,</hi> 23. 26. Oder<lb/>
+(wie man zum Theil den 15. Vers <hi rendition="#aq">Job. XIII.</hi> lieſet.) Wann mich<lb/>
+der HErꝛ gleich toͤdten wird/ will ich doch/ auff ihn hof-<lb/>
+fen. Ja/ ich glaͤube doch/ daß ich ſehen werde das Gute<lb/>
+des HERRN/ im Lande der Lebendigen. <hi rendition="#aq">Pſalm. XXVII,</hi> 13.<lb/>
+Worauf hoffentlich ihr Heyland erwiedert: O Weib/ dein<lb/>
+Glaube iſt groß! Dir geſchehe/ wie du wilt. <hi rendition="#aq">Dictum fa-<lb/>
+ctum:</hi> So geſagt/ ſo geſchehen; Aber auch in ſo ferne des<lb/>
+HErꝛn Wille. Denn eben der war der ihre. Sein Wille/<lb/>
+ihr Wille/ ein Wille. Sie wuſte ſich ſeinem/ ſo Willen/ als<lb/>
+Bilde/ zu aͤhnlichen/ und ihm zuverſichtlich nachzubethen:<lb/>
+Mein Vater/ iſts muͤglich/ ſo gehe dieſer Kelch/ von mir;<lb/>
+Doch nicht/ wie ich will; ſondern wie du wilt. <hi rendition="#aq">Matth. XXVI,</hi><lb/>
+39. Nun GOttes Wille iſt geſchehen. Darumb ſchicken<lb/>
+ſich/ in denſelben/ ſo willig/ als billich/ <hi rendition="#fr">die Hertz-ge-<lb/>
+kraͤncketen Hinterlaſſene/</hi> inſonderheit/ <hi rendition="#fr">der<lb/>
+Hoch-betruͤbte Herꝛ <hi rendition="#in">W</hi>ittiber/</hi> ſambt <hi rendition="#fr">ſeinem<lb/>
+gantzen Hoch-Edlen <hi rendition="#in">H</hi>auſe/ wie auch der<lb/>
+Wol-ſeligſt Verſtorbenen leibliche <hi rendition="#in">H</hi>erꝛen<lb/>
+<hi rendition="#in">B</hi>ruͤder/ <hi rendition="#in">F</hi>rau <hi rendition="#in">S</hi>chweſter/ mit dero Fuͤr-</hi><lb/>
+<fw place="bottom" type="catch"><hi rendition="#fr">nehmen</hi></fw><lb/>
+<pb facs="#f0009" n="9"/>
+<fw type="header" place="top"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+<hi rendition="#fr">nehmen</hi> <hi rendition="#aq">Familien</hi> <hi rendition="#fr">und ſaͤm̃tlichen Hohen An-<lb/>
+verwandten.</hi> Sie geſtehen gerne/ daß Jhnen ihr<lb/>
+GOtt ein hartes erzeiget/ und einen Trunck Weines gege-<lb/>
+ben/ daß Sie davon daumeln muͤſſen. <hi rendition="#aq">Pſ. LX,</hi> 5. Jnſonderheit<lb/>
+<hi rendition="#fr">der Hoch-Leidtragende Herꝛ/ von Glaubiz/</hi><lb/>
+welchem Seine Hoch-geliebteſte <hi rendition="#fr">Stoſchin</hi> einen ja ſo<lb/>
+hefftigen <hi rendition="#fr">Stoß/</hi> mit ihrem Fall/ an das ſelbſte Hertz/ ge-<lb/>
+geben/ als kraͤfftig Sie daſſelbe/ als eine <hi rendition="#fr">wahrhaffte<lb/>
+Glaubizin/</hi> durch ihren Goͤtt- und Ehelichen <hi rendition="#fr">Glau-<lb/>
+ben/</hi> geſtuͤtzet und erfreuet hat. Doch erholen Sie ſich/<lb/>
+in dem <hi rendition="#g">HERRN/</hi> nehmen den Thraͤnen-Kelch/ mit<lb/>
+Gedult/ von ſo gar lieber Hand/ und ſagen/ mit <hi rendition="#aq">Eli:</hi> Es<lb/>
+iſt der <hi rendition="#g">HERR/</hi> Er thue/ was Jhm wolgefaͤlt. 1. <hi rendition="#aq">Sam.<lb/>
+III,</hi> 18. Dem aber thut gar nichts gefallen/ dann was uns<lb/>
+nuͤtzlich iſt/ Er meints gut mit uns allen/ ſchenckt uns den<lb/>
+HErꝛen Chriſt/ ſein’n allerliebſten Sohn/ durch den Er<lb/>
+uns beſcheret/ was Leib und Seel ernaͤhret; Ja/ das Gu-<lb/>
+te des HErꝛn/ im Lande der Lebendigen/ des ſich derge-<lb/>
+ſtalt David getroͤſtet hat/ und/ mit Jhm/ eine jede glaͤu-<lb/>
+bige Seele getroͤſten kan/ als wir/ mit mehren/ hoͤren wer-<lb/>
+den/ wann wir zuvor/ in Andacht/ und/ nach dem Befehl<lb/>
+unſeres <hi rendition="#g">JESU/</hi> ein Chriſt-glaubiges und ſtilles Vater<lb/>
+Unſer werden gebethet haben.</p><lb/>
+</div><fw type="sig" place="bottom">B</fw><fw type="catch" place="bottom"><hi rendition="#aq">TEX-</hi></fw><lb/>
+<pb facs="#f0010" n="10"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+<div type="fsBibleVerse" n="2"><head><hi rendition="#aq"><hi rendition="#b"><hi rendition="#g">TEXTUS,</hi></hi></hi></head><lb/>
+<cit><quote><bibl><hi rendition="#c"><hi rendition="#aq">Pſalm. XXVII. v.</hi> 13.</hi></bibl><lb/>
+<hi rendition="#fr"><hi rendition="#in">JC</hi>h glaube aber doch/ daß<lb/>
+ich ſehen werde das <hi rendition="#in">G</hi>ute<lb/>
+des <hi rendition="#in">HERRN/</hi> im <hi rendition="#in">L</hi>an-<lb/>
+de der <hi rendition="#in">L</hi>ebendigen.</hi></quote><bibl/></cit><lb/>
+</div><div type="fsExordium" n="2"><head><hi rendition="#b"><hi rendition="#in">E</hi>ingang.</hi></head><lb/>
+<p><hi rendition="#in">D</hi>Er eheliche Nahme/ welchen <hi rendition="#fr">unſere/ im<lb/>
+<hi rendition="#g"><hi rendition="#in">H</hi>ERRN/</hi> ſeligſt-entſchlaffene/<lb/>
+<hi rendition="#in">H</hi>och-<hi rendition="#in">E</hi>del-<hi rendition="#in">G</hi>ebohrne <hi rendition="#in">F</hi>rau/</hi> ſeit<lb/>
+der Zeit/ gefuͤhret/ als Sie/ mit <hi rendition="#fr">dem/ von<lb/>
+Glaubitz/</hi> vermaͤhlet worden/ ſcheinet entweder herzu-<lb/>
+kommen/ oder doch nicht ſo gar ferne zu ſeyn/ von dem theu-<lb/>
+ren Wort/ <hi rendition="#fr">Glaube.</hi> Denn was kan naͤher zuſammen<lb/>
+<fw place="bottom" type="catch">kom-</fw><lb/>
+<pb facs="#f0011" n="11"/>
+<fw type="header" place="top"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+kommen/ als die/ durch einen einigen Buchſtaben/ entſchie-<lb/>
+dene Worte/ <hi rendition="#fr">Glaubiz</hi> und <hi rendition="#fr">Glaubig?</hi> Daß dis letz-<lb/>
+tere aber ſeinen Urſprung/ vom Glauben/ habe/ iſt auſſer<lb/>
+allem Streit/ und daher vermuthlich/ daß es/ mit dem er-<lb/>
+ſten/ nicht viel anders beſchaffen ſey. Wer wolte aber<lb/>
+wol einen herꝛlichern Nahmen wuͤnſchen/ als der/ vom<lb/>
+Glauben/ geformet wird? Sonderlichſt/ ſo Nahme und<lb/>
+That zuſam̃en kommet. Jch will ſagen: <hi rendition="#fr">So die/ von<lb/>
+Glaubiz/</hi> auch/ in Wahrheit/ <hi rendition="#fr">glaubig</hi> ſind. Denn<lb/>
+ſo iſt <hi rendition="#fr">Glaubiz</hi> ein uhralter <hi rendition="#fr">Geſchlechts-Nahme/</hi><lb/>
+ein Hoch-Edler <hi rendition="#fr">Ritter-Nahme/</hi> ein gar ſonderbarer<lb/>
+<hi rendition="#fr">Ehe- und Ehren-Nahme.</hi></p><lb/>
+<p>Das iſt/ auſſer Verwerffung/ daß das Geſchlechte<lb/>
+der Gerechten/ von Anfang der Welt her/ deſſelben ſo<lb/>
+wuͤrdig/ als faͤhig/ und beſonders die Patriarchen rech-<lb/>
+te <hi rendition="#fr">Glaubizer</hi> geweſen. Denn ſo ſchreibet/ von ihnen/<lb/>
+der Meiſter der Epiſtel/ an die Ebraͤer/ <hi rendition="#aq">Cap. XI. verſ.</hi> 4.<lb/>
+Durch den Glauben/ hat Abel ein groͤſſer Opffer ge-<lb/>
+than/ denn Cain/ durch welchen er Zeugnuͤs uͤberkom-<lb/>
+men/ daß er gerecht ſey — Durch den Glauben/ ward Enoch<lb/>
+weggenom̃en/ daß er den Tod nicht ſehe — Durch den Glau-<lb/>
+ben/ hat Noe GOtt geehret/ und die Archa zubereitet/ zum<lb/>
+Heil ſeines Hauſes — Durch den Glauben/ ward gehorſam<lb/>
+Abraham — Durch den Glauben/ iſt er ein Frembdling ge-<lb/>
+weſen — Durch den Glauben/ ſegnete Jſaac/ von den zu-<lb/>
+<fw type="sig" place="bottom">B 2</fw><fw type="catch" place="bottom">kuͤnff-</fw><lb/>
+<pb facs="#f0012" n="12"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+kuͤnfftigen Dingen/ den Jacob und Eſau — Durch den Glau-<lb/>
+ben/ ſegnete Jacob/ da er ſtarb/ beyde Soͤhne Joſephs—<lb/>
+Durch den Glauben/ redet Joſeph/ vom Außgang der Kin-<lb/>
+der Jſrael — Durch den Glauben/ ward <hi rendition="#aq">Moſes,</hi> da er ge-<lb/>
+bohren ward/ drey Monden verborgeu/ von ſeinen El-<lb/>
+tern — Durch den Glauben/ giengen ſie/ durch das rothe<lb/>
+Meer/ ꝛc. Die ſelbſte Eva iſt eine/ von Glaubiz/ geweſen.<lb/>
+Dann ſie troͤſtete ſich des <hi rendition="#aq">Meſſiæ,</hi> wann ſie/ bey der Ge-<lb/>
+burth des ruchloſen Bruder-Moͤrders/ beweglich außrieff:<lb/>
+Jch habe den Mann/ den HERRN/ <hi rendition="#aq">eth-Jehovah,</hi> den<lb/>
+HERRN/ nicht des HERRN/ oder/ von dem HERRN/<lb/>
+<hi rendition="#et"><hi rendition="#aq">[Nullum enim eſt dubium, ſicuti <hi rendition="#i">Gen. 4, 1. 2.</hi> illa Præpoſitio Ac-<lb/>
+cuſativi nota eſt, in reliqvis ibi contentis; qvod ita etiam ſit Ac-<lb/>
+cuſativi nota, in hoc ipſo, de qvo agimus: Et Adam cognovit<lb/>
+eth-Hhavah, Evam, uxorem ſuam, &amp; peperit eth-Kajin, Cainum.<lb/>
+&amp; dixit acqviſivi virum, eth-Jehovah Jehovam, &amp; addidit, ut pa-<lb/>
+reret eth-achiv, fratrem ejus, &amp;c. <hi rendition="#i">Franzius, in Schola Sacrif.<lb/>
+Diſp. Theol. II. Theſi XCIIX.</hi></hi></hi><lb/>
+Es ſey nun/ daß hiemit die Ertz-Mutter/ als/ zum mehrern<lb/>
+Theile/ dafuͤr gehalten wird/ auf den neugebohrnen Sohn/<lb/>
+gezielet/ und denſelben/ wiewol/ zur Ungebuͤhr/ vor den ver-<lb/>
+ſprochenen Weibes-Samen/ angeſehen; Oder/ daß ſie nur/<lb/>
+bey jenes Geburt/ ſich/ der Menſchwerdung des letzteren/<lb/>
+erinnert/ als andere erachten; So hat man doch/ an dem<lb/>
+Glauben dieſer Gottſeeligen <hi rendition="#aq">Matron,</hi> keines weges zu zweif-<lb/>
+<hi rendition="#et">feln. <hi rendition="#aq">[Etſi autem veneranda mulier falſa eſt ſpe ſua—tamen<lb/>
+perſpicuè ſignificat, ſe, magnâ fide, accepiſſe Evangelium, de ſe-<lb/>
+mine mulieris, &amp;, ex hoc Evangelio, omnem conſolationem ſuam<lb/>
+concepiſſe, ac æternam ſuam ſalutem unico ſemini mulieris h. e.<lb/>
+Chriſto, Filio Dei, acceptam tuliſſe. <hi rendition="#i">Brentius, Comm. in Gen. IV.<lb/>
+f. 66.</hi></hi>) Hier ſtehet der groſſe und eigene Nahme GOttes/</hi><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">Jeho-</hi></fw><lb/>
+<pb facs="#f0013" n="13"/>
+<fw type="header" place="top"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+<hi rendition="#et"><hi rendition="#aq">Jehovah,</hi> der nichts anders bedeutet/ denn allein GOtt ſelbſt/<lb/>
+in ſeiner Natur und Weſen/ und <hi rendition="#aq">Iſch,</hi> welches/ wo es allein<lb/>
+ſtehet/ ohn ein Weib/ heiſſet es nicht ſchlecht ein Manns-Bil-<lb/>
+de/ wie alle Maͤnner ſind; Sondern ein Außbund und fuͤr-<lb/>
+nehmlichen Mann/ wie wir Deutſchen auch ſagen/ das iſt<lb/>
+ein Mann/ das will ein Mann werden: Alſo will Heva hie/<lb/>
+ich habe einen Sohn gebohren/ der wird ein Mann werden/<lb/>
+Ja/ Er iſt der Mann <hi rendition="#g">GOTT</hi> ſelbſt/ ders thun ſoll und die<lb/>
+Schlange zertreten/ wie GOtt uns geredt hat/ ꝛc. ꝛc. <hi rendition="#aq"><hi rendition="#i">Lutherus,<lb/>
+Tom. VIII. Jenenſ. ſol. 157. a.</hi> Eva, boni ominis cauſa, filium vo-<lb/>
+cavit Kajin — qvod, dum eum pareret, in animo haberet &amp; fide<lb/>
+poſſideret verum Meſſiam, in plenitudine temporis, naſeiturum.<lb/>
+<hi rendition="#i">Schmid. Diſp. de fide matris Eva. quæ 2. Faſc. &amp; Colleg. Bibl. I. p. 155.<lb/>
+Pfeiffer. Dub. Vex. Loc. XI. p. 36. &amp; 37.)</hi></hi></hi><lb/>
+Wie die Eva/ ſo auch der ſelbſte Adam/ ein Glaubiz. (Sie<lb/>
+<hi rendition="#et">wirds auch nicht allein ſo verſtanden haben; ſondern <hi rendition="#aq">Adam</hi><lb/>
+wird/ mit ihr/ lange zuvor davon geredet — und ſich des getroͤ-<lb/>
+ſtet haben/ wieder die Suͤnde und Tod/ ſo/ durch dieſen Sa-<lb/>
+men/ ſolte weggenommen/ dafuͤr die verlohrne Unſchuld und<lb/>
+Leben wiederbracht werden/ ſonſt waͤren ſie verzweiffelt. <hi rendition="#aq">Lu-<lb/>
+therus l. c. &amp; in margine, f.</hi> 6. Adam und Heva haben Chri-<lb/>
+ſtum erkannt/ und/ an Jhn/ geglaubet/ und alſo ſelig worden.</hi><lb/>
+Und die geſampten Vaͤter. Denn ſie glaubeten alle. <hi rendition="#aq">Act.<lb/>
+XV,</hi> 11. Wie ſolte man ſie nicht/ mit obigen Nahmen/ im<lb/>
+Grunde der Warheit/ belegen koͤnnen?</p><lb/>
+<p>Selbigen kan man auch denen fuͤrtrefflichſten Rit-<lb/>
+tern und Helden/ in Jſrael/ unmoͤglich verſagen. Denn<lb/>
+ſo ſchreibet abermahls der Apoſtel: Und was ſoll ich mehr<lb/>
+ſagen? Die Zeit wuͤrde mir zu kurtz/ wann ich ſolte erzeh-<lb/>
+len/ von Gedeon/ und Barac/ und Samſon/ und Jeph-<lb/>
+thahe/ und David/ und Samuel/ und den Propheten/<lb/>
+<fw type="sig" place="bottom">B 3</fw><fw type="catch" place="bottom">welche</fw><lb/>
+<pb facs="#f0014" n="14"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+welche haben/ durch den Glauben/ Koͤnigreiche bezwun-<lb/>
+gen/ Gerechtigkeit gewuͤrcket/ die Verheiſſung erlanget/<lb/>
+der Loͤwen Rachen verſtopffet/ des Feuers Krafft außge-<lb/>
+loͤſchet/ des Schwerts Schaͤrffe entrunnen/ ſind kraͤfftig<lb/>
+worden/ aus der Schwachheit/ ſind ſtarck worden/ im<lb/>
+Streit/ haben der frembden Heer darnieder geleget. <hi rendition="#aq">Heb.<lb/>
+XI,</hi> 32. 33. 34. Der unvergleichliche Held/ welcher/ mit GOtt<lb/>
+und mit Menſchen/ ſo kaͤmpffete/ daß er oblage/ <hi rendition="#aq">Geneſ.<lb/>
+XXXII,</hi> 28. hat es warlich nicht/ mit dem Fleiſches-Arm/<lb/>
+worauff/ ſich zu verlaſſen/ ein Fluch iſt/ <hi rendition="#aq">Jerem. XVII,</hi> 5. und<lb/>
+der wol nicht helffen kan/ <hi rendition="#aq">Pſal. LX,</hi> 13. ausgerichtet; Son-<lb/>
+dern/ mit der unuͤberwindlichen Hand des Glaubens.<lb/>
+<hi rendition="#et">(Lieber was wars/ daß der Sohn GOttes/ mit dem from-<lb/>
+men Jacob/ kaͤmpffete/ und ihn gleichwol nicht uͤbermochte?<lb/>
+Strit doch der Schoͤpffer/ mit dem Geſchoͤpffe/ der HERR<lb/>
+der Heerſcharen/ mit einem armen Wurm/ mit einer Hand<lb/>
+voll Aſchen/ Staub und Erden/ der HErꝛ groß/ von Rath/<lb/>
+und maͤchtig/ von That/ mit einem rauſchenden Blat/ und<lb/>
+ſolt ihn nicht uͤbermoͤgen? Der die Meer vertrocknet/ die<lb/>
+Sonne/ in ihrem Lauff/ aufhaͤlt/ dem Feuer ſeine Krafft und<lb/>
+Hitze daͤmpffet/ die Teuffel zaͤumet/ alle Creatur/ wie ein nichts<lb/>
+und eiteles/ achtet/ ſolt der Jacob/ den armen Tropffen/ nicht<lb/>
+uͤbermoͤgen? Ja freylich uͤbermocht er ihn/ wie denn alle<lb/>
+Creatur/ gegen ihm/ ſind/ wie ein Staͤublein/ das man hin-<lb/>
+blaͤſet. Aber der hitzige/ eifferige/ Glaube/ das feſte/ ſtand-<lb/>
+haffte/ Vertrauen/ damit Jacob den Sohn GOttes gleich-<lb/>
+ſam gefangen hielte/ uͤbermochte ihn/ daß er nicht gewiñen kon-<lb/>
+te/ odeꝛ wolte. <hi rendition="#fr">Klotz. Geiſtlich. Cypreſſen-Kraͤntzl.</hi> <hi rendition="#aq">p.</hi> 73.)</hi><lb/>
+Die guten Streiter CHriſti insgeſampt koͤnnen die feuri-<lb/>
+gen Pfeile des Boͤſewichts/ mit nichts anders/ außloͤſchen/<lb/>
+als dem Schilde des Glaubens. <hi rendition="#aq">Eph. VI. verſ.</hi> 17. Damit<lb/>
+<fw type="catch" place="bottom">kan</fw><lb/>
+<pb facs="#f0015" n="15"/>
+<fw place="top" type="header"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+kan man nicht weniger/ an der gantzen Welt/ zum Rit-<lb/>
+ter/ werden. Dann alles/ was/ von <hi rendition="#g">GOTT/</hi> geboh-<lb/>
+ren iſt/ uͤberwindet die Welt/ und unſer Glaube iſt der<lb/>
+Sieg/ der die Welt uͤberwunden hat. Wer iſt aber/ der<lb/>
+die Welt uͤberwindet/ ohne/ der da glaubet/ daß JESUS<lb/>
+GOttes Sohn iſt? 1. <hi rendition="#aq">Joh. V,</hi> 4. 5. O gluͤckſeelige Sieger/<lb/>
+die dergeſtalt uͤberwinden! Die haben/ als die alleredelſten<lb/>
+Ritter/ die unverwelckliche Krone/ von der Hand des<lb/>
+HErꝛn/ zugewarten/ welcher ſich und andere/ der Heilige<lb/>
+<hi rendition="#aq">Paulus</hi> verſichert: Jch habe einen guten Kampff gekaͤmpf-<lb/>
+fet/ ich habe den Lauff vollendet/ ich hab Glauben gehal-<lb/>
+ten. Hinfort iſt mir beygelegt die Kron deꝛ Gerechtigkeit/<lb/>
+welche mir der HErꝛ/ an jenem Tage/ der gerechte Richter/<lb/>
+geben wird; Nicht aber mir allein/ ſondern auch allen/ die<lb/>
+ſeine Erſcheinung lieb haben. <hi rendition="#aq">II. Tim. IV,</hi> 7. 8.</p><lb/>
+<p>So hat auch die Heilig- und ſeeligſte Ehe keinen andern<lb/>
+Grund/ als den Glauben. (Glauben koͤm̃et her/ in unſer Mutter-<lb/>
+<hi rendition="#et">Sprache/ vom geloben/ weil es das ſicherſte und beſte <hi rendition="#aq">Votum</hi><lb/>
+und Geluͤbde iſt/ dadurch man ſich/ gegen den Allerhoͤchſten<lb/>
+GOtt/ verpflichtet. Deñ gleich wie ſich der Sohn GOttes/ im<lb/>
+Glauben/ ewiglich/ mit uns/ verlobet. <hi rendition="#aq">Hoſ. II,</hi> 19. 20. Alſo<lb/>
+geloben auch wir ihm hinwiederumb/ durch den Glauben/ daß<lb/>
+wir ihm hold/ treu und gehorſam/ bleiben wollen/ in Ewigkeit.<lb/>
+Drumb da Koͤnig/ David/ im <hi rendition="#aq">Pſ. 76. v.</hi> 10. ſeinen Glauben zu<lb/>
+erkennen gegeben hatte/ wie er innen werde/ wenn er ruffe<lb/>
+und bete/ daß GOtt ſein GOtt ſey/ wie er des HErꝛn Wort<lb/>
+ruͤhme/ und/ auff GOtt/ hoffe/ und ſich nicht fuͤrchte/ ſo ſetzet<lb/>
+er hinzu: Jch habe dir GOTT gelobet/ daß ich dir dancken<lb/>
+will. Und ermahnet uns alle/ zu ſolchem geloben; Gelobet/<lb/>
+ſagt er/ und haltet dem HErꝛn/ eurm GOtt/ alle/ die ihr umb<lb/>
+ihn her ſeyd. <hi rendition="#aq">Pſalm. 6. v. 12. <hi rendition="#i">Feſſel. Part. II. Conc. Funebr. p 527</hi></hi>)</hi><lb/>
+<fw place="bottom" type="catch">Der</fw><lb/>
+<pb facs="#f0016" n="16"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+Der Glaube verurſachet die Geiſt-Eheliche/ aber allerin-<lb/>
+nigſte/ Beywohnung des/ der ſeine Geſpons alſo anredet:<lb/>
+Der dich gemachet hat/ iſt dein Mann/ <hi rendition="#g">HERR</hi> Zebaoth<lb/>
+heiſt ſein Nahme/ und dein Erloͤſer/ deꝛ Heilige/ in Jſrael/ deꝛ<lb/>
+alleꝛ Welt GOtt genennet wird. <hi rendition="#aq">Jeſ. LIV,</hi> 5. Dañ/ durch den<lb/>
+Glauben/ wohnet Chriſtus/ in ihrem Hertzen. <hi rendition="#aq">Eph. III,</hi> 17.</p><lb/>
+<p>Ehe bringt Ehre; bevorab die jenige/ welche dem/<lb/>
+in Ehehafften/ ſtehenden Manne eigen iſt; Weil doch/<lb/>
+nach dem alten Sprich-Wort/ das Weib/ durch die Stra-<lb/>
+len ihres Gemahles/ glaͤntzet/ und/ nach der Rechte Erkaͤnt-<lb/>
+nuͤs/ in die Beſchaffenheit deſſelben/ eintritt. <hi rendition="#aq">(Uxor ſem-<lb/>
+<hi rendition="#et">per ſeqvitur conditionem mariti. <hi rendition="#i">Carpzov. Jurisprud. Conſi-<lb/>
+ſtor. Lib. II. Tit. I. Defin. II. §. 6.</hi>)</hi></hi><lb/>
+Hauß und Hoff/ ſampt andern Eigenthumb/ ſtehet nicht<lb/>
+minder deroſelbten zu genieſſen. <hi rendition="#aq">(Uxor eſt de familia viri, non<lb/>
+<hi rendition="#et">patris. <hi rendition="#i">L. qvicunꝙ́ C. de re militar. Lib. II. l. pen. §. Julian. ff. de<lb/>
+to, qvod falſ. tut. aut geſt.</hi> Unde &amp; viri forum, privilegium, do-<lb/>
+micilium ac dignitatem ſeqvitur. <hi rendition="#i">Carpz. Lib. VI. Reſp. Jur. Elect.<lb/>
+Tit. 8. Reſp. 83. §. 14. 15.)</hi></hi></hi><lb/>
+Was wird hier nicht ſeyn? Bevorab/ da/ mit CHriſto/<lb/>
+alles geſchencket wird. <hi rendition="#aq">Rom. VIII,</hi> 33. Und Der unwieder-<lb/>
+rufflich ſaget: Wer da glaͤubet und getauffet wird/ der<lb/>
+wird ſeelig werden. <hi rendition="#aq">Marc. XVI,</hi> 16. Wer/ an den Sohn<lb/>
+GOttes/ glaubet/ der hat das ewige Leben. <hi rendition="#aq">Johan. III,</hi> 36.<lb/>
+Ach! aber/ von was groſſen Nachdruck iſt/ ſeelig zu heiſ-<lb/>
+ſen/ und das ewige Leben zu haben? Traun/ die allerhoͤch-<lb/>
+ſte Ehr und Herꝛligkeit ruhet darauff. Die ſelbſte JEſus-<lb/>
+Aehnligkeit und Gleichheit wird dadurch verliehen. Alle<lb/>
+Himmels-Guͤtter/ als ferne ſie Chriſto/ nach dem Erwerb-<lb/>
+<fw type="catch" place="bottom">Recht/</fw><lb/>
+<pb facs="#f0017" n="17"/>
+<fw place="top" type="header"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+Recht/ zuſtehen/ werden hiemit <hi rendition="#aq">conferiret</hi> und gemein ge-<lb/>
+machet. Man darff ſicher glauben/ daß die/ durch den<lb/>
+Glauben/ mit CHriſto/ vermaͤhlete Seele/ wann ſie zu-<lb/>
+mahl/ durch den Tod/ heimgeholet wird/ von dem Glantze<lb/>
+der ſelbſten Herꝛligkeit CHriſti/ beſtralet/ und eine ewig re-<lb/>
+gierende Koͤnigin werde. Deñ GOtt/ der HERR/ wird<lb/>
+ſie erleuchten/ und ſie werden regieren/ von Ewigkeit/<lb/>
+zu Ewigkeit; ſtehet <hi rendition="#aq">Apoc. XXII,</hi> 5. Man darff glauben/<lb/>
+daß derſelben ſo woll das Hauß der Freuden/ als auch/ was<lb/>
+darzu gehoͤret/ alles Gute des HERRN/ im Lande der<lb/>
+Lebendigen/ zum ewigen Beſitz und Gebrauch/ eingeraͤu-<lb/>
+met werde. Jſt Sie <hi rendition="#aq">de familia mariti,</hi> und auf die Weiſe<lb/>
+GOttes Kind/ wie Sie allerdinges iſt/ durch ihren Glau-<lb/>
+ben/ <hi rendition="#aq">Joh. I,</hi> 12. So hat Sie warlich auch Theil/ an das Va-<lb/>
+ters Hauſe/ <hi rendition="#aq">Joh. XIV,</hi> 2. So wird ſie theilhafftig aller<lb/>
+Hauß-Guͤter/ <hi rendition="#aq">Pſal. XXXVI.</hi> Ja/ des ſelbſten Himmel-Lan-<lb/>
+des/ der Erde/ darin Gerechtigkeit wohnet. 2. <hi rendition="#aq">Pet. III,</hi> 13.</p><lb/>
+<p>Des troͤſtet ſich David/ und/ mit ihm/ eine jede glau-<lb/>
+bige Seele/ als der verleſene Text lehren kan. Darauß<lb/>
+ſey/ zum<lb/>
+<hi rendition="#c"><hi rendition="#in">V</hi>orſchlage/<lb/>
+<hi rendition="#fr">Die</hi><lb/>
+<hi rendition="#in">SELJGE GLAUBJZJN/</hi><lb/>
+Und zwar/<lb/>
+Wie Sie (1) <hi rendition="#fr">Glaubig/ (2) Selig</hi> iſt.</hi></p><lb/>
+<p>Es helff uns JEſus/ unſer Troſt/ der uns/ durch ſein<lb/>
+Blut/ hat erloͤſt/ vons Teuffels Gewalt und ew’ger Pein/<lb/>
+Jhm ſey Lob/ Preiß und Ehr allein! Amen!</p><lb/>
+</div><fw place="bottom" type="sig">C</fw><fw place="bottom" type="catch">Ab-</fw><lb/>
+<pb facs="#f0018" n="18"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+<div type="fsMainPart" n="2"><head><hi rendition="#b"><hi rendition="#in">A</hi>bhandelung.</hi></head><lb/>
+<p><hi rendition="#in">W</hi>Ann das außerwehlte Ruͤſtzeug CHriſti<lb/>
+den verſchiedenen Zuſtand der Kindeꝛ GOttes/<lb/>
+in der gegenwaͤrtigen und zukuͤnfftigen Welt/<lb/>
+kuͤrtzlich entwerffen/ und gegen einander halten<lb/>
+will/ gebrauchet es ſich dieſer Worte: Wir<lb/>
+wandelen/ im Glauben/ und nicht/ im Schauen. 2. <hi rendition="#aq">Cor. V.<lb/>
+v.</hi> 7. Jſt damit nicht ferne/ von dem Zeugnuͤß des H. Jo-<lb/>
+hannis: Meine Lieben/ wir ſind GOttes Kinder/ und iſt<lb/>
+noch nicht erſchienen/ was wir ſeyn werden. Wir wiſſen<lb/>
+aber/ daß/ wenn es erſcheinen wird/ wir Jhm gleich ſeyn<lb/>
+werden. Deñ wir werden Jhn ſehen/ wie Er iſt. 1. <hi rendition="#aq">Joh. III,</hi> 2.<lb/>
+Was nicht erſcheinet/ faͤllet auch nicht in die Augen. Und<lb/>
+darumb wandeln wir voritzo nicht im Schauen; Doch<lb/>
+wird das folgen/ ſo wir anders/ von CHriſto/ gehoͤret ha-<lb/>
+ben/ und/ in Jhm/ gelehret ſind/ wie/ in JESU/ ein recht-<lb/>
+ſchaffenes Weſen iſt/ <hi rendition="#aq">Eph. IV,</hi> 21. und das angefangene We-<lb/>
+ſen/ <hi rendition="#aq">archèn tes hypoſtáseos,</hi> den Anfang der gewiſſen Zu-<lb/>
+verſicht [ſo der ſelbſte Glaube iſt/ <hi rendition="#aq">Heb. XI. v.</hi> 1.] Ja/ <hi rendition="#aq">tèn<lb/>
+parrhesian kaì tò kávchema tes helpidos,</hi> das Vertrauen<lb/>
+und den Ruhm der Hoffnung/ biß ans Ende/ feſte behal-<lb/>
+ten. <hi rendition="#aq">Heb. III, 14. &amp;</hi> 6. Jch will ſagen/ ſo wir des Geſchlechts/<lb/>
+von Glaubiz/ ſind/ und/ mit Ruhm/ jedoch/ ohne Ruhm/<lb/>
+wie David/ ſagen koͤnnen: Jch glaube aber.</p><lb/>
+<p><hi rendition="#aq">Hemanthi</hi> ſtehet/ in der H. Sprache/ und kommet<lb/>
+her/ von <hi rendition="#aq">Neman,</hi> gewiß/ feſte/ wahr/ wahrhafft/ ſein und<lb/>
+<fw type="catch" place="bottom">wer-</fw><lb/>
+<pb facs="#f0019" n="19"/>
+<fw place="top" type="header"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+werden. Jſt auch gnaue verbunden/ mit <hi rendition="#aq">Amen,</hi> welches<lb/>
+eigentlich ſo viel heiſt/ als Warheit/ aber auch/ als ein<lb/>
+Betheuͤrungs-Beyfals-Vertrauens-Ja gar/ Zueignungs-<lb/>
+Wort/ gebrauchet wird. <hi rendition="#aq">(Qvod valdè notabile eſt, ox Amen<lb/>
+<hi rendition="#et">deducitur, à verbo, Credere, &amp; eſt adverbium optandi, vocula<lb/>
+applicationis. Hâc enim particulâ clauduntur precationes &amp;<lb/>
+imprecationes, non, ut tantùm in genere probentur, ſed, ut ap-<lb/>
+plicatio fiat, ad ſu<gap reason="lost" unit="chars" quantity="1"/>gulos. Hier. II. v. 5. Eritis mihi in populum, ut<lb/>
+ſuſcitem juramentum, &amp; reſpondens dixi, Amen, Domine &amp;c. &amp;c.<lb/>
+<hi rendition="#i">Chemnit. LL. Theol. Part. II. L. de juſtif. &amp; qvidem de vocab.<lb/>
+fidei p. m. 243.</hi> Amen, Veritas, Jeſ. 65, 16. Inde tranſit, in fiden-<lb/>
+tis &amp; aſſentientis particulam, Amen, Devt. 27, 15. qvaſi dicas,<lb/>
+Firmum, Ratum, eſto, Verè fiat. <hi rendition="#i">Buxtorff. Lexic. Hebr. &amp; Chald.<lb/>
+in voce,</hi> Aman.</hi></hi><lb/>
+Bedeutet alſo ein ſolch glauͤben/ welches ſich/ auf eine ver-<lb/>
+ſicherte Warheit/ gruͤndet/ in dero Erkaͤntnuͤs/ Beyfall/<lb/>
+Vertrauen und Zueignung/ beſtehet/ und ihr gleichſam/<lb/>
+als/ mit einem kraͤfftigen <hi rendition="#aq">fiat,</hi> unterſchreibet.</p><lb/>
+<p>Nun aber iſt gewiß/ was unſer Heyland bethende leh-<lb/>
+ret: Heilige Sie/ in deiner Warheit. Dein Wort iſt die<lb/>
+Warheit. <hi rendition="#aq">Joh. XVII,</hi> 17. Es iſt gewiß/ was dieſer treue und<lb/>
+warhaffte Zeuge/ <hi rendition="#aq">Apoc. III,</hi> 14. ob ſchon/ von Jhm ſelbſt/<lb/>
+und/ in Anſehen der Warheit/ doch nicht/ ohne Warheit/<lb/>
+zeuget: Jch bin der Weg und die Warheit. <hi rendition="#aq">Joh. XIV. v.</hi> 5.<lb/>
+So ſind auch/ in Jhm/ alle Verheiſſungen GOttes Ja<lb/>
+und Amen. 2. <hi rendition="#aq">Cor. l,</hi> 20. Weshalb Er dann ſelbſt AMEN<lb/>
+genennet wird. <hi rendition="#aq">Apoc. III,</hi> 14. Spricht nun David <hi rendition="#aq">Heman-<lb/>
+thi,</hi> ſo ſetzet er gewiß keine andere/ als dieſe Warheit/ zum<lb/>
+Grunde ſeines Glaubens/ und darauf alle ſein Vertrauen/<lb/>
+als auch dem ſelbſten <hi rendition="#aq">contextui,</hi> und beſonders/ achten und<lb/>
+<fw place="bottom" type="sig">C 2</fw><fw place="bottom" type="catch">erſten</fw><lb/>
+<pb facs="#f0020" n="20"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+erſten Verſicul/ aller Dinge gemaͤß iſt. Man hoͤre/ wie<lb/>
+betraͤchtlich er/ in dem erſtberuͤhrten Orthe/ redet: Mein<lb/>
+Hertz haͤlt dir fuͤr dein Wort: Jhr ſolt mein Antlitz ſu-<lb/>
+chen. Darumb ſuche ich auch/ HERR/ dein Antlitz. Sol-<lb/>
+te das Hertz Gotte ſein Wort fuͤrhalten/ muſte es gewiß<lb/>
+daſſelbe/ auch fuͤr ſich/ gefaſſet/ und/ als recht/ befunden/<lb/>
+oder geachtet haben. Zumahle/ da es hierbey ſo getroſt iſt/<lb/>
+und kein Bedencken/ hiemit/ fuͤr den groſſen Gott ſelbſt/ zu<lb/>
+treten/ ja/ ihm nachzuleben/ und das Angeſicht GOttes zu<lb/>
+ſuchen/ traͤget. Jn dem letztbedeuteten Verſicul/ ſaget Er:<lb/>
+Der HERR iſt mein Licht und mein Heil/ <hi rendition="#aq">Jischi.</hi> Gehet/<lb/>
+auf den Herꝛn JEſum/ es mag/ als ein <hi rendition="#aq">proprium,</hi> oder<lb/>
+<hi rendition="#aq">appellativum,</hi> angeſehen werden. Denn/ auf jene Weiſe/<lb/>
+iſt es der eigentliche Nahme CHriſti. <hi rendition="#aq">Luc. II,</hi> 21. Auf dieſe/<lb/>
+iſt es nirgends zu finden/ dann nur/ bey unſerem Heylan-<lb/>
+de. <hi rendition="#aq">Act. IV,</hi> 12. Und wird daher/ von dem ſeel. <hi rendition="#aq">Calovio,</hi> nicht<lb/>
+unrecht/ mit den Worten/ <hi rendition="#fr">Mein JEſus/</hi> verwechſelt und<lb/>
+<hi rendition="#aq">paraphraſiret.</hi> (Mein Heil. <hi rendition="#aq">Pſ. CXIIX,</hi> 6. Mein JEſus/ in wel-<lb/>
+<hi rendition="#et">chem ich habe Erloͤſung/ von meinen Suͤnden/ <hi rendition="#aq">Matth. I,</hi> 21.<lb/>
+Geſch. <hi rendition="#aq">X,</hi> 43. Die Gerechtigkeit/ die fuͤr GOtt gilt. <hi rendition="#aq">Rom. X,</hi> 4.<lb/>
+Heil und Seeligkeit. <hi rendition="#aq">Act. IV, 12. c. X,</hi> 15. Durch den ich/ von<lb/>
+allem Ubel/ erꝛettet werde. 1. <hi rendition="#aq">Moſis. XLIIX,</hi> 16.)</hi><lb/>
+Bevorab/ da unverborgen/ daß der H. Koͤnig ſo wol des<lb/>
+<hi rendition="#aq">Meſſiæ,</hi> des GOttes Jacob/ verſichert/ 2. <hi rendition="#aq">Sam. XXIII.</hi> als<lb/>
+auch ſein Prophet geweſen iſt/ und gewuſt hat/ was ihm<lb/>
+GOTT verheiſſen — auch zuvor geſehen und geredet/ von<lb/>
+der Aufferſtehung CHriſti. <hi rendition="#aq">Act. II, 30. 31. Pſ. CXXXII. v. 11.<lb/>
+Pſ. XVI. v.</hi> 8. Den ergreiffet Er/ mit ſeiner Glaubens-Hand<lb/>
+und ſpricht ſo Beyfals- als Zueignungs-Weiſe/ <hi rendition="#fr">mein Heil/</hi><lb/>
+<fw type="catch" place="bottom"><hi rendition="#fr">mein</hi></fw><lb/>
+<pb facs="#f0021" n="21"/>
+<fw place="top" type="header"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+<hi rendition="#fr">mein JEſus.</hi> Sonſt ſagete er nur/ mit dem Patriar-<lb/>
+chen/ <hi rendition="#aq">Jacob:</hi> <hi rendition="#g">HERR/</hi> ich warte/ auf dein Heil. <hi rendition="#aq">Pſalm.<lb/>
+CXIX,</hi> 166. Und im vorhergehenden: Meine Seele verlan-<lb/>
+get/ nach deinem Heil/ ich hoffe/ auf dein Wort. <hi rendition="#aq">v.</hi> 81. So<lb/>
+auch zuverſichtlich gnug geredet/ jedoch jenem nicht gleich<lb/>
+iſt. Abſonderlich/ ſo man/ in genauen Betracht/ ziehet/<lb/>
+was darauff folget/ und eine uͤbergroſſe <hi rendition="#aq">parrheſie,</hi> Freu-<lb/>
+digkeit und Vertrauen/ andeutet. So dann iſt dieſes:<lb/>
+Eins bitte ich/ vom HErꝛn/ daß ich/ im Hauſe des HErꝛn/<lb/>
+bleiben moͤge/ mein Lebenlang/ zu ſchauen die ſchoͤnen Got-<lb/>
+tesdienſte des HErꝛn/ und ſeinen Tempel zu beſuchen.<lb/>
+Zum Zeugnuͤß des guten Fuͤrſatzes/ GOtte zu dienen/ und<lb/>
+dieſen Glauben/ in der That/ zu bezeuͤgen/ wie ſonſt ſeine<lb/>
+Gewohnheit war/ Krafft welcher er ſagen dorffte/ <hi rendition="#aq">Heman-<lb/>
+thi, ki adabber,</hi> ich glaube/ darumb rede ich. <hi rendition="#aq">Pſ. CXVI,</hi> 10.<lb/>
+So ein <hi rendition="#aq">Theologus</hi> nicht vergebens/ auf die Bekaͤntnuͤs/<lb/>
+Ehre und Anruffung GOttes/ als beſondere Glaubens-<lb/>
+Wercke/ ziehet. <hi rendition="#aq">(Locutus ſum. i. e. liberè profeſſus ſum, me cre-<lb/>
+<hi rendition="#et">dere; Palam etiam celebravi, Deumq́; invocavi. Höpfn. D. 9.<lb/>
+Juſtif. c. 2. aph. 5. §. 12.)</hi></hi><lb/>
+Daß man alſo/ an dem warhafften/ nach Wiſſenſchafft/<lb/>
+Beyfall/ und zuverſichtlichemVertrauen/ wolbeſchaffenen/<lb/>
+lebenden und thaͤtigen/ Glauben Davids/ nicht zu zweif-<lb/>
+feln hat.</p><lb/>
+<p>Der ſpricht nun ferner/ im Text: <hi rendition="#fr">Aber; Jch glau-<lb/>
+be aber;</hi> ſo/ im Grunde/ <hi rendition="#aq">Lule</hi> heiſſet/ und noch/ fuͤr <hi rendition="#aq">He-<lb/>
+manthi,</hi> ſtehet/ auch deswegen/ von etlichen/ mit <hi rendition="#aq">niſi,</hi> gege-<lb/>
+ben wird; Der Meinung/ daß es eine verbrochene Rede<lb/>
+<fw place="bottom" type="sig">C 3</fw><fw place="bottom" type="catch">ſey/</fw><lb/>
+<pb facs="#f0022" n="22"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+ſey/ dergleichen mehr/ in der Schrifft/ zu finden/ und etwa<lb/>
+dieſen Verſtand gebe: Wo ich nicht glaubete/ oder ge-<lb/>
+glaubet haͤtte/ daß ich ſehen wuͤrde/ das Gute des Herꝛn/<lb/>
+im Lande der Lebendigen/ ſo waͤre ich verſchmachtet/ ver-<lb/>
+gangen/ verzweiffelt/ um̃kommen ꝛc. <hi rendition="#aq">(Niſi credidiſſem, me<lb/>
+<hi rendition="#et">viſurum beneficium DOMINI, in terra viventium, defeciſſem.<lb/>
+<hi rendition="#i">Brentius Comment. in h. l. p. m. 377.</hi> Periiſſem. <hi rendition="#i">Genebrardus, apud<lb/>
+Geierum.</hi> Jn deſperationem lapſus eſſem. <hi rendition="#i">Geſnerus.</hi> Actum de<lb/>
+me fuiſſet. <hi rendition="#i">Piſcator, Comment. in Pſalmos.</hi> Commodisſimè<lb/>
+verò ex Pſalm. CXIX, 92. ſuppleri poteſt, As abadthi beonji.<lb/>
+Sic enim habet locus parallelus: Lule, niſi lex tua fuiſſet oblecta-<lb/>
+tio mea (ſic hôc locô relativè, niſi credidiſſem) jamdudum per-<lb/>
+iisſem, in afflictione mea. <hi rendition="#i">Geierus, Comment. in Pſalmos, f. m. 418.</hi>)</hi></hi><lb/>
+Der ſeel. Lutherus aber hatte es/ mit dem Wort/ <hi rendition="#fr">Aber/</hi><lb/>
+gegeben/ welches auch vor Zeiten der Syriſche Dolmetſch<lb/>
+und der H. <hi rendition="#aq">Hieronymus</hi> gethan hat. Darzu ſetzet er das<lb/>
+nachdenckliche Woͤrtlein/ <hi rendition="#fr">Doch; ich glaube aber doch;</hi><lb/>
+und beſtaͤrcket hiemit ſeine ehemahlige Meinung/ die Er/<lb/>
+in der alten Uberſetzung/ gehabt/ und das Wort/ Ja/ ge-<lb/>
+brauchet hat: <hi rendition="#fr">Jch glaube Ja/</hi> womit auch andere <hi rendition="#aq">Ver-<lb/>
+ſionen</hi> uͤbereinkommen. <hi rendition="#aq">(Lutherus, in antiqva verſione,</hi> <hi rendition="#fr">Jch</hi><lb/>
+<hi rendition="#et"><hi rendition="#fr">glaube ja/</hi> <hi rendition="#aq">Sic &amp; Dietemb. &amp;c. <hi rendition="#i">Vid. modò laudatus Geierus<lb/>
+l. c.</hi>)</hi></hi><lb/>
+Und das nicht vergebens. Dann es ſetzet der Pſalmiſte<lb/>
+dieſe Worte entgegen ſeinen Feinden und falſchen Zeuͤgen/<lb/>
+die wieder Jhn ſtunden/ und Jhm/ ohne Scheu/ unrecht<lb/>
+thaten/ ſo gar/ daß Er ihrem fernern Willen nicht gerne<lb/>
+wolte unterworffen ſeyn/ und deswegen bethet: Gieb<lb/>
+mich nicht/ in dem Willen meiner Feinde. Die haben<lb/>
+Jhn zweiffels ohne/ als den aͤrgeſten Ubelthaͤter/ nicht nur<lb/>
+<fw type="catch" place="bottom">ſelbſt</fw><lb/>
+<pb facs="#f0023" n="23"/>
+<fw place="top" type="header"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+ſelbſt geachtet/ ſondern auch/ bey andern/ inſonderheit/<lb/>
+dem Koͤnige/ <hi rendition="#aq">Saul,</hi> angegeben/ außgeſchrien/ und ſo/ des<lb/>
+zeitlichen und ewigen Todes/ werth geſchaͤtzet/ oder/ wie<lb/>
+es/ nach der H. Sprache/ koͤnte gegeben werden/ alle Ge-<lb/>
+walt und Grauſamkeit/ gegen Jhn/ außgedampffet/ ge-<lb/>
+blaſen und geſpiehen/ Jhm/ an den Halß/ gewuͤnſchet/ ge-<lb/>
+fluchet/ gedrohet/ geſchworen/ ja/ ſelbſt anzuthun begeh-<lb/>
+ret/ und daruͤber/ nach der Weiſe des wuͤtenden Sauls/<lb/>
+<hi rendition="#aq">Act. IX,</hi> 1. geſchnaubet und geprauſtet.</p><lb/>
+<p>Das hatte zumahl ein ſchlechtes Anſehen/ vor den<lb/>
+frommen David/ und war er/ auſſer Goͤttlichen Erhoͤ-<lb/>
+rung/ bereits denen nicht ungleich/ die/ in die Hoͤlle/ fah-<lb/>
+ren/ als ſo fort/ in dem Anfange des nachfolgenden Pſal-<lb/>
+mes/ zu erſehen. Weil er aber wuſte/ wie er/ mit ſeinem<lb/>
+GOtt/ ſtunde/ laͤſſet er ſich das alles nicht anfechten; ſon-<lb/>
+dern ſetzet/ allen ſeinen Feinden und Verbaͤumdern/ ge-<lb/>
+troſt entgegen: Jch glaube aber doch/ daß ich ſehen wer-<lb/>
+de das Gute des HErꝛn/ im Lande der Lebendigen; Als<lb/>
+ſolte er ſagen: Ey ſo moͤgen dann ſie alle miteinander<lb/>
+reden und thun/ was ſie immer wollen/ oder koͤnnen; So<lb/>
+glaube ich doch/ und bin des/ in meinem GOtt/ gewiß/<lb/>
+daß Sie mir das Land der Lebendigen nimmermehr neh-<lb/>
+men werden. Oder/ wie er ſelbſt redet: Darumb/ ſo die<lb/>
+Boͤſen/ meine Wiederſacher und Feinde/ an mich/ wollen/<lb/>
+mein Fleiſch zu freſſen/ muͤſſen ſie anlauffen und fallen.<lb/>
+Wann ſich ſchon ein Heer/ wieder mich/ leget/ ſo fuͤrchtet<lb/>
+ſich dennoch mein Hertze nicht. Wann ſich Krieg wieder<lb/>
+mich erhebet/ ſo verlaſſe ich mich/ auf Jhn. <hi rendition="#aq">verſ. 2. &amp;</hi> 3.<lb/>
+Jſt alſo unſer <hi rendition="#aq">Lule,</hi> oder/ <hi rendition="#fr">aber doch/</hi> ein getroſtes Her-<lb/>
+<fw place="bottom" type="catch">tzens</fw><lb/>
+<pb facs="#f0024" n="24"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+tzens Wort/ wodurch David ſeine Furchtloſigkeit und Un-<lb/>
+erſchrockenheit andeutet/ und ſich der Goͤttlichen Gnade<lb/>
+ſicherlich troͤſtet; So auch dem beyſtehenden <hi rendition="#aq">Hemanthi</hi><lb/>
+nicht zuwieder iſt/ welchem die <hi rendition="#aq">Araber</hi> eine ſolche Wurtzel<lb/>
+geben/ die nichts/ als Vertrauen/ Sicher- und Gewißheit/<lb/>
+bedeutet. <hi rendition="#aq"><hi rendition="#i">Amana,</hi> fidit. <hi rendition="#i">Joh. Frid. Nicolai, in Hodeget. Orient. Harm.</hi><lb/>
+<hi rendition="#et">p. m. 52. Et, in Complemento, ſub voce, <hi rendition="#i">Amanon</hi>: <hi rendition="#i">Amana,</hi> ſe-<lb/>
+curus, certus, fuit. Conſentit <hi rendition="#i">Sennertus,</hi> &amp;, ex <hi rendition="#i">Amana,</hi> deducit<lb/>
+<hi rendition="#i">Amanon,</hi> ſecuritas, ut &amp; <hi rendition="#i">Aminon,</hi> ſecurus, tutus, firmus. <hi rendition="#i">Ara-<lb/>
+bism. p. 91.</hi></hi></hi><lb/>
+Das iſt/ was der Meiſter/ und/ von GOtt/ getriebene <hi rendition="#aq">Au-<lb/>
+tor</hi> der Epiſtel/ an die Hebraͤer/ ſetzet: Der Glaube iſt eine<lb/>
+gewiſſe Zuverſicht des/ das man hoffet/ und nicht zweiffelt/<lb/>
+an dem/ das man nicht ſiehet. <hi rendition="#aq">Ebr. XI,</hi> 1. Daher muß die<lb/>
+Glaubizin/ mit Paulo/ wiſſen/ an welchen Sie glaubet/<lb/>
+und gewiß ſeyn/ daß Er ihr koͤnne ihre Beylage bewahren/<lb/>
+biß an jenen Tag. 2. <hi rendition="#aq">Tim. I, 12. (Eleganter hic depingit indolem<lb/>
+<hi rendition="#et">fidei, qvam initiò habere, docet, fundamentum, cui innitatur,<lb/>
+Deum nempe ejusq́; verbum &amp; promiſſiones. Deinde omnem<lb/>
+dubitationem procul ab illa abeſſe. Ita enim, in Deum, recum-<lb/>
+bit, ut nullatenus, de promiſſo ipſius auxilio &amp; præmio, dubitet.<lb/>
+<hi rendition="#i">Job. Qviſtorp. Comment. in Epiſt. Pauli, ad Timoth. poſteriorem,<lb/>
+p. m. 173.</hi></hi></hi><lb/>
+Will Sie nun/ mit David/ ſprechen: Jch glaube; So<lb/>
+muß Sie zu forderſt den jenigen wiſſen und kennen/ in wel-<lb/>
+chem alle Verheiſſungen <hi rendition="#g">GOTTES/</hi> und ſo auch die/<lb/>
+von dem Schauen des HERRN/ im Lande der Lebendi-<lb/>
+gen/ Ja und Amen ſind; So muß Sie dem H. Hiob ſei-<lb/>
+ne Worte abborgen/ und/ jedoch/ mit nicht weniger War-<lb/>
+heit/ ſagen: Aber ich/ oder/ wie es auch heiſſen kan/ Ja/ ſoll/<lb/>
+<fw type="catch" place="bottom">und</fw><lb/>
+<pb facs="#f0025" n="25"/>
+<fw place="top" type="header"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+und Jch/ <hi rendition="#aq">Vaani,</hi> und ich weiß/ daß mein Erloͤſer lebet/ und<lb/>
+Er wird mich hernach/ aus der Erden/ aufferwecken/ und<lb/>
+werde hernach/ mit dieſer meiner Haut/ umbgeben wer-<lb/>
+den/ und werde/ in meinem Fleiſche/ GOtt ſehen; Den-<lb/>
+ſelbigen werde ich mir ſehen/ und meine Augen werden<lb/>
+Jhn ſchauen/ und kein Frembder. <hi rendition="#aq">Job. XIX, 26. (Præmittit<lb/>
+<hi rendition="#et">conjunctionem, vel ad ſignificandum conſenſum, cum fidelibus, ſi<lb/>
+ſumatur copulativè: Et ego ſcio, cum reliqvis; vel ad affirma-<lb/>
+tionem ſtabilendam, cui particula iſthæc nonnunqvam inſervit,<lb/>
+ab initio ſentontiæ, ut rectè vertatur, certò ſcio, qvæ certitudo<lb/>
+magis confirmatur, tum per Pronomen, Ani, &amp; ego ſcio opti-<lb/>
+mè, ſcientiâ mihi familiari, &amp; tam certâ, ac ſi oculis haurirem, vel<lb/>
+ipsô experimentô didiciſſem; tum per originalem ſignificatio-<lb/>
+nem verbi, Jada, qvod omnem dubitationem excludit &amp; affert<lb/>
+firmam mentis adhæſionem, ad rem ſatis ſuperq́; exploratam.<lb/>
+Gen. 48. v. 19. <hi rendition="#i">Joh. Gerhardus, L. L. Theol. L. de Juſtiſic. per<lb/>
+fidem</hi> §. <hi rendition="#i">67. p. 317.</hi>)</hi></hi><lb/>
+Dann das iſt das ewige Leben/ daß ſie dich (Vater) daß<lb/>
+du allein wahrer GOtt biſt/ und den du geſand haſt/ JE-<lb/>
+ſum CHriſtum/ erkennen. <hi rendition="#fr">Das iſt/</hi> wird wol eben ſo<lb/>
+viel ſeyn/ als <hi rendition="#fr">darin beſtehet</hi> das ewige Leben/ <hi rendition="#aq">(<hi rendition="#i">Hávte,</hi> id<lb/>
+<hi rendition="#et">eſt, <hi rendition="#i">tuto,</hi> hoceſt vita æterna, ſeu in hoc conſiſtit vita æterna, vel<lb/>
+etiam, hoc eſt cauſa vitæ æternæ. <hi rendition="#i">Glasſius lib. III. Philolog. Sacr.<lb/>
+Tract. I. Canone XIX. p. m. 430.</hi>)</hi></hi><lb/>
+Daß ſie dich/ erkennen/ <hi rendition="#aq">ginóskosi,</hi> nicht oben hin/ ſondern/<lb/>
+eigentlich/ und ſo gnau/ als immer moͤglich/ wie nicht nur<lb/>
+dieſes Wort/ ſondern auch der ſelbſte <hi rendition="#aq">context,</hi> anzeiget/<lb/>
+darin zu erkennende ſo/ fuͤr ſich/ beſchrieben/ als auch/ von<lb/>
+andern/ deutlich entſchieden werden. So laͤſſet ſich auch<lb/>
+ſonſt der groſſe GOtt dergeſtalt vernehmen: Durch ſein<lb/>
+<fw place="bottom" type="sig">D</fw><fw place="bottom" type="catch">Er-</fw><lb/>
+<pb facs="#f0026" n="26"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+Erkaͤntnuͤs/ verſtehe/ dadurch andere Jhn erkennen/ wird Er/<lb/>
+mein Knecht/ der Gerechte/ viel gerecht machen. <hi rendition="#aq">Jeſ. LIII, 11.<lb/>
+<hi rendition="#et">(Ubi ſcientia juſti ſervi non eſt activa, qvâ ille nos ſcit, 2. Tim.<lb/>
+2, 19. Sed paſſiva, qvâ ille ſcitur. <hi rendition="#i">Qvenſt. Syſtem. Theol. Part.<lb/>
+III. Cap. VIII. p. 282.</hi>)</hi></hi><lb/>
+Nachdencklich iſt/ was der ſelbſte Seelen-Braͤutigam ſei-<lb/>
+ner Freundin zugeſtehet. Du haſt mir das Hertze genom-<lb/>
+men/ meine Schweſter/ liebe Braut/ mit deiner Augen ei-<lb/>
+nem. <hi rendition="#aq">Cant. IV,</hi> 9. Das Auge iſt warhafftig der Glaube.<lb/>
+<hi rendition="#et"><hi rendition="#aq">(Meritò unô oculô Chriſtus videtur: Qvia non videtur oculô<lb/>
+carnali: Aut qvia duos oculos habens eccleſia, moralem &amp; my-<lb/>
+ſticum, fidei oculô plus videt Chriſtum. <hi rendition="#i">Ambroſ. Serm. XI. in<lb/>
+Pſalm. CXVIII. f. 37.</hi>)</hi></hi><lb/>
+Solte das Auge nicht ſehen/ und den/ welchem es das Her-<lb/>
+tze nimmet/ erkennen/ wuͤrde es ein todtes/ blindes/ Auge<lb/>
+ſeyn/ und ſo ſchlechte Thaten thun. Doch kan kein Auge<lb/>
+etwas ſehen/ es komme dann ein Liecht darzu/ ſo das <hi rendition="#aq">ob-<lb/>
+jectum viſus,</hi> oder/ zum Schau/ auffgefuͤhrete Weſen/ be-<lb/>
+ſtrale und beſcheine; Wiewol gleich gilt/ ob es dieſem ſelbſt<lb/>
+inwohne/ oder/ von auſſen/ zugeſellet werde/ wann es nur<lb/>
+das Zuſehende ſcheinbar fuͤrſtellet. Wenigſtens muß ein<lb/>
+<hi rendition="#aq">diaphanès, (<hi rendition="#i">Ariſtot. II. de Animâ, Cap. VII. Textu <hi rendition="#g">LXVIII.</hi></hi>)</hi><lb/>
+oder <hi rendition="#aq">medium luminoſum,</hi> zwiſchen das Auge/ und deſſen<lb/>
+Abziel/ fallen/ wo jenes ſeinen Zweck erreichen ſoll. <hi rendition="#aq">(<hi rendition="#i">Vid.</hi><lb/>
+<hi rendition="#et"><hi rendition="#i">Magirus, Comment. in Phyſiolog. ſuam, Cap. VII. Lib. VI.<lb/>
+p. 522.</hi>)</hi></hi><lb/>
+Der Glaube kan CHriſtum nicht ſehen/ er ſchaue dann/ in<lb/>
+das Wort GOttes/ ſo die Leuͤchte unſerer Fuͤſſe/ und das<lb/>
+Liecht/ auf unſerm Wege/ iſt. <hi rendition="#aq">Pſalm. CXIX,</hi> 105. Jn dem<lb/>
+Liecht/ ſehen wir das Liecht. <hi rendition="#aq">Pſalm. XXXVI,</hi> 11. Das Liecht/<lb/>
+<fw place="bottom" type="catch">wel-</fw><lb/>
+<pb facs="#f0027" n="27"/>
+<fw type="header" place="top"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+welches JEſus CHriſtus iſt. <hi rendition="#aq">Joh. VIII,</hi> 12. Denn wir ha-<lb/>
+ben ein feſtes/ Prophetiſches/ Wort/ und ihr thut wol/ daß<lb/>
+ihr darauff achtet/ als auf ein Liecht/ das da ſcheinet/ in ei-<lb/>
+nen dunckeln Orth/ biß der Tag anbreche/ und der Mor-<lb/>
+genſtern (iſt der HErꝛ JEſus/ <hi rendition="#aq">Apoc. XXII,</hi> 17.) aufgehe/ in<lb/>
+euͤren Hertzen. 2. <hi rendition="#aq">Pet. I,</hi> 19. Darum̃ muß die/ <hi rendition="#fr">von Glaubiz/</hi><lb/>
+oder/ von dem wahren Glauben/ zubenennende Seele/<lb/>
+nach dieſem Liecht/ ihre Augen wenden/ und die ſelbſte H.<lb/>
+GOttes Schrifft/ bevorab/ von CHriſto/ ſeinem Ver-<lb/>
+dienſt/ und daher entſtehenden Gnade GOttes/ ſambt an-<lb/>
+derer Zubehoͤr/ erkennen/ wiſſen und verſtehen. Dann<lb/>
+wie ſollen ſie glauͤben/ von dem ſie nichts gehoͤret haben?<lb/>
+(nichts wiſſen?) Wie ſollen ſie aber hoͤren/ ohne Predi-<lb/>
+ger? <hi rendition="#aq">Rom. X,</hi> 14. Und nachmahls: So koͤmmet der Glau-<lb/>
+be/ aus der Predigt; das Predigen aber/ durch das Wort<lb/>
+GOttes. <hi rendition="#aq">v.</hi> 18. Was kan nachdruͤcklicher geſagt werden?<lb/>
+Denn der Hocherleuͤchtete Mann GOttes verneiñt hiemit<lb/>
+offenbarlich/ daß man/ an den/ glauͤben koͤnne/ von wel-<lb/>
+chem/ man nichts weiß oder gehoͤret hat; Und erhaͤrtet/ im<lb/>
+Gegentheil/ daß der Glaube/ aus dem Worte/ komme/<lb/>
+und ſich folglich auch darauff beziehe. <hi rendition="#aq">(In hunc enim finem<lb/>
+<hi rendition="#et">iſthæc inſtituta eſt gradatio, ut oſtenderetur, qvodnam ſit pro-<lb/>
+ximum medium conſeqvendi fidem illam juſtificantem, de qva<lb/>
+ſupra dixerat, nimirum auditum verbi divini, per qvem Deus, in<lb/>
+hominum cordibus, fidem accendit. <hi rendition="#i">Balduin. Comment. in Epiſt.<lb/>
+ad Rom. p. m. 197.</hi>)</hi></hi><lb/>
+Doch iſt es/ an der bloſſen Erkaͤntnuͤs/ nicht genug; Weil<lb/>
+unſer Heyland außdruͤcklich betheuͤret/ daß nicht alle/ die/<lb/>
+zu ihm/ ſagen/ HERR/ HERR/ in das Himmelreich/ kom-<lb/>
+<fw type="sig" place="bottom">D 2</fw><fw type="catch" place="bottom">men</fw><lb/>
+<pb facs="#f0028" n="28"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+men werden. <hi rendition="#aq">Matth. VII,</hi> 21. Und etwa auch die aͤrgeſten Un-<lb/>
+Chriſten/ ja/ gar <hi rendition="#aq">Athei,</hi> eine ziemliche Erkaͤntnuͤs und<lb/>
+Wiſſenſchafft des Wortes der Warheit haben/ ſo ſie doch<lb/>
+wuͤrcklich uͤbertreten und unterdruͤcken/ als Schrifft und<lb/>
+Erfahrung zeuͤgen. <hi rendition="#aq">(<hi rendition="#i">Pſalm. L. 16. 17. 18 19. 20. Rom. 11, 17. 18. ſeq.</hi></hi><lb/>
+<hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">&amp; Epiſtola Matthai Cnuzen, Holſati, apud Hartnac. in<lb/>
+Continuat. Syntag. Hiſtoriarum Eccleſiæ omnium Micrælij-<lb/>
+pag. Syntag. 1262. 1263.</hi>)</hi></hi><lb/>
+Wehe aber denen/ die da haben den Schein eines Gottſee-<lb/>
+ligen Weſens/ und ſeine Krafft verlauͤgnen—die werdens/<lb/>
+in die Laͤnge nicht treiben. 2. <hi rendition="#aq">Tim. III,</hi> 5. 9. Die Thoren/ ſo/<lb/>
+in ihren Hertzen/ ſprechen/ es iſt kein GOtt/ tuͤgen gewiß-<lb/>
+lich nicht/ und ſind ein Greuͤel/ mit ihrem Weſen. <hi rendition="#aq">Pſalm.<lb/>
+XIV, 1. &amp; LIII,</hi> 1. Die ohne <hi rendition="#g">GOTT</hi> ſind/ ſind auch/ ohne<lb/>
+Hoffnung/ ohne CHriſto/ frembde und auſſer der Buͤr-<lb/>
+gerſchafft Jſraelis/ und frembde/ von den Teſtamenten<lb/>
+der Verheiſſung/ und ſo auch/ von dem wahren ſeeligma-<lb/>
+chenden Glauben/ und deſſen Ende/ oder der ſelbſten Se-<lb/>
+ligkeit. <hi rendition="#aq">Eph. II, 12. I. Pet. I,</hi> 9.</p><lb/>
+<p>Auch der Beyfall machet es nicht aus; Weil den die<lb/>
+ſelbſten Teuffel haben und doch erzittern. <hi rendition="#aq">Jac. II,</hi> 19. Traun<lb/>
+ſie laͤugnen nicht/ daß JEſus GOttes Sohn/ und inſon-<lb/>
+derheit/ ſie zu quaͤlen/ kommen ſey/ ob ſchon ſie daſſelbige/<lb/>
+als zu fruͤhzeitig/ außſchreyen. <hi rendition="#aq">Matth. VIII, 29. Marc. V,</hi> 8.<lb/>
+Sie bekennen/ durch die Magd/ ſo einen Wahrſager-Geiſt<lb/>
+hatte/ offentlich/ daß das Wort Pauli/ und feiner Gefaͤhr-<lb/>
+ten/ der Weg/ zur Seligkeit/ ſey. <hi rendition="#aq">Act. XVI,</hi> 17. Der Verſu-<lb/>
+cher CHriſti weiß die ſelbſte H. Schrifft/ zu ſeinem Vor-<lb/>
+theil/ anzuziehen/ und ſo ſeinen Beyfall/ gegen dieſelbe/<lb/>
+<fw type="catch" place="bottom">kund</fw><lb/>
+<pb facs="#f0029" n="29"/>
+<fw type="header" place="top"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+kund zu machen. <hi rendition="#aq">Matth. IV,</hi> 6. Aber was hilffet ſie das?<lb/>
+Sie erzittern nichts deſto minder/ und haben ſich dieſes<lb/>
+Glaubens wenig zu erfreuen. <hi rendition="#aq">(Premenda eſt emphaſis verbi,<lb/>
+<hi rendition="#et"><hi rendition="#i">phríssein.</hi> Nam Græci ſignificaturi metum vehementisſimum,<lb/>
+eumq́; ſubitaneum, qvô qvis cotripitur, uſurpare ſolent verbum,<lb/>
+<hi rendition="#i">phríssein</hi>: Nam hôc ſenſu invenies hanc vocem, apud Plutar-<lb/>
+chum &amp; alios, qvò etiam ducit radix vocis. Nam <hi rendition="#i">phríx</hi> eſt fre-<lb/>
+mitus &amp; horror maris ac fluctuum. Docere vult Apoſtolus,<lb/>
+qvod ea ſit natura fidei Dæmonum, ut, qvò plura noverunt, de<lb/>
+myſterijs divinis, eò majora metuant tormenta: tantùm abeſt,<lb/>
+fides, qvam habent, ſpem ſalutis ingeneret. <hi rendition="#i">Brochmandus Com-<lb/>
+ment. in Epiſt. Jacobi f. m. 59.</hi>)</hi></hi><lb/>
+Das iſt wol wahr/ daß/ wer recht glauͤben will/ dem jeni-<lb/>
+gen/ was/ und/ an was/ er zu glauͤben hat/ ſchlechter Din-<lb/>
+ge beypflichten/ und in ſo ferne ſeine Vernunfft/ unter den<lb/>
+Gehorſam des Glaubens/ gefangen nehmen muß. 2. <hi rendition="#aq">Cor.<lb/>
+X,</hi> 5. Sintemahl CHriſtus ſpricht: So ihr nicht glauͤ-<lb/>
+bet/ daß Ichs ſey/ ſo werdet ihr ſterben/ in euren Suͤnden.<lb/>
+<hi rendition="#aq">Joh. VIII,</hi> 24. Und der Brieff/ an die <hi rendition="#aq">Ebræer:</hi> Das Wort<lb/>
+der Prediger halff jene nichts/ da nicht glauͤbeten die/ ſo es<lb/>
+hoͤreten. <hi rendition="#aq">Heb. IV,</hi> 2. Damit aber iſt es gleichwol nicht<lb/>
+gaͤntzlich gethan; Sondern annoch noͤthig/ daß man der-<lb/>
+maſſen geglauͤbetes/ vor ſeines Hertzens Freude und Troſt/<lb/>
+halte/ und darauff ſein einiges Vertrauen ſetze; und ſo<lb/>
+zwar bekenne: Ich glauͤbe allem/ was geſchrieben ſtehet/<lb/>
+im Geſetze und in den Propheten. <hi rendition="#aq">Act. XXIV,</hi> 14. Aber<lb/>
+auch: Ich verlaſſe mich/ auf dein Wort. <hi rendition="#aq">Pſalm. CXIX,</hi> 42.<lb/>
+Inſonderheit aber: Nach dir/ HERR/ verlanget mich/<lb/>
+mein GOtt/ ich hoffe/ auf dich. <hi rendition="#aq">Pſalm. XXV. v.</hi> 2. Mein<lb/>
+GOTT! Was fuͤr eine ſchoͤne Glaubens-Rede iſt <hi rendition="#fr">mein</hi><lb/>
+<fw type="sig" place="bottom">D 3</fw><fw type="catch" place="bottom">GOtt!</fw><lb/>
+<pb facs="#f0030" n="30"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+<hi rendition="#g">GOTT!</hi> Denn hiemit ſiehet nicht allein das Davids-<lb/>
+Hertz/ auf den GOtt/ welcher/ mit der Zeit/ gar ſein Sohn<lb/>
+werden ſolte; <hi rendition="#aq">Jerem. XXIII,</hi> 5. 6. Sondern eignet ihme auch<lb/>
+Denſelben dergeſtalt zu/ als weñ er niemandes mehr/ als ſein<lb/>
+eigen/ Gott waͤre. So auch die/ von Glaubiz/ eine jede/ durch<lb/>
+den Glauben/ mit Chriſto/ vertrauete Seele. <hi rendition="#aq">Hoſ. II,</hi> 19.</p><lb/>
+<p>Die hat dieſen GOtt/ wie/ vor ihren HErꝛn/ alſo<lb/>
+auch Ehe-Herꝛn/ zu erkennen/ und ſo/ auf denſelben/ als<lb/>
+den allergetreuͤeſten Ehe-Gatten/ der ſich Jhr/ mit alle<lb/>
+dem/ was ſein iſt/ zu eigen ſchencket/ zuverſichtlich zu hof-<lb/>
+fen und ſich zu verlaſſen. Anfangs zwar muß Sie ge-<lb/>
+troſt zugreiffen und Jhr dieſen Mann nehmen; Jch will<lb/>
+ſagen/ Jhr denſelben/ mit dem/ was Er Jhr erworben/<lb/>
+zueignen. Deñ CHriſtus will genommen ſeyn/ und zwar/<lb/>
+durch den Glauben; Darumb der H. Johannes ſchrei-<lb/>
+bet: So viel ihn aber aufnahmen/ <hi rendition="#aq">Hósoi dè elabon avtòn,</hi><lb/>
+ſo viel Jhn aber nahmen/ denen gab Er Macht/ GOttes<lb/>
+Kinder zu werden/ die/ an ſeinen Nahmen/ glauͤben. <hi rendition="#aq">Joh.<lb/>
+I,</hi> 12. Hier naͤchſt/ ja/ indem (denn diß zweyes leidet we-<lb/>
+der Zeit- noch Weſens-Unterſcheid) muß Sie Dero Hertz<lb/>
+lauterlich/ in die Liebe JEſu/ legen/ und/ bey Jhr ſelbſt/<lb/>
+gedencken: Was ich itzt lebe/ im Fleiſch/ das lebe ich/ in<lb/>
+dem Glauben des Sohnes GOttes/ der <hi rendition="#fr">mich</hi> geliebet<lb/>
+hat/ und ſich ſelbs/ <hi rendition="#fr">fuͤr mich/</hi> dargegeben. <hi rendition="#aq">Gal. II,</hi> 20. Er<lb/>
+iſt <hi rendition="#fr">mir</hi> gemacht/ von GOtt/ zur Weißheit/ und zur Ge-<lb/>
+rechtigkeit/ und zur Heiligung/ und zur Erloͤſung. 1. <hi rendition="#aq">Cor.<lb/>
+I,</hi> 30. Jn dem HERRN/ <hi rendition="#fr">habe ich</hi> Gerechtigkeit und<lb/>
+Staͤrcke. <hi rendition="#aq">Jeſ. XLV,</hi> 24. <hi rendition="#fr">Mein</hi> Freund iſt <hi rendition="#fr">mein/</hi> und ich bin<lb/>
+<fw place="bottom" type="catch">ſein.</fw><lb/>
+<pb facs="#f0031" n="31"/>
+<fw type="header" place="top"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+ſein. <hi rendition="#aq">Cant. II, 16. (Intelligimus apprehenſionem, non theoreticam,<lb/>
+<hi rendition="#et">nudè aſſentitivam, qvùm qvis, in intellectu ſuo, pro indubitato,<lb/>
+habet, Chriſtum, non tantum, pro omnibus, ſed etiam, pro ſe, in<lb/>
+individuo, eſſe mortuum; Ita enim vel ipſi impij, qvi non deſi-<lb/>
+derant, ut, propter Chriſti meritum, ſibi obtingat ſalus, inferre<lb/>
+poſſunt; Sed practicam, qvæ totius cordis &amp; voluntatis, in me-<lb/>
+rito Chriſti, recumbentiam involvit. <hi rendition="#i">Qvenſted. Syſt. Theol. Part.<lb/>
+III. de fide Juſtif. Cap. VIII. Sect. I.</hi> Theſi X. <hi rendition="#i">König, Theol. Po-<lb/>
+ſit. Acroam.</hi> §. <hi rendition="#i">899. p. 262.</hi>)</hi></hi><lb/>
+Das alles endet ſich/ in dem guten Vertrauen/ durch Chri-<lb/>
+ſtum/ zu GOTT/ 2. <hi rendition="#aq">Cor. III,</hi> 4. Daß unſere Glaubizin<lb/>
+Jhr Haupt getroſt Himmel an hebet/ und/ in Ihrer See-<lb/>
+len/ ſaget: Jſt GOtt fuͤr uns/ wer mag wieder uns ſeyn?<lb/>
+Welcher auch ſeines eingebohrnen Sohnes nicht hat ver-<lb/>
+ſchonet/ ſondern hat Jhn/ fuͤr uns alle/ dahin gegeben/<lb/>
+wie ſolte Er <hi rendition="#fr">uns/ mit Jhm/</hi> nicht alles ſchencken? Wer<lb/>
+will die Außerwehleten GOttes beſchuldigen? GOtt iſt<lb/>
+hie/ der gerecht machet. Wer will verdam̃en? <hi rendition="#fr">Chriſtus<lb/>
+iſt hie/</hi> der geſtorben iſt/ ja vielmehr/ der auch aufferwe-<lb/>
+cket iſt/ welcher iſt/ zur Rechten GOttes/ (Jedoch aber auch/<lb/>
+durch den Glauben/ in unſerem Hertzen/ <hi rendition="#aq">Eph. III,</hi> 17.) und vertritt<lb/>
+uns. <hi rendition="#aq">Rom. VIII,</hi> 31. 32. 33. 34. Das machet zuſammen die<lb/>
+<hi rendition="#aq"><hi rendition="#i">bypoſtaſin,</hi> firmam, immotam, imperterritam, fiduciam,</hi> oder<lb/>
+gewiſſe Zuverſicht. <hi rendition="#aq">Heb. XI,</hi> 1. Jn welcher Anſehen/ der wah-<lb/>
+re/ ſeligmachende/ Glaube eigentlich iſt/ was er iſt: Ein<lb/>
+gantz ungemeiner <hi rendition="#aq">Magnet,</hi> CHriſtum/ nach ſich/ zu ziehen/<lb/>
+<hi rendition="#et"><hi rendition="#aq">(Qvemadmodum enim, in corporibus naturalibus, qvidam at-<lb/>
+tractus ineſt qvibusdam, ad qvædam, veluti magneti, lapidi, ad<lb/>
+ferrum, &amp; bitumini, qvod dicitur, Naphtha, ad ignem: Ita fidei<lb/>
+ad divinam virtutem, <hi rendition="#i">Origenes in cap. 13. Matth.</hi></hi></hi><lb/>
+<fw type="catch" place="bottom">Eine</fw><lb/>
+<pb facs="#f0032" n="32"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+Eine liebe Hand/ JEſum zu faſſen und zu halten/ <hi rendition="#aq">Cant. III.</hi><lb/>
+<hi rendition="#et">(Das Wort iſt gleichſam die <hi rendition="#fr">Gebehand/</hi> damit GOtt der<lb/>
+him̃liſche Vater/ in CHriſto JEſu/ alle ſeine Guͤter reichet.<lb/>
+Aber der Glaube iſt die <hi rendition="#fr">Nehmehand/</hi> damit der Menſche<lb/>
+dieſe angebothene Guͤter ergreiffet/ und/ in ſein Hertz/ einſen-<lb/>
+cket. Der Glaube iſt die ſtarcke Hand Jacob/ welche den<lb/>
+Sohn GOttes/ in ſeinen Armen/ das iſt/ in ſeinen heiligen/<lb/>
+theuren/ Verheiſſungen/ ergreifft/ und Jhn ſo feſte haͤlt/ daß<lb/>
+Er nicht entweichen/ ſondern ſeinen Goͤttlichen Segen kraͤff-<lb/>
+tiglich ertheilen muß/ ꝛc. <hi rendition="#aq">Steph. Klotz,</hi> <hi rendition="#fr">im Geiſtl. Cypreſ-<lb/>
+ſen-Kraͤntzlein.</hi> <hi rendition="#aq">p. m.</hi> 354.)</hi><lb/>
+Und endlich eine feſte Saͤule/ die ſelbſte Seele wol zu gruͤn-<lb/>
+den und zu ſtuͤtzen; Den Knochen nicht ungleich/ durch<lb/>
+welche/ die gantze Laſt des hinfaͤlligen Leibes/ vor den<lb/>
+wancken und ſincken/ bewahret wird. <hi rendition="#aq">(Oſſa ſunt firmamen-<lb/>
+<hi rendition="#et">tum corporis, ſie animæ firmamentum eſt fides. <hi rendition="#i">Botſas. in Mo-<lb/>
+ral. Gedanenſ. ex Aug. tom. 8. col. 1079.</hi>)</hi></hi><lb/>
+Nur muß man/ an dieſelbe/ nicht boßhaffte Haͤnde legen/<lb/>
+und ſie/ durch frevele Suͤnden/ von ihrem Orte/ bewegen/<lb/>
+als die thun/ ſo Brandmahle/ in ihr Gewiſſen/ bekommen.<lb/>
+1. <hi rendition="#aq">Tim. IV,</hi> 2. Die/ in der That/ auch/ von dem Glauben/<lb/>
+abtreten; Ja/ denſelben gar ver- und zerbrechen/ als Pau-<lb/>
+lus/ von den geilen Wittwen ſchreibet. 1. <hi rendition="#aq">Tim. V,</hi> 10. Viel-<lb/>
+mehr hat man hohe Urſach/ dieſe Saͤule gebuͤhrend zu be-<lb/>
+wahren und zu bewehren. Der H. Apoſtel/ ob er ſich<lb/>
+ſchon/ von Hertzen freuet/ in dem er der Coloſſer Ord-<lb/>
+nung und ihren feſten Glauben ſtehet; erachtet es den-<lb/>
+noch hoher Nothwendigkeit/ dieſelben alſo zu ermahnen:<lb/>
+Wie ihr nun angenommen den HErꝛn JEſum Chriſtum/<lb/>
+ſo wandelt/ in Jhm/ und ſeyd gewurtzelt und erbauet/ in<lb/>
+<fw place="bottom" type="catch">Jhm/</fw><lb/>
+<pb facs="#f0033" n="33"/>
+<fw type="header" place="top"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+Jhm/ und ſeyd feſte/ im Glauben/ wie ihr gelehret ſeyd/<lb/>
+und ſeyd/ in demſelben/ reichlich danckbar. <hi rendition="#aq">Col. II,</hi> 6. Jn<lb/>
+dem Vorhergehenden bedinget Er hiemit ein ſehr groſſes<lb/>
+Werck: Nu aber hat Er euch verſoͤhnet/ mit dem Leibe<lb/>
+ſeines Fleiſches/ durch den Todt/ auf daß Er euch darſtel-<lb/>
+let heilig und unſtraͤfflich/ und/ ohne Tadel/ fuͤr Jhm ſelbſt;<lb/>
+So ihr anders bleibet ihm Glauben/ gegruͤndet und<lb/>
+feſte und unbeweglich. <hi rendition="#aq">Col. I. v. 21. ſeq.</hi> Das kan nicht wol<lb/>
+ſeyn/ wo nicht zugleich Hand angeleget wird/ den Beſtand<lb/>
+dieſer Veſte/ mit tuͤchtigen Wercken/ beſtmoͤglichſt zu um̃-<lb/>
+bauen/ und ſo/ wie den Beruff und Wahl/ alſo auch ſelb-<lb/>
+ſten glauben/ auf welchen ſich beyde beziehen/ wenigſt/ zur<lb/>
+mehrer Verſicherung/ feſte zu machen. Dahin gehet die<lb/>
+Vermahnung <hi rendition="#aq">Petri:</hi> So wendet allen euͤren Fleiß daran/<lb/>
+und reichet dar/ in eurem Glauben/ Tugend/ und/ in der<lb/>
+Tugend/ Beſcheidenheit/ und/ in der Beſcheidenheit/ Maͤſ-<lb/>
+ſigkeit/ und/ in der Maͤßigkeit/ Gedult/ und/ in der Ge-<lb/>
+dult/ Gottſeligkeit/ und in der Gottſeligkeit/ Bruͤderli-<lb/>
+che Liebe/ und/ in der Bruͤderlichen Liebe/ gemeine Liebe.<lb/>
+Denn wo ſolches reichlich bey euch iſt/ wirds euch nicht<lb/>
+faul noch unfruchtbar ſeyn laſſen/ in der Erkaͤntnuͤs un-<lb/>
+ſeres HErꝛn JEſu CHriſti. Welcher aber ſolches nicht<lb/>
+hat/ der iſt blind und tappet/ mit der Hand/ und vergiſ-<lb/>
+ſet der Reinigung ſeiner vorigen Suͤnde. Darumb lie-<lb/>
+ben Bruͤder/ thut deſto mehr Fleiß/ euͤren Beruff und Er-<lb/>
+wehlung feſt zu machen/ <hi rendition="#aq">II. Petr. I. v. 5. 6. ſeq.</hi> (Das iſt nun<lb/>
+<hi rendition="#et">eine ſolche Weiſe der Schrifft/ zu reden/ wie S. Paulus re-<lb/>
+det/ <hi rendition="#aq">Eph. II,</hi> 12. Jhr waret Gaͤſte/ in den Teſtamenten der<lb/>
+Verheiſſung/ daher ihr keine Hoffnung hattet/ und waret/ oh-</hi><lb/>
+<fw type="sig" place="bottom">E</fw><fw type="catch" place="bottom">ne</fw><lb/>
+<pb facs="#f0034" n="34"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+<hi rendition="#et">ne GOtt/ in der Welt. Denn ob gleich kein Menſch we-<lb/>
+der boͤſe/ noch gut iſt/ uͤber welchen GOtt nicht HErr ſey;<lb/>
+Sintemahl alle Creaturen ſein ſind/ dennoch ſagt Paulus/<lb/>
+daß der keinen GOtt habe/ welcher ihn nicht erkennet/ lieb<lb/>
+hat/ und/ auff ihn/ trauet/ wiewol Er/ an Khm ſelbſt/ GOtt<lb/>
+bleibet. Alſo auch hie; Wiewol der Beruff und Erweh-<lb/>
+lung fuͤr ſich ſtarck gnug iſt/ ſo iſt ſie doch nicht/ bey dir/ ſtarck<lb/>
+und feſt/ weil du noch nicht gewiß biſt/ daß ſie dich betreffe;<lb/>
+Darumb will Petrus/ daß wir uns ſolchen Beruff und Er-<lb/>
+wehlung/ mit guten Wercken/ feſt machen. Alſo ſieheſt du/<lb/>
+was dieſer Apoſtel den Fruͤchten des Glaubens glebet/ wie-<lb/>
+wol dieſelbe dem Naͤchſten gehoͤren/ daß ihm damit gedie-<lb/>
+net werde/ ſo bleibt doch auch die Frucht nicht auſſen/ daß der<lb/>
+Glaube dadurch ſtaͤrcker wird. <hi rendition="#aq">Lutherus, Thom IV. Altenb.<lb/>
+Item Tom. I. Altenb.</hi> Es iſt kein Werck/ darinnen man ſo<lb/>
+eben empfindet und fuͤhlet die Zuverſicht und Glauben/ als<lb/>
+den Nahmen GOttes ehren/ und hilfft ſehr den Glauben ſtaͤr-<lb/>
+cken und mehren/ wiewol alle Wercke helffen auch darzu/<lb/>
+wie S. Petrus ſagt: Lieben Bruͤder/ habt Fleiß/ daß ihr/<lb/>
+durch gute Wercke/ euͤre Beruffung und Erwehlung gewiß<lb/>
+machet.)</hi><lb/>
+Ob nun ſchon die/ von Petro/ erheiſchete und/ mit ihnen/<lb/>
+verbundene/ heilige/ Chriſten-Tugenden weder das We-<lb/>
+ſen des GOtt-gefaͤlligen Glaubens einlauffen/ noch auch/<lb/>
+in das Ende deſſelben/ der Seelen Seeligkeit/ und fuͤrher-<lb/>
+gehende Rechtfertigung/ nach unſerem Evangeliſchen<lb/>
+Glauben/ wuͤrckend und verdienſtlich/ einflieſſen; Kan man<lb/>
+ſie doch von demſelben/ ſo wenig abſondern/ als wenig<lb/>
+Licht und Waͤrmde/ von der/ ihr ſelbſt gelaſſenen/ Sonne/<lb/>
+moͤgen <hi rendition="#aq">ſepari</hi>ret werden. Vielmehr ſind ſie ſolchem ſo<lb/>
+noͤthig/ als erfordert wird/ von einer lebendigen Seelen/<lb/>
+<fw place="bottom" type="catch">daß</fw><lb/>
+<pb facs="#f0035" n="35"/>
+<fw type="header" place="top"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+daß ſie ſich/ mit Regen und Bewegen ihres Leibes/ zum<lb/>
+wenigſten/ mit Athemen und dergleichen/ zum Zeichen ih-<lb/>
+rer Anweſenheit/ herfuͤr thue. Denn der Glaube iſt/ ohne<lb/>
+Wercke/ todt. <hi rendition="#aq">Jac. II. v.</hi> 20. Will man nun ſeines Lebens<lb/>
+verſichert ſeyn/ muß er ſeine Wercke zeigen. Dadurch wird<lb/>
+er/ in ſo weit/ vermehret/ als einem Baume geſchiehet/ der<lb/>
+die reiffen Fruͤchte zeiget/ oder vielmehr traͤget. Wie aber/<lb/>
+von dieſer Art Pflantzen der HErꝛ JEſus ſaget: Ein jeg-<lb/>
+licher Baum/ der nicht gute Fruͤchte bringet/ wird abge-<lb/>
+hauen/ und/ ins Feuer/ geworffen: <hi rendition="#aq">Matth. VII,</hi> 19. Alſo hat<lb/>
+man/ von dem Lieb- und Werck-loſen Glauben/ zugewar-<lb/>
+ten. Darumb die Augſpurgiſchen Bekenner/ ſo willig/<lb/>
+als billich/ ſetzen: <hi rendition="#aq">Docent (<hi rendition="#i">Eccleſiæ noſtræ unanimi conſenſu</hi>)<lb/>
+qvod fides illa debeat bonos fructus parere &amp; qvod oporteat<lb/>
+bona opera facere. (<hi rendition="#i">Auguſtan. Confeſſ. Artic. VI. &amp; qvi concordat,</hi><lb/>
+<hi rendition="#et"><hi rendition="#i">Artic. XX. inqve Form. Concord. Artic. IV. Theſ. Affirm.</hi> §. <hi rendition="#i">3.</hi>)</hi></hi><lb/>
+Unſere Kirchen lehren/ mit einhelliger Ubereinſtim̃ung/ daß<lb/>
+der Glaube ſolle gute Fruͤchte tragen/ und/ daß er muͤſſe<lb/>
+gute Wercke thun. Der ſeelige <hi rendition="#aq">Lutherus</hi> redet viel/ von<lb/>
+<hi rendition="#aq">fide incarnata, compoſita</hi> und <hi rendition="#aq">concreta;</hi> Und iſt das eine<lb/>
+alte Regul der Chriſtlichen Kirchen: <hi rendition="#aq">Fides juſtificat ſola,<lb/>
+qvamvis nunqvam ſit ſola.</hi> <hi rendition="#fr">Der Glaube</hi> rechtfertiget al-<lb/>
+lein/ doch iſt er niemahls allein. <hi rendition="#aq"><hi rendition="#i">(Gerbard. L. de juſtif. per fi-<lb/>
+dem</hi> §. <hi rendition="#i">112. p. m. 361.)</hi></hi> So auch/ in der Wahrheit/ kein muͤßig/<lb/>
+ſchlaͤffrig und faul Weſen/ ſondern/ durch die Liebe/ thaͤtig.<lb/>
+<hi rendition="#aq">Gal. V,</hi> 6. (Der Glaube iſt keine ſchlechte/ bloſſe und krafftloſe Ein-<lb/>
+<hi rendition="#et">bildung/ die/ auf dem Hertzen/ ſchwebet/ wie eine <hi rendition="#fr">Ganß/</hi> auf<lb/>
+dem Waſſer/ ſondern eine lebendige/ geiſtliche Flamme/ da-<lb/>
+mit die Hertzen/ durch den H. Geiſt/ entzundet werden/ daß</hi><lb/>
+<fw type="sig" place="bottom">E 2</fw><fw type="catch" place="bottom">ſie</fw><lb/>
+<pb facs="#f0036" n="36"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+<hi rendition="#et">ſie begehren und thun/ was GOtt wolgefaͤllt. Wie das Waſ-<lb/>
+ſer/ durchs Feuer erwaͤrmet wird/ ſo machet der Heilige Geiſt/<lb/>
+durch den Glauben/ das Hertze warm/ milde und flieſſend/ zu<lb/>
+allem Guten. Durch den Glauben/ ſchreibet der H. Geiſt<lb/>
+lauter Feuerflammen/ ins Hertz/ und machet es lebendig/ daß<lb/>
+es heraus bricht/ mit feuͤriger Zungen und mit thaͤtiger Hand/<lb/>
+und wird ein neuer Menſch/ der da fuͤhlet/ daß er gar einen<lb/>
+andern Verſtand/ Gemuͤth und Sinn/ gefaſſet habe/ wie zu-<lb/>
+vor/ und iſt nun alles lebendig/ Verſtand/ Liecht/ Muth und<lb/>
+Hertz/ das da brennet und Luſt hat/ zu alle dem/ was GOtt<lb/>
+gefaͤllt. <hi rendition="#fr">Heinrich Muͤller/ im Him̃liſchen Liebes-Kuß</hi><lb/>
+<hi rendition="#aq">cap. 16. p.</hi> 520.<hi rendition="#i">)</hi></hi><lb/>
+Zum wenigſten muß die rechte Hand des Glaubens/ auch<lb/>
+die Lincke des H. Lebens/ zu ihrer Seiten/ haben/ welche die/<lb/>
+fuͤr GOtt/ geltende Gerechtigkeit/ zwar nicht zeuͤgen/ den-<lb/>
+noch zeigen und bezeuͤgen kan. <hi rendition="#aq">(Fides, ut ita explicandi gratia, di-<lb/>
+<hi rendition="#et">cam, duplices habet manus. Unam, qvam extendit ſurſum, &amp;<lb/>
+apprehendit Chriſtum, unà cum omnibus beneficijs ſuis, &amp; hac<lb/>
+parte dicimus, nos juſtificari, per fidem: Alteram, qvam pro-<lb/>
+tendit deorſum, ad exercenda opera caritatis ac reliqvarum vir-<lb/>
+tutum; Et hâc parte teſtificamur qvidem veritatem fidei, non<lb/>
+autem juſtificamur. <hi rendition="#i">Brentius, in Apologia, cont. Würt. p. 319.)</hi></hi></hi><lb/>
+Kurtz: Die Werck kommen gewißlich her/ aus einem rech-<lb/>
+ten Glauben; Weñ das nicht rechter Glaube waͤr/ wollſt<lb/>
+ihn der Werck berauben; Doch macht allein der Glaub<lb/>
+gerecht/ die Werck die ſind des Naͤchſten Knecht/ dabey<lb/>
+wir’n Glauben mercken. Und ſo kan allererſt unſere Glau-<lb/>
+bizin recht/ <hi rendition="#aq">Hemanthi,</hi> Jch glaube/ ſagen.</p><lb/>
+<p>Darzu mag Sie ſo dann ſicherlich ſetzen/ <hi rendition="#aq">Lule,</hi> aber<lb/>
+doch/ ja/ warlich/ gewißlich/ ſicher und unfehlbar/ feſt und ſteiff/ oder/<lb/>
+<fw place="bottom" type="catch">wie</fw><lb/>
+<pb facs="#f0037" n="37"/>
+<fw type="header" place="top"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+wie es Paulus giebet: Jch bin gewiß/ daß weder Tod/<lb/>
+noch Leben/ weder Engel/ noch Fuͤrſtenthumb/ noch Ge-<lb/>
+walt/ weder Gegenwaͤrtiges/ noch Zukuͤnfftiges/ weder<lb/>
+Hohes/ noch Tieffes/ noch keine andere Creatur/ mag uns<lb/>
+(mich) ſcheiden/ von der Liebe GOttes/ die/ in CHriſto<lb/>
+JEſu iſt/ unſerm HErꝛn. <hi rendition="#aq">Rom. VIII,</hi> 39. Denn das iſt<lb/>
+des wahren Glaubens Arth/ daß er allen Zweiffel auß-<lb/>
+ſchleuͤſſet/ ſo/ daß die auch nur/ im Glauben/ bitten wol-<lb/>
+len/ nicht zweiffeln ſollen/ wie <hi rendition="#aq">Jacobus</hi> anzeiget/ wann er<lb/>
+ſchreibet: Er bitte aber/ im Glauben/ und zweiffele nicht.<lb/>
+Denn wer da zweiffelt/ der iſt gleich/ wie die Meers-woge/<lb/>
+die/ vom Winde/ gewebt und getrieben wird. Solcher<lb/>
+Menſch gedencket nicht/ daß er etwas/ von dem HErꝛn/<lb/>
+empfahen werde. Ein Zweiffeler iſt unbeſtaͤndig/ in allen<lb/>
+ſeinen Wegen. <hi rendition="#aq">Jac. II, 6 ſeq.</hi> O! der wuͤchtigen Gruͤnde/<lb/>
+womit hier <hi rendition="#aq">Jacobus</hi> den Zweiffel ſeinen Seelen-Kindern zu-<lb/>
+verleiden ſuchet! Zwar fuͤrnemlich/ im Gebete; Aber doch<lb/>
+auch/ in dem Glauben/ daher aus jenes geben ſoll; Wie<lb/>
+er dann offenbarlich Glauben und Zweiffel gegen einan-<lb/>
+der ſetzet/ und damit bezeuͤget/ daß ſie nicht beyſammen<lb/>
+ſtehen koͤnnen. Entweder kan man/ nach dem Willen<lb/>
+GOttes/ zugleich zweiffeln und glauͤben/ oder nicht? Kan<lb/>
+man; So bedarffs keiner Erinnerung/ vielweniger Er-<lb/>
+mahnung/ daß das Gebet/ im Glauben und nicht Zweif-<lb/>
+fel/ geſchehe. Kan man nicht; So muß eines das andere<lb/>
+nothwendig auffheben/ und der Glaube keinen Zweiffel<lb/>
+neben/ und noch minder/ in ihm ſelber/ leiden. Gehet der<lb/>
+Zweiffel weg/ wird ihm hoffentlich die Gewißheit folgen;<lb/>
+weil ſie beyde auch wieder einander ſind/ und deshalb/ wie<lb/>
+<fw type="sig" place="bottom">E 3</fw><fw type="catch" place="bottom">derglei-</fw><lb/>
+<pb facs="#f0038" n="38"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+dergleichen Art Dinge pflegen/ ſich Wechſels-Weiſe heben<lb/>
+und legen. Ja wol. Denn ſo ſchreibet <hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Johannes:</hi></hi></hi> Wir<lb/>
+wiſſen/ daß wir/ aus dem Tode/ in das Leben/ kommen<lb/>
+ſind. Denn wir lieben die Bruͤder. 1. <hi rendition="#aq">Joh. III,</hi> 14. Der Au-<lb/>
+genſchein giebet/ daß der H. Mann/ von dem Wercke/ zu<lb/>
+der Urſach/ von der Bruder-Liebe/ zu der Wiedergeburth/<lb/>
+ſchlieſſet/ und einen buͤndigen Schluß/ oder <hi rendition="#aq">demonſtration,</hi><lb/>
+wie wol/ <hi rendition="#aq">â poſteriori,</hi> machet. Drumb iſt ſein Wiſſen ein<lb/>
+gewiß ſeyn. Was weiß er ſo aber? Daß die Liebende/ aus<lb/>
+dem Tode/ ins Leben/ und ſo/ aus dem Zorne/ in die Gna-<lb/>
+de/ kommen ſind/ und deshalb recht geiſtlich leben/ in der<lb/>
+Gnade GOttes/ ſtehen/ deſſen Kinder und Erben des ewi-<lb/>
+gen Lebens ſind. Was <hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Johannes</hi></hi></hi> dermaſſen gewiß<lb/>
+machet/ <hi rendition="#aq">deduciret Paulus, à priori;</hi> Jhr habt nicht einen<lb/>
+Knechtlichen Geiſt empfangen/ daß ihr euch abermahl<lb/>
+fuͤrchten muͤſtet; Sondern ihr habt einen Kindlichen<lb/>
+Geiſt empfangen/ durch welchen wir ruffen/ <hi rendition="#aq">Abba,</hi> lieber<lb/>
+Vater. Derſelbige Geiſt giebet Zeugnuͤs unſerm Geiſt/<lb/>
+daß wir GOttes Kinder ſind. Sind wir dann Kinder/<lb/>
+ſo ſind wir auch Erben/ nemlich GOttes Erben und Mit-<lb/>
+Erben CHriſti. <hi rendition="#aq">Rom. VIII, 15. ſeq.</hi> Ach! das Zeugnuͤs des<lb/>
+Heil. Geiſtes muß man warlich gelten laſſen/ und gantz un-<lb/>
+bezweiffelt annehmen. Der aber verſichert/ daß die Jhn<lb/>
+empfangen/ und ſo glauͤbig/ gewiß GOttes Kinder und des<lb/>
+ewigen Lebens Erben/ ſind. Darumb muß Er ſie auch<lb/>
+warlich der Vater-Gnade ſelbſt verſichern. Zumahl/ da<lb/>
+Er ein Kindlicher Geiſt iſt/ und die/ welchen Er beywoh-<lb/>
+net/ von der Knechtlichen Furcht/ befreyet. Von der<lb/>
+Knechtlichen/ ſage ich. Denn ob auch wol/ bey den Kin-<lb/>
+<fw place="bottom" type="catch">dern</fw><lb/>
+<pb facs="#f0039" n="39"/>
+<fw type="header" place="top"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+dern GOttes/ eine Furcht iſt/ ja/ ſeyn ſoll. <hi rendition="#aq">Phil. II. v. 12.<lb/>
+Prov. 24, 21. Prov.</hi> 28, 14. So iſt doch ſolche nicht Knecht-<lb/>
+ſondern Kindlich. Das aber iſt/ zwiſchen beyden/ zum<lb/>
+Unterſcheid/ daß jene/ von der Vater-Liebe und Gnade/<lb/>
+nichts weiß/ die doch dieſe hat. Darumb fuͤrchten ſich<lb/>
+zwar die Glauͤbigen; aber nicht/ aus Mißtrauen/ Zweif-<lb/>
+fel und Verzweiffelung/ an der Vater-Hulde/ ſondern/ aus<lb/>
+Kindlicher <hi rendition="#aq">reverence</hi> und Ehrerbietigkeit; Nicht/ daß ſie<lb/>
+jene nicht haben/ ſondern nicht verliehren moͤgen. Die-<lb/>
+ſerthalben laͤſſet man unſerſeits gerne zu/ daß die Gewiß-<lb/>
+heit/ die ein Glauͤbiger hat/ in Anſehen ſeines kuͤnfftigen<lb/>
+Standes/ Verharrung/ in der Gnade GOttes/ und<lb/>
+wuͤrcklichen Beſitzes him̃liſcher Herꝛligkeit/ zwar gewiß ge-<lb/>
+nug/ aber doch nicht gantz unbedungen ſey/ ſondern ſich/<lb/>
+in dieſe Bedingung/ zerlaſſe/ <hi rendition="#fr">als ferne die hieher gehoͤri-<lb/>
+ge Mittel nicht verachtet werden.</hi> (<hi rendition="#aq">Salutis futuræ &amp; perſe-</hi><lb/>
+<hi rendition="#et"><hi rendition="#aq">verantiæ certitudo non eſt abſoluta, ſed tantùm hypothetica;<lb/>
+qvatenus media perſeverantiæ non ſpernuntur, ſed ſemper ob-<lb/>
+ſervantur, interim tamen infallibilis eſt, qvoad ejus poſſibilita-<lb/>
+tem. <hi rendition="#i">Qvenſt. Hiſt. P. III. c. VIII.</hi> circa Theſin XXIII. p. 527.<lb/>
+Certitudo, de perſeverantia, non eſt abſoluta, ſed hypothetica,<lb/>
+qvatenus media perſeverantiæ non negliguntur, ſed obſervantur.<lb/>
+<hi rendition="#i">Gerhard. Confeſſ. Catholic. Lib. II. Spec. Part. III. Artic.<lb/>
+XXIII. Cap. V. p. m. 726.</hi></hi>)</hi><lb/>
+Doch iſt auch dieſe Gewißheit weder bloß wahrſcheinlich<lb/>
+und vermuthlich/ noch/ in Wahrheit/ ungewiß; Wañ die/<lb/>
+<hi rendition="#fr">von Glaubiz/</hi> nur/ von Hertzen/ entſchloſſen iſt/ ihrem<lb/>
+GOtte getreuͤ zu ſeyn/ und ſich ſeinem Willen gemaͤß zu-<lb/>
+verhalten. Denn ſo kan Sie ſich gewiß verſichern/ daß<lb/>
+auch GOtt/ der HERR/ treuͤ ſeyn/ und Sie/ uͤber Jhr<lb/>
+<fw type="catch" place="bottom">Vermoͤ-</fw><lb/>
+<pb facs="#f0040" n="40"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+Vermoͤgen/ nicht verſuchen werde laſſen. <hi rendition="#aq">I. Cor. X,</hi> 13. Son-<lb/>
+dern vielmehr das gute/ angefangene/ Werck vollfuͤhren/<lb/>
+biß an den Tag JEſu CHriſti; <hi rendition="#aq">Phil. I,</hi> 6. Wie das Wol-<lb/>
+len/ alſo auch das Thun/ nach ſeinem Wolgefallen/ wuͤr-<lb/>
+cken. <hi rendition="#aq">Phil. II,</hi> 13. Abſonderlich/ ſo dieſelbe zugleich <hi rendition="#aq">reſolvi-</hi><lb/>
+ret iſt/ hierumb fleißig zu bitten/ und/ was die Erhoͤrung<lb/>
+ſolchen Gebets hindern koͤnte/ ſind wiſſentliche Suͤnden<lb/>
+und Blut-Schulden/ <hi rendition="#aq">Joh. IX, 31. Jeſ. I, 15. c. LIX,</hi> 3. fuͤr ſichtig<lb/>
+zu verhuͤten. (<hi rendition="#aq">Promiſit Deus, absq́; conditione petentibus exauditio-</hi><lb/>
+<hi rendition="#et"><hi rendition="#aq">nem, ſi petunt ea, qvæ ad ſalutem ſunt neceſſaria. Qvicqvid pe-<lb/>
+tieritis Patrem, in nomine meo, hoc dabitur vobis. Joh. 16. v. 23.<lb/>
+Ego autem, qvi jam converſum me ſcio, ex vera fide, peto per-<lb/>
+ſeverantiam. Certus ergo eſſe poſſum. Deum mihi eam datu-<lb/>
+rum. <hi rendition="#i">Meisnerus, Anthropol. Dec. II. Diſp. VIII. Qv. IV. p. 363.</hi><lb/>
+Nihil impedire poteſt perſeverantiam &amp; excutere Spiritum S.<lb/>
+qvàm peccatum mortale. Hoc autem vitare &amp; fugere, in mea,<lb/>
+præſertim, ſi jam converſus ſum, poteſtate eſt. Qvod ſi igitur<lb/>
+fixa ſit ſententia, me nolle mortaliter peccare, de perſeverantia,<lb/>
+utiq́; certus eſſe poſſum, cum, ſublatâ amisſionis causâ, res non<lb/>
+amittatur. <hi rendition="#i">Idem cit. l. p. m. 364.</hi></hi>)</hi><lb/>
+Jndeſſen iſt das nicht ſchlechthin zuvermengen/ mit der<lb/>
+Glauͤbigen Gewißheit/ von der gegenwaͤrtigen Gnade und<lb/>
+daran hangenden Suͤnden-Vergebung/ Rechtfertigung/<lb/>
+Wiedergeburth/ GOttes Kindſchafft/ und dergleichen.<lb/>
+Die iſt ſo gewiß/ als der ſelbſte Glaube iſt. Dann wer/<lb/>
+an den Sohn GOttes/ glauͤbet/ der hat das Zeugnuͤs<lb/>
+GOttes/ bey ihm — Und das iſt das Zeugnuͤs/ daß uns<lb/>
+GOtt das ewige Leben hat gegeben/ und ſolches Leben iſt/<lb/>
+in ſeinem Sohn. Wer den Sohn GOttes hat/ der hat<lb/>
+das Leben. <hi rendition="#aq">I. Joh. V,</hi> 10. 11. Ach wie ſchoͤn! So wahrhaff-<lb/>
+<fw place="bottom" type="catch">tig</fw><lb/>
+<pb facs="#f0041" n="41"/>
+<fw type="header" place="top"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+tig man glauͤbet/ und ſo JEſum ergreiffet und hat/ ſo war-<lb/>
+hafftig hat man auch/ der Hoffnung nach/ <hi rendition="#aq">Rom. VIII,</hi> 24.<lb/>
+das ewige Leben; So warhafftig iſt man/ aus dem To-<lb/>
+de/ in das Leben/ aus dem Zorn GOttes/ in die Gnade/<lb/>
+kommen/ und wird des/ in dem Hertzen/ uͤberzeuͤget. Da-<lb/>
+her ſagt auch Paulus: Nun wir ſind gerecht worden/<lb/>
+durch den Glauben/ ſo haben wir Friede/ mit GOTT/<lb/>
+durch unſern HErꝛn/ JEſum CHriſt. Durch welchen<lb/>
+wir auch einen Zugang haben/ im Glauben/ zu dieſer<lb/>
+Gnade/ darin wir ſtehen/ und ruͤhmen uns der Hoffnung<lb/>
+der zukuͤnfftigen Herꝛligkeit. <hi rendition="#aq">Rom. V,</hi> 1. So wol/ von dem<lb/>
+Friede/ als der Gnade/ GOttes/ redet hier der Apoſtoli-<lb/>
+ſche Mann/ und ſichert/ mit ihm/ gerecht wordene/ daß ſie<lb/>
+nicht nur jenen haben/ ſondern auch/ in dieſer/ ſtehen/ und<lb/>
+zu dero mehr und mehrern Genuß/ einen freyen Zugang<lb/>
+haben. Auff ungewiſſen Grunde aber iſt ſchlecht zu ſte-<lb/>
+hen/ und/ in fluͤchtige Wellen/ kem Fuß zu ſetzen. Dar-<lb/>
+umb muß die Gnade GOttes/ darin jene ſtehen/ keines/<lb/>
+von dieſen beyden/ noch auch/ von den Glauͤbigen/ dafuͤr<lb/>
+angeſehen/ ſeyn. Vielmehr ſichern ſie ſich derſelben/ und<lb/>
+verſehen ſich ſo dañ/ weder zu GOtt/ noch Menſchen/ ja/<lb/>
+Teuffeln/ was Boͤſes/ und/ in Warheit/ ſchaͤdliches/ weil<lb/>
+doch nichts verdam̃liches iſt/ an denen/ die da ſind in Chri-<lb/>
+ſto JEſu/ dem <hi rendition="#g">HERRN</hi>. <hi rendition="#aq">Rom. VIII,</hi> 1. Dann auch<lb/>
+darin iſt ihr Glaube eine <hi rendition="#aq">hypóſtaſis,</hi> daß er ſie gantz zweiffel-<lb/>
+frey machet/ und ihr Hertz/ mit unerſchrockenen Gewiſ-<lb/>
+ſen/ fuͤr das Goͤttliche Angeſicht/ ſtellet. <hi rendition="#aq">Tu mihi ambiguum</hi><lb/>
+<hi rendition="#et"><hi rendition="#aq">garris, qvô nihil eſt certius. Sed Auguſtinus aliter. Fides, ait,<lb/>
+non conjectando, vel opinando, habetur, in corde, in qvo eſt,</hi></hi><lb/>
+<fw type="sig" place="bottom"><hi rendition="#aq">F</hi></fw><fw type="catch" place="bottom"><hi rendition="#aq">ab</hi></fw><lb/>
+<pb facs="#f0042" n="42"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+<hi rendition="#et"><hi rendition="#aq">ab eo, cujus eſt; Sed certâ ſcientiâ, acclamante conſcientiâ. Pla-<lb/>
+cet mihi, fateor, illius (<hi rendition="#i">Apoſtoli</hi>) definitio: Fides eſt rerum ſpe-<lb/>
+randarum ſubſtantia. Subſtantiæ nomine aliqvid certum fixumq́;<lb/>
+præfigitur; Non eſt enim fides æſtimatio, ſed certitudo. <hi rendition="#i">Bern-<lb/>
+hard. Epiſt. 190. Ad Innocent. Pontif. contra Petrum<lb/>
+Abailardum.</hi></hi></hi><lb/>
+Er ſelbſt iſt eine <hi rendition="#aq"><hi rendition="#i">parrhesia,</hi></hi> oder Freuͤdigkeit/ zu GOtt. <hi rendition="#aq">I.<lb/>
+Joh. III.</hi> 21. Darumb muͤſſen mit ihm Verſehene/ auch die-<lb/>
+ſe haben/ als <hi rendition="#aq">Paulus</hi> zeuͤget: Wir haben Freuͤdigkeit und<lb/>
+Zugang/ in aller Zuverſicht/ durch den Glauben/ an Jhn.<lb/>
+<hi rendition="#aq">Eph. III,</hi> 12. Das aber iſt die Freuͤdigkeit/ die wir haben/<lb/>
+zu Jhm/ daß/ ſo wir etwas bitten/ nach ſeinem Willen/<lb/>
+hoͤret Er uns/ und/ ſo wir wiſſen/ daß Er uns hoͤret/ was<lb/>
+wir bitten/ ſo wiſſen wir/ daß wir die Bitte haben/ die wir/<lb/>
+von Jhm/ gebeten haben. <hi rendition="#aq">I. Joh. V,</hi> 14. 15. Dieſe Freuͤdig-<lb/>
+keit gilt auch/ am Tage des Gerichts/ und alſo/ weñ Suͤn-<lb/>
+de/ Tod/ Teuffel und Hoͤlle/ wieder uns/ ſtehet. <hi rendition="#aq">I. Joh. IV,</hi> 17.<lb/>
+<hi rendition="#et">(<hi rendition="#aq">Notisſimum autem eſt hoc vocabulum, ſignificans, ſine metu<lb/>
+&amp; trepidatione, liberè &amp; dicere &amp; agere, ſicut, de verbo, <hi rendition="#i">par-<lb/>
+rhesiázomai,</hi> multa extant exempla. Et duleisſima hæc eſt ac-<lb/>
+commodatio, ad fidem juſtificantem, qvæ conſcientiæ talem fert<lb/>
+pacem, cum Deo, ut non trepidet, ad conſcientiam legis, non<lb/>
+terreatur, indignitate propriâ, vel ignitis telis Diaboli, nec fugiat<lb/>
+Deum &amp;c. <hi rendition="#i">Chemnit. L. de juſtif. ſub vocab. fidei. p. 247.</hi></hi>)</hi><lb/>
+Jnmittelſt wird nicht geleuͤgnet/ daß ſo wol die Freuͤdig-<lb/>
+keit/ als Gewißheit/ ihre <hi rendition="#aq">gradus,</hi> oder Stuffen/ habe/ nach<lb/>
+der <hi rendition="#aq">Qvalité</hi> des ſelbſten Glaubens/ welcher nicht uͤber all<lb/>
+gleich groß iſt. Wie aber ein kleiner Glaube doch auch ein<lb/>
+Glaube iſt/ ſo auch dieſe Freuͤdigkeit und Gewißheit. <hi rendition="#aq">Magis<lb/>
+&amp; minus non differunt ſpecie;</hi> Und iſt die Klippe/ im Meer/<lb/>
+<fw type="catch" place="bottom">ja</fw><lb/>
+<pb facs="#f0043" n="43"/>
+<fw place="top" type="header"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+ja ſo wol ein Stein/ als die hoͤheſten Felſen/ ob ſie ſchon<lb/>
+viel geringer ſcheinet/ und/ durch die wuͤtende Wellen und<lb/>
+Wogen/ offters bedecket/ und unſichtbar gemachet wird.<lb/>
+Wiewol auch nicht alles Gold iſt/ was da gleiſſet/ und da-<lb/>
+her ein jeder ſich/ ſo wol nach der Schrifft/ als auch ſeiner<lb/>
+eigenen Hertzens-Meinung und ſelbſten That/ gnau zu<lb/>
+pruͤfen und forſchen hat/ ob er auch/ im Glauben/ ſey. <hi rendition="#aq">II.<lb/>
+Cor. XIII, 5. Multa videntur, qvæ non ſunt, &amp; multa ſunt,<lb/>
+qvæ non videntur.</hi> Mancher redet viel/ vom Glauben/<lb/>
+und hat doch keinen; Ein ander hat ihn und kan ihn doch/<lb/>
+zur Zeit der Anfechtung/ nicht mercken. Deshalb aber<lb/>
+hoͤret die Gewißheit/ von der Gnade GOttes/ drumb<lb/>
+nicht auf; Sondern wird nur beſtritten. So lange aber<lb/>
+noch der Krieg waͤhret/ kan ſich des feindliche Theil kei-<lb/>
+nes Sieges ruͤhmen/ und ſo weder Fleiſch/ noch Teuffel/<lb/>
+ſagen/ daß ſie einem eintzigen Glauͤbigen/ ſein <hi rendition="#aq">thársos,</hi> Hertz<lb/>
+und Vertrauen/ genommen haben. <hi rendition="#aq">In fine videtur, cu-<lb/>
+jus toni.</hi> Jſt der Glaube/ nur warhafftig da/ er wird ſich<lb/>
+gewiß nach und nach herfuͤr thun/ und/ mit David/ ſagen:<lb/>
+Dennoch bleib ich ſtets an dir. Deñ du haͤlteſt mich/ bey<lb/>
+meiner rechten Hand. Du leiteſt mich/ nach deinem Rath/<lb/>
+und nimmeſt mich endlich/ zu Ehren/ an. <hi rendition="#aq">Pſalm. LXXIII. v.</hi><lb/>
+23. 24. Oder/ wie/ in unſerm Texte/ ſtehet: Jch glauͤbe<lb/>
+aber doch/ daß ich ſehen werde das Gute des HERRN/<lb/>
+im Lande der Lebendigen. Und das waͤre ſo dann <hi rendition="#fr">unſer<lb/>
+Erſtes/</hi> oder/ wie die <hi rendition="#fr">Glaubizin/</hi> das iſt/ was ſie heiſſet/ in<lb/>
+Warheit/ <hi rendition="#fr">glauͤbig.</hi></p><lb/>
+<p>Und darauff</p><lb/>
+<fw place="bottom" type="sig">F 2</fw><fw place="bottom" type="catch">Fol-</fw><lb/>
+<pb facs="#f0044" n="44"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+<p>Folget nun/ <hi rendition="#fr">vors Andere/ wie Sie ſelig?</hi><lb/>
+Welches/ nach den letzten Worten unſeres Textes/ derge-<lb/>
+ſtalt zu beantworten: <hi rendition="#fr">Durch das ſehen; Das<lb/>
+ſehen des Guten; Des Guten/ im Lande<lb/>
+der Lebendigen.</hi></p><lb/>
+<p>Jch glauͤbe aber/ daß ich ſehen werde/ ſagt Koͤ-<lb/>
+nig/ David/ daß ich ſehen werde. Scheinet vorgeſage-<lb/>
+ten zuwieder zu ſeyn/ da gedacht wurde/ daß der ſelbſte<lb/>
+Glaube ein Auge ſey/ welcher das Liecht/ im Liecht/ ſehe/<lb/>
+woraus jemand ſchlieſſen doͤrffte/ daß ſo ferne kein ander<lb/>
+ſehen zugewarten ſey. Aber vergebens. Denn <hi rendition="#aq">ab unius<lb/>
+poſitione, ad alterius negationem, non valet conſeqventia.</hi><lb/>
+Es folget nicht: Der ſiehet itzo; darumb wird er morgen<lb/>
+nicht ſehen. Nicht: Er ſtehet/ mit der Seelen; darumb<lb/>
+kan er/ mit dem Leibe/ und deſſen Augen/ nicht ſehen.<lb/>
+Wir ſehen hier auch; Doch nur/ im Spiegel — Dort aber/<lb/>
+von Angeſicht. <hi rendition="#aq">I. Cor. XIII. v.</hi> 12. Wir ſehen hier; Aber/<lb/>
+was das/ im Text/ beſchriebene Gut betrifft/ nur/ mit den<lb/>
+Augen des erleuͤchteten Gemuͤths; Dort aber auch/ mit<lb/>
+den Augen des Leibes/ wie/ aus Hiobs Worten/ erſcheinet:<lb/>
+Und werde darnach/ mit dieſer/ meiner/ Haut/ umbgeben<lb/>
+werden/ und werde/ in meinem Fleiſche/ GOTT ſehen.<lb/>
+Denſelbigen werde ich mir ſehen/ und meine Augen werden<lb/>
+Jhn ſchauen. <hi rendition="#aq">Job. XIX,</hi> 25. 26. Man kan zulaſſen/ daß der<lb/>
+gedultige Schmertzens-Mann/ durch dieſen GOtt/ beſon-<lb/>
+ders den jenigen verſtehe/ welchen er/ im vorigen/ ſeinen Er-<lb/>
+<fw type="catch" place="bottom">loͤſer</fw><lb/>
+<pb facs="#f0045" n="45"/>
+<fw place="top" type="header"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+loͤſer nennet/ oder den ewigen Sohn GOttes/ unſern<lb/>
+HErꝛn/ JEſum CHriſtum; Doch iſt das zubedingen/ daß<lb/>
+Er nicht vergebens den <hi rendition="#aq">ſtylum</hi> aͤndert/ und/ an ſtatt des<lb/>
+Erloͤſers/ das Wort/ GOTT/ ſetzet; Sondern damit/<lb/>
+zweiffels ohne/ bemercket/ daß Er/ an demſelben/ nicht al-<lb/>
+lein einen <hi rendition="#aq">Goël,</hi> oder nahen Blutsverwandten/ als diß<lb/>
+Wort ſonderlich bedeuͤtet/ <hi rendition="#aq">I. Reg. XVI,</hi> 11. Sondern auch<lb/>
+warhafften GOtt/ zu haben/ glauͤbe/ welcher/ nach der<lb/>
+ihm beywohnenden GOttes Krafft/ des Vermoͤgens ſey/<lb/>
+ihn ſo wol/ von der Erden/ auffzuwecken/ als/ mit ſeiner<lb/>
+eignen Haut und Fleiſche/ zu umbgeben. Je mehr er ſich<lb/>
+nun hiemit troͤſtet/ je glaublicher iſt/ daß er zugleich inſon-<lb/>
+derheit/ auf die Natur/ ziehle/ nach welcher ſolches dem Er-<lb/>
+loͤſer urſpruͤnglich und eigenmaͤchtig zukoͤmmet; Zumah-<lb/>
+le/ da das Schauen der Menſchheit JEſu/ mit der Auffer-<lb/>
+ſtehung unſerer Leiber/ an jenem groſſen Gerichts-Tage/<lb/>
+ohne dem gantz unaufloͤßlich verknuͤpffet ſeyn wird. <hi rendition="#aq">Zach.<lb/>
+XII, 10. Joh. XIX.</hi> Daß hier nicht von noͤthen geweſen waͤ-<lb/>
+re/ ſolches nochmahls/ und zwar/ mit ſo gar betraͤchtli-<lb/>
+chem Worte/ zu wiederholen. Jſt dem alſo/ wie ihm al-<lb/>
+lerdinge zu ſeyn ſcheinet; So fleuͤſſet von ſelbſten/ daß Hi-<lb/>
+ob gewiß iſt/ ſeinen Erloͤſer/ wie/ nach der Menſchheit/<lb/>
+nach welcher er ſein Bluts-Freund war/ und ſein Leben/<lb/>
+zu einer Erloͤſung/ vor viele/ geben konte/ als die eigentli-<lb/>
+che Deuͤtung des vorgemeldeten Wortes mit bringet: (<hi rendition="#aq">Qvâ</hi><lb/>
+<hi rendition="#et"><hi rendition="#aq">talem notat vindicem, qvi tum redimendis conſangvinitate eſt<lb/>
+junctus, tum pretium qvoddam, pro redemptione, interponit.<lb/>
+Pſalm. 19. v. ult. Pſ. 72. v. 14. Pſal. 74, 2. Pſalm. 78. v. 35. Eſaiæ 59.<lb/>
+v. 20 <hi rendition="#i">Walth. Harm. Bibl. in Jobi c. 19. p. 482.</hi></hi></hi></p><lb/>
+<p>Alſo auch nach der Gottheit/ zu ſehen. Wie aber<lb/>
+<fw place="bottom" type="sig">F 3</fw><fw place="bottom" type="catch">das?</fw><lb/>
+<pb facs="#f0046" n="46"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+das? Mit ſeinen Augen: Meine Augen werden Jhn<lb/>
+ſchauen. Nicht des Gemuͤths/ oder Glaubens; Denn<lb/>
+die ſahen Jhn ſchon. Darumb des Leibes; Als auch<lb/>
+der <hi rendition="#aq">Context</hi> mitbringet/ welcher Haut/ Fleiſch und Au-<lb/>
+gen/ zuſammen ſetzet/ und ſo/ dem Anſehen nach/ ei-<lb/>
+gentlich die jenigen verſtehet/ welche/ in der Haut/ und<lb/>
+dem Fleiſche/ ſind/ darzu gehoͤren/ und/ ſambt dieſen/ ſol-<lb/>
+ten wieder gegeben werden. Die ſollen GOTT ſchauen/<lb/>
+und ſo nicht allein den <hi rendition="#aq">Theánthropon,</hi> oder den GOTT/<lb/>
+welcher Menſch/ und/ im Fleiſch/ geoffenbaret worden/ als<lb/>
+damahls noch kuͤnfftig war; Sondern auch Vater und<lb/>
+Heiligen Geiſt. Denn wer den Sohn ſiehet/ ſiehet auch<lb/>
+den Vater. <hi rendition="#aq">Joh. XIV. v.</hi> 9. Wer Vater und Sohn ſiehet/<lb/>
+muß den Heiligen Geiſt auch ſehen/ weil Sie alle Drey ei-<lb/>
+nes ſind. <hi rendition="#aq">I. Joh. V,</hi> 8. Was dem Hiob geſchehen wird/<lb/>
+wird auch anderen nicht verſaget ſeyn. Und deshalb ſchrei-<lb/>
+bet Paulus: Wir ſehen itzt/ durch einem Spiegel/ in ei-<lb/>
+nem dunckelen Worte; Dañ aber/ von Angeſicht/ zu An-<lb/>
+geſichte. Jtzt erkenne ichs Stuͤck-Weiſe; Deñ aber wer-<lb/>
+de ich erkennen/ gleich wie ich erkennet bin. <hi rendition="#aq">I. Cor. XIII<supplied>,</supplied></hi> 12.<lb/>
+Beyderſeits Gegenſatz zeiget an/ daß der Heil. Paulus ſich<lb/>
+einer gantz vollkommenen Erkaͤntnuͤs getroͤſtet; Sinte-<lb/>
+mahl er deshalb die Kuͤnfftige/ von der Gegenwaͤrtigen/<lb/>
+die nur Stuͤck-weiß iſt/ ſehr nachdruͤcklich entſcheidet. Eine<lb/>
+vollkommene Erkaͤntnuͤs aber iſt/ welche nicht allein/ nach<lb/>
+den Umbſtaͤnden des zuerkennenden/ ſondern auch des er-<lb/>
+kennenden/ richtig iſt; Es ſeye dann/ daß man ſagen wol-<lb/>
+te/ <hi rendition="#aq">Iſaac</hi> habe den <hi rendition="#aq">Jacob</hi> voͤllig erkañt/ ob er nur ſeine Stim-<lb/>
+me entſcheiden/ und ihn ſo/ in ſeinem Gemuͤthe/ vor den/<lb/>
+<fw type="catch" place="bottom">der</fw><lb/>
+<pb facs="#f0047" n="47"/>
+<fw place="top" type="header"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+der er war/ halten koͤnnen. <hi rendition="#aq">Gen. XXVII. v.</hi> 22. Soll nun<lb/>
+Pauli Erkaͤntnuͤs kuͤnfftig voͤllig ſeyn/ wird er nicht allein/<lb/>
+mit dem Gemuͤthe/ ſondern auch Geſichte/ erkennen muͤſ-<lb/>
+ſen/ das/ was er hienieden nicht anders/ als Stuͤck-Weiſe/<lb/>
+erkennen kan/ und <hi rendition="#g">GOTT</hi> ſelber iſt. Und das umb ſo<lb/>
+viel mehr/ als nachdencklicher geſagt wird: Gleichwie ich<lb/>
+erkennet bin; Nicht/ von GOtt: Dann derſelbe wird/<lb/>
+mit ſeiner wuͤrcklichen Erkaͤntnuͤs/ wol den Fuͤrzug/ in al-<lb/>
+le Ewigkeit/ behalten/ und Jhme darin weder Paulus/<lb/>
+noch ein ander Heiliger/ gleich kommen; Darumb/ von<lb/>
+Menſchen/ zumahle vertrauten/ oder doch denen/ die die-<lb/>
+ſen groſſen Apoſtel nicht nur/ nach ſeineꝛ Schreibe-Art/ ſon-<lb/>
+dern/ auch Perſon und Sprache/ ſattſam kañten. <hi rendition="#aq">II. Cor.<lb/>
+X. v.</hi> 10. Die aber erkenneten ihn nicht allein/ mit den Ge-<lb/>
+muͤths-ſondern auch Leibes-Augen/ und ſahen/ daß die<lb/>
+Gegenwaͤrtigkeit des Leibes ſchwach war. Und ſo/ ſagt Er/<lb/>
+werde auch Er erkennen. Denn werde ich erkennen/<lb/>
+gleichwie ich erkennet bin. Werden alſo Pauli und aller<lb/>
+Außerwehlten Leibes-Augen hoffentlich/ uͤber den gegen-<lb/>
+waͤrtigen Stand/ erhoben/ und/ in einen ſolchen/ geſetzet<lb/>
+werden/ daß ſie nicht allein ihre gemeine <hi rendition="#aq">objecta,</hi> Liecht<lb/>
+und Farbe/ ſampt denen hiemit verſehenen Coͤrpern/ ſon-<lb/>
+dern auch die ſelbſten Geiſter/ werden ſehen koͤnnen. Jſt<lb/>
+deshalb inſonderheit zu glauben/ weil abermahls der Hey-<lb/>
+den-Lehrer ſetzet: Es wird geſaͤet ein natuͤrlicher Leib/ und<lb/>
+wird aufferſtehen ein geiſtlicher Leib. <hi rendition="#aq">I. Cor. XV,</hi> 44. Der<lb/>
+H. <hi rendition="#aq">Auguſtinus</hi> hat vorlaͤngſt angemercket/ daß dieſe Geiſt-<lb/>
+ligkeit/ nicht/ in dem Weſen ſelbſt/ ſondern/ beſonderer<lb/>
+Eintracht des Geiſtes und Leibes/ ſtehen werde. (<hi rendition="#aq">Reſurgent</hi><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">igitur</hi></fw><lb/>
+<pb facs="#f0048" n="48"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+<hi rendition="#et"><hi rendition="#aq">igitur Sanctorum corpora, ſine ullo vitio, ſine ulla deformitate,<lb/>
+ſicut ſine ulla corruptione, onere, difficultate. In qvibus tanta<lb/>
+facilitas, qvanta felicitas. Propter qvod &amp; ſpiritualia dicta ſunt,<lb/>
+cum procul dubiô corpora ſint futura, non ſpiritus. Sed ſicut<lb/>
+nunc corpus animale dicitur, qvod tamen corpus, non anima,<lb/>
+eſt: Ita tunc ſpirituale corpus erit, corpus tamen, non ſpiritus<lb/>
+erit. —— Qvantum autem attinet ſubſtantiam, etiam tunc ca-<lb/>
+ro erit. Propter qvod &amp;, poſt reſurrectionem, corpus Chriſti<lb/>
+caro appellatum eſt. Sed ideò ait Apoſtolus: Seminatur cor-<lb/>
+pus animale, reſurget corpus ſpirituale: Qvoniam tanta erit tune<lb/>
+concordia carnis &amp; ſpiritus, vivificante ſpiritu, ſine ſuſtentaculi<lb/>
+alicujus indigentia, ſubditam carnem, ut nihil nobis repugnet ex<lb/>
+nobis, ſed, ſicut foris neminem, ita nec intus nos ipſos, patiamur<lb/>
+inimicos. <hi rendition="#i">Auguſt in Enchiridio, ad Laurentium c. 91.)</hi></hi></hi><lb/>
+Eintracht aber und recht beſtaͤndige <hi rendition="#aq">harmonie,</hi> Liebe und<lb/>
+Zuneigung/ pfleget nicht leicht/ bey Ungleichen/ zu ſeyn.<lb/>
+Daher wird ſich/ zwiſchen Geiſte und Leibe/ eine ſonder-<lb/>
+bare Gleichheit finden/ und der Leib dem Geiſte viel naͤher<lb/>
+kommen und gemaͤſſer ſeyn/ weder eritzo iſt. Die ſelbſten<lb/>
+Augen werden das auch mit zugenieſſen haben/ und/ als<lb/>
+geiſtliche Augen/ das/ was geiſtlich iſt/ zu ſehen/ durch die<lb/>
+Krafft des Allerhoͤchſten/ erhaben werden; Weil ſie mit/<lb/>
+zu der Vollkommenheit des Leibes/ als deſſen ſonderbare<lb/>
+<hi rendition="#aq">Integral-</hi>Stuͤcke/ gehoͤren; Und daher auch/ von denſelben/<lb/>
+anzunehmen/ was/ im folgenden/ der Apoſtel lehret: Wie<lb/>
+wir getragen haben das Bild des Jrꝛdiſchen/ alſo werden<lb/>
+wir auch tragen das Bild des Him̃liſchen <hi rendition="#aq">(Adams) v.</hi> 49.<lb/>
+und <hi rendition="#aq">Phil. III.</hi> JEſus CHriſtus wird unſern nichtigen Leib<lb/>
+verklaͤren/ daß er aͤhnlich werde ſeinem verklaͤreten Leibe/<lb/>
+nach der Wuͤrckung/ da er mit kan auch alle Dinge ihm<lb/>
+<fw type="catch" place="bottom">unter-</fw><lb/>
+<pb facs="#f0049" n="49"/>
+<fw place="top" type="header"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+unterthaͤnig machen. <hi rendition="#aq">Phil. III. v.</hi> 22. Werden alſo auch<lb/>
+die Leibes-Augen/ bey den Außerwehlten/ verklaͤret/ und/<lb/>
+in einen/ gantz andern/ Stand/ weder ſie itzo haben/ verſe-<lb/>
+tzet werden/ daß ihnen ein ſo beſonderes Sehen nicht un-<lb/>
+moͤglich ſeyn wird.</p><lb/>
+<p>Jſt das <hi rendition="#fr">Sehen des Guten.</hi> <hi rendition="#aq">Text.</hi> Daß ich ſehen<lb/>
+werde das Gute des HERRN/ <hi rendition="#aq">tobh Jehovah, Bonum<lb/>
+Domini.</hi> Da dann/ als <hi rendition="#aq">Geierus</hi> anmercket/ <hi rendition="#aq">tobh,</hi> nach<lb/>
+Schrifftlichen Brauche/ ſo viel iſt/ als <hi rendition="#aq">facultates,</hi> Vermoͤ-<lb/>
+gen/ Haab und Guͤther/ wie es etwa genom̃en wird/ <hi rendition="#aq">Gen.<lb/>
+XXIV,</hi> 10. Alſo nahm der Knecht zehen Kamel/ von den Ka-<lb/>
+melen ſeines Herꝛn/ und zog hin/ und hatte/ mit ſich/ allerley<lb/>
+Guͤter ſeines Herꝛn; Dergleichen auch/ <hi rendition="#aq">Devt. VI, 11. Nehem.<lb/>
+IX. v.</hi> 18. 20. zu finden iſt. Jnſonderheit aber bedeuͤtets koſt-<lb/>
+bare Guͤter/ welche einem geringen Haußrathe bey wei-<lb/>
+ten uͤberlegen ſind/ als die Guͤter Egypti/ in Anſehen des<lb/>
+Jacobaͤiſchen Vermoͤgens/ nach den Worten Pharaonis:<lb/>
+Sehet euͤren Haußrath nicht an/ denn die Guͤter des gan-<lb/>
+tzen Landes/ Egypten/ ſollen euͤer ſeyn. <hi rendition="#aq">Geneſ. XLV. v.</hi> 20.<lb/>
+Am ſonderlichſten ziehlet unſer Text-Wort/ auf geiſtliche<lb/>
+Guͤter/ wie <hi rendition="#aq">Pſalm. LXV,</hi> 5. Wol dem/ den du erwehleſt und<lb/>
+zu dir laͤſſeſt/ daß er wohne/ in deinen Hoͤffen/ der hat rei-<lb/>
+chen Troſt/ von deinem Hauſe. Nach dem Grunde: Wir<lb/>
+werden geſaͤttiget/ von dem Guth/ oder/ von den Guͤtern/<lb/>
+deines Hauſes. Jn dem Verſtande wird es auch der ſelb-<lb/>
+ſten Herꝛligkeit GOttes zuleget/ wann er/ zu dem <hi rendition="#aq">Moſe,</hi><lb/>
+ſaget: Jch will/ fuͤr deinem Angeſichte her/ alle meine<lb/>
+Guͤte gehen laſſen; Welches er nachmahls ſelbſt/ auf die<lb/>
+<fw place="bottom" type="sig">G</fw><fw place="bottom" type="catch">Herꝛ-</fw><lb/>
+<pb facs="#f0050" n="50"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+Herꝛligkeit ziehet: Wann dann nu meine Herꝛligkeit fuͤr-<lb/>
+uͤber gehet/ will ich dich/ in der Felß-Klufft/ ſtehen laſſen.<lb/>
+<hi rendition="#aq">Exod. XXXIII. v.</hi> 19. 22. Dieſer letzte Spruch aber erweiſet/<lb/>
+daß <hi rendition="#aq">tobh,</hi> von GOTT/ gebrauchet/ nicht nur/ auf deſſen<lb/>
+Guͤter/ ſondern auch/ die ſelbſte Guͤte/ ſehe; Weshalb auch<lb/>
+<hi rendition="#aq">Arias Montanus</hi> und <hi rendition="#aq">Xantes Pagninus</hi> das Wort/ <hi rendition="#aq">bonitas,</hi><lb/>
+brauchen/ und die Guͤte/ an ſtatt der Guͤter/ ſetzen. Kan<lb/>
+beydes wol ſtehen/ bevorab/ ſo man die Worte Davids/<lb/>
+von dem ewigen Leben/ ausleget/ als wir hie fuͤrhaben.<lb/>
+Die Guͤte des HErꝛn aber iſt ein beſonderes <hi rendition="#aq">attributum</hi><lb/>
+GOttes/ ſo weſent- und urſpruͤnglich GOtt der HERR<lb/>
+ſelber iſt/ nach der <hi rendition="#aq">Theologi</hi>ſchen Regul: <hi rendition="#aq">Nihil eſt in <hi rendition="#k">Deo</hi>,<lb/>
+qvod non ſit ipſe <hi rendition="#g"><hi rendition="#k">Deus.</hi></hi></hi> Hieraus folget/ daß/ wer GOt-<lb/>
+tes Guͤte ſehen/ auch GOtt den HErꝛn ſelbſten ſchauen/<lb/>
+wird. Allerdings. Denn wir werden GOtt ſehen/ wie<lb/>
+Er iſt. <hi rendition="#aq">I. Joh. III. v. 2. Kathós eſti, ſicut eſt,</hi> wie Er iſt/ nem-<lb/>
+lich/ nach ſeinem Weſen/ nach welchen ein jedes iſt/ was es<lb/>
+iſt; Beſonders GOtt/ der HERR/ der ſich/ fuͤr andern/<lb/>
+hiernach will betrachtet wiſſen/ und daher nicht allein ſei-<lb/>
+nen eigenen Nahmen/ <hi rendition="#aq">Jehovah,</hi> vom Seyn und Weſen/ fuͤh-<lb/>
+ret/ ſondern ſich auch ſelbſten nennet/ Jch werde ſeyn/ der ich<lb/>
+ſein werde. <hi rendition="#aq">Exod. III,</hi> 14. Unter andern deswegen/ weil Er<lb/>
+ein/ fuͤr ſich ſelbſt/ beſtehendes und unendliches/ aber auch<lb/>
+gantz reines und pur lauteres/ Weſen iſt/ da nichts/ von<lb/>
+<hi rendition="#aq">accidenti</hi>en und zufaͤlligen Beyweſen/ zu finden/ wie bey<lb/>
+allen andern Creaturen. Wer nun <hi rendition="#g">GOTT</hi> ſiehet/ wie<lb/>
+Er iſt/ muß Jhn nothwendig entweder/ nach ſeinem eige-<lb/>
+nen Weſen/ ſehen/ oder gar nicht ſehen/ weil GOtt/ wie Er<lb/>
+iſt/ ſehen und doch nicht/ nach den Weſen/ ſehen unmoͤglich<lb/>
+<fw type="catch" place="bottom">beyſam-</fw><lb/>
+<pb facs="#f0051" n="51"/>
+<fw place="top" type="header"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+beyſammen ſtehen kan. (<hi rendition="#aq">Videre Deum, ſicut eſt tamen non vi-</hi><lb/>
+<hi rendition="#et"><hi rendition="#aq">dere, in eſſentia, <hi rendition="#i">antiphatikà</hi> ſunt. <hi rendition="#i">Prückn. Vindic. Bibl. Part.<lb/>
+V. p. 893.</hi></hi></hi><lb/>
+Doch iſt ein Unterſcheid/ zwiſchen dem Weſen ſelbſt/ ſambt<lb/>
+darzu innigſt gehoͤrigen Perſonen und Eigenſchafften/<lb/>
+und zwiſchen denen freyen/ willkuͤhrlichen/ Schluͤſſen und<lb/>
+Handlungen GOttes/ <hi rendition="#aq">ad extra,</hi> wie und wann ſie ſich/ in<lb/>
+dem/ was auſſer <hi rendition="#g">GOTT</hi> iſt/ endigen. Dieſe ſind zwar<lb/>
+GOttes/ jedoch weder bloͤßlich/ in GOTT/ noch vielweni-<lb/>
+ger gar GOTT. Denn ſonſt muͤſten ſie/ mit ihrer ver-<lb/>
+ſchiedenen Art/ eine Veraͤnderung/ in die unvergleichlich-<lb/>
+ſte Unwandelbar- und Lauterkeit des Allerhoͤchſten/ fuͤhren/<lb/>
+ſo man nicht ſagen kan. Wann ſich nun GOtt ſehen laͤſ-<lb/>
+ſet/ wie Er iſt/ ſo ſehen die Außerwehlten zwar das Weſen<lb/>
+und was darzu gehoͤret/ gar klaͤrlich und herꝛlich/ ſo/ daß<lb/>
+ihnen/ von dieſen/ hier unbegreifflichen/ Dingen/ nichts ver-<lb/>
+borgen iſt/ und ſie/ wie ſie das GOttes-Weſen/ mit ſeinen<lb/>
+Heiligen Perſonen/ <hi rendition="#aq">intuitivè,</hi> Augenſcheinlich/ ſchauen/<lb/>
+alſo alle Goͤttliche Beſchaffenheiten gruͤndlich verſtehen;<lb/>
+Aber damit wiſſen ſie drumb nicht die freyen <hi rendition="#aq">decreta</hi> und<lb/>
+wuͤrcklich/ auſſer GOtt/ gehende <hi rendition="#aq">actus,</hi> ohne beſondere Of-<lb/>
+fenbahrung und Erfahrung. Jſt klaͤrlich zuerweiſen/ mit<lb/>
+dem Beyſpiel der Heiligen Engel. Die ſehen allezeit das<lb/>
+Angeſicht des Vaters/ im Himmel/ nach dem Außſpruche<lb/>
+Chriſti. <hi rendition="#aq">Matth. XVIII. v.</hi> 10. Aber ſie wiſſen dennoch nicht/<lb/>
+was GOtt <hi rendition="#aq">actu</hi> weiß und wuͤrcklich beſchloſſen hat/ in An-<lb/>
+ſehen des lieben/ Juͤngſten/ Tages. Denn/ von dem Tage<lb/>
+und der Stunde/ weiß kein Engel/ im Himmel. <hi rendition="#aq">Matth.<lb/>
+XXIV. v. 36. Marc. XIII. v.</hi> 12. Nun koͤnnen die ſeeligen Men-<lb/>
+<fw place="bottom" type="sig">G 2</fw><fw place="bottom" type="catch">ſchen</fw><lb/>
+<pb facs="#f0052" n="52"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+ſchen wol nicht/ uͤber die Engel/ ſeyn; Weil davon nichts/ in<lb/>
+der Schrifft/ zu finden; Sondern vielmehr nur der HErꝛ<lb/>
+JEſus ſagt/ daß ſie Engel-gleich ſeyn werden. <hi rendition="#aq">Luc. XX,</hi> 36.<lb/>
+Darumb wird ſich jener Wiſſenſchafft ſo wol/ als dieſer/ in<lb/>
+dem Weſen/ endigen/ welches ſie auch/ mit den Leibes-Au-<lb/>
+gen/ ſehen ſollen; Aber nicht/ in die freyen Wercke und<lb/>
+Schluͤſſe Gottes/ anders/ als/ auf obgemeldete Weiſe/ die wir<lb/>
+doch kuͤnfftiger Erfahrung beſcheidentlich anheim ſtellen/<lb/>
+wuͤrcklich einlauffen. Und hindert nicht/ daß ihre Augen/<lb/>
+dem Weſen nach/ <hi rendition="#fr">leiblich</hi> bleiben werden. Dañ das Leib-<lb/>
+liche kan auch wol das Geiſtliche faſſen; Oder der Geiſt<lb/>
+GOttes wohnet itzo ſchon nicht/ in unſerem Hertzen/ wel-<lb/>
+ches doch Paulus bejahet/ <hi rendition="#aq">I. Cor. VI, 19. II. Cor. VI,</hi> 16. Es<lb/>
+hindert nicht/ daß die Leibes-Augen <hi rendition="#fr">endlich</hi> ſein werden.<lb/>
+Dann <hi rendition="#aq">finitum</hi> iſt auch <hi rendition="#aq">capx infiniti,</hi> das Endliche kan das<lb/>
+Unendliche fahen/ wann <hi rendition="#aq">virtus infinita</hi> darzu koͤmmet/ oder<lb/>
+die ungemeſſene GOttes Krafft dabey geſchaͤfftig iſt; Oder<lb/>
+es hat die gantze Fuͤlle der Gottheit/ in die Menſchheit Chri-<lb/>
+ſti/ nicht einkehren und daſelbſt leibhafftig wohnen koͤn-<lb/>
+nen/ als nichts deſto minder der Apoſtel erhaͤrtet. <hi rendition="#aq">Col. II,</hi> 9.<lb/>
+Oder wir werden GOtt gar nicht ſehen/ auch nicht/ mit<lb/>
+den Augen des Gemuͤthes/ oder der Seelen; Weil doch die-<lb/>
+ſelben auch endlich ſeyn/ bleiben und nimmermehr/ ihrem<lb/>
+Weſen nach/ unendlich werden/ ob ſchon waͤhren/ werden.<lb/>
+Wie das aber niemand ſagen kan: Alſo muß man deſſen<lb/>
+Grund-Satz/ nicht/ wieder unſer Schauen/ richten; Son-<lb/>
+dern vielmehr das Beſtaͤtigte/ mit geziemender <hi rendition="#aq">devotion</hi><lb/>
+und Freude/ erwarten. Bevorab/ da man verſichert ſeyn<lb/>
+<fw type="catch" place="bottom">kan/</fw><lb/>
+<pb facs="#f0053" n="53"/>
+<fw type="header" place="top"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+kan/ daß/ aus dieſen Sehen/ das allerhoͤchſte Wolſeyn ent-<lb/>
+ſpringen/ ja gar/ in demſelben/ das Weſen des ewigen Le-<lb/>
+bens beſtehen werde. Ach! das hoͤchſte Gut/ die ſuͤſſeſte<lb/>
+Ruhe/ die groͤſſeſte Freude/ das ſelbſte Liecht/ Leben und<lb/>
+Seeligkeit/ ſtets und ohn unterlaß ſehen/ kan wol nichts/<lb/>
+als das hoͤchſte Gluͤck/ Ruhe/ Freuͤde/ Liecht/ Leben und<lb/>
+Seeligkeit/ bringen; Daß daher ein alter Kirchen-Vater<lb/>
+nicht umbſonſt ſaget: GOtt ſchauen iſt die hoͤchſte Gluͤck-<lb/>
+ſeligkeit/ die hoͤchſte Annehmligkeit/ das ewige Leben/ das<lb/>
+ſelige Leben. (<hi rendition="#aq">O beata viſio, videre Regem Angelorum, in decore</hi><lb/>
+<hi rendition="#et"><hi rendition="#aq">ſuo: Videre Sanctum Sanctorum, per qvem omnes ſunt ſancti.<lb/>
+Illum videre ſumma felicitas eſt, ſumma jucunditas, vita æterna &amp;<lb/>
+vita beata. <hi rendition="#i">Auguſt. de Spiritu &amp; Anima, cap. LVII.</hi></hi>)</hi><lb/>
+Darzu koͤmmet/ daß nicht nur GOtt zu ſehen ſeyn wird/ mit<lb/>
+ſeiner Guͤte; Sondern auch/ mit ſeinen Guͤtern/ die ſich/<lb/>
+in der ſeligen Ewigkeit/ ſinden. Ach! aber/ wie iſt deren ſo<lb/>
+eine groſſe Zahl/ wie gar unſchaͤtzbare Wuͤrde! Jch wolte<lb/>
+ſie theilen/ in bewegliche und unbewegliche/ wann ſie nicht<lb/>
+alle/ von der lauteren Ewigkeit/ waͤren. Sind alſo recht<lb/>
+liegende Gruͤnde; Aber nicht/ im Grunde/ oder/ von der ge-<lb/>
+meinen Art. Die Gruͤnde der Stadt GOttes und des<lb/>
+neuͤen Jeruſalems ſiehet <hi rendition="#aq">Johannes,</hi> auf einem groſſen und<lb/>
+hohen Berge. <hi rendition="#aq">Apoc. XXI. v.</hi> 10. Und zwar den einen/ von<lb/>
+<hi rendition="#aq">Jaspis,</hi> den andern/ von Saphier/ den dritten/ von Calce-<lb/>
+donier/ den vierdten/ von Smaragd/ den fuͤnfften/ von<lb/>
+Sardonich/ den ſechſten/ von Sardis/ den ſiebenden/ von<lb/>
+Chryſolith/ den achten/ von Beril/ den neundten/ von To-<lb/>
+paſier/ den zehenden/ von Chryſoparas/ den eilfften/ von<lb/>
+Hyacinth/ den zwoͤlfften/ von Ametiſt. <hi rendition="#aq">Apoc. XXI. v.</hi> 19. 20.<lb/>
+<fw type="sig" place="bottom">G 3</fw><fw type="catch" place="bottom">Auf</fw><lb/>
+<pb facs="#f0054" n="54"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+Auf denſelben iſt erbauet die groſſe Stadt/ das heilige Je-<lb/>
+ruſalem/ welcher Liecht iſt gleich dem alleredelſten Steine/<lb/>
+einem hellen <hi rendition="#aq">Jaspis,</hi> die Thore herꝛlich/ und der Bau der<lb/>
+Mauren/ von <hi rendition="#aq">Jaspis;</hi> Die Stadt aber ſelbſt/ von lauterm<lb/>
+Golde. <hi rendition="#aq">l. c. v. 12. ſeq.</hi> 18. 19. Man kan dencken/ was die Be-<lb/>
+wohner dieſer Stadt/ vor unvergleichliche Schaͤtze haben<lb/>
+muͤſſen/ weil dero Behaͤltnuͤs und Wohn-Platz/ von ſo un-<lb/>
+gemeiner Herꝛligkeit iſt. Was wird da nicht vor Gold der<lb/>
+ſeligen Ewig-und ewigen Seligkeit ſeyn? Was vor un-<lb/>
+ſchaͤtzbare Schaͤtze und Kleinodien/ von den Edelgeſteinen<lb/>
+himmliſcher Klarheit und JEſus-Gleichheit/ werden ſich<lb/>
+nicht allhier/ als/ in einer gantz unermeßlichen Schatz-<lb/>
+Kammer/ finden/ und/ als die fuͤrtrefflichſten <hi rendition="#aq">dotes,</hi> oder<lb/>
+Morgen-gaben/ vor die Leiber und Seelen der Himmels-<lb/>
+Koͤniginnen/ herfuͤr thun? So mag man auch die zwoͤlf-<lb/>
+ferley Fruͤchte/ auf dem Holtze des Lebens/ welches/ im Pa-<lb/>
+radies GOttes/ waͤchſet/ vor nichts/ als herꝛlichſte Guͤ-<lb/>
+ter/ achten. <hi rendition="#aq">Apoc. XXII. v.</hi> 2. Die werden nicht allein den<lb/>
+Weinkeller/ <hi rendition="#aq">Cant. II,</hi> 2. Sondern auch die Taffel fuͤllen/<lb/>
+daß ſo wol Brod/ auf dem Tiſche GOttes/ <hi rendition="#aq">Luc. XIV. v.</hi> 15.<lb/>
+als auch Wein und alles Vergnuͤgen/ bey dem Mahl/ von<lb/>
+reinem Wein/ von Fett/ von Marck/ von Wein/ darin kei-<lb/>
+ne Hoͤfen iſt/ <hi rendition="#aq">Jeſ. XXV. v.</hi> 6. Wiewol/ auf gantz ungemei-<lb/>
+ne und him̃liſche Weiſe/ wird zugegen ſeyn. Und ſo ein gu-<lb/>
+ter Freund auch ein groſſer Schatz/ ein groſſes Gut/ iſt.<lb/>
+<hi rendition="#aq">Sir. VI. v.</hi> 14. Wird es auch hieran nicht ermangeln; weil/<lb/>
+nebſt dem allergetreuͤeſten Freunde/ auch die freundlichen<lb/>
+Engel-Geiſter/ in unzehlbarer Menge/ werden verhanden<lb/>
+ſeyn/ und/ von allen Außerwehlten Gottes-Freunden/ ver-<lb/>
+geſellſchafftet werden.</p><lb/>
+<fw type="catch" place="bottom">Alle</fw><lb/>
+<pb facs="#f0055" n="55"/>
+<fw place="top" type="header"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+<p>Alle dieſer Guͤter hat die <hi rendition="#fr">Glaubizin</hi> zu ſchauen/ je-<lb/>
+doch alſo/ daß Sie auch derſelben wuͤrcklich genieſſen/ und<lb/>
+ſich darob hoͤchlich erfreuͤen wird; Wie unſer Text bedeuͤ-<lb/>
+tet/ durch die <hi rendition="#aq">particulam, Beth,</hi> welche/ nach <hi rendition="#aq">Reoth,</hi> ſtehet/<lb/>
+und <hi rendition="#aq">fruitionem, cum viſione,</hi> oder <hi rendition="#aq">viſionem, cum fruitione,</hi><lb/>
+bemercket/ ſich/ zu ſolchem Sehen/ brauchen laſſende/ wel-<lb/>
+ches des Geſehenen wuͤrcklich geneuͤſſet/ als <hi rendition="#aq">Eccl. II. v.</hi> 1. zu<lb/>
+finden: Da der weiſe Koͤnig/ wie hier ſein Vater/ das<lb/>
+Wort <hi rendition="#aq">Raah,</hi> mit einem <hi rendition="#aq">Beth, conſtruiret,</hi> ſo gegeben wird<lb/>
+durch/ <hi rendition="#aq">vide, in bonum,</hi> das iſt/ <hi rendition="#aq">fruere bono,</hi> geneuͤß des Gu-<lb/>
+tes. Wird alſo/ in jener Welt/ nicht heiſſen: <hi rendition="#aq">Qvid juvat<lb/>
+aſpectus, ſi non conceditur uſus?</hi> Sondern die Außerwehl-<lb/>
+ten werden truncken werden/ von den reichen Guͤtern des<lb/>
+Hauſes <hi rendition="#g">GOTTES/</hi> getraͤncket/ mit Wolluſt/ wie mit<lb/>
+einem Strome. <hi rendition="#aq">Pſalm. XXXVI. v.</hi> 10. Das wird Freuͤde<lb/>
+geben/ wie geſchrieben ſtehet: Siehe/ meine Knechte ſol-<lb/>
+len eſſen; Jhr aber ſollet hungern. Siehe/ meine Knech-<lb/>
+te ſollen trincken; Jhr aber ſollet durſten. Siehe/ meine<lb/>
+Knechte ſollen froͤlich ſeyn; Jhr aber ſollet zu Schanden<lb/>
+werden. Siehe/ meine Knechte ſollen/ vor guten Muth/<lb/>
+jauchzen; Jhr aber ſollet/ vor Hertzeleid ſchreyen/ und/<lb/>
+vor Jammer/ heuͤlen. <hi rendition="#aq">Jeſ. LXV. v.</hi> 13. Jſt auch allhier ge-<lb/>
+gruͤndet/ durch die obige <hi rendition="#aq">conſtruction.</hi> Dann uͤber das/<lb/>
+daß die <hi rendition="#aq">verba ſenſuum, affectum includiren,</hi> oder/ nach der<lb/>
+Ebr<hi rendition="#aq">æ</hi>er Sprach-Arth/ zum oͤfftern eine Gemuͤths-Bewe-<lb/>
+gung/ mit der euͤſſerlichen Sinnen-Wuͤrckung/ anzeigen/<lb/>
+hat inſonderheit unſer Text-Wort/ nebſt ſeines gleichen/<lb/>
+die Art/ daß es/ mit <hi rendition="#aq">Beth,</hi> geſetzet/ eine Luſt und Ergoͤtzlig-<lb/>
+keit/ uͤber dem geſchaueten/ <hi rendition="#aq">connotiret,</hi> als den Sprach-<lb/>
+<fw place="bottom" type="catch">Kundi-</fw><lb/>
+<pb facs="#f0056" n="56"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+Kundigen bekannt iſt/ und von fuͤrnehmen <hi rendition="#aq">Philologis,</hi> an-<lb/>
+gemercket worden. (<hi rendition="#aq">Verba videndi, <hi rendition="#i">Raah, Hhasah, Hetibh,</hi> &amp;c.</hi><lb/>
+<hi rendition="#et"><hi rendition="#aq">conſtructa, cum <hi rendition="#i">Beth</hi>, involvunt unà, cum fruitione, oblectatio-<lb/>
+nem planè peculiarem. <hi rendition="#i">Geier. Comment. in Pſalm. XXII. v. 4.<lb/>
+Conf. C. in Pſal. XX. v. 18.</hi></hi>)</hi><lb/>
+Mit der Weiſe wird die/ <hi rendition="#fr">von Glaubiz/</hi> die gantze Fuͤlle<lb/>
+der him̃liſchen Guͤter/ zu ihrem Belieben/ haben/ daß Sie<lb/>
+ſolche nicht nur ſchauen/ und/ an Jhnen/ die Augen wei-<lb/>
+den/ ſondern Sie auch/ zu aller Jhrer/ und zwar/ ewig-<lb/>
+waͤhrenden/ Luſtbarkeit/ anwenden/ als Sie ſelber wollen<lb/>
+wird. Da wird Sie ſich freuͤen/ wie man ſich freuͤet/ in<lb/>
+der Erndte/ wie man froͤlich iſt/ wenn man Beuͤte auß-<lb/>
+theilet. <hi rendition="#aq">Jeſ. IX. v.</hi> 3. Ewige Freuͤde wird da/ uͤber ihrem<lb/>
+Haupte/ ſeyn/ Freuͤde und Wonne werden Sie ergreif-<lb/>
+fen/ Schmertz und Seuffzen wird wegmuͤſſen. <hi rendition="#aq">Jeſ. XXXV,</hi> 10.<lb/>
+Da wird es heiſſen:</p><lb/>
+<p><hi rendition="#aq">Poſt viſum, riſum, poſt riſum venit in uſum;</hi><lb/>
+Aber nicht zugleich/ wie hienieden/ auff Erden/ bey dem<lb/>
+ſuͤndlichen Schau und Gebrauch verbothener Dinge:</p><lb/>
+<p><hi rendition="#aq">Poſt uſum, factum, poſt factum, pœnitet acti.</hi><lb/>
+Wann der HERR die Gefangenen Jacob erloͤſen wird/<lb/>
+ſo werden wir ſeyn/ wie die Traͤumende; Dann wird un-<lb/>
+ſer Mund voll Lachens und unſere Zunge voll Ruͤhmens<lb/>
+ſeyn. <hi rendition="#aq">Pſalm. CXXVI. v.</hi> 1. 2. Seyn/ aber auch bleiben. Deñ<lb/>
+eure Freuͤde ſoll niemand/ von euch/ nehmen/ ſagt der<lb/>
+HERR JEſus/ der HERR/ unſer Erloͤſer. <hi rendition="#aq">Joh. XVI,</hi> 22.<lb/>
+O! des uͤberaus herꝛlichen Sehens!</p><lb/>
+<p>Das wird geſchehen und ergehen/ im Lande der Le-<lb/>
+<fw type="catch" place="bottom">bendi-</fw><lb/>
+<pb facs="#f0057" n="57"/>
+<fw place="top" type="header"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+bendigen/ <hi rendition="#aq">Beerez Hhajim, in terra viventium.</hi> Wird ſonſt/<lb/>
+in der Schrifft/ geſetzet/ vor dieſe Welt/ oder Erde/ dar-<lb/>
+auff wir leben; Als etwa <hi rendition="#aq">Jeſ. XXXVIII. v.</hi> 11. Da Hiskias/<lb/>
+in Anſehen des ihm angedroheten Todes/ ſagt: Jch<lb/>
+ſprach/ nun muß ich nicht mehr ſehen den <hi rendition="#g">HERRN;</hi><lb/>
+Den <hi rendition="#g">HERRN/</hi> im Lande der Lebendigen. Nun muß<lb/>
+ich nicht mehr ſchauen die Menſchen/ bey denen/ die ihre<lb/>
+Zeit leben. Und <hi rendition="#aq">Jeſ. LIII. v.</hi> 8. Er iſt/ aus dem Lande der<lb/>
+Lebendigen/ weggeriſſen/ da er/ umb die Miſſethaten ſei-<lb/>
+nes Volckes/ geplaget war. Der ſelbſte David ſcheinet<lb/>
+dies Wort alſo zu nehmen/ <hi rendition="#aq">Pſalm. CXLII. v.</hi> 6. HERR/ zu<lb/>
+dir ſchrey ich/ und ſage/ du biſt meine Zuverſicht/ mein<lb/>
+Theil/ im Lande der Lebendigen. Aber eben dieſer letztere<lb/>
+Ort zeiget an/ daß es dem David/ nicht ſo wol/ umb das<lb/>
+weltliche Erd-Land/ als das him̃liſche Erb-Land/ zu thun<lb/>
+geweſen. Denn er hub ja ſeine Augen auf/ und nahm ſo<lb/>
+ſeine Zuverſicht/ zu den Bergen/ zu den hohen Himmels-<lb/>
+Bergen/ von dannen ihm Huͤlffe kam. <hi rendition="#aq">Pſalm. CXXI. v.</hi> 1.<lb/>
+Glaubete alſo/ daß auch ſeine Zuverſicht/ im Himmel/ waͤ-<lb/>
+re; Zumahl/ da er/ <hi rendition="#aq">Pſalm. CXXIII. v.</hi> 1. ſeine letztberuͤhr-<lb/>
+te Worte dergeſtalt ſelbſt erklaͤret: Jch hebe meine Au-<lb/>
+gen auf/ zu dir/ der du/ im Himmel/ ſitzeſt. Daher koͤn-<lb/>
+nen wir der Meinung <hi rendition="#aq">Pomerani</hi> nicht ſchlechthin beyfal-<lb/>
+len/ welcher/ durch das Land der Lebendigen/ bloͤßlich das<lb/>
+Jrꝛdiſche will verſtanden haben. (<hi rendition="#aq">Terram viventium inter-</hi><lb/>
+<hi rendition="#et"><hi rendition="#aq">pretantur futuram vitam, qvod illic ſit vera vita. Ego autem<lb/>
+interpretor terram hanc, in qva nunc vivimus, atq́; hoc ipſum,<lb/>
+ex ſcriptura, licet &amp; ipſa oratio, Credo, qvod videam, ſatis in-<lb/>
+dicet, de fide dici, qvæ eſt, in hâc vita, in Sanctis, &amp;c. <hi rendition="#i">Johan.</hi></hi></hi><lb/>
+<fw place="bottom" type="sig"><hi rendition="#aq"><hi rendition="#i">H</hi></hi></fw><fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#i">Pome-</hi></hi></fw><lb/>
+<pb facs="#f0058" n="58"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+<hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">Pomeran. Bugenhagius, Interpret. in Libr. Pſalmorum<lb/>
+p. m. 152.</hi></hi>)</hi><lb/>
+Das koͤnte wol ſeyn/ daß David zugleich mit/ auff dies<lb/>
+Welt-Land/ geſehen/ und ſich inſonderheit/ mit ſeiner<lb/>
+kuͤnfftigen/ Koͤniglichen/ Regierung/ und/ darzu gehoͤri-<lb/>
+gen/ Gluͤckſeeligkeit/ getroͤſtet haͤtte; Weil doch die Gottſe-<lb/>
+ligkeit/ zu allen Dingen/ gut iſt/ und die Verheiſſung hat die-<lb/>
+ſes und des zukuͤnfftigen Lebens. <hi rendition="#aq">I. Tim. IV,</hi> 8. Und David/<lb/>
+ſo wol/ als ein Prophet/ im Geiſt geſehen/ was mit naͤchſten<lb/>
+folgen wuͤrde/ als auch/ als ein rechtglauͤbiger Jſraelit/ ſich/<lb/>
+auf die Goͤttliche Verheiſſung/ verlaſſen/ der getroſten<lb/>
+Hoffnung/ daß/ was GOtt verſprochen/ werde Er auch<lb/>
+thun/ das angefangene Werck vollfuͤhren/ und/ auf die<lb/>
+Salbung/ darzu gehoͤrige Regierung verleihen. Daher<lb/>
+man wol zulaſſen kan/ was die wollen/ ſo dieſe Worte/ auff<lb/>
+die zeitliche und ewige Gluͤckſeeligkeit unſeres/ annoch nicht<lb/>
+regierenden/ ſondern/ im Elend/ herumb ſchweiffenden Koͤ-<lb/>
+niges/ ziehen. (Jch ſtelle es gar/ in keinen Zweiffel/ ſondern getraue<lb/>
+<hi rendition="#et">meinem lieben GOtt/ daß Er mich und alle Glauͤbigen/ hie zeit-<lb/>
+lich/ wieder meine Feinde/ beſchuͤtzen/ und ſeine/ liebe/ Gemeine/<lb/>
+weil die Welt ſtehet/ nicht/ zu ſcheitern/ gehen laſſen/ werde/ ꝛc.<lb/>
+Nach dieſem Leben/ aber/ wird Er mir ſeine Gnade erzeigen/<lb/>
+daß ich/ im Lande der Lebendigen/ darinne kein Tod mehr herꝛ-<lb/>
+ſchen wird/ weſentlich ſeine Guͤte und him̃liſche Gnaden-Schaͤ-<lb/>
+tze beſitzen/ ihn/ von Angeſicht/ zu Angeſicht/ ſchauen/ mit Wol-<lb/>
+luͤſten/ wie mit einem Strome/ getraͤncket und recht ſatt wer-<lb/>
+den werde. <hi rendition="#fr">Chriſtoph Fiſcher/ in der kurtzen Außle-<lb/>
+gung des 27. Pſalms.</hi> Jch hoffe nichts deſtoweniger/ es<lb/>
+werde mir GOtt/ in dieſem Leben/ noch groſſe Gutthaten er-<lb/>
+zeigen/ und/ im zukuͤnfftigen/ welches das rechte Leben iſt/ mich<lb/>
+unzweiffelich der ewigen Freuͤde theilhafftig machen. <hi rendition="#aq">Lucas<lb/>
+Oſiander in not. ad h. l.</hi>)</hi><lb/>
+<fw type="catch" place="bottom">Doch</fw><lb/>
+<pb facs="#f0059" n="59"/>
+<fw place="top" type="header"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+Doch hat man wol die meiſte <hi rendition="#aq">reflexion,</hi> auf das Him̃liſche/<lb/>
+zu machen; Zumahl das fuͤrnemlich das rechte Erb-Land<lb/>
+war/ welches ihm gleichſam/ mit Schnuͤren/ auß- und zuge-<lb/>
+meſſen/ da ihm das Loß gefallen/ auf das Liebliche/ und ein<lb/>
+ſchoͤn Erbtheil worden war. <hi rendition="#aq">Pſalm. XVI,</hi> 6. Das iſt/ <hi rendition="#aq">Erez,<lb/>
+terra, regio;</hi> Nicht/ in eigentlicher Deuͤtung/ ſondern figuͤr-<lb/>
+licher/ welche der Geiſt GOttes beliebet/ wann Er das ewi-<lb/>
+ge Leben ausdruͤcklich eine Erde nennet. Wir warten ei-<lb/>
+ner neuͤen Erde/ ſagt Petrus/ <hi rendition="#aq">II.</hi> Epiſt. am <hi rendition="#aq">III,</hi> 13. Und be-<lb/>
+ziehet ſich zugleich/ auf die Verheiſſung GOttes/ <hi rendition="#aq">Jeſ. LXV,<lb/>
+v. 17. Johannes</hi> ſchreibet: Jch ſahe eine neuͤe Erde. <hi rendition="#aq">Apoc.<lb/>
+XXI,</hi> 1. Ob nun ſchon Himmel und Erde ſehr weit von ein-<lb/>
+ander ſind; Werden ſie doch/ an beyden Orthen/ gantz<lb/>
+gnau zuſammen geſetzet. Als auch wol ſeyn kan/ weil das<lb/>
+ewige Leben beydes iſt/ ſo wol Himmel/ als Erde; Aber kei-<lb/>
+nes/ in gantz eigentlicher/ oder gemeiner/ Deuͤtung; Dar-<lb/>
+umb das Wort/ neuͤe/ beygefuͤget wird. Das ewige Leben<lb/>
+iſt ein Himmel/ wegen des Glantzes/ ſo ſich nicht allein/ an<lb/>
+den Goͤttlichen Perſonen und Heiligen Engeln/ ſondern<lb/>
+auch/ Außerwehlten Menſchen/ findet/ und der him̃liſchen<lb/>
+Sonnen-Monden- und Sternen-Klarheit gleichet/ etc.<lb/>
+<hi rendition="#aq">Dan. XII, 3. Matth. XIII, 43. I. Cor. XV,</hi> 41. 42. Das ewige Le-<lb/>
+ben iſt eine Erde/ wegen der Beſtaͤndig-und Fruchtbarkeit/<lb/>
+weil es ewig beſtehet/ und alles Vergnuͤgen/ als/ aus einem<lb/>
+Erden-Schoß/ herfuͤr bringet/ welches derſelben/ wiewol/<lb/>
+in gantz ungleicher und weit/ weit/ geringer <hi rendition="#aq">qvalité,</hi> zugele-<lb/>
+get wird. <hi rendition="#aq">Pſalm. CIV,</hi> 13. 14. Jnſonderheit iſt es ein rechtes<lb/>
+Land der Lebendigen/ weil keine andere/ als Lebendige/ dariñ<lb/>
+wohnen/ und dahin kommen. Jſt die Welt ein Land der<lb/>
+<fw place="bottom" type="sig">H 2</fw><fw place="bottom" type="catch">Leben-</fw><lb/>
+<pb facs="#f0060" n="60"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+Lebendigen/ ſo iſt ſie es gewißlich/ in ſehr ſchlechter Geſtalt/<lb/>
+weil doch/ was darin lebet/ mehr tod/ als lebendig iſt/ und<lb/>
+ſo ja wol <hi rendition="#aq">comparatè</hi> dieſen Nahmen fuͤhret/ weil ſie nicht ſo<lb/>
+voll Todes/ als die ſelbſte Hoͤlle/ iſt. Anderer Weiſe moͤchte<lb/>
+man ſie nicht unrecht ein warhafftes Todten-Land heiſſen.<lb/>
+<hi rendition="#et">(<hi rendition="#aq">Hæc terra eſt regio morientium, qvia omnes morti ſumus ob-<lb/>
+noxii: Sed cœleſtis patria eſt regio viventium, qvia ibi non eſt<lb/>
+mors, nec luctus. <hi rendition="#i">Dauderſt. Labor. Pſalter. Diſp. Pſal. 27. p. m. 328.<lb/>
+Et pag. praced.</hi> Parum, aut inſufficienter, dicere videntur, qvi de<lb/>
+terra Iſraelis, Palæſtina, accipiunt. In mundo enim mors domi-<lb/>
+natur:</hi> Da iſt eitel todt Ding.)</hi><lb/>
+Aber nicht alſo der Himmel. Denn da wohnet fuͤrnemlich<lb/>
+der lebendige GOtt/ welcher allein Unſterbligkeit hat. <hi rendition="#aq">I.<lb/>
+Tim. VI,</hi> 16. Der GOtt <hi rendition="#aq">Abrahams,</hi> der GOtt <hi rendition="#aq">Iſaacs,</hi> und deꝛ<lb/>
+GOtt <hi rendition="#aq">Jacobs,</hi> der aber nicht ein GOtt der Todten/ ſondern<lb/>
+der Lebendigen iſt. <hi rendition="#aq">Matth. XXII,</hi> 31. 32. Da wohnet die aller-<lb/>
+heiligſte/ aber/ mit GOtt/ innigſt vereinete Menſchheit/ die<lb/>
+zwar ihr Leben gelaſſen/ zu einer Erloͤſung/ vor viele; <hi rendition="#aq">Matth.<lb/>
+XX.</hi> 38. Aber es auch/ nach der/ ihr verliehenen/ Macht/ wie-<lb/>
+dergenommen/ <hi rendition="#aq">Joh. X,</hi> 18. und nun lebet/ von Ewigkeit/ zu<lb/>
+Ewigkeit. <hi rendition="#aq">Apoc. IV,</hi> 9. Da wohnen die Heiligen Engel/ die<lb/>
+dienſtbaren Geiſter/ <hi rendition="#aq">Ebr. I. v.</hi> 14. ſo kein Fleiſch und Bein<lb/>
+haben/ und ſo auch nicht ſterben koͤnnen. <hi rendition="#aq">Luc. XXIV,</hi> 39. Und<lb/>
+die Seelen der Gerechten/ ſo nicht koͤnnen getoͤdet werden.<lb/>
+<hi rendition="#aq">Matth. X,</hi> 28. Alles lebendig und nichts todt/ lauter Leben/<lb/>
+und kein Tod. Wie dann auch kein Tod/ oder Todter/ da-<lb/>
+hinein kommen kan. Jn der Welt giebts aller Orthen<lb/>
+Coloqvinten-Toͤpffe/ und iſt kein Winckel/ da nicht <hi rendition="#aq">mors, in<lb/>
+olla. II. Reg. IV,</hi> 40. Die Welt iſt das leibhaffte Egypten/<lb/>
+da der Tod uͤberall hauſet/ und kein Hauß zu finden/ da der<lb/>
+<fw type="catch" place="bottom">Tod</fw><lb/>
+<pb facs="#f0061" n="61"/>
+<fw place="top" type="header"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+Tod nicht innen ſey. <hi rendition="#aq">Exod. XII,</hi> 30. Aber/ in der Huͤtten Got-<lb/>
+tes/ bey den Menſchen/ iſt wol GOtt/ aber kein Tod. <hi rendition="#aq">Apoc.<lb/>
+XXI,</hi> 3. Tod und Todte muͤſſen/ fuͤr der Thuͤre/ ſtehen blei-<lb/>
+ben/ und werden nicht hinein gelaſſen/ beſonders geiſtlich-<lb/>
+und ewig-Todte/ die/ in Suͤnden/ erſtorbene/ und nachmals<lb/>
+gar verdampte/ Menſchen und Teuffel. Haußen ſind die<lb/>
+Hunde/ und Zauͤberer/ und die Hurer/ und Todſchlaͤger/<lb/>
+und die Abgoͤttiſchen/ und alle/ die liebhaben und thun die<lb/>
+Luͤgen. <hi rendition="#aq">Apoc. XXII,</hi> 15. Zwiſchen dem reichen Schlemmer/ in<lb/>
+der Hoͤlle/ und dem Vater <hi rendition="#aq">Abraham,</hi> im Himmel/ iſt eine<lb/>
+groſſe Klufft befeſtiget/ daß/ die da wollen hinab fahren/ koͤn-<lb/>
+nen nicht/ und auch nicht/ von dannen/ zu <hi rendition="#aq">Abraham,</hi> hinuͤ-<lb/>
+ber fahren. <hi rendition="#aq">Luc. XVII. v.</hi> 26. O des herꝛlichen Landes!<lb/>
+Das gehet/ bey weiten/ fuͤr die Jnſul der Lebenden/ in <hi rendition="#aq">Mo-<lb/>
+momia.</hi> (Jm Hertzogthumb/ <hi rendition="#aq">Momomia</hi> (Mowm oder Mounſter)<lb/>
+<hi rendition="#et">ſoll eine Jnſul ſeyn/ darinne niemands jemahl ſtirbet. Und ob<lb/>
+ſchon die Leuͤte daſelbſt kranck werden/ ſo ſterben ſie doch nicht<lb/>
+davon/ ſo lange ſie ſich daſelbſt auffhalten. Dahero ſie auch<lb/>
+der Lebenden Jnſul genennet werde. <hi rendition="#aq">Moller. Continuat. Alleg.<lb/>
+Profano-Sacrarum cap. XLI. p. 435. Zeill. Epiſt. Cent. 3. Epiſt. 4.<lb/>
+ex itiner. Thom. Carve, part. 1. c.</hi> 4.)</hi><lb/>
+Denn ob es auch ſchon wahr waͤre (woran jedennoch billich<lb/>
+zu zweiffeln/ weil Paulus das Wiederſpiel bezeuͤget/ <hi rendition="#aq">Rom.<lb/>
+V,</hi> 12.) daß daſelbſt kein Menſch erſterben koͤnte; So <hi rendition="#aq">exuli-<lb/>
+rete</hi> dennoch nur der leibliche Tod; Hier aber auch der geiſt-<lb/>
+liche und ewige. Und darum̃ iſt es auch das aller fuͤrtreff-<lb/>
+lichſte Land/ das/ in- und auſſer der Welt/ ja die ſelbſte Welt/<lb/>
+iſt. (Lieber/ was iſt die Welt? Sie iſt das rechte Welſchland/ da es/<lb/>
+<hi rendition="#et">den frommen und glauͤbigen Kindern GOttes/ welſch und ſel-<lb/>
+tzam gnug gehet. Dann der HErꝛ fuͤhret ſeine Heiligen wun-</hi><lb/>
+<fw place="bottom" type="sig">H 3</fw><fw place="bottom" type="catch">derlich/</fw><lb/>
+<pb facs="#f0062" n="62"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche</hi></fw><lb/>
+<hi rendition="#et">derlich Pſ. 4/ 4. Was iſt die Welt? Sie iſt das rechte <hi rendition="#fr">Frieß-<lb/>
+land/</hi> da einer den andern friſt/ und der Gottloſe verſchlinget<lb/>
+den/ der froͤm̃er iſt/ dañ er. <hi rendition="#aq">Habac.</hi> 1, 13. Was iſt die Welt? Sie<lb/>
+iſt das rechte <hi rendition="#fr">Hungerland/</hi> da wir das Jammer-Liedlein <hi rendition="#aq">in-<lb/>
+toni</hi>ren muͤſſen: Biß auf dieſe Stunde/ leiden wir Hunger und<lb/>
+Durſt/ ſind nackend und werden geſchlagen/ und haben keine<lb/>
+gewiſſe Staͤtt. 1. <hi rendition="#aq">Cor.</hi> 4, 11. Was iſt die Welt? Sie iſt das<lb/>
+rechte <hi rendition="#fr">Lapland/</hi> <hi rendition="#aq">ſtultorum plena ſunt omnia,</hi> es laufft allent-<lb/>
+halben voll ſolcheꝛ Lappen/ die dem Jrꝛdiſchen ergeben ſind/ ꝛc. ꝛc.<lb/>
+(<hi rendition="#aq">Creidius, in Funeral. p. m. 290. Qvi tamen &amp; hæc addit, de cœlo:</hi><lb/>
+Da werden wiꝛ das rechte <hi rendition="#fr">Gottland</hi> antreffen/ da Gott wird<lb/>
+alles/ in allem/ ſeyn. 1. <hi rendition="#aq">Cor.</hi> 15. — Das rechte <hi rendition="#fr">Engelland/</hi> ꝛc.<lb/>
+Da die Heil. Engel/ fuͤr Gottes Thron/ taͤglich auffwarten und<lb/>
+ſingen: Heilig/ Heilig/ Heilig/ iſt GOtt/ der HERR Zebaoth.<lb/>
+<hi rendition="#aq">Jeſ.</hi> 6, 3. Da werden wir antreffen das rechte <hi rendition="#fr">Groͤnland/</hi> da<lb/>
+die Gerechten ſollen gruͤnen/ wie die Palmbauͤme — <hi rendition="#aq">Pſ.</hi> 92, 13.<lb/>
+— Das liebliche <hi rendition="#fr">Mayland/</hi> da ein immerwaͤhrender Fruͤh-<lb/>
+ling und lieblicher Mayen ſeyn wird — Das ſeelige <hi rendition="#fr">Preiſ-<lb/>
+ſenland/</hi> da uns nicht allein ſoll Preiß und Ehre wiederfahren;<lb/>
+<hi rendition="#aq">Rom.</hi> 2, 7. Sondern wir auch GOtt preiſen werden/ fuͤr das<lb/>
+Gute/ das Er uns gethan hat. Dann die/ in deinem Hauſe/<lb/>
+wohnen/ die loben dich immerdar. <hi rendition="#aq">Pſal.</hi> 84, 5.)</hi><lb/>
+Jn diß unvergleiche Land gelanget <hi rendition="#fr">Die/ von Glaubiz/</hi> und<lb/>
+ſiehet daſelbſt das Gute des HERRN. Solte Sie nicht<lb/>
+ſeelig ſeyn? Traun ja. Denn da gehet aller erſt das rechte<lb/>
+Gluͤck an/ davon Sie hier nichts/ als einen Schatten/ oder<lb/>
+geringen Vorſchmack/ gehabet hat/ auf die Weiſe/ wie man<lb/>
+etwa eine Landſchafft/ auf der Mappe/ oder/ im Kupffer/<lb/>
+zu ſehen pfleget. Was iſt das/ gegen das Land ſelbſt? Dar-<lb/>
+umb wir die/ ſo deſſen/ in der That/ Beſitzer werden/ fuͤr weit<lb/>
+ſeliger/ als uns ſelbſt/ achten/ aber auch/ fuͤr unſere Perſon/<lb/>
+darnach ein hertzliches Verlangen haben/ und/ daſſelbe zu<lb/>
+<fw type="catch" place="bottom">erlan-</fw><lb/>
+<pb facs="#f0063" n="63"/>
+<fw place="top" type="header"><hi rendition="#b">Leichen-Predigt.</hi></fw><lb/>
+erlangen/ alles Vermoͤgen dran ſtrecken ſollen. <hi rendition="#aq">Hæc urbs, ut<lb/>
+ut mea ſit, aut ferro, aut auro, efficiam,</hi> ſagte dort <hi rendition="#aq">Philippus.</hi><lb/>
+Wie vielmehr wir/ in Anſehen dieſes unvergleichlichen Lan-<lb/>
+des/ und der ſelbſten Stadt des lebendigen GOttes? Jch<lb/>
+vergeſſe/ was dahinten/ und ſtrecke mich/ nach dem/ was da<lb/>
+fornen iſt/ nach dem fuͤrgeſteckten Ziel. <hi rendition="#aq">Phil. III,</hi> 13. Jch will/<lb/>
+Dir/ zu Ehren/ alles wagen/ kein Creutz nicht achten/ keine<lb/>
+Schmach/ noch Plagen/ nichts/ von Verfolgung/ nichts/<lb/>
+von Todes Schmertzen/ nehmen zu Hertzen; Muß unſer al-<lb/>
+ler ernſte <hi rendition="#aq">reſolution</hi> ſeyn. Und darauf endlich folgen: Va-<lb/>
+let will ich dir geben/ du arge/ falſche/ Welt/ dein fuͤndlich/ boͤſes/ Leben/<lb/>
+durchaus mir nicht gefaͤlt/ im Himmel/ iſt gut wohnen/ hinauf ſteht mein<lb/>
+Begier/ da wird GOTT ewig lohnen/ dem/ der ihm dient allhier.</p><lb/>
+<p>So auch unſerer <hi rendition="#fr">Glaubizin/ der Wol-ſeel. Frauen/<lb/>
+von Glaubiz;</hi> Die/ nach dem Vermoͤgen/ ſo ihꝛ GOtt<lb/>
+ſelbſt dargegeben/ ihm auch gedienet/ und ſich/ ihrem Chriſt-<lb/>
+Adelichen Herkom̃en und Eheſtande gemaͤß/ ſo viel menſch-<lb/>
+liche Schwachheiten zulaſſen wollen/ bemuͤhet hat/ eine gute<lb/>
+Ritterſchafft zu uͤben/ Glauben und gutGewiſſen zu haben/<lb/>
+und zubehalten. <hi rendition="#aq">I. Tim. I,</hi> 18. Wol eine rechte <hi rendition="#fr">Glaubitzin.</hi><lb/>
+Deñ Sie wuſte/ an welchen Sie glauͤbete/ und war gewiß/<lb/>
+daß <hi rendition="#k">e</hi>r Jhr ihreBeylage bewahren wuͤrde. <hi rendition="#aq">II. Tim. I.</hi> O! wie<lb/>
+getroſt konte Sie ſingen: Jch weiß/ daß mein getreuer GOtt/ vor<lb/>
+mich/ in Tod/ ſein’n liebſten Sohn gegeben hat. Derſelbig’ mein HErꝛ/<lb/>
+JEſus Chriſt/ vor all’ mein’ Suͤnd’/ geſtorben iſt/ und aufferſtanden/<lb/>
+mir zu gut/ der Hoͤllen Glut/ geloͤſcht/ mit ſeinem theuͤren Blut. Aber<lb/>
+auch: Dem leb und ſterb ich allezeit/ von ihm der bitt’r Tod mich nicht<lb/>
+ſcheid’. Jch leb’/ od’r ſterb/ ſo bin ich ſein/ Er iſt allein/ der ein’ge Troſt<lb/>
+und Helffer mein. Die <hi rendition="#aq">Perſonalia</hi> zeuͤgen/ daß ihr Glaube nicht todt/<lb/>
+ſondern lebendig gnug geweſen ſey; Wuſte dannenhero/ daß weder<lb/>
+<fw place="bottom" type="catch">Tod/</fw><lb/>
+<pb facs="#f0064" n="64"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche Leichen-Predigt.</hi></fw><lb/>
+Tod/ noch Leben—Sie ſcheiden mochte/ von der Liebe GOttes/ die da<lb/>
+iſt/ in Chriſto Jeſu. <hi rendition="#aq">Rom. VIII,</hi> 39. Und bekañte ſich/ mit freuͤdigen Her-<lb/>
+tzen/ zu dem Hauͤfflein derer/ die/ wie <hi rendition="#aq">Tobias,</hi> ſagen: Wir ſind Kinder<lb/>
+der Heiligen/ und warten/ auf ein Leben/ das GOtt geben wird/ denen/<lb/>
+ſo/ im Glauben/ ſtarck und feſte bleiben/ fuͤr ihm. <hi rendition="#aq">Tob. II,</hi> 18. Muſte Sie<lb/>
+ſchon klagen/ Du laͤſſeſt mich erfahren viele und groſſe Angſt; So wurffe<lb/>
+ſie deñoch das Vertrauen/ zu dem/ welcher wieder lebendig machet/ und/<lb/>
+aus der Tieffe der Erden/ herauff holet/ <hi rendition="#aq">Pſ. LXXI,</hi> 20. mit nichten weg;<lb/>
+Sondern glaubete doch/ daß ſie ſehen wuͤrde das Gute des HERRN/<lb/>
+im Lande der Lebendigen. Sie wuſte/ daß/ ſo auch ihr irꝛdiſch Hauß<lb/>
+dieſer Huͤtten zerbrochen wuͤrde/ Sie doch eine Bau haͤtte/ von GOtt/<lb/>
+erbauet/ ein Hauß/ nicht/ mit Haͤnden/ gemacht/ ſondern das ewig iſt/ im<lb/>
+Him̃el. <hi rendition="#aq">II. Cor. V,</hi> 1. Des troͤſtete Sie ſich/ und vergaſſe daruͤber alles/<lb/>
+was hienieden iſt/ nur ſuchende das/ was droben iſt. So Sie auch ver-<lb/>
+hoffentlich gefunden/ und deshalb weit vergnuͤgter/ als <hi rendition="#aq">Jacob,</hi> zu <hi rendition="#aq">intoni-</hi><lb/>
+ren hat: Jch habe GOtt/ von Angeſicht/ geſehen/ und meine Seele iſt<lb/>
+geneſen. <hi rendition="#aq">Gen. XXXII,</hi> 29. Ach! das him̃liſche Gut-/ ja/ Gott-Land iſt<lb/>
+zwar kein Jrꝛ- aber doch Jhr Land/ und giebt alles recht vollkommene<lb/>
+Gut/ ſo zu genieſſen/ als zu ſchauen. <hi rendition="#aq">Olim non ſic.</hi> So gienge es hier<lb/>
+nicht. Deñ das Land der Todten gabe ſehr viel Boͤſes/ und den ſelbſten<lb/>
+Tod zuerkennen. Das Gute des HErꝛn lieſſe ſich nur ſtuͤck-weiß/<lb/>
+auch wol bloß/ im Spiegel/ ſchauen; Nun aber/ von Angeſicht zu Ange-<lb/>
+ſicht. Das koͤnnen wir/ von uns/ nicht ſagen; Auch nicht unſere <hi rendition="#fr">Hoch-<lb/>
+Fuͤrnehme Leidtragende.</hi> Jhre Augen/ ihre Thraͤnen-flieſſende<lb/>
+Augen/ ſehen faſt gar nicht; Geſchweige/ daß Sie viel Gutes/ beſon-<lb/>
+ders/ in ihrem Todes-Lande/ in dem Hoch-Adelichen Trauer-Hauſe und<lb/>
+Hofe/ ſehen und warnehmen ſolten; Doch werden Sie indeß ihre Ge-<lb/>
+muͤths-und Seelen-Augen deſto weiter aufthun/ und fehn/ auf GOtt/<lb/>
+der Sie verwund/ Der ſie/ zu heilen/ iſt bereit/ wañs dient/ zu ihreꝛ See-<lb/>
+ligkeit. Der erleuͤchte auch unſer allerſeits Augen/ daß wir nicht/ im<lb/>
+Tode/ entſchlaffen. <hi rendition="#aq">Pſal. XIII,</hi> 4. Und verleihe/ in Gnaden/ daß wir nicht<lb/>
+vergebens ſingen: Mein’n lieben GOtt/ von Angeſicht/ werd ich an-<lb/>
+<hi rendition="#c">ſchaun/ dran zweiffl ich nicht/ in ew’ger Freuͤd und Herꝛligkeit/<lb/>
+die mir bereit. Jhm ſey Lob Preiß in Ewigkeit. <hi rendition="#fr">Amen!</hi></hi></p></div><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">PER-</hi></fw><lb/>
+<pb facs="#f0065" n="[65]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsPersonalia" n="2"><head><hi rendition="#aq"><hi rendition="#b"><hi rendition="#g">PERSONALIA.</hi></hi></hi></head><lb/>
+<p><hi rendition="#c">Der Weyland Hoch-Edel-Gebohrnen/ Hoch-Sitt-<lb/>
+und Tugend-belobten Frauen/<lb/>
+<hi rendition="#fr"><hi rendition="#in">F</hi>r. <hi rendition="#in">M</hi>ariana <hi rendition="#in">G</hi>laubitzin/</hi><lb/>
+Gebohrnen von Stoſchin/ auff Dalckau/<lb/>
+Baune/ und Großwirbitz.</hi></p><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">D</hi>Je Vergnuͤgligkeit iſt eine</hi><lb/>
+der vortrefflichſten Tugenden/<lb/>
+ſie richtet ſich bloß nach des hoͤch-<lb/>
+ſten Willen/ und iſt gewohnt ſo<lb/>
+wohl das Ungeluͤck geduldig an-<lb/>
+zunehmen/ als daß Geluͤcke zu<lb/>
+verehren. Jhre Kinder lehret ſie bald von Ju-<lb/>
+gend auf GOtt und den Nechſten lieben/ und treuf-<lb/>
+felt ihnen gleichſamb mit der Mutter-Milch die ed-<lb/>
+len Geſetze der Natur ein. Keinen uͤppigen <hi rendition="#aq">Sarda-</hi><lb/>
+<fw place="bottom" type="sig">J</fw><fw place="bottom" type="catch"><hi rendition="#aq">napel</hi></fw><lb/>
+<pb facs="#f0066" n="[66]"/>
+<fw type="header" place="top"><hi rendition="#aq"><hi rendition="#b">PERSONALIA.</hi></hi></fw><lb/>
+<hi rendition="#aq">napel</hi> leidet ſie in ihrer Schulen/ keinen Blutgieri-<lb/>
+gen <hi rendition="#aq">Nero</hi> nimmt ſie in ihre Geſellſchafft/ keinen ge-<lb/>
+winnſichtigen <hi rendition="#aq">Veſpaſian</hi> kan ſie vertragen. Nach<lb/>
+hohen Stande ſiehet ſie niemahlen/ und wenn ſie<lb/>
+mit demſelben prangen moͤchte/ weiſen ihre Demuͤ-<lb/>
+thige Geberden/ daß ſie anderen zu Troſt und Huͤlf-<lb/>
+fe ſich deſſen bedienen. Die von GOtt verliehe-<lb/>
+nen Gaben braucht Sie allein zur Ehre GOttes/<lb/>
+und verachtet die mit ſcheinbaren Tugenden ver-<lb/>
+kapten Laſter. Sie lehret die Jhrigen von der<lb/>
+Welt ſich abziehen/ wenn andere in ſuͤndlichen Ey-<lb/>
+telkeiten erſoffen/ taͤgliche Wolluͤſte opffern. Ja<lb/>
+wenn ſich ein Welt-Kind hieruͤber verwundern und<lb/>
+ſie fragen moͤchte/ worzu ſie doch erſchaffen? Wird<lb/>
+ſie gewiß mit dem Welt-Weiſen <hi rendition="#aq">Anaxagora</hi> antwor-<lb/>
+ten: <hi rendition="#aq">Ut cœlum ſpectem,</hi> daß ich nach dem rechten<lb/>
+Vaterlande ſehe.</p><lb/>
+<p>Die vornehme Ankunfft/ der ruͤhmlich gefuͤhr-<lb/>
+te Lebens-Wandel/ und deſſen Hochſeeliger Be-<lb/>
+ſchluß der in GOtt ruhenden <hi rendition="#fr">Hoch-Edelgebohr-<lb/>
+nen/ Sitt- und Tugend-begabten Frauen/<lb/>
+<hi rendition="#in">F</hi>rau <hi rendition="#in">M</hi>ariana <hi rendition="#in">G</hi>laubitzin/ gebohrnen<lb/>
+von Stoſchin/ auff Dalckau/ Baune/ und</hi><lb/>
+<fw type="catch" place="bottom">Groß-</fw><lb/>
+<pb facs="#f0067" n="[67]"/>
+<fw place="top" type="header"><hi rendition="#aq"><hi rendition="#b">PERSONALIA.</hi></hi></fw><lb/>
+<hi rendition="#fr">Großwirbitz/</hi> ſtellet uns alles dieſes deutlicher<lb/>
+vor. Denn nachdem Sie <hi rendition="#aq">Anno</hi> 1650. den 27ſten<lb/>
+<hi rendition="#aq">Octobris,</hi> Nachts umb halb 12. Uhr zur Gabel im<lb/>
+Guhrauiſchen Creyße auf dieſe Muͤhe-volle Welt<lb/>
+gebohren/ hat Sie ſelbſt noch unvermoͤgend/ Jhre<lb/>
+Chriſtliche Vergnuͤgung durch die erbethenen Tauf-<lb/>
+Zeuͤgen erwieſen/ wenn Sie in dem H. Waſſer-Ba-<lb/>
+de Jhrem Erloͤſer und Heylande CHriſto JESU<lb/>
+zugefuͤhret zu werden verlanget/ und bey der Heili-<lb/>
+gen Tauffe/ welche Jhr eben in Jhrem Geburths-<lb/>
+Orth Gabel mitgetheilet worden/ dem Teuffel und<lb/>
+allen ſeinen Wercken wiederſaget/ hingegen Chriſto<lb/>
+zu ſeiner Creutzes-Fahne geſchworen/ und dardurch<lb/>
+den ſchoͤnen Nahmen <hi rendition="#aq"><hi rendition="#g">MARIANA</hi></hi> uͤberkommen.</p><lb/>
+<p>Sie iſt folglich ſehr vergnuͤgt geweſen/ als Sie<lb/>
+ſelbſt die Gluͤckſeeligkeit der vornehmen Ankunfft er-<lb/>
+kennen lernen: Jn deme Sie nicht nur von vorneh-<lb/>
+men Eltern/ ſondern auch aus einem uhralten Ade-<lb/>
+lichem Geſchlechte erzeuget worden.</p><lb/>
+<p>Allermaſſen <hi rendition="#fr">Dero Herꝛ Vater geweſen/<lb/>
+der Weyland/ Hoch-Edel-Gebohrne Herꝛ/<lb/>
+Herꝛ George Ladisla/ von Stoſch/ auff<lb/>
+klein Tſchirna/ Schkeiden/ und Gabel/ Gu-</hi><lb/>
+<fw place="bottom" type="sig">J 2</fw><fw place="bottom" type="catch">rauiſchen</fw><lb/>
+<pb facs="#f0068" n="[68]"/>
+<fw type="header" place="top"><hi rendition="#aq"><hi rendition="#b">PERSONALIA.</hi></hi></fw><lb/>
+<hi rendition="#fr">rauiſchen Creyſſes wohlbeſtelleten Tſchen-<lb/>
+ſche.</hi></p><lb/>
+<p><hi rendition="#fr">Die Frau Mutter die weyland Hoch-E-<lb/>
+delgebohrne Frau/ Fr. Mariana Stoſchin/<lb/>
+gebohrne von Noſtitzin/ aus dem Hauſe<lb/>
+Ranſen/ im Wohlauiſchen Fuͤrſtenthumb/<lb/>
+und Steinauiſchen Weichbilde gelegen/ Fr.<lb/>
+auf klein Tſchirna/ Schkeyden und Gabel.</hi></p><lb/>
+<p><hi rendition="#fr">Jhres Herꝛen Vatern Frau Mutter iſt<lb/>
+geweſen/ eine gebohrne von Stoſchin/ aus<lb/>
+dem Hauſe Mondſchuͤtz/ im Wohlauiſchen<lb/>
+Fuͤrſtenthumb.</hi></p><lb/>
+<p><hi rendition="#fr">Jhres Herꝛen Vaters Vateres Frau<lb/>
+Mutter eine gebohrne von Noſtitz/ aus dem<lb/>
+Hauſe Zedlitz.</hi></p><lb/>
+<p><hi rendition="#fr">Jhres Herꝛen Vaters Fr. Mutter Mut-<lb/>
+ter/ eine gebohrne von Abſchatz/ aus dem<lb/>
+Hauſe Boͤſau/ im Glogauiſ. Fuͤrſtenthum.</hi></p><lb/>
+<p><hi rendition="#fr">Jhrer Frau Mutter Mutter iſt geweſen</hi><lb/>
+<fw type="catch" place="bottom"><hi rendition="#fr">eine</hi></fw><lb/>
+<pb facs="#f0069" n="[69]"/>
+<fw place="top" type="header"><hi rendition="#aq"><hi rendition="#b">PERSONALIA.</hi></hi></fw><lb/>
+<hi rendition="#fr">eine gebohrne von Loß/ aus dem Hauſe<lb/>
+Simbſen/ im Glogauiſchen Fuͤrſtenthum.</hi></p><lb/>
+<p><hi rendition="#fr">Jhrer Frau Mutter Herꝛen Vaters Fr.<lb/>
+Mutter iſt geweſen eine gebohrne von Kreck-<lb/>
+witzin/ aus dem Hauſe Jacobs Kirche/ im<lb/>
+Glogauiſchen Fuͤrſtenthum.</hi></p><lb/>
+<p><hi rendition="#fr">Jhrer Frau Mutter Mutter Mutter/ ei-<lb/>
+ne gebohrne von Sack/ aus dem Hauſe<lb/>
+Drobelwitz/ im Glogauiſchen Fuͤrſtenthum.</hi></p><lb/>
+<p>Allein wie der <hi rendition="#aq">Poët</hi> ſaget: <hi rendition="#aq">Et genus &amp; Proavi &amp;<lb/>
+qvæ non fecimus ipſi, vix ea noſtra puto.</hi> Alſo hat<lb/>
+Sie zwar das Andencken ſo vornehmen Geſchlechte<lb/>
+allezeit <hi rendition="#aq">venerirt,</hi> Sich aber derer beſonders nach ge-<lb/>
+ruͤhmten Tugenden dermaſſen ingeſambt befliſſen/<lb/>
+daß es bey der Seeligſten mehr geſchienen/ daß Sie<lb/>
+<hi rendition="#k">e</hi>del werden wolte/ als daß ſie aus ſo vielen beruͤhm-<lb/>
+ten Geſchlechtern <hi rendition="#k">e</hi>del gebohren. Wie denn/ wo<lb/>
+Sie Jhr Anſehen gebrauchen wollen/ ſelbiges alle-<lb/>
+zeit mehr in Chriſtlicher Milde/ Demuth und Guͤt-<lb/>
+tigkeit/ als durch eitelen Ruhm erwieſen.</p><lb/>
+<p>Sie war bald in Jhrer Jugend vergnuͤget/ weñ<lb/>
+Sie durch der wertheſten Eltern gute Anordnung<lb/>
+<fw place="bottom" type="sig">J 3</fw><fw place="bottom" type="catch">den</fw><lb/>
+<pb facs="#f0070" n="[70]"/>
+<fw type="header" place="top"><hi rendition="#aq"><hi rendition="#b">PERSONALIA.</hi></hi></fw><lb/>
+den Grund Jhres Chriſtenthumbs in Erlernung<lb/>
+ſchoͤner Bibliſchen Spruͤche/ des Heil. Catechiſmi/<lb/>
+und zu deſſen beſſerer Außuͤbung Leſens und Schrei-<lb/>
+bens legen konte/ darbey Jhr ſchoͤnſter Zeit-Ver-<lb/>
+treib/ alle dem Fraͤulichen Geſchlechte ruͤhmliche<lb/>
+Kuͤnſte erlernen.</p><lb/>
+<p>So lange Sie das Geluͤcke genoſſen/ den ſeel.<lb/>
+Herꝛen Vater zu kennen/ und der in GOtt ruhen-<lb/>
+den Frau Mutter Hauß-Sorge zu genuͤſſen/ hat<lb/>
+Sie dort ein Kind nichts als Freude/ hie mit zuneh-<lb/>
+menden Jahren hoͤchſt-bedachtſam viel Ehrerbie-<lb/>
+tung/ Gehorſamb und Liebe bezeuget: Auch endli-<lb/>
+chen als Sie geſehen/ daß der guͤtige GOtt Sie in<lb/>
+einem anderen Stande und <hi rendition="#k">e</hi>helich wiſſen wolte/<lb/>
+der wertheſten Frau Mutter treues Beyrahten/<lb/>
+und GOttes wunderbahrer Schickung ſo hoch ge-<lb/>
+halten/ daß Sie keinem wiederſtreben/ ſondern viel-<lb/>
+mehr die gegen <hi rendition="#fr">den Hoch-Edelgebohrnen Rit-<lb/>
+ter und Herꝛen/ Herꝛen <hi rendition="#in">H</hi>anß <hi rendition="#in">G</hi>eorge von<lb/>
+Glaubitz/ auf Dalckau/ Baune und Groß-<lb/>
+wirbitz/ itzt Hoͤchſt-betruͤbten Hn. Wittiber/</hi><lb/>
+auffwallende Neigung zu einem vollkommenen Lie-<lb/>
+bes-Feuer werden laſſen/ und den 17. <hi rendition="#aq">Julij <hi rendition="#g"><hi rendition="#k">Anno</hi></hi></hi><lb/>
+<fw type="catch" place="bottom">1680.</fw><lb/>
+<pb facs="#f0071" n="[71]"/>
+<fw place="top" type="header"><hi rendition="#aq"><hi rendition="#b">PERSONALIA.</hi></hi></fw><lb/>
+1680. Sich mit ſelbigem vermaͤhlet. Wie ver-<lb/>
+gnuͤglich Sie in dieſer Zwoͤlff-jaͤhrigen Ehe gelebet/<lb/>
+iſt mit Worten nicht außzuſprechen. Sintemah-<lb/>
+len Sie auch daß in dieſem Stande haͤuffig unter-<lb/>
+gemengte Weh ſich dermaſſen zu Nutze gemacht/<lb/>
+daß Sie es nichts minder als ein Saltz zu Abwuͤr-<lb/>
+tzung guter Speiſen/ zu Laͤuterung Jhres Chriſten-<lb/>
+thumbs und Beſtaͤttigung der beſonderen Gedult<lb/>
+gebraucht. Jhr gantzes Hertze hieng an Jhrem<lb/>
+Liebſten Gemahl/ und war Jhre groͤſte Freude ſel-<lb/>
+bigen zu vergnuͤgen. Sein Wille war allezeit Jhr<lb/>
+Wille/ und Sie niemahlen betruͤbter/ als wann Sie<lb/>
+Dero wertheſten Ehe-Herꝛen Kummerhafft/ oder<lb/>
+kraͤncklich ſehen ſolte.</p><lb/>
+<p>Fuͤnff mahl lies Sie der Segens-volle GOtt<lb/>
+eine vergnuͤgte Mutter werden/ und mit Freuden<lb/>
+drey Soͤhne und zwey Toͤchter kuͤſſen. Aber wie<lb/>
+jener weiſe Mannſagte: <hi rendition="#aq">Non verum gaudium naſci-<lb/>
+tur ſed alitur.</hi> Dieſes ſey vor keine wahre Ver-<lb/>
+gnuͤgung zu halten/ weñ GOtt gleich Kinder gebe/<lb/>
+wo Er Sie nicht auch zu Troſte leben laſſe: Alſo<lb/>
+haͤtte Sie Urſache genung gehabt/ wegen beyder<lb/>
+Troſtreichen Toͤchter/ und eines Hoffnungs-vollen<lb/>
+Soͤhnchens fruͤhe-zeitigen Abſterbens ſich ſehr zu<lb/>
+<fw place="bottom" type="catch">betruͤ-</fw><lb/>
+<pb facs="#f0072" n="[72]"/>
+<fw type="header" place="top"><hi rendition="#aq"><hi rendition="#b">PERSONALIA.</hi></hi></fw><lb/>
+betruͤben/ wenn Sie nicht den gewiſſen Davids-<lb/>
+Troſt gar zu feſt eingebildet. Dannenhero Sie<lb/>
+hieruͤber mehr Chriſtliche Vergnuͤgung als menſch-<lb/>
+liche Schwachheit erwieſen.</p><lb/>
+<p><hi rendition="#aq">Illud gaudium qvod Deos Deorumq́; æmulos ſe-<lb/>
+qvitur, non interrumpitur, non deſinit,</hi> ſagt <hi rendition="#aq">Sene-<lb/>
+ca,</hi> als ein Heyde. <hi rendition="#fr">Von der Seeligſten Frau<lb/>
+von Glaubitzin</hi> muß man mit hoͤchſter Warheit<lb/>
+bezeugen/ daß wie Sie Jhr erſtes Vergnuͤgen bey<lb/>
+der heiligen Tauffe erwieſen/ alſo in der Liebe Got-<lb/>
+tes fortgefahren/ Jhres Erloͤſers und Heylandes<lb/>
+Leydens und Sterbens ſich allezeit wol erꝛinnert/<lb/>
+Jhre ſuͤndliche Schwachheiten GOtt und Jhrem<lb/>
+Beicht-Vater offt bekennet/ bey dem Heil. Abend-<lb/>
+mahl ſich Jhres Heylandes Gnade verſichert/ in<lb/>
+demſelbigen Jhren Glauben geſtaͤrcket/ und viel-<lb/>
+fach dargethan/ daß Sie mit dem heiligen <hi rendition="#aq">Bern-<lb/>
+hardo</hi> ohne <hi rendition="#g">GOTT</hi> keine rechte Vergnuͤgung<lb/>
+habe.</p><lb/>
+<p>Jhren Neben-Chriſten hat Sie durch auff-<lb/>
+richtigen Wandel allezeit im Guten zu ſtaͤrcken/ im<lb/>
+Argen zu beſſern/ geſucht/ und die feindlichen Boß-<lb/>
+heiten/ welche die Welt eine <hi rendition="#aq">galanterie</hi> zu nennen pfle-<lb/>
+get/ als Gifft geflohen. Jnſonderheit hat Sie<lb/>
+<fw type="catch" place="bottom">Jhr</fw><lb/>
+<pb facs="#f0073" n="[73]"/>
+<fw place="top" type="header"><hi rendition="#aq"><hi rendition="#b">PERSONALIA.</hi></hi></fw><lb/>
+Jhr wehrteſtes Geſchwieſter hertzlich geliebet/ und<lb/>
+Sorge getragen/ Jhren liebſten Stiff-Kindern ſich<lb/>
+zu einer natuͤrlichen Mutter zu machen/ wann Sie<lb/>
+ſelbigen ſo viel gute Lehren als nuͤtzliche Vorſorge<lb/>
+zugetheilet/ und war nichts minder uͤber derer Er-<lb/>
+kaͤntlichen/ als Jhrer eigenen Kinder eingepflantz-<lb/>
+ten Liebe vergnuͤgt. Sie wuſte wol/ daß Sie den<lb/>
+Tod ſtets an Jhrem ſterblichen Leibe truͤge/ und<lb/>
+wurde deſſen durch viel zufallende Schwachheiten<lb/>
+je laͤnger je mehr erinnert. Allermaſſen bey drey<lb/>
+Jahren her mit gehendem Leibe Sie ſtets gekran-<lb/>
+cket/ und offt ſchmertzlich geklagt/ daß der betruͤbten<lb/>
+Naͤchte ſehr viel wuͤrden. Nichts deſtoweniger<lb/>
+hat eine beſtaͤndige Gedult Jhr groſſes Vergnuͤgen<lb/>
+an GOttes gerechten Willen gewieſen/ wann Sie<lb/>
+ſich ſelbſt getroͤſtet/ daß GOtt dieſe Schwachhei-<lb/>
+ten zuſchicke/ entweder Sie dardurch dieſer Muͤhe-<lb/>
+ſeeligkeit zu entnehmen/ oder ja bey erfolgender Beſ-<lb/>
+ſerung deſto mehr Lob- und Danck-Opffer von Jhr<lb/>
+zu fordern: Und da Seeligſte Frau von Glaubi-<lb/>
+tzin/ die ordentlichen Mittel zur Ehre GOttes und<lb/>
+des Nechſten Nothdurfft erſchaffen/ gar vernuͤnff-<lb/>
+tig geurtheilt/ hat Sie Hochberuͤhmten und Ge-<lb/>
+lehrten <hi rendition="#aq">Medicis</hi> ſich vertrauet/ inſonderheit (<hi rendition="#aq">Titul.</hi>)<lb/>
+<fw place="bottom" type="sig">K</fw><fw place="bottom" type="catch">Her-</fw><lb/>
+<pb facs="#f0074" n="[74]"/>
+<fw type="header" place="top"><hi rendition="#aq"><hi rendition="#b">PERSONALIA.</hi></hi></fw><lb/>
+Herꝛen <hi rendition="#aq">D.</hi> Beckers/ Glogauiſchen Crayſſes wohlbe-<lb/>
+ſtelten <hi rendition="#aq">Phyſici Ordinarij,</hi> Raths und Cur bedienet.<lb/>
+Nachdem aber kein <hi rendition="#aq">Medicament</hi> ſeine rechte <hi rendition="#aq">opera-<lb/>
+tion</hi> mehr zeigen/ und Sie dennoch nichts unterlaſ-<lb/>
+ſen wolte/ was zu <hi rendition="#aq">conſolation</hi> dero Hochgeliebten<lb/>
+Herꝛen Gemahls und der wertheſten Anverwand-<lb/>
+ten gedeyen koͤnte/ <hi rendition="#aq">reſolvirte</hi> Sie die warme Bad-<lb/>
+Cur/ zu dehrer Gebrauch den 6. <hi rendition="#aq">Auguſti,</hi> Sie nach<lb/>
+Hirſchberg verꝛeiſet/ jedoch vorher ſelbigen Orthes<lb/>
+<hi rendition="#aq">Medicum</hi> Land und Stadt-<hi rendition="#aq">Phyſicum, (Tit.)</hi> Herꝛn<lb/>
+<hi rendition="#aq">Doctor</hi> Suͤſſenbach <hi rendition="#aq">conſulirt,</hi> welcher zwar Jhr zu<lb/>
+wieder nicht gaͤntzlich abrathen/ aber doch auch nicht<lb/>
+mehr als ein oder zweymahl das Bad zulaſſen<lb/>
+wollen/ da dann die Seelige Frau ſelbſt gewahr<lb/>
+werdende/ daß es Jhrer Kranckheit nicht zutraͤg-<lb/>
+lich/ ſonder Verzug die Ruͤck-Reiſſe beſchloſſen/ und<lb/>
+den 13. <hi rendition="#aq">Auguſti</hi> in Dalckau wieder angelanget. Wie<lb/>
+ein vorhin baufaͤlliges Gebaͤude/ wenn es gerittelt<lb/>
+und geſchittelt wird/ ſo viel leichter in Fall gerahten<lb/>
+kan: Alſo gieng es auch mit der Seeligſten Frau<lb/>
+von Glaubitzin/ je mehr Mittel <hi rendition="#aq">adhibirt</hi> worden/ je<lb/>
+groͤſſere Schwachheiten funden ſich/ ſo gar daß die<lb/>
+viel beygetragene getreue Sorgen wohlgedachten<lb/>
+Herꝛen <hi rendition="#aq">Doct:</hi> Beckers/ bey mehr und mehr abneh-<lb/>
+<fw type="catch" place="bottom">menden</fw><lb/>
+<pb facs="#f0075" n="[75]"/>
+<fw place="top" type="header"><hi rendition="#aq"><hi rendition="#b">PERSONALIA.</hi></hi></fw><lb/>
+menden Athem/ beſtaͤndig anhaltender Unruhe und<lb/>
+uͤberhand nehmender Geſchwulſt/ eine unvermeid-<lb/>
+liche Todes-Gefahr ankuͤndigten.</p><lb/>
+<p>Und auch darbey war Sie gantz vergnuͤgt/<lb/>
+machte ſich durch andaͤchtiges Seuffzen/ Bethen/<lb/>
+und Singen/ Jhrem Erloͤſer wohl zu begegnen/ ge-<lb/>
+ſchickt/ nahm von Jhrem Liebſten Herꝛen Gemahl/<lb/>
+und denen zwey noch lebenden Herꝛen Soͤhnen be-<lb/>
+weglichen Abſchied/ danckte dort vor viel erwieſene<lb/>
+Liebes-Bezeugungen/ und ungemeine Ehe-Treue/<lb/>
+mit Bitte/ was bey Jhr auffhoͤre/ bey den lieben<lb/>
+Kindern beſtaͤndig zu <hi rendition="#aq">continui</hi>ren. Hier befahl<lb/>
+Sie den Herꝛen Vater zu lieben/ zu ehren/ Jhme<lb/>
+in allem zu gehorſamen/ abſonderlich aber <hi rendition="#aq">recom-<lb/>
+mandirte</hi> Sie die Froͤm̃igkeit/ ſelbige als eine Gelei-<lb/>
+terin in der Welt ſtets zu gebrauchen/ und derer viel-<lb/>
+faͤltige Nachſtellungen durch Chriſtliche Vorſich-<lb/>
+tigkeit vermeiden zu lernen. Hierauf beurlaubete<lb/>
+Sie ſich mit dem wehrteſten Geſchwiſter/ ſegnete alle<lb/>
+Anweſende/ und weil Sie wuſte wie <hi rendition="#aq">Solon</hi> redet/<lb/>
+<hi rendition="#aq">Non fas eſſe beatum eum cenſere, qvi in hiſce vitæ flu-<lb/>
+ctibus jactatur, donec ſit in portu,</hi> daß der in dieſer<lb/>
+boͤſen Welt wallet/ noch keine rechtſchaffene Ver-<lb/>
+gnuͤgung uͤberkommen/ biß er in den Haven him̃-<lb/>
+<fw place="bottom" type="sig">K 2</fw><fw place="bottom" type="catch">liſcher</fw><lb/>
+<pb facs="#f0076" n="[76]"/>
+<fw type="header" place="top"><hi rendition="#aq"><hi rendition="#b">PERSONALIA.</hi></hi></fw><lb/>
+liſcher Sicherheit gelange/ hat Sie ſich hertzlich<lb/>
+dahin geſoͤhnet/ iñbruͤnſtig darnach geſeuffzet/ inni-<lb/>
+glich ſich darauff gefreuet/ auch was Sie gehoffet/<lb/>
+mit hoͤchſter Vergnuͤgung erlanget: Jndem den 3.<lb/>
+<hi rendition="#aq">Septembris,</hi> nach Mittage 1. Viertel auf drey Uhr<lb/>
+durch einen ſanfften Tod Jhr Heyland aus dieſer<lb/>
+unbeſtaͤndigen/ in die ewigwehrende Vergnuͤgung<lb/>
+Sie geholet. Jhr Leben iſt kurtz und nur auf 41.<lb/>
+Jahr 10. Monath/ eine Wochen/ den Hoͤchſtbe-<lb/>
+truͤbten Verlaſſenen zu wenig/ Jhrem wohlgefuͤhr-<lb/>
+tem Wandel nach aufs hoͤchſte gebracht/ weil dieſe<lb/>
+lange genung gelebet/ die from̃ und Tugendhafft ge-<lb/>
+lebet haben.</p><lb/>
+<lg type="poem"><l><hi rendition="#fr"><hi rendition="#in">E</hi>Dle Seele/ deinen Leib muͤſſen wir der</hi></l><lb/>
+<l><hi rendition="#fr">Erden laſſen/</hi></l><lb/>
+<l><hi rendition="#fr">Du hingegen kanſt vergnuͤgt deinen JE-</hi></l><lb/>
+<l><hi rendition="#fr">SUS ſtets um̃faſſen/</hi></l><lb/>
+<l><hi rendition="#fr">Dein geehrt Gedaͤchtnuͤs ſoll bey uns un-</hi></l><lb/>
+<l><hi rendition="#fr">verꝛuͤckt beſtehn/</hi></l><lb/>
+<l><hi rendition="#fr">Unſre Reden allezeit dein verdientes Lob</hi></l><lb/>
+<l><hi rendition="#fr">erhoͤhn.</hi></l></lg></div></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+</body></text>  </TEI>

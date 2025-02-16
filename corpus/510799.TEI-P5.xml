@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Leich-Predigt/ Vber das Sprüchlein S. Luc. am 10 Cap. Frewet Euch/ das Ewre Nahmen im Himmel geschrieben sind. Bey Christlicher Leich-Bestattung Der Erbaren vnd EhrenTugendsamen Frawen Christinen</title>
+<author>
+<persName ref="http://d-nb.info/gnd/11546364X">
+<surname>Hoepner</surname>
+<forename>Johann</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">27</measure>
+<measure type="tokens">5599</measure>
+<measure type="types">2092</measure>
+<measure type="characters">37325</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:10:18Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/510799</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/510799</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/510799</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/510799</idno>
+<idno type="DTADirName">510799</idno>
+<idno type="DTAID">200169</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-200169-5</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Hoepner, Johann: Leich-Predigt/ Vber das Sprüchlein S. Luc. am 10 Cap. Leipzig, 1637.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Leich-Predigt/ Vber das Sprüchlein S. Luc. am 10 Cap. Frewet Euch/ das Ewre Nahmen im Himmel geschrieben sind. Bey Christlicher Leich-Bestattung Der Erbaren vnd EhrenTugendsamen Frawen Christinen</title>
+<author>
+<persName ref="http://d-nb.info/gnd/11546364X">
+<surname>Hoepner</surname>
+<forename>Johann</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">27</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Henning Köler</name></publisher>
+<pubPlace>Leipzig</pubPlace>
+<date type="publication">1637</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 O 787 / 510799</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#b">Leich-Predigt/</hi></titlePart><lb/>
+<titlePart type="sub">Vber das Spruͤchlein <cit><bibl>S. Luc. am 10 Cap.</bibl><lb/>
+<quote>Frewet Euch/ das Ewre Nahmen im Him-<lb/>
+mel geſchrieben ſind.</quote></cit></titlePart><lb/>
+<titlePart type="desc"><hi rendition="#fr">Bey Chriſtlicher Leich Beſtattung</hi><lb/>
+Der Erbarn vnd Ehren Tugendſamen Frawen<lb/>
+<hi rendition="#b"><hi rendition="#in">C</hi>hriſtinen/</hi><lb/>
+Des Ehren Wolgeachten vnd Kunſt-<lb/>
+reichen Herrn<lb/>
+<hi rendition="#b">Henning Koͤlers/ Buͤrgers<lb/>
+vnd Buchdruckers allhier geweſe-</hi><lb/>
+nen Ehelichen Haußfrawen/<lb/>
+Welche den 15. <hi rendition="#aq">Maii</hi> dieſes 1637. Jahrs in Chri-<lb/>
+ſto ſanfft vnd ſelig entſchlaffen/ vnd den folgenden<lb/>
+17. dieſes Chriſtlicher Weiſe zur Erden<lb/>
+beſtattet worden.</titlePart></docTitle><lb/>
+<byline>Gehalten<lb/>
+Von<lb/>
+<docAuthor><hi rendition="#aq"><hi rendition="#g">JOHANNE HÖPNERO</hi></hi></docAuthor> <hi rendition="#aq"><hi rendition="#g">SS.</hi><lb/>
+Theol. D. Prof. Publ. Paſtor. ad D.<lb/>
+Nicolai &amp; Superintendente.</hi></byline><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docImprint><pubPlace>Leipzig</pubPlace>/<lb/>
+Gedruckt bey <publisher>Henning Koͤlern</publisher>.</docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="[2]"/>
+<pb facs="#f0003" n="[3]"/>
+<fw place="top" type="header"><milestone rendition="#hr" unit="section"/><lb/>
+</fw>  <milestone rendition="#hr" unit="section"/><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="1"><head/>  <opener><salute><hi rendition="#c"><hi rendition="#aq"><hi rendition="#b">In nomine <hi rendition="#g"><hi rendition="#k">Jesu!</hi></hi></hi></hi></hi></salute></opener><lb/>
+<div type="fsBibleVerse" n="2"><head><hi rendition="#c">Spruͤchlein aus dem Luca am<lb/>
+10. Capitel.</hi></head>  <lb/>
+<cit><quote><hi rendition="#fr"><hi rendition="#in">F</hi>Rewet Euch/ daß ewre Namen im<lb/>
+Himmel geſchrieben ſind.</hi></quote></cit></div><lb/>
+<div type="fsExordium" n="2"><head><hi rendition="#aq"><hi rendition="#b"><hi rendition="#g">EXORDIUM.</hi></hi></hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">G</hi>Eliebten vnd Andaͤchtigen Freunde in</hi><lb/>
+Chriſto dem <hi rendition="#k">Herrn/</hi> der Evangeliſt Lucas be-<lb/>
+ſchreibet in ſeinem 10. Cap. Wie der <hi rendition="#k">Herr</hi> Chri-<lb/>
+ſtus mit den 70. Juͤngern eine Probe verſuchet/<lb/>
+vnd ſie zum erſten mal außgeſandt/ das Evange-<lb/>
+lium zu predigen: Welches denn ohne Frucht nicht abgegangen/<lb/>
+denn da ſie wiederkommen/ berichteten ſie dem <hi rendition="#g"><hi rendition="#k">Herrn/</hi></hi> daß<lb/>
+auch die boͤſen Geiſter jhnen weren vnterthaͤnig geweſen in ſei-<lb/>
+nem Namen. Daruͤber erfrewete ſich <hi rendition="#k">Je</hi>ſus im Geiſt/ vnd<lb/>
+danckete ſeinem himliſchen Vater fuͤr ſolchen gluͤcklichen An-<lb/>
+fang der Evangeliſchen Predigt/ vnd ſagte; Jch ſahe wol den<lb/>
+Satanas von Him̃el fallen/ wie einen Blitz. Darnach kehret er<lb/>
+ſich zu den Juͤngern/ vnd ſagte zu jhnen inſonderheit: Doch fre-<lb/>
+wet euch nicht hierinnen/ daß euch die Geiſter ſind vnterthan<lb/>
+geweſen/ Jch wil euch noch von groͤſſerer Gnade ſagen/ darinne<lb/>
+frewet euch/ <hi rendition="#fr">daß ewre Namen im Himmel geſchrieben<lb/>
+ſind.</hi> Denn ob wol das H. Predigampt ein hohes vnd Goͤtt-<lb/>
+liches Ampt iſt/ dadurch das Reich des Teuffels zerſtoͤret wird/<lb/>
+<fw place="bottom" type="sig">A ij</fw><fw place="bottom" type="catch">wie</fw><lb/>
+<pb facs="#f0004" n="[4]"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche Leich-Predigt.</hi></fw><lb/>
+wie <hi rendition="#fr">der HErr den Satanas hat ſehen vom Himmel<lb/>
+fallen als einem Blitz:</hi> So kans doch wol geſchehen/ daß ein<lb/>
+Prediger vnd Seelſorger andere Leute ſelig machet/ durch ſein<lb/>
+Ampt/ vnd an ſeiner eigenen Seligkeit Schiffbruch leidet/ wañ<lb/>
+er entweder von der wahren <hi rendition="#aq">religion</hi> abfaͤllt/ oder wenn er ein<lb/>
+ruchloſes/ aͤrgerliches Leben fuͤhret/ vnd in Vnbußfertigkeit<lb/>
+dahin ſtirbet. Ein Exempel deſſen haben wir an Juda dem<lb/>
+Verraͤther/ welcher ſo wol als die andern Apoſtel von dem<lb/>
+<hi rendition="#k">He</hi>rrn beruffen war/ das Evangelium zu verkuͤndigen/ er hatte<lb/>
+auch die Macht vber die vnſaubern Geiſter/ aber es hulff ihn<lb/>
+nichts/ denn er fiel von Chriſto abe/ vnd ſchlug ſich zu ſeinen oͤf-<lb/>
+fentlichen Feinde/ vnd begieng die verraͤtheriſche boͤſe That: Er<lb/>
+verzweiffelte in ſeinen Suͤnden/ vnd fuhr mit Leib vnnd Seel<lb/>
+zum Teuffel. Darumb iſt freylich mehr daran gelegen/ <hi rendition="#fr">daß<lb/>
+vnſere Namen im Himmel geſchrieben ſind/</hi> denn an ſol-<lb/>
+chen kan der leidige Satan keine Macht finden/ ſondern ſie<lb/>
+<hi rendition="#fr">werden aus GOTtes Macht durch den Glauben be-<lb/>
+wahret zu der ewigen Seligkeit/</hi> Wie S. Petrus ſchreibet<lb/>
+in ſeiner 1. Epiſtel am 1. Capitel. Dieweil denn ſolch Spruͤch-<lb/>
+lein bey dieſer Leich Beſtattung zu erklaͤren/ begehret worden/<lb/>
+ſo wollen wir kuͤrtzlichen berichten/</p><lb/>
+<p><hi rendition="#et"><hi rendition="#fr">Wie es mit ſolchem Einſchreiben vnſerer Namen<lb/>
+in dem Himmel beſchaffen ſey/ wie wir zu ſolcher<lb/>
+Wolthat kommen vnd gelangen koͤnnen/ vnd wie<lb/>
+hoch wir vns derſelbigen zu troͤſten vnd zu erfre-<lb/>
+wen haben.</hi></hi></p><lb/>
+<p>Hiervon mit Nutz vnd Erbawung zu reden vnd zu handeln/<lb/>
+wolle vns GOTT der <hi rendition="#g"><hi rendition="#k">Herr</hi></hi> ſeines heiligen Geiſtes reiche<lb/>
+Gnade verleihen vmb <hi rendition="#fr">Chriſti JEſu</hi> willen/ AMEN.</p></div><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">Explicatio</hi></fw><lb/>
+<pb facs="#f0005" n="[5]"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche Leich-Predigt.</hi></fw><lb/>
+<div type="fsMainPart" n="2"><head><hi rendition="#aq"><hi rendition="#b"><hi rendition="#g"><hi rendition="#k">Explicatio.</hi></hi></hi></hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">W</hi>As nun anbelanget das Einſchreiben vnſerer<lb/>
+Namen/</hi> ſo wird ein ſonderlich Buch darzu erfordert/<lb/>
+darinnen die Namen der Jenigen eingeſchrieben wer-<lb/>
+den/ derer ſonderlich ſol gedacht werdeu/ wie wir Menſchen ſol-<lb/>
+cher <hi rendition="#fr">Gedaͤchtnuͤß-Buͤcher</hi> beduͤrffen/ wegen vnſer ſchwa-<lb/>
+chen Gedaͤchtnuͤß/ wir muͤſſen halten vnſere <hi rendition="#aq">Ephemerides,</hi><lb/>
+darein wir verzeichnen/ was taͤglich fuͤrlaͤufft/ vnſere Regiſter<lb/>
+der Einnahmen vnd Außgaben/ welche wir ſonſt nicht gedencken<lb/>
+koͤnnen/ vnd alles andere/ was auff der <hi rendition="#aq">Univerſitet,</hi> auff dem<lb/>
+Rathhauſe/ im Handel vnd Wandel fuͤrlaͤufft/ das muß fleiſ-<lb/>
+ſig auffgezeichnet werden/ ſonſt koͤndten wirs nicht behalten.<lb/>
+Jn den Schulen ſtehet auch ſehr viel auff ſolchen Buͤchern/ dar-<lb/>
+ein alles was zum Schulweſen gehoͤret/ mit Fleiß <hi rendition="#aq">notiret</hi> vnd<lb/>
+gemercket wird. In der Kirchen bedarff man auch dergleichen<lb/>
+Buͤcher/ die <hi rendition="#fr">Ehe-Buͤcher</hi> oder Auffgebots-Buͤcher/ <hi rendition="#fr">Tauff-<lb/>
+Buͤcher/</hi> vnd was ferners bey den KirchRechnungen auffzu-<lb/>
+ſchreiben von Noͤthen thut. Solche Muͤhe koͤndte man wol<lb/>
+vberhaben ſeyn/ wenn das Gedaͤchtnuͤß der Menſchen nicht ſo<lb/>
+hinfaͤllig vnd vergeßlich were. Aber bey GOtt darff es keines<lb/>
+ſolchen Buches vnd Einſchreibens; Denn er iſt ein allwiſſender<lb/>
+GOtt/ deme nichts verborgen iſt/ es ſtehet alles fuͤr Jhm gegen-<lb/>
+wertig/ auch das Zukuͤnfftige vnd Vergangene. Darumb iſt<lb/>
+es nur ein Gleichnuͤß von vns Menſchen genommen/ wenn<lb/>
+GOtt dem <hi rendition="#k">Herrn</hi> ein Buch zugeeignet wird/ denn dadurch<lb/>
+wird verſtanden ſeine Goͤttliche Wiſſenſchafft/ Providentz vnd<lb/>
+Fuͤrſorge/ welche er traͤgt fuͤr alle Menſchen/ inſonderheit aber<lb/>
+fuͤr die Wolfarth ſeiner Glaͤubigen vnd Außerwehlten. Wer-<lb/>
+den demnach GOTT dem <hi rendition="#k">Herrn</hi> dreyerley Buͤcher zuge-<lb/>
+<fw place="bottom" type="sig">A iij</fw><fw place="bottom" type="catch">ſchrieben</fw><lb/>
+<pb facs="#f0006" n="[6]"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche Leich-Predigt.</hi></fw><lb/>
+geſchrieben/ das <hi rendition="#aq">I.</hi> wird genennet das Buch ſeiner Goͤttlichen<lb/>
+<note place="left"><hi rendition="#aq">Pſalm.</hi> 139.</note>Providentz vnd Fuͤrſorge/ vnd wird ſolches Buches erwehnet im<lb/>
+139. Pſal. da geſchrieben ſtehet/ <hi rendition="#fr">Deine Augẽ ſahen mich/ da<lb/>
+ich noch vnbereitet war/ vnd waren alle Tage auff dein<lb/>
+Buch geſchrieben/ die noch werden ſolten/ vnd derſel-<lb/>
+ben keiner da war.</hi></p><lb/>
+<p><note place="left"><hi rendition="#aq">Liber judic.</hi></note>Das <hi rendition="#aq">II.</hi> Buch wird das <hi rendition="#fr">Gerichts-Buch</hi> genennet/ deſ-<lb/>
+<note place="left"><hi rendition="#aq">Dan.</hi> 7.</note>ſen wird erwehnet in der Weiſſagung Danielis am 7. Cap. da<lb/>
+geſchrieben ſtehet/ <hi rendition="#fr">Das Gerichte ward gehalten vnd die</hi><lb/>
+<note place="left"><hi rendition="#aq">Apoc.</hi> 20.</note><hi rendition="#fr">Buͤcher worden auffgethan/</hi> Deßgleichen Apoc. 20. ſtehet<lb/>
+geſchrieben/ Vnd <hi rendition="#fr">ich ſahe die Todten beyde groß vnnd<lb/>
+klein ſtehen fuͤr GOtt/ vnd die Buͤcher wurden auffge-<lb/>
+than/ vñ ein ander Buch ward auffgethan/ welches iſt<lb/>
+des Lebens/ vnd die Todten wurden gerichtet nach der<lb/>
+Schrifft in den Buͤchern nach jhren Wercken.</hi> Denn<lb/>
+gleich wie ein Richter ein ſchwartz Regiſter helt/ darein er die boͤ-<lb/>
+ſen Thaten der Vnterthanen auffzeichnet/ daraus weiß er auff<lb/>
+begebende Faͤlle einem jeglichen eines vnd das andere vorzuhal-<lb/>
+ten: Alſo ſchreibet auch GOtt in ſein Gedaͤchtnuͤß alle gottloſe<lb/>
+Reden der Menſchen/ vnd alle ſuͤndliche aͤrgerliche Thaten: Da<lb/>
+darff niemand dencken/ daß er mit Leugnen werde davon kom-<lb/>
+men. Dieſes Gerichts-Buch gedencket auch der Prophet<lb/>
+<note place="left"><hi rendition="#aq">Malach.</hi> 3.</note>Malachias in ſeiner Weiſſagung am 3. Cap. da erſtlich erzehlet<lb/>
+werden/ die Reden der Gottloſen/ die da ſagen/ <hi rendition="#fr">Es iſt vmb-<lb/>
+ſonſt/ daß man GOtt dienet/ vnd was nuͤtzet es/ daß<lb/>
+wir ſeine Gebot halten/ vnd hart Leben fuͤr dem HErrn<lb/>
+Zebaoth fuͤhren<supplied>?</supplied> Darumb preiſen wir die Veraͤchter/<lb/>
+denn die Gottloſen nehmen zu/ ſie verſuchen GOtt/ vñ<lb/>
+gehet jhnen alles wol hinaus.</hi> Aber die Gottsfuͤrchtigen<lb/>
+troͤſten ſich vnter einander alſo: <hi rendition="#fr">Der HErr merckets vnd<lb/>
+hoͤrets/ vnd iſt fuͤr jhm ein Denckzettel geſchrieben fuͤr</hi><lb/>
+<fw place="bottom" type="catch">die/</fw><lb/>
+<pb facs="#f0007" n="[7]"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche Leich-Predigt.</hi></fw><lb/>
+die/ <hi rendition="#fr">ſo den HErrn fuͤrchten/ vnd an ſeinen Namen ge-<lb/>
+dencken.</hi> Daraus wir denn ſehen/ daß GOtt der <hi rendition="#g"><hi rendition="#k">Herr</hi></hi><lb/>
+alle ſolche gottloſe Reden in ſein Gedenck-Buch ſchreibe/ daß ſie<lb/>
+am Tage des groſſen Gerichts davor Rechenſchafft geben ſollen/<lb/>
+wie denn Chriſtus Matth. am 12. bezeuget/ <hi rendition="#fr">Jch ſage euch/</hi><note place="right"><hi rendition="#aq">Matth.</hi> 12.</note><lb/>
+<hi rendition="#fr">daß die Menſchen muͤſſen Rechenſchafft geben/ am<lb/>
+juͤngſten Gericht/ von einem jeglichen vnnuͤtzen Wort/<lb/>
+das ſie geredt haben. Aus deinen Worten wirſtu ge-<lb/>
+rechtfertiget werden/ vnd aus deinen Worten wirſtu<lb/>
+verdampt werden.</hi> Dieſe Gerichts-Buͤcher werden auff<lb/>
+dem allgemeinen Gerichts-Tage auffgeſchlagen werden/ dar-<lb/>
+umb niemand vnter deß ſo frech vnd ſicher ſeyn wolle/ daß er in<lb/>
+ſeinem Hertzen wolte ſagen/ wenn er etwas boͤſes redet oder be-<lb/>
+gehet: <hi rendition="#fr">Der HErr Zebaoth ſiehets nicht/ vnd der GOtt<lb/>
+Jacob achtets nicht/</hi> im 94. Pſal. Denn <hi rendition="#fr">mercket doch</hi><note place="right"><hi rendition="#aq">Pſal.</hi> 94.</note><lb/>
+<hi rendition="#fr">jhr Narren vnter dem Volck/ vnd jhr Thoren/ wenn<lb/>
+wolt jhr klug werden<supplied>?</supplied> Der das Ohr gepflantzet hat/<lb/>
+ſolt der nicht hoͤren<supplied>?</supplied> Der das Auge gemacht hat/ ſolt<lb/>
+der nicht ſehen<supplied>?</supplied> Der die Heyden zuͤchtiget/ ſolt der<lb/>
+nicht ſtraffen. Der die Menſchen lehret was ſie wiſſen.</hi></p><lb/>
+<p>Das <hi rendition="#aq">III.</hi> Buch daß GOTT dem <hi rendition="#k">Herrn</hi> zugeſchrie-<note place="right"><hi rendition="#aq">Liber Vitæ.</hi></note><lb/>
+den wird/ iſt nun <hi rendition="#aq">Liber Vitæ,</hi> das Buch des Lebens/ darein die<lb/>
+Jenigen geſchrieben werden/ welche das ewige Leben ererben ſol-<lb/>
+len; Dieſes Buchs wird erwehnet bey dem Propheten Daniel<lb/>
+am 12. Cap. da geſchrieben ſtehet/ <hi rendition="#fr">Zur ſelbigen Zeit wird dein</hi><note place="right"><hi rendition="#aq">Daniel.</hi> 12.</note><lb/>
+<hi rendition="#fr">Volck errettet werden/ alle die im Buch geſchrieben ſte-<lb/>
+hen.</hi> Paulus gedencket dieſes Buchs auch zun Philip. am 4.<note place="right"><hi rendition="#aq">Philip</hi> 4.</note><lb/>
+da er ſeinen Gehuͤlffen an dem Wort ſchreibet/ <hi rendition="#fr">daß jhre Na-<lb/>
+men im Buch des Lebens ſind.</hi> Apoc. 3. ſtehet ein ſolcher<note place="right"><hi rendition="#aq">Apo<supplied>cal.</supplied></hi> 3.</note><lb/>
+Spruch/ <hi rendition="#fr">Wer vberwindet/ derſol mit weiſſen Kleidern<lb/>
+angeleget werden/ vnd ich werde ſeinen Namen nicht</hi><lb/>
+<fw type="catch" place="bottom"><hi rendition="#fr">außtil-</hi></fw><lb/>
+<pb facs="#f0008" n="[8]"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche Leich-Predigt</hi></fw><lb/>
+<hi rendition="#fr">außtilgen aus dem Buch des Lebens/ vnd ich wil ſei-<lb/>
+nen Namen bekennen fuͤr meinem Vater vnd fuͤr ſeinen</hi><lb/>
+<note place="left"><hi rendition="#aq">Apocal.</hi> 20.</note><hi rendition="#fr">Engeln.</hi> Vnd im 20. Cap. gemeldtes Buch ſtehet geſchrie-<lb/>
+ben: <hi rendition="#fr">So jemand nicht ward erfunden geſchrieben in<lb/>
+dem Buch des Lebens/ der ward geworffen in den few-<lb/>
+rigen Pfuel.</hi> Solch Buch des Lebens wird auch genennet<lb/>
+<note place="left"><hi rendition="#aq">Apocal.</hi> 13.</note>das Buch <hi rendition="#fr">des Lambs/</hi> Apoc. 13. da geſchrieben ſtehet/ Die<lb/>
+<hi rendition="#fr">Jenigen beten das Thier an/ derer Namen nicht ge-<lb/>
+ſchrieben ſind in dem lebendigen Buch des Lambs/</hi><lb/>
+<note place="left"><hi rendition="#aq">Apocal.</hi> 21.</note><hi rendition="#fr">daß erwuͤrget iſt von Anfang der Welt.</hi> Vnd im 21. Cap.<lb/>
+ſtehet geſchrieben/ <hi rendition="#fr">Es wird nicht hinein gehen in das<lb/>
+himliſche Jeruſalem jrgend ein Gemeines/ vnd das da<lb/>
+Grewelthut vnd Luͤgen/ ſondern die geſchrieben ſind<lb/>
+in dem lebendigen Buch des Lambs.</hi> Es wird das Buch<lb/>
+des Lambs genennet/ darumb daß niemand ſelig werden kan/ als<lb/>
+durch das Blut des vnſchuldigen vnd vnbefleckten Laͤmblein<lb/>
+<note place="left">1. <hi rendition="#aq">Pet.</hi> 1.</note>GOttes/ wie S. Petr. 1. Pet. 1. ſchreibet: <hi rendition="#fr">Wiſſet daß jhr nicht<lb/>
+mit vergaͤnglichen Silber oder Gold erloͤſet ſeyd/ von<lb/>
+ewern eiteln Wandel nach vaͤterlicher weiſe/ ſondern<lb/>
+mit dem thewren Blut Chriſti/ als eines vnſchuldigen<lb/>
+vnd vnbefleckten Lambs.</hi></p><lb/>
+<p>Solch Buch des Lebens iſt nichts anders/ als ein Regiſter<lb/>
+oder eine Matricul/ darein GOtt der HErr zeichnet die jeni-<lb/>
+gen Perſonen/ welche er aus lauter Gnaden vmb das Verdienſt<lb/>
+<hi rendition="#fr">Chriſti JEſu willen/</hi> an welchen ſie beſtaͤndig glaͤuben/ von<lb/>
+Ewigkeit her/ ehe noch der Welt Grund geleget worden/ zu Lob<lb/>
+ſeiner herrlichen Gnade zum ewigen Leben erwehlet hat.</p><lb/>
+<p>Der <hi rendition="#aq">Autor</hi> vnd Erfinder ſolches Buchs des Lebens iſt<lb/>
+GOtt/ der das Leben ſelber iſt/ welcher mit einem thewren Eyd-<lb/>
+Schwur bezeuget/ daß er keinen Gefallen habe am <hi rendition="#fr">Tode des<lb/>
+Suͤnders/ ſondern daß er ſich bekehre von ſeinem boͤ-</hi><lb/>
+<fw type="catch" place="bottom"><hi rendition="#fr">ſen</hi></fw><lb/>
+<pb facs="#f0009" n="[9]"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche Leich Predigt.</hi></fw><lb/>
+<hi rendition="#fr">ſen Weſen vnd lebe/ Ezech.</hi> 33. Dieſe Wolthat der Erweh-<lb/>
+lung iſt allen dreyẽ Perſonẽ in der Gottheit gemein/ daher ſpricht<lb/>
+auch Chriſtus Joh. 15. <hi rendition="#fr">Jhr habt euch nicht erwehlet/ ſon-<lb/>
+dern ich habe euch erwehlet.</hi> Solche Wahl zur Seelig-<lb/>
+keit gruͤndet ſich nicht auff vnſere eigene Wuͤrdigkeit/ Verdienſt<lb/>
+oder gute Wercke wie die Pelagianer vnnd Papiſten ſolchen<lb/>
+Jrrthumb verfechten/ ſondern es gruͤndet ſich ſolche wahl auff<lb/>
+das thewre Verdienſt <hi rendition="#fr">Jeſu Chriſti</hi> mit wahrem Glauben er-<lb/>
+grieffen/ vnd iſt daher ein pur lauter Gnadenwerck: Darumb<lb/>
+wird ſie auch eine Gnadenwahl genennet. Es iſt aber nicht eine<lb/>
+bloſſe Gnade/ die weder auff Chriſtum/ noch auff den Glauben<lb/>
+ein Abſchen hette/ wie die Calviniſten fuͤrgeben. Denn ſolche<lb/>
+bloſſe Gnade ſtreitet wider GOttes Gerechtigkeit/ Heiligkeit<lb/>
+vnd Warheit. Gott kan wegen ſeiner weſentlichen Gerechtig-<lb/>
+keit/ Heiligkeit vnd Warheit nichts anders/ als die Suͤnde haſ-<lb/>
+ſen vnd ſtraffen/ hie zeitlich vnd dort ewiglich. Darumb kan man<lb/>
+auch Gott dem HErrn/ ohne Abbruch ſeiner Goͤttlichen Ma-<lb/>
+jeſtaͤt keine ſolche ſchlechte vnd bloſſe Gnade zumeſſen/ die er tra-<lb/>
+gen ſolte gegen einem oder dem andern Menſchen/ ohne alles<lb/>
+Anſeheung vnd Bedingung/ ob derſelbige Menſch an Chriſtum<lb/>
+gleube oder nicht. Darumb zeuget die H. Schrifft/ dz <hi rendition="#fr">die wahl<lb/>
+in Chriſto geſchehen ſey/</hi> wie Paulus Eph. 1. ſchreibet <hi rendition="#fr">Gott</hi><note place="right"><hi rendition="#aq">Eph.</hi> 1.</note><lb/>
+<hi rendition="#fr">hat vns erwehlet in Chriſto/ ehe der Welt Grund iſt<lb/>
+geleget worden/</hi> auff daß wir ſollen ſeyn heilig/ vnd vnſtraͤff-<lb/>
+lich fuͤr jhm in der Liebe. Wo aber Chriſtus genennet wird/ da<lb/>
+wird zugleich der Glaube an Chriſtum verſtanden/ ohne wel-<lb/>
+chen Glauben vns Chriſtus nichts nuͤtze iſt. Daraus erſcheinet/<lb/>
+daß 3 Vrſachen bey der Gnadenwahl zuerwegen ſeyn/ 1. <hi rendition="#fr">Die<lb/>
+Gnade Gottes/</hi> 2. Das <hi rendition="#fr">Verdienſt Chriſti/</hi> vnd 2. denn<lb/>
+der <hi rendition="#fr">Glaube/</hi> der ſich ſolche Gnade vnd Verdienſtes des<lb/>
+HErrn Chriſti/ von Hertzen troͤſtet vnd erfrewet. Wir erken-<lb/>
+nen auch daraus/ daß die Gnadenwahl mit der Rechtfertigung<lb/>
+<fw type="sig" place="bottom">B</fw><fw type="catch" place="bottom">was</fw><lb/>
+<pb facs="#f0010" n="[10]"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche Leich-Predigt.</hi></fw><lb/>
+was den Paß von den Vrſachen der Seeligkeit anbelanget/<lb/>
+ſchnur gleich vberein komme. Denn die <hi rendition="#fr">Gnadenwahl</hi> iſt<lb/>
+gleichſam daß <hi rendition="#aq">Decretum</hi> oder Rathſchluß GOttes von der<lb/>
+Menſchen Seeligkeit: Die <hi rendition="#fr">Rechtfertigung</hi> aber iſt die <hi rendition="#aq">exe-<lb/>
+cution</hi> vnd Vollſtreckung des Rathſchluſſes Gottes/ darumb<lb/>
+koͤnnen wir <hi rendition="#aq">à poſteriori ad prius</hi> gar ſtarck vnd vnwider-<lb/>
+ſprechlich alſo ſchlieſſen. Gleich wie Gott in der Zeit die Men-<lb/>
+ſchen gerecht machet/ alſo hat er ſie auch von Ewigkeit her er-<lb/>
+wehlet: Aber Gott machet die Menſchen gerecht nicht durch jhr<lb/>
+eigen Verdienſt/ ſondern aus lauter Gnade durch das thewer<lb/>
+Verdienſt Chriſti mit wahrem Glauben ergrieffen. Folget/<lb/>
+daß auch Gott die Menſchen von ewigkeit her in Chriſto erweh-<lb/>
+let habe. Dieſe drey Vrſachen der Seeligkeit ſind vnauffloͤßli-<lb/>
+cher Weiſe verknuͤpffet vnd verbunden/ vnd kan keine ohne der<lb/>
+andern ſeyn. Denn die Laſt der Suͤnden/ vnd die Flamme des<lb/>
+Zorns Gottes vnd die Pein des ewigen Todtes muͤſſen zuvor<lb/>
+vberwunden vnd hinweggereumet ſeyn/ ehe vns Gott einige<lb/>
+Gnade kan wiederfahren laſſen. Solches hat niemands an-<lb/>
+ders <hi rendition="#aq">præſtiren</hi> vnd ins Werck richten koͤnnen/ als vnſer ge-<lb/>
+trewer Heyland <hi rendition="#fr">Chriſtus Jeſus/ Gottes vnd Marien<lb/>
+Sohn/</hi> der wird darumb das Buch des Lebens genandt/ weil<lb/>
+die gantze Gnadenwahl allein auff Ihm beruhet. Darumb jr-<lb/>
+ren die Calviniſten groͤblich vnd gefaͤhrlich/ daß ſie Chriſtum<lb/>
+aus der Gnadenwahl auſſerſchliſſen/ davon werden ſie keinen<lb/>
+andern Lohn bekommen/ als daß ſie aus dem Buch des Lebens<lb/>
+außgeleſchet/ vnd jhre Namen nicht mit den Gerechten ange-<lb/>
+ſchrieben werden. Wer nu an <hi rendition="#fr">JEſum Chriſtum den Sohn<lb/>
+Gottes glaͤubet/</hi> der kan vnd ſoll ſicherlich ſchlieſſen/ daß er<lb/>
+ein Auſſerwehlter Gottes ſey/ vnd ein <hi rendition="#fr">Geliebter in dem</hi><lb/>
+<note place="left"><hi rendition="#aq">Epheſ.</hi> 1.</note><hi rendition="#fr">Geliebten</hi> Epheſ. 1. ſonderlich wenn er in ſolchem Glauben<lb/>
+<note place="left"><hi rendition="#aq">Matth.</hi> 10.<lb/>
+24.</note>beſtendig verharret biß an ſein Ende/ welche Beſtendigkeit der<lb/>
+HErr Chriſtus von vns erfordert beym Matth am 10. vnd 24.<lb/>
+<fw type="catch" place="bottom">wen</fw><lb/>
+<pb facs="#f0011" n="[11]"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche Leich-Predigt</hi></fw><lb/>
+wenn er ſpricht/ <hi rendition="#fr">Wer beharret biß ans Ende/ der wird ſe-<lb/>
+lig.</hi> Wollen wir nun wiſſen/ welcher Namen im Himmel oder<lb/>
+Buch des Lebens geſchrieben ſind/ ſo muͤſſen wir vns pruͤfen/<lb/>
+ob wir im Glauben ſtehen oder nicht/ wie Paulus 2 Corinth. 13.<note place="right">2. <hi rendition="#aq">Cor.</hi> 13.</note><lb/>
+vermahnet/ <hi rendition="#fr">verſuchet euch ſelbſt ob jhr im Glauben ſeyd/</hi><lb/>
+pruͤffet euch ſelbſt. Denn der Glaube reiniget die Hertzen von<lb/>
+allen Suͤnden/ er bringet vns/ zuwege die Liebe des Vaters/ die<lb/>
+Kindſchafft vnd das Erbe der ewigen Seligkeit. Darumb ſol-<lb/>
+len wir fuͤrnemlich Gott vmb den wahren Glauben anruffen<lb/>
+vnd bitten/ auch vns der jenigen Mittel mit gebuͤhrlicher <hi rendition="#aq">devo-<lb/>
+tion</hi> vnd Andacht gebrauchen/ dadurch Gott den Glauben an-<lb/>
+zuͤndet/ ſtercket vnd biß ans Ende erhelt. Denn es iſt vnd bleibet<lb/>
+der Gleube auch ein purlauter Gnadengeſchenck Gottes wie<lb/>
+Paulus Epheſ. 2. bezeuget: <hi rendition="#fr">Aus Gnaden ſeyd jhr ſelig wor-</hi><note place="right"><hi rendition="#aq">Epheſ.</hi> 2.</note><lb/>
+<hi rendition="#fr">den/ vnd daſſelbige nicht aus euch Gottes Gabe iſt es/<lb/>
+nicht aus den Wercken/ auff daß ſich nicht jemand<lb/>
+ruͤhme.</hi> Dieſes Gnadengeſchenck wil Gott der <hi rendition="#k">He</hi>rr nicht nur<lb/>
+etlich wenig Menſchen aus bloſſer liebe ſchencken/ ſondern er<lb/>
+<hi rendition="#fr">helt jederman ſolchen Glauben fuͤr/</hi> wie Paulus Act. 17.<lb/>
+bezeuget: aber die meiſten Menſchen hindern ſich ſelbſt an ſol-<lb/>
+chẽ Glauben durch jhr <hi rendition="#fr">mutwilliges ſuͤndigen/</hi> wie Chriſtus<lb/>
+bezeuget Luc. 8. Darumb werden ſie auch vmb ſolches <hi rendition="#fr">Vnglau-<lb/>
+bens willen verworffen/</hi> wie Paulus von den Juͤden ſchrei-<lb/>
+bet Rom. 9. <hi rendition="#fr">ſie ſind zerbrochen vmb jhres Vnglaubens<lb/>
+willen/ du aber ſteheſt im Glauben.</hi> Item Act. 13. <hi rendition="#fr">Euch<lb/>
+Juͤden muſte zu erſt das Wort Gottes geſaget werden.<lb/>
+Nun jhr es aber von euch ſtoſſet/ vnd achtet euch ſelbſt<lb/>
+nicht werth des ewigen Lebens/ ſihe ſo wenden wir<lb/>
+vns zu den Heyden.</hi> Die Erſtling deß Glaubens empfan-<lb/>
+gen wir in der Tauffe/ vnd weil wir ſolchen Tauffbund aus an-<lb/>
+geborner Schwachheit offtmals vbertretten ſo hat vns Gott<lb/>
+die H. Abſolution vnd das hochwuͤrdige Abendmal eingeſetzet/<lb/>
+<fw place="bottom" type="sig">B ij</fw><fw place="bottom" type="catch">daß</fw><lb/>
+<pb facs="#f0012" n="[12]"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche Leich-Predigt.</hi></fw><lb/>
+daß wir ſolchen Tauffbund wiederumb ſollen vernewern/ vnd<lb/>
+vns der Gnaden Gottes verſichern/ auff daß wir ſolchen Troſt<lb/>
+feſt vnd gewiß halten/ daß vns keine Gewalt aus der Hand<lb/>
+Chriſti reiſſen koͤnne/ denn Chriſtus hat ſein Blut an vns ge-<lb/>
+wendet/ vnd hat vns ſehr thewer erkaufft/ darumb wird er vns<lb/>
+als ſein Eigenthumb wol beſchuͤtzen nach ſeiner gnaͤdigen Ver-<lb/>
+heiſſung. <hi rendition="#fr">Jch gebe meinen Schafen das ewige Leben.</hi><lb/>
+<note place="left"><hi rendition="#aq">Ioh.</hi> 10.</note>Joh. 10. Wie wir nun ſolche Lehre nuͤtzlichen vnd ſeligen gebrau-<lb/>
+chen ſollen/ das lehret vns Chriſtus in dieſen Worten/ <hi rendition="#fr">frewet<lb/>
+euch/ daß ewre Namen im Himmel geſchrieben ſind.</hi><lb/>
+Denn vnſere Seeligkeit iſt feſt gegruͤndet: der feſte Grundt<lb/>
+GOttes beſtehet/ vnd hat dieſen Siegel/ <hi rendition="#fr">Der HErr kennet<lb/>
+die Seinen.</hi> Der HErr <hi rendition="#k">Je</hi>ſus als vnſer einiger Mitler <hi rendition="#fr">hat</hi><lb/>
+<note place="left"><hi rendition="#aq">Eſa.</hi> 49.</note><hi rendition="#fr">vns in ſeine Haͤnde gezeichnet/</hi> Eſa. 49. Wir ſind einge-<lb/>
+ſchrieben in das Buch des Lebens/ der Teuffel kan vns daraus<lb/>
+nicht außleſchen/ vnd ob er vns gleich haͤfftig anficht/ vnd wolt<lb/>
+vns gern das Liecht des Glaubens aus vnſern Hertzen außle-<lb/>
+ſchen/ durch Truͤbſal vnd Verfolgung/ durch allerley Verfuͤh-<lb/>
+rung zum Boͤſen/ durch murren wider Gott/ ſo koͤnnen wir jhn<lb/>
+doch/ wenn wir vns nur mit Glauben an Chriſtum halten/ mit<lb/>
+allen ſeinen Liſten vnd Tuͤcken vberwinden/ nicht allein die<lb/>
+Alten/ ſondern die Juͤnglinge vnd Jungfrawen vberwinden<lb/>
+<note place="left">1. <hi rendition="#aq">Ioh.</hi> 2.</note>den Satan auch/ wie S. Johan. in der 1. Joh. 2. <hi rendition="#fr">Ich ſchrei-<lb/>
+be euch Juͤnglingen/ denn jhr habt den Boͤſewicht<lb/>
+vberwunden.</hi> Der letzte Sturtz iſt der <hi rendition="#fr">Todteskampff/</hi><lb/>
+wenn wir nu nachfolgen dem Gottſeligen alten Simeon/ vnd<lb/>
+faſſen das <hi rendition="#k">Je</hi>ſu Kindelein auff die Armen vnſers Hertzens/<lb/>
+vnd bitten vmb eine friedliche Hinfahrt/ ſo koͤnnen wir auffs<lb/>
+aller gewiſſeſte ſchlieſſen/ daß wir zum ewigen Leben erwehlet<lb/>
+<note place="left"><hi rendition="#aq">Rom.</hi> 8.</note>ſeyn/ ſo koͤnnen wir ſagen mit Paulo/ Rom. 8. <hi rendition="#fr">Jch bin gewiß<lb/>
+daß weder Todt noch Leben/ mich ſcheiden kan von<lb/>
+der Liebe Gottes/ die da iſt in Chriſto Jeſu vnſerem</hi><lb/>
+<fw type="catch" place="bottom"><hi rendition="#fr">HErren.</hi></fw><lb/>
+<pb facs="#f0013" n="[13]"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche Leich-Predigt.</hi></fw><lb/>
+<hi rendition="#fr">HErren.</hi> Auff dieſe geiſtliche Hertzens Frewde/ die wir haben<lb/>
+an Chriſto/ wird folgen die ewige Frewde/ als das Ende vnſers<lb/>
+Glaubens/ welche iſt <hi rendition="#fr">die ewige Seeligkeit/ 1. Pet.</hi> 1. welche<note place="right">1. <hi rendition="#aq">Pet.</hi> 1.</note><lb/>
+mir vnd allen verleihen wolle Gott Vater Sohn vnd heiliger<lb/>
+Geiſt/ hochgelobet in Ewigkeit/ Amen.</p></div><lb/>
+<div type="fsPersonalia" n="2"><head><hi rendition="#b">Bericht.</hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">J</hi>N ſolchem Glauben iſt nun biß an</hi><lb/>
+jhr ſelig Ende beſtendig verblieben/ vnd be-<lb/>
+ſitzet nunmehr der Seelen nach die Frew-<lb/>
+de des ewigen Lebens/ vnſere im HErrn Chriſto ſe-<lb/>
+liglich verſtorbene Mitſchweſter/ die Erbare vnd<lb/>
+Tugendſame Fraw <hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Christina</hi></hi></hi> Koͤhlerin/ von<lb/>
+dero Ankunfſt/ Lebens Lauff vnd Ende/ kuͤrtzlichen zu<lb/>
+berichten/ daß ſie von Chriſtlichen vnd Ehrlichen<lb/>
+Eltern Anno 1591. den 24. Julii am Tag Johannis<lb/>
+des Taͤuffers in dieſe Welt gebohren worden: Ihr<lb/>
+Vater iſt geweſen der Weiland Erbare vnd Wolge-<lb/>
+achte Chriſtoph Goͤring/ Buͤrger vnd Zunfftſtuͤbner<lb/>
+allhier/ jhre Mutter die Weilandt Erbare vnd Tu-<lb/>
+gendſame <hi rendition="#fr">Fraw Margareta/</hi> des Weiland Er-<lb/>
+ſamen <hi rendition="#fr">Mattheus Kattloffs</hi> Bürgers vnd Be-<lb/>
+ckers allhier Eheleibliche Tochter.</p><lb/>
+<p>Von dieſen Eltern iſt Sie alſobalden durch das<lb/>
+H. Sacrament der Tauffe dem HErrn Chriſto zu-<lb/>
+<fw type="sig" place="bottom">B iij</fw><fw type="catch" place="bottom">gefuͤhret</fw><lb/>
+<pb facs="#f0014" n="[14]"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche Leichen-Predigt.</hi></fw><lb/>
+gefuͤhret/ vnd ſeiner Chriſtlichen Gemein <hi rendition="#aq">incorpo-<lb/>
+rirent</hi> Chriſtina genennet worden/ als ſie aber ein-<lb/>
+wenig zu jhrem Verſtand gelanget/ iſt ſie von jhren<lb/>
+lieben Eltern alſo bald zum Gebet/ Kirchen/ Schu-<lb/>
+len vnd aller Gottesfurcht gehalten vnd angewieſen<lb/>
+worden/ da ſie denn ſo viel im ſchreiben vnd leſen be-<lb/>
+grieffen/ als ſie in jhrem Chriſtenthumb von Noͤ-<lb/>
+ten gehabt.</p><lb/>
+<p>Als ſie aber zu jhren Jahren kommen/ hat ſie<lb/>
+ſich mit vorhergehenden reiffem Rath vnd Einwilli-<lb/>
+gung jhrer lieben Eltern Anno 1623. in ein Chriſt-<lb/>
+lich Ehegeloͤbniß eingelaſſen/ mit dem damaln Ehrn-<lb/>
+veſten vnd Kunſtreichen/ Herrn Abraham Lam-<lb/>
+berg/ Buͤrgern vnd Buchdruckern allhier/ mit wel-<lb/>
+chem ſie biß ins 6. Jahr eine friedliche/ fruchtbare vñ<lb/>
+Chriſtliche Ehe beſeſſen/ denn ſie in wehrenden Ehe-<lb/>
+ſtande durch Gottes Segen 2. Soͤhne/ als Chri-<lb/>
+ſtoph vnd Abraham ſo noch am Leben/ erzeuget/<lb/>
+welche ſie zu allem guten/ vnd ſonderlich zum Stu-<lb/>
+diren angemahnet vnd angehalten.</p><lb/>
+<p>Nach dem aber nach GOttes Rath vnd Schi-<lb/>
+ckung jhr damals lieber Haußwirth/ durch den zeit-<lb/>
+lichen Todt von dieſer Welt abgefordert/ hat ſie nach<lb/>
+verfloſſenen 3. Witben Jahren/ nicht ohne merckliche<lb/>
+Vrſachen/ ſich anderweit mit dem Ehrenwolgeach-<lb/>
+ten Kunſtreichen vnnd Mannhafften Herrn Hen-<lb/>
+<fw place="bottom" type="catch">ning</fw><lb/>
+<pb facs="#f0015" n="[15]"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche Leich-Predigt.</hi></fw><lb/>
+ning Koͤhlern/ auch Buͤrgern vnd Buchdruckern<lb/>
+allhier/ in Eheliche Verloͤbniß eingelaſſen 1633. den 8.<lb/>
+Julii/ mit welchem ſie in das 4. Jahr eine Chriſtliche<lb/>
+vnd friedliche Ehe beſeſſen/ aber in ſolchem Eheſtand<lb/>
+ohne Leibesfrucht/ ſelig jhr Zeit vollendet vnnd be-<lb/>
+ſchloſſen.</p><lb/>
+<p>Jhr Chriſtenthumb anlangend/ hat ſie ſich als<lb/>
+eine rechte Chriſtin gegen GOtt vnd dem Nechſten<lb/>
+Chriſtlich verhalten. Gegen GOtt hat ſie ſich<lb/>
+Gottsfuͤrchtig erwieſen/ in dem ſie ſein Wort zu<lb/>
+Haus vnd in der Kirchen mit groſſer Andacht gehoͤ-<lb/>
+ret/ geleſen vnd die jhren darzu vermahnet: Die<lb/>
+Wochen-Predigten fleiſſig beſuchet/ die H. hochwuͤr-<lb/>
+dige Sacramenta zu vnterſchiedlichen mahlen des<lb/>
+Jahrs gebrauchet/ vnd ſich fort vnd fort als eine<lb/>
+wachſame vnd embſige Streiterin Jeſu Chriſti zum<lb/>
+Hin-vnd Abzug gefaſt gehalten. Gegen dem Nech-<lb/>
+ſten hat ſie ſich mitleidentlich/ vnd ſo viel in jhren<lb/>
+Kraͤfften/ auch huͤlfflich erweiſet/ vnd den Armen gu-<lb/>
+tes erzeiget. Jn jhrem haußhalten iſt ſie ſittſam vnd<lb/>
+freundlich embſich vnd vnverdroſſen zu allen Din-<lb/>
+gen geweſen/ den hinterlaſſenen betruͤbten Herrn<lb/>
+Witber iſt ſie trewlich vnd fleiſſig beygeſtanden/<lb/>
+wenn es in der Nahrung in dieſen Zeiten offt hart ge-<lb/>
+halten/ jhn getroͤſtet/ vnd geſprochen: Die Hand<lb/>
+des HErrn were nicht verkuͤrtzet/ daß ſie nicht helf-<lb/>
+<fw place="bottom" type="catch">fen</fw><lb/>
+<pb facs="#f0016" n="[16]"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche Leichen-Predigt.</hi></fw><lb/>
+fen koͤndte/ Gott wuͤrde wiederumb an vns auch ge-<lb/>
+dencken: Die Kinder/ wie gemeldet/ hat ſie mit gan-<lb/>
+tzem Ernſt zur Kirchen vnd Schulen gehalten/ be-<lb/>
+vorab weil ſie gemercket/ daß der Eltere/ Chriſtoph<lb/>
+mit Namen wol darzu <hi rendition="#aq">incliniret,</hi> hat ſie kurtz fuͤr jh-<lb/>
+rem Ende ſeinen Pr<hi rendition="#aq">æ</hi>ceptoren zu ſich laſſen fordern/<lb/>
+demſelben mit weinenden Augen gebeten/ er wolte<lb/>
+doch ferners Fleiß bey jhm anwenden/ daß er auch<lb/>
+dermaleins GOtt vnd dem Nechſten dienen koͤnte/<lb/>
+vnd ſein Brodt mit Ehren erwerben: ſie were des<lb/>
+verſichert/ jhr lieber Haußwirth würde die Handt<lb/>
+nicht von jhren vnerzogenen Kindern ſincken laſſen:<lb/>
+vnd geſaget/ wo jhm ſein Muͤhe vnd Fleiß nicht ſol-<lb/>
+te verlohnet werden/ ſolte er von Gott im Himmel/<lb/>
+als der ein Vater aller Waͤiſen were/ reiche Beloh-<lb/>
+nung zu gewarten haben.</p><lb/>
+<p>Jhre Kranckheit belangend/ hat ſie ſich in der-<lb/>
+ſelben gedultig erzeiget/ fleiſſig gebetet/ vnd fort mit<lb/>
+Chriſtlichen Sterbens-Gedancken vmbgegangen/<lb/>
+als ſie nun endlich gemercket/ daß jhres Lebens-<lb/>
+Lauff ſich nicht laͤnger erſtrecken wuͤrde/ hat ſie ſich<lb/>
+zur endlichen Hinfahrt vnd ſeligen Fortgang wollen<lb/>
+gefaſt machen/ vnd jhrem Herrn Beichtvater einen<lb/>
+Boten geſichickt/ vnd da derſelbe den 11. dieſes Mo-<lb/>
+nats zu jhr kommen/ demſelben jhre Sünde hertz-<lb/>
+lich gebeichtet/ vñ nach erlangter <hi rendition="#aq">Abſolution</hi> daß H-<lb/>
+<fw place="bottom" type="catch">hochwuͤr-</fw><lb/>
+<pb facs="#f0017" n="[17]"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche Leich-Predigt</hi></fw><lb/>
+hochwürdige Abendmal mit groſſer Andacht em-<lb/>
+pfangen: für ſolche Wolthat Gott hertzlich gedan-<lb/>
+cket/ der gaͤntzlichen Zuverſicht ſie hette nunmehr ei-<lb/>
+nen ſolchen Zehrpfenning vberkommen/ mit welchem<lb/>
+ſie frey/ ſicher vnd vngehindert allenthalben koͤnte<lb/>
+beſtehen vnd fortkommen/ jnmaſſen ſie ſich zu einem<lb/>
+ſeligen Abſchied gefaſt gehalten/ vnd mit beten vnd<lb/>
+ſingen biß an jhr ſelig Ende zu Gott geruffen/ bevor-<lb/>
+ab den 14. als letzten Tag vor jhrem Hintritt hat ſie<lb/>
+dz ſehr ſchöne vñ troſtreiche Geſaͤnglein: <hi rendition="#fr">HErr Je-<lb/>
+ſu Chriſt meins Lebens Liecht ꝛc.</hi> mit heller<lb/>
+Stimm angefangen zu ſingen/ vnd ſolches auch zu<lb/>
+Ende gebracht: vnnd bald darauff folgende nach<lb/>
+denckwuͤrdige Wort von ſich hoͤren laſſen: <hi rendition="#fr">Die H.<lb/>
+Dreyfaltigkeit hette einẽ alten grawen Mañ<lb/>
+zu jhr geſchicket vnnd geſagt ſie ſolt ſich vmb<lb/>
+das zeitliche hinfort vnbekuͤmmert laſſen.</hi><lb/>
+Wie wol man nun zwar an ordentlichen natuͤrlichen<lb/>
+Mitteln gantz nichts geſparet/ vnd im geringſten<lb/>
+nichts vnterlaſſen worden/ ſondern von dem Herrn<lb/>
+<hi rendition="#aq">Medico</hi> aller muͤglicher Fleiß angewendet worden/<lb/>
+hat es doch alles nichts verfangen wollen/ ſondern je<lb/>
+lenger je mehr zu einem faͤhrlichern Ausgang das<lb/>
+Anſehen gewonnen. Da ſie denn je lenger je mehr<lb/>
+Vrſachen bekommen Gott vmb ein ſeliges Simeons<lb/>
+<fw type="sig" place="bottom">C</fw><fw type="catch" place="bottom">Stünd-</fw><lb/>
+<pb facs="#f0018" n="[18]"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche Leich-Predigt.</hi></fw><lb/>
+Stuͤndlein zu flehen vnd anzuruffen/ welches End<lb/>
+jhr verſchienen 15. May fruͤe zwiſchen 7. vnnd 8.<lb/>
+Vhr gnaͤdiglich wiederfahren laſſen/ da ſie jhre<lb/>
+Seele jhrem liebſten Heyland Chriſto JEſu zu trew-<lb/>
+en Haͤnden anbefohlen/ vnnd darauff froͤlich vnd<lb/>
+frewdig ohne einiges Ach vnd Wehe in Gott ſanfft<lb/>
+vnd ſelig entſchlaffen/ jhres Alters 46. Jahr.</p><lb/>
+<p><hi rendition="#fr">Sie lebet nun der Seelen nach in ewiger<lb/>
+Frewde vnd Wonne/ der Leib ruhet in der<lb/>
+Erden biß an lieben Juͤngſten Tag/ da er mit<lb/>
+allen Außerwehlten aufferwecket/ vnd zum<lb/>
+ewigen Leben eingehen wird. GOtt troͤſte<lb/>
+den betruͤbtn Witber vnd vnerzogene Waͤy-<lb/>
+ſen/ vnd gebe vns allen einen ſeligen Abſchied<lb/>
+aus dieſer Welt/ vnd am Juͤngſten Tage eine<lb/>
+<hi rendition="#c">froͤliche Aufferſtehung zum ewigen<lb/>
+Leben/ vmb Chriſti JEſu wil-<lb/>
+len. Amen.</hi></hi></p></div></div><lb/>
+<pb facs="#f0019" n="[19]"/>
+<div n="1"><head/>  <milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsEpicedia" n="2"><head/>  <lg type="poem"><l><hi rendition="#in">G</hi>Eſchawe mir doch eins die jetzigen Vieh treiber/</l><lb/>
+<l>Der gantzen Welt/ ohn nur des Feindes/ keck-Auff-</l><lb/>
+<l><hi rendition="#et">reiber!</hi></l><lb/>
+<l>Wie auff vnd nieder ſie rumb ziehẽ/ ob noch was</l><lb/>
+<l>Zu fuͤllen den Abgrund/ ſich jrgend blicken laß<supplied>?</supplied></l><lb/>
+<l>Vnd wann es hat verſpuͤhrt/ das alles-uͤmb zu kriegen</l><lb/>
+<l>Den Kruͤgern iſt zuthun/ nicht aber vmb das ſiegen/</l><lb/>
+<l>Nicht vmb <hi rendition="#g">GOTT</hi> oder Ehr; Weil jeder Gold nur</l><lb/>
+<l><hi rendition="#et">meynt/</hi></l><lb/>
+<l>Vnd druͤmb ſtets reibet auff nur vnbewehrte Freund:</l><lb/>
+<l>Das trete dann herbey/ vnd ſag vns auffrecht wieder/</l><lb/>
+<l>Ob es mehr wuͤndſchen wolt/ daß jhm die Augen-Lieder/</l><lb/>
+<l>Zuſehen an die Schmach/ ſeyn ſolten auffgezerrt/</l><lb/>
+<l>Als daß ſie wehren nur vom Tod im Fried verſperrt?</l><lb/>
+<l>Jch wil an ſeinem Ort es jetzto zwar thun ſtellen/</l><lb/>
+<l>Was jederman hiervon moͤg fuͤr ein Vrtheil faͤllen;</l><lb/>
+<l>Vnd das zwar Mann vnd Weib ſein Leben ſo hoch liebt/</l><lb/>
+<l>Daß zu erretten es das ander all hingiebt:</l><lb/>
+<l>Doch weis ich diß gewiß/ wann der verſtorbnen Frawen</l><lb/>
+<l>Schon ferner wer vergoͤnnt die Eytelkeit zu ſchawen/</l><lb/>
+<l>Auch jhr der Himmel ſelbſt das Liecht gleich oͤffnen wollt/</l><lb/>
+<l>Daß ſie aus Will-kuͤhr doch jhr Augen ſchlieſſen ſolt.</l><lb/>
+<l>Was wolt jhr Erben dann mit der geſaltznen Laugen/</l><lb/>
+<l>Der wilden Thraͤnen Fluth/ außboͤſſen euch die Augen</l><lb/>
+<l>Jhr iſt nichts mit gedient/ vnd Euch hilfft es auch nicht/</l><lb/>
+<l>Als das jhr euch ſolt mit außleſchen ſelbſt das Liecht.</l><lb/>
+<l>Daß were wieder GOtt/ dem jhr muͤſt ſtille halten/</l><lb/>
+<l>Der vber Leben kan vnd Todt alleine ſchalten;</l><lb/>
+<fw place="bottom" type="sig"><choice><sic>A ij</sic><corr>Cij</corr></choice></fw><fw place="bottom" type="catch">Der</fw><lb/>
+<pb facs="#f0020" n="[20]"/>
+<l>Der wird vns allen dann/ nach wol verbrachten Lauff/</l><lb/>
+<l>Zu ſeiner Zeit ſelbſt thun die Augen zu/ vnd Auff.</l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#fr">A. B.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#in">V</hi>Nd diß iſt nur der Weg der vnſer Jammer wendet/</l><lb/>
+<l>Vnd der noch einge Ort der vnſer Klagen endet/</l><lb/>
+<l>Da die entleibte Seel in voller Frewde lebt/</l><lb/>
+<l>Vnd weit von allem Ach in rechtem Jauchtzen ſchwebt.</l><lb/>
+<l>Hier ſcheints als wer’s geſchehn/ vnd duͤrfften wir nicht hoffen/</l><lb/>
+<l>Daß die ſo groſſe Angſt die vns bißher betroffen/</l><lb/>
+<l>Sich einſten enden werd’/ jetzt da an Grawſamkeit/</l><lb/>
+<l>Faſt Feind vnd Freunde gleich/ drumb jederman auch ſchreyt/</l><lb/>
+<l>Vnd ſeufftzet loß zu ſeyn. Der hat in erſten Jahren</l><lb/>
+<l>Des Lebens Bitterkeit ſchon mehr als viel erfahren/</l><lb/>
+<l>Fleucht Fuß fuͤr Fuß davon/ mag in verderbter Lufft</l><lb/>
+<l>Hier laͤnger athmen nicht/ des Grabes ſichere Krufft</l><lb/>
+<l>Jhm beſſer ſtracks gefaͤlt. Der ob er gleich erlanget/</l><lb/>
+<l>Der beſten Jahre Zahl/ vnd nun vor andern pranget/</l><lb/>
+<l>Jn Tugend voller Bluͤt/ eylt dennoch aus der Welt</l><lb/>
+<l>Weil die von Tugend mehr auch nicht das minſte helt.</l><lb/>
+<l>(Wie mein geehrter Groß/ den man vor wenig Tagen/</l><lb/>
+<l>Mit vielem Leid vnd Ach in kalten Sand getragen)</l><lb/>
+<l>Seht wie der ſeinen Geiſt den er ſo lang gehegt</l><lb/>
+<l>Jn wolbejaͤhrten Leib ſo willig abelegt.</l><lb/>
+<l>Vnd ſchickt zum Himmel zu/ kan das betruͤbte Klagen</l><lb/>
+<l>Des armen Vaterlands/ das vnerhoͤrte Zagen/</l><lb/>
+<l>Des viel geaͤngſten Volcks nicht laͤnger hoͤren an</l><lb/>
+<l>Dem nur das Leben noch der Kriegsknecht hinterlan.</l><lb/>
+<l>Nun iſt auch dieſe frey/ jhr iſt fuͤr dieſes Leben</l><lb/>
+<l>So Muͤh’ vnd Arbeit voll/ gewuͤndſchte Ruh gegeben/</l><lb/>
+<fw place="bottom" type="catch">Nun</fw><lb/>
+<pb facs="#f0021" n="[21]"/>
+<l>Nun ſchreckt ſie keine Furcht/ der alleraͤrgſte Feind</l><lb/>
+<l>Vnd was nur grawſam iſt jhr jetzt veraͤchtlich ſeynd</l><lb/>
+<l>Wir wuͤndſchen jhr Geluͤck/ vnd ſeufftzen auch zu kommen/</l><lb/>
+<l>Zu der geliebten Schaar da ſie nun auffgenommen/</l><lb/>
+<l>Vnd ewig bleiben wird. Es lebe wer da wil</l><lb/>
+<l>Wir ſeynd von leben ſatt vnd wuͤndſchen nach den Ziel.</l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">M.</hi></hi> <hi rendition="#fr">Gottfried Schneider.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">V</hi><hi rendition="#i">Iciſti ergò tuis Mors ô ſævißima telis</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Morbi detentam mole gravante diu.</hi></hi></l><lb/>
+<l xml:id="A" next="#B"><hi rendition="#aq"><hi rendition="#i">Sexûs imbellis natam; ſvavemꝙ Maritâm,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Köleri</hi></hi> Coſtam<hi rendition="#i">; Cor ſociale</hi></hi></l> <l xml:id="B" prev="#A"><hi rendition="#aq"><hi rendition="#i"><hi rendition="#et">(ecas.</hi></hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Scilicet egregiam prædam &amp; celebranda trophæa.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Laudibus adſcribis tu Fera vera tuis</hi>;</hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Abluis ast laterem</hi>; <hi rendition="#i">ſunt funere fœnora parta:</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Gaudia cœleſti ſede repoſta tenet</hi>:</hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Præmia victricis Fidei, Luctæꝙ reportat</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Defuncta in Chriſti ſangvine ſalvifico</hi>;</hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Veſcitur æthereis</hi>; <hi rendition="#i">dura nos ſorte relictos</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Angor habet</hi>; <hi rendition="#i">Martis terret in orbe timor:</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Non erres</hi>; <hi rendition="#i">referas potius qvî vis tua fracta,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Vitæ etenim æternæ cognita cauſa manes:</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">I nunc &amp; verbis effer tua facta tremenda,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Vitam multiplicant</hi> Lucra petita, <hi rendition="#i">obitu:</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Poſtulat applauſum non planctum Mortua; Jovæ</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Cum Patribus ſanctis cœlica regna tenet:</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Plangat qvinpotius, tua qvem non ſpicula ſternunt,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Nam <hi rendition="#g">DEUS</hi> hinc citius qvos amat ipſe vocat.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Viciſtine tuis jaculis dirißime Latro?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Non</hi>; <hi rendition="#i">Sponſam hanc Chriſti ſcimus ovare polo.</hi></hi></l></lg></div><lb/>
+<fw place="bottom" type="sig"><choice><sic><hi rendition="#i"><hi rendition="#aq">A</hi> 2</hi></sic><corr>Biij</corr></choice></fw><fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#i">Valet-</hi></hi></fw><lb/>
+<pb facs="#f0022" n="[22]"/>
+<div n="2"><head><hi rendition="#aq"><hi rendition="#i">Valet-</hi></hi><hi rendition="#b">Segen der Verſtorbenen:</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">T</hi>Hut nicht ſo hefftig weinen/ mein liebſter Mañ vnd Herr/</l><lb/>
+<l>Gott thuts mit mir gut meynen/ Ach klagt doch nicht ſo ſehr/</l><lb/>
+<l>Fuͤhlich doch keinẽ ſchmertzen/ des troͤſtet euch von Hertzen/</l><lb/>
+<l>Laſt euch befohlen ſeyn/</l><lb/>
+<l>Mein klein<supplied>'</supplied> verwaͤyſte Kinder/ darzu nichts deſto minder</l><lb/>
+<l>Die liebſten Freunde mein:</l><lb/>
+<l>Hiemit ich nun wil ſchweigen/ mein Mund nicht auffthun mehr</l><lb/>
+<l>Mich geben Gott zu eigen/ gebt jhr jhm auch die Ehr</l><lb/>
+<l>Befehlt jhm ew’re Sachen/ Er weiß allein zu machen</l><lb/>
+<l>GOtt g<supplied>'</supplied>ſegn euch lieber <hi rendition="#fr">Mann/</hi></l><lb/>
+<l>Mein liebſte Kind<supplied>'</supplied>r/ Verwandte/ mein Schweſt<supplied>'</supplied>r vnd wol Bekandte</l><lb/>
+<l>GOtt nehm ſich ewer an!</l></lg><lb/>
+<closer><salute><hi rendition="#et">Solches ſchreib zum letzten Ehrengedaͤchtnuͤs der ſel.<lb/>
+vnd in Gott ruhenden/ betruͤbten Kinder<lb/>
+<hi rendition="#aq">Præceptor<lb/>
+<hi rendition="#i">Sebaſtianus</hi></hi> <hi rendition="#fr">Koch</hi> <hi rendition="#aq"><hi rendition="#i">Byr. Fran.<lb/>
+Philoſophiæ Baccalaureus.</hi></hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#in">W</hi>Ann Seufftzen/ Wuͤndſchen/ Klag/ vñ die betruͤbten Thraͤnẽ/</l><lb/>
+<l>Das trawrige Ach vnd das ſo ſchmertzlich<supplied>'</supplied> Sehnen/</l><lb/>
+<l>Des Hertzens voller Angſt/ bey der gehaͤufften Noth/</l><lb/>
+<l>Koͤndt bringen zu dem Grab/ ſo wuͤrden viel den Todt/</l><lb/>
+<l>Den Ender-aller-Plag jhm wuͤndſchen einzukehren/</l><lb/>
+<l>Damit ſie doch einmal dem Freſſen vnd Verheeren/</l><lb/>
+<l>Der blutigen Begier/ der grimmigen Gewalt</l><lb/>
+<l>Des wilden-Krieges Schwerdt/ dz jetzt durch Deutſchland ſchall<supplied>'</supplied>t</l><lb/>
+<l>Vnd all’s zu Boden kehrt/ nur moͤchten ſeyn entnommen/</l><lb/>
+<l>Welchs leyder nunmehr auch ſo weit bey vns iſt kommen/</l><lb/>
+<l>Daß es das ſchoͤne Land/ das werthe Meißner-Land/</l><lb/>
+<l>Verzehret vnd verderbt mit Blut-geferbter Hand;</l><lb/>
+<l>Ja wenn die Augen nur/ die von dem langen Schawen</l><lb/>
+<l>Der ſchnoͤden Eitelkeit/ mit Weinen vnd mit Grawen</l><lb/>
+<fw place="bottom" type="catch">Der</fw><lb/>
+<pb facs="#f0023" n="[23]"/>
+<l>Der Sinnen allzumal/ gantz vberdruͤſſig ſind</l><lb/>
+<l>Sich wenden koͤndten hin/ da wo man nicht mehr ſind</l><lb/>
+<l>Leid oder Trawrigkeit/ wie ſolten ſie ſich zeigen</l><lb/>
+<l>So embſig vnd bereit den Himmel zu erſteigen?</l><lb/>
+<l>Doch alles iſt vmbſonſt/ die Zaͤhren/ Seufftzer/ Klag</l><lb/>
+<l>Vnd Sehnen damit wir vns plagen alle Tag/</l><lb/>
+<l>Wir arme Sterblichen/ belegt mit Schwerdt vnd Kriegen/</l><lb/>
+<l>Gepreſt/ geaͤngſt/ betraͤngt. Leſt vns doch GOtt nicht liegen</l><lb/>
+<l>Huͤlffloß in ſolcher Noth? Bey jhm ſteht ſchon das Ziel</l><lb/>
+<l>Wie lang es waͤren ſol; Jſt gleich des Creutzes viel</l><lb/>
+<l>So ſind doch ſtaͤrcker noch deß ſtarcken Gottes Haͤnde/</l><lb/>
+<l>Vielmehr laſt in Gedult vns harren biß ans Ende</l><lb/>
+<l>Das GOtt zu rechter Zeit nach ſeinem weiſen Rath</l><lb/>
+<l>Bey vns zu machen weiß Gleich wie diß in der That</l><lb/>
+<l>Die Tugend-volle <hi rendition="#fr">Fraw Chriſtina</hi> hat erfahren</l><lb/>
+<l>Denn ob ſie gleich bißher in hingelebten Jahren</l><lb/>
+<l>Als eine Chriſtin auch Creutz/ Truͤbſal/ Angſt vnd Noth</l><lb/>
+<l>Hat leyden muͤſſen offt/ hat ſie doch nicht den Todt</l><lb/>
+<l>Jhr liederlich begehr’t/ ſondern iſt feſt geblieben</l><lb/>
+<l>Jn Chriſtlicher Gedult/ biß ſie auch Ihren Lieben</l><lb/>
+<l>Von GOtt geheiſſen ward zu geben gute Nacht</l><lb/>
+<l>Durch einen ſanfften Todt. Nun jetzt iſt ſie gebracht</l><lb/>
+<l>Dahin/ da jhrer viel mit ſehnlichen Verlangen</l><lb/>
+<l>Zu leben wuͤndſchen Ihm/ wo vns nicht hett vmbfangen</l><lb/>
+<l>Das trawerige Leyd/ Angſt/ Schrecken/ ſtrenge Zeit</l><lb/>
+<l>Da wo die Seel verſorgt/ bleibt in der Ewigkeit.</l></lg><lb/>
+<closer><salute><hi rendition="#et">Aus betruͤbten Mitleiden/ eilend<lb/>
+verfertiget vnd vbergeben<lb/>
+Von<lb/>
+<hi rendition="#fr">Friderich Hulderich Dieterich</hi><lb/>
+<hi rendition="#aq">Byrut<gap reason="illegible" unit="chars" quantity="1"/>o Franc. Phil. Stud.</hi></hi></salute></closer></div><lb/>
+<fw place="bottom" type="catch">Dein</fw><lb/>
+<pb facs="#f0024" n="[24]"/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#in">D</hi>Ein Troſt ſey auch dahin/ merck ich aus deinen Zagen/</l><lb/>
+<l>Du lieber Schulfreund mein/ elend iſt ja dein Klagen</l><lb/>
+<l>Billich beweinſtu die/ die dich ans Liecht gebracht/</l><lb/>
+<l>Ach Ach du Eltern-Todt/ wer hat denn dich erdacht<hi rendition="#i">!</hi></l><lb/>
+<l>Du wirſt biß an dein End jhr Trew nicht gnug beſchulden/</l><lb/>
+<l>Da du erſt Todkranck warſt/ vnd dich niemand wolt dulten/</l><lb/>
+<l>War ſie dein einig Huͤlff/ die dich wart Tag vnd Nacht</l><lb/>
+<l>Errettet dich vom Todt/ der jhr doch ward gedacht.</l><lb/>
+<l>Was kanſtu jhr denn jetzt/ mit vielen Thraͤnen nuͤtzen</l><lb/>
+<l>Betruͤb jhr Seele nicht/ Gott wird dich wol beſchuͤtzen/</l><lb/>
+<l>Da ſie jetzt iſt vnd lebt/ gedencken wir all hin/</l><lb/>
+<l>Gott geb nur ſein Genad/ daß diß bleib vnſer Sinn:</l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">Condolentiæ ergò ſeribebat hæc ad mœſtiß-<lb/>
+mum ſuum commilitonem</hi><lb/>
+Johannes Heinricus</hi> <hi rendition="#fr">Schumann</hi><lb/>
+<hi rendition="#aq">Lipſienſis</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#in">A</hi>Ch! Ach<hi rendition="#i">!</hi> Wie ſol doch ich/ dich jetzt thun recht beklagen</l><lb/>
+<l>Du liebſte Mutter mein/ vnmeßlich iſt mein Zagen<hi rendition="#i">!</hi></l><lb/>
+<l>Mein Hertz das aͤngſtet ſich/ vnd fuͤhlet Todesqual/</l><lb/>
+<l>All jrrdiſch Frewd geh weg/ ich find kein Labeſal/</l><lb/>
+<l>Der Stab der Hoffnung mein/ auff dem mein Heyl geſtanden/</l><lb/>
+<l>Zerbrochen faͤlt hinweg/ verſtrickt in Todes Banden.</l><lb/>
+<l>O du greßlicher Todt/ O du betruͤbte Stund</l><lb/>
+<l>Jhr habt mir abgegrabn der Frewden Quell vnd Grund!</l><lb/>
+<l>Wie weint mein Hertz die Nacht/ wenn das glaͤntzend Geſtirne</l><lb/>
+<l>Den ſtillen WeltKreiß deckt/ ſich aͤngſtet mein Gehirne</l><lb/>
+<l>Von Klagen wuͤſt vnd ab/ den Tag der Thraͤnen Bach/</l><lb/>
+<l>Die bleichen Wangen ab fleuſt mit viel Vngemach.</l><lb/>
+<l>Kein Menſch mich troͤſten kan/ auch nicht der Freundſchafft Orden/</l><lb/>
+<l>Weil meiner Mutter Hertz ich bin beraubet worden.</l><lb/>
+<fw place="bottom" type="catch">Wo</fw><lb/>
+<pb facs="#f0025" n="[25]"/>
+<l>Wo ſol ich armer Waiß verlaſſen fliehen hin/</l><lb/>
+<l>Zu wem ſuch Zuflucht ich/ mein’ Eltern ſind dahin?</l><lb/>
+<l>Wer wird auff dieſer Welt/ vmb mich nun ferners ſorgen</l><lb/>
+<l>Mein Sorger ſind dahin/ GOtt iſt es vnverborgen?</l><lb/>
+<l>Ach wen auff dieſer Erd/ wen ſtell ich jmmer fuͤr/</l><lb/>
+<l>Der groͤſſern Jammer hett/ dems aͤrger gieng als mir?</l><lb/>
+<l>Wolt doch der hoͤchſte GOtt/ daß mit dir in die Erden/</l><lb/>
+<l>Mein Leib du Mutter mein/ jetzt ſolt begraben werden<hi rendition="#i">!</hi></l><lb/>
+<l>Der Wuͤrmen ſchwartzer Hauff/ der Schlangen groſſe Schaar</l><lb/>
+<l>Mich ſolten ſcheiden nicht/ von deiner Lieb alldar.</l><lb/>
+<l>Mit Wuͤndſchen richt ich nichts/ mit Weinen iſts verlohren</l><lb/>
+<l>Dein abgeſeelter Leib nimbt ſolches nicht zu Ohren:</l><lb/>
+<l>Mein Seel vergiſt dein nicht/ ſo lang der Sternen Heer</l><lb/>
+<l>Am hohen Himmel ſchwebt/ liebt ſie dich ohn Auffhoͤr:</l><lb/>
+<l>Der Todt vnd Lebens <hi rendition="#k">Herr/</hi> der Morgen wird aufffahren/</l><lb/>
+<l>Fuͤhrt deine Seel mit ſich/ ſein Engel thun ſie tragen/</l><lb/>
+<l>Jn Abrams Schoß do lebt/ <hi rendition="#fr">Abram</hi> der <hi rendition="#fr">Ehſchatz</hi> dein</l><lb/>
+<l><hi rendition="#fr">Mein Vater;</hi> Ghabt euch wol jhr lieben Eltern mein<hi rendition="#i">!</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et">Solches ſchreib zum letzten Andencken<lb/>
+ſeiner ſel. lieben Mutter:<lb/>
+<hi rendition="#aq">Chriſtophorus</hi> <hi rendition="#fr">Lamberg</hi><lb/>
+<hi rendition="#aq">Muſarum alumnus.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#fr"><hi rendition="#in">J</hi>St jemand der Vrſach hat</hi></l><lb/>
+<l><hi rendition="#fr">Seine Wangen zu benetzen</hi></l><lb/>
+<l><hi rendition="#fr">Jn der heiſſen Thraͤnen Saat</hi></l><lb/>
+<l><hi rendition="#fr">Vnd ſein Hertz in Leid zu ſetzen</hi></l><lb/>
+<fw place="bottom" type="sig"><hi rendition="#fr">D</hi></fw><fw place="bottom" type="catch"><hi rendition="#fr">Bin</hi></fw><lb/>
+<pb facs="#f0026" n="[26]"/>
+<l><hi rendition="#fr">Bin ichs vnerzognes Kind</hi></l><lb/>
+<l><hi rendition="#fr">Des Elend ſich haͤuffig ſind.</hi></l><lb/>
+<l><hi rendition="#fr"><hi rendition="#in">H</hi>In iſt die/ die iſt dahin</hi></l><lb/>
+<l><hi rendition="#fr">Die mich hat in dieſes Leben</hi></l><lb/>
+<l><hi rendition="#fr">Mit Vernunfft Gebracht vnd Sinn</hi></l><lb/>
+<l><hi rendition="#fr">Nun bey Chriſto ſie thut ſchweben</hi></l><lb/>
+<l><hi rendition="#fr">Ach ich vnerzognes Kind</hi></l><lb/>
+<l><hi rendition="#fr">Nirgends einig Hülffe ſind<hi rendition="#i">!</hi></hi></l><lb/>
+<l><hi rendition="#fr"><hi rendition="#in">M</hi>Einer Jugend Hoffnung gar/</hi></l><lb/>
+<l><hi rendition="#fr">Die zur Tugend mich geleitet/</hi></l><lb/>
+<l><hi rendition="#fr">Liegt nun todt dort auff der Pahr/</hi></l><lb/>
+<l><hi rendition="#fr">Zum Grab iſt ſie weis bekleidet:</hi></l><lb/>
+<l><hi rendition="#fr">Nun iſt meine Hoffnung ab</hi></l><lb/>
+<l><hi rendition="#fr">Tieff verſchart ins finſtre Grab<hi rendition="#i">!</hi></hi></l><lb/>
+<l><hi rendition="#fr"><hi rendition="#in">W</hi>Olte GOtt an dieſem Tag</hi></l><lb/>
+<l><hi rendition="#fr">Daß ich koͤnte recht entdecken/</hi></l><lb/>
+<l><hi rendition="#fr">Meines Hertzens Pein vnd Klag</hi></l><lb/>
+<l><hi rendition="#fr">Thraͤnen viel wuͤrd ich erwecken/</hi></l><lb/>
+<l><hi rendition="#fr">Vmb die liebſte Mutter mein</hi></l><lb/>
+<l><hi rendition="#fr">Solten ſie vergoſſen ſeyn.</hi></l><lb/>
+<l><hi rendition="#fr"><hi rendition="#in">A</hi>Ch du dreymal groſſer GOtt</hi></l><lb/>
+<l><hi rendition="#fr">Mein Elend nim doch zu Hertzen<hi rendition="#i">!</hi></hi></l><lb/>
+<l><hi rendition="#fr">Sende Troſt vnd Huͤlff in Noht</hi></l><lb/>
+<l><hi rendition="#fr">Vergieß ja nicht meinen Schmertzen;</hi></l><lb/>
+<l><hi rendition="#fr">Nim mich an zu deinem Kind/</hi></l><lb/>
+<l><hi rendition="#fr">Weil ja alle Huͤlff zerrint.</hi></l><lb/>
+<fw type="catch" place="bottom"><hi rendition="#fr">N<supplied>u</supplied>n</hi></fw><lb/>
+<pb facs="#f0027" n="[27]"/>
+<l><hi rendition="#fr"><hi rendition="#in">N</hi>Vn du werthe Mutter mein</hi></l><lb/>
+<l><hi rendition="#fr">Haſt jetzt alles vberwunden</hi></l><lb/>
+<l><hi rendition="#fr">Haſt den theuren Edelgeſtein</hi></l><lb/>
+<l><hi rendition="#fr">Vnd die Cron der Ehrn funden/</hi></l><lb/>
+<l><hi rendition="#fr">Nun rührt dich kein einig Leid</hi></l><lb/>
+<l><hi rendition="#fr">Jn der groſſen Himmelsfrewd.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et">Zum letzten Andenckens ſchreib ſolches<lb/>
+ſeiner lieben Mutter<lb/>
+<hi rendition="#fr">Abraham Lamberg</hi></hi></salute></closer><lb/>
+<trailer><hi rendition="#c"><hi rendition="#g">ENDE.</hi></hi></trailer></div></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+</body></text>  </TEI>

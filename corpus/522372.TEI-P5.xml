@@ -1,0 +1,1396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Arcanum Christianorum Triplex</title>
+<title type="sub">Das ist: Christliche LeichPredigt/ Gehalten vber den Spruch Pauli/ Rom. 14. Vnser keiner lebt jhm selber/ etc.</title>
+<author>
+<persName ref="http://d-nb.info/gnd/120247437">
+<surname>Bakius</surname>
+<forename>Reinhard </forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">48</measure>
+<measure type="tokens">5814</measure>
+<measure type="types">2138</measure>
+<measure type="characters">40634</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:10:22Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/522372</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/522372</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/522372</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/522372</idno>
+<idno type="DTADirName">522372</idno>
+<idno type="DTAID">202980</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-202980-9</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Bakius, Reinhard: Arcanum Christianorum Triplex. Magdeburg, 1623.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Arcanum Christianorum Triplex</title>
+<title level="m" type="sub">Das ist: Christliche LeichPredigt/ Gehalten vber den Spruch Pauli/ Rom. 14. Vnser keiner lebt jhm selber/ etc.</title>
+<author>
+<persName ref="http://d-nb.info/gnd/120247437">
+<surname>Bakius</surname>
+<forename>Reinhard </forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">48 S.</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Andreas Betzel</name></publisher>
+<pubPlace>Magdeburg</pubPlace>
+<date type="publication">1623</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 S 28/4-4a / 522372</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Arcan</hi>u<hi rendition="#k">m Christianorum Triplex:</hi></hi></hi></titlePart><lb/>
+<titlePart type="sub">Das iſt:<lb/>
+Chriſtliche LeichPredigt/</titlePart><lb/>
+<titlePart type="desc">Gehalten vber den Spruch <cit><bibl>Pauli/ Rom. 14.</bibl><lb/>
+<quote><hi rendition="#fr">Vnſer keiner lebt jhm ſelber/ etc.</hi></quote><bibl/></cit><lb/>
+Bey Hochanſehnlicher Leichbeſtattung/ Deß weylandt Hoch-<lb/>
+Ehrwaͤrdigen/ Geſtrengen vnd WolEdlen Herrn:<lb/>
+<figure/>      <hi rendition="#fr"><hi rendition="#in">C</hi>uͤnen v. <hi rendition="#in">L</hi>ochow/<lb/>
+Der Primat-Ertzbiſchoͤffli-<lb/>
+chen Kirchen zu Magde-</hi><lb/>
+burg Dom-Herrn vnnd<lb/>
+<hi rendition="#aq">Vicedomini,</hi> auch Dom<lb/>
+Probſten zu Havelberg/<lb/>
+vff Reinſpergk.<lb/>
+<hi rendition="#fr">Welcher</hi> <hi rendition="#aq">A. C.</hi> 1623.<lb/>
+den 16. <hi rendition="#aq">Maij,</hi> Abends zwi-<lb/>
+ſchen 9. vnd 10. Vhren ſanfft vnd ſelig im <hi rendition="#k">Herrn</hi> entſchlaf-<lb/>
+fen iſt/ iſt aber den 26. <hi rendition="#aq">ejuſdem,</hi> im Dom zu Magdeburg/ Hochan-<lb/>
+ſehnlich vnd recht Adelich zur Erden beſtattet worden.</titlePart></docTitle><lb/>
+<byline>Zum Abdruck numehr außgeben/ Durch:<lb/>
+<docAuthor><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Reinhardum Bakium D.</hi></hi></hi></docAuthor><lb/>
+Dom Predigern.</byline><lb/>
+<epigraph><cit><quote><bibl><hi rendition="#aq">Donatus Scholæ Chriſtianæ:</hi></bibl><lb/>
+<quote><hi rendition="#aq"><hi rendition="#i">Chriſte <hi rendition="#g">AMO</hi> te, <hi rendition="#g">DOCEO, LEGO &amp; AUDIO,</hi> te <hi rendition="#g">FERO</hi> Chriſte<lb/>
+Ut ſis ergo meus, <hi rendition="#g">SUM, VOLO, FIO</hi> tu<supplied>us</supplied>.</hi></hi></quote></quote><bibl/></cit></epigraph><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docImprint>Gedruckt zu <pubPlace>Magdeburgk</pubPlace>/<lb/>
+Durch <publisher>Andream Betzeln</publisher>/ Jm Jahr <docDate>1623</docDate>.</docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="[2]"/>
+<pb facs="#f0003" n="[3]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="dedication"><p><hi rendition="#c">Denen HochEhrwuͤrdigen/ Wol-<lb/>
+Edlen/ Geſtrengen vnd Ehrnveſten/<lb/>
+Herrn<lb/>
+<hi rendition="#b"><hi rendition="#in">L</hi>udwigen von</hi><lb/>
+Lochow/<lb/>
+Domherrn vnd <hi rendition="#aq">Cellario</hi> der PrimatErtzbi-<lb/>
+ſchoͤfflichen Kirchen zu Magdeburg/ auch Dom-<lb/>
+Probſten zu Brandenburg/ vff Zeitz/ ꝛc.<lb/>
+Herrn<lb/>
+<hi rendition="#in">H</hi>einrichen v. <hi rendition="#in">L</hi>ochow/<lb/>
+Domherrn der hohen Biſchoͤffli-<lb/>
+chen Stiffts Kirchen zu Halberſtadt/ Auch<lb/>
+<hi rendition="#aq">Canonico</hi> vnd <hi rendition="#aq">Theſaurario,</hi> des <hi rendition="#aq">Collegiat</hi>Stiffts<lb/>
+S. Nicolai in Magdeburgk/ vff Seedorff etc.<lb/>
+Denn auch<lb/>
+<hi rendition="#in">G</hi>eorgen von <hi rendition="#in">L</hi>ochow/<lb/>
+Vff Nenhauſen Erbſaſſen/<lb/>
+Meinen inſonders guͤnſtigen lieben Herrn/<lb/>
+<hi rendition="#aq">reſpectivè</hi> Gefattern/ groſſen <hi rendition="#aq">Patronis</hi> vnd<lb/>
+wolgeneigten Freunden allerſeits.</hi><lb/>
+<fw type="sig" place="bottom">A ij</fw><fw type="catch" place="bottom">Got-</fw><lb/>
+<pb facs="#f0004" n="[4]"/>
+<fw place="top" type="header"><hi rendition="#b">Vorrede.</hi></fw><lb/>
+<hi rendition="#in">G</hi>Ottes Gnad/ durch <hi rendition="#k">Chr</hi>iſtum/ in des Heiligen<lb/>
+Geiſtes Krafft/ ſambt williger Erbietung mei-<lb/>
+nes andaͤchtigen Gebets/ vnnd aller moͤglichen<lb/>
+Dienſtwilfahrigkeit/ jederzeit bevorn.</p></div><lb/>
+<div type="preface" n="1"><head/> <p><hi rendition="#fr"><hi rendition="#in">H</hi>Och Ehr wuͤrdige/ WolEdle/</hi><lb/>
+Geſtrenge vnd Ehrenveſte/<lb/>
+inſonders guͤnſtige liebe Her-<lb/>
+ren vnd <hi rendition="#aq">Patroni,</hi> Es hat <hi rendition="#aq">A. C.</hi><lb/>
+1130. vnd alſo fuͤr jene fuͤnff-<lb/>
+hundert Jahr gelebet/ ein gar<lb/>
+gelahrter vnd frommer Mann/ genant: <hi rendition="#aq">Bern-<lb/>
+hardus Morlanenſis, Ordinis Cluniacenſis Mona-<lb/>
+chus,</hi> welcher ein ſehr ſchoͤnes Buͤchlein <hi rendition="#aq">de Va-<lb/>
+nitate Mundi,</hi> mit gar lieblichen <hi rendition="#aq">Verſibus leoni-<lb/>
+nis</hi> durchſpicket/ hinterlaſſen/ Vnd ſaget er in<lb/>
+ſolchem ſeinem Buͤchlein/ von dieſes Lebens<lb/>
+nichtiger Eitelkeit vnd eiteler Nichtigkeit/ vn-<lb/>
+ter andern auch alſo:</p><lb/>
+<cit><quote><quote><lg type="poem"><l><hi rendition="#aq"><hi rendition="#i">Fallitur inſipiens Vitæ præſentis amore,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Sed novit</hi> ſa piens <hi rendition="#i">quanta ſit plena dolore,</hi></hi></l><lb/>
+<l xml:id="line1a" next="#line1b"><hi rendition="#aq"><hi rendition="#i">Quicquid formoſum Mundus gerit &amp; ſpe-</hi></hi></l><lb/>
+<l xml:id="line1b" prev="#line1a"><hi rendition="#aq"><hi rendition="#et">(<hi rendition="#i">cioſum</hi></hi></hi></l><lb/>
+<l xml:id="line1c" next="#line1d"><hi rendition="#aq"><hi rendition="#i">Floris habet morem, cui dat natura ca-</hi></hi></l><lb/>
+<l xml:id="line1d" prev="#line1c"><hi rendition="#aq"><hi rendition="#et">(<hi rendition="#i">lorem,</hi></hi></hi></l><lb/>
+<l><fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#i">Mox</hi></hi></fw></l><lb/>
+<pb facs="#f0005" n="[5]"/>
+<fw type="header" place="top"><hi rendition="#b">Vorrede.</hi></fw><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Mox ut ſiccatur, totus color annihilatur,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Regia majeſtas, omnis terrena poteſtas,</hi></hi></l><lb/>
+<l xml:id="line1e" next="#line1f"><hi rendition="#aq"><hi rendition="#i">Proſperitas rerum, ſeries longinqua die-</hi></hi></l><lb/>
+<l xml:id="line1f" prev="#line1e"><hi rendition="#aq"><hi rendition="#et">(<hi rendition="#i">rum</hi></hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ibit absꝙ́ morâ, cum mortis venerit hora.</hi></hi></l><lb/>
+<l xml:id="line1g" next="#line1h"><hi rendition="#aq"><hi rendition="#i">Noſti quippe ſatis quam nil ferat utili-</hi></hi></l><lb/>
+<l xml:id="line1h" prev="#line1g"><hi rendition="#aq"><hi rendition="#et">(<hi rendition="#i">tatis,</hi></hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Prædia terrarum, poſſeßio divitiarum,</hi></hi></l><lb/>
+<l xml:id="line1i" next="#line1j"><hi rendition="#aq"><hi rendition="#i">Fabrica murorum, grandis ſtructura do-</hi></hi></l><lb/>
+<l xml:id="line1j" prev="#line1i"><hi rendition="#aq"><hi rendition="#et">(<hi rendition="#i">morum</hi></hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Gloria menſarum, cum deliciis epularum,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Inſignesꝙ́ thori, pariterꝙ́ Scyphiꝙ́ decori,</hi></hi></l><lb/>
+<l xml:id="line1k" next="#line1l"><hi rendition="#aq"><hi rendition="#i">Reſplendens Veſtis quæ moribus obſtat ho-</hi></hi></l><lb/>
+<l xml:id="line1l" prev="#line1k"><hi rendition="#aq"><hi rendition="#et">(<hi rendition="#i">neſtis,</hi></hi></hi></l><lb/>
+<l xml:id="line1m" next="#line1n"><hi rendition="#aq"><hi rendition="#i">Grex armentorum, ſpacioſus cultus agro-</hi></hi></l><lb/>
+<l xml:id="line1n" prev="#line1m"><hi rendition="#aq"><hi rendition="#et">(<hi rendition="#i">rum</hi></hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Fertile vinetum diverſâ vite repletum,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Gratia Natorum, dilectio dulcis eorum,</hi></hi></l><lb/>
+<l xml:id="line1o" next="#line1p"><hi rendition="#aq"><hi rendition="#i">Cuncta relinquentur, nec poſt hæc inve-</hi></hi></l><lb/>
+<l xml:id="line1p" prev="#line1o"><hi rendition="#aq"><hi rendition="#et">(<hi rendition="#i">nientur.</hi></hi></hi></l></lg></quote></quote><bibl/></cit><lb/>
+<fw type="sig" place="bottom">A iij</fw><fw type="catch" place="bottom">Sind</fw><lb/>
+<pb facs="#f0006" n="[6]"/>
+<fw type="header" place="top"><hi rendition="#b">Vorrede.</hi></fw><lb/>
+<p>Sind fuͤrwar ſehr ſchoͤne Verßlein/ wel-<lb/>
+che Jch dieſes Orths widerholen wollen/<lb/>
+vmb des wolſeligen Herrn Cuͤnen von Lo-<lb/>
+chow/ Ewres geliebten Vettern/ vnd mei-<lb/>
+nes hochgeehrten Herrn vnnd Gefattern<lb/>
+willen.</p><lb/>
+<p>Denn Seine HochEhrwuͤrde/ die ha-<lb/>
+ben nicht allein obgedachtes Buͤchlein<lb/>
+<hi rendition="#aq">Bernhardi Morlanenſis</hi> einsmahls Mir ge-<lb/>
+ſchencket/ welches daher treffach lieb Jch<lb/>
+habe/ Sondern der liebe wolſehlige from-<lb/>
+me Herr/ ob Er gleich in dieſem Leben/<lb/>
+durch GOttes milden Segen/ reichlich ge-<lb/>
+habt hat faſt alles das jenige/ was <hi rendition="#aq">Morla-<lb/>
+nenſis</hi> in angezogenen Verßlein nacheinan-<lb/>
+der erzehlet/ So iſt dennoch vnſer ſehliger<lb/>
+Herr <hi rendition="#aq"><hi rendition="#g">CUNO</hi></hi> auch geweſen ein ſolcher <hi rendition="#aq">Sa-<lb/>
+piens,</hi> welcher ſich nicht hat bethoͤrẽ laſſen/<lb/>
+<hi rendition="#aq">mundi hujus amorem,</hi> Er hat wol geſehen<lb/>
+vnd erkant <hi rendition="#aq">fallacem hujus ſeculi florem,</hi> Er<lb/>
+hat gegen dem Himliſchen vnnd Ewigen<lb/>
+Gut nichts geachtet/ weder <hi rendition="#aq">prædia terrarum</hi><lb/>
+noch <hi rendition="#aq">poſſeſſiones divitiarum,</hi> in letzter ſeiner<lb/>
+Schwachheit/ was achtet ſehliger Herr<lb/>
+<hi rendition="#aq"><hi rendition="#g">CUNO</hi> murorum fabricam?</hi> was achtet Er<lb/>
+<hi rendition="#aq">domorum ſtructuram?</hi> da galt bey jm nichts<lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">gloria</hi></fw><lb/>
+<pb facs="#f0007" n="[7]"/>
+<fw place="top" type="header"><hi rendition="#b">Vorrede.</hi></fw><lb/>
+<hi rendition="#aq">gloria menſarum,</hi> vielweniger achtet Er <hi rendition="#aq">de-<lb/>
+licias epularum,</hi> Es begab ſich je der liebe<lb/>
+fromme Herr der jrrdiſchen Ding gaͤntz-<lb/>
+lich/ Er trachtet nach den Himliſchen Guͤ-<lb/>
+tern ſehnlich/ ja es war der grundtfromme<lb/>
+Menſch zum ſeligen Abſchiedt dermaſſen<lb/>
+begierig vnd wilfaͤhrig/ daß Jch derglei-<lb/>
+chen Patienten niemahln geſehen.</p><lb/>
+<p>Welches heiligen vnd ſeligen Abſchie-<lb/>
+des denn/ gleich wie in gehaltener Leich-<lb/>
+Predigt mit mehren erwehnet worden/ al-<lb/>
+ſo iſt dieſelbe numehr von Mir/ mit eygenen<lb/>
+meinen Haͤnden/ von Wort zu Wort eben<lb/>
+alſo <hi rendition="#aq">mundiret,</hi> wie ſie gehalten worden/ vnd<lb/>
+weiß Jch nicht anders/ als daß ſolche Pre-<lb/>
+digt E. E. HochEhrwuͤrden vnd E. Ge-<lb/>
+ſtrengkeit gebuͤhre vnd zuſtehe. Wil dem-<lb/>
+nach dieſen Sermon Euch meinen Groß-<lb/>
+guͤnſtigen lieben Herrn vnd <hi rendition="#aq">Patronis,</hi> hie-<lb/>
+mit demuͤtigſt <hi rendition="#aq">offeriret</hi> vnd fleiſſigſt gebe-<lb/>
+ten haben/ Sie damit guͤnſtig vorwillen<lb/>
+nehmen wolten/ wollen auch Mir vnd den<lb/>
+meinigen in beſtaͤndiger Gunſt vñ Freundt-<lb/>
+ſchafft wol gewogen ſeyn vnd bleiben/ das<lb/>
+verſchulde Jch alle mahl ſo willig als bil-<lb/>
+<fw place="bottom" type="catch">lig/</fw><lb/>
+<pb facs="#f0008" n="[8]"/>
+<fw type="header" place="top"><hi rendition="#b">Vorrede.</hi></fw><lb/>
+lig/ Vnd wil hiemit E. E. HochEhrw.<lb/>
+vnd E. Geſtr. Gottes Vaͤterlichem Obhalt<lb/>
+trewlichſt empfolen haben. Magdeburgk<lb/>
+11. <hi rendition="#aq">Julij, Anno</hi> 1623.</p><lb/>
+<closer><salute><hi rendition="#c">E. E. HochEhrw. vnd E. Geſtr.<lb/>
+Allezeit Williger</hi><lb/>
+<hi rendition="#et"><hi rendition="#aq">Reinhardus Bakius D.</hi><lb/>
+DomPrediger.</hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<pb facs="#f0009" n="[9]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsSermon" n="1"><head/>  <salute><hi rendition="#c"><supplied>:חקׄבח</supplied></hi></salute>  <div type="fsBibleVerse" n="2"><head/>  <p><hi rendition="#c"><hi rendition="#fr">Den Text zu vorſtehen-</hi><lb/>
+der Adelichen Leichpredigt/ be-<lb/>
+ſchreibet der heilige Apoſtel Paulus/ in ſei-<lb/>
+ner <hi rendition="#in">E</hi>piſtel an die Roͤmer am 14. Cap. mit<lb/>
+nachfolgenden Worten:</hi></p><lb/>
+<cit><quote><hi rendition="#fr"><hi rendition="#b"><hi rendition="#in">V</hi>Nſer Keiner</hi><lb/>
+lebt jhm ſelber/ vñ<lb/>
+keiner ſtirbt jhm ſelber/<lb/>
+leben wir/ ſo leben wir<lb/>
+dem Herꝛn/ ſterben wir/<lb/>
+ſo ſterben wir dem Herꝛn/<lb/>
+Darumb wir leben oder</hi><lb/>
+<fw place="bottom" type="sig">B</fw><fw place="bottom" type="catch">ſter-</fw><lb/>
+<pb facs="#f0010" n="[10]"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche LeichPredigt/</hi></fw><lb/>
+<hi rendition="#fr">ſterben/ ſo ſind wir des<lb/>
+HErꝛn/ Denn dazu iſt<lb/>
+Chriſtus auch geſtorben<lb/>
+vnd aufferſtanden/ vnd<lb/>
+wider lebendig worden/<lb/>
+daß er vber Todte vnnd<lb/>
+Lebendige ein HERR<lb/>
+ſey.</hi></quote><bibl/></cit></div><lb/>
+<div type="fsExordium" n="2"><head><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Exordium.</hi></hi></hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">J</hi>M Propheten Jeremia</hi><lb/>
+am 48. Capitel (Geliebte/ etc.)<lb/>
+fuͤhret der groſſe vnnd lebendige<lb/>
+GOtt vnter andern auch ſolche<lb/>
+Wort/ daß er ſpricht von den Kindern Mo-<lb/>
+ab: <hi rendition="#fr">Lieber habt doch ein Mitley-</hi><lb/>
+<fw place="bottom" type="catch">den</fw><lb/>
+<pb facs="#f0011" n="[11]"/>
+<fw type="header" place="top"><hi rendition="#b">Auß der Epiſtel Pauli/ Rom. 14.</hi></fw><lb/>
+<hi rendition="#fr">den mit jhnen/ die jhr vmb ſie her<lb/>
+wohnet/ vnd die jhr jren Namen<lb/>
+kennet/ ſprecht doch:</hi> <hi rendition="#aq">Quomodo<lb/>
+fracta eſt virga fortis &amp; baculus glo-<lb/>
+rioſus<hi rendition="#i">;</hi></hi> <hi rendition="#fr">Wie iſt die ſchoͤne Ruthe<lb/>
+vnd der herrliche Stab ſo zerbro-<lb/>
+chen?</hi></p><lb/>
+<p>Welche ſchoͤne vnd wolbekante Wort<lb/>
+Gottes des HERRN denn/ G. F. wenn<lb/>
+ſie recht angeſehen vnd wol betrachet wer-<lb/>
+den/ ſo befindet ſichs daß es ſeyn: <hi rendition="#aq">Verba<lb/>
+de tempore,</hi> ſolche Wort/ welche auff ge-<lb/>
+genwertige/ Adeliche vnd Hochanſehnliche<lb/>
+Leichbeſtattung gar artig ſich reimen vnd<lb/>
+ſchicken. Dann der weilandt HochEhr-<lb/>
+wuͤrdige/ Geſtreng vnd WolEdle <hi rendition="#fr">Herr</hi><note place="right">Der von<lb/>
+Lochow<lb/>
+Sehliger:<lb/>
+<hi rendition="#aq"><hi rendition="#i">Virga for<supplied>-</supplied><lb/>
+<gap reason="illegible" unit="chars" quantity="1"/>i<gap reason="illegible" unit="chars" quantity="1"/> &amp; bacu-<lb/>
+lus glorie-<lb/>
+ſus.</hi></hi></note><lb/>
+<hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Cuno</hi></hi></hi> <hi rendition="#fr">von Lochow/</hi> dieſer vnſer<lb/>
+Primat Ertzbiſchoͤffliche Kirchen zu Mag-<lb/>
+deburg Dom Herr vnnd <hi rendition="#aq">ViceDominus,</hi><lb/>
+auch Domprobſt zu Havelberg/ auff Rein-<lb/>
+ſperg Erbſeſſen/ Mein inſonders guͤnſti-<lb/>
+ger Herr/ groſſer Patron/ lieber Gefatter/<lb/>
+<fw type="sig" place="bottom">B ij</fw><fw type="catch" place="bottom">vnd</fw><lb/>
+<pb facs="#f0012" n="[12]"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche LeichPredigt/</hi></fw><lb/>
+vnd ſehr werther Hochgeehrter Freundt/<lb/>
+was war er anders/ als eben <hi rendition="#aq">Virga fortis<lb/>
+&amp; Baculus glorioſus,</hi> <hi rendition="#fr">ein ſehr ſchoͤner<lb/>
+vnd herrlicher Stab dieſer vnſer<lb/>
+Dom Kirchen?</hi> Herrlich war dieſer<lb/>
+Stab/ wegen ſeines Vhralten Adelichen<lb/>
+Geſchlechts: Herrlich war dieſer Stab/<lb/>
+wegen Geiſtlicher Dignitet/ Hochheit vnd<lb/>
+Eminentz: Herrlich war dieſer Stab/ we-<lb/>
+gen ſonderbahrer <hi rendition="#aq">Pietet</hi> vnd Froͤmmigkeit:<lb/>
+Herrlich war dieſer Stab/ wegen Kunſt/<lb/>
+Erfahrung/ <hi rendition="#aq">Dexteritet</hi> vnnd Geſchicklig-<lb/>
+keit: Herrlich war dieſer Stab/ wegen<lb/>
+freundtlicher vnnd friedliebender Saufft-<lb/>
+muth: Herrlich war dieſer Stab/ wegen<lb/>
+<hi rendition="#aq">Liberalitet</hi> vnd freygebiger Mildigkeit:<lb/>
+Ja herrlich war dieſer Stab/ wegen der<lb/>
+ſchoͤnen Bluͤte ſeines Alters/ welches noch<lb/>
+nicht allerdings auff 40. Jahr ſich erſtre-<lb/>
+ckete: Vnd in Summa/ vnter den zwoͤlff<lb/>
+Staͤben/ welche Moſi von den Kindern<lb/>
+Jſrael ſind gereichet worden/ gleich wie des<lb/>
+frommen <hi rendition="#fr">Aarons Stab/</hi> gruͤnete/ bluͤ-<lb/>
+<fw place="bottom" type="catch">hete</fw><lb/>
+<pb facs="#f0013" n="[13]"/>
+<fw type="header" place="top"><hi rendition="#b">Auß der Epiſtel Pauli/ Rom. 14.</hi></fw><lb/>
+hete vnd Mandeln truge/ <hi rendition="#aq">Num.</hi> 17. Ebe-<lb/>
+ner maſſen/ vnter den zwoͤlff Herrn <hi rendition="#aq">Capi-<lb/>
+tularen,</hi> des Loͤblichen Primat- vnd Ertz-<lb/>
+ſtifftes Magdeburgk/ meinen allerſeits<lb/>
+Gnaͤdigen vnd großguͤnſtigen lieben Her-<lb/>
+ren/ wie lieblich hat bißher floriret/ gegruͤ-<lb/>
+net vnd gebluͤhet/ ſeliger <hi rendition="#fr">Herr</hi> <hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Cuno</hi></hi></hi><lb/>
+<hi rendition="#fr">von Lochow/</hi> deſſen verbliechene Leich<lb/>
+wir vor vns haben! Aber/ Ach leyder/<lb/>
+<hi rendition="#aq">Quomodo fracta eſt Virga hæc fortis<lb/>
+&amp; Baculus hic glorioſus?</hi> Dieſe ſchoͤne<lb/>
+Ruthe vnd <hi rendition="#fr">dieſer herrliche Stab/<lb/>
+wie iſt er ſo baldt zerbrochen?</hi> Die-<lb/>
+ſer junge Mann/ dieſer fromme vnd Gott-<lb/>
+ſelige Mann/ dieſer geſchickte vnd erfahrne<lb/>
+wolbegabte Mann/ ja dieſer freundliche/<lb/>
+friedfertige vnd gutthaͤtige tapffere Mann/<lb/>
+wie iſt er ſo ſchleunig von vns abgefordert<lb/>
+worden? <hi rendition="#fr">Lieber die jhr vmb vns her<lb/>
+wohnet/ habt doch ein Mitleyden<lb/>
+mit vns/ vnd die jhr vnſern Na-<lb/>
+men kennet/ ſprecht doch:</hi> <hi rendition="#aq">Virga</hi><lb/>
+<fw type="sig" place="bottom"><hi rendition="#aq">B</hi> 3</fw><fw type="catch" place="bottom"><hi rendition="#aq">fortis</hi></fw><lb/>
+<pb facs="#f0014" n="[14]"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche LeichPredigt/</hi></fw><lb/>
+<hi rendition="#aq">fortis &amp; baculus glorioſus, quomodo<lb/>
+fractus eſt<hi rendition="#i">;</hi></hi> <hi rendition="#fr">Die ſchoͤne Ruthe/ vnd<lb/>
+der herrliche Stab/ wie iſt er ſo<lb/>
+baldt zerbrochen?</hi> Antwort: <hi rendition="#aq">A Deo<lb/>
+qui diligitur, maturiùs is moritur,</hi> wen<lb/>
+<hi rendition="#fr">GOtt lieb hat/ der ſtirbet baldt/<lb/>
+vnd wird in dieſer Welt nicht alt:</hi><lb/>
+Der Gerechte/ weil er Gott gefellet/ vnd iſt<lb/>
+jhm lieb/ ſo wird er zeitig auß dieſem Leben<lb/>
+weggenommen/ <hi rendition="#aq">Sap.</hi> 4. Die Frommen<lb/>
+werden fuͤr dem Vngluͤck weggerafft/ vnd<lb/>
+welche richtig fuͤr ſich gewandelt haben/ die<lb/>
+kommen zum Friede/ vnd ruhen in jhren<lb/>
+Kammern/ Eſa. 56. Ja in dieſen boͤſen/ ge-<lb/>
+fehrlichen vnd beſchwerlichen Zeiten/ wol<lb/>
+dem Menſchen/ welchem geſagt wird vom<lb/>
+Allerhoͤchſten: Mein Volck/ gehe hin in ei-<lb/>
+ne Kammer/ vnd ſchleuß die Thuͤr nach dir<lb/>
+zu/ verbirg dich ein klein Augenblick/ biß<lb/>
+daß mein Zorn fuͤruͤber gehe/ Eſa. 26.</p><lb/>
+<p>Derwegen/ dieſe ſchoͤne Ruthe vnd<lb/>
+<hi rendition="#fr">dieſer herrliche Stab/ der von</hi><lb/>
+<fw type="catch" place="bottom">Lochow</fw><lb/>
+<pb facs="#f0015" n="[15]"/>
+<fw type="header" place="top"><hi rendition="#b">Auß der Epiſtel Pauli/ Rom. 14.</hi></fw><lb/>
+<hi rendition="#fr">Lochow</hi> ſeliger/ ob er gleich fruͤezeitig zer-<lb/>
+brochen vnd von vns weggenommen iſt/ ſo<lb/>
+muß es dennoch numehr heiſſen: <hi rendition="#aq">Sit mo-<lb/>
+dus in rebus, jam mœſta quieſce quere-<lb/>
+la<hi rendition="#i">!</hi></hi> <hi rendition="#fr">Lieber die jhr vmb vns woh-<lb/>
+net/ vnd die jhr vnſern Nahmen<lb/>
+kennet/</hi> wuͤnſchet doch nebenſt vns dem<lb/>
+ſelig Verſtorbenen eine ſanffte Ruhe/ vnd<lb/>
+froͤliche Aufferſtehung/ ja ſaget ſambt vns:<lb/>
+<hi rendition="#aq">Dominus dedit, Dominus abſtulit,<lb/>
+ſicut Domino placuit, ita factum eſt,<lb/>
+ſit nomen Domini benedictum,</hi> <hi rendition="#fr">Der<lb/>
+<hi rendition="#g">HERR</hi> hatte vns dieſen herrlichen<lb/>
+Stab</hi> gegeben/ der HERR hat vns jhn<lb/>
+genommen/ wie es dem <hi rendition="#g">HERRN</hi> gefal-<lb/>
+len<hi rendition="#i">!</hi> alſo iſts geſchehen/ des HErrn Nahm<lb/>
+ſey gelobet vnd gebenedeyet.</p><lb/>
+<p>Wenn nun demſelben allen ſo/ G. F.<lb/>
+vnd aber der ſehlige Herr von Lochow den<lb/>
+jtztverleſenen Apoſtoliſchen Spruch zum<lb/>
+Text ſeiner vorſtehenden Leichpredigt ſelbſt/<lb/>
+beydes Schrifft- vnd Muͤndlich/ beramet<lb/>
+<fw type="catch" place="bottom">hat/</fw><lb/>
+<pb facs="#f0016" n="[16]"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche LeichPredigt/</hi></fw><lb/>
+hat/ als wollen wir auch denſelben/ ohne<lb/>
+weitern Eingang zur Hand nehmen/ vnnd<lb/>
+kuͤrtzlich drauß betrachten: <hi rendition="#aq">Arcanum<lb/>
+Chriſtianorum triplex,</hi> <hi rendition="#fr">Ein driefa-<lb/>
+ches Geheimniß oder Kunſtſtuͤck/</hi><lb/>
+welches zwar aller Welt verborgen iſt/<lb/>
+frommen Chriſten aber denen iſts in Got-<lb/>
+tes Wort entdecket vnd offenbahret/ ſambt<lb/>
+dem/ ſo hiebey allerſeits zu mercken vnd wol<lb/>
+in acht zu nehmen/ das wird vor dieſes<lb/>
+mahl vnſer Predigt ſeyn: <hi rendition="#fr">CHRiſtus<lb/>
+Jeſus ein HErr vber die Lebendi-<lb/>
+gen vnd di<gap reason="lost" unit="chars" quantity="1"/> Todten/</hi> verleyhe ſeines<lb/>
+Geiſtes Krafft/ damit es ja ohne Nutz vnd<lb/>
+Frucht vnter vns nicht abgehen moͤge/<lb/>
+Amen.</p></div><lb/>
+<div type="fsMainPart" n="2"><head/>  <div n="3"><head><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Arcanum I.</hi></hi></hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">W</hi>As nun dieſen vnſern jtzt-</hi><lb/>
+verleſenen Apoſtoliſchen Text an-<lb/>
+langet vnd betrifft/ G. F. in demſel-<lb/>
+ben findet ſich Anfangs/ ein ſchoͤnes Kunſt-<lb/>
+ſtuͤcklein/ welches wil: <hi rendition="#aq">Quod homo non</hi><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">ſibi</hi></fw><lb/>
+<pb facs="#f0017" n="[17]"/>
+<fw type="header" place="top"><hi rendition="#b">Auß der Epiſtel Pauli/ Rom. 14.</hi></fw><lb/>
+<hi rendition="#aq">ſibi ſed Deo vivere debeat;</hi> Das ein<lb/>
+Menſch leben ſolle/ nicht jhm ſelbſten/ ſon-<lb/>
+dern Gott dem HErrn/ Jnmaſſen denn S.<lb/>
+Paulus ſaget: <hi rendition="#fr">Vnſer keiner lebet jm<lb/>
+ſelber/ ſondern leben wir/ ſo leben<lb/>
+wir dem HErrn.</hi> Freylich iſt dieſes ein<lb/>
+ſolches <hi rendition="#aq">Myſterium,</hi> ein ſolches Geheim-<lb/>
+nuͤß/ ja ein ſolches Kunſtſtuͤcklein/ welches<lb/>
+ſehr vielen Menſchen verborgen vnd aller-<lb/>
+dings vnbekant iſt:<note place="right"><hi rendition="#aq">Deo non<lb/>
+vivunt</hi></note></p><lb/>
+<p>Denn <hi rendition="#fr">ein Epicurer</hi> der ſolte zwar<lb/>
+Gott dem HErrn leben/ aber der lebet jhm<note place="right">1.<lb/>
+<hi rendition="#aq">Epicuræi.</hi></note><lb/>
+ſelber/ ſintemahl Epicuriſche Hertzen jhr<lb/>
+Leben zuſchreiben/ nicht Gott dem HErrn/<lb/>
+ſondern entweder dem blinden <hi rendition="#aq">Fato,</hi> oder<lb/>
+je jhren Eltern/ oder doch bloſſen Natuͤrli-<lb/>
+chen Vrſachen/ deßwegen ſie ſagen: <hi rendition="#aq">Caſu<lb/>
+nati ſumus,</hi> wir ſind <hi rendition="#fr">ohn Gefehr</hi> gebo-<lb/>
+ren/ vnd fahren <hi rendition="#fr">ohn Gefehr</hi> wieder da-<lb/>
+hin/ als weren wir nie geweſen/ <hi rendition="#aq">Sap.</hi> 2.</p><lb/>
+<p>Deßgleichen <hi rendition="#fr">Wolluſtige</hi> vnd Sar-<note place="right">2.<lb/>
+<hi rendition="#aq">Voluptuoſi</hi></note><lb/>
+danapaliſche Menſchen die ſolten zwar<lb/>
+<fw type="sig" place="bottom">C</fw><fw type="catch" place="bottom">Gott</fw><lb/>
+<pb facs="#f0018" n="[18]"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche LeichPredigt/</hi></fw><lb/>
+Gott dem HErrn leben/ aber ſie leben jhnen<lb/>
+ſelbſten/ vnd vermeinet ein <hi rendition="#aq">Voluptuoſus,</hi><lb/>
+diß zeitliche Leben ſey nur deßwegen jhm zu-<lb/>
+getheilet/ daß er freſſen/ ſauffen/ raſen/ qua-<lb/>
+ſen/ vnd ſeinem Hertzen eine Frewden Meye<lb/>
+nach der andern auffſtecken ſolle/ Darumb<lb/>
+wann der reiche Mann recht leben wolte/<lb/>
+denn lebte er alle Tag herrlich vnd in Frew-<lb/>
+den/ Luc. 16. Deßgleichen jener gute Schlu-<lb/>
+cker der lieſſe je auff ſein Grab ſchreiben die-<lb/>
+ſe Wort: <hi rendition="#aq">Vixit dum vixit benè, &amp; qui i<lb/>
+ta vivunt, non multum juvant hære-<lb/>
+des,</hi> <hi rendition="#fr">Als dieſer lebte/ da lebte er<lb/>
+wol/ ſeines Guts ſich Niemandt<lb/>
+frewen ſol:</hi> Ja noch heutiges Tages/<lb/>
+wie viel ſind derer Leute/ welche nicht leben<lb/>
+koͤnnen/ wo ſie nicht ſtets/ wie die Ente/ im<lb/>
+Naſſen leben/ Das heiſt aber nicht dem<lb/>
+HERRN/ ſondern jhm ſelbſten leben/ ja<lb/>
+das heiſt in Wolluͤſten lebendig todt ſeyn/<lb/>
+wie Paulus redet/ <hi rendition="#i">1.</hi> Tim. <hi rendition="#i">5.</hi></p><lb/>
+<p><note place="left"><hi rendition="#i">3.</hi><lb/>
+<hi rendition="#aq">Avari.</hi></note>Deßgleichen <hi rendition="#fr">geitzige</hi> Leute die ſolten<lb/>
+zwar dem <hi rendition="#g">HERRN</hi> leben/ ſie leben aber<lb/>
+<fw place="bottom" type="catch">auch</fw><lb/>
+<pb facs="#f0019" n="[19]"/>
+<fw type="header" place="top"><hi rendition="#b">Auß der Epiſtel Pauli/ Rom. 14.</hi></fw><lb/>
+auch jhnen ſelbſten<hi rendition="#i">!</hi> ſie ſcharren nur auff jh-<lb/>
+ren Kuchen/ ja ſie dienen/ durch jhr gantzes<lb/>
+Leben/ weder Gott noch dem Nechſten/ vnd<lb/>
+ſind daher entſtanden die boͤſen Sprich-<lb/>
+woͤrter/ daß man ſaget: <hi rendition="#aq">Proximus ego-<lb/>
+met mihi,</hi> <hi rendition="#fr">Jch bin mir ſelbſt der<lb/>
+Nechſte/</hi> daß man ſaget: <hi rendition="#aq">Tunica pal-<lb/>
+lio propior,</hi> <hi rendition="#fr">Das Hembd iſt mir<lb/>
+naͤher als der Rock/</hi> daß man ſaget:<lb/>
+<hi rendition="#aq">Dilige ſic alios, ut ſis tibi fidus amicus,</hi><lb/>
+<hi rendition="#fr">Ein jeglicher fuͤr ſich ſelbſt/ vnnd<lb/>
+Gott fuͤr vns alle/</hi> Das heiſt noch-<lb/>
+mahln nicht dem <hi rendition="#g">HERRN/</hi> ſondern jhm<lb/>
+ſelbſt gelebet.</p><lb/>
+<p>Ja alle Gottloſe boͤſe Menſchen/ die ſol-<note place="right">4.<lb/>
+<hi rendition="#aq">Omne-<lb/>
+impij.</hi></note><lb/>
+ten zwar dem HERRN leben/ ſie leben a-<lb/>
+ber jhnen ſelbſten/ das iſt/ verruchte Leute<lb/>
+die dancken GOtt dem HERRN nicht fuͤr<lb/>
+diß zeitliche Leben/ ſie bitten Gott nicht vmb<lb/>
+ein langes Leben/ ſie ſprechen nicht in jhrem<lb/>
+Vornehmen: Ob Gott wil/ vnnd wofern<lb/>
+wir leben/ Jac. 4. ſie ſtellen jhr Leben nicht<lb/>
+<fw type="sig" place="bottom">C ij</fw><fw type="catch" place="bottom">an</fw><lb/>
+<pb facs="#f0020" n="[20]"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche LeichPredigt/</hi></fw><lb/>
+an nach Gottes Willen vnd Geboten/ ja<lb/>
+gottloſe Leute die verkuͤrtzen jhnen gemein-<lb/>
+lich ſelbſt das Leben/ Vnd in ſumma: <hi rendition="#aq">Do-<lb/>
+mino vivere,</hi> <hi rendition="#fr">dem <hi rendition="#g">HERRN</hi> leben/</hi><lb/>
+das iſt ein ſolches <hi rendition="#aq">Myſterium,</hi> ein ſolches<lb/>
+<hi rendition="#aq">arcanum,</hi> ja ein ſolche<supplied>ſ</supplied> Kunſtſtuͤck vnd Ge-<lb/>
+heimnuͤß/ welches gar nicht verſtehen/ we-<lb/>
+der die Epicurer/ noch die Wolluͤſtige/ noch<lb/>
+die Geitzige/ noch alle Gottloſe Menſchen:</p><lb/>
+<p><note place="left"><hi rendition="#aq">Domino<lb/>
+vivunt o-<lb/>
+mnes pij.</hi></note>Jm Gegentheil aber/ fromme/ Gottſe-<lb/>
+lige vnd rechtgleubige Chriſten/ die wiſſen<lb/>
+einig vnd allein/ wie ſie leben ſollen/ <hi rendition="#aq">non ſi-<lb/>
+bi, ſed Domino,</hi> nicht jhnen ſelbſten<hi rendition="#i">!</hi> ſon-<lb/>
+dern dem HERRN. Fromme Hertzen die<lb/>
+ſchreiben jhr Leben zu/ nicht dem blinden<lb/>
+<hi rendition="#aq">Fato,</hi> auch nicht nur jhren Eltern/ vnd an-<lb/>
+dern Natuͤrlichen Vrſachen/ ſondern viel-<lb/>
+mehr dem groſſen vnd lebendigen GOtte/<lb/>
+welcher iſt vnſer langes Leben vnnd hohes<lb/>
+Alter/ <hi rendition="#aq">Deut.</hi> 30. Er hat vns Leben vnd<lb/>
+Wolthat geben/ Job. 10. Er hat vns ge-<lb/>
+macht/ vnd nicht wir ſelbſt/ Pſal. 100.</p><lb/>
+<cit><quote><lg xml:id="poem1a" type="poem" next="#poem1b"><l>Den Leib/ die Seel/ das Leben/</l><lb/>
+<l>Hat Er vns allen geben/</l></lg><lb/>
+<fw place="bottom" type="catch">Jn</fw><lb/>
+<pb facs="#f0021" n="[21]"/>
+<fw place="top" type="header"><hi rendition="#b">Auß der Epiſtel Pault/ Rom. 14.</hi></fw><lb/>
+<lg xml:id="poem1b" prev="#poem1a" type="poem"><l>Jn jhm leben/ ſchweben vnnd ſind wir/</l></lg><lb/>
+<bibl><hi rendition="#aq">Actor.</hi> 17.</bibl></quote></cit><lb/>
+<p>Nebenſt dem/ ein frommer Chriſt/ der<lb/>
+ſtellet ſein Leben an/ GOtt zu Ehren vnd<lb/>
+dem Nechſten zum beſten/ jmmerdar ſeuff-<lb/>
+tzend:</p><lb/>
+<lg type="poem"><l>Es iſt ja HErr dein Geſchenck vnd Gab/</l><lb/>
+<l>Mein Leib/ Seel vnd alles was ich hab/</l><lb/>
+<l>Jn dieſem armen Leben/</l><lb/>
+<l>Das ichs gebrauch zu Lobe dein/</l><lb/>
+<l>Zu Nutz vnd Dienſt dem Nechſten mein/</l><lb/>
+<l>Wolleſtu mir Gnade geben/ etc.</l></lg><lb/>
+<p>Ja/ ein frommer Chriſt der befihlet je taͤg-<lb/>
+lich ſein Leib vnd Leben Gott dem HErrn/<lb/>
+jmmerdar ſprechend:</p><lb/>
+<lg type="poem"><l>Ob mich mein Suͤnde anficht/</l><lb/>
+<l>Wil Jch verzagen nicht/</l><lb/>
+<l>Auff Chriſtum wil Jch bawen/</l><lb/>
+<l>Vnd jhm allein vertrawen/</l><lb/>
+<l>Jhm hab Jch mich ergeben/</l><lb/>
+<l>Jm Todt vnd auch im Leben.</l></lg><lb/>
+<p>Das alles heiſt/ <hi rendition="#aq">Vivere non ſibi, ſed Do-<lb/>
+mino,</hi> nicht jhm ſelbſt/ ſondern dem HErrn<lb/>
+leben. Vnd iſt demnach dieſes das erſte <hi rendition="#aq">Ar-<lb/>
+canum,</hi> Geheimnuͤß oder Kunſtſtuͤcklein/<lb/>
+<fw place="bottom" type="sig">C iij</fw><fw place="bottom" type="catch">wel-</fw><lb/>
+<pb facs="#f0022" n="[22]"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche LeichPredigt/</hi></fw><lb/>
+welches ſich findet in vnſerm Apoſtoliſchem<lb/>
+Spruch:</p><lb/>
+<cit><quote><quote><lg type="poem"><l xml:id="line1q" next="#line1r"><hi rendition="#aq"><hi rendition="#i">Vive diu, ſed vive Deo, nam vivere</hi></hi></l><lb/>
+<l xml:id="line1r" prev="#line1q"><hi rendition="#aq"><hi rendition="#et">[<hi rendition="#i">Mundo,</hi></hi></hi></l><lb/>
+<l xml:id="line1s" next="#line1t"><hi rendition="#aq"><hi rendition="#i">Mortis opus, vera est, vivere, vita,</hi></hi></l><lb/>
+<l xml:id="line1t" prev="#line1s"><hi rendition="#aq"><hi rendition="#et">[<hi rendition="#i">Deo</hi>:</hi></hi></l></lg></quote></quote><bibl/></cit><lb/>
+<cit><quote><quote><lg type="poem"><l>Wer leben wil/ der lebe GOtt/</l><lb/>
+<l>Wo nicht/ ſo iſt er lebendig todt.</l></lg></quote></quote><bibl/></cit></div><lb/>
+<div type="fsPersonalia" n="3"><head><hi rendition="#aq">Applicatio Arcani I. ad<lb/>
+beatè defunctum.</hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">J</hi>Nmaſſen denn diß erſte</hi> <hi rendition="#aq">Ar-<lb/>
+canum Chriſtianum</hi> vnd Kunſt-<lb/>
+ſtuͤcklein gar wohl verſtanden vnd fleiſsig<lb/>
+<hi rendition="#aq">practiciret</hi> hat/ der ſelige Herr <hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Cuno</hi></hi></hi><lb/>
+<hi rendition="#fr">von Lochow/</hi> deſſen verblichene Leich<lb/>
+wir fuͤr vns ſehen. Es hat derſelbe ſein Le-<lb/>
+ben zugeſchrieben/ nicht dem blinden Gluͤck/<lb/>
+auch nicht nur bloſſen vnd Natuͤrlichen Vr-<lb/>
+ſachen/ ſondern vielmehr dem Allerhoͤch-<lb/>
+ſten Gott/ welcher auch jhm Leben/ Odem/<lb/>
+vnd Wolthat gegeben hat/ durch Adeliche<lb/>
+<fw type="catch" place="bottom">gar</fw><lb/>
+<pb facs="#f0023" n="[23]"/>
+<fw place="top" type="header"><hi rendition="#b">Auß der Epiſtel Pauli/ Rom. 14.</hi></fw><lb/>
+gar vornehme Eltern vnnd Anherrn/ mit<lb/>
+welchen ſichs alſo verhelt:</p><lb/>
+<p>Der <hi rendition="#fr">ElterVater</hi> vnſers ſelig Ver-<note place="right">Elter-<lb/>
+Vater.</note><lb/>
+ſtorbenen iſt geweſen/ der Edle/ Geſtreng<lb/>
+vñ Ehrnveſt auch <hi rendition="#fr">Cuno von Lochow/</hi><lb/>
+vff Nenhauſen Erbſeſſen/ deme vermaͤhl<supplied>et</supplied><lb/>
+geweſen/ die Edle vnd VielEhrentugentrei-<lb/>
+che Fraw/ <hi rendition="#fr">Anna/</hi> Geborne <hi rendition="#fr">von der<lb/>
+Hage/ Friederich von der Hage/<lb/>
+vff hohen Nawen/</hi> Eheleibliche Toch-<lb/>
+ter.</p><lb/>
+<p>Der <hi rendition="#fr">GroßVater</hi> vnſers ſelig Ver-<note place="right">Groß-<lb/>
+Vater.</note><lb/>
+ſtorbenen war <hi rendition="#fr">Heinrich von Lochow/</hi><lb/>
+vff Nenhauſen/ dem verehliget worden/<lb/>
+Fraw <hi rendition="#fr">Anna/</hi> Geborne <hi rendition="#fr">von Broͤſi-<lb/>
+cke/ Thomas von Broͤſicken/ vff<lb/>
+Koͤtzuͤer</hi> Eheleibliche Tochter.</p><lb/>
+<p>Der <hi rendition="#fr">Vater</hi> aber vnſers ſeligen Herrn<note place="right">Vater vnd<lb/>
+Mutter.</note><lb/>
+Cuͤnen iſt geweſen/ der Edle/ Geſtreng vnd<lb/>
+Ehrnveſt: <hi rendition="#fr">Caſpar von Lochow/</hi> vff<lb/>
+<hi rendition="#fr">Nenhauſen/</hi> dem vertrawet worden/<lb/>
+<fw place="bottom" type="catch">die</fw><lb/>
+<pb facs="#f0024" n="[24]"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche LeichPredigt/</hi></fw><lb/>
+die Edle vnd VielEhrentugentreiche Fraw<lb/>
+<hi rendition="#fr">Anna/</hi> Geborne <hi rendition="#fr">von der Hag/ Arn-<lb/>
+ten von der Haag/ vff hohen Na-</hi><lb/>
+wen/ Eheleibliche Tochter: Vnd haben die-<lb/>
+ſe Adeliche Eheleut/ in wehrendem <hi rendition="#aq">Matri-<lb/>
+monio,</hi> durch Gottes Segen mit einander<lb/>
+erzeuget vier Kinder/ zwene Soͤhne nemb-<lb/>
+lich/ vnd zwo Toͤchter.</p><lb/>
+<p><note place="left"><hi rendition="#aq">Soror De-<lb/>
+functi</hi> 1.</note>Die erſte Tochter/ domahln Jungfraw<lb/>
+<hi rendition="#aq"><hi rendition="#g">ANNA,</hi></hi> Geborne von Lochow/ iſt Ehelich<lb/>
+beygelegt worden/ dem Edlen/ Geſtrengen<lb/>
+vnnd Ehrnveſten/ <hi rendition="#fr">Friederichen von<lb/>
+Knoͤblauch/ auff Peſſten vnd ho-<lb/>
+hen Fergeſer</hi> Erbſeſſen/ wohnen beyder-<lb/>
+ſeits dieſer Adelichen Leichbeſtattung jhres<lb/>
+lieben ſeligen Brudern vnnd Schwagern<lb/>
+trawrig bey/ Gott wolle ſie/ nebenſt den jh-<lb/>
+rigen/ bey guter Geſundtheit/ Adelichem<lb/>
+Wolſtandt/ vnd aller gedeylichen <hi rendition="#aq">Proſpe-<lb/>
+ritet</hi> lang erhalten.</p><lb/>
+<p><note place="left"><hi rendition="#aq">Soror</hi> 2.</note>Die ander Schweſter vnſers ſelig Ver-<lb/>
+ſtorbenen war: <hi rendition="#fr">Hypolita/</hi> Geborne von<lb/>
+<fw type="catch" place="bottom">Lochow/</fw><lb/>
+<pb facs="#f0025" n="[25]"/>
+<fw type="header" place="top"><hi rendition="#b">Auß der Epiſtel Pauli/ Rom. 14.</hi></fw><lb/>
+Lochow/ welche vermaͤhlet worden/ dem<lb/>
+Edlen/ Geſtrengen vnd Ehrnveſten: <hi rendition="#fr">Al-<lb/>
+brechten von Arnſtedt/</hi> Fuͤrſtl. Mag-<lb/>
+deburgiſchem Haͤuptmann zu Hoͤtenſchle-<lb/>
+ben vnd Sommerſchenburg/ <hi rendition="#fr">vff Hohen<lb/>
+Ztatz/</hi> aber im Kindbet/ vnd zwar an den<lb/>
+Maſern/ womit ſie nach Gottes willen be-<lb/>
+fallen/ iſt dieſe Adeliche Matron verſtor-<lb/>
+ben/ vnd ſambt jrem Soͤhnlein in die Kirch<lb/>
+zu Hoͤtenſchleben begraben worden.</p><lb/>
+<p>Der <hi rendition="#fr">Bruder</hi> vnſers ſelig Verſtor-<note place="right"><hi rendition="#aq">Frater.</hi></note><lb/>
+benen iſt geweſen <hi rendition="#fr">Chriſtoff-Heinrich<lb/>
+von Lochow/</hi> Ertzbiſchoͤfflicher Mag-<lb/>
+deb. Haͤuptmann zu Dreyleben/ welcher<lb/>
+Anno <hi rendition="#g">608.</hi> an einer im Leib jhm geſprun-<lb/>
+genen Ader ſelig verſtorben/ vnd zu Drey-<lb/>
+leben in die Kirch/ bey Volckreicher Verſam-<lb/>
+lung/ iſt begraben worden.</p><lb/>
+<p>Endlich betreffendt vnſern ſeligen Herrn<lb/>
+Cuͤnen/ der iſt in dieſe Welt geboren wor-<note place="right"><hi rendition="#aq">Natus.</hi></note><lb/>
+den/ <hi rendition="#aq">A. C.</hi> <hi rendition="#g">1583</hi> gleich am Pfingſt Mon-<lb/>
+tag/ vnd alſo/ <hi rendition="#aq">omine ſatis fauſto,</hi> im Feſt<lb/>
+GOttes des werthen H. Geiſtes/ welcher<lb/>
+<fw type="sig" place="bottom">D</fw><fw type="catch" place="bottom">auch</fw><lb/>
+<pb facs="#f0026" n="[26]"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche LeichPredigt/</hi></fw><lb/>
+auch bald drauff/ im ſeligen Badt der Wie-<lb/>
+dergeburt/ reichlich vber jhn iſt außgegoſ-<lb/>
+ſen worden/ durch Jeſum Chriſtum vnſern<lb/>
+Heyland/ Tit. <hi rendition="#i">3.</hi> Vnnd hat Warlich von<lb/>
+ſolcher Zeit an der ſehlige Herr Cuno gele-<lb/>
+bet/ <hi rendition="#aq">non ſibi ſed Domino,</hi> <hi rendition="#fr">Nicht jhm<lb/>
+ſelbſten/ Sondern dem HErrn/</hi><lb/>
+Jnmaſſen gnugſam erſcheinet/ auß ſeiner<lb/>
+Loͤblichen Aufferziehung: auß ſeinem ge-<lb/>
+fuͤhrten Ehrenſtandt: ſo wol auch auß ſei-<lb/>
+ner taͤglichen Lebens Vbung.</p><lb/>
+<p><note place="left"><hi rendition="#aq">Educatu<supplied>ſ</supplied>.</hi></note>Anlangendt die <hi rendition="#aq">Education</hi> vnd Auff-<lb/>
+erziehung vnſers ſelig Verſtorbenen/ ſo iſt<lb/>
+Herr <hi rendition="#aq">Cuno</hi> ſeiner lieben Mutter frůezeitig<lb/>
+beraubet vnd zum Waͤyßlein worden/ do er<lb/>
+kaum 5. oder 6. Wochen alt geweſen/ Aber<lb/>
+du HERR ſiheſt an das Jammer vnd E-<lb/>
+lendt/ die Armen befehlens dir/ Du biſt der<lb/>
+Waͤyſen Helffer/ Pſal. 10. Darumb ſtracks<lb/>
+im 6. Jahr ſeines Alters/ da iſt ſeliger Herr<lb/>
+<hi rendition="#aq">Cuno</hi> hieher naher Magdeburg verſchickt<lb/>
+worden/ zu ſeinem hochgeehrten hertzlieben<lb/>
+Vettern/ dem HochEhrwuͤrdigen/ Geſtren-<lb/>
+<fw place="bottom" type="catch">gen</fw><lb/>
+<pb facs="#f0027" n="[27]"/>
+<fw type="header" place="top"><hi rendition="#b">Auß der Epiſtel Pauli/ Rom. 14.</hi></fw><lb/>
+gen vnd WolEdlen/ Herrn <hi rendition="#fr">Ludewigen<lb/>
+von Lochow/</hi> dieſer PrimatErtzbiſchoͤff-<lb/>
+lichen Kirchen zu Magdeburgk DomDe-<lb/>
+chanten/ Chriſtſeliger Gedechtnuͤß/ der<lb/>
+denn vnſern Herrn <hi rendition="#aq">Cünen,</hi> nebenſt ſei-<lb/>
+nen geliebten Vettern/ Herrn Ludewigen/<lb/>
+numehr allhie zu Magdeburg/ vnd Herrn<lb/>
+Heinrichen von Lochow/ jtzt zu Halberſtadt<lb/>
+Domherrn/ (meinen inſonders guͤnſtigen<lb/>
+Herrn vnd hochgeehrten lieben Patronen/<lb/>
+welche Gott kraͤfftiglich anjtzo troͤſten/ vnd<lb/>
+bey gutem Leibes vnnd der Seelen Wol-<lb/>
+ſtandt/ ſambt allen den Jhrigen Vaͤterlich<lb/>
+lang erhalten wolle!) die ſage Jch/ hat wol-<lb/>
+gemelter Herr <hi rendition="#aq">Decanus</hi> ſehr wol vnd fleiſ-<lb/>
+ſig aufferziehen laſſen/ durch den weilandt<lb/>
+Ehrnveſten/ Ehrwuͤrdigen vnd Wolgelar-<lb/>
+ten Herrn <hi rendition="#aq">Paulum Cellarium,</hi> folgends<lb/>
+Eines HochEhrwuͤrdigen DomCapituls<lb/>
+<hi rendition="#aq">Secretarium, Canonicum ſub Aulâ,</hi> vnd<lb/>
+<hi rendition="#aq">Vicarium</hi> allhie im Dom/ Vnd iſt mit<lb/>
+demſelben ſeliger Herr <hi rendition="#aq">Cuno,</hi> ſambt ſeiner<lb/>
+geliebten Vettern/ erſtmahln verſchicket<lb/>
+<fw type="sig" place="bottom">D ij</fw><fw type="catch" place="bottom">wor-</fw><lb/>
+<pb facs="#f0028" n="[28]"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche LeichPredigt/</hi></fw><lb/>
+<note place="left"><hi rendition="#aq">Ablegatus.</hi></note>worden gen <hi rendition="#fr">Franckfurt an die Oder/</hi><lb/>
+<note place="left"><hi rendition="#i">1.</hi><lb/>
+<hi rendition="#aq">Franco-<lb/>
+furtum.</hi></note><hi rendition="#fr">da Er</hi> <hi rendition="#aq">in Philoſophicis, in elegantiâ ſty-<lb/>
+li</hi> vnd ſonſt ſehr fleiſſig ſich geuͤbet.</p><lb/>
+<p>Von Franckfurt iſt ſeliger Herr <hi rendition="#aq">Cuno,</hi><lb/>
+<note place="left">2.<lb/>
+<hi rendition="#aq">Jenam.</hi></note>ſambt ſeinem lieben Herrn Vettern/ fortge-<lb/>
+reiſet <hi rendition="#fr">gen Jena/</hi> da Er denn <hi rendition="#aq">trienale<lb/>
+ſtudium compliret</hi> hat/ vnd hat in ſolcher<lb/>
+Zeit beydes <hi rendition="#aq">Lectionibus,</hi> ſo wol auch <hi rendition="#aq">Di-<lb/>
+ſputationibus, &amp; publicis &amp; privatis</hi><lb/>
+fleiſſig beygewohnet.</p><lb/>
+<p>Von Jena iſt ſeliger Herr <hi rendition="#aq">Cuno</hi> durch<lb/>
+Heſſen auff Meintz/ vnnd von dannen gen<lb/>
+<note place="left"><hi rendition="#i">3.</hi><lb/>
+<hi rendition="#aq">Coloniam.</hi></note><hi rendition="#fr">Coͤlln am Rhein</hi> verreiſet/ da er denn<lb/>
+ſeinen <hi rendition="#aq">Studiis</hi> jmmer fleiſſig obgelegen/ iſt<lb/>
+etwa von dannen <hi rendition="#aq">excurriret</hi> vnd hat beſe-<lb/>
+hen/ was anderswo denck wuͤrdig fuͤrgefal-<lb/>
+len/ Jnmaſſen denn ſeliger Herr <hi rendition="#aq">Cuno</hi> zu<lb/>
+<hi rendition="#fr">Aach</hi> ſich befunden/ als daſelbſt das groſ-<lb/>
+ſe JubelFeſt <hi rendition="#aq">Solenniſſimè celebriret</hi> wor-<lb/>
+den.</p><lb/>
+<p><note place="left">4.<lb/>
+<hi rendition="#aq">Argenti-<lb/>
+nam.</hi></note>Von Coͤlln hat ſehlig Verſtorbener ſich<lb/>
+begeben <hi rendition="#fr">gen Straßburg/</hi> von Straß-<lb/>
+<fw place="bottom" type="catch">burg</fw><lb/>
+<pb facs="#f0029" n="[29]"/>
+<fw type="header" place="top"><hi rendition="#b">Auß der Epiſtel Pauli/ Rom. 14.</hi></fw><lb/>
+burg aber nach etlichen <hi rendition="#aq">excurſionen,</hi> gen<note place="right">5.<lb/>
+<hi rendition="#aq">Fribur-<lb/>
+gum.</hi></note><lb/>
+<hi rendition="#fr">Freyburg in Prißgaw/</hi> da Er denn<lb/>
+willens geweſen ſtrack in Jtalien ſich zu be-<lb/>
+geben/ wozu auch gute Gelegenheit vorge-<lb/>
+fallen/ iſt aber von ſeinem geliebten Vettern<lb/>
+wider zu ruͤck erfordert worden/ doch alſo/<lb/>
+daß ſehliger Herr <hi rendition="#aq">Cuno</hi> nochmahln einen<lb/>
+<hi rendition="#aq">excurs</hi> gemacht hat/ vber den Schwartz-<lb/>
+walt in die Graffſchafft <hi rendition="#fr">Fuͤrſtenberg/</hi><lb/>
+in die Gegend am <hi rendition="#fr">Bodenſee/</hi> in <hi rendition="#fr">Wuͤrt-<lb/>
+tenberg/</hi> in <hi rendition="#fr">Schwabẽ/</hi> in <hi rendition="#fr">Beyern/</hi><lb/>
+ſo wohl auch in <hi rendition="#fr">Francken/</hi> biß er end-<lb/>
+lich friſch vnd geſund allhie zu Magdeburg<lb/>
+widerumb angelanget.</p><lb/>
+<p>Das iſt alſo/ die loͤbliche Aufferzie-<lb/>
+hung vnſers S. Herrn Cuͤnen/ welche traun<lb/>
+dermaſſen wol gerahten/ das auß dem von<lb/>
+Lochow worden iſt/ nicht allein ein from-<lb/>
+mer vnd Gottſeliger Herr/ ja nicht allein<lb/>
+ein freundlicher vnd beſcheidener Herr/ ſon-<lb/>
+dern auch ein Grundgelarter/ erfahrner/<lb/>
+vnnd verſtendiger tapfferer Herr/ an wel-<lb/>
+<fw type="sig" place="bottom">D iij</fw><fw type="catch" place="bottom">chem</fw><lb/>
+<pb facs="#f0030" n="[30]"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche LeichPredigt/</hi></fw><lb/>
+chem was wir dieſes Orths gehabt haben/<lb/>
+wer weiß das nicht? Es konte trawn dem<lb/>
+ſehligen Herrn/ auß allen guten Kuͤnſten<lb/>
+vnd <hi rendition="#aq">Diſciplinen</hi> nichts vorgebracht wer-<lb/>
+den/ er war <hi rendition="#aq">reſolut/</hi> wuſte ſich leicht zu fin-<lb/>
+den/ vnd habe Jch in einem Jhm <hi rendition="#aq">dedicir-<lb/>
+ten</hi> Buͤchlein geſetzet/ das mit ſehligem<lb/>
+Herrn Cunen ſo gern ich <hi rendition="#aq">converſiren</hi> wol-<lb/>
+te/ als <hi rendition="#aq">cum Theologo ſic ſatis exercita-<lb/>
+to,</hi> das war nicht zu viel geſaget/ Gott gebe<lb/>
+nur dieſesfals ſeines gleichen!</p><lb/>
+<p><note place="left">Ehren-<lb/>
+Standt.</note>Betreffendt weiter den EhrenStandt<lb/>
+vnſers S. Verſtorbenen/ darin hat er wie-<lb/>
+derumb gelebet/ <hi rendition="#aq">non ſibi ſed Domino,</hi><lb/>
+<hi rendition="#fr">nicht jhm ſelbſten/ ſondern dem<lb/>
+HErrn/</hi> Denn/ <hi rendition="#aq">A. C.</hi> <hi rendition="#g">1592.</hi> da hat<lb/>
+der wolſelige Herr Dom Dechant vnſerm<lb/>
+Verſtorbenen erlanget vnnd <hi rendition="#aq">contentiret<lb/>
+Majorem præbendam</hi> allhie: A. C. <hi rendition="#g">602.</hi><lb/>
+Da hat ſeliger Herr <hi rendition="#aq">Cuno extra nume-<lb/>
+rum</hi> zu <hi rendition="#aq">reſidiren</hi> angefangen/ Ja <hi rendition="#aq">A. C.</hi><lb/>
+604. Weil Herr <hi rendition="#fr">Chriſtoff von Arnim</hi><lb/>
+ſehlig verſtorben/ iſt ſehliger Herr <hi rendition="#aq">Cuno ad</hi><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">reſiden-</hi></fw><lb/>
+<pb facs="#f0031" n="[31]"/>
+<fw type="header" place="top"><hi rendition="#b">Auß der Epiſtel Pauli/ Rom. 14.</hi></fw><lb/>
+<hi rendition="#aq">reſidentiam</hi> zugelaſſen worden/ vnnd hat<lb/>
+jhm vber das A. 13. der Durchleuchtigſte<lb/>
+vnnd Hochgeborne Fuͤrſt vnnd Herr/<lb/>
+<hi rendition="#fr">Herr Joan-Sigißmund</hi> Chur-<lb/>
+fuͤrſt zu Brandenburg/ auß Gnaden vñ ohn<lb/>
+einiges ſein Anhalten <hi rendition="#aq">providiret</hi> mit der<lb/>
+<hi rendition="#fr">Dom Proͤbſtey zu Havelbergk/</hi><lb/>
+da er denn durch Herrn <hi rendition="#fr">Adam Gan-<lb/>
+ſen/ Edlen Herrn von Putlitz dem<lb/>
+Eltern/</hi> <hi rendition="#aq">ſolenniter introduciret</hi> wor-<lb/>
+den. Bey welchen ſeinen <hi rendition="#aq">digniteten,</hi> wie<lb/>
+ſehliger Herr <hi rendition="#aq">Cuno</hi> gelebet/ das iſt/ Gott<lb/>
+lob/ jederman wol bekandt/ er hat ſich be-<lb/>
+fliſſen eines zuͤchtigen vnd keuſchen/ ſo wol<lb/>
+auch eines nuͤchternen vnd meſſigen Chriſt-<lb/>
+lichen Wandels/ er hat friedlich vnnd wol<lb/>
+gelebet mit ſeinen Herrn <hi rendition="#aq">Confratribus,</hi><lb/>
+zu <hi rendition="#aq">Capitul</hi> was dieſer Herr fuͤr gute/ heil-<lb/>
+ſame/ vernuͤnfftige/ beſcheidene vnnd fried-<lb/>
+fertige <hi rendition="#aq">Conſilia</hi> gefuͤhret/ billig wirds er-<lb/>
+kand vnnd geruͤhmet/ ſeine <hi rendition="#aq">horas Matuti-<lb/>
+nas &amp; Veſpertinas</hi> hat ſelig Verſtorbener<lb/>
+fleiſſig vnd andechtig/ als viel muͤglich/ be-<lb/>
+<fw type="catch" place="bottom">ſuchet/</fw><lb/>
+<pb facs="#f0032" n="[32]"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche LeichPredigt/</hi></fw><lb/>
+ſuchet/ Jn auffgetragenen <hi rendition="#aq">Commiſſionen</hi><lb/>
+vnnd anbefohlenen Kirchengebaͤwden/ wie<lb/>
+fleiſſig vnnd ſorgfeltig war dieſer Mann/<lb/>
+ſonderlich in newlicher <hi rendition="#aq">renovation</hi> vnſers<lb/>
+Chors vnd beſtellung der <hi rendition="#aq">Muſic,</hi> da hat je<lb/>
+ſehliger H. <hi rendition="#aq">Cuno</hi> im Vmbgang des Chors<lb/>
+anſchreiben laſſen mit guͤldenenen Buch-<lb/>
+ſtaben/ den Prophetiſchen Spruch: <hi rendition="#aq">Verè<lb/>
+languores noſtros ipſe tulit,</hi> <hi rendition="#fr">Fuͤrwar<lb/>
+Er trug vnſere Kranckheit/ Vnd<lb/>
+lude auff ſich vnſere Schmertzen/</hi><lb/>
+etc. Eſa. 53. Es hat ſehliger Herr <hi rendition="#aq">Cuno</hi><lb/>
+vmb die Newe AltarsDecke ſchreiben laſ-<lb/>
+ſen die ſchoͤnen Wort <hi rendition="#aq">Bonaventuræ:</hi></p><lb/>
+<cit><quote><quote><lg type="poem"><l><hi rendition="#aq"><hi rendition="#i">Pie Pelicane Jeſu Domine,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">me immundum munda tuo ſanguine</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Cujus una gutta ſalvum fa<gap reason="lost" unit="chars" quantity="1"/>re</hi></hi></l><lb/>
+<l xml:id="line1u" next="#line1v"><hi rendition="#aq"><hi rendition="#i">poteſt totum mundum ab omni ſce-</hi></hi></l><lb/>
+<l xml:id="line1v" prev="#line1u"><hi rendition="#aq"><hi rendition="#et">[<hi rendition="#i">lere, &amp;c.</hi></hi></hi></l></lg></quote></quote><bibl/></cit><lb/>
+<p>Ja vber den Eingang des Chors da<lb/>
+hat je ſeliger Herr <hi rendition="#aq">Cuno</hi> ſchreiben laſſen:<lb/>
+<hi rendition="#aq">Pſallam <hi rendition="#g">DEO</hi> meo quam diu fuero,</hi><lb/>
+<fw type="catch" place="bottom"><hi rendition="#fr">Jch</hi></fw><lb/>
+<pb facs="#f0033" n="[33]"/>
+<fw place="top" type="header"><hi rendition="#b">Auß der Epiſtel Pauli/ Rom. 14.</hi></fw><lb/>
+<hi rendition="#fr">Jch wil den HERRN loben/ ſo<lb/>
+lang ich lebe/ vnd meinem GOtt<lb/>
+Lobſingen/ ſo lang ich hie bin/</hi> <hi rendition="#aq">Pſal.</hi><lb/>
+146. Heiſt traun nicht jhm ſelbſt/ ſondern<lb/>
+dem HERRN gelebet.</p><lb/>
+<p>Vnd denn endtlich in taͤglicher Vbung<note place="right"><hi rendition="#aq">Chriſtia-<lb/>
+niſmus.</hi></note><lb/>
+ſeines Chriſtenthumbs/ da hat je ſehliger<lb/>
+Herr Lochow nochmahln gelebet/ <hi rendition="#aq">non ſibi<lb/>
+ſed Domino,</hi> <hi rendition="#fr">nicht jhm ſelbſt/ ſon-<lb/>
+dern dem <hi rendition="#g"><hi rendition="#k">Herrn/</hi></hi></hi> Es hat ſehlig<lb/>
+Verſtorbener die Predigten fleiſſig beſuchet/<lb/>
+Er iſt zur heiligen Beicht andaͤchtig kom-<lb/>
+men/ Er hat der hochwuͤrdigen Sacramen-<lb/>
+ten gebuͤhrlich ſich gebrauchet/ Er hat die<lb/>
+ſeinigen mit ernſter <hi rendition="#aq">Diſciplin</hi> vnd wolge-<lb/>
+faſter Haußhaltung/ zu allen gutet-gehal-<lb/>
+ten/ Er hat friedlich vnd ſchiedlich ſich ver-<lb/>
+gliechen mit jederman/ Er hat alles guts<lb/>
+erzeiget vns den Predigern dieſes Orths/<lb/>
+wie auch andern Duͤrfftigen/ Vnd in ſum-<lb/>
+ma/ Jch habe noch zur Zeit Niemandt ge-<lb/>
+hoͤret/ der vber ſehligen Herrn Cuͤnen von<lb/>
+<fw place="bottom" type="sig">E</fw><fw place="bottom" type="catch">Lochow</fw><lb/>
+<pb facs="#f0034" n="[34]"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche LeichPredigt/</hi></fw><lb/>
+Lochow im geringſten ſich beſchweret hette.<lb/>
+Das laſt vns auch thun/ laſt vns gleichs-<lb/>
+fals leben/ <hi rendition="#aq">non nobis ſed Domino,</hi> ſo iſts<lb/>
+wol gewiß/ werden wir mit Chriſto leben/<lb/>
+leyden vnd ſterben/ ſo werden wir auch mit<lb/>
+jhm erben/ vnnd zur ewigen Herrligkeit er-<lb/>
+hoben werden/ das iſt gewißlich wahr/<lb/>
+ſpricht Paulus/ 2. Tim. 2.</p></div><lb/>
+<div n="3"><head><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Arcanum II.</hi></hi></hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">D</hi>Arnach aber vnd vors An-</hi><lb/>
+der/ ſo findet ſich auch in vnſerm A-<lb/>
+poſtoliſchen Spruch ein Geheimnuͤß oder<lb/>
+Kunſtſtuͤcklein/ welches wil: <hi rendition="#aq">quod homo<lb/>
+non ſibi, ſed Deo mori debeat,</hi> daß ein<lb/>
+Menſch nicht jhm ſelber/ ſondern dem HEr-<lb/>
+ren ſterbẽ ſolle/ inmaſſen S. Paulus ſaget:<lb/>
+<hi rendition="#fr">Vnſer keiner ſtirbet jhm ſelber/<lb/>
+ſondern ſterben wir/ ſo ſterben wir<lb/>
+dem HErrn;</hi> Jſt traun nochmahln ein<lb/>
+ſoches Geheimnuͤß vnd Kunſtſtuͤck/ welches<lb/>
+gar vielen Menſchen allerdings verborgen<lb/>
+vnd vnbekant iſt.</p><lb/>
+<fw type="catch" place="bottom">Denn</fw><lb/>
+<pb facs="#f0035" n="[35]"/>
+<fw type="header" place="top"><hi rendition="#b">Auß der Epiſtel Pauli/ Rom. 14.</hi></fw><lb/>
+<p>Denn <hi rendition="#fr">Epicuriſche ſichere Hertzen</hi><note place="right"><hi rendition="#aq">Domine<lb/>
+non me-<lb/>
+riuntur.</hi></note><lb/>
+die wiſſen zwar/ daß ſie ſterben muͤſſen/ wie<lb/>
+man aber ſterben ſolle/ <hi rendition="#aq">non ſibi ſed Do-</hi><note place="right">1.<lb/>
+<hi rendition="#aq">Epicuræi.</hi></note><lb/>
+<hi rendition="#aq">mino,</hi> <hi rendition="#fr">nicht jhm ſelbſten/ ſondern<lb/>
+dem HErrn/</hi> das wiſſen ſolche Leute<lb/>
+gar nicht/ darumb heiſts bey jhnen/ entwe-<lb/>
+der in groſſer Kleinmuͤtigkeit/ Laſt vns eſſen<lb/>
+vnd trincken/ denn wir ſterben doch Mor-<lb/>
+gen/ Eſa. 22. Oder aber in groſſer Sicher-<lb/>
+heit/ Wir haben mit dem Tode einẽ Bund/<lb/>
+vnnd mit der Hellen einen Anſtandt gema-<lb/>
+chet/ ob gleich eine Flut daher gehen ſolte/<lb/>
+wird ſie vns doch nicht treffen/ Eſa. <hi rendition="#i">28.</hi></p><lb/>
+<p>Deßgleichen alle <hi rendition="#aq">deſperanten,</hi> αυτό-<note place="right">2.<lb/>
+<hi rendition="#aq">Deſperan-<lb/>
+tes.</hi></note><lb/>
+χειρες vnd <hi rendition="#fr">Verzweiffeler/</hi> die ſterben<lb/>
+zwar/ ſie wiſſen aber diß Geheimnuͤß vnnd<lb/>
+Kunſtſtuͤcklein nicht/ wie man dem <hi rendition="#k">Herrn</hi><lb/>
+ſterben ſolle/ Darumb greifft einer zum<lb/>
+Schwerdt/ wie Koͤnig Saul/ der andere<lb/>
+zum Strang/ wie Judas vnd Achitophel/<lb/>
+Ja andere die fuͤhren ein vnordentliches Le-<note place="right"><hi rendition="#i">3.</hi><lb/>
+<hi rendition="#aq">Intempe-<lb/>
+rantes.</hi></note><lb/>
+ben/ vnd bringen ſich ſelbſten vmb/ jhrer et-<lb/>
+liche durch Eyffer vnd Jachzorn/ jhrer etlich<lb/>
+<fw type="sig" place="bottom">E ij</fw><fw type="catch" place="bottom">durch</fw><lb/>
+<pb facs="#f0036" n="[36]"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche LeichPredigt/</hi></fw><lb/>
+durch Geilheit vnnd Vnzucht/ jhrer etlich<lb/>
+durch Geitz/ Sorg vnd Grißgramen/ wo-<lb/>
+von man ſaget: <hi rendition="#aq">Immoritur habendi ſtu-<lb/>
+dio,</hi> ja mancher der friſt vnnd ſeufft ſich zu<lb/>
+tode/ laut dem Sprichwort: <hi rendition="#aq">Plures cra-<lb/>
+pulâ pereunt, quam gladio,</hi> <hi rendition="#fr">wir Teut-<lb/>
+ſchen ſauffen vns arm/ vñ kranck/<lb/>
+vnd in die Helle/</hi> ſagte der Herr <hi rendition="#aq">Phi-<lb/>
+lippus,</hi> vnd heiſt diß alles/ <hi rendition="#aq">non Domino<lb/>
+ſed ſibi mori,</hi> <hi rendition="#fr">nicht dem HErrn/ ſon-<lb/>
+dern jhm ſelbſten ſterben/</hi> laut des<lb/>
+Verßlein:</p><lb/>
+<cit><quote><quote><lg type="poem"><l xml:id="line1w" next="#line1x"><hi rendition="#aq"><hi rendition="#i">Decurtare Tuum est, ſed prolongare</hi></hi></l><lb/>
+<l xml:id="line1x" prev="#line1w"><hi rendition="#aq"><hi rendition="#i"><hi rendition="#et">(Tonantis.</hi></hi></hi></l></lg></quote></quote><bibl/></cit><lb/>
+<p><note place="left">4.<lb/>
+<hi rendition="#aq">Omnes<lb/>
+impij.</hi></note>Vnd in Summa/ <hi rendition="#fr">alle Gottloſe</hi> die<lb/>
+wiſſen zwar/ daß man ſterben muͤſſe/ wie<lb/>
+man aber nicht jhm ſelber/ ſondern dem<lb/>
+<hi rendition="#k">Herrn</hi> ſterben ſolle/ das weiß kein Gott-<lb/>
+loſer/ darumb fahren auch ſolche Leut dahin<lb/>
+wie das thumme Vieh/ ohne Buß/ ohne<lb/>
+Bekehrung/ ohne Glauben/ ja ohne <hi rendition="#aq">crux</hi><lb/>
+vnd ohne <hi rendition="#aq">lux,</hi> ſie gehen ploͤtzlich vnter/ vnd<lb/>
+<fw place="bottom" type="catch">nehmen</fw><lb/>
+<pb facs="#f0037" n="[37]"/>
+<fw type="header" place="top"><hi rendition="#b">Auß der Epiſtel Pauli/ Rom. 14.</hi></fw><lb/>
+nehmen ein Ende mit Schrecken/ Pſal. 73.<lb/>
+Jm Gegentheil aber fromme/ gottſelige vnd<lb/>
+rechtglaͤubige Chriſten/ die wiſſen einig vnd<lb/>
+allein diß Geheimniß oder Kunſtſtuͤcklein/<lb/>
+wie ſie nemblich ſterben ſollen/ <hi rendition="#aq">non ſibi ſed<lb/>
+Domino,</hi> <hi rendition="#fr">nicht jhnen ſelbſten/ ſon-<lb/>
+dern dem HErrn/</hi> vnd geſchiehet die-<lb/>
+ſes alſo:</p><lb/>
+<p>Ein frommer Chriſt weiß wol/ das<note place="right"><hi rendition="#aq">Pij quo-<lb/>
+modo Do-<lb/>
+mino mo-<lb/>
+riantur.</hi></note><lb/>
+ſterben ſey der alte Bund/ vnd der Suͤnden<lb/>
+ſolt/ Rom. 6. Darumb lebet er in ſteter<lb/>
+Buß vnd Bekehrung: Ja ein frommer<lb/>
+Chriſt der erinnert ſich teglich/ ſeiner ſterb-<lb/>
+ligkeit/ jmmerdar mit Moſe ſprechent:<lb/>
+HErr lehre vns bedencken/ das wir ſterben<lb/>
+muͤſſen/ auff das wir klug werden/ Pſ. 90.<lb/>
+Ja fromme Chriſten/ wenn ſie numehr loß-<lb/>
+druͤcken vnnd Schicht machen ſollen/ denn<lb/>
+beten ſie fleiſſig vnd ſagen mit David: Jn<lb/>
+deine Haͤnde befehle ich meinen Geiſt/ du<lb/>
+haſt mich erloͤſet HErr du getrewer Gott/<lb/>
+Pſal. 31. So wol auch mit Paulo/ Chri-<lb/>
+ſtus iſt mein Leben vnnd ſterben mein Ge-<lb/>
+<fw type="sig" place="bottom">E iij</fw><fw type="catch" place="bottom">winn/</fw><lb/>
+<pb facs="#f0038" n="[38]"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche LeichPredigt/</hi></fw><lb/>
+winn/ Phil. 1. Deßgleichen mit dem alten<lb/>
+Simeon: Mit Fried vnd Frewd ich fahr<lb/>
+dahin in Gottes willen/ getroſt iſt mir mein<lb/>
+Hertz vnd Sinn/ ſanfft vnd ſtille/ wie Gott<lb/>
+mir verheiſſen hat/ der Todt iſt mein<lb/>
+Schlaff worden. Jn Summa es gilt<lb/>
+frommen Chriſten gleich viel/ ſie leben o-<lb/>
+der ſterben/ daruͤmb heiſts:</p><lb/>
+<lg type="poem"><l>Ob mich der Todt nimbt hin/</l><lb/>
+<l>Sterben iſt mein Gewinn/</l><lb/>
+<l>Vnd Chriſtns iſt mein Leben/</l><lb/>
+<l>Dem thu ich mich ergeben/</l><lb/>
+<l>Jch ſterb heut oder Morgen/</l><lb/>
+<l>Mein Seel wird er verſorgen.</l></lg><lb/>
+<p>Daß heiſt nicht jhm ſelber ſondern dem<lb/>
+HErrn ſterben/ vnd iſt demnach dieſes das<lb/>
+ander <hi rendition="#aq">Arcanum</hi> der Chriſten/ das ſie al-<lb/>
+lein ſagen koͤnnen:</p><lb/>
+<cit><quote><quote><lg type="poem"><l><hi rendition="#aq"><hi rendition="#i">Vivo tibi, moriorꝙ́ tibi, dulcisſime Jeſu</hi></hi></l><lb/>
+<l xml:id="line1y" next="#line1z"><hi rendition="#aq"><hi rendition="#i">Mortuus &amp; vivus ſum maneoꝙ</hi></hi></l><lb/>
+<l xml:id="line1z" prev="#line1y"><hi rendition="#aq"><hi rendition="#i"><hi rendition="#et">(tuus.</hi></hi></hi></l></lg></quote></quote><bibl/></cit><lb/>
+<cit><quote><quote><lg xml:id="poem2a" type="poem" next="#poem2b"><l><hi rendition="#fr">HErr Jeſu/ dir lebe Jch/ dir ſter-</hi></l><lb/>
+<l><hi rendition="#fr">be Jch/ dein bleib Jch/ dein bin</hi></l></lg><lb/>
+<l><fw place="bottom" type="catch"><hi rendition="#fr">Jch</hi></fw></l><lb/>
+<pb facs="#f0039" n="[39]"/>
+<fw type="header" place="top"><hi rendition="#b">Auß der Epiſtel Pauli/ Rom. 14.</hi></fw><lb/>
+<lg xml:id="poem2b" prev="#poem2a" type="poem"><l><hi rendition="#fr">Jch/ Todt vnd lebendig/ von dir</hi></l><lb/>
+<l><hi rendition="#fr">ſol niemand ſcheiden mich.</hi></l></lg></quote></quote><bibl/></cit></div><lb/>
+<div type="fsPersonalia" n="3"><head><hi rendition="#aq">Applicatio Arcani II. ad<lb/>
+beatè defunctum.</hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">W</hi>Elches Kunſtſtuͤcklein denn</hi><lb/>
+nochmahln gar wol verſtanden hat/<lb/>
+hat auch darin durch ſein gantzes<lb/>
+Leben fleiſſig ſich geuͤbet vnſer ſehliger Herr<lb/>
+<hi rendition="#aq"><hi rendition="#g">CUNO</hi></hi> <hi rendition="#fr">von Lochow:</hi> Es haben<lb/>
+Seine HochEhrwuͤrde gar wohl gewiſt/<lb/>
+das allen Menſchen/ der Suͤnden halber/<lb/>
+zu ſterben einmahl geſetzet were/ Hebr. 9.<lb/>
+Darumb den ſehlig verſtorbener fůr einen<lb/>
+Armen Suͤnder gantz willig vnd gern ſich<lb/>
+erkant vnd bekant hat/ er hat allemahl ſei-<lb/>
+ne Beicht gethan/ <hi rendition="#aq">Verbis Latinis iisꝙ́<lb/>
+ſatis elegantibus,</hi> vnd iſt darin vnverho-<lb/>
+len angedeutet worden/ das er mit ſeinen<lb/>
+Suͤnden Gottes Zorn/ zeitlichen vnd Ewi-<lb/>
+gen Todt gar wol verdienet hette: So hat<note place="right"><hi rendition="#aq">Piè defun-<lb/>
+ctus Mor-<lb/>
+boſus.</hi></note><lb/>
+auch der ſehlige Herr Lochow gnugſamb<lb/>
+<fw type="catch" place="bottom">Vrſach</fw><lb/>
+<pb facs="#f0040" n="[40]"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche LeichPredigt/</hi></fw><lb/>
+Vrſach gehabt jmmerdar ſeiner ſterbligkeit<lb/>
+ſich zu erinnern/ er iſt von Jugendt auff ge-<lb/>
+weſen ein <hi rendition="#aq">Valetudinarius</hi> vnd ſchwacher<lb/>
+Menſch/ dem die Fluͤſſe ſehr zugeſetzet/ er<lb/>
+hat gemeinlich alle/ oder je vmbs ander<lb/>
+Jahr ein <hi rendition="#aq">tertian</hi> Fieber außſtehen muͤſſen/<lb/>
+<hi rendition="#fr">zu Jena</hi> iſt ſehliger Herr <hi rendition="#aq">Cuno</hi> an den<lb/>
+Pocken todt kranck geweſen/ <hi rendition="#fr">zu Coͤllen</hi><lb/>
+haben jhm die Fluͤſſe vnnd <hi rendition="#aq">Flatus</hi> dermaſ-<lb/>
+ſen zugeſetzet/ das ſehlig verſtorbener/ auff<lb/>
+Rath <hi rendition="#aq">D. Knopfij</hi> Stadt <hi rendition="#aq">Phyſici</hi> daſelbſt/<lb/>
+ſich hat von dannen wegbegeben muͤſſen/<lb/>
+<hi rendition="#aq">A. C.</hi> 1604. Hat ſehliger Herr <hi rendition="#aq">Cuno labo-<lb/>
+riret</hi> am Hitzigen <hi rendition="#aq">tertian</hi> Fieber/ <hi rendition="#aq">A.</hi> 606.<lb/>
+ſanden ſich Haubtfluͤſſe/ <hi rendition="#aq">A</hi> 611. kam <hi rendition="#aq">Febris<lb/>
+Catharroſa</hi> wieder/ <hi rendition="#aq">A.</hi> 617. hat das <hi rendition="#aq">Ma-<lb/>
+lum hypochondriacum</hi> vnſerm ſehlig<lb/>
+<note place="left"><hi rendition="#aq">Utitur aci-<lb/>
+dulis.</hi></note>Verſtorbenen dermaſſen zugeſetzt/ das er<lb/>
+deßwegen den Sawerbrun <hi rendition="#fr">zu Eger</hi> beſu-<lb/>
+chen muͤſſen/ vnnd haben jhre HochEhrw.<lb/>
+zugleich ſich begeben <hi rendition="#fr">gen Prag/</hi> da ſehlig<lb/>
+Verſtorbener der Koͤniglichen Kroͤnung des<lb/>
+jtzigen Roͤmiſchen Kaͤyſers <hi rendition="#aq">Ferdinandi</hi><lb/>
+<fw type="catch" place="bottom">Perſoͤn-</fw><lb/>
+<pb facs="#f0041" n="[41]"/>
+<fw type="header" place="top"><hi rendition="#b">Auß der Epiſtel Pauli/ Rom. 14.</hi></fw><lb/>
+Perſoͤnlich beygewohnet/ <hi rendition="#aq">A. C.</hi> 618. Da<lb/>
+hat ſehliger Herr Cuͤno zwar ſein Gut zu<lb/>
+Reinſperg erkaufft iſt aber auff demſelben<lb/>
+wider vnpaß worden/ deßwegen er jhm<lb/>
+vorgenommen <hi rendition="#aq">Aerem</hi> zu <hi rendition="#aq">mutiren,</hi> iſt in<lb/>
+Dennemarck verreiſet/ vnd hat durch ſolche<lb/>
+Gelegenheit faſt das gantze Koͤnigreich be-<lb/>
+ſichtiget. Wolan/ bey ſo vielen Kranckhei-<lb/>
+ten vnd Schwachheiten/ was hat der ſelige<lb/>
+Herr <hi rendition="#aq">Cuno</hi> anders thun koͤnnẽ/ als drauff<lb/>
+gedencken/ wie er dermahl eins ſterben moͤch-<lb/>
+te/ <hi rendition="#aq">non ſibi ſed Domino,</hi> <hi rendition="#fr">Nicht jhm<lb/>
+ſelbſt/ ſondern dem <hi rendition="#k">Herrn/</hi></hi> ſein<lb/>
+Teſtament vnnd letzter Will iſt verfertigt<lb/>
+worden allbereit/ vor zweyen Jahren/ da er<lb/>
+denn baldt drauff in ein hitziges Fieber ge-<lb/>
+fallen/ iſt aber durch GOttes Gnad vnd<lb/>
+fleiſſige Cur der <hi rendition="#aq">Medicorum</hi> davon erret-<lb/>
+tet worden/ Biß endtlich in dieſem noch<lb/>
+lauffendẽ Jahr/ vnd zwar den 6. <hi rendition="#aq">Septemb.</hi><lb/>
+da fande ſich wider ein gar boͤſes Fieber/<note place="right"><hi rendition="#aq">Morbus<lb/>
+ultimus.</hi></note><lb/>
+welches bald <hi rendition="#aq">tertiana,</hi> bald <hi rendition="#aq">quartana,</hi> bald<lb/>
+<hi rendition="#aq">tertiana duplex,</hi> vnd endlich <hi rendition="#aq">quotidiana</hi><lb/>
+ward/ die Fluͤſſe fielen mit hauffen/ es kam<lb/>
+<fw type="sig" place="bottom">F</fw><fw type="catch" place="bottom">dazu</fw><lb/>
+<pb facs="#f0042" n="[42]"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche LeichPredigt/</hi></fw><lb/>
+dazu ein bluten/ wodurch weil der fromme<lb/>
+Herr gaͤntzlich abgemattet ward/ als ſchi-<lb/>
+cket er ſich zum ſehligen Ende/ Er that ſeine<lb/>
+Beicht mit Threnen vnd groſſer Andacht<lb/>
+nach den H. Zehen Geboten/ Er empfienge<lb/>
+das hochwuͤrdige Abendtmahl mit ſonder-<lb/>
+barer Reverentz/ Er bate daß Jch ja fleiſſig<lb/>
+auffzuwarten mich nicht beſchweren moͤch-<lb/>
+te/ ſonderlich in letzten Todeszuͤgen/ denn er<lb/>
+gleichwol ohn andaͤchtigen Prieſter Segen<lb/>
+nicht gern abſcheiden wolte/ Er hat ſeinem<lb/>
+lieben Herrn Vettern/ dem HochEhrwuͤr-<lb/>
+digen<hi rendition="#i">!</hi> Geſtrengen vnd WolEdlen Herrn<lb/>
+<hi rendition="#fr">Ludwigen von Lochow/</hi> Domherrn<lb/>
+vnd <hi rendition="#aq">Cellario</hi> allhie/ auch Dom Probſten<lb/>
+zu Brandenburg/ meinen inſonders gůn-<lb/>
+ſtigem Herrn vnnd lieben Gefattern/ alles<lb/>
+befohlen/ wie es kuͤnfftig ſolt gehalten wer-<lb/>
+den/ Biß endlich am <hi rendition="#i">16.</hi> Maij vnlengſten/<lb/>
+<note place="left"><hi rendition="#aq">Non eſt in<lb/>
+Medico<lb/>
+ſemper re-<lb/>
+levetur ut<lb/>
+æger.</hi></note>ob gleich die Herrn <hi rendition="#aq">Medici,</hi> als D. Vogler<lb/>
+von Helmſtadt/ ſo wol auch <hi rendition="#aq">D. Timotheus</hi><lb/>
+allhie<hi rendition="#i">!</hi> das jhre wol gethan/ ſo iſt dennoch<lb/>
+der von Lochow ſanfft vnnd ſelig/ bey guter<lb/>
+<fw place="bottom" type="catch">Ver-</fw><lb/>
+<pb facs="#f0043" n="[43]"/>
+<fw type="header" place="top"><hi rendition="#b">Auß der Epiſtel Pauli/ Rom. 14.</hi></fw><lb/>
+Vernunfft/ im HERRN entſchlaffen/ am<lb/>
+16. Maij vnlaͤngſten/ Abends zwiſchen 9.<lb/>
+vnd 10. Vhren/ da denn Jhrer HochEhrw.<lb/>
+den letztẽ Prieſter Segen Jch zutheilete/ vnd<lb/>
+ſprach: <hi rendition="#fr">Der HErr behuͤte dich fuͤr<lb/>
+allem Vbel/ Er behuͤte deine See-<lb/>
+le/ Ja er behuͤte deinen Eingang<lb/>
+vnd Außgang/ von nun an biß in<lb/>
+Ewigkeit/</hi> Pſal. 121.</p><lb/>
+<p>Das heiſt je ſterben/ <hi rendition="#aq">non ſibi ſed Do-<lb/>
+mino,</hi> <hi rendition="#fr">nicht jhm ſelbſt/ Sondern<lb/>
+dem HErrn/</hi> Ja wol denen vnd aber<lb/>
+wol/ welche alſo ſterben/ denn es heiſt je:<lb/>
+Selig ſind die Todten/ die im <hi rendition="#k">Herrn</hi> ſter-<lb/>
+ben<hi rendition="#i">!</hi> von nun/ der Geiſt ſpricht/ daß ſie ru-<lb/>
+hen von jhrer Arbeit/ vnnd jhre Werck die<lb/>
+folgen jhnen nach/ <hi rendition="#aq">Apoc.</hi> 14.</p></div><lb/>
+<div n="3"><head><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Arcanum III.</hi></hi></hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">V</hi>Nd denn endlich/ ſo findet</hi><lb/>
+ſich auch in vnſerm Apoſtoliſchem<lb/>
+Spruch ein gar ſchoͤnes Kunſtſtuͤck<lb/>
+<fw type="sig" place="bottom">F ij</fw><fw type="catch" place="bottom">vnd</fw><lb/>
+<pb facs="#f0044" n="[44]"/>
+<fw place="top" type="header"><hi rendition="#b">Chriſtliche LeichPredigt/</hi></fw><lb/>
+vnd Geheimniß/ welches berichtet: <hi rendition="#aq">Quod<lb/>
+Chriſtiani non moriantur ſed orian-<lb/>
+tur, vel, quod morte non tollantur ſed<lb/>
+extollantur,</hi> Das Chriſten zwar ſterben<lb/>
+koͤnnen/ ſie koͤnnen aber ſo gar nicht verder-<lb/>
+ben/ das Paulus ſaget: <hi rendition="#fr">Leben wir ſo<lb/>
+leben wir dem <hi rendition="#k">Herrn/</hi> ſterben<lb/>
+wir/ ſo ſterben wir dem <hi rendition="#k">Herrn/</hi><lb/>
+darumb wir leben oder ſterben/ ſo<lb/>
+ſind wir deß <hi rendition="#k">Herrn/</hi> denn dazu<lb/>
+iſt Chriſtus auch geſtorben vnnd<lb/>
+aufferſtanden vnd lebendig wor-<lb/>
+den/ das er vber Todte vnnd Le-</hi><lb/>
+<note place="left">Fleiſch vnd<lb/>
+Blut glaͤu-<lb/>
+bet nicht/<lb/>
+daß man<lb/>
+auch im<lb/>
+Todt ſelig<lb/>
+ſey.</note><hi rendition="#fr">bendige ein <hi rendition="#g"><hi rendition="#k">Herr</hi></hi> ſey.</hi> Jſt noch-<lb/>
+mahln ein ſothanes <hi rendition="#aq">Arcanum</hi> vnnd Ge-<lb/>
+heimniß welches Fleiſch vnd Blut gar nicht<lb/>
+verſtehet. Denn Epicuriſche Menſchen die<lb/>
+haltens je dafuͤr/ wer einmahl ſterbe/ mit<lb/>
+dem ſey es allerdings auß/ der Leib zerfalle<lb/>
+wie eine Loderaſche/ der Geiſt zerfladere wie<lb/>
+eine duͤnne Lufft/ vnnd ſey kein Wiederkom-<lb/>
+<fw place="bottom" type="catch">men/</fw><lb/>
+<pb facs="#f0045" n="[45]"/>
+<fw type="header" place="top"><hi rendition="#b">Auß der Epiſtel Pauli/ Rom. 14.</hi></fw><lb/>
+men/ Sap. 2. Aber wie hefftig iſt dieſes zu-<lb/>
+wieder vnſerm dritten <hi rendition="#aq">Arcano Apoſtoli-<lb/>
+co,</hi> ſintemahl fromme Chriſten im Gegen-<lb/>
+theil wiſſen/ das ſie ſehlige Leute ſeyn/ bey-<lb/>
+des im Leben vnd im Todt/ laut dieſer ſchoͤ-<lb/>
+nen Wort Pauli: <hi rendition="#fr">Leben wir ſo leben<lb/>
+wir dem <hi rendition="#k">Herrn/</hi> ſterben wir ſo<lb/>
+ſterben wir dem HErrn/ darumb<lb/>
+wir leben oder ſterben ſo ſind wir<lb/>
+deß HErrn.</hi> Lutherus hat hieruͤber gar<note place="right"><hi rendition="#aq">Domini in<lb/>
+Nominati-<lb/>
+vo &amp; Geni-<lb/>
+tivo.</hi></note><lb/>
+ſchoͤne Gedancken/ wenn er ſpricht: <hi rendition="#aq">Domi-<lb/>
+ni ſumus, &amp; in Nominativo &amp; in Geni-<lb/>
+tivo caſu,</hi> Die ſehlig Verſtorbenen ſind<lb/>
+deß <hi rendition="#g">HERRN/</hi> <hi rendition="#aq">in Genitivo,</hi> ſie ſind<lb/>
+auch ſelbſten HErrn <hi rendition="#aq">in Nominativo:</hi><lb/>
+<hi rendition="#fr">Deß HErrn</hi> ſind die ſehlig Verſtorbe-<lb/>
+nen/ als Chriſti liebe Schaͤfflein/ welchen er<lb/>
+das ewige Leben gibt/ nimmermehr ſollen<lb/>
+ſie vmbkommen/ vnd wird ſie auß Chriſti<lb/>
+Haͤnden niemand reiſſen/ Joh. 10. HErrn<lb/>
+aber <hi rendition="#aq">in Nominativo</hi> ſind die ſehlig Ver-<lb/>
+ſtorbene auff mancherley Art vnd Weiß:<lb/>
+<fw type="sig" place="bottom">F iij</fw><fw type="catch" place="bottom">Sie</fw><lb/>
+<pb facs="#f0046" n="[46]"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche LeichPredigt/</hi></fw><lb/>
+Sie ſind Herrn vber die Suͤnde/ denn der<lb/>
+geſtorben iſt/ der iſt von der Suͤnde gerecht-<lb/>
+fertiget/ Rom. 6. Die ſehlig Verſtorbene<lb/>
+ſind Herrn vber den Todt/ der iſt jhnen zum<lb/>
+ſuͤſſen Schlaff worden/ Dan. 12. Die ſeh-<lb/>
+lig verſtorbene ſind Herrn vber den Teuffel/<lb/>
+welchen GOtt im kurtzen wird vnter jhre<lb/>
+Fuͤſſe treten/ Rom. 16. Die ſehlig Verſtor-<lb/>
+bene ſind Herrn vber die Helle/ ſintemahl<lb/>
+nichts verdamlichs iſt an allen denen die da<lb/>
+ſind in Chriſto Jeſu vnſerm HErrn/ Rom.<lb/>
+8. Vnd in Summa wer ſehlig im HErrn<lb/>
+entſchlaffen iſt/ der iſt zu ſolcher Herrſchafft<lb/>
+kommen/ das er aller ſeiner Feinde ſpotten<lb/>
+vnd ſagen kan:</p><lb/>
+<lg type="poem"><l>All meine Feinde ſind erlegt/</l><lb/>
+<l>Jhr keiner kan mir ſchaden/</l><lb/>
+<l>So groß iſt Gottes Gnade.</l></lg></div><lb/>
+<div type="fsPersonalia" n="3"><head><hi rendition="#aq">Applicatio Arcani III.<lb/>
+ad beatè defunctum.</hi></head><lb/>
+<p><hi rendition="#in">D</hi>Erwegen anlangendt vnſern Sehli-<lb/>
+gen Herrn von Lochow/ der gehoͤret nu-<lb/>
+mehr auch vnzweiffelich in die Zahl derer/<lb/>
+<fw type="catch" place="bottom">wel-</fw><lb/>
+<pb facs="#f0047" n="[47]"/>
+<fw place="top" type="header"><hi rendition="#b">Auß der Epiſtel Pauli/ Rom. 14.</hi></fw><lb/>
+welche Herrn ſind/ <hi rendition="#aq">&amp; in Genitivo &amp; in Nomina-<lb/>
+tivo caſu,</hi> er iſt des HErrn/ als <hi rendition="#g">CHR</hi>iſti liebes<lb/>
+Schaͤfflein/ ſo iſt er auch ſelbſt ein Herr/ welcher<lb/>
+jtzo aller ſeiner/ beydes Leiblicher vnnd Geiſtlicher<lb/>
+Feinde/ ſpottet vnd ſpricht:</p><lb/>
+<cit><quote><quote><lg corresp="#tra47" xml:id="poe47" type="poem"><l xml:id="line2a" next="#line2b"><hi rendition="#aq"><hi rendition="#i">Ad portam veni, mors peccatumꝙ́ fa-</hi></hi></l><lb/>
+<l xml:id="line2b" prev="#line2a"><hi rendition="#aq"><hi rendition="#et">(<hi rendition="#i">ceſſe</hi></hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Jn <hi rendition="#k">Christo</hi> vivo lætitiâꝙ́ fruor.</hi></hi></l></lg></quote></quote><bibl/></cit><lb/>
+<cit><quote><quote><lg corresp="#poe47" xml:id="tra47" type="poem"><l>Zum ſichern Port Jch kommen bin<hi rendition="#i">!</hi></l><lb/>
+<l>Suͤnde Todt/ Teuffel fahr dahin/</l><lb/>
+<l>Jch Chriſto hab ich Fried vnd Frewd/</l><lb/>
+<l>Vnd leb in ewiger Seligkeit.</l></lg></quote></quote><bibl/></cit><lb/>
+<p>Derwegen ſolche Ehr vnnd Herrligkeit die goͤn-<lb/>
+nen wir dem ſehligen lieben Herrn von Hertzen<lb/>
+gern/ wir wuͤnſchen ſeinem zarten Leichnam eine<lb/>
+ſanffte Ruhe vnd froͤliche Aufferſtehung zum Ewi-<lb/>
+gen Leben/ wir wuͤnſchen den Adelichen Anverwan-<lb/>
+ten krefftigen Troſt vom heiligen Geiſt/ ja wir wuͤn-<lb/>
+ſchen vns allen eine ſeine Nachfolge/ damit wir<lb/>
+auch <hi rendition="#fr">nicht Vns ſelber/ ſondern dem HER-<lb/>
+REN leben vnd ſterben</hi> moͤgen/ Denn wirds<lb/>
+wol heiſſen:</p><lb/>
+<lg type="poem"><l>Wir wachen oder ſchlaffen ein/</l><lb/>
+<l>So ſind wir doch des HERREN/</l><lb/>
+<fw place="bottom" type="catch">Auff</fw><lb/>
+<pb facs="#f0048" n="[48]"/>
+<fw type="header" place="top"><hi rendition="#b">Chriſtliche LeichPredigt/ Rom. 14.</hi></fw><lb/>
+<l>Auff Chriſtum wir getauffet ſeyn/</l><lb/>
+<l>Der kan dem Sathan wehren/</l><lb/>
+<l>Durch Adam auff vns koͤmbt der Tod/</l><lb/>
+<l>Chriſtus hilfft vns aus aller Noth/</l><lb/>
+<l>Druͤmb loben wir den HErren:</l></lg><lb/>
+<p>Den <hi rendition="#g"><hi rendition="#k">Herrn</hi></hi> nemblich/ welchem ſambt dem<lb/>
+Vater vnd heiligem Geiſt Lob/ Ehr vnnd Danck<lb/>
+geſaget ſey von Ewigkeit zu Ewigkeit:</p><lb/>
+<p><hi rendition="#c">Wollen hierauff die Noth der gantzen Chriſtenheit<lb/>
+zuſamen faſſen/ vnd mit einander ein Gleu-<lb/>
+biges vnnd Andaͤchtiges <hi rendition="#fr">Vater<lb/>
+vnſer</hi> beten.</hi></p></div></div></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+</body></text>  </TEI>

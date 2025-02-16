@@ -1,0 +1,1515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Rosa generosa</title>
+<title type="sub">Das ist Eine Christliche/ Trost- vnnd Lehrhaffte Betrachtung/ [...] Bey Gräfflicher Leichbegängnüß/ Deß Weyland HochWolgebohrnen Gravens vnd Herrens/ H. Wilhelm Reinhards</title>
+<author>
+<persName ref="http://d-nb.info/gnd/121726118">
+<surname>Wild</surname>
+<forename>Johann Daniel</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">32</measure>
+<measure type="tokens">11241</measure>
+<measure type="types">3132</measure>
+<measure type="characters">75180</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:10:27Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/523570</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/523570</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/523570</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/523570</idno>
+<idno type="DTADirName">523570</idno>
+<idno type="DTAID">200107</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-200107-0</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Wild, Johann Daniel: Rosa generosa. Hanau, 1631.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Rosa generosa</title>
+<title level="m" type="sub">Das ist Eine Christliche/ Trost- vnnd Lehrhaffte Betrachtung/ [...] Bey Gräfflicher Leichbegängnüß/ Deß Weyland HochWolgebohrnen Gravens vnd Herrens/ H. Wilhelm Reinhards</title>
+<author>
+<persName ref="http://d-nb.info/gnd/121726118">
+<surname>Wild</surname>
+<forename>Johann Daniel</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">32</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Conrad Eifrid</name></publisher>
+<pubPlace>Hanau</pubPlace>
+<date type="publication">1631</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 S 121/1 / 523570</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#aq"><hi rendition="#g">ROSA GENEROSA:</hi></hi></titlePart><lb/>
+<titlePart type="sub">Das iſt<lb/>
+<hi rendition="#fr">Eine Chriſtliche/ Troſt- vnnd Lehrhaffte<lb/>
+<hi rendition="#b">Betrachtung/</hi></hi><lb/>
+Warumb doch der Menſch ſo offt vnd viel mit einer Roſen oder Blu-<lb/>
+men in GOttes Wort verglichen werde/</titlePart><lb/>
+<titlePart type="desc"><hi rendition="#fr">Bey Graͤfflicher Leichbegaͤngnuͤß/<lb/>
+Deß Weyland HochWolgebohrnen Gravens<lb/>
+vnd Herrns/<lb/>
+<hi rendition="#b">H. Wilhelm <choice><sic>E</sic><corr>R</corr></choice>einhards/</hi><lb/>
+Gravens zu Hanaw/ vnd Rieneck/ Herꝛns</hi><lb/>
+zu Muͤntzenbergk/ ꝛc.<lb/>
+<hi rendition="#fr">Deſſen Gn. im beſten bluͤhenden Alter den 5. Octob. Anno</hi><lb/>
+1630. zu Aachen tods verblichen/ vnd folgends den 18. Decemb. in<lb/>
+Jhr verordnetes Ruhkaͤmmerlein zu Hanaw in der Pfarr-<lb/>
+kirchen/ geſetzt worden:</titlePart></docTitle><lb/>
+<byline>Angeſtellt vnd fuͤrgebracht<lb/>
+Durch<lb/>
+<docAuthor><hi rendition="#fr">Johan-Danieln Wildium</hi></docAuthor><hi rendition="#fr">/ Pfarꝛern vnd</hi><lb/>
+<hi rendition="#aq">Inſpectorem</hi> daſelbſten.</byline><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docImprint><pubPlace><hi rendition="#fr">Hanaw</hi></pubPlace><hi rendition="#fr">/<lb/>
+Bey</hi> <publisher><hi rendition="#fr">Conrad Eifrid</hi></publisher><hi rendition="#fr">/ Jm Jahr</hi> <docDate><hi rendition="#fr">1631</hi></docDate><hi rendition="#fr">.</hi></docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="[2]"/>
+<cit><quote><hi rendition="#c"><hi rendition="#aq"><hi rendition="#b">Memento Mori,</hi><lb/>
+<hi rendition="#i">&amp;<space dim="horizontal"/>NB.</hi><lb/>
+Aureum illud Hugonis dictum de morte piorum, quippe<lb/>
+quod optimè conuenit cum Sacris literis:</hi></hi><lb/>
+<list><item><hi rendition="#aq">Mors eſt</hi><list rendition="#leftBraced"><item><hi rendition="#aq"><hi rendition="#i">exitus de carcere<lb/>
+finis exilij<lb/>
+laboris conſummatis<lb/>
+omnium onerum depaſitio<lb/>
+debitinaturalis ſolutio<lb/>
+omnium periculorum euaſio<lb/>
+reditus ad patriam<lb/>
+janua ad veram vitam<lb/>
+ingreſſus ad gloriam</hi></hi></item></list></item></list></quote><bibl/></cit><lb/>
+<pb facs="#f0003" n="3"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsSermon" n="1"><head/>  <div type="preface" n="2"><head><hi rendition="#b">Eingang.</hi></head><lb/>
+<p><hi rendition="#in">D</hi>Emnach der Allmaͤchtige Ewige Gott/<lb/>
+der aller Menſchen Leben vnd Tod in<lb/>
+ſeiner Hand hat/ nach ſeinem heiligen/<lb/>
+weiſen/ vnwandelbaren Rath vnnd<lb/>
+Willen/ den weyland Hochwolgebor-<lb/>
+nen Herrn/ Herrn <hi rendition="#fr">Wilhelm Reinharden/</hi><lb/>
+Graven zu Hanaw vnd Rieneck/ Herrn zu Muͤntzen-<lb/>
+berg/ ꝛc. in ſeinem beſten bluͤhenden Alter/ nach auß-<lb/>
+geſtandenẽ viel vnd mancherley groſſen Leibsſchmer-<lb/>
+tzen/ kurtz verruckter Zeit auß dieſem Elendsthal zu<lb/>
+ſeinen ewigen Vaͤtterlichen Gnaden abgefordert/<lb/>
+Vnd wir jtzt den hinderblibenen verblichenen toden<lb/>
+Coͤrper/ vnd Graͤvelichen Leichnam hiehero zum<lb/>
+Ruhbettlin der Erden/ Chriſtgebuͤrlicher maſſen<lb/>
+begleytet/ vnd alſo dieſem nunmehr in GOtt ruhen-<lb/>
+den S. Herꝛn den allerletzten Chriſtſchuldigen Eh-<lb/>
+rendienſt in dieſer Welt damit erzeiget haben.</p><lb/>
+<p>Alß iſt es ja in alle wege billich vnd recht/ daß wir<lb/>
+ſampt vnd ſonders auß vnderthaͤnigem Chriſtlichem<lb/>
+Mitleyden gegen vnſere/ durch dieſen vnverſehenen<lb/>
+<fw place="bottom" type="catch">tods-</fw><lb/>
+<pb facs="#f0004" n="4"/>
+Todsfall hochbetruͤbte Gn. Herꝛſchafft/ vnd deroſel-<lb/>
+ben Hochangewandte/ an itzo einen <hi rendition="#aq">Luctum publi-<lb/>
+cum</hi> vnnd offenen allgemeinen Trawertag halten/<lb/>
+daran wir ſo bald vnſere allgemeine/ durch den leydi-<lb/>
+genFall vnſerer Großeltern eingefuͤhrte ſterblichkeit/<lb/>
+vnd ſuͤndlichen Jammerſtand von Hertzen beklagen<lb/>
+vnd beweynen/ Doch auch hinwiderumb vns mit<lb/>
+der Hertzerquickenden troͤſtlichen Verheiſſung von<lb/>
+gnaͤdiger vergebung der Suͤnden/ von froͤlicher<lb/>
+Aufferſtehung/ vnd Ewig-ſeligem Leben miteinan-<lb/>
+der troͤſten.</p><lb/>
+<p>Zu welchem Ende wir dann in gegenwertiger<lb/>
+hochanſehnlicher groſſer Verſamblung/ einen Lehr-<lb/>
+vnd Troſtreichen Text auß GOttes deß <hi rendition="#k">Herren</hi><lb/>
+Wort zu betrachten fuͤrnehmen/ vnd zu deſſen frucht-<lb/>
+bahrlicher Verhandelung vor allen dingen/ vmb die<lb/>
+gnaͤdige Regierung/ vnd kraͤfftige Erleuchtung deß<lb/>
+H. Geiſtes mit einander vnd fuͤr einander alſo beten<lb/>
+woͤllen/ wie vns vnſer Hochverdienter Einiger voll-<lb/>
+kommener Heyland Jeſus Chriſtus ſelbſten gelehret<lb/>
+vnd befohlen hat:</p><lb/>
+<cit><quote>Vnſer Vatter/ ꝛc.</quote><bibl/></cit></div><lb/>
+<fw place="bottom" type="catch"><hi rendition="#b">Der</hi></fw><lb/>
+<pb facs="#f0005" n="5"/>
+<fw type="header" place="top"><hi rendition="#aq"><hi rendition="#g">ROSA GENEROSA.</hi></hi></fw><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsBibleVerse" n="2"><head><hi rendition="#fr"><hi rendition="#b">Der Text</hi></hi></head><lb/>
+<p><hi rendition="#fr">Dieſer vorhabender LeichPredigt wird beſchrieben</hi></p><lb/>
+<cit><bibl><hi rendition="#c">im 103. Pſalm. <hi rendition="#aq">verſ.</hi> 15. 16. 17. 18. 19.</hi></bibl><lb/>
+<quote><p><hi rendition="#fr"><hi rendition="#in">D</hi>Er Menſch iſt in ſeinem Leben</hi><note place="right"><hi rendition="#aq">Verſ.</hi> 15.</note><lb/>
+<hi rendition="#fr">wie graß/ er bluͤhet wie ein Blu-<lb/>
+me auff dem Felde.</hi></p><lb/>
+<p><hi rendition="#fr">Wann der Wind daruͤber gehet/ ſo iſt</hi><note place="right"><hi rendition="#aq">V.</hi> 16.</note><lb/>
+<hi rendition="#fr">ſie nimmer da/ vnd jhre Stette kennet ſie<lb/>
+nicht mehr.</hi></p><lb/>
+<p><hi rendition="#fr">Die Gnade aber deß <hi rendition="#k">He</hi>rꝛen wehret</hi><note place="right"><hi rendition="#aq">V.</hi> 17.</note><lb/>
+<hi rendition="#fr">von Ewigkeit zu Ewigkeit/ vber die ſo<lb/>
+jhn fuͤrchten/ vnnd ſeine Gerechtigkeit<lb/>
+auff Kindes Kind.</hi></p><lb/>
+<p><hi rendition="#fr">Bey denen die ſeinen Bund halten/</hi><note place="right"><hi rendition="#aq">V.</hi> 18.</note><lb/>
+<hi rendition="#fr">vnd gedencken an ſeine Gebotte/ daß ſie<lb/>
+darnach thun.</hi></p><lb/>
+<p><hi rendition="#fr">Der HErꝛ hat ſeinen Stul im Him-</hi><note place="right"><hi rendition="#aq">V.</hi> 19.</note><lb/>
+<hi rendition="#fr">mel bereitet/ vnd ſein Reich herꝛſchet v-<lb/>
+ber alles.</hi></p></quote></cit></div><lb/>
+<fw type="sig" place="bottom">A iij</fw><fw type="catch" place="bottom"><hi rendition="#b">Auß-</hi></fw><lb/>
+<pb facs="#f0006" n="6"/>
+<fw place="top" type="header"><hi rendition="#aq"><hi rendition="#g">ROSA GENEROSA.</hi></hi></fw><lb/>
+<div type="fsExordium" n="2"><head><hi rendition="#b">Außlegung.</hi></head><lb/>
+<p><note place="left">Coloſ. 3. 12.</note><hi rendition="#fr"><hi rendition="#in">A</hi>Vßerwehlte GOTtes Heilige vnnd Gelibte/</hi><lb/>
+Gleich wie der Menſch nicht ohne ſonderliche Vrſach/ von<lb/>
+allen hochgelaͤhrten vnd wolgeuͤbten Naturkuͤndigern/ ſo<lb/>
+wol in der Heydenſchafft als in dem Chriſtenthumb genen-<lb/>
+net worden iſt <hi rendition="#aq">Microcoſmus,</hi> das iſt/ ein kurtzer Begriff/ eine Copey/ vnd<lb/>
+<note place="left">Der Mẽſch<lb/>
+wirt mit<lb/>
+vielen Din-<lb/>
+gen in der<lb/>
+Welt ver-<lb/>
+gliechen.</note>Controfait der gantzen groſſen weiten Welt: alſo wird auch Er vnd ſein<lb/>
+gantzer Zuſtand durch viel vnd mancherley Gleichniße/ ſo von groſſen<lb/>
+vnd kleinen Dingen in dieſer Welt hergenommen werden/ hin vnd wider<lb/>
+beſchrieben vnd ſehr wol abgemahlet. Einmal wird der Menſch wegen<lb/>
+ſeiner ſchoͤnen glaͤntzenden Gaben/ wie auch wegen ſeiner kuͤnfftigen Herꝛ-<lb/>
+<note place="left">Syr. 26. 21.</note>ligkeit verglichen mit der <hi rendition="#fr">Sonne an dem hohen Himmel.</hi> Ein an-<lb/>
+<note place="left">Matt. 13.<lb/>
+43.</note>dermal wirt er wegen ſeiner ankunfft vnd demuth verglichen mit <hi rendition="#fr">der Er-</hi><lb/>
+<note place="left">Gen. 3. 19.</note><hi rendition="#fr">den/</hi> die man mit Fuͤſen tritt/ ja mit <hi rendition="#fr">Staub vnd Aſchen.</hi> Bißweilen<lb/>
+<note place="left">Gen. 18. 27.</note>wirt der Menſch wegen ſeines vnbeſtendigen/ ſchnell hinrauſchenden Le-<lb/>
+<note place="left">Pſal. 90. 5.</note>bens verglichen mit einem fliſenden <hi rendition="#fr">Strohm.</hi> Vielmal wirt auch der<lb/>
+<note place="left">Matt. 7. 18<lb/>
+21. 19.</note>Menſch wegen ſeiner fruͤchte der Gottſeligkeit/ damit er ſeinen Schoͤpffer<lb/>
+vnd den Nebẽ Chriſten erfrewen ſoll/ mit <hi rendition="#fr">einem Baum</hi> verglichen/ vnd<lb/>
+ſeine heucheley mit den <hi rendition="#fr">Blaͤttern.</hi> Vnd welches noch mehr zu verwun-<lb/>
+dern/ wirt dieſe edle Creatur der Menſch manchmal verglichen mit an-<lb/>
+<note place="left">Jacob 4. 14</note>dern ſehr geringen vnd veraͤchtlichen Dingen/ mit einem <hi rendition="#fr">Rauch oder</hi><lb/>
+<note place="left">Pſal. 103. 15</note><hi rendition="#fr">Dampff.</hi> Jacob. 4. mit einem <hi rendition="#fr">Graſe.</hi> Pſal. 103. mit einem <hi rendition="#fr">Wurm/</hi><lb/>
+<note place="left">Pſal. 22. 7. <gap reason="lost" unit="chars" quantity="1"/></note>Pſal. 22. mit einem <hi rendition="#fr">Schlaff/</hi> mit einem <hi rendition="#fr">Geſchwaͤtze/</hi> Pſal. 90. Vnd<lb/>
+<note place="left">Pſal. 90. 5.<lb/>
+9.</note>was dergleichen andere Stuͤck mehr ſind in dieſer Welt/ damit der ſterb-<lb/>
+liche Menſch/ vnd all ſein Zuſtand abgemahlet wirt.</p><lb/>
+<note place="left">Sonderlich<lb/>
+aber wirt<lb/>
+der Menſch<lb/>
+mit einer<lb/>
+Blum ver-<lb/>
+glichen.</note><p>Aber vnter allen dieſen ſo viel vnd mancherley Gleichnuͤſſen iſt kei-<lb/>
+nes ſo ſchoͤn/ ſo lieblich/ ſo Lehr- vnd Troſtreich/ wirt auch keines ſo offt<lb/>
+vnd viel in der H. Schrifft wiederholet/ als eben dieſes in vnſerm abgele-<lb/>
+ſenen Text/ da der Menſch verglichen wirt mit einer <hi rendition="#fr">Blum oder Ro-<lb/>
+ſen.</hi> Diß Gleichnis hat vorzeiten im Alten Teſtament eingefuͤhret/ der<lb/>
+<note place="left">Job. 14. 2.</note>rechte vnd ſchlechte Hiob in ſeinem Buch am 14. Cap. Diß Gleichniß<lb/>
+<note place="left">Eſa. 40. 6.</note>hat der Geiſt Gottes durch den Mund ſeines Propheten Eſai<hi rendition="#aq">æ</hi> den Ge-<lb/>
+fangenen zu Babel zum Troſt fuͤrhalten/ vnd erinnern laſſen/ wann ſchon<lb/>
+jhre Feinde noch ſo Maͤchtig vnd Vnvberwindlich anzuſehen weren/ ſo<lb/>
+<note place="left">Pſal 90. 6.</note>ſeyen ſie doch in warheit nichts anders als Hew vnd Graſe/ ja als eine<lb/>
+<note place="left">Pſal. 103.</note>Blum auff dem Felde. Eben diß Gleichnis ſtelt vnd helt vns auch Mo-<lb/>
+ſes fuͤr/ im 90. Pſ. vnd Koͤnig David im abgeleſenen Text.</p><lb/>
+<fw place="bottom" type="catch">Diß</fw><lb/>
+<pb facs="#f0007" n="7"/>
+<fw type="header" place="top"><hi rendition="#aq"><hi rendition="#g">ROSA GENEROSA.</hi></hi></fw><lb/>
+<p>Diß Gleichnis iſt auch im Newen Teſt. ſo wol von dem Himliſchen<lb/>
+<hi rendition="#aq">Oratore</hi> ſelbſten/ dem Doctorn mit <hi rendition="#fr">der gelehrten Zungen/</hi> wie Chri-<lb/>
+ſtus der <hi rendition="#k">He</hi>rꝛ titulirt wirt/ Eſa. am 50. als ſeinen lieben Juͤngern/ den<note place="right">Eſa. 50. 4.</note><lb/>
+<hi rendition="#fr">vorerwehlten Zeugen/</hi> wie ſie genent werden Actor. 10. offt gebraucht<note place="right">Acto. 10. 41.</note><lb/>
+worden. Wie ſtreichet es der <hi rendition="#k">He</hi>rrChriſtus ſo gewaltig herauß Matt. am<note place="right">Matt. 6. 28</note><lb/>
+6? Wie beweglich ſchreibt davon S. Petrus in ſeiner 1. am 1. Cap. vnd S.<note place="right">1. Pet. 1. 24.</note><lb/>
+Jacob auch am 1. Cap? Summa/ die beyde Cherubim auff dem Gna-<note place="right">Jacob. 1. <gap reason="lost" unit="chars" quantity="1"/>1.</note><lb/>
+denthron ruffen gleichſam gegeneinander/ vñ reden mit Verwunderung<lb/>
+von dieſen Sachen. Der Eine zwar ruͤfft vberlaut auß dem 8. Pſ. <hi rendition="#aq">Quid</hi><note place="right">Pſal. 8. 5.</note><lb/>
+<hi rendition="#aq">eſt homo?</hi> <hi rendition="#fr">Was iſt der Menſch? vnd was iſt deß Menſchenkind?</hi><lb/>
+Der Andere aber antwortet darauff in dieſem vnſerẽ Text: <hi rendition="#fr">DerMenſch<lb/>
+iſt in ſeinem Leben wie eine Blum auff dem Felde/ ꝛc.</hi><note place="right">Pſal. 103. 15.</note></p><lb/>
+<p>Wann dann dem allem alſo/ daß diß Gleichniß/ darin der Menſch<lb/>
+eine Blum oder Roſen genent wirt/ das allerſchoͤnſte/ das allerlieblichſte/<lb/>
+das allerreichſte an Lehr vnd Troſt/ auch das allergebraͤuchlichſte iſt in der<lb/>
+gantzen H. Schrifft/ ſo kan ja nun ein jeder ſelbſt abnehmen/ daß man auß<lb/>
+dieſem wol verſtandenen/ vnd rechtgefaſten Gleichniß vberauß viel Lehr/<lb/>
+Troſt vnd Erbawung ſchoͤpffen koͤnne im leben vnd in dem ſterben.</p><lb/>
+<p>Werden derhalben nicht vb<supplied>el</supplied> ſondern ſehr wol daran thun/ wann<lb/>
+wir bey gegenwertiger Graͤfflicher Leychbegaͤngniß/ dieſes nun mehr S.<lb/>
+jungen Herꝛn (deſſen Gn in jhren beſten bluͤhenden Jahren/ durch den<lb/>
+ſcharffen Wind deß zeitlichen Tods angeblaſen/ vnd von jhrer jrꝛdiſchen<lb/>
+Staͤtt hinweg gewehet worden) das abgeleſene Gleichnis ein wenig tieffer<lb/>
+zu Gemuͤth ziehen/ vnd bedencken:</p><lb/>
+<div n="3"><head/>  <p><hi rendition="#et"><hi rendition="#fr">Warumb doch wol der H. Geiſt/ ſo offt vnd vielmal<note place="right"><hi rendition="#aq">Propoſitio.</hi></note><lb/>
+in der H. Schrifft Altes vnd Newen Teſtaments den<lb/>
+Menſchen vergleiche mit einer Blumen oder Roſen?</hi></hi></p><lb/>
+<p>Nach außgefuͤhrtem dieſem Puncten woͤllen wir dann auch dieſes ſeligen<lb/>
+abgeſtorbenen jungen Herꝛn/ in gebuͤhrlichen Ehren gedencken/ vñ erweh-<lb/>
+nen/ wie dieſe Graͤffliche Blum auß einem ſo hohen fuͤrnehmen Stam̃<lb/>
+entſproſſen/ wie Sie eine zeitlang gebluͤhet/ wie der ſcharffe Wind dart ber<lb/>
+gangen/ wie Sie verwelckt vnd verbliechen/ vnd wie Sie endlich am juͤng-<lb/>
+ſten froͤlichen Sommertag ſo herꝛlich/ ſo ſchoͤn vnd ſelig herfuͤr kommen<lb/>
+werde. Der Vatter aller Gnade vnd Barmhertzigkeit woͤlle zu dieſem<lb/>
+vnſerm Chriſtlichen Vorhaben/ die Gnadenkrafft ſeines H. Geiſtes reich-<lb/>
+lichverleyhen vnd allerſeits mittheilen durch Jeſum Chriſtum/ Amen.</p><lb/>
+<fw type="catch" place="bottom">Betreff-</fw><lb/>
+</div></div>
+<pb facs="#f0008" n="8"/>
+<fw place="top" type="header"><hi rendition="#aq"><hi rendition="#g">ROSA GENEROSA.</hi></hi></fw><lb/>
+<div type="fsMainPart" n="2"><p><note place="left">Der<lb/>
+Menſch<lb/>
+wird einer<lb/>
+Blum ver-<lb/>
+glichen.</note><hi rendition="#fr"><hi rendition="#in">B</hi>Etreffend nun dieſen vnſern jetztgethanen Außſpruch/</hi><lb/>
+vnd fuͤrgeſchlagenen Puncten/ ſo koͤnten zwar ſehr viel vnd man-<lb/>
+cherley ſchoͤne Vrſachen beygebracht werden/ vmb deren willen<lb/>
+der Menſch mit einer Blum oder Roſen in GOttes Wort ver-<lb/>
+<note place="left">1.<lb/>
+Wegen des<lb/>
+vrſprungs.</note>glichen wirdt: Alß erſtlich wann man wolte anſehen beyderley Vr-<lb/>
+ſprung. Dann gleich wie eine natuͤrliche Blum/ wann ſie ſchon noch ſo<lb/>
+koͤſtlich/ ſo edel vnd ſo herꝛlich were/ dannoch nirgend anders herwaͤchſt/<lb/>
+als auß der Erden/ vnd zwar auß fauler Erden/ auß vermoderter Erden/<lb/>
+die man auch deß wegen mit fleiß zu dem Roſenſtock/ vnd Blumenwur-<lb/>
+tzeln ſamlet: Alſo hat auch ein jeder Menſch ſeinen Vrſprung auß der<lb/>
+<note place="left">Gen. 3 19.</note>Erden/ nach dem vhralten Lied: <hi rendition="#fr">Du biſt Erd/ vnd ſolt zur Erden<lb/>
+werden.</hi> Da hat kein Menſch auff Erden einigen andern Eingang/ o-<lb/>
+der Anfang als der ander. Da hat der groͤſte Koͤnig keinen Vorzug fuͤr<lb/>
+<note place="left">Sap. 7. 6.</note>dem allergeringſten/ wie ſolches der hochberuͤhmbte Koͤnig Salomo von<lb/>
+ſich ſelbſten offentlich geſchrieben hat. Welche Betrachtung billich bey<lb/>
+vns allen/ Lieb vnd Demuht erwecken vnd erhalten ſolte.</p><lb/>
+<p><note place="left">2.<lb/>
+Wegen<lb/>
+mancherley<lb/>
+Art vnd<lb/>
+Gattung.</note>Man koͤnte auch hie ſagen von dem groſſen vnd mancherley Vnter-<lb/>
+ſcheyd/ der ſich ſo wol zwiſchen den Menſchen als den Blumen ſindet.<lb/>
+Dann etliche Blumen wachſen fruͤh im Jahr/ etliche aber ſpaͤt. Etliche<lb/>
+vergehen bald wider/ andere waͤhren lang. Etliche ſind hoch/ etliche<lb/>
+nidrig. Etliche haben nur eine Farb/ andere aber haben viel vnd bundte<lb/>
+Farben: Etliche ſind huͤbſch von Geſtalt/ ſind ſchoͤn gefuͤllte Roſen/ vnd<lb/>
+riechen doch nichts/ dienen auch zu nichts als zum bloſſen anſehen. Etli-<lb/>
+che haben ein ſchlecht anſehen von auſſen/ ſind nur einfache Roſen/ ha-<lb/>
+ben aber groſſe Krafft vnd Wirckung. Etliche riechen wol/ ſuͤß vnd lieb-<lb/>
+lich/ etliche aber ſtarck vnd uͤbel. Vnnd was dergleichen Vnderſcheidt<lb/>
+mehr zwiſchen den ſo vielfaͤltigen Blumen auff Erden gefunden wird.</p><lb/>
+<p>Eben alſo verhelt ſichs auch mit den Menſchen/ welche vnſer Text mit<lb/>
+den Blumen vergleicht. Ein maͤchtig groſſer vielfaͤltiger Vnderſcheidt iſt<lb/>
+vnd bleibt zwiſchen den Menſchen Kindern/ ſo lang ſie allhie auff Erden<lb/>
+gruͤnen vnd bluͤhen. Etliche ſind hoch von Stand/ von Ampt/ von Ehren<lb/>
+vnd Gaben/ ſind Herꝛn/ Obrigkeiten/ Regenten/ edle/ geſchickte vnd vor-<lb/>
+nehme Leute: Andere aber ſind niedrig/ gering/ vnd nahe bey der Erden/<lb/>
+ſind Knechte/ Maͤg<supplied>d</supplied>e/ Vnderthanen/ Tagloͤhner/ <hi rendition="#aq">fex populi,</hi> oder auch<lb/>
+wie das gemeine Graß: Etliche aber leben vnd bluͤhen zimblich lang/ wer-<lb/>
+den alt/ etliche aber haben bald außgebluͤhet/ vnd verwelcken zeitlich Man-<lb/>
+cher hat viel vnd ſchoͤne Farben/ vnd iſt hoch begabt von Gott/ aber er leget<lb/>
+<fw place="bottom" type="catch">ſeine</fw><lb/>
+<pb facs="#f0009" n="9"/>
+<fw type="header" place="top"><hi rendition="#aq"><hi rendition="#g">ROSA GENEROSA.</hi></hi></fw><lb/>
+ſeine Gaben vbel an/ vnd kan derſelben niemand genieſen. Mancher hat<lb/>
+dargegen nur eine Farb/ ein <hi rendition="#aq">talent,</hi> vnd ſchaffet damit viel nutzen/ ꝛc.</p><lb/>
+<p>Aber von dieſen vnd dergleichen andern Puncten/ darinn die vorha-<note place="right">3.<lb/>
+Wegen der<lb/>
+vielfaltigen<lb/>
+Auß- vnd<lb/>
+Fortſetzũg.</note><lb/>
+bende Gleichnis moͤchte geſucht werden/ will ich jtzt nichts weiter reden/<lb/>
+ſondern nur allein von der vielfaltigen <hi rendition="#aq">tranſportation</hi> vnd Verſetzung/<lb/>
+ſo beyderſeits zu geſchehen pfleget. Dann die natuͤrliche Blumen/ oder<lb/>
+Roſen belangend/ ſo werden dieſelbige offt vnd vielmal verſetzt/ bald hie-<lb/>
+her/ bald dorthin/ bald in dieſes/ bald in jenes Gaͤrtlin/ haben auch immer<lb/>
+ein anderes vnd beſſeres anſehen hie als dort/ biß zu letzt groſſe volkomme-<lb/>
+ne gefuͤllte Roſen darauß werden: Ebener maſſen verhelt ſichs auch mit<lb/>
+dem Menſchen. Dann wann wir auffſchlagen das <hi rendition="#aq">herbarium Spiritus<lb/>
+Sancti,</hi> das iſt/ die Bibel als ein geiſtliches Kraͤuterbuch deß H Geiſtes/<lb/>
+vnd forſchen fleiſſig darinnen nach dieſer Blumen vnd deroſelben Eygen-<lb/>
+ſchafften/ oder Zuſtand/ ſo befindet ſichs/ daß der Menſch als eine Blu-<lb/>
+me von Gott dem himliſchen Gaͤrtner <hi rendition="#fr">Vier vnterſchiedlich mal ver-<lb/>
+ſetzet</hi> wirt/ hat auch jmmer an einem Ort ein ander Anſehen vnd Zu-<lb/>
+ſtand/ als an dem andern.</p><lb/>
+<p>Das erſte mal hat Gott der <hi rendition="#k">He</hi>rr den Menſchen gepflantzt vnd ge-<note place="right">DerMẽſch<lb/>
+wirt vier-<lb/>
+mal von<lb/>
+Gott ver-<lb/>
+ſetzet.</note><lb/>
+ſetzt in den Garten Eden/ in das jrrdiſche ſchoͤne Paradiß. Das ander-<lb/>
+mal (nach dem Suͤndenfall) auß Zorn vnd gerechtem Vrtheil in den E-<lb/>
+lendsthal vnd verfluchten Acker dieſer Welt. Zum dritten/ <hi rendition="#aq">in hortum<lb/>
+Eccleſiæ,</hi> in den geiſtlichen Kirchengarten. Endlich ſetzt er jhn in den him̃-<lb/>
+liſchen ewigen Luſtgarten. Laſt vns dieſe viererley Verſetzung/ vnd vnter-<lb/>
+ſchiedlichen Zuſtand fein ordentlich nach einander betrachten/ das wirt<lb/>
+vns bringen das <hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Nosce Teipsvm,</hi></hi></hi> vnd mit demſelben viel noth-<lb/>
+wendig Lehr vnd Troſt/ vnd zwar ſolches alles/ oder doch mehrertheils<lb/>
+nach anweiſung dieſes vnſers Textes.</p></div><lb/>
+<div n="3"><head><hi rendition="#aq">I.</hi><lb/>
+<hi rendition="#b">Die Blum im Paradißgarten.</hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">J</hi>M allererſten anfang dieſer Welt/ hat Gott der <hi rendition="#k">Herr</hi></hi><note place="right">Des Men-<lb/>
+ſchen ſeliger<lb/>
+Zuſtand<lb/>
+fuͤr dẽ Fall/<lb/>
+wirt durch<lb/>
+eine ſchoͤne<lb/>
+Blum vor-<lb/>
+gebildet.</note><lb/>
+den Menſchen gepflantzt vnd geſetzt in den Garten Eden/ in das<lb/>
+herrliche Paradiß. Da ſtunde der Menſch als ein ſchoͤne anſeh-<lb/>
+liche Roſen in voller bluth/ in allem Schmuck vnd Zierd. Er war<lb/>
+<hi rendition="#aq">nobiliſſima creatura,</hi> das aller edleſte Geſchoͤpff/ daran Gott vnd die H.<lb/>
+Engel ein ſonderbares gefallen gehabt. Vnd ſo viel ſonſten eine ſchoͤne<lb/>
+<fw type="sig" place="bottom">B</fw><fw type="catch" place="bottom">Blum</fw><lb/>
+<pb facs="#f0010" n="10"/>
+<fw place="top" type="header"><hi rendition="#aq"><hi rendition="#g">ROSA GENEROSA.</hi></hi></fw><lb/>
+Blum das gemeine Graſe vbertrifft/ ſo viel die Sonne am Him̃el andern<lb/>
+Sternen vnd Liechtern vorzuziehen iſt. Alſo hat der Menſch an dem Orth/<lb/>
+vnd zur ſelbigen Zeit in viel beſſerer Flohr vnd Bluth geſtanden/ als alle<lb/>
+andere Creaturen/ wie ſie namen haben moͤgen. Wie auch darauß wol<lb/>
+abzunehmen/ daß GOtt der Allmaͤchtige Schoͤpffer an dieſer Blum (al-<lb/>
+ſo zu reden) mehr gearbeitet hat/ als an den andern. Andere Blumen vnd<lb/>
+Gewaͤchſe/ andere Kraͤuter vnd Graſe hat GOtt der <hi rendition="#k">He</hi>rꝛ nur mit einem<lb/>
+<note place="left">Gen. 1. 11.</note>bloſen Befehlchswort herauß gefordert vnd herfuͤrgebracht. Da aber die-<lb/>
+ſe edle Menſchenblum hat ſollen in den Garten <hi rendition="#aq">Eden</hi> geſetzt werden/ da iſt<lb/>
+die gantze H. Dreyfaltigkeit gleichſam zuRath darvber gegangen/ vnd hat<lb/>
+es erſtlich alſo beſchloſſen/ vnd darnach zu Werck gerichtet. Vnd ſolches<lb/>
+nicht an dem erſten tage/ da noch alles <hi rendition="#aq">Tóhu vebóhu</hi> war/ das iſt/ wuͤſt<lb/>
+vnd leer/ ſondern an dem letzten Tag/ da ſchon alles zu deß Menſchen not-<lb/>
+turfft vñ Wolfahrt bereitet geweſen/ abermal zum zeugnis dz der Menſch<lb/>
+<note place="left">Dan. 7.</note>die edleſte Creatur were/ an welcher der <hi rendition="#aq">Antiquus dierum</hi> (wie GOtt der<lb/>
+<hi rendition="#g"><hi rendition="#k">Herr</hi></hi> vom Propheten Daniel genent wirt) auffhoͤren vnnd ruhen<lb/>
+wolte.</p><lb/>
+<p><note place="left">An einer<lb/>
+guten Blu-<lb/>
+men finden<lb/>
+ſich 3. Stuͤ-<lb/>
+cke.</note>Aber/ damit wir bey vnſer vorhabenden Gleichnis bleiben/ ſo be-<lb/>
+denckt ſelbſt/ meine Geliebte/ ob nicht an dem Menſchen ſo lang er im Pa-<lb/>
+radiß gegruͤnet vnd gebluͤhet/ eben die jenige ſtuͤck ſich gefunden haben/ die<lb/>
+ſonſten eine Blum oder Roſen beruͤhmt/ lieb vñ angenehm machen. Was<lb/>
+ſind das dann fuͤr ſtuͤcke/ moͤchte jemand fragen? Antwort dreyerley. Das<lb/>
+1. iſt die ſchoͤne anmuͤhtige Geſtalt/ daran der Menſch ſeine Augen weydet<lb/>
+mit allem luſte. Das 2. iſt der liebliche Geruch/ der durch die Naſen in das<lb/>
+Gehirn dringet/ vnd daſſelbe erquicket. Das 3. iſt die Tugend/ Krafft vnd<lb/>
+Wirckung. Gebt achtung wie dieſe drey Stuͤcke ſo artig zu ſpuͤren gewe-<lb/>
+ſen an dem Menſchen/ als er noch vor dem Fall in dem Paradißgarten<lb/>
+geſtanden vnd gebluͤhet hat.</p><lb/>
+<p><note place="left">1.<lb/>
+Die ſchoͤne<lb/>
+Geſtalt.</note>Haben andere natuͤrliche Roſen vnd Blumen jhre ſchoͤne anmuͤh-<lb/>
+tige Geſtalt/ ſo hat gewißlich auch der Menſch damals eine recht ſchoͤne/<lb/>
+anſehliche/ herꝛliche Geſtalt gehabt/ alle die Blaͤtter an dieſer Blum/ ſo wol<lb/>
+die <hi rendition="#aq">interiora</hi> als <hi rendition="#aq">exteriora,</hi> die jnwendige vnd außwendige ſind fuͤrtreff-<lb/>
+lich vnd ſchoͤn geſtalt geweſen. <hi rendition="#fr">Die außwendige/</hi> das iſt/ ſeine euſſer-<lb/>
+liche leibliche Glieder waren ohn allen tadel/ ohne allen mangel vnd Ge-<lb/>
+brechen/ alles war geſund/ lieblich vnd ſchoͤn/ die <hi rendition="#aq">proportion</hi> war gut vnd<lb/>
+kuͤnſtlich/ die Farb anmuͤhtig/ die Glieder richtig/ die gantze Geſtalt hero-<lb/>
+<fw place="bottom" type="catch">iſch/</fw><lb/>
+<pb facs="#f0011" n="11"/>
+<fw type="header" place="top"><hi rendition="#aq"><hi rendition="#g">ROSA GENEROSA.</hi></hi></fw><lb/>
+iſch/ gravitaͤtiſch vnd eines gewaltigen Anſehens. Vnd da man ſonſten<lb/>
+nach dem Suͤndenfall ſo manchen ſchoͤnen Menſchen <hi rendition="#aq">in vtroq; ſexû,</hi> bey<lb/>
+beyderley Geſchlecht gefunden/ vnd noch findet/ darvber ſich hoͤchlich zu-<lb/>
+verwundern/ ſo iſt leichtlich zu gedencken/ in was fuͤr einer wunderſchoͤ-<lb/>
+nen Blumengeſtalt der erſte Menſch bey ſeiner Vnſchuld im Garten <hi rendition="#aq">E-<lb/>
+den</hi> anzuſchen geweſen/ freylich iſt ſeine euſſerliche Geſtalt/ ein recht kunſt-<lb/>
+wunder- vnd Meiſterſtuͤck geweſen!</p><lb/>
+<p>Woͤllen wir nun auch anſehen die jnwendige Blaͤtter an dieſer ſchoͤ-<lb/>
+nen Menſchenblum/ das iſt/ ſeine Seel vnd deroſelben kraͤfften/ lieber<lb/>
+wer kan vnd mag ſolch ſchoͤne Geſtalt der gebuͤhr abmahlen vnd beſchrei-<lb/>
+ben? Da fuͤnckelte gewaltig herfuͤr das <hi rendition="#aq">lumen ſapientiæ,</hi> das liecht der<lb/>
+Weißheit/ ſein Verſtand war ſcharpff vnd hoch/ Er war weiſer/ gelaͤhr-<lb/>
+ter vnd verſtaͤndiger/ als jetzt der groͤſte Doctor iſt/ Dann er hatte GOtt<lb/>
+gleichſamb ins Hertz geſehen. Das <hi rendition="#aq">lumen ſanctitaris &amp; iuſtitiæ,</hi> das<lb/>
+Liecht der jnnerlichen Heiligkeit vnd Gerechtigkeit glaͤntzete auch gewal-<lb/>
+tig an jhm. Summa/ der gantze Menſch war zu <hi rendition="#fr">GOttes Ebenbild</hi><note place="right">Gen. <gap reason="lost" unit="chars" quantity="1"/>6.</note><lb/>
+erſchaffen/ das iſt/ Herꝛlich/ Gerecht/ Heilig vnd Weiße/ Er war der<lb/>
+<hi rendition="#fr">Goͤttlichen Natur theilhafftig/</hi> Dahero er auch im Geſchlecht Re-<note place="right">2. Petr. 1. <gap reason="lost" unit="chars" quantity="1"/>.</note><lb/>
+giſter Chriſti ein <hi rendition="#fr">Sohn GOttes</hi> genent wirt. Luc. 3. Wer will dañ nun<note place="right">Luc. 3. <gap reason="lost" unit="chars" quantity="1"/> 8<gap reason="lost" unit="chars" quantity="1"/></note><lb/>
+auß dieſem allem nicht erkennen/ daß dieſe Blum eine vberauß ſchoͤne<lb/>
+herꝛliche Geſtalt vnd Anſehen im Garten Eden gehabt habe?</p><lb/>
+<p>Wir leſen bey jenem heydniſchen Poeten ein feine Geſchicht die<lb/>
+nicht vnfuͤglich hiehero gezogen werden kan/ von zwen Hirten/ die einan-<lb/>
+der mit geheimen Raͤtzel auffgeben vnd auffloͤſen gevbet vnd getrieben ha-<lb/>
+ben. Der eine fragt ſeinen Mitgeſellen/ ob er auch errahten koͤnte/ in wel-<lb/>
+chem Land vñ an welchem Ort ſolche Blumen wuͤchſen/ darauff der groſ-<lb/>
+ſen Potentaten Namen geſchrieben ſtuͤnden? Er meynte aber die <hi rendition="#aq">metalla</hi><lb/>
+in dem Bergwerck/ die gelbe vnd weiſe Muͤntze darauff Koͤnige/ Fuͤrſten<lb/>
+vnd Herꝛen jhre Bilder vnd Namen ſchlagen laſſen. Beſſer koͤnnen wir<lb/>
+das ſagen von dieſer Menſchenblum im Paradiß. Darauff ſteth ja der<note place="right">Apoc. 19. 16</note><lb/>
+Name vnd das Bild deß groſſen Koͤniges aller Koͤnige. Apocal. 19.<lb/>
+Bleibt alſo daß derMenſch im Paradißgarten wie eine ſchoͤne Blum ge-<lb/>
+ſtalt geweſen/ ſo viel die euſſerliche vnd jnnerliche Blaͤtter/ das iſt/ Leib vnd<lb/>
+Seel antrifft. Wegen dieſer ſeiner ſchoͤnen Geſtalt/ moͤchte man jhn nun<lb/>
+wol nennen/ ſchoͤn wie der <hi rendition="#fr">Mond/ außerwehlt wie die Sonn.</hi><note place="right">Cant 6. <gap reason="lost" unit="chars" quantity="1"/></note><lb/>
+<fw type="sig" place="bottom">B ij</fw><fw type="catch" place="bottom">Man</fw><lb/>
+<pb facs="#f0012" n="12"/>
+<fw type="header" place="top"><hi rendition="#aq"><hi rendition="#g">ROSA GENEROSA.</hi></hi></fw><lb/>
+<note place="left">Ezech. 24.<lb/>
+16.</note>Man moͤchte jhn nennen ein <hi rendition="#fr">Zweiglin deß ſich das gantze Land<lb/>
+frewet.</hi> Jtem eine <hi rendition="#fr">Augenluſt/</hi> oder gar <hi rendition="#aq">omnem creaturam</hi> auß dem<lb/>
+<note place="left">Marc. 16.<lb/>
+15.</note>16. cap. Marc. verſ. 15.</p><lb/>
+<p><note place="left">2.<lb/>
+Der liebli-<lb/>
+che Geruch.</note>Wie auch eine Blum oder Roſen zu ruͤhmen iſt/ wegen jhres lieb-<lb/>
+lichen Geruchs: alſo auch der Menſch in dem Paradißgarten. Dann er<lb/>
+war Gott <hi rendition="#fr">ein guter Geruch/</hi> wie die Schrifft ſonſten von den Apoſteln<lb/>
+<note place="left">2. Cor. 2. 15.</note>redet/ alle ſeine <hi rendition="#aq">actiones,</hi> ſein Gebet vnd Danckſagung/ vnd was er ſonſt<lb/>
+thaͤte vnnd vornahme/ das roche ſo wol fuͤr dem Angeſicht Gottes deß<lb/>
+<note place="left">Eſa 42. 1.</note><hi rendition="#k">Herren/</hi> das ſeine <hi rendition="#fr">Seel an demſelben ſeinem Außerwehlten</hi><lb/>
+<note place="left">Cantic. 1. 3.</note><hi rendition="#fr">Knecht ein ſonderbares wolgefallen hatte/</hi> Sum̃a/ ſein guter Nah-<lb/>
+<note place="left">Eccl. 7. 2.</note>me war damals wie eine <hi rendition="#fr">außgeſchuͤttete koͤſtliche Salbe.</hi> Vom groſ-<lb/>
+ſen Koͤnig <hi rendition="#aq">Alexandro</hi> wirt geſchrieben/ Er ſey ſo guter natuͤrlicher <hi rendition="#aq">com-<lb/>
+plexion</hi> geweſen/ daß ſein Athem wie ein koͤſtlicher Balſam ſoll gerochen<lb/>
+haben. Wann dem alſo/ ſo koͤnte man ja darauß leichtlich rechnen/ wie die<lb/>
+Blum im Garten Eden vor der Verderbnis ſo trefflichen Geruch werde<lb/>
+gehabt haben/ muͤſſen aber fortſchreiten zu der Tugend vnd Wirckung.</p><lb/>
+<p><note place="left">3.<lb/>
+Die Tu-<lb/>
+gend vnd<lb/>
+Krafft.</note>Wann eine Blum oder Roſen viel tugenden vnd kraͤfftige Wirck-<lb/>
+ung hat/ ſo iſt ſie billich zu loben. Derhalben auch dieſe vnſere Paradiß-<lb/>
+blum. Dann groß war jhre Krafft vnd Wirckung. Es konte der Menſch<lb/>
+alles gute thun vnd wircken/ was Er nur ſelber wolte. Er regierte vber die<lb/>
+<note place="left">Pſal. 8. 7.</note>gantze Welt/ alles war jhm vnterthan. Alle <hi rendition="#aq">beſtien</hi> konte er bezwingen/<lb/>
+ſeine Krafft vnd Staͤrcke war groß/ es muſte ſich alles fuͤr jhm buͤcken<lb/>
+vnd duͤcken <hi rendition="#aq">&amp;c.</hi> Nun ſehet/ Geliebte/ ob nicht der Menſch eine ſehr ſchoͤ-<lb/>
+ne außerwehlte Blum geweſen im Garten Eden/ im Paradiß? Schoͤn<lb/>
+war ſeine <hi rendition="#fr">Geſtalt/</hi> lieblich war ſein <hi rendition="#fr">Geruch/</hi> kraͤfftig war ſeine <hi rendition="#fr">Wirck-<lb/>
+ung/</hi> vnd groß ſeine <hi rendition="#fr">Tugenden.</hi></p><lb/>
+<p><note place="left">Diß alles<lb/>
+dienet zur<lb/>
+lieb/ vnd<lb/>
+zum lob<lb/>
+Gottes.</note>Billich loben/ preiſen vnd lieben wir nun den Schoͤpffer/ der an die-<lb/>
+ſer ſchoͤnen Menſchenblum ſeine Weißheit/ ſeine Allmacht/ vnd ſeine Guͤ-<lb/>
+<supplied>t</supplied>igkeit ſo ſtattlich bewieſen hat. Sollen wir nicht hie anſtimmen vnd vber-<lb/>
+laut ruffen/ Sihe wie hat Er jhn (den Menſchen) ſo lieb gehabt! Freylich<lb/>
+<note place="left">Joh. 11. 36.</note>iſt ſein Luſt bey den Menſchenkindern/ wie Koͤnig Salomon in ſeinen<lb/>
+<note place="left">Prov. 8. 31.</note>Spruͤchwoͤrtern redet. Sollen wir nicht auch hinfuͤro dieſem vnſerm<lb/>
+Schoͤpffer alles gutes zutrawen/ vnd hoffen/ er werde alles wol machen<lb/>
+mit vns? Aber ach weh/ vnd aber weh/ Es iſt mit dieſer. Blumen ein ſehr<lb/>
+ſchreckliche Veraͤnderung/ vnd vnverhoffte Außſetzung vorgangen/ wie<lb/>
+wir jetzt ferner hoͤren werden.</p></div><lb/>
+<fw type="catch" place="bottom"><hi rendition="#b">Die</hi></fw><lb/>
+<pb facs="#f0013" n="13"/>
+<fw place="top" type="header"><hi rendition="#aq"><hi rendition="#g">ROSA GENEROSA.</hi></hi></fw><lb/>
+<div n="3"><head><hi rendition="#aq"><hi rendition="#g">II.</hi></hi><lb/>
+<hi rendition="#b">Die Blum im Elendsthal.</hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">G</hi>Leich wie offtmals die allerbeſte/ die allerſchoͤnſte/ vnnd</hi><lb/>
+allerkoͤſtlichſte Blumen ploͤtzlich vnd vnverſehens einen ſchaden<lb/>
+bekommen/ entweder durch kalten Reyff/ Hagel/ Vngewitter/<lb/>
+durch Sturmwind vnd Schlagregen/ oder auch durchs Vn-<lb/>
+gezieffer/ oder ſenſten: Alſo iſt es leyder auch ergangen dieſer ſchoͤnen Pa-<note place="right">Deß Men-<lb/>
+ſchen elen-<lb/>
+der Zuſtãd-<lb/>
+nach dem<lb/>
+Fall.</note><lb/>
+dißblumen dem Menſchen. Ach der Sturmwind der Anfechtung hat ſo<lb/>
+ſtarck geblaſen in dem Paradißgarten/ daß ſie jhre Schoͤne verlohren/<lb/>
+der Reyff hat ſie ſehr hart gedruckt/ der Schlagregen der Verfuͤhrung hat<lb/>
+ſie gar tieff in den koth vnd vnflath der Suͤnden geſchlagen/ das hoͤlliſche<lb/>
+Vngezieffer/ das Schlangen- vnd Ottergezuͤchte hat ſie ſchaͤndlich be-<lb/>
+ſchmeyſet/ zernaget/ bekleckt vnd befleckt. Dahero iſt der <hi rendition="#k">Her</hi>r deß Gar-<lb/>
+tens hoͤchlich vnd zwar nicht vnbillich erzuͤrnet worden/ hat dieſer ſo vbel<lb/>
+zugerichteter Blume keine ſtelle mehr im Garten Eden goͤnnen woͤllen/<lb/>
+ſondern hat ſie hinauß geworffen in den Elendsthal/ auff den verfluchten<lb/>
+Acker. Daß alſo der Menſch/ mit einem Wort davon zu reden/ nach dem<lb/>
+Fall in einen ſehr elenden Zuſtand gerahten/ vnd nunmehr der allerherr-<lb/>
+lichſte Menſch auff Erden/ wans ſchon Koͤnig Salomo were/ einer ge-<lb/>
+ringen Feldblum weychen muß. <hi rendition="#aq">Matth.</hi> 6.</p><lb/>
+<p>Dann wo iſt jetzt ſeine anerſchaffene ſchoͤne Geſtalt? ſie iſt dahin.<note place="right">Er hat ver-<lb/>
+lohren<lb/>
+1.<lb/>
+ſeine ſchoͤne<lb/>
+Geſtalt.</note><lb/>
+Jm Elendsthal da der Sudwind ſtarck wehet/ kan man nicht ſchoͤn ſein.<lb/>
+Es ſind an dieſer Blum geſchaͤndet vnd geſchwaͤchet die jnnerliche vnnd<lb/>
+außwendige Blaͤtter/ das iſt/ ſein Leib vnd ſeine Seel. Ach da war <hi rendition="#fr">keine<lb/>
+Geſtalt mehr die vns gefallen</hi> hette. Das ſchoͤne Ebenbild Gottes iſt<note place="right">Eſa. 53. 2.</note><lb/>
+mehrertheils verlohrn/ tragen nun <hi rendition="#fr">das Bild deß jrꝛdiſchen Adams.</hi><note place="right">1. Cor. 15. 49.</note><lb/>
+An ſtatt deß <hi rendition="#aq">luminis ſapientiæ,</hi> das ſo herrlich g<supplied>l</supplied>aͤntzete in deß Menſchen<lb/>
+Verſtand/ iſt nunmehr nichts als Finſternis jrrthumb/ vnverſtand vnd<lb/>
+<hi rendition="#fr">Thorheit.</hi> An ſtatt der Heiligkeit vnd Gerechtigkeit/ damit der Menſch<note place="right">1. Cor. 2. 14.</note><lb/>
+zuvor ſo herrlich gezieret war/ iſt nun kommen ein verkehrter boͤſer Will/<lb/>
+vnordentliche <hi rendition="#aq">affecten</hi> <hi rendition="#fr">der befleckte Rock deß ſuͤndlichen Fleiſches/</hi><note place="right">Eph. 4 18.<lb/>
+22.</note><lb/>
+<hi rendition="#fr">vnd iſt niemand auff Erden der guts thue/ auch nicht einer/ ja</hi><note place="right">Jud<hi rendition="#aq">æ.</hi> v. 23.</note><lb/>
+wir <hi rendition="#fr">mangeln alle deß Ruhms/</hi> den wir haben ſolten/ vnd in Adam ge-<note place="right">Pſal. 14. 1.</note><lb/>
+habt haben. O du elende Roſen/ wie biſtu verſtellet! O du arme Blum<note place="right">Rom. 3. 23.</note><lb/>
+wie biſtu nun ſo Vngeſtalt!</p><lb/>
+<fw place="bottom" type="sig">B iij</fw><fw place="bottom" type="catch">Wo</fw><lb/>
+<pb facs="#f0014" n="14"/>
+<fw type="header" place="top"><hi rendition="#aq"><hi rendition="#g">ROSA GENEROSA.</hi></hi></fw><lb/>
+<p><note place="left">2.<lb/>
+Seinen gu-<lb/>
+ten Geruch.</note>Wo iſt auch jetzt der edle Geruch deß Menſchen/ der GOtt vnd ſei-<lb/>
+nen außerwehlten heiligen Engeln ſo wol gefiel? Er iſt auch dahin/ vnd iſt<lb/>
+der arme Menſch nun ein Grewel vnd ſchewſal fuͤr GOtt. Ja gleich wie<lb/>
+alles zu Gifft wirt/ was eine Spinne nur an ſich zeucht vnd ſaͤugt/ alſo<lb/>
+wirt alles was der Menſch im Elendsthal thut vnd vornimpt/ Suͤnd vnd<lb/>
+Grewel fuͤr GOtt dem <hi rendition="#k">He</hi>rꝛen. [Merckt aber allhie/ daß wir reden von<lb/>
+dem natuͤrlichen Menſchen/ ſo fern er noch gar nicht wiedergeboren iſt.]<lb/>
+<note place="left">Job. 15. 16.</note><hi rendition="#fr">Er ſaͤufft das Vnrecht wie</hi> ſtinckend <hi rendition="#fr">Waſſer</hi> in ſich. Ja deß Men-<lb/>
+ſchen Hertz iſt nach dem Fall/ vnd von Natur nichts anders als ein<lb/>
+<note place="left">Matt. 15.<lb/>
+19.</note>Stanckgefaͤß/ darauß herfuͤr daͤmpffen vnd rauchen <hi rendition="#fr">arge Gedancken/<lb/>
+Mord/ Ehebruch/ Hurerey/ Dieberey/ falſch Zeugnis/ Laͤſte-<lb/>
+rung/ ꝛc.</hi> Wie Chriſtus der <hi rendition="#k">He</hi>rꝛ bezeuget. Das ſind warlich ſtinckende<lb/>
+<note place="left">Lu<supplied>c</supplied> 15.</note>abſchewliche Sachen! Ach <hi rendition="#k">He</hi>rꝛ GOtt wie ſtinckt mancher Menſch ſo<lb/>
+<note place="left">Eſa 59. 2.</note>ſchrecklich von ſuͤndẽ/ wie der verlorne Sohn von traͤbern! <hi rendition="#fr">Da verbirgt<lb/>
+denn Gott ſein heiliges Angeſicht fuͤr jhme.</hi> Jn ſumma/ der arme<lb/>
+Menſch hat durch den leydigen Fall/ die wolriechende Salb ſeines guten<lb/>
+Namens fuͤr Gott vnd allen Creaturn verlohrn vnd dargegen einen ſtin-<lb/>
+ckenden Namen bekommen/ vnnd wann zu letzt der ſuͤndliche Menſch<lb/>
+<note place="left">Joh. 11. 39.</note>ſtirbt/ ſo muß jederman am dritten oder vierten tag/ mund vnd naſen fuͤr<lb/>
+ſeinem boͤſen Geruch zu halten. O du elende Blum! O du iaͤmerliche<lb/>
+Roſen wie biſtu veraͤndert in dem Jamerthal!</p><lb/>
+<p><note place="left">3.<lb/>
+Seine<lb/>
+Krafft vnd<lb/>
+Tugend.</note>Wo iſt auch endlich die groſe Tugend/ Krafft vnd Wirckung hin-<lb/>
+kommen/ welche dieſe Paradißblum gehabt hat? iſt auch verlohren. Ach<lb/>
+der arme Menſch iſt <hi rendition="#fr">zu allem guten erſtorben.</hi> Er kan ihm ſelber nicht<lb/>
+<note place="left">Epheſ. 2. 5.</note>helffen/ <hi rendition="#fr">auch kein Bruder dem andern.</hi> Dahero leſt nun GOtt der<lb/>
+<note place="left">Pſal. 49. 8.</note><hi rendition="#k">He</hi>rr dieſer Blum ihre <hi rendition="#aq">lection</hi> gewaltig ſchaͤrpffen/ leſt ihr verweiſen ihre<lb/>
+<note place="left">2. Cor. 7. 1.</note>ſchaͤndliche <hi rendition="#fr">Befleckung deß Fleiſches vnd deß Geiſtes.</hi> Leſt ſie auch<lb/>
+erinnern ihres wol verdienten Elends vnd Jamers/ ihrer Nichtigkeit vnd<lb/>
+Fluͤchtigkeit/ daß ſie nun mit aller ihrer Herrlichkeit ſo vergaͤnglich ſey/<lb/>
+als eine irꝛdiſche Feldblum/ ia wie das gemeine Graſe. Dann ſo ſteth all-<lb/>
+hie im Text/ vnd Eſai. 40.</p><lb/>
+<p><note place="left">Dahero iſt<lb/>
+der Menſch<lb/>
+nun ſuͤnd-<lb/>
+lich/ ſterb-<lb/>
+lich vñ ver-<lb/>
+gaͤnglich.</note>Denckt doch der Sachen ein wenig nach/ das Graſe vnd die Blu-<lb/>
+men muͤſſen ſich allen Augenblick leyden. Man geht darvber: man reitet<lb/>
+darvber: man faͤhrt darvber. Das Vieh reiſſets auß mit ſeinen Zeenen/<lb/>
+vnd zutritt das vbrige. Oder da gleich ſolches nicht geſchicht/ ſo iſts biß-<lb/>
+weilen ſo hitzig vnd duͤrr Wetter/ daß alles verdorret vnd außbrennet/ biß-<lb/>
+<fw type="catch" place="bottom">weilen</fw><lb/>
+<pb facs="#f0015" n="15"/>
+<fw place="top" type="header"><hi rendition="#aq"><hi rendition="#g">ROSA GENEROSA.</hi></hi></fw><lb/>
+weilen hinderts das naſſe feuchte Wetter/ daß weder Blum noch Graſe<lb/>
+gedeyen oder fortkommen kan. Manchmal kompt ein ſolcher erſchreck-<lb/>
+licher Platzregen/ daß alles dardurch zu Boden geſchlagen/ zerfloͤ-<lb/>
+fet vnd verderbet wird. Vnd wann ſchon das all nicht were/ ſo bricht<lb/>
+man doch von Luſt wegen bald dieſes/ bald jenes Bluͤmlein ab/ traͤgts in<lb/>
+haͤnden/ macht Kraͤntze vnd Straͤuße davon/ ehe man ſich dann recht<lb/>
+vmbſiehet/ vnnd ehe dann es Abend wird/ ſo fehets an zu verwelcken.<lb/>
+Wann auch die Zeit kompt/ daß die Blumen reyff vnd zeitig werden/ ſo<lb/>
+mag leicht ein kleines ſchlechtes Luͤfftlein kommen/ das blaͤſet ein Blaͤt-<lb/>
+lin nach dem andern rein ab/ vnd faͤlt der Stengel auch bald hernach/ al-<lb/>
+ſo daß man nicht mehr ſiehet/ wo ſie geſtanden:</p><lb/>
+<p>Eben in einer ſolchen taͤglichen Verderbungs Gefahr ſtehet nun<lb/>
+auch der Menſch/ er bluͤhe gleich ſo ſchoͤn als er woͤlle. Ach wie man-<lb/>
+cherley Vnfaͤlle koͤnnen ſich taͤglich zutragen/ welche dieſer Blumen ge-<lb/>
+ſchwind den garauß machen? Wann der Wind/ das iſt/ eine oder die<lb/>
+andere Schwachheit/ Widerwertigkeit/ oder auch der Todeswindt<lb/>
+ſelbſt/ jhn ein wenig anhanchet/ ſo iſts bald mit jhm geſchehen/ vnd <hi rendition="#fr">ver-<lb/>
+giſſet man deß Toden</hi> auch bald Pſalm. 31. 13.</p><lb/>
+<p>Vnd hierbey kan ich nicht vnerinnert laſſen/ dann es iſt auch nach-<note place="right">Warumb<lb/>
+der Tod ei-<lb/>
+nem Wind<lb/>
+vergliche<supplied>n</supplied><lb/>
+werde<hi rendition="#i">:</hi><lb/>
+1.</note><lb/>
+denckens wehrt/ wie vnd warumb der Tod mit einem Wind verglichen<lb/>
+werde. Das geſchicht nun 1. darumb: Gleich wie kein Menſch/ er ſey<lb/>
+ſo hoch/ ſo weiſe/ ſo gewaltig/ ſo jung vnd ſtarck als er woͤlle/ den Wind<lb/>
+auffhalten oder hemmen kan: Alſo auch den Tode nicht. Da hilfft kein<lb/>
+Alter/ kein Jugend/ keine Staͤrcke/ keine Schoͤne/ kein <hi rendition="#aq">dignitet,</hi> kein<lb/>
+Weißheit/ kein Kunſt oder Gunſt/ ſondern wann der Wind deß Todts<lb/>
+anfaͤhet darein zu blaſen/ ſo fallen die Blumen hinweg/ wie ſchoͤn vnnd<lb/>
+koͤſtlich ſie jmmer geweſen.</p><lb/>
+<p>2. Der Wind iſt ſtarck vnd dringet in ein Gemach hinein/ da man<note place="right">2.</note><lb/>
+ſichs wol nicht verſehen hette/ wann er nur einen kleinen Riß in der<lb/>
+Wandt/ oder an einem Fenſter findet. Alſo iſt der <hi rendition="#fr">Todt zu allen</hi><note place="right">Rom. 5. 12.</note><lb/>
+<hi rendition="#fr">Menſchen durch gedrungen/ ja gar zu vnſern Fenſtern hinein</hi><note place="right">Jerem. 9.<lb/>
+v. 21.</note><lb/>
+<hi rendition="#fr">gefallen.</hi></p><lb/>
+<p>3. Die wege deß Winds ſind vnſichtbar/ vnd kan niemand ſehen<note place="right">3.</note><lb/>
+oder mercken/ von wannen vnd wohin/ wie bald oder langſam er blaſen<lb/>
+werde: Eben alſo vnſichtbar vnd vnempfindlich ſind auch die wege deß<note place="right">Joh. 3. 8.</note><lb/>
+Tods/ wer kan ſie mercken?</p><note place="right">Eccl. 11. 5.</note><lb/>
+<fw place="bottom" type="catch">4. Wie</fw><lb/>
+<pb facs="#f0016" n="16"/>
+<fw place="top" type="header"><hi rendition="#aq"><hi rendition="#g">ROSA GENEROSA.</hi></hi></fw><lb/>
+<p><note place="left">4.</note>4. Wie auch der natuͤrliche Wind vom <hi rendition="#k">He</hi>rren kompt/ von jhme<lb/>
+<note place="left">Jon<hi rendition="#aq">æ</hi> 1. 4.</note>außgeſandt vnd regieret wirt: Alſo iſts auch mit dem Tod. Dañ ob ſchon<lb/>
+<note place="left">Jerem 10.<lb/>
+13.</note>Gott der <hi rendition="#k">He</hi>rr denſelben <hi rendition="#fr">nicht hat geſchaffen/</hi> gleich wie den Wind.<lb/>
+<note place="left">Sap. 2. 23.</note><hi rendition="#aq">Sap.</hi> 2. ſo hat Er doch denſelben als ein gerechter Richter <hi rendition="#fr">verordnet vber</hi><lb/>
+<note place="left">Syr. 41. 5.</note><hi rendition="#fr">alles</hi> ſuͤndliche Fleiſch. Dahero neñet der Prophet Eſaias dieſen Wind/<lb/>
+<note place="left">Eſa. 40. 7.</note><hi rendition="#fr">den Geiſt deß <hi rendition="#k">Herren</hi> der in die Blume blaͤſet/</hi> vnd Moſes<lb/>
+<note place="left">Pſal. 90. 3.</note>ſchreibts auch Gott dem <hi rendition="#k">He</hi>rren zu/ wann er ſagt/ <hi rendition="#fr">Du leſt die Men-<lb/>
+ſchen ſterben/ vnd ſprichſt/ kompt wider Menſchenkinder.</hi> Aber<lb/>
+gnug von der andern Verſetzung dieſer Menſchenblum. Wiſſen nun<lb/>
+auch wie es mit jhr ſtehet im zweyten Garten/ im Elendsthal/ auff dem<lb/>
+Acker den der <hi rendition="#k">He</hi>rr verflucht hat/ da iſt nichts dann lauter Elend/ gebre-<lb/>
+chen vnd jamer/ noth vnd Tod.</p><lb/>
+<p><note place="left">Der Mẽſch<lb/>
+ſoll dieſe ſei-<lb/>
+ne elende<lb/>
+Veraͤnde-<lb/>
+rung wol<lb/>
+bedencken.</note>Das muͤſſen wir nun nicht vergeſſen/ ſondern wol behalten<supplied>.</supplied> Dann<lb/>
+ob man wol ſonſten im gemeinen Spruͤchwort pflegt zu ſagen/ Es ſey am<lb/>
+beſten das man verlorne Ding bald auß dem Sinn ſchlage/ vnd ſich nicht<lb/>
+lang mit deren betrachtung quaͤle/ ſo iſts doch hie nicht alſo. Heilſam vnd<lb/>
+gut iſts/ wann wir fleiſſig bedencken/ woher vnd wohin wir <hi rendition="#fr">gefallen<lb/>
+ſind/</hi> nach der Vermahnung <hi rendition="#aq">Apoc. 2. v.</hi> 5.</p><lb/>
+<p><note place="left">1.<lb/>
+Wegen der<lb/>
+Demuth/<lb/>
+vñ vermey-<lb/>
+dung deß<lb/>
+Phariſ<hi rendition="#aq">æ</hi>i-<lb/>
+ſchen Stol-<lb/>
+tzes.</note>Dann darauß lernen wir vns fein demuͤtigen vnter die gewaltige<lb/>
+Hand Gottes/ wie der Apoſt Petrus redet 1. Epiſt. 5. 6. Dardurch wirt<lb/>
+auch vertrieben der hochſchaͤdliche Phariſ<gap reason="lost" unit="chars" quantity="1"/>iſche geiſtliche Stoltz der den<lb/>
+Adamskindern von natur anklebet/ da ſie jhnen manchmal einbilden/ ſie<lb/>
+ſeyen jetzt noch bey guten groſſen kraͤfften/ dardurch ſie ſich koͤnten bey<lb/>
+Gott dem <hi rendition="#k">He</hi>rrn lieb/ angenehm vnd wol verdient machen/ ja noch mehr<lb/>
+gutes verrichten als jhnen vonnoͤhten ſey. Ach blindheit vber alle blind-<lb/>
+<note place="left">1. Pet. 5. 6.</note>heit! Worauff will doch der armeMenſch in dieſem Elendsthal prangen?<lb/>
+<note place="left">Syr. 10. 9.</note>Warumb will ſich die elende Blum viel erheben? Vielleicht wegen jhrer<lb/>
+anerſchaffenen ſchoͤnen <hi rendition="#fr">Geſtalt?</hi> iſt ſie doch dahin/ vnd ſchaͤndlich ver-<lb/>
+lohren. Vielleicht wegen deß lieblichen <hi rendition="#fr">Lebensgeruchs?</hi> iſt er doch auch<lb/>
+dahin/ vnd in lauter Suͤndenſtanck vnd Grewel verwandelt. Vielleicht<lb/>
+wegen ſeiner <hi rendition="#fr">tugendhafften guten Wirckung?</hi> iſts doch all dahin/ vñ<lb/>
+in lauter ſchwachheit vud gebrechlichkeit verwandelt/ wie droben nach der<lb/>
+laͤnge erwieſen. Wann dieſes nicht außtreibt den Phariſ<hi rendition="#aq">æ</hi>iſchen/ vnnd<lb/>
+ſonſt allen Weltſtoltz/ ſo wuͤſte ich nicht was es thun ſolte.</p><lb/>
+<p><note xml:id="note1a" place="left" next="#note1b">2.<lb/>
+Wegen<lb/>
+verachtung</note>Dieſe betrachtung kan vns auch allgemach abziehen von der vber-<lb/>
+maͤſſigen lieb dieſer Welt/ vnd dieſes zeitliches Lebens/ davon wir ſonſten<lb/>
+<fw place="bottom" type="catch">auch</fw><lb/>
+<pb facs="#f0017" n="17"/>
+<fw type="header" place="top"><hi rendition="#aq"><hi rendition="#g">ROSA GENEROSA.</hi></hi></fw><lb/>
+auch ernſtlich abgemabnet werden 1 Johan. 2. 1. Cor. 7. vnd anderswo<note xml:id="note1b" prev="#note1a" place="right">dieſer wel<gap reason="lost" unit="chars" quantity="1"/><lb/>
+vnd aller<lb/>
+deren Herr-<lb/>
+lichkeit.</note><lb/>
+mehr. Dann was iſts? alles nichtig/ fluͤchtig vnd vergaͤnglich wie eine<lb/>
+Blume/ wie <supplied>e</supplied>in Graſe. Wer will dann ſein <hi rendition="#aq">datum</hi> darauff ſetzen? Vor-<lb/>
+zeiten hat GOtt er <hi rendition="#k">He</hi>rr ſeinem Volck hoch verwieſen/ daß es ſich auff<note place="right">1. Cor. 7. 3<gap reason="lost" unit="chars" quantity="1"/></note><lb/>
+<hi rendition="#fr">den zerbrochenen Rohrſtab Egypti verlaſſen/ der doch einem die</hi><note place="right">1. Joh. 2. 15.</note><lb/>
+<hi rendition="#fr">Hand durchboret/ wann man ſich darauff lehnete.</hi> Wie viel mehr<note place="right">Eſa. 36. 6.</note><lb/>
+wirds dann verweißlich ſein/ wann ſich jemand auff Hew/ Graß vnnd<lb/>
+Blumenwerck verlaſſen wolte/ daß doch morgen verwelckt vnd abfaͤlt?<lb/>
+Das thun aber alle die jenige Eltern/ die ſich zu viel verlaſſen auff jhre da-<lb/>
+herwachſende Kinder/ Jtem/ die jenige die zu viel auff gute Freunde/ vnd<lb/>
+ſonſt andere Menſchen bawen vnnd trawen/ die ſich auch vergaffen an<lb/>
+Ehr/ Hochheit/ Reichtumb vnd Wolluͤſten dieſer Welt/ wie dort die Naͤr-<lb/>
+riſche Weltkinder im Buch der Weißheit Cap. 2. Vnſere kinder ſollen<note place="right">Sap. 2. 6.</note><lb/>
+wo<gap reason="illegible" unit="chars" quantity="1"/> auch nach einer ſchoͤnen Blumen greiffen/ vnnd dargegen ein ſtuͤck<lb/>
+Geld fahren laſſen. So vnverſtaͤndig vnd alber ſollen wir nicht ſein/ ſon-<lb/>
+dern <hi rendition="#fr">als die Kluge.</hi> 1. Cor. 10. <hi rendition="#fr">vergeſſen was dahinden iſt/</hi> vnnd<note place="right">1. Cor. 10. 15</note><lb/>
+<hi rendition="#fr">trachten nach dem das da forne iſt/ nemlich nach dem Kleinot</hi><note place="right">Philip 3. 13.</note><lb/>
+<hi rendition="#fr">das vns fuͤrhelt die himliſche Beruffung.</hi> Ach <hi rendition="#aq">moriendum eſt, mi-<lb/>
+grandum eſt.</hi> Es wehret alles nur ein kleine Zeit/ vnd hilfft doch nichts<lb/>
+zur Seligkeit.</p><lb/>
+<p>Wir ſollen auch dieſen vnſern jetzigen elenden Blumenzuſtand<note place="right"><supplied>3</supplied>.<lb/>
+Wegẽ beſ-<lb/>
+ſerer Fuͤr-<lb/>
+ſichtigkeit<lb/>
+vnd Behut-<lb/>
+ſamkeit.</note><lb/>
+darumb fleiſſig bedencken/ damit wir klug werden/ wegen deß vnſichtbarn<lb/>
+gewaltigen Winds/ den GOtt der <hi rendition="#k">He</hi>rr vber vns blaſen vnd wehen leſt.<lb/>
+Dann weil wir dem wind deß Tods gar nicht entfliehen auch denſelben<lb/>
+nicht auffhalten koͤnnen/ weil wir auch nicht wiſſen noch ſehen koͤnnen/<lb/>
+wann er ſich werde erheben/ wo vnd wie er vns werde anſauſen/ vnd von<lb/>
+dieſer ſtaͤtte wehen/ ſo ſollen wir ja allezeit behutſam vnd <hi rendition="#fr">fuͤrſichtig wan-</hi><note place="right">Epheſ. 5. 15.</note><lb/>
+<hi rendition="#fr">deln/</hi> in ſtaͤhter bereitſchafft/ in der fercht GOttes/ ſollen <hi rendition="#fr">allzeit wa-</hi><note place="right">Marc. 13.<lb/>
+33.</note><lb/>
+<hi rendition="#fr">chen vnd beten/</hi> auch wo wir auß oder eingehen/ wo wir <hi rendition="#fr">zu raͤyſen vnd</hi><note place="right">Jacob. 4 15</note><lb/>
+<hi rendition="#fr">zu wandern</hi> haben/ in den <hi rendition="#fr">ſchutz deß Allerhoͤchſten</hi> fleiſſig vnnd an-<note place="right">Pſal. 91. 1.</note><lb/>
+daͤchtig vns empfehlen. Der Wind komme darnach wann er woͤlle/ ſo<lb/>
+wird er vns nicht ſchaden.</p><lb/>
+<p>Es wird auch dieſe Betrachtung bey vns erwecken eine Chriſtliche<note place="right">4.<lb/>
+Wegen der<lb/>
+Gedult.</note><lb/>
+Gedult/ wann wir vns etwan beduͤncken laſſen/ der wind der Kranckheit/<lb/>
+der Anfechtung vnnd deß Tods blaſe gar zu ſtarck bey vns ſelbſt oder den<lb/>
+vnſerigen/ die Schwachheit vnd der Tod ſey gar vnnatuͤrlich vnd wun-<lb/>
+<fw type="sig" place="bottom">C</fw><fw type="catch" place="bottom">derbar/</fw><lb/>
+<pb facs="#f0018" n="18"/>
+<fw type="header" place="top"><hi rendition="#aq"><hi rendition="#g">ROSA GENEROSA.</hi></hi></fw><lb/>
+derbar/ wie dann deßwegen offtmals groſe klag hin vnd wieder gefuͤhret<lb/>
+vnd gehoͤret wird. Wer nun dieſen Bericht recht gefaſt vnd wol verſtan-<lb/>
+den/ der wird ſich nicht viel bekuͤmmern vmb den Wind/ das iſt/ vmb die<lb/>
+art vnd gattung der Schwachheit oder deß Tods/ ſondern wird in Ge-<lb/>
+dult ſehen auff den/ der den Wind leſt ſauſen vnd brauſen/ welches iſt der<lb/>
+<note place="left">Jerem. 32.<lb/>
+27.</note><hi rendition="#k">He</hi>rꝛ deß lebens vnd deß tods/ Der <hi rendition="#fr">Gott alles Fleiſches.</hi> Dann er der<lb/>
+<note place="left">Pſal. 39. 10.</note><hi rendition="#k">He</hi>rꝛ thuts/ der ſchickts alſo/ da muͤſſen wir <hi rendition="#fr">den Finger auff den<lb/>
+Mund legen vnd ſagen: Jch will ſchweigen/ denn der <hi rendition="#k">He</hi>rꝛ hats<lb/>
+gethan/</hi> vnd alſo verhenget. Vnd gleich wie es einem Gartenman frey<lb/>
+ſtehet/ ſeine Blumen vnd Graß entweder mit der Hand außzuraufen/ o-<lb/>
+der mit einem Meſſer abzuſchneiden/ oder mit einer Sichel/ Senſen oder<lb/>
+ſonſten abzumehen/ oder auch das Vieh abbeiſſen zu laſſen ꝛc. Dann es iſt<lb/>
+alles ſein: Alſo mag auch Gott der <hi rendition="#k">He</hi>rꝛ in ſeinem Garten thun/ vnd thun<lb/>
+laſſen/ was jhm gefaͤlt. Wann einer zwen Gaͤrten hette/ vnd nehme eine<lb/>
+Blum auß dem einen/ vnd verſetzte ſie in den andern/ wer wolts jhm weh-<lb/>
+ren? wer wolte jhn darumb verdencken? Wann dann auch GOTt eine<lb/>
+Blum auß ſeinem groſſen Garten hie auff Erden nimpt/ vnd verſetzt ſie<lb/>
+durch den zeitlichen Tod in ſeinen Himmelsgarten (davon wir hernach<lb/>
+an ſeinem or<supplied>t</supplied>h werden reden) was ſollen Eltern/ Gebruͤder/ Geſchwiſter/<lb/>
+Freunde vnd Nachbarn darzu ſagen? was ſollen ſie thun? ſie muͤſſens mit<lb/>
+Gedult geſchehen laſſen/ vnd nicht zweiffeln/ Er werde es alſo machen/<lb/>
+daß es dem Pflaͤntzlin zum beſten gerahten werde.</p><lb/>
+<p>Sehet/ wie die Betrachtung der ſchrecklichen Veraͤnderung ſo mit<lb/>
+dem Menſchen vorgangen/ ſo heilſam vnd nutz ſey. Woͤllen aber nun fort-<lb/>
+ſchreiten zu ſehen/ wie GOTT dieſe Blum zum dritten mal verſetzet in<lb/>
+<hi rendition="#aq">hortum Eccleſiæ,</hi> in <hi rendition="#fr">Kirchengarten/ vnd was darin deß Menſchen Zu-<lb/>
+ſtand ſey.</hi></p></div><lb/>
+<div n="3"><head><hi rendition="#aq"><hi rendition="#g">III.</hi></hi><lb/>
+<hi rendition="#b">Die Blum im Kirchengarten.</hi></head><lb/>
+<p><note place="left">Dẽ gefall-<lb/>
+nen Men-<lb/>
+ſchen iſt<lb/>
+Gnad wie-<lb/>
+derfahren.</note><hi rendition="#fr"><hi rendition="#in">E</hi>S hette zwar GOtt der <hi rendition="#k">He</hi>rꝛ den Menſchen/ der alſo</hi><lb/>
+an jhm ſeinem hertztrewen/ grundguten Schoͤpffer in dem Para-<lb/>
+diß gefrevelt/ mit gutem recht in dem Elendsthal ſtecken/ ſterben<lb/>
+vnd ewig verderben laſſen koͤnnen/ wie Er auch den abgefallenen<lb/>
+<note place="left">2. Pet 1. 4.<lb/>
+Jud<hi rendition="#aq">æ</hi>. <supplied>v.</supplied> 6.</note>Engeln gethan/ als welche Er mit <hi rendition="#fr">ketten der Finſternis zur Hoͤlle</hi><lb/>
+<fw type="catch" place="bottom">ver-</fw><lb/>
+<pb facs="#f0019" n="19"/>
+<fw place="top" type="header"><hi rendition="#aq"><hi rendition="#g">ROSA GENEROSA.</hi></hi></fw><lb/>
+verſtoſſen/ vnd zum Gericht behalten hat. Aber ſeine Barmher-<note place="right">Oſe<hi rendition="#aq">æ</hi> 11. 8.</note><lb/>
+tzigkeit iſt viel zu bruͤnſtig geweſen/ daß er nicht gethan hat nach<note place="right">Pſal. 103.<lb/>
+9.</note><lb/>
+ſeinem grimmigen gerechten Zorn/ Er hat nicht ewiglich mit vns<lb/>
+Zorn halten woͤllen/ Sondern als Er am Abend da der Tag kuͤhl<note place="right">Gen. 3. 8.</note><lb/>
+worden/ den groſſen jamer an dem Menſchen geſehen/ wie er ſo <hi rendition="#fr">elendig</hi><note place="right">Ezech. 16. 6.</note><lb/>
+<hi rendition="#fr">in ſeinem Vnflat gelegen/</hi> Da iſt er nicht fuͤrvber gegangen/ wie jene<lb/>
+hartmuͤhtige vnd ſteinhertzige Prieſter vnd Levit/ ſondern hat die arme/<note place="right">Luc. 10. 31.</note><lb/>
+befleckte/ verwelckte Blum mit gnaͤdigen Augen angeſehen/ hat ſie wider-<lb/>
+umb in ſein Gnadenreich gedacht zu bringen. Hat auch alſo bald mit dem<lb/>
+armen gefallenen/ ſuͤndlichen/ verlornen Menſchen auffgerichtet einen<lb/>
+<hi rendition="#fr">Newen Bund/</hi> einen Gnadenbund/ einen Saltzbund/ das iſt/ einen e-<note place="right">Jerem 31.<lb/>
+31.</note><lb/>
+wigen/ vnrerweßlichen/ ſtarcken Bund/ wie dann deſſelben Bunds all-<note place="right">Pſal. 103.<lb/>
+v. 18.</note><lb/>
+hie in vnſerm Text außdruͤcklich gedacht wird/ daß jhn der <hi rendition="#k">Herr</hi> auch<lb/>
+von vns woͤll gehalten haben.</p><lb/>
+<p>Vnd weil die Straffe/ die wir vns durch den Suͤndenfall vbern<lb/>
+halß gezogen/ vermoͤg der vnwandelbaren ſtrengen Gerechtigkeit GOt-<lb/>
+tes/ nicht hat gantz vnd gar auffgehaben werden koͤnnen/ Sihe ſo hat<lb/>
+der Barmhertzige <hi rendition="#g">GOTT</hi> auch in dem Gnadenbund verſprochen/ ſein<lb/>
+lieber Sohn der <hi rendition="#fr">hochgebenedeyte Weibsſame/</hi> als der himliſche<note place="right">Gen. 3. 13.</note><lb/>
+Gaͤrtner ſolte ſich der Blumen der geſtalt annehmen/ daß Er an jhren<lb/>
+Platz in dem Elendsthal ſich darſtellete/ vnd das Vngewitter vber ſich<lb/>
+gehen lieſe/ vnd jhr durch ſeine <hi rendition="#aq">ſatisfaction</hi> oder Gnugth<supplied>u</supplied>ung wieder zu<lb/>
+recht huͤlffe/ Sie mit ſeinem H. kraͤfftigen Blut tuͤngete vnd erquickete/<lb/>
+wie Er auch trewlich gethan hat/ vnd noch thut. O wie hat Er ſichs ſo<lb/>
+ein groſes koſten laſſen! Denckt doch ſelbſt/ Jhr meine Geliebte/ ob<lb/>
+das nicht ein wunderbar Ding were/ wann ſich eines groſen Koͤniges<lb/>
+Sohn/ ein junger Printz alſo verliebte an einer elenden Roſen oder Blu-<lb/>
+men/ daß Er ſich jhrenthalben in groſe/ ſchwere/ muͤhſelige/ veraͤchtliche/<lb/>
+langwirige Dienſtbarkeit begaͤbe/ nur daß Er moͤchte der Blumen<lb/>
+faͤhig vnnd theilhafftig werden: Viel ein groͤſer Gnadenwunder iſt die-<lb/>
+ſes/ daß ſich deß himliſchen Monarchen eingeborner vnd eingeliebter<lb/>
+Sohn in arme Knechtsgeſtalt gegeben/ vnd 33½. Jahr vmb vns elen-<note place="right">Phil. 2. 7.</note><lb/>
+de Menſchen ſaͤwerlich vnd ſchwerlich in dieſem Jamerthal gedienet/<lb/>
+vnd mit <hi rendition="#fr">ſeinem thewren Blut zu ſeinem Eygenthumb erkaufft</hi><note place="right">1. Cor. 6 20.</note><lb/>
+<hi rendition="#fr">hat.</hi></p><note place="right">1. Pet. 1. 19.</note><lb/>
+<fw place="bottom" type="sig">C ij</fw><fw place="bottom" type="catch">Da</fw><lb/>
+<pb facs="#f0020" n="20"/>
+<fw type="header" place="top"><hi rendition="#aq"><hi rendition="#g">ROSA GENEROSA.</hi></hi></fw><lb/>
+<p><note place="left">Er wird<lb/>
+beruffen.<lb/>
+zur Kirchẽ.</note>Da hat er nun/ auff daß wir zu vnſerm Zweck kommen/ einen gantz<lb/>
+newen ſonderbaren Garten fuͤr ſeine ſo thewer erworbene Blumen allhie<lb/>
+auff Erden angerichtet/ welches iſt <hi rendition="#aq">hortus Eccleſiæ,</hi> der Kirchengarten/<lb/>
+da ſamlet Er die Pflaͤntzlin vnd Bluͤmlein auß dem Menſchlichen Ge-<lb/>
+ſchlecht/ <gap reason="lost" unit="chars" quantity="3"/>er dermaleins in ſeinen ewigen himliſchen Luſtgarten verſe-<lb/>
+<note place="left">1. Cor. 3. 6.</note>tzen will/ da pfleget vnd warteter jhrer auffs allerbeſte/ da leſt er <hi rendition="#fr">Paulum<lb/>
+pflantzen/ den Apollo begieſen/ vnd den H. Geiſt das gedeyen<lb/>
+geben.</hi> Da hat Er zu Gartenhuͤtern vnd Waͤchtern verordnet ſeine him-<lb/>
+<note place="left">Matt. 18.<lb/>
+10.</note>liſche Diener/ die H. Engel/ welche <hi rendition="#fr">dienſtbare Geiſter ſind bey denen</hi><lb/>
+<note place="left">Heb. 1. 14.</note><hi rendition="#fr">die die Seligkeit ererben ſollen.</hi> Vnd gleich wie vorzeiten die Cheru-<lb/>
+bim nach dem geſchehenen Suͤndenfall/ mit fewrigen Schwaͤrtern fuͤr<lb/>
+<note place="left">Gene. 3. 24.</note>das Paradiß geſtellet worden/ <hi rendition="#fr">zu bewahren den Weg zum Baum<lb/>
+deß Lebens:</hi> Alſo ſtehen ſie nun fuͤr der Gnadenthuͤr am Kirchengar-<lb/>
+ten/ zu wachen vnd zu verhuͤten/ daß nicht die hoͤlliſche Schlang jhres<lb/>
+gefallens hinein breche/ vnd ſich auff ein newes mache an dieſe <hi rendition="#aq">reſtituirte</hi><lb/>
+<note place="left">Job. 7. 20.</note>Kirchenblum/ dieſelbige zu verderben/ Ja Er ſelbſt iſt <hi rendition="#fr">der Menſchen-</hi><lb/>
+<note place="left">Pſal. 121. 4.</note><hi rendition="#fr">huͤter/ der waͤchter Jſraelis/</hi> vnd verwahret nicht allein den gantzen<lb/>
+<hi rendition="#aq">hortum Eccleſiæ,</hi> ſondern auch ein jedes rechtſchaffenes Kirchenbluͤm-<lb/>
+lein/ ſo fleiſſig/ ſo ſorgfaͤltig/ ſo trewlich wie ſeinen Augapffel/ ja daß nicht<lb/>
+<note place="left">Zachar. 2. 8</note>das geringſte Blaͤttlin (oder <hi rendition="#fr">Haͤrlin auff dem Haupt</hi>) abgeropfft o-<lb/>
+<note place="left">Matt. 10.<lb/>
+30.</note>der beſchaͤdiget werde.</p><lb/>
+<p><note place="left">Da wird er<lb/>
+wider zu<lb/>
+recht ge-<lb/>
+bracht/ vnd<lb/>
+ernewert.</note>Vnd auff dieſe weiſe/ wird nun dieſe Blum (der Menſch) in die-<lb/>
+ſem dritten Garten widrumb erquickt/ ernewert/ wiedergeboren/ vnd zu<lb/>
+recht gebracht/ nicht anders als wann eine welcke duͤrꝛe Roſen widrumb<lb/>
+bekompt einen friſchen Taw/ einen lieblichen ſruchtbaren Regen/ vnd dar-<lb/>
+zu einen fleiſſigen verſtaͤndigen Pfleger oder Gaͤrtner.</p><lb/>
+<p><note place="left">Da bekõpt<lb/>
+er wider 1.<lb/>
+ſeine vorige<lb/>
+Geſtalt.</note>Da thut ſich allgemach wieder herfuͤr/ die vorige ſchoͤne Roſen- oder<lb/>
+Blumen <hi rendition="#fr">Geſtalt/</hi> die er zuvor im Garten <hi rendition="#aq">Eden</hi> gehabt hat. Da leſt ſich<lb/>
+widerumb mercken das Ebenbild GOttes. Da gewinnet <hi rendition="#k">Ch</hi>riſtus<lb/>
+<note place="left">Gal 4. 19.</note>widerumb eine <hi rendition="#fr">Geſtalt in vns.</hi> Ja da hat Er <hi rendition="#fr">luſt an vnſer Geſtalt</hi><lb/>
+<note place="left">Pſal. 45. 12.</note>vnd ſchoͤnheit/ wie davon im 45. Pſalmen geleſen wird.</p><lb/>
+<p><note place="left">2. Den Ge-<lb/>
+ruch.</note>Da beginnet man auch wieder zu mercken den ſuͤß-lieblichen Gott<lb/>
+wolgefaͤlligen Blumen Geruch/ den wir im Paradiß gehabt haben/ vnd<lb/>
+verliehret ſich dargegen der Suͤndengeſtanck je mehr vnd mehr/ in dem<lb/>
+<note place="left">Eſa. 1. 27.</note>man <hi rendition="#fr">lernet ablaſſen vom boͤſen/ vnd dargegen gutes thun.</hi> Da<lb/>
+<fw type="catch" place="bottom">werden</fw><lb/>
+<pb facs="#f0021" n="21"/>
+<fw place="top" type="header"><hi rendition="#aq"><hi rendition="#g">ROSA GENEROSA.</hi></hi></fw><lb/>
+werden die glaͤubige Kirchenglieder GOtt dem <hi rendition="#k">He</hi>rrn ein ſuͤſſer Geruch/<lb/>
+ein Geruch deß Lebens/ Es gefaͤlt jhm der Geruch jhres Gebets/ jhrer<lb/>
+Danckſagung/ jhrer Frombkeit vnangeſehen daß der A<gap reason="lost" unit="chars" quantity="1"/>fang noch gar<lb/>
+gering iſt. Vnd das noch mehr iſt/ ſo bekompt der Menſch der dem<note place="right">3. Die T<supplied>u</supplied>-<lb/>
+gend vnd<lb/>
+Krafft.</note><lb/>
+Kirchengarten als eine Blum eingepflantzt iſt/ auch ſeine vorige Tugend/<lb/>
+ſeine Krafft vnd wirckung widerumb/ daß Er (wie der Text allhie von die-<lb/>
+ſer Wirckung/ vnd von ſolchem Zuſtand redet) <hi rendition="#fr">GOTt foͤrchtet/ an</hi><note place="right">verſ. 17. 18.</note><lb/>
+<hi rendition="#fr">ſeine Gebott denckt/ thut ſie/ vnd helt ſeinen Bund/ vnd ſchaf-</hi><note place="right">Philip. 2. 12</note><lb/>
+<hi rendition="#fr">fet alſo mit forcht vnd zittern daß er ſelig werde.</hi> Ja liebe Chriſten<lb/>
+<supplied>e</supplied>ben dahin/ zu dem end/ vnd zu dem zweck gehet das gantze <hi rendition="#aq">miniſterium</hi><lb/>
+oder Predig Ampt Alles predigen vnd lehren/ alles ermahnen/ alles ſtraf-<lb/>
+fen/ draͤwen vnd troͤſten/ alles Gebet vnd Danck ſagung/ das gantze Wort<lb/>
+vnd <hi rendition="#aq">Sacramenta</hi> gehen dahin/ daß der verderbte verſorne Menſch wider-<lb/>
+umb zu recht/ vnd zur wahren Seligkeit gebracht werde. Wolte GOTt<lb/>
+daß jede<supplied>r</supplied>man/ der ſich der Kirchen ruͤhmet/ auch wol ſcheinbarlich darin-<lb/>
+nen bluͤhet/ dieſes recht vnd wol betrachtete/ ſo wuͤrde es gewißlich ſehr<lb/>
+wol ſtehen vnd gehen.</p><lb/>
+<p>Ey ſo laſt vns dann/ jhr Geliebte/ die wir von GOtt die Gnad ha-<note place="right">Die Ce-<lb/>
+ction fuͤr<lb/>
+die Kirchë-<lb/>
+blumen.</note><lb/>
+ben/ daß wir fuͤr vielen andern Menſchen in den <hi rendition="#aq">hortum Eccleſiæ,</hi> in den<lb/>
+Kirchengarten ſind beruffen worden/ da man an vns/ vnd zu befuͤrde-<lb/>
+rung vnſerer Seligkeit taͤglich arbeitet/ bawet/ pflantzet vnd begenſt/ laſt<note place="right">Gal. 4 11.</note><lb/>
+vns/ ſag ich/ wol zuſehen/ daß ſolche heylſame gute <hi rendition="#fr">Arbeit an vns nicht</hi><note place="right">Gal. 2. 11.</note><lb/>
+<hi rendition="#fr">vergeblich ſey/ laſt vns ja die Gnad nicht wegwerffen/</hi> Laſt vns a-<lb/>
+ber fleiſſe thun/ daß wir taͤglich in der beſſerung/ im glauben vnd in der<lb/>
+Gottſe<supplied>l</supplied>igkeit wachſen/ zunehmen/ vnd alſo tuͤchtig werden zu dem ewigen<lb/>
+Reich GOttes/ zum Erbtheil der Heiligen im Liecht/ daß wir ja nicht auß<note place="right">Colo<supplied>ſ</supplied><gap reason="lost" unit="chars" quantity="1"/><lb/>
+v. 12.</note><lb/>
+der art ſchlagen/ ſondern Blumen ſein vnd bleiben/ nicht aber zu hin-<lb/>
+wuͤrfflichem Vnkraut werden. Laſt vns wol mercken die Kirchen Lection/<lb/>
+die vns allhie im Text ſein ordentlich fuͤrgeſchrieben wird von ſtuͤcke zu<lb/>
+ſtuͤck Wer ſich dabey finden leſt/ bey welchem ſolche tugenden vnd wirck-<lb/>
+ungen ſich eraͤugen/ der iſt ein rechtes GOtt angenehmes Kirchenbluͤm-<lb/>
+lein/ vnd hat die gewiſſe ohnfehlbare Hoffnung/ in den himliſchen ewigen<lb/>
+Luſtgarten dermaleins verſetzt zu werden.</p><lb/>
+<p>Es ſind aber Vier Stuͤck allhie nahm hafftig gemacht/ deren wir<note place="right">1.<lb/>
+Muß man<lb/>
+Gott foͤrch-<lb/>
+ten.</note><lb/>
+vns befleiſſen muͤſſen. Das erſte iſt <hi rendition="#fr">die Forcht Gottes. Das iſt der<lb/>
+anfang aller Weißheit/</hi> <hi rendition="#aq">Proverb. 1. Syr.</hi> 1. Viel Menſchen ſind zwar<note place="right">S<gap reason="illegible" unit="chars" quantity="1"/>r. 1 15.<lb/>
+Prov 1. 17.</note><lb/>
+<fw place="bottom" type="sig">C iij</fw><fw place="bottom" type="catch">in den</fw><lb/>
+<pb facs="#f0022" n="22"/>
+<fw type="header" place="top"><hi rendition="#aq"><hi rendition="#g">ROSA GENEROSA.</hi></hi></fw><lb/>
+in den Kirchengarten vnd zu dero Gemeinſchafft beruffen/ Aber wann<lb/>
+ſie nicht auch gruͤnen vnnd bluͤhen in der Gottesforcht/ ſo iſt es nichts.<lb/>
+Dann vber die allein <hi rendition="#fr">wirt deß <hi rendition="#k">He</hi>ren Gnad ewig wehren/ die jhn<lb/>
+foͤrchten/</hi> ſtehthie im Text/ das iſt/ die jhn jmmer fuͤr augen haben/ die in<lb/>
+ſeiner forcht wandeln/ vnd ſich ſchewen fuͤr ſeinem H. Angeſicht.</p><lb/>
+<p><note place="left">2.<lb/>
+An ſeine<lb/>
+Gebott<lb/>
+dencken.</note>Darnach ſteth hie/ <hi rendition="#fr">Sie dencken an ſeine Gebott.</hi> Er redet aber<lb/>
+allhie nicht eigentlich vnd inſonderheit von den zehen Gebotten/ die am<lb/>
+Berg <hi rendition="#aq">Sinai</hi> gegeben worden/ ſondern ins gemein von dem gantzen geof-<lb/>
+fenbarten Wort GOttes. Dann wer ein rechter Kirchen Chriſt iſt/ der<lb/>
+muß fleiſſig dencken an all das Wort GOttes/ dieweil Gott dem <hi rendition="#k">He</hi>rꝛn<lb/>
+<note place="left">Matt. 15. 9.</note>auſſerhalb ſeinem Wort mit keinen Menſchenſatzungen kan oder ſoll ge-<lb/>
+<note place="left">Eſai. 8. 20.</note>dienet werden.</p><lb/>
+<p><note place="left">3.<lb/>
+Vnd dar-<lb/>
+nach thun.</note>Es iſt aber mit dem dencken noch nicht außgerichtet/ ſondern man<lb/>
+muß auch <hi rendition="#fr">darnach thun/</hi> wie vnſer Pſalm ferner redet/ das merckt wol.<lb/>
+Dann an dieſem ſtuͤck mangelt es vielen in der Kirchen GOTtes/ die<lb/>
+zwar etwas wiſſen/ vnd deſſen fein gedencken koͤnnen/ aber <hi rendition="#fr">das thun/<lb/>
+das thun/</hi> will bey ihnen nicht fort/ da bleibts ſtecken. Nun muß aber ein<lb/>
+<note place="left">Jacob. 1. 22</note>Chriſt ein rechter <hi rendition="#aq">practicant</hi> ſein/ nicht <hi rendition="#fr">nur ein Hoͤrer/</hi> (oder ein ſchwaͤ-<lb/>
+tzer) ſondern auch ein <hi rendition="#fr">Thaͤter/</hi> Wir muͤſſen darnach <hi rendition="#fr">thun/</hi> ſteht allhie.<lb/>
+Das behaltet wol. Man muß thun nach den Gebotten deß <hi rendition="#k">Herren.</hi><lb/>
+Nun iſt das deß <hi rendition="#k">Her</hi>ren Gebott/ damit wirs kurtz faſſen vnd ſummi-<lb/>
+ren/ Daß wir vnſer Suͤnd vnd Elend recht erkennen vnd von hertzen be-<lb/>
+<note place="left">Jerem. 3. 13<lb/>
+14.</note>rewen ſollen/ <hi rendition="#fr">Daß laſt vns thun.</hi> Deß <hi rendition="#k">Her</hi>ren Gebott iſt/ wer nicht<lb/>
+verzweiffeln/ ſondern getroͤſtet vnd ſelig werden will/ Der muß glauben<lb/>
+<note place="left">Actor. 16. 31</note>an <hi rendition="#k">Je</hi>ſum <hi rendition="#k">Ch</hi>riſtum/ wie iener KerckerMeiſter zu Philippen/ <hi rendition="#fr">daß laſt<lb/>
+vns thun/</hi> durch die gnade GOttes. Deß <hi rendition="#k">He</hi>rꝛen Gebott iſt/ daß wir<lb/>
+<note place="left">Matt 5. 16.</note>ſollen vnſer Liecht leuchten/ <hi rendition="#fr">vnd vns im ſtand guter Werck er-</hi><lb/>
+<note place="left">Titum 3. 8.</note><hi rendition="#fr">finden laſſen/ daß laſt vns thun.</hi></p><lb/>
+<p><note place="left">4.<lb/>
+Seinen<lb/>
+Bund hal-<lb/>
+ten.</note>Noch mehr/ daß wir <hi rendition="#fr">ſeinen Bund halten.</hi> Abermal eine noth-<lb/>
+wendige <hi rendition="#aq">lection!</hi> Jſt nicht gnug ſich deß Bunds ruͤhmen/ vnd immer<lb/>
+ruffen/ <hi rendition="#fr">Bund/ Bund/</hi> Jeſai. 8. vnd <hi rendition="#fr">Tempel deß <hi rendition="#k">He</hi>rꝛen/ Tem-</hi><lb/>
+<note place="left">Jeſai. 8. 12.</note><hi rendition="#fr">pel deß <hi rendition="#k">He</hi>rꝛen.</hi> Es iſt auch nicht gnug/ wol anfangen nach dem Bund<lb/>
+<note place="left">Jerem. 7. 4.</note>GOttes zu leben/ im Glauben vnd Gehorſam/ ſondern man muß den<lb/>
+Bund halten/ man muß dabey beharꝛen.</p><lb/>
+<p>O ſelig vnd aber ſelig ſind die Menſchen/ die im Kirchengarten al-<lb/>
+<fw type="catch" place="bottom">ſo erfun-</fw><lb/>
+<pb facs="#f0023" n="23"/>
+<fw place="top" type="header"><hi rendition="#aq"><hi rendition="#g">ROSA GENEROSA.</hi></hi></fw><lb/>
+ſo erfunden werden/ die alſo zu jhrer vorigen ſchoͤnen <hi rendition="#fr">Geſtalt</hi> ernewert/<lb/>
+zu jhrem vorigen lieblichen <hi rendition="#fr">Geruch/</hi> vnd vorigen <hi rendition="#fr">Tugenden</hi> alſo ge-<lb/>
+bracht werden/ daß ſie <hi rendition="#fr">Gott foͤrchten/ daß ſie denckẽ an ſeine Gebott/</hi><lb/>
+daß ſie dieſelbige <hi rendition="#fr">thun/ vnd ſeinen Bund halten!</hi> Das ſind die rechte<lb/>
+Gott wolgefaͤllige Bluͤmlein in dem Kirchengarten/ bevorab wann ſie<lb/>
+bey zeit/ in jhrer bluͤhenden Jugend ſich alſo anlaſſen/ vnd darbey <hi rendition="#fr">biß ans</hi><note place="right">Matt. 10.<lb/>
+22.</note><lb/>
+<hi rendition="#fr">Ende beharren.</hi></p><lb/>
+<p>Wann dann ſchon ein ſcharpffer rawer Wind vber ſolche Bluͤm-<note place="right">Welche<lb/>
+dieſe Kir-<lb/>
+chenlection<lb/>
+lernen/ die<lb/>
+haben ge-<lb/>
+wiſſen<lb/>
+Troſt.</note><lb/>
+lein hergehet/ (dann der Kirchengarten iſt ja nicht auſſer dieſer elenden<lb/>
+Welt) ſo wird er doch nichts ſchaden koͤnnen. Laß herꝛauſchen den Wind<lb/>
+mancherley Anfechtungen vber ein ſolches ernewertes Bluͤmlein <hi rendition="#aq">in hor-<lb/>
+to Eccleſiæ,</hi> vber einen widergebornen Chriſten/ ſo wird er jhn doch nicht<lb/>
+vmbwerffen/ noch võ Gottes Angeſicht wegblaſen/ oder <hi rendition="#fr">abſcheiden moͤ-</hi><note place="right">Rom. 8. 39.</note><lb/>
+<hi rendition="#fr">gen.</hi> Der vnfreundliche rawe Verfolgungswind/ wird auch ein ſolches<lb/>
+recht eingewurtzeltes Kirchenbluͤmlein nicht vmbwerffen (<hi rendition="#aq">NB</hi> recht ein-<lb/>
+gewurtzeltes/ dann mit den Heuchlern die nicht tieffe Wurtzel haben/<note place="right">Matth. 13.<lb/>
+6.</note><lb/>
+hats ein andere Meynung) ſondern es wird <hi rendition="#fr">feſt ſtehen/ wie der Berg</hi><note place="right">Pſal. 125. 1.</note><lb/>
+<hi rendition="#fr">Zion.</hi> Der wind der mancherley Schwachheiten/ ja auch der Todeswind<lb/>
+ſelbſt muß all zum beſten vnd zur Wolfahrt dieſer Kirchenblum dienen.<lb/>
+Vnd ob ſchon der Todeswind ein Kirchenbluͤmlein nach dem andern/ vñ<lb/>
+endlichen ſie ſampt vnd ſonders von dieſer Staͤtte allhie auff Erden wird<lb/>
+wegblaſen/ gantz vnd gar außduͤrꝛen vnd welck machen/ ſo werden wir<lb/>
+doch in ſolcher Verwelckung nicht bleiben/ nicht bleiben/ ſondern wie die<lb/>
+Wurtzel in der Erden/ wann ſchon die Blum abfaͤlt/ ein heimlich Leben<lb/>
+in ſich behelt/ welches ſich zu ſeiner zeit wieder herfuͤr thut: Alſo haben die<lb/>
+abgeſtorbene Kirchenbluͤmlein ein heimlich Leben/ welches <hi rendition="#fr">verborgen</hi><note place="right">Coloſ. 3. 3.</note><lb/>
+<hi rendition="#fr">iſt mit Chriſto in Gott/</hi> ſo auch zu ſeiner zeit wird offenbar werden.<lb/>
+Wie man auch die Gartenbluͤmlein zu Winterszeit in die Gewoͤlb oder<lb/>
+Kammern verbirgt/ biß an den lieblichen Fruͤhling/ da ſie wider außſchla-<lb/>
+gen: Alſo werden vnſere Leiber auch/ wann der Windherr deß Tods ein-<lb/>
+bricht/ in das Erdengewoͤlb oder Kaͤm̃erlein geſetzt/ biß zũ froͤlichen Som-<note place="right">Eſa 26. 20.</note><lb/>
+mer deß juͤngſtentags/ da werden ſie recht ſchoͤn vnd lieblich wider herfuͤr<note place="right">1. Theſſ. 4.<lb/>
+13.</note><lb/>
+ſtechen/ vnd in <hi rendition="#fr">den Vorhoͤfen deß <hi rendition="#k">He</hi>rꝛen gruͤnen/ vnd bluͤhen e-<lb/>
+wiglich.</hi> Das iſt je gewißlich wahr vnd ein tewres wehrtes Wort/ wie<note place="right">Pſal. 92. 14.</note><lb/>
+wir jetzt im folgenden Vierten Theil hoͤren werden. Summa/ kein<lb/>
+Wind kandẽ Kirchenbluͤmlein ſchaden. Der wind der Verfolgung nicht/<lb/>
+<fw place="bottom" type="catch">Der</fw><lb/>
+<pb facs="#f0024" n="24"/>
+<fw type="header" place="top"><hi rendition="#aq"><hi rendition="#g">ROSA GENEROSA.</hi></hi></fw><lb/>
+der wind der Anfechtung nicht/ der wind der Kranckheit nicht/ der wind<lb/>
+deß Todes auch nicht.</p><lb/>
+<p>Dargegen/ ob ſchon die jenige auch wieder herfuͤr kommen werden<lb/>
+am juͤngſten Tage/ welche hie im E<supplied>l</supplied>endsthal/ das iſt/ in dem verderbten<lb/>
+ſuͤndlichen Stand <hi rendition="#aq">extra hortum Ecclenæ.</hi> auſſer d<supplied>e</supplied>m Kirchengarten<lb/>
+bleiben/ wie denn auch die jenige/ die zwar allhie im Kirchengarten ſein/<lb/>
+<note place="left">2. Tim. 3. 5.</note>bluͤhen auch in weltlichen Ehren/ haben einen feinen <hi rendition="#fr">ſchein der Gott-</hi><lb/>
+<note place="left">Coloſ. 2. 23.</note><hi rendition="#fr">ſeligkeit/ vnd der Weißheit/ durch ſelberwehlte Geiſtlichkeit vnd<lb/>
+Demuth/</hi> geben aber keinen guten Geruch der wahren Frombkeit von<lb/>
+ſich/ ſondern ſtincken vielmehr von allerley ſuͤnden/ haben auch gar keine<lb/>
+Chriſtliche Tugend vnd wirckung bey ſich/ d<supplied>i</supplied>e<gap reason="lost" unit="chars" quantity="1"/>enige/ ſag ich/ haben die<lb/>
+erwuͤnſchte ſelige Verſetzung in den ewigen himliſchen Luſtgar<supplied>t</supplied>en/ durch-<lb/>
+auß nicht zu hoffen/ ſondern werden als Vnkraut hinweg geworffen/ vnd<lb/>
+mit Fuͤſſen getretten werden.</p><lb/>
+<p>Da ſchawe nun ein jeder gar eben zu/ vnd pruͤffe ſich ſelbſt wie es<lb/>
+jetzt mit jhm <hi rendition="#aq">in horto Eccleſiæ,</hi> im Kirchengarten beſchaffen/ ob er die ob-<lb/>
+gedachte ernewrung/ tugenden vnd wirckung an ſich auch befinde/ oder<lb/>
+nicht/ ob er eine ſolche jetzt beſchriebene Blum oder a<supplied>b</supplied>er ein Vnkraut ſey/<lb/>
+ſo wird er bald mercken was er zu hoffen oder nicht zu offen habe. Jſt nun<lb/>
+an dem daß wir auch etwas reden von der allerletzten vnd beſten Fortſetz-<lb/>
+ung deß Menſchen auß dem Kirchengarten in den himliſchen Luſtgarten.</p></div><lb/>
+<div n="3"><head><hi rendition="#aq"><hi rendition="#g">IV.</hi></hi><lb/>
+<hi rendition="#b">Die Blum im himliſchen Luſtgarten.</hi></head><lb/>
+<p><note place="left">Es iſt ge-<lb/>
+wiß ein e-<lb/>
+wiges Le-<lb/>
+ben.</note><hi rendition="#fr"><hi rendition="#in">D</hi>Jeſe letzte vnd allerbeſte Verſetzung der glaubigen</hi><lb/>
+Chriſten wird ſo gewiß geſchehen/ als die vorgedachte dr<gap reason="lost" unit="chars" quantity="1"/>y auch<lb/>
+geſchehen ſind. Dann es iſt ja der Menſch nicht zu dieſem leben<lb/>
+allein erſchaffen/ wie andere ſtumme vnd thumme Creaturen/<lb/>
+ſondern zu dem ewigen Leben. (<hi rendition="#aq">plus vltra,</hi> mehr dahinden/ weiter hinauß/<lb/>
+ſagt K. <hi rendition="#aq">Carl. V.</hi>) Vnd wann ſchon vnſere GroßEltern im Para diß<lb/>
+nicht geſuͤndiget hetten/ ſo weren ſie doch nicht jmmer auff Erden allhie<lb/>
+geblieben/ ſondern endlichen ohne allen ſchmertzen vnd Tod/ auß dem jrr-<lb/>
+diſchen Paradiß in das himliſche verſetzet worden/ wie hernachmals mit<lb/>
+<note place="left">Geneſ. 5.<lb/>
+24.</note><hi rendition="#aq">Enoch Gen.</hi> 5. vnd mit <hi rendition="#aq">Elia 2. Reg.</hi> 2. geſchehen. Da ſie aber durch jhren<lb/>
+<note place="left">2. Reg. 2.<lb/>
+11.</note>Vngehorſam ſo wol das Ewige als das zeitliche Leben jhnen vnd vns<lb/>
+verſchertzet haben/ Sihe ſo hats vns der Sohn Gottes widerumb erwor-<lb/>
+<fw type="catch" place="bottom">ben. Er</fw><lb/>
+<pb facs="#f0025" n="25"/>
+<fw place="top" type="header"><hi rendition="#aq"><hi rendition="#g">ROSA GENEROSA.</hi></hi></fw><lb/>
+ben. Er hat <hi rendition="#fr">vns die Staͤtte im Himmel bereitet/ will auch wider</hi><note place="right">Joh. 14. 2. 3.</note><lb/>
+<hi rendition="#fr">kommen/ vnd vns zu ſich nehmen/ Er will ſeinen Schaffen ge-</hi><note place="right">Joh. 10. 28.</note><lb/>
+<hi rendition="#fr">ben das ewige Leben.</hi> Es erklaͤrt ſich auch GOtt der Vatter/ wer an<lb/>
+ſeinen Sohn glaube/ der ſoll <hi rendition="#fr">nicht verlohren werden/ ſondern das</hi><note place="right">Joh 3. 16.</note><lb/>
+<hi rendition="#fr">ewige Leben haben.</hi> Der H. Geiſt arbeitet auch noch taͤglich an vns<lb/>
+zu dem einigen Ende/ daß wir zum ewigen Leben vorbereitet werden. Es<lb/>
+iſt auch ein Glaubens Articul/ daß wir ein ewiges Leben zu gewarten ha-<lb/>
+ben.</p><lb/>
+<p>Dahin weiſet vns auch dieſer vnſer Text/ wann er ſagt/ <hi rendition="#fr">Die Gnad<lb/>
+deß <hi rendition="#k">He</hi>rꝛen wehret in Ewigkeit.</hi> Das geſchicht hie nicht/ dieſe Welt<lb/>
+wehret nicht ewig/ ſo leben auch wir hie nicht ewig. So muß ja ein ander<lb/>
+Orth ſein/ da wir deß <hi rendition="#k">He</hi>rꝛen Gnad ewig ſpuͤren/ vnd genieſen werden.<lb/>
+Fragt aber jemand/ wo dann? ſo antwortet der Text: <hi rendition="#fr">Der <hi rendition="#k">He</hi>rr hat<lb/>
+ſeinen Stul im Himmel bereitet/</hi> im Himmel hat Er ſeinen Thron<lb/>
+befeſtiget/ da will er ſeine ewige Wohnung haben/ da ſollen wir auch ewig<lb/>
+bey jhm ſein vnd bleiben/ wir ſollen ſtehen <hi rendition="#fr">fuͤr dem Stul GOTtes/</hi><note place="right">Apoc. 7. 15.</note><lb/>
+<hi rendition="#fr">vnd jhm dienen Tag vnd Nacht/</hi> das iſt/ ohne auffhoͤren in ewigkeit.</p><lb/>
+<p>Da wirds nun ſehr wol ſtehen vmb den Menſchen. Da wird er viel<note place="right">Es wird<lb/>
+da wol zu-<lb/>
+gehen.</note><lb/>
+ſchoͤner/ viel herrlicher vnd ſeliger bluͤhen/ als er hie in dem Kirchengar-<lb/>
+ten/ ja auch in dem jrrdiſchen Paradiß gebluͤhet hat. Er wird nicht mehr<lb/>
+ſein <hi rendition="#aq">lilium inter ſpinas,</hi> <hi rendition="#fr">eine Roſe vnter den Dornen/</hi> wie allhie in die-<note place="right">Cant. 2. v. 2.</note><lb/>
+ſer Welt. <hi rendition="#fr">Die Sonne wird vns auch nicht mehr ſtechen/</hi> da wird<note place="right">Eſai. 49.<lb/>
+v. 10.</note><lb/>
+kein Leyd noch Geſchrey mehr ſein/ ſondern ein <hi rendition="#fr">liebliches Weſen zur</hi><note place="right">Apoc. 21. 4.</note><lb/>
+<hi rendition="#fr">Rechten GOttes ewiglich.</hi> Alßdann werden wir nicht weiter fortge-<note place="right">Pſal. 16. 11.</note><lb/>
+ſetzet werden/ ſondern eine <hi rendition="#fr">bleibende Statt</hi> haben/ vnd werden in ſol-<note place="right">Heb. 13. 14.</note><lb/>
+chem himliſchen Erbe <hi rendition="#fr">vnbefleckt vnd vnverwelckt</hi> bleiben. Der ſchaͤd-<note place="right">1. Pet. 1. 4.</note><lb/>
+liche Sudwind wird vns nicht mehr ſo verdrießlich anblaſen/ das hoͤlli-<lb/>
+ſche Vngezieffer wird auch die Ehrenblum nicht mehr beſchaͤdigen koͤn-<lb/>
+nen. Wie dann ſolcher ſeliger ewiger Frewdenſtand hin vnd wider in<lb/>
+GOttes Wort Altes vnd Newes Teſtaments ſo außfuͤhrlich vnd hertz-<lb/>
+troͤſtlich beſchrieben wird/ daß daran im geringſten nicht zu zweiffeln. O<lb/>
+wol der Blum! O wol der Roſen die dahin verſetzet wird!</p><lb/>
+<p>Wir bleiben aber dißmals bey vnſerm Blumengleichnis/ als darin-<note xml:id="note2a" place="right" next="#note2b">Wir wer-<lb/>
+den allda<lb/>
+recht voll-<lb/>
+kommene</note><lb/>
+nen vns der Zuſtand der ewigen ſeligen Herꝛlichkeit auch gar ſchoͤn ent-<lb/>
+worffen vnd abgemahlet wird. Dann gleich wie Blumen vnd Roſen/<lb/>
+<fw place="bottom" type="sig">D</fw><fw place="bottom" type="catch">wann</fw><lb/>
+<pb facs="#f0026" n="26"/>
+<fw place="top" type="header"><hi rendition="#aq"><hi rendition="#g">ROSA GENEROSA.</hi></hi></fw><lb/>
+<note xml:id="note2b" prev="#note2a" place="left">gefuͤllte<lb/>
+Roſen ſein.</note>wann ſie offt vnd vielmal vnd zwar zur rechten zeit/ fortgeſetzt werden/ zu<lb/>
+letzt recht ſchoͤne/ vollkommene/ anſehliche/ ſtattliche/ gefuͤllte Roſen vnd<lb/>
+Blumen werden: (dann ſolcher heimlicher Kuͤnſte ſtecken viel in der Na-<lb/>
+tur verborgen/ die durch lange Erfahrung von fleiſſigen Leuthen in acht<lb/>
+genommen/ vnd gelernet werden) Alſo wann GOtt der <hi rendition="#k">He</hi>rꝛ/ der die zeit/<lb/>
+mittel vnd weiſe am allerbeſten weiß/ vns glaubige ChriſtenMenſchen<lb/>
+das letzte mal verſetzen wirt/ nemlich in ſeinen himliſchen Vorhoffsgar-<lb/>
+ten/ da werden wir recht ſchoͤne/ anſehliche/ ſtattliche/ <hi rendition="#fr">vollkommene ge-<lb/>
+fuͤllte</hi> Roſen vnd Blumen ſein.</p><lb/>
+<p><hi rendition="#fr">Vollkommen</hi> an Leib vnd an Seel/ ohn einigen fehl vnd mangel/<lb/>
+deren wir ſonſt jetzund noch viel an vns haben/ nach dem alten Spruͤch-<lb/>
+wort: <hi rendition="#aq">Si<hi rendition="#g"><hi rendition="#k">Nisi</hi></hi> non eſſet, perfectus quilibet eſſet, Non mihi ſunt viſi qui<lb/>
+caruere <hi rendition="#g"><hi rendition="#k">Nisi.</hi></hi></hi> Das iſt/ Niemand iſt ſo vollkommen auff dieſer Erden/<lb/>
+der nicht noch ein Haͤcklin oder zwey an ſich hette. Aber dort nicht alſo.<lb/>
+Da werden wir recht vollkommene gefuͤllte Blumen ſein. Wir werden<lb/>
+<hi rendition="#fr">gefuͤllet</hi> ſein mit allerley ſegen vnd ſchmuck. Vnſere Seelen werden <hi rendition="#fr">ge-<lb/>
+fuͤllet</hi> ſein mit allerley ſchoͤnen vollkommenen Gaben/ hie iſts jetzt noch<lb/>
+<note place="left">1. Cor. 13. 9.</note>lauter ſtuͤckwerck. Vnſer Verſtand der hie noch gar leer iſt/ wird als-<lb/>
+dann <hi rendition="#fr">gefuͤllet</hi> ſein mit himliſcher Weißheit/ vnd werden wir ſein die rech-<lb/>
+<note place="left">Eſai. 54, 13.</note>te Θεοδίδακτοι, das iſt/ Gottsgelaͤhrte Eſai. 54. Vnſere Leiber/ die als-<lb/>
+dann von den Toden wider auffwachen/ vnd in den himliſchen Luſtgar-<lb/>
+ten auch ſollen verſetzt werden/ die werden <hi rendition="#fr">gefuͤllet</hi> ſein mit Krafft vnd<lb/>
+<note place="left">1. Cor. 15. 43</note>Ehr/ vnangeſehen daß ſie hie <hi rendition="#fr">geſaͤet werden in Schwachheit vnnd</hi><lb/>
+<note place="left">Phil. 3. 21.</note><hi rendition="#fr">Vnehr/</hi> Sie werden deß <hi rendition="#k">Herren <choice><sic>E</sic><corr>C</corr></choice>h</hi>riſti <hi rendition="#fr">herꝛlichem Leib gleich-<lb/>
+foͤrmig</hi> vnd ehnlich ſein.</p><lb/>
+<p>Vnſere Hertzen werden auch <hi rendition="#fr">gefuͤllet</hi> ſein mit vollkommener lieb/<lb/>
+<note place="left">Pſal. 17. 15.</note>frewd vnd heiligkeit. Vnſere Augen werden <hi rendition="#fr">gefuͤllet</hi> vnd geſaͤtiget ſein<lb/>
+<note place="left">Geneſ. 32.<lb/>
+30.</note>mit dem hocherwuͤnſchten ſeligen Anblick der H. Dreyeinigkeit. Vnſers<lb/>
+Ohren werden <hi rendition="#fr">gefuͤllet</hi> ſein mit der lieblichen Engliſchen <hi rendition="#aq">Muſica,</hi> mit<lb/>
+dem ewig-klingenden hertzlichen <hi rendition="#aq">Allelnia.</hi> Vnſere Haͤnde werden <hi rendition="#fr">gefuͤl-</hi><lb/>
+<note place="left">Apoc. 7. 9.</note><hi rendition="#fr">let</hi> ſein mit den rechten <hi rendition="#fr">Palmenzweygen/</hi> als Zeichen deß erhaltenen<lb/>
+<note place="left">Pſal. 126. 2.</note>Siegs. <hi rendition="#fr">Vnſer Mund wird voll lachens/ vnd vnſere Zung voll</hi><lb/>
+<note place="left">Matt. 17. 4</note><hi rendition="#fr">ruͤhmens ſein.</hi> Summa/ da wirds wol ſtehen/ da wirds <hi rendition="#fr">gut wohnen<lb/>
+ſein/</hi> da werden wir erfahren/ daß deß <hi rendition="#k">He</hi>rren Gnad/ laut dieſes Textes/<lb/>
+waͤhren wird in alle ewige Ewigkeit.</p><lb/>
+<fw place="bottom" type="catch">Wer</fw><lb/>
+<pb facs="#f0027" n="27"/>
+<fw place="top" type="header"><hi rendition="#aq"><hi rendition="#g">ROSA GENEROSA.</hi></hi></fw><lb/>
+<p>Wer ſolte nun nicht ein hertzliches/ hitziges vnd ſehnliches verlan-<note place="right">Nutz vnd<lb/>
+gebrauch<lb/>
+dieſer Lehr.</note><lb/>
+gen dahin haben? wer wolte hie nicht mit Gedult ertragen/ wann der wind<lb/>
+noch raw vnd hart auff vns ſtoͤſſet? wer wolte nun vnwillig werden vber<lb/>
+die <hi rendition="#fr">Truͤbſal/ die zeitlich vnd leicht iſt/</hi> weil darauff gewiß erfolgen<note place="right">2. Cor. 4. 1<gap reason="lost" unit="chars" quantity="2"/></note><lb/>
+wird eine <hi rendition="#fr">vber alle maß wichtige ewige Herꝛlichkeit?</hi> Wem wolte<lb/>
+nun fuͤr ſterben grawen? weil alsdann der Glaubigen Seelen auß dem<lb/>
+Kirchengarten ſo bald/ ja in dem Augenblick jhres abſcheidens dahin ver-<lb/>
+ſetzet werden? wie auß dem Exempel deß frommen Lazari zu ſchlieſſen/<note place="right">Luc. 16. 22.</note><lb/>
+vnd auß der Offenbarung Johannis klaͤrlich zuſehen. Dann ſo ſtehet im<lb/>
+14. Cap. <hi rendition="#fr">Selig ſind die im <hi rendition="#k">Herren</hi> ſterben von nun an.</hi><note place="right">Apoc. 14.<lb/>
+v. 13.</note></p><lb/>
+<p>Das macht daß die fromme Glaubige ſo getroſt vnd frewdig auß<lb/>
+dieſer Welt abſcheiden/ daß ſie begeren vnd wuͤnſchen (durch den Tod)<note place="right"><hi rendition="#aq">Bernh.<lb/>
+Deſidero te<lb/>
+millies, Mi<lb/>
+Ieſu, quan-<lb/>
+do venies<supplied>?</supplied></hi></note><lb/>
+<hi rendition="#fr">auffgeloͤſet zu werden/ vnd bey dem <hi rendition="#k">He</hi>rꝛen <hi rendition="#k">Ch</hi>riſto zu ſein.</hi><lb/>
+Daß ſie anſtimmen vnd ſingen: <hi rendition="#fr"><hi rendition="#k">He</hi>rꝛ nun laß deinen Diener im<lb/>
+Frieden fahren/ dann meine Augen haben deinen Heyland ge-<lb/>
+ſehen.</hi> Ach GOtt <hi rendition="#fr">wann ſoll es dann geſchehen/ daß ich dein Ant-</hi><note place="right">Philip. 1. 23.</note><lb/>
+<hi rendition="#fr">litz mag ſehen/</hi> auß dem 42. Pſalmen/ Vnd das iſt auch vnſer aller<note place="right">Luc. 2. 29.<lb/>
+Pſal. 42. 3.</note><lb/>
+wunſch vnd verlangen/ <hi rendition="#fr">O <hi rendition="#k">He</hi>rꝛ hilff/ O <hi rendition="#k">He</hi>rꝛ laß wol gelingen.</hi><note place="right">Pſal. 118. 25</note></p><lb/>
+<p>Gnug aber vnd vbergnug von dieſem lehr- vnd troſtreichen Gleich-<lb/>
+nis/ darinnen der Menſch mit allem ſeinem Zuſtand/ als eine Blum o-<lb/>
+der Roſen abgemahlet wird/ nicht allein wegen ſeiner jrrdiſchen An-<lb/>
+kunfft/ oder von wegen deß vielfaltigen vnterſchiedts/ ſo zwiſchen den<lb/>
+Blumen eins theils/ vnd zwiſchen den Menſchen anders theils zu finden:<lb/>
+Sondern fuͤrnemlich deßwegen/ daß Blumen vnd Menſchen ſo vielmal<lb/>
+verſetzet vnd fortgepflantzet werden/ biß daß ſie zur rechten Vollkommen-<lb/>
+heit gelangen.</p></div></div><lb/>
+<div type="fsPersonalia" n="2"><head><hi rendition="#aq">Perſonalia.</hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">J</hi>St nunmehr an dem/ daß wir auch zum Beſchluß deß</hi><lb/>
+Weyland Hoch Wolgebornen Graven vnd Herrn/ Herrn <hi rendition="#fr">Wil-<lb/>
+helm Reinhards</hi> Graven zu Hanaw vnd Rieneck/ Herrn zu<lb/>
+Muͤntzenbergk/ Deß auch Hoch Wolgebornen vnſers jetzt Regierenden<lb/>
+Gn. Land Herrn/ Herrn <hi rendition="#fr">Philips Moritzen</hi> Graven zu Hanaw/ ꝛc.<lb/>
+<fw place="bottom" type="sig">D ij</fw><fw place="bottom" type="catch">Vielge-</fw><lb/>
+<pb facs="#f0028" n="28"/>
+<fw place="top" type="header"><hi rendition="#aq"><hi rendition="#g">PERSONALIA.</hi></hi></fw><lb/>
+Vielgeliebten Herrn Bruders Chriſt-S. Ged. in gebuͤhrlichen Ehren<lb/>
+allhie an dero Graͤfflichen Grabſtaͤtte gedencken/ vnd zwar nach anley-<lb/>
+tung dieſes jetzt erklaͤrten Textes/ auch in der Ordnung ſo droben im <hi rendition="#aq">exor-<lb/>
+dio</hi> angedeutet worden.</p><lb/>
+<div n="3"><head/>  <p><hi rendition="#aq">I.</hi> Jſt dieſe nunmehr Selige Blum auß einem Hochfuͤrnehmen<lb/>
+Stamme entſproſſen/ vnd herfuͤr gewachſen. Dann es ſind J. Gn. S.<lb/>
+Andenckens/ (<hi rendition="#aq">reſpectivè</hi>) von Graͤvelichen vñ Fuͤrſtlichen Eltern in dieſe<lb/>
+<note place="left">Ann. 1607.<lb/>
+den 20.<lb/>
+Octob.</note>Welt geboren worden. Der Herr Vatter iſt geweſen/ der Weyland auch<lb/>
+Hoch Wolgeborne/ vnſer in Gott ruhender Gnaͤdiger Land Herr/ Herr<lb/>
+<hi rendition="#fr">Philips Ludwig Grave</hi> zu Hanaw vnd Rieneck/ Herr zu Muͤntzen-<lb/>
+<note place="left"><hi rendition="#aq">Rudolph.<lb/>
+<hi rendition="#g">II.</hi></hi></note>bergk/ Kayſerlicher Mayt. Rath ꝛc. Chriſtmilter Gedaͤchtnis. Was das<lb/>
+fuͤr ein heroiſcher/ dapfferer/ Gottſeliger/ Hochqualificirter Herr geweſen/<lb/>
+das iſt ſo weit vñ breit bekant/ daß es allhie meiner fernern Erzehlung gar<lb/>
+nicht bedarff. Vnd ob ſchon Hoch Wolgedachte J. Gn. Chriſt-S. And.<lb/>
+nach dẽ ohnwandelbaren Willen Gottes An. 1612. den 9. <hi rendition="#aq">Aug.</hi> dieſe Welt<lb/>
+geſegnet vñ verlaſſen/ ſo wird doch dero fuͤrtrefflicher Name bey allẽ from-<lb/>
+men hertzen allhie/ vñ anderswo bey vielẽ andern wol vnvergeſſen bleiben.</p><lb/>
+<p>Die Fraw Mutter/ ſo durch Gottes gnaͤdigẽ Willen noch am leben/<lb/>
+iſt die Durchleuchtige Hochgeborne Fuͤrſtin vnd Fraw/ Fraw <hi rendition="#aq">Catharina<lb/>
+Belgica,</hi> Geborne Princeſſin von Vranien/ Graͤffin zu Naſſaw/ Graͤffin<lb/>
+zu Hanaw vnd Rieneck/ Fraw zu Muͤntzenbergk/ die Graͤffliche Wittib/<lb/>
+vnſere Gn. Fuͤrſtin vnd Fraw/ ſo jetzt in groſſer Hertzbetruͤbnis allhie zuge-<lb/>
+gen. Dann es hatten J. F. Gn. noch kaum recht verſchmertzt den leydmuͤ-<lb/>
+tigen Todsfall Jhres auch vielgeliebten from̃en Sohns/ vñ Herrn/ Herrn<lb/>
+<hi rendition="#fr">Fridrich Ludwigen</hi> Graven zu Hanaw ꝛc. ſo fuͤr ohngefehr 2. Jahren<lb/>
+auch in frembden Landen/ in der zarten bluͤhenden jugend durch den Tods-<lb/>
+wind Jhrer F. Gn. auß den Augen geriffen/ vnd folgends zu <hi rendition="#aq">Sedan</hi> nach<lb/>
+Standsgebuͤhr ins Ruhbettlin der Erden geleget worden. Darbey ſich<lb/>
+ohne allen zweiffel J<supplied>.</supplied> F<supplied>.</supplied> Gn der vorigen trawrigen Todesfaͤllen/ nemlich<lb/>
+Jhres liebſten Herrns vnd Ehegemahls/ wie auch deren erſtgebornen jun-<lb/>
+gen Herꝛleins Chriſt. S. Ged. widrum̃ ſchmertzlichẽ werden erinnert habẽ.</p><lb/>
+<p>Da nun dieſer jetzige Todesfall darzu kommen/ vnd J. F. Gn. eben<lb/>
+auch zu der zeit ſchrifftlichen <hi rendition="#aq">adviſirt</hi> worden/ daß der juͤngſte Herr/ der<lb/>
+auch Hoch Wolgeborne vnſer Gn. Herr/ Herr <hi rendition="#fr">Jacob Johannes</hi> Gra-<lb/>
+ve zu Hanaw ꝛc. in <hi rendition="#aq">Italia</hi> gar gefaͤhrlich vnd toͤdlich ſchwach were/ iſt das<lb/>
+Fuͤrſtliche Mutterhertz/ wie Chriſtlich vnd vernuͤnfftig zu erachten/ von<lb/>
+newem verwundet vnd gekraͤncket worden. Dann kinder kom̃en von her-<lb/>
+<fw place="bottom" type="catch">tzen/ vnd</fw><lb/>
+<pb facs="#f0029" n="29"/>
+<fw type="header" place="top"><hi rendition="#aq"><hi rendition="#g">PERSONALIA.</hi></hi></fw><lb/>
+tzen/ vnd gehen wieder zu hertzen/ bevorab wann ſie ſich in kindlichem Ge-<lb/>
+horſam/ vñ gebuͤhrlichem <hi rendition="#aq">reſpect</hi> gegen Jhre liebe Eltern erfinden laſſen/<lb/>
+inmaſſen dieſe jetztgedachte junge Herrn auch an jhrem orth gegen Jhr F.<lb/>
+Fr. Mutter ruͤhmlichen gethan haben/ wie ſolches inſonderheit deß jetzt-<lb/>
+verſtorbenen Herrn vor kurtzer zeit an die Fr. Mutter <hi rendition="#aq">datirte</hi> bewegliche<lb/>
+Brieffe/ beneben anderẽ zur gnuͤge bezeugen/ als darinnen J. Gn. Chriſt-<lb/>
+S. And. neben andern vielen Kind-ſchuldigen anerbietungen/ alles das<lb/>
+jenige dardurch J<supplied>.</supplied> F. Gn. wie auch andere/ doch ohnvorſetzlich weren be-<lb/>
+truͤbt vnd <hi rendition="#aq">offendirt</hi> worden/ flehentlich abgebetten.</p><lb/>
+<p>Thun derhalben recht Chriſtlich daran/ daß wir jetzt mit den trawri-<lb/>
+gen trawrig ſein/ vnd beſonders mit J. F. Gn. ſo ſich bey dero Vormund-<lb/>
+lichen <hi rendition="#aq">adminiſtration</hi> vmb dieſe gantze Statt vnd Land hochverdient/ ein<lb/>
+vnterthaͤniges Mitleiden tragen/ vnd Gott von hertzen bitten/ daß er hin-<lb/>
+fuͤro fuͤr dergleichen vnd anderem Leyd J. F. Gn. beneben allen denen noch<lb/>
+lebenden vbrigen Graͤfflichen Blumen/ ſampt dem juͤngſtgebornen zarten<lb/>
+Roͤſelin/ vnd Fraͤwlin (ſo morgen durch die Gnad Gottes zur Chriſtli-<lb/>
+chen Tauff wird gebracht werden) gnedig bewahren woͤlle/ Bevorab aber<lb/>
+daß der liebe getrewe Gott die Hauptblum bey dieſem Graͤfflichen Ha-<lb/>
+nawiſchen Stamme/ welche Er ſo wol jnnerlich als euſſerlich gezieret/<lb/>
+wider alle ſchaͤdliche Winde/ die ſie bißhero ſchon zimlich ſtarck angewehet<lb/>
+habẽ/ noch ferner bey gutẽ Wolſtand vnd gluͤcklicher Regirũg/ beneben der<lb/>
+in allẽ Fuͤrſtl. Tugendẽ bluͤhendẽ Gemahlin lang erhaltẽ vnd ſegnen woͤlle.</p></div><lb/>
+<div n="3"><head/>  <p><hi rendition="#aq"><hi rendition="#g">II.</hi></hi> Wie nun ein jedweder Menſch (auff daß wir fortſchreiten) durch<lb/>
+die natuͤrliche leibliche Geburt in dieſen <hi rendition="#fr">Elendsthal</hi> eintrit: Alſo iſts auch<lb/>
+ergangen mit dieſem vnſerm nun in Gott ruhenden S. Herrn. Er hat<lb/>
+zwar eine Zeitlang allhie auff Erden/ wie eine Roſe gebluͤhet/ gegruͤnet/<lb/>
+gewachſen vnd zugenommen an Alter/ an Leibskraͤfften/ an Verſtand/ an<lb/>
+Erkantnis vnd forcht Gottes/ Aber der Wind hat dieſer Blume hart zu-<lb/>
+geſetzt: Es hat ſcharff vber ſie gewehet der wind der Anfechtung/ der wind<lb/>
+der Truͤbſaln. O wie manch rawer wind der Truͤbſaln/ der Kranckheit/ vñ<lb/>
+der ſchmertzen iſt vber dieſe Graͤffliche Blum ergangen! Vor 6. Jahren<lb/>
+als J. Gn. Chriſt. S. Ged. zu <hi rendition="#aq">Paris</hi> geweſen/ hat der wind der Kranckheit<lb/>
+Sie ſo ſtarck angewehet daß man nicht anders gemeynet/ Sie wuͤrde da-<lb/>
+mals verwelcken vnd verdorren/ iſt aber noch nicht zeit geweſen. Jn dem<lb/>
+verlittenen Monat <hi rendition="#aq">Martio</hi> jetzt ſchwebenden Jahrs/ iſt abermal ein ſehr<lb/>
+ſcharpffer Wind vber Sie gangen/ da haben ſich ſolche groſe vnd vaſt vn-<lb/>
+natuͤrliche Schmertzen befunden/ daß der Tod ertraͤglicher geweſen were.<lb/>
+<fw type="sig" place="bottom">D iij</fw><fw type="catch" place="bottom">Es</fw><lb/>
+<pb facs="#f0030" n="30"/>
+<fw place="top" type="header"><hi rendition="#aq"><hi rendition="#g">PERSONALIA.</hi></hi></fw><lb/>
+Es hat ſich aber dieſer ſtarcke Wind/ damals durch Gottes wincken vnd<lb/>
+bedraͤwen/ widrumb legen vnd ſtill ſein muͤſſen/ biß auff den 23. Sept. Da<lb/>
+fich die vorige ſchmertzen/ als eben J. Gn. beym Sawerbruñen zu Spaa<lb/>
+geweſen/ widrumb vnd zwar ſo hefftig herfuͤr gethan/ daß J. Gn. am 12.<lb/>
+Tag Jhrer Kranckheit zu Aachen/ (dahin ſie deß warmen Baads halben<lb/>
+verruckt) als eine zarte Blum verwelckt/ vnd ſelig in Gott entſchlaffen/<lb/>
+wie wir jetzt an ſeinem orth weiter melden woͤllen.</p></div><lb/>
+<div n="3"><head/>  <p><hi rendition="#aq"><hi rendition="#g">III.</hi></hi> Dann weil J. Gn. nicht nur allein als eine Blume im Elends-<lb/>
+thal geſtanden/ ſondern auch durch Gottes Gnad in den newen abgeſon-<lb/>
+derten Garten/ den wir droben genennet haben <hi rendition="#aq">hortum Eccleſiæ</hi> den Kir-<lb/>
+chengartẽ/ ſind verſetzet/ vnd durchs <hi rendition="#aq">Evangelium</hi> beruffen geweſen/ haben<lb/>
+Sie ſich fein Chriſtlich in den handel geſchickt/ haben auch wol gemerckt/<lb/>
+warumb Gott der <hi rendition="#k">He</hi>rꝛ den wind der Truͤbſal vnd Schmertzen ſo ſcharff<lb/>
+wehen laſſe/ vnd haben ſich beyzeiten zu einem ſeligen Ende geſchickt/ vnd<lb/>
+ernſtlich bedacht/ wie man ſich wider den Todeswind verwahren muͤſte/<lb/>
+inmaſſen ſolches abzunehmen auß folgendem <hi rendition="#aq">extract</hi> eines beweglichen<lb/>
+Schreibens daß J. Gn. im verlittenen <hi rendition="#aq">Martio</hi> hiehero abgehen laſſen<hi rendition="#i">:</hi><lb/>
+DißWerck (ſchreiben Sie) iſt mich gar ſchnell ankommen/ hab vor dieſem nichts<lb/>
+darvon gefuͤhlet. Darauß man ja gnug ſehen kan/ daß wir in dieſem Leben viel<lb/>
+Creutz vnd Widerwertigkeit außſtehen muͤſſen/ vnd wann wir am allerſicherſten<lb/>
+ſein/ ſo kompt etwas vnverſehens/ welches vns lehret/ daß wir vns nicht zu weit in<lb/>
+dieſer Welt vertieffen/ ſondern allezeit bedencken/ daß wir vnſer Leben als Wan-<lb/>
+dersleuth anſtellen/ vnd allezeit bereit ſein ſollen zu wandern/ ſonderlich wann die<lb/>
+letzte Stund kompt/ die ein jeder glaubiger Menſch von hertzen wuͤnſchen ſoll/ die-<lb/>
+weil er auß dieſem Leben in die ewige Frewd kompt/ die groͤſer iſt als eines Men-<lb/>
+ſchen Hertz außdencken kan/ ꝛc. Bißhero Jhr Gn. S. Wort/ ſo ich <hi rendition="#aq">debiti<lb/>
+honoris ergò</hi> hieher ſetzen woͤllen/ weil darauß zu ſehen iſt/ was der Geiſt<lb/>
+GOttes fuͤr gute Gedancken/ vom bußfertigen Leben vnd ſeligem ſter-<lb/>
+ben/ in dieſem jungen Hertzen gewircket habe.</p><lb/>
+<p>Es hats auch vnſer lieber Gott auß ſonderbarer gnediger Regierung<lb/>
+vnd Fuͤrſehung alſo geſchickt/ daß eben in dieſer letzten Schwachheit/ an<lb/>
+den frembden Orten/ zugegen geweſt ſind etliche nechſtangewandte Hoch-<lb/>
+fuͤrnehme Freunde/ welche jhre fuͤrtreffliche <hi rendition="#aq">Theologos</hi> vnd <hi rendition="#aq">Medicos</hi> bey<lb/>
+ſich gehabt/ die allen moͤglichen fleiß vnd trew zu Jhrer Gn. Leibs vnd der<lb/>
+Seelen Wolfahrt angewendet haben. Vnd beſchreiben die damals an-<lb/>
+weſende <hi rendition="#aq">Theologi</hi> den letzten Todeskampff vnd ſeliges Ende ſo hertzbe-<lb/>
+wegend/ daß es fromme Augen nicht wol ohne Threnen leſen koͤnnen. Sie<lb/>
+ſchreiben vnter anderm/ daß J. Gn. Sel. Ged. zeit wehrender Schwach-<lb/>
+heit nicht allein fuͤr ſich ſelbſtẽ/ ſondern auch mit dero Dienern/ vnd denen<lb/>
+<fw place="bottom" type="catch">darzu</fw><lb/>
+<pb facs="#f0031" n="31"/>
+<fw type="header" place="top"><hi rendition="#aq"><hi rendition="#g">PERSONALIA.</hi></hi></fw><lb/>
+darzu bernffenen Pfarꝛern ohne vnterlas mit ſonderlicher groſer Andacht<note place="right"><hi rendition="#aq">Ardens o-<lb/>
+ratio eſt o-<lb/>
+ptima ad<lb/>
+mortem<lb/>
+præparatio.</hi></note><lb/>
+das Gebeet zu Gott gethan/ vnd vmb gnedige Erloͤſung angehalten/ daß<lb/>
+auch J. Gn. die nothwendige ernſtliche Buß vermanungen gar Chriſt-<lb/>
+lich angehoͤret/ die faͤhler vnd luͤſte der jugend hertzlich beweynet/ auch dar-<lb/>
+auff den Troſt deß <hi rendition="#aq">Evangelii</hi> Jhr wol <hi rendition="#aq">applicirt,</hi> vnd ſonderlich mit dem<lb/>
+wolgeplagten glaubigen Hiob ſich veſt gehalten an Jhren Erloͤſer Jeſum<lb/>
+Chriſtum.</p><lb/>
+<p>Ja gleich wie die jenige die auff der offenbaren See Schiffbruch<lb/>
+leyden/ mit ſonderlichem fleiß vnd behendigkeit darauff achtung gebẽ/ daß<lb/>
+ſie/ wann das Schiff zu ſtuͤcken gehet/ etwan ein ſtuͤck Holtz oder ein Braͤt<lb/>
+darvon ergreiffen/ vnd ſich damit <hi rendition="#aq">ſalvirn:</hi> Alſo haben auch J. Gn. in dem<lb/>
+letzten Schiffbruch vnd Todesnoth kluͤglich ergriffen den außerleſenen<lb/>
+heilſamen Troſtſpruch auß dem 19. Cap. Hiobs. <hi rendition="#fr">Jch weiß daß mein<lb/>
+Erloͤſer lebet/ ꝛc.</hi> Vnd ſich ſo feſt daran gehalten/ daß Sie die Sturm-<lb/>
+winde/ die Waſſerwellen/ vnd aͤngſte deß Todes nicht darvon haben ab-<lb/>
+treiben koͤnnen.</p><lb/>
+<p><hi rendition="#fr">Jch weiß/</hi> ſagten J. Gn. das iſt/ Jch zweiffele gantz vnd garnicht<lb/>
+daran/ <hi rendition="#fr">Jch weiß/</hi> ich bins durch den H. Geiſt in meinem Hertzen verſi-<lb/>
+chert/ daß mich mein <hi rendition="#k">He</hi>rꝛ <hi rendition="#k">Je</hi>ſus gewißlich erloͤſen werde. <hi rendition="#fr">Erloͤſen</hi> auß<lb/>
+dieſen meinen ſchmertzensbanden/ <hi rendition="#fr">Erloͤſen</hi> auß dieſem muͤhſeligen Le-<lb/>
+ben/ <hi rendition="#fr">Erloͤſen</hi> auß den ſtricken deß Todes/ <hi rendition="#fr">Erloͤſen</hi> auß dem finſteren<lb/>
+Grab/ <hi rendition="#fr">Erloͤſen</hi> von Suͤnd/ Tod/ Teuffel vnd Hoͤll/ das weiß <hi rendition="#fr">Jch/</hi> das<lb/>
+glanbe Jch/ ſein Nahme ſey gebenedeyet. Auß ſtaͤtter vnd andaͤchtiger<lb/>
+widerholung dieſes Spruchs/ iſt ein ſolcher Muth gewachſen/ daß J. Gn.<lb/>
+gantz vnerſchrocken fuͤr dem Tod geweſen. Dann als man nach gethanem<lb/>
+Gebeet erinnerte/ es muͤſten ſich J. Gn. nunmehr in den Willen Gottes<lb/>
+ergeben/ vnd zum ſeligen Abſchied ſchicken/ haben Sie getroſt vnd rund<lb/>
+geantwortet: Jch bin ſchon lengſt fertig/ vnd warte mit verlangen auff „<lb/>
+meinen Erloͤſer/ vnd begere bey Jhm zu ſeyn.</p><lb/>
+<p>Wann auch J. Gn. geſragt worden/ ob ſie nicht gedaͤchten an Jhre<lb/>
+hertzliebe Fr. Mutter/ Herꝛn Gebruͤder/ vnd Fraͤwlin Schweſtern/ ob ſie<lb/>
+nicht denſelbigẽ noch etwas wolten zuentbieten: Haben Sie darauff kurtz<lb/>
+auß jhrem Jobsſpruͤchlin geantwortet was iſts vonnoͤhten? werden wir „<lb/>
+doch ſelbſt widrumb in dem ewigen Leben zuſam̃en kommen/ vnd einander „<lb/>
+daſelbſt ſehen vnd anreden/ Das weiß ich/ das glaub ich/ dahin will ich es „<lb/>
+ſpaaren/ Es haben auch J. Gn. das Ende vnd letzte Stuͤndlin viel ehe „<lb/>
+<fw type="catch" place="bottom">vnd</fw><lb/>
+<pb facs="#f0032" n="32"/>
+<fw place="top" type="header"><hi rendition="#aq"><hi rendition="#g">PERSONALIA.</hi></hi></fw><lb/>
+vnd zeitlicher durch Gottes Regierung vermerckt/ als es der Vmbſtand<lb/>
+<note place="left"><hi rendition="#aq">D. An Riv.<lb/>
+p. &amp; pr. L.</hi></note>vermuhten koͤnnen. Dann als der eine <hi rendition="#aq">Theologus</hi> am 5. Octob Vormit-<lb/>
+tag das Gebeet beneben andern heilſamen vnd troͤſtlichen Errinnerungen<lb/>
+„widrumb gethan/ da haben Jhr Gn. gar beweglichen geſagt: Ach lieber<lb/>
+„Pfarrer/ Jhr habt groſſe muͤhe mit mir/ laſts euch doch nicht verdrieſen/<lb/>
+„wann Jch euch die zukuͤnfftige Nacht werde auffwecken laſſen/ dann ich<lb/>
+„hoffe das werde die letzte Nacht meiner ſchmertzlichen Kranckheit/ vnd<lb/>
+„dieſer ewrer Bemuͤhung ſein. Es iſt auch alſo geſchehen. Dann als ge-<lb/>
+dachter Pfarrer am ſelbigen Abend zu 9. Vhrn von ſich ſelbſten vnerfor-<lb/>
+dert widerkommen/ hat er zwar den jetzt Seligen Herrn noch bey gutem<lb/>
+Verſtand gefunden/ aber die Sprach iſt ſchon entfallen geweſen/ vnd ha-<lb/>
+ben J. Gn. nur mit den Augen vnd Haͤnden geredt/ haben deß Pfarrers<lb/>
+Haͤnde in Jhre Haͤnde/ die doch ſchon kalt vnd halb Tod geweſen/ einge-<lb/>
+ſchloſſen/ vnd mit ſolchen Haͤnd- vnd Augenzeichen zu verſtehen gegeben/<lb/>
+man ſolte doch jetzt in der allerletzten Noth nicht ablaſſen/ ſondern fortfah-<lb/>
+ren zu Beten/ zu vermabnen vnd zu troͤſten/ wie auch geſchehen/ Vnnd<lb/>
+ſind alſo J. Gn. mitten in ſolcher Andacht ſo ſanfft vnd ſtill im frieden<lb/>
+dahin gefahren/ als ob ſie natuͤrlicher weiſe entſchlaffen weren/ nach dem<lb/>
+Sie gelebet. 22. Jahr 11. Monat/ vnd 16. Tage. Da heiſts nun: Ende<lb/>
+gut/ all gut.</p></div><lb/>
+<div n="3"><head/>  <p><hi rendition="#aq"><hi rendition="#g">IV.</hi></hi> Jſt alſo (daß wir ſchlieſſen) durchauß nicht zu zweiffeln daß<lb/>
+dieſe nunmehr verwelckte Graͤffliche Blum theils in den himliſchen ewi-<lb/>
+gen Luſtgarten GOttes allbereit verſetzt/ nemblich was die Seel anlangt/<lb/>
+theils aber/ was den Leib anlangt/ allhie in dieſem Gewoͤlb an der Seiten<lb/>
+deß Herrn Vatters auch wolſeliger Gedaͤchtnis/ in ohnfehlbarer Hoff-<lb/>
+nung der froͤlichen vnd ſeligen Aufferſtehung ruhen/ vnd mit allen Chriſt-<lb/>
+ſelig entſchlaffenen zu rechter Zeit froͤlich werde auffwachen.</p><lb/>
+<lg type="poem"><l>Das helff vns (auch) Chriſtus vnſer Troſt/</l><lb/>
+<l>Der vns durch ſein Blut hat erloͤſt/</l><lb/>
+<l>Vons Teuffels gewalt vnd ewiger pein/</l><lb/>
+<l>Jhm ſey Lob/ Preiß vnd Ehr allein.</l></lg><lb/>
+<p>Wer dann nun das auch begert/ der ſpreche von hertzen darauff/<lb/>
+Amen/ <hi rendition="#k">Herr Je</hi>ſu/ Amen.</p><lb/>
+<p><hi rendition="#c"><hi rendition="#g">ENDE.</hi></hi></p></div></div><lb/>
+</body></text>  </TEI>

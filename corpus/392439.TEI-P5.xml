@@ -1,0 +1,2065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Die Bittere Klage über den Erschlagenen in meinem Volck/ den weyland Ehrsamen und Nahmhafften Hanß Saupen</title>
+<author>
+<persName ref="http://d-nb.info/gnd/141322888">
+<surname>Arnold</surname>
+<forename>Johannes</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">48</measure>
+<measure type="tokens">16626</measure>
+<measure type="types">4428</measure>
+<measure type="characters">114943</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:10:02Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/392439</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/392439</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/392439</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/392439</idno>
+<idno type="DTADirName">392439</idno>
+<idno type="DTAID">200051</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-200051-0</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Arnold, Johannes: Die Bittere Klage über den Erschlagenen in meinem Volck. Pirna, 1713.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Die Bittere Klage über den Erschlagenen in meinem Volck/ den weyland Ehrsamen und Nahmhafften Hanß Saupen</title>
+<author>
+<persName ref="http://d-nb.info/gnd/141322888">
+<surname>Arnold</surname>
+<forename>Johannes</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">48</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Georg Balthasar Ludewig</name></publisher>
+<pubPlace>Pirna</pubPlace>
+<date type="publication">1713</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 K 1203/16 / 392439</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"><docTitle><titlePart type="main">Die<lb/>
+Bittere Klage<lb/>
+uͤber den Erſchlagenen in meinem Volck/</titlePart><lb/>
+<titlePart type="desc">den weyland<lb/>
+Ehrſamen und Nahmhafften<lb/>
+<hi rendition="#b">Hanß Saupen/</hi><lb/>
+geweſenen Einwohner und Muͤller zu Loſchwitz/<lb/>
+Als derſelbe den 14. <hi rendition="#aq">Auguſt.</hi> dieſes lauffenden<lb/>
+1712. Jahres/ im 52. Jahre ſeines Alters/ bey der Nacht<lb/>
+auff dem Gebirge unvorſichtiger und jaͤmmerlicher Weiſe<lb/>
+erſchoſſen/<lb/>
+Und den 17. <hi rendition="#aq">Ejusdem,</hi> war die Mittwoche nach dem <hi rendition="#aq">XII.</hi><lb/>
+Sonntage nach Trinitatis ſelbigen Jahres/ bey Volckreicher Ver-<lb/>
+ſamlung/ unter vielen Thraͤnen und Leidweſen derer Anweſenden/<lb/>
+gewoͤhnlicher Weiſe beerdiget worden;<lb/>
+<hi rendition="#fr">Aus dem hierzu erwehlten Leichen-Spruch/</hi><lb/>
+<cit><quote><bibl>2. <hi rendition="#aq">Samuelis I,</hi> 25. 26.</bibl><lb/>
+<quote>Jonathan iſt auff deinen Hoͤhen erſchlagen: Es iſt mir<lb/>
+leid um dich/ mein Bruder Jonathan/ ich habe groſſe<lb/>
+Freude und Wonne an dir gehabt/ deine Liebe iſt mir ſon-<lb/>
+derlicher geweſen/ denn Frauen-Liebe iſt.</quote></quote><bibl/></cit><lb/>
+<hi rendition="#fr">Jn einer Leichen-Predigt</hi><lb/>
+Jn der Kirche zu Loſchwitz gefuͤhret/ und zu betrachten vorgeſtellet worden</titlePart></docTitle><lb/>
+<byline>von<lb/>
+<docAuthor><hi rendition="#aq">M.</hi> <hi rendition="#b"> Johann Arnolden</hi></docAuthor><hi rendition="#b">/ Pfarrern</hi><lb/>
+zu Loſch- und Wachwitz.</byline><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docImprint><pubPlace><hi rendition="#g">PIRNA</hi></pubPlace>/ bey <publisher>Georg Balthaſar Ludewigen</publisher>/ <docDate>1713</docDate>.</docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="[2]"/>
+<pb facs="#f0003" n="[3]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsSermon" n="1">  <div n="2"><lg type="poem"><l><hi rendition="#c"><hi rendition="#aq"><hi rendition="#i">J. N. J.</hi></hi></hi></l><lb/>
+<l><hi rendition="#fr"><hi rendition="#in">K</hi>Ans ſeyn/ ſo gieb durch deine Hand</hi><note place="right"><hi rendition="#aq">Votum.</hi></note></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Mir ein vernuͤ<supplied>n</supplied>fftig Ende/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Daß ich mein Seel fein mit Verſtand</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Befehl in deine Haͤnde/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Und ſo im Glauben ſanfft und froh/</hi></l><lb/>
+<l><hi rendition="#fr">Auff meinem Bettlein oder Stroh/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Aus dieſem Elend fahre.</hi></hi></l><lb/>
+<l><hi rendition="#fr">So du mich aber in dem Feld/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Durch Raub (Geſchoß) auff fremder Grentze/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Jn Waſſers-Noth/ Hitz oder Kaͤlt/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Oder durch Peſtilentze/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Nach deinem Rath wollſt nehmen hin/</hi></l><lb/>
+<l><hi rendition="#fr">So richt nicht/ HErr/ nach meinem Sinn/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Den ich im Leben fuͤhre! Amen.</hi></hi></l><lb/>
+<l><hi rendition="#fr"><hi rendition="#g">HERR JESU</hi> hilff! laß wohl gelingen! Amen.</hi></l></lg></div><lb/>
+<div type="preface" n="2"><head><hi rendition="#b">Vorbereitung.</hi></head><lb/>
+<p><hi rendition="#in">S</hi>O ſpricht Hiskia: <hi rendition="#fr">Das iſt ein Tag des Truͤbſals/ Schel-</hi><note place="right"><hi rendition="#aq">Præloqvi-<lb/>
+um ex<lb/>
+Jeſ. XXXVII.<lb/>
+v.</hi> 3.</note><lb/>
+<hi rendition="#fr">tens und Laͤſterns.</hi> Mit dieſen hoͤchſt-ſchmertzlichen Wor-<lb/>
+ten/ geliebten Zuhoͤrer/ fang ich nicht unbillig gegenwaͤrtige<lb/>
+betruͤbte und Thraͤnen-volle Leichen-Predigt an/ welche wir<lb/>
+unſern im HErrn zwar ploͤtzlich/ doch ſelig-verſtorbenen Mit-<lb/>
+Bruder/ dem weyland Ehrſamen und Nahmhafften <hi rendition="#fr">Hanß<lb/>
+Saupen/</hi> geweſenen Einwohner und Muͤller zu Loſchwitz/ anitzo in der Furcht<lb/>
+des HErrn halten ſollen/ und ruffen daruͤber unter vielfachen Thraͤnen aus:<lb/>
+<hi rendition="#fr">Das iſt ein Tag des Truͤbſals/ Scheltens und Laͤſterns.</hi> Wir leſen<lb/>
+dieſe Worte beym Propheten (<hi rendition="#aq">Jeſaia XXXVII,</hi> 3.) Es ſind ſonſten Worte<lb/>
+des Koͤniges Hiskiaͤ/ welche er zur Zeit groſſer Krieges-Noth von ſich hoͤren/<lb/>
+und dem Propheten Eſaiaͤ zu entbiethen ließ/ wie aus dem vorhergehenden<lb/>
+36. Cap. zu erſehen iſt. Hiskia war anitzo von dem Koͤnige zu Aſſyrien/ dem<lb/>
+Sannherib/ in ſeinem Lande und Reſidentz-Stadt Jeruſalem belaͤgert/ daß<lb/>
+kein Menſch weder aus noch ein konte; Jeruſalem hatte faſt alle Mann-<lb/>
+<fw place="bottom" type="sig">A 2</fw><fw place="bottom" type="catch">ſchafft</fw><lb/>
+<pb facs="#f0004" n="4"/>
+<fw place="top" type="header"><hi rendition="#b">Die bittere Klage</hi></fw><lb/>
+ſchafft und Krieger verlohren/ ſo/ daß es nicht vermoͤgend war/ 2000. Reu-<lb/>
+ter auffzubringen; Die Buͤrger und Einwohner der Stadt litten die groͤ-<lb/>
+ſte Hungers-Noth/ und muſten ihren eigenen Miſt (<hi rendition="#aq">ſ. v.</hi>) freſſen/ und ihren<lb/>
+Harn ſauffen/ (<hi rendition="#aq">Jeſ. XXXVII,</hi> 12.) Hiskia und ſein Krieges-Heer war/ nebſt<lb/>
+der Hochgelobten Dreyeinigkeit/ von dem Ertzt-Schencken des Koͤniges/<lb/>
+Rabſacke/ gelaͤſtert/ gehoͤnet/ und mit nachfolgenden Worten verſpottet:<lb/>
+<hi rendition="#fr">Welcher unter allen Goͤttern dieſer Lande hat ſein Land errettet<lb/>
+von meiner Hand? daß der HErr ſolte Jeruſalem erretten von mei-<lb/>
+ner Hand?</hi> (<hi rendition="#aq">Jeſ. XXXVI,</hi> 20.) Das iſt die Arth vieler unter denen Kriegs-<lb/>
+Leuten/ daß ſie bey oͤffentlichen Maͤrſchen/ oder Kriegs-Zuͤgen/ und Belaͤ-<lb/>
+gerung Staͤdte und Laͤnder/ den Dreyeinigen GOtt pflegen zu laͤſtern/ zu<lb/>
+ſchimpffen/ und nichts denn den Teuffel von ſich hoͤren zu laſſen/ auch wohl<lb/>
+gar ihre Kriegs-<hi rendition="#aq">Operationes</hi> und Verrichtungen in des Teuffels Nahmen<lb/>
+anzufangen/ und zu ihrem Wahl-Spruch zu fuͤhren: <hi rendition="#aq">Flectere ſi neqveo<lb/>
+Superos, Acheronta movebo.</hi> Wann GOtt nicht helffen will/ mag der<lb/>
+Teuffel helffen. Wie an dem Exempel des groſſen Rieſen Goliath zu ſe-<lb/>
+hen/ (1. <hi rendition="#aq">Sam. XVII,</hi> 10.) und von denen Syriern zu leſen iſt/ (1. <hi rendition="#aq">Reg. XX,</hi> 23.)<lb/>
+allwo es heiſt: Jhre Goͤtter ſind Berg-Goͤtter/ darum haben ſie uns ange-<lb/>
+wonnen/ o! daß wir mit ihnen auff der Ebene ſtreiten muͤſten/ was gilts/<lb/>
+wir wolten ihnen angewinnen. Und ſo war auch das Kriegs-Heer des Koͤ-<lb/>
+niges Sannherib geartet. Welche Schmach dem betruͤbten Koͤnige His-<lb/>
+kiaͤ ſo nahe gieng/ und wehe that/ daß er von ſeinem Koͤniglichen Thron auff-<lb/>
+ſtund/ ſeine Kleider zuriß/ einen Sack um ſich huͤllete/ und in das Hauß des<lb/>
+HErrn gieng/ ſeine groſſe Noth und Elend dem Dreyeinigen GOtt weh-<lb/>
+muͤthig klagete/ und ſein Hertze fuͤr ihm ausſchuͤttete. Des HErrn Haͤu-<lb/>
+ſer ſind Bet-Haͤuſer/ darein fromme Kinder GOttes zur Zeit groſſer Noth<lb/>
+und Elends gehen/ dem HErrn ihren GOTT ihr Anliegen und Hertzeleid<lb/>
+mit viel tauſend Thraͤnen vortragen/ und mit David feuffzen: Jch will in<lb/>
+dein Hauß gehen/ auff deine groſſe Guͤte/ und anbethen zu deinem heiligen<lb/>
+Tempel in deiner Furcht/ (<hi rendition="#aq">Pſal. V.</hi> 8.)</p><lb/>
+<p>Dieſes beobachtete auch der Koͤnig Hiskia/ ſchickte hierauff eine anſehn-<lb/>
+liche <hi rendition="#aq">Legation</hi> oder Geſandſchafft an den Propheten Jeſaiam/ und ließ<lb/>
+ihm ſagen: So ſpricht Hiskia: <hi rendition="#fr">Das iſt ein Tag des Truͤbſals/ Schel-<lb/>
+tens und Laͤſterns.</hi> Redet in dieſen Worten <foreign xml:lang="heb"><gap reason="fm" unit="words"/></foreign> das iſt von ei-<lb/>
+nem aͤngſtlichen/ truͤbſeligen und traurigen Tage/ darinnen einem ſo angſt<lb/>
+und bange iſt/ wie denen Belaͤgerten in einer Stadt/ wann ſie allenthalben<lb/>
+<hi rendition="#aq">bloqvi</hi>ret/ <hi rendition="#aq">bombardi</hi>ret/ mit Feuer- und Kugel-einwerffen geaͤngſtiget und<lb/>
+<fw place="bottom" type="catch">beſchoſ-</fw><lb/>
+<pb facs="#f0005" n="5"/>
+<fw place="top" type="header"><hi rendition="#b">uͤber den Erſchlagenen in meinem Volck.</hi></fw><lb/>
+beſchoſſen werden/ (<hi rendition="#aq">Judic. II,</hi> 7.) Wie einer Gebaͤhrerin/ wann ſie zum er-<lb/>
+ſten mahl gebiehret/ da ihr die Geburts-Schmertzen ſehr ſchwer ankommen/<lb/>
+und keine Kraͤffte zu gebaͤhren mehr da ſeyn/ (<hi rendition="#aq">Jeſ. XXXVII,</hi> 3.) Wie einem<lb/>
+Bruder-Moͤrder/ der ſeinen Bruder erwuͤrget/ und vom boſen Gewiſſen<lb/>
+geqvaͤlet wird/ (<hi rendition="#aq">Gen. XLII,</hi> 25.) Wie einem/ der in einem G<supplied>ef</supplied>aͤngniß ſte-<lb/>
+cket/ da ihn weder Sonne noch Mond beſcheinen/ und ſich nichts als eines<lb/>
+gewaltſamen Todtes verſehen kan/ (1. <hi rendition="#aq">Reg. XXII,</hi> 27.) Und ein ſolcher<lb/>
+aͤngſtlicher Tag begegnete auch dem Koͤnige Hiskiaͤ.</p><lb/>
+<p>Und damit er ſeine Angſt noch deutlicher <hi rendition="#aq">exprimi</hi>re und ausdruͤcke/ ſo<lb/>
+legt er ihm noch zwey andere Nahmen bey/ und nennet ihn <hi rendition="#fr">einen Tag des<lb/>
+Scheltens und Laͤſterns.</hi> Wie man etwan einen Unbedachtſamen in<lb/>
+ſeinen Reden ſchilt/ ſtraffet/ und dieſelben nachdruͤcklich verweiſet/ (<hi rendition="#aq">Hiob<lb/>
+XIX,</hi> 5.) einen Ehebrecher und Todtſchlaͤger laͤſtert/ und allenthalben uͤbel<lb/>
+von ſeiner Boßheit redet/ (2. <hi rendition="#aq">Sam. XII,</hi> 14.) Eben von einem ſolchen Schel-<lb/>
+tens- und Laͤſterns-vollen Tage redet der Koͤnig Hiskia/ und laͤſſet dem Pro-<lb/>
+pheten Jeſaiaͤ wehmuͤthig zu verſtehen geben/ daß er ſich in demſelben be-<lb/>
+finde. Und ſo war es auch; es war dieſer Tag ein rechter truͤbſeliger und<lb/>
+aͤngſtlicher Tag/ ein Tag des Scheltens und Laͤſterns/ denn er wurde von<lb/>
+ſeinen Feinden belaͤgert/ und allenthalben geaͤngſtet/ ſein Dreyeiniger GOtt<lb/>
+wurde gelaͤſtert/ als ein ohnmaͤchtiger und nichtiger Goͤtze/ als ein Held/ der<lb/>
+verzagt ſey/ und als ein Rieſe/ der nicht helffen koͤnne/ (<hi rendition="#aq">Jer. XIV,</hi> 9.) Da-<lb/>
+her er wohl Urſache zu ſeuffzen hatte: <hi rendition="#fr">Ach! das iſt ein Tag des Truͤb-<lb/>
+ſals/ Scheltens und Laͤſterns.</hi></p><lb/>
+<p>Wolte GOtt! daß wir dem betruͤbten Koͤnige Hiskiaͤ anitzo dieſe Schmer-<note place="right"><hi rendition="#aq">Applicatio<lb/>
+ad Lugen-<lb/>
+tes,</hi></note><lb/>
+zens-volle Worte nicht abborgen muͤſten/ alleine ſo muͤſſen wir/ leider! uͤber<lb/>
+den vergangenen Montage und heutige Mittewoche die traurige Uberſchrifft<lb/>
+machen: <hi rendition="#fr">Das ſind Tage des Truͤbſals/ Scheltens und Laͤſterns.</hi> Ta-<lb/>
+ge des Truͤbſals/ Angſt und Noth ſind ſie zweyen armen verlaſſenen Witti-<lb/>
+ben und Weibern/ welche an denenſelben ihre Maͤnner verlohren/ und<lb/>
+ſeuffzen muͤſſen: Wir ſind Weiber/ die Leide tragen/ denn unſere Maͤnner<lb/>
+ſind dahin/ (2. <hi rendition="#aq">Sam. XIV,</hi> 5.) Tage des Truͤbſals ſind ſie ſieben unerzogenen<lb/>
+Vater-loſen traurigen Waͤyſen/ welche wehklagen: Wo ſind unſere Vaͤ-<lb/>
+ter? wir ſind Waͤyſen/ und haben keine Vaͤter/ und unſere Muͤtter ſind<lb/>
+verlaſſene Wittiben/ (<hi rendition="#aq">Thren. V,</hi> 3.)</p><lb/>
+<lg type="poem"><l><hi rendition="#fr">Nichts betruͤbters iſt auff Erden/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Nichts kan ſo zu Hertzen gehn/</hi></hi></l><lb/>
+<fw place="bottom" type="sig">A 3</fw><fw place="bottom" type="catch"><hi rendition="#fr">Als</hi></fw><lb/>
+<pb facs="#f0006" n="6"/>
+<fw type="header" place="top"><hi rendition="#b">Die bittere Klage</hi></fw><lb/>
+<l><hi rendition="#fr">Als wenn arme Wittwen werden/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Und verlaßne Waͤyſen ſtehn</hi></hi></l><lb/>
+<l><hi rendition="#fr">Ohne Vater/ ohne Muth/</hi></l><lb/>
+<l><hi rendition="#fr">Ohne Freunde/ ohne Guth/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Wittwen ſind verlaßne Frauen/</hi></hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Wer thut auff die Waͤyſen ſchauen.</hi></hi></l></lg><lb/>
+<p>Tage des Truͤbſals ſind ſie dreyen alten verlebten Eltern/ einem Vater und<lb/>
+zweyen Muͤttern/ welche aͤngſtlich winſeln: Unſer lieber Schwieger-Sohn<lb/>
+iſt dahin/ und jaͤmmerlich ums Leben kommen; unſern leiblichen Sohn<lb/>
+wird man uns auch dahin nehmen/ und gehet alles uͤber uns/ (<hi rendition="#aq">Gen. XLII,</hi><lb/>
+36.) wir werden mit Hertzeleid hinunter fahren in die Grube zu unſerm<lb/>
+Schwieger-Sohn/ (<hi rendition="#aq">Gen. XXXVII,</hi> 35.) Tage des Truͤbſals ſind ſie dem<lb/>
+hinterbliebenen Geſchwiſter/ als welches klaget: Ach Bruder! ach Vetter!<lb/>
+wie geſchwind ſind wir von einander getrennet? (<hi rendition="#aq">Jer. XXII,</hi> 18.) Tage des<lb/>
+Truͤbſals ſind ſie endlich auch uns allen mit einander/ weil in unſern Graͤntzen<lb/>
+Menſchen-Blutvergoſſen/ welches zu GOtt um Rache ſchreyet/ (<hi rendition="#aq">Gen. IV,</hi> 10.)</p><lb/>
+<p>Aber auch Tage des Scheltens und Laͤſterns ſind ſie/ indem der Thaͤter<lb/>
+allenthalben vor einen Moͤrder und Todtſchlaͤger ausgegeben und geſchol-<lb/>
+ten; wir aber alle mit einander vor Leute ausgeſchrien werden/ als die mit<lb/>
+gefaͤhrlichen Gewehr und <hi rendition="#aq">Inſtrumenten</hi> unvorſichtig umgehen/ und Leuten<lb/>
+und Viehe nach dem Leben trachten. Will jemand die Urſache dieſes<lb/>
+<note place="left"><hi rendition="#aq">&amp; defun-<lb/>
+ctum.</hi></note>Truͤbſals/ Scheltens und Laͤſterns wiſſen/ dem dienet zur Antwort: Ein<lb/>
+Schwager hat den andern jaͤm̃erlich erſchoſſen/ ein Bruder hat die Schwe-<lb/>
+ſter zu einer betruͤbten Wittibe/ ein Ehe-Gatte ſein Weib zu einem verlaſ-<lb/>
+ſenen Weibe/ ein Vater ſeine und ſeines Schwagers Kinder zu Vater-lo-<lb/>
+ſen Waͤyſen gemacht; ein ſonſt frommer und gehorſamer Sohn hat ſeine<lb/>
+Eltern ſchmertzlich betruͤbet. Ach! ſolten wir dann dahero nicht daruͤber<lb/>
+ausruffen: <hi rendition="#fr">Das ſind Tage des Truͤbſals/ Scheltens und Laͤſterns!</hi></p><lb/>
+<p>Nun dieſen <hi rendition="#fr">Tagen des Truͤbſals/ Scheltens und Laͤſterns/</hi> und<lb/>
+dem darinnen zugetragenen <hi rendition="#aq">Caſui tragico,</hi> oder ungluͤckſeligen Trauer- und<lb/>
+Todtes-Fall etwas weiter nachzuſinnen/ und unſere <hi rendition="#fr">bittere Klage weh-<lb/>
+muͤthig daruͤber zu fuͤhren/</hi> ſind wir in dieſem Klag- und Trauer-Hauß<lb/>
+verſamlet; Wir erinnern uns aber alſobald unſerer menſchlichen Schwach-<lb/>
+heit/ daß wir zu dieſem heiligen Vorhaben untuͤchtig ſind/ demuͤthigen uns<lb/>
+vor dem Throne Goͤttlicher Majeſtaͤt/ und ruffen dieſelbe um den kraͤfftigen<lb/>
+Beyſtand GOttes des werthen Heil. Geiſtes in einem andaͤchtigen/ glaͤu-<lb/>
+bigen Vater Unſer hierzu inbruͤnſtig an.</p><lb/>
+<fw type="catch" place="bottom">Der</fw><lb/>
+<pb facs="#f0007" n="7"/>
+<fw type="header" place="top"><hi rendition="#b">uͤber den Erſchlagenen in meinem Volck.</hi></fw><lb/>
+</div><div type="fsBibleVerse" n="2"><head><hi rendition="#b">Der Leichen-Text.</hi><note place="right"><hi rendition="#aq">Textus, 2.<lb/>
+Sam. I,</hi> 25.<lb/>
+26.</note></head><lb/>
+<cit><bibl><hi rendition="#c">2. <hi rendition="#aq">Sam. I,</hi> 25. 26.</hi> </bibl><lb/>
+<quote> <hi rendition="#fr"><hi rendition="#in">J</hi>Onathan iſt auff deinen Hoͤhen erſchla-<lb/>
+gen: Es iſt mir leid um dich/ mein Bru-<lb/>
+der Jonathan/ ich habe groſſe Freude und<lb/>
+Wonne an dir gehabt/ deine Liebe iſt mir ſon-<lb/>
+derlicher geweſen/ denn Frauen-Liebe iſt.</hi></quote></cit><lb/>
+</div><div type="fsExordium" n="2"><head><hi rendition="#b">Eingang.</hi></head><lb/>
+<p><hi rendition="#in">E</hi>Jne recht bittere Klage fuͤhrete zu ſeiner Zeit der Prophet Jeremias<note place="right"><hi rendition="#aq">Exordium<lb/>
+ex</hi></note><lb/>
+uͤber die Erſchlagene in ſeinem Volck/ indem er ſich von ihnen<lb/>
+vernehmen ließ: <hi rendition="#fr">Ach! daß ich Waſſer genung haͤtte in meinem</hi><note place="right"><hi rendition="#aq">Jer. IX,</hi> 1.</note><lb/>
+<hi rendition="#fr">Haͤupte/ und meine Augen Thraͤnen-Qvellen waͤren/ daß ich Tag und<lb/>
+Nacht beweinen moͤchte die Erſchlagene in meinem Volck!</hi> (<hi rendition="#aq">Jerem.<lb/>
+IX,</hi> 1.) Zeiget uns in dieſen Worten</p><lb/>
+<list><item><hi rendition="#aq">p. Lamentationis Materiam,</hi> <hi rendition="#fr">oder die Perſonen und Sache/<lb/>
+daruͤber er ſeine bitrere Klage fuͤhret.</hi></item><lb/>
+<item><hi rendition="#aq">p. Lamentationis Formam,</hi> <hi rendition="#fr">der bittern Klage Beſchaffenheit.</hi></item></list><lb/>
+<p><hi rendition="#aq">p.</hi> <hi rendition="#fr">Was die Perſonen und Sache</hi> anbetrifft/ <hi rendition="#fr">daruͤber er ſeine<lb/>
+Klage fuͤhret/</hi> ſo ſind es die Erſchlagene in ſeinem Volck. Es hat-<lb/>
+te der Prophet in dieſen Worten mit ſeinen Zuhoͤrern/ dem Volck Jſra-<lb/>
+el/ zu thun/ und nennet dieſelbe: <foreign xml:lang="heb"><gap reason="fm" unit="words"/></foreign> <hi rendition="#aq">confoſſos filiæ<lb/>
+populi mei,</hi> welches <hi rendition="#aq">Lutherus</hi> uͤberſetzet: Erſchlagene in meinem Volck/<lb/>
+heiſſet aber eigentlich nach ſeinem Urſprung und Stamm-Wort ſo viel/<lb/>
+als Leute/ ſo mit einem Geſchuͤtz verwundet/ oder mit einem Schwerdte und<lb/>
+andern gefaͤhrlichen Eiſen durchſtochen/ welche hernach an denen empfan-<lb/>
+genen Wunden ſterben/ und ihr Leben fruͤhzeitig auffgeben muͤſſen. Wie<lb/>
+wir ſolches an unterſchiedenen Orten der H. Schrifft leſen; ſo giebet GOtt<lb/>
+ſeinem Volck ein Geſetz/ daß/ wer einen Erſchlagenen mit dem Schwerdt<lb/>
+anruͤhre/ der ſolle ſieben Tage unrein ſeyn/ (<hi rendition="#aq">Num. XIX,</hi> 16.) Und von de-<lb/>
+<fw type="catch" place="bottom">nen</fw><lb/>
+<pb facs="#f0008" n="8"/>
+<fw place="top" type="header"><hi rendition="#b">Die bittere Klage</hi></fw><lb/>
+nen Buͤrgern zu Jeruſalem und deren Zerſtoͤhrung ſchreibet Jeremias:<lb/>
+Denen Erwuͤrgten durchs Schwerdt geſchah daß/ weder denen/ ſo da Hun-<lb/>
+ger ſturben/ die Verſchmachteten/ und erſtochen worden vom Mangel des<lb/>
+Ackers/ (<hi rendition="#aq">Thren. IV,</hi> 9.) Welches die <hi rendition="#aq">Septuaginta viralis</hi> wohl verſtan-<lb/>
+den/ und es durch das Wort τετραυματισ μϑύους, das iſt/ <hi rendition="#aq">vulneratos, ſau-<lb/>
+cios,</hi> Verwundete/ uͤberſetzet. Und dergleichen mit dem Schwerdt Er-<lb/>
+ſtochene oder Gewehr erſchoſſene und erſchlagene Leute nennete der Prophet<lb/>
+Jeremias ſeine Zuhoͤrer/ und ſpricht/ ſie waͤren <supplied>ᒗᔂᑠᔆᑣ</supplied><gap reason="lost" unit="chars" quantity="1"/><supplied>ᔔᒉᑣ</supplied> <hi rendition="#aq">filiæ populimei,</hi><lb/>
+in ſeinem Volck.</p><lb/>
+<p>Es ſahe der Prophet ſeines ſuͤndlichen Volcks Jſrael grobe/ wiſſentliche<lb/>
+und vorſetzliche Suͤnden/ wie auch dero verſtockte Unbußfertigkeit und Si-<lb/>
+cherheit/ nach welcher ſie ſich immer Friede/ Friede verſprachen/ da doch<lb/>
+kein Friede zu hoffen war/ (<hi rendition="#aq">Jer. VIII,</hi> 11.) gedachten ferne vom Ungluͤck zu<lb/>
+ſeyn/ da ſie doch gar nahe darbey waren; (<hi rendition="#aq">Amos IX,</hi> 10.) es war ihm auch<lb/>
+das darauff folgende Straff-Ubel/ allgemeine Land-Plage und gaͤntzliches<lb/>
+Verderben/ ſo GOtt um ihrer Suͤnden willen ihnen zuſchicken/ und Mann<lb/>
+und Weib/ Groß und Klein/ Hoch und Niedrig jaͤmmerlich erwuͤrgen/ oder<lb/>
+in die Babyloniſche Gefaͤngniß fuͤhren laſſen wolte/ nicht verholen. Denn<lb/>
+ſo lautet die Straff-Predigt des groſſen GOttes: Jch will ſie alle able-<lb/>
+ſen/ ſpricht der HErr/ daß keine Trauben am Weinſtock/ und keine Feigen<lb/>
+am Feigen-Baum bleiben/ ja auch die Blaͤtter wegfallen ſollen/ und was<lb/>
+ich ihnen gegeben habe/ das ſoll ihnen genommen werden/ (<hi rendition="#aq">Jer. VIII,</hi> 13.)<lb/>
+Um dieſes bevorſtehenden Ungluͤcks und jaͤmmerlichen Untergangs willen<lb/>
+nennet er ſeine Zuhoͤrer Erſchlagene in ſeinem Volck. Die Weymariſche<lb/>
+Bibel hat es alſo uͤberſetzet: Jch ſehe ſchon im Geiſt/ daß die Erſchlagene<lb/>
+hin und wieder bey groſſen Hauffen liegen werden/ <hi rendition="#aq">h. l. (cum qvo conſen-<lb/>
+tit. Seb. Schmidius in h. l.)</hi> Und dieſe Erſchlagene und derſelben Ungluͤck<lb/>
+bewog auch den Propheten/ eine bittere Klage uͤber ſie anzuſtellen.</p><lb/>
+<p>Denn die <hi rendition="#aq">Forma Lamentationis,</hi> oder Beſchaffenheit der bittern Kla-<lb/>
+ge heiſt: <hi rendition="#fr">Ach! daß ich Waſſer genung haͤtte in meinem Haͤupte/ und<lb/>
+meine Augen Thraͤnen Qvellen waͤren/ daß ich Tag und Nacht be-<lb/>
+weinen moͤchte.</hi> Nach ſeiner Sprache lautet es gar nachdruͤcklich: <hi rendition="#aq">Qvis<lb/>
+dabit caput meum aqvas, &amp; oculum meum ſcaturiginem Lacrymarum,</hi><lb/>
+wer wird meinem Haupte Waſſer geben/ und mein Auge zu einer Thraͤ-<lb/>
+nen-Qvelle machen? welches <hi rendition="#aq">Arias, Caſtro, Cornelius, Maldonatus Tre-<lb/>
+mellius &amp;c.</hi> und andere Ausleger uͤberſetzet haben: <hi rendition="#aq">Utinam verteretur<lb/>
+caput meum in aqvas &amp; oculi mei in venas!</hi> Wolte GOtt! mein Haupt<lb/>
+<fw place="bottom" type="catch">wuͤr-</fw><lb/>
+<pb facs="#f0009" n="9"/>
+<fw place="top" type="header"><hi rendition="#b">uͤber den Erſchlagenen in meinem Volck.</hi></fw><lb/>
+wuͤrde in Waſſer verwandelt/ und meine Augen in Waſſer-Qvellen.<lb/>
+Alleine der ſel. Vater <hi rendition="#aq">Lutherus,</hi> der etwas tieffer in den Grund-Text<lb/>
+hinein geſehen/ und mit ihm der gelehrte <hi rendition="#aq">Schmidius, Hülſemannus &amp;c.</hi><lb/>
+halten es vor eine Ebraͤiſche Redens-Arth/ und haben es gar recht uͤberſetzet:<lb/>
+<hi rendition="#fr">Ach! daß ich Waſſer genung haͤtte in meinem Haupte/ und meine<lb/>
+Augen Thraͤnen-Qvellen waͤren.</hi> Denn ſo erklaͤret das bebruͤbte Jſrael<lb/>
+dieſe Worte/ nach erlittenen gaͤntzlichen Untergang/ durch den Propheten<lb/>
+<hi rendition="#aq">Jeremiam</hi> ſelber/ indem ſie klagen: Jch habe ſchier meine Augen ausge-<lb/>
+weinet/ daß mir mein Leib darvon wehe thut. <hi rendition="#aq">(Thren. II, 11.) Senſus<lb/>
+Prophetæ eſt,</hi> ſpricht der ſel. <hi rendition="#aq">Hülſemannus, H.L. Non ſuppetere ſibi<lb/>
+pro magnitudine ſupplicii Judæorum ſufficientem lacrymarum vim,<lb/>
+qvibus excidium ſuæ gentis defleat.</hi> Der Prophet koͤnne nicht Thraͤ-<lb/>
+nen genung finden/ und aus ſeinen Augen vergieſſen uͤber dem groſſen Un-<lb/>
+gluͤck derer Juͤden/ womit er den gaͤntzlichen Untergang ſeines Volcks ſatt-<lb/>
+ſam beweine.</p><lb/>
+<p>Wenn ſonſten das Hertze ſehr eingepreſſet/ und mit vielen Creutze be-<lb/>
+leget iſt/ ſo fehlt es uns an Thraͤnen und haͤuffigen Thraͤnen-Qvellen nicht/<lb/>
+ſondern ſie flieſſen mildiglich herunter; Meine Thraͤnen/ ſpricht David/<lb/>
+ſind meine Speiſe Tag und Nacht/ weil man taͤglich zu mir ſaget: Wo<lb/>
+iſt nun dein GOtt? (<hi rendition="#aq">Pſal. XLII,</hi> 4.) Jch eſſe Aſchen wie Brod/ und mi-<lb/>
+ſche meinen Tranck mit Weinen/ fuͤr deinen Draͤuen und Zorn/ daß du<lb/>
+mich auffgehaben und zu Boden geſtoſſen haſt/ <hi rendition="#aq">(Pſal. CII, 10. 11.) Oculi<lb/>
+ſunt ſpongia <gap reason="lost" unit="chars" quantity="1"/>ordis, qvâ ipſius affectus eliqvantur:</hi> Die Augen ſind<lb/>
+ein Schwamm des Hertzens/ durch welchen des Hertzens Traurigkeit ge-<lb/>
+ſamlet/ und gleichſam durchgeſeiget wird/ ſpricht <hi rendition="#aq">Gvevarra, (Tom. 1.<lb/>
+Epiſt. ad Famil. p.</hi> 426.) Alleine an dieſen haͤuffigen Thraͤnen-Qvellen<lb/>
+fehlet es anitzo dem Propheten <hi rendition="#aq">Jeremiæ,</hi> drum ſeuffzet er: <hi rendition="#fr">Ach! daß<lb/>
+ich Waſſer genung haͤtte in meinem Haupte/ und meine Augen<lb/>
+Thraͤnen-Qvellen waͤren.</hi> Ohne allen Zweiffel mochte wohl dieſelben<lb/>
+verhindern das groſſe und ungemeine Ungluͤck ſeines Volcks/ welches ent-<lb/>
+weder nicht genungſam beweinet werden konte/ oder gar nicht verſtatten wol-<lb/>
+te Thraͤnen zu vergieſſen. Wenn <hi rendition="#aq">Pſammenitus,</hi> Koͤnig in Egypten/ vom<lb/>
+<hi rendition="#aq">Cambyſe,</hi> dem Koͤnige in Perſien/ mit Krieg uͤberzogen/ von ihm gefangen<lb/>
+worden/ und ſehen muß/ daß ſein Koͤniglicher Saame vor ſeinen Augen jaͤm-<lb/>
+merlich niedergemacht wird/ kan er keinen einigen Thraͤnen daruͤber ver-<lb/>
+gieſſen/ ſondern giebt zur Urſache vor: <hi rendition="#aq">Domeſtica mala lacrymis eſſe<lb/>
+majora. (Vid. Hubn. Hiſt. Pol. gen. p.</hi> 168.) So mochte es dem lieben<lb/>
+<fw place="bottom" type="sig">B</fw><fw place="bottom" type="catch">Pro-</fw><lb/>
+<pb facs="#f0010" n="10"/>
+<fw place="top" type="header"><hi rendition="#b">Die bittere Klage</hi></fw><lb/>
+Propheten auch hier gehen/ weßhalben er zu ſeinem GOtt ſeuffzete/ ihm<lb/>
+Waſſer genung zu geben in ſeine Augen/ und dieſelben zu Thraͤnen-Qvel-<lb/>
+len zu machen. Alleine/ was ſolten ihm denn dieſe haͤuffige Thraͤnen?<lb/>
+Er antwortet ſelber in obangefuͤhrten Worten: <hi rendition="#fr">Die Erſchlagenen in<lb/>
+ſeinem Volcke darmit zu beweinen/ und bitterlich zu beklagen;</hi> daß<lb/>
+ich Tag und Nacht beweinen moͤchte die Erſchlagenen in meinem Volck.</p><lb/>
+<p>Treuen Lehrern und Predigern gehet das Elend und Ungluͤck ihrer<lb/>
+Zuhoͤrer ſo nahe/ als wann es ihnen ſelbſten wiederfuͤhre/ weinen bitterlich<lb/>
+daruͤber/ bitten um Abwendung deſſelben/ und wo muͤglich/ wollen ſie es<lb/>
+lieber vor ihnen ausſtehen. Ach! HErr/ ſpricht <hi rendition="#aq">Amos,</hi> ſey gnaͤdig/ wer<lb/>
+will Jacob wieder auffhelffen? denn er iſt ja geringe/ (<hi rendition="#aq">Amos. VII,</hi> 2.)<lb/>
+Jch habe groſſe Traurigkeit und Schmertzen ohn Unterlaß in meinem Her-<lb/>
+zen; Jch habe gewuͤnſchet verbannet zu ſeyn von Chriſto fuͤr meine Bruͤ-<lb/>
+der/ die meine Gefreunde ſind nach dem Fleich/ (<hi rendition="#aq">Rom. IX,</hi> 2. 3.) Und ſo<lb/>
+war auch <hi rendition="#aq">Jeremias</hi> geſinnet/ und verlangete Thraͤnen genung zu haben/ zu<lb/>
+beweinen die Erſchlagenen in ſeinem Volck. Ohne allen Zweiffel dem<lb/>
+erzoͤrneten GOtt damit in die Zorn-Ruthe zu fallen/ ſeinen Feuer-brennen-<lb/>
+den Zorn/ nebſt der wohlverdienten Straffe darmit entweder gaͤntzlich auff-<lb/>
+zuheben/ oder doch zu mindern/ und in eine vaͤterliche Zucht-Ruthe zu ver-<lb/>
+wandeln/ damit GOtt ſein Volck zuͤchtigen moͤge/ aber doch mit Maßen/<lb/>
+damit es ſich nicht vor unſchuldig hielte/ (<hi rendition="#aq">Jerem. XXX,</hi> 11.) Und darmit<lb/>
+man ſehen moͤge/ daß ihm dieſe bittere Klage ein Ernſt ſey/ ſo wuͤnſchet er<lb/>
+Thraͤnen genung in ſeinen Augen zu haben/ die Erſchlagenen in ſeinem<lb/>
+Volcke <hi rendition="#fr">Tag und Nacht zu beweinen.</hi></p><lb/>
+<p>Fromme Kinder GOttes/ die es redlich mit ihrem GOtt meynen/ ge-<lb/>
+dencken/ und verlangen Tag und Nacht nach ihm/ <hi rendition="#aq">(Jeſ. XXVI, 9.) Jere-<lb/>
+mias</hi> beweinete Tag und Nacht ſeine Erſchlagene im Volck/ und fuͤhret<lb/>
+die bittere Klage: <hi rendition="#fr">Ach! daß ich Waſſers genung haͤtte in meinem<lb/>
+Haupte/ und meine Augen Thraͤnen-Qvellen waͤren/ daß ich Tag<lb/>
+und Nacht beweinen moͤchte die Erſchlagene in meinem Volck.</hi></p><lb/>
+<p><note place="left"><hi rendition="#aq">Tranſitio<lb/>
+ad<lb/>
+Textum,</hi></note>Eine faſt eben dergleichen bittere Klage fuͤhrte zu ſeiner Zeit der Koͤ-<lb/>
+nigliche Prophet David uͤber den unverhofften und ploͤtzlichen Todtes-<lb/>
+Fall ſeines hertzgeliebteſten Seelen-Freundes/ des <hi rendition="#aq">Jonathans,</hi> indem er<lb/>
+ſich in unſern ietzt abgeleſenen und vorhabenden Leichen-Texte uͤber ihn/<lb/>
+<note place="left"><hi rendition="#aq">&amp; Locum<lb/>
+Commu-<lb/>
+nem.</hi></note>nachdem er von ſeinen Feinden gewaltſamer Weiſe ermordet worden/<lb/>
+wehmuͤthig vernehmen laͤſſet: <hi rendition="#fr">Jonathan iſt auff deinen Hoͤhen er-<lb/>
+ſchlagen; Es iſt mir leyd um dich/ mein Bruder Jonathan.</hi> Und<lb/>
+<fw place="bottom" type="catch">da</fw><lb/>
+<pb facs="#f0011" n="11"/>
+<fw type="header" place="top"><hi rendition="#b">uͤber den Erſchlagenen in meinem Volck.</hi></fw><lb/>
+da unſer im HErrn ſelig-verſtorbener Mit-Bruder auch auff dem Gebuͤr-<lb/>
+ge gewaltſamer Weiſe ums Leben gekommen/ und erſchoſſen worden/ und<lb/>
+uns allen mit einander aus Chriſtlicher Liebe gegen den Erſchoſſenen/ und<lb/>
+hertzlichen Mitleyden gegen die Hinterbliebene und ſchmertzlich-betruͤbte<lb/>
+Freunde und Anverwandte/ eine betruͤbte Klage uͤber ſeinen underhofften<lb/>
+und ploͤtzlichen Todtes-Fall zu fuͤhren oblieget.</p><lb/>
+<p>Als werden wir nicht unrecht thun/ wenn wir E. L. aus vorhabenden<lb/>
+Leichen-Texte zu betrachten vorſtellen</p><lb/>
+<div n="3"><head/>  <p><hi rendition="#c"><hi rendition="#aq"><hi rendition="#i">Amarisſimam occiſi lamentationem,<note place="right"><hi rendition="#aq">Propoſitio<lb/>
+cum<lb/>
+Partitione.</hi></note><lb/>
+</hi></hi> <hi rendition="#fr">Die bittere Klage uͤber den Erſchlagenen (Er-<lb/>
+ſchoſſenen) in meinem Volck.</hi><lb/>
+Und darbey erwegen</hi></p><lb/>
+<list><item><hi rendition="#aq">I.</hi> <hi rendition="#fr">Den Erſchlagenen in meinem Volck.</hi></item><lb/>
+<item><hi rendition="#aq">II.</hi> <hi rendition="#fr">Die gefuͤhrte Klage uͤber den Erſchlagenen.</hi></item><lb/>
+<item><hi rendition="#aq">III.</hi> <hi rendition="#fr">Die</hi> <hi rendition="#aq">Motiv</hi><hi rendition="#fr">en/ oder Urſachen zu dieſer Klage.</hi></item><lb/>
+<item>Der HErr unſer GOtt ſey uns nochmahls freundlich/ und laſſe unſer<note place="right"><hi rendition="#aq">Suſpirium.</hi></note><lb/>
+heiliges Vorhaben zu ſeines Nahmens Ehre/ unſer aller Erbauung/<lb/>
+und kraͤfftigen Troſt gereichen! Amen.</item></list><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">W</hi>Einet mit den Weinenden.</hi> So lautet die wohlgemeynte<lb/>
+Chriſten-Regul des Apoſtels Pauli/ womit er alle Chriſten/ <hi rendition="#aq">ad</hi><note place="right"><hi rendition="#aq">Acceſſus<lb/>
+ex<lb/>
+Rom. XII.<lb/>
+v. 15.<lb/>
+ad Tracta-<lb/>
+tionem.</hi></note><lb/>
+<hi rendition="#aq">ſympathiam Chriſtianam,</hi> oder Chriſtliches Mitleiden gegen ih-<lb/>
+re nothleidende Neben-Chriſten ermuntert/ (<hi rendition="#aq">Rom. XII,</hi> 15.) Dieſer Ver-<lb/>
+mahnung Pauli folgen wir billig nach/ und weinen an dem heutigen Ta-<lb/>
+ge des Truͤbſals/ des Scheltens und Laͤſterns/ mit denen Weinenden/ in-<lb/>
+dem wir aus unſern vorhabenden Leichen-Texte mit einander betrach-<lb/>
+ten wollen:</p><lb/>
+</div></div><div type="fsMainPart" n="2"><head><hi rendition="#b">Abhandlung.</hi><note place="right"><hi rendition="#aq">Tractatio.</hi></note></head><lb/>
+<p><hi rendition="#c"><hi rendition="#aq">Amariſſimam occiſi lamentationem.</hi><lb/>
+<hi rendition="#fr">Die bittere Klage uͤber den Erſchlagenen (Erſchoſſe-<lb/>
+nen) in meinem Volck.</hi><lb/>
+Und darbey erwegen</hi></p><lb/>
+<fw type="sig" place="bottom">B 2</fw><fw type="catch" place="bottom"><hi rendition="#aq">I.</hi> <hi rendition="#b">Den</hi></fw><lb/>
+<pb facs="#f0012" n="12"/>
+<fw place="top" type="header"><hi rendition="#b">Die bittere Klage</hi></fw><div n="3"><head><note place="left"><hi rendition="#aq">Pars I.</hi></note><hi rendition="#aq">I.</hi> <hi rendition="#b">Den Erſchlagenen (Erſchoſſenen) in meinem Volck.</hi></head><lb/>
+<p>Darvon heiſt es in unſern Textes-Worten: <hi rendition="#fr">Jonathan iſt auff dei-<lb/>
+nen Hoͤhen erſchlagen.</hi> Jn welchen Worten wir zu betrachten haben</p><lb/>
+<list><item><hi rendition="#aq">p. Occiſionis Subjectum,</hi> <hi rendition="#fr">die erſchlagene (erſchoſſene) Perſon.</hi></item><lb/>
+<item><hi rendition="#aq">p. Occiſionis Modum,</hi> <hi rendition="#fr">das Ungluͤck/ oder des Erſchlagens<lb/>
+(Erſchieſſens) Arth.</hi></item><lb/>
+<item><hi rendition="#aq">p. Occiſionis Locum,</hi> <hi rendition="#fr">den Orth/ wo er erſchlagen (erſchoſſen)<lb/>
+worden.</hi></item><lb/>
+<item><hi rendition="#aq">p. Occiſionis Subjectum,</hi> <hi rendition="#fr">die erſchlagene (erſchoſſene) Perſon/</hi> iſt un-<lb/>
+ſer im HErrn ſel. verſtorbener Mit-Bruder.</item></list><lb/>
+<p>Jm Texte gedencket David Jonathans/ und ſtellet ihn als die erſchlagene<lb/>
+Perſon vor: <hi rendition="#fr">Jonathan iſt auff deinen Hoͤhen erſchlagen.</hi> Jona-<lb/>
+than war der aͤlteſte Cron-Printz des Koͤniges Sauls/ (1. <hi rendition="#aq">Sam. XIV,</hi> 49.)<lb/>
+war aber darbey ein tapfferer und großmuͤthiger Held/ der die Philiſter/<lb/>
+als Feinde ſeines Koͤnigreichs/ vielmahls aus dem Felde ſchlug/ und ſein<lb/>
+Volck Jſrael aus jhrer Hand errettete/ (1. <hi rendition="#aq">Sam. XIV,</hi> 14. 23.) auch des-<lb/>
+wegen von jederman von denen Unterthanen hertzlich geliebet/ und da er<lb/>
+wegen eines Verſehens beym Koͤnige in Ungnaden/ und ums Leben kom-<lb/>
+men ſolte/ aus ſeiner Hand errettet/ und beym Leben erhalten/ (1. <hi rendition="#aq">Sam.<lb/>
+XIV,</hi> 44. 45.) Sonderlich war er ein auffrichtiger/ redlicher und treuer<lb/>
+Freund Davids/ welcher ihn liebete/ wie ſein eigen Hertz/ wie zu leſen<lb/>
+(1. <hi rendition="#aq">Sam. XVIII, 1. ſeqq. c. XIX, 1. ſeqq. c. XX, 17. ſeqq.</hi>) Allein ſo tapf-<lb/>
+er/ liebreich und freundlich er ſich in ſeinem Leben bezeigte/ ſo ungluͤcklich<lb/>
+war er bey ſeinem Todte.</p><lb/>
+<p>Jſt nun gleich unſer im HErrn ſelig. Verſtorbener Jonathaͤ dem Ge-<lb/>
+bluͤthe/ Geſchlechte und Stande nach nicht gleich/ und von Koͤniglichen<lb/>
+Gebluͤthe entſproſſen/ ſo iſt er ihm doch in vielen anſtaͤndigen Tugenden gar<lb/>
+gleich/ und eiffrig nachgefolget. Denn was ſein Geſchlecht und <hi rendition="#aq">Profeſ-<lb/>
+ſion</hi> anbelanget/ davon wird uns ſein Lebens-Lauff mit mehrern Nach-<lb/>
+richt geben; Was aber ſeine Tugenden betrifft/ ſo kan man ihm mit<lb/>
+Grund der Wahrheit nachruͤhmen/ daß er ein recht gottesfuͤrchtiger Mann<lb/>
+geweſen/ der das Boͤſe gemeidet/ und in den Gebothen ſeines GOTTes<lb/>
+untadelich einher zu gehen ſich beflieſſen/ in den Worten und Wercken<lb/>
+Auffrichtigkeit/ Treu und Glauben gehalten/ und ſeinem Naͤchſten mit<lb/>
+Ehrerbietung und Dienſtfertigkeit vorgekommen/ weswegen er auch das<lb/>
+<fw place="bottom" type="catch">Gluͤck</fw><lb/>
+<pb facs="#f0013" n="13"/>
+<fw place="top" type="header"><hi rendition="#b">uͤber den Erſchlagenen in meinem Volck.</hi></fw><lb/>
+Gluͤck gehabt/ daß er von jederman im Leben geliebet/ und im Tode betrau-<lb/>
+ret wird. Abſonderlich aber hat er ſich mit ſeinen und ſeines Weibes<lb/>
+Freunden und Anverwandten wohl vertragen/ in vertraulicher Freund-<lb/>
+ſchafft/ <hi rendition="#aq">Harmoni</hi>e und Einigkeit gelebet. Jn der <hi rendition="#aq">Hiſtoria</hi> ruͤhmet man<lb/>
+viel von des <hi rendition="#aq">Damonis</hi> und <hi rendition="#aq">Pythiæ, Caſtoris</hi> und <hi rendition="#aq">Pollucis</hi> auffrichtiger<lb/>
+Freund- und Bruͤderſchafft/ <hi rendition="#aq">Lucianus</hi> und <hi rendition="#aq">Tullius</hi> hatten einander ſo<lb/>
+lieb/ daß ſich ein jedweder den Todt darum wuͤnſchete/ damit der andere<lb/>
+ſeine Jahre leben moͤchte. (<hi rendition="#aq">vid. Adam. Corn. Cop. P 1. p. 643. ſeq.</hi>)<lb/>
+Und eine dergleichen/ ja noch genauere Freundſchafft hielte er mit ſeinen<lb/>
+Freunden/ und ſonderlich mit dem/ der ihn nachgehends ins Ungluͤck ge-<lb/>
+bracht. War er nun Jonathan in vielen Tugenden gleich/ ſo hatte er<lb/>
+auch faſt gleiches Ungluͤck mit demſelben. Denn was den</p><lb/>
+<p><hi rendition="#aq">p. Modum Occiſionis,</hi> oder <hi rendition="#fr">das Ungluͤck und die Arth deſſelben</hi><lb/>
+anbelanget/ <hi rendition="#fr">ſo war er erſchoſſen.</hi></p><lb/>
+<p>Sonſten draͤuet der groſſe GOtt denen Ruchloſen einen gewaltſamen<lb/>
+Tod/ und ſollen dieſelben von Rechts wegen erſchlagen werden/ wie aus<lb/>
+dem Munde Davids zu erſehen: Den Gottloſen wird das Ungluͤck toͤdten/<lb/>
+und die den Gerechten haſſen/ werden Schuld haben/ (<hi rendition="#aq">Pſal. XXXIV,</hi> 22.)<lb/>
+Oder wie ſich die Goͤttliche Majeſtaͤt vernehmen laͤſt: Die Blutgierigen<lb/>
+und Falſchen werden ihr Leben nicht zur Helffte bringen/ (<hi rendition="#aq">Pſal. LV,</hi> 24.)<lb/>
+Welches Cain wohl wuſte/ und ſich deßwegen/ nach begangenem Bruder-<lb/>
+Mord und angehoͤrter gebuͤhrender Straffe/ gegen GOtt vernehmen ließ:<lb/>
+So wird mirs gehen/ daß mich todt ſchlage/ wer mich findet; (<hi rendition="#aq">Gen. IV,</hi><lb/>
+14.) und <hi rendition="#aq">Julius Cæſar</hi> in der That erfahren muſte/ welcher/ nach vielen ver-<lb/>
+uͤbten Todtſchlaͤgen/ endlich mit 23. Wunden zu todt geſtochen wurde. Al-<lb/>
+leine/ wie es ehemahls dem frommen und unſchuldigen Prieſter <hi rendition="#aq">Ahimelech</hi><lb/>
+und ſeinem gantzen Hauſe zu <hi rendition="#aq">Nobe</hi> ergieng/ daß er ſelb 85. auff einen Tag<lb/>
+erſchlagen wurde; (1. <hi rendition="#aq">Sam. XXII,</hi> 18.) und dem redlichen <hi rendition="#aq">Uriæ,</hi> der unver-<lb/>
+ſchuldeter Weiſe an die Spitze des Krieges geſtellet/ und darinnen ermor-<lb/>
+det wurde/ (2. <hi rendition="#aq">Sam. XI,</hi> 15. 17.) Alſo iſt es auch unſerm ſelig-verſtorbenen<lb/>
+Mitbruder (gleich wie GOtt ſonſt die Seinigen in manches Creutz und<lb/>
+Ungluͤck/ nach ſeinem heiligen und unerforſchlichen Rath/ gerathen laͤſ-<lb/>
+ſet/) ergangen/ denn ſein Ungluͤck beſtehet darinnen/ daß er erſchoſſen wor-<lb/>
+den.</p><lb/>
+<p>Von Jonathan heiſt es: er ſey erſchlagen. Jonathan iſt auff deinen<lb/>
+Hoͤhen etſchlagen. Der Heil. Geiſt braucht in ſeiner Sprache das oben<lb/>
+angefuͤhrte und erklaͤrte Wort <supplied>ᔀᔀᑤᒕᑤ</supplied> welches ſo viel/ als <hi rendition="#aq">vulneratum, con-</hi><lb/>
+<fw place="bottom" type="sig">B 3</fw><fw place="bottom" type="catch"><hi rendition="#aq">foſ-</hi></fw><lb/>
+<pb facs="#f0014" n="14"/>
+<fw place="top" type="header"><hi rendition="#b">Die bittere Klage</hi></fw><lb/>
+<hi rendition="#aq">foſſum &amp; perforatum,</hi> einen Verwundeten/ einen Erſchoſſenen/ oder Er-<lb/>
+ſtochenen bedeutet/ wie dergleichen Saul/ ſeine Soͤhne und ſein Kriegs-<lb/>
+Heer war/ welche von denen Philiſtern erſchlagen worden/ (1. <hi rendition="#aq">Sam. XXXI,</hi><lb/>
+4. 8.) Oder die Kinder Jſrael/ da ſie fuͤr <hi rendition="#aq">Juda</hi> flohen/ und auff einen Tag<lb/>
+500000. junger Mannſchafft Erſchlagene aus Jſrael fielen/ (2. <hi rendition="#aq">Chron.<lb/>
+XIII,</hi> 17.) Und wie es ſonſt im Kriege pfleget herzugehen/ da einer erſchoſ-<lb/>
+ſen/ der ander erſtochen/ der dritte erſchlagen wird/ und ſo ferner. Und der-<lb/>
+gleichen Erſchlagener/ Erſchoſfener/ oder Erſtochener war auch Jonathan/<lb/>
+und war jaͤmmerlich und gewaltſamer Weiſe ermordet worden. Die Fein-<lb/>
+de/ die dieſe Mordthat veruͤbeten/ waren die Philiſter/ ſeine abgeſagten<lb/>
+Feinde; denn dieſe hiengen ſich an Saul und ſeine Soͤhne/ und ſchlugen<lb/>
+Jonathan/ und <hi rendition="#aq">Abinadab</hi> und <hi rendition="#aq">Melchiſuah,</hi> die Soͤhne Sauls/ (1. <hi rendition="#aq">Sam.<lb/>
+XXXI,</hi> 2.) Jm Kriege iſt die Gottliche Vorſorge zwar wunderbar/ aber<lb/>
+dabey gerecht und ſehr weißlich/ alſo/ daß offt die tapfferſten und erfahren-<lb/>
+ſte Helden <hi rendition="#aq">miſerabel</hi> ſterben und umkommen/ die elendeſten aber und feig-<lb/>
+ſten Leute leben bleiben/ und wider Vermuthen das Feld behalten/ und<lb/>
+den Sieg davon tragen. <hi rendition="#aq">Schmidius</hi> ſpricht hiervon <hi rendition="#aq">L. juxta admirandam<lb/>
+ſapientiſſimamꝙ́ DEI providentiam in bellis modo cadit, qvi fortiſſi-<lb/>
+mus &amp; vita digniſſimus, evadente eo, qvi imbellis &amp; timidiſſimus;</hi><lb/>
+Nach der wunderbaren weiſen Vorſorge GOttes geſchieht es offt im Kriege/<lb/>
+daß der allertapfferſte Held ums Leben kommt/ der Furchtſamſte aber beym<lb/>
+Leben erhalten wird. Und ſo gieng es auch bey den Kindern Jſrael her/ Jo-<lb/>
+nathan lag mit ſeinem Herrn Vater unter/ die Philiſter aber ſiegeten.</p><lb/>
+<p>Was dieſem Jonathan im Kriege wiederfahren/ das iſt unſerm Se-<lb/>
+ligen zu Hauſe begegnet/ denn er iſt erſchoſſen worden. Wie es eigentlich<lb/>
+darmit zugegangen/ iſt dem Dreyeinigen GOtt und dem Thaͤter am be-<lb/>
+ſten bekannt; So viel koͤnnen wir wohl aus unterſchiedlichen gewiſſen Um-<lb/>
+ſtaͤnden ſchlieſſen und behaupten/ daß es nicht <hi rendition="#aq">homicidium voluntarium,</hi><lb/>
+oder ein freywilliger Todtſchlag geweſen ſey/ wie etwan <hi rendition="#aq">Joab</hi> den <hi rendition="#aq">Abner</hi><lb/>
+meuchelmoͤrderiſcher Weiſe erſtach/ (2. <hi rendition="#aq">Sam. III,</hi> 27.) ſondern <hi rendition="#aq">homicidium<lb/>
+culpoſum,</hi> ein verwahrloſter und unvorſichtiger Todtſchlag geweſen/ da<lb/>
+der Thaͤter nicht <hi rendition="#aq">Animum occidendi,</hi> oder den Willen gehabt/ ihn/ oder<lb/>
+einen Menſchen ums Leben zu bringen/ ſondern hat ihn/ aus Verblen-<lb/>
+dung des Satans/ fuͤr ein wildes Schwein angeſehen/ und auff daſſelbi-<lb/>
+ge/ wie man ſagt/ einen Schreck-Schoß gethan; wiewohl beydes nicht zu<lb/>
+entſchuldigen/ ſondern Straff-wuͤrdig iſt. Denn das letzte haͤtte er wegen<lb/>
+hoher Landes-Obrigkeitlichen ernſtlichen Befehl gaͤntzlichen unterlaſſen/<lb/>
+<fw place="bottom" type="catch">bey</fw><lb/>
+<pb facs="#f0015" n="15"/>
+<fw place="top" type="header"><hi rendition="#b">uͤber den Erſchlagenen in meinem Volck.</hi></fw><lb/>
+bey dem erſten aber vorſichtiger verfahren ſollen; doch koͤnnen wir hierbey<lb/>
+dieſes nicht verſchweigen/ ſondern muͤſſen geſtehen/ daß es ein recht ſchreck-<lb/>
+licher Todtſchlag und Erſchieſſen geweſen/ indem Er mit etlichen 60.<lb/>
+Schroten am Haupt/ Geſicht/ Hals/ lincken Bruſt/ an etlichen Rieben/<lb/>
+Lunge/ Hertze und Magen <hi rendition="#aq">lædir</hi>et/ und das Hertze mit 6. der Magen aber<lb/>
+mit einem Schrot ꝛc. durch und durch durchſchoſſen. Und dieſer gewalt-<lb/>
+ſame Tod iſt nicht von einem fremden oder Unbekannten/ auch nicht von<lb/>
+einem Feindſeligen und Gehaͤßigen/ ſondern von ſeinem beſten Freunde/<lb/>
+von ſeinem naͤchſten Anverwandten/ von ſeinem Schwager und vertrau-<lb/>
+teſten Gemuͤths-Freunde veruͤbet worden. O Jammer! o Hertzeleid! ein<lb/>
+Schwager erſchieſſet den andern/ ein Bluts-Freund vergieſſet des andern<lb/>
+Blut/ und bringt ihn um ſein Leben/ ſich aber und die Seinigen in das aͤuſ-<lb/>
+ſerſte Verderben/ wo nicht gar um ſein zeitlich Leben. Und dieſes iſt</p><lb/>
+<p><hi rendition="#aq">p. Occiſionis Locus,</hi> <hi rendition="#fr">auff dem Gebuͤrge/</hi> oder auff ſeinem eigenen<lb/>
+Grund und Boden geſchehen.</p><lb/>
+<p>Jonathan ward auff denen Hoͤhen erſchlagen/ welche <supplied>ᔔᒓᔂᒉᑤ</supplied> oder Hoͤ-<lb/>
+hen zwar ſonſt <hi rendition="#aq">Loca idololatriæ,</hi> oder Oerter/ woſelbſt denen nichtigen<lb/>
+Goͤtzen Opffer gebracht/ und Gottes-Dienſt abgeſtatter wurde/ bedeuten/<lb/>
+wie zu ſehen (2. <hi rendition="#aq">Reg. XVII,</hi> 9. 11. 29. 32.) Hier aber heiſſen ſie ein hohes Ge-<lb/>
+buͤrge/ darauff man ſich vor ſeinen Feinden verbergen/ und vor ihnen zur<lb/>
+Zeit des Krieges ſicher ſeyn kan/ wie David davon bekennet: Du ſtelleſt mich<lb/>
+auff meine Hoͤhe/ (<hi rendition="#aq">Pſal. XVIII,</hi> 34.) Jnſonderheit aber das Gebuͤrge <hi rendition="#aq">Gil-<lb/>
+boa,</hi> wie aus den Worten des Heil. Geiſtes zu erſehen/ der von dieſer<lb/>
+Schlacht bekennet: Die Philiſter ſtritten wider Jſrael/ und die Maͤnner<lb/>
+Jſrael flohen fuͤr den Philiſtern/ und fielen erſchlagen auff dem Gebuͤrge<lb/>
+<hi rendition="#aq">Gilboa, (1. Sam XXXI,</hi> 1.) welches Gebuͤrge David Jſraelis oder Jeru-<lb/>
+ſalems Gebuͤrge nennet/ weil es zu dem gelobten Lande gehoͤret. Jm Krie-<lb/>
+ge ſich eines und des andern <hi rendition="#aq">Stratagematis</hi> oder Krieges-Liſt bedienen/ iſt<lb/>
+zwar nicht gaͤntzlich verbothen/ doch koͤmmt der Sieg nicht von demſelben/<lb/>
+ſondern von dem HErrn/ als welcher denen Kriegen ſteuret in aller Welt/<lb/>
+der Bogen zubricht/ Spieſe zuſchlaͤgt/ und Wagen mit Feuer verbrennet/<lb/>
+(<hi rendition="#aq">Pſal. XLVI,</hi> 10.) wie der ſel. <hi rendition="#aq">Schmidius h. l.</hi> gar wohl erinnert. Und der-<lb/>
+gleichen Kriegs-Liſt bediente ſich Saul und Jonathan/ und <hi rendition="#aq">poſtir</hi>ten ſich<lb/>
+mit ihrer <hi rendition="#aq">Armée</hi> auffs Gebuͤrge/ gleichwohl aber wurden ſie daſelbſt er-<lb/>
+ſchlagen.</p><lb/>
+<p>Und auff einem dergleichen Gebuͤrge iſt auch der Erſchlagene in meinem<lb/>
+Volcke um ſein Leben kom̃en. Denn er gieng den 16. <hi rendition="#aq">Auguſti</hi> zur Abends-<lb/>
+<fw place="bottom" type="catch">Zeit</fw><lb/>
+<pb facs="#f0016" n="16"/>
+<fw type="header" place="top"><hi rendition="#b">Die bittere Klage</hi></fw><lb/>
+Zeit hinaus auff ſein Gebuͤrge oder Grund und Boden/ und wolte daſelbſt<lb/>
+ſeinen Hirſen und Heiden-Korn vor dem wilden Viehe bewahren/ wel-<lb/>
+ches ihm daſſelbe faſt gaͤntzlich verderbet und <hi rendition="#aq">ruini</hi>ret; und als er ſich auf<lb/>
+dieſem Gebuͤrge niedergeleget/ und ohngefehr auffgerichtet/ wird er jaͤm-<lb/>
+merlich erſchoſſen/ und ums Leben gebracht. Ach! ſolten wir denn uͤber<lb/>
+dieſem ploͤtzlichen Tode nicht ausruffen: Das iſt ein Tag des Truͤbſals/<lb/>
+<hi rendition="#fr">und eine bittere Klage fuͤhren?</hi> Wie wir denn auch nunmehro zu be-<lb/>
+trachten haben</p></div><div n="3"><head><note place="left"><hi rendition="#aq">Pars II.</hi></note><hi rendition="#aq">II.</hi> <hi rendition="#b">Die gefuͤhrte Klage uͤber den Erſchlagenen.</hi></head><lb/>
+<p>Darvon heiſt es in unſerm Texte: <hi rendition="#fr">Es iſt mir leid um dich/</hi> mein<lb/>
+<hi rendition="#fr">Bruder Jonathan.</hi> Darinnen wir erkennen</p><lb/>
+<lg type="poem"><l><hi rendition="#aq">p.</hi> <hi rendition="#fr">Die Perſonen/ die dieſe Klage fuͤhren.</hi></l></lg><lb/>
+<lg type="poem"><l><hi rendition="#aq">p.</hi> <hi rendition="#fr">Die Arth und Weiſe/ wie ſie ſie fuͤhren.</hi></l></lg><lb/>
+<p><hi rendition="#aq">p.</hi> <hi rendition="#fr">Die Perſon/</hi> die im Texte den erſchlagenen Jonathan beklaget/ iſt</p><lb/>
+<p>α) <hi rendition="#aq">In ſpecie</hi> und inſonderheit der Koͤnig David. Denn ſo leſen wir<lb/>
+<hi rendition="#aq">v.</hi> 17. dieſes erſten Capitels: <hi rendition="#fr">Und David klaget dieſe Klage uͤber Saul<lb/>
+und Jonathan/ ſeinen Sohn;</hi> und dieſes erforderte ſeine Treue und<lb/>
+Liebe/ und auffrichtige Freundſchafft/ ſo er gegen Jonathan hegete/ wovon<lb/>
+wir unten mit mehrern hoͤren wollen.</p><lb/>
+<p>Doch daran ließ er ſich nicht begnuͤgen/ ſondern er ermunterte auch zu<lb/>
+dieſer Klage</p><lb/>
+<p>β) <hi rendition="#aq">In genere,</hi> und insgemein alle Unterthanen und Einwohner im Juͤ-<lb/>
+diſchen Lande: <hi rendition="#fr">Jhr Toͤchter Jſrael/ weinet uͤber Saul/ der euch<lb/>
+kleidet mit Roſin-Farbe ſaͤuberlich/ und ſchmuͤcket euch</hi> mit guͤlde-<lb/>
+nen <hi rendition="#fr">Kleinodien an euern Kleidern/</hi> (2. <hi rendition="#aq">Sam.</hi> 1, 24.)</p><lb/>
+<p>Stirbet ein Koͤnig und Ober-Haupt in einem Lande/ ſo ſind freylich die<lb/>
+Unterthanen/ Land und Leute zu trauren/ zittern und zu zagen verbunden;<lb/>
+denn die Krone ihres Hauptes iſt abgefallen/ ihr Vater iſt dahin/ und ſie<lb/>
+ſind Waͤyſen/ (<hi rendition="#aq">Thren. V,</hi> 3.) Sie ſind Waͤyſen/ und muͤſſen mit <hi rendition="#aq">Eliſa</hi><lb/>
+klagen: Mein Vater/ mein Vater! Wagen Jſrael und ſeine Reuter!<lb/>
+(2. <hi rendition="#aq">Reg. II,</hi> 12.) Und dieſes beobachtete David mit dem gantzen Jſrael.</p><lb/>
+<p>Wie nun David/ und mit ihm alle fromme Unterthanen/ ihre Ober-<lb/>
+Herren billig beweinen: alſo folgen am heutigen betruͤbten Trauer-Tage<lb/>
+des ſel. Verſtorbenen hinterbliebene Leidtragende/ und wir mit ihnen/ ihm<lb/>
+nach. Denn da ſehen und hoͤren wir dieſe bittere Klage</p><lb/>
+<fw type="catch" place="bottom">α) In-</fw><lb/>
+<pb facs="#f0017" n="17"/>
+<fw type="header" place="top"><hi rendition="#b">uͤber den Erſchlagenen in meinem Volck.</hi></fw><lb/>
+<p>α) Jnſonderheit <hi rendition="#fr">die arme verlaſſene Wittwe/ und des Thaͤters<lb/>
+Eheweib</hi> anſtellen; Dieſen folgen <hi rendition="#fr">die unerzogenen Vater-loſen Waͤy-<lb/>
+ſen</hi> nach/ wie auch <hi rendition="#fr">die alten verlebten Vater und Muͤtter/ die Ge-<lb/>
+ſchwiſter/ Freunde und Anverwandten/</hi> ja es iſt kein Zweiffel/ es wird<lb/>
+<hi rendition="#fr">der Thaͤter ſelbſten</hi> viel tauſend Thraͤnen uͤber dieſem ungluͤcklichen To-<lb/>
+des-Fall allbereit vergoſſen haben und noch vergieſſen.</p><lb/>
+<p>β) Auch <hi rendition="#fr">wir</hi> <hi rendition="#aq">in genere,</hi> und <hi rendition="#fr">alle mit einander/</hi> und unſer geſamtes<lb/>
+Gebuͤrge ſind verbunden/ und haben hohe Urſache dieſe bittere Klage uͤber<lb/>
+dem zugeſtoſſenen Ungluͤck anzuſtimmen/ und uns nach der Vermahnung<lb/>
+Pauli zu bezeigen: zu weinen mit den Weinenden. Alleine</p><lb/>
+<p><hi rendition="#aq">P. Modus,</hi> <hi rendition="#fr">wie klinget denn dieſe bittere Klage?</hi> David ſpricht<lb/>
+im Tex<supplied>t</supplied>: <supplied>ᒗᔀᑠᑰᔒᔐᑣ</supplied> <hi rendition="#aq">Anguſtum &amp; anxium mihi,</hi> <hi rendition="#fr">es iſt mir leid um dich/<lb/>
+mein Bruder Jonathan.</hi> <hi rendition="#aq">Eſt ſermo abruptus,</hi> eine abgebrochene<lb/>
+und unvollkommene Rede; Spricht ein gottſeliger Lehrer unſer Kirche/<lb/>
+wie die Bet<supplied>ruͤ</supplied>bten insgemein zu fuͤhren pflegen/ wenn das Hertz voller Be-<lb/>
+trubniß und Traurigkeit iſt/ und uͤbergehet. Es zeiget aber David mit<lb/>
+dieſer Klage ein ſo hefftiges Leyden/ Angſt und Bangigkeit an/ darinnen<lb/>
+einem das Hertze gantz eingeklemmet/ eingepreſſet/ und gleichſam zerqvet-<lb/>
+ſchet iſt/ und zerſpringen will/ wie wir es in dem Verſtande von unſerm<lb/>
+theuerſten Heylande leſen/ wenn Er bey ſeinem ſchmertzlichen Leyden und<lb/>
+Sterben zu ſeinem Vater klaget: Sey nicht ferne von mir/ denn <supplied>ᒗᔀᑠᑰᔒᔐᑣ</supplied><lb/>
+Angſt iſt nahe/ (<hi rendition="#aq">Pſal. XXII,</hi> 12.) Oder wie er es ſelbſt bey ſeiner Verfol-<lb/>
+gung vom Saul/ oder auch/ da ihm GOtt eines von denen drey allgemei-<lb/>
+nen Plagen/ den Krieg/ Theurung oder Peſtilentz durch den Propheten<lb/>
+Gad zu erwehlen befahl/ und daruͤber ausruffte: <supplied>ᒗᔀᑠᑰᔒᔐᑣᒉᑖ</supplied>, wenn mir<lb/>
+Angſt iſt/ ruff ich den HErrn an/ (2. <hi rendition="#aq">Sam. XXII,</hi> 7.) Und David ſprach<lb/>
+zu Gad: <supplied>ᔒᒈᔂᑖᒗᔀᑠᑰᔒᔐᑣ</supplied> es iſt mir faſt Angſt/ (2. <hi rendition="#aq">Sam. XXIV,</hi> 14.) Und ſo<lb/>
+angſt und bange/ ſagt David/ ſo leyd ſey ihm/ und ſo harte ſey ſein Hertze<lb/>
+uͤber den Tod ſeines treuen Freundes Jonathaͤ eingepreſſet; es iſt mir leid/<lb/>
+angſt und bange um dich/ mein Bruder Jonathan. Bey welchem Her-<lb/>
+zeleyd es an haͤuffigen Thraͤnen/ Seuffzen/ Aechzen/ Wehklagen/ Kleider-<lb/>
+zureiſſen/ Saͤcke anzulegen/ ꝛc. es dem lieben David gewiß nicht wird ge-<lb/>
+mangelt haben; denn wes das Hertz voll iſt/ davon geht der Mund insge-<lb/>
+mein uͤber. Ward Rahel uͤber ihre Kinder betruͤbet/ ſo heulete und ſchrie<lb/>
+ſie uͤber laut/ und wolt ſich nicht troͤſten laſſen/ (<hi rendition="#aq">Jer. XXXI,</hi> 15. 16.) Trug<lb/>
+JEſus Hertzeleid uͤber Jeruſalem und deren Untergang/ ſo weinet er uͤber<lb/>
+ſie/ (<hi rendition="#aq">Luc. XIX,</hi> 41.) Und ſo machte es auch David/ weshalben es von<lb/>
+<fw type="sig" place="bottom">C</fw><fw type="catch" place="bottom">ihm</fw><lb/>
+<pb facs="#f0018" n="18"/>
+<fw place="top" type="header"><hi rendition="#b">Die bittere Klage</hi></fw><lb/>
+ihm heiſt: Da faſſet David feine Kleider/ und zureiß ſie/ und alle Man-<lb/>
+ner/ die bey ihm waren/ und trugen Leyd/ und weineten/ und faſteten/ diß<lb/>
+an den Abend/ uͤber Saul und Jonathan/ ſeinen Sohn/ und uͤber das<lb/>
+Volck des HErrn/ (2. <hi rendition="#aq">Sam. I,</hi> 11. 12.)</p><lb/>
+<p>Und in dieſem Leid-ſeyn/ Angſt und Traurigkeit des Hertzens beſtehet<lb/>
+auch <hi rendition="#fr">unſere bittere Klage/</hi> ſo wir uͤber den ſelig-verſtorbenen fuͤhren.<lb/>
+Da iſt Leid der betruͤbten verlaſſenen hinterbliebenen Wittibe/ ſie gehet<lb/>
+dem Sarg ihres verſtorbenen Ehegattens nach/ weinet bitterlich/ und ſeuff-<lb/>
+zet: O mich Troſt-loſe! uͤber welche viele Wetter der Truͤbſal zuſam<supplied>men</supplied><lb/>
+ſchlagen; ich bin eine Wittwe; <hi rendition="#aq">Compendium omnium miſeriarum;</hi><lb/>
+Ein kurtzer Begriff alles Ungluͤckes/ Elendes und Jammers/ ein Weib/<lb/>
+das Leide traͤgt/ denn mein Mann iſt mir erſchoſſen worden/ (2. <hi rendition="#aq">Sam. XIV,</hi><lb/>
+5.) Ach HErr! ſiehe doch/ wie bange iſt mir/ daß wir es im Leibe davon<lb/>
+wehe thut/ mein Hertz wallet mir in meinem Leibe/ denn ich bin hoch betruͤ-<lb/>
+bet/ drauſſen hat mich das Geſchuͤtze/ und im Hauſe hat mich der Todt<lb/>
+zur Wittwe gemacht/ (<hi rendition="#aq">Thren. I,</hi> 20.) Jch bin eine Wittwe/ und von vie-<lb/>
+len verlaſſen/ ich und mein Hauß ſind zur Wuͤſten gemacht/ <hi rendition="#aq">(Baruch IV,<lb/>
+12.) Soluta ſum vinculo, qvod Deus in hac vita ſanxit, unum eramus<lb/>
+in carne, jam ſeparati ſumus in duo;</hi> Das Eheliche Band/ ſo GOTT<lb/>
+zwiſchen uns beyde geknuͤpffet/ iſt gewaltſamer Weiſe zerriſſen worden/ wir<lb/>
+waren eins/ und ſiehe/ nun ſind wir zwey worden. <hi rendition="#aq">Privata ſolatio, capi-<lb/>
+te marito,</hi> ich bin alles Troſtes beraubet/ und die Troſt-loſe/ ich bin ein<lb/>
+Leib ohne Haupt/ ein Ehe-Weib ohne Ehe-Mann/ wie <hi rendition="#aq">Botſac,</hi> eine Witt-<lb/>
+we zu beſchreiben pfleget in ſeinen <hi rendition="#aq">Moral (p. 1124. b.)</hi> Ach! heiſſet mich<lb/>
+nicht Naemi/ ſondern Mara/ denn der Allmaͤchtige hat mich ſehr betruͤbet/<lb/>
+(<hi rendition="#aq">Ruth. I,</hi> 20.)</p><lb/>
+<p>Leid iſt des Thaͤters Frauen dieſer jeher Todes-Fall/ heulet und ſchrey-<lb/>
+et: Auwe! was ſoll ich nun thun? Jch bin ein verlaſſenes Weib/ und noch<lb/>
+beym Leben meines Mannes zu einer Wittiwen/ oder zu einem einſamen<lb/>
+Weibe gemachet worden/ (1. <hi rendition="#aq">Timoth. V, 5. Vidua apud Græcos dicitur</hi><lb/>
+χήοα, <hi rendition="#aq">à voce</hi> χηροῦν, <hi rendition="#aq">&amp; Apoſtolus Paulus vocat eandem</hi> μεμονωμϑύνην,<lb/>
+<hi rendition="#aq">vid. Schrevel. Lexicon Græco-Latinum ſub voce</hi> χὴρος, <hi rendition="#aq">p. 897. 1. Tim.<lb/>
+V,</hi> 5.) denn mein Mann iſt davon gegangen/ und hat mich alleine gelaſſen/<lb/>
+und ſiehe/ der Blut-Raͤcher ſtehet ihm nach ſeinem Leben/ und ſuchet ihn<lb/>
+zu toͤdten/ (<hi rendition="#aq">Devt. XIX, 6. Joſuæ XX,</hi> 5.)</p><lb/>
+<p>Leid/ Angſt und bange iſt denen armen Vater-loſen verlaſſenen 7. Waͤi-<lb/>
+ſen/ weinen und ſchreyen; Wo ſind unſere Vaͤter? Wo bleiben unſere<lb/>
+<fw place="bottom" type="catch">Ver-</fw><lb/>
+<pb facs="#f0019" n="19"/>
+<fw place="top" type="header"><hi rendition="#b">uͤber den Erſchlagenen in meinem Volck.</hi></fw><lb/>
+Verſorger? Wer wird uns Brodt ſchaffen/ wenn das wenige Meel<lb/>
+verzehret iſt? Ach! die Cronen unſerer Haͤupter ſind abgefallen/ unſeres<lb/>
+Hertzens Freude hat ein Ende/ und unſer Reigen iſt in Wehklagen verkeh-<lb/>
+ret/ o weh! daß wir ſo geſuͤndiget haben! Darum iſt auch unſer Hertz be-<lb/>
+truͤbt/ und unſere Augen ſind finſter worden/ (<hi rendition="#aq">Thren. V,</hi> 15. 16. 7.) Nun<lb/>
+heiſſen wir mit Recht <hi rendition="#aq">Orphani,</hi> Waͤiſen; denn wir haben keine Vaͤter/<lb/>
+ſondern ſie haben uns muͤſſen verlaſſen/ (<hi rendition="#aq">Thren. V, 3. Pſalm XXVII,</hi> 10.)<lb/>
+Nun ſitzen wir/ nach unſeres Nahmens Urſprung/ in Finſterniß/ und koͤn-<lb/>
+nen das Licht oder die Sonne unſeres Hauſes/ unſere Vaͤter/ nicht mehr<lb/>
+ſehen/ und muͤſſen mit Tobia ſeuffzen: Was ſollen wir vor Freude haben?<lb/>
+(<hi rendition="#aq">Tob, V, 12. Orphanus derivatur qvaſi ab</hi> ὀρφνὶς, <hi rendition="#aq">obſcurus, vel</hi> ὄρφνη,<lb/>
+<hi rendition="#aq">tenebræ. vel obſcuritas, qvia orphani negliguntur, &amp; veluti in tene-<lb/>
+bris verſantur.</hi>) Nun ſind wir einem zarten Baͤumlein gleich/ von wel-<lb/>
+chem der Pfahl hinweg genommen/ und von denen Sturm-Winden der<lb/>
+Verfolgung hin und wieder bewogen wird; Einem Schifflein/ welches<lb/>
+kein Ruder und Steuer-Mann hat/ ſondern auff dem Waſſer herum ir-<lb/>
+ret/ biß es an die Klippen getrieben/ und zerſcheitert. Nun HErr/ weß ſol-<lb/>
+len wir uns troͤſten? <hi rendition="#fr">wir hoffen auff dich.</hi> (<hi rendition="#aq">Pſal. XXXIX,</hi> 8.)</p><lb/>
+<p><hi rendition="#c"><hi rendition="#aq">Tu rege conſiliis actus, Pater optime, noſtros!</hi></hi></p><lb/>
+<lg type="poem"><l><hi rendition="#fr">Fuͤhre uns o HErr/ und lette</hi></l><lb/>
+<l><hi rendition="#fr">Unſern Gang nach deinem Wort/</hi></l><lb/>
+<l><hi rendition="#fr">Sey und bleibe du auch heute</hi></l><lb/>
+<l><hi rendition="#fr">Unſer Beſchuͤtzer und unſer Hort/</hi></l><lb/>
+<l><hi rendition="#fr">Nirgends denn von dir allein</hi></l><lb/>
+<l><hi rendition="#fr">Koͤn’n wir recht bewahret ſeyn.</hi></l></lg><lb/>
+<p>Leid/ Angſt und bange iſt auch denen armen alten verlebten Eltern/ win-<lb/>
+ſeln und klagen mit Jephtha: Ach! unſere Soͤhne/ wie beuget und betruͤ-<lb/>
+bet ihr uns! (<hi rendition="#aq">Judic. XI,</hi> 35.) Mit David: Ach! unſere Soͤhne! unſere<lb/>
+Soͤhne! wolte GOtt! wir muͤſten fuͤr euch ſterben! O! unſere Soͤhne! un-<lb/>
+ſere Sohne! (2. <hi rendition="#aq">Sam. XIIX,</hi> 33.) Wollen ſich mit Jacob nicht troͤſten laſſen/<lb/>
+ſondern ſchreyen: Ach! wir ungluͤckſelige Eltern/ die wir zum Unaluͤck ge-<lb/>
+bohren/ es gehet alles uͤber uns/ <hi rendition="#aq">Gen. XXXVII, 35. <gap reason="illegible" unit="chars" quantity="2"/>. XLII,</hi> 36) O! wehe<lb/>
+uns/ daß wir euch auff einen Tag verlieren ſollen! (2. <hi rendition="#aq">Sam. XIV,</hi> 7.)</p><lb/>
+<p>Leid/ Angſt und bange iſt ohne allen Zweiffel dem Thaͤter uͤber ſeinem<lb/>
+erſchlagenen Bruder Jonathan/ und wird/ aus Trieb ſeines unruhigen<lb/>
+boͤſen Gewiſſens/ heulen/ ausruffen und wehklagen<supplied>:</supplied> Ach! was hab ich<lb/>
+gethan? Siehe/ das Blut meines Bruders ſchreyet wider mich von der<lb/>
+<fw place="bottom" type="sig">C 2</fw><fw place="bottom" type="catch">Er-</fw><lb/>
+<pb facs="#f0020" n="20"/>
+<fw place="top" type="header"><hi rendition="#b">Die bittere Klage</hi></fw><lb/>
+Erden zu GOtt um Rache; (<hi rendition="#aq">Gen. IV,</hi> 10.) Errette mich/ o GOtt/ von den<lb/>
+Blut-Schulden/ der du mein GOtt und Heyland biſt/ (<hi rendition="#aq">Pſal. LI,</hi> 16.) Als<lb/>
+dem Herrn <hi rendition="#aq">Luthero</hi> ſein treuer Hertzens-Freund/ <hi rendition="#aq">Neſenus,</hi> ein gelehrter<lb/>
+Mann/ und <hi rendition="#aq">Profeſſor</hi> zu Wittenberg/ <hi rendition="#aq">Anno</hi> 1524. in der Elbe ertruncken/<lb/>
+und durch einen ploͤtzlichen Todtes-Fall um ſein Leben kommen war/ gieng<lb/>
+ihm derſelbe ſo zu Hertzen/ daß er ſeine Augen gen Himmel hub/ und ſag-<lb/>
+te: <hi rendition="#aq">Ah! ſi mortuos excitare poſſem, te, dilecte Neſene, excitarem,<lb/>
+o! Neſene!</hi> Ach! wenn mir die Gabe/ Todten zu erwecken/ gegeben waͤ-<lb/>
+re/ und ich iemahls einen gerne wieder lebendig gemachet haͤtte/ ſo wolt ich<lb/>
+dich gewiß fuͤr andern anitzo wieder auffwecken und lebendig machen. (<hi rendition="#aq">vid.<lb/>
+Adami Corn. Cop. P. I. p.</hi> 547.) Alſo iſt kein Zweiffel/ des Thaͤters einiger<lb/>
+Seuffzer wird ſeyn: Ach! daß mein Schwager <hi rendition="#fr">Saupe</hi> noch leben ſolte/<lb/>
+(<hi rendition="#aq">Gen. XVII,</hi> 8.) Wie man denn dieſes Leidweſen des Thaͤters/ Angſt und<lb/>
+groſſes Geſchrey hieruͤber daher beweiſen kan/ in dem er nach geſchehener That<lb/>
+zu des entleibeten Ehe-Weib/ ſeiner Schweſter/ gekommen/ geſeuffzet und<lb/>
+geſprochen: Ach! das GOTT erbarme! Liebe Schweſter/ ich habe deinen<lb/>
+Mann erſchoſſen/ und weiß nicht/ ob er noch leben moͤchte; Hat auch im<lb/>
+Hintergehen nach ſeinem Hauſe zu auff dem gantzen Wege nichts als uͤber-<lb/>
+laut geaͤchzet/ und viele Thraͤnen aus ſeinen Augen fallen laſſen.</p><lb/>
+<p>Leid/ angſt und bange iſt es auch endlich uns allen mit einander/ und<lb/>
+muͤſſen wir daruͤber wehmuͤthig ſeuffzen: O wehe uns/ daß Morden bey<lb/>
+uns uͤberhand nimmt/ <note place="foot" n="(*)">Es find in kurtzen drey Todtſchlaͤge hierum geſchehen; als in Plauen/ allwo ein Wei-<lb/>
+bes-Perſon erſchlagen; in Blaſewitz/ woſelbſt ein Cavallter erſtochen; und anitzo bey<lb/>
+uns in Loſchwitz/ als wo dieſer <hi rendition="#aq"><hi rendition="#i">Caſus tragicus</hi></hi> vorgegangen.</note> und eine Blut-Schuld nach der andern kommet/<lb/>
+(<hi rendition="#aq">Hoſ. IV,</hi> 2.) Ach HErr! unſere Haͤnde haben dieſes Blut nicht vergoſſen/<lb/>
+ſo haben es auch unſere Augen nicht geſehen/ ſey gnaͤdig deinem Volck/<lb/>
+und lege nicht das unſchuldige Blut auff dein Volck/ (<hi rendition="#aq">Devt. XXI,</hi> 7. 8.)<lb/>
+Hoͤret uns zu/ ihr benachbarten Einwohner: GOtt hat uns groſſes Leid<lb/>
+zugeſchickt/ (<hi rendition="#aq">Bar. IV,</hi> 9.)</p><lb/>
+<lg type="poem"><l><hi rendition="#fr">Ach! HErr GOtt durch die Treue dein/</hi></l><lb/>
+<l><hi rendition="#fr">Mit Troſt und Rettung uns erſchein/</hi></l><lb/>
+<l><hi rendition="#fr">Beweiß an uns dein groſſe Gnad/</hi></l><lb/>
+<l><hi rendition="#fr">Und ſtraff uns nicht auff friſcher That/</hi></l><lb/>
+<l><hi rendition="#fr">Wohn uns mit deiner Guͤte bey/</hi></l><lb/>
+<l><hi rendition="#fr">Dein Zorn und Grimm fern von uns ſey.</hi></l><lb/>
+<fw place="bottom" type="catch"><hi rendition="#fr">Ge-</hi></fw><lb/>
+<pb facs="#f0021" n="21"/>
+<fw type="header" place="top"><hi rendition="#b">uͤber den Erſchlagenen in meinem Volck.</hi></fw><lb/>
+<l><hi rendition="#fr">Gedenck an deines Sohns bittern Todt/</hi></l><lb/>
+<l><hi rendition="#fr">Sieh’ an ſein heilig Wunden roth/</hi></l><lb/>
+<l><hi rendition="#fr">Die ſind ja fuͤr die gantze Welt</hi></l><lb/>
+<l><hi rendition="#fr">Die Zahlung und das Loͤſe Geld/</hi></l><lb/>
+<l><hi rendition="#fr">Des troͤſten wir uns allezeit/</hi></l><lb/>
+<l><hi rendition="#fr">Und hoffen auff Barmhertzigkeit.</hi></l></lg><lb/>
+<p>Weinete dort der Prophet Eliſa/ und ſtellete ſich ungebaͤedig/ ſo fragete<lb/>
+ihn nicht unbillig Haſael/ Benhadads/ des Koͤniges zu Syrien/ vornehm-<lb/>
+ſter <hi rendition="#aq">Miniſter:</hi> warum weinet mein Herr? (2. <hi rendition="#aq">Reg. VIII,</hi> 11. 12.) Siehet<lb/>
+uns heute jemand weinen/ hoͤret unſere bittere Klage/ und fraget uns/ wa-<lb/>
+rum wir weinen? Dem ſoll der dritte Theil unſerer Predigt gar zulaͤng-<lb/>
+liche Antwort ertheilen/ wie wir denn in demſelben zu erwegen haben:</p></div><lb/>
+<div n="3"><head><hi rendition="#b"><hi rendition="#aq">III.</hi> Die <hi rendition="#aq">Motiven</hi> und reitzenden Urſachen zu<note place="right"><hi rendition="#aq">Pars III.</hi></note><lb/>
+dieſer Klage.</hi></head><lb/>
+<p>Fuͤhret David in unſern vorhabenden Leichen-Texte eine bittere Klage<lb/>
+uͤber ſeinen erſchlagenen guten Freund Jonathan/ ſo trieb ihn darzu an</p><lb/>
+<list><item><hi rendition="#aq">p. Amoris amicitiæqve jucunditas,</hi> <hi rendition="#fr">die auffrichtige Liebe<lb/>
+und Freundſchafft/ und die daher entſtandene innigliche<lb/>
+Hertzens-Vergnuͤgung.</hi></item><lb/>
+<item><hi rendition="#aq">p. Amoris amicitiæqve conſtans ſinceritas &amp; ſingularitas,</hi><lb/>
+<hi rendition="#fr">ſeiner Liebe und Freundſchafft beſtaͤndige/ ſonder- und<lb/>
+wunderbahre Auffrichtigkeit.</hi></item></list><lb/>
+<p>Denn was <hi rendition="#fr">ſeine auffrichtige Liebe und Freundſchafft</hi> anbetrifft/ ſo<lb/>
+nennet er ihn <supplied>ᒗᒕᒈᑤ</supplied> mein Bruder; <hi rendition="#fr">Es iſt mir leid um dich/ mein Bruder<lb/>
+Jonathan.</hi> Nicht zwar in dem Abſehen/ als ob ſie <hi rendition="#aq">fratres germani &amp; ſan-<lb/>
+gvine,</hi> oder leibliche Bruͤder/ die von einerley Eltern hergekommen/ ge-<lb/>
+weſen/ wie Eſau und Jacob/ (<hi rendition="#aq">Gen. XXV,</hi> 25. 26.) Simeon und Levi/ Jo-<lb/>
+ſeph und Benjamin/ (<hi rendition="#aq">Gen. XXIX, 33. 34. XXX, 24. c. XXXV,</hi> 18.) ſondern<lb/>
+<hi rendition="#aq">affectu &amp; charitate,</hi> wegen der Liebe/ Wohlgewogenheit und Freund-<lb/>
+ſchafft/ ſo er zu ihm trug/ und ihn ſo lieb hatte/ als ſeinen leiblichen Bruder.<lb/>
+Denn aus ſolcher Liebe und Freundſchafft nennet Hiram/ der Konig zu<lb/>
+Tyro/ und Salomon/ der Koͤnig zu Jeruſalem/ Ahab/ der Koͤnig in Jſra-<lb/>
+el/ und Benhadad/ der Koͤnig in Syrien/ einander Bruͤder/ (1. <hi rendition="#aq">Reg. IX,<lb/>
+13. c. XX,</hi> 32. 33.) Und ſo waren auch David und Jonathan Bruͤder un-<lb/>
+<fw type="sig" place="bottom">C 3</fw><fw type="catch" place="bottom">ter</fw><lb/>
+<pb facs="#f0022" n="22"/>
+<fw place="top" type="header"><hi rendition="#b">Die bittere Klage</hi></fw><lb/>
+ter einander/ nicht dem Gebluͤte/ ſondern dem Gemuͤthe/ nicht der Bluts-<lb/>
+Frundſchafft/ ſondern der Gemuͤths-Freundſchafft nach. Wie denn<lb/>
+nicht zu laͤugnen/ daͤß ſolche Gemuͤths-Freundſchafft der Gebluͤts-<lb/>
+Freundſchafft offt vorzuziehen/ und hefftiger/ als dieſe iſt/ auch<lb/>
+vielmahl einander mehr Gutes thut/ als jene. Der ſelige Herr<lb/>
+Breme/ geweſener Buͤrgermeiſter in Dreßden/ gedencket in ſeinen<lb/>
+Schrifften/ (<hi rendition="#aq">P. III. p.</hi> 133.) daß einſtens zwey Bruͤder in eine ſolche un-<lb/>
+verſoͤhnliche Verbitterung gerathen/ daß ſie einander nicht nur allein die<lb/>
+Zeit ihres Lebens als die aͤrgſten Feinde gehaſſet/ und Schaden gethan/<lb/>
+ſondern auch ihren Groll auf ihre Kinder fortgepflantzet/ und ihnen anbefoh-<lb/>
+len/ ſich nach ihrem Todte an einander nachdruͤcklich zu raͤchen; Und fuͤh-<lb/>
+ren die Spanier im Sprichwort: Der Bruder-Zorn iſt ein rechter Teuf-<lb/>
+fels-Zorn. Hingegen iſt von <hi rendition="#aq">Demetrio,</hi> dem Sohne des Koͤniges <hi rendition="#aq">An-<lb/>
+tigoni,</hi> bekannt/ daß/ da ſein Vater ſeinen Freund/ <hi rendition="#aq">Mithridatem,</hi> erwuͤr-<lb/>
+gen wollen/ und ihm ſolches mit einem Eyd zu offenbahren verbothen/ ha-<lb/>
+be er ſeinen Hertzens-Freund/ ſo bald er ihm begegnet/ bey der Hand ge-<lb/>
+nommen/ von andern Freunden abe/ und ihn beyſeit gefuͤhret/ und wie ſie<lb/>
+alleine geweſen/ dieſe Worte mit einem Spieß auff die Erde geſchrieben:<lb/>
+Fleug <hi rendition="#aq">Mithridates;</hi> ihn dadurch von dem Haß des Vaters errettet/ und<lb/>
+beym Leben erhaͤlten. (<hi rendition="#aq">Vid. Horolog Princip. L. 3. c.</hi> 15. §. 506.) Eine<lb/>
+ſolche redliche Freundſchafft hatte auch David zu Jonathan/ und nennet<lb/>
+ihn ſeinen Bruder/ ward auch durch ſolche Freundſchafft bewogen/ biner-<lb/>
+lich uͤber ſeinen Todt zu weinen.</p><lb/>
+<p>Welche Freundſchafft und Liebe deſto groͤſſer wurde/ ie groͤſſeres Ver-<lb/>
+gnuͤgen er an derſelben hatte und genoß/ wie er denn von derſelben ruͤhmen ich<lb/>
+habe groſſe Freude und Wonne an dir gehabt. <supplied>ᒑᒈᔂᑖ ᒗᔀᑠ ᔔᑤᔂᑖᔆ</supplied><gap reason="lost" unit="chars" quantity="1"/> <hi rendition="#aq">Jucundus,<lb/>
+amœnus &amp; amabilis mihi fuiſti valde,</hi> du biſt mir ſehr lieb/ angenehm und<lb/>
+liebreich geweſen. Die geiſtliche Seelen-Braut iſt ihrem Braͤutigam ſo<lb/>
+angenehm/ daß er ſich von ſie laͤſt vernehmen: Wie ſchoͤn und lieblich biſt<lb/>
+du/ du Liebe in Wolluͤſten/ (<hi rendition="#aq">Cant. VIII,</hi> 6.) Wie fein und lieblich iſt es/<lb/>
+ſchreibet David/ wenn Bruͤder eintraͤchtig bey einander wohnen/ (<hi rendition="#aq">Pſalm<lb/>
+CXXXIII,</hi> 1.) Was vor Freud und Wonne der alte Zacharias an ſeinem<lb/>
+Sohne Johanne haben ſolte; (<hi rendition="#aq">Luc. I,</hi> 4.) eben dergleichen Ergetzligkeit/<lb/>
+Vergnuͤgung und Wolluſt empfunde auch David an ſeinem auffrichti-<lb/>
+gen Freunde/ dem Jonathan. Auffrichtige Freundſchafft iſt eine rechte in-<lb/>
+nigliche Seelen-Vergnuͤgung/ welche uns vielmehr/ als alles Gold und<lb/>
+Geld/ und alle nichtige Sachen ergetzen kan. Salomon wuſte ſolches/<lb/>
+<fw place="bottom" type="catch">drum</fw><lb/>
+<pb facs="#f0023" n="23"/>
+<fw type="header" place="top"><hi rendition="#b">uͤber den Erſchlagenen in meinem Volck.</hi></fw><lb/>
+drum ruͤhmet er von derſelben: Das Hertz freuet ſich der Salben und<lb/>
+Rauchwerck; aber ein Freund iſt lieblich/ um Rath willen der Seelen/<lb/>
+(<hi rendition="#aq">Prov. XXVII,</hi> 9.) Wormit Syrach uͤbereinſtimmet: Ein treuer Freund<lb/>
+iſt ein ſtarcker Schutz/ wer den hat/ der hat einen groſſen Schatz. Ein treu-<lb/>
+er Freund iſt mit keinem Gelde noch Guth zu bezahlen. Ein treuer Freund<lb/>
+iſt ein Troſt des Lebens/ wer GOtt fuͤrchtet/ der krieget ſolchen Freund/<lb/>
+(<hi rendition="#aq">Syr. VI,</hi> 14. 15. 16.) Der Roͤmiſche Kaͤyſer <hi rendition="#aq">Albertus II.</hi> fuͤhrete dieſes <hi rendition="#aq">Sym-<lb/>
+bolum:</hi></p><lb/>
+<p><hi rendition="#c"><hi rendition="#aq">Amicus optimæ vitæ poſſesſio.</hi></hi></p><lb/>
+<lg type="poem"><l><hi rendition="#fr">Das heiſt vergnuͤgt gelebt/ viel treue Freunde haben/</hi></l><lb/>
+<l><hi rendition="#fr">Mit denen ſich das Hertz zu aller Zeit kan laben.</hi></l></lg><lb/>
+<p>Und dieſe ſuͤſſe Vergnuͤgung hatte auch David an ſeinem Hertzens-<lb/>
+Freund Jonathan/ wiewohl ſie ihn hernach/ nach deſſen Verluſt/ zur ob-<lb/>
+gedachten bittern Klage bewog. Ja er ward auch zur ſelben angetrie-<lb/>
+ben</p><lb/>
+<list><item><hi rendition="#aq">p. Per conſtantem amoris &amp; amicitiæ ſingularitatem &amp; ſin-<lb/>
+ceritatem,</hi> <hi rendition="#fr">durch die beſtaͤndige/ gar ſonder- und wunder-<lb/>
+bare Auffrichtigkeit ſeiner Liebe und Freundſchafft.</hi></item></list><lb/>
+<p>Denn es heiſt im Texte: <hi rendition="#fr">Deine Liebe iſt mir ſonderlicher gewe-<lb/>
+ſen/ denn Frauen-Liebe.</hi> <hi rendition="#aq">Amor tuus admirabilis fuit, præ amore mu-<lb/>
+lierum,</hi> heiſt es in ſeiner Sprache; Deine Liebe iſt mir viel wunderbarer<lb/>
+geweſen/ denn Frauen-Liebe. Hier wollen wir uns mit denen Auslegern<lb/>
+nicht weitlaͤufftig auffhalten/ ob das Woͤrtlein אַהֲבׇתְּ deine Liebe/ <hi rendition="#aq">acti-<lb/>
+ve</hi> von Jonathan zu verſtehen ſey/ und alſo muͤſſe gegeben werden: Deine<lb/>
+Liebe/ <hi rendition="#aq">ô</hi> Jonathan/ womit du mich bißhero umfaſſet haſt/ iſt mir ſonder-<lb/>
+licher geweſen/ denn Frauen-Liebe iſt; Oder ob es <hi rendition="#aq">pasſivè</hi> muͤſte genom-<lb/>
+men werden/ von der Liebe Davids/ womit er Jonathan geliebet/ und al-<lb/>
+ſo im Teutſchen muͤſte uͤberſetzet werden: Deine Liebe/ womit du von mir<lb/>
+bißhero biſt umfaſſet worden/ iſt mir ſonderlicher geweſen/ denn Frauen-<lb/>
+Liebe. Denn dieſen Streit hat der ſelige Herr <hi rendition="#aq">D. Sebaſtian Schmidius</hi><lb/>
+in ſeinem <hi rendition="#aq">Commentario in h. l.</hi> weitlaͤufftig angefuͤhret/ entſcheidet/ und<lb/>
+nim̃t es <hi rendition="#aq">in ſenſu pasſivo,</hi> vor die Liebe Davids gegen Jonathan; mit<lb/>
+welchem wir es auch halten/ und dahero gar leicht erweiſen koͤnnen/ weil<lb/>
+David dieſe ſeine Liebe gegen Jonathan/ als eine wichtige <hi rendition="#aq">Motive</hi> und<lb/>
+Urſache anfuͤhret/ welche ihn zur bittern Klage uͤber Jonathan bewoge.<lb/>
+Doch iſt auch dieſes nicht zu laͤugnen/ daß David von Jonathan auch<lb/>
+recht hertzlich geliebet/ und durch dieſelbe aus vieler Gefahr ſeines Lebens<lb/>
+<fw type="catch" place="bottom">von</fw><lb/>
+<pb facs="#f0024" n="24"/>
+<fw type="header" place="top"><hi rendition="#b">Die bittere Klage</hi></fw><lb/>
+von ihm errettet wurde/ (1. <hi rendition="#aq">Sam. XVIII, 1. ſeqq. c. XIX, 20. ſeqq.</hi>) wie<lb/>
+wohl/ wie gedacht/ David ſein meiſtes Abſehen hierinnen auff ſeine Liebe<lb/>
+gegen ihn gerichtet hat. Von dieſer Liebe bekennet er/ ſie ſey ihm <foreign xml:lang="heb"><gap reason="fm" unit="words"/></foreign><lb/>
+<hi rendition="#aq">admirabilis, ſingularis excellens,</hi> gar wunderbar/ ſonderlich und vort e<gap reason="lost" unit="chars" quantity="1"/>-<lb/>
+lich; So ſonderlich lieb der groſſe GOtt ſein Volck Jſrael hatte/ und ſie<lb/>
+mit maͤchtiger Hand und vielen Wundern aus Egypten f<supplied>uͤ</supplied>hrete/ (<hi rendition="#aq">Pſal.<lb/>
+LXXVIII,</hi> 12.) ſo ſonderlich lieb hatte auch David ſeinen Freund Jona-<lb/>
+than/ alſo/ daß er auch hinzu ſetzet: <foreign xml:lang="heb"><gap reason="fm" unit="words"/></foreign> <hi rendition="#aq">præ amore mulie-<lb/>
+rum,</hi> deine Liebe iſt mir ſonderlicher geweſen/ denn Frauen-Liebe. Son-<lb/>
+ſten pfleget die eheliche Liebe zwiſchen Braut und Braͤutigam/ zwiſchen<lb/>
+treuen Ehe-Gatten/ zwiſchen Eltern/ ſonderlich Muͤttern und Kindern/ der<lb/>
+hoͤchſte Grad und vollkommenſte Staffel der menſchlichen Liebe zu ſeyn.<lb/>
+Der H. Geiſt bekennet es ſelbſten/ wenn er ſich bey Einſetzung des Ele-<lb/>
+ſtandes durch Adam laͤſſet vernehmen: Darum wird ein Mann ſeinen Vaer<lb/>
+und ſeine Mutter verlaſſen/ und an ſeinem Weibe hangen/ und ſie werden ſeyn<lb/>
+ein Fleiſch/ (<hi rendition="#aq">Gen. II,</hi> 24.) Und bey Jeſaia heiſt es: Kan auch ein Weib<lb/>
+ihres Kindes vergeſſen/ daß ſie ſich nicht erbarme uͤber den Sohn ihres<lb/>
+Leibes? <hi rendition="#aq">(Jeſ. XLIX, 15.) Plinius</hi> gedencket von der edlen Roͤmerin <hi rendition="#aq">Fau-<lb/>
+nia,</hi> daß ſie zweymahl mit ihrem Ehe-Mann in das Elend gegangen/ und<lb/>
+ſich einmahl ſeinetwegen verbannen laſſen; Und <hi rendition="#aq">Egeſippus</hi> ſchreibet in<lb/>
+ſeinem 41. Capitel des 5. Buchs von der Zerſtoͤrung der Stadt Jeruſa<supplied>l</supplied>em:<lb/>
+<hi rendition="#aq">Affectus manet, etſi pignus obierit, perſeverat nomen naturæ, gra-<lb/>
+tia non intercidit,</hi> die vaͤterliche und muͤtterliche Liebes-Bewegungen<lb/>
+bleiben feſt in denen Hertzen derer Eltern hangen/ obgleich das Kind ge-<lb/>
+ſtorben/ der Nahme der Natur verharret beſtaͤndig/ und die Liebligkeit/<lb/>
+ſo man von ihm genoſſen/ gehet nicht unter. Und gleichwohl ſaget David:<lb/>
+Seine Liebe gegen Jonathan ſey ihm ſonderlich geweſen/ denn Frauen-<lb/>
+Liebe; Dahero etlichen von denen Auslegern dieſe Worte ſehr ſchwer vor-<lb/>
+gefallen/ und nicht gewuſt/ wie ſie ſie ſattſam und deutlich erklaͤren ſollen/<lb/>
+ja etliche ſind gar auff die Gedancken gefallen/ und David beſchuldigen<lb/>
+wollen/ als ob er die Ordnung der Natur in der Liebe verwerffen/ und ſeine<lb/>
+Liebe gegen Jonathan der ehelichen vorziehen wollen. Alleine/ wie dieſes<lb/>
+dem lieben David niemahls in Sinn gekommen/ alſo wiſſen unſere Got-<lb/>
+tes-Gelehrten dieſe Worte nach dem Sinn Davids beſſer zu erklaͤren/<lb/>
+wenn ſie einen Unterſchied machen: <hi rendition="#aq">Inter amorem ordinarium,</hi> oder<lb/>
+ordentlichen Liebe/ und <hi rendition="#aq">Amorem extraordinarium, &amp; ſingularem,</hi> oder<lb/>
+auſſerordentlicher und ſonderbaren Liebe/ und geben vor/ David ſetze die<lb/>
+<fw type="catch" place="bottom">ordent-</fw><lb/>
+<pb facs="#f0025" n="25"/>
+<fw place="top" type="header"><hi rendition="#b">uͤber den Erſchlagenen in meinem Volck.</hi></fw><lb/>
+ordentliche und eheliche Liebe/ als den hoͤchſten Grad derſelben/ zum Vor-<lb/>
+aus/ und laſſe ſie ordentlicher Weiſe in ſeinem Werth/ liebe aber dennoch<lb/>
+Jonathan <hi rendition="#aq">extraordinariè,</hi> oder auſſerordentlicher Weiſe/ weit mehr/ als ein<lb/>
+Braͤutigam ſeine Braut/ ein Ehemann ſein Weib/ eine Mutter ihr Kind/<lb/>
+und habe eine gantz ſonder- und wunderbare Liebe gegen ihn gehabt/ welche<lb/>
+aber nicht allein aus Trieb der Natur/ ſondern durch wunderbare Wuͤr-<lb/>
+ckung GOttes des werthen Heil. Geiſtes herkomme. Wollen ſolche Mey-<lb/>
+nung aus dem Grund-Texte/ und ſonderlich aus dem Woͤrtlein <supplied>ᒕᔔᑤᒈᑣᔀᑖᔈᑖᔄᑠ</supplied><lb/>
+<hi rendition="#aq">admirabilis fuit,</hi> es iſt wunderbar geweſen/ erwieſen; denn dieſes Wort/<lb/>
+ſagen ſie/ bedeute <hi rendition="#aq">aliqvid altum &amp; abſconditum, ita, ut nec viribus hu-<lb/>
+manis perfici, nec ratione penetrari poſſit, &amp; propterea admiratione<lb/>
+dignum;</hi> das iſt etwas Hohes und Verborgenes/ welches weder durch<lb/>
+menſchliche Kraͤffte koͤnne verrichtet/ noch mit der Vernunfft verſtanden<lb/>
+werden/ und ſey dahero eine Wunderns-wuͤrdige Sache. (<hi rendition="#aq">vid Sebaſtian.<lb/>
+Schmid. Comment. h. l. Leigh. Critic. Sacr. ſub voce</hi> <supplied>ᒈᔀᑤᔈᑤ</supplied><supplied/> <hi rendition="#aq">p. m.</hi> 320.)<lb/>
+Und dieſe ſonder- und wunderbare Liebe bewog David zur bittern Klage<lb/>
+uͤber ſeinen Freund Jonathan.</p><lb/>
+<p>Und was meynet ihr wohl/ lieben Zuhoͤrer/ was die Urſachen ſeyn/ die<lb/>
+uns zu unſer bittern Klage uͤber den Erſchlagenen in meinem Volck bewe-<lb/>
+gen? Nichts anders/ als</p><lb/>
+<p>α) <hi rendition="#fr">Unſere auffrichtige und liebreiche Liebe und Freundſchafft<lb/>
+gegen denſelben/</hi> und</p><lb/>
+<p>β) <hi rendition="#fr">Der aus ſeinem ploͤtzlichen Todte erſtandene groſſer Schaden.</hi></p><lb/>
+<p>α) Ach! er war auch unſer Bruder/ an dem wir viel Freude und Won-<lb/>
+ne hatten. Er war ein treuer Ehe-Gatte/ der ſein Weib liebete/ als ſich<lb/>
+ſelbſten; und von ihr hertzlich geliebet wurde; Ein liebreicher Vater/ der<lb/>
+die Seinigen ſonderbar liebte/ und ſie ehrlich zu verſorgen trachtete; auch<lb/>
+von ihnen kindlich verehret wurde; Ein Sohn/ an dem ſeine Schwieger-<lb/>
+Eltern einen Troſt im Alter hatten/ und an ſtatt des Steckens und Sta-<lb/>
+bes/ deſſen ſie ſich troͤſten wolten/ zu gebrauchen dachten; Ein treuer Jo-<lb/>
+nathan ſeinen Bruͤdern/ Freunden und Anverwandten/ denen ſeine Liebe<lb/>
+gantz ſonderbar war. Weshalben auch bey allen eine deſto bittere Klage<lb/>
+uͤber deſſen Verluſt angeſtellet wird/ je lieber wir ihn gehabt/ und auff-<lb/>
+richtiger gemeynet.</p><lb/>
+<p>β) Zu welcher auffrichtigen Liebe noch kommt der groſſe Schaden/ den<lb/>
+wir alle durch ſeinen ploͤtzlichen Todt erlitten; denn die betruͤbte Wittwe<lb/>
+hat ihre Roſe/ die Sonne ihres Hauſes/ und ihren treuen Hirten/ der ſie<lb/>
+<fw place="bottom" type="sig">D</fw><fw place="bottom" type="catch">wie</fw><lb/>
+<pb facs="#f0026" n="26"/>
+<fw type="header" place="top"><hi rendition="#b">Die bittere Klage</hi></fw><lb/>
+wie ein Schaͤfelein gepfleget/ verlohren; (2. <hi rendition="#aq">Sam. XII,</hi> 3.) Die verlaſſenen<lb/>
+Vater-loſen Waͤiſen ihren Steuer-Mann und Verſorger; Die betruͤb-<lb/>
+ten Schwieger-Eltern ihren Stecken und Stab; Die lieben Geſchwiſter/<lb/>
+Freunde und Anverwandten einen treuen Beyſtand in der Noth; Sein<lb/>
+Hauß und Hauß-Geſinde einen ſorgfaͤltigen Hauß-Vater/ der ſie zu allen<lb/>
+Guten gehalten/ und weißlich regieret; Seine Nachbarn und Neben-<lb/>
+Chriſten einen vertraͤglichen/ friedfertigen und behuͤlfflichen Nachbar und<lb/>
+Naͤchſten/ der ihnen viel gute Dienſte in manchem Stuͤcke treulichſt und<lb/>
+willigſt erwieſen. Jch ſelbſten ein gottsfuͤrchtiges und frommes Kirch-<lb/>
+Kind/ fleißigen Beter und beſtaͤndigen Kirchen-Gaͤnger/ der GOtt und<lb/>
+ſein Wort hertzlich geliebet/ und ſich allezeit gefreuet/ in das Hauß des<lb/>
+HErrn zu gehen/ zu ſchauen die ſchoͤnen GOttes-Dienſte des HErrn/ und<lb/>
+ſeinen Tempel zu beſuchen/ (<hi rendition="#aq">Pſal. XXVII, 4. CXXII,</hi> 1.) Zu geſchweigen<lb/>
+des groſſen Schadens/ den GOtt ſonſt auff ein Land und Leute/ in wel-<lb/>
+chem unſchuldig Blut vergoſſen/ zu legen gedraͤuet hat/ (<hi rendition="#aq">Num. XXXV, 33.<lb/>
+Jer. XLVIII, 10. Hoſ. IV,</hi> 3.) Solten wir denn durch dieſe erhebliche Urſa-<lb/>
+chen nicht bewogen werden/ bitterlich zu weinen und zu klagen? Solten wir<lb/>
+nicht mit David ſeuffzen: <hi rendition="#fr">Es iſt mir leid um dich/ mein Bruder Jo-<lb/>
+nathan?</hi> Solten wir nicht mit der Stadt Jeruſalem ausruffen: Ach<lb/>
+HErr! ſiehe an mein Elend; Ach HERR! ſiehe doch und ſchaue/ wie<lb/>
+ſchnoͤde ich worden bin. Euch ſag ich allen/ die ihr voruͤber gehet/ ſchauet<lb/>
+doch/ und ſehet/ ob irgend ein Schmertzen ſey/ wie unſer Schmertzen/ der<lb/>
+uns getroffen hat? (<hi rendition="#aq">Thren. I,</hi> 9. 11. 12.)</p><lb/>
+<p>Alleine iſt denn keine Salbe mehr in Gilead? oder iſt kein Artzt nicht<lb/>
+da? (<hi rendition="#aq">Jer. VIII,</hi> 22.) Hat denn GOtt gantz vergeſſen gnaͤdig zu ſeyn? und ſei-<lb/>
+ne Barmhertzigkeit fuͤr Zorn verſchloſſen? (<hi rendition="#aq">Pſal. LXXVII,</hi> 10.) will er ſich<lb/>
+denn nicht ſein Hertze laſſen brechen gegen uns/ daß er ſich unſer erbarme?<lb/>
+(<hi rendition="#aq">Jer. XXXI,</hi> 20.) Ach! ja/ denn er zehlet unſere Thraͤnen/ (<hi rendition="#aq">Pſal. LVI,</hi> 9.)<lb/>
+Er hoͤret unſer Weinen/ er hoͤret unſer Flehen/ und unſer Gebeth nimmt<lb/>
+der HErr an/ (<hi rendition="#aq">Pſal. VI,</hi> 9. 10.) und wird unſere Klage verwandeln in ei-<lb/>
+nen Reigen/ (<hi rendition="#aq">Pſal. XXX,</hi> 12.) und nach dem Ungewitter die Troſt-Son-<lb/>
+ne laſſen wieder ſcheinen/ nach dem Heulen und Weinen uns uͤberſchuͤt-<lb/>
+ten mit Freuden/ (<hi rendition="#aq">Tob. III,</hi> 21. 22.) Denn was den ſelig-Verſto<supplied>r</supplied>benen<lb/>
+anbetrifft/ ſo iſt ihm bey dieſem ploͤtzlichen Todtes-Fall nichts wiederfah-<lb/>
+ren/ als was Goͤttliche Weißheit vorher geſehen/ und nach ihrem heiligen<lb/>
+und unerforſchlichen Rath zugelaſſen/ weil/ nach dem Ausſpruch <hi rendition="#aq">Amos,</hi> kein<lb/>
+Ungluͤck in der Stadt (Land und Dorff) iſt/ das der HErr nicht thut/<lb/>
+<fw type="catch" place="bottom">(<hi rendition="#aq">Amos</hi></fw><lb/>
+<pb facs="#f0027" n="27"/>
+<fw place="top" type="header"><hi rendition="#b">uͤber den Erſchlagenen in meinem Volck.</hi></fw><lb/>
+(<hi rendition="#aq">Amos. III,</hi> 6.) Auch hat es die vaͤterliche Vorſorge GOttes ſo weißlich<lb/>
+wiſſen zu <hi rendition="#aq">dirigi</hi>ren/ daß es zu ſeines heiligen Nahmens Ehren/ und des<lb/>
+Verſtorbenen ewigen Wohlfahrt gereichen muͤſſen. Denn ob ihm gleich<lb/>
+ſein zeitlich Leben hierdurch fruͤhzeitig beraubet worden/ da er es ſonſten/<lb/>
+menſchlichen Gedancken/ und dem Zuſtand ſeiner Natur nach/ noch viele<lb/>
+Jahre/ denen Seinigen zum Troſt/ hinaus fuͤhren koͤnnen/ ſo iſt er doch<lb/>
+der Seelen nach deſto eher in das ewige Freuden-Leben eingegangen/ und<lb/>
+genieſſet daſelbſt unausſprechliche Freude und Herrlichkeit/ und heiſſet von<lb/>
+ihm: Der Gerechten Seelen ſind in GOttes Hand/ und keine Qvaal ruͤh-<lb/>
+ret ſie an/ (<hi rendition="#aq">Sap. III,</hi> 1.) Was aber die hinterbliebene betruͤbte Wittwe/ ver-<lb/>
+laſſene Waͤyſen/ traurige Eltern/ Freunde und Anverwandten anlanget/<lb/>
+ſo verſichert ſie GOtt durch David/ er wolle ein Vater der Waͤyſen/ und<lb/>
+ein Richter der Wittwen ſeyn/ (<hi rendition="#aq">Pſal. LXVIII,</hi> 6.) und ihnen alles zum<lb/>
+Beſten dienen laſſen/ (<hi rendition="#aq">Rom. VIII,</hi> 28.)</p><lb/>
+<lg type="poem"><l><hi rendition="#fr">Ey! ſo laſſet Klag und Trauren fahren/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Er (der Verſtorbene) faͤhrt auf zu GOttes Stuhl/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Zu den auserwehlten Schaaren/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Jn die hohe Himmels-Schul;</hi></hi></l><lb/>
+<l><hi rendition="#fr">Sein Hochzeitlich Ehren-Kleid</hi></l><lb/>
+<l><hi rendition="#fr">Jſt rein und Schnee-weiſſe Seid/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Da ihn GOttes Laͤmmlein kleidet/</hi></hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Das ihn auch nun ewig weydet.</hi></hi></l><lb/>
+<l><hi rendition="#fr">Nunmehr wird ihm ſeine Seele</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Weder Sonn- noch Monden-Schein/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Weder Durſt noch Hunger qvaͤlen/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Auch kein Feind verdruͤßlich ſeyn;</hi></hi></l><lb/>
+<l><hi rendition="#fr">GOttes Laͤmmlein ihn regiert/</hi></l><lb/>
+<l><hi rendition="#fr">Und zum Lebens-Bruͤnnlein fuͤhrt;</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">GOttes Laͤmmlein ihn erfriſchet/</hi></hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">All’ Angſt-Thraͤnen rein abwiſchet.</hi></hi></l></lg></div></div><lb/>
+<div type="fsMainPart" n="2"><head><hi rendition="#b">Gebrauch.</hi></head><lb/>
+<p><hi rendition="#in">H</hi>Jeraus koͤnnen wir nachfolgende Lehren behalten/ daß <hi rendition="#aq">I.</hi> der Todt<note place="right"><hi rendition="#aq">Uſus<lb/>
+1. Didaſca-<lb/>
+licus.</hi></note><lb/>
+gewiß/ die Todtes-Stunde deſto ungewiſſer ſey/ und uͤberfalle die<lb/>
+Menſchen offtermahls gantz ploͤtzlich und unverſehens. Dieſes haben<lb/>
+Jonathan/ und mit demſelben unſer im HErrn ſelig-verſtorbener Mit-<lb/>
+Bruder an ihren eigenen Exempeln in der That erfahren. Denn da ſie<lb/>
+<fw place="bottom" type="sig">D 2</fw><fw place="bottom" type="catch">des</fw><lb/>
+<pb facs="#f0028" n="28"/>
+<fw place="top" type="header"><hi rendition="#b">Die bittere Klage</hi></fw><lb/>
+des Morgens friſch/ geſund und ohne Kranckheit auffſtunden/ und ſich<lb/>
+noch ferne vom Tode zu ſeyn ſchienen/ ſo muſte man des Abends die bitte-<lb/>
+re Klage von ihnen fuͤhren: Jonathan und unſer ſelig-Verſtorbener ſind<lb/>
+auff den Hoͤhen erſchlagen. Und wer weiß nicht den allgemeinen Ausſpruch<lb/>
+des groſſen GOttes/ von der Gewißheit des Todtes/ ſo er nach dem klaͤg-<lb/>
+lichen Suͤnden-Fall uͤber das gantze menſchliche Geſchlecht gemachet/ und<lb/>
+in ſeinem Worte an unterſchiedlichen Orten wiederholet: Du biſt Erden/<lb/>
+und ſolſt zur Erden werden/ (<hi rendition="#aq">Gen. III,</hi> 19.) Wo iſt ein Menſch/ der da<lb/>
+lebe/ und den Todt nicht ſehe? bekennet David/ (<hi rendition="#aq">Pſal. LXXXIX,</hi> 10.) Es<lb/>
+iſt dem Menſchen geſetzet einmahl zu ſterben/ ſchreibet Paulus an ſeine<lb/>
+Ebraͤer/ (<hi rendition="#aq">c. IX,</hi> 27.) Mit welchen Worten uͤberein ſtimmet das kluge<lb/>
+Weib von Thekoa/ wenn es zu David ſpricht: Wir ſterben des Todtes/<lb/>
+und fahren dahin/ wie das Waſſer in der Erden verſchleifft/ das man<lb/>
+nicht auffhaͤlt/ (2. <hi rendition="#aq">Sam. XIV,</hi> 14.) Und Syrach bekennet ungeſcheut: Al-<lb/>
+les Fleiſch verſchleiſt wie ein Kleid/ denn es iſt der alte Bund: Du muſt<lb/>
+ſterben/ (<hi rendition="#aq">Syr. XIV,</hi> 18.) Alleine wem iſt auch wohl hierbey unbekannt/ daß<lb/>
+bey der Gewißheit des Todtes dennoch die Stunde des Todtes gantz un-<lb/>
+gewiß ſey/ und die Menſchen offt ploͤtzlich und unverhofft uͤberfalle. Hiob/<lb/>
+David/ Salomon/ und andere heilige Maͤnner GOttes bekennen ſolches<lb/>
+in ihren Schrifften hin und wieder. Hiob klagt: Der Menſch vom<lb/>
+Weibe gebohren/ hat zwar ſeine beſtimmte Zeit/ die Zahl ſeiner Mon-<lb/>
+den ſteht bey dir/ du haſt ihm ein Ziel geſetzt/ das wird er nicht uͤbergehen/<lb/>
+gleichwohl lebet er eine kurtze Zeit/ und iſt voll Unruhe/ gehet auff/ wie ei-<lb/>
+ne Blume/ und faͤllet abe/ fleucht wie ein Schatten/ und bleibet nicht/<lb/>
+(<hi rendition="#aq">Hiob XIV,</hi> 1. 2. 5.) Ein Menſch iſt in ſeinem Leben wie Graß/ er bluͤhet/<lb/>
+wie eine Blume auff dem Felde/ wenn der Wind daruͤber gehet/ ſo iſt ſie<lb/>
+nimmer da/ und ihre Staͤtte kennet ſie nicht mehr/ (<hi rendition="#aq">Pſal. CIII,</hi> 15. 16.) Ja<lb/>
+Salomon hats noch deutlicher <hi rendition="#aq">exprimi</hi>ret: Der Menſch weiß ſeine Zeit<lb/>
+nicht/ ſondern wie die Fiſche gefangen werden mit einem ſchaͤdlichem Ha-<lb/>
+men/ und die Voͤgel mit einem Strick gefangen werden/ ſo werden auch<lb/>
+die Menſchen beruͤckt zur boͤſen Zeit/ wenn ſie ploͤtzlich uͤber ſie faͤllet/ (<hi rendition="#aq">Ec-<lb/>
+cleſ. IX,</hi> 12.) Das wuſte ſchon Jſaac/ darum ſprach er zu ſeinem Sohn<lb/>
+Eſau: Siehe/ ich bin alt worden/ und weiß nicht/ <hi rendition="#aq">NB.</hi> <hi rendition="#fr">wenn ich ſterben<lb/>
+ſoll.</hi> Jngleichen der loͤbliche Churfuͤrſt/ Joachim der <hi rendition="#aq">II.</hi> zu Branden-<lb/>
+burg/ welcher <hi rendition="#aq">Anno</hi> 1571. bey Annehmung der Neuen-Jahrs-<hi rendition="#aq">Complimen-<lb/>
+r</hi>e/ in welchen ihm ſonderlich ein hohes Alter gewuͤnſchet wurde/ zur Ant-<lb/>
+wort gab; Es kan vor Abend wohl anders werden/ weder es am Mor-<lb/>
+<fw place="bottom" type="catch">gen</fw><lb/>
+<pb facs="#f0029" n="29"/>
+<fw type="header" place="top"><hi rendition="#b">uͤber den Erſchlagenen in meinem Volck.</hi></fw><lb/>
+gen war/ ſtarb auch hierauff auff ſeinen Erloͤſer ſelig den 3. <hi rendition="#aq">Januarii,</hi> obge-<lb/>
+dachten Jahres. Die Gelehrten/ wenn ſie die Ungewißheit der Todtes-<lb/>
+Stunde recht erwegen/ ſo mahlen ſie ein Schiff/ welches fruͤh Morgens<lb/>
+von beqvemen Winde gluͤcklich fortgetrieben/ des Abends a<supplied>b</supplied>er durch die<lb/>
+ungeſtuͤmen Wellen verſchlagen/ und mit Menſchen und Guͤtern verder-<lb/>
+bet worden/ und ſchreiben darzu:</p><lb/>
+<lg type="poem"><l><hi rendition="#c"><hi rendition="#aq">Nimium ne fide ſereno,</hi></hi></l><lb/>
+<l><hi rendition="#c"><hi rendition="#fr">Bald nach dem Sonnen-Schein/</hi></hi></l><lb/>
+<l><hi rendition="#c"><hi rendition="#fr">Stellt ſich der Sturm-Wind ein.</hi></hi></l></lg><lb/>
+<p><hi rendition="#aq">Muſonius</hi> nennet dahero den Todt <hi rendition="#aq">certiſſimum incertiſſimum,</hi> das al-<lb/>
+lergewiſſeſte ungewiſſeſte/ <hi rendition="#aq">&amp; incertiſſimum certiſſimum,</hi> das allerunge-<lb/>
+wiſſeſte gewiſſeſte. (<hi rendition="#aq">vid. Adam. Corn. Cop. p. 11. p.</hi> 551.)</p><lb/>
+<p><hi rendition="#aq">Auguſtinus</hi> ſpricht <hi rendition="#aq">in Libr. de ſpir. &amp; anim. Cap. 31. Tom. 3. p. 364.<lb/>
+Hoc plane ſcio, qvod mortales ſumus, &amp; velimus, nolimus, omnes<lb/>
+moriemur. Nihil enim morte certius, &amp; nihil incertius hora mor-<lb/>
+tis. Nam neſcimus, qvando, aut qvomodo, aut ubi moriemur, qvo-<lb/>
+niam mors ubiqve nos expectat.</hi> Das weiß ich gewiß/ daß wir ſterb-<lb/>
+lich ſeyn/ und wir alle ſterben muͤſſen/ wir moͤgen wollen/ oder nicht wol-<lb/>
+len. Denn wir haben nichts gewiſſers/ als den Todt/ nichts aber unge-<lb/>
+wiſſers/ als die Todtes-Stunde. Denn wir wiſſen nicht/ <hi rendition="#fr">wenn/ wo/</hi><lb/>
+oder <hi rendition="#fr">wie</hi> wir ſterben werden/ indem der Todt uns auf allen Fuͤſſen nach-<lb/>
+ſchleicht; Oder wie es ein ander Gelehrter uͤberſetzet: Das Gewiſſeſte iſt<lb/>
+der Todt/ das Ungewiſſeſte/ <hi rendition="#fr">wenn/ wie</hi> und <hi rendition="#fr">wo/</hi> und muͤſſen alle Men-<lb/>
+ſchen-Kinder mit der Chriſtlichen Kirche ſeuffzen:</p><lb/>
+<lg type="poem"><l>HErr JEſu Chriſt ich weiß gar wohl/</l><lb/>
+<l><hi rendition="#et">Daß ich einmahl muß ſterben/</hi></l><lb/>
+<l><hi rendition="#fr">Wenn</hi> aber das geſchehen ſoll/</l><lb/>
+<l><hi rendition="#et">Und <hi rendition="#fr">wie</hi> ich werde verderben</hi></l><lb/>
+<l>Dem Leibe nach/ das weiß ich nicht/</l><lb/>
+<l>Es ſteht allein in deinem Gericht/</l><lb/>
+<l><hi rendition="#et">Du ſiehſt mein letztes Ende.</hi></l></lg><lb/>
+<p><hi rendition="#aq">II.</hi> Daß die Liebe auffrichtiger Freunde auch in und durch den Todt<lb/>
+nicht auffgehoben oder getrennet werde/ ſondern nach demſelben beſtaͤndig<lb/>
+verbleibe/ und bey den Hinterbliebenen eine hertzliche Betruͤbniß/ ſchmertzli-<lb/>
+ches Seuffzen und bittere Klage uͤber den verſtorbenen Freund verurſa-<lb/>
+che. Dieſes bezeugen abermahl <hi rendition="#fr">David</hi> und <hi rendition="#fr">Jonathan/</hi> unſer ſelig ver-<lb/>
+<fw type="sig" place="bottom">D 3</fw><fw type="catch" place="bottom">ſtor-</fw><lb/>
+<pb facs="#f0030" n="30"/>
+<fw type="header" place="top"><hi rendition="#b">Die bittere Klage</hi></fw><lb/>
+ſtorbene und deſſen hinterbliebene Freunde und Anverwandten. Denn<lb/>
+da David hoͤrete/ daß ſein treuer Freund Jonathan auff dem Gebuͤrge<lb/>
+erſchlagen/ ließ er nicht alſobald mit ſeinem Tode alle Liebe und Freund-<lb/>
+ſchafft aus ſeinem Hertzen verſchwinden/ ſondern ſtellete eine ſehr bittere<lb/>
+Klage uͤber denſelben an/ heulete und ſchrie: <hi rendition="#fr">Jonathan iſt auff deinen<lb/>
+Hoͤhen erſchlagen; es iſt mir leid um dich/ mein Bruder Jona-<lb/>
+than!</hi></p><lb/>
+<p>Uber welche beſtaͤndige Freundſchafft Davids gegen Jonathan die<lb/>
+Gelehrten ſchreiben:</p><lb/>
+<lg type="poem"><l><hi rendition="#c"><hi rendition="#aq">Alter in altero.</hi></hi></l><lb/>
+<l><hi rendition="#c"><hi rendition="#fr">Es konten dieſe zwey Perſonen</hi></hi></l><lb/>
+<l><hi rendition="#c"><hi rendition="#fr">Jn einem Leibe friedlich wohnen.</hi></hi></l></lg><lb/>
+<p>Und dieſes ſehen wir an dem Exempel Abrahams gegen ſein liebes Weib<lb/>
+Sara/ (<hi rendition="#aq">Gen. XXIII,</hi> 1. 2.) Jacobs und Joſephs/ (<hi rendition="#aq">Gen. XXXVII,</hi> 35.)<lb/>
+Naemi und Ruths/ (<hi rendition="#aq">Ruth. I,</hi> 16.) Davids und Hirams/ (1. <hi rendition="#aq">Reg. V,</hi> 1.)<lb/>
+Ja unſers Heylandes gegen Lazarum/ (<hi rendition="#aq">Joh. XI, 33. ſeq.</hi>) Zu geſchweigen<lb/>
+der vielen Exempel aus der <hi rendition="#aq">Profan-</hi>Hiſtoria/ in welchen allen wir unſere<lb/>
+obgeſetzte <hi rendition="#aq">Theſin</hi> und Schluß bekraͤfftiget finden. <hi rendition="#aq">Laurentius Fauſtus</hi><lb/>
+gedencket im Saͤchſiſchen Stamm-Buch von Chur-Fuͤrſt <hi rendition="#aq">Auguſto</hi> zu<lb/>
+Sachſen/ und Johann George/ Chur-Fuͤrſt zu Brandenburg/ daß ſie ein-<lb/>
+ander ſo treulich geliebet/ daß auch einer des andern Bildniß mit ins Grab<lb/>
+genommen. <hi rendition="#aq">Rittershuſius</hi> erzehlet in ſeiner <hi rendition="#aq">Genealogi</hi>e von <hi rendition="#aq">Franciſco I.</hi><lb/>
+Koͤnig in Franckreich/ daß/ da er gehoͤret/ <hi rendition="#aq">Heinricus II.</hi> Koͤnig in Engel-<lb/>
+land ſey geſtorben/ ſey er allezeit traurig/ und biß an ſein Ende melancho-<lb/>
+liſch geweſen; Und ein gelehrter <hi rendition="#aq">Commentator</hi> uͤber den <hi rendition="#aq">Julium Cæſa-<lb/>
+rem</hi> ſchreibet: Es waͤren in Egypten gewiſſe Freunde geweſen/ welche<lb/>
+Συναποϑνήσκοντες, <hi rendition="#aq">cummorientes,</hi> oder Mit-ſterbende waͤren genennet<lb/>
+worden/ weil ſie ein ſtetswaͤhrendes Andencken ihrer verſtorbenen Freunde<lb/>
+bey ſich behalten/ und daruͤber betruͤbet; welche beſtaͤndige Liebe gegen die<lb/>
+verſtorbenen Freunde der groſſe GOtt der Natur gleichſam ſelber einge-<lb/>
+pflantzet/ indem die <hi rendition="#aq">Phyſici</hi> oder Naturkuͤndiger von der Turteltaube<lb/>
+ſchreiben/ daß ſie ſich/ nach Verluſt ihres Ehegattens/ mit keinem andern<lb/>
+gatte/ weßhalben die Gelehrten darzu ſchreiben:</p><lb/>
+<lg type="poem"><l><hi rendition="#c"><hi rendition="#aq">Et ſolitaria &amp; ſola,</hi></hi></l><lb/>
+<l><hi rendition="#c"><hi rendition="#fr">Einſam und allein/</hi></hi></l><lb/>
+<l><hi rendition="#c"><hi rendition="#fr">Will ich ſtetig ſeyn.</hi></hi></l></lg><lb/>
+<fw type="catch" place="bottom">Und</fw><lb/>
+<pb facs="#f0031" n="31"/>
+<fw place="top" type="header"><hi rendition="#b">uͤber den Erſchlagenen in meinem Volck.</hi></fw><lb/>
+<p>Und von dem Ulm-Baum <hi rendition="#aq">obſervi</hi>ren ſie/ daß/ ob er gleich alt/ und vorige<lb/>
+Kraͤffte nicht mehr habe/ halte er doch den Weinſtock/ der bey ihm ſtehe/<lb/>
+ſo wohl/ als wenn er noch friſch waͤre/ weßhalben ſie ihm dieſe Umſchrifft<lb/>
+geben:</p><lb/>
+<lg type="poem"><l><hi rendition="#c"><hi rendition="#aq">Amicus poſt mortem,</hi></hi></l><lb/>
+<l><hi rendition="#c"><hi rendition="#fr">Hier ſiebſt du einen treuen Freund/</hi></hi></l><lb/>
+<l><hi rendition="#c"><hi rendition="#fr">Ders nach dem Tod auch redlich meynt.</hi></hi></l></lg><lb/>
+<p>So nun GOtt denen unvernuͤnfftigen und lebloſen Creaturen ſolche be-<lb/>
+ſtaͤndige Liebe auch nach dem Todte eingepflantzet hat/ wie vielmehr ſoll<lb/>
+bey vernuͤnfftigen Menſchen und frommen Chriſten die Liebe und Freund-<lb/>
+ſchafft gegen ihre verſtorbene Freunde beſtaͤndig verbleiben/ und mit vie-<lb/>
+len Thraͤnen gegen dieſelben bezeiget werden. Das wuſte der loͤbliche<lb/>
+Hertzog zu Saphoyen/ Herr <hi rendition="#aq">Carol Emanuel II.</hi> als welcher nach ſeine<supplied>r</supplied><lb/>
+Gemahlin Tode das Kraut Jmmer-gruͤne mahlen laſſen/ mit der Uber-<lb/>
+ſchrifft:</p><lb/>
+<lg type="poem"><l><hi rendition="#c"><hi rendition="#aq">Ardorem meum illa non minuit, qvæ mihi ſemper vivit.</hi></hi></l><lb/>
+<l><hi rendition="#c"><hi rendition="#fr">So wenig Jmmer-gruͤn auff dieſer Welt verdirbt;</hi></hi></l><lb/>
+<l><hi rendition="#c"><hi rendition="#fr">So wenig mein Gemahl in meinem Hertzen ſtirbt.</hi></hi></l></lg><lb/>
+<p>Und bey dem <hi rendition="#aq">Orpheo</hi> und ſeiner <hi rendition="#aq">Euridice</hi> ſtehen die Worte:</p><lb/>
+<lg type="poem"><l><hi rendition="#c"><hi rendition="#aq">Amor poſt funera vivit.</hi></hi></l><lb/>
+<l><hi rendition="#c"><hi rendition="#fr">Stirbt gleich mein treues Weib dahin/</hi></hi></l><lb/>
+<l><hi rendition="#c"><hi rendition="#fr">Durch meine Lieb ich bey ihr bin.</hi></hi></l></lg><lb/>
+<p>Jſts demnach alſo/ ſo irren viele unter denen <hi rendition="#aq">Aſtrologis</hi> und Stern-<note place="right">2.<lb/>
+<hi rendition="#aq">Elenchti-<lb/>
+cus.</hi></note><lb/>
+Sehern/ welche aus dem Lauff der Geſtirne denen Menſchen ihr <hi rendition="#aq">Nativi-</hi><lb/>
+taͤt zu ſtellen/ und unter andern auch die Zeit und Stunde ihres Todes zu<lb/>
+beſtimmen ſich freventlich unterſtehen. Wie vor dieſem <hi rendition="#aq">Petrus Aleacus</hi><lb/>
+geweſen/ welcher aus dem Geſtirne der Menſchen zukuͤnfftiges Gluͤck und Un-<lb/>
+gluͤck/ Lebens-Arth/ Reichthum/ Tod/ des Todes Arth und Stunde verkuͤndi-<lb/>
+gen wollen/ wie <hi rendition="#aq">Pererius Lib. 11. ingen. Diſp. adv. Aſtrol.</hi> erzehlet/ und ihn<lb/>
+widerleget. Ja <hi rendition="#aq">Cardanus</hi> darff ſich unterſtehen/ Chriſto ſelbſt ein <hi rendition="#aq">Na-<lb/>
+tivit</hi>aͤt aus dem Geſtirne zu ſtellen/ und vorzugeben/ es habe nicht anders<lb/>
+ſeyn koͤnnen/ Chriſtus habe muͤſſen/ vermoͤge des Lauffs ſeines Geburths-<lb/>
+Geſtirns/ eines gewaltſamen Todes ſterben. (<hi rendition="#aq">vid. Bald. caſ. conſc. p.</hi> 787.)<lb/>
+Allein/ ſo wenig Jonathan und unſer ſel. Verſtorbene ihre Todes-Stun-<lb/>
+de wuſten/ ſondern ſie uͤberfiel ſie ploͤtzlich und unverhofft; ſo wenig koͤn-<lb/>
+nen auch dieſe Stern-Seher der Menſchen Todes-Stunde wiſſen und<lb/>
+<fw place="bottom" type="catch">beſchrei-</fw><lb/>
+<pb facs="#f0032" n="32"/>
+<fw type="header" place="top"><hi rendition="#b">Die bittere Klage</hi></fw><lb/>
+beſchreiben/ denn GOtt hat die Sterne (1.) nicht zu dem Ende erſchaffen/<lb/>
+daß ſie den Menſchen ihr zukuͤnfftiges Gluͤck und Ungluͤck/ Leben und<lb/>
+Tod vorher verkuͤndigen/ ſondern daß ſie ihnen des Nachts zu ihren Ver-<lb/>
+richtungen leuchten ſollen/ (<hi rendition="#aq">Gen. I,</hi> 16. 17.)</p><lb/>
+<p>(2.) Hat ſich GOtt die zukuͤnfftigen Dinge zu verkuͤndigen allein vor-<lb/>
+behalten/ und gehoͤren dieſelbigen zu ſeiner Allwiſſenheit/ wie (<hi rendition="#aq">Jeſ. XLI, 21.<lb/>
+c. XLIV, 24. c. XLVII,</hi> 13.) zu erſehen. Weßhalben Goͤttl. Allwiſſenheit</p><lb/>
+<p>(3.) Dieſe ſuͤndliche <hi rendition="#aq">Curioſit</hi>aͤt ſeinem Volck/ als einen Greuel/ ernſtlich<lb/>
+unterſaget/ (<hi rendition="#aq">Lev. XIX, 31. Devt. XIIX,</hi> 10. 11. 12.) Auch vors</p><lb/>
+<p>(4.) Solchen nichtigen und betruͤglichen Weiſſagern das ewige Ver-<lb/>
+dam̃niß ernſtlich angedraͤuet/ indem Jeſaias von ihnen weiſſagen muß:<lb/>
+Siehe/ ſie ſind wie Stoppeln/ die das Feuer verbrennet/ ſie koͤnnen ihr<lb/>
+Leben nicht erretten fuͤr der Flammen/ (<hi rendition="#aq">Jeſ. XLVI,</hi> 14.) Woruͤber der ſel.<lb/>
+<hi rendition="#aq">Auguſtinus</hi> alſo <hi rendition="#aq">glosſi</hi>ret: <hi rendition="#aq">Qvi opinantur, ineluctabilia eſſe, qvæ<lb/>
+prædicuntur ab Aſtrologis, magnam cœlo injuriam inferunt, àqve<lb/>
+Deo neutiqvam ferri poſſunt. (vid. Balduin. Loc. cit. p. 779. ſeqq. Men-<lb/>
+gering. Informator. conſcient. p.</hi> 89.)</p><lb/>
+<p>Auch betruͤgen ſich und irrren die <hi rendition="#aq">Stoici,</hi> oder etliche derer <hi rendition="#aq">Philoſopho-<lb/>
+um,</hi> als welche alle menſchliche <hi rendition="#aq">Affect</hi>en von den menſchen hinwegneh-<lb/>
+men/ und ſie zu gantz unempfindlichen Creaturen des Gluͤcks und Ungluͤcks/<lb/>
+der Freude und der Traurigkeit machen wollen; wie <hi rendition="#aq">Plutarchus de Stoi-<lb/>
+cis</hi> hin und wieder gedencket: Alleine wie ſehr ſie fehlen/ ſehen wir aus<lb/>
+dem Exempel Davids und unſers ſelig-Verſtorbenen Hinterlaſſenen/ wel-<lb/>
+che uͤber dem unverhofften Verluſt ihres Freundes mit ihm von Hertzen<lb/>
+betruͤbt ſeyn/ und ſich von ihm vernehmen laſſen: <hi rendition="#fr">Es iſt uns leid um<lb/>
+dich/ mein Bruder Jonathan.</hi> Jngleichen an unſerm Heyland/ als<lb/>
+welcher ſich nicht nur allein gefreuet/ ſondern auch zu unterſchiedlichen<lb/>
+mahlen bitterlich geweinet/ (<hi rendition="#aq">Luc. XIX, 41. Joh. XI, 33. Ebr. V,</hi> 7.) Aus<lb/>
+dem heilſamen Abſehen des groſſen GOttes bey Einpflantzung derer <hi rendition="#aq">Affect</hi>en<lb/>
+und Begierden/ ſeinen ernſtlichen Befehlen/ ſich zu freuen mit den Freuen-<lb/>
+den/ zu weinen mit den Weinenden/ froͤlich zu ſeyn in Hoffnung/ gedultig<lb/>
+in Truͤbſalen/ (<hi rendition="#aq">Rom. XII,</hi> 12. 15.) Auch aus denen vielen Exempel derer<lb/>
+Frommen/ welche ſich gefreuet haben/ wenn es den Gerechten wohl ge-<lb/>
+gangen/ aber betruͤbet/ wann es ihnen uͤbel gangen.</p><lb/>
+<p><note place="left"><hi rendition="#aq">Pædevti-<lb/>
+cus.</hi></note>Jſt nun der Todt gewiß/ die Todtes-Stunde aber ſo ungewiß/ <hi rendition="#aq">præpa-<lb/>
+remus qvotidie ad mortem,</hi> ſo laſſet uns doch taͤglich zu unſerm Todte<lb/>
+bereiten.</p><lb/>
+<fw type="catch" place="bottom">Kein</fw><lb/>
+<pb facs="#f0033" n="33"/>
+<fw type="header" place="top"><hi rendition="#b">uͤber den Erſchlagenen in meinem Volck.</hi></fw><lb/>
+<p>Kein Zweiffel iſt es/ Jonathan werde ſich vor gehaltener Schlacht zu<lb/>
+ſeinem bevorſtehenden Ende wohl bereitet haben; welchem auch unſer ſetig<lb/>
+verſtorbener Mit-Bruder treulich nachgefolget/ und ſich ſo wohl den gan-<lb/>
+zen Sonntag uͤber in oͤffentlicher Gemeinde und zu Hauſe zu ſeinem GOtt<lb/>
+mit ſeinem andaͤchtigen Gebeth gewendet/ als auch des Abends/ ehe er<lb/>
+noch hinaus gegangen/ und in das Ungluͤck verfallen/ ſeinen Leib und See-<lb/>
+le demſelben inbruͤnſtig anbefohlen. <hi rendition="#aq">Baronius ad annum</hi> 1238. meldet<lb/>
+von dem gottſeligen Kaͤyſer <hi rendition="#aq">Lothario,</hi> daß er taͤglich ſehr fruhe eine oͤffent-<lb/>
+liche Sterbe-Andacht halten laſſen in ſeiner Gegenwart/ ſowohl zu Krie-<lb/>
+ges-als Friedens Zeiten. Dieſen frommen Chriſten laſſet uns treulich<lb/>
+nachfolgen/ und uns taͤglich zu unſern Tode und Todtes-Stunde berei-<lb/>
+ten.</p><lb/>
+<p>Welche Todtes-Bereitung am fuͤglichſten geſchehen kan/ wenn man<lb/>
+1. <hi rendition="#fr">immerzu an denſelben gedencket/</hi> und mit Paulo zum Wahl-Spruch<lb/>
+fuͤhret: Jch ſterbe taͤglich/ (1. <hi rendition="#aq">Cor. XV,</hi> 31.) Wie ſolches Syrach von al-<lb/>
+len frommen Chriſten erfordert: Was du thuſt/ da bedencke das Ende/<lb/>
+ſo wirſt du nimmermehr Ubels thun. Als <hi rendition="#aq">Philippus II.</hi> Koͤnig in Spa-<lb/>
+nien ſterben ſolte/ ſprach er zu ſeinem Sohne: <hi rendition="#aq">Noli, qvæſo, hujus lecti<lb/>
+dememiniſſe, in qvo me jam morientem cernis,</hi> vergiß ja nicht des<lb/>
+Bettes/ darinnen du mich ietzund ſterben ſieheſt. Welches auch die wei-<lb/>
+ſen Heyden aus dem Licht der Natur erkenneten/ und die Erinnerung des<lb/>
+Todtes <hi rendition="#aq">Summam Philoſophiam,</hi> die hoͤchſte Weißheit nenneten. Bey<lb/>
+dieſem Andencken aber auch 2.) <hi rendition="#fr">rechtſchaffene wahre Buſſe an ſich<lb/>
+ſpuͤhren laͤſſet/</hi> ſeine begangene Suͤnde aus dem Geſetz erkennet/ hertzlich<lb/>
+bereuet/ um Vergebung derſelben ſeinen GOtt demuͤthig erſuchet/ und<lb/>
+alſo ſein Hertzens-Hauß nach dem Befehl GOttes beſtellet/ ehe man ſtir-<lb/>
+bet/ (<hi rendition="#aq">Jeſ. XXXVIII,</hi> 1.) Der ſel. <hi rendition="#aq">D. Geier</hi> ſchreibet in ſeiner Zeit und E-<lb/>
+wigkeit: (<hi rendition="#aq">p. 11. p.</hi> 502.) Raͤume auff/ ehe der HErr anfaͤngt auffzuraͤu-<lb/>
+men/ ehe er Tiſche und Baͤncke uͤbern Hauffen wirfft/ daß eines hie das<lb/>
+andere dort hinaus ſpringet. Doch ſoll dieſes Auffraͤumen und Berei-<lb/>
+ten zum Tode dem dreyeinigen GOtt gefallen/ ſo muß es auch mit dem<lb/>
+wahren Glauben an JEſum Chriſtum verknuͤpffet ſeyn/ alſo/ daß man ſich<lb/>
+der Wunden ſeines JEſu erinnert/ mit kindlicher Zuverſicht umfaſſ<gap reason="lost" unit="chars" quantity="1"/>t/ und<lb/>
+mit Jacob ſaget: Jch laſſe dich nicht/ du ſegneſt mich denn; (<hi rendition="#aq">Gen. XXXII,</hi><lb/>
+26.) Oder dem alten Simeone: HErr/ nun laͤſt du deinen Diener in<lb/>
+Friede fahren/ wie du geſaget haſt/ denn meine Augen haben deinen Hey-<lb/>
+land geſehen/ (<hi rendition="#aq">Luc. II,</hi> 29. 30.) Von dem Pabſt <hi rendition="#aq">Innocentio</hi> dem <hi rendition="#aq">IX.</hi><lb/>
+<fw type="sig" place="bottom">E</fw><fw type="catch" place="bottom">wird</fw><lb/>
+<pb facs="#f0034" n="34"/>
+<fw place="top" type="header"><hi rendition="#b">Die bittere Klage</hi></fw><lb/>
+wird geruͤhmet/ er habe die Gewohnheit gehabt/ nichts zu beſchlieſſen/ er<lb/>
+habe denn ſein Geſichte zu zweyen unterſchiedenen Bildern gewendet/ da-<lb/>
+von das erſte der Berg <hi rendition="#aq">Calvariæ</hi> war/ woſelbſt unſer Heyland gecreutzi-<lb/>
+get/ und viele Todten-Knochen und Hirn-Schedeln derer Verſtorbenen<lb/>
+gemahlet waren; Das andere aber eine Leichen-<hi rendition="#aq">Proceſſion.</hi> Wodurch<lb/>
+es geſchehen/ daß er des Todtes und ſeines Erloͤſers ſtets eingedenck gewe-<lb/>
+ſen/ und alle ſeine Verrichtungen wohl ausgefuͤhret habe. (<hi rendition="#aq">Vid. Adam.<lb/>
+Corn. Cop. P. I. p.</hi> 15.) Und ſo muͤſſen wir es alle machen/ wollen wir uns<lb/>
+recht zum Tode bereiten. Es muß auch endlich 3.) zu den obangefuͤhr-<lb/>
+ten Stuͤcken kommen: <hi rendition="#fr">Ein ſehnlich Verlangen nach dem Tode und<lb/>
+ſeligen Ende/</hi> daß man mit Paulo ſeuffze: <hi rendition="#aq">Cupio diſſolvi,</hi> ich habe Luſt<lb/>
+abzuſcheiden/ und bey Chriſto zu ſeyn; (<hi rendition="#aq">Philip. I,</hi> 23.) Oder wie es Herr<lb/>
+<hi rendition="#aq">Joachim Beuſt,</hi> ein Edelmann von Planitz bey Zwickau/ machte/ der zu<lb/>
+ſeinem <hi rendition="#aq">Symbolo</hi> aus des Heyden <hi rendition="#aq">Perſii ſat.</hi> 5. die Worte fuͤhret:</p><lb/>
+<lg type="poem"><l><hi rendition="#c"><hi rendition="#aq">Vive memor lethi.</hi></hi></l><lb/>
+<l><hi rendition="#c"><hi rendition="#fr">Wo ich gehe und mich lencke/</hi></hi></l><lb/>
+<l><hi rendition="#c"><hi rendition="#fr">Jch an meinen Tod gedencke.</hi></hi></l></lg><lb/>
+<p>Und dieſe Zubereitung zum Todte muß nicht des Jahres/ Monats oder<lb/>
+Woche nur einmahl/ ſondern mit Paulo <hi rendition="#aq">NB.</hi> <hi rendition="#fr">taͤglich</hi> geſchehen/ und heiſ-<lb/>
+ſen: <hi rendition="#fr">Jch ſterbe taͤglich/</hi> (1. <hi rendition="#aq">Cor. XV,</hi> 35.) Jener frommer Haupt- und<lb/>
+Edelmann/ Herr <hi rendition="#aq">Leonhard</hi> von Kottwitz/ ließ ſich eine Haupt-Schnure<lb/>
+machen/ und darauff nachfolgende Worte ſticken:</p><lb/>
+<lg type="poem"><l><hi rendition="#c"><hi rendition="#aq">Hodie morieris.</hi></hi></l><lb/>
+<l><hi rendition="#c"><hi rendition="#fr">Der heutge Tag iſt mir von meinem GOtt beſtimmt/</hi></hi></l><lb/>
+<l><hi rendition="#c"><hi rendition="#fr">Da er mich von der Welt zu ſich in Himmel nimmt.</hi></hi></l></lg><lb/>
+<p>Sprach auch bey ſeinem letzten Ende: Jch bin taͤglich geſtorben/ darum<lb/>
+ſterb ich itzo deſto freudiger. (<hi rendition="#aq">vid. Adam. Corn. Cop. P. II. p.</hi> 101.) Und ſo<lb/>
+muͤſſen wir es auch machen/ taͤglich an den Todt gedencken/ zu unſern<lb/>
+Wahl-Spruch fuͤhren/ und taͤglich unſerer Seelen zuruffen:</p><lb/>
+<lg type="poem"><l><hi rendition="#c"><hi rendition="#aq">Memento mori,</hi></hi></l><lb/>
+<l><hi rendition="#c"><hi rendition="#fr">Gedencke/ was du thuſt/</hi></hi></l><lb/>
+<l><hi rendition="#c"><hi rendition="#fr">Gedencke/ daß du ſterben muſt.</hi></hi></l></lg><lb/>
+<p>Taͤglich muͤſſen wir unſere Suͤnde bereuen/ und um Vergebung derſelben bit-<lb/>
+ten/ taͤglich an JEſu Verdienſt/ Leyden und Sterben gedencken/ und ſeuffzen:<lb/>
+</p><lg type="poem"><l><hi rendition="#c"><hi rendition="#aq">Turbabor, ſed non perturbabor, qvia vulnerum Chriſti recordabor.</hi></hi></l><lb/>
+<l><hi rendition="#c"><hi rendition="#fr">Mein <supplied>S</supplied>uͤnd mich werden kraͤncken ſehr/</hi></hi></l><lb/>
+<l><hi rendition="#c"><hi rendition="#fr">Mein Gewiſſen wird mich nagen/</hi></hi></l><lb/>
+<fw place="bottom" type="catch"><hi rendition="#fr">Denn</hi></fw><lb/>
+<pb facs="#f0035" n="35"/>
+<fw place="top" type="header"><hi rendition="#b">uͤber den Erſchlagenen in meinem Volck.</hi></fw><lb/>
+<l><hi rendition="#fr">Denn ihr ſind viel/ wie Sand am Meer/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Doch will ich nicht verzagen;</hi></hi></l><lb/>
+<l><hi rendition="#fr">Gedencken will ich an dein’n Todt/</hi></l><lb/>
+<l><hi rendition="#fr">HERR JESU/ deine Wunden roth</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Die werden mich erhalten.</hi></hi></l></lg><lb/>
+<p>Taͤglich muͤſſen wir ein ſehnuches Verlangen nach dem Todte tragen/ und<lb/>
+mit der Chriſtlichen Kirche ſeuffzen: Komm HErr JEſu! (<hi rendition="#aq">Apoc. XXII,</hi><lb/>
+10.) oder der Mutter <hi rendition="#aq">Auguſtini, Monica:</hi></p><lb/>
+<lg type="poem"><l><hi rendition="#c"><hi rendition="#aq">Evolemus! Evolemus!</hi></hi></l><lb/>
+<l><hi rendition="#fr">Hertzlich thut mich verlangen</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Nach einem ſeelgen End/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Weil ich hier bin umfangen</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Mit Truͤbſal und Elend/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Jch hab Luſt abzuſcheiden</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Von dieſer boͤſen Welt/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Sehn mich nachſew’ gen Freuden/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Mein JESU/ komm nur bald.</hi></hi></l></lg><lb/>
+<p>O wie ſelige Leute werden wir alsdenn ſeyn/ der Todt mag kommen/ wann<lb/>
+er wolle/ duͤrffen wir uns nicht fuͤr ihm fuͤrchten/ ſondern ihm getroſt nach-<lb/>
+ruffen/ wie etwan Rebecca ſich gegen Eleazar vernehmen lieſſe: Ja! Ja!<lb/>
+ich will mit ihm/ (<hi rendition="#aq">Gen. XXIV,</hi> 58.)</p><lb/>
+<lg type="poem"><l><hi rendition="#fr">Komm/ o Todt! du Schlaffes-Bruder/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Komm/ und fuͤhre mich nur fort/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Loͤſe meines Schiffleins Ruder/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Bringe mich an ſichern Port/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Es mag/ wer da will/ dich ſcheuen/</hi></l><lb/>
+<l><hi rendition="#fr">Du kanſt mich vielmehr erfreuen/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Denn durch dich komm ich herein</hi></hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Zu dem ſchoͤnſten JEſulein.</hi></hi></l></lg><lb/>
+<p>Denn ein ſolcher wohlbereiteter Chriſt weiß/ daß er in ſeinem Todte von ſei-<lb/>
+nem Heyland verſichert wird: Heute ſolſtu mit mir im Paradeiß ſeyn/ (<hi rendition="#aq">Luc.<lb/>
+XXIII,</hi> 43.) von den Engeln in Abrahams Schooß getragen/ (<hi rendition="#aq">Luc. XVI,</hi> 22.)<lb/>
+von ſeinem JEſu zur vollkommenen Genieſſung der unausſprechlichen Freu-<lb/>
+de und Herrligkeit mit dieſen holdſeligen Worten eingefuͤhret wird: Ey! du<lb/>
+frommer und getreuer Knecht/ du biſt uͤber wenig getreu geweſen/ ich will<lb/>
+dich uͤber viel ſetzen/ gehe ein zu deines HErrn Freude/ (<hi rendition="#aq">Matth. XXV,</hi> 21.)<lb/>
+allwo ihn keine Qvaal mehr anruͤhren/ ſondern Freude die Fuͤlle/ und liebli-<lb/>
+<fw place="bottom" type="sig">E 2</fw><fw place="bottom" type="catch">ches</fw><lb/>
+<pb facs="#f0036" n="36"/>
+<fw type="header" place="top"><hi rendition="#b">Die bittere Klage</hi></fw><lb/>
+ches Weſen genieſſen ſoll zur Rechten GOttes ewiglich/ (<hi rendition="#aq">Pſ. XVI,</hi> 11.) Wo-<lb/>
+mit <hi rendition="#aq">Cyprianus</hi> uͤberein ſtimmt/ wenn er in ſeiner <hi rendition="#aq">Exhort Martyr.</hi> ſchreibet:<lb/>
+<hi rendition="#aq">Mors eſt tranſitus de labore ad refrigerium;</hi> Und <hi rendition="#aq">Chryſoſtomus:<lb/>
+Mors eſt transmigratio à deterioribus ad meliora, non homo, ſed ho-<lb/>
+minis miſeria moritur.</hi></p><lb/>
+<lg type="poem"><l><hi rendition="#fr">Der Todt iſt nichts/ denn nur ein Eingang in das Leben/</hi></l><lb/>
+<l><hi rendition="#fr">Da uns der HErr fuͤrs Creutz viel Freud und Luſt will geben.</hi></l></lg><lb/>
+<p>Ey! wer wolte ſich denn nicht taͤglich zu ſeinem Todte bereiten/ und mit Da-<lb/>
+vid ſeuffzen: HErr/ lehre uns bedencken/ daß wir ſterben muͤſſen/ auf daß<lb/>
+wir klug und ſelig werden/ (<hi rendition="#aq">Pſ. XC,</hi> 17.)</p><lb/>
+<lg type="poem"><l><hi rendition="#fr">Laß mich bey Zeit mein Hauß beſtellen/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Daß ich bereit ſey fuͤr und fuͤr/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Und ſage friſch in allen Faͤllen:</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">HErr/ wie du wilt/ ſo ſchicks mit mir!</hi></hi></l></lg><lb/>
+<p>Doch laſſet uns bey dieſer Bereitung zum Todte nicht alle Liebe unſerer treu-<lb/>
+en und auffrichtigen Freunde in und nach ihrem Todte gaͤntzlich vergeſſen/<lb/>
+ſondern <hi rendition="#aq"><hi rendition="#i">eos decenter lugeamus,</hi></hi> ſie gebuͤhrender maßen beweinen/ beklagen<lb/>
+und betrauren/ ſonderlich wann ſie etwan durch einen ploͤtzlichen/ ſchnellen<lb/>
+und gewaltſamen Todt von uns hinweg geriſſen worden. David hat dieſe<lb/>
+Chriſten-Pflicht wohl gelernet/ deswegen hieß ſeine Trauer-Klage uͤber den<lb/>
+verſtorbenen Jonathan: <hi rendition="#fr">Es iſt mir leid um dich/ mein Bruder Jona-<lb/>
+than;</hi> welche er nachgehends bey Verluſt ſeines ungerathenen Sohnes<lb/>
+weit nachdruͤcklicher wiederholete: Ach! mein Sohn Abſolon/ mein Sohn/<lb/>
+mein Sohn Abſolon! wolte GOtt! ich muͤſte fuͤr dich ſterben. O Abſo-<lb/>
+lon! mein Sohn/ mein Sohn! (2. <hi rendition="#aq">Sam. XVIII,</hi> 33.)</p><lb/>
+<p>Und dem laſſet uns bey Abſterben unſerer lieben Freunde und Anverwand-<lb/>
+ten nachfolgen/ und ſie gebuͤhrender Weiſe beweinen. Dahin gehet Sy-<lb/>
+rachs und Pauli Vermahnung: Mein Kind/ wenn dir einer ſtirbt/ ſo be-<lb/>
+weine ihn/ und beklage ihn/ als waͤre dir groß Leid geſchehen; Du ſolt bit-<lb/>
+terlich weinen/ und hertzlich betruͤbt ſeyn/ und Leide tragen/ darnach er geweſt<lb/>
+iſt/ (<hi rendition="#aq">Syr XXXVIII,</hi> 16. 17.) Welchen Befehl alle fromme Chriſten Altes und<lb/>
+Neues Teſtamentes zu ihrer Zeit beobachtet/ und ihre ſelig-Verſtorbene<lb/>
+ſchmertzlich beklaget und beweinet haben. Vom <hi rendition="#aq">Cleandro</hi> iſt bekannt/ daß<lb/>
+er bey ſeiner Liebſten Abſterben einen gantzen <hi rendition="#aq">Pocal</hi> voller Thraͤnen auffge-<lb/>
+ſamlet/ und der Leiche auffgeopffert habe. (<hi rendition="#aq">vid. Adam. Corn. Cop. P. I. p.</hi><lb/>
+524.) Warum ſolten wir nicht dieſem Exempel nachfolgen/ zumahl da wir<lb/>
+wiſſen/ daß es unſere naͤchſten Bluts-Freunde und Anverwandten/ unſer<lb/>
+<fw type="catch" place="bottom">Ehe-</fw><lb/>
+<pb facs="#f0037" n="37"/>
+<fw place="top" type="header"><hi rendition="#b">uͤber den Erſchlagenen in meinem Volck.</hi></fw><lb/>
+Ehe-Gatten/ unſere Kinder/ unſere Eltern/ unſere Bruͤder/ unſere Schwe-<lb/>
+ſtern/ unſere treue und auffrichtige Freunde ſind/ an denen wir viel Freude<lb/>
+und Wonne gehabt/ und die uns wiederum als ſich ſelbſten geliebet/ und<lb/>
+viel Liebe/ aber kein Leid gethan.</p><lb/>
+<p>Doch muͤſſen wir darbey die Schrancken des Chriſtl. G<supplied>l</supplied>aubens nicht<lb/>
+uͤberſchreiten/ und ſie uͤbermaͤßig und unchriſtlich beweinen/ darmit wir nicht<lb/>
+als Un-Chriſten und Heyden ſcheinen/ die von ihren Verſtorbenen keine Hoff-<lb/>
+nung haben/ (1. <hi rendition="#aq">Theſſ. IV,</hi> 13.) Oder als Leute/ die der heil. Ordnung GOt-<lb/>
+tes widerſtreben/ als welcher dem Menſchen geſetzet einmahl zu ſterben/<lb/>
+(<hi rendition="#aq">Ebr. IX,</hi> 27.) Oder von dem Zuſtand der ſel. Verſtorbenen nach <choice><sic>dieſem</sic><corr/></choice><lb/>
+dieſem Leben nichts wiſſen/ als deren Seelen in GOttes Hand ſind/ und<lb/>
+von keiner Qvaal in Ewigkeit angeruͤhret werden/ (<hi rendition="#aq">Sap. III,</hi> 1.) wie es <hi rendition="#aq">Olai,</hi><lb/>
+Koͤniges in Norwegen Gemahlin/ zu machen pflegte/ welche ſich nach dem<lb/>
+Tode ihres Gemahls zu todte graͤmete/ und durch Hunger toͤdtete/ <hi rendition="#aq">(Meurs.<lb/>
+hiſt. Dan. Libr. III. p.</hi> 52.) ſondern wir muͤſſen ſie maͤßig und Chriſtlich be-<lb/>
+weinen/ ſo/ daß wir bey ihrem/ auch offtermahls ploͤtzlichen und unver-<lb/>
+hofften Abſterben/ unſern Willen in GOttes Willen ſtellen/ und mit Hi-<lb/>
+ob ſagen: Der HErr hats gegeben/ der HErr hats genommen/ der Nah-<lb/>
+me des HErrn ſey gelobet! (<hi rendition="#aq">Hiob. I,</hi> 21.) Welches auch unſer Heyland<lb/>
+meynte/ wenn er zur Wittwen zu Nain ſagte: Weine nicht! <hi rendition="#aq">(Luc. VII,<lb/>
+13.) Paulus</hi> bey ſeinen Theſſaloniern: Wir wollen euch/ lieben Bruͤder/<lb/>
+nicht verhalten von denen/ die da ſchlaffen/ auff daß ihr nicht traurig ſeyd/<lb/>
+wie die andern/ die keine Hoffnung haben/ (1. <hi rendition="#aq">Theſſ. IV,</hi> 13.) So wird<lb/>
+der HErr auch unſere bittere Klage in Gnaden hoͤren/ unſere Traurigkeit<lb/>
+des Hertzens anſehen/ unſere haͤuffige Thraͤnen zaͤhlen/ kraͤfftig abwiſchen/<lb/>
+und nach dem Ungewitter die Sonne wieder ſcheinen laſſen/ und nach dem<lb/>
+Heulen und Weinen mit Freuden uͤberſchuͤtten/ (<hi rendition="#aq">Tob. III,</hi> 22.) ein Vater<lb/>
+der Waͤiſen/ und ein Richter der Wittiwen ſeyn/ (<hi rendition="#aq">Pſ. LXVIII,</hi> 6.) Wie<lb/>
+David uns ſelber aus ſeiner eigenen Erfahrung verſichert. Die mit Thraͤ-<lb/>
+nen ſaͤen/ werden mit Freuden erndten/ ſie gehen hin und weinen/ und tra-<lb/>
+gen edlen Saamen/ und kommen mit Freuden/ und bringen ihre Garben/<lb/>
+(<hi rendition="#aq">Pſal. CXXVI,</hi> 5. 6.)</p><lb/>
+<p>Sonderlich hat Urſache zu weinen der Thaͤter/ der den Erſchlagenen in<lb/>
+meinem Volck getoͤdtet/ ſeinem GOtt mit wahrer Reu und Leid in ſeine<lb/>
+Zorn-Ruthe zu fallen/ und ihn hertzlich zu erſuchen/ ihm ſeine Blut-rothen<lb/>
+Suͤnden um CHriſti Blut und Todt/ und ſeines ſeligmachenden Glau-<lb/>
+bens willen gnaͤdig zu vergeben/ und taͤglich mit David zu ſeuffzen: E<supplied>n</supplied>t-<lb/>
+<fw place="bottom" type="sig">E 3</fw><fw place="bottom" type="catch">ſuͤn/</fw><lb/>
+<pb facs="#f0038" n="38"/>
+<fw type="header" place="top"><hi rendition="#b">Die bittere Klage</hi></fw><lb/>
+ſuͤndige mich mit Jſop/ daß ich rein werde/ waſche mich/ daß ich Schnee-weiß<lb/>
+werde/ laß mich hoͤren Freude und Wonne/ daß die Gebeine froͤlich wer-<lb/>
+den/ die du zerſchlagen haſt/ (<hi rendition="#aq">Pſal. LI,</hi> 9. 10.) auch ſich der weltlichen Obrig-<lb/>
+keit und dero rechtmaͤßigen Straffe deßwegen gebuͤhrend zu unterwerffen/<lb/>
+und um Minderung derſelben wehmuͤthig zu bitten/ ob vielleicht dem<lb/>
+HErrn ſein Hertz um CHriſti willen brechen/ und ſich ſeiner wiederum<lb/>
+erbarmen/ auch die weitliche Obrigkeit dahin <hi rendition="#aq">dirigi</hi>ren wolle/ daß ſie nicht<lb/>
+nach Recht/ ſondern aus Gnaden mit ihm verfahre.</p><lb/>
+<p><note place="left">4.<lb/>
+<hi rendition="#aq">Epanor-<lb/>
+thoticus.</hi></note>Allein/ wie viel ſind derer/ die an dieſe rechtmaͤßige Zubereitung zum<lb/>
+Tode gedencken/ und ſich zur beſtaͤndigen Liebe gegen ihre verſtorbene<lb/>
+Freunde und Anverwandten/ und hertzlichen Mitleiden uͤber den Tod der-<lb/>
+ſelben bewegen laſſen/ und mit David die bittere Klage uͤber ſie anſtellen:<lb/>
+Es iſt mir leid um dich/ mein Bruder Jonathan! Vielmehr ſehen wir das<lb/>
+Widerſpiel auch bey vielen unter uns/ alſo/ daß ſie an gar keine Zuberei-<lb/>
+tung zum Tode gedencken/ und ſich darzu ſchicken/ ſie erſchrecken nicht ein-<lb/>
+mahl fuͤr dem Tode und der Hoͤlle/ (<hi rendition="#aq">Hiob. XXI,</hi> 13.) geſchweige/ daß ſie<lb/>
+ſolten uͤber ihre begangene Suͤnde betruͤbt ſeyn/ CHriſtum mit wahrem<lb/>
+Glauben umfaſſen/ und ein ſehnliches Verlangen nach dem Tode tragen/<lb/>
+ſondern ſie fahren in ihrer Sicherheit und ruchloſen Weſen/ in Ungewiſ-<lb/>
+ſenheit und Unglauben/ in Verachtung GOttes und ſeines Wortes/ Ent-<lb/>
+heiligung ſeines Sabbathes/ Haß und unverſoͤhnlicher Feindſchafft/ be-<lb/>
+harrlichen Voͤllerey/ Spielen/ Nacht-Schwaͤrmen einmahl fort/ wie das<lb/>
+ander/ und haben Harffen/ Pſalter/ Paucken/ Pfeiffen und Wein (Bier)<lb/>
+in ihren Wolleben/ und ſehen nicht auff das Werck des HErrn/ und<lb/>
+ſchauen nicht auff das Geſchaͤffte ſeiner Haͤnde/ (<hi rendition="#aq">Jeſ. V,</hi> 12.) ſondern duͤrf-<lb/>
+fen wohl trotziglich zu GOtt und ſeinem Sohne ſagen: Hebe dich von<lb/>
+uns/ wir wollen von deinen Wegen nichts wiſſen; Wer iſt der <gap reason="lost" unit="chars" quantity="4"/>aͤch-<lb/>
+tige/ daß wir ihm dienen ſolten? oder was ſind wirs gebeſſert/ ſo wir ihn<lb/>
+anruffen? (<hi rendition="#aq">Hiob. XXI,</hi> 14. 15.) Oder mit den gottloſen Spoͤttern: Wir<lb/>
+haben mit dem Tod einen Bund/ und mit der Hoͤlle einen Verſtand ge-<lb/>
+macht/ wenn eine Fluth daher gehet/ wird ſie uns nicht treffen; denn wir<lb/>
+haben die Luͤgen unſere Zuflucht/ und Heucheley unſern Schirm gemacht/<lb/>
+(<hi rendition="#aq">Jeſ. XXVIII,</hi> 15.) Aber warlich ſolche ſichere Leute ſind aͤrger/ als die klu-<lb/>
+gen Heyden/ welche aus dem Lichte der Natur ſo weit gekommen/ daß ſie<lb/>
+ſich und die Jhrigen/ taͤglich an den Todt zu gedencken/ fleißig erinnert ha-<lb/>
+ben. <hi rendition="#aq">Cicero</hi> ſchreibet in <hi rendition="#aq">Catone majore: Moriendum enim certum<lb/>
+eſt, ſed incertum qvo die, mortem igitur omnibus horis impen-</hi><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">den-</hi></fw><lb/>
+<pb facs="#f0039" n="39"/>
+<fw type="header" place="top"><hi rendition="#b">uͤber den Erſchlagenen in meinem Volck.</hi></fw><lb/>
+<hi rendition="#aq">dentem timeas;</hi> Gewiß iſts/ daß wir ſterben muͤſſen/ ungewiß aber/ an<lb/>
+welchem Tage/ ſo fuͤrchte dich demnach alle Stunden vor dem hereinbre-<lb/>
+chenden Tode. Der kluge <hi rendition="#aq">Seneca</hi> lachet ſolche rohe Welt-Kinder aus/<lb/>
+und ſchreibet in <hi rendition="#aq">Agamemnone:</hi></p><lb/>
+<lg type="poem"><l><hi rendition="#aq">Fleres, ſi ſcires, unum tua tempora menſem;</hi></l><lb/>
+<l><hi rendition="#aq">Rides, cum non ſit forſitan una dies.</hi></l></lg><lb/>
+<p>Du wuͤrdeſt weinen/ wenn du wuͤſteſt/ daß deine Lebens-Zeit ſich nur auf<lb/>
+einen Monath erſtrecken ſolte; aber da lacheſt du/ da ſie vielleicht nicht ei-<lb/>
+nen Tag waͤhret. Und was Wunder/ daß ſolche ſichere rohe Welt-Kin-<lb/>
+der ploͤtzlich von dem Tode uͤbereilet/ in ihren Suͤnden dahin ſterben/ mit<lb/>
+Leib und Seele zeitlich und ewig verderben/ und mit dem reichen Manne<lb/>
+in alle Ewigkeit in der Hoͤllen muͤſſen geqvaͤlet und gemartert werden/<lb/>
+Chriſti untruͤglicher Mund hat ſolchen Leuten das Weh/ und ein immer-<lb/>
+waͤhrendes Hungern und Heulen zuerkannt: Wehe euch/ die ihr voll ſeyd/<lb/>
+denn euch wird hungern. Wehe euch/ die ihr hier lachet/ denn ihr werdet<lb/>
+weinen und heulen/ (<hi rendition="#aq">Luc.</hi> 6, 25.) David draͤuet ihnen ein kurtzes und<lb/>
+ploͤtzliches Ende: Die Blutgierigen/ Falſchen/ (Gott- und Ruchloſen) wer-<lb/>
+den ihr Leben nicht zur Helffte bringen/ (<hi rendition="#aq">Pſal. LV,</hi> 24.) Du ſetzeſt ſie aufs<lb/>
+Schlipffrige/ und ſtuͤrtzeſt ſie zu Boden; wie werden ſie ſo ploͤtzlich zu nich-<lb/>
+te? ſie gehen unter/ und nehmen ein Ende mit Schrecken/ (<hi rendition="#aq">Pſal. LXXII,</hi><lb/>
+18.) Und Paulus ſchlieſt ſie gar von dem Himmel aus/ und verweiſt ſie in<lb/>
+die Hoͤlle. Offenbahr ſind die Wercke des Fleiſches/ als da iſt/ Feind-<lb/>
+ſchafft/ Hader/ Neid/ Zorn/ Zanck/ Zwietracht/ Haß/ Mord/ Sauffen/<lb/>
+Freſſen und dergleichen/ von welchen ich euch habe zuvor geſagt/ und ſage<lb/>
+noch zuvor/ daß/ die ſolches thun/ werden das Reich GOttes nicht erer-<lb/>
+ben/ (<hi rendition="#aq">Gal. V, 19. 20. 21. Phil. III, 18. 19.) Bernhardus</hi> ſchreibet: <hi rendition="#aq">De Ni-<lb/>
+mia vitæ præſentis fallacia; gaudent homines in cibis, gaudent in<lb/>
+pompis, gaudent in divitiis, gaudent &amp; in vitiis homines, ſed luctus<lb/>
+extrema occubat ejusmodi gaudiorum,</hi> die Menſchen erfreuen ſich<lb/>
+uͤber Wolleben/ eſſen/ trincken/ koͤſtliche Kleider-Pracht/ Geld und groſſes<lb/>
+Vermoͤgen/ oder wohl gar uͤber allerhand wiſſentlichen und vorſetzlichen<lb/>
+Suͤnden; Alleine/ wenn die Suͤnde vollendet iſt/ gebuͤhret ſie den Tod/<lb/>
+(<hi rendition="#aq">Jac. I,</hi> 15.)</p><lb/>
+<p>Und wie ſolche ſichere rohe Welt-Kinder an keine Zubereitung zu ihrem<lb/>
+Tode gedencken/ alſo vergeſſen ſie auch gar leicht die Freundſchafft ihrer<lb/>
+Freunde/ beweinen und beklagen ſie bey ihrem Todte entweder gar nicht/<lb/>
+oder doch nur von auſſen/ und auff eine heuchleriſche Arth/ ſo/ daß das Hertz<lb/>
+<fw type="catch" place="bottom">nichts</fw><lb/>
+<pb facs="#f0040" n="40"/>
+<fw place="top" type="header"><hi rendition="#b">Die bittere Klage</hi></fw><lb/>
+nichts davon weiß/ freuen ſich auch wohl gar daruͤber/ wenns ihren Freun-<lb/>
+den und Anverwandten uͤbel gehet/ und ſprechen: Da/ da/ das ſehen wir<lb/>
+gerne/ (<hi rendition="#aq">Pſal. XXXV,</hi> 21.) graben eine Grube/ und ſuchen ſie hinein zu ſtuͤr-<lb/>
+zen/ (<hi rendition="#aq">Pſal. VII,</hi> 15.) treten ſie mit Fuͤſſen/ ſuchen ſie mit einem Kuß zu ver-<lb/>
+rathen/ und um Leib und Leben zu bringen/ (<hi rendition="#aq">Pſal. XLI,</hi> 10.) Wie es die<lb/>
+Z<supplied>u</supplied>hoͤrer Jeremiaͤ mit dieſen treuen Propheten/ Joab und Abnern/ Judas<lb/>
+mit Chriſto/ und die Juͤden mit ſeinen Apoſteln zu machen pflegten/ oder<lb/>
+Hertzog Heinrich zu Braunſchweig/ welcher ſich bey Verluſt ſeiner beyden<lb/>
+Soͤhne <hi rendition="#aq">Caroli</hi> und <hi rendition="#aq">Philippi,</hi> als welche <hi rendition="#aq">An.</hi> 1553. in der Schlacht umkom-<lb/>
+men waren/ in nachfolgende Worte heraus ließ: Ey! wie recht/ ſo muß<lb/>
+man den Jungen das Gelbe vom Schnabel wiſchen. (<hi rendition="#aq">Vid. Rupert. in<lb/>
+Val. Max. p.</hi> 570.) Von etlichen ſeiner undanckbaren <hi rendition="#aq">Studenten</hi> und Zu-<lb/>
+hoͤrern klagete zu ſeiner Zeit ein frommer <hi rendition="#aq">Profeſſor</hi> auff einer bekannten<lb/>
+<hi rendition="#aq">Univerſi</hi>taͤt: <hi rendition="#aq">Qvos ego amavi, qvos educavi, qvos honoravi, qvos<lb/>
+exaltavi, illi me jam conculcant;</hi> welche ich vormahls geliebet/ auffer-<lb/>
+zogen/ zu Ehren und ans Bret gebracht habe/ die treten mich ietzund unter<lb/>
+die Fuͤſſe. (<hi rendition="#aq">vid. Axiom Richt. Eccleſ. Axiom. 126. p.</hi> 194.)</p><lb/>
+<p>Aber o Schande! daß von Chriſten dergleichen Unbarmhertzigkeit ſoll<lb/>
+geſaget werden/ davon auch die erbaren Heyden nichts gewuſt. Siebet<lb/>
+<hi rendition="#aq">Alexander M.</hi> ſeines Feindes/ des Koͤniges <hi rendition="#aq">Darii,</hi> todten Leichnam vor<lb/>
+ſich liegen/ <hi rendition="#aq">Julius Cæſar</hi> das abgeſchlagene Haupt <hi rendition="#aq">Pompeji, Marcus<lb/>
+Marcellus</hi> die Stadt <hi rendition="#aq">Syracuſa</hi> brennen/ und in der Flamme auffgehen/<lb/>
+koͤnnen ſich keiner von denenſelben des Weinens enthalten/ ob ſie gleich<lb/>
+ſonſten einander Spinne-feind geweſen. Alleine ſo mitleidig ſind obge-<lb/>
+dachte Chriſten nicht einmahl gegen ihre Freunde/ geſchweige/ gegen ihre<lb/>
+Feinde/ weshalben ſie auch an jenem Tage vor dem Richter-Stuhl Chri-<lb/>
+ſti von vielen derer Heyden werden beſchaͤmet/ und mit ihnen zugleich ver-<lb/>
+dammet werden/ doch alſo/ daß es denen mitleidigen Heyden ertraͤglicher<lb/>
+ergehen wird/ als ſolchen unchriſtlichen Chriſten und unbarmhertzigen<lb/>
+ἐπιχαιρεκακοῖς, oder Schaden-frohen. Denn es wird ein unbarmher-<lb/>
+ziges Gericht ergehen uͤber den/ der nicht Barmhertzigkeit gethan hat/<lb/>
+(<hi rendition="#aq">Jac. II, 13. Prov. XXIV,</hi> 16. 17. 18.) und werden ſich ſchaͤmen und zu<lb/>
+Schanden werden/ die ſich uͤber ihres Naͤchſten Ubel freuen/ mit Schand<lb/>
+und Scham gekleidet werden/ die ſich wider ihn ruͤhmen/ (<hi rendition="#aq">Pſal. XXXV,</hi> 26.)<lb/>
+Ja der HErr wird ſich an ſolchen unbarmhertzigen Leuten raͤchen/ ihre Len-<lb/>
+den zerſchmettern/ und ſie gaͤntzlich vertilgen/ (<hi rendition="#aq">Syr. XXXV,</hi> 22. 23.)</p><lb/>
+<fw place="bottom" type="catch">O ſo</fw><lb/>
+<pb facs="#f0041" n="41"/>
+<fw type="header" place="top"><hi rendition="#b">uͤber den Erſchlagenen in meinem Volck.</hi></fw><lb/>
+<p>O ſo laſſet uns demnach vor dieſen Suͤnden fliehen/ wie vor einer Schlan-<lb/>
+ge/ und hingegen taͤglich bereit ſeyn zu unſerm Ende/ auch ein hertzliches Mit-<lb/>
+leiden uͤber das Ungluͤck und Abſterben unſerer Freunde und Anverwand-<lb/>
+ten beſtaͤndig haben/ ſo wird es uns alsdenn in dem unverhofften ploͤtzli-<lb/>
+chen Todte/ und andern Creutz und Leiden an genugſamen und kraͤffti-<lb/>
+gen Troſt nicht ermangeln.</p><lb/>
+<p>Denn geſetzt/ daß wir uns uͤber die ungewiſſe Todtes-Stunde von Her-<note place="right">5.<lb/>
+<hi rendition="#aq">Conſolato-<lb/>
+rius.</hi></note><lb/>
+zen betruͤben/ und mit der Kirche ſeuffzen muͤſſen:</p><lb/>
+<lg type="poem"><l><hi rendition="#fr">Wer weiß/ wie nahe mir mein Ende/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Hingeht die Zeit/ herkommt der Todt/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Ach! wie geſchwinde und behende</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Kan kommen meine Todtes-Noth.</hi></hi></l></lg><lb/>
+<p>Und denen andern frommen Chriſten/ die etwan ihre Todtes-Stunde durch<lb/>
+ein und ander Anzeigung vorhero erfahren/ und einiger maßen gewuſt/ ſo zu<lb/>
+reden/ mißgoͤnnen. Wie man denn dergleichen viel Exempel in denen Hi-<lb/>
+ſtorien hin und wieder findet: Von Koͤnig <hi rendition="#aq">Chriſtiano III.</hi> in Daͤnnemarck<lb/>
+iſt bekannt/ daß ihm 8. Tage vor ſeinem Ende ſein Todt durch einen Traum<lb/>
+verkuͤndiget/ und zugeruffen worden: Wenn er was zu befehlen/ wie es nach<lb/>
+ſeinem Todte in ſeinem Koͤnigreich ſolte gehalten werden/ ſo moͤchte er es bey<lb/>
+Zeiten thun/ deñ uͤber 8. Tage werde er ſein Leben beſchlieſſen/ und in ein ſolch<lb/>
+Reich verſetzet werden/ welches weit ſchoͤner und ſeliger/ als das Daͤniſche<lb/>
+waͤre. (<hi rendition="#aq">vid. D. Dietrichs</hi> Traum-<hi rendition="#aq">Diſcurs p.</hi> 11.) Herr Johann <hi rendition="#aq">Sauber-<lb/>
+tus,</hi> Prediger zu Nuͤrnberg/ iſt kurtz vor ſeinem Ende durch einen Engel<lb/>
+GOttes im Schlaff ermahnet worden/ er ſolte ſein Hauß beſchicken/ denn er<lb/>
+werde bald ſterben; faſt wie dem Koͤnig Hiskiaͤ/ der eben die Todten-Poſt<lb/>
+vor ſeinem Ende von ſeinem GOtt erfuhr/ wie (<hi rendition="#aq">Jeſ. XXXVIII,</hi> 1.) zu ſehen/<lb/>
+auch beydes geſchehen. (<hi rendition="#aq">vid. Weberi</hi> Leichen-Predigt. <hi rendition="#aq">It.</hi> Bergmanns boͤ-<lb/>
+ſes Stuͤndlein/ <hi rendition="#aq">p.</hi> 48.) So wiſſen wir doch/ daß dieſelbe dem Dreyeinigen<lb/>
+GOtt wohl bekannt/ und von ihr heiſſe: Der Menſch hat ſeine beſtimmte<lb/>
+Zeit/ die Zahl ſeiner Monden ſtehet <hi rendition="#aq">NB.</hi> bey dir/ du haſt ihm ein Ziel ge-<lb/>
+ſetzt/ das wird er nicht uͤbergehen/ (<hi rendition="#aq">Hiob XIV,</hi> 5.)</p><lb/>
+<lg type="poem"><l><hi rendition="#c"><hi rendition="#aq">In manibus Domini ſorsqve ſalusqve mea,</hi></hi></l><lb/>
+<l><hi rendition="#fr">HErr JEſu Chriſt ich weiß gar wohl/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Daß ich einmahl muß ſterben/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Wenn aber das geſchehen ſoll/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Und wie ich werd verderben</hi></hi></l><lb/>
+<l><hi rendition="#fr">Dem Leibe nach/ das weiß ich nicht/</hi></l><lb/>
+<fw type="sig" place="bottom">F</fw><fw type="catch" place="bottom"><hi rendition="#fr">Es</hi></fw><lb/>
+<pb facs="#f0042" n="42"/>
+<fw place="top" type="header"><hi rendition="#b">Die bittere Klage</hi></fw><lb/>
+<l><hi rendition="#fr">Es ſteht alles in dein’m Gericht/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Du ſiehſt mein letztes Ende.</hi></hi></l></lg><lb/>
+<p>Hat es auch nach ſeinem heiligen weiſen Rath alſo beſchloſſen/ daß uns der<lb/>
+Todt gewiß/ die Todtes-Stunde aber ungewiß ſeyn ſoll/ damit wir nicht<lb/>
+ſicher in Tag hinein leben/ ſondern taͤglich darzu bereit ſeyn ſollen. Von<lb/>
+Hannibal/ dem tapffern Helden/ lieſet man/ daß er ſich niemahls anders/ als<lb/>
+in ſeinem Harniſch/ zur Ruhe begeben/ und ſeine Oberſten um ſich wachen<lb/>
+laſſen/ damit er allezeit ſeinem unverhofften und wachſamen Feinde/ dem<lb/>
+<hi rendition="#aq">Scipioni Africano, paſtant</hi> ſeyn und widerſtehen moͤge. (<hi rendition="#aq">vid. Botſac. Mo-<lb/>
+ral. p.</hi> 654.) Eben das will der groſſe GOtt auch von uns Menſchen mit<lb/>
+der ungewiſſen Todtes-Stunde haben/ wir ſollen uns taͤglich mit dem Helm<lb/>
+des Heils und dem Schwerdt des Geiſtes/ das iſt/ dem Worte GOttes/<lb/>
+Glauben an JEſum/ und einem andaͤchtigen Gebete zu GOtt um ein ſeli-<lb/>
+ges Ende bereiten/ und ſeuffzen: Lieber HErr GOtt weck uns auf/ daß wir<lb/>
+bereit ſeyn/ wenn dein lieber Sohn koͤmmt/ ihn mit Freuden zu empfahen/<lb/>
+und dir mit reinem Hertzen zu dienen/ auff daß/ wenn das boͤſe Stuͤndlein<lb/>
+koͤm̃t/ wir alles wohl ausrichten/ und das Feld behalten moͤgen/ <hi rendition="#aq">(Eph. VI, 13.)<lb/>
+Auguſtinus</hi> ſchreibet deswegen: <hi rendition="#aq">Qvoniam mors ubiqvete expectat; &amp;<lb/>
+tu ſi ſapiens fueris, eam expectabis;</hi> weil der Todt unſer allenthalben<lb/>
+wartet/ ſo ſollen auch wir ſeiner allenthalben warten und bereit ſeyn. (<hi rendition="#aq">vid.<lb/>
+Aug. Libr. de Spir. &amp; Anim. c. 51. &amp; Botſac. Moral. p.</hi> 652.) Oder wie es<lb/>
+anderweit heiſt:</p><lb/>
+<lg type="poem"><l><hi rendition="#c"><hi rendition="#aq"><hi rendition="#i">Latet unus dies, ut obſerventur omnes.</hi></hi></hi></l><lb/>
+<l><hi rendition="#fr">Ein Tag</hi> (<hi rendition="#aq">ſcil.</hi> <hi rendition="#fr">Todes-Tag</hi>)<hi rendition="#fr"> iſt uns verborgen/</hi></l><lb/>
+<l><hi rendition="#fr">Damit wir ja fuͤr alle ſorgen.</hi></l></lg><lb/>
+<p>Wollen wir uns auch etwan allzuſehr uͤber den Verluſt und Abſterben der<lb/>
+lieben Unſerigen betruͤben/ und mit David ſeuffzen: <hi rendition="#fr">Es iſt mir leid um<lb/>
+dich mein Bruder Jonathan;</hi> oder mit Jacob und Rahel gar nicht troͤ-<lb/>
+ſten laſſen/ ſondern in dieſe betruͤbte Worte heraus brechen: Wir werden<lb/>
+mit Hertzeleid hinunter fahren in die Grube zu unſerm ſelig-Verſtorbenen/<lb/>
+[<hi rendition="#aq">Gen. XXXIX,</hi> 35.] und denenſelben gleichſam dieſes <hi rendition="#aq">Epitaphium,</hi> wel-<lb/>
+ches der gelehrte <hi rendition="#aq">Chytræus</hi> in <hi rendition="#aq">Cimbri</hi>ſchen <hi rendition="#aq">Monumentis</hi> gefunden/ auff-<lb/>
+richten/ und alſo lautet:</p><lb/>
+<lg type="poem"><l><hi rendition="#et"><hi rendition="#aq">Mœrentum hic Locus eſt, procul hinc abſcedite læti.</hi></hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#aq">Mœrentum hæ Lux eſt, huc vos accedite triſtes.</hi></hi></l><lb/>
+<l><hi rendition="#fr">Hier klaget jederman/ weg/ was in Luſt ſich uͤbet/</hi></l><lb/>
+<l><hi rendition="#fr">Hier iſt ein Klage-Tag/ kommt her/ wer ſich betruͤbet.</hi></l></lg><lb/>
+<fw place="bottom" type="catch">(<hi rendition="#aq">Vid.</hi></fw><lb/>
+<pb facs="#f0043" n="43"/>
+<fw place="top" type="header"><hi rendition="#b">uͤber den Erſchlagenen in meinem Volck.</hi></fw><lb/>
+<p>(<hi rendition="#aq">Vid. Chytr. Delic. Var. Itin. &amp; Adam. Corn. Cop. P. II. p.</hi> 365.) So kan<lb/>
+uns zum Troſte dienen/ daß unſere ſelig-Verſtorbene nicht geſtorben/ ſon-<lb/>
+dern ihr Elend iſt nur geſtorben/ mit welchem ſie auff der Welt haͤuffig um-<lb/>
+geben geweſen/ und mit dem <hi rendition="#aq">Poë</hi>ten klagen muͤſſen:</p><lb/>
+<lg type="poem"><l><hi rendition="#et"><hi rendition="#aq">Optima pars vitæ in luctu &amp; ſqvalore ſeneſcit,</hi></hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#aq">Et fluctus fluctum, malo ſic mala concomitantur.</hi></hi></l><lb/>
+<l><hi rendition="#fr">Das Erſt und Letzte iſt/ was man hier pflegt zu finden/</hi></l><lb/>
+<l><hi rendition="#fr">Creutz/ Thraͤnen/ Angſt und Noth ſich ſtets mit uns verbinden.</hi></l></lg><lb/>
+<p>(<hi rendition="#aq">Vid. Mart. Zeiller.</hi> Send-Schreiben/ <hi rendition="#aq">P. I. Cent. I. Epiſt. 83. p. 241. &amp;<lb/>
+Schneid. Tit. contin. p.</hi> 1054.) Welches <hi rendition="#aq">Cæcilia,</hi> eine Maͤrterin/ wohl<lb/>
+verſtunde/ und deswegen in ihrer Todtes-Stunde ausrieff:</p><lb/>
+<lg type="poem"><l><hi rendition="#c"><hi rendition="#aq">Miſeria moritur;</hi></hi></l><lb/>
+<l><hi rendition="#fr">Der Todt hemmt nur dem Creutz den Lauff/</hi></l><lb/>
+<l><hi rendition="#fr">Die Seele ſchwingt ſich Himmel-auff.</hi></l></lg><lb/>
+<p>Oder <hi rendition="#aq">Cyprianus,</hi> da ihm ſein Todtes-Urtheil vorgeleſen wurde/ zur Ant-<lb/>
+wort gab: <hi rendition="#aq">Gratias tibi ago, Deus, qvi me â vinculis corporis dignatus<lb/>
+abſolvere;</hi> Jch dancke dir/ GOtt/ daß du mich aus den Banden dieſes<lb/>
+Leibes erloͤſen wollen. (<hi rendition="#aq">vid. Botſac. Moral. p.</hi> 649.) Denn daß die Ver-<lb/>
+ſtorbenen nicht geſtorben ſeyn der Seelen nach/ wiſſen wir daher/ weil ſie von<lb/>
+den Engeln in Abrahams Schooß getragen werden/ allwo ſie keine Qvaal in<lb/>
+Ewigkeit mehr anruͤhren wird/ (<hi rendition="#aq">Luc. XVI, 12. Sap. III,</hi> 1.) Womit ſich auch<lb/>
+ehemahls der fromme Maͤrtyrer <hi rendition="#aq">Babylas</hi> troͤſtete/ und mitten unter den groͤ-<lb/>
+ſten Schmertzen ausrieff: <hi rendition="#aq">Ambulabo coram Jehova in terra viventium,</hi><lb/>
+ich will wandeln vor dem HErrn im Lande der Lebendigen/ (<hi rendition="#aq">Pſ. CXVI,</hi> 8. 9.)<lb/>
+Dem Leibe nach ſind ſie gleichfalls nicht geſtorben/ ſondern ſie ſchlaffen/ und<lb/>
+verſchlaffen allen Jammer/ womit die Welt erfuͤllet iſt/ wie unſer Heyland<lb/>
+ſelber den ſel. Todt ſeines Freundes Lazari nennete: Lazarus/ unſer Freund/<lb/>
+ſchlaͤffet/ (<hi rendition="#aq">Joh. XI,</hi> 11.) Oder <hi rendition="#aq">Bernhardus</hi> von dem Todt ſeines Freundes <hi rendition="#aq">Ma-<lb/>
+lachiæ</hi> ſchreibet: <hi rendition="#aq">Malachias,</hi> unſer Freund/ ſchlaͤffet; (<hi rendition="#aq">vid. Mayeri</hi> ſchwer-<lb/>
+angefochtene und von Hertzen betruͤbte Kind GOttes/ <hi rendition="#aq">p.</hi> 1090.) Dahero wir<lb/>
+nicht Urſache haben/ uns allzuſehr uͤber ihnen zu betruͤben/ als vielmehr von<lb/>
+Hertzen zu erfreuen. Wer weinet wohl/ wenn ſeine Kinder ſchlaffen? Wer<lb/>
+iſt betruͤbt/ wenn der <hi rendition="#aq">Patient</hi>e nach lang ausgeſtandenen und ſchmertzlichen<lb/>
+Kranckheiten ein wenig zur Ruhe kommt? Vielmehr iſt man erfreut/ und huͤ-<lb/>
+tet ſich/ daß man ſie nicht in der Ruhe ſtoͤhre. Warum ſolten wir denn allzu<lb/>
+uͤbermaͤßig trauren/ da wir wiſſen/ daß die ſelig-Verſtorbenen von dem groſ-<lb/>
+ſen GOtt ſelbſt zu Bette gefuͤhret/ in ihren Kammern ſanfft und ſuͤſſe ſchlaf-<lb/>
+<fw place="bottom" type="sig">F 2</fw><fw place="bottom" type="catch">fen/</fw><lb/>
+<pb facs="#f0044" n="44"/>
+<fw place="top" type="header"><hi rendition="#b">Die bittere Klage uͤber den Erſchlagenen in meinem Volck.</hi></fw><lb/>
+fen/ und aller Thraͤnen entnommen ſind; auch gewiß verſichert ſeyn/ daß ſie<lb/>
+uns am juͤngſten Tage werden mit groſſen Freuden wiedergegeben/ und heiſ-<lb/>
+ſen werde: Da nimm hin deinen Ehegatten/ deine Kinder/ deine Eltern/ dei-<lb/>
+ne Freunde und Anverwandten/ (2. <hi rendition="#aq">Reg. IV,</hi> 36.) Mit dieſem Troſte richtete<lb/>
+ſich das betruͤbte Jſrael auf/ indem es bey dem Verluſt ſeiner Kinder ausruff-<lb/>
+te: Jch habe euch ziehen laſſen mit Trauren und mit Weinen/ GOtt aber<lb/>
+wird euch mir wiedergeben mit Freud und Wonne ewiglich; (<hi rendition="#aq">Bar. IV,</hi> 23.)<lb/>
+Der fromme Koͤnig/ <hi rendition="#aq">Chriſtianus III.</hi> in Daͤnnemarck/ ſeine Gemahlin/ die<lb/>
+<hi rendition="#fr">Dorotheam/</hi> zu welcher er auff ſeinem Todt-Bette ſprach: Jhr ſolt nicht zu<lb/>
+ſehr klagen und trauren/ denn ihr verlieret mich nicht/ ſondern ſendet mich nur<lb/>
+voran/ und ihr werdet nach GOttes Willen wieder zu mir kommen im ewigen<lb/>
+Leben/ woſelbſt ihr mit mir der ewigen Freud und Seligkeit werdet theilhaff-<lb/>
+tig werden. (<hi rendition="#aq">vid. Mayer. L. c. p. m.</hi> 1092.) Und ſo wird es auch uns gehen;<lb/>
+wir werden nach dieſem Leben zu ihnen in jenes Freuden-Leben gelangen/ und<lb/>
+mit einander vor dem Stuhl des Lammes dem Dreyeinigen GOtt dienen<lb/>
+Tag und Nacht/ nichts von Leyd/ Geſchrey und Schmertzen mehr wiſſen/<lb/>
+ſondern GOtt wird abwiſchen alle Thraͤnen von unſern Augen/ und das<lb/>
+Lam̃ mitten im Stuhl wird uns weyden und leiten zu den lebendigen Waſſer-<lb/>
+Brunnen/ (<hi rendition="#aq">Apoc. VII,</hi> 17.) und werden in Ewigkeit bey dem HErrn und<lb/>
+unſern ſelig-Verſtorbenen ſeyn und bleiben allewege.</p><lb/>
+<lb/>
+<cb type="start"/>
+<lg type="poem"><note place="left"><hi rendition="#aq">Concluſio.</hi></note><l>Da wird uns der Todt nicht ſcheiden/</l><lb/>
+<l>Der uns hier geſchieden hat/</l><lb/>
+<l>GOtt ſelbſt wird uns alsdenn weyden/</l><lb/>
+<l>Und erfreu’n in ſeiner Stadt;</l><lb/>
+<l>Ewig/ ewig werden wir/</l><lb/>
+<l>Jn dem Paradieß allhier/</l><lb/>
+<l>Mit einander jubiliren/</l><lb/>
+<l>Und ein Engliſch Leben fuͤhren.</l><lb/>
+<l><hi rendition="#fr">Ey demnach HErr JEſu!</hi></l><lb/>
+<l>Kans ſeyn/ ſo gieb durch deine Haud</l><lb/>
+<l>Mir ein vernuͤnfftig Ende/</l><lb/>
+<l>Daß ich mein Seel fein mit Verſtand</l><lb/>
+<l>Befehl in deine Haͤnde/</l><lb/>
+<l>Und ſo im Glauben ſanfft und froh/</l><lb/>
+<l>Auff meinem Bettlein oder Stroh/</l><lb/>
+<l>Aus dieſem Elend fahre.</l><lb/>
+<l>So du mich aber in dem Feld/</l><lb/>
+<l>Durch Raub (Geſchoß) auff frembder</l><lb/>
+<l><hi rendition="#c">Graͤntze/</hi></l><lb/>
+<cb/>
+<l>Jn Waſſers-Noth/ Hitz oder Kaͤlt/</l><lb/>
+<l>Oder durch Peſtilentze/</l><lb/>
+<l>Nach deinem Rath wollſt nehmen hin/</l><lb/>
+<l>So richt nicht/ HErr/ nach meinem Sinn/</l><lb/>
+<l>Den ich im Leben fuͤhre.</l><lb/>
+<l>Jedoch ich dich nicht lehren will/</l><lb/>
+<l>Noch dir mein End beſchreiben/</l><lb/>
+<l>Sondern dir allweg halten ſtill/</l><lb/>
+<l>Bey deinem Wort zu bleiben/</l><lb/>
+<l>Und glaͤuben/ daß du/ als ein Fuͤrſt</l><lb/>
+<l>Des Lebens/ mich erhalten wirſt/</l><lb/>
+<l>Jch ſterb gleich/ wo ich wolle.</l><lb/>
+<l>Derhalben ich in meinem Sinn</l><lb/>
+<l>Mich dir thu gantz ergeben/</l><lb/>
+<l>Denn ſieh/ der Todt iſt mein Gewinn/</l><lb/>
+<l>Du aber biſt mein Leben/</l><lb/>
+<l>Und wirſt mein Leib ohn alle Klag/</l><lb/>
+<l>Das weiß ich gewiß/ am juͤngſten Tag</l><lb/>
+<l>Zum Leben aufferwecken/ Amen.</l></lg><lb/>
+<cb type="end"/>
+<lb/>
+</div><fw place="bottom" type="catch"><hi rendition="#b">Le-</hi></fw><lb/>
+<pb facs="#f0045" n="45"/>
+<div type="fsPersonalia" n="2"><head><hi rendition="#b">Lebens-Lauff.</hi></head><lb/>
+<p><hi rendition="#in">W</hi>As die Chriſtliche Kirche von dem Lebens-Lauff aller Menſchen<lb/>
+ſinget:</p><lb/>
+<lg type="poem"><l><hi rendition="#fr">Heut ſind wir friſch/ geſund und ſtarck/</hi></l><lb/>
+<l><hi rendition="#fr">Morgen todt und liegen im Sarg/</hi></l><lb/>
+<l><hi rendition="#fr">Heut bluͤhn wir/ wie eine Roſe roth/</hi></l><lb/>
+<l><hi rendition="#fr"><hi rendition="#c">Bald kranck und todt/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Jſt allenthalben Muͤh und Noth.</hi></l></lg><lb/>
+<p>Dieſes bezeuget auch unſers im HErrn ſelig-verſtorbenen Mitbruders<lb/>
+Exempel/ als von deſſen ehrlicher Ankunfft/ Chriſtlich-gefuͤhrten Lebens-<lb/>
+Wandel/ und ploͤtzlichen/ doch ſeligen Abſchied aus dieſer Welt/ man<lb/>
+nachfolgendes zu vermelden hat:</p><lb/>
+<p>Es iſt dieſer Ehrſame und Nahmhaffte <hi rendition="#fr">Hanß Saupe/</hi> Einwohner und<lb/>
+Muͤller zu Loſchwitz/ den 3. <hi rendition="#aq">Martii</hi> 1661. allhier in Loſchwitz von ehrlichen<lb/>
+und Chriſtlichen Eltern an das Licht dieſer Welt g<supplied>e</supplied>bohren worden.</p><lb/>
+<p>Sein ſel. Vater iſt geweſen der weyland Ehrſame <hi rendition="#fr">Hanß Saupe/</hi><lb/>
+Einwohner und Muͤller zu Loſchwitz.</p><lb/>
+<p>Die Mutter aber <hi rendition="#fr">Maria/</hi> eine gebohrne <hi rendition="#fr">Proſchgin/ Martin Proſch-<lb/>
+gens/</hi> geweſenen Einwohners in Bielauer Grunde/ nachgelaſſene eheleib-<lb/>
+liche Tochter.</p><lb/>
+<p>Weil er nun/ gleich andern Kindern/ in der Erb-Suͤnde empfangen und<lb/>
+gebohren/ als haben ihn ſeine Eltern den folgenden 5. <hi rendition="#aq">Martii</hi> zum Bad<lb/>
+der Heil. Tauffe/ in die Kirche zum Heil. Creutze zu Dreßden befoͤrdert/<lb/>
+mit dem Blute Chriſti von ſeinen Suͤnden abwaſchen/ zum Andencken des<lb/>
+mit GOtt geſtiffteten Gnaden-Bundes mit dem ſchoͤnen Nahmen <hi rendition="#fr">Johan-<lb/>
+nes</hi> belegen/ und in das Buch des Lebens einſchreiben laſſen.</p><lb/>
+<p>Jſt der getaufften Kinder groͤſte Gluͤckſeligkeit die Wiedergeburth<lb/>
+und Rechtfertigung fuͤr GOtt/ dafuͤr ſie und ihre Eltern dem HErrn ſchul-<lb/>
+digen Danck abzuſtatten haben: ſo haben es ſeine Eltern treulich beobach-<lb/>
+tet/ und dem Hoͤchſten vor beydes kindlich gedancket/ auch mit allem Fleiß<lb/>
+dahin geſehen/ damit das von GOtt anvertraute Pfand moͤge wohl erzo-<lb/>
+gen/ und mit allen nothduͤrfftigen Lebens-Mitteln verſorget werden. Und<lb/>
+da GOtt dieſe treue Vorſorge reichlich geſegnet/ und ihn an Jahren und<lb/>
+Kraͤfften des Leibes zunehmen laſſen/ ſo haben ſie ihn/ ſo bald er ein wenig<lb/>
+reden koͤnnen/ zum Gebeth/ Singen und Gottesfurcht angehalten/ und in<lb/>
+den noͤthigen Stuͤcken des Chriſtenthums fleißig unterrichtet.</p><lb/>
+<fw place="bottom" type="sig">F 3</fw><fw place="bottom" type="catch">Ja</fw><lb/>
+<pb facs="#f0046" n="46"/>
+<fw place="top" type="header"><hi rendition="#b">Lebens-Lauff.</hi></fw><lb/>
+<p>Ja damit nichts in dieſer guten <hi rendition="#aq">Education</hi> ermangeln moͤge/ haben ſie<lb/>
+ihn auch eine geraume Zeit zur Schulen gehalten/ und ſo viel darinnen ler-<lb/>
+nen laſſen/ was einem frommen Chriſten in ſeinem Chriſtenthum zu wiſſen<lb/>
+vonnoͤthen.</p><lb/>
+<p>Weil auch der groſſe GOtt von denen Menſchen/ nebſt dem Gebeth/<lb/>
+gewiſſe Arbeit erfodert/ die er nach Beſchaffenheit ſeines Standes in der<lb/>
+Welt zu verrichten hat/ ſo haben ſie es ihm auch hierinnen nicht ermangeln<lb/>
+laſſen/ ſondern zu aller haͤußlichen und Berg-Arbeit angehalten. Und da<lb/>
+er eine ſonderbahre Liebe zur Muͤller-Zimmermanns-Preß- und andere<lb/>
+dergleichen Arbeit bezeiget/ haben ſie ihm hierzu alle moͤgliche Huͤlffe gelei-<lb/>
+ſtet/ und ſie ihn rechtſchaffen erlernen laſſen/ womit er ſich auch die Zeit ſei-<lb/>
+nes Lebens ehrlich ernaͤhret.</p><lb/>
+<p>Hatte er nun eine gewiſſe <hi rendition="#aq">Profeſſion</hi> erlernet/ womit er ſich und die Sei-<lb/>
+nigen mit Goͤttlicher Huͤlffe zu erhalten trauete/ ſo begab er ſich/ nach vorher<lb/>
+verrichteten andaͤchtigen Gebeth und <hi rendition="#aq">Conſens</hi> ſeiner lieben Eltern/ in dem<lb/>
+22. Jahr ſeines Alters zum erſten mahl in den heil. Eheſtand/ mit der da-<lb/>
+mahls Ehr- und Tugendſamen Jungfer <hi rendition="#fr">Marthen/ Marthin Haubolds/</hi><lb/>
+geweſenen Einwohners zu Loſchwitz/ hinterlaſſenen eheleiblichen Tochter/<lb/>
+und vollzog denſelben durch Prieſterliche <hi rendition="#aq">Copulation</hi> in der Kirche zur<lb/>
+Lieben Frauen zu Dreßden/ mit welcher er in die 7. Jahr eine vergnuͤgte<lb/>
+und geſegnete Ehe beſeſſen/ alſo/ daß er mit derſelben einen Sohn/ nah-<lb/>
+mentlich <hi rendition="#fr">Johannes/</hi> gezeuget/ welcher ihm aber/ nebſt ſeinem Ehe-Weibe/<lb/>
+zu ſeinem groſſen Leidweſen/ in der Sterbligkeit vorangegangen/ und ihn zu<lb/>
+einem betruͤbten Vater und verlaſſenen Wittwer gemachet.</p><lb/>
+<p>Hatte er ſein Weib und Kind in ihrem Leben treulich geliebet und redlich<lb/>
+gemeynet/ ſo konte er ſie auch nach dem Todte ſo bald nicht vergeſſen/ ſon-<lb/>
+dern betraurete ſie in die 3. gantzer Jahre/ und brachte ſein Leben in der ſtillen<lb/>
+Einſamkeit/ wie einem frommen Wittwer ziemet/ Chriſtlich und GOtt wohl-<lb/>
+gefaͤllig zu. Doch weil er ſein beſchwerliches Hauß-Weſen uͤber dem Haiſe<lb/>
+hatte/ und wohl ſahe/ daß es ohne eine verſtaͤndige Hauß-Wirthin in die<lb/>
+Laͤnge nicht beſtehen werde/ entſchloß er ſich in der Furcht des HErrn zum<lb/>
+andern mahl zu verheyrathen.</p><lb/>
+<p>Welches Vorhaben der Hoͤchſte auch ſo wohl <hi rendition="#aq">dirigir</hi>te/ daß er ihm/ nach<lb/>
+fleißigen Gebethe/ die gegenwaͤrtige betruͤbte Wittwe/ die Ehr- und Tugend-<lb/>
+ſame Frau <hi rendition="#fr">Margarethen/</hi> des Ehrſamen <hi rendition="#fr">Hanß Hulens/</hi> Einwohners zu<lb/>
+Loſchwitz/ eheleibliche und damahls Jungſer Tochter zufuͤhrete/ mit welcher<lb/>
+er ſich in dem 32. Jahre ſeines Alters ehrlicher Weiſe verlobete/ und durch<lb/>
+<fw place="bottom" type="catch">Prie-</fw><lb/>
+<pb facs="#f0047" n="47"/>
+<fw place="top" type="header"><hi rendition="#b">Lebens-Lauff.</hi></fw><lb/>
+Prieſterliche Einſegnung in der Kirche zur Lieben Frauen gewoͤhnlicher Wei-<lb/>
+ſe <hi rendition="#aq">copuli</hi>ren ließ/ auch mit ihr in die 17. Jahr eine friedliche und geſegnete<lb/>
+Ehe beſeſſen/ und darinnen 9. Kinder/ als 4. Soͤhne und 5. Toͤchter gezeuget/<lb/>
+davon aber 2. Soͤhne und 3. Toͤchter fruͤhzeitig hinweg geſtorben/ die an-<lb/>
+dern 2. Soͤhne/ als <hi rendition="#fr">Chriſtian</hi> und <hi rendition="#fr">Johann Balthaſar/</hi> und <supplied>2</supplied>. Toͤchter/<lb/>
+<hi rendition="#fr">Anna Margaretha</hi> und <hi rendition="#fr">Eva Roſina/</hi> leben noch/ und geben zum Theil<lb/>
+mit ihrer hoͤchſt-betruͤbten Mutter ihrem ſel. verſtorbenen Vater unter viel-<lb/>
+fachen Kindlichen Thraͤnen das Geleite zu ſeiner Ruhe.</p><lb/>
+<p>Von ſeinem Chriſtenthum und gefuͤhrten Lebens-Wandel muß ihm wohl<lb/>
+jederman ein gutes Lob und Zeugniß geben/ und kan ihm mit Grund der<lb/>
+Wahrheit im Tode nachruͤhmen: jederman weiß/ daß er ein frommer Mann<lb/>
+geweſen iſt. Denn er fuͤhrete nicht nur allein zu ſeinem Wahl-Spruch:<lb/>
+Schlecht und gerecht das behuͤte mich; ſondern hat es auch die Zeit ſeines<lb/>
+Lebens in der That auszuuͤben getrachtet. Denn ſeinen GOtt hatte er taͤg-<lb/>
+lich fuͤr Augen/ und im Hertzen/ und verehrete ihn mit wahrem Glauben an<lb/>
+Chriſtum/ und heiligen Leben/ betete ihn inbruͤnſtig an/ und lobete ihn fuͤr<lb/>
+ſeine Wohlthaten/ liebete ſein Wort hoͤher/ als alles Zeitliche/ und hoͤrete<lb/>
+daſſelbe in oͤffentlicher Verſamlung mit groſſer Begierde und Andacht an/<lb/>
+und verſaͤumete niemahls mit Willen den oͤffentlichen GOttes-Dienſt; wie<lb/>
+er denn noch den letzten Sonntage alle zweymahl zum Hauſe des HErrn<lb/>
+gekommen/ und das Wort des HErrn mit Freuden angenommen. Hat<lb/>
+ſich auch ſonſt zu rechter Zeit in den Beicht-Stuhl und Heil. Abendmahl<lb/>
+eingefunden/ und als ein bußfertiges/ glaͤubiges Kind GOttes darbey be-<lb/>
+zeiget/ und ſein gantzes Leben/ ſo viel moͤglich/ nach GOttes Wort anzu-<lb/>
+ſtellen bemuͤhet.</p><lb/>
+<p>Wie er nun ſeinen Wahl-Spruch gegen GOtt bezeigete/ alſo fuͤhrte er<lb/>
+ſich auch demſelben gemaͤß gegen ſeinen Naͤchſten auf. So lange ſeine leib-<lb/>
+liche Eltern lebeten/ war er ihnen gehorſam/ und ehrete ſie mit der That/ mit<lb/>
+Worten und mit Gedult; ſeine liebe Schwieger-Eltern liebete und bediene-<lb/>
+te er/ als ſeine eigene; mit ſeinen Weibern lebete er friedlich und vertraͤg-<lb/>
+lich/ liebete und ehrete ſie/ wie ſich ſelbſt; ſeine Kinder zog er in der Zucht<lb/>
+und Vermahnung zum HErrn auff/ und ſuchte ihnen von Jugend auff den<lb/>
+Wahl-Spruch Tobiaͤ: Euer Lebelang habet GOTT fuͤr Augen und im<lb/>
+Hertzen/ und huͤtet euch/ daß ihr in keine Suͤnde williget/ und wider GOttes<lb/>
+Gebot thut/ nebſt der Liebe zu GOttes Wort und dem Naͤchſten/ beyzubrin-<lb/>
+gen; Gegen ſeinen Geſchwiſter/ Freunde/ Naͤchſten und Neben-Chriſten<lb/>
+bezeigte er ſich willfaͤhrig/ aufrichtig und dienſthafft/ ſo/ daß er leicht niemand<lb/>
+<fw place="bottom" type="catch">ohne</fw><lb/>
+<pb facs="#f0048" n="48"/>
+<fw type="header" place="top"><hi rendition="#b">Beſchluß.</hi></fw><lb/>
+ohne Huͤlffe/ Beyſtand oder Troſt von ſich gehen laſſen. Dahero ihn auch<lb/>
+jederman ſchmertzlich betrauret/ und wuͤnſchet/ daß er noch leben/ oder doch<lb/>
+nicht ein ſo jaͤmmerlich Ende moͤchte genom̃en haben. Was ſeine Kranckheit<lb/>
+und Lebens-Ende betrifft/ ſo hat er die Zeit ſeines Lebens zwar nicht viel von<lb/>
+Haupt-Kranckheiten/ auſſer was die gewoͤhnlichen Schwachheiten unſers<lb/>
+nichtigen Lebens ſind/ gewuſt. Allein ſein Todt und Lebens-Ende war deſto<lb/>
+ploͤtzlicher und unverhoffter. Deñ er gieng den 14. <hi rendition="#aq">Auguſti,</hi> war der 12. Sonn-<lb/>
+tag <hi rendition="#aq">poſt Trinitatis,</hi> bey der Nacht auff das Gebirge/ ſeine daſelbſt befind-<lb/>
+lichen Feld-Fruͤchte vor dem wilden Viehe zu huͤten/ wird aber in dieſer Ver-<lb/>
+richtung von ſeinem Schwager/ <hi rendition="#fr">Johann Balthaſar Hulen/</hi> Einwohnern<lb/>
+in dem Helffenbergiſchen Grunde/ unvorſichtiger Weiſe/ in Meynung/ es ſey<lb/>
+ein wildes Schwein/ jaͤmmerlich erſchoſſen/ ſo/ daß er auff der Stelle lie-<lb/>
+gen bleibet/ und ſeinen Geiſt alſobald auffgeben muß/ nachdem er ſein Al-<lb/>
+ter auff 51. Jahre/ 21. Wochen und 4. Tage gebracht.</p></div><lb/>
+<div n="2"><head><hi rendition="#b">Beſchluß.</hi></head><lb/>
+<p><hi rendition="#in">D</hi>Er HErr/ der dieſen ploͤtzlichen und unverhofften Todtes-Fall uͤber den Seeligen<lb/>
+verhaͤnget/ wolle die abgeſchiedene Seele in dem Schooß Abrahaͤ mit ewiger Freude<lb/>
+ergetzen/ den Leib aber/ der hierdurch deſto eher zu ſeiner Ruhe gekommen/ in der<lb/>
+kuͤhlen Erde/ als ſeinem Schlaff-Kaͤm̃merlein/ deſto ſanffter ſchlaffen/ an dem Tage der all-<lb/>
+gemeinen Aufferſtehung mit der ſeeligen Seele/ wiederum vereinigen/ und zur Genieſſung<lb/>
+der unausſprechlichen Herrlichkeit der Kinder GOttes/ die aus groſſen Truͤbſalen kommen<lb/>
+ſind/ gelangen laſſen! Die Hoch-betruͤbte Leid-tragende mit dem ſeligen Todt ihres ſelig-<lb/>
+verſtorbenen Ehe-Gattes/ Vaters und Freundes/ troͤſten/ und ihren groſſen Schmertzen da-<lb/>
+mit lindern/ daß ein ſchnell und ſelig ſterben auch ein ſchnell und ſelig erben des ewigen<lb/>
+Himmels-Saals ſey! Uns allen aber hierbey zu erkennen geben/ daß der Todt zwar ge-<lb/>
+wiß/ die Todtes-Stunde/ Ort und Art aber ungewiß/ und dahero bey ſolchen ploͤtzlichen und<lb/>
+unverhofften Todtes-Faͤllen nicht nur allein von Hertzen betruͤbt zu ſeyn/ ſondern uns<lb/>
+auch taͤglich/ ja ſtuͤndlich zu unſerm Ende rechtmaͤßig zu bereiten/ damit/ wenn der Tod<lb/>
+auch unverhofft uͤber uns komme/ uns nicht unbereit/ ſondern wohl bereit antreffe/ und<lb/>
+wir nicht ſterben/ wenn wir ſterben/ ſondern durch den Todt in das ewige Leben dringen/<lb/>
+und mit Freuden ſagen koͤnnen:</p><lb/>
+<lg type="poem"><l><hi rendition="#fr">So komm mein End heut oder morgen/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Jch weiß/ daß mirs mit JEſu gluͤckt/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Jch bin und bleib in deinen Sorgen/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Mit JEſu Blut ſchoͤn ausgeſchmuͤckt;</hi></hi></l><lb/>
+<l><hi rendition="#fr">Mein GOtt/ ich bitt durch Chriſti Blut/</hi></l><lb/>
+<l><hi rendition="#fr">Machs nur mit meinem Ende gut!</hi></l></lg><lb/>
+<p>Und wer ſolches mit mir verlanget/ der ſuche es bey GOTT in einem andaͤch-<lb/>
+<hi rendition="#c">tigen Vater Unſer.</hi></p><lb/>
+<p><hi rendition="#c"><hi rendition="#fr">GOTT allein die Ehre!</hi></hi></p></div></div><lb/>
+</body></text>  </TEI>

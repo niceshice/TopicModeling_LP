@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Glaube/ Liebe/ Hoffnung/ Gedult/ Als 4. Haupt-Tugenden Eines Christen</title>
+<author>
+<persName>
+<surname>Titus</surname>
+<forename>Andrea</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">20</measure>
+<measure type="tokens">4192</measure>
+<measure type="types">1650</measure>
+<measure type="characters">29082</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-02-18T14:10:03Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der „Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz“ (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/392456</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/392456</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/392456</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/392456</idno>
+<idno type="DTADirName">392456</idno>
+<idno type="DTAID">203010</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-203010-0</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Titus, Andrea: Glaube/ Liebe/ Hoffnung/ Gedult/ Als 4. Haupt-Tugenden Eines Christen. Schlichtingsheim, [1704].</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Glaube/ Liebe/ Hoffnung/ Gedult/ Als 4. Haupt-Tugenden Eines Christen</title>
+<author>
+<persName>
+<surname>Titus</surname>
+<forename>Andrea</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">20 S.</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Christoph Wild</name></publisher>
+<pubPlace>Schlichtingsheim</pubPlace>
+<date type="publication">1704</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 K 1203/35-36 / 392456</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#fr"><hi rendition="#b">Glaube/ Liebe/ Hoffnung/<lb/>
+Gedult/</hi></hi></titlePart><lb/>
+<titlePart type="sub"><hi rendition="#fr">Als 4. Haupt-Tugenden</hi><lb/>
+Eines Chriſten/</titlePart><lb/>
+<titlePart type="desc">An<lb/>
+Der Weyland<lb/>
+<hi rendition="#fr">Hoch-Edelgebohꝛnen und Gottſeligen Frauen/<lb/>
+<hi rendition="#g">FRAUEN</hi></hi><lb/>
+<hi rendition="#b">Barbara Eliſabeth<lb/>
+von <hi rendition="#fr">K</hi>reckwitz/ gebohrnen</hi><lb/>
+von <hi rendition="#fr">T</hi>ſchammerin/<lb/>
+Frauen auf Jupen- und Heintzendorff/ Großkloden/<lb/>
+Akreſch-Frontze und Klein-Tſchuderau/<lb/>
+Einer<lb/>
+Gnaͤdigen/ HochAdelichen/ HochAnſehnlichen<lb/>
+<hi rendition="#b"><hi rendition="#fr">T</hi>rauer-<hi rendition="#fr">V</hi>erſam̃lung/</hi><lb/>
+den 28. <hi rendition="#aq">Maji,</hi> des 1704. Jahres/<lb/>
+<hi rendition="#fr">Jn der Kirchen zu Geiſchen/ gewieſen und geprieſen/</hi></titlePart></docTitle><lb/>
+<byline>Von<lb/>
+<docAuthor><hi rendition="#aq">M. <hi rendition="#g"><hi rendition="#k">Andrea Titio</hi></hi></hi></docAuthor><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">,</hi></hi> P.</hi> v. S.</byline><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docImprint><pubPlace>Schlichtingsheim</pubPlace>/ druckts <publisher>Johann Chriſtoph Wild</publisher>.</docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="[2]"/>
+<pb facs="#f0003" n="3"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsThanks" n="1"><head/>  <div type="preface" n="2"><head/><opener><salute><hi rendition="#c"><hi rendition="#aq">I. N. J.</hi></hi></salute><lb/>
+<lb/>
+<salute><hi rendition="#c"><hi rendition="#fr">Hoch-Wohlgebohrner/ Hoch-WohlEdelge-<lb/>
+bohrne/ Gnaͤdige Herꝛn/ und</hi><lb/>
+<hi rendition="#aq">Patronen,</hi><lb/>
+Wie auch<lb/>
+<hi rendition="#fr">Hoch Wohl-Edelgebohrnes Frauen-<lb/>
+Zimmer/</hi></hi></salute></opener><lb/>
+<p><hi rendition="#in">E</hi>S haben die gelehrten Juden ein<lb/>
+Sprichwort unter ſich/ das heiſt auf<lb/>
+Deutſch: <hi rendition="#fr">Die letzte Ehre eines<lb/>
+Verſtorbenen iſt/ daß man ihme<lb/>
+ein Haͤußlein oder Schwibo-<lb/>
+gen uͤber ſein Grab baue.</hi> Womit<lb/>
+ſie zielen auf die gewoͤhnlichen <hi rendition="#aq">Cip-<lb/>
+pos, Epitaphia,</hi> Grab- und Denckmahle/ darauff man der<lb/>
+Verſtorbenen Thaten und Nahmen leſen koͤnnen. Und<lb/>
+<fw place="bottom" type="sig">A 2</fw><fw place="bottom" type="catch">eben</fw><lb/>
+<pb facs="#f0004" n="4"/>
+<fw type="header" place="top"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+eben diß iſt gar nichts Neues. Es hat ſchon der Patriarch<lb/>
+<hi rendition="#aq">Jacob</hi> ſolchen Bau ſeiner Hauß-Ehre der <hi rendition="#aq">Rahel</hi> zum Ge-<lb/>
+daͤchtnuͤs fuͤrgenommen. Denen Propheten iſt dergleichen<lb/>
+Ehre auch begegnet. Von den <hi rendition="#aq">Perſianern</hi> wird geruͤhmet/<lb/>
+daß ſie an ihren Grab-Staͤdten die zuruͤſtgehende Son-<lb/>
+ne/ die nur noch wenig Strahlen von ſich blicken laͤſt/ abge-<lb/>
+bildet/ und diß eintzige Wort hinzu geſetzet: <hi rendition="#aq">Orietur,</hi> <hi rendition="#fr">ſie<lb/>
+wird wider anffgehen.</hi> Die ſinnreichen Egyptier ha-<lb/>
+ben uͤber den Graͤbern der Jhrigen den Vogel <hi rendition="#aq">Phœnix</hi> vor-<lb/>
+geſtellet/ mit der Beyſchrifft: <hi rendition="#aq">Evolabit:</hi> <hi rendition="#fr">Er wird ſich<lb/>
+wider in die Hoͤhe ſchwingen.</hi> Auf <hi rendition="#aq">Alexandri M.</hi> Leich-<lb/>
+Stein ſahe man das gefaͤſſelte <hi rendition="#aq">Aſia</hi> und <hi rendition="#aq">Africa,</hi> mit dieſem<lb/>
+Beywort außgeaͤtzt: <hi rendition="#aq">Victoria Alexandri:</hi> <hi rendition="#fr">Diß iſt der<lb/>
+Sieg</hi> <hi rendition="#aq">Alexanders.</hi> Des vortrefflichen Griechiſchen Feld-<lb/>
+Herrns <hi rendition="#aq">Leonidis</hi> Gebeine wurden in ein koſtbares <hi rendition="#aq">Mau-<lb/>
+ſoleum</hi> verſetzet/ mit dieſer Schrifft: <hi rendition="#aq">Speculum benè Me-<lb/>
+ritorum de Patria:</hi> <hi rendition="#fr">Ein</hi> <hi rendition="#aq">Contrafeit</hi> <hi rendition="#fr">derer/ die ſich um<lb/>
+das Vaterland wolverdienet.</hi> Vom Kayſer <hi rendition="#aq">Carolo<lb/>
+M.</hi> wird erzehlet/ daß/ als man ihn auff ſeinem Tod-Bette<lb/>
+gefraget/ was er fuͤr ein Sieges-Zeichen nach ſeinem Tode<lb/>
+auf ſein Grab verlangte? Er geantwortet: Kein anders/<lb/>
+als des Todes. <hi rendition="#fr">Deñ der Tod/</hi> ſprach er/ <hi rendition="#fr">iſt die Groß-<lb/>
+maͤchtige Kayſerin/ welche uͤber alle meine Helden-<lb/>
+Thaten</hi> <hi rendition="#aq">triumphi</hi><hi rendition="#fr">ret/ und ſie zu nichte machet.</hi> <hi rendition="#aq">Johan-<lb/>
+nes Ruſſelius,</hi> ein Engellaͤnder/ lies uͤber dem Grabe ſeiner<lb/>
+Tochter eine Saͤule auffrichten/ mit ihrem Bildnuͤs und die-<lb/>
+ſer Uberſchrifft: <hi rendition="#aq">Dormit, non mortua:</hi> <hi rendition="#fr">Sie iſt nicht<lb/>
+tod/ ſondern ſchlaͤfft.</hi></p><lb/>
+<fw type="catch" place="bottom">Nun</fw><lb/>
+<pb facs="#f0005" n="5"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+<p>Nun dieſen Gebrauch laͤſt man billich in ſeinem Werth<lb/>
+und tadelt ihn nicht: Aber ſo feſte die Steine/ Ertz<supplied>t</supplied> und<lb/>
+Eiſen ſind/ ſo viel ſtaͤrcker iſt doch die Zeit/ die alles dieſes<lb/>
+verzehret und aufffriſt. Denn wo ſind die beruͤhmten <hi rendition="#aq">Epi-<lb/>
+taphia</hi> und Grabmahle der Alten? Sie ſind mehrentheils<lb/>
+zu Grund eingeaͤſchert und verwuͤſtet. Darum halte ich<lb/>
+dieſe die tauerhaffteſten <hi rendition="#aq">Epitaphia</hi> und Grabmahle unter<lb/>
+den Chriſten zu ſeyn/ die von Werckſtuͤcken eines Heiligen<lb/>
+tugendlichem Wandels zuſammen gefuͤget werden:</p><lb/>
+<p><hi rendition="#c">Denn</hi></p><lb/>
+<p><cit><quote><hi rendition="#c"><hi rendition="#aq">Virtus poſt Funera vivit:</hi></hi></quote></cit><lb/>
+<lg type="poem"><l><hi rendition="#fr">Wer GOTT in Froͤm̃igkeit auffrichtig</hi></l><lb/>
+<l><hi rendition="#fr">dienet;</hi></l><lb/>
+<l><hi rendition="#fr">Des Nahme hier und dort erfreulich gruͤ-</hi></l><lb/>
+<l><hi rendition="#fr">net.</hi></l></lg></p></div><lb/>
+<div type="fsMainPart" n="2"><head/><p>Und indem ich unwuͤrdiger/ auff Befehl/ in dieſem<lb/>
+<hi rendition="#fr">Geiſiſchen Zion</hi> aufgetretten/ der weyland <hi rendition="#fr">HochEdel-<lb/>
+gebohrnen/ und Gottſeligen Frauen/ Frau-<lb/>
+en Barbara Eliſabeth/ von Kreckwitzin/<lb/>
+gebohrnen von Tſchammerin/ Frauen auf<lb/>
+Juppen- und Heintzendorff/ Großkloden/<lb/>
+Ackreſch-Frontze und Klein-Tſchuderau;<lb/>
+Als des Hoch-Edelgebohrnen Ritters und</hi><lb/>
+<fw place="bottom" type="sig"><hi rendition="#fr">A</hi> 3</fw><fw place="bottom" type="catch"><hi rendition="#fr">Herꝛns/</hi></fw><lb/>
+<pb facs="#f0006" n="6"/>
+<fw type="header" place="top"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+<hi rendition="#fr">Herꝛns/ Herꝛns Guſtavi Sigmund/ von<lb/>
+Kreckwitz/ auf Juppen- und Heintzendorff/<lb/>
+Großkloden/ Ackreſch-Frontze/ und Klein-<lb/>
+Tſchuderaw/</hi> im Leben geweſene Hertz-geliebteſten<lb/>
+<hi rendition="#fr">Frauen Gemahlin/</hi> die letzte Rede bey Jhren HochAde-<lb/>
+lichen <hi rendition="#aq">Funeralien</hi> zu halten; ſo wird mirs erlaubet ſeyn der<lb/>
+<hi rendition="#fr">Wohlſeeligen</hi> zu wohlverdientem Nachruhm Jhres Tu-<lb/>
+gendlichen Wandels auch einiges <hi rendition="#fr">Grab- und Denck-<lb/>
+mahl</hi> auffzurichten/ und der HochAdelichen Trauer-Ver-<lb/>
+ſam̃lung zu einer Nachfolge vorzuſtellen. Solches beſte-<lb/>
+het aber aus Vier unterſchiedenen <hi rendition="#fr">Feldern/</hi> und <hi rendition="#fr">Sinn-<lb/>
+bildern/</hi> deren das Eine <hi rendition="#fr">den Glauben/</hi> das Andere <hi rendition="#fr">die<lb/>
+Liebe/</hi> das Dritte <hi rendition="#fr">die Hoffnung/</hi> und das Vierdte <hi rendition="#fr">die<lb/>
+Gedult/</hi> <hi rendition="#aq">præſenti</hi>ren wird.</p><space dim="horizontal"/><div n="3"><head/><p>Und zwar das Erſte <hi rendition="#fr">Feld</hi><lb/>
+zum Haupteunſres Kreckwitziſchen Grab- und Denckmals/<lb/>
+<hi rendition="#aq">præſentiret</hi> <hi rendition="#fr">den Glauben/</hi> haltende mit beyden Haͤnden dẽ<lb/>
+<hi rendition="#fr">Gecreutzigten</hi> mit dieſem Beywort: <hi rendition="#fr">Meinen <hi rendition="#k">Je</hi>ſum<lb/>
+laß ich nicht:</hi> Der Glaube das herꝛlichſte Kleinod eines<lb/>
+Chriſten/ wornach GOtt alles richtet. Durch den Glau-<lb/>
+ben werden unſre Hertzen gereiniget/ wie man das Ange-<lb/>
+ſicht fein rein haͤlt. Durch den Glauben wohnet CHri-<lb/>
+ſtus/ der Gecreutzigte/ in unſrem Hertzen/ da leuchtet ſeine<lb/>
+Geſtalt und Bild in uns/ wie eine Geſtalt im Wachs/ wie<lb/>
+ein Bild im Spiegel. Der Glaube das Ohr/ das GOt-<lb/>
+tes innere verborgene Krafft-Predigt hoͤret: <hi rendition="#fr">Laß mich<lb/>
+hoͤren Freud und Wonne.</hi> Der Glaube die Naſe/ die<lb/>
+<fw type="catch" place="bottom">da</fw><lb/>
+<pb facs="#f0007" n="7"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+da empfaͤngt den erqvickenden Lebens-Geruch aus GOtt:<lb/>
+<hi rendition="#fr">Denn das Evangelium iſt ein Geruch des Lebens<lb/>
+zum Leben/ denen die da ſeelig werden.</hi> Der Glau-<lb/>
+be die Zunge/ die das guͤttige Wort GOTTES und die<lb/>
+Kraͤffte der zukuͤnfftigen Welt ſchmecket: Da heiſt es;<lb/>
+<hi rendition="#fr">Schmecket und ſehet/ wie freundlich der HErꝛ iſt!</hi><lb/>
+Der Glaube die Hand/ damit wir den Gecreutzigten hal-<lb/>
+ten und in Jhm erhalten das ewige Leben. Der Glaube<lb/>
+das Auge/ das CHriſtum ſiehet: <hi rendition="#fr">Seelig ſind/ die rei-<lb/>
+nes Hertzens ſind/ die werden <hi rendition="#g">GOTT</hi> ſchauen!</hi><lb/>
+Der Glaube iſt die feſte Loͤtung/ dadurch aus zweyen eins<lb/>
+wird/ und das kraͤfftige Jawort/ welches die bußfertige<lb/>
+Seele mit dem Braͤutigam Chriſto auf ſein liebreiches An-<lb/>
+erbieten wechſelt/ und mit Jhm ſich unauffloͤßlich verbin-<lb/>
+det/ der Glaube haͤnget ſich an CHriſto/ wie eine Klette<lb/>
+am Kleide: Er umbfaſſet Jhn/ wie <hi rendition="#aq">Jacob</hi> im Ringen den<lb/>
+HErrn/ den er nicht laſſen wolt: Ja durch den Glauben<lb/>
+entſtehet eine ſo genaue Vereinigung zwiſchen CHriſto<lb/>
+und der Seelen/ wie zwiſchen der Mutter und dem Kin-<lb/>
+de/ das ſie im Leibe traͤgt: Wie zwiſchen einem Stamm<lb/>
+und dem Reiſelein/ das darinnen gepfroffet und gepflan-<lb/>
+tzet: Wie zwiſchen einem Weinſtock und den Reben/ da-<lb/>
+von dieſe aus jenem allen Safft ziehen: Wie zwiſchen<lb/>
+Haupt und Gliedern/ die genau zuſammen halten. Durch<lb/>
+den Glauben herꝛſchen wir uͤber Suͤnd/ Tod und Teufel.<lb/>
+Durch den Glauben iſt alles unſer/ was GOTTES und<lb/>
+Chriſti iſt. Jener Vater ſagte zu ſeinem Sohn: <hi rendition="#fr">Alles<lb/>
+was mein iſt/ das iſt dein.</hi> So ſagt auch CHriſtus:<lb/>
+<hi rendition="#fr">Alles was mein iſt/ das iſt dein.</hi> Diß Wort ergreifft<lb/>
+<fw place="bottom" type="catch">der</fw><lb/>
+<pb facs="#f0008" n="8"/>
+<fw type="header" place="top"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+der Glaube und ſpricht mit <hi rendition="#aq">Bernhardo:</hi> <hi rendition="#fr">JEſus iſt gantz<lb/>
+mein/ und was ſeyn/ das iſt auch alles mein; ſei-<lb/>
+ne Gerechtigkeit meine Gerechtigkeit/ ſein Leben<lb/>
+mein Leben/ ſeine Seeligkeit meine Seeligkeit.</hi><lb/>
+Solch ein koͤſtlich Kleinod iſt der Glaube. Dieſen Glau-<lb/>
+ben aber empfangen wir durch die Widergeburth in der<lb/>
+Heiligen Tauffe: Denn da ziehen wir CHriſtum an/ wie<lb/>
+<hi rendition="#aq">Paulus</hi> ſagt: <hi rendition="#fr">Wir ſind alle Kinder GOttes durch<lb/>
+den Glauben: Denn wie viel euer getaufft ſind/<lb/>
+die haben CHriſtum angezogen.</hi> Wir koͤnnen Jhn<lb/>
+aber wider verliehren: Das zeiget CHriſtus an in dem<lb/>
+Gleichnuͤß von dem viererley Acker/ wann Er ſpricht:<lb/>
+<hi rendition="#fr">Eine Zeitlang glaͤuben ſie/ und zur Zeit der An-<lb/>
+fechtung fallen ſie ab.</hi> Das zeiget auch CHriſtus <hi rendition="#aq">Pe-<lb/>
+tro</hi> an/ wann er ſpricht: <hi rendition="#fr">Jch habe fuͤr dich gebeten/<lb/>
+daß dein Glaube nicht aufhoͤre:</hi> Als wolte Er ſagen:<lb/>
+<hi rendition="#aq">Petre,</hi> wañ ich nicht fuͤr dich gebeten haͤtte/ ſo haͤtteſtu keinen<lb/>
+Glauben mehr. So koͤnnen wir dann den Glauben war-<lb/>
+hafftig verliehren. Wie iſt das moͤglich? Sprichſt du. Ja/<lb/>
+wol moͤglich/ wann GOTT die Hand abzeucht. Von<lb/>
+GOttes Seiten zwar kanſtdu gewiß ſeyn/ daß/ <hi rendition="#fr">der in<lb/>
+dir angefangen hat das gutte Werck der Seeligkeit/<lb/>
+der wirds auch vollfuͤhren bis auff den Tag JEſu<lb/>
+Chriſti:</hi> Du muſt aber auf deiner Seiten gar behutſam<lb/>
+fahren und dich fuͤr Tod-Suͤnden huͤtten. Wir tragen<lb/>
+unſren Schatz in irꝛdiſchen Gefaͤſſen/ gleich denen/ die ei-<lb/>
+nen koͤſtlichen Balſam in einem irꝛdenen Tigel tragen/ und<lb/>
+gehen damit auf einem ſteinichten oder ſchlipfferigem We-<lb/>
+<fw type="catch" place="bottom">ge/</fw><lb/>
+<pb facs="#f0009" n="9"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+ge/ ihr Fuß ſtoͤſt an oder gleitet/ ſie fallen/ zerbrechen den<lb/>
+Tiegel/ und verſchuͤtten den Balſam. Was huͤlffts dann/<lb/>
+daß ſie ſo einen koͤſtlichen Balſam gehabt/ und denſelben<lb/>
+auch eine zeitlang wohl verwahret haben/ ſo ſie doch her-<lb/>
+nach drumb kom̃en? O wie leicht kan man fallen! Fleiſch<lb/>
+und Blutt haben wir an uns/ wo wir gehen und ſtehen.<lb/>
+Die Welt weiß uns auch wol zu finden. Der Teuffel iſt<lb/>
+auch keine tauſend Meilen von dannen/ ja vielleicht naͤher/<lb/>
+denn wir meinen. Sehen wir uns nicht wohl fuͤr/ ſo kans<lb/>
+leichtlich geſchehen/ daß wir ſtraucheln/ vom Fleiſch und<lb/>
+Blutt/ vom Teuffel und der Welt zu Fall gebracht wer-<lb/>
+den: Wo bleibt dann der Schatz? Waſſer daͤmpffet Feu-<lb/>
+er und Tod-Suͤnde leſchet den Glauben aus. Wer ein<lb/>
+ſchoͤnes Kleinod im Kaͤſtlein verwahret hat/ der ſiehet auch<lb/>
+offt zu/ obs noch darinnen iſt. So machs auch/ blicke<lb/>
+ins Hertz/ und ſiehe zu/ ob du eine Tod-Suͤnde began-<lb/>
+gen haſt/ dadurch der Glaube verlohren ſey. Merckeſt du<lb/>
+das/ ſo thue Buſſe. Durch die Buſſe glimmet der verlo-<lb/>
+ſchene und verlohrne Glaube wider an. Verſaͤume auch<lb/>
+nicht die Mittel/ die zur Staͤrckung und Erhaltung des<lb/>
+Glaubens gehoͤren. <hi rendition="#aq">Paulus</hi> ſagt: <hi rendition="#fr">Der Glaube kom̃t<lb/>
+aus dem hoͤren des Worts.</hi> Das Wort GOttes iſt<lb/>
+das Saͤmlein/ darauß der Glaube waͤchſt. Das Wort<lb/>
+GOttes die Mutter/ der Glaube die Tochter. Es heiſt:<lb/>
+Wer die Tochter haben will/ der haͤlt es mit der Mutter.<lb/>
+Das iſt der rechte Glaube/ der mit beyden Haͤnden haͤlt<lb/>
+den gecreutzigten CHriſtum/ und ſpricht: <hi rendition="#fr">Meinen <hi rendition="#k">Je</hi>-<lb/>
+SUM laß ich nicht:</hi> Diß herrliche Kleinod war eben<lb/>
+befindlich in dem Gott-geheiligten Hertzen der <hi rendition="#fr">Wol-See-<lb/>
+ligen Frauen von Kreckwitzin.</hi> Jhr munteres Glau-<lb/>
+<fw place="bottom" type="sig">B</fw><fw place="bottom" type="catch">bens-</fw><lb/>
+<pb facs="#f0010" n="10"/>
+<fw type="header" place="top"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+bens-Auge war unverwandt auff Jhren <hi rendition="#fr">gecreutzigten<lb/>
+Heyland</hi> als auff die ware Sonne der Gerechtigkeit ge-<lb/>
+richtet/ wie etwa die wolbekante Sonnen-Blume ſich nach<lb/>
+den angenehmen Strahlen der Sonnen lencken ſoll. Diß<lb/>
+war ihre vornehmſte Sorge/ daß/ wie ſie zur ewigen Unſterb-<lb/>
+ligkeit durch das Waſſerbad im Wort eingeweyhet war/ ſie<lb/>
+auch GOtt aus ſeinem Wort erkennen/ und an Jhn glau-<lb/>
+ben/ all ihr Vertrauen auf Jhn ſetzen moͤchte. <hi rendition="#fr">Chriſtum<lb/>
+lieb haben/ war Jhr beſſer/ als alles wiſſen/ alles<lb/>
+thun/ alles haben.</hi> Sie achtete alles Zeitliche fuͤr nichts/<lb/>
+daß Sie nur <hi rendition="#fr">Chriſtum den Gecreutzigten</hi> erhielte. Der<lb/>
+Glaube gab Jhr die Zuverſicht/ daß Sie mit <hi rendition="#aq">Paulo</hi> ſagte:<lb/>
+<hi rendition="#fr">Jch weiß/ an welchen ich glaube.</hi> Sie hielt ſich an den/<lb/>
+<hi rendition="#fr">der da iſt lebendig von Ewigkeit/ und hat die Schluͤſ-<lb/>
+ſel der Hoͤllen und des Todes.</hi> Sie hielt ſich an den/<lb/>
+<hi rendition="#fr">der da iſt das Licht der Welt.</hi> Sie hielt ſich an den/<lb/>
+<hi rendition="#fr">der da iſt das Brodt des Lebens/ das vom Himmel<lb/>
+kommen.</hi> Sie hielt ſich an den/ <hi rendition="#fr">der da gibet das leben-<lb/>
+dige Waſſer des Lebens. Dich <hi rendition="#k">Je</hi>ſum laß ich nicht/</hi><lb/>
+war Jhre taͤgliche <hi rendition="#aq">Reſolution,</hi> gleich als haͤtte Sie mit dem<lb/>
+groſſen Biſchoffe von <hi rendition="#aq">Hippon</hi> ſagen wollen: <hi rendition="#fr">Jch kan un-<lb/>
+gehindert ruhen/ wenn ich mein ſchwaches Haupt<lb/>
+an CHriſti mit Blut fliſſende Seite lege.</hi> Durch<lb/>
+den Glauben hat die Seelige erlanget/ was ſonſt keine Crea-<lb/>
+tur/ keine Welt/ kein guttes Werck geben kan; nemlich Ver-<lb/>
+gebung der Suͤnden/ aus lauter Gnade/ um des Gecreutzig-<lb/>
+ten willen: Alſo/ daß ihr ihre Suͤnden und Fehler nicht zu-<lb/>
+gerechnet/ ſondern vergeben ſind um der einigen Gerechtig-<lb/>
+<fw type="catch" place="bottom">keit</fw><lb/>
+<pb facs="#f0011" n="11"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+keit willen/ die vor GOtt gilt; welche nicht iſt eines Engels<lb/>
+Gerechtigkeit/ ſondern des Gehorſams und bluttigen Ver-<lb/>
+dienſtes Chriſti. Durch dieſen Glauben iſt Jhr Gewiſſen<lb/>
+gereiniget von den todten Wercken/ und iſt unſtraͤfflich er-<lb/>
+halten worden auf den Tag ihres Todes. Deñ GOtt hat<lb/>
+Jhr ſagen laſſen durch ſein Wort/ und durch ſeinen Kirch-<lb/>
+Engel: <hi rendition="#fr">Jch wil dir gnaͤdig ſeyn/ du ſolt erloͤſet wer-<lb/>
+den/ daß du nicht hinunter fahreſt ins Verderben;<lb/>
+denn ich habe eine Verſoͤhnung funden.</hi></p></div><lb/>
+<div n="3"><head/><p><hi rendition="#fr">Das</hi> <hi rendition="#aq">II.</hi> <hi rendition="#fr">Feld und Sinnbild</hi> an unſrem <hi rendition="#fr">Kreckwi-<lb/>
+tziſchen Grab- und Denckmahl/</hi> zur rechten Seiten <hi rendition="#aq">præ-<lb/>
+ſenti</hi>ret <hi rendition="#fr">die Liebe/</hi> unter einer helleuchtenden <hi rendition="#fr">Lampe</hi> mit<lb/>
+der Uberſchrifft: <hi rendition="#fr">Laſſet euer Licht leuchten.</hi> Die Liebe<lb/>
+eine hoͤchſtnoͤthige Tugend. Wo ſich dieſe nicht zeiget/ da<lb/>
+iſts mit dem Glauben ein lauterer Betrug. Denn wo kein<lb/>
+Glantz/ da keine Sonne: Wo keine Hitze/ da kein Feuer:<lb/>
+Wo keine Bewegung/ da kein Leben: Alſo hat man auch den<lb/>
+Glauben fuͤr kein rechtſchaffen Weſen zu achten/ ſo er nicht<lb/>
+durch die angenehmen Strahlen der Liebe denen Leuten in<lb/>
+die Augen faͤllt. Die Liebe muß bey dem Glauben ſeyn.<lb/>
+<hi rendition="#fr">Der Glaube muß durch die Liebe thaͤtig ſeyn.</hi> Und<lb/>
+zwar ſoll unſre Liebes-Lampe helle brennen zufoͤderſt gegen<lb/>
+GOtt. Wir muͤſſen GOtt lieben. Das will GOtt ſelbſt/<lb/>
+wenn Er ſpricht: <hi rendition="#fr">Du ſolt den <hi rendition="#k">He</hi>rꝛn deinen GOtt lie-<lb/>
+ben von gantzem Hertzen/ von gantzeꝛ Seele/ und von<lb/>
+gantzem Gemuͤthe.</hi> Und warumb wolten wir GOtt<lb/>
+nicht lieben? Wir muͤſſen ja lieben? Wollen wir unſre Liebe<lb/>
+verſchencken? Wer iſt ſie wuͤrdiger zu nehmen als der/ der die<lb/>
+Liebe und Liebligkeit ſelbſt iſt. Wollen wir die Liebe ver-<lb/>
+<fw place="bottom" type="sig">B 2</fw><fw place="bottom" type="catch">kauf-</fw><lb/>
+<pb facs="#f0012" n="12"/>
+<fw type="header" place="top"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+kauffen? Wer hat ſie thenrer bezahlet/ als Gott mit ſeinem<lb/>
+theuren Blutte? Wollen wir die Liebe uns abbitten laſſen?<lb/>
+Wer bittet beweglicher als Gott/ da Er durch <hi rendition="#aq">Salomon</hi> <hi rendition="#fr">ruf-<lb/>
+fet: Gib mir dein Hertz?</hi> Wollen wir uns die Liebe ab-<lb/>
+zwingen laſſen? Wer dringet und zwinget kraͤfftiger/ denn<lb/>
+der uns durch <hi rendition="#aq">Paulum</hi> ſagen laͤſt: <hi rendition="#fr">So jemand den <hi rendition="#k">He</hi>r-<lb/>
+ren JEſum nicht lieb hat/ der iſt verbañt.</hi> GOtt iſt<lb/>
+ja die Liebe ſelbſt. Wer wolte die Liebe nicht lieben? <hi rendition="#fr">Gott<lb/>
+hat uns zu erſt geliebet: Darum billich/ daß wir ihn<lb/>
+wider lieben/</hi> wie <hi rendition="#aq">Johannes</hi> in der verwichenen <hi rendition="#fr">Soñtags-<lb/>
+Epiſtel</hi> erinnert. Ein Licht zuͤndet das ander an: Eine<lb/>
+Liebe gebuͤhret die ander. GOtt iſt unſer Wolthaͤter: Wie<lb/>
+viel Guttes hat Er uns gethan/ thuts noch/ und wirds thun<lb/>
+in dieſem und jenem Leben. Wer wolte ſeinen Wolthaͤter<lb/>
+nicht lieben? Anbey aber muͤſſen wir unſre Liebes-Lampe<lb/>
+brennen laſſen gegen dem Nechſten. Denn dazu verbindet<lb/>
+uns das Gebot GOttes: <hi rendition="#fr">Du ſolt deinen Nechſten lie-<lb/>
+ben/ als dich ſelbſt.</hi> Dazu verbindet uns das Geſetz der<lb/>
+Natur; denn <hi rendition="#fr">was wir wollen/ das uns der Nechſte<lb/>
+thun ſoll/ das ſollen wir ihme auch thun.</hi> Dazu ver-<lb/>
+bindet uns die Beſchaffenheit des Nechſten; deñ er iſt uns<lb/>
+in Adam ſo nahe/ als unſer eigen Fleiſch: <hi rendition="#fr">Niemand aber<lb/>
+hat jemals ſein eigen Fleiſch gehaſſet.</hi> Und dieſe Liebe<lb/>
+iſt uͤberall behuͤlfflich. Sie iſt gegen jedermañ zuͤchtig/ in<lb/>
+der Zuneigung freundlich; in der Wolmeinung beſtaͤndig/<lb/>
+in allerley Bedienung ſiñreich; gegen die Hoͤhern ehrerbie-<lb/>
+tig/ gegen die Gleichſtaͤndigen vertraͤglich/ gegen die Niedri-<lb/>
+gen demuͤttig; in Worten heylſam/ in Wercken fruchtbar:<lb/>
+Sie iſt gegen die Unwiſſenden lehrhafftig/ gegen die Jrren-<lb/>
+<fw type="catch" place="bottom">den</fw><lb/>
+<pb facs="#f0013" n="13"/>
+<fw type="header" place="top"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+den mitleydig/ gegen dieSchwachen geduldig/ gegen die Be-<lb/>
+leidiger verſoͤhnlich/ gegen die Armen barmhertzig/ gegen die<lb/>
+Nothleidenden willfaͤhrig/ und gegen die Bitten<supplied>d</supplied>en/ nach<lb/>
+Vermoͤgen milde und freygebig. Um ihren Glauben zu zei-<lb/>
+gen/ und deſſen einen klaren Beweiß an den Tag zu legen/<lb/>
+lies unſre <hi rendition="#fr">Wolſeelige Frau von Kreckwitz</hi> ihre <hi rendition="#fr">Liebes-<lb/>
+Lampe</hi> recht helle leuchten. Helle vor allen Dingen gegen<lb/>
+GOTT. Sie liebte GOtt hertzlich/ ſagende mit <hi rendition="#aq">David:</hi><lb/>
+<hi rendition="#fr">Hertzlich lieb hab ich dich HErr!</hi> Da andere ihre Luſt<lb/>
+hatten an deꝛ Eitelkeit/ da erluſtigte ſie ſich allein im HErꝛn.<lb/>
+Da andere nach ihrem eignen Gefallen lebten/ da war Sie<lb/>
+geflieſſen allein nach dem Wort und Willen GOttes zu le-<lb/>
+ben. Nicht nur ihre euſſerliche Gliedmaſſen ordneten ſich<lb/>
+nach dem Willen GOttes/ ſondern Sie hegte auch im Her-<lb/>
+tzen die reinen auſſteigenden Flammen nach der Ewigkeit.<lb/>
+Jhre geheiligte Seele gleichte nicht unbillich dem Schiffe/<lb/>
+das ihme jener Hertzog zu ſeinem <hi rendition="#aq">Symbolo</hi> erwehlet/ das auf<lb/>
+dem Meer ſchwebend ſich nach dem Nord-<hi rendition="#aq">Pol,</hi> der wie ein<lb/>
+Creutz <hi rendition="#aq">formi</hi>ret/ richtete mit dieſen beygefuͤgten Worten:</p><lb/>
+<p><cit><quote><hi rendition="#c"><hi rendition="#aq">Non alio Sidere:</hi></hi></quote></cit><lb/>
+<lg type="poem"><l><hi rendition="#fr">Nur dieſes ſoll allein/</hi></l><lb/>
+<l><hi rendition="#fr">Mein Gluͤck- und Leitſtern ſeyn.</hi></l></lg></p><lb/>
+<p>Wie die Magnet-Nadel ſich lencket nach dem Geſtirn/ mit<lb/>
+dem ſie eine Verwandſchafft zu haben/ vorgegeben wird: Al-<lb/>
+ſo/ nachdem <hi rendition="#fr">die Seel. Frau von Kreckwitz</hi> Jhre Seele<lb/>
+aus der Hand des HErꝛn empfangen/ und deren Urſprung<lb/>
+Him̃liſch war/ achtete Sie auch fuͤr unbillich/ wenn ſie durch<lb/>
+eine muthwillige Boßheit ſich der Ehre des Him̃els berau-<lb/>
+ben/ und den Geiſt/ der ſeinen Schoͤpffer ſuchet/ durch die<lb/>
+<fw type="sig" place="bottom">B 3</fw><fw type="catch" place="bottom">ſchwe-</fw><lb/>
+<pb facs="#f0014" n="14"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+ſchwere Laſt vorſetzlicher Suͤnden herunter ziehen ſolte. Hell<lb/>
+lies Sie darneben ihre <hi rendition="#fr">Liebes-Lampe</hi> leuchten gegen Jh-<lb/>
+rem Hochtheuerſten und nun in tieffes Leid geſetzten <hi rendition="#fr">Herꝛn<lb/>
+Gemahl</hi> und <hi rendition="#fr">Ehe-Schatz;</hi> demſelben begegnete ſie ſtets<lb/>
+mit hoͤchſter Freundligkeit und Leutſeligkeit/ und erqvickte<lb/>
+Jhn bey ſeinen leiblichen Zufaͤllen/ mit treueſter Wartung<lb/>
+biß ans Ende: So liebreich war Sie gegen Jhm/ daß/ wañ<lb/>
+Sie ihn haͤtte auf den Haͤnden tragen koͤnnen/ Sie haͤtte es<lb/>
+nicht unterlaſſen. Helle leuchtete Jhre <hi rendition="#fr">Liebes-Lampe</hi> ge-<lb/>
+gen <hi rendition="#fr">Jhre HochAdeliche Kinder und Kindes-Kinder/</hi><lb/>
+denen Sie als eine treu-geſiñte Mutter Muͤtterlich beyge-<lb/>
+ſtanden/ und vor Jhr erwuͤntſchtes Aufnehmen Tag und<lb/>
+Nacht geſorget. Helle leuchtete Jhre Liebes-Lampe auch<lb/>
+gegen Jhre Unterthanen und Nothleidende; denen wolzu-<lb/>
+thun/ und mitzutheilen vergaß ſie nicht; <hi rendition="#fr">Jhre Liebe war<lb/>
+an den Haͤnden nicht lahm/ ſondern war geſchaͤfftig<lb/>
+den guͤldnen Saamen deꝛ Wolthaͤtigkeit ohne unter-<lb/>
+laß in den Acker der Armuth außzuſtreuen:</hi> Sie half<lb/>
+ihnen mit Rath und That.</p></div><lb/>
+<div n="3"><head/><p>Jn dem <hi rendition="#aq">III.</hi> <hi rendition="#fr">Feld unſers Kreckwitziſchen Grab-<lb/>
+uñ Denckmahls/</hi> der <hi rendition="#fr">Liebe</hi> gegen uͤber/ und alſo zur Lin-<lb/>
+cken/ <hi rendition="#aq">præſenti</hi>ret ſich <hi rendition="#fr">die Hoffnung/</hi> auff einem guͤldenen<lb/>
+<hi rendition="#fr">Ancker</hi> ſich lehnende/ mit dem <hi rendition="#aq">Lemmate:</hi> <hi rendition="#fr">Die Hoffnung<lb/>
+wartet der rechten Zeit: Die Hoffnung laͤſt nicht zu<lb/>
+ſchanden werden: Die Hoffnung erhaͤlt alles.</hi><lb/>
+Dieſer herꝛlichen Tugend Natur und Eigenſchafft unter<lb/>
+dem Bild eines ſichren und feſten Anckers fuͤrzuſtellen/ hat<lb/>
+dem Geiſt Gottes ſelbſt gefallen. Der Ancker iſt des Schif-<lb/>
+<fw place="bottom" type="catch">fes</fw><lb/>
+<pb facs="#f0015" n="15"/>
+<fw type="header" place="top"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+fes Haͤltnuͤß. Wo kein Ancker/ da bebet und wancket das<lb/>
+Schiff im̃erfort/ gehet auch wol gar zu Grunde. Die Hoff-<lb/>
+nung erhaͤlt uns im Creutz/ daß wir nicht ſincken. Nim̃ die<lb/>
+Hoffnung weg/ ſo iſt alles todt. Mit einem eiſernen Ancker<lb/>
+vertheidigte ſich der <hi rendition="#aq">Athenienſi</hi>ſche Held bey <hi rendition="#aq">Plateas,</hi> an ſtatt<lb/>
+des Schildes und Helms wieder die Schwerdter und Ge-<lb/>
+ſchoß der Feinde. Mit dem Helm der Hoffnung zuꝛSeelig-<lb/>
+keit wehret ſich auch ein Ritter Chriſti wider alle liſtige An-<lb/>
+laͤuffe und feurige Pfeile des Satans. Der Ancker/ der un-<lb/>
+terwerts geſencket wird/ faͤlt gar leicht auf einen Truͤbſand/<lb/>
+da er ſchlecht hafftet: Wird er aber aufwerts in das liebrei-<lb/>
+che Vater-Hertz GOttes geworffen/ ſo iſt er gnugſam befe-<lb/>
+ſtiget: Jch wil ſagen/ die Hoffnung/ die ſich auf Gott gruͤn-<lb/>
+det/ iſt mit <hi rendition="#aq">Platone</hi> zu reden/ <hi rendition="#fr">kein Traum eines Wachen-<lb/>
+den;</hi> oder nach den Worten der H. Schrifft/ <hi rendition="#fr">kein zerbro-<lb/>
+chener Rohrſtab/</hi> wie die Hoffnung der Gottloſen: Son-<lb/>
+dern das ſicherſte und bewertheſte Mittel deꝛ verlangten Er-<lb/>
+loͤſung. Wer ſeine Hoffnung auf GOtt ſetzet/ der bauet ſein<lb/>
+Hauß auf einen Felſen: Er iſt gluͤcklich in Ungluͤck: Reich<lb/>
+in Armuth: Froͤlich in Truͤbſal: Starck in der Schwach-<lb/>
+heit: Getroſt und lebendig mitten im Tod. Deñ er hat das<lb/>
+hoͤchſte Gutt/ und iſt ſchon ſeelig/ wiewohl in Hoffnung.<lb/>
+Darum <hi rendition="#fr">kan die Hoffnung nicht laſſen zu Schanden<lb/>
+werden.</hi> Muß <hi rendition="#aq">Joſeph</hi> ins Gefaͤngnuͤs wandern/ ſiehe! die<lb/>
+Hoffnung fuͤhret ihn wider herauß. Wird <hi rendition="#aq">David</hi> verfolget/<lb/>
+und wie ein Rebhun auf den Bergen herum gejaget? Die<lb/>
+Hoffnung ſchaffet ihme zur rechten Zeit Ruhe/ und ſetzet ih-<lb/>
+me die Jſtaelitiſche Reichs-Crone auf. Hat <hi rendition="#aq">Hiob</hi> Rinder<lb/>
+und Kinder/ Geſundheit/ und faſt das Leben ſelbſt verlohren?<lb/>
+Die Hoffnung erſtattet ihm alles/ auch das meiſte doppelt<lb/>
+<fw type="catch" place="bottom">wider.</fw><lb/>
+<pb facs="#f0016" n="16"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+wider. Unſre <hi rendition="#fr">Wohlſeelige Frau von Kreckwitz</hi> hat Jhr<lb/>
+Leben in Chriſto recht gefuͤhret/ in hoffen und harꝛen. Ward<lb/>
+das Schifflein Jhres Lebens und Chriſtenthums auf dem<lb/>
+ſchwartzen Meer dieſer Welt/ die mehr Thraͤnen/ als das<lb/>
+Meer Saltzwaſſer in ſich begreifft/ von den erboſten Creutz-<lb/>
+und Truͤbſals-Wellen feindſeelig beſtuͤrmet/ ſo lies ſie ihren<lb/>
+Hoffnungs-Ancker in das huͤlffreiche Hertz GOttes fallen:<lb/>
+Sie hielt beſtaͤndig auß/ und erwartete in Chriſtlicher Ge-<lb/>
+laſſenheit deꝛBeſſerung/ und ergab ſich dem gnaͤdigſten Wil-<lb/>
+len ihres Schoͤpffers. <hi rendition="#fr">Hoffnung/ laͤſt nicht zu Schan-<lb/>
+den werden/</hi> dachte Sie. Sie hat ſtets ein heiliges Ver-<lb/>
+langen nach GOtt getragen; weil Sie der Welt Eitelkeit<lb/>
+erkañt; der Welt Bitterkeit geſchmecket; GOttes Gnade<lb/>
+und Suͤßigkeit empfunden/ und ein liebes Kind Gottes ge-<lb/>
+weſen. Sie ſeuffzete oft mit <hi rendition="#aq">David:</hi> <hi rendition="#fr">Nach dir/ <hi rendition="#k">He</hi>rꝛ/ ver-<lb/>
+langet mich/ mein Gott/ ich hoffe auf dich.</hi> Ach HErꝛ/<lb/>
+in dieſem meinem Jammer verlanget mich eintzig nach dir!<lb/>
+Numehr iſt ihr Verlangen erfuͤllet! Da ihr ſchwaches Lei-<lb/>
+bes-Schiff zwar an denen unvermeidlichen Todes Klippen/<lb/>
+den verſtrichenen 27. <hi rendition="#aq">Febr.</hi> dieſes Jahres/ des Morgends ge-<lb/>
+gen 3. Uhr/ untergangen iſt/ ſo iſt doch die edle Seele vermit-<lb/>
+telſt der Hoffnung/ die nicht zu Schanden werden laͤſt/ aus<lb/>
+aller Gefahr der ſtuͤrmenden Winde/ und ſchlagenden Wel-<lb/>
+len/ an das hoͤchſt-verlangte Ufer des Him̃liſchen Vater-<lb/>
+lands getragen und außgeſetzt. Es iſt noch uͤbrig</p></div><lb/>
+<div n="3"><head/><p>Das <hi rendition="#aq">IV.</hi> <hi rendition="#fr">Feld und Sinn-Bild</hi> unten zu den Fuͤſ-<lb/>
+ſen unſers <hi rendition="#fr">Kreckwitziſchen Denck- und Grabmahls</hi> zu<lb/>
+beſchauen/ und das <hi rendition="#aq">præſenti</hi>ret uns <hi rendition="#fr">die Gedult auf einem<lb/>
+Felſen/</hi> mit dieſem Beywort: <hi rendition="#fr">Gedult uͤberwindet alles.</hi><lb/>
+<fw place="bottom" type="catch">Die</fw><lb/>
+<pb facs="#f0017" n="17"/>
+<fw type="header" place="top"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+Die Gedult iſt eine demuͤthige Unterwerffung unter den Wil-<lb/>
+len Gottes/ wodurch wiꝛ alles gutwillig ertragen/ was ihme be-<lb/>
+liebt uns aufzulegen. Die Gedult macht einen Chriſten unuͤ-<lb/>
+berwindlich/ wie ein Amboß/ der alle Schlaͤge außſtehen kan.<lb/>
+Die Gedult ſiehet auf das Ende des Leydens/ und iſt diß ihr<lb/>
+Denck-Spruch: <hi rendition="#aq">Dabit Deus his qvoq́; finem:</hi> <hi rendition="#fr">GOtt wird deſ-<lb/>
+ſen zu rechter Zeit ein gewuͤnſchtesEnde gebẽ!</hi> Wie deꝛWaͤch-<lb/>
+ter den anbrechenden Tag erwartet/ ſo leidet und wartet ein ge-<lb/>
+duldiger Chriſt/ bis der Tag der Herꝛligkeit beginnet uͤber ihn<lb/>
+anzubrechen. Es muß ſich ein Chriſt leiden als ein gutter<lb/>
+Streiter JEſu Chriſti. GOtt hat einem jeden Chriſten den<lb/>
+Kampff verordnet. Und es iſt zumahl ein wunderlicheꝛ. Krieg<lb/>
+und ſeltzame Art ſich zu wehren: Da der meiſte Sieg und Uber-<lb/>
+windung durch Gedult geſchehen muß. Jm weltlichen Treffen<lb/>
+befihlet der Feld-Herꝛ: <hi rendition="#fr">Gib Feuer! ſtoß! wirff! hau! mache<lb/>
+nider!</hi> Jn der geiſtlichen Seelen-Schlacht und Wahlſtatt lau-<lb/>
+tets gantz anders: <hi rendition="#fr">Leide dich! Sey gedultig! Raͤchet euch<lb/>
+nicht ſelbſt! Uberwindet das Boͤſe mit Guttem!</hi> Das Creutz<lb/>
+Chriſti iſt das Panier! Das Creutz Chriſti iſt das Sieges-Zei-<lb/>
+chen! Das Creutz Chriſti iſt das Leit-<hi rendition="#aq">Exempel!</hi> Das Creutz<lb/>
+Chriſti iſt der Port/ wornach ſich das Seelen-Schiff richten<lb/>
+kan. Wie in Fiñ- und Lapland/ und der Orten/ auf den hohen<lb/>
+Vorgebuͤrgen/ groſſe Creutze auffgerichtet werden/ dabey die<lb/>
+Schiffer wiſſen/ wo man ſicher anlenden moͤge: Alſo richtet ſich<lb/>
+ein Chriſt nach dem Felß Chriſto/ auf welchem Er das Creutz<lb/>
+erblicket/ auf ſeine Gedult ſiehet/ und ſeinen Fußſtapffen nach-<lb/>
+zufolgen ſich bemuͤhet. Deñ wie man durch den Glauben ſeelig<lb/>
+wird; alſo muß man durch Gedult uͤberwinden. Unſre <hi rendition="#fr">Wol-<lb/>
+ſeelige Frau von Kreckwitzin/</hi> war eine Nachfolgerin Chriſti<lb/>
+in der Gedult. Sie hatte gewiß das Creutz zur Gnuͤge die 65.<lb/>
+Jahr ihres Lebens empfunden: Jn vielerley Leibes-Beſchwe-<lb/>
+<fw type="sig" place="bottom">C</fw><fw type="catch" place="bottom">rungen;</fw><lb/>
+<pb facs="#f0018" n="18"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+rungen; in Anfechtungen inwendig und auswendig; in Sorg-<lb/>
+falt der muͤhſamen Kinder-Zucht; in groſſem Kinder-Hertze-<lb/>
+leid/ in Kuͤmmernuͤſſen wegen Geſichtes-Bloͤdigkeit/ Jhrem<lb/>
+Gemahl von GOtt zugeſchickt; in ihren eignen Kranckheiten/<lb/>
+davon die <hi rendition="#aq">Perſonalien</hi> einen mehreren Bericht ertheilet: Sie<lb/>
+war wie eine Roſe mit ſo vielen Creutz-Dornen umbzingelt/<lb/>
+daß ſie zum oͤfftern mit <hi rendition="#aq">Hiob</hi> ihren erklaͤrten Leich-<hi rendition="#aq">Text</hi> zuwi-<lb/>
+derholen Urſach hatte: <hi rendition="#fr">Weñ man meinen Jam̃er waͤge/ und<lb/>
+all mein Leyden in eine Wag-Schale legte/ ſo wuͤrde es ſchwe-<lb/>
+rer ſeyn/ denn Sand am Meer.</hi> Doch trug ſie alles gantz ge-<lb/>
+dultig. Durch die Gedult uͤberwand Sie viel tauſend Ver-<lb/>
+druͤßligkeiten/ die Jhr die gantze Lebens-Zeit zuhanden geſtoſ-<lb/>
+ſen. Durch die Gedult uͤberwand Sie alles Ungemach/ allen<lb/>
+Kummer/ alles Hertzleid/ ſo in ihrem Eheſtand Jhr begegnet;<lb/>
+ja durch Gedult uͤberwand Sie ihre eigene Unpaͤßligkeit/ und<lb/>
+endlich ſelbſt den unuͤberwindlichen Tod. Jn einer Muͤntze<lb/>
+des Kayſers <hi rendition="#aq">Claudii</hi> ſitzet die <hi rendition="#aq"><hi rendition="#i">Conſtantia,</hi></hi> <hi rendition="#fr">oder Beſtaͤndigkeit/</hi><lb/>
+als eine herꝛliche <hi rendition="#aq">Matron</hi> auf einem Felſen; in der einen Hand<lb/>
+haͤlt Sie eine brennende Fackel/ in der andern etliche Korn-aͤh-<lb/>
+ren/ und wird damit gedeutet auf die beſtaͤndige Sorgfalt ei-<lb/>
+nes Fuͤrſtens/ daß in ſeinem Lande gutte Zeit/ Wohlfarth und<lb/>
+Nahrung ſein moͤge. Jch wolte es dißmal außlegen von der<lb/>
+Beſtaͤndigkeit und Gedult einer from̃en Chriſtin: Durch die<lb/>
+Fackel verſtehe ich Jhren unaußloͤſchlichen Ruhm; durch die<lb/>
+Korn-aͤhren den herꝛlichen Nutzen/ ſo Sie von der Gedult hat.<lb/>
+Deñ wer mit duldet/ der wird auch mit herrſchen. So iſt nun<lb/>
+die Seel. Frau von Kreckwitzin/ als eine Heldenmuͤttige Uber-<lb/>
+winderin in den ſeeligen Freuden-Himmel eingegangen: Jhr<lb/>
+bitter-voller Creutz-Kelch iſt in den allerſuͤſſeſten <hi rendition="#aq">Malvaſier;</hi><lb/>
+das finſtre Welt-Egypten in das lieblichſte Canaan/ das dro-<lb/>
+ben iſt/ ja die ſchwartze Bahre ſelbſt in einen Gold-geſtuͤckten<lb/>
+<fw place="bottom" type="catch">Ehren-</fw><lb/>
+<pb facs="#f0019" n="19"/>
+<fw type="header" place="top"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+Ehren-Thron verwandelt worden. Sie geneuſt vor dem<lb/>
+Stuhl des Lam̃s der holdſeeligſten Geſellſchafft aller Heiligen<lb/>
+Engel/ nachdem das ruhmwuͤrdigſte Chor der ſchoͤnſten vier<lb/>
+Haupt-Tugenden/ von welchen Sie auf der Welt umbgeben<lb/>
+war/ Jhren Abtritt genommen. Denn/ nachdem Sie durch<lb/>
+den zeitlichen Tod alle Truͤbſeeligkeit mit der ſeeligſten Ewig-<lb/>
+keit verwechſelt/ ſo hat Sie der <hi rendition="#aq">præſen</hi>tz der in unſrem Grab-<lb/>
+und Denckmahl aufgefuͤhrten Tugenden nicht mehr vonnoͤ-<lb/>
+then/ auſſer der Liebe. Nicht vonnoͤthen hat Sie der Gedult:<lb/>
+Denn was ſolte im Himmel fuͤr Truͤbſal ſeyn? Nicht vonnoͤ-<lb/>
+then hat Sie der Hoffnung/ als welche Jhr Abſehen auf ein<lb/>
+zukuͤnfftiges Gutt hat: Jm Himmel aber iſt kein Guttes zu-<lb/>
+kuͤnfftig/ ſondern alles gegenwaͤrtig. Nicht vonnoͤthen hat<lb/>
+Sie des Glaubens: Deñ jetzt wandelt Sie im Schauen und<lb/>
+ſiehet den DreyEinigen GOtt von Angeſicht zu Angeſicht.<lb/>
+Der Glaube iſt der <hi rendition="#aq">Jacobs-</hi>Stab/ deſſen wir auf der Pilgrim-<lb/>
+ſchafft dieſes Lebens nicht entbehren koͤnnen; ſobald wir aber<lb/>
+an die Thuͤr des Himmels kommen/ ſo ſetzen wir den Wan-<lb/>
+derſtab nieder. Nur die eintzige Liebe iſt es/ welche mit <hi rendition="#fr">der<lb/>
+Wolſeeligen Frauen von Kreckwitz</hi> in das Him̃liſche Je-<lb/>
+ruſalem eingegangen/ und Sie zur Hochzeit des Lam̃s beglei-<lb/>
+tet/ auch ewiglich unter den Chriſtlichen Tugenden bleibet. O<lb/>
+ſeelige Seele! Jn dieſem Jam̃erthal weinete Sie offt/ weil Sie<lb/>
+GOtt und den Nechſten nicht noch lieber haben konte; jetzo<lb/>
+aber iſt der Rauch ihrer Seuffzer und Begierden in vollkom-<lb/>
+mene Liebes-Flammen außgeſchlagen/ damit Sie zufoͤderſt<lb/>
+GOtt das hoͤchſte Gutt/ und denn auch Jhre Him̃liſche Mit-<lb/>
+Buͤrger ohn aufhoͤren umbfaͤnget. Erwegen Sie nun diß/<lb/>
+<hi rendition="#fr">HochAdelicher Herꝛ Wittwer</hi> recht Chriſtlich/ ſo werden<lb/>
+Sie damit allen Jhren Schmertzen mercklich daͤmpffen/ und<lb/>
+<fw type="catch" place="bottom">ver-</fw><lb/>
+<pb facs="#f0020" n="20"/>
+<fw place="top" type="header"><hi rendition="#b">Abdanckungs-Rede.</hi></fw><lb/>
+verſichert leben koͤnnen/ der treue GOtt werde Jhres Hohen<lb/>
+und ſchwachen Alters Stecken und Stab/ Leiter und Fuͤhrer<lb/>
+ſeyn; Er werde Sie heben/ tragen/ und auch zu rechter Zeit<lb/>
+erretten; Er werde Sie in allen Jhren Bekuͤmmernuͤſſen troͤ-<lb/>
+ſten/ wie einen ſeine Mutter troͤſtet/ in Jhrem Seelen-An-<lb/>
+liegen erwuͤntſchte Huͤlffe vom Heiligthum ſenden/ und ſich<lb/>
+immerfort als ein treuer GOtt erweiſen/ der nicht laͤſt ver-<lb/>
+ſuchet werden uͤber Vermoͤgen; Er werde es mit Jhnen und<lb/>
+den Jhrigen wunderlich/ doch ſeeliglich machen.</p></div><lb/>
+<div n="3"><head/><p>Es iſt nunmehr Zeit/ daß ich zu dem ſchreite/ warumb<lb/>
+ich ſonderlich aufftretten ſollen/ nemlich <hi rendition="#fr">der Hoch-Adeli-<lb/>
+chen Trauer-Verſam̃lung</hi> ſchuldigſten Danck abzuſtat-<lb/>
+ten/ daß Sie die angeſtelten <hi rendition="#aq">Funeralien,</hi> <hi rendition="#fr">der Seel. Frau<lb/>
+Kreckwitz</hi> durch Jhre mitleidende Gegenwart liebreich zieh-<lb/>
+ren/ und die ſchmertzlich Betruͤbteſten nicht ohne Troſt laſ-<lb/>
+ſen wollen. Sie verſprechen durch meine Wenigkeit/ daß<lb/>
+Sie wollen in allen Begebenheiten hertzlich geneigt und be-<lb/>
+reit ſeyn/ mit allen moͤgligſten Dienſten zuerzeigen/ wie an-<lb/>
+genehm Jhnen dieſe Volckreiche Gegenwart geweſen. Sie<lb/>
+wuͤntſchen dabey/ daß GOtt/ der Herꝛſcher uͤber alles Fleiſch/<lb/>
+Sie und Jhre Angehoͤrige unter dem Schutz und gnaͤdigen<lb/>
+Regierung Unſers <hi rendition="#fr">unuͤberwindlichen Kayſers und Lan-<lb/>
+des-Vaters</hi> <hi rendition="#aq"><hi rendition="#g">LEOPOLDI M.</hi></hi> <hi rendition="#fr">deme der HErꝛ Zeba-<lb/>
+oth durch ſeine hohe</hi> <hi rendition="#aq">Alliir</hi><hi rendition="#fr">ten bey dieſem ſchweren Feld-<lb/>
+zug wider ſeine trotzige Feinde/ Gluͤck/ Sieg und U-<lb/>
+berwindung aus Gnaden goͤnnen und geben wolle/</hi><lb/>
+<hi rendition="#c">noch lange/ lange in Geſundheit und Leben/ im Frie-<lb/>
+den und allem Seegen erhalten wolle.</hi></p><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+</div></div></div>  </body></text>  </TEI>
